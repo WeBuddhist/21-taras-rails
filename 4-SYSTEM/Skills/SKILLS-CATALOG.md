@@ -107,6 +107,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/termbase.md` — the prescriptive termbase scoped to keywords that appear in the text being translated; plus updates to the consolidated bilingual glossary for any new derived renderings.
 → [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
 
+### `commentary-claims` **[exists]**
+**Purpose:** Extract every distinct claim a single commentary makes into a per-commentary claims inventory, in the commentary's own language, read in isolation from the root text and from every other commentary.
+**Inputs:** Exactly one commentary file from `1-SOURCES/Commentaries/` carrying a `registered_id` in its frontmatter.
+**Outputs:** One file at `2-RAILS/Claims/<registered-id>.md` — claims grouped in nine fixed categories (framing, word-gloss, iconography, doctrinal, activity, practice, benefit, attribution, internal tensions), each with the original-language statement, a one-line English gloss, a type, and a segment citation, plus a coverage log.
+→ [`commentary-claims/SKILL.md`](commentary-claims/SKILL.md)
+
 ---
 
 ## Translation requirements skills
