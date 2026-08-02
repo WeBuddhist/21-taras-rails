@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/About Sources.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Sources"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -195,19 +197,35 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "d066ca5c15f520a5",
+  "active": "15014ceefa497d3c",
   "lastOpenFiles": [
-    "README.md",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
+    "1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md",
+    "1-SOURCES/Commentaries/_RCFC0F990 ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།- Segmentation.md",
+    "1-SOURCES/Commentaries/RCD486DE1 རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།-Segmentation.md",
+    "1-SOURCES/Commentaries/RAF75A533 སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་། Segmentation - corrected.md",
+    "1-SOURCES/Commentaries/RAC634AC6 ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ། -Segmentation.md",
+    "1-SOURCES/Commentaries/RAAFE013A ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།-Segmentation.md",
+    "1-SOURCES/Commentaries/RA706B3B9 ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།༼ཤ༽ -Segmentation.md",
+    "1-SOURCES/Commentaries/R83354184༄༅། ། ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ། -Segmentation.md",
+    "1-SOURCES/Commentaries/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.md",
+    "1-SOURCES/Commentaries/R4C616099 ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །། B-2-Segnementation.md",
+    "1-SOURCES/Commentaries/R49348A41 རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།-Segmentation.md",
+    "1-SOURCES/Commentaries/R46BA3ACB ༄༅། །སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། །-segmentation.md",
+    "1-SOURCES/Commentaries/R3C5D7E26 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ 10-Segnmentation.md",
+    "1-SOURCES/Commentaries/R1FAE45EC སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།-segmentation.md",
+    "1-SOURCES/Commentaries/R1F6AA6C0 སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད། -Segmentation.md",
+    "1-SOURCES/Commentaries/R1B1817B6 ཡང་དག་པ་རྫོགས་པའི་སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག ། Segmentation.md",
     "1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.txt",
     "1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx",
     "1-SOURCES/Commentaries/རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
     "1-SOURCES/Commentaries/རྒྱལ་བ་དགེ་འདུན་གྲུབ་ཀྱི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
     "1-SOURCES/Commentaries/དངུལ་ཆུ་དྷརྨ་བྷ་དྲའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
     "1-SOURCES/Commentaries/ཏཱ་ར་ནཱ་ཐའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
+    "1-SOURCES/Commentaries/RCD486DE1 རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།-Segmentation.txt",
+    "1-SOURCES/Commentaries/RAF75A533 སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་། Segmentation - corrected.txt",
+    "1-SOURCES/Commentaries/RAC634AC6 ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ། -Segmentation.txt",
+    "1-SOURCES/Commentaries/RAAFE013A ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།-Segmentation.txt",
     "gemini-scribe/Prompts/example-expert.md",
     "CLAUDE.md",
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
@@ -216,22 +234,6 @@
     "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
     "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-combined/SKILL.md",
-    "4-SYSTEM/Skills/section-summary-raw/SKILL.md",
-    "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/property-creator/SKILL.md",
-    "4-SYSTEM/Skills/json-to-source-text/SKILL.md",
-    "4-SYSTEM/Skills/local-wiki-article/SKILL.md",
-    "4-SYSTEM/Skills/json-to-commentary/SKILL.md",
-    "4-SYSTEM/Skills/glossary-select/SKILL.md",
-    "4-SYSTEM/Skills/interlinear-gloss/SKILL.md",
-    "4-SYSTEM/Skills/glossary-combine/SKILL.md",
-    "4-SYSTEM/Skills/glossary-extract-raw/SKILL.md",
-    "4-SYSTEM/Skills/format-commentary/SKILL.md",
-    "4-SYSTEM/Skills/format-root-text/SKILL.md",
-    "4-SYSTEM/Skills/epub-to-markdown/SKILL.md",
-    "4-SYSTEM/Skills/create-skill/SKILL.md",
-    "4-SYSTEM/Skills/commentary-frontmatter/SKILL.md"
+    "4-SYSTEM/Skills/section-summary-combined/SKILL.md"
   ]
 }
