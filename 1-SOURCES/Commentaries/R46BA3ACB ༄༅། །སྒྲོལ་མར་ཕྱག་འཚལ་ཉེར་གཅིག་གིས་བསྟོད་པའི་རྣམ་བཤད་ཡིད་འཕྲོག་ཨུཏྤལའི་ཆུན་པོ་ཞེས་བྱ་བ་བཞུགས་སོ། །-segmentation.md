@@ -1,4 +1,22 @@
-﻿༄༅། །སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་
+---
+book_id: R46BA3ACB
+openpecha_id: R46BA3ACB
+title: "སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ།"
+title_in_english: "Enchanting Cluster of Utpala Flowers: A Detailed Explanation of the Praise in Twenty-One Homages to Tārā"
+author: "unknown"
+author_in_english: "unknown"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: anon-utpala
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+༄༅། །སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་
 འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། །
 
 

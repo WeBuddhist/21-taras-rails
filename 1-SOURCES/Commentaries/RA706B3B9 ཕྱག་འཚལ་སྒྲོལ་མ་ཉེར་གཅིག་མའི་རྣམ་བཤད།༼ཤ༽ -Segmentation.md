@@ -1,4 +1,22 @@
-﻿ཨོཾ་བདེ་ལེགས་སུ་གྱུརཅིག། ན་མོ་ཨཱརྱཏཱར་ཡེ། 
+---
+book_id: RA706B3B9
+openpecha_id: RA706B3B9
+title: "ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།"
+title_in_english: "Detailed Explanation of the Twenty-One Homages to Tārā"
+author: "དགེ་འདུན་རྒྱ་མཚོ་དཔལ་བཟང་པོ།"
+author_in_english: "Gendun Gyatso Palzangpo (Second Dalai Lama)"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: gendun-gyatso
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+ཨོཾ་བདེ་ལེགས་སུ་གྱུརཅིག། ན་མོ་ཨཱརྱཏཱར་ཡེ། 
 འགྲོ་ཀུན་སྲིད་མཚོ་ལས་སྒྲོལ་བའི། །
 རྗེ་བཙུན་མ་ལ་ཕྱག་འཚལ་ནས། 
 དེ་ཉིད་བསྟོད་པའི་ཚིགས་སུ་བཅད། །

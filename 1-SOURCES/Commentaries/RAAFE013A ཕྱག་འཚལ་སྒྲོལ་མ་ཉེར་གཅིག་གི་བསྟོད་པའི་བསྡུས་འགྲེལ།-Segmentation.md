@@ -1,4 +1,22 @@
-﻿ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་ར་ཡཻ། 
+---
+book_id: RAAFE013A
+openpecha_id: RAAFE013A
+title: "ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།"
+title_in_english: "Condensed Commentary on the Praise in Twenty-One Homages to Tārā"
+author: "ཀརྨ་མཻ་ཏྲི།"
+author_in_english: "Karma Maitri"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: karma-maitri
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་ར་ཡཻ། 
 
 
 ཕྱག་འཚལ་ཉེར་གཅིག་ལ་བསྟོད་པ་དངོས་དང་། ཕན་ཡོན་ནོ། །དང་པོ་ལ་ཉེར་གཅིག་ཡོད་པ་ལས།

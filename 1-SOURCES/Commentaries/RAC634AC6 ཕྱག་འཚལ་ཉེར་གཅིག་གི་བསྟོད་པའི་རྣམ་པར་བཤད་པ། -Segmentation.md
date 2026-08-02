@@ -1,4 +1,22 @@
-﻿༄༅། །​ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ་བཞུགས་སོ།
+---
+book_id: RAC634AC6
+openpecha_id: RAC634AC6
+title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།"
+title_in_english: "Detailed Explanation of the Praise in Twenty-One Homages"
+author: "ཏཱ་ར་ནཱ་ཐ།"
+author_in_english: "Tāranātha"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: taranatha
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+༄༅། །​ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ་བཞུགས་སོ།
 
 
 ན་མོ་ལོ་ཀེ་ཤྭ་རཱ་ཡ།སྒྲོལ་མ་འཁོར་བ་ཀུན་སྒྲོལ་བ། །​དེ་ལ་གུས་པས་ཕྱག་འཚལ་ནས། །​བསྟོད་པའི་རྒྱུད་དོན་ཅུང་ཟད་བཤད། །​བགེགས་རྣམས་མ་ལུས་ཞི་བར་མཛོད།དེ་ལ་རྒྱུད་འདི་ནི་རྣལ་འབྱོར་བླ་ན་མེད་པ་ཡིན་ལ། །​དེ་ལས་ཀྱང་རྣལ་འབྱོར་མའི་རྒྱུད་དོ། །​དེ་ལ་རིགས་དྲུག་ལས་རྡོ་རྗེ་རྟ་མཆོག་སྟེ་རྟའི་རྒྱལ་པོའི་རིགས་སོ། དེ་ལས་ཀྱང་རིགས་ཀྱི་འཁོར་ལོའི་དབང་ཕྱུག་མ་བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མའི་རྒྱུད་དེ། བསྟོད་པ་འདི་ཡང་རྒྱུད་ཆ་ཚང་པ་ཁོ་ནར་བཞེད་དོ། །​

@@ -1,4 +1,22 @@
-﻿ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།
+---
+book_id: RCFC0F990
+openpecha_id: RCFC0F990
+title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ།"
+title_in_english: "Pleasure Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
+author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ།"
+author_in_english: "Dombupa Pema Namgyal"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: pema-namgyal
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།
 
 
 ཨོཾ་སྭ་སྟི། ཆོས་སྐུ་ཤེས་རབ་ཕ་རོལ་ཕྱིན་མ་ཡུམ། །

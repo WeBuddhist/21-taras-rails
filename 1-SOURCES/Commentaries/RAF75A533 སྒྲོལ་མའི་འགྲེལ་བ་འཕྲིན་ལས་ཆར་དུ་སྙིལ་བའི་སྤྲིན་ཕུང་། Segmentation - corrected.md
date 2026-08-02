@@ -1,4 +1,22 @@
-﻿སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།
+---
+book_id: RAF75A533
+openpecha_id: RAF75A533
+title: "སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།"
+title_in_english: "Cloud Bank Releasing a Rain of Enlightened Activity: A Commentary on the Praise to the Twenty-One Tārās"
+author: "unknown"
+author_in_english: "unknown"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: anon-trinle-char
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།
 
 
 དང་པོ་ནི། རྒྱ་གར་སྐད་དུ། ན་མཿ ཏཱརཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ །བོད་སྐད་དུ། སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གིས་བསྟོད་པ་ཕན་ཡོན་དང་བཅས་པ། ཞེས་པའི་དོན་ཏོ། །

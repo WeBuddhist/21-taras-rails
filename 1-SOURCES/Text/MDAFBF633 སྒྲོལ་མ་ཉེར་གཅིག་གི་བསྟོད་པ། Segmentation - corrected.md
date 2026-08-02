@@ -1,4 +1,20 @@
-﻿1. ༄༅། །ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །
+---
+book_id: MDAFBF633
+openpecha_id: MDAFBF633
+title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
+title_in_english: "Praise to the Twenty-One Tārās"
+author: "རྣམ་པར་སྣང་མཛད།"
+author_in_english: "Vairocana"
+file_type: root-text
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+total_verses: 47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+1. ༄༅། །ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །
 2. ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །
 3. སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །
 4. འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། །གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །

@@ -1,4 +1,23 @@
-﻿སྒྲོལ་མ་ཉེ་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད་ཞེས་བྱ་བ་བཞུགས་སོ།།
+---
+book_id: R1F6AA6C0
+openpecha_id: R1F6AA6C0
+title: "སྒྲོལ་མ་ཉེ་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད།"
+title_in_english: "Detailed Explanation of the Twenty-One Tārās"
+author: "འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ།"
+author_in_english: "Drepung Phara Gyume Sungrab Tulku"
+date: "2023"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: sungrab-tulku
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+སྒྲོལ་མ་ཉེ་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད་ཞེས་བྱ་བ་བཞུགས་སོ།།
 
 
 

@@ -1,4 +1,23 @@
-﻿རྗེ་བཙུན་བླ་མ་ཐུབ་པའི་དབང་པོ་མཉེས་པའི་མཆོད་སྤྲིན་མི་མང་ལམ་སྒྲོན་བཞུགས་སོ༎
+---
+book_id: R5040C72C
+openpecha_id: R5040C72C
+title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ།"
+title_in_english: "Annotated Commentary on the Twenty-One Homages to Tārā"
+author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ།"
+author_in_english: "Geshe Lobsang Dawa"
+date: "2008-04-05"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: lobsang-dawa
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+རྗེ་བཙུན་བླ་མ་ཐུབ་པའི་དབང་པོ་མཉེས་པའི་མཆོད་སྤྲིན་མི་མང་ལམ་སྒྲོན་བཞུགས་སོ༎
 
 
 རྩོམ་སྒྲིག་པ། དགེ་བཤེས་བློ་བཟང་ཟླ་བ།

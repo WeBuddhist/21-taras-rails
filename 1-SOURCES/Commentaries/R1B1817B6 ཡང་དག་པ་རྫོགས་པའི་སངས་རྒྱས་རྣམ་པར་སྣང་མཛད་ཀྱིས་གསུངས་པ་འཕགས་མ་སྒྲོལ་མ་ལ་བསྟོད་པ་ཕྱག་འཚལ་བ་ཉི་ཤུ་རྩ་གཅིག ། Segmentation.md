@@ -1,4 +1,22 @@
-﻿སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག།
+---
+book_id: R1B1817B6
+openpecha_id: R1B1817B6
+title: "ཡང་དག་པ་རྫོགས་པའི་སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག"
+title_in_english: "Commentary on the Twenty-One Homages to Ārya Tārā Spoken by the Perfectly Complete Buddha Vairocana"
+author: "unknown"
+author_in_english: "unknown"
+file_type: commentary
+language: Tibetan
+script: Unicode Tibetan
+lang_tag: bo
+verse_id_format: verse
+registered_id: anon-rnam-snang
+root_text: 1-SOURCES/Text/MDAFBF633 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ། Segmentation - corrected.md
+covers_verses: 1–47
+source_description: "Segmented Tibetan plain-text file received into the vault; original edition to be verified."
+status: 1-segmented
+---
+སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག།
 
 
 ༄༅། །ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །
