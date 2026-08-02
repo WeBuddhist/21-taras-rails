@@ -113,6 +113,24 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One file at `2-RAILS/Claims/<registered-id>.md` — claims grouped in nine fixed categories (framing, word-gloss, iconography, doctrinal, activity, practice, benefit, attribution, internal tensions), each with the original-language statement, a one-line English gloss, a type, and a segment citation, plus a coverage log.
 → [`commentary-claims/SKILL.md`](commentary-claims/SKILL.md)
 
+### `toc-candidate-extraction` **[exists]**
+**Purpose:** Extract every ས་བཅད (sa bcad) structural-outline candidate — announcements, node headers, closing counts — from a Tibetan commentary, prioritising recall. Imported from the `bodhisattvacharyavatara-rails` vault.
+**Inputs:** One Tibetan commentary/root-text file, chunked by the bundled `scripts/chunk_file.py`.
+**Outputs:** One merged file at `0-INBOX/toc-candidates-<commentary-id>.md`, plus resumable per-chunk staging under `0-INBOX/temp/<commentary-id>/`.
+→ [`toc-candidate-extraction/SKILL.md`](toc-candidate-extraction/SKILL.md)
+
+### `toc-tree-extraction` **[exists]**
+**Purpose:** Build the full nested, decimal-numbered ས་བཅད TOC tree for a Tibetan commentary via a four-pass isolated-subagent pipeline (candidates → verbatim enumerations → nested tree → deterministic QC + repair). Claude-native port of the Gemini-based `extract_toc_tree.py`; imported from the `bodhisattvacharyavatara-rails` vault.
+**Inputs:** One Tibetan commentary/root-text file, normally under `1-SOURCES/Commentaries/`.
+**Outputs:** `0-INBOX/toc-candidates-<id>.md`, `0-INBOX/toc-enumerations-<id>.md`, `0-INBOX/toc-tree-<id>.md`, `0-INBOX/toc-tree-qc-<id>.md`, plus resumable per-chunk staging under `0-INBOX/temp/TOC-<id>/`.
+→ [`toc-tree-extraction/SKILL.md`](toc-tree-extraction/SKILL.md)
+
+### `toc-scaffolded-claims` **[exists]**
+**Purpose:** Extract every distinct claim/fact a single commentary makes into one consolidated claims file, organised by that commentary's own decimal-numbered TOC tree instead of fixed A–I categories, with every claim anchored to the source-attested referent it concerns (figure/form, person, place, text, event, date) — so several commentaries on the same root text can be compared section by section and each claim is traceable to something concrete.
+**Inputs:** One commentary file from `1-SOURCES/Commentaries/` with a `registered_id`, plus its TOC tree from `toc-tree-extraction` (or the Gemini script).
+**Outputs:** One file at `2-RAILS/Claims/toc-scaffolded/<registered-id>.md` — a Grounding index of attested referents, then claims grouped under headings mirroring the TOC tree's own nodes, each with the original-language statement, a one-line English gloss, a type, a referent anchor (or explicit `[unanchored]`), and a citation, plus internal-tensions and unanchored-claims rollups and a coverage log.
+→ [`toc-scaffolded-claims/SKILL.md`](toc-scaffolded-claims/SKILL.md)
+
 ---
 
 ## Translation requirements skills
