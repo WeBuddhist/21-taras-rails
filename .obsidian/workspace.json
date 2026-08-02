@@ -41,9 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -199,6 +197,10 @@
   },
   "active": "15014ceefa497d3c",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.txt",
     "1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx",
     "1-SOURCES/Commentaries/རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
@@ -206,10 +208,6 @@
     "1-SOURCES/Commentaries/དངུལ་ཆུ་དྷརྨ་བྷ་དྲའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
     "1-SOURCES/Commentaries/ཏཱ་ར་ནཱ་ཐའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
     "1-SOURCES/Commentaries/RCD486DE1 རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།-Segmentation.txt",
-    "1-SOURCES/Commentaries/RAF75A533 སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་། Segmentation - corrected.txt",
-    "1-SOURCES/Commentaries/RAC634AC6 ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ། -Segmentation.txt",
-    "1-SOURCES/Commentaries/RAAFE013A ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།-Segmentation.txt",
-    "1-SOURCES/Commentaries/RA706B3B9 ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།༼ཤ༽ -Segmentation.txt",
     "gemini-scribe/Prompts/example-expert.md",
     "CLAUDE.md",
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
