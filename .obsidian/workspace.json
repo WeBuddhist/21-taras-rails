@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5478b88fa438b9c3",
+        "id": "4c9a0969bc096fc5",
         "type": "tabs",
         "children": [
           {
-            "id": "b62276906836d4d5",
+            "id": "3af5a4275ec629dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -195,43 +197,43 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "b62276906836d4d5",
+  "active": "3af5a4275ec629dd",
   "lastOpenFiles": [
-    "2-RAILS/Claims/sonnet",
+    "conflict-files-obsidian-git.md",
+    "4-SYSTEM/Skills/toc-tree-extraction/scripts/qc_check_tree.py",
+    "4-SYSTEM/Skills/toc-tree-extraction/scripts/chunk_file.py",
+    "4-SYSTEM/Skills/toc-tree-extraction/prompts/pass4-qc-repair.md",
+    "4-SYSTEM/Skills/toc-tree-extraction/prompts/pass3-tree.md",
+    "4-SYSTEM/Skills/toc-tree-extraction/prompts/pass2-enumerations.md",
+    "4-SYSTEM/Skills/toc-tree-extraction/prompts/pass1-candidates.md",
+    "4-SYSTEM/Skills/toc-tree-extraction/scripts",
+    "4-SYSTEM/Skills/toc-tree-extraction/prompts",
+    "4-SYSTEM/Skills/toc-tree-extraction/SKILL.md",
+    "4-SYSTEM/Skills/toc-tree-extraction",
+    "4-SYSTEM/Skills/toc-scaffolded-claims/SKILL.md",
+    "4-SYSTEM/Skills/toc-scaffolded-claims",
+    "4-SYSTEM/Skills/toc-candidate-extraction/scripts/chunk_file.py",
+    "4-SYSTEM/Skills/toc-candidate-extraction/SKILL.md",
+    "4-SYSTEM/Skills/toc-candidate-extraction/scripts",
+    "4-SYSTEM/Skills/toc-candidate-extraction",
+    "4-SYSTEM/Skills/commentary-claims/TEMPLATE.md",
+    "4-SYSTEM/Skills/commentary-claims/SKILL.md",
+    "4-SYSTEM/Skills/commentary-claims",
+    "2-RAILS/Claims/toc-scaffolded/lobsang-dawa.md",
+    "2-RAILS/Claims/toc-scaffolded/karma-maitri.md",
+    "2-RAILS/Claims/toc-scaffolded/gendun-gyatso.md",
+    "2-RAILS/Claims/sonnet/lobsang-dawa.md",
+    "2-RAILS/Claims/sonnet/karma-maitri.md",
+    "2-RAILS/Claims/sonnet/gendun-gyatso.md",
     "2-RAILS/Claims/opus/lobsang-dawa.md",
     "2-RAILS/Claims/opus/karma-maitri.md",
     "2-RAILS/Claims/opus/gendun-gyatso.md",
-    "2-RAILS/Claims/opus",
-    "conflict-files-obsidian-git.md",
-    "2-RAILS/Claims/gendun-gyatso.md",
-    "2-RAILS/Claims/lobsang-dawa.md",
-    "2-RAILS/Claims/karma-maitri.md",
-    "1-SOURCES/Commentaries/R4C616099 ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །། B-2-Segnementation.md",
-    "0-INBOX/temp/wf/root-text.txt",
-    "0-INBOX/temp/wf/manifest.txt",
-    "0-INBOX/temp/wf/c17.txt",
-    "0-INBOX/temp/wf/c16.txt",
-    "0-INBOX/temp/wf/c15.txt",
-    "0-INBOX/temp/wf/c14.txt",
-    "0-INBOX/temp/wf/c13.txt",
-    "0-INBOX/temp/wf/c12.txt",
-    "0-INBOX/temp/wf/c11.txt",
-    "4-SYSTEM/Skills/commentary-claims/TEMPLATE.md",
-    "4-SYSTEM/Skills/commentary-claims/SKILL.md",
-    "1-SOURCES/Commentaries/R3C5D7E26 སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ 10-Segnmentation.md",
-    "1-SOURCES/Commentaries/R1FAE45EC སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།-segmentation.md",
-    "1-SOURCES/Commentaries/R1F6AA6C0 སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད། -Segmentation.md",
-    "1-SOURCES/Commentaries/R1B1817B6 ཡང་དག་པ་རྫོགས་པའི་སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག ། Segmentation.md",
-    "1-SOURCES/Commentaries/_RCFC0F990 ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།- Segmentation.md",
-    "1-SOURCES/About Sources.md",
-    "README.md",
-    "gemini-scribe/Prompts/example-expert.md",
-    "CLAUDE.md",
-    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
-    "4-SYSTEM/Skills/verse-context/SKILL.md",
-    "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md",
-    "4-SYSTEM/Skills/structural-outline-ingest/SKILL.md"
+    "0-INBOX/toc-tree-lobsang-dawa.md",
+    "0-INBOX/toc-tree-karma-maitri.md",
+    "0-INBOX/toc-tree-gendun-gyatso.md",
+    "0-INBOX/toc-enumerations-lobsang-dawa.md",
+    "0-INBOX/toc-enumerations-karma-maitri.md",
+    "0-INBOX/toc-enumerations-gendun-gyatso.md",
+    "0-INBOX/toc-candidates-lobsang-dawa.md"
   ]
 }
