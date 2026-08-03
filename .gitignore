@@ -13,3 +13,11 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Wikipedia pipeline (4-SYSTEM/Pipelines/wikipedia)
+4-SYSTEM/Pipelines/*/.venv/
+4-SYSTEM/Pipelines/*/.env
+4-SYSTEM/Pipelines/*/corpora/
+__pycache__/
+*.pyc
+*.egg-info/

@@ -36,6 +36,48 @@ Normalises an existing commentary file: OCR cleanup, heading structure, paragrap
 Inserts or regenerates a table of contents in a source or rails file.
 → [`add-toc/SKILL.md`](add-toc/SKILL.md)
 
+---
+
+The six skills below form the **deterministic ingest chain** for Tibetan material — clean → format/segment → tag → lint → transclude. They were ported from `webuddhist-library-data-pipeline` and `bodhisattvacharyavatara-rails` via the IATS-2026 repo, where they have been run in production over sixteen commentaries. Each bundles tested Python scripts under its own `scripts/`, dry-run by default, and each script asserts no-loss (output minus whitespace must equal input minus whitespace) before it writes. They are also the ingest stages the Wikipedia pipeline drives — see [`../Pipelines/wikipedia/README.md`](../Pipelines/wikipedia/README.md).
+
+### `clean-raw-text` **[exists]**
+**Purpose:** Strip the mechanical debris OCR and PDF-to-text conversion leave behind — repeated page headers and footers, page-number markers, mid-word spaces from justification engines, non-breaking tsheg characters. Does not restructure headings or add block IDs; that is the format skills' job.
+**Inputs:** One raw or OCR-derived text file.
+**Outputs:** A cleaned draft, plus the targeted per-text cleaning script it generated. Worked examples in `clean-raw-text/examples/`.
+→ [`clean-raw-text/SKILL.md`](clean-raw-text/SKILL.md)
+
+### `format-tibetan-root-text` **[exists]**
+**Purpose:** Format a Tibetan root text into clean navigable verse — one stanza per paragraph, each verse-line on its own line, `^chapter-verse` block IDs, `^N-0` chapter anchors. The Tibetan-specific counterpart to the generic `format-root-text`; use this one for `bo` material.
+**Inputs:** A cleaned Tibetan root-text file.
+**Outputs:** A segmented root-text file. Two bundled formatters: `scripts/format_bca.py` (colophon-driven) and `scripts/format_bo_root.py` (table-driven).
+→ [`format-tibetan-root-text/SKILL.md`](format-tibetan-root-text/SKILL.md)
+
+### `commentary-segmentation` **[exists]**
+**Purpose:** Break an OCR-clean but under-segmented Tibetan commentary into short, individually-citable blocks, using the text's own functional signals — quotation frames, objection/answer markers, sa-bcad enumerations, sentence-final particles, verse meter. Runs after `format-commentary`'s OCR cleanup and before block-ID stamping.
+**Inputs:** One commentary file from `1-SOURCES/Commentaries/`.
+**Outputs:** The same file segmented into citation-sized blocks (1–2 sentences of prose, one stanza, or one quotation each). Four scripts, no-loss gated.
+→ [`commentary-segmentation/SKILL.md`](commentary-segmentation/SKILL.md)
+
+### `tag-inline-toc` **[exists]**
+**Purpose:** Identify inline structural announcement phrases (*sa bcad*), wrap the announced terms in wikilinks, and insert standalone heading lines with block IDs — the convention in `4-SYSTEM/CLAUDE.md` §5b. Optional: skip it for texts with no inline announcements.
+**Inputs:** A formatted root-text or commentary file.
+**Outputs:** The same file with tagged announcements and heading lines.
+→ [`tag-inline-toc/SKILL.md`](tag-inline-toc/SKILL.md)
+
+### `lint-annotations` **[exists]**
+**Purpose:** Annotation-convention linter — verse structure, lines per verse, block IDs, verse IDs, heading anchors, stray footnote digits. Sequences existing tested checkers and reads the result back in plain language; contains no detection logic of its own. **Report-only:** never fixes anything without explicit human confirmation.
+**Inputs:** One formatted text file.
+**Outputs:** A lint report.
+→ [`lint-annotations/SKILL.md`](lint-annotations/SKILL.md)
+
+### `Transclusion-rootext-into-commentaries` **[exists]**
+**Purpose:** Place root-text verse transclusions inside a commentary and format the blank-line spacing around each one so the sa-bcad outline reads correctly in Obsidian. Three deterministic stages: insert `![[root#^N-V]]` before each verse's first full inline quotation, remove the blank line above it, add a blank line before the introducing sa-bcad block.
+**Inputs:** One commentary file and its root text, both block-ID'd.
+**Outputs:** The commentary with transclusion anchors and corrected spacing. Dry-run by default; `--apply` to write.
+→ [`Transclusion-rootext-into-commentaries/SKILL.md`](Transclusion-rootext-into-commentaries/SKILL.md)
+
+---
+
 ### `root-text-frontmatter` **[exists]**
 Generates complete YAML frontmatter for a root-text file in `1-SOURCES/Text/` by extracting metadata from its title, colophon, and opening content.
 → [`root-text-frontmatter/SKILL.md`](root-text-frontmatter/SKILL.md)
@@ -82,6 +124,19 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Inputs:** Commentary passages that explain or define the term (via block citations from `1-SOURCES/`).
 **Outputs:** One file at `2-RAILS/Local-Wiki/<term>_(<disambiguator>).md` containing: cited commentary explanations in the original language, and a short contextual definition drafted from those citations (also in the original language).
 → [`local-wiki-article/SKILL.md`](local-wiki-article/SKILL.md)
+
+### `term-definition-from-commentaries` **[exists]**
+**Purpose:** Fill the Meaning column of a term-localization table by locating definitional passages in the commentaries and extracting them **verbatim**, formatted in traditional Tibetan quotation style. A definitional passage is one using the formulaic markers `[term]ནི་`, `[term]ཞེས་པ་ནི་`, `[term]ཅེས་པ་ནི་`. The skill never paraphrases, summarises, or writes explanatory text of its own.
+**Inputs:** One or more Tibetan terms, plus the commentary files in `1-SOURCES/Commentaries/`.
+**Outputs:** The term-localization table under `2-RAILS/Local-Wiki/`, updated in place — one quotation entry per commentary passage found.
+**Note:** written against the BCA vault's `BCA-Term-Localization.md`; repoint the table path for this vault before running.
+→ [`term-definition-from-commentaries/SKILL.md`](term-definition-from-commentaries/SKILL.md)
+
+### `english-keyword-extraction` **[exists]**
+**Purpose:** Extract ranked keywords per verse from an **English translation** of a Tibetan root text (YAKE + spaCy, optional TF-IDF against a general-English IDF corpus), then enrich each English keyword with its contextually correct Tibetan equivalent — producing a bilingual en↔bo key-term list keyed by verse block ID. The translation-mediated route to key terms, for when Tibetan-only extraction over-returns or fragments (tokenization is contested and no standard reference corpus exists).
+**Inputs:** A block-ID-preserving English translation of the root text (see `zeroshot-translator`), plus the Tibetan root text.
+**Outputs:** A ranked bilingual en↔bo candidate term list for human review.
+→ [`english-keyword-extraction/SKILL.md`](english-keyword-extraction/SKILL.md)
 
 ### `interlinear-gloss` **[exists]**
 **Purpose:** For one root text + one translation, build an interlinear gloss file at `2-RAILS/Bilingual-Glossaries/Raw/<source>-<target>-gloss.md` pairing them verse by verse. Each verse becomes a `gloss` block in the Obsidian Interlinear Glossing plugin format (`\gla` source tokens, `\glb` morphology/lemma, `\glc` token-by-token target glosses, `\ex` free translation). Token-level alignment lives here so every downstream bilingual glossary step reads from one place.
@@ -145,6 +200,13 @@ These skills populate `2-RAILS/` with the structured context that translation an
 
 ## Translation skills
 
+### `zeroshot-translator` **[exists]**
+**Purpose:** Produce a direct, zero-shot translation of a source text into a target language, guided by an audience profile — **no termbase at all**: no keyword extraction, no sense-tagging, no locked terminology. The fast path, for a first draft or a quick comparison, as an alternative to the full rails route (`glossary-*` → `translate-section`).
+**Inputs:** Source text (or its split chapters); target language, named by the user; an existing audience profile.
+**Outputs:** A translation, **pada-aligned to the source** — each segment's translation mirrors its source's exact line count, with every segment ID preserved in the same position. Structural fidelity applies even without a termbase.
+**Note:** its block-ID-preserving output is what `english-keyword-extraction` consumes.
+→ [`zeroshot-translator/SKILL.md`](zeroshot-translator/SKILL.md)
+
 ### `translate-section` **[planned]**
 **Purpose:** Translate a small batch of TOC nodes into the target language.
 **Inputs:** `requirements.md`, `termbase.md`, `audience.md` for the track; relevant section and verse packages from `2-RAILS/`; Local-Wiki articles as needed.
@@ -207,3 +269,19 @@ These skills check and report on vault integrity. They are read-only and safe to
 **Inputs:** None — operates on the vault as a whole.
 **Outputs:** One dated report at `0-INBOX/vault-audit-<YYYY-MM-DD>.md` with checkboxed issues per category.
 → [`vault-audit/SKILL.md`](vault-audit/SKILL.md)
+
+---
+
+## Pipelines — not skills
+
+A **pipeline** is a multi-stage program with its own code, prompts, gates and CLI. It is not invoked as a skill; it is installed and run. Pipelines live under [`../Pipelines/`](../Pipelines/), one folder each, and are listed here so the skill-first rule in `4-SYSTEM/CLAUDE.md` does not send you looking for a skill that was never going to exist.
+
+### `Pipelines/wikipedia` — Tibetan Wikipedia article generation (`kwiki`)
+Takes a Tibetan root text plus its commentaries and produces cited Tibetan Wikipedia articles, creating or updating them on bo.wikipedia behind a human review gate. Ported from the IATS-2026 repo on 2026-08-03; 547 tests pass.
+
+Its stages: align root↔commentaries → seed key terms → extract cited passages → build an atomic claims table → outline → draft (claims-only) → optional literary polish → LLM audit → **deterministic verification gate** → dry-run publish. The gate uses no LLM: a quotation that does not appear character-for-character in its cited source file fails the build.
+
+It **drives the six ingest-chain skills above** — `kwiki commentaries` resolves their scripts directly out of `4-SYSTEM/Skills/`. It also carries the team's canonical 17-step pipeline as one skill per step under `Pipelines/wikipedia/cowork-pipeline/`, kept verbatim; those are reference documents, not vault skills.
+
+Slash commands: `/ingest`, `/pipeline`, `/publish`.
+→ [`../Pipelines/wikipedia/README.md`](../Pipelines/wikipedia/README.md)

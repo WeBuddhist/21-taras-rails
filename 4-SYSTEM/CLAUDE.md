@@ -56,6 +56,10 @@ Authority comes from the human commentary tradition, never from the LLM's parame
   Adaptations/  # audience-targeted retellings (children's, scholarly, …)
   Plans/        # calendar-driven study/practice arcs
 4-SYSTEM/       # guidelines, skills, templates — read-only
+  Guidelines/   # canonical rules and the vault annex
+  Skills/       # one folder per skill, each with a SKILL.md
+  Pipelines/    # multi-stage programs with their own code and CLI (installed, not invoked as skills)
+  Templates/    # file templates
 ```
 
 ### Citation chain — never skip a link
@@ -362,3 +366,16 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Create a new skill (with full registration) | `create-skill` |
 | Audit vault integrity (weekly maintenance) | `vault-audit` |
 | Gather all claims scaffolded by a commentary's TOC tree | `toc-scaffolded-claims` |
+| Strip OCR/PDF debris from a raw text | `clean-raw-text` |
+| Format a Tibetan root text into verse with block IDs | `format-tibetan-root-text` |
+| Break a commentary into citation-sized blocks | `commentary-segmentation` |
+| Tag inline sa-bcad announcements and insert headings | `tag-inline-toc` |
+| Check annotation conventions (report-only) | `lint-annotations` |
+| Transclude root verses into a commentary | `Transclusion-rootext-into-commentaries` |
+| Build a bilingual en↔bo key-term list from a translation | `english-keyword-extraction` |
+| Fill a term table with verbatim commentary definitions | `term-definition-from-commentaries` |
+| Quick translation, no termbase | `zeroshot-translator` |
+
+### Pipelines are not skills
+
+`4-SYSTEM/Pipelines/` holds multi-stage programs with their own code, prompts, gates and CLI. They are installed and run, not invoked as skills. Currently one: **`Pipelines/wikipedia`** — the `kwiki` pipeline that turns a root text plus its commentaries into cited Tibetan Wikipedia articles behind a human review gate (`/ingest`, `/pipeline`, `/publish`). It drives the six ingest-chain skills above out of `4-SYSTEM/Skills/`. See [`Pipelines/wikipedia/README.md`](Pipelines/wikipedia/README.md).
