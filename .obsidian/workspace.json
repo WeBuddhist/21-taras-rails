@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4c9a0969bc096fc5",
+        "id": "295cf01dda566f5d",
         "type": "tabs",
         "children": [
           {
-            "id": "3af5a4275ec629dd",
+            "id": "f0ee988f2ed0e67b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
+              "title": "New tab"
             }
           }
         ]
@@ -41,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 200
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -197,41 +195,41 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
-    "4-SYSTEM/Skills/zeroshot-translator/SKILL.md",
-    "4-SYSTEM/Skills/zeroshot-translator",
-    "4-SYSTEM/Skills/term-definition-from-commentaries/SKILL.md",
-    "4-SYSTEM/Skills/term-definition-from-commentaries",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts/tag_inline_toc.py",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts/find_sa_bcad.py",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts/example-candidates.json",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts/example-annotation.json",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts/annotation.schema.json",
-    "4-SYSTEM/Skills/tag-inline-toc/scripts",
-    "4-SYSTEM/Skills/tag-inline-toc/SKILL.md",
-    "4-SYSTEM/Skills/tag-inline-toc",
-    "4-SYSTEM/Skills/lint-annotations/scripts/remove_footnote_numbers.py",
-    "4-SYSTEM/Skills/lint-annotations/SKILL.md",
-    "4-SYSTEM/Skills/format-tibetan-root-text/SKILL.md",
-    "4-SYSTEM/Skills/english-keyword-extraction/SKILL.md",
-    "4-SYSTEM/Skills/commentary-segmentation/SKILL.md",
-    "4-SYSTEM/Skills/clean-raw-text/examples/README.md",
-    "4-SYSTEM/Skills/clean-raw-text/SKILL.md",
-    "4-SYSTEM/Skills/Transclusion-rootext-into-commentaries/SKILL.md",
-    "4-SYSTEM/Pipelines/wikipedia/docs/reference/wikitext-spec.md",
-    "4-SYSTEM/Pipelines/wikipedia/docs/reference/open-questions.md",
-    "4-SYSTEM/Pipelines/wikipedia/docs/reference/cowork-pipeline.md",
-    "4-SYSTEM/Pipelines/wikipedia/docs/reference/conventions.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/08-review/v1-prepublication.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/07-update/v1.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/06b-audit/v1.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/06a-polish/v1-gemini-handoff.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/06-draft/v3-claims-only.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/05-organize/v2-claims-outline.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/04b-claims/v1.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/04-extract/v2-block-locators.md",
-    "4-SYSTEM/Pipelines/wikipedia/prompts/01-toc/v1.md",
-    "4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/17-rollout/SKILL.md",
-    "4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/16-wikipedia/SKILL.md",
-    "4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/15-wikidata-sync/SKILL.md"
+    "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
+    "4-SYSTEM/Skills/translation-qa/mqm_mechanical_checks.py",
+    "4-SYSTEM/Skills/translation-qa/SKILL.md",
+    "4-SYSTEM/Skills/translation-qa",
+    "4-SYSTEM/Skills/transclusion/SKILL.md",
+    "4-SYSTEM/Skills/transclusion",
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py",
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts",
+    "4-SYSTEM/Skills/toc-tree-ingest/SKILL.md",
+    "4-SYSTEM/Skills/toc-tree-ingest",
+    "4-SYSTEM/Skills/tibetan-ocr-quality/scripts/score_ocr.py",
+    "4-SYSTEM/Skills/tibetan-ocr-quality/scripts",
+    "4-SYSTEM/Skills/tibetan-ocr-quality/SKILL.md",
+    "4-SYSTEM/Skills/tibetan-ocr-quality",
+    "4-SYSTEM/Skills/commentary-verse-id/apply.py",
+    "4-SYSTEM/Skills/commentary-verse-id/SKILL.md",
+    "4-SYSTEM/Skills/commentary-resegment/SKILL.md",
+    "4-SYSTEM/Skills/commentary-fact-check/SKILL.md",
+    "4-SYSTEM/Skills/commentary-fact-check-apply-fixes/SKILL.md",
+    "4-SYSTEM/Skills/colophon-metadata-extractor/SKILL.md",
+    "4-SYSTEM/Skills/clean-commentary-text/SKILL.md",
+    "4-SYSTEM/Skills/clean-commentary-text/README.md",
+    "4-SYSTEM/Skills/block-resegmentation/SKILL.md",
+    "4-SYSTEM/Skills/add-block-id-root-text/SKILL.md",
+    "4-SYSTEM/Skills/Root-Text-Structure/SKILL.md",
+    "4-SYSTEM/Skills/Outline-Extractor/SKILL.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-verify.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-pipeline-engineering.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-mediawiki-bot.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-gemini-api.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-forum-prompts.md",
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-bo-wiki-conventions.md",
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper.md",
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/cost-and-scalability.md",
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/batch-reporting-checklist.md",
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/README.md"
   ]
 }
