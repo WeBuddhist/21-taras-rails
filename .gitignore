@@ -15,9 +15,11 @@
 .claude/worktrees/
 
 # Wikipedia pipeline (4-SYSTEM/Pipelines/wikipedia)
+# Corpora ARE tracked — this vault is now the working repo for the pipeline, and
+# work/archive/ is the citable record of the 2026-08-02 run (not regenerable).
 4-SYSTEM/Pipelines/*/.venv/
 4-SYSTEM/Pipelines/*/.env
-4-SYSTEM/Pipelines/*/corpora/
 __pycache__/
 *.pyc
 *.egg-info/
+.pytest_cache/

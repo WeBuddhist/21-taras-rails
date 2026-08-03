@@ -1,1 +1,5 @@
-{}
+{
+  "userIgnoreFilters": [
+    "4-SYSTEM/Pipelines/"
+  ]
+}

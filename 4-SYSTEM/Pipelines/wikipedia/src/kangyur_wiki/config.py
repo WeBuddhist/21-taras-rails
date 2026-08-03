@@ -105,7 +105,39 @@ def repo_root() -> Path:
     return Path(__file__).resolve().parents[2]
 
 
+def vault_root() -> Path:
+    """The Railroads vault this pipeline lives inside.
+
+    ``4-SYSTEM/Pipelines/wikipedia`` -> two levels up.  The pipeline no longer
+    carries its own copy of the texts: the vault's ``1-SOURCES/`` is the single
+    home for them, block IDs and all, and the rails work that puts them there
+    (clean, segment, TOC, anchors) is the same work stages 1–2 used to do
+    privately.  Falls back to the pipeline root when the folder does not sit in
+    a vault, so a standalone checkout still resolves.
+    """
+    candidate = repo_root().parents[2]  # …/<vault>/4-SYSTEM/Pipelines/wikipedia
+    return candidate if (candidate / "1-SOURCES").is_dir() else repo_root()
+
+
+def _default_source_text_dir() -> Path:
+    return vault_root() / "1-SOURCES" / "Text"
+
+
+def _default_source_commentaries_dir() -> Path:
+    return vault_root() / "1-SOURCES" / "Commentaries"
+
+
 def _default_corpora_dir() -> Path:
+    """Where the pipeline's *derived* artifacts live.
+
+    Wikipedia articles are transformations, so they belong in the vault's
+    citation chain (``1-SOURCES/`` -> ``2-RAILS/`` -> ``3-TRANSFORMATIONS/``)
+    rather than in a private corpora tree.  Everything under here is generated:
+    the registries, the ledger, ``work/``, and the per-term article folders.
+    """
+    root = vault_root()
+    if (root / "3-TRANSFORMATIONS").is_dir():
+        return root / "3-TRANSFORMATIONS" / "Wikipedia"
     return repo_root() / "corpora"
 
 
@@ -134,6 +166,8 @@ class Settings:
     dry_run: bool = True
     corpora_dir: Path = field(default_factory=_default_corpora_dir)
     prompts_dir: Path = field(default_factory=_default_prompts_dir)
+    source_text_dir: Path = field(default_factory=_default_source_text_dir)
+    source_commentaries_dir: Path = field(default_factory=_default_source_commentaries_dir)
 
     def __repr__(self) -> str:
         """Masked representation — see the module docstring.

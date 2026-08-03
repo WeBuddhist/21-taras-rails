@@ -54,7 +54,59 @@ def _echo_path(label: str, path: Path) -> None:
     typer.echo(f"  {label}: {path}")
 
 
-def _source_loaders(comm_dir: Path):
+def _resolve_source(local_path: Path | str) -> Path:
+    """A registry ``local_path`` as an absolute path.
+
+    Entries are written vault-relative (``1-SOURCES/Commentaries/….md``) so the
+    registry reads the same from anywhere in the vault.  An absolute path is
+    taken as given; a legacy corpus-relative one still resolves against the
+    pipeline root.
+    """
+    path = Path(local_path)
+    if path.is_absolute():
+        return path
+    from .config import repo_root, vault_root
+
+    for base in (vault_root(), repo_root()):
+        candidate = base / path
+        if candidate.exists():
+            return candidate
+    return vault_root() / path
+
+
+def _corpus_texts(corpus: str) -> tuple[Path, dict[str, Path]]:
+    """``(root_text, {source_id: commentary_path})`` for one corpus.
+
+    The binding between a corpus and the vault lives in its ``sources.yaml``:
+    every entry names the ``1-SOURCES/`` file it stands for.  That is what lets
+    ``source_id`` stay a stable siglum (``TARAC02_DGT_bo_segmented``) while the
+    file it points at is a Tibetan-titled source file the rails work owns —
+    citations and existing artifacts do not move when a file is renamed.
+
+    Falls back to the vault's commentaries directory, keyed by filename stem,
+    for a corpus whose registry has no ``local_path`` yet.
+    """
+    settings = load_settings()
+    reg = registry_mod.load(settings.corpus_dir(corpus))
+    root: Path | None = None
+    commentaries: dict[str, Path] = {}
+    for source in reg.sources:
+        if source.local_path is None:
+            continue
+        path = _resolve_source(source.local_path)
+        if source.source_id == "root":
+            root = path
+        else:
+            commentaries[source.source_id] = path
+    if root is None:
+        texts = sorted(settings.source_text_dir.glob("*.md"))
+        root = texts[0] if texts else settings.source_text_dir / "root.md"
+    if not commentaries:
+        commentaries = {p.stem: p for p in sorted(settings.source_commentaries_dir.glob("*.md"))}
+    return root, commentaries
+
+
+def _source_loaders(commentaries: dict[str, Path]):
     """``(raw, reading)`` loaders for a corpus's commentaries, by ``source_id``.
 
     Two views of the same file, for two different jobs:
@@ -70,10 +122,17 @@ def _source_loaders(comm_dir: Path):
     from .stages.commentary import reading_view
 
     def raw(source_id: str) -> str:
-        for p in sorted(comm_dir.glob("*.md")):
-            if source_id in p.stem:
-                return p.read_text(encoding="utf-8")
-        raise FileNotFoundError(f"no commentary file matching source_id {source_id!r}")
+        path = commentaries.get(source_id)
+        if path is None:
+            # Sigla drift (a trailing ``_bo_segmented``, an edition suffix); match
+            # on containment the way the directory-glob loader used to.
+            for key, candidate in sorted(commentaries.items()):
+                if source_id in key or key in source_id:
+                    path = candidate
+                    break
+        if path is None or not path.exists():
+            raise FileNotFoundError(f"no commentary file matching source_id {source_id!r}")
+        return path.read_text(encoding="utf-8")
 
     def reading(source_id: str) -> str:
         return reading_view(raw(source_id))
@@ -97,7 +156,7 @@ def commentaries(
         False, "--skip-refine", help="Skip stage-2 refinement (use when already refined)."
     ),
     promote: bool = typer.Option(
-        True, help="Copy the finished files over source/commentaries/. --no-promote to review first."
+        True, help="Write the finished files back over 1-SOURCES/Commentaries/. --no-promote to review first."
     ),
     model: Optional[str] = typer.Option(None, help="Override the Gemini model id"),
 ) -> None:
@@ -107,7 +166,7 @@ def commentaries(
     stage-2 refinement, sa-bcad headings (``tag-inline-toc``), root-verse transclusion
     anchors, and a block ID on every content block. Intermediates land in
     ``work/ingest/commentaries/`` so each step is inspectable; the finished file is copied
-    over ``source/commentaries/`` only if every step held.
+    back over ``1-SOURCES/Commentaries/`` only if every step held.
 
     The invariant that makes this safe to run over a whole corpus: the *reading view* of a
     file — its text with every layer of scaffolding taken back off — must be byte-identical
@@ -117,14 +176,15 @@ def commentaries(
 
     settings = load_settings()
     cdir = _corpus_dir(corpus)
-    root = cdir / "source" / "root.md"
-    comm_dir = cdir / "source" / "commentaries"
+    root, comm_paths = _corpus_texts(corpus)
     if not root.exists():
         raise typer.BadParameter(f"no root text at {root}")
 
-    paths = [p for p in sorted(comm_dir.glob("*.md")) if not only or only in p.name]
+    paths = [p for _, p in sorted(comm_paths.items()) if not only or only in p.name]
     if not paths:
-        raise typer.BadParameter(f"no commentaries matching {only!r} in {comm_dir}")
+        raise typer.BadParameter(
+            f"no commentaries matching {only!r} in {settings.source_commentaries_dir}"
+        )
 
     work = cdir / "work" / "ingest" / "commentaries"
     work.mkdir(parents=True, exist_ok=True)
@@ -190,14 +250,13 @@ def align(
     contribute little to the articles, and a word-commentary may need the LLM pass.
     """
     cdir = _corpus_dir(corpus)
-    root = cdir / "source" / "root.md"
-    comm_dir = cdir / "source" / "commentaries"
+    root, paths = _corpus_texts(corpus)
     if not root.exists():
         raise typer.BadParameter(f"no root text at {root}")
-
-    paths = {p.stem: p for p in sorted(comm_dir.glob("*.md"))}
     if not paths:
-        raise typer.BadParameter(f"no commentaries in {comm_dir}")
+        raise typer.BadParameter(
+            f"no commentaries in {load_settings().source_commentaries_dir}"
+        )
 
     report = align_mod.align_corpus(root, paths, corpus, min_score=min_score)
     out = cdir / "work" / "aligned.json"
@@ -282,7 +341,7 @@ def article(
 
     artifacts = TermArtifacts(cdir / "articles" / term.strip("།་"))
     led = Ledger.load(ledger_path(settings.corpora_dir, corpus), corpus_id=corpus)
-    raw_source, reading_source = _source_loaders(cdir / "source" / "commentaries")
+    raw_source, reading_source = _source_loaders(_corpus_texts(corpus)[1])
 
     prompt_stages = ["04-extract", "04b-claims", "05-organize", "06-draft", "06b-audit"]
     if polish:
@@ -631,7 +690,7 @@ def update(
     def prompt_render(stage: str, **kwargs) -> str:
         return library.render(stage, **kwargs)
 
-    raw_source, reading_source = _source_loaders(cdir / "source" / "commentaries")
+    raw_source, reading_source = _source_loaders(_corpus_texts(corpus)[1])
 
     if artifacts.extract.exists():
         data = json.loads(artifacts.extract.read_text(encoding="utf-8"))
@@ -711,7 +770,7 @@ def verify(corpus: str = typer.Argument(...), term: str = typer.Argument(...)) -
 
     wikitext = artifacts.wikitext.read_text(encoding="utf-8")
     citations = [Citation(**c) for c in json.loads(artifacts.citations.read_text("utf-8"))]
-    raw_source, reading_source = _source_loaders(cdir / "source" / "commentaries")
+    raw_source, reading_source = _source_loaders(_corpus_texts(corpus)[1])
 
     result = run_verify(
         term, wikitext, citations, ["ནང་བསྟན།"], reading_source, artifacts,

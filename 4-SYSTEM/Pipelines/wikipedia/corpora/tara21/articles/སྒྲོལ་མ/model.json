@@ -1,0 +1,33 @@
+{
+ "model": "claude-sonnet-5",
+ "note": "Stages 4-6 were run with Claude standing in for Gemini: generativelanguage.googleapis.com is 403'd at the egress proxy in this environment. Prompts, schemas, artifact writing and the stage-7 verification gate are the repo's own code, unmodified. Do not report these as Gemini numbers.",
+ "run_at": "2026-08-02T07:12:15+00:00",
+ "prompts": {
+  "04-extract": "v2-block-locators.md",
+  "04b-claims": "v1.md",
+  "05-organize": "v2-claims-outline.md",
+  "06-draft": "v3-claims-only.md",
+  "06b-audit": "v1.md"
+ },
+ "stage_models": {
+  "06b-audit": {
+   "model": "gemini-3.5-flash",
+   "run_at": "2026-08-02T09:23:56+00:00"
+  }
+ },
+ "fix_passes": [
+  {
+   "applied_at": "2026-08-02T09:19:09+00:00",
+   "by": "claude-fable-5 (Claude Code, local session)",
+   "reason": "cross-model audit findings, gemini-3.5-flash auditing the claude-sonnet-5 draft; plus lead term-duplication cleanup",
+   "edits": 3,
+   "citations_unchanged": true
+  },
+  {
+   "applied_at": "2026-08-02",
+   "by": "claude-fable-5 (Claude Code, local session)",
+   "reason": "restore natural lead openings in draft.json; render_lead now dedups the leading term mechanically, so the audit reads the same sentence the reader sees",
+   "rendered_output_unchanged": true
+  }
+ ]
+}

@@ -18,6 +18,7 @@ from kangyur_wiki.config import (
     ConfigError,
     Settings,
     load_settings,
+    vault_root,
     repo_root,
 )
 
@@ -36,7 +37,6 @@ def test_an_empty_environment_gives_safe_defaults():
     assert settings.gemini_model == DEFAULT_GEMINI_MODEL
     assert settings.wiki_site == DEFAULT_WIKI_SITE
     assert settings.gemini_api_key is None
-    assert settings.corpora_dir == repo_root() / "corpora"
     assert settings.prompts_dir == repo_root() / "prompts"
 
 
@@ -47,6 +47,38 @@ def test_the_pinned_model_is_not_a_preview_build():
 
 def test_repo_root_contains_the_plan():
     assert (repo_root() / "PLAN.md").exists()
+
+
+# --------------------------------------------------------------------------
+# Where the texts and the artifacts live
+# --------------------------------------------------------------------------
+#
+# The pipeline reads the texts out of the vault's ``1-SOURCES/`` rather than a
+# private copy, and writes everything it derives into ``3-TRANSFORMATIONS/``.
+# Both defaults fall back to the old in-folder layout, so a standalone checkout
+# of this folder still resolves — which is what makes these two cases, not one.
+
+
+def test_inside_a_vault_the_texts_come_from_1_sources():
+    if vault_root() == repo_root():
+        pytest.skip("standalone checkout — no vault to resolve against")
+    settings = load_settings(env={})
+    assert settings.source_text_dir == vault_root() / "1-SOURCES" / "Text"
+    assert settings.source_commentaries_dir == vault_root() / "1-SOURCES" / "Commentaries"
+
+
+def test_inside_a_vault_derived_artifacts_land_in_3_transformations():
+    """Wikipedia articles are transformations — they belong in the citation chain."""
+    if not (vault_root() / "3-TRANSFORMATIONS").is_dir():
+        pytest.skip("standalone checkout — no vault to resolve against")
+    assert load_settings(env={}).corpora_dir == vault_root() / "3-TRANSFORMATIONS" / "Wikipedia"
+
+
+def test_a_standalone_checkout_still_resolves_in_folder():
+    """No vault above us -> the old ``corpora/`` + in-folder layout, unchanged."""
+    if vault_root() != repo_root():
+        pytest.skip("running inside a vault")
+    assert load_settings(env={}).corpora_dir == repo_root() / "corpora"
 
 
 # --------------------------------------------------------------------------

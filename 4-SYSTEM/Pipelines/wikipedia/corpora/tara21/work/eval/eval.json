@@ -1,0 +1,282 @@
+{
+ "corpus": "tara21",
+ "terms": [
+  {
+   "term": "འཇིག་རྟེན་གསུམ",
+   "offer": {
+    "segments": 96,
+    "chars": 18065,
+    "commentaries_with_material": 16
+   },
+   "extract": {
+    "passages": 34,
+    "chars": 8151,
+    "capture_ratio": 0.451,
+    "distinct_sources": 16,
+    "block_located": 34,
+    "fidelity": {
+     "exact": 34
+    },
+    "fidelity_pass_rate": 1.0,
+    "silent_claims_contradicted": []
+   },
+   "claims": {
+    "claims": 19,
+    "dropped_at_parse": 0,
+    "chars": 3698,
+    "compression_vs_extract": 0.454,
+    "passage_utilization": 1.0,
+    "types": {
+     "consensus": 6,
+     "single-commentator": 2,
+     "school-position": 11
+    },
+    "contested": 7,
+    "school_tagged": 11
+   },
+   "outline": {
+    "sections": 4,
+    "claims_placed": 19,
+    "unused_declared": 0,
+    "gap_report_lines": 5
+   },
+   "draft": {
+    "paragraphs": 18,
+    "paragraphs_cited": 18,
+    "claim_coverage": 1.0,
+    "article_chars": 10960,
+    "article_syllables_proxy": 2425
+   },
+   "audit_on_disk": {
+    "verdict": "publish",
+    "findings": 0
+   },
+   "verify": {
+    "passed": true,
+    "quote_failures": 0,
+    "citations": 34,
+    "block_located": 34,
+    "locator_failures": 0,
+    "warnings": {
+     "W1": 34,
+     "W2": 34,
+     "W4": 1
+    }
+   }
+  },
+  {
+   "term": "སྒྲོལ་མ",
+   "offer": {
+    "segments": 631,
+    "chars": 165442,
+    "commentaries_with_material": 16
+   },
+   "extract": {
+    "passages": 18,
+    "chars": 1825,
+    "capture_ratio": 0.011,
+    "distinct_sources": 5,
+    "block_located": 18,
+    "fidelity": {
+     "exact": 18
+    },
+    "fidelity_pass_rate": 1.0,
+    "silent_claims_contradicted": []
+   },
+   "claims": {
+    "claims": 13,
+    "dropped_at_parse": 0,
+    "chars": 1666,
+    "compression_vs_extract": 0.913,
+    "passage_utilization": 1.0,
+    "types": {
+     "consensus": 4,
+     "single-commentator": 9
+    },
+    "contested": 2,
+    "school_tagged": 11
+   },
+   "outline": {
+    "sections": 4,
+    "claims_placed": 13,
+    "unused_declared": 0,
+    "gap_report_lines": 4
+   },
+   "draft": {
+    "paragraphs": 10,
+    "paragraphs_cited": 10,
+    "claim_coverage": 1.0,
+    "article_chars": 4732,
+    "article_syllables_proxy": 1066
+   },
+   "audit_on_disk": {
+    "verdict": "publish",
+    "findings": 0
+   },
+   "verify": {
+    "passed": true,
+    "quote_failures": 0,
+    "citations": 18,
+    "block_located": 18,
+    "locator_failures": 0,
+    "warnings": {
+     "W1": 18,
+     "W2": 18,
+     "W4": 1
+    }
+   }
+  },
+  {
+   "term": "སྡུག་བསྔལ",
+   "offer": {
+    "segments": 142,
+    "chars": 40752,
+    "commentaries_with_material": 16
+   },
+   "extract": {
+    "passages": 29,
+    "chars": 7917,
+    "capture_ratio": 0.194,
+    "distinct_sources": 10,
+    "block_located": 29,
+    "fidelity": {
+     "exact": 29
+    },
+    "fidelity_pass_rate": 1.0,
+    "silent_claims_contradicted": []
+   },
+   "claims": {
+    "claims": 15,
+    "dropped_at_parse": 0,
+    "chars": 2777,
+    "compression_vs_extract": 0.351,
+    "passage_utilization": 1.0,
+    "types": {
+     "consensus": 3,
+     "single-commentator": 10,
+     "school-position": 2
+    },
+    "contested": 1,
+    "school_tagged": 2
+   },
+   "outline": {
+    "sections": 4,
+    "claims_placed": 15,
+    "unused_declared": 0,
+    "gap_report_lines": 5
+   },
+   "draft": {
+    "paragraphs": 16,
+    "paragraphs_cited": 16,
+    "claim_coverage": 1.0,
+    "article_chars": 8581,
+    "article_syllables_proxy": 1902
+   },
+   "audit_on_disk": {
+    "verdict": "publish",
+    "findings": 0
+   },
+   "verify": {
+    "passed": true,
+    "quote_failures": 0,
+    "citations": 29,
+    "block_located": 29,
+    "locator_failures": 0,
+    "warnings": {
+     "W1": 29,
+     "W2": 29,
+     "W4": 1
+    }
+   }
+  }
+ ],
+ "audit_stability": {
+  "འཇིག་རྟེན་གསུམ": {
+   "model": "gemini-3.5-flash",
+   "runs": [
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    },
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    },
+    {
+     "verdict": "fix",
+     "passed": false,
+     "findings": 1,
+     "blocking": 0,
+     "categories": [
+      "terminology-drift"
+     ]
+    }
+   ],
+   "pass_rate": 0.667
+  },
+  "སྒྲོལ་མ": {
+   "model": "gemini-3.5-flash",
+   "runs": [
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    },
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 1,
+     "blocking": 0,
+     "categories": [
+      "meaning-shift"
+     ]
+    },
+    {
+     "verdict": "fix",
+     "passed": false,
+     "findings": 1,
+     "blocking": 1,
+     "categories": [
+      "meaning-shift"
+     ]
+    }
+   ],
+   "pass_rate": 0.667
+  },
+  "སྡུག་བསྔལ": {
+   "model": "gemini-3.5-flash",
+   "runs": [
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    },
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    },
+    {
+     "verdict": "publish",
+     "passed": true,
+     "findings": 0,
+     "blocking": 0,
+     "categories": []
+    }
+   ],
+   "pass_rate": 1.0
+  }
+ }
+}

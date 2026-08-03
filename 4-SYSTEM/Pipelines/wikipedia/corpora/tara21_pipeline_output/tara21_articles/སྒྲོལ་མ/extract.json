@@ -1,0 +1,132 @@
+{
+ "term": "སྒྲོལ་མ",
+ "passages": [
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ།།",
+   "kind": "ངེས་ཚིག",
+   "segment_id": "I-18",
+   "note": "the name's etymology, syllable by syllable"
+  },
+  {
+   "source_id": "TARAC08_DTG_bo_segmented",
+   "quote": "སྒྲོལ་མ་ནི་སེམས་ཅན་ཐམས་ཅད་སངས་རྒྱས་ཀྱི་ས་ལས་སྒྲོལ་བར་མཛད་པས་ནའོ།།",
+   "kind": "ངེས་ཚིག",
+   "segment_id": "I-9",
+   "note": "a second commentary's etymology of the name"
+  },
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "འདི་ལ་བདེ་བ་སྒྲུབ་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-106",
+   "note": "named epithet arising from stanza 11 (bde ba sgrub pa'i sgrol ma)"
+  },
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "འདི་ལ་དཀར་མོ་མདངས་ལྡན་སྒྲོལ་མ་ཞེས་བཤད་དོ།།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-40",
+   "note": "named epithet arising from stanza 2 (dkar mo mdangs ldan sgrol ma)"
+  },
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "འདི་ལ་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-69",
+   "note": "named epithet arising from stanza 9 (seng ldeng nags kyi sgrol ma)"
+  },
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "འདི་ལ་དབང་མཆོག་སྟེར་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-64",
+   "note": "named epithet arising from stanza 17"
+  },
+  {
+   "source_id": "TARAC03_GDD_bo_segmented",
+   "quote": "འདི་ལ་ཧཱུཾ་སྒྲ་སྒྲོགས་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ།།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-51",
+   "note": "named epithet arising from stanza 11"
+  },
+  {
+   "source_id": "TARAC12_PDS_bo_segmented",
+   "quote": "དགུ་པ་འཇིགས་པའི་ཚོགས་ཐམས་ཅད་ལས་སྐྱོབ་པའི་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་ནི།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-132",
+   "note": "a different commentary's parallel epithet-naming for the same stanza (seng ldeng nags kyi sgrol ma)"
+  },
+  {
+   "source_id": "TARAC12_PDS_bo_segmented",
+   "quote": "བཅུ་གཅིག་པ་དབུལ་སེལ་ནོར་སྟེར་རྗེ་བཙུན་འཕགས་མ་སྒྲོལ་མ་ནི།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-156",
+   "note": "named epithet arising from stanza 10 (dbul sel nor ster)"
+  },
+  {
+   "source_id": "TARAC16_PSR_bo_segmented",
+   "quote": "སྒྲོལ་མ་ནི། སེམས་ཅན་འཁོར་བའི་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ནའོ།།",
+   "kind": "ངེས་ཚིག",
+   "segment_id": "I-22",
+   "note": "a third commentary's independent etymology of the name"
+  },
+  {
+   "source_id": "TARAC16_PSR_bo_segmented",
+   "quote": "སྒྲོལ་མའི་ལོ་རྒྱུས་མདོར་བསྡུས། སྔོན་གྱི་དུས་སུ་བཅོམ་ལྡན་འདས་དེ་བཞིན་གཤེགས་པ་རྔ་སྒྲ་ཞེས་བྱ་བ་བྱུང་སྟེ། དེའི་བསྟན་པ་ལ་མཆོག་ཏུ་དད་པའི་རྒྱལ་པོའི་བུ་མོ་ཡེ་ཤེས་ཟླ་བ་ཞེས་བྱ་བ་དེས། སངས་རྒྱས་རྔ་སྒྲའི་འཁོར་བྱང་ཆུབ་སེམས་དཔའ་དང་ཉན་ཐོས་ཀྱི་དགེ་འདུན་སོགས་མང་པོ་ལ་ལོ་དུ་མར་མཆོད་པ་དང་བཀུར་སྟི་གྱ་ནོམ་བྱས་ཏེ་བྱང་ཆུབ་མཆོག་ཏུ་ཐུགས་དང་པོར་བསྐྱེད་པ",
+   "kind": "གཞན།",
+   "segment_id": "I-8",
+   "note": "origin narrative: the bodhisattva Yeshe Dawa's vow, before she is known as Tara"
+  },
+  {
+   "source_id": "TARAC16_PSR_bo_segmented",
+   "quote": "སེམས་ཅན་རྣམས་འཁོར་བ་ལས་སྒྲོལ་བ་ཞེས་བྱ་བའི་ཏིང་ངེ་འཛིན་བསྒྲུབས་པ་དེའི་ནུས་པས་ཉིན་རེ་བཞིན་སེམས་ཅན་བརྒྱ་ཕྲག་མང་པོ་བདེ་བ་ལ་འགོད་པར་བྱེད་པས་སྔར་གྱི་མིང་དེ་འགྱུར་ནས་སྒྲོལ་མ་ཞེས་བྱ་བར་གྱུར་པ",
+   "kind": "སྒྲ་བཤད།",
+   "segment_id": "I-9",
+   "note": "how the name arose: from the samadhi 'liberating beings from samsara' (sgrol ba)"
+  },
+  {
+   "source_id": "TARAC13_TDZ_bo_segmented",
+   "quote": "དང་པོ་རྗེ་བཙུན་སྒྲོལ་མའི་རྣམ་ཐར་ནི། སྔོན་ཐོག་མ་མེད་པའི་དུས་ཤིག་ན། འཇིག་རྟེན་གྱི་ཁམས་སྣ་ཚོགས་པའི་འོད་ཅེས་བྱ་བར། དེ་བཞིན་གཤེགས་པ་རྔ་སྒྲ་ཞེས་བྱ་བ་བྱུང་སྟེ།",
+   "kind": "གཞན།",
+   "segment_id": "I-9",
+   "note": "a second commentary's parallel origin narrative, opening formula"
+  },
+  {
+   "source_id": "TARAC13_TDZ_bo_segmented",
+   "quote": "འགྲོ་བ་ཐམས་ཅད་སྒྲོལ་བ་ཞེས་བྱ་བའི་ཏིང་ངེ་འཛིན་གྲུབ། དེ་ནས་སྔར་གྱི་མིང་ཡེ་ཤེས་ཟླ་བ་དེ་སྒྲོལ་མ་ཞེས་བྱ་བར་གྱུར།",
+   "kind": "སྒྲ་བཤད།",
+   "segment_id": "I-10",
+   "note": "the same etymology of the name from a second commentary"
+  },
+  {
+   "source_id": "TARAC13_TDZ_bo_segmented",
+   "quote": "ཕྱག་འཚལ་ཉི་ཤ་རྩ་གཅིག་གི་བསྟོད་པ་འདི་ཉིད་སྤྱིར་སྒྲོལ་མ་ཐམས་ཅད་ཀྱི་གཙོ་བོ་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མའི་བསྟོད་པར་གྲགས་པ་ལྟར་ཡིན་ལ། བྲེ་བྲག་ཏུ་ཕྱེ་ན་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པར་འགྲོ་བས།",
+   "kind": "དབྱེ་བ",
+   "segment_id": "I-22",
+   "note": "classification: whether the praise concerns one root Tara (Khadira-forest Tara) or 21 distinct Taras"
+  },
+  {
+   "source_id": "TARAC13_TDZ_bo_segmented",
+   "quote": "དམ་པ་ཁ་ཅིག་གིས་སྒྲོལ་མ་ཉེར་གཅིག་པོ་ཐམས་ཅད་ཀྱང་སེང་ལྡེང་མའི་སྤྲུལ་པ་ཡིན་ཞེས་གསུངས།",
+   "kind": "དགག་བཞག",
+   "segment_id": "I-23",
+   "note": "one scholarly position: all 21 Taras are emanations of the Khadira-forest Tara"
+  },
+  {
+   "source_id": "TARAC13_TDZ_bo_segmented",
+   "quote": "ཁག་ཅིག་གིས་སྒྲོལ་མ་ཉེར་གཅིག་པོ་ཐམས་ཅད་ཀྱང་རིགས་མི་འདྲ་བ་ཉེར་གཅིག་ཡིན་ནོ་ཞེས་གསུངས་ལགས།",
+   "kind": "དགག་བཞག",
+   "segment_id": "I-24",
+   "note": "the opposing scholarly position: the 21 Taras belong to 21 distinct families"
+  },
+  {
+   "source_id": "TARAC16_PSR_bo_segmented",
+   "quote": "དུས་ཚོད་གང་ཡིན་ལ་སྒྲོལ་མའི་ཡོན་ཏན་དྲན་བཞིན་པའི་སྒོ་ནས་སེམས་རྩེ་གཅིག་ཏུ་གསོལ་བ་བཏབ་ན། མི་འཇིགས་པའི་ཐམས་ཅད་རབ་ཏུ་སྦྱིན་པའམ་སྟེར་ཅིང་། གནས་སྐབས་ནི། འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག་ལ་སྐྱབས་པར་མཛད་པ",
+   "kind": "གཞན།",
+   "segment_id": "I-13",
+   "note": "benefits of supplicating Tara: protection from the eight and sixteen fears"
+  }
+ ],
+ "no_explanation_in": []
+}

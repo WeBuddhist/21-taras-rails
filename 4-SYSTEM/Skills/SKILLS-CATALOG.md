@@ -70,6 +70,60 @@ The six skills below form the **deterministic ingest chain** for Tibetan materia
 **Outputs:** A lint report.
 → [`lint-annotations/SKILL.md`](lint-annotations/SKILL.md)
 
+### `clean-commentary-text` **[exists]**
+**Purpose:** The commentary counterpart of `clean-raw-text` — inspects a raw Tibetan commentary for page markers, running headers/footers, extra spaces and encoding artifacts, generates a targeted cleaning script, runs it, and saves the cleaned draft.
+**Inputs:** One raw or OCR-derived commentary.
+**Outputs:** A cleaned draft in `0-INBOX/`, plus the per-text script it generated.
+→ [`clean-commentary-text/SKILL.md`](clean-commentary-text/SKILL.md)
+
+### `commentary-verse-id` **[exists]**
+**Purpose:** Stamp `^chapter-n` block IDs onto a segmented Tibetan commentary, deriving the chapter from the nearest preceding root-text transclusion. Blocks before the first transclusion are tagged chapter 0 rather than left untagged — so every block is citable, including the front matter.
+**Inputs:** A segmented commentary that already transcludes its root text.
+**Outputs:** The same file with a block ID on every segment.
+→ [`commentary-verse-id/SKILL.md`](commentary-verse-id/SKILL.md)
+
+### `commentary-resegment` **[exists]**
+**Purpose:** Re-paragraph a commentary that has one clause per line into readable sense-unit paragraphs. The model decides boundaries **by meaning** — content and context — not by grammar rules or particles.
+**Inputs:** A one-clause-per-line commentary.
+**Outputs:** The same text re-paragraphed, with a QC check.
+→ [`commentary-resegment/SKILL.md`](commentary-resegment/SKILL.md)
+
+### `block-resegmentation` **[exists]**
+**Purpose:** Re-draw block boundaries in a Stage-1 segmented commentary into semantically coherent, citation-sized units. The model flags merge/split operations rather than rewriting. Runs after `commentary-segmentation` and after the TOC step.
+**Inputs:** A Stage-1 segmented commentary with its TOC inserted.
+**Outputs:** The same file with revised block boundaries, plus a QC report.
+→ [`block-resegmentation/SKILL.md`](block-resegmentation/SKILL.md)
+
+### `transclusion` **[exists]**
+**Purpose:** Insert Obsidian block-transclusion links for root-text verses into another root-text version or into commentary files, at the correct structural position. The general-purpose sibling of `Transclusion-rootext-into-commentaries`, which additionally fixes sa-bcad spacing and bundles the three-stage script pipeline.
+**Inputs:** A root text and the file to transclude into, both block-ID'd.
+**Outputs:** The target file with `![[root#^N-V]]` links in place.
+→ [`transclusion/SKILL.md`](transclusion/SKILL.md)
+
+### `toc-tree-ingest` **[exists]**
+**Purpose:** Ingest a TOC tree produced by `toc-tree-extraction` into a commentary by inserting markdown headings with block IDs, in a single document-order pass. The write half of the TOC chain — `toc-tree-extraction` builds the tree, this one places it.
+**Inputs:** A `toc-tree-<id>.md` and the commentary it belongs to.
+**Outputs:** The commentary with heading lines and `^N-…-0` heading IDs.
+→ [`toc-tree-ingest/SKILL.md`](toc-tree-ingest/SKILL.md)
+
+### `Outline-Extractor` **[exists]**
+**Purpose:** Extract the structural outline (ས་བཅད) from a Tibetan commentary into a nested `.md` file — YAML frontmatter, heading-based hierarchy for levels 1–5, indented bold list items below that.
+**Inputs:** One Tibetan commentary.
+**Outputs:** One structured outline file.
+→ [`Outline-Extractor/SKILL.md`](Outline-Extractor/SKILL.md)
+
+### `tibetan-ocr-quality` **[exists]**
+**Purpose:** Score a Tibetan OCR output by calculating perplexity with KenLM over Botok-normalised text — a number for "is this OCR good enough to ingest?" before any of the chain runs.
+**Inputs:** One OCR output file.
+**Outputs:** A perplexity score.
+→ [`tibetan-ocr-quality/SKILL.md`](tibetan-ocr-quality/SKILL.md)
+
+### `colophon-metadata-extractor` **[exists]**
+**Purpose:** Extract author, title and language from a Tibetan text's colophon (last 200 syllables) and opening (first 200 syllables), and populate the file's YAML frontmatter in place. Does not rename or move the file.
+**Inputs:** One Tibetan source file.
+**Outputs:** The same file with frontmatter filled.
+→ [`colophon-metadata-extractor/SKILL.md`](colophon-metadata-extractor/SKILL.md)
+
 ### `Transclusion-rootext-into-commentaries` **[exists]**
 **Purpose:** Place root-text verse transclusions inside a commentary and format the blank-line spacing around each one so the sa-bcad outline reads correctly in Obsidian. Three deterministic stages: insert `![[root#^N-V]]` before each verse's first full inline quotation, remove the blank line above it, add a blank line before the introducing sa-bcad block.
 **Inputs:** One commentary file and its root text, both block-ID'd.
@@ -162,6 +216,20 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/termbase.md` — the prescriptive termbase scoped to keywords that appear in the text being translated; plus updates to the consolidated bilingual glossary for any new derived renderings.
 → [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
 
+### `commentary-fact-check` **[exists]**
+**Purpose:** Audit an English translation verse by verse against a Tibetan commentary that transcludes the root text, using strict **term-by-term alignment** — for every content word the commentary glosses, check the translation renders it — rather than a gist/comprehension check.
+**Inputs:** A graded English translation and the commentary that transcludes the root.
+**Outputs:** A `commentary-fact-check-report-<grade>.md` with ⚠ discrepancies.
+**Note:** imported from `bodhisattvacharyavatara-rails`; its paths and grade names are BCA-specific — repoint them before running here.
+→ [`commentary-fact-check/SKILL.md`](commentary-fact-check/SKILL.md)
+
+### `commentary-fact-check-apply-fixes` **[exists]**
+**Purpose:** Apply the ⚠ discrepancies already logged in a `commentary-fact-check` report to the graded translation, one grade at a time.
+**Inputs:** A fact-check report and the translation it grades.
+**Outputs:** The translation, corrected.
+**Note:** same BCA-path caveat as `commentary-fact-check`.
+→ [`commentary-fact-check-apply-fixes/SKILL.md`](commentary-fact-check-apply-fixes/SKILL.md)
+
 ### `commentary-claims` **[exists]**
 **Purpose:** Extract every distinct claim a single commentary makes into a per-commentary claims inventory, in the commentary's own language, read in isolation from the root text and from every other commentary.
 **Inputs:** Exactly one commentary file from `1-SOURCES/Commentaries/` carrying a `registered_id` in its frontmatter.
@@ -218,11 +286,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 
 ## Translation QA skills
 
-### `translation-qa` **[planned]**
-**Purpose:** Review a translated section against the MQM translation error taxonomy, the track requirements, and the source rails.
+### `translation-qa` **[exists]**
+**Purpose:** MQM-based quality check of a translation file or track against the source text, the `2-RAILS/` verse packages, and the track's `requirements.md` + `termbase.md`. Use it to QA, grade or compare translations, and to decide whether one is ready to move from `status: draft` to `status: complete`. Especially suited to zero-shot output, which reads fluently while hiding omissions, mistranslations and broken verse IDs.
 **Inputs:** Translated section(s); `requirements.md`; `termbase.md`; relevant `2-RAILS/` files.
-**Outputs:** Appended entries in `3-TRANSFORMATIONS/Translations/<track-name>/qa-report.md`. Each entry records: the segment, MQM error category, severity (critical / major / minor), and a suggested correction.
-→ `translation-qa/SKILL.md` *(to be written)*
+**Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/qa-report.md` — per-verse MQM annotations (dimension + severity + suggested fix) plus an aggregate scorecard with a pass/fail gate.
+**Note:** imported from `bodhisattvacharyavatara-rails`; its examples are Hindi but the skill is language-agnostic.
+→ [`translation-qa/SKILL.md`](translation-qa/SKILL.md)
 
 ### `style-consistency-check` **[planned]**
 **Purpose:** Catch style drift over long texts — creeping changes in register, sentence length, verse formatting, list handling, term gloss style.

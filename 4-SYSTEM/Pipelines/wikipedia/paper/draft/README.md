@@ -1,0 +1,19 @@
+# paper/draft — the deliverables and how to regenerate them
+
+| file | what |
+|---|---|
+| `paper.md` | Full first draft to the canonical structure (`../10 - Canonical Paper and Slides Plan.md`). Every pipeline number comes from the reviewed run — `corpora/tara21/REVIEW-2026-08-02.md`. `[TO FILL]` slots need team-only data: revival-campaign records (§3), human-rater + reviewer-minutes results (§8). |
+| `IATS-2026-slides.pptx` | The 16-slide deck per the canonical plan. Same numbers, same `[TO FILL]` markers (slides 3 and 13); slide 12 has the slot for the pre-recorded demo capture. |
+| `build_deck.js` | Regenerates the deck: `node build_deck.js` (needs `npm install pptxgenjs react react-dom react-icons sharp` once, beside this file or on NODE_PATH). Edit content here, not in PowerPoint, while numbers are still moving. Every Tibetan run on the slides carries an English gloss — keep that invariant when editing; the IATS audience mostly does not read Tibetan. |
+| `cost-and-scalability.md` | Measured per-article machine cost (volumes from `corpora/tara21/work/eval/eval.json`, prices as of 2026-08-02) and the scaling arithmetic behind §8 and slide 13. |
+| `batch-reporting-checklist.md` | Every `[TO FILL]` slot the corpus-wide batch feeds, plus the three prerequisites the batch needs before it can run and the list of things a bigger N does *not* fix. Read this before filling any number into §8. |
+
+English check-translations of the three articles (for reviewers who don't read
+Tibetan) live beside each article as `article.en.md`, combined in
+`corpora/tara21/review/pending/translations-for-review.en.md`. Per-stage evaluation
+numbers: `corpora/tara21/work/eval/EVAL_REPORT.md`.
+
+Tibetan on slides is set in **Noto Serif Tibetan** per `../08 - Presentation and Demo Plan.md`
+— follow that file's checklist before travel: embed the font (or install on the
+presentation laptop), export a PDF of every Tibetan-bearing slide as backup, and check the
+two known bad stacks (དྡྷི in Noto v2.001, ཨཱརྻ in Jomolhari on macOS).
