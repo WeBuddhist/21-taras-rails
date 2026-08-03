@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -195,7 +195,7 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
     "4-SYSTEM/Skills/zeroshot-translator/SKILL.md",
     "4-SYSTEM/Skills/zeroshot-translator",
