@@ -15,7 +15,7 @@ covers_verses: 1-2–1-47
 source_description: "Raw OCR/transcription export received at 0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/RAAFE013A …-Segmentation.txt. Catalogued as item 11 (བསྡུས་འགྲེལ, unaffiliated tradition) in the corpus's own དཀར་ཆག (སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx), catalog note: 'jotted down from what the scholar-adept spoke' (colophon, this file's own closing line)."
 book_id: RAAFE013A
 openpecha_id: RAAFE013A
-status: ingested
+status: 4-headed
 ---
 
 ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་ར་ཡཻ། ^0-1

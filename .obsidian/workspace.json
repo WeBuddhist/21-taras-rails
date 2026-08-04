@@ -199,6 +199,10 @@
   },
   "active": "54c0ca4cab9dcdb4",
   "lastOpenFiles": [
+    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.md",
+    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.tsv",
+    "0-INBOX/temp/karma-maitri/scratch-verse-id-2.md",
+    "0-INBOX/temp/karma-maitri/scratch-verse-id.md",
     "0-INBOX/temp/TOC-karma-maitri/pre-toc-ingest-backup.md",
     "2-RAILS/TOC-Trees/karma-maitri.md",
     "2-RAILS/TOC-Trees",
@@ -227,13 +231,9 @@
     "0-INBOX/toc-candidates-gendun-gyatso.md",
     "0-INBOX/toc-candidates-lobsang-dawa.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md",
-    "2-RAILS/Local-Wiki/འཇིག་རྟེན་གསུམ.md",
     "4-SYSTEM/Skills/translation-qa/mqm_mechanical_checks.py",
-    "4-SYSTEM/Skills/translation-qa/SKILL.md",
     "4-SYSTEM/Skills/translation-qa",
-    "4-SYSTEM/Skills/transclusion/SKILL.md",
     "4-SYSTEM/Skills/transclusion",
-    "4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py",
-    "4-SYSTEM/Skills/toc-tree-ingest/scripts"
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py"
   ]
 }

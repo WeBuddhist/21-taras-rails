@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""
+r"""
 apply.py — commentary-verse-id skill
 
 Adds Obsidian-style block IDs (^{chapter}-{n}) to commentary segments in a
@@ -119,11 +119,9 @@ def read_lines(path):
     return data.split(eol), eol
 
 
-def cmd_audit(path):
-    lines, eol = read_lines(path)
-    _, stats = process(lines)
+def print_stats(stats):
     if not stats:
-        print("No transclusions found — nothing to tag.")
+        print("No taggable segments found — nothing to tag.")
         return
     print(f"{'chapter':<10}{'first_id':<12}{'last_id':<12}{'count'}")
     for chapter, first, last in stats:
@@ -133,13 +131,23 @@ def cmd_audit(path):
         print(f"{chapter:<10}^{chapter}-{first:<10}^{chapter}-{last:<10}{count}")
 
 
+def cmd_audit(path):
+    lines, eol = read_lines(path)
+    _, stats = process(lines)
+    print_stats(stats)
+
+
 def cmd_apply(infile, outfile):
     lines, eol = read_lines(infile)
     new_lines, stats = process(lines)
     new_data = eol.join(new_lines)
     open(outfile, 'w', encoding='utf-8', newline='').write(new_data)
     print(f"Wrote {outfile}")
-    cmd_audit(outfile)
+    # Report the stats from THIS run's tagging pass, not a re-audit of the
+    # now-tagged output — re-auditing an already-tagged file finds nothing
+    # left to tag (every line now matches EXISTING_ID_RE) and would
+    # misleadingly print "nothing to tag" even when tagging succeeded.
+    print_stats(stats)
 
 
 def main():
