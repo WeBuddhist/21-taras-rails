@@ -1,5 +1,4 @@
-༄༅། །
-ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། ། ^1-1
+༄༅། །ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། ། ^1-1
 
 ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། ། ^1-2
 
@@ -132,3 +131,10 @@
 
 རྩ་བའི་སྔགས་ཀྱི་བསྟོད་པ་འདི་དང་། །
 ཕྱག་འཚལ་བ་ནི་ཉི་ཤུ་རྩ་གཅིག ། ^1-47
+
+[Ed: the raw transcription ends here, mid-clause (single shad, not the verse-final
+་shad-space-shad pattern every other line uses) — the traditional closing colophon
+(reciting instructions, benefit statement) that normally follows appears to be missing
+from this transcription. Not completed here; completing it would be interpretation,
+not formatting. See the corpus catalog's item 8 (a separate benefits commentary) for
+related material, and consider cross-checking raw file R1B1817B6 or another edition.]
