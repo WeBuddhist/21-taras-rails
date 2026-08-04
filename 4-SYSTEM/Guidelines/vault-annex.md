@@ -112,10 +112,24 @@ No `Translations/`, `Adaptations/`, or `Plans/` track has been started under `3-
 | Path | Contents |
 | --- | --- |
 | `sources.yaml`, `terms.yaml`, `ledger.json` | Registry and per-term progress state |
-| `work/aligned.json` | Root↔commentary alignment (314 spans, 209 transclusion-anchored as of 2026-08-04) |
+| `work/aligned.json` | Root↔commentary alignment as of the last `kwiki align` run (historical — see below) |
 | `articles/<term>/` | Per-term pipeline artifacts (extract → claims → outline → draft → audit → verify) |
-| `claims/{opus,sonnet,toc-scaffolded,tree-guided}/` | Claims-extraction method comparisons (see `claims/_comparison-report.md`) — pipeline-owned experimental work, not `2-RAILS/Claims/` rails |
 | `review/{pending,approved,published}/` | The human pre-publication gate |
+
+**Claims extraction moved out of the pipeline folder on 2026-08-04.** All three methods —
+`commentary-claims` (fixed categories), `toc-scaffolded-claims` (re-bucketed under the tree),
+`tree-guided-claims` (fresh, tree-scaffolded extraction) — now write to `2-RAILS/Claims/` (see
+`2-RAILS/About Rails.md` §6b) as first-class rails, not pipeline-owned experimental data. The
+`opus`/`sonnet` one-off model-comparison runs and the resulting `claims/_comparison-report.md`
+predate this move and are historical only — read as evidence for why `tree-guided-claims`'s five
+guards exist, not as a live path. If those two direct-extraction methods are ever re-run, they
+also belong under `2-RAILS/Claims/` going forward, not back under this pipeline folder.
+
+Ingest (raw text → annotated `1-SOURCES/` file → TOC tree → claims) is likewise now driven
+end-to-end by vault skills (`raw-to-sources`, `commentary-resegment`, `toc-tree-extraction`,
+`toc-tree-ingest`, `Transclusion-rootext-into-commentaries`, `commentary-verse-id`), not by
+`kwiki commentaries`/`kwiki align`. The `kwiki` pipeline's own role is now scoped to article
+generation only (stages 4–7, `articles/<term>/` onward) — see `/ingest`'s rewritten procedure.
 
 **Why this is a sanctioned exception to the citation chain**, not an unnoticed violation of it: `4-SYSTEM/CLAUDE.md`'s citation chain requires `3-TRANSFORMATIONS/` to cite `2-RAILS/` only, never reaching past the rails into `1-SOURCES/` directly. The `kwiki` pipeline reaches directly into `1-SOURCES/Text/` and `1-SOURCES/Commentaries/` by design — its own citation discipline is the deterministic `kwiki verify` gate (stage 7: every quotation is checked character-for-character against its cited source file before an article may verify), which is a different but equally rigorous guarantee than the rails chain provides, built for a different output (a cited Wikipedia article rather than a rails-fed transformation track). Treat `3-TRANSFORMATIONS/Wikipedia/` as governed by the pipeline's own rules (`4-SYSTEM/Pipelines/wikipedia/CLAUDE.md`), not by `About Transformations.md`'s per-track contract files.
 

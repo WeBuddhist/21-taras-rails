@@ -1,6 +1,6 @@
 ---
 name: tree-guided-claims
-description: Extract every distinct claim/fact a single commentary makes into ONE consolidated claims file, doing the extraction itself node by node against the commentary's own decimal-numbered TOC tree (from toc-tree-extraction) — a fresh, independent extraction per node, never a re-bucketing of an existing category-scaffolded claims file. Output at 3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md, with a namespaced claim-ID scheme, a recomputed claim count, and a stated-referent rule that resolves within the claim's own quoted text.
+description: Extract every distinct claim/fact a single commentary makes into ONE consolidated claims file, doing the extraction itself node by node against the commentary's own decimal-numbered TOC tree (from toc-tree-extraction) — a fresh, independent extraction per node, never a re-bucketing of an existing category-scaffolded claims file. Output at 2-RAILS/Claims/tree-guided/<registered-id>.md, with a namespaced claim-ID scheme, a recomputed claim count, and a stated-referent rule that resolves within the claim's own quoted text.
 ---
 
 # tree-guided-claims
@@ -59,7 +59,7 @@ final; see its own docstring for exactly what it checks.
 |---|---|---|
 | **Commentary file** | Exactly one file from `1-SOURCES/Commentaries/`. Must carry frontmatter with `registered_id`, `title`, `author`, `lang_tag`. | `1-SOURCES/Commentaries/<filename>.md` |
 | **`registered_id`** | The short ID from that file's frontmatter. Names the output file. | e.g. `karma-maitri` |
-| **TOC tree** | The decimal-numbered ས་བཅད tree for this same commentary, built by `toc-tree-extraction`, **QC'd clean (or human-reviewed past its flags) by both `qc_check_tree.py` and `qc_tree_vs_source.py`** — see that skill's Pass 4. A tree that has not been checked against the source itself is not a scaffold, it is a guess. | `0-INBOX/toc-tree-<id>.md`, or `0-INBOX/temp/TOC-<id>/toc-tree-<id>.md` |
+| **TOC tree** | The decimal-numbered ས་བཅད tree for this same commentary, built by `toc-tree-extraction`, **QC'd clean (or human-reviewed past its flags) by both `qc_check_tree.py` and `qc_tree_vs_source.py`** — see that skill's Pass 4. A tree that has not been checked against the source itself is not a scaffold, it is a guess. | `2-RAILS/TOC-Trees/<id>.md` (promoted, preferred), or its pre-promotion `0-INBOX/toc-tree-<id>.md` working copy |
 | **Segment addressing** | How the commentary's blocks are addressed. Determined by inspection, same as `commentary-claims` Step 2 — this vault's post-migration commentaries carry `^I-n` block IDs throughout. | block ID (preferred when present), else line number |
 
 If the commentary file has no `registered_id`, **stop** and run `commentary-frontmatter`
@@ -76,18 +76,21 @@ commentary. Never merge two commentaries into one file.
 One file per commentary at:
 
 ```
-3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md
+2-RAILS/Claims/tree-guided/<registered-id>.md
 ```
 
-`<corpus>` is the pipeline corpus id this commentary belongs to (`tara21` for this vault's
-current work). `<registered-id>` is taken verbatim from the commentary's frontmatter. Create
-`claims/tree-guided/` if it does not exist. This sits alongside `claims/{opus,sonnet,
-toc-scaffolded}/` as the fourth entry in the same method comparison — never overwriting them.
+`<registered-id>` is taken verbatim from the commentary's frontmatter. Create
+`2-RAILS/Claims/tree-guided/` if it does not exist. This sits alongside `2-RAILS/Claims/<id>.md`
+(`commentary-claims`, fixed categories) and `2-RAILS/Claims/toc-scaffolded/<id>.md`
+(`toc-scaffolded-claims`, re-bucketed under the tree) — three methods, three subfolders, never
+overwriting one another. See `2-RAILS/About Rails.md` §6b.
 
-This path is `3-TRANSFORMATIONS/`, not `2-RAILS/Claims/`, by design: it is pipeline-owned
-experimental output feeding the kwiki Wikipedia pipeline's own claims stage (4b), governed by
-that pipeline's own citation discipline (the deterministic `kwiki verify` gate), the same as
-the three sibling method folders it sits beside. See `4-SYSTEM/Guidelines/vault-annex.md` §6.
+**This moved here from `3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/` on
+2026-08-04.** Claims are descriptive rails — every claim cites `1-SOURCES/` only, same as any
+other `2-RAILS/` file — not pipeline-owned experimental output; they belong in the rails any
+transformation can draw on, not filed under one specific downstream pipeline. If the kwiki
+Wikipedia pipeline's own claims stage (4b) later needs this file, it reads it from here like any
+other rail. See `4-SYSTEM/Guidelines/vault-annex.md` §6 for the fuller history of this move.
 
 ---
 
@@ -114,7 +117,7 @@ status: draft
 # Tree-guided claims — <title_in_english>
 
 **Commentary:** `<registered-id>` · <author_in_english>
-**Source:** [`<filename>.md`](../../../../1-SOURCES/Commentaries/<filename>.md)
+**Source:** [`<filename>.md`](../../../1-SOURCES/Commentaries/<filename>.md)
 **TOC tree:** [`toc-tree-<registered-id>.md`](<relative path to toc_tree_source>)
 **Citation form:** <one sentence stating how the citations in this file resolve to the
 source — block ID, segment number, or line number.>
@@ -335,7 +338,7 @@ rather than a matter of discipline.**
 
 a. Read the commentary's frontmatter; record `registered_id`, `title`, `title_in_english`,
    `author`, `author_in_english`. Stop if `registered_id` is absent.
-b. Load the TOC tree (`0-INBOX/toc-tree-<id>.md` or the `temp/TOC-<id>/` copy). Record
+b. Load the TOC tree (`2-RAILS/TOC-Trees/<id>.md`, or its pre-promotion `0-INBOX/toc-tree-<id>.md` working copy). Record
    `toc_tree_source`.
 c. Confirm both QC reports exist and are recent (`qc_check_tree.py`'s and
    `qc_tree_vs_source.py`'s, the latter checked against this *exact* file). If either is
@@ -409,13 +412,13 @@ b. **Count the actual `###`-level claim headings and set `claim_count` to that n
 c. Build the Coverage log: one row per node (plus Front/Back matter), its window, the
    claim IDs drawn from it, and any fold note from Step 3.
 d. Set `status: draft`.
-e. Write to `3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md`.
+e. Write to `2-RAILS/Claims/tree-guided/<registered-id>.md`.
 
 ### Step 9 — Run the deterministic verifier
 
 ```bash
 python 4-SYSTEM/Skills/tree-guided-claims/scripts/verify_claims.py \
-  3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md \
+  2-RAILS/Claims/tree-guided/<registered-id>.md \
   --source 1-SOURCES/Commentaries/<filename>.md
 ```
 
@@ -445,7 +448,7 @@ read zero.
 - [ ] Commentary and TOC tree loaded; both QC reports confirmed against this exact file
 - [ ] Extraction ran node by node via isolated subagents, never re-bucketed from another
       claims file
-- [ ] Output written to `3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md`
+- [ ] Output written to `2-RAILS/Claims/tree-guided/<registered-id>.md`
 - [ ] Frontmatter complete: `registered_id`, `title`, `author`, `source_file`,
       `toc_tree_source`, `tree_qc_reports`, `citation_form`, `method: tree-guided-extraction`,
       `claim_id_scheme`, `claim_count`, `status: draft`
