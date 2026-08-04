@@ -63,7 +63,9 @@ The four isolated prompts live in:
 If the file path is missing, or the `commentary-id` is not obvious from the filename, **stop
 and ask** before doing anything else.
 
-## Outputs (all under `0-INBOX/`)
+## Outputs
+
+Working intermediates, all scratch, never cited from `2-RAILS/`:
 
 | File | Stage |
 |---|---|
@@ -72,13 +74,19 @@ and ask** before doing anything else.
 | `0-INBOX/temp/TOC-<id>/enumerations/chunk_NNN.md` | per-chunk verbatim enumeration blocks |
 | `0-INBOX/toc-candidates-<id>.md` | merged candidates |
 | `0-INBOX/toc-enumerations-<id>.md` | merged verbatim enumerations |
-| `0-INBOX/toc-tree-<id>.md` | the final nested decimal TOC tree |
+| `0-INBOX/toc-tree-<id>.md` | the tree, in progress through QC/repair rounds |
 | `0-INBOX/toc-tree-qc-<id>.md` | QC report vs. the candidates+enumerations corpus (issues before / after repair) |
 | `0-INBOX/toc-tree-qc-source-<id>.md` | QC report vs. the source commentary itself — pointer validity, near-pointer attestation, monotonicity/collisions, sibling-count congruence |
 
-Drafts in `0-INBOX/` — scratch, never cited from `2-RAILS/`. The tree has **no `^toc` block
-IDs**; the decimal numbering alone identifies each entry. (Inserting the tree into a
-source/rails file with block IDs is a separate step — use `add-toc`.)
+The rail — written only once both checkers are clean (Pass 4's Promotion step, below):
+
+| File | Content |
+|---|---|
+| `2-RAILS/TOC-Trees/<id>.md` | the finished tree, frontmatter naming both QC reports |
+
+The tree has **no `^toc` block IDs**; the decimal numbering alone identifies each entry.
+(Inserting the tree's headings into the source file itself is a separate step — this
+vault uses `toc-tree-ingest`, not `add-toc`, for commentaries with a tree from this skill.)
 
 ---
 
@@ -247,6 +255,28 @@ subagent's say-so, and never report zero issues when a checker was not actually 
 
 ---
 
+## Promotion — write the rail, once clean
+
+Once both checkers report 0 issues (or only human-reviewed-and-accepted ones), copy the
+tree from `0-INBOX/toc-tree-<id>.md` to `2-RAILS/TOC-Trees/<id>.md`, normalizing its
+frontmatter to:
+
+```yaml
+---
+registered_id: <id>
+source_file: 1-SOURCES/Commentaries/<filename>.md
+qc_reports: [0-INBOX/toc-tree-qc-<id>.md, 0-INBOX/toc-tree-qc-source-<id>.md]
+status: complete
+---
+```
+
+Do not delete the `0-INBOX/` intermediates — they are the evidence trail the QC reports
+reference. If a later resegmentation invalidates this tree, rebuilding it overwrites
+`0-INBOX/toc-tree-<id>.md` and re-promotes over `2-RAILS/TOC-Trees/<id>.md`; do not leave a
+stale rail file next to a fresh one.
+
+---
+
 ## Execution summary
 
 1. Confirm `input-file` and `commentary-id` (ask if not obvious).
@@ -256,7 +286,8 @@ subagent's say-so, and never report zero issues when a checker was not actually 
 5. Merge on disk (shell `cat`) → `0-INBOX/toc-candidates-<id>.md` and `0-INBOX/toc-enumerations-<id>.md`.
 6. Pass 3: one isolated subagent reads both merged files → writes `0-INBOX/toc-tree-<id>.md`.
 7. Pass 4: `qc_check_tree.py` → isolated repair subagent (reads/overwrites by path) → re-check → `0-INBOX/toc-tree-qc-<id>.md`.
-8. Report totals (candidates, enumeration blocks, issues before/after) and the output paths.
+8. Promote: once clean, copy to `2-RAILS/TOC-Trees/<id>.md` with normalized frontmatter (above).
+9. Report totals (candidates, enumeration blocks, issues before/after) and the output paths — both the `0-INBOX/` working files and the promoted `2-RAILS/TOC-Trees/<id>.md`.
 
 **Isolation is the whole point.** If you ever find yourself doing a pass's reasoning in this
 orchestrating context instead of in its own subagent, stop and dispatch the subagent — that is

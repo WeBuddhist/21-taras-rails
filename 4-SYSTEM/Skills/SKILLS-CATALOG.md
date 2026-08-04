@@ -36,6 +36,12 @@ Normalises an existing commentary file: OCR cleanup, heading structure, paragrap
 Inserts or regenerates a table of contents in a source or rails file.
 → [`add-toc/SKILL.md`](add-toc/SKILL.md)
 
+### `raw-to-sources` **[exists]**
+**Purpose:** Bring one raw OCR/segmentation text file into `1-SOURCES/` as a cleaned, frontmattered root-text or commentary file — the first step of the ingest chain, before any segmentation, TOC, or block IDs.
+**Inputs:** One raw `.txt`/`.docx.txt` file, `--type root|commentary`, and optionally known metadata (title/author/tradition) from a curated catalog.
+**Outputs:** `1-SOURCES/Text/<title>.md` or `1-SOURCES/Commentaries/<title>.md` — cleaned body, complete easy-field frontmatter, still unsegmented and un-block-ID'd.
+→ [`raw-to-sources/SKILL.md`](raw-to-sources/SKILL.md)
+
 ---
 
 The six skills below form the **deterministic ingest chain** for Tibetan material — clean → format/segment → tag → lint → transclude. They were ported from `webuddhist-library-data-pipeline` and `bodhisattvacharyavatara-rails` via the IATS-2026 repo, where they have been run in production over sixteen commentaries. Each bundles tested Python scripts under its own `scripts/`, dry-run by default, and each script asserts no-loss (output minus whitespace must equal input minus whitespace) before it writes. They are also the ingest stages the Wikipedia pipeline drives — see [`../Pipelines/wikipedia/README.md`](../Pipelines/wikipedia/README.md).

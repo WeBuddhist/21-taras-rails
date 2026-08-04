@@ -1,9 +1,9 @@
 ---
 name: toc-tree-ingest
 description: >
-  Ingest a pre-extracted TOC tree (toc-tree-*.md) into a commentary file in
-  1-SOURCES/Commentaries/commentaries_with_toc/ by inserting markdown headings
-  with block IDs. All nodes are placed in a single pass using document-order
+  Ingest a pre-extracted TOC tree (toc-tree-*.md) into a commentary file
+  in 1-SOURCES/Commentaries/ IN PLACE by inserting markdown headings with
+  block IDs. All nodes are placed in a single pass using document-order
   cursor disambiguation. The [[...]] context snippets locate positions in the
   commentary — they are never copied into the output.
 
@@ -15,8 +15,14 @@ description: >
 # toc-tree-ingest
 
 Inserts section headings derived from a pre-extracted TOC tree into a Tibetan
-commentary file. All nodes across all depths are processed in a **single pass**,
-in strict document order (the order they appear in the toc-tree file).
+commentary file, **in place** — the canonical file in `1-SOURCES/Commentaries/`
+is updated directly; no side-copy is left as the working artifact. (An earlier
+version of this skill wrote to a `commentaries_with_toc/<id>.toc.md` copy; that
+convention is retired — the vault's rule is one file, updated in place through
+each ingest step, not forked variants. A timestamped backup is still taken
+first, purely as an undo path, not as a second canonical file.) All nodes
+across all depths are processed in a **single pass**, in strict document order
+(the order they appear in the toc-tree file).
 
 ---
 
@@ -43,7 +49,10 @@ inserted manually (see Step 3).
 ## Architecture
 
 ```
-toc-tree-*.md
+toc-tree-*.md  (from 2-RAILS/TOC-Trees/<id>.md, once promoted — see toc-tree-extraction)
+      │
+      ▼  Step 0 — backup (safety only, not a second canonical file)
+  0-INBOX/temp/TOC-<id>/pre-toc-ingest-backup.md
       │
       ▼  Step 1 — parse (once per commentary)
   /tmp/toc-tree-*.json
@@ -52,8 +61,8 @@ toc-tree-*.md
   scripts/toc_tree_ingest.py ingest
       │
       ▼
-  1-SOURCES/Commentaries/commentaries_with_toc/<id>.toc.md
-  (headings inserted in place; prose untouched)
+  1-SOURCES/Commentaries/<id>.md
+  (headings inserted IN PLACE in the canonical file; prose untouched)
 ```
 
 Two script modes:
@@ -66,16 +75,19 @@ Two script modes:
 
 | Field | Description |
 |---|---|
-| `toc_file` | Path to the toc-tree-*.md file, e.g. `0-INBOX/temp/TOC-BCAC14_GDR_bo/toc-tree-BCAC14_GDR_bo.md` |
-| `commentary_file` | Path to the commentary .toc.md to update, e.g. `1-SOURCES/Commentaries/commentaries_with_toc/BCAC14_GDR_bo.toc.md` |
+| `toc_file` | Path to the finished tree — `2-RAILS/TOC-Trees/<id>.md` once `toc-tree-extraction` has promoted it (or its `0-INBOX/toc-tree-<id>.md` working copy, pre-promotion) |
+| `commentary_file` | Path to the canonical commentary file to update **in place** — `1-SOURCES/Commentaries/<id>.md` |
 
-The commentary .toc.md must already exist (copied from the source in `1-SOURCES/Commentaries/`).
+The commentary file must already exist in `1-SOURCES/Commentaries/` (from `raw-to-sources`,
+already through `commentary-resegment`). No side-copy is created — the same file named here
+is both the input and the output.
 
 ---
 
 ## Output
 
-The commentary file is updated **in place**. Section heading lines of the form:
+The **canonical** commentary file at `1-SOURCES/Commentaries/<id>.md` is updated **in
+place** — not a `.toc.md` variant. Section heading lines of the form:
 
 ```
 {heading_hashes} {label} ^{block-id}
@@ -111,14 +123,15 @@ No zero-padding. No segment cap — depth follows the tree exactly.
 
 ## Procedure
 
-### Step 0 — Prepare the commentary file
+### Step 0 — Back up before writing into `1-SOURCES/`
 
-Copy the source commentary to the `commentaries_with_toc/` folder if not
-already present:
+This step edits the vault's canonical source file directly. Take an undo copy first —
+this is a safety net, never treated as a second source of truth:
 
 ```bash
+mkdir -p "0-INBOX/temp/TOC-BCAC14_GDR_bo"
 cp "1-SOURCES/Commentaries/BCAC14_GDR_bo.md" \
-   "1-SOURCES/Commentaries/commentaries_with_toc/BCAC14_GDR_bo.toc.md"
+   "0-INBOX/temp/TOC-BCAC14_GDR_bo/pre-toc-ingest-backup.md"
 ```
 
 ### Step 1 — Parse the TOC tree (run once per commentary)
@@ -131,7 +144,7 @@ import json, re
 from collections import Counter
 from pathlib import Path
 
-TOC_MD  = '0-INBOX/temp/TOC-BCAC14_GDR_bo/toc-tree-BCAC14_GDR_bo.md'
+TOC_MD  = '2-RAILS/TOC-Trees/BCAC14_GDR_bo.md'  # or the 0-INBOX/ working copy, pre-promotion
 JSON_OUT = '/tmp/toc-tree-BCAC14_GDR_bo.json'
 ANCHOR_LENGTH = 60
 CONTEXT_MAX   = 200
@@ -190,7 +203,7 @@ import json, sys
 from pathlib import Path
 
 JSON_PATH   = '/tmp/toc-tree-BCAC14_GDR_bo.json'
-COMMENTARY  = '1-SOURCES/Commentaries/commentaries_with_toc/BCAC14_GDR_bo.toc.md'
+COMMENTARY  = '1-SOURCES/Commentaries/BCAC14_GDR_bo.md'  # canonical file, edited in place
 
 with open(JSON_PATH, encoding='utf-8') as fh:
     tree_data = json.load(fh)
@@ -305,7 +318,8 @@ skip the manually inserted headings and confirm zero not-found.
 
 ## Completion checklist
 
-- [ ] Commentary .toc.md copied from source
+- [ ] Backup of the canonical commentary file taken to `0-INBOX/temp/TOC-<id>/pre-toc-ingest-backup.md`
 - [ ] JSON cache produced at `/tmp/toc-tree-<id>.json`
 - [ ] `ingest` run: summary shows 0 not-found (or all not-found resolved manually)
+- [ ] `1-SOURCES/Commentaries/<id>.md` updated in place — no `.toc.md` side-copy left behind as a second canonical file
 - [ ] Final file line count = source line count + (2 × headings inserted)

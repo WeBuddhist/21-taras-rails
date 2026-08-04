@@ -41,6 +41,12 @@ The LLM is the compiler. Human domain specialists are the reviewers. Nothing in 
 ├── Local-Wiki/ # one page per attested sense ID
 │ ├── <term>_(<disambiguating-phrase>).md # e.g. term_(disambiguating-phrase).md
 │ └──...
+├── TOC-Trees/ # one finished, QC'd sa-bcad tree per commentary
+│ └── <registered-id>.md
+├── Claims/ # per-commentary claims inventories, by extraction method
+│ ├── <registered-id>.md # commentary-claims: fixed A–I categories
+│ ├── toc-scaffolded/<registered-id>.md # toc-scaffolded-claims: re-bucketed under the tree
+│ └── tree-guided/<registered-id>.md # tree-guided-claims: fresh extraction, tree-scaffolded
 └── Bilingual-Glossaries/ # bilingual glossaries per language pair
  ├── <src>-<tgt>.md # consolidated per-language-pair bilingual glossary
  └── Raw/
@@ -292,6 +298,37 @@ citations to each verse package where it appears.]
 All content in the original language (per the descriptive principle — the local wiki records what the commentaries themselves say, not how a translator would render it). The target-language side of each term lives in per-transformation files in `3-TRANSFORMATIONS/`.
 
 Authoring skill: `local-wiki-article`.
+
+---
+
+## 6a. TOC Trees (`TOC-Trees/<registered-id>.md`)
+
+The decimal-numbered ས་བཅད (sa bcad) structural tree for one commentary — the scaffold that heading block IDs, `toc-scaffolded-claims`, and `tree-guided-claims` all read from. Only the **finished, QC-clean tree** lives here; the four-pass extraction's working intermediates (candidate scan, verbatim enumerations, per-chunk staging) stay in `0-INBOX/temp/TOC-<id>/` as scratch, never promoted here until both deterministic checkers pass (`qc_check_tree.py` against the extraction's own candidates/enumerations corpus, `qc_tree_vs_source.py` against the commentary file itself).
+
+A tree is tied to one exact version of its source file — its `[[N]]` pointers are line numbers. If the commentary is resegmented or otherwise edited after a tree was built, the tree is stale and must be rebuilt, not reused.
+
+```yaml
+---
+registered_id: <registered-id>
+source_file: 1-SOURCES/Commentaries/<filename>.md
+qc_reports: [<qc_check_tree.py report path>, <qc_tree_vs_source.py report path>]
+status: draft | complete
+---
+```
+
+Authoring skill: `toc-tree-extraction`. Consumed by: `toc-tree-ingest` (places the tree's headings into the source file), `toc-scaffolded-claims`, `tree-guided-claims`.
+
+---
+
+## 6b. Claims (`Claims/`)
+
+A claims file is a per-commentary inventory of every distinct assertion the commentary makes, in the commentary's own language, cited to a block ID — the atomic unit that article/translation/plan generation later draws on instead of re-reading the whole commentary each time. Three extraction methods coexist, in separate subfolders, because they are genuinely different techniques being compared, not revisions of one another:
+
+- **`Claims/<registered-id>.md`** — `commentary-claims`: one pass over the whole file, claims grouped into nine fixed categories (framing, word-gloss, iconography, doctrinal, activity, practice, benefit, attribution, internal tensions).
+- **`Claims/toc-scaffolded/<registered-id>.md`** — `toc-scaffolded-claims`: an existing claims extraction re-organised (re-bucketed) under the commentary's own TOC tree instead of the fixed categories.
+- **`Claims/tree-guided/<registered-id>.md`** — `tree-guided-claims`: a genuinely fresh, independent extraction done node-by-node against the TOC tree via isolated subagents — never a re-bucketing of another method's file. See that skill's own `SKILL.md` for why this distinction is load-bearing (a prior re-bucketed run was mistakenly presented as independent and hid real defects).
+
+All three cite `1-SOURCES/` only, same as every other rail. A method's own `SKILL.md` is authoritative for its exact frontmatter and file format; this section only fixes where each one lives.
 
 ---
 

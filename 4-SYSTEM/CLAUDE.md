@@ -50,6 +50,8 @@ Authority comes from the human commentary tradition, never from the LLM's parame
   Sections/     # multi-commentary summaries per TOC node
   Verses/       # verse-level context files
   Local-Wiki/   # monolingual articles per key term
+  TOC-Trees/    # finished, QC'd sa-bcad tree per commentary
+  Claims/       # per-commentary claims inventories, by extraction method
   Bilingual-Glossaries/ # bilingual descriptive glossaries per language pair
 3-TRANSFORMATIONS/      # AI-generated outputs, organised in three categories
   Translations/ # language-by-language translation tracks
@@ -243,6 +245,18 @@ One page per attested sense ID within this text. Sense IDs are Wikipedia-style: 
 
 Authoring skill: `local-wiki-article`.
 
+### `TOC-Trees/` — finished structural trees
+
+One finished, QC-clean decimal-numbered sa-bcad tree per commentary: `TOC-Trees/<registered-id>.md`. Working intermediates stay in `0-INBOX/temp/TOC-<id>/` until both deterministic QC checkers pass.
+
+Authoring skill: `toc-tree-extraction`.
+
+### `Claims/` — per-commentary claims inventories
+
+One inventory per commentary per extraction method: `Claims/<registered-id>.md` (fixed categories), `Claims/toc-scaffolded/<registered-id>.md` (re-bucketed under the tree), `Claims/tree-guided/<registered-id>.md` (fresh, tree-scaffolded extraction).
+
+Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-claims`.
+
 ### `Bilingual-Glossaries/` — bilingual descriptive glossaries
 
 One consolidated file per language pair: `[src]-[tgt].md`. Each entry maps a source lemma to every attested target-language rendering, frequency-ranked across all existing translations.
@@ -376,6 +390,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Build a bilingual en↔bo key-term list from a translation | `english-keyword-extraction` |
 | Fill a term table with verbatim commentary definitions | `term-definition-from-commentaries` |
 | Quick translation, no termbase | `zeroshot-translator` |
+| Bring a raw OCR/segmentation text into 1-SOURCES with frontmatter | `raw-to-sources` |
 
 ### Pipelines are not skills
 

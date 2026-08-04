@@ -16,7 +16,10 @@ Two modes:
 
           python3 toc_tree_ingest.py ingest \
               --tree        /tmp/toc-tree-X.json \
-              --commentary  1-SOURCES/Commentaries/commentaries_with_toc/X.toc.md
+              --commentary  1-SOURCES/Commentaries/X.md
+
+          (edits the canonical commentary file in 1-SOURCES/ IN PLACE — no
+          .toc.md side-copy; take a backup first if you want an undo path)
 
 Anchor strategy:
   The [[...]] context snippet (first 60 chars, trailing tshegs stripped) is the

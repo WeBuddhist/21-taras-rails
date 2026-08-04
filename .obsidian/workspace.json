@@ -195,6 +195,8 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
+    "4-SYSTEM/Skills/raw-to-sources",
     "0-INBOX/toc-tree-karma-maitri.md",
     "0-INBOX/toc-tree-gendun-gyatso.md",
     "0-INBOX/toc-enumerations-lobsang-dawa.md",
@@ -219,7 +221,6 @@
     "4-SYSTEM/Skills/tibetan-ocr-quality/scripts",
     "4-SYSTEM/Skills/tibetan-ocr-quality/SKILL.md",
     "4-SYSTEM/Skills/tibetan-ocr-quality",
-    "4-SYSTEM/Skills/commentary-verse-id/apply.py",
     "4-SYSTEM/Skills/commentary-verse-id/SKILL.md",
     "4-SYSTEM/Skills/commentary-resegment/SKILL.md",
     "4-SYSTEM/Skills/commentary-fact-check/SKILL.md",
@@ -229,7 +230,6 @@
     "4-SYSTEM/Skills/clean-commentary-text/README.md",
     "4-SYSTEM/Skills/block-resegmentation/SKILL.md",
     "4-SYSTEM/Skills/add-block-id-root-text/SKILL.md",
-    "4-SYSTEM/Skills/Root-Text-Structure/SKILL.md",
-    "4-SYSTEM/Skills/Outline-Extractor/SKILL.md"
+    "4-SYSTEM/Skills/Root-Text-Structure/SKILL.md"
   ]
 }
