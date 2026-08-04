@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 317.83984375
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -178,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 274.21484375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,9 +193,18 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
+    "0-INBOX/toc-tree-gendun-gyatso.md",
+    "0-INBOX/toc-enumerations-lobsang-dawa.md",
+    "0-INBOX/toc-enumerations-karma-maitri.md",
+    "0-INBOX/toc-enumerations-gendun-gyatso.md",
+    "0-INBOX/toc-candidates-lobsang-dawa.md",
+    "0-INBOX/toc-candidates-karma-maitri.md",
+    "0-INBOX/toc-candidates-gendun-gyatso.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md",
     "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
+    "2-RAILS/Local-Wiki/འཇིག་རྟེན་གསུམ.md",
     "4-SYSTEM/Skills/translation-qa/mqm_mechanical_checks.py",
     "4-SYSTEM/Skills/translation-qa/SKILL.md",
     "4-SYSTEM/Skills/translation-qa",
@@ -221,15 +230,6 @@
     "4-SYSTEM/Skills/add-block-id-root-text/SKILL.md",
     "4-SYSTEM/Skills/Root-Text-Structure/SKILL.md",
     "4-SYSTEM/Skills/Outline-Extractor/SKILL.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-verify.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-pipeline-engineering.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-mediawiki-bot.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-gemini-api.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-forum-prompts.md",
-    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-bo-wiki-conventions.md",
-    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper.md",
-    "4-SYSTEM/Pipelines/wikipedia/paper/draft/cost-and-scalability.md",
-    "4-SYSTEM/Pipelines/wikipedia/paper/draft/batch-reporting-checklist.md",
-    "4-SYSTEM/Pipelines/wikipedia/paper/draft/README.md"
+    "4-SYSTEM/Pipelines/wikipedia/research/reports/r-verify.md"
   ]
 }
