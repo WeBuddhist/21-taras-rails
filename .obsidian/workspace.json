@@ -199,6 +199,12 @@
   },
   "active": "54c0ca4cab9dcdb4",
   "lastOpenFiles": [
+    "0-INBOX/temp/TOC-karma-maitri/pre-toc-ingest-backup.md",
+    "2-RAILS/TOC-Trees/karma-maitri.md",
+    "2-RAILS/TOC-Trees",
+    "0-INBOX/toc-tree-qc-source-karma-maitri.md",
+    "0-INBOX/toc-tree-qc-karma-maitri.md",
+    "0-INBOX/toc-tree-karma-maitri.md",
     "0-INBOX/toc-enumerations-karma-maitri.md",
     "0-INBOX/toc-candidates-karma-maitri.md",
     "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
@@ -215,7 +221,6 @@
     "0-INBOX/temp/root-mdafbf633",
     "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
     "4-SYSTEM/Skills/raw-to-sources",
-    "0-INBOX/toc-tree-karma-maitri.md",
     "0-INBOX/toc-tree-gendun-gyatso.md",
     "0-INBOX/toc-enumerations-lobsang-dawa.md",
     "0-INBOX/toc-enumerations-gendun-gyatso.md",
@@ -229,11 +234,6 @@
     "4-SYSTEM/Skills/transclusion/SKILL.md",
     "4-SYSTEM/Skills/transclusion",
     "4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py",
-    "4-SYSTEM/Skills/toc-tree-ingest/scripts",
-    "4-SYSTEM/Skills/toc-tree-ingest/SKILL.md",
-    "4-SYSTEM/Skills/toc-tree-ingest",
-    "4-SYSTEM/Skills/tibetan-ocr-quality/SKILL.md",
-    "4-SYSTEM/Skills/commentary-verse-id/SKILL.md",
-    "4-SYSTEM/Skills/commentary-resegment/SKILL.md"
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts"
   ]
 }

@@ -8,7 +8,7 @@ Two modes:
           Run once per commentary; output cached for all subsequent ingest runs.
 
           python3 toc_tree_ingest.py parse \
-              --input  0-INBOX/temp/TOC-X/toc-tree-X.md \
+              --input  2-RAILS/TOC-Trees/X.md \
               --out    /tmp/toc-tree-X.json
 
   ingest  Insert ALL headings into the commentary in a single pass,
@@ -21,30 +21,35 @@ Two modes:
           (edits the canonical commentary file in 1-SOURCES/ IN PLACE — no
           .toc.md side-copy; take a backup first if you want an undo path)
 
-Anchor strategy:
-  The [[...]] context snippet (first 60 chars, trailing tshegs stripped) is the
-  primary search anchor. Nodes are processed in strict document order (doc_order).
-  A running cursor tracks the line of the last successfully placed heading.
+Anchor strategy — LINE-NUMBER POINTERS, not text search:
+  Each tree node carries a `[[N]]` (1-based source line number) or `[[?]]`
+  (unresolved) pointer, written by toc-tree-extraction's Pass 3/4 and QC'd by
+  qc_tree_vs_source.py against the exact source file the pointers were
+  computed against. This script inserts each node's heading directly before
+  its pointed-to line — no text matching, no cursor disambiguation, because
+  the pointer already IS the disambiguated position.
 
-  For each node:
-    - If the anchor appears exactly once → insert before that line.
-    - If the anchor appears more than once → take the FIRST occurrence AT OR
-      AFTER the cursor (document-order disambiguation). This handles repeated
-      structural phrases (e.g. chapter-title lines that appear in every chapter).
-    - If the anchor appears zero times → flag as not-found for manual resolution.
+  (An earlier version of this script searched for a `[[context text]]`
+  snippet instead of a line number, with cursor-based disambiguation for
+  repeated phrases. That anchor scheme never matched what
+  qc_tree_vs_source.py actually validates — a `\\d+|\\?`-only pointer — so a
+  tree QC'd clean by that checker could not be consumed by this script
+  correctly. Retired 2026-08-04; line-number pointers are the one format
+  both tools agree on.)
 
-  The cursor advances every time a heading is successfully inserted, ensuring
-  later nodes always search ahead of earlier ones.
+  Nodes are inserted in REVERSE document order (highest line number first),
+  so each insertion never shifts the line numbers still-to-be-processed
+  earlier nodes point at. A node whose pointer is `?` is reported not-found
+  for manual placement, same as before.
 
 Node JSON schema:
   {
-    "decimal_id":     "1.3.2",        # dot-separated path
-    "depth":          3,              # number of segments
-    "label":          "Tibetan...",   # heading label text
-    "block_id":       "^1-3-2-0",    # derived block id
-    "context":        "first 200 chars of [[...]]",
-    "context_anchor": "first 60 chars, tsheg-stripped",
-    "doc_order":      42              # 0-based position in toc-tree file
+    "decimal_id":  "1.3.2",        # dot-separated path
+    "depth":       3,              # number of segments
+    "label":       "Tibetan...",   # heading label text
+    "block_id":    "^1-3-2-0",     # derived block id
+    "pointer":     42,             # 1-based source line number, or null if unresolved
+    "doc_order":   5               # 0-based position in toc-tree file
   }
 """
 
@@ -62,8 +67,6 @@ from collections import Counter
 
 HEADING_LEVELS = {1: "##", 2: "###", 3: "####", 4: "#####"}
 DEFAULT_HEADING = "######"
-ANCHOR_LENGTH = 60       # chars from context used as primary anchor
-CONTEXT_MAX = 200        # chars stored in JSON context field
 
 
 # ---------------------------------------------------------------------------
@@ -80,53 +83,42 @@ def decimal_to_block_id(decimal_id: str) -> str:
     return "^" + "-".join(segments) + "-0"
 
 
+_TREE_LINE_RE = re.compile(
+    r"^(?P<indent>[ \t]*)\*[ \t]+(?P<dec>\d+(?:\.\d+)*)\.?[ \t]+"
+    r"(?P<label>.*?)(?:[ \t]*\[\[(?P<pointer>\d+|\?)\]\])?[ \t]*$"
+)
+
+
 def parse_toc_line(line: str):
     """
     Parse one line of the toc-tree-*.md file.
 
-    Expected format (any leading whitespace):
-        * N.N.N. Tibetan label [[context text]]
-        * N.N.N Tibetan label [[context text]]
+    Expected format (any leading whitespace) — the same format
+    qc_tree_vs_source.py validates:
+        * N.N.N Tibetan label [[123]]
+        * N.N.N Tibetan label [[?]]
 
     Returns a dict or None if the line is not a node line.
     """
-    stripped = line.lstrip()
-    if not stripped.startswith("* "):
+    if not line.lstrip().startswith("* "):
         return None
 
-    content = stripped[2:].strip()
-    parts = content.split(None, 1)
-    if not parts:
+    m = _TREE_LINE_RE.match(line.rstrip("\n"))
+    if not m:
         return None
 
-    raw_id = parts[0].rstrip(".")
-    if not re.fullmatch(r"[\d]+(?:\.[\d]+)*", raw_id):
-        return None
-
-    rest = parts[1].strip() if len(parts) > 1 else ""
-
-    if "[[" in rest:
-        label_part, context_part = rest.split("[[", 1)
-        label = label_part.strip()
-        context = context_part.rstrip("]").rstrip("]").strip()
-    else:
-        label = rest.strip()
-        context = ""
-
+    raw_id = m.group("dec")
+    label = m.group("label").strip()
+    pointer_raw = m.group("pointer")
+    pointer = None if pointer_raw in (None, "?") else int(pointer_raw)
     depth = raw_id.count(".") + 1
 
-    # Strip trailing tshegs (U+0F0B ་): context snippets end mid-syllable with
-    # a tsheg that appears as a shad or other particle in running prose.
-    raw_anchor = context[:ANCHOR_LENGTH]
-    context_anchor = raw_anchor.strip().rstrip("་")
-
     return {
-        "decimal_id":     raw_id,
-        "depth":          depth,
-        "label":          label,
-        "block_id":       decimal_to_block_id(raw_id),
-        "context":        context[:CONTEXT_MAX],
-        "context_anchor": context_anchor,
+        "decimal_id": raw_id,
+        "depth": depth,
+        "label": label,
+        "block_id": decimal_to_block_id(raw_id),
+        "pointer": pointer,
     }
 
 
@@ -167,6 +159,9 @@ def cmd_parse(args):
         json.dump(output, fh, ensure_ascii=False, indent=2)
 
     print(f"Parsed {len(nodes)} nodes, max depth {max_depth}.")
+    unresolved = sum(1 for n in nodes if n["pointer"] is None)
+    if unresolved:
+        print(f"  {unresolved} node(s) have no pointer ([[?]]) — will be not-found at ingest.")
     print(f"JSON cache written to: {out_path}")
 
     depth_counts = Counter(n["depth"] for n in nodes)
@@ -197,57 +192,39 @@ def cmd_ingest(args):
     with tree_path.open(encoding="utf-8") as fh:
         tree_data = json.load(fh)
 
-    # Process ALL nodes in strict document order (doc_order)
     all_nodes = sorted(tree_data["nodes"], key=lambda n: n["doc_order"])
 
     print(f"Ingesting {len(all_nodes)} nodes across {tree_data['max_depth']} depth levels.")
-    print(f"Strategy: document-order cursor disambiguation for repeated anchors.\n")
+    print("Strategy: direct line-number insertion, reverse document order.\n")
 
     text = commentary_path.read_text(encoding="utf-8")
     lines = text.splitlines(keepends=True)
+    total_lines = len(lines)
 
     inserted = 0
     skipped_present = 0
-    not_found = []      # (decimal_id, label, reason)
-    disambiguation = [] # (decimal_id, label, match_count, chosen_line)
+    not_found = []  # (decimal_id, label, reason)
 
-    # cursor: line index of the last successfully placed heading.
-    # All subsequent anchor searches start from this position.
-    cursor = 0
-
-    for node in all_nodes:
-        anchor = node.get("context_anchor", "").strip()
+    # Reverse document order: inserting at a later line first means earlier
+    # nodes' pointers (smaller line numbers) are never shifted by insertions
+    # made for later nodes.
+    for node in reversed(all_nodes):
+        pointer = node["pointer"]
         block_id = node["block_id"]
         h_line = heading_line(node)
 
-        if not anchor:
-            not_found.append((node["decimal_id"], node["label"],
-                              "empty context_anchor — [[?]] in toc-tree"))
+        if pointer is None:
+            not_found.append((node["decimal_id"], node["label"], "unresolved pointer ([[?]] in toc-tree)"))
             continue
 
-        # Find all lines containing the anchor
-        matches = [i for i, ln in enumerate(lines) if anchor in ln]
-
-        if len(matches) == 0:
+        if not (1 <= pointer <= total_lines):
             not_found.append((node["decimal_id"], node["label"],
-                              f"anchor not found: {anchor[:60]!r}"))
+                              f"pointer [[{pointer}]] out of range (file has {total_lines} lines)"))
             continue
 
-        # Determine target line: unique → that line; multiple → first at/after cursor
-        if len(matches) == 1:
-            target_line_idx = matches[0]
-        else:
-            # Document-order disambiguation: take first match at or after cursor
-            after_cursor = [m for m in matches if m >= cursor]
-            if not after_cursor:
-                not_found.append((node["decimal_id"], node["label"],
-                                  f"anchor has {len(matches)} matches but none at/after cursor {cursor}"))
-                continue
-            target_line_idx = after_cursor[0]
-            disambiguation.append((node["decimal_id"], node["label"],
-                                   len(matches), target_line_idx))
+        target_line_idx = pointer - 1  # 1-based pointer -> 0-based list index
 
-        # Already-present check: look for block_id in 1–3 lines before anchor
+        # Already-present check: look for block_id in the 1-3 lines before the target
         already = False
         for check_offset in (1, 2, 3):
             check_idx = target_line_idx - check_offset
@@ -256,40 +233,29 @@ def cmd_ingest(args):
                 break
 
         if already:
-            # Advance cursor past this position so later nodes search ahead
-            cursor = max(cursor, target_line_idx)
             skipped_present += 1
         else:
             lines.insert(target_line_idx, "\n")
             lines.insert(target_line_idx, h_line + "\n")
-            # After inserting 2 lines, the anchor is now at target_line_idx + 2
-            cursor = target_line_idx + 2
             inserted += 1
 
     commentary_path.write_text("".join(lines), encoding="utf-8")
 
     # --- Summary ---
-    print(f"Summary")
+    print("Summary")
     print(f"  Total nodes:           {len(all_nodes)}")
     print(f"  Inserted:              {inserted}")
     print(f"  Already present:       {skipped_present}")
     print(f"  Not found:             {len(not_found)}")
-    print(f"  Disambiguated (multi): {len(disambiguation)}")
-
-    if disambiguation:
-        print(f"\nDisambiguated (placed using document-order cursor):")
-        for decimal_id, label, count, line_idx in disambiguation:
-            print(f"  [{decimal_id}] {label[:60]} — {count} matches, chose line {line_idx}")
 
     if not_found:
-        print(f"\nNOT FOUND — insert manually then re-run to confirm:")
+        print("\nNOT FOUND — insert manually then re-run to confirm:")
         for decimal_id, label, reason in not_found:
             print(f"  [{decimal_id}] {label[:70]}")
             print(f"       {reason}")
 
     print(f"\nCommentary updated: {commentary_path}")
 
-    # Exit non-zero only if there are not-found nodes that need manual work
     if not_found:
         sys.exit(2)
 
