@@ -18,7 +18,8 @@ Expected form: `<corpus-id> <term> [--mainspace]`. Without `--mainspace` it goes
 
 Render `4-SYSTEM/Pipelines/wikipedia/prompts/08-review/v1-prepublication.md` (the canonical gate of
 `4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/16-wikipedia/`, which gates the whole publication layer) over the
-article's wikitext and the corpus `sources.yaml`, and run the review yourself. It must end
+article's wikitext and the corpus registry (`3-TRANSFORMATIONS/Wikipedia/<corpus>/sources.yaml`),
+and run the review yourself. It must end
 **publish** before any `--execute` — including sandbox. Its checks, condensed: every ref resolves
 (PD sources to Wikisource, copyrighted ones to a BDRC/WeBuddhist link carrying the full locator);
 no sub-consensus claim sitting in neutral voice; no synthesis; the independence case restated.

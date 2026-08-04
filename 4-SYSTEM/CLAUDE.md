@@ -365,7 +365,8 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Ingest JSON (commentary) | `json-to-commentary` |
 | Create a new skill (with full registration) | `create-skill` |
 | Audit vault integrity (weekly maintenance) | `vault-audit` |
-| Gather all claims scaffolded by a commentary's TOC tree | `toc-scaffolded-claims` |
+| Gather all claims scaffolded by a commentary's TOC tree (re-organisation of an existing extraction) | `toc-scaffolded-claims` |
+| Fresh, independent claims extraction guided node-by-node by a commentary's TOC tree | `tree-guided-claims` |
 | Strip OCR/PDF debris from a raw text | `clean-raw-text` |
 | Format a Tibetan root text into verse with block IDs | `format-tibetan-root-text` |
 | Break a commentary into citation-sized blocks | `commentary-segmentation` |

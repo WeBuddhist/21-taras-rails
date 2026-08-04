@@ -243,9 +243,9 @@ These skills populate `2-RAILS/` with the structured context that translation an
 → [`toc-candidate-extraction/SKILL.md`](toc-candidate-extraction/SKILL.md)
 
 ### `toc-tree-extraction` **[exists]**
-**Purpose:** Build the full nested, decimal-numbered ས་བཅད TOC tree for a Tibetan commentary via a four-pass isolated-subagent pipeline (candidates → verbatim enumerations → nested tree → deterministic QC + repair). Claude-native port of the Gemini-based `extract_toc_tree.py`; imported from the `bodhisattvacharyavatara-rails` vault.
+**Purpose:** Build the full nested, decimal-numbered ས་བཅད TOC tree for a Tibetan commentary via a four-pass isolated-subagent pipeline (candidates → verbatim enumerations → nested tree → deterministic QC + repair). Claude-native port of the Gemini-based `extract_toc_tree.py`; imported from the `bodhisattvacharyavatara-rails` vault. Pass 4's QC now runs **two** deterministic checkers: `qc_check_tree.py` (tree vs. the LLM's own candidates/enumerations corpus) and `qc_tree_vs_source.py` (tree vs. the commentary itself — pointer bounds, near-pointer title attestation, monotonicity, repeated-pointer collisions, sibling-count congruence). All three trees shipped in this vault passed the first checker cleanly while carrying real defects the second one catches; see that script's module docstring.
 **Inputs:** One Tibetan commentary/root-text file, normally under `1-SOURCES/Commentaries/`.
-**Outputs:** `0-INBOX/toc-candidates-<id>.md`, `0-INBOX/toc-enumerations-<id>.md`, `0-INBOX/toc-tree-<id>.md`, `0-INBOX/toc-tree-qc-<id>.md`, plus resumable per-chunk staging under `0-INBOX/temp/TOC-<id>/`.
+**Outputs:** `0-INBOX/toc-candidates-<id>.md`, `0-INBOX/toc-enumerations-<id>.md`, `0-INBOX/toc-tree-<id>.md`, `0-INBOX/toc-tree-qc-<id>.md`, `0-INBOX/toc-tree-qc-source-<id>.md`, plus resumable per-chunk staging under `0-INBOX/temp/TOC-<id>/`.
 → [`toc-tree-extraction/SKILL.md`](toc-tree-extraction/SKILL.md)
 
 ### `toc-scaffolded-claims` **[exists]**
@@ -253,6 +253,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Inputs:** One commentary file from `1-SOURCES/Commentaries/` with a `registered_id`, plus its TOC tree from `toc-tree-extraction` (or the Gemini script).
 **Outputs:** One file at `2-RAILS/Claims/toc-scaffolded/<registered-id>.md` — a Grounding index of attested referents, then claims grouped under headings mirroring the TOC tree's own nodes, each with the original-language statement, a one-line English gloss, a type, a referent anchor (or explicit `[unanchored]`), and a citation, plus internal-tensions and unanchored-claims rollups and a coverage log.
 → [`toc-scaffolded-claims/SKILL.md`](toc-scaffolded-claims/SKILL.md)
+
+### `tree-guided-claims` **[exists]**
+**Purpose:** The vault's method-3 claims extraction — a genuinely independent, fresh extraction done node by node against a commentary's own TOC tree, via one isolated subagent per node, never a re-bucketing of an existing claims file. Built after `_comparison-report.md` found that this vault's earlier `toc-scaffolded` run was Sonnet's category-scaffolded claims re-bucketed under the tree, not a real third extraction. Bakes in the report's five guards: claim IDs namespaced away from node decimals (`c-<decimal>-<n>`, never a bare number), a recomputed (never inherited) `claim_count`, per-node isolation as the structural guard against cross-node/cross-commentary contamination, a `stated` referent rule that resolves within the claim's own quotation, and a deterministic verifier run before the file is considered final.
+**Inputs:** One commentary file from `1-SOURCES/Commentaries/` with a `registered_id`, plus its TOC tree — checked clean (or human-reviewed) by **both** `toc-tree-extraction` QC scripts.
+**Outputs:** One file at `3-TRANSFORMATIONS/Wikipedia/<corpus>/claims/tree-guided/<registered-id>.md` — a Grounding index, claims under TOC-tree-mirrored headings with namespaced IDs, internal-tensions and unanchored-claims rollups, a coverage log, and a `verify_claims.py` pass (quote containment, count recomputation, ID collisions, `stated`-referent validity).
+→ [`tree-guided-claims/SKILL.md`](tree-guided-claims/SKILL.md)
 
 ---
 

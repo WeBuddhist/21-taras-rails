@@ -122,18 +122,35 @@ non-negotiable:
 
 ## Per-corpus contract
 
-Everything for one text lives under `corpora/<corpus-id>/`:
+**Sources and derived artifacts live in two different places as of 2026-08-04** (see
+`STATE.md`'s dated entry for the migration that made this so). Sources are the vault's own
+ground truth, annotated in place; everything the pipeline derives lives under its own corpus
+folder in `3-TRANSFORMATIONS/`:
 
 ```
-source/          root.md + commentaries/*.md                  — never modified after ingest
-sources.yaml     source registry: metadata + citation URLs    — curated, hand-editable
-terms.yaml       key-term registry from the team's sheet      — curated, hand-editable
-work/            aligned.json                                 — reproducible, don't hand-edit
-articles/<term>/ extract.json, claims.json, sections.json, draft.json, draft_polished.json?,
-                 audit.json + audit.md, article.wiki, citations.json, report.md, model.json
-review/          pending/ → approved/ → published/            — the human gate
-ledger.json      status per term, resumable
+1-SOURCES/Text/<root>.md              root text — segmented, block-ID'd, NEVER modified
+                                       except by the sanctioned `kwiki commentaries` promotion
+1-SOURCES/Commentaries/<title>.md     one file per commentary, same contract
+
+3-TRANSFORMATIONS/Wikipedia/<corpus-id>/
+  sources.yaml     source registry: metadata + citation URLs — curated, hand-editable;
+                   `local_path` names the `1-SOURCES/` file directly (vault-relative);
+                   `registered_id` cross-references that file's own frontmatter and
+                   `2-RAILS/Claims/`
+  terms.yaml       key-term registry from the team's sheet — curated, hand-editable
+  work/            aligned.json                             — reproducible, don't hand-edit
+  articles/<term>/ extract.json, claims.json, sections.json, draft.json, draft_polished.json?,
+                   audit.json + audit.md, article.wiki, citations.json, report.md, model.json
+  claims/          claims-extraction method comparisons (opus/sonnet/toc-scaffolded/
+                   tree-guided) — pipeline-owned, not `2-RAILS/Claims/` rails; see
+                   `claims/_comparison-report.md`
+  review/          pending/ → approved/ → published/         — the human gate
+  ledger.json      status per term, resumable
 ```
+
+The old `corpora/<corpus-id>/` layout (a private copy of the sources plus everything above)
+is frozen at `corpora/` — see `corpora/README.md` for exactly what moved where and why some
+of it (the 2026-08-02 run's archive) stays there permanently, not regenerable.
 
 ## Conventions
 

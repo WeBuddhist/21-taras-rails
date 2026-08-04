@@ -3,6 +3,67 @@
 Updated **2026-08-02**. This file is the handover note — read it first in a new session, then
 [`PLAN.md`](PLAN.md) and [`docs/reference/cowork-pipeline.md`](docs/reference/cowork-pipeline.md).
 
+## The 2026-08-03 rewire actually landed — 2026-08-04
+
+The previous entry below ("Rewired to read 1-SOURCES — same day, second pass") changed the
+*code* to resolve texts out of `1-SOURCES/` and derived artifacts into `3-TRANSFORMATIONS/`,
+but at the time neither the *data* nor the two blockers it named had been resolved — the
+pipeline was, in practice, unable to run. Both are done now:
+
+- **`1-SOURCES/Commentaries/` has been through the ingest chain.** All 16 pre-existing files
+  (plus a 17th, Gendun Drub's ṭīkā, added — see below) adopted the corpus's annotated bodies
+  — cleaned text, `^I-n` block IDs, all 209 root-verse transclusion anchors (rewritten to the
+  full vault path, `![[1-SOURCES/Text/...#^N-M]]`, not the corpus's bare `root` stem) — while
+  keeping their own richer vault frontmatter. `scripts/migrate_tara21_to_vault.py` did this,
+  asserting reading-view/block-ID/anchor identity against the corpus per file before writing
+  anything; nothing was written that failed the check. The root text adopted the corpus's
+  22-stanza-plus-invocation scheme (`^I-1`, `^1-1`…`^1-22`) over the old 47-numbered-line body;
+  `4-SYSTEM/Guidelines/vault-annex.md` §2 now documents this addressing scheme, including the
+  `^I-*` intro-prefix and no-segment-cap sa-bcad conventions, as this vault's own rule.
+- **The set mismatch is resolved**: Gendun Drub's ṭīkā (`TARAC03_GDD`, corpus-only before this)
+  is now `1-SOURCES/Commentaries/…ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md`, `registered_id: gendun-drub`,
+  17 commentaries registered total. `anon-rnam-snang` (vault-only, no corpus counterpart) stays
+  as-is, still flagged for a human read — its title duplicates the root's own Kangyur title.
+
+Pre-migration bodies are backed up at `0-INBOX/migration-backups/2026-08-04/` — this is the
+resolution target for the three frozen claims-comparison files' `L<n>`/`§n` citations (`opus`,
+`sonnet`, `toc-scaffolded`), which cite the pre-migration segmentation and would not resolve
+against the current files; each now carries a `body_version:` field saying so.
+
+**Derived artifacts moved to `3-TRANSFORMATIONS/Wikipedia/tara21/`** (`articles/`, `review/`,
+`ledger.json`, `terms.yaml`, a repointed `sources.yaml` with vault-relative `local_path` and a
+new `registered_id` per entry — `registry.Source` gained a real `registered_id` field for
+this). `corpora/tara21/` itself is frozen in place as the historical archive (`corpora/
+README.md` maps old→new paths); its `work/archive/` is still the non-regenerable record the
+paper cites. **Verified end to end against the moved paths**: `kwiki align tara21` reproduces
+the same **314 spans, 209 transclusion-anchored**; all three pilot articles (`སྒྲོལ་མ`,
+`འཇིག་རྟེན་གསུམ`, `སྡུག་བསྔལ`) re-verify **PASS**, **81/81 citations block-located** — identical
+to the numbers this file already reported below, which is exactly what should happen when only
+the paths move and nothing about the underlying text does. 568+ tests pass (up from 547; the
+new coverage is the two items below).
+
+**Two new things landed alongside the move, not required by it:**
+
+1. **`kwiki article` (and `kwiki local-wiki`) now emit a verified term's grounding material to
+   `2-RAILS/Local-Wiki/<term>.md`** — `stages/localwiki.py`'s `emit_local_wiki()`, gated the
+   same way `kwiki publish` is (ledger status ≥ `verified`). Renders the drafted lead as the
+   Contextual definition, every citation grouped by `registered_id` as Attestations, and
+   contested claims as Divergences — real output tested against all three pilot articles (5,
+   16, and 10 commentaries cited respectively). Previously this material existed only inside
+   `3-TRANSFORMATIONS/`; it is now also offered to the vault's own rails folder, still
+   `status: draft` until a domain specialist promotes it.
+2. **A genuine third claims-extraction method now exists as tooling** (not yet run):
+   `4-SYSTEM/Skills/tree-guided-claims/` extracts claims fresh, node by node against a TOC
+   tree, via one isolated subagent per node — never re-bucketing an existing extraction, which
+   is what `_comparison-report.md` found the original `toc-scaffolded` run actually was. Two
+   new deterministic checkers back it: `qc_tree_vs_source.py` (a TOC tree checked against the
+   commentary itself, not just the LLM's own candidates — it reproduces the report's
+   documented defects: the unresolved `[[?]]` node, the `130`-shared-by-four-nodes cursor-loss
+   signature) and `verify_claims.py` (quote containment, claim-count recomputation, ID
+   collisions, `stated`-referent validity). `/extract-claims <registered-id>` orchestrates the
+   whole chain. No extraction has been run with it yet — that is a deliberate next step, not
+   an oversight.
+
 ## Moved into the rails vault — 2026-08-03
 
 **This pipeline now lives at `4-SYSTEM/Pipelines/wikipedia/` inside the `21-taras-rails` vault, and
