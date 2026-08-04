@@ -33,42 +33,42 @@ status: draft
 ## Grounding index
 
 ### Figures and forms (deities, aspects, emanations)
-| ID | Name (verbatim) | What the source says it is | Attested at |
-|---|---|---|---|
-| FIG-1 | སྒྲོལ་མ | The deity praised throughout; called Tārā from the lightning-flash of her eyes; arose from the lotus-mouth pollen of Avalokiteshvara; also addressed as ལྷ་མོ་སྒྲོལ་མ and རྗེ་བཙུན་མ in the benefits section; bears many forms and epithets verse by verse (Swift, Heroine, Ture, etc.) | Nearly every node; e.g. ^0-3–^0-49 throughout |
-| FIG-2 | སྤྱན་རས་གཟིགས | Avalokiteshvara — protector of the three worlds (netherworld, earthly, upper); Tārā arose from the pollen of his lotus-mouth flower | ^0-5 |
-| FIG-3 | འོད་དཔག་མེད | Amitābha — family-lord (རིགས་བདག) said to dwell amid Tārā's matted locks | ^0-29 |
-| FIG-4 | བརྒྱ་བྱིན | Indra/Śakra — named among the deities who worship Tārā; also among those relying on her feet | ^0-15, ^0-42 |
-| FIG-5 | མེ་ལྷ | Agni, fire god — named among the deities who worship Tārā | ^0-15 |
-| FIG-6 | ཚངས་པ | Brahmā — named among the deities who worship Tārā; also among those relying on her feet | ^0-15, ^0-42 |
-| FIG-7 | རླུང་ལྷ | Vāyu, wind god — named among the deities who worship Tārā | ^0-15 |
-| FIG-8 | སྣ་ཚོགས་དབང་ཕྱུག | Sarveśvara/Viśveśvara, "the great lords" — named among the great lords who worship Tārā | ^0-15 |
-| FIG-9 | ཚོགས་བདག | Gaṇapati — named among those who praise Tārā | ^0-16 |
-| FIG-10 | གཞན་འཕྲུལ་དབང་བྱེད་ཀྱི་བདག་པོ་བདུད | Māra, lord of the Paranirmitavaśavartin devas — the being Tārā subdues by the sound of laughter and the mantra tuttāra | ^0-25 |
+| ID     | Name (verbatim)                    | What the source says it is                                                                                                                                                                                                                                                              | Attested at                                   |
+| ------ | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| FIG-1  | སྒྲོལ་མ                            | The deity praised throughout; called Tārā from the lightning-flash of her eyes; arose from the lotus-mouth pollen of Avalokiteshvara; also addressed as ལྷ་མོ་སྒྲོལ་མ and རྗེ་བཙུན་མ in the benefits section; bears many forms and epithets verse by verse (Swift, Heroine, Ture, etc.) | Nearly every node; e.g. ^0-3–^0-49 throughout |
+| FIG-2  | སྤྱན་རས་གཟིགས                      | Avalokiteshvara — protector of the three worlds (netherworld, earthly, upper); Tārā arose from the pollen of his lotus-mouth flower                                                                                                                                                     | ^0-5                                          |
+| FIG-3  | འོད་དཔག་མེད                        | Amitābha — family-lord (རིགས་བདག) said to dwell amid Tārā's matted locks                                                                                                                                                                                                                | ^0-29                                         |
+| FIG-4  | བརྒྱ་བྱིན                          | Indra/Śakra — named among the deities who worship Tārā; also among those relying on her feet                                                                                                                                                                                            | ^0-15, ^0-42                                  |
+| FIG-5  | མེ་ལྷ                              | Agni, fire god — named among the deities who worship Tārā                                                                                                                                                                                                                               | ^0-15                                         |
+| FIG-6  | ཚངས་པ                              | Brahmā — named among the deities who worship Tārā; also among those relying on her feet                                                                                                                                                                                                 | ^0-15, ^0-42                                  |
+| FIG-7  | རླུང་ལྷ                            | Vāyu, wind god — named among the deities who worship Tārā                                                                                                                                                                                                                               | ^0-15                                         |
+| FIG-8  | སྣ་ཚོགས་དབང་ཕྱུག                   | Sarveśvara/Viśveśvara, "the great lords" — named among the great lords who worship Tārā                                                                                                                                                                                                 | ^0-15                                         |
+| FIG-9  | ཚོགས་བདག                           | Gaṇapati — named among those who praise Tārā                                                                                                                                                                                                                                            | ^0-16                                         |
+| FIG-10 | གཞན་འཕྲུལ་དབང་བྱེད་ཀྱི་བདག་པོ་བདུད | Māra, lord of the Paranirmitavaśavartin devas — the being Tārā subdues by the sound of laughter and the mantra tuttāra                                                                                                                                                                  | ^0-25                                         |
 
 ### Persons (authors, teachers, lineage figures, requesters)
-| ID | Name (verbatim) | Role stated in the source | Attested at |
-|---|---|---|---|
-| PER-1 | ཀརྨ་མཻ་ཏྲི | Karma Maitri — the scholar-adept (མཁས་གྲུབ) whose oral teaching the colophon says was written down as scattered notes by the compiler | ^0-49 |
-| PER-2 | གུ་རུ | Guru — addressed in the opening homage line; not otherwise identified by name in this commentary | ^0-1 |
+| ID    | Name (verbatim) | Role stated in the source                                                                                                             | Attested at |
+| ----- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+| PER-1 | ཀརྨ་མཻ་ཏྲི      | Karma Maitri — the scholar-adept (མཁས་གྲུབ) whose oral teaching the colophon says was written down as scattered notes by the compiler | ^0-49       |
+| PER-2 | གུ་རུ           | Guru — addressed in the opening homage line; not otherwise identified by name in this commentary                                      | ^0-1        |
 
 ### Places
-| ID | Name (verbatim) | Context | Attested at |
-|---|---|---|---|
-| PLC-1 | རི་རབ་མནྡ་ར | Mount Meru Mandara — one of the mountains outside the trichiliocosm said to be shaken | ^0-39 |
-| PLC-2 | རི་རབ་འབིག་བྱེད | Mount Meru Vibhedaka — one of the mountains outside the trichiliocosm said to be shaken | ^0-39 |
+| ID    | Name (verbatim) | Context                                                                                 | Attested at |
+| ----- | --------------- | --------------------------------------------------------------------------------------- | ----------- |
+| PLC-1 | རི་རབ་མནྡ་ར     | Mount Meru Mandara — one of the mountains outside the trichiliocosm said to be shaken   | ^0-39       |
+| PLC-2 | རི་རབ་འབིག་བྱེད | Mount Meru Vibhedaka — one of the mountains outside the trichiliocosm said to be shaken | ^0-39       |
 
 ### Texts and mantras cited
-| ID | Name / incipit (verbatim) | How the source uses it | Attested at |
-|---|---|---|---|
-| TXT-1 | ཏུཏྟཱ་རེ་ཧཱུཾ | Mantra letters said to fill the desire, form, and formless realms | ^0-13 |
-| TXT-2 | ཏྲད | Wrathful mouth-sound (with ཕཊ) destroying the enemy's harmful device | ^0-17 |
-| TXT-3 | ཡི་གེ་ཧཱུྃ | Seed-syllable HŪṂ — recurring seed-syllable marking Tārā's heart/palm across several verses, source of radiating light | ^0-22–^0-23, ^0-27, ^0-33, ^0-36 |
-| TXT-4 | ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ | The ten-syllable root mantra, arising from the wheel-arranged HŪM; called "the root mantra taught earlier" at the text's close | ^0-37, ^0-47–^0-48 |
-| TXT-5 | ༀ་ན་མཿ ཏཱ་རེ་ན་མོ་ཧཱ་རེ་ཧཱུྃ་ཧཱ་རེ་སྭཱ་ཧཱ | Wrathful-form variant of the mantra, tied to destroying the host of māras | ^0-37 |
-| TXT-6 | སྭཱ་ཧཱ | Mantra element (with ཨོཾ) the fifteenth Tārā's mantra is endowed with, said to destroy great sins and obscurations | ^0-35 |
-| TXT-7 | ཕཊ | Mantra ending (after TARA repeated twice) eliminating poisons of the moving and unmoving | ^0-41 |
-| TXT-8 | ཏུཏྟཱ་རེ | Vidyā-mantra letter (with ཧཱ་ར) dispelling epidemic disease | ^0-45 |
+| ID    | Name / incipit (verbatim)                 | How the source uses it                                                                                                         | Attested at                      |
+| ----- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
+| TXT-1 | ཏུཏྟཱ་རེ་ཧཱུཾ                             | Mantra letters said to fill the desire, form, and formless realms                                                              | ^0-13                            |
+| TXT-2 | ཏྲད                                       | Wrathful mouth-sound (with ཕཊ) destroying the enemy's harmful device                                                           | ^0-17                            |
+| TXT-3 | ཡི་གེ་ཧཱུྃ                                | Seed-syllable HŪṂ — recurring seed-syllable marking Tārā's heart/palm across several verses, source of radiating light         | ^0-22–^0-23, ^0-27, ^0-33, ^0-36 |
+| TXT-4 | ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ           | The ten-syllable root mantra, arising from the wheel-arranged HŪM; called "the root mantra taught earlier" at the text's close | ^0-37, ^0-47–^0-48               |
+| TXT-5 | ༀ་ན་མཿ ཏཱ་རེ་ན་མོ་ཧཱ་རེ་ཧཱུྃ་ཧཱ་རེ་སྭཱ་ཧཱ | Wrathful-form variant of the mantra, tied to destroying the host of māras                                                      | ^0-37                            |
+| TXT-6 | སྭཱ་ཧཱ                                    | Mantra element (with ཨོཾ) the fifteenth Tārā's mantra is endowed with, said to destroy great sins and obscurations             | ^0-35                            |
+| TXT-7 | ཕཊ                                        | Mantra ending (after TARA repeated twice) eliminating poisons of the moving and unmoving                                       | ^0-41                            |
+| TXT-8 | ཏུཏྟཱ་རེ                                  | Vidyā-mantra letter (with ཧཱ་ར) dispelling epidemic disease                                                                    | ^0-45                            |
 
 ### Events and dates
 | ID | Event / date (verbatim) | Context | Attested at |
