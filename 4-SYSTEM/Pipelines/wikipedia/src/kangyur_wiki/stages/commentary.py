@@ -39,7 +39,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Callable, Iterable, Sequence
 
-from ..config import repo_root
+from ..config import repo_root, vault_root
 from ..tibetan.normalize import collapse
 
 __all__ = [
@@ -632,6 +632,21 @@ class PrepareResult:
         self.source.write_text(self.final.read_text(encoding="utf-8"), encoding="utf-8")
 
 
+def _root_link_base(root: Path) -> str:
+    """The transclusion target ``01_transclude_verses.py`` should link commentaries to.
+
+    Prefers the root file's path relative to the vault (``1-SOURCES/Text/<name>.md``), so
+    the anchor resolves unambiguously in Obsidian and keeps working if the corpus is ever
+    renamed — the historical default (``root.stem``, i.e. the bare word ``root``) only
+    ever worked because the private corpus copy happened to be *named* ``root.md``. Falls
+    back to the bare stem for a standalone checkout with no vault around it.
+    """
+    try:
+        return root.resolve().relative_to(vault_root()).as_posix()
+    except ValueError:
+        return root.stem
+
+
 def prepare_file(
     path: Path,
     *,
@@ -748,7 +763,7 @@ def prepare_file(
         [
             "--root", root,
             "--commentary", anchored,
-            "--link-base", root.stem,
+            "--link-base", _root_link_base(root),
             # A བསྟོད་འགྲེལ cites its verse by the opening pada inside a ཞེས frame far
             # more often than it quotes the whole stanza; without --incipit six of
             # these sixteen commentaries anchor nothing at all.  --in-order refuses

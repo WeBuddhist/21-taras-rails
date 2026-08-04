@@ -316,6 +316,11 @@ class Source:
     copyright: str | None = None
     author_dates: str | None = None
     webuddhist_url: str | None = None
+    # The vault's 2-RAILS/Claims/ short id for this same source (e.g. "karma-maitri"),
+    # so a source can be traced to its claims files and its 1-SOURCES/ frontmatter
+    # without re-deriving the id from local_path. Optional: a corpus that predates the
+    # vault-native registry (or has no rails-side claims work yet) leaves this unset.
+    registered_id: str | None = None
 
     def to_dict(self) -> dict[str, Any]:
         """YAML-ready form; ``None`` fields are kept so the file doubles as a
@@ -338,6 +343,7 @@ class Source:
             "copyright": self.copyright,
             "author_dates": self.author_dates,
             "webuddhist_url": self.webuddhist_url,
+            "registered_id": self.registered_id,
         }
 
     @classmethod
@@ -361,6 +367,7 @@ class Source:
             copyright=_clean_optional(data.get("copyright")),
             author_dates=_clean_optional(data.get("author_dates")),
             webuddhist_url=_clean_optional(data.get("webuddhist_url")),
+            registered_id=_clean_optional(data.get("registered_id")),
         )
 
 

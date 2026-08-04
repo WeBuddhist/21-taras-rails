@@ -20,6 +20,7 @@ from . import registry as registry_mod
 from .config import load_settings
 from .ledger import Ledger, LedgerEntry, TermStatus, ledger_path
 from .stages import align as align_mod
+from .stages.localwiki import emit_local_wiki
 from .stages.pipeline import (
     Passage,
     TermArtifacts,
@@ -462,7 +463,20 @@ def article(
     _echo_path("article", artifacts.wikitext)
     _echo_path("audit", artifacts.audit_report)
     _echo_path("report", artifacts.report)
-    if not (result.passed and audit.passed):
+
+    if result.passed and audit.passed:
+        # Both gates cleared — offer the same grounding material to the vault's own
+        # rails folder. Never fatal: a verified, audited article must still be
+        # reported as such even if this rendering step has a problem of its own.
+        try:
+            lw = emit_local_wiki(term, corpus, artifacts, reg, settings.local_wiki_dir, model=client.model, run_at=_now())
+            typer.echo(
+                f"  local-wiki: {lw.commentaries_cited} commentaries, {lw.attestations} attestations"
+            )
+            _echo_path("local-wiki", lw.path)
+        except Exception as exc:  # noqa: BLE001 - a rendering problem is not a verify failure
+            typer.echo(f"  local-wiki: skipped ({type(exc).__name__}: {exc})")
+    else:
         raise typer.Exit(code=1)
 
 
@@ -841,6 +855,42 @@ def publish(
     if execute:
         led.set_status(term, TermStatus.PUBLISHED, _now(), wiki_title=title)
         led.save()
+
+
+@app.command(name="local-wiki")
+def local_wiki(corpus: str = typer.Argument(...), term: str = typer.Argument(...)) -> None:
+    """Emit a verified article's grounding material to 2-RAILS/Local-Wiki/.
+
+    Same status gate as `kwiki publish`: refuses a term that has not reached
+    ``verified`` (or later) — a Local-Wiki candidate built from a draft that might
+    still fail the deterministic gate is not worth writing. Re-running preserves the
+    outgoing file to ``2-RAILS/Local-Wiki/history/`` first, the same convention every
+    other per-stage artifact in this pipeline follows.
+    """
+    settings = load_settings()
+    cdir = _corpus_dir(corpus)
+    reg = registry_mod.load(cdir)
+    artifacts = TermArtifacts(cdir / "articles" / term.strip("།་"))
+    if not artifacts.wikitext.exists():
+        raise typer.BadParameter(f"no drafted article at {artifacts.wikitext}")
+
+    led = Ledger.load(ledger_path(settings.corpora_dir, corpus), corpus_id=corpus)
+    entry = led.get(term)
+    if entry is None or entry.status not in {TermStatus.VERIFIED, TermStatus.APPROVED, TermStatus.PUBLISHED}:
+        status_value = entry.status.value if entry else "unknown"
+        raise typer.BadParameter(
+            f"{term} is {status_value}; only a verified article's material is emitted. "
+            "Run `kwiki verify` first."
+        )
+
+    result = emit_local_wiki(term, corpus, artifacts, reg, settings.local_wiki_dir)
+    typer.echo(
+        f"{result.commentaries_cited} commentaries cited, {result.attestations} attestations, "
+        f"{result.divergences} divergences"
+    )
+    for warning in result.warnings:
+        typer.echo(f"  warning: {warning}")
+    _echo_path("local-wiki", result.path)
 
 
 @app.command()

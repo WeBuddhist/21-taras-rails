@@ -145,6 +145,18 @@ def _default_prompts_dir() -> Path:
     return repo_root() / "prompts"
 
 
+def _default_local_wiki_dir() -> Path:
+    """Where a verified article's grounding material is offered to the rails folder.
+
+    Unlike ``corpora_dir``, this has no legacy fallback: Local-Wiki emission is new
+    behaviour (the vault's 2-RAILS/ existed long before this pipeline did), so there
+    is no prior in-repo location to fall back to. A standalone checkout with no
+    ``2-RAILS/`` still gets a path here — ``emit_local_wiki`` creates the directory
+    on first write — it simply will not be inside anyone's vault.
+    """
+    return vault_root() / "2-RAILS" / "Local-Wiki"
+
+
 class ConfigError(RuntimeError):
     """A setting the run cannot proceed without is missing or unusable."""
 
@@ -168,6 +180,7 @@ class Settings:
     prompts_dir: Path = field(default_factory=_default_prompts_dir)
     source_text_dir: Path = field(default_factory=_default_source_text_dir)
     source_commentaries_dir: Path = field(default_factory=_default_source_commentaries_dir)
+    local_wiki_dir: Path = field(default_factory=_default_local_wiki_dir)
 
     def __repr__(self) -> str:
         """Masked representation — see the module docstring.

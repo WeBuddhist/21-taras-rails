@@ -31,14 +31,18 @@ the rest:
 
 Per file it runs: stage-2 refinement → sa-bcad headings (`tag-inline-toc` Phase 1 through Gemini,
 Phase 2 through the vendored renderer) → root-verse transclusion anchors → a block ID on every
-content block. Intermediates land in `work/ingest/commentaries/`, the summary in
-`work/ingest/COMMENTARY_REPORT.md`, and the finished file is copied over `source/commentaries/`
-(with a `.pre-toc` backup) only if every step held.
+content block. Intermediates land in
+`3-TRANSFORMATIONS/Wikipedia/<corpus-id>/work/ingest/commentaries/`, the summary in
+`3-TRANSFORMATIONS/Wikipedia/<corpus-id>/work/ingest/COMMENTARY_REPORT.md`, and the finished file
+is copied back over **`1-SOURCES/Commentaries/`** (with a `.pre-toc` backup alongside the
+intermediates) only if every step held. This writes into the vault's otherwise-frozen ground
+truth — see "Layout to produce" below and `4-SYSTEM/Guidelines/vault-annex.md` §6 for why that is
+the sanctioned exception, not a rule being broken quietly.
 
 The invariant it enforces after each step: the file's **reading view** — its text with every layer
 of scaffolding taken back off — must be byte-identical to what it was. A file that fails is left
 alone and reported. Useful flags: `--only <substring>` for one file, `--skip-toc` for no model call,
-`--no-promote` to review before overwriting `source/`.
+`--no-promote` to review before overwriting `1-SOURCES/Commentaries/`.
 
 **Read the report.** Three numbers matter per commentary: headings found, verses anchored, blocks
 stamped. A word-commentary (`བསྡུས་འགྲེལ`, `མཆན་འགྲེལ`) legitimately anchors zero verses because it
@@ -55,14 +59,32 @@ reviewed list in `terms.yaml`. A human approves the list before anything downstr
 
 ## Layout to produce
 
+Annotated **sources** live in the vault's own `1-SOURCES/`, never in a private corpus copy —
+this is what lets any rails work, any other skill, and Obsidian itself resolve the same files
+the pipeline cites:
+
 ```
-4-SYSTEM/Pipelines/wikipedia/corpora/<corpus-id>/
-  source/
-    root.md                    segmented, ^chapter-verse IDs, NFC
-    commentaries/<id>.md       sa-bcad headings, ^N-…-0 heading IDs, a block ID on every
-                               content block, ![[root#^N-V]] anchors — see conventions.md §1a
-  sources.yaml                 metadata + citation URLs (see below) — corpus root, not source/
+1-SOURCES/Text/<root>.md                     segmented, ^chapter-verse IDs, NFC
+1-SOURCES/Commentaries/<title>.md            sa-bcad headings, ^N-…-0 heading IDs, a block ID
+                                              on every content block,
+                                              ![[1-SOURCES/Text/<root>.md#^N-V]] anchors — full
+                                              vault-relative path, not a bare `root` stem; see
+                                              conventions.md §1a
+```
+
+Everything the pipeline *derives* — the registries, the ledger, per-term article state — lives
+under its own corpus folder in `3-TRANSFORMATIONS/`, alongside a `claims/` subfolder for any
+claims-extraction method comparisons run over the same corpus:
+
+```
+3-TRANSFORMATIONS/Wikipedia/<corpus-id>/
+  sources.yaml                 metadata + citation URLs (see below); local_path names the
+                                1-SOURCES/ file directly, registered_id cross-references
+                                2-RAILS/Claims/ and this vault's claims/ method folders
   terms.yaml                   key-term registry (from the sheet, or seeded by the terms stage)
+  work/aligned.json            stage 2 output
+  articles/<term>/             stages 4–7 output
+  claims/{opus,sonnet,toc-scaffolded,tree-guided}/   claims-extraction method comparisons, if run
 ```
 
 ## sources.yaml is not optional
@@ -70,7 +92,10 @@ reviewed list in `terms.yaml`. A human approves the list before anything downstr
 Every commentary needs an entry, because that is where citation URLs come from — the model is
 never allowed to invent one. Use `4-SYSTEM/Pipelines/wikipedia/scripts/export_corpus_registry.py` if the corpus is one of the
 17 tabs in the team's Google Sheet; otherwise write the entries by hand. Preference order for the
-citation URL is Wikisource text → Wikisource index → BDRC → WeBuddhist → Commons.
+citation URL is Wikisource text → Wikisource index → BDRC → WeBuddhist → Commons. Set
+`local_path` to the vault-relative `1-SOURCES/…` path (not a corpus-relative one), and set
+`registered_id` to the same short id that file's own frontmatter carries — `_resolve_source()`
+and `Source.registered_id` both read these directly.
 
 Per the canonical pipeline's step 1 (`4-SYSTEM/Pipelines/wikipedia/docs/reference/cowork-pipeline.md`;
 `4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/01-ingest/`), each entry should also carry the metadata the

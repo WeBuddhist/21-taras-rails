@@ -73,7 +73,8 @@ and ask** before doing anything else.
 | `0-INBOX/toc-candidates-<id>.md` | merged candidates |
 | `0-INBOX/toc-enumerations-<id>.md` | merged verbatim enumerations |
 | `0-INBOX/toc-tree-<id>.md` | the final nested decimal TOC tree |
-| `0-INBOX/toc-tree-qc-<id>.md` | QC report (issues before / after repair) |
+| `0-INBOX/toc-tree-qc-<id>.md` | QC report vs. the candidates+enumerations corpus (issues before / after repair) |
+| `0-INBOX/toc-tree-qc-source-<id>.md` | QC report vs. the source commentary itself — pointer validity, near-pointer attestation, monotonicity/collisions, sibling-count congruence |
 
 Drafts in `0-INBOX/` — scratch, never cited from `2-RAILS/`. The tree has **no `^toc` block
 IDs**; the decimal numbering alone identifies each entry. (Inserting the tree into a
@@ -190,33 +191,59 @@ subagent did not.
 
 ## Pass 4 — Deterministic QC, then ISOLATED repair subagent
 
-First run the bundled checker yourself (NOT by hand — it encodes the exact
-numbering/attestation logic and must be identical every run):
+Run **both** bundled checkers yourself (NOT by hand — each encodes exact
+numbering/attestation logic and must be identical every run). They check different things
+and neither substitutes for the other:
 
 ```bash
 python 4-SYSTEM/Skills/toc-tree-extraction/scripts/qc_check_tree.py \
   0-INBOX/toc-tree-<id>.md \
   --corpus 0-INBOX/toc-candidates-<id>.md 0-INBOX/toc-enumerations-<id>.md \
   --out 0-INBOX/toc-tree-qc-<id>.md
+
+python 4-SYSTEM/Skills/toc-tree-extraction/scripts/qc_tree_vs_source.py \
+  0-INBOX/toc-tree-<id>.md --source <input-file> \
+  --out 0-INBOX/toc-tree-qc-source-<id>.md
 ```
 
-It flags indentation errors, Tibetan-ordinal vs decimal mismatch, duplicate decimals, sibling
-gaps/dups, titles not attested (possible hallucination), and ordinals not attested for a
-title. Exit code = issue count.
+`qc_check_tree.py` flags indentation errors, Tibetan-ordinal vs decimal mismatch, duplicate
+decimals, sibling gaps/dups, titles not attested *in the candidates+enumerations the model
+itself extracted* (possible hallucination), and ordinals not attested for a title. That
+corpus is LLM output too, so a tree can pass this check cleanly while still being
+inconsistent with the actual commentary — which is exactly what happened on all three
+trees shipped in this vault (all reported `issues_before: 0, issues_after: 0` while
+carrying real defects; see `qc_tree_vs_source.py`'s module docstring for the specifics).
 
-If issues remain, dispatch ONE **isolated repair subagent** with only the pass-4 prompt and
-the paths of the issue report, tree, and both sources:
+`qc_tree_vs_source.py` is the check against the commentary itself: pointer bounds, title
+attestation *near* each node's own `[[N]]`/`[[?]]` pointer (not just somewhere in the
+file), document-order monotonicity, repeated-pointer collisions (the "extractor lost its
+cursor" signature — a value repeating three or more times across different titled
+subsections), and a heuristic sibling-count check (does a node's own announcing text name
+a division count that matches how many children the tree actually gives it). **Pass the
+exact file version the tree's line numbers were computed against** — `--source` must be
+the same bytes `chunk_file.py` chunked, not a later resegmentation of the same
+commentary, or every pointer will look wrong for a reason that has nothing to do with the
+tree.
+
+Both exit codes = issue count. If either reports issues, dispatch ONE **isolated repair
+subagent** with only the pass-4 prompt and the paths of both issue reports, tree, and both
+sources:
 
 > Read `4-SYSTEM/Skills/toc-tree-extraction/prompts/pass4-qc-repair.md` and follow it exactly.
 > Correct the tree for commentary "<id>", fixing every issue in `0-INBOX/toc-tree-qc-<id>.md`
-> against BOTH the enumerations (`0-INBOX/toc-enumerations-<id>.md`) and the candidates
-> (`0-INBOX/toc-candidates-<id>.md`). The tree to fix is `0-INBOX/toc-tree-<id>.md`. Overwrite
-> that same file with the corrected tree block and reply only with its path.
+> AND `0-INBOX/toc-tree-qc-source-<id>.md` against the enumerations
+> (`0-INBOX/toc-enumerations-<id>.md`), the candidates (`0-INBOX/toc-candidates-<id>.md`),
+> and the source commentary itself (`<input-file>`) — the source is the final authority
+> when it and the candidates disagree. The tree to fix is `0-INBOX/toc-tree-<id>.md`.
+> Overwrite that same file with the corrected tree block and reply only with its path.
 
-After it returns, **re-run the checker** and record issues-before / issues-after in
-`0-INBOX/toc-tree-qc-<id>.md`. Iterate (a fresh isolated repair subagent per round) until the
-count is 0 or only genuinely-ambiguous issues remain (note those for the human). Keep the
-deterministic checker as the gate — never declare the tree clean on a subagent's say-so.
+After it returns, **re-run both checkers** and record issues-before / issues-after in both
+QC report files. Iterate (a fresh isolated repair subagent per round) until both counts are
+0 or only genuinely-ambiguous issues remain (note those for the human — a sibling-count
+mismatch or a same-line collision across nested levels is often legitimate, not wrong;
+`qc_tree_vs_source.py` says so explicitly rather than treating every flag as proven error).
+Keep both deterministic checkers as the gate — never declare the tree clean on a
+subagent's say-so, and never report zero issues when a checker was not actually run.
 
 ---
 

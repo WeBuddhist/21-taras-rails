@@ -8,10 +8,11 @@ If no term is given, pick the next `pending` term from the ledger (`kwiki status
 1. Read `4-SYSTEM/Pipelines/wikipedia/docs/reference/wikitext-spec.md` — it is the output contract — and skim
    `4-SYSTEM/Pipelines/wikipedia/docs/reference/cowork-pipeline.md` — the canonical 17-step pipeline this chain implements
    (stages 4–7 here are its steps 6–12; the skills live in `4-SYSTEM/Pipelines/wikipedia/cowork-pipeline/`).
-2. Confirm the corpus is aligned: `4-SYSTEM/Pipelines/wikipedia/corpora/<corpus>/work/aligned.json` must exist. If not, run
+2. Confirm the corpus is aligned:
+   `3-TRANSFORMATIONS/Wikipedia/<corpus>/work/aligned.json` must exist. If not, run
    `./4-SYSTEM/Pipelines/wikipedia/.venv/bin/kwiki align <corpus>` first and **read the coverage table** — a commentary below
    ~50% coverage will contribute little, and that is worth telling the human before spending tokens.
-3. Confirm the commentaries carry block IDs (`grep -c ' \^' 4-SYSTEM/Pipelines/wikipedia/corpora/<corpus>/source/commentaries/*.md`).
+3. Confirm the commentaries carry block IDs (`grep -c ' \^' 1-SOURCES/Commentaries/*.md`).
    If they do not, run `/ingest`'s `kwiki commentaries <corpus>` step first. Without them every
    citation can name only a file, and the segment-provenance numbers below will all be zero.
 4. Confirm the Gemini key loads:
@@ -22,7 +23,7 @@ If no term is given, pick the next `pending` term from the ledger (`kwiki status
 ## Run
 
 **Pick the path first.** If the term already has a bo.wikipedia article (check
-`4-SYSTEM/Pipelines/wikipedia/corpora/<corpus>/terms.yaml` — a `wikipedia_url` means it exists; 520 of 545 spyodjug terms do),
+`3-TRANSFORMATIONS/Wikipedia/<corpus>/terms.yaml` — a `wikipedia_url` means it exists; 520 of 545 spyodjug terms do),
 use the **update path**; otherwise the create path.
 
 Create path (stages 4–7: extract → claims → outline → draft [→ polish] → audit → verify):
@@ -75,15 +76,26 @@ Update path (extract → classify against the live article → merge → verify)
 ./4-SYSTEM/Pipelines/wikipedia/.venv/bin/kwiki update <corpus> <term>
 ```
 
-Both write everything under `4-SYSTEM/Pipelines/wikipedia/corpora/<corpus>/articles/<term>/`. The update path additionally
+Both write everything under `3-TRANSFORMATIONS/Wikipedia/<corpus>/articles/<term>/`. The update path additionally
 writes `existing.wiki` (the snapshot it ran against), `update_ops.json` (the model's
 classification), and `update_report.md` (applied/skipped operations, ⚑ conflicts, and the diff).
 **Read the ⚑ conflicts to the human verbatim** — they are the cases the pipeline refused to
 decide, and deciding them is the human's job, not yours.
 
+## After a double-PASS: the vault's own Local-Wiki
+
+`kwiki article` auto-emits to `2-RAILS/Local-Wiki/<term>.md` the moment both the audit and the
+deterministic verify gate pass — the same grounding material (contextual definition from the
+lead, verbatim per-commentary attestations, any contested claims as Divergences), rendered into
+the vault's own rails format rather than left stranded in `3-TRANSFORMATIONS/`. Read the emitted
+file and report its counts (commentaries cited, attestations, divergences) alongside the article
+numbers below. If it was skipped (the CLI reports why rather than failing the run), say so and
+run it by hand once the cause is fixed: `kwiki local-wiki <corpus> <term>` (same status gate as
+`kwiki publish` — the term must already be `verified` or later).
+
 ## Then report honestly
 
-Read `4-SYSTEM/Pipelines/wikipedia/corpora/<corpus>/articles/<term>/report.md` and `audit.md`, and tell the human:
+Read `3-TRANSFORMATIONS/Wikipedia/<corpus>/articles/<term>/report.md` and `audit.md`, and tell the human:
 
 - how many passages were extracted, from how many distinct commentaries;
 - how many **claims** they became, and the claim-type distribution — how many are below
