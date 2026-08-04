@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0ee988f2ed0e67b",
+            "id": "54c0ca4cab9dcdb4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 317.83984375
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -178,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 274.21484375
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,41 +195,41 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
-    "4-SYSTEM/Skills/tree-guided-claims/scripts/verify_claims.py",
-    "4-SYSTEM/Skills/tree-guided-claims/scripts",
-    "4-SYSTEM/Skills/tree-guided-claims/SKILL.md",
-    "4-SYSTEM/Skills/tree-guided-claims",
-    "4-SYSTEM/Skills/toc-tree-extraction/scripts/qc_tree_vs_source.py",
-    "4-SYSTEM/Pipelines/wikipedia/tests/test_skill_verifiers.py",
-    "4-SYSTEM/Pipelines/wikipedia/tests/test_localwiki.py",
-    "4-SYSTEM/Pipelines/wikipedia/src/kangyur_wiki/stages/localwiki.py",
-    "4-SYSTEM/Pipelines/wikipedia/scripts/migrate_tara21_to_vault.py",
-    "4-SYSTEM/Pipelines/wikipedia/corpora/README.md",
-    "0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.txt",
-    "0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx",
-    "0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོའི་སྒྲོལ་མའི་འགྲེལ་པ།.docx.txt",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
-    "0-INBOX/migration-backups/2026-08-04/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས།.md",
-    "0-INBOX/migration-backups/2026-08-04/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md",
+    "0-INBOX/toc-tree-karma-maitri.md",
+    "0-INBOX/toc-tree-gendun-gyatso.md",
+    "0-INBOX/toc-enumerations-lobsang-dawa.md",
+    "0-INBOX/toc-enumerations-gendun-gyatso.md",
+    "0-INBOX/toc-enumerations-karma-maitri.md",
+    "0-INBOX/toc-candidates-karma-maitri.md",
+    "0-INBOX/toc-candidates-gendun-gyatso.md",
+    "0-INBOX/toc-candidates-lobsang-dawa.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md",
     "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
+    "2-RAILS/Local-Wiki/འཇིག་རྟེན་གསུམ.md",
+    "4-SYSTEM/Skills/translation-qa/mqm_mechanical_checks.py",
     "4-SYSTEM/Skills/translation-qa/SKILL.md",
+    "4-SYSTEM/Skills/translation-qa",
     "4-SYSTEM/Skills/transclusion/SKILL.md",
+    "4-SYSTEM/Skills/transclusion",
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py",
+    "4-SYSTEM/Skills/toc-tree-ingest/scripts",
     "4-SYSTEM/Skills/toc-tree-ingest/SKILL.md",
+    "4-SYSTEM/Skills/toc-tree-ingest",
+    "4-SYSTEM/Skills/tibetan-ocr-quality/scripts/score_ocr.py",
+    "4-SYSTEM/Skills/tibetan-ocr-quality/scripts",
     "4-SYSTEM/Skills/tibetan-ocr-quality/SKILL.md",
+    "4-SYSTEM/Skills/tibetan-ocr-quality",
+    "4-SYSTEM/Skills/commentary-verse-id/apply.py",
     "4-SYSTEM/Skills/commentary-verse-id/SKILL.md",
-    "4-SYSTEM/Skills/commentary-resegment/SKILL.md"
+    "4-SYSTEM/Skills/commentary-resegment/SKILL.md",
+    "4-SYSTEM/Skills/commentary-fact-check/SKILL.md",
+    "4-SYSTEM/Skills/commentary-fact-check-apply-fixes/SKILL.md",
+    "4-SYSTEM/Skills/colophon-metadata-extractor/SKILL.md",
+    "4-SYSTEM/Skills/clean-commentary-text/SKILL.md",
+    "4-SYSTEM/Skills/clean-commentary-text/README.md",
+    "4-SYSTEM/Skills/block-resegmentation/SKILL.md",
+    "4-SYSTEM/Skills/add-block-id-root-text/SKILL.md",
+    "4-SYSTEM/Skills/Root-Text-Structure/SKILL.md",
+    "4-SYSTEM/Skills/Outline-Extractor/SKILL.md"
   ]
 }
