@@ -52,7 +52,7 @@ tools agree on; do not reintroduce text-snippet anchors here.
 ## Architecture
 
 ```
-toc-tree-*.md  (from 2-RAILS/TOC-Trees/<id>.md, once promoted — see toc-tree-extraction)
+toc-tree-*.md  (from 2-RAILS/Sections/Raw/toc-tree/<id>.md, once promoted — see toc-tree-extraction)
       │
       ▼  Step 0 — backup (safety only, not a second canonical file)
   0-INBOX/temp/TOC-<id>/pre-toc-ingest-backup.md
@@ -78,7 +78,7 @@ Two script modes:
 
 | Field | Description |
 |---|---|
-| `toc_file` | Path to the finished tree — `2-RAILS/TOC-Trees/<id>.md` once `toc-tree-extraction` has promoted it (or its `0-INBOX/toc-tree-<id>.md` working copy, pre-promotion) |
+| `toc_file` | Path to the finished tree — `2-RAILS/Sections/Raw/toc-tree/<id>.md` once `toc-tree-extraction` has promoted it (or its `0-INBOX/toc-tree-<id>.md` working copy, pre-promotion) |
 | `commentary_file` | Path to the canonical commentary file to update **in place** — `1-SOURCES/Commentaries/<id>.md` |
 
 The commentary file must already exist in `1-SOURCES/Commentaries/` (from `raw-to-sources`,
@@ -141,7 +141,7 @@ cp "1-SOURCES/Commentaries/BCAC14_GDR_bo.md" \
 
 ```bash
 python3 4-SYSTEM/Skills/toc-tree-ingest/scripts/toc_tree_ingest.py parse \
-  --input "2-RAILS/TOC-Trees/BCAC14_GDR_bo.md" \
+  --input "2-RAILS/Sections/Raw/toc-tree/BCAC14_GDR_bo.md" \
   --out "/tmp/toc-tree-BCAC14_GDR_bo.json"
 ```
 

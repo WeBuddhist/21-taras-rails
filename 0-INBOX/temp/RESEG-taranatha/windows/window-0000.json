@@ -1,0 +1,10 @@
+{
+  "window_idx": 0,
+  "heading": "(front matter)",
+  "line_range": [20, 132],
+  "operations": [
+    {"op": "merge", "lines": [32, 33, 34, 35]},
+    {"op": "merge", "lines": [37, 38, 39]},
+    {"op": "merge", "lines": [55, 56, 57]}
+  ]
+}

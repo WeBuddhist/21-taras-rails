@@ -1,8 +1,7 @@
-# source: 1-SOURCES/Commentaries/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.md
-# total_lines: 186
+# source: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md
+# total_lines: 82
 # chunk_size: 150
 # overlap: 25
-# total_chunks: 2
+# total_chunks: 1
 # columns: chunk_id	start_line	end_line  (1-based, inclusive; read with: sed -n 'START,ENDp' <source>)
-000	1	150
-001	126	186
+000	1	82

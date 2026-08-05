@@ -41,8 +41,6 @@ The LLM is the compiler. Human domain specialists are the reviewers. Nothing in 
 ├── Local-Wiki/ # one page per attested sense ID
 │ ├── <term>_(<disambiguating-phrase>).md # e.g. term_(disambiguating-phrase).md
 │ └──...
-├── TOC-Trees/ # one finished, QC'd sa-bcad tree per commentary
-│ └── <registered-id>.md
 ├── Claims/ # per-commentary claims inventories, by extraction method
 │ ├── <registered-id>.md # commentary-claims: fixed A–I categories
 │ ├── toc-scaffolded/<registered-id>.md # toc-scaffolded-claims: re-bucketed under the tree
@@ -301,9 +299,9 @@ Authoring skill: `local-wiki-article`.
 
 ---
 
-## 6a. TOC Trees (`TOC-Trees/<registered-id>.md`)
+## 6a. TOC Trees (`Sections/Raw/toc-tree/<registered-id>.md`)
 
-The decimal-numbered ས་བཅད (sa bcad) structural tree for one commentary — the scaffold that heading block IDs, `toc-scaffolded-claims`, and `tree-guided-claims` all read from. Only the **finished, QC-clean tree** lives here; the four-pass extraction's working intermediates (candidate scan, verbatim enumerations, per-chunk staging) stay in `0-INBOX/temp/TOC-<id>/` as scratch, never promoted here until both deterministic checkers pass (`qc_check_tree.py` against the extraction's own candidates/enumerations corpus, `qc_tree_vs_source.py` against the commentary file itself).
+The decimal-numbered ས་བཅད (sa bcad) structural tree for one commentary — the scaffold that heading block IDs, `toc-scaffolded-claims`, and `tree-guided-claims` all read from. It lives under `Sections/Raw/` because it is raw distilled structure: per-commentary, descriptive, every title attestation-checked against the source. Only the **finished, QC-clean tree** lives here; the four-pass extraction's working intermediates (candidate scan, verbatim enumerations, per-chunk staging) stay in `0-INBOX/temp/TOC-<id>/` as scratch, never promoted here until both deterministic checkers pass (`qc_check_tree.py` against the extraction's own candidates/enumerations corpus, `qc_tree_vs_source.py` against the commentary file itself).
 
 A tree is tied to one exact version of its source file — its `[[N]]` pointers are line numbers. If the commentary is resegmented or otherwise edited after a tree was built, the tree is stale and must be rebuilt, not reused.
 
@@ -322,13 +320,29 @@ Authoring skill: `toc-tree-extraction`. Consumed by: `toc-tree-ingest` (places t
 
 ## 6b. Claims (`Claims/`)
 
-A claims file is a per-commentary inventory of every distinct assertion the commentary makes, in the commentary's own language, cited to a block ID — the atomic unit that article/translation/plan generation later draws on instead of re-reading the whole commentary each time. Three extraction methods coexist, in separate subfolders, because they are genuinely different techniques being compared, not revisions of one another:
+The Claims folder has **two layers**, mirroring the `Sections/` pattern (`Raw/` = per-commentary, top level = combined):
 
-- **`Claims/<registered-id>.md`** — `commentary-claims`: one pass over the whole file, claims grouped into nine fixed categories (framing, word-gloss, iconography, doctrinal, activity, practice, benefit, attribution, internal tensions).
-- **`Claims/toc-scaffolded/<registered-id>.md`** — `toc-scaffolded-claims`: an existing claims extraction re-organised (re-bucketed) under the commentary's own TOC tree instead of the fixed categories.
-- **`Claims/tree-guided/<registered-id>.md`** — `tree-guided-claims`: a genuinely fresh, independent extraction done node-by-node against the TOC tree via isolated subagents — never a re-bucketing of another method's file. See that skill's own `SKILL.md` for why this distinction is load-bearing (a prior re-bucketed run was mistakenly presented as independent and hid real defects).
+### `Claims/raw/` — per-commentary extractions
 
-All three cite `1-SOURCES/` only, same as every other rail. A method's own `SKILL.md` is authoritative for its exact frontmatter and file format; this section only fixes where each one lives.
+A raw claims file is a per-commentary inventory of every distinct assertion the commentary makes, in the commentary's own language, cited to a block ID — extracted from **one commentary read in isolation**, before any comparison or merging. Three extraction methods coexist, in separate subfolders, because they are genuinely different techniques being compared, not revisions of one another:
+
+- **`Claims/raw/<registered-id>.md`** — `commentary-claims`: one pass over the whole file, claims grouped into nine fixed categories (framing, word-gloss, iconography, doctrinal, activity, practice, benefit, attribution, internal tensions).
+- **`Claims/raw/toc-scaffolded/<registered-id>.md`** — `toc-scaffolded-claims`: an existing claims extraction re-organised (re-bucketed) under the commentary's own TOC tree instead of the fixed categories.
+- **`Claims/raw/tree-guided/<registered-id>.md`** — `tree-guided-claims`: a genuinely fresh, independent extraction done node-by-node against the TOC tree via isolated subagents — never a re-bucketing of another method's file. See that skill's own `SKILL.md` for why this distinction is load-bearing (a prior re-bucketed run was mistakenly presented as independent and hid real defects).
+
+### `Claims/<topic>.md` — consolidated topic pages
+
+After extraction is complete across the corpus, the **question-driven consolidation** pass merges the raw claims into one page per topic (e.g. one page per Tārā, plus global topics such as the definition of Tārā, the mantra, the benefits). Each topic page holds: the consensus statement(s) with per-commentary attestations, a ⚑ Divergences section, and a Unique-claims section — every line citing back to raw claim IDs, which cite back to `1-SOURCES/` segments.
+
+Rules for topic pages:
+
+- **The questions used to consolidate are recorded in the page itself** — in frontmatter (`consolidation_questions:`, machine-queryable) and echoed in a visible `## Questions asked` section — so any later reader can see exactly what was asked of the raw claims and can spot missing questions.
+- Topic pages cite `Claims/raw/` claim IDs, never the source files directly — consolidation reads claims, not commentaries.
+- Consolidation is **always redoable**: deleting and regenerating a topic page never touches `Claims/raw/`.
+- File names come from the text's spine + topic (e.g. `tara-02.md`, `mantra-doctrine.md`), never from claim content, so identity is stable across re-runs. When a topic page exceeds roughly 40–50 claims, split it one spine level down.
+- Template: `4-SYSTEM/Templates/consolidated-claims-topic.md`.
+
+All files in both layers keep the citation chain intact. A method's own `SKILL.md` is authoritative for its exact frontmatter and file format; this section only fixes where each one lives. The full methodology — why extraction and consolidation are separate phases, how questions are generated, rejected alternatives — is documented in [`../4-SYSTEM/Guidelines/claims-methodology.md`](../4-SYSTEM/Guidelines/claims-methodology.md).
 
 ---
 

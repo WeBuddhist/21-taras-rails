@@ -20,7 +20,7 @@ Find the `1-SOURCES/Commentaries/*.md` file whose frontmatter carries
 
 ## Step 2 — Ensure a TOC tree exists, and that it is checked against THIS file
 
-Look for `2-RAILS/TOC-Trees/<registered-id>.md` (the promoted, finished tree) first; fall back
+Look for `2-RAILS/Sections/Raw/toc-tree/<registered-id>.md` (the promoted, finished tree) first; fall back
 to its pre-promotion working copy at `0-INBOX/toc-tree-<registered-id>.md` or
 `0-INBOX/temp/TOC-<registered-id>/toc-tree-<registered-id>.md`.
 
@@ -55,7 +55,7 @@ Procedure), re-run both checkers, and iterate until clean or until only genuinel
 issues remain — note those for the human rather than proceeding past them silently. **Do
 not extract claims against a tree either checker flagged**, except for issues explicitly
 noted as human-reviewed-and-accepted. Once clean, `toc-tree-extraction`'s own Promotion step
-copies the tree to `2-RAILS/TOC-Trees/<registered-id>.md` — do that before Step 5 if it
+copies the tree to `2-RAILS/Sections/Raw/toc-tree/<registered-id>.md` — do that before Step 5 if it
 has not happened yet.
 
 ## Step 4 — Optional: ingest the tree as headings into the source
@@ -91,14 +91,14 @@ the claims in this context.
 
 Output lands at:
 ```
-2-RAILS/Claims/tree-guided/<registered-id>.md
+2-RAILS/Claims/raw/tree-guided/<registered-id>.md
 ```
 
 ## Step 6 — Deterministic verification gate
 
 ```bash
 python 4-SYSTEM/Skills/tree-guided-claims/scripts/verify_claims.py \
-  2-RAILS/Claims/tree-guided/<registered-id>.md \
+  2-RAILS/Claims/raw/tree-guided/<registered-id>.md \
   --source 1-SOURCES/Commentaries/<filename>.md
 ```
 
@@ -114,7 +114,7 @@ is not gated on; read it and cross-check it against the file's own Coverage log 
 
 Tell the human: how many nodes were extracted, the total claim count, how many verifier
 issues were found and fixed vs. left open, and the Unanchored/Internal-tensions rollup
-counts. Check `2-RAILS/Claims/<registered-id>.md` and `2-RAILS/Claims/toc-scaffolded/<registered-id>.md`
+counts. Check `2-RAILS/Claims/raw/<registered-id>.md` and `2-RAILS/Claims/raw/toc-scaffolded/<registered-id>.md`
 for the same commentary — if either exists, a fair comparison needs the same kind of
 adversarial read the original `_comparison-report.md` gave the first three methods; offer to
 run one, do not claim method 3 "wins" or "loses" without it. If neither exists, say plainly

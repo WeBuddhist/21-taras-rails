@@ -1,6 +1,6 @@
 ---
 name: toc-scaffolded-claims
-description: Extract every distinct claim/fact a single commentary makes into ONE consolidated claims file at 2-RAILS/Claims/toc-scaffolded/<registered-id>.md, organised by that commentary's own decimal-numbered TOC tree (from toc-tree-extraction) instead of fixed A–I categories, with every claim anchored to the attested persons, figures, places, texts, events, and dates it concerns — so claims for several commentaries on the same root text can be read side by side, section by section, and every claim can be traced back to a concrete, verifiable referent.
+description: Extract every distinct claim/fact a single commentary makes into ONE consolidated claims file at 2-RAILS/Claims/raw/toc-scaffolded/<registered-id>.md, organised by that commentary's own decimal-numbered TOC tree (from toc-tree-extraction) instead of fixed A–I categories, with every claim anchored to the attested persons, figures, places, texts, events, and dates it concerns — so claims for several commentaries on the same root text can be read side by side, section by section, and every claim can be traced back to a concrete, verifiable referent.
 ---
 
 # toc-scaffolded-claims
@@ -33,10 +33,10 @@ If the human contributor supplies more than one commentary, run this skill once 
 One file per commentary at:
 
 ```
-2-RAILS/Claims/toc-scaffolded/<registered-id>.md
+2-RAILS/Claims/raw/toc-scaffolded/<registered-id>.md
 ```
 
-`<registered-id>` is taken verbatim from the commentary's frontmatter. Create `2-RAILS/Claims/toc-scaffolded/` if it does not exist. This sits alongside any existing per-model category-scaffolded runs (e.g. `2-RAILS/Claims/sonnet/<id>.md`, `2-RAILS/Claims/opus/<id>.md`) without touching them.
+`<registered-id>` is taken verbatim from the commentary's frontmatter. Create `2-RAILS/Claims/raw/toc-scaffolded/` if it does not exist. This sits alongside any existing per-model category-scaffolded runs (e.g. `2-RAILS/Claims/sonnet/<id>.md`, `2-RAILS/Claims/opus/<id>.md`) without touching them.
 
 ---
 
@@ -228,7 +228,7 @@ skipped silently.>
 7. **No parametric knowledge.** Never add a fact this commentary does not itself state.
 8. **Keep the `Type:` tag on every claim**, using the same vocabulary as `commentary-claims` (structural, word-gloss, etymology, iconography, identification, doctrinal, activity, practice, ritual, mantra, benefit, attribution). This is what still lets a reader filter by facet even though the top-level grouping is now structural, not topical.
 9. **Never mark `status: complete`.** This skill writes `status: draft`. Only a domain specialist promotes a claims file.
-10. **Do not modify `1-SOURCES/` or the TOC tree file.** This skill reads both and writes only to `2-RAILS/Claims/toc-scaffolded/`.
+10. **Do not modify `1-SOURCES/` or the TOC tree file.** This skill reads both and writes only to `2-RAILS/Claims/raw/toc-scaffolded/`.
 11. **Empty nodes are kept, not deleted.** If a node's own text yields no claim beyond dividing into children, write "None — announcement only." under its heading and move on; do not omit the heading.
 12. **Front matter and back matter are never silently dropped.** If the tree's first node does not open the document, or its last node does not close it, the leftover text still gets claims extracted under `## 0. Front matter` / `## Z. Back matter`.
 13. **Grounding is source-attested only.** A Grounding-index entry may be created from exactly three places: the commentary body, the TOC tree's node titles, and the commentary's own frontmatter (author, date, title). Never add an entry — or enrich one — from the model's general knowledge of the tradition, however standard the identification seems. If the commentary says only "the protector," the registry entry is "the protector," not the deity the tradition means by it.
@@ -306,7 +306,7 @@ g. List any source ranges that yielded no claim at all, with the reason.
 
 ### Step 10 — Write the file
 
-a. Write to `2-RAILS/Claims/toc-scaffolded/<registered-id>.md`, creating the directory if needed.
+a. Write to `2-RAILS/Claims/raw/toc-scaffolded/<registered-id>.md`, creating the directory if needed.
 b. Fill `claim_count` with the total across all nodes plus front/back matter.
 c. Set `status: draft` and `scaffold: toc-tree`.
 
@@ -325,7 +325,7 @@ f. Confirm `claim_count` equals the number of claim entries actually present, an
 
 - [ ] Commentary read in isolation, from first line to last
 - [ ] TOC tree loaded from an existing `toc-tree-extraction` (or Gemini) output; skill stopped and reported if none was found — no structure was invented
-- [ ] Output written to `2-RAILS/Claims/toc-scaffolded/<registered-id>.md` with `<registered-id>` matching the source frontmatter
+- [ ] Output written to `2-RAILS/Claims/raw/toc-scaffolded/<registered-id>.md` with `<registered-id>` matching the source frontmatter
 - [ ] Frontmatter complete: `registered_id`, `title`, `author`, `source_file`, `toc_tree_source`, `citation_form`, `scaffold: toc-tree`, `claim_count`, `status: draft`
 - [ ] Every TOC-tree node has a heading, in the tree's own document order and decimal numbering, none skipped or renumbered
 - [ ] Every claim has a Tibetan statement, an English gloss, a `**Type:**`, a `**Referent:**` (valid index IDs with basis, or `[unanchored]`), and a `**Cite:**`

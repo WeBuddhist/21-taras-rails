@@ -118,12 +118,12 @@ No `Translations/`, `Adaptations/`, or `Plans/` track has been started under `3-
 
 **Claims extraction moved out of the pipeline folder on 2026-08-04.** All three methods —
 `commentary-claims` (fixed categories), `toc-scaffolded-claims` (re-bucketed under the tree),
-`tree-guided-claims` (fresh, tree-scaffolded extraction) — now write to `2-RAILS/Claims/` (see
+`tree-guided-claims` (fresh, tree-scaffolded extraction) — now write to `2-RAILS/Claims/raw/` (see
 `2-RAILS/About Rails.md` §6b) as first-class rails, not pipeline-owned experimental data. The
 `opus`/`sonnet` one-off model-comparison runs and the resulting `claims/_comparison-report.md`
 predate this move and are historical only — read as evidence for why `tree-guided-claims`'s five
 guards exist, not as a live path. If those two direct-extraction methods are ever re-run, they
-also belong under `2-RAILS/Claims/` going forward, not back under this pipeline folder.
+also belong under `2-RAILS/Claims/raw/` going forward, not back under this pipeline folder. (The `2-RAILS/Claims/` top level is reserved for consolidated topic pages — see `2-RAILS/About Rails.md` §6b.)
 
 Ingest (raw text → annotated `1-SOURCES/` file → TOC tree → claims) is likewise now driven
 end-to-end by vault skills (`raw-to-sources`, `commentary-resegment`, `toc-tree-extraction`,

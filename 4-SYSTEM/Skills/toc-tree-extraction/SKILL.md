@@ -82,7 +82,7 @@ The rail — written only once both checkers are clean (Pass 4's Promotion step,
 
 | File | Content |
 |---|---|
-| `2-RAILS/TOC-Trees/<id>.md` | the finished tree, frontmatter naming both QC reports |
+| `2-RAILS/Sections/Raw/toc-tree/<id>.md` | the finished tree, frontmatter naming both QC reports |
 
 The tree has **no `^toc` block IDs**; the decimal numbering alone identifies each entry.
 (Inserting the tree's headings into the source file itself is a separate step — this
@@ -258,7 +258,7 @@ subagent's say-so, and never report zero issues when a checker was not actually 
 ## Promotion — write the rail, once clean
 
 Once both checkers report 0 issues (or only human-reviewed-and-accepted ones), copy the
-tree from `0-INBOX/toc-tree-<id>.md` to `2-RAILS/TOC-Trees/<id>.md`, normalizing its
+tree from `0-INBOX/toc-tree-<id>.md` to `2-RAILS/Sections/Raw/toc-tree/<id>.md`, normalizing its
 frontmatter to:
 
 ```yaml
@@ -272,7 +272,7 @@ status: complete
 
 Do not delete the `0-INBOX/` intermediates — they are the evidence trail the QC reports
 reference. If a later resegmentation invalidates this tree, rebuilding it overwrites
-`0-INBOX/toc-tree-<id>.md` and re-promotes over `2-RAILS/TOC-Trees/<id>.md`; do not leave a
+`0-INBOX/toc-tree-<id>.md` and re-promotes over `2-RAILS/Sections/Raw/toc-tree/<id>.md`; do not leave a
 stale rail file next to a fresh one.
 
 ---
@@ -286,8 +286,8 @@ stale rail file next to a fresh one.
 5. Merge on disk (shell `cat`) → `0-INBOX/toc-candidates-<id>.md` and `0-INBOX/toc-enumerations-<id>.md`.
 6. Pass 3: one isolated subagent reads both merged files → writes `0-INBOX/toc-tree-<id>.md`.
 7. Pass 4: `qc_check_tree.py` → isolated repair subagent (reads/overwrites by path) → re-check → `0-INBOX/toc-tree-qc-<id>.md`.
-8. Promote: once clean, copy to `2-RAILS/TOC-Trees/<id>.md` with normalized frontmatter (above).
-9. Report totals (candidates, enumeration blocks, issues before/after) and the output paths — both the `0-INBOX/` working files and the promoted `2-RAILS/TOC-Trees/<id>.md`.
+8. Promote: once clean, copy to `2-RAILS/Sections/Raw/toc-tree/<id>.md` with normalized frontmatter (above).
+9. Report totals (candidates, enumeration blocks, issues before/after) and the output paths — both the `0-INBOX/` working files and the promoted `2-RAILS/Sections/Raw/toc-tree/<id>.md`.
 
 **Isolation is the whole point.** If you ever find yourself doing a pass's reasoning in this
 orchestrating context instead of in its own subagent, stop and dispatch the subagent — that is

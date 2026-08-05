@@ -1,6 +1,6 @@
 ---
 name: commentary-claims
-description: Extract every distinct claim a single commentary makes into one claims file per commentary at 2-RAILS/Claims/<registered-id>.md, stated in the commentary's own Tibetan with a short English gloss and a citation to the segment it came from.
+description: Extract every distinct claim a single commentary makes into one claims file per commentary at 2-RAILS/Claims/raw/<registered-id>.md, stated in the commentary's own Tibetan with a short English gloss and a citation to the segment it came from.
 ---
 
 # commentary-claims
@@ -30,10 +30,10 @@ If the human contributor supplies more than one commentary, run this skill once 
 One file per commentary at:
 
 ```
-2-RAILS/Claims/<registered-id>.md
+2-RAILS/Claims/raw/<registered-id>.md
 ```
 
-`<registered-id>` is taken verbatim from the commentary's frontmatter (`karma-maitri` → `2-RAILS/Claims/karma-maitri.md`). Create `2-RAILS/Claims/` if it does not exist.
+`<registered-id>` is taken verbatim from the commentary's frontmatter (`karma-maitri` → `2-RAILS/Claims/raw/karma-maitri.md`). Create `2-RAILS/Claims/` if it does not exist.
 
 ---
 
@@ -214,7 +214,7 @@ colophon, or scribal matter, so a reviewer can see nothing was skipped silently.
 6. **Exhaustive, not selective.** Every distinct assertion gets its own entry, including ones that merely restate a root phrase in other words — that restatement *is* the commentator's reading. Splitting is preferred to merging: two assertions in one sentence become two claims.
 7. **No parametric knowledge.** Never add a fact about Tārā, a tantra, a lineage, or an iconographic convention that this commentary does not state. If the commentator's reference is obscure, record it as written and leave it obscure.
 8. **Never mark `status: complete`.** This skill writes `status: draft`. Only a domain specialist promotes a claims file.
-9. **Do not modify `1-SOURCES/`.** This skill reads the commentary and writes only to `2-RAILS/Claims/`.
+9. **Do not modify `1-SOURCES/`.** This skill reads the commentary and writes only to `2-RAILS/Claims/raw/`.
 10. **Empty categories are kept, not deleted.** If a commentary makes no ritual claims, section F remains with the single line `None.` — the absence is itself a finding about that commentary.
 
 ---
@@ -263,7 +263,7 @@ b. List explicitly any ranges that yielded no claims, with the reason (root-text
 
 ### Step 7 — Write the file
 
-a. Write to `2-RAILS/Claims/<registered-id>.md`, creating the directory if needed.
+a. Write to `2-RAILS/Claims/raw/<registered-id>.md`, creating the directory if needed.
 b. Fill `claim_count` with the total across all categories.
 c. Set `status: draft`.
 
@@ -279,7 +279,7 @@ d. Confirm the Coverage log's ranges span the whole source file with no unexplai
 ## Completion check
 
 - [ ] Exactly one commentary was read, in isolation, from first block to last
-- [ ] Output written to `2-RAILS/Claims/<registered-id>.md` with `<registered-id>` matching the source frontmatter
+- [ ] Output written to `2-RAILS/Claims/raw/<registered-id>.md` with `<registered-id>` matching the source frontmatter
 - [ ] Frontmatter complete: `registered_id`, `title`, `author`, `source_file`, `citation_form`, `claim_count`, `status: draft`
 - [ ] All nine category headings A–I present; empty ones carry `None.` rather than being deleted
 - [ ] Every claim has a Tibetan statement, an English gloss, a `**Type:**`, and a `**Cite:**`

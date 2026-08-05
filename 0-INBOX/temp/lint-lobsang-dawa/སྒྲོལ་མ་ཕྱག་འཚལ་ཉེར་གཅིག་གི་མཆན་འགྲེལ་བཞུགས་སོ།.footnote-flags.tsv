@@ -1,0 +1,13 @@
+approve	line	number	col	attached_to	context
+Y	4	2008	7	"	date: "2008 CE (colophon: ༢༠༠༨/༤/༥)"
+Y	4	༤	31	༢༠༠༨/	date: "2008 CE (colophon: ༢༠༠༨/༤/༥)"
+Y	4	༥	33	༢༠༠༨/༤/	date: "2008 CE (colophon: ༢༠༠༨/༤/༥)"
+Y	13	5040	98	0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R	source_description: "Raw OCR/segmentation export received into 0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.txt; catalogued in the team's dkar-chag (སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx), sheet row 14, siglum TARAC14_LZD."
+Y	13	72	103	0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R5040C	source_description: "Raw OCR/segmentation export received into 0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.txt; catalogued in the team's dkar-chag (སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx), sheet row 14, siglum TARAC14_LZD."
+Y	13	11	154	སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།	source_description: "Raw OCR/segmentation export received into 0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.txt; catalogued in the team's dkar-chag (སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx), sheet row 14, siglum TARAC14_LZD."
+Y	13	14	269	TARAC	source_description: "Raw OCR/segmentation export received into 0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/R5040C72C སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།11-sengmentation.txt; catalogued in the team's dkar-chag (སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx), sheet row 14, siglum TARAC14_LZD."
+Y	14	5040	11	"R	book_id: "R5040C72C"
+Y	14	72	16	"R5040C	book_id: "R5040C72C"
+Y	142	༢༠༠༨	48	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་༢༠༠༨།༤།༥ཉིན་རྩོམ་སྒྲིག་བགྱིས་པ་དགེ་ལེགས་འཕེལ། ། ^0-33
+Y	142	༤	53	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་༢༠༠༨།	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་༢༠༠༨།༤།༥ཉིན་རྩོམ་སྒྲིག་བགྱིས་པ་དགེ་ལེགས་འཕེལ། ། ^0-33
+Y	142	༥	55	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་༢༠༠༨།༤།	ཞེས་པ་འདི་ནི་དགེ་མིང་པ་དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ནས་༢༠༠༨།༤།༥ཉིན་རྩོམ་སྒྲིག་བགྱིས་པ་དགེ་ལེགས་འཕེལ། ། ^0-33

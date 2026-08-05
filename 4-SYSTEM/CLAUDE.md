@@ -48,10 +48,11 @@ Authority comes from the human commentary tradition, never from the LLM's parame
   Audio/        # recitation and teaching recordings
 2-RAILS/        # compiled interpretive context (primary work area)
   Sections/     # multi-commentary summaries per TOC node
+                # (Raw/toc-tree/ holds the finished, QC'd sa-bcad tree per commentary)
   Verses/       # verse-level context files
   Local-Wiki/   # monolingual articles per key term
-  TOC-Trees/    # finished, QC'd sa-bcad tree per commentary
-  Claims/       # per-commentary claims inventories, by extraction method
+  Claims/       # top level: consolidated topic pages (question-driven)
+                # (raw/ holds per-commentary claims inventories, by extraction method)
   Bilingual-Glossaries/ # bilingual descriptive glossaries per language pair
 3-TRANSFORMATIONS/      # AI-generated outputs, organised in three categories
   Translations/ # language-by-language translation tracks
@@ -245,17 +246,20 @@ One page per attested sense ID within this text. Sense IDs are Wikipedia-style: 
 
 Authoring skill: `local-wiki-article`.
 
-### `TOC-Trees/` — finished structural trees
+### `Sections/Raw/toc-tree/` — finished structural trees
 
-One finished, QC-clean decimal-numbered sa-bcad tree per commentary: `TOC-Trees/<registered-id>.md`. Working intermediates stay in `0-INBOX/temp/TOC-<id>/` until both deterministic QC checkers pass.
+One finished, QC-clean decimal-numbered sa-bcad tree per commentary: `Sections/Raw/toc-tree/<registered-id>.md`. It lives under `Sections/Raw/` because it is raw distilled structure — per-commentary, descriptive, every title attestation-checked against the source. Working intermediates stay in `0-INBOX/temp/TOC-<id>/` until both deterministic QC checkers pass.
 
 Authoring skill: `toc-tree-extraction`.
 
-### `Claims/` — per-commentary claims inventories
+### `Claims/` — raw per-commentary inventories + consolidated topic pages
 
-One inventory per commentary per extraction method: `Claims/<registered-id>.md` (fixed categories), `Claims/toc-scaffolded/<registered-id>.md` (re-bucketed under the tree), `Claims/tree-guided/<registered-id>.md` (fresh, tree-scaffolded extraction).
+Two layers, mirroring `Sections/`:
 
-Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-claims`.
+- **`Claims/raw/`** — one inventory per commentary per extraction method: `raw/<registered-id>.md` (fixed categories), `raw/toc-scaffolded/<registered-id>.md` (re-bucketed under the tree), `raw/tree-guided/<registered-id>.md` (fresh, tree-scaffolded extraction). Always extracted from one commentary in isolation.
+- **`Claims/<topic>.md`** — consolidated topic pages produced by question-driven consolidation across all raw claims files: consensus + ⚑ divergences + unique claims, citing raw claim IDs. The questions used are recorded in each page's frontmatter (`consolidation_questions:`). Template: `Templates/consolidated-claims-topic.md`.
+
+Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-claims` (raw layer). Methodology in full: [`Guidelines/claims-methodology.md`](Guidelines/claims-methodology.md).
 
 ### `Bilingual-Glossaries/` — bilingual descriptive glossaries
 
