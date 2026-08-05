@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "54c0ca4cab9dcdb4",
+            "id": "f0ee988f2ed0e67b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.83984375
+    "width": 200
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -178,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 274.21484375
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,43 +193,43 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "54c0ca4cab9dcdb4",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
-    "2-RAILS/Claims/tree-guided/karma-maitri.md",
-    "2-RAILS/Claims/tree-guided",
-    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.md",
-    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.tsv",
-    "0-INBOX/temp/karma-maitri/scratch-verse-id-2.md",
-    "0-INBOX/temp/karma-maitri/scratch-verse-id.md",
-    "0-INBOX/temp/TOC-karma-maitri/pre-toc-ingest-backup.md",
+    "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
+    "4-SYSTEM/Skills/raw-to-sources",
     "2-RAILS/TOC-Trees/karma-maitri.md",
     "2-RAILS/TOC-Trees",
-    "0-INBOX/toc-tree-qc-source-karma-maitri.md",
-    "0-INBOX/toc-tree-qc-karma-maitri.md",
-    "0-INBOX/toc-tree-karma-maitri.md",
-    "0-INBOX/toc-enumerations-karma-maitri.md",
-    "0-INBOX/toc-candidates-karma-maitri.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
-    "0-INBOX/migration-backups/2026-08-04/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md",
-    "0-INBOX/temp/karma-maitri/cleaned.md",
+    "2-RAILS/Claims/tree-guided/karma-maitri.md",
+    "2-RAILS/Claims/tree-guided",
+    "2-RAILS/Claims",
     "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
-    "0-INBOX/toc-tree-lobsang-dawa.md",
-    "0-INBOX/temp/karma-maitri",
-    "0-INBOX/temp/root-mdafbf633/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.footnote-flags.md",
+    "0-INBOX/toc-tree-qc-source-karma-maitri.md",
+    "0-INBOX/toc-tree-qc-karma-maitri.md",
     "0-INBOX/temp/root-mdafbf633/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.footnote-flags.tsv",
+    "0-INBOX/temp/root-mdafbf633/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.footnote-flags.md",
     "0-INBOX/temp/root-mdafbf633/segmented-body.md",
     "0-INBOX/temp/root-mdafbf633/cleaned.md",
     "0-INBOX/temp/root-mdafbf633",
-    "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
-    "4-SYSTEM/Skills/raw-to-sources",
-    "0-INBOX/toc-tree-gendun-gyatso.md",
-    "0-INBOX/toc-enumerations-lobsang-dawa.md",
-    "0-INBOX/toc-enumerations-gendun-gyatso.md",
-    "0-INBOX/toc-candidates-gendun-gyatso.md",
-    "4-SYSTEM/Skills/translation-qa/mqm_mechanical_checks.py",
-    "4-SYSTEM/Skills/translation-qa",
-    "4-SYSTEM/Skills/transclusion"
+    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.tsv",
+    "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.md",
+    "0-INBOX/temp/karma-maitri/scratch-verse-id.md",
+    "0-INBOX/temp/karma-maitri/scratch-verse-id-2.md",
+    "0-INBOX/temp/karma-maitri/cleaned.md",
+    "0-INBOX/temp/karma-maitri",
+    "0-INBOX/temp/TOC-karma-maitri/pre-toc-ingest-backup.md",
+    "4-SYSTEM/Skills/tree-guided-claims/scripts/verify_claims.py",
+    "4-SYSTEM/Skills/tree-guided-claims/scripts",
+    "4-SYSTEM/Skills/tree-guided-claims/SKILL.md",
+    "4-SYSTEM/Pipelines/wikipedia/corpora/README.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ།.md",
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
+    "0-INBOX/migration-backups/2026-08-04/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས།.md"
   ]
 }
