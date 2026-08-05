@@ -1,7 +1,7 @@
 ---
 registered_id: anon-trinle-char
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md
-qc_reports: [0-INBOX/toc-tree-qc-anon-trinle-char.md, 0-INBOX/toc-tree-qc-source-anon-trinle-char.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-anon-trinle-char.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-anon-trinle-char.md]
 qc_notes: "qc_check_tree.py reports 2 issues (nodes 1 and 2, bare-ordinal titles དང་པོ་/གཉིས་པ་ with no distinguishing topic word in the source at those lines). qc_tree_vs_source.py — the check against the source itself — reports 0 issues and explicitly notes these same 2 nodes as bare-ordinal-only, attestation skipped, not counted as an error. Both titles are verbatim-attested in the candidates corpus; genuinely no fuller wording exists at lines 21/23 to attest. Treated as accepted/human-reviewed, not a defect."
 status: complete
 ---

@@ -1,7 +1,7 @@
 ---
 registered_id: pema-namgyal
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md
-qc_reports: [0-INBOX/toc-tree-qc-pema-namgyal.md, 0-INBOX/toc-tree-qc-source-pema-namgyal.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-pema-namgyal.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-pema-namgyal.md]
 status: complete
 ---
 

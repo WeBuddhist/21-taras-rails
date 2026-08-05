@@ -1,7 +1,7 @@
 ---
 registered_id: palden-sherab
 source_file: "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md"
-qc_reports: [0-INBOX/toc-tree-qc-palden-sherab.md, 0-INBOX/toc-tree-qc-source-palden-sherab.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-palden-sherab.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-palden-sherab.md]
 status: complete
 ---
 

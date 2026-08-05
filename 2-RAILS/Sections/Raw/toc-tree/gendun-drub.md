@@ -1,7 +1,7 @@
 ---
 registered_id: gendun-drub
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md
-qc_reports: [0-INBOX/toc-tree-qc-gendun-drub.md, 0-INBOX/toc-tree-qc-source-gendun-drub.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-gendun-drub.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-gendun-drub.md]
 status: complete
 ---
 

@@ -1,7 +1,7 @@
 ---
 registered_id: tsultrim-namdak
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md
-qc_reports: [0-INBOX/toc-tree-qc-tsultrim-namdak.md, 0-INBOX/toc-tree-qc-source-tsultrim-namdak.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-tsultrim-namdak.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-tsultrim-namdak.md]
 status: complete
 ---
 

@@ -1,7 +1,7 @@
 ---
 registered_id: anon-utpala
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md
-qc_reports: [0-INBOX/toc-tree-qc-anon-utpala.md, 0-INBOX/toc-tree-qc-source-anon-utpala.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-anon-utpala.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-anon-utpala.md]
 status: complete
 ---
 

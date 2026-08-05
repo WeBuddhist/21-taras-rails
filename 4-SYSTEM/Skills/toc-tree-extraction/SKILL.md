@@ -78,11 +78,14 @@ Working intermediates, all scratch, never cited from `2-RAILS/`:
 | `0-INBOX/toc-tree-qc-<id>.md` | QC report vs. the candidates+enumerations corpus (issues before / after repair) |
 | `0-INBOX/toc-tree-qc-source-<id>.md` | QC report vs. the source commentary itself — pointer validity, near-pointer attestation, monotonicity/collisions, sibling-count congruence |
 
-The rail — written only once both checkers are clean (Pass 4's Promotion step, below):
+The rail and its evidence trail — written only once both checkers are clean (Pass 4's Promotion step, below):
 
 | File | Content |
 |---|---|
 | `2-RAILS/Sections/Raw/toc-tree/<id>.md` | the finished tree, frontmatter naming both QC reports |
+| `2-RAILS/Sections/Raw/toc-candidates/<id>.md` | the merged candidate scan (evidence only — recall-over-precision, never citable) |
+| `2-RAILS/Sections/Raw/toc-enumerations/<id>.md` | the merged verbatim enumerations (evidence only, never citable) |
+| `2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-<id>.md`, `…/toc-tree-qc-source-<id>.md` | both QC reports |
 
 The tree has **no `^toc` block IDs**; the decimal numbering alone identifies each entry.
 (Inserting the tree's headings into the source file itself is a separate step — this
@@ -255,25 +258,34 @@ subagent's say-so, and never report zero issues when a checker was not actually 
 
 ---
 
-## Promotion — write the rail, once clean
+## Promotion — write the rail and its evidence, once clean
 
-Once both checkers report 0 issues (or only human-reviewed-and-accepted ones), copy the
-tree from `0-INBOX/toc-tree-<id>.md` to `2-RAILS/Sections/Raw/toc-tree/<id>.md`, normalizing its
-frontmatter to:
+Once both checkers report 0 issues (or only human-reviewed-and-accepted ones):
+
+1. Copy the tree from `0-INBOX/toc-tree-<id>.md` to `2-RAILS/Sections/Raw/toc-tree/<id>.md`,
+   normalizing its frontmatter to:
 
 ```yaml
 ---
 registered_id: <id>
 source_file: 1-SOURCES/Commentaries/<filename>.md
-qc_reports: [0-INBOX/toc-tree-qc-<id>.md, 0-INBOX/toc-tree-qc-source-<id>.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-<id>.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-<id>.md]
 status: complete
 ---
 ```
 
-Do not delete the `0-INBOX/` intermediates — they are the evidence trail the QC reports
-reference. If a later resegmentation invalidates this tree, rebuilding it overwrites
-`0-INBOX/toc-tree-<id>.md` and re-promotes over `2-RAILS/Sections/Raw/toc-tree/<id>.md`; do not leave a
-stale rail file next to a fresh one.
+2. Move the evidence trail out of scratch, next to the tree — a `status: complete` rail
+   must not depend on files in `0-INBOX/`:
+   - `0-INBOX/toc-candidates-<id>.md` → `2-RAILS/Sections/Raw/toc-candidates/<id>.md`
+   - `0-INBOX/toc-enumerations-<id>.md` → `2-RAILS/Sections/Raw/toc-enumerations/<id>.md`
+   - `0-INBOX/toc-tree-qc-<id>.md`, `0-INBOX/toc-tree-qc-source-<id>.md` → `2-RAILS/Sections/Raw/toc-qc/` (filenames unchanged)
+
+The per-chunk staging under `0-INBOX/temp/TOC-<id>/` stays in scratch. The promoted
+candidate/enumeration files are extraction evidence, not attested structure — extraction is
+deliberately recall-over-precision, so they contain false positives by design; never cite
+them from any rail or transformation. If a later resegmentation invalidates this tree,
+rebuilding it overwrites `0-INBOX/toc-tree-<id>.md` and re-promotes over all four promoted
+files; do not leave a stale rail file next to a fresh one.
 
 ---
 

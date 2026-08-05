@@ -1,7 +1,7 @@
 ---
 registered_id: lobsang-dawa
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md
-qc_reports: [0-INBOX/toc-tree-qc-lobsang-dawa.md, 0-INBOX/toc-tree-qc-source-lobsang-dawa.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-lobsang-dawa.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-lobsang-dawa.md]
 status: complete
 ---
 

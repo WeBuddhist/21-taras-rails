@@ -1,7 +1,7 @@
 ---
 registered_id: karma-maitri
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md
-qc_reports: [0-INBOX/toc-tree-qc-karma-maitri.md, 0-INBOX/toc-tree-qc-source-karma-maitri.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-karma-maitri.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-karma-maitri.md]
 status: complete
 ---
 

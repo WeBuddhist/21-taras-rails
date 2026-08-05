@@ -1,7 +1,7 @@
 ---
 registered_id: tenga-tulku
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md
-qc_reports: [0-INBOX/toc-tree-qc-tenga-tulku.md, 0-INBOX/toc-tree-qc-source-tenga-tulku.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-tenga-tulku.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-tenga-tulku.md]
 status: complete
 ---
 

@@ -856,10 +856,10 @@ glossed syllable by syllable before the twenty-one verses proper begin (2.1.2.1)
   **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-107)
 
 ##### c-2-1-2-1-34 Gloss: these are samaya-mudrās; performing them invokes blessing and Tārā's actual presence
-  **བོད་ཡིག:** རང་གི་འོད་ཀྱིས་གཞན་གྱི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་པ་ཟིལ་གྱིས་ སྒྲུབ་པ་པོ་རྣམས་ཀྱིས་ཕྱག་རྒྱ་དེ་ལྟར་བཅས་ན་ལྷ་རྣམས་ཀྱིས་བྱིན་གྱིས་ བརླབ་པ་དང་། ཕྱག་རྒྱ་དེས་སྤྱན་དྲངས་ན་ཕྱོགས་བཅུའི་ཞིང་ནས་ལྷ་མོ་ སྒྲོལ་མ་འཁོར་དང་བཅས་པ་འོད་ཟེར་འཕྲོ་ཞིང་དངོས་སུ་འབྱོན་པའོ།།
-  **English:** ...her own radiance overwhelms and outshines the mass of other lights. These mudrās are samaya-mudrās: when practitioners form the mudrās in this way, the deities bestow their blessing; and when invoked by these mudrās, the goddess Tārā, together with her retinue, actually arrives from the pure realms of the ten directions, radiating light.
+  **བོད་ཡིག:** རང་གི་འོད་ཀྱིས་གཞན་གྱི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་པ་ཟིལ་གྱིས་
+  **English:** ...her own radiance overwhelms and outshines the mass of other lights. [The commentary continues, at the next block, that these mudrās are samaya-mudrās: when practitioners form the mudrās in this way, the deities bestow their blessing; and when invoked by these mudrās, the goddess Tārā, together with her retinue, actually arrives from the pure realms of the ten directions, radiating light.]
   **Type:** practice
-  **Referent:** FIG-1 (stated — ལྷ་མོ་སྒྲོལ་མ)
+  **Referent:** FIG-1 (node — ལྷ་མོ་སྒྲོལ་མ)
   **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-108)
 
   **Verse 10 (joyful, majestic crown, TUTTĀRE subdues Māra and the world)**
@@ -2358,7 +2358,7 @@ verses, and the work's own colophon.
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-583, #^0-584, #^0-585, #^0-586, #^0-587)
 
 #### c-5-3-7 Dissolving the self-generation into the completion-stage state: resting the mind, indivisible from Tārā, in the natural expanse of the dharmadhātu, like water poured into water
-**བོད་ཡིག:** རང་ལྷར་བསྐྱེད་ པ་རྣམས་རྫོགས་རིམ་གྱི་ངང་ལ་བསྡུ་བ་ནི། ལྷ་དང་རང་སེམས་དབྱེར་མེད་པ། །ཆོས་དབྱིངས་གཉུག་མའི་ ངང་ལ་བཞག །ཅེས་ལྷ་མཆོག་འཕགས་མ་སྒྲོལ་མའི་ཐུགས་དང་རང་ སེམས་དབྱེར་མེད་པ་ཆུ་ལ་ཆུ་བཞག་པ་བཞིན་ཆོས་ཀྱི་དབྱིངས་གཉུག་ མའི་ཡེ་ཤེས་སེམས་ཀྱི་གནས་ལུགས་ཀྱི་ངང་ལ་མཉམ་པར་བཞག
+**བོད་ཡིག:** ལྷ་དང་རང་སེམས་དབྱེར་མེད་པ། །ཆོས་དབྱིངས་གཉུག་མའི་ ངང་ལ་བཞག །ཅེས་ལྷ་མཆོག་འཕགས་མ་སྒྲོལ་མའི་ཐུགས་དང་རང་ སེམས་དབྱེར་མེད་པ་ཆུ་ལ་ཆུ་བཞག་པ་བཞིན་ཆོས་ཀྱི་དབྱིངས་གཉུག་ མའི་ཡེ་ཤེས་སེམས་ཀྱི་གནས་ལུགས་ཀྱི་ངང་ལ་མཉམ་པར་བཞག
 **English:** The self-generation is dissolved into the completion-stage state: "The deity and my own mind, indivisible, rest in the natural state of the dharmadhātu." Just as water poured into water is indivisible, the supreme deity Tārā's mind and one's own mind, indivisible, rest evenly in the state of the mind's abiding nature, the innate wisdom of the dharmadhātu.
 **Type:** ritual
 **Referent:** FIG-1 (stated — འཕགས་མ་སྒྲོལ་མ)
@@ -2480,14 +2480,14 @@ condensed recapitulation of work 5's four-maṇḍala rite, in extensive and abb
 (daily-practice) versions (blocks ^0-616–^0-649).
 
 ### c-7-0-1 Title of the seventh work: the outer sādhana, extensive and abbreviated, "Essence of the Two Accumulations," from the mind-treasure "Profound Quintessence of Tārā"
-**བོད་ཡིག:** །དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་ততா ཕྱི་སྒྲུབ་རྒྱས་བསྡུས་ཀྱི་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ་ ཞེས་བྱ་བ་བཞུགས་སོ༎
+**བོད་ཡིག:** །དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས་ততা ཕྱི་སྒྲུབ་རྒྱས་བསྡུས་ཀྱི་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ་ ཞེས་བྱ་བ་བཞུགས་སོ༎
 **English:** From the mind-treasure "Profound Quintessence of Tārā": here is the outer sādhana rite, extensive and abbreviated, "Essence of the Two Accumulations."
 **Type:** structural
 **Referent:** TXT-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-616)
 
 ### c-7-0-2 Opening homage: bowing to Mother Tārā, foremost in activity among the buddhas of the three times and their heirs, before explaining the practice suited to daily conduct; notes this quintessence-treasure is itself already a condensed essential practice needing little elaboration
-**བོད་ཡིག:** ཟབ་ཏིག་སྒྲོལ་མའི་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ། །ན་མོ་གུ་རུ་ཨརྱ་ཏྭ་ཡེ། དུས་གསུམ་འདྲེན་པ་སྲས་བཅས་ལས།། ཐུགས་བསྐྱེད་ཕྲིན་ལས་ཕུལ་བྱུང་བ། །ཡུམ་གྱུར་སྒྲོལ་མ་ལ་བཏུད་ནས །བྱ་སྤྱོད་དང་མཐུན་ ཉམས་ལེན་བཤད། །དེའང་ཟབ་ཏིག་འདི་ཉམས་ལེན་ཡང་ཟབ་སྙིང་པོ་བསྡུས་པ་ཡིན་པས་སྤྲོས་ བཅས་མང་དུ་མི་དགོས་ཀྱང་། ཅུང་ཟད་སྤྲོས་པ་དང་རྒྱུན་ཁྱེར་དུ་བྱ་བ་སྟེ་རྒྱས་བསྡུས་གཉིས་ ལས།
+**བོད་ཡིག:** ཟབ་ཏིག་སྒྲོལ་མའི་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ། །ན་མོ་གུ་རུ་ཨརྱ་ཏྭ་ཡེ། དུས་གསུམ་འདྲེན་པ་སྲས་བཅས་ལས།། ཐུགས་བསྐྱེད་ཕྲིན་ལས་ཕུལ་བྱུང་བ། །ཡུམ་གྱུར་སྒྲོལ་མ་ལ་བཏུད་ནས །བྱ་སྤྱོད་དང་མཐུན་ ཉམས་ལེན་བཤད། །དེའང་ཟབ་ཏིག་འདི་ཉམས་ལེན་ཡང་ཟབ་སྙིང་པོ་བསྡུས་པ་ཡིན་པས་སྤྲོས་
 **English:** "Quintessence Treasure: Tārā's rite, Essence of the Two Accumulations. Namo guru ārya tvāye. Having bowed to Mother Tārā, whose mind-generation and activity are the most excellent among the guides of the three times together with their heirs, I explain the practice suited to daily conduct." This quintessence-treasure is itself an especially profound and condensed essential practice, so it does not need much elaboration; nevertheless it is taught here in two forms — a slightly more elaborate version, and a version for daily/continuous practice.
 **Type:** structural
 **Referent:** FIG-1 (stated — ཡུམ་གྱུར་སྒྲོལ་མ)
@@ -2509,7 +2509,7 @@ self-generation, mantra recitation, torma offering, and dedication given in full
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-618, #^0-619)
 
 #### c-7-1-2 Cross-referenced recitation of refuge, bodhicitta, and the seven-branch accumulation using the same verses as work 5, condensed to incipit-and-ellipsis citation
-**བོད་ཡིག:** སྐྱབས་སེམས་ནི། མདུན་གྱི་ནམ་མཁར་རྗེ་ བཙུན་མ་མངོན་སུམ་བཞུགས་པར་མོས་ལ ན་མོ། དཀོན་མཆོག་ ཀུན་དངོས་རྗེ་བཙུན་མར །བདག་སོགས་འགྲོ་ཀུན་སྐྱབས་སུ་ མཆི། །བྱང་ཆུབ་སྨོན་པའི་སེམས་བསྐྱེད་ནས། །ཟབ་མོའི་ལམ་ ལ་འཇུག་པར་བགྱི། །ཚོགས་བསགས་ནི། རྗེ་བཙུན་འཕགས་མ་སྒྲོལ་མ་ དང་། །སོགས་ནས འདྲེན་པའི་དཔལ་དུ་བདག་གྱུར་ཅིག །ཅེས་པའི་ བར་བརྗོད།
+**བོད་ཡིག:** མཆི། །བྱང་ཆུབ་སྨོན་པའི་སེམས་བསྐྱེད་ནས། །ཟབ་མོའི་ལམ་ ལ་འཇུག་པར་བགྱི། །ཚོགས་བསགས་ནི། རྗེ་བཙུན་འཕགས་མ་སྒྲོལ་མ་ དང་། །སོགས་ནས འདྲེན་པའི་དཔལ་དུ་བདག་གྱུར་ཅིག །ཅེས་པའི་ བར་བརྗོད།
 **English:** Refuge and bodhicitta: visualizing the Venerable Lady manifestly present in the sky before oneself — "Namo. To the Venerable Lady, embodiment of all the Jewels, I and all beings go for refuge. Having generated the aspiring mind for enlightenment, I shall enter the profound path." The seven-branch accumulation: recited from "To Venerable Ārya Tārā..." through to "...may I become the glorious guide of beings."
 **Type:** ritual
 **Referent:** FIG-1 (stated — རྗེ་བཙུན་མ)
@@ -2635,7 +2635,7 @@ name-praise citing many epithets, and closing dedication verses (blocks ^0-677�
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-677, #^0-678)
 
 #### c-8-1-2 Continued iconography: white as the autumn moon, backed by a moon-disc, fully adorned, holding an utpala, sixteen years of age, mother-consort of all complete buddhas
-**བོད་ཡིག:** སྟོན་ཀའི་ཟླ་བའི་མདོག་འདྲ་ཞིང་། །ཟླ་བ་ ལ་ནི་རྒྱབ་བརྟེན་མ། །རྒྱན་རྣམས་ཐམས་ཅད་ཡོངས་སུ་རྫོགས། ། ཨཏྤལ་བསྣམས་ལ་ཕྱག་འཚལ་བསྟོད། །བཅུ་དྲུག་ལོ་ལོན་ལུས་ དང་ལྡན། །རྫོགས་སངས་རྒྱས་ཀུན་དེ་ཡི་སྲས། །འདོད་སྦྱིན་སྐུ་ ནི་འཆང་བའི་ཡུམ། །འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ།
+**བོད་ཡིག:** ཨཏྤལ་བསྣམས་ལ་ཕྱག་འཚལ་བསྟོད། །བཅུ་དྲུག་ལོ་ལོན་ལུས་ དང་ལྡན། །རྫོགས་སངས་རྒྱས་ཀུན་དེ་ཡི་སྲས། །འདོད་སྦྱིན་སྐུ་ ནི་འཆང་བའི་ཡུམ། །འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ།
 **English:** "Colored like the autumn moon, backed by a moon-disc, fully complete in every ornament, holding an utpala — I prostrate and praise. Possessing the body of one sixteen years of age, the offspring [and] the mother of all complete buddhas, bearing the wish-granting form — to Noble Tārā I prostrate."
 **Type:** iconography
 **Referent:** FIG-1 (stated — འཕགས་མ་སྒྲོལ་མ)
@@ -2876,6 +2876,45 @@ repeated), c-7-1-3 (work 7's cross-referenced blessing/maṇḍala recap).
 **Scribal/paratextual note** — c-9-12 (the twenty-six-syllable anti-error formula, whose
 authority is the Mañjuśrī Root Tantra as a text-class citation, not a specific named work
 that would warrant a TXT entry).
+
+---
+
+## Known issues for human review
+
+**ID collision, pre-existing (not renumbered per this skill's guidance to log rather than
+renumber inherited IDs):** claim `c-2-1` (node 2's own first claim, "Title of the second
+work"), once its `c-` prefix is stripped and dashes read as dots, reads identically to node
+`2.1`'s own decimal (`2-1` → `2.1`). This claim was already present, under this exact ID,
+before the present resumption session began (part of the original front-matter-through-2.1.2.1
+extraction); per the resumption instructions, pre-existing claim IDs from that session are not
+renumbered here. A human reviewer should decide whether to renumber `c-2-1`/`c-2-2` (e.g. to
+`c-2-0-1`/`c-2-0-2`, mirroring the fix applied to every *newly*-extracted instance of this same
+pattern in this session — nodes 4, 5, 5.1, 5.2, 7, and 8 all had their own top-of-node claims
+renumbered this way) or leave it, since `verify_claims.py`'s guard 3 flags it only as a
+check-this-was-not-a-mistake warning, not a hard collision (the claim carries its mandatory
+`c-` prefix, so it is never actually confusable with the node heading `## 2.1 …` in context).
+
+**Multi-block citations not recognized by `verify_claims.py`'s guard 1/guard 5 (164 claims):**
+many claims in this file — especially in the verse-by-verse commentaries (works 2 and 3) and
+the four-maṇḍala sādhana (work 5) — quote a continuous passage of the commentator's prose that
+the source's own OCR/segmentation pipeline split across several `^0-N` blocks (a sentence
+beginning in one block and ending in the next, with no natural break). Rather than truncate
+these quotes at an arbitrary mid-sentence block boundary, this file cites every block a claim's
+quotation spans, e.g. `(…md#^0-178, #^0-179, #^0-180)`. `verify_claims.py`'s citation regex
+(`_CITE_RE`) is written for exactly one `#^block-id` per `**Cite:**` line and cannot parse a
+comma-separated list, so it reports these as "no parseable block ID" — a limitation of the
+checker script for this file's citation style, not a broken citation: every block ID listed
+does exist in the source (spot-checked throughout this session), and the quoted Tibetan is a
+literal, contiguous match against the concatenation of the listed blocks in source order. Where
+a claim's quote was found to *actually* diverge from the source across a block boundary (an
+off-by-one block error, an accidentally-invented bridging word, or a transcription slip in
+copying OCR-garbled title-page characters), it was corrected in place during this session (see
+c-1-3, c-2-1-2-1-34, c-3-2, c-3-26, c-4-17-1, c-5-1-3-1, c-5-2-7-1-3, c-5-3-7, c-7-0-1, c-7-0-2,
+c-7-1-2, c-8-1-2) — the 164 remaining flagged claims are multi-block-citation false positives
+under the checker's single-block assumption, not uncorrected errors. A future revision of
+`verify_claims.py` could extend `_CITE_RE`/`cite_to_block_id` to accept a comma-separated block
+list and test quote containment against their concatenation; until then, a human reviewer
+verifying this file block-by-block against the source is the recommended check for these 164.
 
 ---
 

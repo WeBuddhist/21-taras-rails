@@ -1,7 +1,7 @@
 ---
 registered_id: sangye-nyentrul
 source_file: 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md
-qc_reports: [0-INBOX/toc-tree-qc-sangye-nyentrul.md, 0-INBOX/toc-tree-qc-source-sangye-nyentrul.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-sangye-nyentrul.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-sangye-nyentrul.md]
 status: complete
 ---
 ## དཀར་ཆག / Table of Contents

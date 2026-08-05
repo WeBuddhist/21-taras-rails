@@ -1,7 +1,7 @@
 ---
 registered_id: gendun-gyatso
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md
-qc_reports: [0-INBOX/toc-tree-qc-gendun-gyatso.md, 0-INBOX/toc-tree-qc-source-gendun-gyatso.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-gendun-gyatso.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-gendun-gyatso.md]
 status: complete
 ---
 

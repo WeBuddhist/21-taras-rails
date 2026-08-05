@@ -1,7 +1,7 @@
 ---
 registered_id: taranatha
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md
-qc_reports: [0-INBOX/toc-tree-qc-taranatha.md, 0-INBOX/toc-tree-qc-source-taranatha.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-taranatha.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-taranatha.md]
 status: complete
 ---
 

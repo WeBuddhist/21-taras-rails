@@ -1,7 +1,7 @@
 ---
 registered_id: sungrab-tulku
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md
-qc_reports: [0-INBOX/toc-tree-qc-sungrab-tulku.md, 0-INBOX/toc-tree-qc-source-sungrab-tulku.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-sungrab-tulku.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-sungrab-tulku.md]
 status: complete
 ---
 

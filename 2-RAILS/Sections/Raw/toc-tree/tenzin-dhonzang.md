@@ -1,7 +1,7 @@
 ---
 registered_id: tenzin-dhonzang
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md
-qc_reports: [0-INBOX/toc-tree-qc-tenzin-dhonzang.md, 0-INBOX/toc-tree-qc-source-tenzin-dhonzang.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-tenzin-dhonzang.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-tenzin-dhonzang.md]
 status: complete
 ---
 

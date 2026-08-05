@@ -1,7 +1,7 @@
 ---
 registered_id: konchok-thabkhe
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md
-qc_reports: [0-INBOX/toc-tree-qc-konchok-thabkhe.md, 0-INBOX/toc-tree-qc-source-konchok-thabkhe.md]
+qc_reports: [2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-konchok-thabkhe.md, 2-RAILS/Sections/Raw/toc-qc/toc-tree-qc-source-konchok-thabkhe.md]
 status: complete
 ---
 

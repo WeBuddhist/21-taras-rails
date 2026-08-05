@@ -33,8 +33,12 @@ The LLM is the compiler. Human domain specialists are the reviewers. Nothing in 
 ├── Sections/ # multi-commentary summaries per TOC node
 │ ├── <node-id>.md # combined: per-commentary synthesis + English translation
 │ └── Raw/
-│ └── <commentary-id>/
-│ └── <node-id>.md # one summary per commentary per node, original language
+│ ├── <commentary-id>/
+│ │ └── <node-id>.md # one summary per commentary per node, original language
+│ ├── toc-tree/<registered-id>.md # finished, QC-clean sa-bcad tree per commentary
+│ ├── toc-candidates/<registered-id>.md # merged candidate scan (evidence, not citable)
+│ ├── toc-enumerations/<registered-id>.md # merged verbatim enumerations (evidence, not citable)
+│ └── toc-qc/ # both QC reports per commentary
 ├── Verses/ # one context package per verse
 │ ├── <verse-id>.md # e.g. 1-1.md, 1-583.md, 1-0a-1.md
 │ └──...
@@ -301,7 +305,15 @@ Authoring skill: `local-wiki-article`.
 
 ## 6a. TOC Trees (`Sections/Raw/toc-tree/<registered-id>.md`)
 
-The decimal-numbered ས་བཅད (sa bcad) structural tree for one commentary — the scaffold that heading block IDs, `toc-scaffolded-claims`, and `tree-guided-claims` all read from. It lives under `Sections/Raw/` because it is raw distilled structure: per-commentary, descriptive, every title attestation-checked against the source. Only the **finished, QC-clean tree** lives here; the four-pass extraction's working intermediates (candidate scan, verbatim enumerations, per-chunk staging) stay in `0-INBOX/temp/TOC-<id>/` as scratch, never promoted here until both deterministic checkers pass (`qc_check_tree.py` against the extraction's own candidates/enumerations corpus, `qc_tree_vs_source.py` against the commentary file itself).
+The decimal-numbered ས་བཅད (sa bcad) structural tree for one commentary — the scaffold that heading block IDs, `toc-scaffolded-claims`, and `tree-guided-claims` all read from. It lives under `Sections/Raw/` because it is raw distilled structure: per-commentary, descriptive, every title attestation-checked against the source. Only a tree that has passed both deterministic checkers lives here (`qc_check_tree.py` against the extraction's own candidates/enumerations corpus, `qc_tree_vs_source.py` against the commentary file itself); per-chunk working staging stays in `0-INBOX/temp/TOC-<id>/` as scratch and is never promoted.
+
+Once both checkers pass, the extraction's **evidence trail is promoted alongside the tree** so that no `status: complete` rail depends on files in scratch:
+
+- `Sections/Raw/toc-candidates/<registered-id>.md` — the merged section-candidate scan
+- `Sections/Raw/toc-enumerations/<registered-id>.md` — the merged verbatim enumeration blocks
+- `Sections/Raw/toc-qc/toc-tree-qc-<registered-id>.md` and `Sections/Raw/toc-qc/toc-tree-qc-source-<registered-id>.md` — the two QC reports, which the tree's `qc_reports:` frontmatter cites by these paths
+
+⚠️ The candidate and enumeration files are extraction evidence, **not attested structure**. Candidate extraction is deliberately recall-over-precision, so these files contain false positives by design. Never cite them from any other rail or transformation; the QC-clean tree is the only citable structural artifact.
 
 A tree is tied to one exact version of its source file — its `[[N]]` pointers are line numbers. If the commentary is resegmented or otherwise edited after a tree was built, the tree is stale and must be rebuilt, not reused.
 
