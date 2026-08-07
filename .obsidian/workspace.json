@@ -199,6 +199,8 @@
   },
   "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/claims-consolidation/SKILL.md",
+    "4-SYSTEM/Skills/claims-consolidation",
     "2-RAILS/Claims/tara-01.md",
     "2-RAILS/Claims/benefits.md",
     "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
@@ -225,7 +227,6 @@
     "0-INBOX/temp/karma-maitri",
     "0-INBOX/temp/TOC-karma-maitri/pre-toc-ingest-backup.md",
     "4-SYSTEM/Skills/tree-guided-claims/scripts/verify_claims.py",
-    "4-SYSTEM/Skills/tree-guided-claims/scripts",
     "4-SYSTEM/Skills/tree-guided-claims/SKILL.md",
     "4-SYSTEM/Pipelines/wikipedia/corpora/README.md",
     "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md",
@@ -233,7 +234,6 @@
     "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md",
     "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md",
     "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ།.md"
+    "0-INBOX/migration-backups/2026-08-04/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md"
   ]
 }

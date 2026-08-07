@@ -43,22 +43,68 @@ per commentary (isolation):
      → 2-RAILS/Claims/raw/tree-guided/<id>.md
 
 corpus-wide (after all extractions):
-  4. bucket claims by spine + facet           (mechanical script — no judgment)
-  5. question-driven consolidation per bucket (one subagent per topic)
+  4. map claims to spine + facet, per commentary (one isolated subagent per commentary)
+     → assembled into a packet per topic, not written to disk separately
+  5. question-driven consolidation per bucket   (one subagent per topic)
      → 2-RAILS/Claims/<topic>.md
-  6. generated indexes                        (matrix, tags, graph — from topic pages)
+  5b. coverage check + gap closure               (deterministic diff + small repair pass)
+  6. generated indexes                           (matrix, tags, graph — from topic pages)
 ```
 
-Steps 4 and 6 are deterministic scripts; only steps 3 and 5 use model judgment, always on a
-small, local input.
+Only step 6 is a fully deterministic script with no model judgment. Step 4 was originally
+designed as one too ("bucket claims by spine + facet — mechanical script, no judgment") but a
+pilot run (2026-08-07, `claims-consolidation` skill, 16 commentaries × 3 topics) found this
+assumption wrong — see "Bucketing is not mechanical" below. Steps 3, 4, and 5 all use model
+judgment, always on a small, local input (one commentary, or one topic's assembled packet).
+5b's diff itself is deterministic; only the gap-closing repair pass (when a gap is found) uses
+judgment, and only on the specific claims the diff flagged.
 
 ### Why the spine matters
 
 All commentaries on one root text share its canonical structure (for Tārā-21: 21 homages +
-benefits). So topic alignment is two cheap stages — slot each claim to its verse/Tārā (nearly
-free: the tree-guided extraction already records the TOC node), then compare a handful of
-claims semantically *within* a bucket — never one expensive global matching over thousands of
-claims.
+benefits). So topic alignment is two stages — slot each claim to its verse/Tārā (via the
+per-commentary mapping pass, step 4 — see below for why this needs a real read, not a lookup),
+then compare a handful of claims semantically *within* a bucket — never one expensive global
+matching over thousands of claims.
+
+### Bucketing is not mechanical — it needs a per-commentary mapping pass
+
+This corrects the pipeline diagram's original step 4 ("mechanical script — no judgment") and
+the claim above that slotting is "nearly free" from the TOC node alone. The pilot run found
+that **TOC node numbering for "which spine slot is this" is not uniform across commentaries**:
+one commentary nests a Tārā's content at node `1.1.N`, another at top-level node `N`, another
+groups several sub-facets per Tārā under one node, another titles nodes by the Tārā's epithet
+name instead of an ordinal, and structures otherwise merge or split relative to the canonical
+spine. A fixed formula (e.g. "node `1.1.N` is always Tārā N") silently mis-buckets claims the
+moment it hits a commentary organized differently — and several of this vault's sixteen do.
+
+The fix, validated in the pilot: **one isolated subagent per commentary**, reading that
+commentary's own TOC tree, its raw claims file, and (for texts with a verse-numbered spine)
+the relevant root-text passage as ground truth — never a script applying one node-numbering
+rule to every commentary. This subagent also resolves the corpus-wide **completeness
+guarantee** the rest of §4 already promises: it must place every claim into the topic bucket,
+an explicit `ambiguous` list (uncertain fit, with a reason — never silently dropped, never
+silently force-fit), or leave it out as genuinely irrelevant; and it must explicitly mark a
+commentary silent on a bucket rather than leaving the bucket merely empty. Output is the full
+claim content (original-language text, gloss, type, referent, citation), not bare IDs, so the
+consolidation pass (step 5) never needs to re-open a raw claims file.
+
+### The coverage invariant (step 5b) — closing the loop the pipeline only aspired to before
+
+§4's original design already treats question generation as a "derived completeness check" —
+free extraction first, generated questions catch what free reading missed. The pilot added the
+mechanism that actually *enforces* this instead of leaving it aspirational: after step 5
+writes a topic page, **mechanically diff** every claim ID step 4 placed in that topic's main
+bucket against every claim ID the topic page actually cites. Any claim in the gap must be
+closed — folded into the page, or logged with a one-line reason in an explicit "Claims
+reviewed, not separately cited" section — never left silently absent. In the pilot this caught
+real, specific, fixable gaps (roughly 5–12% of a topic's mapped claims per page, mostly
+non-substantive structural/duplicate claims once reviewed, but not always — e.g. one
+commentary's parallel mantra-syllable benefit glosses were found missing and folded in on
+review). The diff itself is a deterministic set comparison, not a model judgment call; only
+the repair pass over the flagged gap uses judgment, and only on the specific claims flagged —
+never a full re-read of the topic. See `4-SYSTEM/Skills/claims-consolidation/SKILL.md` for the
+full procedure, including this check as a mandatory (not optional) step.
 
 ---
 
@@ -186,17 +232,22 @@ Recorded so they are not re-proposed from scratch:
 
 ---
 
-## 7. Status snapshot (2026-08-05)
+## 7. Status snapshot (2026-08-07)
 
-- Ingest chain + TOC tree + tree-guided claims complete for **karma-maitri** only
-  (`Claims/raw/tree-guided/karma-maitri.md`, tree at `Sections/Raw/toc-tree/karma-maitri.md`,
-  `status: complete`).
-- Remaining 15 commentaries: raw texts in `0-INBOX/raw-data/སྒྲོལ་མ་ཉེར་གཅིག/`, awaiting
-  `/ingest` + `/extract-claims`. Two raw texts there (Gendun Drub, Ngulchu Dharmabhadra) have
-  never been registered as sources at all.
-- Consolidation (steps 4–6 of §2): **not started** — deliberately blocked until extraction
-  covers enough of the corpus. No bucketing script or consolidation skill exists yet; when
-  built, the consolidation skill should follow this document and the template.
+- Ingest chain + TOC tree (`status: complete`) + tree-guided claims extraction are done for
+  **all 16 ingested commentaries** (`Claims/raw/tree-guided/<id>.md`, trees at
+  `Sections/Raw/toc-tree/<id>.md`). All 16 raw claims files are `status: draft` — extraction
+  drafts, not yet reviewed by a domain specialist (the LLM never marks its own extraction
+  complete). Total corpus: 2,975 claims (62–368 per commentary).
+- One commentary remains outside this count: `anon-rnam-snang`, excluded pending a human check
+  on whether it is a genuine seventeenth commentary or a second copy of the root text (see
+  `Guidelines/vault-annex.md` §3's open flags).
+- Consolidation (steps 4–6 of §2): pipeline designed and **piloted** 2026-08-07 — 3 topic
+  pages exist at `Claims/tara-01.md`, `Claims/tara-02.md`, `Claims/benefits.md`
+  (`status: draft`), built via the now-registered `claims-consolidation` skill
+  (`4-SYSTEM/Skills/claims-consolidation/SKILL.md`), including a coverage-check gap-fill pass
+  on all three. The remaining ~18 per-Tārā pages (Tārā 3–21) and any further global topics
+  have not been run yet.
 
 ## 8. Where everything lives
 

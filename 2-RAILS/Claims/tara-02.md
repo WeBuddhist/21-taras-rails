@@ -230,23 +230,35 @@ None beyond the above two positions.
 
 ---
 
+## Claims reviewed, not separately cited
+
+The following claims were flagged as relevant to this topic during the mapping pass and were reviewed in full against the facets above. Each is a bare structural marker (a section heading, section-opener question, or verse-pointing gloss) with no descriptive content of its own beyond what is already attested by other, already-cited claims from the same commentary. They are logged here, rather than silently dropped, so the omission is auditable.
+
+- `anon-trinle-char:c-3-2-2` — structural marker introducing the section ("As for the second homage, to the venerable White Lady Radiant One:"); the epithet it repeats is already attested via `anon-trinle-char:c-3-2-1` (cited under Name / Epithet).
+- `karma-maitri:c-1-1-2-1` — section-opener question ("This is the second: the homage. To whom is it made?") with no descriptive content of its own; the answer is already attested via `karma-maitri:c-1-1-2-2` through `c-1-1-2-4` (cited under Colour, Face, Light/Radiance, Name).
+- `sungrab-tulku:c-5-1` — bare section-title marker naming this commentary's own analytical division ("praise by way of the clear countenance and the radiating light"); it supplies no distinct epithet for Tārā, and its thematic content (face, light) is already fully attested via `sungrab-tulku:c-5-5` and `c-5-6` (cited under Face and Light/Radiance).
+- `taranatha:c-2-1` — bare section heading ("Second, homage to [she of] the autumn [moon face]") with no content beyond pointing to the verse already quoted and attested via `taranatha:c-2-3`.
+- `taranatha:c-2-2` — opening gloss pointing to the verse quotation that follows ("Regarding the second verse, 'Homage to [she of] the autumn [moon]', etc. —"), with no independent content; the verse itself is attested via `taranatha:c-2-3`.
+
+---
+
 ## Coverage
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-2-1, c-3-2-3, c-3-2-4, c-3-2-5, c-3-2-6, c-3-2-7, c-3-2-8, c-3-2-9, c-3-2-10, c-3-2-11 | Consensus (Face, Light/Radiance), ⚑ Divergences (Name, Colour, Light/Radiance reading, Implements) |
+| anon-trinle-char | c-3-2-1, c-3-2-2, c-3-2-3, c-3-2-4, c-3-2-5, c-3-2-6, c-3-2-7, c-3-2-8, c-3-2-9, c-3-2-10, c-3-2-11 | Consensus (Face, Light/Radiance), ⚑ Divergences (Name, Colour, Light/Radiance reading, Implements); c-3-2-2 reviewed, not separately cited |
 | anon-utpala | c-1-2-2-1-1-1-4, c-1-2-2-1-1-1-5, c-1-2-2-1-1-1-6 | Consensus (Colour, Face, Light/Radiance) |
 | drakpa-gyaltsen | c-1-8, c-1-9, c-1-10, c-1-11 | Consensus (Colour, Face, Light/Radiance) |
 | gendun-drub | c-2-2-2-2-1-1-1-2, c-2-2-2-2-1-1-1-3, c-2-2-2-2-1-1-1-4, c-2-2-2-2-1-1-1-5 | Consensus (Colour, Face, Light/Radiance), ⚑ Divergences (Name, Face textual variant) |
 | gendun-gyatso | c-1-2-1, c-1-2-2 | Consensus (Colour, Face, Light/Radiance), Consensus (Name — generic) |
-| karma-maitri | c-1-1-2-2, c-1-1-2-3, c-1-1-2-4 | Consensus (Colour, Face, Light/Radiance, Name — generic) |
+| karma-maitri | c-1-1-2-1, c-1-1-2-2, c-1-1-2-3, c-1-1-2-4 | Consensus (Colour, Face, Light/Radiance, Name — generic); c-1-1-2-1 reviewed, not separately cited |
 | konchok-thabkhe | c-2-2-1, c-2-2-2, c-2-2-3 | Consensus (Face, Light/Radiance), Unique (Name framing) |
 | lobsang-dawa | c-1-2-2-1-1-1-5, c-1-2-2-1-1-1-6 | Consensus (Face, Light/Radiance), Unique (Name) |
 | palden-sherab | c-3-1-2-0-1, c-3-1-2-0-2, c-3-1-2-1-1, c-3-1-2-1-2, c-3-1-2-2-1, c-3-1-2-2-2, c-3-1-2-3-1, c-3-1-2-4-1, c-3-1-2-4-2 | ⚑ Divergences (Name, Implements, Stance), Consensus (Colour, Face, Light/Radiance, Activity, Doctrinal), Unique (Implements detail, Doctrinal ultimate meaning) |
 | pema-namgyal | c-2-4-16, c-2-4-17 | Consensus (Colour, Face, Light/Radiance, Activity), ⚑ Divergences (Verse-Specific Benefit) |
 | sangye-nyentrul | c-3-0-1, c-3-0-2, c-3-1-1, c-3-1-2, c-3-1-3 | Consensus (Colour, Face, Light/Radiance, Name, Activity, Stance), ⚑ Divergences (Name, Implements, Stance) |
-| sungrab-tulku | c-5-2, c-5-3, c-5-4, c-5-5, c-5-6 | Consensus (Colour, Face, Light/Radiance), ⚑ Divergences (Name) |
-| taranatha | c-2-3, c-2-4, c-2-5, c-2-6, c-2-7 | Consensus (Colour, Face, Light/Radiance, Doctrinal), ⚑ Divergences (Light/Radiance reading) |
+| sungrab-tulku | c-5-1, c-5-2, c-5-3, c-5-4, c-5-5, c-5-6 | Consensus (Colour, Face, Light/Radiance), ⚑ Divergences (Name); c-5-1 reviewed, not separately cited |
+| taranatha | c-2-1, c-2-2, c-2-3, c-2-4, c-2-5, c-2-6, c-2-7 | Consensus (Colour, Face, Light/Radiance, Doctrinal), ⚑ Divergences (Light/Radiance reading); c-2-1, c-2-2 reviewed, not separately cited |
 | tenga-tulku | c-1-2-2-1-1-1-2, c-1-2-2-1-1-1-3, c-1-2-2-1-1-1-4 | Consensus (Face, Light/Radiance, Name — generic) |
 | tenzin-dhonzang | c-4-2-1, c-4-2-2, c-4-2-3, c-4-2-4, c-4-2-5, c-4-2-6, c-4-2-7, c-4-2-8 | ⚑ Divergences (Name, Activity, Verse-Specific Benefit), Consensus (Colour, Face, Light/Radiance, Activity), Unique (Other Iconographic Detail) |
 | tsultrim-namdak | c-2-1-2-1-7, c-2-1-2-1-8, c-2-1-2-1-9, c-3-5 | Consensus (Colour, Face, Light/Radiance, Name, Activity), ⚑ Divergences (Name, Light/Radiance reading, Implements) |

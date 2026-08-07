@@ -373,6 +373,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Combine raw summaries into one section file | `section-summary-combined` |
 | Build a verse context package | `verse-context` |
 | Inventory one commentary's claims | `commentary-claims` |
+| Consolidate one topic's claims across all commentaries | `claims-consolidation` |
 | Create a local-wiki article | `local-wiki-article` |
 | Add or regenerate a TOC | `add-toc` |
 | Build an interlinear gloss | `interlinear-gloss` |

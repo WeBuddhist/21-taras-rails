@@ -266,6 +266,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One file at `2-RAILS/Claims/raw/tree-guided/<registered-id>.md` — a Grounding index, claims under TOC-tree-mirrored headings with namespaced IDs, internal-tensions and unanchored-claims rollups, a coverage log, and a `verify_claims.py` pass (quote containment, count recomputation, ID collisions, `stated`-referent validity).
 → [`tree-guided-claims/SKILL.md`](tree-guided-claims/SKILL.md)
 
+### `claims-consolidation` **[exists]**
+**Purpose:** Consolidate one topic's claims across every commentary into a single question-driven topic page — per-commentary mapping in isolation (node numbering is never uniform across commentaries, so this needs a real read of each one's own TOC tree, not a fixed formula), then question generation and per-facet synthesis into Consensus/⚑ Divergences/Unique, closed by a mandatory coverage check that accounts for every mapped claim.
+**Inputs:** A topic definition (spine slot + facets) and every commentary's raw claims file plus TOC tree under `2-RAILS/Claims/raw/tree-guided/` and `2-RAILS/Sections/Raw/toc-tree/`.
+**Outputs:** One consolidated topic page at `2-RAILS/Claims/<topic-slug>.md`, following `Templates/consolidated-claims-topic.md`.
+→ [`claims-consolidation/SKILL.md`](claims-consolidation/SKILL.md)
+
 ---
 
 ## Translation requirements skills

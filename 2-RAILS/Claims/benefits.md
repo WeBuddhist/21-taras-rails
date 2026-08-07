@@ -190,7 +190,8 @@ Three commentaries additionally give an **allegorical, doctrinal** reading of "p
 The remaining commentaries that address poison (drakpa-gyaltsen, gendun-gyatso, konchok-thabkhe, palden-sherab, pema-namgyal, taranatha, tsultrim-namdak) read it literally throughout, without an allegorical layer.
 
 ### Unique
-pema-namgyal gives the most extensive taxonomy of poison-types in the corpus — virulent snake-venom, rākṣasa-poison, elephant-must poison, naturally-arising elemental poison, harm from nāgas/rabid dogs/snakes, innately-arisen animal poison (black donkey), compounded poison (goat-liver, rotten dog-corpse), and transformed poison (frozen goat-meat) — and specifies that prior accomplishment of a hundred-thousand recitations of the praise is what allows later mere recollection to clear and even transform such poison into nectar (`pema-namgyal:c-3-3`).
+- pema-namgyal gives the most extensive taxonomy of poison-types in the corpus — virulent snake-venom, rākṣasa-poison, elephant-must poison, naturally-arising elemental poison, harm from nāgas/rabid dogs/snakes, innately-arisen animal poison (black donkey), compounded poison (goat-liver, rotten dog-corpse), and transformed poison (frozen goat-meat) — and specifies that prior accomplishment of a hundred-thousand recitations of the praise is what allows later mere recollection to clear and even transform such poison into nectar (`pema-namgyal:c-3-3`).
+- tenga-tulku adds that the benefit here is not only the removal of poison-suffering but also a positive attainment: merely recollecting the Venerable Lady's blessing grants "special, excellent bliss" (བདེ་བ་ཁྱད་པར་ཅན) in addition to dispelling that suffering (`tenga-tulku:c-1-3-3-10`).
 
 ---
 
@@ -299,6 +300,37 @@ None observed — these four statements do not conflict, they simply do not over
 
 ---
 
+## Claims reviewed, not separately cited
+
+This section is distinct from "Ambiguous claims reviewed and excluded" below, which records the original consolidation pass's own exclusions. This section closes a later **coverage-check gap**: 25 claim IDs that the mapping pass had marked relevant to this topic but that were never logged anywhere on the page. Each is accounted for here. One, `tenga-tulku:c-1-3-3-10`, was substantive and has been folded into "Protection from poison" above. The remaining 24 were reviewed and found non-substantive — logged below with a one-line reason each so no omission is silent.
+
+- `anon-utpala:c-1-3-4` — textual-variant note on the fourth line's translation ("some translations" render it differently); the underlying content (attaining buddhahood) is already attested via `anon-utpala:c-1-3-3`.
+- `drakpa-gyaltsen:c-2-22` — colophon: names the commentary's translator (Nyen); not benefits content.
+- `drakpa-gyaltsen:c-2-23` — colophon: names the commentary's redactor (Drakpa Gyaltsen); not benefits content.
+- `drakpa-gyaltsen:c-2-24` — closing title restatement of the commentary itself; structural, not benefits content.
+- `karma-maitri:c-1-2-1` — bare section heading ("Second major division: the benefits"); structural, no content of its own.
+- `karma-maitri:c-1-2-2` — section-opener restating the heading ("the topic is the benefits"); structural, no content of its own.
+- `karma-maitri:c-1-2-21` — colophon: attributes the commentary to Karma Maitri's oral teaching; not benefits content.
+- `sungrab-tulku:c-26-2` — the condensed-praise verse quoted in full; a structural quotation-anchor for the etymology claims already cited (`c-26-3`, `c-26-7`, `c-26-9`, `c-26-11`), not itself an additional gloss.
+- `sungrab-tulku:c-26-6` — root phrase "by TUTTĀRE dispels all fear" re-quoted as a structural lead-in to its etymology, already cited at `sungrab-tulku:c-26-7`.
+- `sungrab-tulku:c-26-8` — root phrase "by TURE bestows all benefits" re-quoted as a structural lead-in to its etymology, already cited at `sungrab-tulku:c-26-9`.
+- `taranatha:c-22-0-1` — bare section heading ("the meaning of engagement"); structural, no content of its own.
+- `taranatha:c-22-0-2` — structural announcement that the following section teaches the benefits; no benefit content itself.
+- `taranatha:c-22-1-14` — textual note on translating the practice-verb ("reciting joyfully" → "reading diligently"); a wording refinement of the manner of recitation already cited at `taranatha:c-22-1-12`, not a new benefit or practice fact.
+- `taranatha:c-22-1-42` — word-gloss on the closing word "completed" (Skt. samāpta); colophon-adjacent philology, not benefits content.
+- `taranatha:c-22-1-44` — colophon attributing the commentary itself to Tāranātha; this is the commentary's own authorship, not the root praise's origin (contrast the "Origin and attribution" facet, which concerns who taught the praise).
+- `tenga-tulku:c-1-3-1-1` — section-opener ("First, teaching the intention"); structural, no content of its own.
+- `tenga-tulku:c-1-3-2-1` — section-opener ("Second, in terms of the time"); structural, no content of its own.
+- `tenga-tulku:c-1-3-2-4` — transition phrase ("ultimately, protection from the cause"); structural, no content of its own.
+- `tenga-tulku:c-1-3-2-7` — transition phrase ("in terms of the result"); structural, no content of its own.
+- `tenga-tulku:c-1-3-3-1` — section-opener ("Third, actually teaching the benefits"); structural, no content of its own.
+- `tenga-tulku:c-1-3-3-4` — root verse re-quoted ("her poison is exceedingly fierce"); structural lead-in to the exegesis already cited at `tenga-tulku:c-1-3-3-5`.
+- `tenga-tulku:c-1-3-3-6` — root verse re-quoted ("moreover, for migrators"); structural lead-in to the exegesis already cited at `tenga-tulku:c-1-3-3-7`.
+- `tenga-tulku:c-1-3-3-8` — root verse re-quoted ("even what is eaten and drunk"); structural lead-in to the exegesis already cited at `tenga-tulku:c-1-3-3-9`.
+- `tenga-tulku:c-1-3-4-1` — section-opener ("Fourth, concluding by way of the numbers"); structural, no content of its own.
+
+---
+
 ## Coverage
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
@@ -316,7 +348,7 @@ None observed — these four statements do not conflict, they simply do not over
 | sangye-nyentrul | c-24-3 | Other general statements |
 | sungrab-tulku | c-2-7, c-2-8, c-2-9, c-2-10, c-2-11, c-2-12, c-2-13, c-2-14, c-26-7, c-26-9, c-26-11, c-26-12 | Who benefits, Timing, Fearlessness (unique mantra etymology), Purification/lower rebirth (unique mantra etymology), Empowerment/buddhahood (unique mantra etymology), Recitation count, Origin/attribution (unique — condensed-praise origin) |
 | taranatha | c-22-1-11, c-22-1-12, c-22-1-13, c-22-1-15, c-22-1-16–c-22-1-18, c-22-1-19–c-22-1-25, c-22-1-26–c-22-1-32, c-22-1-33, c-22-1-34, c-22-1-35, c-22-1-36, c-22-1-37, c-22-1-38, c-22-1-39–c-22-1-41 | Who benefits, Timing, Fearlessness, Purification/lower rebirth, Empowerment/buddhahood (unique staged account), Poison, Spirits/epidemic, Extends to others, Recitation count (⚑ divergence, unique siddhis list), Origin/attribution (unique) |
-| tenga-tulku | c-1-3-1, c-1-3-1-2, c-1-3-1-3, c-1-3-2-2, c-1-3-2-3, c-1-3-2-5, c-1-3-2-6, c-1-3-2-8, c-1-3-2-9, c-1-3-3-2, c-1-3-3-3, c-1-3-3-5, c-1-3-3-7, c-1-3-3-9, c-1-3-3-11, c-1-3-3-12, c-1-3-3-13, c-1-3-3-14, c-1-3-4-2, c-1-3-4-3 | Structure, Who benefits, Timing, Fearlessness, Purification/lower rebirth, Empowerment/buddhahood (unique — 11th ground), Poison (⚑ allegorical divergence), Spirits/epidemic, Extends to others, Recitation count |
+| tenga-tulku | c-1-3-1, c-1-3-1-2, c-1-3-1-3, c-1-3-2-2, c-1-3-2-3, c-1-3-2-5, c-1-3-2-6, c-1-3-2-8, c-1-3-2-9, c-1-3-3-2, c-1-3-3-3, c-1-3-3-5, c-1-3-3-7, c-1-3-3-9, c-1-3-3-10, c-1-3-3-11, c-1-3-3-12, c-1-3-3-13, c-1-3-3-14, c-1-3-4-2, c-1-3-4-3 | Structure, Who benefits, Timing, Fearlessness, Purification/lower rebirth, Empowerment/buddhahood (unique — 11th ground), Poison (⚑ allegorical divergence, unique — bliss benefit), Spirits/epidemic, Extends to others, Recitation count |
 | tenzin-dhonzang | c-3-98 (ambiguous, included) | Other general statements |
 | tsultrim-namdak | c-4-0-1, c-4-0-2, c-4-1-1–c-4-28-2 (28 narratives), c-5-2-7-4-3-1-1 (ambiguous, included), c-8-4, c-8-5, c-8-6 | Named hazards (narrative tradition — primary source), Timing, Recitation count, Fearlessness, Purification/lower rebirth, Empowerment/buddhahood, Poison, Spirits/epidemic, Origin/attribution |
 
