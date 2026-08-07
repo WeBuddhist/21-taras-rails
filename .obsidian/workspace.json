@@ -11,14 +11,10 @@
             "id": "f0ee988f2ed0e67b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-RAILS/Claims/tara-01.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tara-01"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -199,8 +195,8 @@
   },
   "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
-    "2-RAILS/Claims/benefits-bo.md",
     "2-RAILS/Claims/tara-01.md",
+    "2-RAILS/Claims/benefits-bo.md",
     "2-RAILS/Claims/benefits.md",
     "4-SYSTEM/Skills/claims-consolidation-bo/SKILL.md",
     "4-SYSTEM/Skills/claims-consolidation-bo",
