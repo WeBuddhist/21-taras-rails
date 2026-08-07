@@ -34,6 +34,7 @@ consolidation_questions:
   - "Does any commentary note a textual or translation variant in this verse's wording, attributed to a named translator or master?"
   - "Does any commentary read this verse according to a deeper (hidden/tantric, non-literal) layer of meaning beyond the literal word-meaning?"
   - "Does any commentary state a benefit specific to reciting or contemplating this particular homage, distinct from the text's general closing benefits section?"
+  - "Does any commentary note that the verse's opening word 'Homage' functions as a template opening applying implicitly to all twenty-one homages, not just this one — and does any commentary classify its whole treatment of Homage 1 under a rhetorical-type label such as 'praise by way of history'?"
 date: 2026-08-07
 status: draft
 ---
@@ -60,6 +61,7 @@ status: draft
 12. Does any commentary note a textual or translation variant in this verse's wording, attributed to a named translator or master?
 13. Does any commentary read this verse according to a deeper (hidden/tantric, non-literal) layer of meaning beyond the literal word-meaning?
 14. Does any commentary state a benefit specific to reciting or contemplating this particular homage, distinct from the text's general closing benefits section?
+15. Does any commentary note that the verse's opening word "Homage" functions as a template opening applying implicitly to all twenty-one homages, not just this one — and does any commentary classify its whole treatment of Homage 1 under a rhetorical-type label such as "praise by way of history"?
 
 ---
 
@@ -70,7 +72,7 @@ status: draft
 
 The verse itself is quoted, in essentially identical form, as the basis for this and the following two etymologies by: `anon-trinle-char:c-3-1-3`, `anon-trinle-char:c-3-1-4`, `anon-utpala:c-1-2-1-2`, `gendun-drub:c-2-2-2-1-2`, `palden-sherab:c-3-1-1-0-1`, `palden-sherab:c-3-1-1-0-2`, `sungrab-tulku:c-4-2`, `sungrab-tulku:c-4-3`, `tenga-tulku:c-1-2-1-2`, `tenzin-dhonzang:c-4-1-2`, `tsultrim-namdak:c-2-1-2-1-2`, `karma-maitri:c-1-1-1-3`, `lobsang-dawa:c-1-2-1-3`, `taranatha:c-1-2`, `taranatha:c-1-4`.
 
-— attested (etymology proper): `anon-trinle-char:c-3-1-5`, `anon-trinle-char:c-3-1-7` (citing the *Tārā-tantra of a Hundred and Eight Names*), `anon-utpala:c-1-2-1-4`, `drakpa-gyaltsen:c-1-1`, `gendun-gyatso:c-1-1-3`, `sungrab-tulku:c-4-4`, `sungrab-tulku:c-4-5`, `taranatha:c-1-7`, `palden-sherab:c-3-1-1-1-1`, `tenzin-dhonzang:c-4-1-3`, `tenzin-dhonzang:c-4-1-4` (Abhidharmakośa-style supporting citation), `tsultrim-namdak:c-2-1-2-1-4`, `sangye-nyentrul:c-2-0-1` (11 commentaries)
+— attested (etymology proper): `anon-trinle-char:c-3-1-5`, `anon-trinle-char:c-3-1-6` (attribution clause naming the source), `anon-trinle-char:c-3-1-7` (citing the *Tārā-tantra of a Hundred and Eight Names*), `anon-utpala:c-1-2-1-4`, `drakpa-gyaltsen:c-1-1`, `gendun-gyatso:c-1-1-3`, `sungrab-tulku:c-4-4`, `sungrab-tulku:c-4-5`, `taranatha:c-1-7`, `palden-sherab:c-3-1-1-1-1`, `tenzin-dhonzang:c-4-1-3`, `tenzin-dhonzang:c-4-1-4` (Abhidharmakośa-style supporting citation), `tsultrim-namdak:c-2-1-2-1-4`, `sangye-nyentrul:c-2-0-1` (11 commentaries)
 
 ### ⚑ Divergences
 None observed on this specific point (contrast Pamo, below, where anon-utpala reads a different third epithet).
@@ -146,6 +148,7 @@ konchok-thabkhe's own text flags a tradition-internal divergence on whose tears 
 - gendun-drub gives an expanded narrative in which Tārā herself intervenes at the moment of Avalokiteśvara's grief: she asks him not to shed tears and vows to render service in swiftly freeing beings from saṃsāra herself, her heroism framed as "turning back saṃsāra's battle-front" — `gendun-drub:c-2-2-2-1-4`.
 - pema-namgyal describes **both** White and Blue Tārā arising together in emanated, miraculous form, "having vowed to be companions in liberating beings" — `pema-namgyal:c-2-4-14`.
 - Two commentaries independently record a named master's own summary epithet for her: gendun-drub cites Paṇchen Nyima Bepa calling her simply "Tārā, Utterly Heroic" (*rab tu dpa' ba'i sgrol ma*) — `gendun-drub:c-2-2-2-1-5` — while anon-trinle-char cites the same or a closely related master (referred to as "Nyisbepa"/"Nyima Sbaspa") calling her "Noble Tārā, Swift and Greatly Heroic" — `anon-trinle-char:c-3-1-24` (see also Textual Variants and Attribution, below).
+- Two commentaries independently classify their entire treatment of Homage 1 under a rhetorical-type label of "praise/homage by way of history" (*lo rgyus kyi sgo nas bstod pa*) — i.e., they frame the whole homage as being expounded through this origin narrative specifically: konchok-thabkhe's own structural note states that, of the root text's twenty-one verses, "the first is homage by way of history" — `konchok-thabkhe:c-2-1-1`; sungrab-tulku's section heading for its entire treatment of Homage 1 likewise reads "(1) Praise by way of the history" — `sungrab-tulku:c-4-1`. Both readings corroborate, and help explain, why the origin narrative is the single most broadly attested facet of Homage 1 across the corpus (see Consensus, above).
 
 ---
 
@@ -238,6 +241,21 @@ anon-trinle-char notes that the final "ma" in feminine forms such as *'dra ma* (
 
 ---
 
+## Structural Note — "Homage" as the Template Opening for All Twenty-One Verses
+
+### Consensus
+ཕྱག་འཚལ་ལོ་ཞེས་པ་དང་པོར་འབྱུང་བ་ནི་བརྗོད་པ་གླེང་སློང་པའི་གཞིར་གཞག་པ་སྟེ་འོག་མ་རྣམས་ལའང་ཤེས་པར་བྱའོ། — Two commentaries independently observe that the word "Homage" (*phyag 'tshal*), though spelled out explicitly only in this first verse, is set down there as the basis for launching the whole discourse, and should be understood to apply implicitly to each of the remaining twenty homages as well, even though the word itself is not repeated in them.
+
+— attested: `taranatha:c-1-3`, `tsultrim-namdak:c-2-1-2-1-3` (2 commentaries)
+
+### ⚑ Divergences
+None observed.
+
+### Unique
+None beyond what appears in Consensus.
+
+---
+
 ## Textual Variants and Attribution to Named Masters/Translators
 
 ### Consensus
@@ -284,6 +302,23 @@ None — no commentary addresses this.
 
 ---
 
+## Claims reviewed, not separately cited
+
+Every claim ID the mapping pass placed in this topic's bucket that did not become an attestation above, with a one-line reason. This list is produced by the coverage check required by the `claims-consolidation` skill.
+
+- `anon-trinle-char:c-3-1-1` — pure section-heading label ("The First Homage: to the Venerable Noble Tārā"); no content beyond announcing the section.
+- `anon-trinle-char:c-3-1-2` — pure structural marker ("this is the first [of twenty-one homages]"); no content beyond announcing the section.
+- `anon-utpala:c-1-2-1-3` — generic dictionary-level word-gloss ("*phyag 'tshal ba* means to bow respectfully"); already implicit in the "Homage" translation used throughout the page, adds no further nuance.
+- `karma-maitri:c-1-1-1-1` — pure section-heading label ("commentary on the first verse, the homage"); no content beyond announcing the section.
+- `karma-maitri:c-1-1-1-2` — pure structural opener ("as for the first verse, it is the homage"); no content beyond announcing the section.
+- `karma-maitri:c-1-1-1-4` — rhetorical framing question ("what qualities or special features does she have?") that merely introduces the following etymological discussion; carries no independent content of its own.
+- `sungrab-tulku:c-4-10` — root-verse phrase re-quoted verbatim as a lead-in to the following word-gloss (c-4-11, already cited under Origin Narrative); the phrase itself is already given in full in the root-verse quotation under Name and Etymology — Tārā, above.
+- `taranatha:c-1-1` — pure section-heading label ("First, homage to Tārā, Swift Heroine"); no content beyond announcing the section.
+- `tenga-tulku:c-1-2-1-3` — rhetorical framing question ("from what did Tārā's body first arise... what did she do for beings?") that merely introduces the origin narrative that follows (itself cited as `tenga-tulku:c-1-2-1-4`); carries no independent content of its own.
+- `tenzin-dhonzang:c-4-1-1` — pure section-heading label ("[Heading:] First, homage to Swift Heroine"); no content beyond announcing the section.
+
+---
+
 ## Coverage
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
@@ -294,15 +329,15 @@ None — no commentary addresses this.
 | gendun-drub | c-2-2-2-1-2…c-2-2-2-1-5 (4 claims) | Origin, **Myurma (unique narrative)**, Attribution |
 | gendun-gyatso | c-1-1-3…c-1-1-8 (6 claims) | Tārā, Myurma, Pamo, Eyes, Origin |
 | karma-maitri | c-1-1-1-1…c-1-1-1-9 (9 claims; c-1-1-1-1/2/4 structural only) | Tārā, Myurma, Pamo, **Eyes (unique link to Tārā-name)**, Origin |
-| konchok-thabkhe | c-2-1-1…c-2-1-5 (5 claims; c-2-1-1 structural only) | Myurma, Pamo, Origin, **Origin (⚑ divergence: whose tears)**, Eyes |
+| konchok-thabkhe | c-2-1-1…c-2-1-5 (5 claims) | Myurma, Pamo, Origin, **Origin (⚑ divergence: whose tears)**, **Origin (unique, shared with sungrab-tulku: "by way of history" framing)**, Eyes |
 | lobsang-dawa | c-1-2-1-3…c-1-2-1-6 (4 claims) | Pamo/Myurma (combined), **Eyes (unique epithet "kun gzigs ma")**, Origin |
 | palden-sherab | c-3-1-1-0-1, c-3-1-1-0-2, c-3-1-1-1-1…c-3-1-1-1-3, c-3-1-1-2-1…c-3-1-1-2-3, c-3-1-1-3-1…c-3-1-1-3-4, c-3-1-1-4-1, c-3-1-1-4-2 (14 claims) | Tārā, Myurma, Pamo, Eyes, Origin, Colour/Seat, Arms/Implements, **Deeper meaning (unique fourfold scheme)** |
 | pema-namgyal | c-2-4-6…c-2-4-14 (9 claims) | **Mantra element (unique)**, Pamo, Eyes, Origin (incl. unique white/blue dual arising) |
 | sangye-nyentrul | c-2-0-1…c-2-0-5, c-2-1-1…c-2-1-3 (8 claims) | Tārā, Myurma, Pamo, **Eyes (unique epithet "ye shes can ma")**, Origin, Qualities, Colour/Seat, Arms/Implements |
-| sungrab-tulku | c-4-1…c-4-14 (14 claims; c-4-1/8/10 structural, c-4-3 minor word-gloss) | Tārā, Myurma, Pamo, Eyes, Origin |
-| taranatha | c-1-1…c-1-11 (11 claims; c-1-1/2/3 structural only) | Tārā, **Myurma (unique "Mother" epithet)**, Eyes, Origin, Attribution, Qualities, **Deeper meaning (unique brief non-literal reading)** |
+| sungrab-tulku | c-4-1…c-4-14 (14 claims; c-4-8/10 structural, c-4-3 minor word-gloss) | Tārā, Myurma, Pamo, Eyes, Origin, **Origin (unique, shared with konchok-thabkhe: "by way of history" framing)** |
+| taranatha | c-1-1…c-1-11 (11 claims; c-1-1/2 structural only) | Tārā, **Myurma (unique "Mother" epithet)**, Eyes, Origin, Attribution, Qualities, **Deeper meaning (unique brief non-literal reading)**, **Structural note (shared with tsultrim-namdak: "Homage" as template opening)** |
 | tenga-tulku | c-1-2-1-2…c-1-2-1-7 (6 claims; c-1-2-1-3 structural only) | Origin, Myurma, Pamo, **Eyes (unique six-times-daily elaboration)** |
 | tenzin-dhonzang | c-4-1-1…c-4-1-7 (7 claims; c-4-1-1 structural only) | Tārā, **Myurma (unique four-deity analogy)**, Pamo, Eyes, Origin, **Qualities (unique elaboration)** |
-| tsultrim-namdak | c-2-1-2-1-2…c-2-1-2-1-6, c-3-4 (6 claims); ambiguous c-0-3 flagged, not counted as attestation | Tārā, Myurma, Pamo, Eyes, Origin, **Colour/Seat (⚑ divergence: reddish-yellow) & Arms/Implements** |
+| tsultrim-namdak | c-2-1-2-1-2…c-2-1-2-1-6, c-3-4 (6 claims); ambiguous c-0-3 flagged, not counted as attestation | Tārā, Myurma, Pamo, Eyes, Origin, **Colour/Seat (⚑ divergence: reddish-yellow) & Arms/Implements**, **Structural note (shared with taranatha: "Homage" as template opening)** |
 
 **Commentaries silent on this topic:** none. All sixteen commentaries consulted contain claims mapped to Homage 1 (root text ^1-2–^1-4).
