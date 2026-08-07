@@ -1,6 +1,6 @@
 ---
 topic: tara-01
-spine: root text verses ^1-2–^1-4 / Tārā 1
+spine: root text verse ^1-1 / Tārā 1
 method: question-driven-consolidation
 sources:
   - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
@@ -340,4 +340,4 @@ Every claim ID the mapping pass placed in this topic's bucket that did not becom
 | tenzin-dhonzang | c-4-1-1…c-4-1-7 (7 claims; c-4-1-1 structural only) | Tārā, **Myurma (unique four-deity analogy)**, Pamo, Eyes, Origin, **Qualities (unique elaboration)** |
 | tsultrim-namdak | c-2-1-2-1-2…c-2-1-2-1-6, c-3-4 (6 claims); ambiguous c-0-3 flagged, not counted as attestation | Tārā, Myurma, Pamo, Eyes, Origin, **Colour/Seat (⚑ divergence: reddish-yellow) & Arms/Implements**, **Structural note (shared with taranatha: "Homage" as template opening)** |
 
-**Commentaries silent on this topic:** none. All sixteen commentaries consulted contain claims mapped to Homage 1 (root text ^1-2–^1-4).
+**Commentaries silent on this topic:** none. All sixteen commentaries consulted contain claims mapped to Homage 1 (root text ^1-1).

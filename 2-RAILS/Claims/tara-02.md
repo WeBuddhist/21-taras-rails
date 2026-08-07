@@ -1,6 +1,6 @@
 ---
 topic: tara-02
-spine: root text verses ^1-5–^1-6 / Tārā 2
+spine: root text verse ^1-2 / Tārā 2
 method: question-driven-consolidation
 sources:
   - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md

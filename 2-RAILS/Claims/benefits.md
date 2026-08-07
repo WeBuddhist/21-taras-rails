@@ -1,6 +1,6 @@
 ---
 topic: benefits
-spine: global — not tied to a single Tārā
+spine: global — the praise's closing benefits section, root text ^a-1–^a-7 (not tied to a single Tārā)
 method: question-driven-consolidation
 sources:
   - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
@@ -352,6 +352,8 @@ This section is distinct from "Ambiguous claims reviewed and excluded" below, wh
 | tenzin-dhonzang | c-3-98 (ambiguous, included) | Other general statements |
 | tsultrim-namdak | c-4-0-1, c-4-0-2, c-4-1-1–c-4-28-2 (28 narratives), c-5-2-7-4-3-1-1 (ambiguous, included), c-8-4, c-8-5, c-8-6 | Named hazards (narrative tradition — primary source), Timing, Recitation count, Fearlessness, Purification/lower rebirth, Empowerment/buddhahood, Poison, Spirits/epidemic, Origin/attribution |
 
-**Commentaries silent on this topic:** `anon-trinle-char` (its structure has no benefits/colophon node at all — the tree and claims file both end at the 21st homage; consistent with the root text's own missing traditional closing colophon), `lobsang-dawa` (its conclusion node is a bare structural tally of verse-count, not a benefits statement; likewise consistent with the root text's own missing closing colophon for this transmission).
+**Commentaries silent on this topic:** `anon-trinle-char` (its structure has no benefits/colophon node at all — the tree and claims file both end at the 21st homage), `lobsang-dawa` (its conclusion node is a bare structural tally of verse-count, not a benefits statement).
+
+> ⚑ **Stale reasoning corrected 2026-08-07.** This line previously explained both silences as "consistent with the root text's own missing traditional closing colophon." That inference rested on the vault's then-current root text — a raw OCR transcription that broke off mid-clause after the twenty-first homage. The root text was replaced the same day with a critical edition that **does** carry the full benefits section (`^a-1`–`^a-7`), so the root text no longer supplies any such explanation: these two commentaries' silence is now an unexplained finding about those two transmissions, not a reflection of the root. Worth a human check against the source files before it is cited as evidence of anything.
 
 **Ambiguous claims reviewed and excluded** (flagged by the mapping pass but judged, on review, not to state a recitation benefit, danger, or practice instruction — kept out to avoid diluting the topic): `anon-utpala:c-1-2-1-1`, `anon-utpala:c-1-1` (meta-structural roadmap for the whole commentary, not benefit content); `drakpa-gyaltsen:c-0-3` (names both top-level parts of the commentary equally, not benefit content); `palden-sherab:c-0-29` (author's own front-matter invocation naming his intended topic, not benefit content itself); `sangye-nyentrul:c-24-2` (author's stated reason for composing the commentary, not the root praise's own benefits); `taranatha:c-22-0-3`–`c-22-0-5`, `c-22-1-1`–`c-22-1-10` (root-mantra syllable-etymology subsection — mantra semantics, not a benefit statement, though positioned inside the commentary's benefits node); `tenga-tulku:c-1-2-2-1-1-1-1` (cross-cutting structural scaffold for the body-forms branch, unrelated to the benefits section); `tsultrim-namdak:c-0-3` (front-matter names-list of uncertain verse-order correspondence), `tsultrim-namdak:c-1-16`, `tsultrim-namdak:c-1-17` (general devotional-benefit statements, but from a wholly separate kāvya praise-poem within the same anthology, not from commentary on this root text or its dedicated benefits material).

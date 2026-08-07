@@ -24,9 +24,15 @@ Sixteen of the seventeen registered commentaries on this praise are ingested (§
 
 **`verse_id_format`:** `chapter-verse`
 
-**Format example:** `^1-1` (chapter 1, verse 1) … `^1-22` (chapter 1, verse 22); `^I-1` for the sole pre-stanza invocation block.
+**Format example:** `^1-1` (chapter 1, verse 1) … `^1-21` (chapter 1, verse 21); `^I-1` for the pre-stanza title/invocation block; `^a-1` … `^a-7` for the closing benefits section.
 
-There is functionally one "chapter" (the praise has no internal chapter divisions), so every verse ID's leading segment is `1`, and the addressing scheme's real content is the verse number: `^1-1` through `^1-22` — 21 homage stanzas plus one closing stanza dedicating the praise itself.
+There is functionally one "chapter" (the praise has no internal chapter divisions), so every verse ID's leading segment is `1`, and the addressing scheme's real content is the verse number: **`^1-1` through `^1-21`, one block per four-line homage stanza** — never a homage split across two or three blocks.
+
+### ⚑ Benefits-section prefix: `a`, not a continuation of `^1-*` (revised 2026-08-07)
+
+The praise's closing ཕན་ཡོན (benefits) section is addressed with its own `a` prefix — `^a-0` for its heading, `^a-1` … `^a-7` for its seven stanzas (the last being the colophon) — not as a continuation of the homage run. This mirrors the sibling `Liturgy-rails` vault, whose critical edition of this praise is the witness this vault now uses (see below), and keeps the homage numbers `^1-1`–`^1-21` in exact correspondence with the homage ordinals every commentary uses.
+
+**This supersedes the earlier `^1-1` through `^1-22` scheme** ("21 homage stanzas plus one closing stanza"), which described neither the text as it now stands nor the file as it then stood. Until 2026-08-07 the root text was a raw OCR transcription (OpenPecha `MDAFBF633`) carrying 47 content blocks — each homage split across two or three of them, with inconsistent boundaries — and ending mid-clause after the twenty-first homage, omitting the benefits section entirely. It was replaced with the critical edition from `Liturgy-rails/1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ.md` (BDRC `WA0XLF0FAD365454A`); the superseded transcription is retained at `0-INBOX/root-text-backup-pre-resegmentation-2026-08-07.md`, and the two witnesses' variant readings are summarised in the root text's own `source_description`. Any rail written before that date that cites a root-text block ID is citing the old scheme and must be re-checked.
 
 ### ⚑ Intro-material prefix: `I`, not `0` — overrides `4-SYSTEM/CLAUDE.md` §5a's example
 
@@ -39,7 +45,7 @@ A commentary's own `^I-*` run can be long — some commentaries carry 100+ intro
 | Markdown | Role | Anchor |
 | -------- | ---- | ------ |
 | `#` | Title of the work (root) / commentary title (commentaries) | none |
-| `##` | The praise's sole invocation heading (root: `## ༀ། ཀླད་ཀྱི་དོན།`) or chapter 1 itself (`## ༡། ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག`) | `^I-0` / `^1-0` |
+| `##` | The root text's three top-level sections: the title/invocation block (`## མཚན་བྱང་།`), the homages themselves (`## ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག`), and the closing benefits (`## བསྟོད་པའི་ཕན་ཡོན།`) | `^I-0` / `^1-0` / `^a-0` |
 | `###`–`######` | A commentary's own ས་བཅད (sa bcad) structural divisions, when ingested via `toc-tree-extraction` + `toc-tree-ingest` | full decimal path, no segment cap — see below |
 
 ### ⚑ Sa-bcad heading depth: full decimal path, no four-segment cap — overrides `4-SYSTEM/CLAUDE.md` §5a
@@ -48,7 +54,7 @@ A commentary's own `^I-*` run can be long — some commentaries carry 100+ intro
 
 ### Verse numbering rule
 
-Verse numbers run continuously through the single chapter, 1–22, with no restart (there is only one chapter). The `^I-*` prefix is reserved for material before verse 1 and is never reused inside the chapter.
+Verse numbers run continuously through the single chapter, 1–21, with no restart (there is only one chapter), one block per four-line homage. The `^I-*` prefix is reserved for material before verse 1 and is never reused inside the chapter; the `^a-*` prefix is reserved for the closing benefits section after verse 21 and is likewise never reused inside the chapter.
 
 ---
 
