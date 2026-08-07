@@ -375,6 +375,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Inventory one commentary's claims | `commentary-claims` |
 | Consolidate one topic's claims across all commentaries | `claims-consolidation` |
 | Audit a consolidated topic page's attributions (report-only) | `claims-consolidation-audit` |
+| Consolidate one topic's claims in Tibetan (`-bo` page) | `claims-consolidation-bo` |
 | Create a local-wiki article | `local-wiki-article` |
 | Add or regenerate a TOC | `add-toc` |
 | Build an interlinear gloss | `interlinear-gloss` |

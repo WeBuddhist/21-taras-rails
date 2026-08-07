@@ -84,11 +84,14 @@ def main():
     errors, warnings = [], []
 
     # ---- split page into segments -------------------------------------------------
-    cov_m = re.search(r'^## Coverage\s*$', txt, re.M)
+    # Headings may be bilingual (Tibetan first, English anchor in parens) on -bo
+    # pages, e.g. "## ཁྱབ་ཚད (Coverage)" — match on the English anchor anywhere
+    # in the heading line.
+    cov_m = re.search(r'^## [^\n]*Coverage[^\n]*$', txt, re.M)
     coverage = txt[cov_m.start():] if cov_m else ''
     body = txt[:cov_m.start()] if cov_m else txt
     reviewed_secs = re.findall(
-        r'^##+ (?:Claims reviewed, not separately cited|.*Ambiguous claims.*)$'
+        r'^##+ [^\n]*(?:Claims reviewed, not separately cited|Ambiguous claims)[^\n]*$'
         r'(.*?)(?=^## |\Z)', txt, re.M | re.S)
     reviewed_txt = '\n'.join(reviewed_secs)
 
@@ -103,10 +106,10 @@ def main():
 
     # ---- 2. count labels ----------------------------------------------------------
     for para in re.split(r'\n\s*\n', txt):
-        m = re.search(r'\((\d+)\s+commentaries\)', para)
+        m = re.search(r'\((\d+)\s+commentaries\)|\(འགྲེལ་པ\s*(\d+)\)', para)
         if not m:
             continue
-        stated = int(m.group(1))
+        stated = int(m.group(1) or m.group(2))
         actual = len({rid for rid, _ in CITE.findall(para)})
         if actual and stated != actual:
             snippet = re.sub(r'\s+', ' ', para)[:80]
@@ -117,8 +120,8 @@ def main():
     # ---- 3. consensus/divergence overlap per facet --------------------------------
     for facet in re.split(r'^## ', body, flags=re.M)[1:]:
         title = facet.split('\n', 1)[0].strip()
-        cons = re.search(r'### Consensus(.*?)(?=^### |\Z)', facet, re.M | re.S)
-        div = re.search(r'### ⚑ Divergences(.*?)(?=^### |\Z)', facet, re.M | re.S)
+        cons = re.search(r'### [^\n]*Consensus[^\n]*\n(.*?)(?=^### |\Z)', facet, re.M | re.S)
+        div = re.search(r'### ⚑[^\n]*\n(.*?)(?=^### |\Z)', facet, re.M | re.S)
         if cons and div:
             a = set(CITE.findall(cons.group(1)))
             b = set(CITE.findall(div.group(1)))

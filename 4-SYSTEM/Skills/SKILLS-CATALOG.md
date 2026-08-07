@@ -272,6 +272,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One consolidated topic page at `2-RAILS/Claims/<topic-slug>.md`, following `Templates/consolidated-claims-topic.md`, passing both verification gates.
 → [`claims-consolidation/SKILL.md`](claims-consolidation/SKILL.md)
 
+### `claims-consolidation-bo` **[exists]**
+**Purpose:** Tibetan-language variant of `claims-consolidation` — a delta skill inheriting the full base pipeline (mapping, question-driven synthesis, coverage check, Rules 1–16, both verification gates) but writing the topic page's entire analytical content in Tibetan: synthesis, questions, divergence discussion, review reasons, coverage notes. Structural headings carry bilingual anchors (`### མཐུན་སྣང (Consensus)`) so the deterministic checker still parses; count labels use `(འགྲེལ་པ N)`; every attested claim quotes its བོད་ཡིག verbatim inline. The consolidator never reads the English counterpart, keeping `-en`/`-bo` pairs a clean comparison of consolidation-by-language.
+**Inputs:** Same as `claims-consolidation` (topic definition + raw claims files + TOC trees); optionally the cached Stage-1 mapping when an English run already produced it.
+**Outputs:** One Tibetan topic page at `2-RAILS/Claims/<topic-slug>-bo.md` with `lang_tag: bo` and a `counterpart:` link, passing both gates.
+→ [`claims-consolidation-bo/SKILL.md`](claims-consolidation-bo/SKILL.md)
+
 ### `claims-consolidation-audit` **[exists]**
 **Purpose:** Adversarial attribution audit of a consolidated claims topic page — a fresh agent (never the page's author) re-checks every `registered_id:claim_id` citation against the raw claims files: does the claim actually say what the page attributes to it, are Tibetan quotes verbatim, are divergences real and two-sided, is epistemic strength preserved. Report-only — findings go in a severity-ranked report (critical/moderate/minor), never edits. Serves as gate 2 of `claims-consolidation` and runs standalone on any existing topic page.
 **Inputs:** One topic page at `2-RAILS/Claims/<topic-slug>.md` plus the raw claims files it cites; the deterministic checker should run first so model judgment is spent only where a script cannot decide.
