@@ -267,10 +267,16 @@ These skills populate `2-RAILS/` with the structured context that translation an
 → [`tree-guided-claims/SKILL.md`](tree-guided-claims/SKILL.md)
 
 ### `claims-consolidation` **[exists]**
-**Purpose:** Consolidate one topic's claims across every commentary into a single question-driven topic page — per-commentary mapping in isolation (node numbering is never uniform across commentaries, so this needs a real read of each one's own TOC tree, not a fixed formula), then question generation and per-facet synthesis into Consensus/⚑ Divergences/Unique, closed by a mandatory coverage check that accounts for every mapped claim.
+**Purpose:** Consolidate one topic's claims across every commentary into a single question-driven topic page — per-commentary mapping in isolation (node numbering is never uniform across commentaries, so this needs a real read of each one's own TOC tree, not a fixed formula), then question generation and per-facet synthesis into Consensus/⚑ Divergences/Unique, closed by a mandatory coverage check and a two-gate verification: the bundled deterministic checker (`verify_consolidation.py` — citation existence, recomputed count labels, both-sides flags, disposition completeness) and an adversarial attribution audit (`claims-consolidation-audit`) by a fresh agent. Rules 9–16 encode the error classes the 2026-08-07 pilot audit proved real (false corroboration, partial-support padding, harmonization-as-attribution, epistemic upgrades, hand-tallied counts).
 **Inputs:** A topic definition (spine slot + facets) and every commentary's raw claims file plus TOC tree under `2-RAILS/Claims/raw/tree-guided/` and `2-RAILS/Sections/Raw/toc-tree/`.
-**Outputs:** One consolidated topic page at `2-RAILS/Claims/<topic-slug>.md`, following `Templates/consolidated-claims-topic.md`.
+**Outputs:** One consolidated topic page at `2-RAILS/Claims/<topic-slug>.md`, following `Templates/consolidated-claims-topic.md`, passing both verification gates.
 → [`claims-consolidation/SKILL.md`](claims-consolidation/SKILL.md)
+
+### `claims-consolidation-audit` **[exists]**
+**Purpose:** Adversarial attribution audit of a consolidated claims topic page — a fresh agent (never the page's author) re-checks every `registered_id:claim_id` citation against the raw claims files: does the claim actually say what the page attributes to it, are Tibetan quotes verbatim, are divergences real and two-sided, is epistemic strength preserved. Report-only — findings go in a severity-ranked report (critical/moderate/minor), never edits. Serves as gate 2 of `claims-consolidation` and runs standalone on any existing topic page.
+**Inputs:** One topic page at `2-RAILS/Claims/<topic-slug>.md` plus the raw claims files it cites; the deterministic checker should run first so model judgment is spent only where a script cannot decide.
+**Outputs:** A structured findings report (VERIFIED / ERRORS / QUOTE MISMATCHES / OTHER), delivered in-response or written to `0-INBOX/claims-audit-<topic-slug>-<date>.md` on request.
+→ [`claims-consolidation-audit/SKILL.md`](claims-consolidation-audit/SKILL.md)
 
 ---
 

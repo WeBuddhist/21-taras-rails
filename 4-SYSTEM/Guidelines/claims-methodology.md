@@ -48,6 +48,9 @@ corpus-wide (after all extractions):
   5. question-driven consolidation per bucket   (one subagent per topic)
      → 2-RAILS/Claims/<topic>.md
   5b. coverage check + gap closure               (deterministic diff + small repair pass)
+  5c. verification gates                         (gate 1: verify_consolidation.py script;
+                                                  gate 2: claims-consolidation-audit,
+                                                  fresh adversarial agent per page)
   6. generated indexes                           (matrix, tags, graph — from topic pages)
 ```
 
@@ -105,6 +108,36 @@ review). The diff itself is a deterministic set comparison, not a model judgment
 the repair pass over the flagged gap uses judgment, and only on the specific claims flagged —
 never a full re-read of the topic. See `4-SYSTEM/Skills/claims-consolidation/SKILL.md` for the
 full procedure, including this check as a mandatory (not optional) step.
+
+### The verification gates (step 5c) — what a retrospective audit of the pilot proved necessary
+
+On 2026-08-07 the three pilot pages were adversarially audited — a fresh agent per page
+re-checking every one of 418 unique citations against the raw claims files. Result: zero
+fabricated claim IDs, but **one critical finding** (a "corroboration" cited to a claim that
+contains nothing of the sort — the consolidator had a real corpus idea attached to the wrong
+claim ID), one moderate overstretch, and ~16 minor findings falling into a stable taxonomy:
+partial-support padding of consensus attestation lists, the same claim cited on both sides of
+one divergence, page-level harmonizations presented as a claim's own reading, epistemic
+upgrades ("endorses" for a tentative སྙམ་མོ aside), silently elided syllables in Tibetan
+quotes, hand-tallied "(N commentaries)" labels (five of five wrong on the worst page), and
+consulted claims left with no disposition anywhere.
+
+Consolidation therefore now ends with two mandatory gates, encoded in the skill:
+
+- **Gate 1 — deterministic** (`4-SYSTEM/Skills/claims-consolidation/verify_consolidation.py`):
+  citation existence (both heading and ⚑ bold-block claim forms), recomputed count labels,
+  both-sides-of-a-divergence flags, disposition completeness against the Coverage table,
+  prefix discipline. Zero ERRORs required. Validated by reproducing every mechanical finding
+  of the human audit, plus one it missed.
+- **Gate 2 — adversarial attribution audit** (`claims-consolidation-audit` skill): a fresh
+  agent that did not write the page checks every attribution against the raw claims —
+  attribution fidelity, verbatim quote fidelity, divergence reality, epistemic strength.
+  Report-only; the consolidator fixes, the auditor re-checks. No critical/moderate finding
+  may remain.
+
+The corresponding prevention rules (full-statement support, re-read-before-corroborating,
+one side per divergence, verbatim-or-ellipsis quoting, harmonization attributed to the page,
+computed counts, no undispositioned claims) are Rules 9–16 of the consolidation skill.
 
 ---
 
@@ -248,6 +281,18 @@ Recorded so they are not re-proposed from scratch:
   (`4-SYSTEM/Skills/claims-consolidation/SKILL.md`), including a coverage-check gap-fill pass
   on all three. The remaining ~18 per-Tārā pages (Tārā 3–21) and any further global topics
   have not been run yet.
+- ⚑ **The three pilot pages carry known, deliberately-unfixed audit findings.** The
+  2026-08-07 retrospective audit (see §4 "verification gates") found one critical
+  misattribution on `tara-02.md` (`gendun-gyatso:c-1-2-1` cited for a "three flaws" framing
+  it does not contain), one moderate overstretch (`tsultrim-namdak:c-3-5`), and ~16 minor
+  findings across the three pages. Per the human contributor's decision, the pages were left
+  as-is and the effort went into guardrails (skill Rules 9–16, the two verification gates)
+  so later pages cannot ship these errors. The full findings are preserved at
+  `0-INBOX/claims-audit-findings-2026-08-07.md`; fix the pilot pages against that list
+  before any transformation consumes them.
+- Verification tooling exists and is validated: `verify_consolidation.py` (gate 1,
+  deterministic) and the `claims-consolidation-audit` skill (gate 2, adversarial). Both
+  gates are mandatory for every new topic page.
 
 ## 8. Where everything lives
 

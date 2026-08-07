@@ -147,6 +147,47 @@ never leave a gap here silently unexplained.>
 8. **`status: draft`, always.** An LLM never marks its own consolidation `complete` —
    that is a domain specialist's judgment call, per `2-RAILS/About Rails.md`.
 
+The following rules encode the error classes found by the 2026-08-07 adversarial
+audit of the three pilot pages (one critical false-corroboration, one moderate
+overstretch, ~16 minor findings across 418 citations). Each rule exists because the
+audit caught a real instance of its violation:
+
+9. **Full-statement support.** A claim may be listed in a Consensus attestation list
+   only if it supports the *entire* consensus statement. If the statement bundles two
+   propositions (the pilot case: "recite at dusk/dawn" + "wrathful at dusk, peaceful
+   at dawn") and some claims attest only one, either split the facet into two
+   statements, or split the attestation list ("attested (timing only): …"). Never pad
+   a list with same-topic-but-partial claims — the count becomes a false measure of
+   how widely the full statement is attested.
+10. **Corroboration must be re-read, not remembered.** Before writing "X and Y
+    independently attest…", re-open both claims in the packet and confirm each one
+    actually contains the shared content. The audit's single critical finding was
+    exactly this: a "three flaws" framing attributed to a second commentary whose
+    cited claim contains no such framing (the consolidator had the right *idea* in
+    the corpus but attached the wrong claim ID).
+11. **One side per divergence.** A claim ID appears on at most one side of any single
+    ⚑ divergence. If it seems to support two readings, that is a finding about the
+    claim — say so explicitly rather than citing it both ways.
+12. **Verbatim quotes or marked ellipsis.** Tibetan quoted *from a specific claim*
+    is copied character-for-character from the packet's བོད་ཡིག — no silent elision
+    (use … for omissions), no orthographic normalization, no dropped particles.
+    Synthesised consensus Tibetan is permitted, but must not be attributed to a
+    specific claim ID.
+13. **Harmonization is the page's, not the claim's.** When the page derives something
+    the claim does not itself state (the pilot case: reading 7×7=49 into a claim
+    whose own gloss says only "cycles of seven"), attribute the derivation to the
+    page ("read together, these imply…"), never to the claim.
+14. **Epistemic strength is copied, not upgraded.** A tentative authorial aside
+    (…སྙམ་མོ, "I think") is reported as tentative — never as "endorses" or "holds."
+15. **Counts are computed, never hand-tallied.** Every "(N commentaries)" label and
+    every "N of sixteen" arithmetic statement is recomputed from the final attestation
+    list before the page is done (the deterministic checker does this — see Procedure
+    step 6). Five of five hand-tallied count labels on the pilot's worst page were
+    wrong.
+16. **Every consulted claim gets a disposition.** Any claim ID the Coverage table
+    lists as consulted must appear either as a citation in some facet or as an entry
+    in "Claims reviewed, not separately cited" — no third state.
+
 ---
 
 ## Procedure
@@ -198,9 +239,29 @@ never leave a gap here silently unexplained.>
    separate small agent per topic, given only the gap list, so it does not need to
    re-read the whole corpus.
 
-6. **Verify.** Confirm the file matches the template's section structure, every
-   citation is `registered_id:claim_id`, `status: draft`, and the coverage check
-   (step 5) has been run and its result is reflected in the file.
+6. **Deterministic checks (gate 1).** Run the bundled checker on the finished page:
+
+   ```
+   python3 4-SYSTEM/Skills/claims-consolidation/verify_consolidation.py 2-RAILS/Claims/<topic-slug>.md
+   ```
+
+   It verifies citation existence (including ⚑ bold-block internal-tension claims),
+   recomputes every "(N commentaries)" label, flags claims cited on both sides of a
+   facet's Consensus/Divergences, finds undispositioned Coverage-table claims, and
+   counts unprefixed citations. **Fix every ERROR and re-run until zero remain**;
+   review each WARN and either fix it or note why it stands. Also confirm the file
+   matches the template's section structure and `status: draft`.
+
+7. **Adversarial attribution audit (gate 2 — model judgment).** Run the
+   `claims-consolidation-audit` skill on the page (one fresh agent per page that did
+   NOT write it, checking every attribution against the raw files). This is what the
+   deterministic checker cannot do: confirm each claim actually *says* what the page
+   attributes to it, quotes are faithful, divergences are real, epistemic strength is
+   preserved. Fix every critical and moderate finding, apply or consciously decline
+   each minor one, then re-run the audit on the changed sections. A page that has not
+   passed both gates is not finished. (The pilot pages skipped this gate on first
+   writing; the retrospective audit then found a false corroboration that reached the
+   final file — the gate exists so that never happens again.)
 
 **Implementation note — orchestration.** This pipeline fits a two-phase multi-agent
 workflow: Stage 2 needs *every* commentary's Stage 1 output before it can run, so
@@ -227,4 +288,8 @@ the cross-commentary contamination the isolation guard exists to prevent.
       reasoned where derivable
 - [ ] `status: draft` in frontmatter; `consolidation_questions:` populated and
       echoed in `## Questions asked`
+- [ ] **Gate 1:** `verify_consolidation.py` run on the final page — zero ERRORs,
+      every WARN either fixed or consciously accepted
+- [ ] **Gate 2:** `claims-consolidation-audit` run by a fresh agent — zero
+      critical/moderate findings outstanding
 - [ ] No file under `2-RAILS/Claims/raw/` or `1-SOURCES/` was modified
