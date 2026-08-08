@@ -195,6 +195,9 @@
   },
   "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/claims-consolidation/assemble_packet.py",
+    "4-SYSTEM/Skills/spine-map/verify_spine_map.py",
+    "4-SYSTEM/Skills/spine-map",
     "2-RAILS/Claims/tara-01-bo.md",
     "2-RAILS/Claims/benefits-bo.md",
     "2-RAILS/Claims/tara-02-bo.md",
@@ -222,14 +225,11 @@
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
     "0-INBOX/toc-tree-qc-source-karma-maitri.md",
     "0-INBOX/toc-tree-qc-karma-maitri.md",
-    "0-INBOX/temp/root-mdafbf633/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.footnote-flags.tsv",
     "0-INBOX/temp/root-mdafbf633/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.footnote-flags.md",
     "0-INBOX/temp/root-mdafbf633/segmented-body.md",
     "0-INBOX/temp/root-mdafbf633/cleaned.md",
-    "0-INBOX/temp/root-mdafbf633",
     "0-INBOX/temp/karma-maitri/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.footnote-flags.md",
     "0-INBOX/temp/karma-maitri/scratch-verse-id.md",
-    "0-INBOX/temp/karma-maitri/scratch-verse-id-2.md",
-    "0-INBOX/temp/karma-maitri/cleaned.md"
+    "0-INBOX/temp/karma-maitri/scratch-verse-id-2.md"
   ]
 }
