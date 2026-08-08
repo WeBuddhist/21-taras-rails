@@ -11,14 +11,10 @@
             "id": "f0ee988f2ed0e67b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2-RAILS/Claims/benefits-bo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "benefits-bo"
+              "title": "New tab"
             }
           }
         ]
@@ -199,10 +195,10 @@
   },
   "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
-    "2-RAILS/Claims/tara-02-bo.md",
-    "2-RAILS/Claims/tara-02.md",
     "2-RAILS/Claims/tara-01-bo.md",
     "2-RAILS/Claims/benefits-bo.md",
+    "2-RAILS/Claims/tara-02-bo.md",
+    "2-RAILS/Claims/tara-02.md",
     "2-RAILS/Claims/tara-01.md",
     "2-RAILS/Claims/benefits.md",
     "4-SYSTEM/Skills/claims-consolidation-bo/SKILL.md",
