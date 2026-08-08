@@ -74,14 +74,20 @@ Root verse (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་�
 
 ### Consensus
 
-**Tārā (སྒྲོལ་མ):** she is called "Tārā" (Liberator/Deliverer) because she liberates beings from saṃsāra's suffering and its causes — provisionally from fears, ultimately from the afflictive and cognitive obscurations, into buddhahood.
-— attested: anon-trinle-char:c-3-1-5, anon-utpala:c-1-2-1-4, drakpa-gyaltsen:c-1-1, gendun-gyatso:c-1-1-3, palden-sherab:c-3-1-1-1-1, sangye-nyentrul:c-2-0-1, sungrab-tulku:c-4-5, taranatha:c-1-7, tenzin-dhonzang:c-4-1-3 (9 commentaries)
+**Tārā (སྒྲོལ་མ):** she is called "Tārā" (Liberator/Deliverer) because she liberates beings from saṃsāra('s suffering).
+— attested: anon-trinle-char:c-3-1-5, anon-utpala:c-1-2-1-4, drakpa-gyaltsen:c-1-1, gendun-gyatso:c-1-1-3, palden-sherab:c-3-1-1-1-1, pema-namgyal:c-2-4-4, sangye-nyentrul:c-2-0-1, sungrab-tulku:c-4-5, taranatha:c-1-7, tenzin-dhonzang:c-4-1-3 (10 commentaries)
 
-**Swift (མྱུར་མ, myur ma):** she is called "Swift" because her activity for beings' benefit never lags or delays, even for an instant — unlike ordinary processes (healing, growth) that require time to unfold.
+**Elaboration, unique to anon-trinle-char:** this commentary's own version of the "Tārā" etymology is more elaborate than the bare statement above — she liberates beings provisionally from fears (the eight fears and the like), ultimately from the afflictive and cognitive obscurations, establishing them in unsurpassed complete buddhahood. No other commentary in this packet attests this fuller staged formula; it is not part of the shared Consensus.
+— anon-trinle-char:c-3-1-5 only.
+
+**Swift (མྱུར་མ, myur ma):** she is called "Swift" because her activity for beings' benefit never lags or delays, even for an instant.
 — attested: anon-trinle-char:c-3-1-8, drakpa-gyaltsen:c-1-2, gendun-gyatso:c-1-1-4, karma-maitri:c-1-1-1-5, konchok-thabkhe:c-2-1-2, palden-sherab:c-3-1-1-1-1, sangye-nyentrul:c-2-0-2, sungrab-tulku:c-4-6, tenga-tulku:c-1-2-1-5, tsultrim-namdak:c-2-1-2-1-4 (10 commentaries)
 
-**Heroine (དཔའ་མོ, dpa' mo):** she is called "Heroine" because of her fearless, unimpeded power/courage in accomplishing beings' welfare and overcoming what threatens them. The specific object named as overcome differs by commentary — afflictions (drakpa-gyaltsen, gendun-gyatso), māras (karma-maitri, palden-sherab, konchok-thabkhe, tenzin-dhonzang), or fears/obstacles generally (sungrab-tulku, taranatha, tenga-tulku, sangye-nyentrul, tsultrim-namdak) — but every attestation supports the shared core statement in full.
-— attested: drakpa-gyaltsen:c-1-3, gendun-gyatso:c-1-1-5, karma-maitri:c-1-1-1-6, konchok-thabkhe:c-2-1-2, palden-sherab:c-3-1-1-1-1, sangye-nyentrul:c-2-0-3, sungrab-tulku:c-4-7, taranatha:c-1-5, tenga-tulku:c-1-2-1-5, tenzin-dhonzang:c-4-1-6, tsultrim-namdak:c-2-1-2-1-4 (11 commentaries)
+**Elaboration, unique to anon-trinle-char:** this commentary alone frames the swiftness comparatively — unlike ordinary processes (healing a chronic illness with medicine, a sprout emerging from a seed) that require months and years to unfold, her activity never lags even for an instant.
+— anon-trinle-char:c-3-1-8 only.
+
+**Heroine (དཔའ་མོ, dpa' mo):** she is called "Heroine" because of her fearless, unimpeded power/courage in accomplishing beings' welfare and overcoming what threatens them. The specific object named as overcome differs by commentary — afflictions only (drakpa-gyaltsen), māras only (palden-sherab, konchok-thabkhe, tenzin-dhonzang), both afflictions and māras together (karma-maitri and gendun-gyatso — both name both objects in the same breath, not afflictions or māras alone), or fears/obstacles generally (sungrab-tulku, taranatha, tenga-tulku, sangye-nyentrul, tsultrim-namdak, pema-namgyal) — but every attestation supports the shared core statement in full.
+— attested: drakpa-gyaltsen:c-1-3, gendun-gyatso:c-1-1-5, karma-maitri:c-1-1-1-6, konchok-thabkhe:c-2-1-2, palden-sherab:c-3-1-1-1-1, pema-namgyal:c-2-4-11, sangye-nyentrul:c-2-0-3, sungrab-tulku:c-4-7, taranatha:c-1-5, tenga-tulku:c-1-2-1-5, tenzin-dhonzang:c-4-1-6, tsultrim-namdak:c-2-1-2-1-4 (12 commentaries)
 
 **Identification: she is the embodiment of all buddhas'/victors' activity.** Four commentaries independently give this identification in near-identical Tibetan phrasing (rgyal ba kun/rgyal kun/sangs rgyas thams cad kyi 'phrin las kyi bdag nyid/rang gzugs) — palden-sherab and sangye-nyentrul in particular share close-to-verbatim wording for the whole homage's opening identification.
 — attested: palden-sherab:c-3-1-1-1-1, sangye-nyentrul:c-2-0-1, sungrab-tulku:c-4-4, tsultrim-namdak:c-2-1-2-1-4 (4 commentaries)
@@ -91,7 +97,7 @@ Root verse (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་�
 
 ### ⚑ Divergences
 
-**Reading of the third epithet — དཔའ་མོ (dpa' mo, "Heroine") vs དཔལ་མོ (dpal mo, "Glorious One").** Every commentary above that quotes or glosses the third name reads it as དཔའ་མོ, "Heroine," on the basis of courage/power. anon-utpala's own quotation of the root verse instead reads དཔལ་མོ, "Glorious One" (see its quotation at anon-utpala:c-1-2-1-2), and glosses it accordingly: "because she utterly destroys the host of māras without remainder, she is 'the Glorious One'" (anon-utpala:c-1-2-1-6). This is a root-text-level variant, not merely an interpretive disagreement — the two readings license different etymologies for the same syllable-position.
+**Reading of the third epithet — དཔའ་མོ (dpa' mo, "Heroine") vs དཔལ་མོ (dpal mo, "Glorious One").** Every commentary above that quotes or glosses the third name reads it as དཔའ་མོ, "Heroine," on the basis of courage/power. anon-utpala's own quotation of the root verse instead reads དཔལ་མོ, "Glorious One" (see its quotation at anon-utpala:c-1-2-1-2), and glosses it accordingly: "because she utterly destroys the host of māras without remainder, she is 'the Glorious One'" (anon-utpala:c-1-2-1-6). This is a root-text-level variant, not merely an interpretive disagreement — the two readings license different etymologies for the same syllable-position. *(Note: tenzin-dhonzang:c-4-1-3's own quotation opens with "མྱུར་མ་དཔལ་མོ" — དཔལ་མོ, not དཔའ་མོ — even though the same commentary's own root-verse quotation at c-4-1-2 and its etymology at c-4-1-6 both correctly give དཔའ་མོ. This looks like an isolated transcription slip within tenzin-dhonzang's own raw extraction rather than a second commentary actually adopting the དཔལ་མོ reading, so the "every commentary above" statement is not treated as settled without qualification — the inconsistency is flagged here rather than passed over silently.)*
 
 ### Unique
 
@@ -116,8 +122,13 @@ anon-trinle-char observes that the "ma" ending "'dra ma" (like...) and "byung ma
 
 ### Consensus
 
-Her (wisdom-)eyes are compared to an instantaneous flash of lightning, signifying instantaneous, unobstructed perception of all objects of knowledge (or, in some glosses, of beings' condition) in a single instant.
-— attested: anon-trinle-char:c-3-1-14, anon-utpala:c-1-2-1-7, drakpa-gyaltsen:c-1-4, gendun-gyatso:c-1-1-6, karma-maitri:c-1-1-1-7, palden-sherab:c-3-1-1-1-2, sangye-nyentrul:c-2-0-4, sungrab-tulku:c-4-9, taranatha:c-1-6, tenga-tulku:c-1-2-1-7, tenzin-dhonzang:c-4-1-6, tsultrim-namdak:c-2-1-2-1-5 (12 commentaries)
+**The simile itself: her (wisdom-)eyes are compared to an instantaneous flash of lightning.**
+— attested: anon-trinle-char:c-3-1-14, anon-utpala:c-1-2-1-7, drakpa-gyaltsen:c-1-4, gendun-gyatso:c-1-1-6, karma-maitri:c-1-1-1-7, palden-sherab:c-3-1-1-1-2, sangye-nyentrul:c-2-0-4, sungrab-tulku:c-4-9, taranatha:c-1-6, tenzin-dhonzang:c-4-1-6, tsultrim-namdak:c-2-1-2-1-5 (11 commentaries)
+
+**The fuller signification: this simile signifies instantaneous, unobstructed perception of all objects of knowledge** (or, in some glosses, of beings' condition) in a single instant. Two of the eleven bare-simile attestations above do not themselves supply this further content — drakpa-gyaltsen's own gloss stops at "a simile for radiant light," and gendun-gyatso's own gloss stops at eye-light "entering in an instant" without naming objects of knowledge — so they are not counted here.
+— attested: anon-trinle-char:c-3-1-14, anon-utpala:c-1-2-1-7, karma-maitri:c-1-1-1-7, palden-sherab:c-3-1-1-1-2, sangye-nyentrul:c-2-0-4, sungrab-tulku:c-4-9, taranatha:c-1-6, tenzin-dhonzang:c-4-1-6, tsultrim-namdak:c-2-1-2-1-5 (9 commentaries)
+
+*Note on tenga-tulku: previously cited here at c-1-2-1-7. On re-reading, c-1-2-1-7 is a bare quotation of the simile plus a homage clause, with no signification gloss of its own — the commentary's actual elaboration on this simile is a separate claim, c-1-2-1-6 ("unceasing compassionate watchfulness," see Unique below). c-1-2-1-7 is therefore not cited in either attestation list above; see "Claims reviewed, not separately cited."*
 
 ### ⚑ Divergences
 
@@ -142,9 +153,9 @@ Avalokiteśvara (the protector of the three worlds), seeing that however many be
 
 ### ⚑ Divergences
 
-**Whose tears produced the lotus.** konchok-thabkhe explicitly flags, within its own text, that "earlier commentaries" (unnamed, and not independently attested by any other claim in this packet) gloss the tantra's second line as referring to Tārā's own eyes/tears, whereas konchok-thabkhe itself — following Nyima Sepa (ཉི་མ་སེ་པ) — reads the tears as Avalokiteśvara's, matching the reading attested by every other commentary above.
+**Whose tears produced the lotus.** konchok-thabkhe explicitly flags, within its own text, that "earlier commentaries" (unnamed, and not independently attested by any other claim in this packet) gloss the tantra's second line as referring to Tārā's own eyes/tears, whereas konchok-thabkhe itself — following Nyima Sbaspa (ཉི་མ་སྦས་པ) — reads the tears as Avalokiteśvara's, matching the reading attested by every other commentary above.
 - **Position 1** (per konchok-thabkhe's own report of "earlier commentaries"; not independently attested elsewhere in this packet): the tears are Tārā's own. — konchok-thabkhe:c-2-1-5
-- **Position 2** (konchok-thabkhe, following Nyima Sepa; matches the universal reading above): the tears are Avalokiteśvara's. — konchok-thabkhe:c-2-1-5
+- **Position 2** (konchok-thabkhe, following Nyima Sbaspa; matches the universal reading above): the tears are Avalokiteśvara's. — konchok-thabkhe:c-2-1-5
 
 ### Unique
 
@@ -162,10 +173,10 @@ The epithet "protector of the three worlds" (the figure from whose lotus-face T�
 
 ### ⚑ Divergences
 
-**"Three worlds" (nāga/human/deva) vs "three realms" (desire/form/formless).** anon-trinle-char notes, citing the commentary on the Catuḥśataka, that "three worlds" may alternatively be read as the three realms of saṃsāra (desire, form, formless), and presents both readings as acceptable rather than choosing between them (anon-trinle-char:c-3-1-19). tsultrim-namdak, by contrast, does not present this as a mere alternate: its own gloss of the epithet runs directly through the three-realms (desire/form/formless) reading as the primary sense (tsultrim-namdak:c-2-1-2-1-5, continuing into c-2-1-2-1-6). *(Note: anon-trinle-char:c-3-1-19 is deliberately cited on both sides above — it states the nāga/human/deva reading first and then explicitly flags the alternate in the same breath, so it genuinely supports both the Consensus statement and the existence of a recognised alternate; this is not a mis-sorted citation.)*
+**"Three worlds" (nāga/human/deva) vs "three realms" (desire/form/formless).** anon-trinle-char notes, citing the commentary on the Catuḥśataka, that "three worlds" may alternatively be read as the three realms of saṃsāra (desire, form, formless), and presents both readings as acceptable rather than choosing between them (anon-trinle-char:c-3-1-19). gendun-drub and tsultrim-namdak, by contrast, do not present this as a mere alternate: gendun-drub's own gloss of the epithet — already cited elsewhere on this page for the origin narrative (§4) — substitutes khams gsum (the three realms: desire, form, formless) for 'jig rten gsum directly, with no nāga/human/deva reading offered alongside it (gendun-drub:c-2-2-2-1-3); tsultrim-namdak's own gloss of the epithet likewise runs directly through the three-realms (desire/form/formless) reading as the primary sense (tsultrim-namdak:c-2-1-2-1-5, continuing into c-2-1-2-1-6). *(Note: anon-trinle-char:c-3-1-19 is deliberately cited on both sides above — it states the nāga/human/deva reading first and then explicitly flags the alternate in the same breath, so it genuinely supports both the Consensus statement and the existence of a recognised alternate; this is not a mis-sorted citation.)*
 - **Position 1** (majority reading, nāga/human/deva): see the Consensus attestation list above.
 - **Position 2a** (alternate reading noted but not adopted): anon-trinle-char:c-3-1-19.
-- **Position 2b** (three-realms reading adopted as primary gloss): tsultrim-namdak:c-2-1-2-1-5, tsultrim-namdak:c-2-1-2-1-6. *(tsultrim-namdak:c-2-1-2-1-6 is likewise cited on both sides deliberately: it is the direct continuation of the same sentence begun in c-2-1-2-1-5, and it both names Avalokiteśvara as "the protector" — supporting the Consensus identification — and completes the three-realms clause the divergence turns on.)*
+- **Position 2b** (three-realms reading adopted as primary gloss): gendun-drub:c-2-2-2-1-3, tsultrim-namdak:c-2-1-2-1-5, tsultrim-namdak:c-2-1-2-1-6. *(tsultrim-namdak:c-2-1-2-1-6 is likewise cited on both sides deliberately: it is the direct continuation of the same sentence begun in c-2-1-2-1-5, and it both names Avalokiteśvara as "the protector" — supporting the Consensus identification — and completes the three-realms clause the divergence turns on. gendun-drub:c-2-2-2-1-3 appears on this side in addition to its citation elsewhere on the page for the origin narrative — a claim ID may support more than one facet's content as long as it never sits on both sides of the same divergence, per Rule 11.)*
 
 ### Unique
 
@@ -211,7 +222,7 @@ None observed.
 - **Root verse attributed to "the tantra."** Unlike other commentaries, which simply quote the root verse as the text under discussion, anon-trinle-char explicitly introduces it as a citation "from the tantra" (rgyud las) (anon-trinle-char:c-3-1-3).
 - **The Tārā-tantra of a Hundred and Eight Names cited.** anon-trinle-char cites this named tantra and quotes Tārā's own self-declaration of her name from it (anon-trinle-char:c-3-1-6, anon-trinle-char:c-3-1-7).
 - **Two independent citations of a translator's revision to line 3, for the same stated reason.** anon-utpala attributes a revised rendering of the verse's third line ("the lotus of the mouth of the protector of the three worlds") to the translator Lo chen Nam bzang, citing ease of construal (anon-utpala:c-1-2-1-10). taranatha, independently, attributes a closely parallel revised rendering of the same line to "the translator Namkha Zangpo" (the same name, differently rendered), also citing ease of understanding (go bde ba) as the reason (taranatha:c-1-10). Re-read together, both commentaries cite the same named translator's revision of the same line, for the same stated reason — a genuine, independent corroboration.
-- **A named authority cited for an epithet of this homage, possibly the same figure under variant transliterations.** anon-trinle-char cites "Nyisbepa" (ཉི་སྦས/ཉི་མ་སྦས་པ) for both an iconographic verse and an epithet, "Noble Tārā, Swift and Greatly Heroic" (anon-trinle-char:c-3-1-23, anon-trinle-char:c-3-1-24). gendun-drub separately cites "Paṇchen Nyima Bepa" (པཎ་ཆེན་ཉི་མ་སྦས་པ) for the epithet "Tārā, Utterly Heroic" (gendun-drub:c-2-2-2-1-5). konchok-thabkhe's divergence in §4 above cites "grub chen Nyima Sepa" (ཉི་མ་སེ་པ) for its reading of the tears. The names as transliterated in each commentary's own quotation are close enough (ཉི་སྦས / ཉི་མ་སྦས་པ / ཉི་མ་སེ་པ) that these may be the same historical commentator cited under variant renderings — this is a page-level observation about the pattern across sources, not a claim any one of the three raw claims itself makes, and the page does not resolve the identity.
+- **A named authority cited for an epithet of this homage — two commentaries use the identical spelling, a third a near-variant.** anon-trinle-char cites "Nyisbepa" (ཉི་སྦས, with the Grounding index's own fuller form ཉི་མ་སྦས་པ) for both an iconographic verse and an epithet, "Noble Tārā, Swift and Greatly Heroic" (anon-trinle-char:c-3-1-23, anon-trinle-char:c-3-1-24). konchok-thabkhe's divergence in §4 above cites "grub chen Nyima Sbaspa" — and, re-read against the packet, konchok-thabkhe's own quotation spells the name ཉི་མ་སྦས་པ, identical to anon-trinle-char's fuller form, not a third variant (konchok-thabkhe:c-2-1-5). This is a stronger identification than a mere family resemblance: two commentaries cite the same figure under the exact same spelling. gendun-drub separately cites "Paṇchen Nyima Bepa" (པཎ་ཆེན་ཉི་མ་སྦས་པ) for the epithet "Tārā, Utterly Heroic" (gendun-drub:c-2-2-2-1-5) — the same core name ཉི་མ་སྦས་པ with an added title, a near-variant rather than a third distinct spelling. This is a page-level observation about the pattern across sources, not a claim any one of the three raw claims itself makes, and the page does not resolve the identity further.
 - **Abhidharmakośa cited as a doctrinal parallel.** tenzin-dhonzang quotes the Abhidharmakośa ("one who has utterly destroyed darkness for all, and draws beings out of saṃsāra's mire") as a parallel for the sense of "Tārā" (tenzin-dhonzang:c-4-1-4).
 - **A non-literal (dharmakāya/rūpakāya) alternate reading.** taranatha offers, as an explicit alternate to the literal reading, that "protector of the three worlds" may be read as the dharmakāya and "what arose from it" as the rūpakāya (taranatha:c-1-11).
 - **The Catuḥśataka commentary cited for an alternate reading of "three worlds"** — see §5 above (anon-trinle-char:c-3-1-19).
@@ -222,11 +233,11 @@ None observed.
 
 ### Consensus
 
-**"Homage," as it first appears in verse 1, is understood to govern every subsequent verse as well** — two commentaries state this in closely matching terms, independently confirmed by re-reading both claims: taranatha says "homage" appearing first "is set down as the basis for launching the discourse... it should be understood to apply to the following [verses] as well"; tsultrim-namdak says "homage" is "stated first here as the basis to be understood for every verse that follows as well."
-— attested: taranatha:c-1-3, tsultrim-namdak:c-2-1-2-1-3 (2 commentaries)
+**"Homage," as it first appears in verse 1, is understood to govern every subsequent verse as well** — three commentaries state this in closely matching terms, independently confirmed by re-reading all three claims: taranatha says "homage" appearing first "is set down as the basis for launching the discourse... it should be understood to apply to the following [verses] as well"; tsultrim-namdak says "homage" is "stated first here as the basis to be understood for every verse that follows as well"; pema-namgyal, in near-identical wording, says "'To her, homage' — apply this same construction to the verses that follow as well."
+— attested: pema-namgyal:c-2-4-15, taranatha:c-1-3, tsultrim-namdak:c-2-1-2-1-3 (3 commentaries)
 
-**The detailed explanation of the whole praise opens with the same three-part division: homage by way of history, by way of bodily forms, by way of activity.** Two commentaries give this identical three-fold scheme at the head of the section containing homage 1, in closely matching wording, independently confirmed by re-reading both claims.
-— attested: gendun-drub:c-2-2-2-1-1, tenga-tulku:c-1-2-1-1 (2 commentaries)
+**The detailed explanation of the whole praise opens with the same three-part division: homage by way of history, by way of bodily forms, by way of activity.** Three commentaries give this identical three-fold scheme at the head of the section containing homage 1, in closely matching wording, independently confirmed by re-reading all three claims: gendun-drub and tenga-tulku open their detailed explanations with this exact tripartite division, and anon-utpala's own "extended explanation" section opens with the identical division ("praising through her history, praising through the forms of her body, and praising through her activity").
+— attested: anon-utpala:c-1-2-1-1, gendun-drub:c-2-2-2-1-1, tenga-tulku:c-1-2-1-1 (3 commentaries)
 
 ### ⚑ Divergences
 
@@ -254,14 +265,17 @@ No other commentary in this packet applies a comparable fourfold scheme to this 
 
 ---
 
-## 10. "Heroine" as vow: benefiting beings in female form until saṃsāra is empty — unique to anon-trinle-char
+## 10. "Heroine" as alternate etymology and as vow — unique to anon-trinle-char
 
 ### Unique
 
-anon-trinle-char alone carries a coherent narrative, attributed in part to "Jonangpa" (probably Tāranātha or the Jonang tradition's account, as cited by this commentary), in which monks urge Tārā to pray for rebirth in a male body so as to act for the doctrine more effectively; she replies that many wish for enlightenment on a body born male, but no one works for beings' welfare by means of a woman's body, and vows to do so "until saṃsāra is empty" — offered as an alternate basis for the epithet "Heroine," alongside the etymology in §1.
-— anon-trinle-char:c-3-1-10, anon-trinle-char:c-3-1-11, anon-trinle-char:c-3-1-12, anon-trinle-char:c-3-1-13
+**A three-stage etymology via path-completion on a female basis, distinct from the etymology in §1.** anon-trinle-char gives a further etymology for "Heroine," separate from its etymology already cited in §1: she generated bodhicitta for beings' sake on the basis of a female body; in the interim she accumulated the two collections for beings' sake also on a female basis; and finally she attained buddhahood for beings' sake, again on a female basis — hence "Heroine."
+— anon-trinle-char:c-3-1-10 only.
 
-No other commentary in this packet attaches this narrative (or any comparable gender-vow narrative) to homage 1.
+**An alternate, vow-based etymology: benefiting beings in female form until saṃsāra is empty.** Introduced with "alternatively" (yang na) as a second, separate basis for the epithet, anon-trinle-char alone also carries a coherent narrative, attributed in part to "Jonangpa" (probably Tāranātha or the Jonang tradition's account, as cited by this commentary), in which monks urge Tārā to pray for rebirth in a male body so as to act for the doctrine more effectively; she replies that many wish for enlightenment on a body born male, but no one works for beings' welfare by means of a woman's body, and vows to do so "until saṃsāra is empty."
+— anon-trinle-char:c-3-1-11, anon-trinle-char:c-3-1-12, anon-trinle-char:c-3-1-13
+
+No other commentary in this packet attaches either this path-completion etymology or this gender-vow narrative to homage 1.
 
 ---
 
@@ -317,7 +331,17 @@ The following claims were consulted (they fall within tara-01's packet) but are 
 - tenzin-dhonzang:c-4-1-1 — heading, structural only.
 - tenzin-dhonzang:c-4-1-2 — verbatim root-verse quotation.
 - tsultrim-namdak:c-2-1-2-1-2 — verbatim (partial) root-verse quotation.
-- tsultrim-namdak:c-8-4 — ⚑ ambiguous fit, per the packet's own flag: this claim gives the complete twenty-one-homage praise as one continuous recitation block with no per-verse commentary of its own, so it cannot be split among the twenty-one slots without dividing a single claim, and it contributes no content specific to tara-01 beyond what the root text (^1-1) already carries. Carried through transparently per Rule 6 rather than silently dropped or force-assigned to a facet.
+- tsultrim-namdak:c-8-4 — ⚑ ambiguous fit (this page's own judgment — tsultrim-namdak.md does not itself flag this claim; it is a plain ### heading, not a bold ⚑ tension block, in the raw file): this claim gives the complete twenty-one-homage praise as one continuous recitation block with no per-verse commentary of its own, so it cannot be split among the twenty-one slots without dividing a single claim, and it contributes no content specific to tara-01 beyond what the root text (^1-1) already carries. Carried through transparently per Rule 6 rather than silently dropped or force-assigned to a facet.
+- tenga-tulku:c-1-2-1-7 — bare quotation of "eyes like an instant of lightning" plus a homage clause, with no signification gloss of its own; this commentary's actual elaboration on the simile is a separate claim, c-1-2-1-6, cited under §3 Unique. Not double-counted under §3 Consensus (see the note there).
+- pema-namgyal:c-2-4-1 — structural note that the meaning of the section's title is plain as directly taught; no independent content.
+- pema-namgyal:c-2-4-2 — word-gloss of the mantra syllable OṂ ("the opening/head syllable"); not content of the verse-1 etymology/iconography facets tracked on this page.
+- pema-namgyal:c-2-4-3 — etymology of the separate epithet "Ārya" (Noble), distinct from the Tārā/Swift/Heroine triad this page tracks in §1.
+- pema-namgyal:c-2-4-5 — structural attribution note that the preceding gloss of "homage" follows the translator's own rendering; no independent content beyond what c-2-4-4 already supplies.
+- pema-namgyal:c-2-4-6 — word-gloss of the mantra syllable Tāre (= "Tārā," swift, heroic); restates the Tārā/Swift/Heroine etymology already cited from this commentary at c-2-4-4 and c-2-4-11, in the different register of a mantra-syllable gloss rather than the verse's own words.
+- pema-namgyal:c-2-4-7 — word-gloss of the mantra syllable Tuttāre ("she who dispels fear"); mantra-syllable content, not part of verse 1's own etymology facets.
+- pema-namgyal:c-2-4-8 — word-gloss of the mantra syllable Ture ("bestows one's own aim, others' aim, the ultimate aim"); mantra-syllable content, not part of verse 1's own etymology facets.
+- pema-namgyal:c-2-4-9 — word-gloss of the mantra syllable Svāhā ("homage to you"); structural/word-gloss only.
+- pema-namgyal:c-2-4-10 — attribution note tracing the mantra-gloss's transmission through Jowoje (Atiśa) and others; not content of verse 1's own etymology.
 
 ---
 
@@ -325,21 +349,21 @@ The following claims were consulted (they fall within tara-01's packet) but are 
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-1-1–c-3-1-24 | §1 Consensus/Divergences/Unique, §2, §3 Consensus, §4 Consensus/Unique, §5 Unique, §6 Unique, §7 Unique, §8 Unique, §10, §12 |
-| anon-utpala | c-1-2-1-2–c-1-2-1-10 | §1 Consensus/Divergences, §3 Consensus, §4 Consensus, §5 Consensus, §7 Unique |
+| anon-trinle-char | c-3-1-1–c-3-1-24 | §1 Consensus/Divergences/Unique, §2, §3 Consensus, §4 Consensus/Unique, §5 Divergences, §6 Unique, §7 Unique, §8 Unique, §10, §12 |
+| anon-utpala | c-1-2-1-1–c-1-2-1-10 | §1 Consensus/Divergences, §3 Consensus, §4 Consensus, §5 Consensus, §7 Unique, §8 Consensus |
 | drakpa-gyaltsen | c-1-1–c-1-7 | §1 Consensus, §3 Consensus, §5 Consensus |
-| gendun-drub | c-2-2-2-1-1–c-2-2-2-1-5 | §4 Consensus/Unique, §7 Unique, §8 Consensus |
+| gendun-drub | c-2-2-2-1-1–c-2-2-2-1-5 | §4 Consensus/Unique, §5 Divergences, §7 Unique, §8 Consensus |
 | gendun-gyatso | c-1-1-3–c-1-1-8 | §1 Consensus, §3 Consensus, §5 Consensus |
 | karma-maitri | c-1-1-1-1–c-1-1-1-9 | §1 Consensus/Unique, §3 Consensus, §5 Consensus |
 | konchok-thabkhe | c-2-1-1–c-2-1-5 | §1 Consensus, §4 Consensus/Divergences, §5 Consensus |
 | lobsang-dawa | (none — see below) | none |
 | palden-sherab | c-3-1-1-0-1, c-3-1-1-0-2, c-3-1-1-1-1, c-3-1-1-1-2, c-3-1-1-1-3, c-3-1-1-2-1, c-3-1-1-2-2, c-3-1-1-2-3, c-3-1-1-3-1, c-3-1-1-3-2, c-3-1-1-3-3, c-3-1-1-3-4, c-3-1-1-4-1, c-3-1-1-4-2 | §1 Consensus, §3 Consensus, §4 Consensus/Unique, §6 Unique, §9 (all layers), §12 |
-| pema-namgyal | c-2-4-12–c-2-4-14 | §3 Unique, §4 Consensus, §6 Unique |
+| pema-namgyal | c-2-4-1–c-2-4-15 | §1 Consensus, §3 Unique, §4 Consensus, §6 Unique, §8 Consensus |
 | sangye-nyentrul | c-2-0-1, c-2-0-2, c-2-0-3, c-2-0-4, c-2-0-5, c-2-1-1, c-2-1-2, c-2-1-3 | §1 Consensus, §3 Consensus, §4 Consensus, §6 Unique, §12 |
 | sungrab-tulku | c-4-1–c-4-14 | §1 Consensus/Unique, §3 Consensus, §4 Consensus |
 | taranatha | c-1-1–c-1-11 | §1 Consensus/Unique, §3 Unique, §4 Consensus, §7 Unique, §8 Consensus, §11 Unique |
 | tenga-tulku | c-1-2-1-1–c-1-2-1-7 | §1 Consensus, §3 Unique, §4 Consensus, §8 Consensus |
-| tenzin-dhonzang | c-4-1-1–c-4-1-7 | §1 Consensus/Unique, §3 Consensus, §4 Consensus, §7 Unique, §11 Unique |
+| tenzin-dhonzang | c-4-1-1–c-4-1-7 | §1 Consensus/Unique/Divergences(noted), §3 Consensus, §4 Consensus, §7 Unique, §11 Unique |
 | tsultrim-namdak | c-2-1-2-1-2, c-2-1-2-1-3, c-2-1-2-1-4, c-2-1-2-1-5, c-2-1-2-1-6, c-3-4, c-8-4 | §1 Consensus, §3 Consensus, §4 Consensus/Divergences, §6 Unique, §8 Consensus |
 
 **Commentaries silent on this topic:** lobsang-dawa. Per its spine map, this commentary gives verse 1's content — the "heroine"/"all-seeing" etymologies and the origin from Avalokiteśvara's lotus-face — inside its own dedicated `1.2.1` history/origin node rather than in a numbered per-homage node, and that content is routed to the `origin` global slot instead; no node or claim in lobsang-dawa independently addresses tara-01 as its own slot.
