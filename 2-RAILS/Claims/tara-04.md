@@ -104,7 +104,7 @@ None observed on the verse's wording itself — no commentary disputes the four 
 ### Unique
 Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented simply as the praise's own verse — the only commentary in the corpus to attribute this particular quotation to an external tantra rather than to the praise text itself. `anon-trinle-char:c-3-4-3`
 
-Gendun Drub quotes only the verse's first line ("ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།"), not the full four lines; the remainder of the verse appears in this commentary only as paraphrase within its own gloss (see "Identification of the object of homage," below). Per Rule 9 this is recorded as a partial attestation, not folded into the full-quotation count above. `gendun-drub:c-2-2-2-2-1-1-3-2`
+Gendun Drub quotes only the verse's first line ("ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།"), not the full four lines; the remainder of the verse appears in this commentary only as paraphrase, split across two separate glosses — line 2's content under "Identification of the object of homage" (`gendun-drub:c-2-2-2-2-1-1-3-3`), below, and lines 3–4's content under "Doctrinal: reliance of the pāramitā-bodhisattvas" (`gendun-drub:c-2-2-2-2-1-1-3-4`), below. Per Rule 9 this is recorded as a partial attestation, not folded into the full-quotation count above. `gendun-drub:c-2-2-2-2-1-1-3-2`
 
 Tenga Tulku splits the same four lines across three separate glosses, interleaving each line with its own exegesis rather than quoting the verse as one block: line 1 at `tenga-tulku:c-1-2-2-1-1-3-1-2`, line 2 at `tenga-tulku:c-1-2-2-1-1-3-1-4`, and lines 3–4 together at `tenga-tulku:c-1-2-2-1-1-3-2-2`.
 
@@ -228,7 +228,7 @@ Three commentaries diverge from the majority reading above by explicitly attribu
 ### Unique
 Drakpa Gyaltsen's word-by-word gloss splits this content into three separate phrase-glosses, each narrower than the full Consensus statement above and each preserving the root verse's own (grammatically elided, but contextually bodhisattva-subject) reading rather than reassigning the attainment to the goddess: "having attained the ten pāramitās, the nature of all ten bhūmis without exception" (`drakpa-gyaltsen:c-1-25`); "'sons of the Victors' means all bodhisattvas" (`drakpa-gyaltsen:c-1-26`); "'greatly relied upon' — she is carried by them as foremost" (`drakpa-gyaltsen:c-1-27`).
 
-Palden Sherab gives an elaborate, densely doctrinal reading of the same lines that does not cleanly fit either side of the divergence above (the passage's own grammar conflates the goddess's and the bodhisattvas' attainment): complete abandonment/realization of the ten obscurations to be abandoned across the ten bhūmis and five paths, attainment of the ten wisdoms of the ten bhūmis and the ten pāramitās, and reliance by "the victors and their heirs" upon her as "the mother Prajñāpāramitā... since the four types of noble offspring are born from her," with a full naming of the ten bhūmis, ten pāramitās, and four types of offspring (śrāvakas, pratyekabuddhas, bodhisattvas, buddhas) not given by any other commentary in this corpus for this verse. `palden-sherab:c-3-1-4-1-2`, `palden-sherab:c-3-1-4-1-4`
+Palden Sherab gives an elaborate, densely doctrinal reading of the same lines that does not cleanly fit either side of the divergence above (the passage's own grammar conflates the goddess's and the bodhisattvas' attainment): complete abandonment/realization of the ten obscurations to be abandoned across the ten bhūmis and five paths, attainment of the ten wisdoms of the ten bhūmis and the ten pāramitās, and reliance by "the victors and their heirs" upon her as "the mother Prajñāpāramitā... since the four types of noble offspring are born from her," with a full naming of the ten bhūmis, ten pāramitās, and four types of offspring (śrāvakas, pratyekabuddhas, bodhisattvas, buddhas). The combination of all three lists together is not given by any other commentary in this corpus for this verse — though Tenzin Dhonzang's `tenzin-dhonzang:c-4-4-8` (cited in full under "Etymology of 'boundless victorious conduct,'" above) independently gives comparably full namings of the ten bhūmis and the ten pāramitās on its own, without a four-offspring list. `palden-sherab:c-3-1-4-1-2`, `palden-sherab:c-3-1-4-1-4`
 
 Konchok Thabkhe's causally-inverted reading ("through her the ten perfections... reach complete increase") is discussed in full under "Etymology of 'boundless victorious conduct,'" above. `konchok-thabkhe:c-2-4-4`
 
@@ -252,7 +252,7 @@ At least four distinct naming traditions are attested for this particular Tārā
 
 — attested: `palden-sherab:c-3-1-4-0-1`, `sangye-nyentrul:c-5-1-1`, `tsultrim-namdak:c-3-7` (3 commentaries)
 
-**Position 3 — "Victorious in All Directions," an epithet built on the "ten directions" / "superior to the victors" reading:** Pema Namgyal alone derives this name from her being "consecrated as mistress of the boundless crown-ornament family," rather than from the "gtsug tor" (crown) image used in Positions 1–2.
+**Position 3 — "Victorious in All Directions," an epithet built on the "ten directions" / "superior to the victors" reading:** Pema Namgyal's own claim opens with the same crown-jewel/uṣṇīṣa (gtsug tor) image used in Positions 1–2 (she is "the crown-jewel of the assembled tathāgatas... throughout the ten directions"), then adds a further consecration detail not found in Positions 1–2: because she is "consecrated as mistress of the boundless crown-ornament family," she conducts herself as superior even to the victors, hence the name.
 
 — attested: `pema-namgyal:c-2-4-20` (1 commentary)
 
@@ -277,9 +277,13 @@ Two distinct iconographic traditions are attested:
 
 — attested: `anon-trinle-char:c-3-4-9`, `anon-trinle-char:c-3-4-10`, `anon-trinle-char:c-3-4-11` (1 commentary, 3 claims)
 
-**Position B — simple longevity form (one face, two hands, golden body):** seated half-cross-legged on lotus-and-moon; golden-coloured body; right hand in supreme-giving mudrā, left hand holding a blue utpala topped by a vase of deathless life. Sangye Nyentrul, Tsultrim Namdak, and Palden Sherab's own generation-stage visualization (cited fully under "Deathless-life practice tradition" and "Esoteric two-stage interpretation," below) independently converge on this same iconography, consistently paired with the "Deathless Life-Accomplishing" epithet from "Naming and epithets," above.
+**Position B — simple longevity form (one face, two hands, golden body):** golden-coloured body holding a vase of deathless life, attested by all three commentaries below (Sangye Nyentrul and Palden Sherab further specify: seated half-cross-legged on lotus-and-moon, right hand in supreme-giving mudrā). Two of the three specify the vase as resting atop an utpala (Sangye Nyentrul, Palden Sherab); Tsultrim Namdak's own claim names only the golden colour and the vase of deathless life, with no utpala mentioned at all. Only Palden Sherab specifies the utpala's colour as blue. Sangye Nyentrul, Tsultrim Namdak, and Palden Sherab's own generation-stage visualization (cited fully under "Deathless-life practice tradition" and "Esoteric two-stage interpretation," below) independently converge on this same longevity iconography in its shared core (golden body, vase of deathless life), paired with the "Deathless Life-Accomplishing" epithet from "Naming and epithets," above.
 
-— attested: `sangye-nyentrul:c-5-1-1`, `sangye-nyentrul:c-5-1-2`, `tsultrim-namdak:c-3-7`, `palden-sherab:c-3-1-4-2-1` (3 commentaries, 4 claims)
+— attested (golden body + vase of deathless life, all three): `sangye-nyentrul:c-5-1-1`, `sangye-nyentrul:c-5-1-2`, `tsultrim-namdak:c-3-7`, `palden-sherab:c-3-1-4-2-1` (3 commentaries, 4 claims)
+
+— attested (utpala specifically): `sangye-nyentrul:c-5-1-2`, `palden-sherab:c-3-1-4-2-1` (2 commentaries)
+
+— attested (blue utpala specifically): `palden-sherab:c-3-1-4-2-1` (1 commentary)
 
 No commentary in this corpus reconciles these two traditions or states that one supersedes the other; they appear to correspond to the two distinct epithets/functions recorded under "Naming and epithets" above (Position 1's general crown-ornament form vs. Position 2's longevity form).
 
@@ -310,11 +314,13 @@ Not applicable — the two elaborations below do not contradict one another; the
 ## Deathless-life (longevity) practice tradition
 
 ### Consensus
-Two commentaries independently give closely corresponding content for a specialized "Deathless Life-Accomplishing Uṣṇīṣavijayā" practice tradition (re-read and confirmed as genuinely close, not merely topically similar): golden body, holding a vase of deathless life atop an utpala, from which light/nectar radiates and dissolves into self and others, granting the accomplishment (siddhi) of deathless life.
+Two commentaries share the base iconography — golden body, holding a vase of deathless life — but only one of them goes on to describe the nectar-dissolution practice itself. Sangye Nyentrul's own account gives the fuller sequence: the vase rests atop an utpala, and light/nectar radiates from it and dissolves into self and others, granting the accomplishment (siddhi) of deathless life. Tsultrim Namdak's claim (re-read to confirm) attests only the base iconography — golden body and the vase of deathless life, with no utpala, and no light/nectar/dissolution/siddhi content at all; its own additional content is instead that this figure is mother to the ten-pāramitā bodhisattva heirs, who she "infuses ... with the vital essence of merit and longevity," a related but distinct idea from Sangye Nyentrul's first-person generation-stage practice.
 
-— attested: `sangye-nyentrul:c-5-1-1`, `sangye-nyentrul:c-5-1-2`, `sangye-nyentrul:c-5-1-3`, `tsultrim-namdak:c-3-7` (2 commentaries)
+— attested (golden body + vase of deathless life, base iconography only): `sangye-nyentrul:c-5-1-1`, `tsultrim-namdak:c-3-7` (2 commentaries)
+— attested (the nectar-dissolution practice itself: light/nectar radiates and dissolves into self and others, granting siddhi): `sangye-nyentrul:c-5-1-2`, `sangye-nyentrul:c-5-1-3` (1 commentary)
+— attested (utpala specifically): `sangye-nyentrul:c-5-1-2` (1 commentary)
 
-Palden Sherab's own generation-stage visualization (cited fully under "Esoteric two-stage interpretation," above) independently gives a closely corresponding third attestation of the same golden-body / utpala-and-life-vase / nectar-dissolution practice, differing only in its embedding within a four-tier hermeneutic rather than standing alone. `palden-sherab:c-3-1-4-2-1`
+Palden Sherab's own generation-stage visualization (cited fully under "Esoteric two-stage interpretation," above) independently gives a closely corresponding third attestation of the same golden-body / vase-of-deathless-life / nectar-dissolution practice — and, like Sangye Nyentrul, specifies the vase as resting atop an utpala, with Palden Sherab's claim alone specifying the utpala's colour as blue — differing only in its embedding within a four-tier hermeneutic rather than standing alone. `palden-sherab:c-3-1-4-2-1`
 
 ### ⚑ Divergences
 None between the three commentaries above on the core practice; Tenzin Dhonzang's practice (below) shares the same "chief activity is extending life" framing but is not close enough in its specific imagery to be merged with theirs (per Rule 10), so it is recorded as a separate contribution to the same broader tradition rather than a fourth attestation of the identical practice.

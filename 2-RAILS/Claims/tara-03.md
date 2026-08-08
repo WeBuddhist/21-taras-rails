@@ -79,7 +79,7 @@ Eight commentaries mark this passage with an explicit ordinal — "third" (ག�
 — attested: `anon-trinle-char:c-3-3-1`, `gendun-gyatso:c-1-3-1`, `karma-maitri:c-1-1-3-1`, `konchok-thabkhe:c-2-3-1`, `palden-sherab:c-3-1-3-0-1`, `sungrab-tulku:c-6-1`, `taranatha:c-3-1`, `tenzin-dhonzang:c-4-3-1` (8 commentaries)
 
 ### ⚑ Divergences
-Four commentaries instead mark this same node "second" (གཉིས་པ), not "third" — Anon-Utpala, Gendun Drub, Lobsang Dawa, and Tenga Tulku all give a near-identical formula, "the second, [praise] by way of body-colour, hand-emblem, and cause" (Tenga Tulku's variant reads "body" [སྐུ] in place of "cause" [རྒྱུ] as the third listed element). This is the same nested-numbering phenomenon attested for the prior homage in this corpus — these four commentaries are numbering a sub-element within this homage's own internal structure (body-colour/hand-emblem/cause is apparently counted as the "second" descriptive element, after an initial name/identification element), not the homage's position among the twenty-one as a whole. No commentary in this corpus states outright which of the two schemes the other is using; this page records the difference as a taxonomy split rather than resolving it, per Rule 4.
+Four commentaries instead mark this same node "second" (གཉིས་པ), not "third." Three of them — Anon-Utpala, Gendun Drub, and Tenga Tulku — give a near-identical formula in their own claim text, "the second, [praise] by way of body-colour, hand-emblem, and cause" (Tenga Tulku's variant reads "body" [སྐུ] in place of "cause" [རྒྱུ] as the third listed element). The fourth, Lobsang Dawa, also marks the node "second" but its own claim gives only the bare ordinal marker — "གཉིས་པ་ནི།" ("As for the second:") — with no mention of body-colour, hand-emblem, or cause; the fuller formula sometimes associated with this claim is the raw claims file's own bracketed editorial gloss (`[body-color, hand-implements, and their cause]`), not Lobsang Dawa's own words, so it is not attributed to the claim here (per Rule 12). This is the same nested-numbering phenomenon attested for the prior homage in this corpus — these four commentaries are numbering a sub-element within this homage's own internal structure (body-colour/hand-emblem/cause is apparently counted as the "second" descriptive element, after an initial name/identification element), not the homage's position among the twenty-one as a whole. No commentary in this corpus states outright which of the two schemes the other is using; this page records the difference as a taxonomy split rather than resolving it, per Rule 4.
 
 - Position 1 (ordinal "third," homage-level count): the eight commentaries listed under Consensus above.
 - Position 2 (ordinal "second," nested sub-element count): `anon-utpala:c-1-2-2-1-1-2-1`, `gendun-drub:c-2-2-2-2-1-1-2-1`, `lobsang-dawa:c-1-2-2-1-1-2-1`, `tenga-tulku:c-1-2-2-1-1-2-1`.
@@ -96,17 +96,17 @@ Drakpa-Gyaltsen, Pema Namgyal, Sangye Nyentrul, and Tsultrim Namdak contribute n
 ## Root-verse quotation and the "gser sngo" / "ser sngo" textual variant
 
 ### Consensus
-Nine commentaries quote the verse's opening line(s) in a form beginning "ཕྱག་འཚལ་...སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། ...པདྨ(ས)་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།" (with the closing two lines, "སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།", given in full or in part) — "Homage to her, [golden/yellow]-blue, born from water, whose hand is adorned by a lotus; whose very domain is generosity, diligence, austerity, peace, patience, and meditative concentration." Two sub-groups of this shared quotation diverge on a single syllable:
+Eight commentaries quote the verse's opening line(s) in a form beginning "ཕྱག་འཚལ་...སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། ...པདྨ(ས)་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།" (with the closing two lines, "སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།", given in full or in part) — "Homage to her, [golden/yellow]-blue, born from water, whose hand is adorned by a lotus; whose very domain is generosity, diligence, austerity, peace, patience, and meditative concentration." Two sub-groups of this shared quotation diverge on a single syllable:
 
 **"གསེར་སྔོ" (gold-blue, with the "ga" prefix):**
 
-— attested: `anon-utpala:c-1-2-2-1-1-2-2`, `gendun-drub:c-2-2-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `sungrab-tulku:c-6-2`, `tenga-tulku:c-1-2-2-1-1-2-2` (5 commentaries)
+— attested: `anon-utpala:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `sungrab-tulku:c-6-2`, `tenga-tulku:c-1-2-2-1-1-2-2` (4 commentaries)
 
 **"སེར་སྔོ" (yellow-blue, without the prefix):**
 
-— attested: `anon-trinle-char:c-3-3-3`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-2-1-2-1-10` (3 commentaries)
+— attested: `anon-trinle-char:c-3-3-3`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-2-1-2-1-10`, `gendun-drub:c-2-2-2-2-1-1-2-2` (4 commentaries)
 
-Gendun Drub's own quotation gives only the verse's first two lines rather than the full four, so it is recorded as a partial attestation of the shared quotation above, per Rule 9.
+Gendun Drub's own quotation — "ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།" — reads "སེར་སྔོ" with no "ག" prefix at all, so it belongs in the without-prefix group above, not the with-prefix group (corrected from an earlier mis-categorization). It also gives only the verse's first two lines rather than the full four, so it is recorded as a partial attestation of the shared quotation above, per Rule 9.
 
 ### ⚑ Divergences
 None on the base wording beyond the two-way spelling split recorded above. Konchok-Thabkhe explicitly attests, as its own separate etymological claim, that this exact spelling variation is a live issue among the commentaries it knows — see "Etymology notes," below, which cites the same claim.
@@ -121,9 +121,11 @@ Sungrab-Tulku's claim `sungrab-tulku:c-6-3` glosses "ཕྱག་འཚལ་བ
 ## Iconography — body colour ("golden-blue")
 
 ### Consensus
-Seven commentaries describe her **body** (not merely her lotus) as golden-yellow — like the gold of the Jambu river — with a bluish tinge.
+Six commentaries describe her **body** (not merely her lotus) as golden-yellow with a bluish tinge.
 
-— attested: `anon-trinle-char:c-3-3-5`, `anon-utpala:c-1-2-2-1-1-2-3`, `gendun-drub:c-2-2-2-2-1-1-2-3`, `karma-maitri:c-1-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3` (7 commentaries)
+— attested: `anon-trinle-char:c-3-3-5`, `anon-utpala:c-1-2-2-1-1-2-3`, `karma-maitri:c-1-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3` (6 commentaries)
+
+Of these, Anon-Utpala alone specifies the hue with a particular simile — "like the gold of the Jambu river" (འཛམ་བུ་ཆུ་བོའི་གསེར་ལྟར) — rather than plain gold; re-read against the other five claims in the Consensus list, none of them states this river simile, so it is not presented as shared by all six, per Rule 9. `anon-utpala:c-1-2-2-1-1-2-3`
 
 ### ⚑ Divergences
 The corpus does not agree on how the compound "gser/ser sngo" (gold/yellow-blue) distributes across body and lotus, nor on the exact hue:
@@ -152,6 +154,8 @@ These five positions were re-read against the Consensus wording above and agains
 
 ### Unique
 Drakpa-Gyaltsen's gloss addresses only the "gold" component of the compound — "her complexion is clear like the light of refined gold" — without any statement about a blue (or other) tinge, so it is recorded separately rather than counted toward either the Consensus or any Divergence position above. `drakpa-gyaltsen:c-1-12`
+
+Gendun-Drub's own gloss of "blue and gold" construes the compound differently from the shared Consensus formula above: it makes blue the primary body-colour descriptor ("སྔོ་བ་ནི། སྐུ་མདོག" — "blue [is] her body colour") and treats gold as indicating a separate, cross-referenced quality ("gold indicates a clear/translucent hue," attested via the epithet "Golden-coloured Tārā" used elsewhere) rather than as a second body-colour term alongside blue. This inverts which colour is treated as the primary body-descriptor and which as a cross-referenced epithet-quality, relative to the Consensus formula above, so this claim is not folded into that count. See "Epithets and identity," below, where the same claim is cited for its epithet content. `gendun-drub:c-2-2-2-2-1-1-2-3`
 
 ---
 
@@ -203,7 +207,7 @@ Fifteen commentaries gloss "austerity" (དཀའ་ཐུབ) as moral discipli
 — attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-5`, `drakpa-gyaltsen:c-1-17`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`, `karma-maitri:c-1-1-3-5`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `sungrab-tulku:c-6-5`, `taranatha:c-3-4`, `tenga-tulku:c-1-2-2-1-1-2-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-11` (15 commentaries)
 
 ### ⚑ Divergences
-Konchok-Thabkhe alone bundles "austerity" together with "peace" as a single compound term equalling discipline ("དཀའ་ཐུབ་ཞི་བ་སྟེ་ཚུལ་ཁྲིམས"), rather than glossing "austerity" alone as discipline and "peace" as a separate item (see "Word-gloss and divergence: peace," below, and "Alternate correspondence schemes"). Re-read against the Consensus wording above, this claim's own text does not isolate "austerity" the way the other fifteen do, so it is not folded into the Consensus count.
+Konchok-Thabkhe alone bundles "austerity" together with "peace" as a single compound term equalling discipline ("དཀའ་ཐུབ་ཞི་བ་སྟེ་ཚུལ་ཁྲིམས"), rather than glossing "austerity" alone as discipline and "peace" as a separate item (see "Word-gloss and divergence: peace," below, and "Alternate correspondence schemes"). Re-read against the Consensus wording above, this claim's own text does not isolate "austerity" the way the other fifteen do, so it is not folded into the Consensus count. (Karma-Maitri's austerity claim, already cited in the Consensus above, was checked against this same possible pattern: it states "austerity, that is, moral discipline — by that, afflictions are pacified," a verb clause giving a rationale for the austerity=discipline equation, and it does not itself name or fold in "peace" [ཞི་བ] as a second verse-word — a different grammatical move from Konchok-Thabkhe's compound-noun bundling of the two verse-words, so it is not counted as a second instance here.)
 
 — attested: `konchok-thabkhe:c-2-3-3` (1 commentary)
 
