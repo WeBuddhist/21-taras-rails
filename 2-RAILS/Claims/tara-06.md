@@ -92,9 +92,9 @@ None beyond the two positions above.
 ## Root verse quoted
 
 ### Consensus
-Six commentaries quote the root verse's full four lines together in one block (subject to minor orthographic variation across transmissions): "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas."
+Seven commentaries quote the root verse's full four lines together in one block (subject to minor orthographic variation across transmissions): "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas."
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2` (6 commentaries)
+— attested: `anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19` (7 commentaries)
 
 ### ⚑ Divergences
 None observed on the verse's wording itself — the variation is orthographic only.
@@ -107,8 +107,6 @@ Tenga Tulku's quotation preserves internal ellipsis marks between each line in t
 Drakpa Gyaltsen quotes only the verse's first two lines ("ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། །"), not the full four lines, as the opening of a word-by-word gloss; per Rule 9 this is a partial attestation, not folded into the full-quotation count above. `drakpa-gyaltsen:c-1-34`
 
 Lobsang Dawa splits the verse across two separately-numbered fragments, following the same distinct quatrain-line verse-numbering convention already observed at verse 4: lines 1–2 as "Verse 14" (`lobsang-dawa:c-1-2-2-1-1-5-2`) and lines 3–4 as "Verse 15" (`lobsang-dawa:c-1-2-2-1-1-5-3`).
-
-Tsultrim Namdak quotes lines 1–2 only, folded directly into an identification of the worshippers ("as for whom this is offered to: Indra, lord of the gods, and..."), with no separate full-verse block. `tsultrim-namdak:c-2-1-2-1-19`
 
 Gendun Drub does not quote the verse's exact wording at all; its opening claim is a paraphrase substituting exegetical language ("to whom," "and so forth," "chief ones") for the verse's own words, and is therefore cited under "The four principal worshipping gods," below, rather than here. `gendun-drub:c-2-2-2-2-1-1-5-2`
 
@@ -130,9 +128,9 @@ Three distinct naming traditions are attested for this particular Tārā:
 
 — attested: `gendun-drub:c-2-2-2-2-1-1-5-4` (1 commentary)
 
-**Position 3 — "Great Terrifier" ('jigs byed chen mo), frequently paired with "Destroyer of the Spirit-Classes" (gdon rigs rnam par 'joms pa / gdon rigs rnams 'joms ma):** Four commentaries independently give this epithet. Palden Sherab's and Tsultrim Namdak's formulations are verbatim-identical for the compound name (re-read and confirmed: both read གདོན་རིགས་...འཇོམས་མ / འཇོམས་པ ... སྒྲོལ་མ་འཇིགས་བྱེད་ཆེན་མོ), an independent corroboration of the same two-part name rather than a topical coincidence. Sungrab Tulku gives the bare "Tārā the Great Terrifier" without the "destroyer" qualifier. Sangye Nyentrul gives a related but distinct epithet using the near-homophonous verb "gathers" (འཛོམས་པ) rather than "destroys" (འཇོམས་པ) — "Tārā, Great Terrifier, Who *Gathers* the Hosts of Obstructing Spirits" — a genuinely different meaning from the other three despite the visual/aural similarity, so it is recorded as a distinct sub-variant within Position 3 rather than folded into the verbatim pair.
+**Position 3 — "Great Terrifier" ('jigs byed chen mo), frequently paired with "Destroyer of the Spirit-Classes" (gdon rigs rnam par 'joms pa / gdon rigs rnams 'joms ma):** Four commentaries independently give this epithet. Palden Sherab's and Tsultrim Namdak's formulations share the same core compound (གདོན་རིགས་...འཇོམས་) but differ grammatically — Palden Sherab uses a verbal construction (གདོན་རིགས་རྣམ་པར་འཇོམས་པ, "utterly destroying the spirit-classes"), Tsultrim Namdak a nominal/agentive one (གདོན་རིགས་རྣམས་འཇོམས་མ, "destroyer of the spirit-classes") — re-read and confirmed as a genuine grammatical difference, not a copying error. This is an independent corroboration of the same underlying two-part name, though not verbatim-identical. Sungrab Tulku gives the bare "Tārā the Great Terrifier" without the "destroyer" qualifier. Sangye Nyentrul gives a related but distinct epithet using the near-homophonous verb "gathers" (འཛོམས་པ) rather than "destroys" (འཇོམས་པ) — "Tārā, Great Terrifier, Who *Gathers* the Hosts of Obstructing Spirits" — a genuinely different meaning from the other three despite the visual/aural similarity, so it is recorded as a distinct sub-variant within Position 3 rather than folded into the pair above.
 
-— attested (verbatim "Destroyer of the Spirit-Classes, Great Terrifier"): `palden-sherab:c-3-1-6-0-1`, `tsultrim-namdak:c-3-9` (2 commentaries)
+— attested (shared core compound "Destroyer of the Spirit-Classes, Great Terrifier," grammatical variants — verbal vs. nominal): `palden-sherab:c-3-1-6-0-1`, `tsultrim-namdak:c-3-9` (2 commentaries)
 
 — attested (bare "Great Terrifier," no qualifier): `sungrab-tulku:c-9-3` (1 commentary)
 
@@ -141,7 +139,7 @@ Three distinct naming traditions are attested for this particular Tārā:
 Four commentaries in total attest Position 3, with the "gathers/destroys" distinction noted above.
 
 ### Unique
-None beyond the three positions above. The remaining twelve commentaries either give no proper epithet for this homage in the claims captured, or use only the generic "Tārā" / "the Venerable Lady."
+None beyond the three positions above. The remaining nine commentaries either give no proper epithet for this homage in the claims captured, or use only the generic "Tārā" / "the Venerable Lady."
 
 ---
 
@@ -174,14 +172,14 @@ Gendun Gyatso and Gendun Drub each give a paraphrase-style identification of the
 
 Tenzin Dhonzang's own restatement names Vāyu and "the great mundane gods of manifold forms such as Maheśvara" as worshippers, without directions and without distinguishing Sarveśvara as a separate figure from this list. `tenzin-dhonzang:c-4-6-4`
 
-Tsultrim Namdak's opening claim additionally names Indra as the first worshipper, continuing directly from its partial verse-quotation (cited above under "Root verse quoted"). `tsultrim-namdak:c-2-1-2-1-19` (already cited above)
+Tsultrim Namdak's opening claim additionally names Indra as the first worshipper, folded directly into its full verse-quotation (cited above under "Root verse quoted"). `tsultrim-namdak:c-2-1-2-1-19` (already cited above)
 
 ---
 
 ## Identity of Sarveśvara / Viśveśvara ("the various lord")
 
 ### Consensus
-None — see Divergences. Two commentaries (Sungrab Tulku, and the directional-scheme group above) name "Sarveśvara" as the fifth worshipper without further identifying who this is: `sungrab-tulku:c-9-5` names him as the southern-quarter figure with no gloss beyond the name itself.
+None — see Divergences. Sungrab Tulku and the five-commentary directional-scheme group cited above under "The four principal worshipping gods" name "Sarveśvara" as the fifth worshipper without further identifying who this is: `sungrab-tulku:c-9-5` names him as the southern-quarter figure with no gloss beyond the name itself.
 
 ### ⚑ Divergences
 At least four distinct identifications of this figure are attested, none reconciled with any other in the corpus:
@@ -194,7 +192,7 @@ At least four distinct identifications of this figure are attested, none reconci
 
 — attested: `sangye-nyentrul:c-7-0-1` (1 commentary)
 
-**Position 3 — the water-god (west) and the earth-goddess Tenma (nadir), jointly:** Konchok Thabkhe identifies "Various Lord" as *two* deities rather than one, with explicit reasoning: ritual manuals state one faces west during power-rites because the western water-god holds the power-drawing noose, and the tantra class states the earth-goddess Tenma has power over the four continents — hence the epithet applies to both.
+**Position 3 — the water-god (west) and the earth-goddess Tenma, jointly:** Konchok Thabkhe identifies "Various Lord" as *two* deities rather than one, with explicit reasoning: ritual manuals state one faces west during power-rites because the western water-god holds the power-drawing noose, and the tantra class states the earth-goddess Tenma has power over the four continents — hence the epithet applies to both. (The claim itself states only that Tenma "has power over the four continents," with no direction given; other commentaries in this corpus place the earth-goddess at the nadir/below, e.g. under "Extended directional-guardian schemes," but this claim does not itself state a direction for her.)
 
 — attested: `konchok-thabkhe:c-2-6-2`, `konchok-thabkhe:c-2-6-5` (1 commentary, 2 claims)
 
@@ -214,7 +212,7 @@ None beyond the four positions above.
 None shared identically by all contributing commentaries — see Divergences. Several commentaries independently extend the verse's four or five worshippers into a fuller scheme of eight, ten, or fifteen directional guardians.
 
 ### ⚑ Divergences
-Konchok Thabkhe's own commentary flags this extension explicitly as an innovation, not a received reading: "although no [earlier] commentary connects this verse with the directional guardians, most of their names appear directly in the tantra's own words," citing further that "the Jowo" (Atiśa), in his own liturgical compilation, states that the mantra-garland's light subdues the ten directional guardians, and that this mahāsiddha (the author) has several sādhanas of his own showing the venerable lady surrounded by directional guardians. `konchok-thabkhe:c-2-6-4`
+Konchok Thabkhe's own commentary flags this extension explicitly as an innovation, not a received reading: "although no [earlier] commentary connects this verse with the directional guardians, most of their names appear directly in the tantra's own words," citing further that "the Jowo" (ཇོ་བོ — identity unspecified in the raw claim, `Referent: [unanchored]`), in his own liturgical compilation, states that the mantra-garland's light subdues the ten directional guardians, and that this mahāsiddha (the author) has several sādhanas of his own showing the venerable lady surrounded by directional guardians. `konchok-thabkhe:c-2-6-4`
 
 Given this explicit flag, the following expanded schemes are recorded as independent commentarial extensions rather than a single received tradition:
 
@@ -253,7 +251,7 @@ Several commentaries go further and frame each class as the specific retinue of 
 ### ⚑ Divergences
 
 **Who exemplifies/rules the vetāla class?**
-- Position A (Maheśvara): Drakpa Gyaltsen ("vetālas means [beings] such as Maheśvara"), Gendun Drub ("the vetāla chief, Maheśvara" — verbatim-matching Drakpa Gyaltsen's exemplar-set across all four classes, re-read and confirmed as a genuine four-way correspondence, not topical overlap: both independently pair bhūta↔Gaṇapati, vetāla↔Maheśvara, gandharva↔the five-crested ones, yakṣa↔Vaiśravaṇa's son), and Tsultrim Namdak ("the vetālas [are ruled by] Maheśvara and others").
+- Position A (Maheśvara): Drakpa Gyaltsen ("vetālas means [beings] such as Maheśvara"), Gendun Drub ("the vetāla chief, Maheśvara" — verbatim-matching Drakpa Gyaltsen's exemplar-set for three of the four classes, re-read and confirmed as a genuine three-way correspondence, not topical overlap: both independently pair bhūta↔Gaṇapati, vetāla↔Maheśvara, gandharva↔the five-crested ones), and Tsultrim Namdak ("the vetālas [are ruled by] Maheśvara and others"). The fourth pairing (yakṣa) is related but not identical between Drakpa Gyaltsen and Gendun Drub — see "Who exemplifies the yakṣa class?" below, where the two are recorded as distinct sub-positions.
 - Position B (an unnamed vetāla "dwelling in the charnel ground," no Maheśvara identification): Karma Maitri and Gendun Gyatso, who instead pair vetāla with a charnel-ground dwelling-place rather than a ruling deity.
 - Position C ("Legden," a specifically named rākṣasa of the southwest, distinct from either of the above): Palden Sherab and Sangye Nyentrul, whose retinue-lists independently place a rākṣasa named Legden (ལེགས་ལྡན) in the vetāla/southwest slot.
 
@@ -264,12 +262,15 @@ Several commentaries go further and frame each class as the specific retinue of 
 — attested (Position C): `palden-sherab:c-3-1-6-1-2`, `sangye-nyentrul:c-7-0-2` (2 commentaries)
 
 **Who exemplifies the yakṣa class?**
-- Position A (Vaiśravaṇa): Drakpa Gyaltsen, Gendun Drub (verbatim-matching pair, as above), Taranatha, Tenzin Dhonzang (Chakrasaṃvara citation, cited above), Palden Sherab, Sangye Nyentrul, Sungrab Tulku (implicit, north-guardian role), and Tsultrim Namdak.
+- Position A1 (Vaiśravaṇa himself, རྣམ་ཐོས་སྲས): Drakpa Gyaltsen, Taranatha (རྣམ་ཐོས་བུ, glossed "Vaiśravaṇa and other lords of treasure"), Tenzin Dhonzang (Chakrasaṃvara citation, cited above), Palden Sherab, Sangye Nyentrul, Sungrab Tulku (implicit, north-guardian role), and Tsultrim Namdak.
+- Position A2 (the son of Vaiśravaṇa, རྣམ་ཐོས་ཀྱི་སྲས — related but a distinct figure by this raw file's own English gloss): Gendun Drub alone. Its claim's explicit genitive construction ("ཀྱི་སྲས," translated in that raw file's own English as "the son of Vaiśravaṇa") distinguishes it from Position A1's naming of Vaiśravaṇa himself, so it is recorded as a separate, related sub-position rather than merged into that pairing (re-read and confirmed: the difference is in the source claim's own wording, not introduced by this page).
 - Position B ("Smug-'dzin" / "Rmugs-'dzin," a differently-named figure): Karma Maitri and Gendun Gyatso — the same two commentaries that independently diverge on the vetāla exemplar above, again pairing with each other rather than with the Vaiśravaṇa majority (re-read and confirmed: "སྨུག་འཛིན" and "རྨུགས་འཛིན" are near-homophonous spellings of what appears to be the same figure-name).
 
-— attested (Position A): `drakpa-gyaltsen:c-1-43`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `taranatha:c-6-12`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `tsultrim-namdak:c-2-1-2-1-22` (6 commentaries)
+— attested (Position A1): `drakpa-gyaltsen:c-1-43`, `taranatha:c-6-12`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `tsultrim-namdak:c-2-1-2-1-22` (5 commentaries)
 
-Tenzin Dhonzang's Chakrasaṃvara citation and Sungrab Tulku's north-guardian retinue claim (both already cited above, under "Extended directional-guardian schemes" and "The four retinue-classes" respectively) are consistent with Position A's Vaiśravaṇa identification but do not independently name Vaiśravaṇa within the specific retinue-role claim itself, so they are not added to the count above.
+— attested (Position A2): `gendun-drub:c-2-2-2-2-1-1-5-3` (1 commentary)
+
+Tenzin Dhonzang's Chakrasaṃvara citation and Sungrab Tulku's north-guardian retinue claim (both already cited above, under "Extended directional-guardian schemes" and "The four retinue-classes" respectively) are consistent with Position A1's Vaiśravaṇa identification but do not independently name Vaiśravaṇa within the specific retinue-role claim itself, so they are not added to the count above.
 
 — attested (Position B): `karma-maitri:c-1-1-6-12`, `gendun-gyatso:c-1-6-2` (2 commentaries)
 
@@ -284,7 +285,7 @@ Palden Sherab's own retinue-list assigns bhūta = retinue of the northeast "dban
 ### Unique
 Exemplar-naming without a full retinue-of-X framing: Drakpa Gyaltsen's word-by-word gloss names bhūta = Gaṇapati, gandharva = "the five-crested ones," in addition to the vetāla/yakṣa identifications already cited above; and glosses "the hosts" (ཚོགས) as "the eight classes of gods and spirits." `drakpa-gyaltsen:c-1-40`, `drakpa-gyaltsen:c-1-42`, `drakpa-gyaltsen:c-1-44`
 
-Gendun Drub's matching exemplar-set (already cited above) additionally names bhūta = Gaṇapati and gandharva = "the five-crested ones," completing its four-way correspondence with Drakpa Gyaltsen. `gendun-drub:c-2-2-2-2-1-1-5-3` (already cited above)
+Gendun Drub's matching exemplar-set (already cited above) additionally names bhūta = Gaṇapati and gandharva = "the five-crested ones," completing its three-way correspondence with Drakpa Gyaltsen (bhūta, vetāla, gandharva); its yakṣa exemplar (the son of Vaiśravaṇa) remains a distinct, related sub-position from Drakpa Gyaltsen's (Vaiśravaṇa himself) — see Divergences above. `gendun-drub:c-2-2-2-2-1-1-5-3` (already cited above)
 
 Gendun Gyatso's matching pair with Karma Maitri (already cited above) additionally names gandharva as headed by "Zur-bu-lnga-ba" ("Five-Crested"), the same figure-type as Drakpa Gyaltsen/Gendun Drub's exemplar under a different transliteration, and bhūta as headed by Gaṇapati. `gendun-gyatso:c-1-6-2` (already cited above)
 
@@ -394,7 +395,7 @@ Tenzin Dhonzang alone brings in material from outside this verse: an etymology o
 | anon-trinle-char | c-3-6-1, c-3-6-2, c-3-6-3, c-3-6-4, c-3-6-5, c-3-6-6, c-3-6-7, c-3-6-8, c-3-6-9 | Structural placement, Root verse quoted, Naming and epithets, Extended directional-guardian schemes, The four retinue-classes, Iconographic form |
 | anon-utpala | c-1-2-2-1-1-5-1, c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3, c-1-2-2-1-1-5-4, c-1-2-2-1-1-5-5 | Structural placement, Root verse quoted, The four principal worshipping gods, Extended directional-guardian schemes, The four retinue-classes |
 | drakpa-gyaltsen | c-1-34, c-1-35, c-1-36, c-1-37, c-1-38, c-1-39, c-1-40, c-1-41, c-1-42, c-1-43, c-1-44 | Root verse quoted, The four principal worshipping gods, Identity of Sarveśvara, The four retinue-classes |
-| gendun-drub | c-2-2-2-2-1-1-5-1, c-2-2-2-2-1-1-5-2, c-2-2-2-2-1-1-5-3, c-2-2-2-2-1-1-5-4 | Structural placement, Root verse quoted, The four principal worshipping gods, Naming and epithets, The four retinue-classes |
+| gendun-drub | c-2-2-2-2-1-1-5-1, c-2-2-2-2-1-1-5-2, c-2-2-2-2-1-1-5-3, c-2-2-2-2-1-1-5-4 | Structural placement, The four principal worshipping gods, Naming and epithets, The four retinue-classes |
 | gendun-gyatso | c-1-6-1, c-1-6-2 | Structural placement, The four principal worshipping gods, The four retinue-classes |
 | karma-maitri | c-1-1-6-1, c-1-1-6-2, c-1-1-6-3, c-1-1-6-4, c-1-1-6-5, c-1-1-6-6, c-1-1-6-7, c-1-1-6-8, c-1-1-6-9, c-1-1-6-10, c-1-1-6-11, c-1-1-6-12, c-1-1-6-13, c-1-1-6-14 | Structural placement, The four principal worshipping gods, Identity of Sarveśvara, The four retinue-classes |
 | konchok-thabkhe | c-2-6-1, c-2-6-2, c-2-6-3, c-2-6-4, c-2-6-5, c-2-6-6 | Structural placement, The four principal worshipping gods, Identity of Sarveśvara, Extended directional-guardian schemes, The four retinue-classes |
