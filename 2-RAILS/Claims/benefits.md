@@ -78,7 +78,7 @@ Several commentaries open their treatment of this section by recapitulating the 
 
 — attested: `drakpa-gyaltsen:c-1-101`, `drakpa-gyaltsen:c-1-102`, `gendun-drub:c-2-2-3-1-2`, `sangye-nyentrul:c-23-1`, `sungrab-tulku:c-25-2`, `sungrab-tulku:c-25-3`, `sungrab-tulku:c-25-4`, `taranatha:c-22-0-2`, `taranatha:c-22-0-3`, `taranatha:c-22-0-4`, `taranatha:c-22-0-5`, `tenga-tulku:c-1-2-3-6-6` (6 commentaries)
 
-Two commentaries additionally organize the *entire* closing section under a near-identical four-part outline, using closely matching Tibetan headings: `gendun-drub:c-2-2-3-1-1` divides it into "the special quality of the intention, the special quality of the time, the actual teaching of the benefits, and the benefits taught in condensed numerical form" (བསམ་པའི་ཁྱད་པར། དུས་ཀྱི་ཁྱད་པར། ཕན་ཡོན་དངོས་བཤད་པ། གྲངས་ཀྱི་སྒོ་ནས་ཕན་ཡོན་བསྡུས་ཏེ་བསྟན་པ); `tenga-tulku`'s own four section-openers — "First, teaching the intention" (`c-1-3-1-1`, བསམ་པ་བསྟན་པ), "Second, in terms of the time" (`c-1-3-2-1`, དུས་ཀྱི་དབང་དུ་ན), "Third, actually teaching the benefits" (`c-1-3-3-1`, ཕན་ཡོན་དངོས་བསྟན་པ), "Fourth, concluding by way of the numbers" (`c-1-3-4-1`, གྲངས་ཀྱི་སྒོ་ནས་མཇུག་བསྡུ་བ) — match this division part-for-part, down to the wording of each part's name (e.g. ཕན་ཡོན་དངོས་བཤད་པ vs ཕན་ཡོན་དངོས་བསྟན་པ; གྲངས་ཀྱི་སྒོ་ནས...ཕན་ཡོན་བསྡུས... vs གྲངས་ཀྱི་སྒོ་ནས་མཇུག་བསྡུ་བ). This is a genuine, specific structural correspondence between two commentaries, not observed in any other commentary in the packet.
+Two commentaries additionally organize the *entire* closing section under a near-identical four-part outline, using closely matching Tibetan headings: `gendun-drub:c-2-2-3-1-1` divides it into "the special quality of the intention, the special quality of the time, the actual teaching of the benefits, and the benefits taught in condensed numerical form" (བསམ་པའི་ཁྱད་པར། དུས་ཀྱི་ཁྱད་པར། ཕན་ཡོན་དངོས་བཤད་པ། གྲངས་ཀྱི་སྒོ་ནས་ཕན་ཡོན་བསྡུས་ཏེ་བསྟན་པ); `tenga-tulku`'s own four section-openers — "First, teaching the intention" (`tenga-tulku:c-1-3-1-1`, བསམ་པ་བསྟན་པ), "Second, in terms of the time" (`tenga-tulku:c-1-3-2-1`, དུས་ཀྱི་དབང་དུ་ན), "Third, actually teaching the benefits" (`tenga-tulku:c-1-3-3-1`, ཕན་ཡོན་དངོས་བསྟན་པ), "Fourth, concluding by way of the numbers" (`tenga-tulku:c-1-3-4-1`, གྲངས་ཀྱི་སྒོ་ནས་མཇུག་བསྡུ་བ) — match this division part-for-part, down to the wording of each part's name (e.g. ཕན་ཡོན་དངོས་བཤད་པ vs ཕན་ཡོན་དངོས་བསྟན་པ; གྲངས་ཀྱི་སྒོ་ནས...ཕན་ཡོན་བསྡུས... vs གྲངས་ཀྱི་སྒོ་ནས་མཇུག་བསྡུ་བ). This is a genuine, specific structural correspondence between two commentaries, not observed in any other commentary in the packet.
 
 — four-part outline attested: `gendun-drub:c-2-2-3-1-1`, `tenga-tulku:c-1-3-1-1`, `tenga-tulku:c-1-3-2-1`, `tenga-tulku:c-1-3-3-1`, `tenga-tulku:c-1-3-4-1` (2 commentaries)
 
@@ -101,7 +101,7 @@ Two commentaries additionally organize the *entire* closing section under a near
 ### Consensus
 A wide consensus holds that the praise is to be recited with genuine devotion/reverence and a clear or one-pointed mind, rising at dusk and dawn:
 
-— attested: `drakpa-gyaltsen:c-2-1`, `drakpa-gyaltsen:c-2-2`, `gendun-drub:c-2-2-3-2-1`, `gendun-drub:c-2-2-3-2-2`, `gendun-gyatso:c-2-2`, `karma-maitri:c-1-2-3`, `karma-maitri:c-1-2-4`, `konchok-thabkhe:c-3-2`, `konchok-thabkhe:c-3-3`, `palden-sherab:c-3-2-1-1`, `taranatha:c-22-1-11`, `taranatha:c-22-1-12`, `tenga-tulku:c-1-3-1-2`, `tenga-tulku:c-1-3-1-3`, `tenga-tulku:c-1-3-2-2`, `tenga-tulku:c-1-3-2-3`, `tsultrim-namdak:c-8-5` (13 commentaries)
+— attested: `drakpa-gyaltsen:c-2-1`, `drakpa-gyaltsen:c-2-2`, `gendun-drub:c-2-2-3-2-1`, `gendun-drub:c-2-2-3-2-2`, `gendun-gyatso:c-2-2`, `karma-maitri:c-1-2-3`, `karma-maitri:c-1-2-4`, `konchok-thabkhe:c-3-2`, `konchok-thabkhe:c-3-3`, `palden-sherab:c-3-2-1-1`, `taranatha:c-22-1-11`, `taranatha:c-22-1-12`, `tenga-tulku:c-1-3-1-2`, `tenga-tulku:c-1-3-1-3`, `tenga-tulku:c-1-3-2-2`, `tenga-tulku:c-1-3-2-3`, `tsultrim-namdak:c-8-5` (9 commentaries)
 
 Of these, several specify that the practitioner recollects Tārā's *wrathful* form at dusk and her *peaceful* form at dawn: `drakpa-gyaltsen:c-2-2`, `gendun-drub:c-2-2-3-2-2`, `gendun-gyatso:c-2-2`, `karma-maitri:c-1-2-4`, `tenga-tulku:c-1-3-2-3` (5 commentaries).
 
@@ -137,7 +137,7 @@ None beyond the eight/sixteen-fears mentions above.
 ### Consensus
 Recitation is said to pacify sin (the cause of lower rebirth) and to destroy or avert lower rebirth itself (its result):
 
-— attested: `drakpa-gyaltsen:c-2-4`, `drakpa-gyaltsen:c-2-5`, `gendun-drub:c-2-2-3-2-3`, `gendun-gyatso:c-2-3`, `karma-maitri:c-1-2-6`, `karma-maitri:c-1-2-7`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-1-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-16`, `taranatha:c-22-1-17`, `taranatha:c-22-1-18`, `tenga-tulku:c-1-3-2-4`, `tenga-tulku:c-1-3-2-5`, `tenga-tulku:c-1-3-2-6`, `tenga-tulku:c-1-3-2-7`, `tenga-tulku:c-1-3-2-8`, `tenga-tulku:c-1-3-2-9`, `tsultrim-namdak:c-8-5` (11 commentaries)
+— attested: `drakpa-gyaltsen:c-2-4`, `drakpa-gyaltsen:c-2-5`, `gendun-drub:c-2-2-3-2-3`, `gendun-gyatso:c-2-3`, `karma-maitri:c-1-2-6`, `karma-maitri:c-1-2-7`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-1-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-16`, `taranatha:c-22-1-17`, `taranatha:c-22-1-18`, `tenga-tulku:c-1-3-2-4`, `tenga-tulku:c-1-3-2-5`, `tenga-tulku:c-1-3-2-6`, `tenga-tulku:c-1-3-2-7`, `tenga-tulku:c-1-3-2-8`, `tenga-tulku:c-1-3-2-9`, `tsultrim-namdak:c-8-5` (10 commentaries)
 
 `taranatha:c-22-1-18` additionally states the converse: an excellent higher rebirth is positively accomplished, so that "the benefits of both this life and the next, even within saṃsāra, are taught" — not contradicted by, but not repeated in, any other claim in the packet.
 
@@ -154,7 +154,7 @@ None observed.
 ### Consensus
 Recitation is said to bring swift empowerment/blessing by countless buddhas or victors (རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་, literally "victors, ten-million-fold sevenfold"), a state superior to one's present condition already in this life, and ultimately the attainment of buddhahood:
 
-— attested: `anon-utpala:c-1-3-1`, `anon-utpala:c-1-3-2`, `anon-utpala:c-1-3-3`, `drakpa-gyaltsen:c-2-6`, `drakpa-gyaltsen:c-2-7`, `drakpa-gyaltsen:c-2-8`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `karma-maitri:c-1-2-9`, `karma-maitri:c-1-2-10`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `palden-sherab:c-3-2-2-3-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-18`, `taranatha:c-22-1-19`, `taranatha:c-22-1-20`, `taranatha:c-22-1-21`, `taranatha:c-22-1-22`, `taranatha:c-22-1-23`, `taranatha:c-22-1-24`, `taranatha:c-22-1-25`, `tenga-tulku:c-1-3-3-2`, `tenga-tulku:c-1-3-3-3`, `tsultrim-namdak:c-8-5` (14 commentaries)
+— attested: `anon-utpala:c-1-3-1`, `anon-utpala:c-1-3-2`, `anon-utpala:c-1-3-3`, `drakpa-gyaltsen:c-2-6`, `drakpa-gyaltsen:c-2-7`, `drakpa-gyaltsen:c-2-8`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `karma-maitri:c-1-2-9`, `karma-maitri:c-1-2-10`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `palden-sherab:c-3-2-2-3-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-18`, `taranatha:c-22-1-19`, `taranatha:c-22-1-20`, `taranatha:c-22-1-21`, `taranatha:c-22-1-22`, `taranatha:c-22-1-23`, `taranatha:c-22-1-24`, `taranatha:c-22-1-25`, `tenga-tulku:c-1-3-3-2`, `tenga-tulku:c-1-3-3-3`, `tsultrim-namdak:c-8-5` (11 commentaries)
 
 The Tibetan numeral for the victors is uniform across every attestation in the packet — རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་ (rgyal ba bye ba phrag bdun), "victors, seven times ten-million," i.e. seventy million — but this page's own raw-extraction English glosses render the same phrase inconsistently: "seventy million" (`anon-utpala:c-1-3-1`, English gloss), "seven times ten-million" (`gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`), and "seven hundred million" (`gendun-drub:c-2-2-3-3-1`, `pema-namgyal:c-3-2`, `tsultrim-namdak:c-8-5`, English glosses). Because the Tibetan itself does not vary, this is logged as a translation inconsistency internal to the individual raw extractions' own English glosses, not as an attested disagreement among the commentaries — it is not treated as a ⚑ divergence.
 
@@ -162,7 +162,7 @@ The Tibetan numeral for the victors is uniform across every attestation in the p
 None observed in the Tibetan content itself (see the numeral note above).
 
 ### Unique
-`taranatha:c-22-1-21`–`c-22-1-23` elaborate a chain not paralleled elsewhere: the empowerment (received via light-rays or a stream of nectar, actually or in a dream) is specifically identified as "the water-empowerment for ripening disciples," which purifies obscurations and gradually yields the siddhi of mahāmudrā.
+`taranatha:c-22-1-21`–`taranatha:c-22-1-23` elaborate a chain not paralleled elsewhere: the empowerment (received via light-rays or a stream of nectar, actually or in a dream) is specifically identified as "the water-empowerment for ripening disciples," which purifies obscurations and gradually yields the siddhi of mahāmudrā.
 
 `tenga-tulku:c-1-3-3-3` elaborates the "superior state" with a comparison not found elsewhere: temporarily, like a wheel-turning king (in terms of qualities) or like Indra/Brahmā (in terms of merit); ultimately, the eleventh ground, Samantaprabhā ("All-Illuminating").
 
@@ -173,7 +173,7 @@ None observed in the Tibetan content itself (see the numeral note above).
 ### Consensus
 Even highly potent poison — whether "stationary" (e.g. of scorpions, snakes) or "moving," and whether already eaten or drunk — is said to be dispelled by mere recollection of the goddess, the praise, or her mantra:
 
-— attested: `drakpa-gyaltsen:c-2-9`, `drakpa-gyaltsen:c-2-10`, `drakpa-gyaltsen:c-2-11`, `gendun-drub:c-2-2-3-3-3`, `gendun-gyatso:c-2-5`, `karma-maitri:c-1-2-12`, `konchok-thabkhe:c-3-6`, `palden-sherab:c-3-2-2-4-1`, `pema-namgyal:c-3-3`, `taranatha:c-22-1-26`, `taranatha:c-22-1-27`, `taranatha:c-22-1-28`, `taranatha:c-22-1-29`, `taranatha:c-22-1-30`, `taranatha:c-22-1-31`, `tenga-tulku:c-1-3-3-4`, `tenga-tulku:c-1-3-3-6`, `tenga-tulku:c-1-3-3-7`, `tenga-tulku:c-1-3-3-8`, `tenga-tulku:c-1-3-3-9`, `tenga-tulku:c-1-3-3-10`, `tsultrim-namdak:c-8-5` (13 commentaries)
+— attested: `drakpa-gyaltsen:c-2-9`, `drakpa-gyaltsen:c-2-10`, `drakpa-gyaltsen:c-2-11`, `gendun-drub:c-2-2-3-3-3`, `gendun-gyatso:c-2-5`, `karma-maitri:c-1-2-12`, `konchok-thabkhe:c-3-6`, `palden-sherab:c-3-2-2-4-1`, `pema-namgyal:c-3-3`, `taranatha:c-22-1-26`, `taranatha:c-22-1-27`, `taranatha:c-22-1-28`, `taranatha:c-22-1-29`, `taranatha:c-22-1-30`, `taranatha:c-22-1-31`, `tenga-tulku:c-1-3-3-4`, `tenga-tulku:c-1-3-3-6`, `tenga-tulku:c-1-3-3-7`, `tenga-tulku:c-1-3-3-8`, `tenga-tulku:c-1-3-3-9`, `tenga-tulku:c-1-3-3-10`, `tsultrim-namdak:c-8-5` (10 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -190,7 +190,7 @@ None observed.
 ### Consensus
 The mass of suffering afflicted by spirits, epidemic disease, and poison is said to be eliminated, and — in a large majority of attestations — the same benefit is said to extend to sentient beings other than the reciter:
 
-— attested: `drakpa-gyaltsen:c-2-12`, `drakpa-gyaltsen:c-2-13`, `drakpa-gyaltsen:c-2-14`, `gendun-drub:c-2-2-3-3-4`, `gendun-drub:c-2-2-3-3-5`, `gendun-gyatso:c-2-5`, `karma-maitri:c-1-2-13`, `karma-maitri:c-1-2-14`, `konchok-thabkhe:c-3-6`, `palden-sherab:c-3-2-2-4-1`, `palden-sherab:c-3-2-2-5-1`, `pema-namgyal:c-3-3`, `taranatha:c-22-1-33`, `taranatha:c-22-1-34`, `tenga-tulku:c-1-3-3-10`, `tenga-tulku:c-1-3-3-11`, `tenga-tulku:c-1-3-3-12`, `tenga-tulku:c-1-3-3-13`, `tenga-tulku:c-1-3-3-14`, `tsultrim-namdak:c-8-5` (13 commentaries)
+— attested: `drakpa-gyaltsen:c-2-12`, `drakpa-gyaltsen:c-2-13`, `drakpa-gyaltsen:c-2-14`, `gendun-drub:c-2-2-3-3-4`, `gendun-drub:c-2-2-3-3-5`, `gendun-gyatso:c-2-5`, `karma-maitri:c-1-2-13`, `karma-maitri:c-1-2-14`, `konchok-thabkhe:c-3-6`, `palden-sherab:c-3-2-2-4-1`, `palden-sherab:c-3-2-2-5-1`, `pema-namgyal:c-3-3`, `taranatha:c-22-1-33`, `taranatha:c-22-1-34`, `tenga-tulku:c-1-3-3-10`, `tenga-tulku:c-1-3-3-11`, `tenga-tulku:c-1-3-3-12`, `tenga-tulku:c-1-3-3-13`, `tenga-tulku:c-1-3-3-14`, `tsultrim-namdak:c-8-5` (10 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -220,7 +220,7 @@ Two further commentaries give readings compatible with, but not verbally identic
 
 `taranatha:c-22-1-36` gives its own reading — "two" = recited by day and by night, "three" = either day or night divided into three sessions, and the praise recited seven times in each — attributed generally to "what arises from the guru's oral instruction" rather than to a named exegete; broadly similar in structure to gendun-drub's Position 3 / palden-sherab's reading, but not identical in its own wording and not explicitly cross-referenced to any of them.
 
-`tenga-tulku:c-1-3-4-2`–`c-1-3-4-3` and `drakpa-gyaltsen:c-2-15` quote or paraphrase the verse's numerals without committing to a specific numerical scheme of their own.
+`tenga-tulku:c-1-3-4-2`–`tenga-tulku:c-1-3-4-3` and `drakpa-gyaltsen:c-2-15` quote or paraphrase the verse's numerals without committing to a specific numerical scheme of their own.
 
 `taranatha:c-22-1-15` separately notes that the benefits described "apply throughout" a six-session daily recitation, without tying this explicitly to the two/three/seven numerals.
 
@@ -234,7 +234,7 @@ Each of gendun-drub's three attributed positions, konchok-thabkhe's two-reading 
 ### Consensus
 Reciting the praise (per the count discussed above) is said to fulfil desires — a son for one who desires a son, wealth for one who desires wealth, "all desires" generally — and to destroy or prevent obstacles:
 
-— attested: `drakpa-gyaltsen:c-2-16`, `drakpa-gyaltsen:c-2-17`, `drakpa-gyaltsen:c-2-18`, `drakpa-gyaltsen:c-2-19`, `gendun-gyatso:c-2-6`, `gendun-gyatso:c-2-7`, `karma-maitri:c-1-2-16`, `karma-maitri:c-1-2-17`, `karma-maitri:c-1-2-18`, `karma-maitri:c-1-2-19`, `karma-maitri:c-1-2-20`, `konchok-thabkhe:c-3-8`, `palden-sherab:c-3-2-2-6-1`, `pema-namgyal:c-3-4`, `taranatha:c-22-1-35`, `taranatha:c-22-1-36` (routing note: gloss of the numerals, cited fully under the previous facet), `taranatha:c-22-1-37`, `tenga-tulku:c-1-3-4-2`, `tenga-tulku:c-1-3-4-3`, `tsultrim-namdak:c-8-5` (13 commentaries)
+— attested: `drakpa-gyaltsen:c-2-16`, `drakpa-gyaltsen:c-2-17`, `drakpa-gyaltsen:c-2-18`, `drakpa-gyaltsen:c-2-19`, `gendun-gyatso:c-2-6`, `gendun-gyatso:c-2-7`, `karma-maitri:c-1-2-16`, `karma-maitri:c-1-2-17`, `karma-maitri:c-1-2-18`, `karma-maitri:c-1-2-19`, `karma-maitri:c-1-2-20`, `konchok-thabkhe:c-3-8`, `palden-sherab:c-3-2-2-6-1`, `pema-namgyal:c-3-4`, `taranatha:c-22-1-35`, `taranatha:c-22-1-36` (routing note: gloss of the numerals, cited fully under the previous facet), `taranatha:c-22-1-37`, `tenga-tulku:c-1-3-4-2`, `tenga-tulku:c-1-3-4-3`, `tsultrim-namdak:c-8-5` (9 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -303,11 +303,11 @@ The root text's own closing colophon (^a-7) — that the praise was spoken to th
 None observed as doctrinal disagreement — the additional transmission details below are independent elaborations, not conflicting accounts of who spoke the praise.
 
 ### Unique
-`drakpa-gyaltsen` alone in this packet gives a full transmission lineage for its own textual tradition: transmitted through Master Ārya Nāgārjuna (`c-2-21`), translated by the translator Nyen (`c-2-22`), and redacted/finalized by the great venerable Drakpa Gyaltsen himself (`c-2-23`).
+`drakpa-gyaltsen` alone in this packet gives a full transmission lineage for its own textual tradition: transmitted through Master Ārya Nāgārjuna (`drakpa-gyaltsen:c-2-21`), translated by the translator Nyen (`drakpa-gyaltsen:c-2-22`), and redacted/finalized by the great venerable Drakpa Gyaltsen himself (`drakpa-gyaltsen:c-2-23`).
 
 `konchok-thabkhe:c-3-9` uniquely attributes the tantra to dual authorship — spoken by Vairocana *and* by "our own Teacher" [Śākyamuni] — citing the *Mañjuśrī-nāma-saṃgīti* ("taught by past buddhas, future buddhas will also teach it, and the perfect buddhas of the present teach it again and again") in support of the general principle that a tantra may have multiple legitimate speakers.
 
-`taranatha:c-22-1-39`–`c-22-1-41` uniquely engages in textual criticism of the attribution: the praise is said to derive from the *Tārā Tantra-King in Seven Hundred Verses*; a text currently circulating locally under the name "Tantra of Various Activities" is explicitly *not* taranatha's source for this praise, since scholars hold it to be a later-authored (non-canonical) tantra; nonetheless, taranatha allows that the praise could still be a portion of an extended tantra or a condensed tantra without contradiction.
+`taranatha:c-22-1-39`–`taranatha:c-22-1-41` uniquely engages in textual criticism of the attribution: the praise is said to derive from the *Tārā Tantra-King in Seven Hundred Verses*; a text currently circulating locally under the name "Tantra of Various Activities" is explicitly *not* taranatha's source for this praise, since scholars hold it to be a later-authored (non-canonical) tantra; nonetheless, taranatha allows that the praise could still be a portion of an extended tantra or a condensed tantra without contradiction.
 
 ---
 
@@ -319,13 +319,13 @@ None observed as doctrinal disagreement — the additional transmission details 
 - `gendun-gyatso:c-2-9` — the commentary-author's own closing dedication verse; not root-text content.
 - `gendun-gyatso:c-2-10` — colophon of the commentary itself (author, place, date of composition); not root-text content.
 - `karma-maitri:c-1-2-1` — bare section heading ("Second, the benefits"); no content beyond the heading already reflected in the facets above.
-- `karma-maitri:c-1-2-2` — bare section-opener restating the same heading; duplicate of `c-1-2-1`.
+- `karma-maitri:c-1-2-2` — bare section-opener restating the same heading; duplicate of `karma-maitri:c-1-2-1`.
 - `karma-maitri:c-1-2-21` — colophon: the commentary compiled from Karma Maitri's own oral teaching; not root-text content.
 - `konchok-thabkhe:c-3-1` — bare structural announcement ("the benefit of the praise [follows]"); no independent content.
 - `konchok-thabkhe:c-3-10` — the commentary-author's own closing verse of humility and aspiration; not root-text content.
 - `konchok-thabkhe:c-3-11` — dedication verse for the Geluk teaching, its holders, and the patron; not root-text content.
 - `konchok-thabkhe:c-3-12` — colophon: title, author, place of composition, and scribe of the commentary; not root-text content.
-- `sungrab-tulku:c-25-1` — bare section-title restatement ("as for the summary of the meaning..."); no independent content beyond what is already cited from `c-25-2`–`c-25-4` under "Structural framing."
+- `sungrab-tulku:c-25-1` — bare section-title restatement ("as for the summary of the meaning..."); no independent content beyond what is already cited from `sungrab-tulku:c-25-2`–`sungrab-tulku:c-25-4` under "Structural framing."
 - `taranatha:c-22-0-1` — bare section heading ("the meaning of engagement"); no independent content.
 - `taranatha:c-22-1-14` — a single-word textual/translation note ("reciting joyfully" read as "reading diligently," given a Sanskrit particle); no independent benefit content.
 - `taranatha:c-22-1-32` — a purely textual-critical note on Sanskrit word order for "eaten and [drunk]"; no independent benefit content beyond what is already cited under "Protection from poison."
