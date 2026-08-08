@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-RAILS/Claims/origin.md",
+                "file": "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "origin"
+              "title": "ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།"
             }
           }
         ]
@@ -197,8 +197,10 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
+    "2-RAILS/Claims/structure.md",
+    "2-RAILS/Claims/origin.md",
     "2-RAILS/Claims/tara-15.md.tmp.3970.0b2e7939cf64",
     "2-RAILS/Claims/benefits.md",
     "2-RAILS/Claims/tara-11.md",
@@ -215,8 +217,6 @@
     "2-RAILS/Claims/tara-14.md",
     "2-RAILS/Claims/tara-12.md",
     "2-RAILS/Claims/tara-17.md",
-    "2-RAILS/Claims/structure.md",
-    "2-RAILS/Claims/origin.md",
     "2-RAILS/Claims/tara-07.md",
     "2-RAILS/Claims/tara-06.md",
     "2-RAILS/Claims/tara-05.md",
@@ -233,7 +233,6 @@
     "0-INBOX/temp/manifest-tara-19.txt",
     "0-INBOX/temp/manifest-tara-18.txt",
     "0-INBOX/temp/manifest-tara-17.txt",
-    "0-INBOX/temp/manifest-tara-16.txt",
-    "0-INBOX/temp/manifest-tara-15.txt"
+    "0-INBOX/temp/manifest-tara-16.txt"
   ]
 }
