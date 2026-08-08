@@ -197,8 +197,14 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "f0ee988f2ed0e67b",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "2-RAILS/Claims/raw/spine-map/anon-utpala.md",
+    "2-RAILS/Claims/raw/spine-map/sangye-nyentrul.md",
+    "2-RAILS/Claims/raw/spine-map/sungrab-tulku.md",
+    "2-RAILS/Claims/raw/spine-map/taranatha.md",
+    "2-RAILS/Claims/raw/spine-map/anon-trinle-char.md",
+    "2-RAILS/Claims/raw/spine-map/gendun-gyatso.md",
     "0-INBOX/temp/packet-tara-06.md",
     "4-SYSTEM/Skills/claims-consolidation/__pycache__/verify_consolidation.cpython-314.pyc",
     "4-SYSTEM/Skills/claims-consolidation/__pycache__/assemble_packet.cpython-314.pyc",
@@ -228,12 +234,6 @@
     "393.md",
     "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md",
     "0-INBOX/root-text-backup-pre-resegmentation-2026-08-07.md",
-    "4-SYSTEM/Skills/claims-consolidation/SKILL.md",
-    "4-SYSTEM/Skills/raw-to-sources/SKILL.md",
-    "2-RAILS/TOC-Trees/karma-maitri.md",
-    "2-RAILS/Claims/tree-guided/karma-maitri.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
-    "0-INBOX/toc-tree-qc-source-karma-maitri.md",
-    "0-INBOX/toc-tree-qc-karma-maitri.md"
+    "4-SYSTEM/Skills/claims-consolidation/SKILL.md"
   ]
 }
