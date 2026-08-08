@@ -342,6 +342,24 @@ A raw claims file is a per-commentary inventory of every distinct assertion the 
 - **`Claims/raw/toc-scaffolded/<registered-id>.md`** — `toc-scaffolded-claims`: an existing claims extraction re-organised (re-bucketed) under the commentary's own TOC tree instead of the fixed categories.
 - **`Claims/raw/tree-guided/<registered-id>.md`** — `tree-guided-claims`: a genuinely fresh, independent extraction done node-by-node against the TOC tree via isolated subagents — never a re-bucketing of another method's file. See that skill's own `SKILL.md` for why this distinction is load-bearing (a prior re-bucketed run was mistakenly presented as independent and hid real defects).
 
+### `Claims/raw/spine-map/` — per-commentary routing indexes
+
+One file per commentary: `Claims/raw/spine-map/<registered-id>.md`, written by the `spine-map`
+skill. It records **which of that commentary's own TOC nodes (or which of its claims, where
+its sa-bcad is coarser than the spine) hold which canonical spine slot's content** — addresses
+only, never claim content.
+
+It lives under `raw/` because it is per-commentary and derived from one commentary in
+isolation like everything else there, but it is an **index layer, not a fourth extraction
+method**: it adds no claims, and regenerating it never changes what was extracted.
+
+Its invariant is what makes consolidation trustworthy: **every claim in the commentary's raw
+claims file gets exactly one disposition** — routed to a slot by node, routed to a slot by
+claim ID, flagged ambiguous, or logged under an unmapped node. Neither zero (the claim would
+silently vanish from every topic page) nor two (it would be duplicated into two packets) is
+allowed, and `4-SYSTEM/Skills/spine-map/verify_spine_map.py` enforces it. The canonical slot
+list lives in `4-SYSTEM/Guidelines/vault-annex.md` §2a; slots are never coined locally.
+
 ### `Claims/<topic>.md` — consolidated topic pages
 
 After extraction is complete across the corpus, the **question-driven consolidation** pass merges the raw claims into one page per topic (e.g. one page per Tārā, plus global topics such as the definition of Tārā, the mantra, the benefits). Each topic page holds: the consensus statement(s) with per-commentary attestations, a ⚑ Divergences section, and a Unique-claims section — every line citing back to raw claim IDs, which cite back to `1-SOURCES/` segments.

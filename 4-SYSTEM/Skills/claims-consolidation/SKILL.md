@@ -26,15 +26,19 @@ or explicitly logged as reviewed-and-excluded — nothing simply absent without 
   starting list of likely facets. Facets are *observed, not fixed* — derive them from
   what the corpus actually discusses, adjust per topic; do not force a fixed facet list
   onto every topic.
+- **Every commentary's spine map** at `2-RAILS/Claims/raw/spine-map/<registered_id>.md`,
+  built once per commentary by the `spine-map` skill. This is what resolves "which node
+  of *this* commentary is this spine slot" — never uniform across commentaries (Rule 1).
+  A commentary with a raw claims file but no spine map is a hard stop, not a silent
+  omission: `assemble_packet.py` exits non-zero on it.
 - **Every commentary's raw claims file** at `2-RAILS/Claims/raw/tree-guided/<registered_id>.md`
   (all commentaries that have one at run time — do not wait for 100% corpus coverage,
-  but do consult everything that exists, including silence as a finding).
-- **Every commentary's own TOC tree** at `2-RAILS/Sections/Raw/toc-tree/<registered_id>.md`
-  — required because node numbering for "which spine slot is this" is **never uniform
-  across commentaries** (see Rule 1).
+  but do consult everything that exists, including silence as a finding). Read by the
+  assembler, not by you: never re-open these while consolidating.
+- **The registered slot list** at `4-SYSTEM/Guidelines/vault-annex.md` §2a — the topic's
+  slot ID and root anchor come from there.
 - **The root text**, if the vault addresses one — `1-SOURCES/Text/` — as ground truth
-  for verse/spine-slot boundaries and any epithet or heading text used to verify a
-  commentary's own structure against the canonical spine.
+  for the slot's verse text when writing the topic page's heading and framing.
 - If missing any of the above for a commentary that should plausibly be consulted,
   stop and ask the human contributor rather than silently excluding it.
 
@@ -117,10 +121,11 @@ never leave a gap here silently unexplained.>
 1. **Node numbering is never assumed uniform.** One commentary may nest a spine
    slot's content at TOC node `1.1.N`, another at top-level node `N`, another may
    group several sub-facets per slot, another may title nodes by epithet/name instead
-   of ordinal, another may merge or split slots differently than the canonical spine.
-   Every mapping pass must verify against that commentary's *own* TOC tree and the
-   root text — never assume a node number that worked for one commentary means the
-   same thing in another.
+   of ordinal, another may run every slot inside a single undivided node. This is
+   resolved once per commentary by the `spine-map` skill against that commentary's
+   *own* TOC tree and the root text — never re-derived here, and never assumed from a
+   node number that worked for another commentary. If a packet looks wrong for a
+   commentary, fix its spine map and re-assemble; do not patch the topic page.
 2. **Extraction and consolidation stay separate.** Never edit, reinterpret, or
    "correct" anything under `2-RAILS/Claims/raw/` or `1-SOURCES/` while consolidating.
    Read-only on both. This skill writes only to `2-RAILS/Claims/<topic-slug>.md`.
@@ -198,23 +203,35 @@ audit caught a real instance of its violation:
    praise); if a one-off topic, derive facets from a quick read of 2–3 raw claims
    files' content on that spine slot.
 
-2. **Stage 1 — per-commentary mapping, one isolated agent per commentary.** For each
-   commentary with a raw claims file: read that file, its own TOC tree, and (if
-   relevant) the root text passage the topic covers. Sort every claim into:
-   - the topic's main bucket (claims clearly about this topic),
-   - an `ambiguous` list (plausible but uncertain fit, with a reason),
-   - or leave it out (genuinely irrelevant).
-   Explicitly record which buckets this commentary is silent on. Output the **full
-   claim content** (original-language text, English gloss, type, referent, citation)
-   for every bucketed claim — not just IDs — so Stage 2 never needs to re-open the raw
-   files. This stage is naturally parallel across commentaries (isolated context per
-   commentary prevents cross-commentary contamination, the same guard
-   `tree-guided-claims` uses per-node).
+2. **Confirm every commentary has a spine map.** The per-commentary routing lives at
+   `2-RAILS/Claims/raw/spine-map/<registered-id>.md`, built once per commentary by the
+   `spine-map` skill. If any commentary with a raw claims file lacks one, stop and run
+   `spine-map` on it first — step 3 will fail loudly rather than silently omitting it.
 
-3. **Assemble the packet.** Concatenate every commentary's Stage 1 output for this
-   topic into one document: per commentary, its structural notes, its main-bucket
-   claims (verbatim), its ambiguous claims (verbatim, flagged), and an explicit
-   silence marker if applicable.
+3. **Assemble the packet — deterministic, no model call.**
+
+   ```
+   python3 4-SYSTEM/Skills/claims-consolidation/assemble_packet.py <slot> \
+       --out 0-INBOX/temp/packet-<slot>.md \
+       --manifest-out 0-INBOX/temp/manifest-<slot>.txt
+   ```
+
+   This replaces what used to be a per-commentary mapping pass run once per topic — a
+   full re-read of all sixteen raw claims files for every topic, ~400 full-corpus reads
+   across a complete run. The routing judgment now happens once per commentary, in the
+   spine map; this script does only the mechanical part: collecting the slot's claims
+   out of each raw file and concatenating them.
+
+   The packet carries, per commentary: its node(s) and verbatim node titles, every claim
+   block **copied character-for-character** from the raw file, claims routed by ID rather
+   than node (flagged ⓘ), ambiguous claims (flagged ⚑, to be carried through per Rule 6),
+   and an explicit silence marker where the spine map records silence. A non-zero exit
+   means a real gap — a commentary with no disposition for this slot, or none at all —
+   never proceed past it.
+
+   Because the script copies rather than retypes, it also removes at the source the
+   quote-fidelity error class the pilot audit found (silently elided syllables,
+   normalized orthography). Quote Tibetan **from the packet**, never from memory.
 
 4. **Stage 2 — consolidation, one agent per topic, downstream of the full packet.**
    Working only from the packet (never re-opening raw files):
@@ -229,8 +246,9 @@ audit caught a real instance of its violation:
    d. Write the file at `2-RAILS/Claims/<topic-slug>.md` per the template. Report back
       the exact list of every claim ID cited (`registered_id:claim_id` form).
 
-5. **Coverage check (deterministic, no model judgment).** Diff the claim IDs Stage 1
-   placed in the topic's main bucket against the claim IDs Stage 2 reported as cited.
+5. **Coverage check (deterministic, no model judgment).** Diff the packet's
+   `## Manifest` (equivalently, `--manifest-out`) against the claim IDs Stage 2
+   reported as cited.
    For every ID in the gap: read where it would fit, and either (a) fold it into the
    appropriate facet section, or (b) add it with a one-line reason to a new "Claims
    reviewed, not separately cited" section (create this section, positioned just
@@ -263,25 +281,27 @@ audit caught a real instance of its violation:
    writing; the retrospective audit then found a false corroboration that reached the
    final file — the gate exists so that never happens again.)
 
-**Implementation note — orchestration.** This pipeline fits a two-phase multi-agent
-workflow: Stage 2 needs *every* commentary's Stage 1 output before it can run, so
-Stage 1 is a parallel fan-out with a barrier; Stage 2 (and the coverage-check
-follow-up) can then run per topic, pipelined if consolidating several topics at once.
-The coverage diff itself is plain deterministic comparison, not a model call. Do not
-attempt this as a single monolithic prompt — Stage 1 alone needs one isolated context
-window per commentary, exactly like `tree-guided-claims`'s per-node isolation; feeding
-one agent all commentaries at once for both mapping and consolidation risks exactly
-the cross-commentary contamination the isolation guard exists to prevent.
+**Implementation note — orchestration.** Packet assembly is now a script, so the only
+model work per topic is Stage 2 (one agent, working from the packet) plus any gap-closing
+repair. Topics are therefore independent and fan out cleanly — consolidating twenty-odd
+slots is twenty-odd parallel Stage-2 agents, each reading one packet, not a corpus.
+
+The isolation guard that used to live in Stage 1 has moved upstream to `spine-map`, which
+is still one isolated agent per commentary and still for the original reason: an agent
+primed on one commentary's numbering mis-reads the next one's. Do not hand a single agent
+several commentaries' spine maps to build at once.
+
+The coverage diff is a plain set comparison against the packet manifest, not a model call.
 
 ---
 
 ## Completion check
 
-- [ ] Every commentary with a raw claims file was consulted in Stage 1 (mapped or
-      explicitly marked silent) — none silently skipped
-- [ ] Every Stage-1 main-bucket claim ID is accounted for on the finished page —
-      either cited or logged in "Claims reviewed, not separately cited" (coverage
-      check run and gap closed)
+- [ ] Every commentary with a raw claims file has a spine map, and the packet was
+      assembled with `assemble_packet.py` exiting zero — none silently skipped
+- [ ] Every claim ID in the packet's `## Manifest` is accounted for on the finished
+      page — either cited or logged in "Claims reviewed, not separately cited"
+      (coverage check run and gap closed)
 - [ ] Every citation on the page is in `registered_id:claim_id` form
 - [ ] No ⚑ divergence was flattened into a false consensus
 - [ ] Coverage table lists every commentary consulted, with silence stated and

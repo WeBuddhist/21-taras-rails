@@ -58,6 +58,54 @@ Verse numbers run continuously through the single chapter, 1–21, with no resta
 
 ---
 
+## 2a. Canonical spine slots (`spine_scheme: tara21`)
+
+The **spine** is the root text's own structure, expressed as a list of stable slot IDs. It is
+the shared coordinate system every commentary is mapped onto by the `spine-map` skill, and the
+unit `claims-consolidation` consolidates: one topic page per slot. Slot IDs are stable
+forever — a topic page's filename comes from its slot, so renaming one orphans its page.
+
+**This registry is the only source of slot IDs.** The `spine-map` skill may not coin a slot
+locally; if a commentary needs one that is not listed here, a human contributor registers it
+here first.
+
+### Spine-proper slots (mechanically derived from the root text's own blocks)
+
+| Slot | Root anchor | Content |
+| --- | --- | --- |
+| `tara-01` … `tara-21` | `^1-1` … `^1-21` | One slot per four-line homage stanza, in exact ordinal correspondence: `tara-07` is the homage at `^1-7`. |
+| `benefits` | `^a-1`–`^a-7` | The closing ཕན་ཡོན section (the seventh stanza is the colophon). |
+
+Twenty-two slots. Every commentary's spine map must dispose of each of them — mapped, routed
+by claim, or explicitly marked silent.
+
+### Global slots (registered as observed across the corpus)
+
+These are not root-text blocks; they are recurring bodies of commentarial material that sit
+outside the homage sequence. They are added here as the corpus is mapped, never invented
+per-commentary.
+
+| Slot | Content | First observed |
+| --- | --- | --- |
+| `structure` | The commentary's own sa-bcad division of the praise as a whole — how many parts, where the praise proper ends and the benefits begin. | `karma-maitri` node `1.1` |
+| `origin` | Tārā's origin narrative / ལོ་རྒྱུས — where a commentary gives it as its own section rather than inside homage 1. | `tsultrim-namdak` node `2.1.1` |
+
+**Not every body of material belongs to a slot.** A commentary's own front matter, colophon,
+ritual appendices (maṇḍala rites, sādhana sequences) and story collections are dispositioned
+as *unmapped nodes* in its spine map. That is a legitimate outcome, not a coverage failure —
+those claims are preserved in `Claims/raw/`, they simply feed no topic page.
+
+### Scaling note
+
+For a vault on a different root text the spine is derived the same way: one slot per unit of
+the root's own structure, at whatever granularity keeps a topic page under roughly 40–50
+claims (`2-RAILS/About Rails.md` §6b's split rule). For Bodhicaryāvatāra that is a chapter or
+verse-group rather than a homage, with the root anchor being the corresponding block-ID range.
+Nothing in the `spine-map` skill or `assemble_packet.py` is specific to twenty-one homages —
+only this table is.
+
+---
+
 ## 3. Registered commentary IDs
 
 Every commentary file in `1-SOURCES/Commentaries/` declares a `registered_id` in its frontmatter. That short ID is the only string used to attribute claims to the commentary throughout `2-RAILS/` and throughout the `kwiki` pipeline's `3-TRANSFORMATIONS/Wikipedia/tara21/` output (its `sources.yaml` carries the same `registered_id` per entry, added 2026-08-04 — see §6).

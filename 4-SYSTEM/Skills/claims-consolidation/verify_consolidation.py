@@ -40,8 +40,8 @@ import sys
 import os
 import glob
 
-CITE = re.compile(r'([a-z][a-z0-9]*(?:-[a-z0-9]+)*):(c-[0-9][0-9a-zA-Z\-]*)')
-BARE = re.compile(r'`(c-[0-9][0-9a-zA-Z\-]*)`')
+CITE = re.compile(r'([a-z][a-z0-9]*(?:-[a-z0-9]+)*):(c-[0-9a-z][0-9a-zA-Z\-]*)')
+BARE = re.compile(r'`(c-[0-9a-z][0-9a-zA-Z\-]*)`')
 
 
 def load_real_ids(raw_dir):
@@ -49,8 +49,8 @@ def load_real_ids(raw_dir):
     for f in glob.glob(os.path.join(raw_dir, '*.md')):
         rid = os.path.basename(f)[:-3]
         txt = open(f, encoding='utf-8').read()
-        ids = set(re.findall(r'^#{3,6}\s+(c-[0-9][0-9a-zA-Z\-]*)\b', txt, re.M))
-        ids |= set(re.findall(r'^⚑\s+\*\*(c-[0-9][0-9a-zA-Z\-]*)\b', txt, re.M))
+        ids = set(re.findall(r'^#{3,6}\s+(c-[0-9a-z][0-9a-zA-Z\-]*)\b', txt, re.M))
+        ids |= set(re.findall(r'^⚑\s+\*\*(c-[0-9a-z][0-9a-zA-Z\-]*)\b', txt, re.M))
         real[rid] = ids
     return real
 
@@ -158,7 +158,7 @@ def main():
                         f"coverage range {rid}: {a}–{b} not fully expandable "
                         f"(prefixes differ) — only endpoints checked")
             cell_no_ranges = re.sub(r'c-[0-9][0-9\-]*\s*[–—-]\s*c-[0-9][0-9\-]*', ' ', cell)
-            claimed += re.findall(r'(c-[0-9][0-9a-zA-Z\-]*)', cell_no_ranges)
+            claimed += re.findall(r'(c-[0-9a-z][0-9a-zA-Z\-]*)', cell_no_ranges)
             for cid in claimed:
                 if cid not in real.get(rid, set()):
                     errors.append(f"coverage table lists nonexistent claim {rid}:{cid}")

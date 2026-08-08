@@ -52,7 +52,8 @@ Authority comes from the human commentary tradition, never from the LLM's parame
   Verses/       # verse-level context files
   Local-Wiki/   # monolingual articles per key term
   Claims/       # top level: consolidated topic pages (question-driven)
-                # (raw/ holds per-commentary claims inventories, by extraction method)
+                # (raw/ holds per-commentary claims inventories, by extraction method;
+                #  raw/spine-map/ holds each commentary's routing index onto the spine)
   Bilingual-Glossaries/ # bilingual descriptive glossaries per language pair
 3-TRANSFORMATIONS/      # AI-generated outputs, organised in three categories
   Translations/ # language-by-language translation tracks
@@ -257,9 +258,12 @@ Authoring skill: `toc-tree-extraction`.
 Two layers, mirroring `Sections/`:
 
 - **`Claims/raw/`** — one inventory per commentary per extraction method: `raw/<registered-id>.md` (fixed categories), `raw/toc-scaffolded/<registered-id>.md` (re-bucketed under the tree), `raw/tree-guided/<registered-id>.md` (fresh, tree-scaffolded extraction). Always extracted from one commentary in isolation.
+- **`Claims/raw/spine-map/<registered-id>.md`** — the routing index layer, not an extraction: which of that commentary's own TOC nodes hold which canonical spine slot's content. Built once per commentary, then reused by every topic run. Slot registry: [`Guidelines/vault-annex.md`](Guidelines/vault-annex.md) §2a.
 - **`Claims/<topic>.md`** — consolidated topic pages produced by question-driven consolidation across all raw claims files: consensus + ⚑ divergences + unique claims, citing raw claim IDs. The questions used are recorded in each page's frontmatter (`consolidation_questions:`). Template: `Templates/consolidated-claims-topic.md`.
 
-Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-claims` (raw layer). Methodology in full: [`Guidelines/claims-methodology.md`](Guidelines/claims-methodology.md).
+Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-claims` (raw layer), `spine-map` (index layer). Methodology in full: [`Guidelines/claims-methodology.md`](Guidelines/claims-methodology.md).
+
+**Order of operations:** extract every commentary (`tree-guided-claims`) → map every commentary (`spine-map`, once each) → consolidate per topic (`claims-consolidation`, assembling each packet by script). Consolidating before the maps exist will fail loudly: `assemble_packet.py` errors on any commentary that has claims but no spine map.
 
 ### `Bilingual-Glossaries/` — bilingual descriptive glossaries
 
@@ -373,6 +377,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Combine raw summaries into one section file | `section-summary-combined` |
 | Build a verse context package | `verse-context` |
 | Inventory one commentary's claims | `commentary-claims` |
+| Map one commentary's TOC nodes onto the canonical spine slots (run once per commentary, before any consolidation) | `spine-map` |
 | Consolidate one topic's claims across all commentaries | `claims-consolidation` |
 | Audit a consolidated topic page's attributions (report-only) | `claims-consolidation-audit` |
 | Consolidate one topic's claims in Tibetan (`-bo` page) | `claims-consolidation-bo` |

@@ -43,8 +43,10 @@ per commentary (isolation):
      → 2-RAILS/Claims/raw/tree-guided/<id>.md
 
 corpus-wide (after all extractions):
-  4. map claims to spine + facet, per commentary (one isolated subagent per commentary)
-     → assembled into a packet per topic, not written to disk separately
+  4. spine map, per commentary                  (spine-map, one isolated subagent each)
+     → 2-RAILS/Claims/raw/spine-map/<id>.md     — built ONCE, reused by every topic
+  4b. packet assembly, per topic                 (assemble_packet.py — deterministic)
+     → 0-INBOX/temp/packet-<slot>.md            + manifest for the coverage check
   5. question-driven consolidation per bucket   (one subagent per topic)
      → 2-RAILS/Claims/<topic>.md
   5b. coverage check + gap closure               (deterministic diff + small repair pass)
@@ -70,6 +72,46 @@ per-commentary mapping pass, step 4 — see below for why this needs a real read
 then compare a handful of claims semantically *within* a bucket — never one expensive global
 matching over thousands of claims.
 
+### The mapping is per-commentary, not per-topic (revision of 2026-08-08)
+
+The pilot's step 4 ran its mapping pass **inside every topic run**: for each topic, one
+isolated subagent per commentary re-read that commentary's whole raw claims file to find the
+topic's claims. That is correct but quadratic in the wrong variable. The corpus is 16
+commentaries / 2,975 claims / ~3.8 MB of raw claims files (80 KB–604 KB each), and a full run
+is ~22 spine slots plus global topics — so the pilot design implied **roughly 400 full-file
+reads, ~25× re-reading of the same unchanged corpus**, at full price each time because the
+isolation guard means fresh contexts with no cache reuse.
+
+The observation that fixes it: **resolving one commentary's numbering against the spine
+answers it for every slot at once.** "Which node of `karma-maitri` is Tārā 5" and "…is Tārā 12"
+are the same act of reading its TOC tree. Split out, that judgment is made 16 times total
+instead of ~400.
+
+So the mapping moved upstream into its own artifact — `2-RAILS/Claims/raw/spine-map/<id>.md`,
+written by the `spine-map` skill — and packet assembly became a deterministic script,
+`4-SYSTEM/Skills/claims-consolidation/assemble_packet.py`. Consolidation itself is unchanged:
+it still works from a packet, still generates questions from it, still never re-opens a raw
+file.
+
+What this buys beyond tokens:
+
+- **Verbatim quoting by construction.** The assembler *copies* claim blocks out of the raw
+  files. Several minor findings of the 2026-08-07 audit (silently elided syllables,
+  normalized orthography) were a model retyping Tibetan; a script cannot.
+- **A deterministic coverage input.** The packet's `## Manifest` is exactly the "claim IDs
+  the mapping pass placed in this topic's bucket" that step 5b diffs against — now computed,
+  not model-reported.
+- **Loud failure instead of silent omission.** A commentary with claims but no spine map, or
+  with no disposition for a slot, exits the assembler non-zero. Under the pilot design a
+  commentary quietly missing from one topic's fan-out left no trace.
+- **Reusability downstream.** `2-RAILS/Verses/` needs the same root-verse → commentary-passage
+  routing; it can read the spine maps instead of re-deriving them.
+
+The judgment that was in step 4 did not become cheaper or more mechanical — it moved. Rule 2
+of `spine-map` is the old Rule 1, and the isolation requirement (one agent per commentary,
+never several at once) moved with it, for the same anti-contamination reason. What follows
+immediately below — why that judgment cannot be a script — is still the governing finding.
+
 ### Bucketing is not mechanical — it needs a per-commentary mapping pass
 
 This corrects the pipeline diagram's original step 4 ("mechanical script — no judgment") and
@@ -88,9 +130,23 @@ rule to every commentary. This subagent also resolves the corpus-wide **complete
 guarantee** the rest of §4 already promises: it must place every claim into the topic bucket,
 an explicit `ambiguous` list (uncertain fit, with a reason — never silently dropped, never
 silently force-fit), or leave it out as genuinely irrelevant; and it must explicitly mark a
-commentary silent on a bucket rather than leaving the bucket merely empty. Output is the full
-claim content (original-language text, gloss, type, referent, citation), not bare IDs, so the
-consolidation pass (step 5) never needs to re-open a raw claims file.
+commentary silent on a slot rather than leaving it merely empty.
+
+Since 2026-08-08 this subagent is the `spine-map` skill and its output is the routing index
+(node numbers, claim IDs, slot names — addresses, never claim content), written once per
+commentary. The claim *content* the consolidation pass needs is copied out of the raw files
+verbatim at packet time by `assemble_packet.py`, so step 5 still never re-opens a raw claims
+file. The completeness guarantee is now mechanically enforced rather than merely required:
+`verify_spine_map.py` fails any map in which a claim has zero dispositions (silent loss) or
+two (silent duplication).
+
+A finding from the first corpus-wide run, worth stating because it is the general case rather
+than the exception: **the sa-bcad is sometimes coarser than the spine.** `tsultrim-namdak`
+carries all twenty-one homages inside a single undivided node (`2.1.2.1`, 75 claims), so no
+node-level rule can route it at all. Its spine map routes those slots by claim-ID range
+instead, using the extraction's own root-verse quotation claims ("Verse N quoted: …") as the
+boundary markers. Any spine-mapping method that assumes one node per slot will silently
+mis-route commentaries of this shape.
 
 ### The coverage invariant (step 5b) — closing the loop the pipeline only aspired to before
 
@@ -265,6 +321,30 @@ Recorded so they are not re-proposed from scratch:
 
 ---
 
+## 7a. Status snapshot (2026-08-08) — spine-map layer added
+
+- **`spine-map` skill registered and validated.** `4-SYSTEM/Skills/spine-map/SKILL.md`,
+  its deterministic gate `verify_spine_map.py`, the template
+  `4-SYSTEM/Templates/spine-map.md`, and the `/spine-map` command all exist. The
+  assembler `4-SYSTEM/Skills/claims-consolidation/assemble_packet.py` is written and
+  tested end-to-end (packet claim blocks confirmed byte-identical to their raw source).
+- ⚑ **Only 1 of 16 spine maps exists** — `karma-maitri`, written as the validation case.
+  The other fifteen must be built before any topic can be consolidated; `assemble_packet.py`
+  exits non-zero and names them until they are. Run `/spine-map <registered-id>` per
+  commentary, one isolated agent each (never several at once — Rule 2).
+- **Canonical slot registry created** at `Guidelines/vault-annex.md` §2a: `tara-01`…`tara-21`
+  + `benefits` (spine-proper), plus global slots `structure` and `origin`. Slots are never
+  coined locally; new ones are registered there by a human first.
+- **Bug fixed in gate 1.** `verify_consolidation.py` matched claim IDs as `c-[0-9]…`, so
+  letter-prefixed pseudo-node IDs (`c-z-1`, the back-matter/colophon claims present in
+  `gendun-drub`, `lobsang-dawa`, `tenga-tulku`) were invisible to it: citing one was neither
+  verified nor flagged. Now `c-[0-9a-z]…` throughout. Numeric range-expansion patterns were
+  left numeric on purpose — a letter-prefixed range falls back to endpoint checking.
+- ⚑ **The five pilot topic pages were deleted** in the 2026-08-08 10:10 backup commit
+  (`tara-01`, `tara-02`, `benefits` and the two `-bo` pages). They are recoverable from
+  commit `878862a` if that was not intended. The audit findings they carried are still
+  preserved at `0-INBOX/claims-audit-findings-2026-08-07.md`.
+
 ## 7. Status snapshot (2026-08-07)
 
 - Ingest chain + TOC tree (`status: complete`) + tree-guided claims extraction are done for
@@ -305,4 +385,8 @@ Recorded so they are not re-proposed from scratch:
 | Claims extraction command | `.claude/commands/extract-claims.md` |
 | TOC trees | `2-RAILS/Sections/Raw/toc-tree/<registered-id>.md` |
 | Raw claims | `2-RAILS/Claims/raw/{,toc-scaffolded/,tree-guided/}<registered-id>.md` |
+| Spine maps (routing index) | `2-RAILS/Claims/raw/spine-map/<registered-id>.md` |
+| Canonical spine slot registry | `4-SYSTEM/Guidelines/vault-annex.md` §2a |
+| Spine-map skill + its verifier | `4-SYSTEM/Skills/spine-map/{SKILL.md,verify_spine_map.py}` |
+| Packet assembler | `4-SYSTEM/Skills/claims-consolidation/assemble_packet.py` |
 | Consolidated topic pages | `2-RAILS/Claims/<topic>.md` |
