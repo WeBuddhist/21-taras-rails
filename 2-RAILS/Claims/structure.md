@@ -71,7 +71,7 @@ None as a single statement — commentaries that state a top-level division spli
 ### ⚑ Divergences
 **Position 1 — three parts (brief teaching / extended explanation / benefits):** `anon-utpala:c-1-1` ("དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་དོན་འཆད་པ་ལ་གསུམ། མདོར་བསྟན་པ། རྒྱས་པར་བཤད་པ། ཕན་ཡོན་བསྟན་པའོ" — "the exposition... has three: the brief teaching, the extended explanation, and the teaching of the benefits"), `lobsang-dawa:c-1-0-1` (near-identical: "...ལ་གསུམ། མདོར་བསྟན་པ་དང་། རྒྱས་པར་བཤད་པ། མཇུག་བསྡུ་བའོ" — same three items, third named "the conclusion" rather than "the teaching of the benefits"), `tenga-tulku:c-1-1` (same tripartite shape, "the brief teaching, the detailed explanation, and the conclusion by way of teaching the benefits"). Three commentaries.
 
-**Position 2 — two parts (actual praise / benefits):** `drakpa-gyaltsen:c-0-3` ("བསྟོད་པ་འདི་ལ་དོན་གཉིས་ཏེ། བསྟོད་པ་དངོས་དང་ཕན་ཡོན་ནོ" — "this praise has two parts: the actual praise and the benefits"), `gendun-gyatso:c-1-1-1` ("འདི་ལ་གཉིས། བསྟོད་པ་དངོས་དང་། དེའི་ཕན་ཡོན་བཤདཔའོ" — "this has two: the actual praise, and explaining its benefit"), `karma-maitri:c-1-1-1` ("ཕྱག་འཚལ་ཉེར་གཅིག་ལ་བསྟོད་པ་དངོས་དང་། ཕན་ཡོན་ནོ" — "the twenty-one homages divide into the actual praise and the benefits"). Three commentaries.
+**Position 2 — two parts (actual praise / benefits):** `drakpa-gyaltsen:c-0-3` ("བསྟོད་པ་འདི་ལ་དོན་གཉིས་ཏེ། བསྟོད་པ་དངོས་དང་ཕན་ཡོན་ནོ" — "this praise has two parts: the actual praise and the benefits"), `gendun-gyatso:c-1-1-1` ("འདི་ལ་གཉིས།བསྟོད་པ་དངོས་དང་། དེའི་ཕན་ཡོན་བཤདཔའོ" — "this has two: the actual praise, and explaining its benefit"), `karma-maitri:c-1-1-1` ("ཕྱག་འཚལ་ཉེར་གཅིག་ལ་བསྟོད་པ་དངོས་དང་། ཕན་ཡོན་ནོ" — "the twenty-one homages divide into the actual praise and the benefits"). Three commentaries.
 
 **Position 3 — two parts, but nested as the third of an unstated four-topic outer scheme:** `palden-sherab:c-3-0-1` ("གསུམ་པ་གཞུང་དོན་ལ་གཉིས་ཏེ། སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་ལ་སོར་བསྟོད་པ་དང་། ཕན་ཡོན་སྤྱི་ལ་བཤད་པའོ" — "the third [of the four topics], the meaning of the text, has two parts: the individual praise... and the explanation of the general benefits"). This is structurally similar to Position 2's split but is explicitly framed as the third of four higher-level topics whose other three members are not given in this packet, so it is kept as its own line rather than merged into Position 2's attestation list (Rule 9). One commentary.
 
@@ -89,9 +89,9 @@ None — this facet is a genuine divergence between two full, differently-organi
 
 ### ⚑ Divergences
 **Position A — anon-utpala and lobsang-dawa share a five-step cascade, near-identically worded at every step:**
-1. Extended explanation → three: history / body-forms / activity — `anon-utpala:c-1-2-1-1`, `lobsang-dawa:c-1-2-1-1` (near-identical; lobsang-dawa's opening clause is abbreviated relative to anon-utpala's).
+1. Extended explanation → three: history / body-forms / activity — `anon-utpala:c-1-2-1-1`, `lobsang-dawa:c-1-2-1-1` (near-identical; lobsang-dawa adds a connecting དང་ after the first item, otherwise character-identical).
 2. Body-forms → two: sambhogakāya / dharmakāya — `anon-utpala:c-1-2-2-1-1-1-1`, `lobsang-dawa:c-1-2-2-1-1-1-1` (lobsang-dawa drops the repeated "སྐུའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ" opening clause but the two-part content matches).
-3. Sambhogakāya → two: peaceful forms / wrathful forms — `anon-utpala:c-1-2-2-1-1-1-2`, `lobsang-dawa:c-1-2-2-1-1-1-2` (character-identical in this packet).
+3. Sambhogakāya → two: peaceful forms / wrathful forms — `anon-utpala:c-1-2-2-1-1-1-2`, `lobsang-dawa:c-1-2-2-1-1-1-2` (near-identical; anon-utpala's copy of the second item omits the genitive འི — ཁྲོ་མོའི་རྣམ་པ་སྒོ་ནས vs. lobsang-dawa's ཁྲོ་མོའི་རྣམ་པའི་སྒོ་ནས).
 4. Peaceful forms → six: radiant face/light rays; body-colour/hand-emblem/cause; reverence of victors and heirs; subduing discord; honour by great worldly gods; vanquishing enemies — `anon-utpala:c-1-2-2-1-1-1-3`, `lobsang-dawa:c-1-2-2-1-1-1-3` (closely matching six-item lists, minor lexical variants between the two).
 5. Wrathful forms → seven: purifying māras/obscurations; hand-emblems; crown-ornament and laughter; directional guardians' activity; crown-ornament (again); wrathful manner of abiding; light from HŪṂ/HAṂ — `anon-utpala:c-1-2-2-1-2-1-1`, `lobsang-dawa:c-1-2-2-1-2-1-1` (closely matching seven-item lists).
 6. Activity (of the extended explanation's third branch) → six: peaceful/wrathful mantra activity; shaking the three grounds; dispelling poisons; dispelling disputes/bad dreams; dispelling epidemic disease; destroying spirits/zombies — `anon-utpala:c-1-2-3-1-1`, `lobsang-dawa:c-1-2-3-1-1` (closely matching six-item lists).
@@ -99,16 +99,16 @@ None — this facet is a genuine divergence between two full, differently-organi
 Two commentaries share this entire cascade (six claims each, twelve claims total).
 
 **Position B — drakpa-gyaltsen gives an alternative ten-claim cascade, organizing the same territory differently:**
-1. Actual praise → three: sambhogakāya-body / dharmakāya / activity — `c-0-4`. (Note: unlike Position A, "history" is not a sibling of "body-forms" at this level.)
-2. Sambhogakāya-body → three: history via names / body-form / ornaments-and-attire — `c-0-5`. ("History" appears here, nested one level deeper than in Position A.)
-3. The middle of those three (body-form, on the page's reading of "the middle... divides into two" — the claim itself does not name which item) → two: peaceful body / wrathful body — `c-0-6`.
-4. Peaceful body → three: light rays; body-colour/hand-emblems/their cause; being honoured by victors and bodhisattvas — `c-0-7`. (Threefold, not Position A's sixfold, for the peaceful branch.)
-5. Wrathful body → three: power; praise by the great worldly ones; activity — `c-0-8`. (Threefold, not Position A's sevenfold, for the wrathful branch.)
-6. [Wrathful body's] activity → two: common / uncommon — `c-0-9`.
-7. Ornaments-and-attire → four: peaceful attire; wrathful attire; common crown-ornament; wrathful attire — `c-0-10` (the source itself lists "wrathful attire" twice; quoted as given, not corrected).
-8. Peaceful attire → two: hand-emblem / crown-ornament — `c-0-11`.
-9. "The latter wrathful section" (referent not further specified in the claim) → three: light rays; manner of abiding; hand-emblem — `c-0-12`.
-10. Praise via activity (named "the third general topic") → six: secret mantra; empowerment; pacifying poison; clearing obstacles; clearing epidemic disease; clearing discord — `c-0-13`. This activity-sixfold shares two themes with Position A's activity-sixfold (poison, epidemic disease) but is not the same enumeration — a sub-divergence within the larger divergence.
+1. Actual praise → three: sambhogakāya-body / dharmakāya / activity — `drakpa-gyaltsen:c-0-4`. (Note: unlike Position A, "history" is not a sibling of "body-forms" at this level.)
+2. Sambhogakāya-body → three: history via names / body-form / ornaments-and-attire — `drakpa-gyaltsen:c-0-5`. ("History" appears here, nested one level deeper than in Position A.)
+3. The middle of those three (body-form, on the page's reading of "the middle... divides into two" — the claim itself does not name which item) → two: peaceful body / wrathful body — `drakpa-gyaltsen:c-0-6`.
+4. Peaceful body → three: light rays; hand-emblem and living beings; being conferred by buddhas and bodhisattvas — `drakpa-gyaltsen:c-0-7`. (Threefold, not Position A's sixfold, for the peaceful branch.)
+5. Wrathful body → three: power; praise by the great worldly ones; activity — `drakpa-gyaltsen:c-0-8`. (Threefold, not Position A's sevenfold, for the wrathful branch.)
+6. [Wrathful body's] activity → two: common / uncommon — `drakpa-gyaltsen:c-0-9`.
+7. Ornaments-and-attire → four: peaceful attire; wrathful attire; common crown-ornament; wrathful attire — `drakpa-gyaltsen:c-0-10` (the source itself lists "wrathful attire" twice; quoted as given, not corrected).
+8. Peaceful attire → two: hand-emblem / crown-ornament — `drakpa-gyaltsen:c-0-11`.
+9. "The latter wrathful section" (referent not further specified in the claim) → three: light rays; manner of abiding; hand-emblem — `drakpa-gyaltsen:c-0-12`.
+10. Praise via activity (named "the third general topic") → six: secret mantra; empowerment; pacifying poison; clearing obstacles; clearing epidemic disease; clearing discord — `drakpa-gyaltsen:c-0-13`. This activity-sixfold shares two themes with Position A's activity-sixfold (poison, epidemic disease) but is not the same enumeration — a sub-divergence within the larger divergence.
 
 One commentary; ten claims.
 
@@ -164,7 +164,7 @@ A thin consensus: three commentaries agree only that the praise derives from a t
 
 — attested (general "derives from a Tārā tantra" theme only): `konchok-thabkhe:c-2-1`, `pema-namgyal:c-2-1`, `tsultrim-namdak:c-8-6` (3 commentaries)
 
-`pema-namgyal:c-2-1` states only that "the praise-text is extracted from Tārā's tantra" (མའི་རྒྱུད་ལས་ཁོལ་དུ་ཕ�ྱུང་བའི་བསྟོད་པའི་ཚིག), without naming or classifying the tantra. `konchok-thabkhe:c-2-1` and `tsultrim-namdak:c-8-6` each add specifics not shared with the other or with pema-namgyal (see below); per Rule 9, only the bare "derives from a tantra of/associated with Tārā" content is common to all three, so the attestation list above is confined to that narrow shared point.
+`pema-namgyal:c-2-1` states only that "the praise-text is extracted from Tārā's tantra" (སྒྲོལ་མའི་རྒྱུད་ལས་ཁོལ་དུ་ཕྱུང་བའི་བསྟོད་པའི་ཚིག), without naming or classifying the tantra. `konchok-thabkhe:c-2-1` and `tsultrim-namdak:c-8-6` each add specifics not shared with the other or with pema-namgyal (see below); per Rule 9, only the bare "derives from a tantra of/associated with Tārā" content is common to all three, so the attestation list above is confined to that narrow shared point. (Note on the deterministic checker's WARN: `konchok-thabkhe:c-2-1` and `tsultrim-namdak:c-8-6` are deliberately cited a second time below, under Divergences — each for the additional, non-overlapping specific content that same claim carries beyond the bare shared point cited here. This is an intentional dual citation of two different facets of the same claim's content, not a mis-sort between Consensus and Divergences.)
 
 ### ⚑ Divergences
 **Named and classified tantra, with contested class-assignment:** `konchok-thabkhe:c-2-1` names the source as "the tantra of the manifold arising from Tārā" (སྒྲོལ་མ་ལས་སྣ་ཚོགས་འབྱུང་བའི་རྒྱུད), classifies it among the kriyā tantras, and states this praise appears there preserved in the original Sanskrit. `konchok-thabkhe:c-2-2` reports it is also, elsewhere, classified as anuttara[yoga]. `konchok-thabkhe:c-2-4` names three specific masters who disagree on its class: Nyima Sepa and Namgyal Zhabs both classify it as anuttara[yoga], while "the great Jowo" (Atiśa) classifies it as kriyā tantra; the commentary's own view (marked tentative, "སྙམ་མོ") is that its intent may be explained per the conventions of any tantra-class regardless of its own essential classification. One commentary.

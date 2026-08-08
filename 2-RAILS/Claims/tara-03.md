@@ -127,6 +127,8 @@ Six commentaries describe her **body** (not merely her lotus) as golden-yellow w
 
 Of these, Anon-Utpala alone specifies the hue with a particular simile — "like the gold of the Jambu river" (འཛམ་བུ་ཆུ་བོའི་གསེར་ལྟར) — rather than plain gold; re-read against the other five claims in the Consensus list, none of them states this river simile, so it is not presented as shared by all six, per Rule 9. `anon-utpala:c-1-2-2-1-1-2-3`
 
+Of these six, Tenga-Tulku's own exegesis is more qualified than the plain "gold body, blue tinge" formula shared by the other five: re-read in full, its claim states that "golden-blue" resembles gold only "in terms of an extremely subtle [aspect of] luster" (མདངས་ཤིན་ཏུ་ཕྲ་བའི་ཆ་ནས), and explicitly adds that "without an actual golden hue" (ཁ་དོག་གི་བཀྲག་མདངས་དངོས་སུ་མེད་པར) she possesses a blue aspect — weighting blue, not gold, as her substantive body-colour. It remains counted in this Consensus list because it does affirm both a gold-like and a blue quality of the body itself (not the lotus), but a reader relying only on the Consensus line above would not learn of this asymmetry. `tenga-tulku:c-1-2-2-1-1-2-3`
+
 ### ⚑ Divergences
 The corpus does not agree on how the compound "gser/ser sngo" (gold/yellow-blue) distributes across body and lotus, nor on the exact hue:
 

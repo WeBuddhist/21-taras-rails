@@ -101,7 +101,7 @@ None — every commentary that supplies a proper name or classificatory label fo
 At least four distinct naming/classification traditions are attested:
 
 1. **"Tārā/Protector of the Khadira or Śiṃśapā Forest"** (སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ), usually paired with a "protects from all fears" qualifier — `gendun-drub:c-2-2-2-2-1-2-2-6` (bare epithet, "she is called here 'Tārā of the Khadira Forest'"), `palden-sherab:c-3-1-9-0-1` + `palden-sherab:c-3-1-9-1-3` ("Tārā of the Śiṃśapā Forest, Protector from All Assembled Fears": འཇིགས་པའི་ཚོགས་ཐམས་ཅད་ལས་སྐྱོབ་པའི་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ), `sangye-nyentrul:c-10-0-2` + `sangye-nyentrul:c-10-1-1` ("Tārā of the Khadira Forest... protector from the eight/sixteen [fears]"; its qualifier reads འཇིགས་པའི་ཚོགས་ཀུན་ལས་སྐྱོབ་པའི, using ཀུན rather than ཐམས་ཅད for "all" — a real lexical variant from palden-sherab's phrase, not the same words), `tsultrim-namdak:c-3-12` ("Sgrol-ma of the Khadira/Acacia forest," qualifier འཇིགས་པའི་ཚོགས་ཐམས་ཅད་ལས་སྐྱོབ་པར་མཛད་མ, matching palden-sherab's ཐམས་ཅད wording rather than sangye-nyentrul's ཀུན). Four commentaries in total: `gendun-drub`, `palden-sherab`, `sangye-nyentrul`, `tsultrim-namdak`.
-2. **Named via the Three-Jewels mudrā/theme itself**, but not identically: `taranatha:c-9-1` ("Ninth, homage to [she of] the Three Jewels," དཀོན་མཆོག་) and `tenzin-dhonzang:c-4-9-1` ("She Who Signifies the Three Jewels," དཀོན་མཆོག་གསུམ་མཚོན་ལ) both use the verb མཚོན ("signify/symbolize"); `sungrab-tulku:c-12-3` instead calls her "venerable Tārā, the Worshipper of the Three Jewels" (དཀོན་མཆོག་གསུམ་མཆོད་མ), using མཆོད ("worship/make offering to") — a different root entirely, naming her as a devotee rather than as the embodiment/symbol of the Three Jewels. Three commentaries, two distinct sub-readings.
+2. **Named via the Three-Jewels mudrā/theme itself**, but not identically: `taranatha:c-9-1` ("Ninth, homage to [she of] the Three Jewels," དཀོན་མཆོག་ — this claim's own heading is abbreviated in the packet and does not itself preserve a verb) and `tenzin-dhonzang:c-4-9-1` ("She Who Signifies the Three Jewels," དཀོན་མཆོག་གསུམ་མཚོན་ལ, using the verb མཚོན, "signify/symbolize") both name her via the mudrā/theme itself, though only tenzin-dhonzang's own claim text shows that verb explicitly; `sungrab-tulku:c-12-3` instead calls her "venerable Tārā, the Worshipper of the Three Jewels" (དཀོན་མཆོག་གསུམ་མཆོད་མ), using མཆོད ("worship/make offering to") — a different root entirely, naming her as a devotee rather than as the embodiment/symbol of the Three Jewels. Three commentaries, two distinct sub-readings.
 3. **"Bestower of the Supreme"** (མཆོག་སྩོལ་མ) — `anon-trinle-char:c-3-9-1`. Unique to this commentary; it does not use the Khadira/Śiṃśapā-forest epithet found in group 1 anywhere in this packet's claims.
 4. **Functional/thematic classification rather than a proper name** — `konchok-thabkhe:c-2-9-1` labels the verse "homage by way of protecting others" (གཞན་སྲུང་བའི་སྒོ་ནས་བསྟོད་པ); `anon-utpala:c-1-2-2-1-2-2-1`, `gendun-drub:c-2-2-2-2-1-2-2-1`, `tenga-tulku:c-1-2-2-1-2-2-1`, `sungrab-tulku:c-12-1` instead classify it by iconographic device, "praise by way of the right- and left-hand emblems" (already cited above under Structural placement).
 
@@ -128,10 +128,13 @@ Fifteen commentaries likewise describe the same basic right-hand configuration: 
 — attested: `anon-trinle-char:c-3-9-6`, `anon-utpala:c-1-2-2-1-2-2-4`, `drakpa-gyaltsen:c-1-57`, `drakpa-gyaltsen:c-1-58`, `gendun-drub:c-2-2-2-2-1-2-2-4`, `gendun-drub:c-2-2-2-2-1-2-2-5`, `gendun-gyatso:c-1-9-2`, `karma-maitri:c-1-1-9-5`, `karma-maitri:c-1-1-9-6`, `karma-maitri:c-1-1-9-7`, `konchok-thabkhe:c-2-9-3`, `lobsang-dawa:c-1-2-2-1-2-2-2`, `palden-sherab:c-3-1-9-2-2`, `pema-namgyal:c-2-4-31`, `sangye-nyentrul:c-10-1-2`, `sungrab-tulku:c-12-5`, `taranatha:c-9-7`, `tenga-tulku:c-1-2-2-1-2-2-4`, `tsultrim-namdak:c-2-1-2-1-33` (15 commentaries)
 
 ### ⚑ Divergences
-Within the left-hand consensus, commentaries split on whether the thumb-ring pair actively **holds a flower stem** or merely **touches fingertip to fingertip** with no implement:
+Within the left-hand consensus, commentaries split on whether the thumb-ring pair actively **holds a flower stem** or merely **touches fingertip to fingertip** with no implement. *(Note: every claim cited in the two bullets below is also cited in the Consensus attestation list above, for the general three-fingers-raised, thumb-and-ring-paired configuration — this is not a mis-sorted citation. The Consensus statement is deliberately written to leave the fingertip-vs-stem detail open ("either touching fingertip-to-fingertip or holding a flower stem — see Divergences below"), so each claim genuinely and fully supports both the shared general statement above and its own specific position below; per Rule 9 this is a full-statement/partial-detail split, not Rule 11's one-claim-two-sides case.)*
+
 - Holding a flower stem (usually named utpala, though `anon-trinle-char:c-3-9-5` and `drakpa-gyaltsen:c-1-55` instead use a padma-based term): `anon-trinle-char:c-3-9-5`, `anon-utpala:c-1-2-2-1-2-2-3`, `drakpa-gyaltsen:c-1-55`, `gendun-drub:c-2-2-2-2-1-2-2-3`, `pema-namgyal:c-2-4-30`, `tenzin-dhonzang:c-4-9-4`, `tsultrim-namdak:c-2-1-2-1-33` (7 commentaries).
+
 - Fingertips merely joined, no implement named: `konchok-thabkhe:c-2-9-2`, `palden-sherab:c-3-1-9-1-1`, `sangye-nyentrul:c-10-0-1`, `taranatha:c-9-4` (4 commentaries).
-- `tenga-tulku:c-1-2-2-1-2-2-3` gives both descriptions in immediate sequence — "joined" (སྦྱར) followed by "holding the stem of an utpala" — rather than choosing one.
+
+- `tenga-tulku:c-1-2-2-1-2-2-3` gives both descriptions in immediate sequence — "joined" (སྦྱར) followed by "holding the stem of an utpala" — rather than choosing one; like the claims in the two bullets above, it is already cited in the Consensus list above for the general configuration, for the same reason given in the note.
 - `karma-maitri`, `gendun-gyatso`, `lobsang-dawa` describe the three raised fingers without specifying what the thumb-ring pair does either way.
 
 `sungrab-tulku:c-12-4` describes a different pairing altogether: its left thumb and **middle** finger (མཐེ་མོ་དང་གུང་མོ) hold the utpala stem, while the index, **ring**, and little fingers (མཛུབ་མོ་དང་སྲིན་ལག་མཐེའུ་ཆུང) are the three raised — the reverse of every other commentary's thumb-and-ring-finger pairing. This is a genuine, internally consistent variant, not an extraction error (the raised set and the paired set are complementary and add up to five fingers either way); no other commentary in the packet shares this specific swap. Because it disagrees with the "thumb and ring finger paired" element of the Consensus statement above, `sungrab-tulku:c-12-4` is not included in that Consensus attestation list.
@@ -157,7 +160,7 @@ None as a single statement — this facet is a genuine three-way divergence over
 
 `gendun-gyatso:c-1-9-2` is textually garbled at the point that would settle this question (its OCR text reads "...ཇི་ཆལ་ས་འཕྲོས་པའི..." where a clearer verb is expected) and is therefore also excluded from all three positions above, though it is cited for the general iconography Consensus in the previous facet.
 
-No claim in the packet reconciles positions 1–3 or acknowledges that alternatives exist, apart from `anon-trinle-char:c-3-9-8`'s own two-way framing (which does not mention position 3 at all).
+No claim in the packet reconciles positions 1–3 or acknowledges that alternatives exist, apart from `anon-trinle-char:c-3-9-8`'s own two-way framing (which does not mention position 3 at all). *(Note: `anon-trinle-char:c-3-9-8` is deliberately cited both in the Consensus paragraph above and here — this is not a mis-sorted citation. It is never listed as evidence for position 1, 2, or 3 themselves; it is cited once to establish that a genuine disagreement exists at all, and again to note that, of every claim in the packet, only this one explicitly acknowledges that disagreement — a meta-observation about the shape of the divergence, not a stance within it.)*
 
 ### Unique
 `tenzin-dhonzang:c-4-9-7` offers a fourth, doctrinally distinct account of the "wheel": rather than debating its location or the light's source, it connects the wheel-mark to the thirty-two major marks (མཚན) of a buddha's body — "her hands adorned with the wheel-[mark] on every side, and the soles of her feet marked with the excellent wheel-pattern designs...the thirty major marks" — and `tenzin-dhonzang:c-4-9-8` continues with the eighty minor marks (དཔེ་བྱད་བཟང་པོ་བརྒྱད་ཅུ). No other claim in the packet frames the wheel-mark this way.
@@ -202,6 +205,8 @@ None observed — no commentary in the packet gives a conflicting count or a con
 
 `tenzin-dhonzang:c-4-9-8` names this goddess's "chief enlightened activity" as "protecting from harm" specifically, and separately quotes a verse (not further identified in this claim) naming protection "from spirits, planets and constellations, untimely death and sinful dreams, harm from poison, weapons, fire and water" — a benefit-list not paralleled by any other claim in this packet.
 
+`sangye-nyentrul:c-10-1-3` frames the sixteen-fears protection as a visualization/meditation instruction — "one meditates on being protected from the sixteen fears of saṃsāra" — and separately adds an unparalleled claim about this homage's special rank: "this [form] is the principal one among the twenty-one Tārās" (འདི་སྒྲོལ་མ་༢༡་ལས་གཙོ་མོ་ཡིན།). No other claim in the packet makes any comparable claim of precedence among the twenty-one homages.
+
 ---
 
 ## Hidden / completion-stage meaning
@@ -223,6 +228,8 @@ None observed as outright disagreement — the additional readings below are ind
 
 `konchok-thabkhe:c-2-9-4`, quoting Gendün Drup's own praise to White Tārā (a different text), reports that "the utpala symbolizes the buddhas of the three times while the mudrā itself shows the nature of all Three Jewels gathered as one" — a partial thematic echo of `tenzin-dhonzang:c-4-9-5`'s "buddhas of the three times" reading, but anchored in a *different* iconographic element (the utpala flower, not the three raised fingers) and sourced from a different text entirely (a separate White Tārā praise, not this homage's own root verse). The two claims share a theme, not a specific claim; they are not treated as corroborating one another.
 
+`anon-trinle-char:c-3-9-6` — already cited above under "Iconography" and "The wheel of light" for its general iconographic content — also closes with a distinct doctrinal gloss of the mudrā not captured under either of those citations: "its cause arises from the two jewels of Buddha and Dharma, and its activity shows the meaning of the Saṅgha carrying [the teaching] onward," supported by a citation from Nyima Sbaspa's praise at `anon-trinle-char:c-3-9-7` ("Well born from Buddha and Dharma; great, loving one who nurtures the entire Saṅgha"). This is a partial thematic echo of `tenzin-dhonzang:c-4-9-4`'s body-speech-mind-as-Saṅgha/Dharma/Buddha reading above, but structured differently (cause/activity rather than body/speech/mind) and not presented as a formal སྦས་དོན་ level of exegesis; the two are not treated as corroborating one another.
+
 ---
 
 ## Practice, samaya-mudrā, and liturgical application
@@ -232,7 +239,7 @@ None observed as outright disagreement — the additional readings below are ind
 
 — attested: `taranatha:c-9-3`, `taranatha:c-9-5`, `taranatha:c-9-6`, `tsultrim-namdak:c-2-1-2-1-34` (2 commentaries)
 
-`taranatha:c-9-3` states plainly that "the utpala-mudrā symbolizing the Three Jewels is Tārā's samaya-mudrā"; `taranatha:c-9-5`–`taranatha:c-9-6` add that if followers correctly form the same mudrā, "Bhagavatī herself [appears] in the bodily aspect of binding that same mudrā"; `taranatha:c-9-8` further specifies that, for the follower, light rays actually move from the buddha-fields of the ten directions and "actually arrive" (དངོས་སུ་འབྱོན་པའོ) when invited by the mudrā. `tsultrim-namdak:c-2-1-2-1-34`'s own extracted content states, in the same vein, that these are samaya-mudrās: "when practitioners form the mudrās in this way, the deities bestow their blessing; and when invoked by these mudrās, the goddess Tārā, together with her retinue, actually arrives from the pure realms of the ten directions, radiating light." The two commentaries independently converge on the same idea — correctly formed mudrā invites the deity's actual, not merely symbolic, presence — though worded quite differently and via different specific claims.
+`taranatha:c-9-3` states plainly that "the utpala-mudrā symbolizing the Three Jewels is Tārā's samaya-mudrā"; `taranatha:c-9-5`–`taranatha:c-9-6` add that if followers correctly form the same mudrā, "Bhagavatī herself [appears] in the bodily aspect of binding that same mudrā"; `taranatha:c-9-8` further specifies that, for the follower, light rays actually move from the buddha-fields of the ten directions and "actually arrive" (དངོས་སུ་འབྱོན་པའོ) when invited by the mudrā. `tsultrim-namdak:c-2-1-2-1-34`'s own quoted བོད་ཡིག is only the fragment "her own radiance overwhelms and outshines the mass of other lights" (རང་གི་འོད་ཀྱིས་གཞན་གྱི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་པ་ཟིལ་གྱིས); the samaya-mudrā statement attributed to it here comes from the packet's own editorial note on that claim, which is explicit that "the commentary continues, at the next block" — i.e. this is reported via the extraction's continuation note, not quoted from `tsultrim-namdak:c-2-1-2-1-34`'s own captured text: "[continuing, per that note] when practitioners form the mudrās in this way, the deities bestow their blessing; and when invoked by these mudrās, the goddess Tārā, together with her retinue, actually arrives from the pure realms of the ten directions, radiating light." The two commentaries independently converge on the same idea — correctly formed mudrā invites the deity's actual, not merely symbolic, presence — though worded quite differently, via different specific claims, and, for tsultrim-namdak, via that continuation note rather than the claim's own quoted words.
 
 ### ⚑ Divergences
 None observed as doctrinal disagreement.
@@ -255,21 +262,21 @@ None observed as doctrinal disagreement.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-9-1 … c-3-9-14 (14) | Structural placement, Name/classification, Iconography, The wheel of light, Body colour/arms |
-| `anon-utpala` | c-1-2-2-1-2-2-1 … -5 (5) | Structural placement, Name/classification, Iconography, The wheel of light |
+| `anon-trinle-char` | c-3-9-1–c-3-9-14 (14) | Structural placement, Name/classification, Iconography, The wheel of light, Body colour/arms, Hidden meaning |
+| `anon-utpala` | c-1-2-2-1-2-2-1–c-1-2-2-1-2-2-5 (5) | Structural placement, Name/classification, Iconography, The wheel of light |
 | `drakpa-gyaltsen` | c-1-55, c-1-56, c-1-57, c-1-58 (4) | Structural placement, Iconography, The wheel of light |
-| `gendun-drub` | c-2-2-2-2-1-2-2-1 … -6 (6) | Structural placement, Name/classification, Iconography, The wheel of light |
+| `gendun-drub` | c-2-2-2-2-1-2-2-1–c-2-2-2-2-1-2-2-6 (6) | Structural placement, Name/classification, Iconography, The wheel of light |
 | `gendun-gyatso` | c-1-9-1, c-1-9-2 (2) | Iconography |
-| `karma-maitri` | c-1-1-9-1 … -7 (7) | Iconography, The wheel of light |
-| `konchok-thabkhe` | c-2-9-1 … -5 (5) | Name/classification, Iconography, The wheel of light, Protection from fears, Hidden meaning, Practice/samaya |
+| `karma-maitri` | c-1-1-9-1–c-1-1-9-7 (7) | Iconography, The wheel of light |
+| `konchok-thabkhe` | c-2-9-1–c-2-9-5 (5) | Name/classification, Iconography, The wheel of light, Protection from fears, Hidden meaning, Practice/samaya |
 | `lobsang-dawa` | c-1-2-2-1-2-2-1, c-1-2-2-1-2-2-2 (2) | Structural placement, Iconography, The wheel of light |
-| `palden-sherab` | c-3-1-9-0-1 … c-3-1-9-4-1 (11) | Structural placement, Name/classification, Iconography, The wheel of light, Body colour/arms, Protection from fears, Hidden meaning |
+| `palden-sherab` | c-3-1-9-0-1–c-3-1-9-4-1 (11) | Structural placement, Name/classification, Iconography, The wheel of light, Body colour/arms, Protection from fears, Hidden meaning |
 | `pema-namgyal` | c-2-4-30, c-2-4-31 (2) | Iconography |
-| `sangye-nyentrul` | c-10-0-1 … c-10-1-5 (7) | Name/classification, Iconography, The wheel of light, Body colour/arms, Protection from fears |
-| `sungrab-tulku` | c-12-1 … -5 (5) | Structural placement, Name/classification, Iconography, The wheel of light, Protection from fears |
-| `taranatha` | c-9-1 … -11 (11) | Name/classification, Iconography, The wheel of light, Hidden meaning, Practice/samaya |
-| `tenga-tulku` | c-1-2-2-1-2-2-1 … -4 (4) | Structural placement, Name/classification, Iconography, The wheel of light |
-| `tenzin-dhonzang` | c-4-9-1 … -8 (8) | Structural placement, Name/classification, The wheel of light, Protection from fears, Hidden meaning |
-| `tsultrim-namdak` | c-2-1-2-1-32, -33, -34, c-3-12 (4) | Structural placement, Name/classification, Iconography, Body colour/arms, Protection from fears, Practice/samaya |
+| `sangye-nyentrul` | c-10-0-1–c-10-1-5 (7) | Name/classification, Iconography, The wheel of light, Body colour/arms, Protection from fears |
+| `sungrab-tulku` | c-12-1–c-12-5 (5) | Structural placement, Name/classification, Iconography, The wheel of light, Protection from fears |
+| `taranatha` | c-9-1–c-9-11 (11) | Name/classification, Iconography, The wheel of light, Hidden meaning, Practice/samaya |
+| `tenga-tulku` | c-1-2-2-1-2-2-1–c-1-2-2-1-2-2-4 (4) | Structural placement, Name/classification, Iconography, The wheel of light |
+| `tenzin-dhonzang` | c-4-9-1–c-4-9-8 (8) | Structural placement, Name/classification, The wheel of light, Protection from fears, Hidden meaning |
+| `tsultrim-namdak` | c-2-1-2-1-32, c-2-1-2-1-33, c-2-1-2-1-34, c-3-12 (4) | Structural placement, Name/classification, Iconography, Body colour/arms, Protection from fears, Practice/samaya |
 
 **Commentaries silent on this topic:** none — all sixteen commentaries in the packet contribute at least one claim to this topic (0 explicitly silent, per the packet header).
