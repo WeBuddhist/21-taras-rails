@@ -323,7 +323,7 @@ Drakpa Gyaltsen's own claim `drakpa-gyaltsen:c-1-47` is a bare cross-reference (
 | sangye-nyentrul | c-8-0-1, c-8-0-2, c-8-1-1, c-8-1-2, c-8-1-3 | Structural placement, Root verse quoted, Word-gloss, Activity, Iconography (posture/symbolism), Iconography (elaborated forms), Naming and epithets, Practice/benefits |
 | sungrab-tulku | c-10-1, c-10-2, c-10-3, c-10-4, c-10-5 | Structural placement, Root verse quoted, Naming and epithets, Activity, Iconography (posture/symbolism), Practice/benefits |
 | taranatha | c-7-1, c-7-2, c-7-3, c-7-4, c-7-5, c-7-6, c-7-7, c-7-8, c-7-9, c-7-10, c-7-11, c-7-12, c-7-13, c-7-14, c-7-15, c-7-16, c-7-17 | Structural placement, Root verse quoted, Word-gloss, Activity, Practice/benefits, Hidden-meaning interpretation |
-| tenga-tulku | c-1-2-2-1-1-6-1, c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-3, c-1-2-2-1-1-6-4 | Structural placement, Root verse quoted, Activity, Practice/benefits |
+| tenga-tulku | c-1-2-2-1-1-6-1, c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-3, c-1-2-2-1-1-6-4 | Structural placement, Root verse quoted, Practice/benefits |
 | tenzin-dhonzang | c-4-7-1, c-4-7-2, c-4-7-3, c-4-7-4, c-4-7-5, c-4-7-6, c-4-7-7, c-4-7-8, c-4-7-9, c-4-7-10, c-4-7-11, c-4-7-12 | Structural placement, Root verse quoted, Naming and epithets, Word-gloss, Activity, Iconography (posture/symbolism), Practice/benefits, Unique comparanda |
 | tsultrim-namdak | c-2-1-2-1-24, c-2-1-2-1-25, c-3-10 | Root verse quoted, Naming and epithets, Activity |
 

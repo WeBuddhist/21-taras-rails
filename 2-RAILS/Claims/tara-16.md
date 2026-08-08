@@ -243,7 +243,7 @@ None observed — no other commentary in the packet states a conflicting (or any
 - `taranatha:c-16-5` — "You, goddess, who arose from the arrangement of the mantra, that is, the speech of the ten syllables": a brief identification that the goddess arises from the ten-syllable mantra's arrangement, paraphrasing the root verse's third line; superseded in this packet by the more specific `taranatha:c-16-7` (already cited under "The two mantras"), which states the same ten syllables are wrathful Tārā's own seed- and approach-mantra.
 - `karma-maitri:c-1-1-16-7` — "In the wrathful manner that destroys the host of māras, she manifests as Tārā herself": a closing identification restating content already captured via `karma-maitri:c-1-1-16-6` (the wrathful mantra text, cited under "The two mantras") and the crushing-enemies theme of "Activity"; adds no fact beyond those.
 
-> `anon-trinle-char:c-3-16-2` and `karma-maitri:c-1-1-16-1` were removed from this list on review: both are in fact cited above (`c-3-16-2` under "Name, epithet, and classification"; `c-1-1-16-1` — "the sixteenth: 'homage.' To whom?" — under "Structural placement," in the global-ordinal Consensus list) and are not left without disposition.
+> `anon-trinle-char:c-3-16-2` and `karma-maitri:c-1-1-16-1` were removed from this list on review: both are in fact cited above (`anon-trinle-char:c-3-16-2` under "Name, epithet, and classification"; `karma-maitri:c-1-1-16-1` — "the sixteenth: 'homage.' To whom?" — under "Structural placement," in the global-ordinal Consensus list) and are not left without disposition.
 
 ---
 
@@ -255,17 +255,17 @@ None observed — no other commentary in the packet states a conflicting (or any
 | `anon-utpala` | c-1-2-3-1-2 … -6 (5) | Structural placement, The two mantras, Activity |
 | `drakpa-gyaltsen` | c-1-83, c-1-84 (2) | Structural placement, The two mantras |
 | `gendun-drub` | c-2-2-2-3-1-1 … -5 (5) | Structural placement, Name/classification, The two mantras, Activity |
-| `gendun-gyatso` | c-1-16-1 … -3 (3) | Iconography, The two mantras |
-| `karma-maitri` | c-1-1-16-1 … -7 (7) | The two mantras, Activity, Iconography |
+| `gendun-gyatso` | c-1-16-1 … -3 (3) | Structural placement, The two mantras, Iconography |
+| `karma-maitri` | c-1-1-16-1 … -7 (7) | Structural placement, The two mantras, Activity, Iconography |
 | `konchok-thabkhe` | c-2-16-1 … -3 (3) | Name/classification, Encircled/retinue, Activity |
 | `lobsang-dawa` | c-1-2-3-1-2 … -6 (5) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Activity |
-| `palden-sherab` | c-3-1-16-0-1 … c-3-1-16-4-5 (13) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Iconography, Hidden meaning, Practice/timing |
-| `pema-namgyal` | c-2-4-44, c-2-4-45, c-2-4-58 (3) | Encircled/retinue, The two mantras, Hidden meaning |
-| `sangye-nyentrul` | c-17-0-1, c-17-0-2, c-17-1-1 … -3 (5) | Encircled/retinue, The two mantras, Activity, Iconography |
+| `palden-sherab` | c-3-1-16-0-1 … c-3-1-16-4-5 (13) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Activity, Iconography, Hidden meaning, Practice/timing |
+| `pema-namgyal` | c-2-4-44, c-2-4-45, c-2-4-58 (3) | Encircled/retinue, The two mantras, Activity, Hidden meaning |
+| `sangye-nyentrul` | c-17-0-1, c-17-0-2, c-17-1-1 … -3 (5) | Name/classification, Encircled/retinue, The two mantras, Activity, Iconography |
 | `sungrab-tulku` | c-19-1 … -4 (4) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Activity |
 | `taranatha` | c-16-1 … -17 (17) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Activity, Hidden meaning |
 | `tenga-tulku` | c-1-2-3-1-1 … -3 (3) | Structural placement, Name/classification, The two mantras, Activity |
 | `tenzin-dhonzang` | c-4-16-1 … -6 (6) | Structural placement, Name/classification, The two mantras, Activity, Iconography, Practice/timing |
-| `tsultrim-namdak` | c-2-1-2-1-54 … -57, c-3-19 (5) | Structural placement, Name/classification, Encircled/retinue, Activity, Iconography |
+| `tsultrim-namdak` | c-2-1-2-1-54 … -57, c-3-19 (5) | Structural placement, Name/classification, Encircled/retinue, The two mantras, Activity, Iconography |
 
 **Commentaries silent on this topic:** none — all sixteen commentaries in the packet contribute at least one claim to this topic (0 explicitly silent, per the packet header).
