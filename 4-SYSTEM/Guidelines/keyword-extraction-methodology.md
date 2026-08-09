@@ -178,6 +178,12 @@ which is surface-form-independent.
 
 ## Changelog
 
+- **2026-08-09** — Step 0 input generated: literal English translation of the root text
+  (critical edition, post-2026-08-07 resegmentation) via `zeroshot-translator` on
+  gemini-3.5-flash, pada-aligned, all 29 block IDs preserved. Lives at
+  `0-INBOX/AI_translation/english/tara21-english-literal-keyword-zeroshot_split_chapters/`
+  with purpose-built audience profile `literal-keyword`. Working aid for Steps 1–3 only —
+  not a vault translation track.
 - **2026-08-05** — Initial draft from discussion: detect-in-English / measure-in-Tibetan
   design, 6-step pipeline with worked example, the four commentary-distortion cases and the
   attention-beats-presence scoring reframe (claim density dominant, quote-excluded counts
