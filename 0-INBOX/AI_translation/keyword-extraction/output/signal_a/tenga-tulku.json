@@ -140,7 +140,7 @@
     {"claim_id": "c-1-3-4-3", "terms": ["བུ།", "ནོར།", "བགེགས།"]},
     {"claim_id": "c-1-3-4-4", "terms": []},
     {"claim_id": "c-z-1", "terms": []},
-    {"claim_id": "c-z-2", "terms": ["ཞི་བ།", "སྒྲོལ_མ"]},
+    {"claim_id": "c-z-2", "terms": ["ཞི་བ།", "སྒྲོལ་མ།"]},
     {"claim_id": "c-z-3", "terms": []},
     {"claim_id": "c-z-4", "terms": []},
     {"claim_id": "c-z-5", "terms": []},
