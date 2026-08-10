@@ -377,6 +377,18 @@ These skills check and report on vault integrity. They are read-only and safe to
 
 ---
 
+## Wikipedia article skills
+
+These skills generate encyclopedic output for bo.wikipedia from the vault's rails, writing drafts into `3-TRANSFORMATIONS/Wikipedia/`. They never publish — publishing stays behind the pipeline's `/publish` gate.
+
+### `wiki-article-from-claims` **[exists]**
+**Purpose:** Draft a cited Tibetan Wikipedia article from one consolidated claims topic page, resolving every citation through raw claim IDs to verbatim commentary quotations and verifying each quotation against `1-SOURCES/`.
+**Inputs:** A spine slot ID whose consolidated page exists in `2-RAILS/Claims/`, that page's raw tree-guided claims files, and the pipeline's wikitext spec as the output contract.
+**Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.wiki` plus a `citations.md` audit trail mapping every ref to claim IDs and source blocks.
+→ [`wiki-article-from-claims/SKILL.md`](wiki-article-from-claims/SKILL.md)
+
+---
+
 ## Pipelines — not skills
 
 A **pipeline** is a multi-stage program with its own code, prompts, gates and CLI. It is not invoked as a skill; it is installed and run. Pipelines live under [`../Pipelines/`](../Pipelines/), one folder each, and are listed here so the skill-first rule in `4-SYSTEM/CLAUDE.md` does not send you looking for a skill that was never going to exist.

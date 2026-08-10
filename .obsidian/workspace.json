@@ -199,6 +199,8 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/wiki-article-from-claims/SKILL.md",
+    "4-SYSTEM/Skills/wiki-article-from-claims",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords_top60.md",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/palden-sherab.json",
@@ -213,7 +215,6 @@
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/karma-maitri.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/taranatha.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/anon-utpala.json",
-    "0-INBOX/AI_translation/keyword-extraction/output/signal_a/tenzin-dhonzang.json",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-english-literal-keyword-zeroshot-01-tfidf.md",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-en-literal-keywords.md",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-en-literal-preview.md",
@@ -233,7 +234,6 @@
     "2-RAILS/Claims/tara-20.md",
     "2-RAILS/Claims/tara-16.md",
     "2-RAILS/Claims/tara-15.md",
-    "2-RAILS/Claims/tara-14.md",
-    "2-RAILS/Claims/tara-12.md"
+    "2-RAILS/Claims/tara-14.md"
   ]
 }

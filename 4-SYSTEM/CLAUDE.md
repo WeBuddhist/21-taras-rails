@@ -403,6 +403,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Fill a term table with verbatim commentary definitions | `term-definition-from-commentaries` |
 | Quick translation, no termbase | `zeroshot-translator` |
 | Bring a raw OCR/segmentation text into 1-SOURCES with frontmatter | `raw-to-sources` |
+| Draft a Tibetan Wikipedia article from a consolidated claims topic page | `wiki-article-from-claims` |
 
 ### Pipelines are not skills
 
