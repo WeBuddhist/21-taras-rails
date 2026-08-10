@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Translations/About Translations.md",
+                "file": "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About Translations"
+              "title": "paper"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 307.53515625
+    "width": 454.55078125
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -197,11 +197,13 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "eb2538ea3fa47051",
+  "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-src.md",
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper.md",
+    "3-TRANSFORMATIONS/Translations/About Translations.md",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/Expanding-the-Digital-Footprint-of-Tibetan-26pp.docx",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/build_docx.js",
-    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-src.md",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/Expanding-the-Digital-Footprint-of-Tibetan.docx",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-skeleton.md",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-methods.md",
@@ -216,7 +218,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles",
     "0-INBOX/AI_translation/keyword-extraction/output/article_queue.md",
-    "0-INBOX/AI_translation/keyword-extraction/output/article_queue.json",
     "4-SYSTEM/Skills/wiki-article-from-claims/SKILL.md",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords_top60.md",
     "0-INBOX/AI_translation/keyword-extraction/STATE.md",
@@ -233,7 +234,6 @@
     "2-RAILS/Claims/benefits.md",
     "2-RAILS/Claims/tara-11.md",
     "2-RAILS/Claims/tara-10.md",
-    "2-RAILS/Claims/tara-09.md",
-    "2-RAILS/Claims/tara-08.md"
+    "2-RAILS/Claims/tara-09.md"
   ]
 }
