@@ -200,6 +200,16 @@ which is surface-form-independent.
 
 ## Changelog
 
+- **2026-08-10 (second entry)** — **Article-viability gate v1 added to Step 6**: the cutoff is
+  now a mechanical rule (spread ≥ ⌈commentaries/2⌉ AND raw claims ≥ 20; selection by gate,
+  ordering by composite; gate-failures remain as Local-Wiki/glossary candidates), replacing
+  per-run human N-picking after the human contributor asked for a reasoned, repeatable cutoff.
+  Rationale: an article is drafted from claims only, so the only defensible cutoff is whether
+  the corpus contains enough claim-attention to support a cited article. Applied to Tārā-21:
+  114 of 367 terms pass; the gate agrees with the composite ordering (only 2 of the composite
+  top-40 fail, both at 18–19 claims). Independent sanity checks: 114 ≈ the superseded
+  translation-mediated route's human-era list (105 candidates / 96 distinct terms) and ≈ 4
+  terms per root block. Output: `0-INBOX/AI_translation/keyword-extraction/output/article_queue.{json,md}`.
 - **2026-08-10** — Full pipeline (Steps 1–5) run to completion for Tārā-21, using parallel
   subagents for the semantic steps (5 agents for Step 3 en→bo mapping, 16 agents — one per
   commentary — for Step 5A claim-density tagging) and deterministic scripts for the mechanical

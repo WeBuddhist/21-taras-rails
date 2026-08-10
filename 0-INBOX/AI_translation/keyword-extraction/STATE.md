@@ -105,10 +105,13 @@ discounts pure formula-word frequency.
 
 ## Next steps
 
-1. **Human review of `output/ranked_keywords_top60.md`** — this is the Step 6 gate. Composite
-   weights (0.6/0.25/0.15) are provisional per the methodology doc's own open question; sanity-
-   check the ranking and adjust if a specific term's placement looks wrong before approving.
-2. Once approved: promote the top-N into `3-TRANSFORMATIONS/Wikipedia/tara21/terms.yaml` with
+1. **Human review of `output/article_queue.md`** — 114 terms selected by the mechanical
+   article-viability gate v1 (spread ≥ 8/16 commentaries AND ≥ 20 raw claims; ordering by
+   composite score; the 253 gate-failures remain in the registry as Local-Wiki/glossary
+   candidates). The rule is documented in the methodology doc §Step 6 — review is now a veto
+   and reorder pass, not a cutoff decision. `ranked_keywords_top60.md` remains as the earlier
+   display-only preview.
+2. Once approved: promote the queue into `3-TRANSFORMATIONS/Wikipedia/tara21/terms.yaml` with
    `status: candidate` (never auto-written by this pipeline — a deliberate human step).
 3. Out of scope for this pipeline, but blocking actual article generation downstream: the kwiki
    `tara21` corpus's own `aligned.json`/`terms.yaml`/ledger were deleted in the 2026-08-04
