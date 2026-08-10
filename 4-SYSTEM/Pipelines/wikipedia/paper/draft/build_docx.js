@@ -11,7 +11,8 @@ const OUT = process.argv[3];
 const lines = fs.readFileSync(SRC, 'utf8').split('\n');
 
 const MONO = 'Courier New';
-const TABLE_WIDTH = 9000; // DXA inside A4 with 1" margins
+const MARGIN = 1152;      // DXA — 0.8in / ~2cm, standard for A4
+const TABLE_WIDTH = 9600; // DXA text width inside A4 at that margin
 
 function inline(text, extra = {}) {
   const runs = [];
@@ -136,7 +137,7 @@ while (i < lines.length) {
   const bullet = line.match(/^(\s*)- (.*)$/);
   if (bullet) {
     const level = bullet[1].length >= 2 ? 1 : 0;
-    children.push(new Paragraph({ numbering: { reference: 'bul', level, instance: 0 }, spacing: { after: 60 }, children: inline(bullet[2]) }));
+    children.push(new Paragraph({ numbering: { reference: 'bul', level, instance: 0 }, spacing: { after: 40, line: 240 }, children: inline(bullet[2], { size: 20 }) }));
     i++; flushListState(); continue;
   }
 
@@ -172,7 +173,10 @@ const doc = new Document({
     heading2: { run: { font: 'Times New Roman', size: 22, bold: true, color: '000000' }, paragraph: { spacing: { before: 210, after: 105 } } },
     heading3: { run: { font: 'Times New Roman', size: 21, bold: true, italics: true, color: '000000' }, paragraph: { spacing: { before: 180, after: 90 } } },
   }},
-  sections: [{ properties: {}, children }],
+  sections: [{
+    properties: { page: { margin: { top: MARGIN, right: MARGIN, bottom: MARGIN, left: MARGIN } } },
+    children,
+  }],
 });
 
 Packer.toBuffer(doc).then(buf => {
