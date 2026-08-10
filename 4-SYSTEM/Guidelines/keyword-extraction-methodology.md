@@ -131,6 +131,28 @@ Top-N terms pass a human review gate, then feed the kwiki key-term stage. Each a
 generated from its consolidated `Claims/<topic>.md` page, citing claim IDs, which cite
 `1-SOURCES/` segments.
 
+**The cutoff is mechanical, not judgmental (article-viability gate v1).** N is never chosen by
+feel or per-run taste; a term enters the article queue iff the corpus demonstrably contains
+enough claim-attention to support a cited article about it:
+
+- **spread ≥ ⌈number of commentaries / 2⌉** — at least half the corpus's commentaries have
+  claims substantively about the term. Anchors the queue in majority attention (an article
+  needs due-weight structure across multiple independent secondary sources), and scales
+  automatically to any corpus size.
+- **claim count ≥ 20** (raw, corpus-wide) — the article-material floor. Claims-only drafting
+  means the drafter has nothing but claims; consolidation collapses many raw claims into one
+  cited statement (16 commentaries saying the same thing → one consensus sentence), so raw
+  count must substantially exceed the final article's cited-statement count. 20 raw claims ≈ a
+  lead plus two-to-three cited sections after shrinkage. This constant is *calibrated once and
+  frozen* — the value of the rule is reproducibility, and sensitivity analysis on the Tārā-21
+  run shows the neighborhood is stable (M=15 → 139 terms, M=20 → 114, M=30 → 63; spread ≥ 8
+  vs ≥ 2 changes the count by under 6% at these M).
+
+Selection is by the gate; *ordering* within the queue is by composite score. Terms failing the
+gate are not deleted — they remain in the registry as Local-Wiki/glossary candidates per the
+boundary rule (§1). The human review that remains is a *veto and reorder* pass over a
+mechanically-produced queue, not a cutoff decision.
+
 ---
 
 ## 4. Known distortions and their mitigations
