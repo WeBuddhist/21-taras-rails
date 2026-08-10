@@ -199,6 +199,8 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/citations.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/citations.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.wiki",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.wiki",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/article.wiki",
@@ -212,7 +214,6 @@
     "4-SYSTEM/Skills/wiki-article-from-claims",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords_top60.md",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords.json",
-    "0-INBOX/AI_translation/keyword-extraction/output/signal_a/palden-sherab.json",
     "0-INBOX/AI_translation/keyword-extraction/STATE.md",
     "2-RAILS/About Rails.md",
     "2-RAILS/Claims/tara-01.md",
@@ -233,7 +234,6 @@
     "2-RAILS/Claims/tara-19.md",
     "2-RAILS/Claims/tara-13.md",
     "2-RAILS/Claims/tara-21.md",
-    "2-RAILS/Claims/tara-20.md",
-    "2-RAILS/Claims/tara-16.md"
+    "2-RAILS/Claims/tara-20.md"
   ]
 }
