@@ -63,17 +63,27 @@ reviewer-minutes remain **[TO FILL]** and every section that depends on them say
 - **Tibetan digital infrastructure:** BDRC, OpenPecha, ACIP, Adarsha, Lotsawa
   House — positioned as what the pipeline consumes, not duplicates.
 
-## §3 Motivation: the critical-mass trilemma (~600 w)
+## §3 Why automation at all: the three options (~600 w)
 
-- Reframed venue-neutrally (no podium rhetoric, no first-person campaign
-  storytelling): manual-only throughput is *measured* (~350 articles/yr → centuries
-  to critical mass); unsupervised automation is *demonstrated and catastrophic*;
-  supervised automation is the remaining horn.
-- The falsifiable form of the claim: reviewer-hours per audit-passed article vs
-  historical editor-hours per article, projected to target encyclopedia size.
-  Machine side measured (§8); human side **[TO FILL]**.
-- *Reviewer question for you:* keep as its own section, or fold into §1 as two
-  paragraphs? Own section gives the trilemma room; folding saves ~400 words.
+The argument, stated plainly — there are only three ways to grow Tibetan
+Wikipedia to a useful size:
+
+1. **By hand.** Measured at ~350 new articles a year; a serviceable encyclopedia
+   is centuries away at that rate.
+2. **Unsupervised automation** (bots / raw machine translation, no human review).
+   Already tried on other small wikis; it destroyed them (Scots, Cebuano,
+   Greenlandic — §2).
+3. **Supervised automation.** Machines draft, code verifies every quotation, a
+   human reviews and is the only one who publishes. This paper's pipeline.
+
+The paper argues option 3 is the only demonstrated way to reach a useful
+encyclopedia within a generation without destroying trust. The number that
+proves or breaks it: minutes of human review per verified article vs hours of
+writing per manual article, projected to a target encyclopedia size — machine
+side measured (§8), human side **[TO FILL]**.
+
+*(Decision taken: kept as its own short section; can be folded into §1 later if
+a venue's page limit demands it.)*
 
 ## §4 Corpus and case study (~700 w)
 
@@ -124,12 +134,21 @@ drafting is mostly compression and de-IATS-ing.
 - **5.10 Consolidation audits** — the 418-citation adversarial audit; error
   taxonomy → Rules 9–16 + two gates (deterministic + fresh-context adversarial);
   the Tibetan-language consolidation variant as a controlled comparison.
-- **5.11 Article generation** — claims-only drafting verified in code (the
-  drafting prompt receives claims + outline only; code expands claim indices to
-  passages and renders refs); voice rules by claim type; the fenced polish pass;
-  the audit stage with code-enforced blocking categories; the second route from
-  consolidated pages (`wiki-article-from-claims`) with its citations.md audit
-  trail; one real article lead.
+- **5.11 Article generation — both routes, with what exists today made explicit.**
+  *Route A (term articles):* the kwiki chain (extract → claims → outline → draft
+  [→ polish] → audit). **Three articles exist and are verified** — སྒྲོལ་མ,
+  འཇིག་རྟེན་གསུམ, སྡུག་བསྔལ (2026-08-02 run; artifacts on disk: drafts, claims
+  tables, audit rounds, verify reports, ledger at `verified`). These carry the
+  paper's headline numbers (81/81, cross-model audit). The corpus-wide ~100-term
+  batch has NOT run — marked **[TO FILL]**, never implied otherwise.
+  *Route B (slot articles):* `wiki-article-from-claims` from consolidated topic
+  pages. **Three articles exist** — tara-01, tara-02, tara-03 — with citations.md
+  audit trails (13/13 and 8/8 quotation checks PASS; tara-01's trail missing,
+  noted as a defect).
+  Content: claims-only drafting verified in code (drafting prompt receives claims
+  + outline only; code expands claim indices to passages and renders refs); voice
+  rules by claim type; the fenced polish pass; the audit stage with code-enforced
+  blocking categories; one real article lead from each route.
 - **5.12 The deterministic verification gate** — exact/collapsed/fuzzy tiers
   ("found is not the gate: passed is"); the reading view; block-locator
   resolution; the 12-rule wikitext validator with the two bo.wikipedia-specific
@@ -243,13 +262,17 @@ empirical ones throughout.
 - Area-studies/DH version: keep §3 and §6 at full length, compress §5.1–5.4 into
   one "ingest" subsection, keep the claims/consolidation/audit stages detailed.
 
-## Open questions for your review
+## Decisions taken (from review, 2026-08-10)
 
-1. §3 as its own section vs folded into §1?
-2. Should the paper present **both** article routes (kwiki per-term + slot-articles
-   from consolidated pages), or pick the rails route as the paper's single
-   narrative and mention the other as an implementation variant? Both is honest
-   but costs ~400 words and one explanation of why two exist.
-3. Author list / affiliation line — currently single-author OpenPecha; confirm.
-4. Do you want the appendix with full prompt texts (extract / claims / draft /
-   audit) for venues that allow appendices?
+1. §3 stays its own section, written in plain language (see above).
+2. **Both article routes**, with the on-disk inventory stated explicitly in §5.11
+   (three verified term articles from the 2026-08-02 run; three slot articles;
+   the ~100-term batch is [TO FILL]).
+3. **No appendix**: prompts and code excerpts live in the body of §5, next to
+   their examples, as in `paper-methods.md`. (An appendix only reappears as a
+   trim option for page-limited venues.)
+
+## Remaining question
+
+- Author list / affiliation line — currently single-author, The OpenPecha
+  Project; confirm or supply the final list.
