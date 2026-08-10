@@ -581,13 +581,26 @@ real artifact from the corpus) → **Numbers** (only measured ones).
 - Copyright routing (PD → Wikisource anchors; in-copyright → BDRC/library links).
 - Current debt stated plainly: every citation still unlinked (W1/W2); articles
   are research artifacts in a review queue until the registry carries public URLs.
-- The by-product argument: claims database + verse-aligned corpus survive
+- **The claims database as a dataset (T8).** 2,975 claims over 16 commentaries:
+  each row carries verbatim Tibetan, an English gloss, a type (12-value
+  vocabulary), a referent with attestation basis, and a block-level source
+  citation; plus 16 spine maps and 24 consolidated topic pages. Schema, counts,
+  and per-commentary distribution tabulated. Release intent stated — with the
+  open licensing question named honestly: the *facts* are free, but rows quote
+  in-copyright commentaries verbatim, so the released form may need
+  quote-truncated variants for some sources **[decision needed]**.
+- The by-product argument: the claims database + verse-aligned corpus survive
   regardless of what happens on-wiki.
 
-## §8 Evaluation (~1,200 w)
+## §8 Evaluation (~1,500 w)
 
-Two scales + one rails-side audit; separate by-construction properties from
-empirical ones throughout.
+Organised to answer RQ1–RQ3 in order, and keeping three verification kinds
+strictly separate throughout: **fidelity** (is the quoted evidence real and
+correctly located — deterministic, measured), **support** (does the cited
+passage warrant the sentence — audit + human judgment), and **notability**
+(should the article exist at all — human, policy-bound). Conflating these is
+the standard reviewer trap; the paper never does. By-construction properties
+are separated from empirical ones throughout.
 
 - **Citation fidelity (measured):** 81/81 character-exact, 81/81 locators
   resolve; byte-identical reproduction on a second machine. Fidelity ≠ support,
@@ -608,9 +621,28 @@ empirical ones throughout.
 - **Pipeline statistics (measured):** 10–20 min/article; 81 passages → 47 claims
   (type distribution) → 81 citations; cost ≈ $0.33–1.42/article; lengths under
   target, reported as a known limitation.
-- **[TO FILL] slots, clearly boxed:** corpus-batch distributions; native-speaker
-  rater results (rubric, N raters); reviewer-minutes (the lead metric feeding
-  §3's arithmetic); pairwise comparison vs existing stubs.
+- **Cost and sustainability (measured + projection):** ≈$0.33–1.42 machine
+  cost per article at current prices; projected to a 100,000-article
+  encyclopedia, ~$35k–140k (central ≈$70k) — with the fixed-cost honesty note:
+  the projection prices the marginal article, not the engineering, and the
+  scarce input is human review by design.
+- **Planned legs, designed but not run — each boxed [TO FILL]:**
+  - corpus-batch distributions (gate pass rate, audit pass rate over repeated
+    runs, capture-vs-offer curve, lengths, cost, retry factor);
+  - native-speaker rating: 3 named raters, 7-dimension rubric, an AIS-style
+    statement-*support* audit on a stratified sample (manual by necessity — no
+    Tibetan NLI model exists), pairwise comparison against existing stubs;
+  - reviewer-minutes with a from-scratch writing-time control — the RQ3 number;
+  - **zero-shot baseline ablation:** the same three terms drafted by the same
+    model with no pipeline (no claims table, no gate) and audited identically —
+    the cheapest honest way to quantify what the machinery buys;
+  - **guardrail before/after:** gates 1+2 re-run over all 24 current topic
+    pages, reported against the 418-citation pre-guardrail taxonomy — turning
+    the audit from an anecdote into a before/after rate;
+  - **claims-quality sample audit:** the deterministic check proves the Tibetan
+    is verbatim, but English glosses, claim types, and referent tags are model
+    judgments with no direct human validation yet — a sampled human audit is
+    the missing leg, and the paper says so.
 
 ## §9 Discussion (~800 w)
 
@@ -621,8 +653,9 @@ empirical ones throughout.
   reception signal; OCR bounds everything (*sic*-faithfulness corollary); model
   asymmetry in Tibetan; two-copy corpus duplication; slot-articles drafted from
   draft-status rails; one missing citations trail; one tree's pointer drift;
-  methods 1–2 comparison not re-runnable from disk; evaluation's human legs
-  pending.
+  methods 1–2 comparison not re-runnable from disk; claim-level judgments
+  (English glosses, types, referent tags) not yet human-validated; evaluation's
+  human legs pending.
 - Generalization: nothing is Tārā-specific — root text + commentaries + registry;
   the pattern transfers to Sanskrit, Pali, classical Chinese scholasticism and to
   other low-resource languages with layered canons; the trilemma's third horn as
@@ -632,6 +665,18 @@ empirical ones throughout.
 
 - The cycle, the sign, the gate. The durable deliverable is the reusable
   editorial machine + the claims database, not N articles.
+
+## Back matter (venue-dependent, drafted once)
+
+- **Reproducibility & availability statement:** pipeline code, versioned
+  prompts with provenance frontmatter, the validator, and verification
+  reports; the corpus rebuild is scripted and was reproduced byte-identically
+  on a second machine. What is released outright vs what awaits the licensing
+  decision (T8 note).
+- **Ethics statement:** the doom-spiral analysis condensed to the required
+  form — community consent before content, named-human publication, paced
+  throughput, on-wiki disclosure — plus disclosure of AI assistance in both
+  the articles and the preparation of the paper itself.
 
 ---
 
@@ -644,8 +689,13 @@ empirical ones throughout.
 | T3 | Cross-model audit adjudication (5 findings × verdict) | REVIEW-2026-08-02 |
 | T4 | Consolidation-audit error taxonomy → rule/gate mapping | audit findings + Rules 9–16 |
 | T5 | Evaluation summary (measured vs [TO FILL], two scales) | §8 sources |
+| T5a | Models and prompt versions per stage per reported run | model.json / prompts/ |
+| T6 | Failure class × catching layer × on-disk evidence it fired | §5 + REVIEW + audit findings |
+| T7 | Human checkpoints across the pipeline | skills + ledger |
+| T8 | Claims-database schema and per-commentary statistics | 2-RAILS frontmatter |
 | F1 | Pipeline diagram (ingest → rails → article → gate → publish) | to draw |
 | F2 | One claim's full provenance chain: article sentence → ref → claim → block → source line | tara-02 artifacts |
+| F3 | The feedback loop with its sign: doom spiral vs verified cycle | to draw |
 
 ## What gets deleted from the existing drafts (the de-IATS pass)
 
@@ -677,7 +727,40 @@ empirical ones throughout.
    their examples, as in `paper-methods.md`. (An appendix only reappears as a
    trim option for page-limited venues.)
 
-## Remaining question
+## Critique pass (2026-08-10) — what was missing, now fixed
+
+1. No abstract slot → Front matter added.
+2. No research questions → RQ1–RQ3 added; §8 reorganised to answer them
+   one-to-one.
+3. Models, versions, and provenance stated nowhere → §5.14 + T5a added (the
+   first reproducibility question any reviewer asks).
+4. The layered-defense argument had no single legible view → T6
+   failure-class-coverage table added.
+5. "Semi-automatic" was asserted, never enumerated → T7 human-checkpoint
+   table added.
+6. Term/topic selection was skipped between consolidation and drafting →
+   §5.11 preamble added (machine-proposed, human-gated, `candidate` status
+   stated).
+7. Fidelity / support / notability were separated only implicitly → the
+   three-kinds frame now governs all of §8; attribution-evaluation literature
+   added to §2.
+8. No baseline → zero-shot ablation added as a planned leg (same terms, same
+   model, no pipeline).
+9. The 418-citation audit had no after-guardrails counterpart → gates re-run
+   over all 24 current pages added as a planned leg.
+10. Claim-level judgments (glosses/types/referents) had no human validation
+    anywhere → named as a missing leg in §8 and a limitation in §9.
+11. The claims database was claimed as a contribution but never described as
+    a dataset → §7/T8 added, with the verbatim-quote licensing question named.
+12. No reproducibility or ethics back matter → added after §10.
+13. §5.7 header mislabel ("methods 1–2 compared") → fixed.
+
+## Remaining questions (yours)
 
 - Author list / affiliation line — currently single-author, The OpenPecha
   Project; confirm or supply the final list.
+- Claims-database release form: full verbatim rows vs quote-truncated variants
+  for in-copyright sources (§7/T8) — affects the availability statement.
+- Should the zero-shot baseline ablation actually be run before submission?
+  It is cheap (3 articles, same model, no pipeline) and closes the most
+  predictable reviewer objection with a measured number instead of a promise.
