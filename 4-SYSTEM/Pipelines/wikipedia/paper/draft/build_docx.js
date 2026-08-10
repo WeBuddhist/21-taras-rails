@@ -56,8 +56,8 @@ function tableFrom(rows) {
         width: { size: w, type: WidthType.DXA },
         shading: ri === 0 ? { type: ShadingType.CLEAR, color: 'auto', fill: 'E8E8E8' } : undefined,
         children: [new Paragraph({
-          spacing: { after: 0, line: 240 },
-          children: inline(r[ci] || '', { size: 19, bold: ri === 0 ? true : undefined }),
+          spacing: { after: 0, line: 220 },
+          children: inline(r[ci] || '', { size: 18, bold: ri === 0 ? true : undefined }),
         })],
       })),
     })),
@@ -92,10 +92,10 @@ while (i < lines.length) {
     while (i < lines.length && !lines[i].startsWith('```')) { code.push(lines[i]); i++; }
     i++; // closing fence
     code.forEach(c => children.push(new Paragraph({
-      spacing: { after: 0, line: 240 },
+      spacing: { after: 0, line: 220 },
       shading: { type: ShadingType.CLEAR, color: 'auto', fill: 'F2F2F2' },
       indent: { left: 240 },
-      children: [new TextRun({ text: c.length ? c : ' ', font: MONO, size: 18 })],
+      children: [new TextRun({ text: c.length ? c : ' ', font: MONO, size: 17 })],
     })));
     children.push(new Paragraph({ spacing: { after: 120 }, children: [new TextRun({ text: '', size: 2 })] }));
     flushListState(); continue;
@@ -125,10 +125,10 @@ while (i < lines.length) {
     }
     if (buf.length) quoteParas.push(buf.join(' '));
     quoteParas.forEach(q => children.push(new Paragraph({
-      indent: { left: 480 },
-      spacing: { after: 100, line: 260 },
+      indent: { left: 400 },
+      spacing: { after: 90, line: 240 },
       border: { left: { style: BorderStyle.SINGLE, size: 18, color: 'AAAAAA', space: 8 } },
-      children: inline(q, { size: 21, color: '333333' }),
+      children: inline(q, { size: 20, color: '333333' }),
     })));
     flushListState(); continue;
   }
@@ -151,7 +151,7 @@ while (i < lines.length) {
   if (line.trim() === '---') { i++; flushListState(); continue; }
 
   // plain paragraph
-  children.push(new Paragraph({ alignment: AlignmentType.JUSTIFIED, spacing: { after: 140, line: 276 }, children: inline(line) }));
+  children.push(new Paragraph({ alignment: AlignmentType.JUSTIFIED, spacing: { after: 120, line: 252 }, children: inline(line) }));
   i++; flushListState();
 }
 
@@ -166,11 +166,11 @@ const doc = new Document({
     ]},
   ]},
   styles: { default: {
-    document: { run: { font: 'Times New Roman', size: 22 } },
-    title:    { run: { font: 'Times New Roman', size: 32, bold: true, color: '000000' }, paragraph: { spacing: { after: 200 } } },
-    heading1: { run: { font: 'Times New Roman', size: 27, bold: true, color: '000000' }, paragraph: { spacing: { before: 320, after: 160 } } },
-    heading2: { run: { font: 'Times New Roman', size: 24, bold: true, color: '000000' }, paragraph: { spacing: { before: 260, after: 130 } } },
-    heading3: { run: { font: 'Times New Roman', size: 22, bold: true, italics: true, color: '000000' }, paragraph: { spacing: { before: 220, after: 110 } } },
+    document: { run: { font: 'Times New Roman', size: 21 } },
+    title:    { run: { font: 'Times New Roman', size: 30, bold: true, color: '000000' }, paragraph: { spacing: { after: 180 } } },
+    heading1: { run: { font: 'Times New Roman', size: 25, bold: true, color: '000000' }, paragraph: { spacing: { before: 260, after: 130 } } },
+    heading2: { run: { font: 'Times New Roman', size: 22, bold: true, color: '000000' }, paragraph: { spacing: { before: 210, after: 105 } } },
+    heading3: { run: { font: 'Times New Roman', size: 21, bold: true, italics: true, color: '000000' }, paragraph: { spacing: { before: 180, after: 90 } } },
   }},
   sections: [{ properties: {}, children }],
 });
