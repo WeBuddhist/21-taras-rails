@@ -2,6 +2,10 @@
 
 | file | what |
 |---|---|
+| `paper-src.md` | **The source of the .docx** — constrained markdown (`%TITLE`/`%AUTHOR`/`%DATE`, `##`/`###` headings, pipe tables, fenced code, `>` quotes, `-`/`1.` lists). Edit here, never in Word. |
+| `build_docx.js` | Regenerates the .docx: `node build_docx.js paper-src.md Expanding-the-Digital-Footprint-of-Tibetan.docx` (needs `npm install docx` once, beside this file or on NODE_PATH). Page geometry lives here: A4, 0.8in margins, Times New Roman 10.5pt, single-spaced. |
+| `Expanding-the-Digital-Footprint-of-Tibetan.docx` | The 15-page venue-neutral paper, built from `paper-src.md`. |
+| `Expanding-the-Digital-Footprint-of-Tibetan-26pp.docx` | The superseded 26-page version, kept for reference (2026-08-10). |
 | `paper.md` | Full first draft to the canonical structure (`../10 - Canonical Paper and Slides Plan.md`). Every pipeline number comes from the reviewed run — `corpora/tara21/REVIEW-2026-08-02.md`. `[TO FILL]` slots need team-only data: revival-campaign records (§3), human-rater + reviewer-minutes results (§8). |
 | `IATS-2026-slides.pptx` | The 16-slide deck per the canonical plan. Same numbers, same `[TO FILL]` markers (slides 3 and 13); slide 12 has the slot for the pre-recorded demo capture. |
 | `build_deck.js` | Regenerates the deck: `node build_deck.js` (needs `npm install pptxgenjs react react-dom react-icons sharp` once, beside this file or on NODE_PATH). Edit content here, not in PowerPoint, while numbers are still moving. Every Tibetan run on the slides carries an English gloss — keep that invariant when editing; the IATS audience mostly does not read Tibetan. |
