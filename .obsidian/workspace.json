@@ -199,6 +199,8 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords_top60.md",
+    "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/palden-sherab.json",
     "0-INBOX/AI_translation/keyword-extraction/STATE.md",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/tsultrim-namdak.json",
@@ -212,8 +214,6 @@
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/taranatha.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/anon-utpala.json",
     "0-INBOX/AI_translation/keyword-extraction/output/signal_a/tenzin-dhonzang.json",
-    "0-INBOX/AI_translation/keyword-extraction/output/signal_a/pema-namgyal.json",
-    "0-INBOX/AI_translation/keyword-extraction/output/signal_a/drakpa-gyaltsen.json",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-english-literal-keyword-zeroshot-01-tfidf.md",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-en-literal-keywords.md",
     "0-INBOX/AI_translation/keyword-extraction/output/tara21-en-literal-preview.md",

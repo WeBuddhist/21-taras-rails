@@ -178,6 +178,34 @@ which is surface-form-independent.
 
 ## Changelog
 
+- **2026-08-10** — Full pipeline (Steps 1–5) run to completion for Tārā-21, using parallel
+  subagents for the semantic steps (5 agents for Step 3 en→bo mapping, 16 agents — one per
+  commentary — for Step 5A claim-density tagging) and deterministic scripts for the mechanical
+  steps (YAKE/TF-IDF, Step 4 counting, Step 5B TOC matching). Run log and decisions:
+  `0-INBOX/AI_translation/keyword-extraction/STATE.md`. Key resolutions to this doc's open
+  questions:
+  - **Registry location (open question, §5):** resolved as `0-INBOX/AI_translation/
+    keyword-extraction/output/` — working/draft output pending human review, not `2-RAILS/`
+    (which requires per-claim cited status this candidate list doesn't have yet). Promotes to
+    `3-TRANSFORMATIONS/Wikipedia/<corpus>/terms.yaml` only after human approval.
+  - **Composite weights (open question, §5):** used A 0.6 / B 0.25 / C 0.15 as a first pass
+    (min-max normalized per signal, each signal itself an average of a count- and a
+    spread-subcomponent) — provisional, pending human sanity-check of the resulting ranking.
+  - **Transclusion-anchor assumption broken:** Step 4's design assumed root-verse quotes are
+    machine-identifiable via ingest-pipeline transclusion tags. The commentaries in this vault
+    (re-ingested 2026-08-05–08) don't have those yet (`status: 0-raw`, 0 anchors). Substituted a
+    similarity-based quote detector (difflib, ≥0.8 ratio against actual root-text lines) —
+    same purpose, different mechanism. Revisit once `kwiki commentaries` promotion actually runs.
+  - **Result validates the attention-beats-presence design**: pre-Signal-A/B, raw presence
+    ranking put Tibetan intensifier particles (རབ་ཏུ་, ཤིན་ཏུ་, ཉིད, མ་ལུས) in the top 20 —
+    exactly the §4.1 distortion. None survive into the final top 60 once claim-density and
+    structure are folded in; formula word ཕྱག་འཚལ་ ("homage," in every stanza) lands at rank 17,
+    not rank 1. First empirical confirmation the design does what it was meant to.
+  - **Orthographic-variant merging needed and not previously specified**: added a
+    tsheg/whitespace-insensitive + Sanskrit-anusvara-mark (U+0F83 ↔ U+0F7E) equivalence pass
+    before final ranking, catching 3 doublet clusters (e.g. ཧཱུྃ།/ཧཱུཾ།) that two independent
+    Signal-A agents flagged independently. Should be folded into Step 3's registry-build going
+    forward rather than left to a late merge pass.
 - **2026-08-09** — Step 0 input generated: literal English translation of the root text
   (critical edition, post-2026-08-07 resegmentation) via `zeroshot-translator` on
   gemini-3.5-flash, pada-aligned, all 29 block IDs preserved. Lives at

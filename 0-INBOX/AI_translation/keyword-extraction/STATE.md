@@ -18,7 +18,7 @@ everything here is a working draft pending human approval (Step 6 gate).
 
 ---
 
-## Status: Steps 0–4 and 5B complete; Step 5A at 16/16 (one retry)
+## Status: pipeline complete through Step 5 — ranked list ready for human review (Step 6)
 
 | Step | What | Output | State |
 |---|---|---|---|
@@ -29,9 +29,23 @@ everything here is a working draft pending human approval (Step 6 gate).
 | — | Regroup into Tibetan term registry (by Tibetan term, not English surface form) | `output/tibetan_term_registry.json` (370 unique terms) | done |
 | 4 | Quote-excluded frequency count, root + 16 commentaries | `output/frequency_matrix.json` | done |
 | 5B | Structural signal — TOC-tree node-title matches, all 16 commentaries | `output/signal_b_structure.json` | done |
-| 5A | Claim-density tagging, 16 parallel agents (one per commentary's tree-guided claims file) | `output/signal_a/<id>.json` | **16/16 dispatched** — 15 landed clean; `palden-sherab` (282 claims) stalled once and was relaunched; awaiting completion |
-| 5 | Composite score (A dominant, B secondary, C tie-breaker) | not yet written | **next** |
-| 6 | Ranked list → human review | not yet written | **next** |
+| 5A | Claim-density tagging, 16 parallel agents (one per commentary's tree-guided claims file) | `output/signal_a/<id>.json` | done — all 16 landed (`palden-sherab`, 282 claims, needed one retry after a stall) |
+| 5 | Composite score (A dominant 0.6, B secondary 0.25, C tie-breaker 0.15) | `output/ranked_keywords.json` (full, 367 terms), `output/ranked_keywords_top60.md` (review-friendly table) | **done** |
+| 6 | Ranked list → human review | — | **awaiting you** — this is the stopping point; nothing downstream (terms.yaml, kwiki ledger) is touched without approval |
+
+**Variant merge:** 370 → 367 terms after collapsing three orthographic-doublet clusters found by
+scanning all terms for tsheg/whitespace-insensitive + anusvara-mark (U+0F83 ྃ ↔ U+0F7E ཾ)
+equivalence: `ཧཱུྃ།`/`ཧཱུཾ།`, `ཡི་གེ་ཧཱུཾ།`/`ཡི་གེ་ཧཱུྃ།`, `ཏུ་ཏྟྭ་ར།`/`ཏུཏྟྭ་ར།` — the anusvara doublet is also
+attested in the root text's own critical-edition witness apparatus (homages 5/14), so this is a
+real, recognized spelling variation, not a typo.
+
+**Result validates the design.** Before Signal A/B, raw presence-ranking put Tibetan
+intensifier particles (རབ་ཏུ་, ཤིན་ཏུ་, ཉིད, མ་ལུས) in the top 20 — exactly the distortion §4.1
+of the methodology doc predicts. None of them survive into the final top 60; the composite
+ranking correctly promotes doctrinally substantive terms (སྒྲོལ་མ, disease/protection vocabulary
+tied to the "sixteen fears" theme, iconographic details) instead. `ཕྱག་འཚལ།` ("homage" — present
+in literally every stanza-opening) lands at rank 17, not rank 1, confirming attention correctly
+discounts pure formula-word frequency.
 
 ---
 
@@ -91,17 +105,12 @@ everything here is a working draft pending human approval (Step 6 gate).
 
 ## Next steps
 
-1. Confirm `palden-sherab` Signal A landed (retry in flight as of this writing).
-2. Aggregate A + B + C into one composite ranking; merge the flagged near-duplicate mantra
-   spellings first.
-3. Write the ranked term list to this folder for human review. **Do not** auto-write to
-   `3-TRANSFORMATIONS/Wikipedia/tara21/terms.yaml` or seed any ledger — that requires explicit
-   human approval per the methodology doc's Step 6 and the vault's own transformation-write
-   rules.
-4. Append a dated changelog entry to `keyword-extraction-methodology.md` recording this run's
-   decisions (already partly captured there as of 2026-08-09; needs the Step 3-5 findings above
-   folded in).
-5. Out of scope for this pipeline, but blocking actual article generation downstream: the kwiki
+1. **Human review of `output/ranked_keywords_top60.md`** — this is the Step 6 gate. Composite
+   weights (0.6/0.25/0.15) are provisional per the methodology doc's own open question; sanity-
+   check the ranking and adjust if a specific term's placement looks wrong before approving.
+2. Once approved: promote the top-N into `3-TRANSFORMATIONS/Wikipedia/tara21/terms.yaml` with
+   `status: candidate` (never auto-written by this pipeline — a deliberate human step).
+3. Out of scope for this pipeline, but blocking actual article generation downstream: the kwiki
    `tara21` corpus's own `aligned.json`/`terms.yaml`/ledger were deleted in the 2026-08-04
    backup and need regenerating before any ranked term here can actually produce an article —
    see the wikipedia pipeline's own `STATE.md`.
