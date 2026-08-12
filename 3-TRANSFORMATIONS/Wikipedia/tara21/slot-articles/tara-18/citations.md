@@ -1,6 +1,6 @@
 ---
 topic: tara-18
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-18.md
@@ -86,7 +86,7 @@ None. Every `commentary:claim-id` attestation cited anywhere on `2-RAILS/Claims/
 
 ## Verification
 
-Every direct quotation in `article.wiki` was located character-for-character (whitespace-collapsed) in the exact `1-SOURCES/` commentary file and block named in its claim's `Cite:` field. Result: **24/24 PASS**.
+Every direct quotation in `article.md` was located character-for-character (whitespace-collapsed) in the exact `1-SOURCES/` commentary file and block named in its claim's `Cite:` field. Result: **24/24 PASS**.
 
 | # | Commentary | Quotation (first ~20 chars) | Cite block | Result |
 |---|---|---|---|---|

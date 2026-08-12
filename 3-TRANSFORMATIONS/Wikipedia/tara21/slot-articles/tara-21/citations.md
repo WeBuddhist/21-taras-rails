@@ -1,6 +1,6 @@
 ---
 topic: tara-21
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-21.md
@@ -30,7 +30,7 @@ status: draft
 
 All sixteen commentaries listed in `2-RAILS/Claims/tara-21.md`'s `sources:` frontmatter contribute
 claims to this slot (the consolidated page's own "Commentaries silent on this topic" note records
-zero silent commentaries), and all sixteen are cited in `article.wiki`.
+zero silent commentaries), and all sixteen are cited in `article.md`.
 
 ## Reference map
 
@@ -133,11 +133,11 @@ resolve.
   excluding ref text, well above the spec's 1,500-syllable non-blocking-warning threshold — no
   warning needed.
 - **Related-pages link** `[[ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི་]]` targets `tara-20`'s own bold-lead
-  title (verified against `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-20/article.wiki`,
+  title (verified against `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-20/article.md`,
   which already exists in this vault) rather than an invented label — this slot is the last
   (twenty-first and final) homage, so only one adjacent Tārā exists to link forward from; there is
   no twenty-second homage to link to. `[[སྒྲོལ་མ་]]` is a general-topic red link (the deity herself),
-  matching the precedent set by `tara-01/article.wiki`'s inclusion of a broader-topic related link
+  matching the precedent set by `tara-01/article.md`'s inclusion of a broader-topic related link
   alongside the root text and adjacent-verse links.
 - **`sangye-nyentrul`'s raw file frontmatter has an empty `title_in_english` field.** No English
   title exists to offer as a gloss; the bibliography and refs use the Tibetan title only, matching
@@ -148,7 +148,7 @@ resolve.
 Every direct quotation was located character-for-character (whitespace-collapsed, NFC-normalized)
 in the `1-SOURCES/` file its claim's `Cite:` field names. This was done twice: once during drafting
 (spot checks via `grep` against each planned quotation's exact block ID), and once as a final
-automated pass that extracted every quoted span from `article.wiki` and confirmed it as an exact
+automated pass that extracted every quoted span from `article.md` and confirmed it as an exact
 substring of its cited commentary's full source file. The second pass caught the two errors
 described in Warnings above; both were corrected and the pass was re-run to confirm PASS.
 

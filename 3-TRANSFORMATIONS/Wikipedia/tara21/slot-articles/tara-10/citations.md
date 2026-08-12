@@ -1,6 +1,6 @@
 ---
 topic: tara-10
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-10.md
@@ -38,7 +38,7 @@ consulted but not used" below for what was deliberately left out and why, consis
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, hand-formatted `<AUTHOR>། <TITLE>།`
+One row per named `<ref>` in `article.md` (commentary-level, hand-formatted `<AUTHOR>། <TITLE>།`
 form, no claim ID inside the wikitext itself). "Claim ID(s) used" lists every raw claim actually
 drawn on for that commentary's citations in the article; "Quotation" gives only the claims quoted
 verbatim (`" "`) in the article body.
@@ -113,7 +113,7 @@ its named commentary's raw file under `2-RAILS/Claims/raw/tree-guided/`, and eve
 
 ## Verification
 
-All 22 verbatim quotations in `article.wiki` were located character-for-character
+All 22 verbatim quotations in `article.md` were located character-for-character
 (whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field. Full pass,
 no failures, nothing removed except the one shad noted above (adjusted before finalizing, not a
 failure of the underlying claim).
@@ -145,7 +145,7 @@ failure of the underlying claim).
 
 **22/22 quotations PASS. 0 FAIL.**
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above.
 - V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is deliberately

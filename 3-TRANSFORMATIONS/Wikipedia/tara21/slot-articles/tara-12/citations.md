@@ -1,6 +1,6 @@
 ---
 topic: tara-12
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-12.md
@@ -80,7 +80,7 @@ None. Every attestation cited on `2-RAILS/Claims/tara-12.md` was successfully lo
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault rule that transformations generate from `status: complete` rails, this article was drafted from a consolidated claims page (`2-RAILS/Claims/tara-12.md`) still marked `draft`. This is a known, accepted exception for this run, per the task's own instruction — a human contributor is accepting that risk explicitly. This article's own `status` is `draft` below and should not be treated as publishable until the source rails page is promoted to `complete` (or the discrepancy is otherwise resolved).
 - **A discrepancy was found between the consolidated page's prose and the raw claims files' verbatim text.** `2-RAILS/Claims/tara-12.md` states (under "Structural placement and root-verse citation") that `anon-trinle-char:c-3-12-3` and `palden-sherab:c-3-1-12-0-2` "both read line 3 as རལ་པའི་ཁྲོད་ན (locative ན), matching most others, while tenzin-dhonzang:c-4-12-2 and tsultrim-namdak:c-2-1-2-1-41 read རལ་པའི་ཁྲོད་ནས (ablative ནས)." Direct inspection of the raw files shows the opposite grouping: `anon-trinle-char:c-3-12-3`, `tenzin-dhonzang:c-4-12-2`, and `tsultrim-namdak:c-2-1-2-1-41` all read the ablative "རལ་པའི་ཁྲོད་ནས", while `palden-sherab:c-3-1-12-0-2`, `sungrab-tulku:c-15-2`, and `tenga-tulku:c-1-2-2-1-2-5-2` read the locative "རལ་པའི་ཁྲོད་ན". This article's lead quotation follows the raw claims file's own verbatim text (anon-trinle-char's actual "ཁྲོད་ནས"), per Rule 3 (quotations come only from the resolved claim's own བོད་ཡིག field, never from the consolidated page's description of it). A human reviewer should correct this line in `2-RAILS/Claims/tara-12.md` itself.
-- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") is not applicable until the corpus gets a `sources.yaml`.
+- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") is not applicable until the corpus gets a `sources.yaml`.
 - **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"`. The bibliography and in-text ref cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified), matching the convention already used in the sibling article `tara-02`.
 - **No refs carry a year or page.** None of the sixteen raw files' frontmatter records a publication year or page number, so no `<ref>` in this article carries one, per the spec's own allowance (§7).
 - **Article length.** The prose body (lead through བསྡུས་དོན།, excluding refs, the related-pages list, the reference list, and the bibliography) runs to roughly 950–1,000 Tibetan tsheg-separated units — short of the spec's 1,500-syllable non-blocking guidance (§7). This is a warning, not a validator failure.
@@ -89,7 +89,7 @@ None. Every attestation cited on `2-RAILS/Claims/tara-12.md` was successfully lo
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names, checked programmatically against each raw claims file's own བོད་ཡིག field:
+Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names, checked programmatically against each raw claims file's own བོད་ཡིག field:
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|

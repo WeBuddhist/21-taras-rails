@@ -1,6 +1,6 @@
 ---
 topic: origin
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/origin.md
@@ -21,7 +21,7 @@ status: draft
 This is one of the skill's two documented multi-topic cases ("`origin` (optionally with the origin
 material in `tara-01`) → the article on Tārā the deity"). Before drafting, `2-RAILS/Claims/tara-01.md`
 and its published article at
-`3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.wiki` were read in full to decide
+`3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md` were read in full to decide
 whether tara-01's own origin material belonged here too.
 
 **Finding: tara-01 carries a *different* origin narrative, already fully published, and `origin.md`
@@ -30,7 +30,7 @@ tears and lotus of the protector of the three worlds") is attested by **all fift
 contributing commentaries and is tied directly to the root verse's own fourth line
 (`འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། གེ་སར་ཕྱེ་བ་ལས་ནི་བྱུང་མ།`) — Avalokiteśvara weeping at
 saṃsāra's inexhaustibility, a lotus growing from his tears, Tārā arising from its pollen. That
-narrative is already drafted, cited, and quoted in full in `tara-01/article.wiki`'s own
+narrative is already drafted, cited, and quoted in full in `tara-01/article.md`'s own
 `== ལོ་རྒྱུས། ==` section (15 attesting commentaries, 1 direct quotation, PASS-verified in that
 article's own citations.md).
 
@@ -51,7 +51,7 @@ specifically, `sungrab-tulku`'s unique recitation-benefit coda, and `tenzin-dhon
 of the tantra's transmission into Jambudvipa). This is genuinely distinct content, not a duplicate of
 tara-01's tears/lotus story, so it is exactly what belongs in a standalone origin article.
 
-**Resolution:** tara-01 material is not incorporated into `article.wiki`. Instead, `tara-01` is added to
+**Resolution:** tara-01 material is not incorporated into `article.md`. Instead, `tara-01` is added to
 `== འབྲེལ་ཡོད་ཤོག་ངོས། ==` as a related page, so a reader following the origin article to the
 homage-1 profile finds the complementary tears/lotus narrative there.
 

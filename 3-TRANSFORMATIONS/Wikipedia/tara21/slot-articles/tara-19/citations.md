@@ -1,6 +1,6 @@
 ---
 topic: tara-19
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-19.md
@@ -30,7 +30,7 @@ status: draft
 
 All sixteen commentaries listed in `2-RAILS/Claims/tara-19.md`'s `sources:` frontmatter contribute
 claims to this slot (the consolidated page's own "Commentaries silent on this topic" note records
-zero silent commentaries), and all sixteen are cited in `article.wiki`.
+zero silent commentaries), and all sixteen are cited in `article.md`.
 
 ## Reference map
 
@@ -98,11 +98,11 @@ across all sixteen raw tree-guided files, corresponding to every claim ID listed
   treated as not-applicable to this skill's output; a human should confirm this reading.
 - **`anon-trinle-char`'s author is unattested.** Its raw file's frontmatter records
   `author: "unknown"`; the article and bibliography follow this vault's established convention
-  (matching `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.wiki`) of writing
+  (matching `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md`) of writing
   "མཛད་པ་པོ་མ་གྲགས།" ("author unattested") in place of a fabricated name.
 - **One judgment call on V8 ("every section contains ≥1 citation").** The tail sections
   (`འབྲེལ་ཡོད་ཤོག་ངོས།`, `ལུང་ཁུངས།`, `དཔྱད་གཞིའི་ཡིག་ཆ།`) carry no `<ref>` tags, matching the
-  wikitext spec's own doctrinal-term skeleton and the precedent set by `tara-01/article.wiki`.
+  wikitext spec's own doctrinal-term skeleton and the precedent set by `tara-01/article.md`.
   V8 is read as applying to substantive body sections only. `མཚན་གྱི་ངེས་ཚིག`, `སྐུ་ཡི་རྣམ་པ།`,
   `ཕྲིན་ལས་དང་ནུས་མཐུ།`, and `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` each carry multiple citations. No
   `ལོ་རྒྱུས།` or `བསྡུས་དོན།` section is emitted — `tara-19.md` attests no origin narrative for

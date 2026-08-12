@@ -1,6 +1,6 @@
 ---
 topic: tara-16
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-16.md
@@ -36,7 +36,7 @@ questions and every section — resolved successfully to a བོད་ཡིག
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, per the skill's hand-formatted ref
+One row per named `<ref>` in `article.md` (commentary-level, per the skill's hand-formatted ref
 form — `<AUTHOR>། <TITLE>།`, no claim ID inside the wikitext itself). "Claim ID(s) used" lists every
 raw claim actually drawn on (quoted or paraphrased) for that commentary's citations in the article.
 
@@ -103,7 +103,7 @@ quotations per major section"), not a resolution problem.
 - **One quotation corrected against 1-SOURCES.** `tsultrim-namdak`'s raw claim `c-3-19` transcribes
   the source phrase as "བྱད་མའི་ བཟློག་པའི་" (with an extra འི་), but
   `1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-242` itself reads
-  "བྱད་མ་ བཟློག་པའི་" (no འི་). The quotation in `article.wiki` uses the corrected, source-matching
+  "བྱད་མ་ བཟློག་པའི་" (no འི་). The quotation in `article.md` uses the corrected, source-matching
   form ("བྱད་མ་བཟློག་པའི་") per skill Rule 4 ("a quotation that fails is removed or corrected from
   the བོད་ཡིག field... and the failure is recorded"). The same raw claim's བོད་ yig field also
   contains internal "…" ellipses spanning non-contiguous source passages (^0-241–^0-244); only the
@@ -151,7 +151,7 @@ quotations per major section"), not a resolution problem.
 
 ## Verification
 
-Every quotation in `article.wiki` was located character-for-character (whitespace-collapsed) in
+Every quotation in `article.md` was located character-for-character (whitespace-collapsed) in
 the `1-SOURCES/` file named by its claim's `Cite:` field, using a script that normalised whitespace
 on both sides and searched the full text of every file in `1-SOURCES/Commentaries/`. 41 distinct
 quoted spans were checked (31 substantial multi-word/sentence quotations plus 10 shorter
@@ -201,7 +201,7 @@ Ten further short quoted terms (`བཅུ་དྲུག་པ`, `འཕྲི�
 checked by the same script and also PASS — each is a short compound or ordinal drawn verbatim from
 the claim text already covered by an adjacent full quotation or ref in the same clause.
 
-Mechanical checks against `article.wiki` (spec §7 validator, V1–V12):
+Mechanical checks against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — 41/41, see table and note above.
 - V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is hand-formatted

@@ -1,6 +1,6 @@
 ---
 topic: wheel
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/wheel.md
@@ -175,7 +175,7 @@ Every direct quotation was located character-for-character (whitespace-collapsed
 in two different sections, both instances independently verified). No quotation was dropped or
 corrected during this run; every quotation drafted survived verification.
 
-Mechanical spec checks also run against `article.wiki`: no `{{Reflist}}`; `<references />` present;
+Mechanical spec checks also run against `article.md`: no `{{Reflist}}`; `<references />` present;
 all 16 named refs have exactly one full definition each, occurring before any self-closing reuse (60
 total `<ref>` uses); no Latin characters outside `<ref name="...">` attributes; every bold span and
 every wikilink target ends in tsheg at the markup boundary; last three sections in fixed order

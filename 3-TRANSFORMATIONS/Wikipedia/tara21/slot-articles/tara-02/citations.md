@@ -1,6 +1,6 @@
 ---
 topic: tara-02
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-02.md
@@ -75,7 +75,7 @@ None. Every attestation cited on `2-RAILS/Claims/tara-02.md` that this draft att
 ## Warnings
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault rule that transformations generate from `status: complete` rails, this article was drafted from a consolidated claims page still marked `draft`. A human contributor is accepting that risk explicitly by running this skill against it; the article's own `status` is set to `draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-02.md` itself is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the fourteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). This means validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
+- **No public URLs exist for any of the fourteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). This means validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
 - **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"` and `author_in_english: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified) rather than inventing a name — this is itself attested by the frontmatter, not fabricated, but a reviewer should confirm this is the vault's preferred convention for anonymous commentaries.
 - **Several refs lack year and page** (no publication year or page number is recorded in any of the fourteen raw files' frontmatter for this corpus), so none of the fourteen `<ref>`s in this article carry a year or page, per the spec's own allowance ("may be omitted when genuinely unknown — but the review report lists every ref missing them").
 - **Article length is short of the spec's 1,500-Tibetan-syllable guidance.** The prose body (lead through the last content section, excluding the reference list, bibliography, and the citation text embedded in `<ref>` tags) runs to roughly 460–470 Tibetan syllables (tsheg-separated units); counting everything including ref/bibliography text, the whole file is roughly 1,450 tsheg. This is a non-blocking warning per the spec (§7), not a validator failure.
@@ -84,7 +84,7 @@ None. Every attestation cited on `2-RAILS/Claims/tara-02.md` that this draft att
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki`, plus two short verbatim (unquoted-in-prose) phrases retained from source wording, was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
+Every quotation wrapped in `" "` in `article.md`, plus two short verbatim (unquoted-in-prose) phrases retained from source wording, was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|

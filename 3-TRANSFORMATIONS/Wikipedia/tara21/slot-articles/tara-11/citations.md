@@ -1,6 +1,6 @@
 ---
 topic: tara-11
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-11.md
@@ -41,7 +41,7 @@ located successfully in its named commentary's file under `2-RAILS/Claims/raw/tr
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, per the skill's hand-formatted ref
+One row per named `<ref>` in `article.md` (commentary-level, per the skill's hand-formatted ref
 form — `<AUTHOR>། <TITLE>།`, no claim ID inside the wikitext itself). The "Claim ID(s)" column
 lists every raw claim actually drawn on for that commentary's citations in the article (whether
 quoted or paraphrased); the "Quotation" column gives only claims quoted verbatim (in `" "`).
@@ -94,7 +94,7 @@ quoted or paraphrased); the "Quotation" column gives only claims quoted verbatim
   `c-3-11-7`, `c-3-11-12`, and `c-3-11-13` (the iron-hook/HŪṂ-essence conclusion) were resolved
   during claim-resolution but their content was judged redundant with material already carried by
   `c-3-11-4/-5/-8` and the iconography quotes (`c-3-11-14/-15`) — they were not drawn on for any
-  sentence in `article.wiki` and so are correctly absent from the reference-map row above (an
+  sentence in `article.md` and so are correctly absent from the reference-map row above (an
   earlier draft of this file over-listed them; corrected here).
 
 ## Unresolvable attestations
@@ -153,12 +153,12 @@ page already made, not because it failed to resolve.
   (`c-1-2-2-1-2-4-1/-2/-3`) in fact cite a single block, `^0-18`, in
   `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md` — the reference map above
   has been corrected accordingly. This affects only the citation record; `lobsang-dawa` is used
-  solely for paraphrase in `article.wiki` (no direct quotation), and the paraphrased content matches
+  solely for paraphrase in `article.md` (no direct quotation), and the paraphrased content matches
   the now-verified claim text.
 
 ## Verification
 
-All 16 verbatim quotations in `article.wiki` were located character-for-character
+All 16 verbatim quotations in `article.md` were located character-for-character
 (whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field. Full pass,
 no failures, nothing removed or corrected.
 
@@ -183,7 +183,7 @@ no failures, nothing removed or corrected.
 
 **16/16 quotations PASS. 0 FAIL.**
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above.
 - V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is deliberately

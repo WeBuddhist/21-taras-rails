@@ -1,6 +1,6 @@
 ---
 topic: three-jewels
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/three-jewels.md
@@ -27,7 +27,7 @@ scoped to what *this text's* commentaries say connecting Tārā's ninth-homage m
 and doctrinal readings to the Three Jewels — not a general Buddhist-doctrine article on the
 Three Jewels, since a substantial general article already exists on bo.wikipedia (see Warnings).
 
-Named refs in `article.wiki` map one ref name to one commentary (its hand-formatted
+Named refs in `article.md` map one ref name to one commentary (its hand-formatted
 `<AUTHOR>། <TITLE>།` citation is identical on every reuse, since no page numbers or URLs are
 available yet — see Rule 7 / Warnings), so the same name is defined once and self-closed on
 every later citation of that commentary.
@@ -106,7 +106,7 @@ choice, not a resolution failure — they remain available for a future expansio
 
 ## Unresolvable attestations
 
-None. Every claim ID actually cited in `article.wiki` was found and resolved in its stated raw
+None. Every claim ID actually cited in `article.md` was found and resolved in its stated raw
 tree-guided file on first lookup; nothing was dropped for failing to resolve.
 
 ## Warnings

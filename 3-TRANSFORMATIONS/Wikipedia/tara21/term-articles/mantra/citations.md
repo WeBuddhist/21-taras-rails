@@ -1,6 +1,6 @@
 ---
 topic: mantra
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/mantra.md
@@ -187,7 +187,7 @@ by this article resolved cleanly against its raw tree-guided file.
 
 Every quotation was located character-for-character (whitespace-collapsed) in the
 `1-SOURCES/` file its claim's `Cite:` target names. Two quotations required correction
-before verification passed (recorded below); all quotations in the final `article.wiki`
+before verification passed (recorded below); all quotations in the final `article.md`
 now pass.
 
 | # | Quotation (as drafted) | Claim | Result |

@@ -1,6 +1,6 @@
 ---
 topic: tara-07
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-07.md
@@ -59,9 +59,9 @@ None. All attestations selected for drafting were successfully resolved through 
 ## Warnings
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, "Do not generate from rails whose `status` is not `complete`"), transformations should only be generated from `status: complete` rails. This article was generated from `2-RAILS/Claims/tara-07.md`, whose frontmatter records `status: draft`, as a known, explicitly accepted exception per the task instructions and per `wiki-article-from-claims` Rule 11. A human contributor should review `2-RAILS/Claims/tara-07.md` for completeness before this article is treated as citation-stable.
-- No commentary in this reference set carries a publication year or page number in its raw file's frontmatter — every `<ref>` in `article.wiki` is therefore missing year/page (topic 324 rule ༦ notes this as a visible gap, not a blocking one). This mirrors the existing tara-01/02/03 slot articles in this same folder, none of which carry year/page either.
+- No commentary in this reference set carries a publication year or page number in its raw file's frontmatter — every `<ref>` in `article.md` is therefore missing year/page (topic 324 rule ༦ notes this as a visible gap, not a blocking one). This mirrors the existing tara-01/02/03 slot articles in this same folder, none of which carry year/page either.
 - No public URL exists yet for any of these eleven commentaries — per the wikitext spec §2, the missing-URL gap goes here rather than a fabricated or `dummy.com` link. None was emitted.
-- The lead's bolded name, "དམག་དང་ཐོག་སེར་འཇོམས་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ", is the naming position with the widest attestation in this packet (3 of 16 commentaries: Palden Sherab, Sangye Nyentrul, Tsultrim Namdak) — not a vault-wide consensus name, since the consolidated page records four genuinely divergent naming positions for this homage (2, 3, 1, and 1 commentaries respectively) with no majority. This follows the precedent already set by `tara-02/article.wiki`, whose lead name is likewise drawn from an attested-but-non-unanimous epithet rather than the consolidated page's own verse-opening heading phrase. All four positions are presented with attribution under `== མཚན་གྱི་ངེས་ཚིག ==`.
+- The lead's bolded name, "དམག་དང་ཐོག་སེར་འཇོམས་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ", is the naming position with the widest attestation in this packet (3 of 16 commentaries: Palden Sherab, Sangye Nyentrul, Tsultrim Namdak) — not a vault-wide consensus name, since the consolidated page records four genuinely divergent naming positions for this homage (2, 3, 1, and 1 commentaries respectively) with no majority. This follows the precedent already set by `tara-02/article.md`, whose lead name is likewise drawn from an attested-but-non-unanimous epithet rather than the consolidated page's own verse-opening heading phrase. All four positions are presented with attribution under `== མཚན་གྱི་ངེས་ཚིག ==`.
 - Five commentaries contributing to `2-RAILS/Claims/tara-07.md` (gendun-gyatso, karma-maitri, drakpa-gyaltsen, pema-namgyal, lobsang-dawa) were not drawn on in this draft at all, to keep the quotation count within the skill's "1–3 verbatim quotations per major section" guidance. Their material (e.g. Pema Namgyal's unique full-mantra citation, Karma Maitri/Gendun Gyatso's "seven worlds" convergence, Drakpa Gyaltsen's fragmented quotation) is available in `2-RAILS/Claims/tara-07.md` for a future expansion of this article.
 - Article length: approximately 900–1,000 Tibetan syllables in the body (rough count), below the spec's non-blocking 1,500-syllable guidance threshold. Flagged per spec §7 Warnings; not a blocking failure.
 
@@ -69,7 +69,7 @@ None. All attestations selected for drafting were successfully resolved through 
 
 All quotations below were located character-for-character (whitespace/tsheg-mark differences aside — none found) in the cited `1-SOURCES/` file at the cited block. Method: `grep` for the block ID in the source file, then direct visual character comparison of the quoted span against the retrieved source line.
 
-| # | Quotation (as it appears in article.wiki) | Source file / block | Result |
+| # | Quotation (as it appears in article.md) | Source file / block | Result |
 |---|---|---|---|
 | 1 | "ཕྱག་འཚལ་ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས།། ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ།། གཡས་བསྐུམས་གཡོན་བརྐྱངས་ཞབས་ཀྱིས་མནན་ཏེ།། མེ་འབར་འཁྲུག་པ་ཤིན་ཏུ་འབར་མ །" | anon-utpala source #^0-35 | PASS |
 | 2 | "ཕྱག་འཚལ་བདུན་པ་རྗེ་བཙུན་མ་གཞན་མཐུ་འཇོམས་མ་" | anon-trinle-char source #^3-7-0 | PASS |

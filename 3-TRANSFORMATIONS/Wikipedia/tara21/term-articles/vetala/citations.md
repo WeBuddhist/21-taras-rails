@@ -1,6 +1,6 @@
 ---
 topic: vetala
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/vetala.md
@@ -34,7 +34,7 @@ status: draft
 
 ## Reference map
 
-Every `<ref name="...">` in `article.wiki` is a hand-formatted `<AUTHOR>། <TITLE>།` citation
+Every `<ref name="...">` in `article.md` is a hand-formatted `<AUTHOR>། <TITLE>།` citation
 (no URLs, years, or page numbers exist for any of these 14 commentaries — see Warnings). The
 table below maps each ref to every raw claim ID it backs in the article, whether or not that
 claim was quoted verbatim.
@@ -90,7 +90,7 @@ in its raw tree-guided claims file.
 
 These attestation IDs from `2-RAILS/Claims/vetala.md` were resolved (བོད་ཡིག, English, and
 `Cite:` extracted and confirmed present in their raw claims file) but were not selected for
-citation in `article.wiki`, per Rule 5's guidance to cite consensus facts to 2–4 representative
+citation in `article.md`, per Rule 5's guidance to cite consensus facts to 2–4 representative
 commentaries rather than exhaustively:
 
 `anon-trinle-char:c-3-6-6`, `anon-trinle-char:c-3-21-3`, `drakpa-gyaltsen:c-1-99`,
@@ -114,10 +114,10 @@ point. None of them contradict what the article says.
    noted for context, but this draft's quotations were independently re-verified from scratch per
    Rule 4 regardless of that prior audit; see Verification below.)
 2. **No URLs, years, or page numbers exist for any of the 14 cited commentaries.** Every `<ref>`
-   in `article.wiki` is the hand-formatted `<AUTHOR>། <TITLE>།` form with no year/page — this
+   in `article.md` is the hand-formatted `<AUTHOR>། <TITLE>།` form with no year/page — this
    applies to all 14 refs without exception.
 3. **`anon-trinle-char`'s author is unattested.** Its raw claims file's own frontmatter records
-   `author: "unknown"`; the ref for this commentary in `article.wiki` reads
+   `author: "unknown"`; the ref for this commentary in `article.md` reads
    "མཛད་པ་པོ་མ་གསལ། [title]།" (author unknown) rather than inventing a name.
 4. **Article length.** A rough tsheg-separated syllable count of the body (headings, wikilinks,
    and `<ref>` content excluded) comes to approximately 944 — below the spec's non-blocking
@@ -146,7 +146,7 @@ point. None of them contradict what the article says.
 
 ## Verification
 
-Every quotation in `article.wiki` was located character-for-character (whitespace/shad-spacing
+Every quotation in `article.md` was located character-for-character (whitespace/shad-spacing
 differences aside) in the `1-SOURCES/` file its claim's `Cite:` target names, checked directly
 against the source file (not against the raw claims file's copy of it):
 

@@ -1,6 +1,6 @@
 ---
 topic: tara-08
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-08.md
@@ -41,7 +41,7 @@ drafted from.
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki`. "Claim ID(s) used" lists every raw claim actually
+One row per named `<ref>` in `article.md`. "Claim ID(s) used" lists every raw claim actually
 drawn on (quoted or paraphrased) for that commentary's citations in the article.
 
 | Ref (named) | Commentary | Claim ID(s) used | Quotation (verbatim བོད་ཡིག, if quoted) | Source block(s) |
@@ -143,7 +143,7 @@ named commentary's raw tree-guided file under `2-RAILS/Claims/raw/tree-guided/`.
 - **`anon-trinle-char`'s author is unattested** in its own raw file's frontmatter (`author: "unknown"`).
   The bibliography and lead ref render this as "(author unclear)" / "མཛད་པ་པོ་གསལ་མེད།" rather than
   omitting the author field silently or fabricating a name — matching the convention already used
-  in the sibling article `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-07/article.wiki`.
+  in the sibling article `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-07/article.md`.
 - **Article length:** the drafted prose body (excluding ref citation text and the bibliography
   list) is approximately 1,300–1,500 Tibetan syllables by tsheg-delimited count — at or just under
   the spec's 1,500-syllable warning threshold. Flagged so a reviewer can judge whether it needs
@@ -157,14 +157,14 @@ named commentary's raw tree-guided file under `2-RAILS/Claims/raw/tree-guided/`.
   homage and no single one commands consensus — see the "Alternate epithets" divergence.
   (2) The two "adjacent Tārā" related-page links (`སྒྲོལ་མ་བདུན་པ་`, `སྒྲོལ་མ་དགུ་པ་`) are
   ordinal-based placeholder red links, matching the convention already established by the sibling
-  article `tara-07/article.wiki` (which itself links forward to `[[སྒྲོལ་མ་བརྒྱད་པ་]]` — an
+  article `tara-07/article.md` (which itself links forward to `[[སྒྲོལ་མ་བརྒྱད་པ་]]` — an
   ordinal placeholder, not this article's actual bold name) rather than by whatever real epithet
   name a future `tara-07`/`tara-09` article might carry.
   (3) `== གཞུང་ལུགས་སོ་སོའི་བཤད་པ། ==` uses four bold sub-labels (`བདུད་ཀྱི་དཔའ་བོའི་ངོས་འཛིན་`,
   `ཁྲོ་གཉེར་གྱིས་གསོད་པའི་ཚད་`, `མཚན་གཞན་བཏགས་ཚུལ་`, `སྦས་དོན་གྱི་བཤད་ལུགས་`) to keep four
   genuinely distinct divergences (Māra's-heroes structure, the wrathful frown's scope, six
   incompatible epithets, and three hidden-meaning schemes) from being flattened into one
-  undifferentiated block — following the precedent already set by `tara-03/article.wiki`'s own
+  undifferentiated block — following the precedent already set by `tara-03/article.md`'s own
   bold sub-labels inside the same section.
   (4) One phrase originally drafted as a three-way verbatim quotation
   (`གཞན་རྒོལ་མཚང་འབྲུ་གཞོམ་པ`, "shatters others' weak points/spells") was caught during
@@ -183,7 +183,7 @@ named commentary's raw tree-guided file under `2-RAILS/Claims/raw/tree-guided/`.
 
 ## Verification
 
-All 26 verbatim quotations in `article.wiki` were located character-for-character
+All 26 verbatim quotations in `article.md` were located character-for-character
 (whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field, checked
 directly against the source file (not only the raw claims file) via `grep` on the cited block ID.
 Full pass, no failures, nothing removed except the one corrected three-way quotation noted in
@@ -224,7 +224,7 @@ appear in the table below).
 **26/26 quotations PASS (one quote, "གཞན་མི་རྒྱལ་བའི་དཔའ་མོ", is triple-attested and verified
 against all three of its cited sources individually — rows 22/22b/22c). 0 FAIL.**
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above; all 26 quotations checked directly against
   the named `1-SOURCES/` file, not merely against the raw claims file's transcription.

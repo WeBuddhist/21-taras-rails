@@ -384,7 +384,7 @@ These skills generate encyclopedic output for bo.wikipedia from the vault's rail
 ### `wiki-article-from-claims` **[exists]**
 **Purpose:** Draft a cited Tibetan Wikipedia article from one consolidated claims topic page, resolving every citation through raw claim IDs to verbatim commentary quotations and verifying each quotation against `1-SOURCES/`.
 **Inputs:** A spine slot ID whose consolidated page exists in `2-RAILS/Claims/`, that page's raw tree-guided claims files, and the pipeline's wikitext spec as the output contract.
-**Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.wiki` plus a `citations.md` audit trail mapping every ref to claim IDs and source blocks.
+**Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.md (Obsidian-viewable fenced wikitext)` plus a `citations.md` audit trail mapping every ref to claim IDs and source blocks.
 → [`wiki-article-from-claims/SKILL.md`](wiki-article-from-claims/SKILL.md)
 
 ### `article-subject-filter` **[exists]**

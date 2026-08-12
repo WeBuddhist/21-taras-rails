@@ -1,6 +1,6 @@
 ---
 topic: tara-01
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-01.md

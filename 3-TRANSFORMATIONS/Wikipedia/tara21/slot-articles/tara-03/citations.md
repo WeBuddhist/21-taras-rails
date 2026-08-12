@@ -1,6 +1,6 @@
 ---
 topic: tara-03
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-03.md
@@ -34,7 +34,7 @@ consolidated page resolved successfully; none are unresolvable (see below).
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, per the skill's hand-formatted
+One row per named `<ref>` in `article.md` (commentary-level, per the skill's hand-formatted
 ref form — `<AUTHOR>། <TITLE>།`, no claim ID inside the wikitext itself). The "Claim ID(s)" column
 lists every raw claim actually drawn on for that commentary's citations in the article; the
 "Quotation" column gives only the claims that were quoted verbatim (in `" "`) in the article body.
@@ -107,7 +107,7 @@ restatements or fragments, not omissions caused by a resolution failure.
 
 ## Verification
 
-All 13 verbatim quotations in `article.wiki` were located character-for-character
+All 13 verbatim quotations in `article.md` were located character-for-character
 (whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field. Full pass,
 no failures, nothing removed or corrected.
 
@@ -129,7 +129,7 @@ no failures, nothing removed or corrected.
 
 **13/13 quotations PASS. 0 FAIL.**
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above.
 - V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is deliberately

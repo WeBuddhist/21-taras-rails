@@ -1,6 +1,6 @@
 ---
 topic: tara-mantra
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-mantra.md
@@ -121,7 +121,7 @@ No attestation was attempted and failed to resolve.
   Rather than risk a mismatched literal quotation, the article describes the anecdote's content in
   unquoted prose, drawn from the claim's own English gloss.
 - **Article length**: the body (lead through `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`) is substantially longer and
-  denser than `slot-articles/tara-01/article.wiki` (which ran ~2,150 Tibetan syllables) — comfortably
+  denser than `slot-articles/tara-01/article.md` (which ran ~2,150 Tibetan syllables) — comfortably
   above the spec's 1,500-syllable non-blocking-warning threshold. No warning needed on this point.
 - **`sangye-nyentrul`'s raw file frontmatter has an empty `title_in_english` field**, matching the same
   condition already documented in `slot-articles/tara-01/citations.md`; no English title is offered.

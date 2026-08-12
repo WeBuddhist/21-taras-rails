@@ -1,6 +1,6 @@
 ---
 topic: gdon
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/gdon.md
@@ -40,7 +40,7 @@ directly in the article body; the 58th (`tsultrim-namdak:c-2-1-2-1-74`) is quote
    / གཞུང་ལུགས་སོ་སོའི་བཤད་པ། / བསྡུས་དོན། / འབྲེལ་ཡོད་ཤོག་ངོས། / ལུང་ཁུངས། / དཔྱད་གཞིའི་ཡིག་ཆ།),
    not the SKILL.md's deity-profile skeleton, since གདོན is an entity-class term, not one of the 21
    Tārā profiles. `མཚན་ཉིད།` was subdivided with bold sub-labels (following the same allowance the
-   skill's deity-profile precedent, `tara-03/article.wiki`, uses for `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`) to
+   skill's deity-profile precedent, `tara-03/article.md`, uses for `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`) to
    hold the packet's five sub-facets (mechanism, verse-6 epithet/sādhana, sixteen-fears item,
    benefits verse, scattered mentions) without inventing extra `==` sections beyond the fixed
    skeleton.
@@ -50,7 +50,7 @@ directly in the article body; the 58th (`tsultrim-namdak:c-2-1-2-1-74`) is quote
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, hand-formatted `<AUTHOR>། <TITLE>།`
+One row per named `<ref>` in `article.md` (commentary-level, hand-formatted `<AUTHOR>། <TITLE>།`
 form per skill Rule 7 — no claim ID inside the wikitext itself). "Claim ID(s) used" lists every raw
 claim actually drawn on for that commentary's citations in the article; "Quotation" gives only the
 claims that were quoted verbatim (in `" "`) in the article body.
@@ -126,7 +126,7 @@ failing to resolve, and every one of the packet's 58 distinct claim IDs is drawn
   epithet/sādhana, sixteen-fears item, benefits verse, scattered mentions) rather than split into
   additional top-level `==` sections, following the doctrinal-term skeleton's own allowance (a body
   section organised differently may take a different heading provided it ends in a shad and is
-  claim-backed) and the precedent already set in `slot-articles/tara-03/article.wiki`'s
+  claim-backed) and the precedent already set in `slot-articles/tara-03/article.md`'s
   `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`. This keeps the fixed five-section skeleton intact while still giving
   each of the packet's five sub-facets its own labelled block.
 - **The verse-6 epithet divergence (`'joms` "destroys" vs `'dzoms` "gathers") is presented inline
@@ -146,7 +146,7 @@ failing to resolve, and every one of the packet's 58 distinct claim IDs is drawn
 
 ## Verification
 
-All 35 verbatim quotations in `article.wiki` were checked character-for-character
+All 35 verbatim quotations in `article.md` were checked character-for-character
 (whitespace-collapsed) against the `1-SOURCES/` file named by their claim's `Cite:` field, using a
 normalized-substring match. One failure was found and corrected before finalizing (see below); the
 final file passes in full.
@@ -195,7 +195,7 @@ word is referenced again in a later clause; each recurrence was independently re
 assumed from the first check). **2 FAILs found and corrected during the verification pass (never
 shipped uncorrected)** — see rows 10 and 17 above (the `འཛོམ་`→`འཛོམས་` and the stray-shad fixes).
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above; verified programmatically with a
   whitespace-collapsed normalized-substring check against each claim's cited `1-SOURCES/` file.

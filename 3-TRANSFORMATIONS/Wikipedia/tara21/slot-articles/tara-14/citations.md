@@ -1,6 +1,6 @@
 ---
 topic: tara-14
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-14.md
@@ -64,7 +64,7 @@ None. Every `commentary:claim-id` attestation drawn upon from `2-RAILS/Claims/ta
 ## Warnings
 
 - **`rails_status: draft`.** The consolidated page `2-RAILS/Claims/tara-14.md` carries `status: draft`, not `complete`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9), transformations should generate only from `status: complete` rails; this run is a known, explicitly accepted exception per the task instructions and skill Rule 11. A human contributor should confirm the consolidated page's readiness before treating this article as more than a draft.
-- **All 16 refs are missing year and page.** None of the sixteen raw tree-guided files' frontmatter carries a publication year or page number for its source commentary, so every `<ref>` in `article.wiki` is `AUTHOR། TITLE།` only, per the hand-formatted form in Rule 7. This mirrors the existing `tara-02` article's precedent in this vault.
+- **All 16 refs are missing year and page.** None of the sixteen raw tree-guided files' frontmatter carries a publication year or page number for its source commentary, so every `<ref>` in `article.md` is `AUTHOR། TITLE།` only, per the hand-formatted form in Rule 7. This mirrors the existing `tara-02` article's precedent in this vault.
 - **No public URL exists for any of the sixteen sources.** Per the wikitext spec, refs never carry a fabricated or `dummy.com` URL; none were emitted. All are plain-text citations to Tibetan-title commentaries with no external link.
 - **`bsdus don` (summary), `'brel yod shog ngos` (related pages), `lung khungs` (references), and `dpyad gzhi'i yig cha` (bibliography) sections carry no per-line citation beyond what's already established** — the summary section restates already-cited claims (2 refs attached), while the related-pages/references/bibliography sections are structural, not prose-assertive, matching the accepted `tara-02` article's own precedent in this vault.
 - **Related-page targets are red links by design.** `སྒྲོལ་མ་དགྲ་དཔུང་འཇོམས་མ་` (tara-13) and `སྒྲོལ་མ་རབ་ཏུ་ཞི་མ་` (tara-15) are drawn from tsultrim-namdak's own claim titles for the adjacent verses (c-3-16, c-3-18 in `2-RAILS/Claims/raw/tree-guided/tsultrim-namdak.md`) but no slot-article exists yet for either — expected per skill Rule 6.
@@ -72,7 +72,7 @@ None. Every `commentary:claim-id` attestation drawn upon from `2-RAILS/Claims/ta
 
 ## Verification
 
-Every direct quotation in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file named by its claim's `Cite:` field.
+Every direct quotation in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file named by its claim's `Cite:` field.
 
 | # | Quotation | Claim | Source file / block | Result |
 |---|---|---|---|---|

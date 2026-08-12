@@ -1,6 +1,6 @@
 ---
 topic: tara-17
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-17.md
@@ -79,7 +79,7 @@ None. Every attestation ID cited on `2-RAILS/Claims/tara-17.md` that this draft 
 ## Warnings
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault rule that transformations generate from `status: complete` rails (`4-SYSTEM/CLAUDE.md` §9), this article was drafted from a consolidated claims page (`2-RAILS/Claims/tara-17.md`) still marked `status: draft`. This is a known, accepted exception for this run, per the task's own instruction — a human contributor is accepting the risk explicitly. The article's own `status` is `draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-17.md` is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist for this corpus yet). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") is therefore not applicable until the corpus gets a `sources.yaml`.
+- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist for this corpus yet). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") is therefore not applicable until the corpus gets a `sources.yaml`.
 - **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's frontmatter records `author: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified), matching the convention already established in `tara-02`'s citations, not inventing a name.
 - **No ref carries a year or page.** None of the sixteen raw files' frontmatter records a publication year or page number for this corpus, so no `<ref>` in this article carries one, per the spec's own allowance (§2, "may be omitted when genuinely unknown — but the review report lists every ref missing them").
 - **One quotation required a character-level correction against 1-SOURCES.** The raw claims file `palden-sherab.md` transcribes claim c-3-1-17-3-1 with a single tsheg ("རྩ་དབུ་མ"), but the actual 1-SOURCES commentary file at block `^0-173` has a double tsheg ("རྩ་་དབུ་མ", an apparent transcription artifact in the source text itself). The article's quotation was corrected to match 1-SOURCES exactly, per Rule 4 — this is a source-fidelity correction to the drafted quotation, not a change to any vault file outside the output folder.
@@ -89,7 +89,7 @@ None. Every attestation ID cited on `2-RAILS/Claims/tara-17.md` that this draft 
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names.
+Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names.
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|

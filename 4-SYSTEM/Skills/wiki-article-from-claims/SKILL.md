@@ -5,7 +5,7 @@ description: Draft a cited Tibetan Wikipedia article from one consolidated claim
 
 # wiki-article-from-claims
 
-Produces a publish-ready Tibetan wikitext article for one canonical spine slot (e.g. `tara-01`) from its consolidated claims topic page in `2-RAILS/Claims/`. The consolidated page supplies the facts (consensus + ⚑ divergences + unique claims, in English, with attestation counts); the raw tree-guided claims files supply the verbatim Tibetan (**བོད་ཡིག**) and the `1-SOURCES/` block citations behind every attestation. The skill exists so that article prose is never drafted from source files directly and never from parametric knowledge — the failure modes it prevents are added facts, flattened divergences, and quotations that are not character-for-character real. Correct output is an `article.wiki` that passes every blocking rule of the wikitext spec, plus a `citations.md` that lets a reviewer trace every `<ref>` back to claim IDs and source blocks without opening the model's head.
+Produces a publish-ready Tibetan wikitext article for one canonical spine slot (e.g. `tara-01`) from its consolidated claims topic page in `2-RAILS/Claims/`. The consolidated page supplies the facts (consensus + ⚑ divergences + unique claims, in English, with attestation counts); the raw tree-guided claims files supply the verbatim Tibetan (**བོད་ཡིག**) and the `1-SOURCES/` block citations behind every attestation. The skill exists so that article prose is never drafted from source files directly and never from parametric knowledge — the failure modes it prevents are added facts, flattened divergences, and quotations that are not character-for-character real. Correct output is an `article.md` (fenced wikitext) whose fence body passes every blocking rule of the wikitext spec, plus a `citations.md` that lets a reviewer trace every `<ref>` back to claim IDs and source blocks without opening the model's head.
 
 This skill writes vault files only. It never publishes — publishing stays behind the pipeline's `/publish` gate.
 
@@ -26,9 +26,11 @@ This skill writes vault files only. It never publishes — publishing stays behi
 Two files per article, in a dedicated folder that does not collide with the kwiki ledger's `articles/` layout:
 
 ```
-3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.wiki
+3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.md
 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/citations.md
 ```
+
+**Obsidian-viewability convention (2026-08-12, human contributor decision):** the article file is `.md`, not `.wiki`, so it is viewable and reviewable inside Obsidian. It consists of a small YAML frontmatter (`topic`, `article_kind`, `format`, `status`), a callout explaining the format, and the wikitext itself inside a single ```` ```wikitext ```` fence — verbatim, byte-identical to what would be published. A raw `.wiki` file is invisible to Obsidian, and raw wikitext in an unfenced `.md` misrenders and pollutes the vault graph with fake `[[…]]` links. Reviewers edit **inside the fence only**; the publish step extracts the fence body and ships exactly that.
 
 For the multi-topic cases, `<topic>` is the joined slug (`structure-benefits`, `origin`).
 
@@ -36,9 +38,9 @@ For the multi-topic cases, `<topic>` is the joined slug (`structure-benefits`, `
 
 ## Output file format
 
-### `article.wiki` — deity-profile skeleton (for `tara-01` … `tara-21`)
+### `article.md` — deity-profile skeleton (for `tara-01` … `tara-21`)
 
-Pure wikitext, no YAML frontmatter, Tibetan script and Tibetan numerals only in the body. The doctrinal-term skeleton in the wikitext spec §1 does not fit a deity; this deity profile adapts it while keeping the spec's lead rule, fixed tail, citation form, and every validator rule:
+The fenced wikitext body (everything inside the ```` ```wikitext ```` fence — the file's own frontmatter/callout wrapper is vault furniture, never published): pure wikitext, Tibetan script and Tibetan numerals only in the body. The doctrinal-term skeleton in the wikitext spec §1 does not fit a deity; this deity profile adapts it while keeping the spec's lead rule, fixed tail, citation form, and every validator rule:
 
 ```wikitext
 '''<NAME>'''ནི་ <identification and one-sentence summary, cited><ref>...</ref>
@@ -82,7 +84,7 @@ For the *work* article (`structure` + `benefits`), the body sections become: ide
 ```markdown
 ---
 topic: <topic>
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/<topic>.md
@@ -146,14 +148,14 @@ status: draft
 5. **Draft the body sections** in Tibetan, section by section, applying Rules 1–5 and 8. Attach a `<ref>` to every claim-bearing sentence or clause; attribute unique and divergent positions by commentator name in the prose.
 6. **Assemble the tail.** `འབྲེལ་ཡོད་ཤོག་ངོས།` (for `tara-NN`: the adjacent Tārās in the series and the root text's article — red links are expected and correct; targets end in tsheg). `ལུང་ཁུངས།` + `<references />`. `དཔྱད་གཞིའི་ཡིག་ཆ།`: one bullet per commentary actually cited, `<AUTHOR>། <TITLE>།` from frontmatter. One category from the allowlist.
 7. **Write `citations.md`** per the format above: the full reference map, claims-used list, unresolvables, warnings.
-8. **Verify.** (a) Every quotation: locate it character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim cites; record PASS/FAIL per quote in `citations.md` §Verification; a FAIL is fixed or the quotation removed before completion. (b) Every `<ref>`: appears in the reference map. (c) Walk the spec's validator table V1–V12 as a checklist against `article.wiki` and fix anything that fails.
+8. **Verify.** (a) Every quotation: locate it character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim cites; record PASS/FAIL per quote in `citations.md` §Verification; a FAIL is fixed or the quotation removed before completion. (b) Every `<ref>`: appears in the reference map. (c) Walk the spec's validator table V1–V12 as a checklist against `article.md`'s fence body and fix anything that fails.
 9. **Report.** State where the two files were written, the rails_status, the count of refs and quotations, verification results, and every warning — the human reviewer decides what happens next.
 
 ---
 
 ## Completion check
 
-- [ ] `article.wiki` and `citations.md` written under `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/`
+- [ ] `article.md` (frontmatter + callout + fenced wikitext) and `citations.md` written under `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/`
 - [ ] Every statement in the article traces to a claim on the consolidated page (no parametric additions)
 - [ ] Every attestation used was resolved through its raw tree-guided file; unresolvables are listed and unused
 - [ ] Every quotation verified character-for-character against its cited `1-SOURCES/` file, with PASS recorded per quote

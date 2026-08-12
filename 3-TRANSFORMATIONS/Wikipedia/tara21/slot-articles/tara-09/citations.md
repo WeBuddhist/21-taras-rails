@@ -1,6 +1,6 @@
 ---
 topic: tara-09
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-09.md
@@ -88,7 +88,7 @@ IDs in total). Nothing was dropped for failing to resolve.
   specialist should review `tara-09.md` before this article is treated as reliable.
 - **No ref has a year or page.** None of the 14 raw commentary files' frontmatter carries a
   publication year, and no page numbers are attested anywhere in the packet, so every `<ref>` in
-  `article.wiki` carries only author and title, per Rule 7.
+  `article.md` carries only author and title, per Rule 7.
 - **No ref has a URL.** No `sources.yaml`/public URL exists yet for any of these commentaries;
   `dummy.com` was never used. This is why the citation form is the hand-formatted
   `<ref><AUTHOR>། <TITLE>།</ref>`, not a linked form.
@@ -105,7 +105,7 @@ IDs in total). Nothing was dropped for failing to resolve.
 
 ## Verification
 
-Every quotation in `article.wiki` was located character-for-character (whitespace-collapsed) in the
+Every quotation in `article.md` was located character-for-character (whitespace-collapsed) in the
 `1-SOURCES/` file named by its claim's `Cite:` target. 19 quotations, all PASS:
 
 1. Root verse, "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།...འཁྲུགས་མ།" (anon-trinle-char:c-3-9-3) — PASS
@@ -136,7 +136,7 @@ hand-formatted refs only); V3 PASS (`<references />` present, refs exist); V4 PA
 repeats reference a defined name, all tags balanced); V6 PASS (8 `==` headings); V7 PASS
 (`[[རིགས་དབྱེ།:ནང་བསྟན།]]`, allowlisted); V8 PASS (every content section — lead through
 བསྡུས་དོན — carries ≥1 citation; the three mechanical tail sections carry none, matching the
-skeleton and existing corpus precedent, e.g. `tara-01/article.wiki`); V9 PASS (zero Latin characters
+skeleton and existing corpus precedent, e.g. `tara-01/article.md`); V9 PASS (zero Latin characters
 outside `<ref>` tags, checked programmatically); V10 PASS (all 40 `'''...'''` bold spans and all
 content wikilinks verified to carry a tsheg at the boundary, checked programmatically); V11 PASS
 (tail order འབྲེལ་ཡོད་ཤོག་ངོས། → ལུང་ཁུངས། → དཔྱད་གཞིའི་ཡིག་ཆ།); V12 PASS (no `dummy.com`,

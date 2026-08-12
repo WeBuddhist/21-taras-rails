@@ -1,6 +1,6 @@
 ---
 topic: tara-20
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-20.md
@@ -80,7 +80,7 @@ None. Every claim ID cited anywhere on `2-RAILS/Claims/tara-20.md` (all sixteen 
 ## Warnings
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault rule that transformations generate from `status: complete` rails, this article was drafted from a consolidated claims page (`2-RAILS/Claims/tara-20.md`) still marked `draft`. This is a known, accepted exception for this run, per the task's own instruction — a human contributor is accepting that risk explicitly; the article's own `status` is set to `draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-20.md` itself is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the fifteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
+- **No public URLs exist for any of the fifteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
 - **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"` and `author_in_english: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified) rather than inventing a name — consistent with the same convention already used in `tara-01`/`tara-02`'s citations, not fabricated.
 - **No refs carry a year or page.** No publication year or page number is recorded in any of the fifteen raw files' frontmatter for this corpus, so none of the fifteen `<ref>`s in this article carry a year or page, per the spec's own allowance ("may be omitted when genuinely unknown — but the review report lists every ref missing them"). All fifteen are missing both.
 - **`gendun-gyatso` is silent on this topic and is correctly absent from every citation.** Confirmed by the consolidated page's own "Coverage" table: no node-20 exists in its tree (it jumps from 1.19 to 1.21), corroborated by `toc-tree-qc-gendun-gyatso.md`. It is not listed under `raw_sources_cited` above and does not appear in the bibliography.
@@ -90,7 +90,7 @@ None. Every claim ID cited anywhere on `2-RAILS/Claims/tara-20.md` (all sixteen 
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names. Several short quotations are exact substrings of a longer quotation already verified elsewhere in this table; each is still listed and checked independently below.
+Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names. Several short quotations are exact substrings of a longer quotation already verified elsewhere in this table; each is still listed and checked independently below.
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|

@@ -1,6 +1,6 @@
 ---
 topic: tara-04
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-04.md
@@ -32,7 +32,7 @@ Source: consolidated topic page [`2-RAILS/Claims/tara-04.md`](../../../../../2-R
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (one per commentary; each is reused with `<ref name="..." />` for repeat citations). "Quotation(s)" gives only the verbatim, quote-marked material; see "Claims used but not quoted" below for claims that entered as paraphrase.
+One row per named `<ref>` in `article.md` (one per commentary; each is reused with `<ref name="..." />` for repeat citations). "Quotation(s)" gives only the verbatim, quote-marked material; see "Claims used but not quoted" below for claims that entered as paraphrase.
 
 | Ref (name) | Commentary | Claim ID(s) cited in article | Quotation(s) (verbatim བོད་ཡིག) | Source block(s) |
 |---|---|---|---|---|
@@ -79,14 +79,14 @@ None. Every attestation ID cited anywhere on `2-RAILS/Claims/tara-04.md` — inc
 - **No year or page for any ref.** None of the sixteen raw claims files' frontmatter records a publication year or page number for its source commentary, so none is given in any `<ref>`.
 - **Author unattested for one commentary.** `anon-trinle-char`'s raw file gives `author: "unknown"` / `author_in_english: "unknown"` — not a real name, evidently a placeholder. The `<ref>` therefore cites the title only, and the bibliography entry is marked "(མཛད་པ་པོ་མ་གསལ།)" ("author unclear").
 - **Honorific parentheticals dropped from three author names.** `gendun-drub`, `gendun-gyatso`, and `konchok-thabkhe`'s frontmatter `author` fields carry a parenthetical gloss (e.g. "(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)" — "First Dalai Lama"). These were dropped from the `<ref>` and bibliography entries, keeping only the primary name, for citation cleanliness; the parentheticals themselves used Latin-style punctuation that would sit awkwardly in a Tibetan-only citation string. No factual content was lost — the identity is unambiguous from the name alone.
-- **`sangye-nyentrul` title discrepancy.** Its raw file's frontmatter `title` field (`རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར`) is shorter than the actual `1-SOURCES/Commentaries/` filename (`རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md`), which carries extra words (`འཕགས་མ་`, `ཉུང་ངུར་བཀོད་པ`). Per skill Rule 7 the citation is built from the raw file's frontmatter, so the shorter form is used in `article.wiki`; a reviewer may want to reconcile the two.
+- **`sangye-nyentrul` title discrepancy.** Its raw file's frontmatter `title` field (`རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར`) is shorter than the actual `1-SOURCES/Commentaries/` filename (`རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md`), which carries extra words (`འཕགས་མ་`, `ཉུང་ངུར་བཀོད་པ`). Per skill Rule 7 the citation is built from the raw file's frontmatter, so the shorter form is used in `article.md`; a reviewer may want to reconcile the two.
 - **Two candidate quotations were rejected during verification and rewritten as paraphrase** (Procedure step 8a): (1) a phrase intended to render `sungrab-tulku:c-7-3`'s epithet as "གཙུག་ཏོར་རྣམ་རྒྱལ་མ" — the raw claim's actual spelling is "གཙུག་ཏོག་རྣམ་རྒྱལ་མ" (ཏོག, not ཏོར), so quoting the standardized spelling would have been a silent "correction" of the source; the sentence was rewritten without quotation marks instead of quoting the irregular spelling or altering it. (2) a self-composed nominalized phrase "རྣམ་པར་རྒྱལ་བའི་སྤྱོད་པ" used to introduce the "boundless victorious conduct" theme — this was my own paraphrase, not an exact substring of any claim's བོད་ཡིག field (the root verse itself reads "རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ," a different inflection), so the quotation marks were removed.
 - **Article length:** roughly 2,290 tsheg-separated syllables in the body — well above the spec's 1,500-syllable warning threshold, so no length warning applies.
 - **`Sections/Raw/toc-tree/tenga-tulku.md`** and other structural-tree cross-references were not consulted; only the raw tree-guided claims files listed above were used, per the skill's fixed resolution chain (Rule 2).
 
 ## Verification
 
-Every quotation in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file named by its claim's `Cite:` field, using an automated substring check (Python, `re.sub(r'\s+','',...)` normalization). 24 of the 25 quotations were checked by a script that pairs each quotation with its immediately-adjacent `<ref>`; the 25th (konchok-thabkhe:c-2-4-2, row 8 below) has intervening prose between the closing quote mark and its `<ref>`, so it was checked individually against the same source file by the same normalization method.
+Every quotation in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file named by its claim's `Cite:` field, using an automated substring check (Python, `re.sub(r'\s+','',...)` normalization). 24 of the 25 quotations were checked by a script that pairs each quotation with its immediately-adjacent `<ref>`; the 25th (konchok-thabkhe:c-2-4-2, row 8 below) has intervening prose between the closing quote mark and its `<ref>`, so it was checked individually against the same source file by the same normalization method.
 
 | # | Commentary | Claim ID | Quotation (or first ~15 syllables) | Result |
 |---|---|---|---|---|
@@ -116,7 +116,7 @@ Every quotation in `article.wiki` was located character-for-character (whitespac
 | 24 | karma-maitri | c-1-1-4-3 | བདུད་སོགས་ཕས་རྒོལ་མཐའ་ཡས་པ་ལས... | PASS |
 | 25 | pema-namgyal | c-2-4-20 | རྒྱལ་བ་ལས་ཀྱང་ལྷག་པ་ལྟ་བུའི་ཕྱོགས་ཀུན་ལས... | PASS |
 
-**Result: 25/25 quotations PASS. 0 FAIL.** (Two additional candidate quotations were drafted, tested, found not to be exact substrings of their source, and rewritten as unquoted paraphrase before this table was finalized — see Warnings. A third candidate — the full four-line root verse, `anon-utpala:c-1-2-2-1-1-3-2` — was verified PASS during drafting but was ultimately not used as a quotation in the final `article.wiki` text, so it is not counted in the 25.)
+**Result: 25/25 quotations PASS. 0 FAIL.** (Two additional candidate quotations were drafted, tested, found not to be exact substrings of their source, and rewritten as unquoted paraphrase before this table was finalized — see Warnings. A third candidate — the full four-line root verse, `anon-utpala:c-1-2-2-1-1-3-2` — was verified PASS during drafting but was ultimately not used as a quotation in the final `article.md` text, so it is not counted in the 25.)
 
 ## Spec validator self-check (V1–V12)
 

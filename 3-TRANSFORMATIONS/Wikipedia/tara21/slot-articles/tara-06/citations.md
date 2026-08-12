@@ -1,6 +1,6 @@
 ---
 topic: tara-06
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-06.md
@@ -79,8 +79,8 @@ None. Every attestation ID cited on `2-RAILS/Claims/tara-06.md` (116 total acros
 ## Warnings
 
 - **`rails_status` is `draft`, not `complete`.** Per the vault rule that transformations generate from `status: complete` rails, this article was drafted from a consolidated claims page still marked `draft` (`2-RAILS/Claims/tara-06.md` frontmatter `status: draft`). A human contributor is accepting that risk explicitly by running this skill against it; this article's own `status` is set to `draft` below and should not be treated as publishable until the consolidated page is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
-- **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"` / `author_in_english: "unknown"`, and the vault annex records it as "(colophon lost; anonymous)". Following the precedent already set in `tara-05/article.wiki`, the bibliography and in-text refs cite it as "མཛད་པ་པོ་མ་གསལ" (author unspecified) rather than inventing a name. Note: `tara-07/article.wiki` used the slightly different wording "མཛད་པ་པོ་གསལ་མེད" for the same commentary — the two prior articles are not internally consistent on this phrasing; a reviewer should pick one convention corpus-wide.
+- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
+- **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"` / `author_in_english: "unknown"`, and the vault annex records it as "(colophon lost; anonymous)". Following the precedent already set in `tara-05/article.md`, the bibliography and in-text refs cite it as "མཛད་པ་པོ་མ་གསལ" (author unspecified) rather than inventing a name. Note: `tara-07/article.md` used the slightly different wording "མཛད་པ་པོ་གསལ་མེད" for the same commentary — the two prior articles are not internally consistent on this phrasing; a reviewer should pick one convention corpus-wide.
 - **No refs carry a year or page.** No publication year or page number is recorded in any of the sixteen raw files' frontmatter for this corpus, so none of the sixteen `<ref>`s in this article carry a year or page, per the spec's own allowance ("may be omitted when genuinely unknown — but the review report lists every ref missing them").
 - **Article length is short of the spec's 1,500-Tibetan-syllable guidance.** The prose body (lead through བསྡུས་དོན།, excluding ref/bibliography text) runs to roughly 917 tsheg-separated syllables; the whole file excluding ref-tag contents is roughly 1,340. This is a non-blocking warning per the spec (§7), not a validator failure — tara-06's underlying claims page is unusually divergence-rich, and a fuller revision could expand "The four principal worshipping gods" and the retinue-serves-which-god facet (see "Resolved claims not used" above) to close the gap.
 - **Several genuine divergences documented on the consolidated page were deliberately left out of the drafted prose** to keep the article at a manageable length (see "Resolved claims not used" above): the fuller "which retinue-class serves which god" facet, the "additional worshippers beyond the directional frame" facet, Konchok Thabkhe's epistemic-hedge etymology, and Palden Sherab's further completion-stage-without-marks tiers. None is contradicted by anything drafted; all are candidates for a follow-up expansion pass.
@@ -88,7 +88,7 @@ None. Every attestation ID cited on `2-RAILS/Claims/tara-06.md` (116 total acros
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
+Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|
@@ -103,4 +103,4 @@ Every quotation wrapped in `" "` in `article.wiki` was located character-for-cha
 | 9 | "ལྔ་པ་འཇིག་རྟེན་པའི་ལྷ་ཆེན་པོ་རྣམས་ཀྱིས་བཀུར་བའི་སྒོ་ནས་བསྟོད་པ་ནི།" | anon-utpala:c-1-2-2-1-1-5-1 | སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་...བཞུགས་སོ།.md#^0-30 | PASS |
 | 10 | "བརྒྱ་བྱིན་ནི་ས་དང་། མེ་ལྷ་མེ་དང་། ཚངས་པ་ཆུ་དང་། རླུང་ལྷ་ནི་རླུང་དང་། སྣ་ཚོགས་དབང་ཕྱུག་ནི་ནམ་མཁའ་ཡིན་པས་ན།" | palden-sherab:c-3-1-6-3-1 | (long-titled Palden Sherab commentary).md#^0-69 | PASS |
 
-**10/10 quotations PASS.** No quotation required correction or removal. Every quotation is immediately followed by its own `<ref>` in `article.wiki` (checked programmatically); no quotation crosses a Cite-field block boundary or an ellipsis in its raw claim's own བོད་ཡིག field (the one claim whose raw བོད་ཡིག uses internal "…" across a multi-block Cite range, `tsultrim-namdak:c-3-9`, was drawn on only in paraphrase, never quoted, for exactly this reason).
+**10/10 quotations PASS.** No quotation required correction or removal. Every quotation is immediately followed by its own `<ref>` in `article.md` (checked programmatically); no quotation crosses a Cite-field block boundary or an ellipsis in its raw claim's own བོད་ཡིག field (the one claim whose raw བོད་ཡིག uses internal "…" across a multi-block Cite range, `tsultrim-namdak:c-3-9`, was drawn on only in paraphrase, never quoted, for exactly this reason).

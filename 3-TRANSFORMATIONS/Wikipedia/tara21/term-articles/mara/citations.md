@@ -1,6 +1,6 @@
 ---
 topic: mara
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/mara.md
@@ -35,7 +35,7 @@ the deity-profile skeleton, output written to `term-articles/mara/` (a keyword-t
 
 ## Reference map
 
-Every row traces one `<ref>` used in `article.wiki` back to its resolved claim, the raw tree-guided
+Every row traces one `<ref>` used in `article.md` back to its resolved claim, the raw tree-guided
 file it came from, and the `1-SOURCES/` block its `Cite:` field names. Named refs (`<ref name="X">`
 full definition on first use, `<ref name="X" />` thereafter) are used because the wikitext ref
 content is the hand-formatted `AUTHOR। TITLE།` form (skill Rule 7), which is identical for every
@@ -171,7 +171,7 @@ not failures, just unused:
 
 ## Verification
 
-Every quoted string in `article.wiki` was located character-for-character (whitespace-collapsed)
+Every quoted string in `article.md` was located character-for-character (whitespace-collapsed)
 in the `1-SOURCES/` file named by its claim's `Cite:` field, by direct `grep` against the block ID.
 
 | Claim | Quoted text (start) | Source block | Result |

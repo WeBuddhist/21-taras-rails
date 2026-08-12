@@ -1,6 +1,6 @@
 ---
 topic: tara-15
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-15.md
@@ -28,7 +28,7 @@ status: draft
 
 `2-RAILS/Claims/tara-15.md` lists sixteen raw tree-guided sources in its own `sources:`
 frontmatter (all sixteen commentaries in the packet contribute to this slot). Fourteen of the
-sixteen were drawn on directly in `article.wiki` (all except `karma-maitri` and `lobsang-dawa`,
+sixteen were drawn on directly in `article.md` (all except `karma-maitri` and `lobsang-dawa`,
 whose claims for this slot are close restatements of positions already carried by other,
 directly-quoted commentaries — see "Claims used but not quoted" below for where their content is
 implicitly represented via the consolidated page's own grouping). Every attestation ID actually
@@ -37,7 +37,7 @@ unresolvable (see below).
 
 ## Reference map
 
-One row per named `<ref>` in `article.wiki` (commentary-level, per the skill's hand-formatted ref
+One row per named `<ref>` in `article.md` (commentary-level, per the skill's hand-formatted ref
 form — `<AUTHOR>། <TITLE>།`, no claim ID inside the wikitext itself). The "Claim ID(s)" column
 lists every raw claim actually drawn on for that commentary's citations in the article; the
 "Quotation" column gives only the claims that were quoted verbatim (in `" "`) in the article body.
@@ -77,7 +77,7 @@ failure — both files were opened and checked against the consolidated page's o
 
 ## Unresolvable attestations
 
-None. Every attestation ID actually drawn into `article.wiki` was located successfully in its
+None. Every attestation ID actually drawn into `article.md` was located successfully in its
 named commentary's file under `2-RAILS/Claims/raw/tree-guided/`, and every quotation traces to
 that claim's own `བོད་ཡིག` field.
 
@@ -120,7 +120,7 @@ that claim's own `བོད་ཡིག` field.
 
 ## Verification
 
-All 10 verbatim quotations in `article.wiki` were located character-for-character
+All 10 verbatim quotations in `article.md` were located character-for-character
 (whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field. Full pass,
 no failures, nothing removed or corrected.
 
@@ -143,7 +143,7 @@ against two different source files, since both commentaries are cited together f
 article; counted as two verification rows because each is a separate character-for-character
 check against a separate source.)
 
-Additional mechanical checks performed against `article.wiki` (spec §7 validator, V1–V12):
+Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
 
 - V1 (quotation fidelity): PASS — see table above.
 - V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is deliberately

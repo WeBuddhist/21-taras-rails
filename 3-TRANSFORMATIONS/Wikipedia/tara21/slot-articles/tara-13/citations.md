@@ -1,6 +1,6 @@
 ---
 topic: tara-13
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-13.md
@@ -79,9 +79,9 @@ None. Every one of the 88 attestation IDs cited on `2-RAILS/Claims/tara-13.md` w
 
 ## Warnings
 
-- **`rails_status` is `draft`, not `complete`.** `2-RAILS/Claims/tara-13.md` frontmatter records `status: draft`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, "Do not generate from rails whose `status` is not `complete`"), transformations should generate only from `complete` rails. This is a known, accepted exception for this run, per the task instructions — a human contributor is accepting that risk explicitly by running this skill against a draft page. `article.wiki`'s own governing record (`citations.md`, this file) is set to `status: draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-13.md` itself is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.wiki` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
-- **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified), matching the convention already used in `tara-02/article.wiki` — this is attested by the frontmatter, not fabricated.
+- **`rails_status` is `draft`, not `complete`.** `2-RAILS/Claims/tara-13.md` frontmatter records `status: draft`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, "Do not generate from rails whose `status` is not `complete`"), transformations should generate only from `complete` rails. This is a known, accepted exception for this run, per the task instructions — a human contributor is accepting that risk explicitly by running this skill against a draft page. `article.md`'s own governing record (`citations.md`, this file) is set to `status: draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-13.md` itself is promoted to `complete` (or the discrepancy is otherwise resolved).
+- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
+- **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified), matching the convention already used in `tara-02/article.md` — this is attested by the frontmatter, not fabricated.
 - **No ref carries a year or page.** No publication year or page number is recorded in any of the sixteen raw files' frontmatter for this corpus, so none of the sixteen `<ref>`s in this article carry a year or page, per the spec's own allowance.
 - **Article length is short of the spec's ~1,500-Tibetan-syllable guidance.** The prose body (lead through བསྡུས་དོན, excluding ref/bibliography text) runs to roughly 1,187 tsheg-separated units by a rough automated count. This is a non-blocking warning per the spec (§7), not a validator failure.
 - **`tsultrim-namdak:c-3-16`'s own བོད་ཡིག field is ellipsis-bounded** across four non-contiguous source blocks (`^0-228`–`^0-231`); its content (naming, body colour, and the "vajra sparks" iconographic detail) was therefore used only as paraphrase/terminology, never set inside `" "` quote marks, to avoid presenting an editorially-assembled excerpt as a character-for-character quotation.
@@ -90,7 +90,7 @@ None. Every one of the 88 attestation IDs cited on `2-RAILS/Claims/tara-13.md` w
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.wiki` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
+Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
 
 | # | Quotation | Claim | Source file (block) | Result |
 |---|---|---|---|---|
@@ -115,4 +115,4 @@ Every quotation wrapped in `" "` in `article.wiki` was located character-for-cha
 | 19 | "ལས་འོད་ཟེར་རྡོ་རྗེའི་ཚྭ་ཚྭ་རབ་ཏུ་འབར་ཞིང་འཕྲོ་བས་ཕ་རོལ་དགྲ་བོའི་དཔུང་རྣམས་ལྷག་མེད་དུ་བཅོམ་ནས།" | sangye-nyentrul:c-14-1-3 | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61 | PASS |
 | 20 | "ཕྱིའི་དགྲ་མྱོས་འགྱུར་གྱི་རིགས་དང་། དུག་དང་མཚོན་གྱི་རིགས།" | tenzin-dhonzang:c-4-13-5 | ...སྙིང་གི་ནོར་བུ.md#^0-218 | PASS |
 
-**17/17 quotations set in `" "` in `article.wiki` PASS.** (Rows 6, 11, and 12 above record independent verification of source-wording that ended up reused as paraphrase/terminology rather than as a marked quotation in the final prose; they are not part of the 17 marked quotations but are logged here since they were checked during drafting.) No quotation required correction or removal.
+**17/17 quotations set in `" "` in `article.md` PASS.** (Rows 6, 11, and 12 above record independent verification of source-wording that ended up reused as paraphrase/terminology rather than as a marked quotation in the final prose; they are not part of the 17 marked quotations but are logged here since they were checked during drafting.) No quotation required correction or removal.

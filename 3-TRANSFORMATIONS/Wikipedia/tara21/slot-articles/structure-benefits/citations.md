@@ -1,6 +1,6 @@
 ---
 topic: structure-benefits
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/structure.md
@@ -144,7 +144,7 @@ consolidated page and selected for use failed to resolve.
 
 ## Verification
 
-Every direct quotation in `article.wiki` was located character-for-character (whitespace-collapsed)
+Every direct quotation in `article.md` was located character-for-character (whitespace-collapsed)
 in the `1-SOURCES/` file named by its claim's `Cite:` field.
 
 | # | Commentary | Claim ID | Quotation (opening words) | Source file / block | Result |
@@ -169,7 +169,7 @@ in the `1-SOURCES/` file named by its claim's `Cite:` field.
 
 ## Completion check (per SKILL.md)
 
-- [x] `article.wiki` and `citations.md` written under `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/`
+- [x] `article.md` and `citations.md` written under `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/`
 - [x] Every statement in the article traces to a claim on `structure.md` or `benefits.md`
 - [x] Every attestation used was resolved through its raw tree-guided file; none unresolvable
 - [x] Every quotation verified character-for-character; 15/15 PASS

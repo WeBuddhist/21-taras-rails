@@ -1,6 +1,6 @@
 ---
 topic: pacification
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/pacification.md
@@ -143,7 +143,7 @@ located successfully in its commentary's raw tree-guided file.
 
 ## Verification
 
-Every one of the 21 direct verbatim quotations in `article.wiki` was checked programmatically:
+Every one of the 21 direct verbatim quotations in `article.md` was checked programmatically:
 extracted from the article, whitespace-collapsed, and tested as a substring of the whitespace-
 collapsed full text of its `Cite:`-named `1-SOURCES/` file. All 21 passed.
 
@@ -182,7 +182,7 @@ collapsed full text of its `Cite:`-named `1-SOURCES/` file. All 21 passed.
 - V5 — all `<ref>` balanced, named refs have exactly one full definition: **PASS** (15 full definitions, 29 self-closing reuses, all resolve)
 - V6 — ≥1 `==` heading: **PASS** (8 sections)
 - V7 — ≥1 category, allowlisted: **PASS** (`ནང་ཆོས།`, `ཤེར་ཕྱིན།`)
-- V8 — every section ≥1 citation: **PASS** for all content sections (lead, ངེས་ཚིག, མཚན་ཉིད།, དབྱེ་བ།, གཞུང་ལུགས་སོ་སོའི་བཤད་པ།, བསྡུས་དོན།); the link-only `འབྲེལ་ཡོད་ཤོག་ངོས།` and bibliography-only `དཔྱད་གཞིའི་ཡིག་ཆ།` sections carry no citations, matching the skeleton's own example and the sibling `three-jewels/article.wiki` precedent
+- V8 — every section ≥1 citation: **PASS** for all content sections (lead, ངེས་ཚིག, མཚན་ཉིད།, དབྱེ་བ།, གཞུང་ལུགས་སོ་སོའི་བཤད་པ།, བསྡུས་དོན།); the link-only `འབྲེལ་ཡོད་ཤོག་ངོས།` and bibliography-only `དཔྱད་གཞིའི་ཡིག་ཆ།` sections carry no citations, matching the skeleton's own example and the sibling `three-jewels/article.md` precedent
 - V9 — Tibetan script only outside ref content: **PASS** (0 Latin characters found outside `<ref>` tags)
 - V10 — tsheg at every `'''`/`[[` boundary: **PASS** (checked programmatically; two violations found and fixed during drafting)
 - V11 — fixed tail order: **PASS** (འབྲེལ་ཡོད་ཤོག་ངོས། → ལུང་ཁུངས། → དཔྱད་གཞིའི་ཡིག་ཆ།)

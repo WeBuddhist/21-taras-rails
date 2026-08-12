@@ -1,6 +1,6 @@
 ---
 topic: hum-syllable
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/hum-syllable.md
@@ -137,7 +137,7 @@ duplicative of material already covered or as external citations outside this te
 - **`anon-trinle-char`'s author is unattested.** Its raw file's own frontmatter records
   `author: "unknown"`; the ref and bibliography line accordingly read "མཛད་པ་པོ་གསལ་མེད།" with the
   Tibetan title only, matching the wording already used for this same commentary in
-  `slot-articles/tara-01/article.wiki`'s own `<ref name="anon-trinle-char">`.
+  `slot-articles/tara-01/article.md`'s own `<ref name="anon-trinle-char">`.
 - **`gendun-gyatso:c-1-11-2` is flagged OCR-degraded in its own raw claims file.** Its heart-location
   content is legible and used (unquoted, paraphrased) to support the location consensus; no
   quotation was drawn from it, precisely because of that flagged uncertainty.

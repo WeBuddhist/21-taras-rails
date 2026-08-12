@@ -1,6 +1,6 @@
 ---
 topic: tara-05
-article: article.wiki
+article: article.md
 method: wiki-article-from-claims
 context_packages:
   - 2-RAILS/Claims/tara-05.md
@@ -79,7 +79,7 @@ One resolution note, not a failure: `tsultrim-namdak`'s claims `c-3-8` and `c-2-
 - **Article length.** The article is substantially longer than 1,500 Tibetan syllables (article body alone is ~29,000 characters), so the spec's minimum-length warning does not apply.
 - **Two structural-classification systems left unreconciled**, per the consolidated page's own Rule-4 divergence: eight commentaries number this verse flatly "fifth of twenty-one," four nest it as "fourth" within a mode-of-praise taxonomy shared with tara-04. The article's lead and its `ས་བཅད་ཀྱི་གནས་ས།` paragraph present both without adjudicating, matching the consolidated page.
 - **Two deity-identity/iconography traditions left unreconciled** ("Roarer of HŪM," yellow, vajra posture vs. Kurukullā, red, archer posture) — the consolidated page states no commentary in the corpus reconciles them, and the article does not either.
-- **`འབྲེལ་ཡོད་ཤོག་ངོས།` links are red links by design.** `ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་` (tara-04) and `ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ་` (tara-06) are each that consolidated topic page's own Tibetan heading (verse incipit); neither has a drafted `article.wiki` yet. `སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ་` targets the root text's own file title. Per skill Rule 6, red links here are expected and correct, not an error.
+- **`འབྲེལ་ཡོད་ཤོག་ངོས།` links are red links by design.** `ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་` (tara-04) and `ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ་` (tara-06) are each that consolidated topic page's own Tibetan heading (verse incipit); neither has a drafted `article.md` yet. `སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ་` targets the root text's own file title. Per skill Rule 6, red links here are expected and correct, not an error.
 
 ## Verification
 
@@ -99,7 +99,7 @@ Every direct quotation located character-for-character (whitespace-collapsed) in
 | 10 | "འཇིག་རྟེན་བདུན་པོ་འདི་ཡལ་བར་མ་འདོར་བ་དང་། མ་སྤངས་པར་བརྩེ་བ་ཆེན་པོས་ཡོངས་སུ་བཟུང་བའི་དོན་རེད།" | tenzin-dhonzang / c-4-5-5 | ...སྙིང་གི་ནོར་བུ.md#^0-144 | PASS |
 | 11 | "ཞིང་འདི་གཞན་གྱིས་སྤངས་དུས་མགོན་ཁྱོད་ཀྱིས། པད་དཀར་ལྟ་བུར་བསྔགས་པའི་དགོས་པའང་ཅི།" | tenzin-dhonzang / c-4-5-6 | ...སྙིང་གི་ནོར་བུ.md#^0-145 | PASS |
 
-**11/11 quotations PASS.** All eleven were re-confirmed present in `article.wiki` (unaltered) after a post-draft cleanup pass that removed stray ASCII commas and normalized full-width parentheses to ASCII elsewhere in the prose — none of that cleanup touched text inside any quotation mark.
+**11/11 quotations PASS.** All eleven were re-confirmed present in `article.md` (unaltered) after a post-draft cleanup pass that removed stray ASCII commas and normalized full-width parentheses to ASCII elsewhere in the prose — none of that cleanup touched text inside any quotation mark.
 
 ### Spec validator walk (V1–V12)
 
