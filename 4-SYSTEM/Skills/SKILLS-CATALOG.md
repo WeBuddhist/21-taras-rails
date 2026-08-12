@@ -387,6 +387,18 @@ These skills generate encyclopedic output for bo.wikipedia from the vault's rail
 **Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.wiki` plus a `citations.md` audit trail mapping every ref to claim IDs and source blocks.
 → [`wiki-article-from-claims/SKILL.md`](wiki-article-from-claims/SKILL.md)
 
+### `article-subject-filter` **[exists]**
+**Purpose:** Classify every article-queue term as a standalone encyclopedic subject, section material for a named target article, or a glossary-only term — merging near-duplicate subjects — with a recorded reason for every verdict (keyword pipeline Step 7).
+**Inputs:** `article_queue.json` and the Tibetan term registry from the keyword-extraction run, the methodology doc's §Step 7 criteria, and the existing `2-RAILS/Claims/` pages as merge targets.
+**Outputs:** `0-INBOX/AI_translation/keyword-extraction/output/article_subjects.{json,md}` — verdicts, merges, and a term-conservation check; all prior step outputs untouched.
+→ [`article-subject-filter/SKILL.md`](article-subject-filter/SKILL.md)
+
+### `wiki-article-inventory` **[exists]**
+**Purpose:** Determine for every standalone article subject whether bo.wikipedia already has the article — title/variant lookup plus Wikidata sitelink check — and save a per-subject inventory with dated wikitext snapshots (keyword pipeline Step 8).
+**Inputs:** `article_subjects.json` (Step 7 output) with variant sets, plus read-only API access to bo.wikipedia and Wikidata.
+**Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/wiki-inventory.yaml`, snapshots under `work/wiki-snapshots/`, and the kwiki-schema `terms.yaml` with `status: candidate` throughout.
+→ [`wiki-article-inventory/SKILL.md`](wiki-article-inventory/SKILL.md)
+
 ---
 
 ## Pipelines — not skills

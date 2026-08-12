@@ -153,6 +153,46 @@ gate are not deleted — they remain in the registry as Local-Wiki/glossary cand
 boundary rule (§1). The human review that remains is a *veto and reorder* pass over a
 mechanically-produced queue, not a cutoff decision.
 
+**Review point moved (2026-08-12):** there is no longer a human review between Step 6 and the
+downstream stages. Steps 7–8 and article generation run without intermediate gates; the single
+human review happens **at the end, over the finished articles**, before anything is published.
+Consequence: every judgment step must leave a full audit trail (per-term verdicts with reasons,
+merge mappings, citations) so the end review can reject selectively instead of rerunning the
+pipeline.
+
+### Step 7 — Subject filter and merge (article-worthiness) — decided, not yet implemented
+
+The gate (Step 6) answers "is there enough claim material?"; Step 7 answers "is this an
+encyclopedic *subject*?" A skill classifies every queue term three ways, with a one-line reason
+per verdict — never a silent drop:
+
+1. **Standalone subject** — gets its own article.
+2. **Section material** — not a subject (body parts, directions: ཞལ, ཞབས, གཡས/གཡོན, མཐིལ…);
+   its claims are routed to a named target article's section (mostly Tārā-article iconography).
+3. **Glossary/Local-Wiki only** — stays in the registry per the boundary rule (§1).
+
+The same pass performs **subject-normalization**: near-duplicate rows that string-level variant
+merging cannot catch (དགྲ/དགྲ་བོ/དགྲ་ཡི; ཕྱག་འཚལ/ཕྱག་འཚལ་བ; ཧཱུྃ/ཡི་གེ་ཧཱུཾ; ཏཱ་ར/ཏུ་ཏྟྭ་ར/ཏཱ་ར་གཉིས་བརྗོད)
+merge into one subject with pooled claims. Output is a new file alongside the queue
+(`article_subjects`); all prior step outputs are preserved unchanged.
+
+### Step 8 — Existing-article inventory (bo.wikipedia + Wikidata) — decided, not yet implemented
+
+For each Step-7 standalone subject, a skill determines whether a bo.wikipedia article already
+exists, via **two mechanisms**: (a) MediaWiki API search using the term *plus its registry
+variant/synonym set*; (b) **Wikidata QID resolution** — find the subject's item and check its
+bo.wikipedia sitelink, catching articles under unguessable titles. Saved per term: exists y/n,
+title, URL, QID, length, section list, stub-or-substantial judgment, and a dated wikitext
+snapshot. The snapshot is planning context only — at generation time the live article is
+re-fetched. The per-subject `action: create | update` lives in `wiki-inventory.yaml`
+(`terms.yaml` keeps the kwiki loader's minimal schema — `term`/`editor`/`status`/
+`wikipedia_url` — where a null URL *is* the create signal, matching kwiki's own red-link
+convention; merge routing is Step 7's `article_subjects` output, not a `terms.yaml` field).
+Editorial rule (decided with the human contributor, 2026-08-12): one subject =
+one article — existing articles are **updated/appended with cited sections**, never forked into
+"X (according to the 21-Tārā commentaries)" pages; the 21 Tārās follow hub-and-spoke (main
+Tārā article + text article as hubs, one article per Tārā as spokes).
+
 ---
 
 ## 4. Known distortions and their mitigations
@@ -200,6 +240,17 @@ which is surface-form-independent.
 
 ## Changelog
 
+- **2026-08-12** — Post-queue design decided in discussion (not yet implemented): **Step 7**
+  (subject filter: three-way verdict standalone/section-material/glossary + subject-normalization
+  merge, reasons recorded per term) and **Step 8** (existing-article inventory via MediaWiki
+  search + Wikidata QID sitelinks, feeding a per-term `action:` field). **Human review moved to
+  the end** — one review over finished articles before publishing, no intermediate gates; audit
+  trails at every judgment step replace them. Editorial rules fixed: one subject = one article
+  (update, never fork); hub-and-spoke for the 21 Tārās. Artifact homes per rails docs: keyword
+  working outputs stay in `0-INBOX/AI_translation/keyword-extraction/output/`; consolidated
+  per-subject claims pages go to `2-RAILS/Claims/`; `terms.yaml`, wiki snapshots, drafts, and
+  review records go to `3-TRANSFORMATIONS/Wikipedia/tara21/`. Publishing itself stays behind the
+  explicit human gate (`kwiki publish --execute`).
 - **2026-08-10 (second entry)** — **Article-viability gate v1 added to Step 6**: the cutoff is
   now a mechanical rule (spread ≥ ⌈commentaries/2⌉ AND raw claims ≥ 20; selection by gate,
   ordering by composite; gate-failures remain as Local-Wiki/glossary candidates), replacing

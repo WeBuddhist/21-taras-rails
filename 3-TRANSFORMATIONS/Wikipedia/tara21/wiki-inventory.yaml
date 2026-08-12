@@ -1,0 +1,673 @@
+# Step 8 output (wiki-article-inventory skill). Planning context only — the live
+# article must be re-fetched at generation time, snapshots here are dated evidence.
+version: 1
+corpus_id: tara21
+checked: '2026-08-12'
+subjects:
+- subject: སྒྲོལ་མ།
+  action: create
+  exists: false
+  qid: Q106796444
+  note: 'Strict-match search found no exact title equal to the term or its variants, but a bo.wikipedia
+    full-text search returns 741 hits for this string, strongly suggesting an article exists under a different/longer
+    title (the top hit is a compound title, rejected by the strict-match rule to avoid a false accept).
+    Not resolved automatically — recorded as exists=false/create per the no-guessing rule, but this subject
+    is excluded from the current batch regardless (see the methodology doc: Tārā is deferred as its own
+    dedicated effort).'
+- subject: ཞི་བ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q324618
+  - Q7157606
+  - Q934105
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: བདུད།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: བདུད་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%91%E0%BD%B4%E0%BD%91%E0%BC%8B
+  qid: null
+  unverified_wikidata_candidates:
+  - Q16798000
+  - Q1520016
+  - Q134703
+  length_bytes: 34955
+  sections:
+  - མཚན་ཉིད།
+  - སྒྲ་བཤད།
+  - དབྱེ་བ།
+  - རྩོད་སྤོང་།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/བདུད.wiki
+  snapshot_date: '2026-08-12'
+- subject: གདོན།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: གདོན་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%82%E0%BD%91%E0%BD%BC%E0%BD%93%E0%BC%8B
+  qid: null
+  unverified_wikidata_candidates:
+  - Q175331
+  - Q177413
+  - Q62123102
+  length_bytes: 464
+  sections: []
+  assessment: stub
+  snapshot: work/wiki-snapshots/གདོན.wiki
+  snapshot_date: '2026-08-12'
+- subject: གཙུག་ཏོར།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q106796717
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: ཏུ་རེ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q535214
+  - Q18508917
+  - Q116
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: དཀོན་མཆོག་གསུམ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: དཀོན་མཆོག་གསུམ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%91%E0%BD%80%E0%BD%BC%E0%BD%93%E0%BC%8B%E0%BD%98%E0%BD%86%E0%BD%BC%E0%BD%82%E0%BC%8B%E0%BD%82%E0%BD%A6%E0%BD%B4%E0%BD%98%E0%BC%8D
+  qid: Q207957
+  length_bytes: 28741
+  sections:
+  - སྒྲ་བཤད།
+  - ནང་དོན།
+  - གནོད་པ་བྱས་པའི་ཉེས་དམིགས།
+  - ལུས་ལ་ཆགས་པའི་འགལ་རྐྱེན།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  - གསལ་བཤད།
+  - པར་རིས་བར་ཁྱམས།
+  - ཟིན་ཐོའམ་དཔྱད་གཞི།
+  - དཔྱད་གཞིའི་དཀར་ཆག
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲྭ་མཐུད།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/དཀོན་མཆོག་གསུམ.wiki
+  snapshot_date: '2026-08-12'
+- subject: ཧཱུྃ།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: ཧཱུྃ་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A7%E0%BD%B1%E0%BD%B4%E0%BE%83%E0%BC%8B
+  qid: null
+  unverified_wikidata_candidates:
+  - Q5
+  - Q6900
+  - Q152087
+  length_bytes: 23976
+  sections:
+  - ངེས་ཚིག
+  - མཚོན་དོན
+  - ཡི་གེའི་ཆ་ཤས་ཀྱི་དོན
+  - རྒྱུད་གཞུང་གི་ལུང་དྲངས་པ
+  - ཡེ་ཤེས་ལྔ་དང་འབྲེལ་བ
+  - ཡིག་བརྒྱ་ནང་གི་གནས་དང་དགོས་པ
+  - འབྲེལ་ཡོད་ཤོག་ངོས།
+  - ལུང་ཁུངས།
+  - དཔྱད་གཞིའི་ཡིག་ཆ།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/ཧཱུྃ.wiki
+  snapshot_date: '2026-08-12'
+- subject: རོ་ལངས།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: རོ་ལངས་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A2%E0%BD%BC%E0%BC%8B%E0%BD%A3%E0%BD%84%E0%BD%A6%E0%BC%8B
+  qid: null
+  unverified_wikidata_candidates:
+  - Q8073789
+  - Q1163207
+  - Q135452388
+  length_bytes: 2412
+  sections: []
+  assessment: substantial
+  snapshot: work/wiki-snapshots/རོ་ལངས.wiki
+  snapshot_date: '2026-08-12'
+- subject: སྔགས།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: སྔགས་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A6%E0%BE%94%E0%BD%82%E0%BD%A6%E0%BC%8B
+  qid: null
+  unverified_wikidata_candidates:
+  - Q114964671
+  - Q17040318
+  - Q18606429
+  length_bytes: 987
+  sections:
+  - སྔགས།
+  assessment: stub
+  snapshot: work/wiki-snapshots/སྔགས.wiki
+  snapshot_date: '2026-08-12'
+- subject: འཁོར་ལོ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: འཁོར་ལོ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A0%E0%BD%81%E0%BD%BC%E0%BD%A2%E0%BC%8B%E0%BD%A3%E0%BD%BC%E0%BC%8D
+  qid: Q446
+  length_bytes: 758
+  sections:
+  - གསལ་བཤད།
+  - པར་རིས་བར་འཁྱམས།
+  - ཟིན་ཐོ་འམ་དཔྱད་གཞི།
+  - འཁོར་ལོ་ནི་གང་གི་འཁོར་ལོ་ཞེས་ལ་ཟེར་
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲ་མཐུད།
+  assessment: stub
+  snapshot: work/wiki-snapshots/འཁོར་ལོ.wiki
+  snapshot_date: '2026-08-12'
+- subject: བརྒྱ་བྱིན།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: བརྒྱ་བྱིན།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%A2%E0%BE%92%E0%BE%B1%E0%BC%8B%E0%BD%96%E0%BE%B1%E0%BD%B2%E0%BD%93%E0%BC%8D
+  qid: Q128335
+  length_bytes: 771
+  sections:
+  - མིང་འབྱུང་ཚུལ།
+  - མཚོན་རྟགས།
+  - ཆོས་ལུགས།
+  - ཟིན་ཐོ་འམ་དཔྱད་གཞི།
+  - དཔྱད་གཞིའི་དཀར་ཆག།
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲ་མཐུད།
+  assessment: stub
+  snapshot: work/wiki-snapshots/བརྒྱ་བྱིན.wiki
+  snapshot_date: '2026-08-12'
+- subject: རྒྱལ་བ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: རྒྱལ་བ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A2%E0%BE%92%E0%BE%B1%E0%BD%A3%E0%BC%8B%E0%BD%96%E0%BC%8D
+  qid: null
+  unverified_wikidata_candidates:
+  - Q7055
+  - Q107428019
+  length_bytes: 33858
+  sections:
+  - སྒྲ་བཤད།
+  - མཚན་ཉིད།
+  - ཡོན་ཏན།
+  - སྟོབས་ཀྱི་ཁྱད་པར།
+  - འཕྲིན་ལས་ཀྱི་ཚུལ།
+  - མྱ་ངན་ལས་འདས་པའི་ཚུལ།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/རྒྱལ་བ.wiki
+  snapshot_date: '2026-08-12'
+- subject: ཕྱག་རྒྱ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q208030
+  - Q140074102
+  - Q30669722
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: པདྨ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q107428325
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: འཇིག་རྟེན་གསུམ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: འཇིག་རྟེན་གསུམ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A0%E0%BD%87%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%A2%E0%BE%9F%E0%BD%BA%E0%BD%93%E0%BC%8B%E0%BD%82%E0%BD%A6%E0%BD%B4%E0%BD%98%E0%BC%8D
+  qid: null
+  unverified_wikidata_candidates:
+  - Q77076820
+  - Q362
+  - Q2
+  length_bytes: 19491
+  sections:
+  - ངོ་བོ།
+  - དབྱེ་བ།
+  - འཇིག་རྟེན་གསུམ་གྱི་མཆོད་གནས།
+  - སེམས་ལ་རག་ལས་པ།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/འཇིག་རྟེན་གསུམ.wiki
+  snapshot_date: '2026-08-12'
+- subject: ཚངས་པ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: ཚངས་པ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%9A%E0%BD%84%E0%BD%A6%E0%BC%8B%E0%BD%94%E0%BC%8D
+  qid: Q11389
+  length_bytes: 573
+  sections:
+  - མིང་འབྱུང་ཚུལ།
+  - མཚོན་རྟགས།
+  - ཆོས་ལུགས།
+  - ཟིན་ཐོ་འམ་དཔྱད་གཞི།
+  - དཔྱད་གཞིའི་དཀར་ཆག།
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲ་མཐུད།
+  assessment: stub
+  snapshot: work/wiki-snapshots/ཚངས་པ.wiki
+  snapshot_date: '2026-08-12'
+- subject: སྡུག་བསྔལ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q7634490
+  - Q140038058
+  - Q118486998
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: བསྐལ་པ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: བསྐལ་པ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%A6%E0%BE%90%E0%BD%A3%E0%BC%8B%E0%BD%94%E0%BC%8D
+  qid: null
+  unverified_wikidata_candidates:
+  - Q2422109
+  - Q5381810
+  - Q54863040
+  length_bytes: 40249
+  sections:
+  - མཚན་ཉིད།
+  - སྒྲ་བཤད།
+  - དབྱེ་བ།
+  - ཁྱད་པར་གྱི་བསྐལ་པ།
+  - བསྐལ་པའི་ཡུན་ཚད།
+  - བསྐལ་པ་དང་འབྲེལ་བའི་དགེ་རྩའི་ཚོགས།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/བསྐལ་པ.wiki
+  snapshot_date: '2026-08-12'
+- subject: མེ་ལྷ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q59080509
+  - Q16161911
+  - Q37465145
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: དྲི་ཟ།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: དྲི་ཟ་
+  url: https://bo.wikipedia.org/wiki/%E0%BD%91%E0%BE%B2%E0%BD%B2%E0%BC%8B%E0%BD%9F%E0%BC%8B
+  qid: null
+  length_bytes: 2999
+  sections: []
+  assessment: substantial
+  snapshot: work/wiki-snapshots/དྲི་ཟ.wiki
+  snapshot_date: '2026-08-12'
+- subject: དེ་བཞིན་གཤེགས་པ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: དེ་བཞིན་གཤེགས་པ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%91%E0%BD%BA%E0%BC%8B%E0%BD%96%E0%BD%9E%E0%BD%B2%E0%BD%93%E0%BC%8B%E0%BD%82%E0%BD%A4%E0%BD%BA%E0%BD%82%E0%BD%A6%E0%BC%8B%E0%BD%94%E0%BC%8D
+  qid: Q1061285
+  length_bytes: 591
+  sections:
+  - གསལ་བཤད།
+  - ཟིན་ཐོ་འམ་དཔྱད་གཞི།
+  - དཔྱད་གཞིའི་དཀར་ཆག
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲ་མཐུད།
+  assessment: stub
+  snapshot: work/wiki-snapshots/དེ་བཞིན་གཤེགས་པ.wiki
+  snapshot_date: '2026-08-12'
+- subject: གནོད་སྦྱིན།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q101227390
+  - Q6011093
+  - Q29383272
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: ལྷ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: ལྷ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A3%E0%BE%B7%E0%BC%8D
+  qid: null
+  unverified_wikidata_candidates:
+  - Q523
+  - Q6999
+  - Q111988233
+  length_bytes: 5117
+  sections: []
+  assessment: substantial
+  snapshot: work/wiki-snapshots/ལྷ.wiki
+  snapshot_date: '2026-08-12'
+- subject: རི་རབ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q816227
+  - Q928744
+  - Q2712494
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: རླུང་ལྷ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q4874680
+  - Q473731
+  - Q7917585
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: ཧ་ར།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q10517951
+  - Q1530266
+  - Q16276323
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: མིའམ་ཅི།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: མིའམ་ཅི།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%98%E0%BD%B2%E0%BD%A0%E0%BD%98%E0%BC%8B%E0%BD%85%E0%BD%B2%E0%BC%8D
+  qid: Q25671066
+  length_bytes: 795
+  sections: []
+  assessment: stub
+  snapshot: work/wiki-snapshots/མིའམ་ཅི.wiki
+  snapshot_date: '2026-08-12'
+- subject: འོད་དཔག་མེད།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: འོད་དཔག་མེད།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A0%E0%BD%BC%E0%BD%91%E0%BC%8B%E0%BD%91%E0%BD%94%E0%BD%82%E0%BC%8B%E0%BD%98%E0%BD%BA%E0%BD%91%E0%BC%8D
+  qid: Q236242
+  length_bytes: 857
+  sections:
+  - ལོ་རྒྱུས།
+  - པར་རིས་བར་འཁྱམས།
+  - ཟིན་ཐོ་འམ་དཔྱད་གཞི།
+  - དཔྱད་གཞིའི་དཀར་ཆག།
+  - ད་དུང་གཟིགས།
+  - ཕྱི་ཕྱོགས་དྲ་མཐུད།
+  assessment: stub
+  snapshot: work/wiki-snapshots/འོད་དཔག་མེད.wiki
+  snapshot_date: '2026-08-12'
+- subject: ཕཊ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q19968278
+  - Q37460517
+  - Q96350664
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: སྦྱིན་པ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: སྦྱིན་པ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A6%E0%BE%A6%E0%BE%B1%E0%BD%B2%E0%BD%93%E0%BC%8B%E0%BD%94%E0%BC%8D
+  qid: Q456673
+  length_bytes: 51971
+  sections:
+  - མཚན་ཉིད།
+  - སྒྲ་བཤད།
+  - དབྱེ་བ།
+  - སྤྱོད་ཚུལ།
+  - སྦྱིན་པའི་ཁྱད་ཆོས།
+  - སྦྱིན་པའི་ཕན་ཡོན།
+  - ཆེ་ཆུང་གི་དབྱེ་བ།
+  - སྦྱིན་པ་མ་བཏང་བའི་ཉེས་དམིགས།
+  - ལུང་ཁུངས་
+  assessment: substantial
+  snapshot: work/wiki-snapshots/སྦྱིན་པ.wiki
+  snapshot_date: '2026-08-12'
+- subject: བསམ་གཏན།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: བསམ་གཏན།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%A6%E0%BD%98%E0%BC%8B%E0%BD%82%E0%BD%8F%E0%BD%93%E0%BC%8D
+  qid: Q107423931
+  length_bytes: 43659
+  sections:
+  - མཚན་ཉིད།
+  - སྒྲ་བཤད།
+  - བསམ་གཏན་གྱི་ངོ་བོ།
+  - དབྱེ་བ།
+  - བྱང་ཆུབ་སེམས་དཔའི་བསམ་གཏན་གྱི་ཁྱད་པར།
+  - བསམ་གཏན་གྱི་ཕན་ཡོན།
+  - བསམ་གཏན་སྒོམ་ཚུལ།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/བསམ་གཏན.wiki
+  snapshot_date: '2026-08-12'
+- subject: བཟོད་པ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: བཟོད་པ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%9F%E0%BD%BC%E0%BD%91%E0%BC%8B%E0%BD%94%E0%BC%8D
+  qid: Q12846123
+  length_bytes: 28440
+  sections:
+  - མཚན་ཉིད།
+  - དབྱེ་བ།
+  - བཟོད་པའི་ཕན་ཡོན།
+  - བཟོད་པ་སྒོམ་ཚུལ།
+  - བསྡུས་དོན།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/བཟོད་པ.wiki
+  snapshot_date: '2026-08-12'
+- subject: བརྩོན་འགྲུས།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: བརྩོན་འགྲུས།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%96%E0%BD%A2%E0%BE%A9%E0%BD%BC%E0%BD%93%E0%BC%8B%E0%BD%A0%E0%BD%82%E0%BE%B2%E0%BD%B4%E0%BD%A6%E0%BC%8D
+  qid: Q106791462
+  length_bytes: 28610
+  sections:
+  - བརྩོན་འགྲུས་ཀྱི་མཚན་ཉིད།
+  - དབྱེ་བ།
+  - མི་མཐུན་ཕྱོགས།
+  - སྤེལ་བའི་ཐབས།
+  - ཕན་ཡོན།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/བརྩོན་འགྲུས.wiki
+  snapshot_date: '2026-08-12'
+- subject: ཕ་རོལ་ཕྱིན་པ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q2636486
+  - Q112250645
+  - Q37570301
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: བགེགས།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q264661
+  - Q16515105
+  - Q2013063
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: སྭཱ་ཧཱ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q2614321
+  - Q61100936
+  - Q31240286
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: འབྱུང་པོ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q37552120
+  - Q917
+  - Q5206795
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: དཀའ་ཐུབ།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  title: དཀའ་ཐུབ།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%91%E0%BD%80%E0%BD%A0%E0%BC%8B%E0%BD%90%E0%BD%B4%E0%BD%96%E0%BC%8D
+  qid: null
+  unverified_wikidata_candidates:
+  - Q179807
+  - Q211390
+  - Q9632831
+  length_bytes: 13190
+  sections:
+  - མཚན་ཉིད།
+  - ནང་དོན།
+  - སེམས་གཡེངས་པས་དོན་མེད་དུ་འགྱུར་བ།
+  - དོན་བསྡུས།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/དཀའ་ཐུབ.wiki
+  snapshot_date: '2026-08-12'
+- subject: ལྷ་མོ།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q106795583
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: དབང་ཕྱུག།
+  action: update
+  exists: true
+  found_by:
+  - search-fallback
+  title: དབང་ཕྱུག
+  url: https://bo.wikipedia.org/wiki/%E0%BD%91%E0%BD%96%E0%BD%84%E0%BC%8B%E0%BD%95%E0%BE%B1%E0%BD%B4%E0%BD%82
+  qid: Q106797663
+  length_bytes: 13850
+  sections:
+  - མིང་འབྱུང་ཚུལ།
+  - མཆོད་པ་འབུལ་སྐབས་ཀྱི་དབང་ཕྱུག
+  - གོས་རྒྱན་འབུལ་སྐབས་ཀྱི་དབང་ཕྱུག
+  - བྱང་ཆུབ་སེམས་དཔའི་ཚུལ།
+  - བསྡུས་དོན།
+  - ལུང་ཁུངས།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/དབང་ཕྱུག.wiki
+  snapshot_date: '2026-08-12'
+- subject: སངས་རྒྱས།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: སངས་རྒྱས།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%A6%E0%BD%84%E0%BD%A6%E0%BC%8B%E0%BD%A2%E0%BE%92%E0%BE%B1%E0%BD%A6%E0%BC%8D
+  qid: Q7055
+  length_bytes: 10414
+  sections:
+  - སྒྲ་བཤད་དང་གོ་དོན།
+  - ལོ་རྒྱུས་ཁྲོད་ཀྱི་སངས་རྒྱས།
+  - ནང་ཆོས་ཀྱི་གྲུབ་མཐའ་སོ་སོའི་འདོད་ཚུལ།
+  - སངས་རྒྱས་ཀྱི་ཡོན་ཏན།
+  - འབྲེལ་ཡོད་རྩོམ་ཡིག
+  - ཟུར་ལྟའི་ཡིག་ཆ།
+  assessment: substantial
+  snapshot: work/wiki-snapshots/སངས་རྒྱས.wiki
+  snapshot_date: '2026-08-12'
+- subject: འབིགས་བྱེད།
+  action: create
+  exists: false
+  qid: null
+  unverified_wikidata_candidates:
+  - Q271435
+  - Q7932334
+  - Q114417224
+  note: No bo.wikipedia page under term or variants; no accepted Wikidata bo sitelink.
+- subject: མྱ་ངན་འདས།
+  action: update
+  exists: true
+  found_by:
+  - title-lookup
+  - wikidata-sitelink
+  title: མྱ་ངན་འདས།
+  url: https://bo.wikipedia.org/wiki/%E0%BD%98%E0%BE%B1%E0%BC%8B%E0%BD%84%E0%BD%93%E0%BC%8B%E0%BD%A0%E0%BD%91%E0%BD%A6%E0%BC%8D
+  qid: Q25671236
+  length_bytes: 314
+  sections: []
+  assessment: stub
+  snapshot: work/wiki-snapshots/མྱ་ངན་འདས.wiki
+  snapshot_date: '2026-08-12'

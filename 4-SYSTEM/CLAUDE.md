@@ -404,6 +404,8 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Quick translation, no termbase | `zeroshot-translator` |
 | Bring a raw OCR/segmentation text into 1-SOURCES with frontmatter | `raw-to-sources` |
 | Draft a Tibetan Wikipedia article from a consolidated claims topic page | `wiki-article-from-claims` |
+| Filter the article queue into encyclopedic subjects (worthiness + merge) | `article-subject-filter` |
+| Inventory existing bo.wikipedia articles for the queued subjects | `wiki-article-inventory` |
 
 ### Pipelines are not skills
 
