@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-RAILS/Claims/ushnisha.md",
+                "file": "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gdon/article.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ushnisha"
+              "title": "article"
             }
           }
         ]
@@ -200,6 +200,7 @@
   "active": "f0ee988f2ed0e67b",
   "lastOpenFiles": [
     "3-TRANSFORMATIONS/Wikipedia/tara21/wiki-inventory.md",
+    "2-RAILS/Claims/ushnisha.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/wheel/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/ushnisha/article.md",
@@ -224,7 +225,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-10/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-09/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-08/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-07/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/article.wiki",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gdon/article.wiki",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/article.wiki",
