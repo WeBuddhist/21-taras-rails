@@ -197,8 +197,10 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "f0ee988f2ed0e67b",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper.md",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/Expanding-the-Digital-Footprint-of-Tibetan-corrected.md",
     "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-src.md",
@@ -217,7 +219,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles",
     "0-INBOX/AI_translation/keyword-extraction/output/article_queue.md",
     "4-SYSTEM/Skills/wiki-article-from-claims/SKILL.md",
     "0-INBOX/AI_translation/keyword-extraction/output/ranked_keywords_top60.md",
@@ -233,7 +234,6 @@
     "2-RAILS/Claims/structure.md",
     "2-RAILS/Claims/origin.md",
     "2-RAILS/Claims/benefits.md",
-    "2-RAILS/Claims/tara-11.md",
-    "2-RAILS/Claims/tara-10.md"
+    "2-RAILS/Claims/tara-11.md"
   ]
 }
