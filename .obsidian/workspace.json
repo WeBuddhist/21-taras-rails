@@ -199,6 +199,10 @@
   },
   "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "gemini-scribe/Scheduled-Tasks/Runs",
+    "gemini-scribe/Skills",
+    "gemini-scribe/Background-Tasks",
+    "gemini-scribe/Agent-Sessions",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/citations.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/kinnara/article.md",
@@ -229,11 +233,7 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/eon",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/yaksha",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gandharva/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gandharva",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni",
-    "2-RAILS/Claims/suffering.md",
-    "2-RAILS/Claims/yaksha.md"
+    "2-RAILS/Claims/suffering.md"
   ]
 }
