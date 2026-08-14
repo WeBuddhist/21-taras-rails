@@ -295,11 +295,11 @@ No other commentary in the corpus supplies comparable individually-named narrati
 - `anon-trinle-char:c-3-19-5`, `anon-trinle-char:c-3-19-6`, `anon-trinle-char:c-3-19-8`, `anon-trinle-char:c-3-19-10` — narrower verse-citations and attribution notes elaborating the same nineteenth-homage epithet already cited at `anon-trinle-char:c-3-19-1`; redundant corroboration, not independent content.
 - `anon-utpala:c-1-2-2-1-2-5-3` — iconography detail (suffering-dispelling crown-light), a narrower instance of the widely-attested "light dispels suffering" motif already covered under "Protection from suffering," Statement 1–2.
 - `gendun-drub:c-2-2-2-2-1-2-5-3` — same crown-light iconography motif, redundant with the instances above.
-- `gendun-drub:c-2-2-3-3-3` — poison-dispelling benefit, narrower instance already covered by `c-2-2-3-3-4` (cited).
+- `gendun-drub:c-2-2-3-3-3` — poison-dispelling benefit, narrower instance already covered by `gendun-drub:c-2-2-3-3-4` (cited).
 - `konchok-thabkhe:c-2-19-4` — an attribution note (the mahāsiddha verse underlying a different gloss); "suffering" appears only inside the quoted verse fragment, incidental to the claim's own point (textual sourcing).
 - `palden-sherab:c-3-1-7-4-1` — completion-stage passage where "suffering-happiness" is one item in a dissolving dualistic pair; not independently about suffering's own doctrinal status.
 - `palden-sherab:c-3-1-12-1-1` — iconography detail, suffering-dispelling light as one clause within a larger crown-ornament description; redundant with the motif already covered.
-- `palden-sherab:c-3-1-15-1-2` — benefit claim (mantra destroys the five heinous crimes and their result), narrower instance already covered by `c-3-2-2-1-1` (cited) and Statement 4.
+- `palden-sherab:c-3-1-15-1-2` — benefit claim (mantra destroys the five heinous crimes and their result), narrower instance already covered by `palden-sherab:c-3-2-2-1-1` (cited) and Statement 4.
 - `palden-sherab:c-3-1-21-2-2` — visualization detail; "suffering" appears only inside the compound "གདོན་སྡུག་བསྔལ" (spirit-affliction), not analyzed independently.
 - `palden-sherab:c-3-1-21-4-2` — completion-stage gloss where "spirits=suffering" is a symbolic equivalence belonging to a different topic (the spirit/zombie/yakṣa triad); tangential here.
 - `palden-sherab:c-3-2-2-6-1` — benefit claim about ritual timing and obstacles generally; suffering mentioned only in passing ("the sufferings connected with the occasion"), redundant with already-cited benefit claims.
@@ -309,7 +309,7 @@ No other commentary in the corpus supplies comparable individually-named narrati
 - `taranatha:c-20-7` — iconography detail ("burns sin and suffering" as one clause of eye-light description), redundant with the motif already covered.
 - `taranatha:c-21-4-5` — a doctrinal simile comparing suffering to spirit/vetāla/yakṣa harms; belongs more properly to this vault's existing `gdon`/`vetala` topic pages.
 - `taranatha:c-22-1-29` — describes a poison's potency; "suffering" is incidental description, not an independent claim about suffering.
-- `taranatha:c-22-1-34` — benefit claim, narrower redundant instance of `c-22-1-33` (cited).
+- `taranatha:c-22-1-34` — benefit claim, narrower redundant instance of `taranatha:c-22-1-33` (cited).
 - `tenga-tulku:c-1-2-1-4` — origin-narrative material (Tārā born from Avalokiteśvara's tears at beings' suffering); suffering is narrative backdrop, not this claim's own analytical content.
 - `tenga-tulku:c-1-2-2-1-1-4-4` — iconography detail, redundant "protects from suffering" clause within a larger description.
 - `tenga-tulku:c-1-2-2-1-1-5-4` — describes spirit-classes "tormented by suffering"; content is spirit taxonomy, belongs to the `gdon`/`vetala` topic pages, not this one.
@@ -329,7 +329,7 @@ No other commentary in the corpus supplies comparable individually-named narrati
 - `tenzin-dhonzang:c-4-15-7` — enumerates "great sin"; suffering appears only as "the great sufferings that are the fruit of the three lower realms," redundant with Statement 3.
 - `tenzin-dhonzang:c-4-18-5` — etymology of "mantra" in general; suffering appears in the general definition, tangential to this topic's specific claims.
 - `tsultrim-namdak:c-2-1-2-1-42` — iconography detail, redundant crown-light motif.
-- `tsultrim-namdak:c-2-1-2-1-53` — benefit claim, narrower redundant continuation of `c-2-1-2-1-50`/`c-2-1-2-1-51` (both cited).
+- `tsultrim-namdak:c-2-1-2-1-53` — benefit claim, narrower redundant continuation of `tsultrim-namdak:c-2-1-2-1-50`/`tsultrim-namdak:c-2-1-2-1-51` (both cited).
 - `tsultrim-namdak:c-2-1-2-1-68` — iconography detail (eye-light burns away suffering), redundant with the motif already covered.
 
 ---
