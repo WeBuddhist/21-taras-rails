@@ -387,6 +387,12 @@ These skills generate encyclopedic output for bo.wikipedia from the vault's rail
 **Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/article.md (Obsidian-viewable fenced wikitext)` plus a `citations.md` audit trail mapping every ref to claim IDs and source blocks.
 → [`wiki-article-from-claims/SKILL.md`](wiki-article-from-claims/SKILL.md)
 
+### `wiki-article-from-claims-v2` **[exists]**
+**Purpose:** Successor candidate to `wiki-article-from-claims` (2026-08-18 reviewer feedback): same claim-resolution chain and quotation verification, but the prose is encyclopedic wikivoice — consensus stated plainly without inline commentator attribution, at most 3 refs per statement, at most 2 commentary quotations per article — plus a generated read-only `article-preview.md` (Obsidian footnotes) so reviewers read the article without inline `<ref>` clutter. v1 remains the skill of record until the human contributor retires it.
+**Inputs:** A spine-slot or keyword topic whose consolidated page exists in `2-RAILS/Claims/`, that page's raw tree-guided claims files, and the pipeline's wikitext spec as the output contract.
+**Outputs:** `article.md` (fenced wikitext) + `citations.md` (audit trail, incl. full attestation beyond the in-article refs) + `article-preview.md` (script-generated footnote rendering) under `term-articles/<topic>/` or `slot-articles/<topic>/`; bundled `scripts/make_preview.py` also runs standalone on existing v1 articles.
+→ [`wiki-article-from-claims-v2/SKILL.md`](wiki-article-from-claims-v2/SKILL.md)
+
 ### `article-subject-filter` **[exists]**
 **Purpose:** Classify every article-queue term as a standalone encyclopedic subject, section material for a named target article, or a glossary-only term — merging near-duplicate subjects — with a recorded reason for every verdict (keyword pipeline Step 7).
 **Inputs:** `article_queue.json` and the Tibetan term registry from the keyword-extraction run, the methodology doc's §Step 7 criteria, and the existing `2-RAILS/Claims/` pages as merge targets.
