@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md",
+                "file": "1-SOURCES/About Sources.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "article"
+              "title": "About Sources"
             }
           }
         ]
@@ -200,9 +200,10 @@
   },
   "active": "21edb6dec3ff7a1a",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-04/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
@@ -234,7 +235,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/eon/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gandharva/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/citations.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata"
   ]
 }
