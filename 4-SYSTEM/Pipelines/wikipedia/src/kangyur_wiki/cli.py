@@ -43,6 +43,14 @@ app = typer.Typer(
 )
 
 
+#: Categories the emitter is allowed to place an article in.  ``prompts/06-draft``
+#: targets ནང་བསྟན།; articles drafted by the vault's own ``wiki-article-from-claims``
+#: skill use bo.wikipedia's existing ནང་ཆོས། instead.  Both are real categories on the
+#: wiki, so both are allowed rather than one being rewritten into the other — which
+#: category an article belongs in is an editorial call, not the gate's.
+DEFAULT_CATEGORIES: tuple[str, ...] = ("ནང་བསྟན།", "ནང་ཆོས།")
+
+
 def _now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
@@ -442,7 +450,7 @@ def article(
         led.set_status(term, TermStatus.FAILED, _now(), error="audit found blocking issues")
 
     result = run_verify(
-        term, wikitext, citations, ["ནང་བསྟན།"], reading_source, artifacts,
+        term, wikitext, citations, list(DEFAULT_CATEGORIES), reading_source, artifacts,
         raw_loader=raw_source,
     )
     if result.passed:
@@ -739,7 +747,7 @@ def update(
         client.generate,
         prompt_render,
         artifacts,
-        allowed_categories=["ནང་བསྟན།"],
+        allowed_categories=list(DEFAULT_CATEGORIES),
         source_loader=reading_source,
     )
     typer.echo(
@@ -773,7 +781,16 @@ def update(
 
 
 @app.command()
-def verify(corpus: str = typer.Argument(...), term: str = typer.Argument(...)) -> None:
+def verify(
+    corpus: str = typer.Argument(...),
+    term: str = typer.Argument(...),
+    category: list[str] = typer.Option(
+        list(DEFAULT_CATEGORIES),
+        "--category",
+        help="Allowed category, repeatable. The default is what the drafting prompt targets; "
+        "articles drafted outside the chain may carry another of bo.wikipedia's own categories.",
+    ),
+) -> None:
     """Stage 7 alone — re-run the gate over an already-drafted article."""
     from .wiki.wikitext import Citation
 
@@ -787,7 +804,7 @@ def verify(corpus: str = typer.Argument(...), term: str = typer.Argument(...)) -
     raw_source, reading_source = _source_loaders(_corpus_texts(corpus)[1])
 
     result = run_verify(
-        term, wikitext, citations, ["ནང་བསྟན།"], reading_source, artifacts,
+        term, wikitext, citations, list(category), reading_source, artifacts,
         raw_loader=raw_source,
     )
     typer.echo(result.format_report())

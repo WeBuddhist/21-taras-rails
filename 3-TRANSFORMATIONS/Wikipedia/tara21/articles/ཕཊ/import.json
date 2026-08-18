@@ -1,0 +1,9 @@
+{
+ "imported_by": "scripts/import_term_article.py",
+ "imported_from": "term-articles/phat",
+ "method": "wiki-article-from-claims",
+ "source_status": "draft",
+ "rows_parsed": 38,
+ "citations_written": 38,
+ "unresolved_rows": []
+}

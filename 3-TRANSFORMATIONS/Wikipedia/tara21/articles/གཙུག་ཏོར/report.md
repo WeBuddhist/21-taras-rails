@@ -1,0 +1,213 @@
+# Verification — གཙུག་ཏོར
+
+**FAIL**
+
+## Quotations not found in source
+
+- TARAC13_TDZ_bo_segmented#^0-130: [missing] འགྲོ་བ་ཀུན་གྱིས་བསྟོད་དབྱངས་...ལྟ་བུ…
+- TARAC13_TDZ_bo_segmented#^0-258: [missing] དེ་ལྟར་མཚན་རེ་རེས...གཟིགས་སོ།…
+- TARAC12_PDS_bo_segmented#^0-188: [missing] བྱད་ཟོར་རྦོད་གཏོང་...བྱེད་པའི་…
+- TARAC09_ANON_bo_segmented#^0-42: [missing] ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་...བཞུགས་ཤིང་།…
+- TARAC09_ANON_bo_segmented#^0-45: [missing] ཇོ་ནང་པས་...བདག་གིར་མཛད…
+- TARAC08_DTG_bo_segmented#^0-35: [missing] opening-line-only…
+- TARAC13_TDZ_bo_segmented#^0-131: [missing] ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] བཞི་པ་འཆི་མེད་ཚེ་སྒྲུབ་གཙུག་ཏོར་རྣམ་པར...…
+- TARAC15_SNT_bo_segmented#^0-22: [missing] འཆི་མེད་ཚེ་སྒྲུབ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ...…
+- TARAC03_GDD_bo_segmented#^0-31: [missing] འདི་ལ་གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ་ཞེས...…
+- TARAC09_ANON_bo_segmented#^0-41: [missing] ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ...…
+- TARAC02_DGT_bo_segmented#^0-24: [missing] དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་དབུའི...…
+- TARAC09_ANON_bo_segmented#^0-41: [missing] ཇོ་ནང་པས་དེ་བཞིན་གཤེགས་པ་རྣམ་པ...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་རིག...…
+- TARAC05_TRN_bo_segmented#^0-13: [missing] དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི...…
+- TARAC13_TDZ_bo_segmented#^0-131: [missing] འགྲོ་བ་ཀུན་གྱིས་བསྟོད་དབྱངས་འབུལ...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] བདེ་ཆེན་ཡེ་ཤེས་སྤྱི་བོར་འདྲེན་ཞིང...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནི་ཐེག...…
+- TARAC13_TDZ_bo_segmented#^0-131: [missing] དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་གྱིས་ཀྱང...…
+- TARAC13_TDZ_bo_segmented#^0-131: [missing] དེ་ལྟར་མཚན་རེ་རེས་ཀྱང་གཅིག་ཅར...…
+- TARAC05_TRN_bo_segmented#^0-13: [missing] དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ཞེས་པས...…
+- TARAC10_DPN_bo_segmented#^0-34: [missing] ཕྱོགས་བཅུའི་དེ་བཞིན་གཤེགས་པ་རྒྱལ་བ...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] བྱད་ཟོར་རྦོད་གཏོང་རྩོད་པ་དང་། རྨི...…
+- TARAC12_PDS_bo_segmented#^0-43: [missing] མི་ཕམ་གཙུག་ཏོར་གདུགས་དཀར་མོ་སྐུ...…
+- TARAC13_TDZ_bo_segmented#^0-131: [missing] བདེ་གཤེགས་གཙུག་ཏོར་ལྟ་མི་མངོན་པ་ལས...…
+
+## Errors
+
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): འགྲོ་བ་ཀུན་གྱིས་བསྟོད་དབྱངས་...ལྟ་བུ
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): དེ་ལྟར་མཚན་རེ་རེས...གཟིགས་སོ།
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): བྱད་ཟོར་རྦོད་གཏོང་...བྱེད་པའི་
+- `V1` quotation not found verbatim in 'TARAC09_ANON_bo_segmented' (method=missing): ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་…
+- `V1` quotation not found verbatim in 'TARAC09_ANON_bo_segmented' (method=missing): ཇོ་ནང་པས་...བདག་གིར་མཛད
+- `V1` quotation not found verbatim in 'TARAC08_DTG_bo_segmented' (method=missing): opening-line-only
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): བཞི་པ་འཆི་མེད་ཚེ་སྒྲུབ་གཙུག་ཏོར་རྣམ་པར..…
+- `V1` quotation not found verbatim in 'TARAC15_SNT_bo_segmented' (method=missing): འཆི་མེད་ཚེ་སྒྲུབ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ.…
+- `V1` quotation not found verbatim in 'TARAC03_GDD_bo_segmented' (method=missing): འདི་ལ་གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ་ཞེས...
+- `V1` quotation not found verbatim in 'TARAC09_ANON_bo_segmented' (method=missing): ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ...
+- `V1` quotation not found verbatim in 'TARAC02_DGT_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་དབུའི...
+- `V1` quotation not found verbatim in 'TARAC09_ANON_bo_segmented' (method=missing): ཇོ་ནང་པས་དེ་བཞིན་གཤེགས་པ་རྣམ་པ...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་རིག...
+- `V1` quotation not found verbatim in 'TARAC05_TRN_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི...
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): འགྲོ་བ་ཀུན་གྱིས་བསྟོད་དབྱངས་འབུལ...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): བདེ་ཆེན་ཡེ་ཤེས་སྤྱི་བོར་འདྲེན་ཞིང...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནི་ཐེག...
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་གྱིས་ཀྱང...
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): དེ་ལྟར་མཚན་རེ་རེས་ཀྱང་གཅིག་ཅར...
+- `V1` quotation not found verbatim in 'TARAC05_TRN_bo_segmented' (method=missing): དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ཞེས་པས...
+- `V1` quotation not found verbatim in 'TARAC10_DPN_bo_segmented' (method=missing): ཕྱོགས་བཅུའི་དེ་བཞིན་གཤེགས་པ་རྒྱལ་བ...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): བྱད་ཟོར་རྦོད་གཏོང་རྩོད་པ་དང་། རྨི...
+- `V1` quotation not found verbatim in 'TARAC12_PDS_bo_segmented' (method=missing): མི་ཕམ་གཙུག་ཏོར་གདུགས་དཀར་མོ་སྐུ...
+- `V1` quotation not found verbatim in 'TARAC13_TDZ_bo_segmented' (method=missing): བདེ་གཤེགས་གཙུག་ཏོར་ལྟ་མི་མངོན་པ་ལས...
+- `V2` <ref> does not match any declared citation: མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ། རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་…
+- `V2` <ref> does not match any declared citation: འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ། སྒྲོལ་མ་ཉེར་གཅིག་གི་རྣམ་…
+- `V2` <ref> does not match any declared citation: རྒྱལ་བ་དགེ་འདུན་གྲུབ། སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་…
+- `V2` <ref> does not match any declared citation: མཛད་པ་པོ་གསལ་མེད། སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་…
+- `V2` <ref> does not match any declared citation: རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་…
+- `V2` <ref> does not match any declared citation: དགེ་བཤེས་བློ་བཟང་ཟླ་བ། སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ…
+- `V2` <ref> does not match any declared citation: དཀོན་མཆོག་ཐབས་མཁས། ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང…
+- `V2` <ref> does not match any declared citation: རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ། ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤ…
+
+## Warnings
+
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC15_SNT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC15_SNT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC15_SNT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC15_SNT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC16_PSR_bo_segmented' is missing year and page
+- `W2` citation 'TARAC16_PSR_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC17_TSN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC17_TSN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC03_GDD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC03_GDD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC03_GDD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC03_GDD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC06_NDB_bo_segmented' is missing year and page
+- `W2` citation 'TARAC06_NDB_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC08_DTG_bo_segmented' is missing year and page
+- `W2` citation 'TARAC08_DTG_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC14_LZD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC14_LZD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC14_LZD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC14_LZD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC07_KTK_bo_segmented' is missing year and page
+- `W2` citation 'TARAC07_KTK_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC02_DGT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC02_DGT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC04_GDG_bo_segmented' is missing year and page
+- `W2` citation 'TARAC04_GDG_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC11_KMT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC11_KMT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC05_TRN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC05_TRN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC05_TRN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC05_TRN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC10_DPN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC10_DPN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC15_SNT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC15_SNT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC03_GDD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC03_GDD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC14_LZD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC14_LZD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC16_PSR_bo_segmented' is missing year and page
+- `W2` citation 'TARAC16_PSR_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC02_DGT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC02_DGT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC04_GDG_bo_segmented' is missing year and page
+- `W2` citation 'TARAC04_GDG_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC11_KMT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC11_KMT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC07_KTK_bo_segmented' is missing year and page
+- `W2` citation 'TARAC07_KTK_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC03_GDD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC03_GDD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC06_NDB_bo_segmented' is missing year and page
+- `W2` citation 'TARAC06_NDB_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC14_LZD_bo_segmented' is missing year and page
+- `W2` citation 'TARAC14_LZD_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC15_SNT_bo_segmented' is missing year and page
+- `W2` citation 'TARAC15_SNT_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC05_TRN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC05_TRN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC05_TRN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC05_TRN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC10_DPN_bo_segmented' is missing year and page
+- `W2` citation 'TARAC10_DPN_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
+- `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W4` article is 1034 ཚེག་བར long, below the 1500-syllable threshold
+
+## Segment provenance
+
+37 of 62 citations name the commentary block they came from.
+
+These quotations are in the file they cite, but not in the block their `segment_id` names — the attribution is sound, the locator is not:
+
+- TARAC13_TDZ_bo_segmented#^0-134: བདེ་གཤེགས་གཙུག་ཏོར་ལྟ་མི་མངོན་པ་ལས། ། ཉེར་འཁྲུངས་རྒྱལ་བ་ཀུན་…
+- TARAC13_TDZ_bo_segmented#^0-135: དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་གྱིས་ཀྱང་གཟིགས་སོ།…
+- TARAC12_PDS_bo_segmented#^0-44: དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཡེ་ཤེས་ལྷ་མོར་སྤྲུལ་པ…
+- TARAC12_PDS_bo_segmented#^0-45: བདེ་ཆེན་ཡེ་ཤེས་སྤྱི་བོར་འདྲེན་ཞིང་ཐིམ་པ་ནི། གཙུག་ཏོར་རྣམ་པར་…
+- TARAC12_PDS_bo_segmented#^0-50: དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནི་ཐེག་པ་རིམ་དགུའི་རྩེ་མོ་རྫོགས་ཆ…
+- TARAC12_PDS_bo_segmented#^0-51: བཅོམ་ལྡན་འདས་མ་གཙུག་ཏོར་གདུགས་དཀར་མོ…
+- TARAC03_GDD_bo_segmented#^0-31: དབུའི་གཙུག་ཏོར་ལྟར་འཁུར་ཞིང་…
+- TARAC15_SNT_bo_segmented#^0-22: དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་སྤྲུལ་པ…
+- TARAC12_PDS_bo_segmented#^0-43: བཅོམ་ལྡན་འདས་མ་གཙུག་ཏོར་གདུགས་དཀར་མོ…
