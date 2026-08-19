@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
+                "file": "1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།"
+              "title": "སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།"
             }
           }
         ]
@@ -200,8 +200,14 @@
   },
   "active": "5fa4b81c8c5b897a",
   "lastOpenFiles": [
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md",
+    "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/lotus/article-preview.md",
@@ -225,13 +231,7 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/ཕྱག་རྒྱ/history/report.20260815T173224Z.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md",
     "4-SYSTEM/Pipelines/wikipedia/scripts/verify_batch.py",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/པདྨ/history/report.20260815T163623Z.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/པདྨ/history",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ/report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/ཧཱུྃ/report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/སྭཱ་ཧཱ/report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/སྦྱིན་པ/report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/སྡུག་བསྔལ/report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/ཕྱག་རྒྱ/history",
     "3-TRANSFORMATIONS/Wikipedia/tara21/ledger.json",
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/གནོད་སྦྱིན/import.json",
