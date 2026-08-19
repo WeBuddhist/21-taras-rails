@@ -2,7 +2,8 @@
 registered_id: tsultrim-namdak
 title: "སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།"
 title_in_english: "The Ship Entering the Ocean of the Two Accumulations: A Commentary on [the Praises to] Tara"
-author: "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག"
+author: "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་"
+author_in_use: "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་"
 author_in_english: "Khenpo Tsultrim Namdak"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/tsultrim-namdak.md

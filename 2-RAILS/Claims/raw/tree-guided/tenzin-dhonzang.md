@@ -3,6 +3,7 @@ registered_id: tenzin-dhonzang
 title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ"
 title_in_english: "The Heart Jewel: A Commentary on the Praise in Twenty-One Homages to Tara"
 author: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང"
+author_in_use: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང"
 author_in_english: "Sermey Tsang Geshe Tenzin Dhonzang"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/tenzin-dhonzang.md

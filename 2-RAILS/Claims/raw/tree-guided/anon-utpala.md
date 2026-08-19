@@ -2,7 +2,8 @@
 registered_id: anon-utpala
 title: "སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ"
 title_in_english: "The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages"
-author: "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ"
+author: "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ་"
+author_in_use: "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།"
 author_in_english: "Ngulchu Dharmabhadra"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/anon-utpala.md

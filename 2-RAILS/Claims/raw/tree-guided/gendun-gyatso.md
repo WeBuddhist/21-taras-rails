@@ -3,6 +3,7 @@ registered_id: gendun-gyatso
 title: "ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།"
 title_in_english: "Detailed Explanation of the Twenty-One Homages to Tara"
 author: "རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ)"
+author_in_use: "རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ།"
 author_in_english: "Gendun Gyatso Palzangpo (2nd Dalai Lama)"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/gendun-gyatso.md
