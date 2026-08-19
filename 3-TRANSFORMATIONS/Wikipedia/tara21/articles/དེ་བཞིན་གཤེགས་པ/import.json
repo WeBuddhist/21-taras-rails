@@ -1,0 +1,9 @@
+{
+ "imported_by": "scripts/import_term_article.py",
+ "imported_from": "term-articles/tathagata",
+ "method": "wiki-article-from-claims",
+ "source_status": "draft",
+ "rows_parsed": 46,
+ "citations_written": 46,
+ "unresolved_rows": []
+}

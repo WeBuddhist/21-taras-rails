@@ -1,0 +1,9 @@
+{
+ "imported_by": "scripts/import_term_article.py",
+ "imported_from": "term-articles/vayu",
+ "method": "wiki-article-from-claims",
+ "source_status": "draft",
+ "rows_parsed": 22,
+ "citations_written": 23,
+ "unresolved_rows": []
+}

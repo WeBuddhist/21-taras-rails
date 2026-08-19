@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "89901b4346911f02",
+        "id": "7bd38e11f25e7341",
         "type": "tabs",
         "children": [
           {
-            "id": "893f6cc719f614e8",
+            "id": "214948ed8a48742f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -193,43 +197,43 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "893f6cc719f614e8",
+  "active": "15014ceefa497d3c",
   "lastOpenFiles": [
-    "4-SYSTEM/Skills/add-toc/SKILL.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md",
-    "4-SYSTEM/Skills/wiki-article-from-claims/SKILL.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-jewels/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/article.md",
-    "4-SYSTEM/Skills/wiki-article-inventory/SKILL.md",
-    "1-SOURCES/About Sources.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-04/article.md",
+    "conflict-files-obsidian-git.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md",
+    "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "gemini-scribe/Scheduled-Tasks/Runs",
-    "gemini-scribe/Skills",
-    "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/kinnara/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/kinnara",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/article.md",
-    "2-RAILS/Claims/meru.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/hara/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/hara/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/hara",
-    "2-RAILS/Claims/hara.md",
-    "2-RAILS/Claims/kinnara.md",
-    "2-RAILS/Claims/amitabha.md",
-    "2-RAILS/Claims/vayu.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/suffering/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/yaksha/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/eon/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/suffering/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/suffering",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata"
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/tara-21/article-preview.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/mudra/article-preview.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/lotus/article-preview.md",
+    "3-TRANSFORMATIONS/About Transformations.md",
+    "3-TRANSFORMATIONS/Adaptations/About Adaptations.md",
+    "4-SYSTEM/Skills/wiki-article-from-claims-v2/scripts/make_preview.py",
+    "4-SYSTEM/Skills/wiki-article-from-claims-v2/scripts",
+    "4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md",
+    "4-SYSTEM/Skills/wiki-article-from-claims-v2",
+    "4-SYSTEM/Pipelines/wikipedia/scripts/verify_batch.py",
+    "4-SYSTEM/Pipelines/wikipedia/scripts/import_term_article.py",
+    "4-SYSTEM/Pipelines/wikipedia/scripts/build_vault_registry.py",
+    "4-SYSTEM/Pipelines/wikipedia/paper/11 - Pipeline Steps in Detail.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/tara-21/citations.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/tara-21/article.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/tara-21",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/mudra",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/lotus",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2"
   ]
 }
