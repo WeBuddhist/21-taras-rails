@@ -3,6 +3,7 @@ registered_id: palden-sherab
 title: "རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས"
 title_in_english: "Explanation of the Words and Meaning of the Twenty-One Homages to Jetsün Tārā — 'The Sun-and-Moon Smile that Opens the Lotus-Youth of Supreme Bodhichitta, through Faith and Diligence' (title/author frontmatter carries no title_in_english field; this is a literal working translation of the Tibetan title above, not a sourced claim)"
 author: "མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ"
+author_in_use: "དཔལ་ལྡན་ཤེས་རབ་"
 author_in_english: "Khenchen Palden Sherab (per 4-SYSTEM/Guidelines/vault-annex.md §Commentaries)"
 source_file: "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md"
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/palden-sherab.md

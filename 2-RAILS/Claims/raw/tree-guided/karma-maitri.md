@@ -3,6 +3,7 @@ registered_id: karma-maitri
 title: "ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།"
 title_in_english: "Concise Commentary on the Praise in Twenty-One Homages to Tara"
 author: "ཀརྨ་མཻ་ཏྲི"
+author_in_use: "ཀརྨ་མཻ་ཏྲི"
 author_in_english: "Karma Maitri"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/karma-maitri.md

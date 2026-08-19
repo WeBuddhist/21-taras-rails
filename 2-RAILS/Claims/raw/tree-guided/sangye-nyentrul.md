@@ -2,7 +2,8 @@
 registered_id: sangye-nyentrul
 title: "རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར"
 title_in_english:
-author: "སངས་རྒྱས་མཉན་སྤྲུལ"
+author: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།"
+author_in_use: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་"
 author_in_english: "Sangye Nyentrul"
 source_file: "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md"
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/sangye-nyentrul.md

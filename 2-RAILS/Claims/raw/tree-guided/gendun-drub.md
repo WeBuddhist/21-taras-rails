@@ -3,6 +3,7 @@ registered_id: gendun-drub
 title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ"
 title_in_english: "The Precious Garland: A Ṭīkā on the Twenty-One Homages to Tārā"
 author: "རྒྱལ་བ་དགེ་འདུན་གྲུབ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)"
+author_in_use: "རྒྱལ་བ་དགེ་འདུན་གྲུབ་པ།"
 author_in_english: "Gyalwa Gendun Drub (First Dalai Lama)"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/gendun-drub.md

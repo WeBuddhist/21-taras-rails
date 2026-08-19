@@ -2,7 +2,8 @@
 registered_id: anon-trinle-char
 title: "སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང"
 title_in_english: "unknown (no English title given in the commentary's frontmatter)"
-author: "unknown"
+author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།"
+author_in_use: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།"
 author_in_english: "unknown"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/anon-trinle-char.md

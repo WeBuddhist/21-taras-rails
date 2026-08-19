@@ -2,7 +2,8 @@
 registered_id: lobsang-dawa
 title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ"
 title_in_english: "Annotated Commentary on the Twenty-One Homages to Tara"
-author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ (རྩོམ་སྒྲིག)"
+author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ་"
+author_in_use: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ་"
 author_in_english: "Geshe Lobsang Dawa (compiler)"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/lobsang-dawa.md

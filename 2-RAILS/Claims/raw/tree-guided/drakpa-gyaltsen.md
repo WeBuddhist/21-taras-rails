@@ -2,7 +2,8 @@
 registered_id: drakpa-gyaltsen
 title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར"
 title_in_english: "Illuminating Light Rays: An Explanation of the Praise in Twenty-One Homages to Tārā"
-author: "རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན"
+author: "སི་ཏུ ༠༩་པདྨ་ཉིན་བྱེད་དབང་པོ་"
+author_in_use: "སི་ཏུ ༠༩་པདྨ་ཉིན་བྱེད་དབང་པོ་"
 author_in_english: "Jetsün Drakpa Gyaltsen"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/drakpa-gyaltsen.md
