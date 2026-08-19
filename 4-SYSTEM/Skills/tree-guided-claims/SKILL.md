@@ -102,6 +102,7 @@ registered_id: <registered-id>
 title: "<Tibetan title verbatim from the commentary frontmatter>"
 title_in_english: "<English title verbatim from the commentary frontmatter>"
 author: "<Tibetan author verbatim>"
+author_in_use: "<verbatim from the commentary frontmatter — the human-curated in-article name form; omit the key if the source frontmatter does not carry it>"
 author_in_english: "<English author verbatim>"
 source_file: 1-SOURCES/Commentaries/<filename>.md
 toc_tree_source: <path to the toc-tree file actually used>
@@ -337,7 +338,13 @@ rather than a matter of discipline.**
 ### Step 1 — Load the commentary and the tree
 
 a. Read the commentary's frontmatter; record `registered_id`, `title`, `title_in_english`,
-   `author`, `author_in_english`. Stop if `registered_id` is absent.
+   `author`, `author_in_english`, and `author_in_use` (where present — copy it verbatim,
+   never compose one). Stop if `registered_id` is absent.
+   `author_in_use` (added 2026-08-18) is the human-curated name form downstream article
+   prose uses when citing this author's view. If the source commentary gains or changes
+   this key **after** this claims file was extracted, copy the new value into this file's
+   frontmatter directly — that is a metadata sync, not a re-extraction, and never a reason
+   to re-run this skill.
 b. Load the TOC tree (`2-RAILS/Sections/Raw/toc-tree/<id>.md`, or its pre-promotion `0-INBOX/toc-tree-<id>.md` working copy). Record
    `toc_tree_source`.
 c. Confirm both QC reports exist and are recent (`qc_check_tree.py`'s and
@@ -449,7 +456,8 @@ read zero.
 - [ ] Extraction ran node by node via isolated subagents, never re-bucketed from another
       claims file
 - [ ] Output written to `2-RAILS/Claims/raw/tree-guided/<registered-id>.md`
-- [ ] Frontmatter complete: `registered_id`, `title`, `author`, `source_file`,
+- [ ] Frontmatter complete: `registered_id`, `title`, `author`, `author_in_use` (when the
+      source frontmatter carries it, copied verbatim), `source_file`,
       `toc_tree_source`, `tree_qc_reports`, `citation_form`, `method: tree-guided-extraction`,
       `claim_id_scheme`, `claim_count`, `status: draft`
 - [ ] Every TOC-tree node has a heading in tree order, none skipped or renumbered

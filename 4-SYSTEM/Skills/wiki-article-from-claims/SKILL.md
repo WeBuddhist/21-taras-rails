@@ -19,7 +19,7 @@ This skill writes vault files only. It never publishes — publishing stays behi
    If the page for a requested topic does not exist, stop and report — do not substitute another page.
 2. **The consolidated page's raw sources** — every file listed in its `sources:` frontmatter (paths under `2-RAILS/Claims/raw/tree-guided/`). These resolve claim IDs to བོད་ཡིག, English gloss, and `Cite:` targets. If a listed file is missing, stop and report.
 3. **The wikitext output contract** — `4-SYSTEM/Pipelines/wikipedia/docs/reference/wikitext-spec.md`. Read it in full before drafting; its blocking validator rules (V1–V12) are this skill's acceptance criteria.
-4. **Commentary metadata** — taken from each raw claims file's own frontmatter (`author`, `title`, and `author_in_english`/`title_in_english` where present). Never from memory.
+4. **Commentary metadata** — taken from each raw claims file's own frontmatter (`author`, `title`, `author_in_use`, and `author_in_english`/`title_in_english` where present). If a raw claims file predates the `author_in_use` key, read that one key from the frontmatter of the commentary named in its `source_file` — a metadata-only lookup. Never from memory.
 
 ## Output
 
@@ -136,6 +136,8 @@ status: draft
 10. **Read-only outside the output folder.** This skill never modifies `1-SOURCES/`, `2-RAILS/`, or anything in `4-SYSTEM/`. It writes only under `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/<topic>/`.
 11. **Output is always `status: draft`**, and the consolidated page's own `status` is recorded as `rails_status` in `citations.md`. If the consolidated page is not `status: complete`, say so prominently in *Warnings* — the vault rule is that transformations generate from complete rails, and a human contributor accepts that risk explicitly when running this skill on a draft page.
 12. **No publishing, no network.** The skill ends at the vault files. `/publish` and its pre-publication review remain the only road to bo.wikipedia.
+13. **Tibetan punctuation contract** *(2026-08-18 linguist review)*. Every sentence in the body ends with a shad `།`; the final sentence of every paragraph ends with a double shad `།།` (ཉིས་ཤད). No comma character (`,`, `，`, `、`) anywhere in the fence body — at each point a draft reaches for one, write a shad if the position is a genuine clause/sentence boundary, otherwise nothing. Punctuation precedes the `<ref>` tag(s) it closes over, never follows them. Where classical orthography adjusts the shad after particular final letters (bare ང takes tsheg + shad; final ཀ/ག suppresses the following shad), follow the source commentaries' own attested practice.
+14. **In-prose author names come from `author_in_use`** *(2026-08-18)*. Wherever the prose names a commentator, use that commentary's `author_in_use` frontmatter value — the human-curated, respectful in-article name form — never the `registered_id`, a romanisation, or an honorific the model invents. Resolution: raw claims file frontmatter → (frontmatter-only) the `source_file` commentary → if absent in both, fall back to `author` verbatim and add a warning line in `citations.md` §Warnings. `<ref>` content and `དཔྱད་གཞིའི་ཡིག་ཆ།` bullets keep the formal `author` + `title`.
 
 ---
 
@@ -145,10 +147,10 @@ status: draft
 2. **Build the claim-resolution table.** Collect every attestation ID cited anywhere on the consolidated page (`commentary:claim-id`). For each, open the commentary's raw file and extract: the claim's **བོད་ཡིག**, its English line, its `Cite:` path and block ID, and the raw file's `author`/`title` frontmatter. Record every ID that fails to resolve. Do this before drafting a single sentence — the unresolvables must be known up front so nothing is built on them.
 3. **Plan the article.** Map the consolidated page's numbered sections onto the skeleton's body sections. Mark which claims are backbone (consensus), which are attributed-unique, and which are ⚑ divergences destined for `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`. Select at most 1–3 verbatim quotations per major section — the article is prose, not a quote chain. Take the article's title/lead name from the consolidated page's own Tibetan heading (e.g. སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ), never from an unattested variant.
 4. **Draft the lead.** Bold name (tsheg surviving the `'''` boundary), identification, one or two sentences of summary — every assertion cited.
-5. **Draft the body sections** in Tibetan, section by section, applying Rules 1–5 and 8. Attach a `<ref>` to every claim-bearing sentence or clause; attribute unique and divergent positions by commentator name in the prose.
+5. **Draft the body sections** in Tibetan, section by section, applying Rules 1–5, 8, and 13. Attach a `<ref>` to every claim-bearing sentence or clause; attribute unique and divergent positions by commentator name in the prose, using each commentary's `author_in_use` form (Rule 14).
 6. **Assemble the tail.** `འབྲེལ་ཡོད་ཤོག་ངོས།` (for `tara-NN`: the adjacent Tārās in the series and the root text's article — red links are expected and correct; targets end in tsheg). `ལུང་ཁུངས།` + `<references />`. `དཔྱད་གཞིའི་ཡིག་ཆ།`: one bullet per commentary actually cited, `<AUTHOR>། <TITLE>།` from frontmatter. One category from the allowlist.
 7. **Write `citations.md`** per the format above: the full reference map, claims-used list, unresolvables, warnings.
-8. **Verify.** (a) Every quotation: locate it character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim cites; record PASS/FAIL per quote in `citations.md` §Verification; a FAIL is fixed or the quotation removed before completion. (b) Every `<ref>`: appears in the reference map. (c) Walk the spec's validator table V1–V12 as a checklist against `article.md`'s fence body and fix anything that fails.
+8. **Verify.** (a) Every quotation: locate it character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim cites; record PASS/FAIL per quote in `citations.md` §Verification; a FAIL is fixed or the quotation removed before completion. (b) Every `<ref>`: appears in the reference map. (c) Walk the spec's validator table V1–V12 as a checklist against `article.md`'s fence body and fix anything that fails. (d) Punctuation and naming walk (Rules 13–14): no comma anywhere in the fence body, every paragraph closed with `།།`, no punctuation after a `<ref>` tag, every in-prose commentator name an `author_in_use` value.
 9. **Report.** State where the two files were written, the rails_status, the count of refs and quotations, verification results, and every warning — the human reviewer decides what happens next.
 
 ---
@@ -162,6 +164,8 @@ status: draft
 - [ ] ⚑ divergences appear with all positions attributed; no divergence flattened
 - [ ] `== ལུང་ཁུངས། ==` + `<references />` present; no `{{Reflist}}` anywhere
 - [ ] Spec validator rules V1–V12 walked and passing (Tibetan-only body, tsheg boundaries, fixed tail order, allowlisted category, no dummy URLs or placeholder text)
+- [ ] Punctuation contract holds (Rule 13): no comma character in the fence body; sentences end with `།`; paragraphs end with `།།`; punctuation precedes `<ref>` tags
+- [ ] Every in-prose commentator name is that commentary's `author_in_use` (Rule 14), or the logged `author` fallback with a warning
 - [ ] `citations.md` frontmatter records `context_packages`, `rails_status`, `status: draft`
 - [ ] Warnings section lists rails_status if not `complete`, plus every ref missing a URL/year/page
 - [ ] Nothing outside the output folder was modified; nothing was published
