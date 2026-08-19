@@ -53,6 +53,7 @@ E. PUBLICATION             verified article  →  pre-publication review  →  h
 | C4 | Question generation + consolidation | `claims-consolidation` (one agent per topic) | manifest coverage diff |
 | C5 | Consolidation gates | `verify_consolidation.py` (Gate 1); `claims-consolidation-audit` (Gate 2) | zero errors; no critical/moderate finding |
 | D1 | Draft the article | `wiki-article-from-claims` (claims-only drafting) | per-quote PASS table in `citations.md` |
+| D1b | Native-reviewer style revision (v2) | `wiki-article-from-claims-v2` (Mode A fresh / Mode B register-only) + `make_preview.py` | style walk (ref cap 3, quote budget 2, punctuation contract, `author_in_use` naming); preview generated, never authored |
 | D2 | Import into the pipeline layout | `import_term_article.py` + `build_vault_registry.py` | mechanical bridge; ledger `drafted` |
 | D3 | Deterministic verification | `verify_batch.py` / `kwiki verify` | character-exact quotes; validator V1–V12 |
 | E1 | Pre-publication review | `prompts/08-review/v1-prepublication.md` | must return "publish" |
