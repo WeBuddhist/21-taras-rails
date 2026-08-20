@@ -38,7 +38,7 @@ was introduced beyond the v1 reference map below. The consensus material in the 
 `སྐུ་ཡི་རྣམ་པ`, `ཕྲིན་ལས་དང་ནུས་མཐུ`, and `གསང་བའི་དོན` sections was converted from
 who-said-what attribution chains into wikivoice prose per Rule 5; the `གཞུང་ལུགས་སོ་སོའི་བཤད་པ`
 section (four genuine divergences: structural count, body colour, the "ཞི་བ" gloss, and the
-pāramitā-correspondence scheme) keeps full attribution, as required for ⚑ divergences. 11 of the
+pāramitā-correspondence scheme) keeps full attribution, as required for ⚑ divergences. 8 of the
 13 v1 quotations were converted to attributed or wikivoice paraphrase to meet the 2-quotation
 budget (Rule 6); many consensus statements that carried 4–15 refs in v1 were capped to the 2–3 most
 representative per Rule 7, with the remainder logged below.
@@ -73,7 +73,14 @@ Converted from verbatim quotation to attributed paraphrase (content unchanged):
 ## Full attestation beyond in-article refs (Rule 7 citation-cap overflow)
 
 Consensus/majority statements capped to 2–3 representative refs; the remaining resolved
-attestations for the same statement, preserved so nothing already resolved is lost:
+attestations for the same statement, preserved so nothing already resolved is lost.
+
+**Note on `pema-namgyal` (2026-08-20 audit fix):** both statements this commentary attests
+(the lotus/utpala hand-implement consensus and the six-pāramitā-origin consensus, below) already
+carry 3 in-article refs each — the citation cap — so `pema-namgyal` has zero live `<ref>` tags
+in `article.md` and correspondingly no bullet in `དཔྱད་གཞིའི་ཡིག་ཆ།`. Its attestation is fully
+preserved here and nowhere else; it is not a silent loss. See the Reference map row below, which
+is marked accordingly rather than shown as a live named ref.
 
 - **Lead, "third homage" structural identification:** in-article refs `yama-sonam`, `gendun-gyatso`,
   `taranatha`; also attested by `konchok-thabkhe:c-2-3-1` (dropped for cap).
@@ -129,7 +136,7 @@ lists every raw claim actually drawn on for that commentary's citations in the a
 | konchok-thabkhe | དཀོན་མཆོག་ཐབས་མཁས, *ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང* | c-2-3-1, c-2-3-2, c-2-3-3, c-2-3-4, c-2-3-5, c-2-3-6 | (c-2-3-6) "ཇོ་བོ་ཆེན་པོ་དང་གྲུབ་ཆེན་གཉིས་ཀས་གསེར་མདོག་ཅན་གྱི་སྒྲོལ་མ་ཞེས་གསུངས་པས་འདི་ལྟར་ཡིན་སྙམ་མོ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-21, #^0-22, #^0-23, #^0-24, #^0-25, #^0-26 |
 | lobsang-dawa | དགེ་བཤེས་བློ་བཟང་ཟླ་བ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ* | c-1-2-2-1-1-2-1, c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-3 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-9 |
 | palden-sherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ, *རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...* | c-3-1-3-0-1, c-3-1-3-0-2, c-3-1-3-1-1, c-3-1-3-1-2, c-3-1-3-1-3, c-3-1-3-2-1, c-3-1-3-3-1, c-3-1-3-3-2, c-3-1-3-4-1, c-3-1-3-4-2 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-33–^0-42 |
-| pema-namgyal | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ* | c-2-4-18, c-2-4-19 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-32, #^0-33 |
+| *(not a live ref — see below)* | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ* | *(logged only — see "Full attestation beyond in-article refs")* | (not cited in-body) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-32, #^0-33 |
 | sangye-nyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར* | c-4-0-1, c-4-0-2, c-4-1-1, c-4-1-2, c-4-1-3 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-15, #^0-16, #^0-17 |
 | sungrab-tulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ, *སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད* | c-6-1, c-6-2, c-6-3, c-6-4, c-6-5 | (c-6-4) "ཆུ་ནང་ནས་སྐྱེས་པའི་མེ་ཏོག་པདྨའམ་མེ་ཏོག་ཨུཏྤ་ལའི་ཡུ་བས་ཕྱག་གཡོན་གྱི་མཐེ་སྲིན་ནི་རྣམ་པར་བརྒྱན་ཅིང་ཁ་ཕྱེ་བས་འཛིན་མ།"; (c-6-5) "སེར་སྣའི་གཉེན་པོ་སྦྱིན་པ་དང་། ལེ་ལོའི་གཉེན་པོ་བརྩོན་འགྲུས་དང་། ཚུལ་འཆལ་གྱི་གཉེན་པོ་བསྲུང་དཀའ་བ་ཐུབ་པའི་ཚུལ་ཁྲིམས། རྨོངས་པའི་གཉེན་པོ་ཤེས་རབ། ཁོང་ཁྲོའི་གཉེན་པོ་བཟོད་པ། རྣམ་གཡེང་གི་གཉེན་པོ་བསམ་གཏན" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-29, #^0-30, #^0-31, #^0-32 |
 | taranatha | ཏཱ་ར་ནཱ་ཐ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ* | c-3-1, c-3-2, c-3-3, c-3-4, c-3-5, c-3-6, c-3-7, c-3-8 | (c-3-4/c-3-5, one continuous block) "སྦྱིན་པ་དང་བརྩོན་འགུས་དང་། དཀའ་ཐུབ་སྟེ་ཚུལ་ཁིམས་དང་། །ཞི་བ་སྟེ་ཤེས་རབ་དང་། །བཟོད་པ་དང་བསམ་གཏན་ཏེ་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་ལ་མངའ་བརྙེས་པས། ཕར་ཕྱིན་ནི་ཁྱོད་ཀྱི་སྤྱོད་ཡུལ་ཉིད་ཡིན་ལ། ལྷ་མོ་ཁྱོད་ནི་དེ་ལ་སྤྱོད་པ་མོའོ།"; (c-3-8) "སྔགས་ཀྱི་སྤྱོད་པ་བསྟན་པའོ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^3-0, #^0-11, #^0-12 |
@@ -163,12 +170,12 @@ restatements or fragments, not omissions caused by a resolution failure.
   Per the vault rule (transformations generate from `status: complete` rails), this article was
   drafted from a non-complete consolidated page. A human contributor should review the consolidated
   page's own draft status before treating this article as more than a structural/citation test.
-- **All 16 refs lack a publication year and page number.** None of the raw tree-guided commentary
+- **All 15 refs lack a publication year and page number.** None of the raw tree-guided commentary
   files carry a `year` field, and citation is by Obsidian block ID (`#^N-N`) rather than a page
   number, per this vault's citation convention — not a gap in the drafting, but the review report
   should still flag it, per the wikitext spec's rule that refs missing year/page are listed even
   when the omission is structural.
-- **All 16 refs have no public URL.** Per skill Rule 7, no URL was fabricated (no `dummy.com`,
+- **All 15 refs have no public URL.** Per skill Rule 7, no URL was fabricated (no `dummy.com`,
   no invented link) since none of these commentaries has a resolved public source URL yet. This is
   expected at this stage of the pipeline, not an error.
 - **Article length:** the drafted prose body (excluding ref citation text and the bibliography
@@ -219,8 +226,8 @@ Additional mechanical checks performed against `article.md` (spec §7 validator,
   hand-formatted with no URL and no `sources.yaml` entry; see Warnings.
 - V3 (`<references />` present): PASS.
 - V4 (no `{{Reflist}}`): PASS — none present.
-- V5 (ref tags balanced, one full def per name): PASS — 16 named refs, each with exactly one
-  full definition and correctly self-closing thereafter (131 total ref citations).
+- V5 (ref tags balanced, one full def per name): PASS — 15 named refs, each with exactly one
+  full definition and correctly self-closing thereafter (83 total ref citations).
 - V6 (≥1 `==` heading): PASS — 9 headings.
 - V7 (≥1 allowlisted category): PASS — `[[རིགས་དབྱེ།:ནང་བསྟན།]]`.
 - V8 (every section ≥1 citation): PASS for the lead and all six body sections (7–37 refs each) and

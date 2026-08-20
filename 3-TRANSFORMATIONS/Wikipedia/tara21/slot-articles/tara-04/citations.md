@@ -1,7 +1,10 @@
 ---
 topic: tara-04
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-04/article.md (v1, wiki-article-from-claims, git 2c986cf)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/tara-04.md
 rails_status: draft
@@ -46,6 +49,38 @@ placement, whose uṣṇīṣa, who attains the ten pāramitās, and the two eso
 attribution, per Rule 5's exception for divergences.
 
 Source: consolidated topic page [`2-RAILS/Claims/tara-04.md`](../../../../../2-RAILS/Claims/tara-04.md) ("Tārā 4 — ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། / Homage to the Uṣṇīṣa of the Tathāgatas"). All 16 commentaries listed in that page's `sources:` frontmatter contributed to this article. Every attestation ID cited anywhere on the consolidated page — including the "Claims reviewed, not separately cited" list — was resolved through its raw tree-guided claims file before drafting began (Procedure step 2). None failed to resolve.
+
+## Fix pass (2026-08-20, same day)
+
+A read-only audit of the Mode B rewrite above found five defects, all corrected in place; no claim
+ID, quotation, or ref was added or removed — only register, formatting, and naming:
+
+1. **Lead paragraph structure (Rule 15).** The lead had been split into three blank-line-separated
+   fragments around the `dharmabhadra` quotation (a dependent clause, a bare quotation, and a
+   trailing clause each standing alone) — invalid under Rule 15, since only genuine paragraph ends
+   take the double shad. Restored to one continuous paragraph, matching the v1 draft's structure
+   (`git 2c986cf`). The same defect was also found and fixed in the `གཙུག་ཏོར་སུའི་ཡིན་པའི་རྩོད་པ`
+   subsection (the `yama-sonam` quotation had been split the same way); merged into one paragraph
+   there too.
+2. **`ངོ་བོའི་ངེས་པ།` register (Rule 5).** Despite this note's claim above that the section was
+   "converted fully to wikivoice," three of its four sentences still carried named-subject clauses
+   (`གསུང་རབ་སྤྲུལ་སྐུ་དང་...གཉིས་ཀྱིས་...བཤད`, `དཀོན་མཆོག་ཐབས་མཁས་ཀྱིས་ཀྱང་...བཤད་དོ`, `མཁན་ཆེན་
+   དཔལ་ལྡན་ཤེས་རབ་ཀྱིས་...ངོས་འཛིན་བྱེད་དོ`) over material this page itself calls near-universal
+   consensus. Rewritten as plain declarative wikivoice; the exact `<ref>` tags on each clause are
+   unchanged, so the claim above is now accurate.
+3. **Two `<ref>` definitions regressed to `author_in_use` form (Rule 17).** `taranatha`'s and
+   `pema-namgyal`'s first `<ref>` definitions had drifted to their `author_in_use` values
+   (`ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ`, `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ`) — a v1→v2 regression, since v1 and the
+   bibliography both correctly use the formal `author` form. Restored to `ཏཱ་ར་ནཱ་ཐ` and
+   `ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ` respectively, matching `2-RAILS/Claims/raw/tree-guided/taranatha.md`
+   and `.../pema-namgyal.md` frontmatter and the bibliography. In-prose mentions of `taranatha` at
+   `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ` elsewhere in the body (per Rule 17, prose-only) were left untouched.
+4. **Frontmatter staleness.** `revision_mode: B`, `revised_from:`, and `revision_date: 2026-08-20`
+   added above; `method` updated to `wiki-article-from-claims-v2`. Two self-report errors fixed:
+   the `yama-sonam` Warnings entry falsely claimed `author_in_english: "unknown"` and a title-only
+   `<ref>` (see the corrected Warnings entry below); the "converted fully to wikivoice" claim above
+   is corrected by fix 2.
+5. **`article-preview.md` regenerated** via `scripts/make_preview.py` after the above edits.
 
 ## Quotation budget (Rule 6)
 
@@ -145,7 +180,7 @@ None. Every attestation ID cited anywhere on `2-RAILS/Claims/tara-04.md` — inc
 - **`rails_status: draft`.** `2-RAILS/Claims/tara-04.md` carries `status: draft`, not `complete`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, §11), transformations are generated only from `status: complete` rails; this article is a known, accepted exception, run at the requester's explicit instruction. A domain specialist should review the consolidated page and, once satisfied, either promote it to `complete` or flag specific corrections before this article is treated as more than a draft.
 - **No URLs.** None of the 16 cited commentaries has a public URL, Wikisource page, or BDRC ID recorded in this vault. All sixteen `<ref>`s use the hand-formatted `AUTHOR। TITLE།` form with no link, per skill Rule 7. No `dummy.com` or other placeholder was used.
 - **No year or page for any ref.** None of the sixteen raw claims files' frontmatter records a publication year or page number for its source commentary, so none is given in any `<ref>`.
-- **Author unattested for one commentary.** `yama-sonam`'s raw file gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` / `author_in_english: "unknown"` — not a real name, evidently a placeholder. The `<ref>` therefore cites the title only, and the bibliography entry is marked "(རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།)" ("Jetsün Yama Sonam").
+- **`yama-sonam` author name corrected (2026-08-20 fix pass).** This section previously claimed `yama-sonam`'s `author_in_english` was `"unknown"` and that the `<ref>` cited the title only. Both claims were false: the raw file's frontmatter gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` / `author_in_use: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` / `author_in_english: "Jetsün Yama Sonam"` — a real attested name, not a placeholder — and the `<ref>` in `article.md` (and the bibliography entry) already cite both the author name and the title, per Rule 17's formal-name form for `<ref>` content.
 - **Honorific parentheticals dropped from three author names.** `gendun-drub`, `gendun-gyatso`, and `konchok-thabkhe`'s frontmatter `author` fields carry a parenthetical gloss (e.g. "(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)" — "First Dalai Lama"). These were dropped from the `<ref>` and bibliography entries, keeping only the primary name, for citation cleanliness; the parentheticals themselves used Latin-style punctuation that would sit awkwardly in a Tibetan-only citation string. No factual content was lost — the identity is unambiguous from the name alone.
 - **`sangye-nyentrul` title discrepancy.** Its raw file's frontmatter `title` field (`རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར`) is shorter than the actual `1-SOURCES/Commentaries/` filename (`རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md`), which carries extra words (`འཕགས་མ་`, `ཉུང་ངུར་བཀོད་པ`). Per skill Rule 7 the citation is built from the raw file's frontmatter, so the shorter form is used in `article.md`; a reviewer may want to reconcile the two.
 - **Two candidate quotations were rejected during verification and rewritten as paraphrase** (Procedure step 8a): (1) a phrase intended to render `sungrab-tulku:c-7-3`'s epithet as "གཙུག་ཏོར་རྣམ་རྒྱལ་མ" — the raw claim's actual spelling is "གཙུག་ཏོག་རྣམ་རྒྱལ་མ" (ཏོག, not ཏོར), so quoting the standardized spelling would have been a silent "correction" of the source; the sentence was rewritten without quotation marks instead of quoting the irregular spelling or altering it. (2) a self-composed nominalized phrase "རྣམ་པར་རྒྱལ་བའི་སྤྱོད་པ" used to introduce the "boundless victorious conduct" theme — this was my own paraphrase, not an exact substring of any claim's བོད་ཡིག field (the root verse itself reads "རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ," a different inflection), so the quotation marks were removed.

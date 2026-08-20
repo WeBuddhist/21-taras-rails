@@ -86,7 +86,18 @@ claim ID was introduced during the register rewrite.
 - **`rails_status` is `draft`, not `complete`.** Unchanged from v1 — `2-RAILS/Claims/tara-08.md` carries `status: draft`.
 - All 16 refs still lack a publication year and page number (structural, per this vault's citation-by-block-ID convention — non-blocking, unchanged from v1).
 - No public URL exists for any of these sixteen commentaries; none was fabricated.
-- No `author_in_use` fallback was needed for any of the sixteen commentaries cited.
+- **Rule 17 compliance, corrected (2026-08-20 audit fix):** the initial v2 revision-in-place
+  correctly needed no `author_in_use` fallback for any in-prose commentator mention, but it did
+  silently drop the parenthetical formal-name qualifier that v1's `<ref>` definitions and
+  bibliography bullets carried for three commentaries — `gendun-drub`, `konchok-thabkhe`, and
+  `gendun-gyatso`. Per Rule 17, `<ref>` content and the `དཔྱད་གཞིའི་ཡིག་ཆ།` bullets keep the formal
+  `author` + `title` unchanged (unlike in-prose mentions, which use `author_in_use`); the dropped
+  parenthetical is part of that formal `author` string, so this was a transcription loss in the
+  formal citation apparatus, not an `author_in_use` resolution failure. All three have been
+  restored to both the `<ref>` definitions and the bibliography, matching v1 exactly:
+  - `gendun-drub`: `རྒྱལ་བ་དགེ་འདུན་གྲུབ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)`
+  - `konchok-thabkhe`: `དཀོན་མཆོག་ཐབས་མཁས (མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)`
+  - `gendun-gyatso`: `རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ)`
 - **v2 register changes from v1:** quotation count reduced from 26 (25 commentary quotations, plus the 1 root-verse quotation which never counted against the budget in either version — see v1's tally "26/26 quotations PASS") to 2 (1 commentary quotation, the Vajravārāhī-identification passage, + 1 root-verse quotation in the lead). Multi-ref clauses (up to 14 refs on one statement in v1, e.g. the "kills via wrathful frown" consensus) capped to ≤3 representative refs each, remaining attestation moved to *Full attestation beyond in-article refs* above. Consensus material (placement, iconographic posture claims that are uncontested, the four-māras enumeration, the two-obscurations reading, the non-literal-killing reading, the eight-fears protection) converted from attributed "ཞེས་...བཤད" framing to plain wikivoice declarative sentences. Attribution retained in `== མཚན་གྱི་ངེས་ཚིག ==` (etymology and referent divergences), `== སྐུ་ཡི་རྣམ་པ། ==` (two distinct iconographic traditions, a genuine divergence), the unique-benefit sentences in `== ཕྲིན་ལས་དང་ནུས་མཐུ། ==`, and `== གཞུང་ལུགས་སོ་སོའི་བཤད་པ། ==` (all four sub-divergences, as in v1, including the four bold sub-labels).
 - The mantra quotation ("ཨོཾ་ཏཱ་རེ་ཏུ་ཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ", tenzin-dhonzang:c-4-8-4) present in v1 was removed in v2 to respect the ≤2 commentary-quotation budget; tenzin-dhonzang's claim about the full mantra's benefit is now stated in paraphrase without reproducing the mantra's exact syllables. A reviewer who wants the mantra itself quoted verbatim should treat this as a candidate to trade against the Vajravārāhī quotation, not as an addition (the budget is fixed at 2).
 
