@@ -1,7 +1,10 @@
 ---
 topic: meru
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/article.md (v1 draft, method wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/meru.md
 rails_status: draft
@@ -28,6 +31,15 @@ status: draft
 
 # Citations — meru (རི་རབ།)
 
+**Mode B revision (2026-08-20).** This citations.md replaces the prior (v1-register)
+version. `article.md` was rewritten in place from the existing verified v1 draft, per
+`4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`'s Mode B (revision-in-place)
+procedure. This pass did **not** return to `2-RAILS/Claims/` or the raw tree-guided claims
+files for content — every claim ID, quotation, and `Cite:` target already verified in the
+prior citations.md is treated as settled ground truth. The only files read besides
+`article.md`/`citations.md` themselves were the raw claims files' own **frontmatter**
+(`author`, `author_in_use`), a metadata-only lookup permitted under Rule 17.
+
 Scope: this article covers Mount Meru (རི་རབ) as attested across all sixteen commentaries
 in the corpus, per `2-RAILS/Claims/meru.md` — a global cross-cutting topic page, not one of
 the twenty-two registered spine slots. It draws on that page's eight facets: Identity
@@ -35,172 +47,226 @@ the twenty-two registered spine slots. It draws on that page's eight facets: Ide
 distinct struck-mountain verse, the argument for naming Meru specifically, a rejected
 cosmological application, the hidden/tantric central-channel reading, the ocean-churning
 narrative, Meru among sacred sites, Meru as a ritual measure, and Meru as an iconographic
-attribute.
+attribute. All eight facets remain represented in the revised article; no facet and no
+claim ID was dropped.
 
-**Note on this citations.md.** This file was written after `article.md` had already been
-drafted and QC'd for wikitext mechanics in a prior session. This pass verifies every
-quotation in the finished article against `1-SOURCES/Commentaries/`, and reconstructs the
-reference map by resolving each `<ref>` back through `2-RAILS/Claims/meru.md`'s attestation
-IDs to the raw tree-guided claims files.
+## What changed in this revision
 
-## Reference map
+- **Register.** One-claim-one-sentence, commentator-by-commentator sequences were merged
+  into connected wikivoice paragraphs (Rule 8). Backbone/consensus material (the "king of
+  mountains" epithet, the second-verse identification, the hand-strike verse) is now stated
+  as plain fact with citations, not attributed to "many commentaries" / "eight commentaries"
+  (the v1 draft's own vague-plural framing in the Identity and second-verse sections has been
+  removed). Attribution is retained only where it was already doing real work: taranatha's
+  own argument for why Meru specifically is named (unique reasoning), the hidden/tantric
+  reading (attributed to taranatha and palden-sherab, whose wording is close enough that the
+  article notes the resemblance), the ocean-churning narrative and sacred-sites list
+  (each a single-commentary unique claim), the offering-measure and hand-implement claims
+  (each a single-commentary unique claim), and the full ⚑ divergence section on the naming of
+  the second and third companion peaks (every position kept attributed, per Rule 10 — never
+  flattened).
+- **Quotation budget.** The v1 draft carried 24 verbatim quotations (see the old Verification
+  table below, retained for the record). This revision keeps **2**: (1) drakpa-gyaltsen's
+  distinctive claim that the third peak is pierced by the light-rays of the syllable HŪṃ
+  rather than struck by the feet (the exact formulation is the point of the divergence), and
+  (2) taranatha's four-word hidden-meaning definition ("Meru is Brahma's spine") — short,
+  definitional, phrasing-sensitive. The other 22 quotations were converted to paraphrase in
+  the article's own words, grounded in the quotation text itself (which was already verified
+  character-for-character in the prior citations.md pass) — no new claim content was
+  introduced and no raw claims file was reopened to produce the paraphrase.
+- **Citation cap.** Two sentences in the v1 draft carried 8–9 `<ref>`s each (the "king of
+  mountains" epithet sentence in the Identity section, and the second-verse identification
+  sentence). Each is now capped at 3 representative refs; the dropped attestations are listed
+  under *Full attestation beyond in-article refs* below, so nothing is lost from the record.
+  One four-ref sentence in the summary section (བསྡུས་དོན) was split into two two-ref
+  sentences rather than trimmed, since it joined four genuinely distinct single-sourced facts.
+- **`<ref>`/bibliography author-field corrections (Rule 17, reverse direction).** Auditing the
+  v1 draft's `<ref>` tags and bibliography bullets against each commentary's own `author`
+  frontmatter field found four places where the v1 draft had gotten Rule 17 backwards —
+  using the `author_in_use` form (or a truncated form) where the **full formal `author`
+  field** was required:
+  - `taranatha`: the `<ref>` definition read "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ།" (the `author_in_use` form)
+    instead of the raw file's `author` field, "ཏཱ་ར་ནཱ་ཐ་" — corrected. (The v1 bibliography
+    bullet already had this right; only the `<ref>` tag was wrong.)
+  - `pema-namgyal`: the `<ref>` definition read "ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ།" (the
+    `author_in_use` form) instead of the raw file's `author` field,
+    "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་" — corrected. (The v1 bibliography bullet already had
+    this right; only the `<ref>` tag was wrong.)
+  - `gendun-drub`, `gendun-gyatso`, `konchok-thabkhe`: each of these three has a parenthetical
+    identifier in its `author` frontmatter field ("(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)",
+    "(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ)", "(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)" respectively) that the v1
+    draft's `<ref>` tags and bibliography bullets omitted. `gendun-gyatso` and `konchok-thabkhe`
+    remain cited in the revised article and now carry the parenthetical in both their `<ref>`
+    definition and bibliography bullet, matching the format already used elsewhere in the
+    vault (e.g. `term-articles/kinnara/article.md`'s `gendun-drub` bullet). `gendun-drub` is
+    no longer cited in-article at all (see next point), so this fix is moot for it here but is
+    recorded for completeness.
+- **Three commentaries dropped from in-article `<ref>`s (not from attestation).**
+  `sangye-nyentrul`, `gendun-drub`, and `lobsang-dawa` appeared in the v1 draft only inside
+  the two capped-and-trimmed 8–9-ref sentences described above. Once those sentences were
+  trimmed to 3 representative refs each, none of the three retained an in-article `<ref>`.
+  Per Rule 11 ("one bullet per commentary actually cited"), they no longer have a bibliography
+  bullet or a `<ref>` definition in `article.md`. Their attestation is **not** lost — it is
+  logged under *Full attestation beyond in-article refs* below, exactly as Rule 7 requires.
+- **Punctuation contract.** Every paragraph-final sentence in the v1 draft ended with a single
+  shad; none used the paragraph-final double shad. This revision applies `།།` to the final
+  sentence of every paragraph (including single-sentence paragraphs) throughout, and confirms
+  no comma character and no punctuation following a `<ref>` tag anywhere in the fence body.
+- **In-prose author names.** All in-prose commentator names in the v1 draft already matched
+  the `author_in_use` values now confirmed against frontmatter (see table below) — no in-prose
+  name needed changing, only the `<ref>`/bibliography-side corrections described above.
 
-Ref names are shared per commentary (Rule 7): the same `<ref name="X">` is defined once, in
-full, on first use, and reused as `<ref name="X" />` on every later citation of that
-commentary elsewhere in the article. The table below lists one row per citation event (i.e.
-per claim actually drawn on), including paraphrased (unquoted) uses.
+## `author_in_use` resolution (Rule 17)
 
-| Ref | Commentary | Claim ID(s) | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
-|---|---|---|---|---|
-| dharmabhadra | dharmabhadra | (page-level, paraphrase) | — (lead: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md |
-| taranatha | taranatha | (page-level, paraphrase) | — (lead: paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md |
-| dharmabhadra | dharmabhadra | c-1-2-3-2-5 | "རིའི་རྒྱལ་པོ" | #^0-76 |
-| sungrab-tulku | sungrab-tulku | c-20-4 | (shares "རིའི་རྒྱལ་པོ" attribution — see Warnings) | #^0-96 |
-| tenzin-dhonzang | tenzin-dhonzang | c-4-17-4 | (shares "རིའི་རྒྱལ་པོ" attribution — see Warnings) | #^0-248 |
-| sangye-nyentrul | sangye-nyentrul | c-18-0-2, c-18-1-3 | (shares "རིའི་རྒྱལ་པོ" attribution — see Warnings) | #^0-76, #^0-77 |
-| pema-namgyal | pema-namgyal | c-2-4-47 | (shares "རིའི་རྒྱལ་པོ" attribution — see Warnings) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-61 |
-| gendun-drub | gendun-drub | c-2-2-2-3-2-3 | (does not itself contain "རིའི་རྒྱལ་པོ" — see Warnings) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-90 |
-| konchok-thabkhe | konchok-thabkhe | c-2-17-2 | (does not itself contain "རིའི་རྒྱལ་པོ" — see Warnings) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84 |
-| tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-59 | (does not itself contain "རིའི་རྒྱལ་པོ" — see Warnings) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-135 |
-| tenga-tulku | tenga-tulku | c-1-2-3-2-4 | (does not itself contain "རིའི་རྒྱལ་པོ" — see Warnings) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-147 |
-| dharmabhadra | dharmabhadra | c-1-2-3-2-5 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན་ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་བཅུད་ཀྱིས་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བར་མཛད་པ" | #^0-76 |
-| gendun-gyatso | gendun-gyatso | c-1-17-1 | "རི་རབ་མན་དྷ་ར", "འཕགས་པར་བྱེད" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-30 |
-| yama-sonam | yama-sonam | c-3-17-8 | "རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-219 |
-| pema-namgyal | pema-namgyal | c-2-4-46 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་གླིང་རྣམས་ལྟ་བུ" | #^0-60 |
-| dharmabhadra | dharmabhadra | c-1-2-2-1-2-7-3, taranatha, sungrab-tulku, tenzin-dhonzang, sangye-nyentrul, pema-namgyal, palden-sherab, lobsang-dawa (paraphrase group) | — (2nd-verse intro: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md |
-| palden-sherab | palden-sherab | c-3-1-14-1-1 | — (paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-139 |
-| lobsang-dawa | lobsang-dawa | c-1-2-2-1-2-7-2 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md |
-| dharmabhadra | dharmabhadra | c-1-2-2-1-2-7-3 | "རི་རབ་གླིང་དང་བཅས་པའི་ས་གཞི་ཆེན་པོའི་ངོས་ལ། སྡིགས་མཛུབ་དང་བཅས་པའི་ཕྱག་གི་མཐིལ་གྱིས་དྲག་ཏུ་བསྣུན་ཅིང་ཞབས་ཀྱི་མཐིལ་གྱིས་བརྡུང་བར་མཛད་མ" | #^0-65 |
-| sungrab-tulku | sungrab-tulku | c-17-3 | — (paraphrased: "counted among the largest") | #^0-83 |
-| taranatha | taranatha | c-17-9, c-17-10 (intro to the argument) | "འཇིག་རྟེན་གསུམ་སྐྱོད་པར་གྱུར་ན། རི་རབ་སོགས་སྨོས་པས་ཅི་ཞིག་བྱ་ཞེ་ན" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-60 |
-| taranatha | taranatha | c-17-11 | "སྤྱིར་འཇིག་རྟེན་གསུམ་སྐྱོད་པར་གྱུར་ཡང་། ལྷ་མཐུ་བོ་ཆ་དག་གནས་པའི་གནས་ཀྱི་ཁྱད་པར་དེ་རྣམས་གཡོ་བར་མི་འགྱུར་བ་ཡང་སྲིད་པས། འཕགས་མ་ཉིད་མཐུ་ཆེ་བའི་དོན་དུ་སྨོས་སོ" | #^0-60 |
-| palden-sherab | palden-sherab | c-3-1-17-1-2 | — (paraphrased: Meru as abode of great gods) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག...ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-171 |
-| taranatha | taranatha | c-17-11 (continuation) | — (paraphrased) | #^0-60 |
-| taranatha | taranatha | c-14-8 | "ཁ་ཅིག་ནི་རི་རབ་ཀྱི་རྩེ་མོའི་ཁོངས་སེང་ནས་ཐུར་དུ་གཞལ་བ་ཡིན་ཟེར་ཡང་མི་ལེགས་པར་མངོན་ནོ" | #^0-48 |
-| taranatha | taranatha | c-17-12 | "སྦས་དོན་ནི། རི་རབ་ནི་ཚངས་པའི་རུས་པ" | #^0-61 |
-| palden-sherab | palden-sherab | c-3-1-17-3-1 | — (paraphrased) | #^0-173 |
-| konchok-thabkhe | konchok-thabkhe | c-2-18-4 | "གྲུབ་ཆེན་གྱིས། འཕགས་མ་ལྷ་ཡི་ངོ་འཛིན་ཞེས་གསུངས་པ་ནི། སྔོན་རི་རབ་ཀྱིས་བསྲུབས་ཤིང་བྱས་ཏེ་རྒྱ་མཚོ་བསྲུབས་པ་ལས་ཉི་ཟླ་གཉིས་ཐོན་པར་རིག་བྱེད་ཀྱི་གཞུང་ལས་འབྱུང་བ་དང་བསྟུན་པའོ" | #^0-88 |
-| tenzin-dhonzang | tenzin-dhonzang | c-4-13-12 | "རི་རབ་ཀྱི་རྩེ་མོ། སུམ་ཅུ་རྩ་གསུམ། དགའ་ལྡན། གནས་གཙང་མ་ལ་སོགས་པའི་ལྷའི་གནས་དང་། ཀླུའི་གནས། གནོད་སྦྱིན་གྱི་གནས། ཨོ་ཊི་ཡ་ན་ལ་སོགས་པའི་འཛམ་གླིང་གི་གནས་མཆོག་མང་པོར་གསང་སྔགས་ཀྱི་ཆོས་ཀྱི་འཁོར་ལོ་རྒྱ་ཆེར་བསྐོར" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-225 |
-| tsultrim-namdak | tsultrim-namdak | c-5-2-4-2-2-1-1 | "ཕྱེ་མ་ཕུར་མ་རི་རབ་མཉམ་པ" | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-439–#^0-443 |
-| tsultrim-namdak | tsultrim-namdak | c-5-2-5-1 | "གླིང་བཞིའི་རི་རབ་ཟླར་བཅས" | #^0-463–#^0-470 |
-| tenga-tulku | tenga-tulku | c-z-6 | "རླུང་གི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་དཀར་མོ། རི་རབ་འཛིན་པ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-232 |
-| drakpa-gyaltsen | drakpa-gyaltsen | c-1-86 | "སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་རི་རབ་མན་དཱ་ར་བ་ཞེས་བྱ་བ་ཡང་ཡི་གེ་ཧཱུཾ་གི་འོད་ཟེར་གྱིས་འབིགས་པར་བྱེད་པའོ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-71 |
-| karma-maitri | karma-maitri | c-1-1-17-5 | "རི་རབ་མནྡ་ར", "རི་རབ་འབིག་བྱེད", "རི་རབ", "དེས་སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་གནས་རི་རབ་མནྡ་ར་ཞེས་པ་དང་རི་རབ་འབིག་བྱེད་ལ་སོགས་པ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-39 |
-| taranatha | taranatha | c-17-5 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། མནྡ་ར་ཞེས་བྱ་བའི་ར་དང་། རི་བོ་གངས་ཅན་ཞེས་བྱ་བ་དང་དབང་ཕྱུག་ཆེན་པོ་གནས་པའི་རི" | #^0-58 |
-| taranatha | taranatha | c-17-7 | "བོད་དཔེ་ཕལ་ཆེར་ལས། འབིགས་བྱེད་ཅེས་འབྱུང་བ་ལྟར་ན...གཞུང་འདིའི་རྒྱ་སྐད་མཐོང་པ་རྣམས་ན། ཀཻ་ལ་ཤ་ཅེས་པར་སྣང་སྟེ...གཉིས་ཀ་ལྟར་མི་འགལ་བར་བྱའོ" | #^0-59 |
-| palden-sherab | palden-sherab | c-3-1-17-1-2 | "འབིགས་བྱེད་དམ་གངས་ཅན" | #^0-171 |
-| taranatha | taranatha | c-17-11 (bsdus-don recap) | — (paraphrased) | #^0-60 |
-| palden-sherab | palden-sherab | c-3-1-17-3-1 (bsdus-don recap) | — (paraphrased) | #^0-173 |
-| konchok-thabkhe | konchok-thabkhe | c-2-18-4 (bsdus-don recap) | — (paraphrased) | #^0-88 |
-| tenzin-dhonzang | tenzin-dhonzang | c-4-13-12 (bsdus-don recap) | — (paraphrased) | #^0-225 |
-| tsultrim-namdak | tsultrim-namdak | c-5-2-4-2-2-1-1 / c-5-2-5-1 (bsdus-don recap) | — (paraphrased) | #^0-439–#^0-443, #^0-463–#^0-470 |
-| tenga-tulku | tenga-tulku | c-z-6 (bsdus-don recap) | — (paraphrased) | #^0-232 |
+All sixteen raw claims files carry `author_in_use` directly in their own frontmatter — no
+`source_file` fallback lookup was needed for any commentary in this article.
+
+| registered_id | `author` (full, formal — for `<ref>`/bibliography) | `author_in_use` (for in-prose mentions) |
+|---|---|---|
+| dharmabhadra | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ་ | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ་ |
+| taranatha | ཏཱ་ར་ནཱ་ཐ་ | ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་ |
+| sungrab-tulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་ | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་ |
+| tenzin-dhonzang | སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་ | སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་ |
+| gendun-gyatso | རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ) | རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ་ |
+| yama-sonam | རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ | རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ |
+| pema-namgyal | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་ | ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་ |
+| palden-sherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་ | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་ |
+| konchok-thabkhe | དཀོན་མཆོག་ཐབས་མཁས་(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ) | དཀོན་མཆོག་ཐབས་མཁས་ |
+| tsultrim-namdak | མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་ | མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་ |
+| tenga-tulku | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་ | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་ |
+| drakpa-gyaltsen | རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན་ | རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན་ |
+| karma-maitri | ཀརྨ་མཻ་ཏྲི་ | ཀརྨ་མཻ་ཏྲི་ |
+| gendun-drub (uncited) | རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ) | རྒྱལ་བ་དགེ་འདུན་གྲུབ་ |
+| sangye-nyentrul (uncited) | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་ | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་ |
+| lobsang-dawa (uncited) | དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ | དགེ་བཤེས་བློ་བཟང་ཟླ་བ་ |
+
+## Reference map (as it stands in the revised `article.md`)
+
+Ref names are shared per commentary: the same `<ref name="X">` is defined once, in full, on
+first use, and reused as `<ref name="X" />` on every later citation of that commentary
+elsewhere in the article. 13 commentaries carry an in-article `<ref>`; 3 (gendun-drub,
+sangye-nyentrul, lobsang-dawa) do not (see above).
+
+| Ref | Section | Statement | Quoted in revised article? |
+|---|---|---|---|
+| dharmabhadra | Lead | text existence/coverage (paraphrase) | no |
+| taranatha | Lead | text existence/coverage (paraphrase) | no |
+| dharmabhadra, sungrab-tulku, tenzin-dhonzang | Identity | "king of mountains" epithet (3 of 5 literally-attesting refs kept; see Full attestation) | no (paraphrase) |
+| dharmabhadra | Identity | full epithet-verse gloss | no (paraphrase; was quoted in v1) |
+| gendun-gyatso | Identity | alternate name for 2nd peak (unique) | no (paraphrase; was quoted in v1) |
+| yama-sonam | Identity | root-verse citation for 3-mountains reading (unique) | no (paraphrase; was quoted in v1) |
+| pema-namgyal | Identity | simile framing, feet "like" Meru (unique) | no (paraphrase; was quoted in v1) |
+| dharmabhadra, taranatha, sungrab-tulku | Second verse | second struck-mountain verse identification (3 of 8 refs kept; see Full attestation) | no |
+| dharmabhadra | Second verse | full verse gloss | no (paraphrase; was quoted in v1) |
+| sungrab-tulku | Second verse | four-continents-plus-eight-subcontinents reading (unique) | no |
+| taranatha | Naming argument | why Meru named specifically (unique reasoning, 4 sentences) | no (paraphrase; was quoted in v1, 3×) |
+| palden-sherab | Naming argument | Meru as abode of great gods (supporting point) | no |
+| taranatha | Naming argument | rejection of a cosmological (seven-underworlds) reading | no (paraphrase; was quoted in v1) |
+| taranatha | Hidden meaning | "Meru is Brahma's spine" | **yes — quotation 1 of 2** |
+| palden-sherab | Hidden meaning | central-channel/two-side-channels reading | no (paraphrase; was quoted in v1) |
+| konchok-thabkhe | History | ocean-churning narrative (unique) | no (paraphrase; was quoted in v1) |
+| tenzin-dhonzang | Sacred sites | Meru's peak among sacred sites (unique) | no (paraphrase; was quoted in v1) |
+| tsultrim-namdak | Offering | offering-measure verse; mandala-offering verse (unique, 2 claims) | no (paraphrase; was quoted in v1, 2×) |
+| tenga-tulku | Attribute | wind-protectress's hand-implement (unique) | no (paraphrase; was quoted in v1) |
+| drakpa-gyaltsen | Divergence | HŪṃ-light-ray reading of the 2nd peak | **yes — quotation 2 of 2** |
+| karma-maitri | Divergence | both peaks named "Meru"-something (unique naming) | no (paraphrase; was quoted in v1) |
+| taranatha | Divergence | 3rd peak = "the piercer"/Kailash, textual-variant argument (2 sentences) | no (paraphrase; was quoted in v1, long passage) |
+| palden-sherab | Divergence | declines to choose between the two readings | no (paraphrase; was quoted in v1) |
+| taranatha, palden-sherab | Summary | recap of hidden-meaning reading | no |
+| konchok-thabkhe, tenzin-dhonzang | Summary | recap of history/sacred-sites facet | no |
+| tsultrim-namdak, tenga-tulku | Summary | recap of offering-measure/attribute facet | no |
+
+## Full attestation beyond in-article refs
+
+Per Rule 7, every claim ID that was cited in the v1 draft but is no longer individually named
+by an in-article `<ref>` in the revised article is listed here so no attestation is lost.
+
+**"King of mountains" epithet (Identity facet).** In-article refs: `dharmabhadra:c-1-2-3-2-5`,
+`sungrab-tulku:c-20-4`, `tenzin-dhonzang:c-4-17-4`. Additional attestation not individually
+cited in-article: `sangye-nyentrul:c-18-0-2`, `sangye-nyentrul:c-18-1-3`,
+`pema-namgyal:c-2-4-47` (also separately cited in-article for a different point —
+its simile claim, `c-2-4-46`), `gendun-drub:c-2-2-2-3-2-3`, `konchok-thabkhe:c-2-17-2`,
+`tsultrim-namdak:c-2-1-2-1-59` (also separately cited in-article for a different facet —
+the offering-measure claims), `tenga-tulku:c-1-2-3-2-4` (also separately cited in-article for
+a different facet — the hand-implement claim). Note (carried forward from the prior
+citations.md, and now reflected in the article's own wording): the phrase "king of mountains"
+is literally present in the source files of five of the nine attesting commentaries
+(`dharmabhadra`, `sungrab-tulku`, `tenzin-dhonzang`, `sangye-nyentrul`, `pema-namgyal`); the
+other four's own claims name Meru without this specific epithet. The revised article no longer
+asserts a headcount for this claim (it dropped the v1 draft's "many commentaries" / count
+framing entirely, per this skill's register rules), so this looseness no longer appears in the
+article's own prose — it is recorded here only as background.
+
+**Second struck-mountain verse (Second-verse facet).** In-article refs:
+`dharmabhadra:c-1-2-2-1-2-7-3`, `taranatha` (paraphrase group), `sungrab-tulku:c-17-3`.
+Additional attestation not individually cited in-article: `tenzin-dhonzang:c-4-14-3`,
+`sangye-nyentrul:c-15-0-1`, `pema-namgyal:c-2-4-40`, `palden-sherab:c-3-1-14-1-1`,
+`lobsang-dawa:c-1-2-2-1-2-7-2`.
 
 ## Claims used but not quoted
 
-The lead's second sentence ("the term appears in all sixteen commentaries, in two verses,
-and also in the context of hidden meaning, narrative, offering-clouds, and hand-implements")
-paraphrases `2-RAILS/Claims/meru.md`'s own Coverage table as a whole rather than any single
-claim — cited to `dharmabhadra` and `taranatha` as representative anchors, consistent with
-Rule 7's ref-reuse convention. Other paraphrased (unquoted) uses: `gendun-drub:c-2-2-2-3-2-3`,
-`konchok-thabkhe:c-2-17-2`, `tsultrim-namdak:c-2-1-2-1-59`, `tenga-tulku:c-1-2-3-2-4`
-(Identity-consensus group), `palden-sherab:c-3-1-14-1-1`, `lobsang-dawa:c-1-2-2-1-2-7-2`,
-`sungrab-tulku:c-17-3`, `taranatha:c-14-3`, `sangye-nyentrul:c-15-0-1`, `pema-namgyal:c-2-4-40`,
-`tenzin-dhonzang:c-4-14-3` (second-verse group), `palden-sherab:c-3-1-17-1-2` (abode-of-great-gods
-paraphrase), `palden-sherab:c-3-1-17-3-1` (central-channel paraphrase).
+All claims listed in the Reference map above marked "no (paraphrase …)" are used but not
+quoted in the revised article — their content is carried as connected wikivoice or attributed
+prose, grounded in the wording already verified in the prior citations.md pass. This includes
+every claim that was directly quoted in the v1 draft except the two retained under Rule 6
+(taranatha's hidden-meaning definition; drakpa-gyaltsen's HŪṃ-light-ray claim).
 
 ## Claims resolved but not incorporated
 
-`meru.md`'s own "Unique" note under Identity — `pema-namgyal:c-2-4-46`'s simile framing
-("her feet stamp upon ground *like* Meru," rather than striking Meru itself) — was in fact
-incorporated (quoted directly in the article's first section). No claim listed on
-`2-RAILS/Claims/meru.md`'s Coverage table was found to be omitted from the article: all
-eight facets and all sixteen commentaries are represented.
+None. All eight facets and all sixteen commentaries attested on `2-RAILS/Claims/meru.md`
+remain represented in the revised article — thirteen via an in-article `<ref>`, three
+(`gendun-drub`, `sangye-nyentrul`, `lobsang-dawa`) via the Full attestation record above.
 
 ## Unresolvable attestations
 
-None. Every attestation ID cited on `2-RAILS/Claims/meru.md` and drawn on by `article.md`
-resolved cleanly against its raw tree-guided file.
+None, carried forward from the prior pass.
 
 ## Warnings
 
 - **`rails_status: draft`.** `2-RAILS/Claims/meru.md` carries `status: draft` in its own
   frontmatter, not `status: complete`, and its `claims-consolidation-audit` gate has **not**
-  been run (no audit record exists for this topic page). Per Rule 11 and the vault's general
-  rule that transformations generate from `complete` rails, `article.md` was drafted anyway
-  in a prior session on an unaudited draft page. A human contributor should run the
-  `claims-consolidation-audit` skill against `2-RAILS/Claims/meru.md` and then set its
-  `status` to `complete` before this article is treated as final.
-- **One quotation FAILED verification and has since been fixed (2026-08-14).** The seventh
-  section's second `taranatha` quotation (`taranatha:c-17-7`) originally contained two literal
-  `...` elisions dropping real clauses from
-  `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-59`. `article.md`
-  has been corrected in place to the full, unbroken source text: "བོད་དཔེ་ཕལ་ཆེར་ལས།
-  འབིགས་བྱེད་ཅེས་འབྱུང་བ་ལྟར་ན། རིའི་རྒྱལ་པོ་འབིགས་བྱེད་དེ། གཞུང་འདིའི་རྒྱ་སྐད་མཐོང་པ་རྣམས་ན།
-  ཀཻ་ལ་ཤ་ཅེས་པར་སྣང་སྟེ། དེ་ལྟར་ན་གངས་རི་ཞེས་འདོན་པ་དང་མཐུན་མོད། །དཔེ་སྣ་ཚོགས་པ་སྣང་བའི་
-  ཕྱིར། །གཅིག་ཏུ་ངེས་བཟུང་བ་དཀའ་བས་གཉིས་ཀ་ལྟར་མི་འགལ་བར་བྱའོ" — re-verified character-for-
-  character via `grep -F` against the source file and confirmed matching. See the
-  Verification table below (row 23, now PASS).
-- **The "རིའི་རྒྱལ་པོ" group attribution overstates its source support.** The article's
-  first section states that all nine grouped commentaries (`dharmabhadra`, `sungrab-tulku`,
-  `tenzin-dhonzang`, `sangye-nyentrul`, `pema-namgyal`, `gendun-drub`, `konchok-thabkhe`,
-  `tsultrim-namdak`, `tenga-tulku`) "attach the epithet 'རིའི་རྒྱལ་པོ'" to Meru, and quotes
-  that phrase. Verification confirms "རིའི་རྒྱལ་པོ" is literally present in the source files
-  of five of the nine (`dharmabhadra`, `sungrab-tulku`, `tenzin-dhonzang`, `sangye-nyentrul`,
-  `pema-namgyal`) but is **absent** from the other four's own source files
-  (`gendun-drub`, `konchok-thabkhe`, `tsultrim-namdak`, `tenga-tulku` — their claims name
-  Meru with plain "རི་རབ" or equivalent phrasing, without this specific epithet). This
-  matches `2-RAILS/Claims/meru.md`'s own more careful wording ("most giving it the standing
-  epithet") — the article's prose is slightly less careful than its own rail. This is a
-  looseness in attribution, not a quotation-verification FAIL (the quoted phrase itself is
-  genuinely verbatim from at least five of the nine cited sources), but a human contributor
-  should tighten the sentence to "most" rather than implying all nine use this exact epithet.
-- **No public URLs exist for any of the sixteen commentaries.** Per the wikitext spec's
-  hand-formatted ref form and Rule 7, every `<ref>` in this article carries only author and
-  title — no URL, no year, no page number — because none of these commentaries has a
-  page/URL recorded anywhere upstream. This applies uniformly to all sixteen refs.
+  been run (no audit record exists for this topic page). This is unchanged by this revision —
+  a human contributor should still run `claims-consolidation-audit` against
+  `2-RAILS/Claims/meru.md` and set its `status` to `complete` before this article is treated
+  as final.
+- **One quotation in the v1 draft's history was FAILED-then-fixed (2026-08-14)**, on the
+  taranatha textual-variant passage (`taranatha:c-17-7`). That passage is no longer quoted at
+  all in this revision (converted to paraphrase — see "What changed" above), so the fixed
+  quotation itself no longer appears in `article.md`; the record of the original failure and
+  fix is preserved here for history.
+- **No public URLs exist for any of the sixteen commentaries.** Every `<ref>` in this article
+  carries only author and title — no URL, no year, no page number — because none of these
+  commentaries has a page/URL recorded anywhere upstream. Unchanged from the prior pass.
 - **`meru` is a global cross-cutting topic**, not one of the twenty-two registered spine
   slots — there is no `assemble_packet.py` packet for it, and its claims were located by a
-  manual string search across all sixteen raw claims files rather than a spine-map routing
-  (as `2-RAILS/Claims/meru.md`'s own frontmatter note explains). This is inherited scope,
-  not a defect introduced by this citations pass.
+  manual string search across all sixteen raw claims files rather than a spine-map routing (as
+  `2-RAILS/Claims/meru.md`'s own frontmatter note explains). Unchanged, inherited scope.
+- **No `author_in_use` fallback was needed.** All sixteen raw claims files used by this article
+  carry `author_in_use` directly in their own frontmatter, so the `source_file` fallback
+  lookup in Rule 17 was never triggered.
 
 ## Verification
 
-Every quotation in `article.md` was located character-for-character (whitespace-collapsed)
-in the `1-SOURCES/Commentaries/` file its claim's `Cite:` target names, using `grep -F`
-(fixed-string matching, to avoid Tibetan combining characters being misread as regex
-metacharacters).
+### Retained quotations (spot-verified, not re-derived — Mode B step 6)
 
-| # | Quotation | Claim | Result |
-|---|---|---|---|
-| 1 | "རིའི་རྒྱལ་པོ" | dharmabhadra:c-1-2-3-2-5 (anchor; see Warnings re: the other 8 grouped refs) | PASS |
-| 2 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན་ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་བཅུད་ཀྱིས་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བར་མཛད་པ" | dharmabhadra:c-1-2-3-2-5 | PASS |
-| 3 | "རི་རབ་མན་དྷ་ར" | gendun-gyatso:c-1-17-1 | PASS |
-| 4 | "འཕགས་པར་བྱེད" | gendun-gyatso:c-1-17-1 | PASS |
-| 5 | "རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས" | yama-sonam:c-3-17-8 | PASS |
-| 6 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་གླིང་རྣམས་ལྟ་བུ" | pema-namgyal:c-2-4-46 | PASS |
-| 7 | "རི་རབ་གླིང་དང་བཅས་པའི་ས་གཞི་ཆེན་པོའི་ངོས་ལ། སྡིགས་མཛུབ་དང་བཅས་པའི་ཕྱག་གི་མཐིལ་གྱིས་དྲག་ཏུ་བསྣུན་ཅིང་ཞབས་ཀྱི་མཐིལ་གྱིས་བརྡུང་བར་མཛད་མ" | dharmabhadra:c-1-2-2-1-2-7-3 | PASS |
-| 8 | "འཇིག་རྟེན་གསུམ་སྐྱོད་པར་གྱུར་ན། རི་རབ་སོགས་སྨོས་པས་ཅི་ཞིག་བྱ་ཞེ་ན" | taranatha:c-17-10 | PASS |
-| 9 | "སྤྱིར་འཇིག་རྟེན་གསུམ་སྐྱོད་པར་གྱུར་ཡང་། ལྷ་མཐུ་བོ་ཆ་དག་གནས་པའི་གནས་ཀྱི་ཁྱད་པར་དེ་རྣམས་གཡོ་བར་མི་འགྱུར་བ་ཡང་སྲིད་པས། འཕགས་མ་ཉིད་མཐུ་ཆེ་བའི་དོན་དུ་སྨོས་སོ" | taranatha:c-17-11 | PASS |
-| 10 | "ཁ་ཅིག་ནི་རི་རབ་ཀྱི་རྩེ་མོའི་ཁོངས་སེང་ནས་ཐུར་དུ་གཞལ་བ་ཡིན་ཟེར་ཡང་མི་ལེགས་པར་མངོན་ནོ" | taranatha:c-14-8 | PASS |
-| 11 | "སྦས་དོན་ནི། རི་རབ་ནི་ཚངས་པའི་རུས་པ" | taranatha:c-17-12 | PASS |
-| 12 | "གྲུབ་ཆེན་གྱིས། འཕགས་མ་ལྷ་ཡི་ངོ་འཛིན་ཞེས་གསུངས་པ་ནི། སྔོན་རི་རབ་ཀྱིས་བསྲུབས་ཤིང་བྱས་ཏེ་རྒྱ་མཚོ་བསྲུབས་པ་ལས་ཉི་ཟླ་གཉིས་ཐོན་པར་རིག་བྱེད་ཀྱི་གཞུང་ལས་འབྱུང་བ་དང་བསྟུན་པའོ" | konchok-thabkhe:c-2-18-4 | PASS |
-| 13 | "རི་རབ་ཀྱི་རྩེ་མོ། སུམ་ཅུ་རྩ་གསུམ། དགའ་ལྡན། གནས་གཙང་མ་ལ་སོགས་པའི་ལྷའི་གནས་དང་། ཀླུའི་གནས། གནོད་སྦྱིན་གྱི་གནས། ཨོ་ཊི་ཡ་ན་ལ་སོགས་པའི་འཛམ་གླིང་གི་གནས་མཆོག་མང་པོར་གསང་སྔགས་ཀྱི་ཆོས་ཀྱི་འཁོར་ལོ་རྒྱ་ཆེར་བསྐོར" | tenzin-dhonzang:c-4-13-12 | PASS |
-| 14 | "ཕྱེ་མ་ཕུར་མ་རི་རབ་མཉམ་པ" | tsultrim-namdak:c-5-2-4-2-2-1-1 | PASS |
-| 15 | "གླིང་བཞིའི་རི་རབ་ཟླར་བཅས" | tsultrim-namdak:c-5-2-5-1 | PASS |
-| 16 | "རླུང་གི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་དཀར་མོ། རི་རབ་འཛིན་པ" | tenga-tulku:c-z-6 | PASS |
-| 17 | "སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་རི་རབ་མན་དཱ་ར་བ་ཞེས་བྱ་བ་ཡང་ཡི་གེ་ཧཱུཾ་གི་འོད་ཟེར་གྱིས་འབིགས་པར་བྱེད་པའོ" | drakpa-gyaltsen:c-1-86 | PASS |
-| 18 | "རི་རབ་མནྡ་ར" | karma-maitri:c-1-1-17-5 | PASS |
-| 19 | "རི་རབ་འབིག་བྱེད" | karma-maitri:c-1-1-17-5 | PASS |
-| 20 | "རི་རབ" | karma-maitri:c-1-1-17-5 | PASS (trivial/generic substring) |
-| 21 | "དེས་སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་གནས་རི་རབ་མནྡ་ར་ཞེས་པ་དང་རི་རབ་འབིག་བྱེད་ལ་སོགས་པ" | karma-maitri:c-1-1-17-5 | PASS |
-| 22 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། མནྡ་ར་ཞེས་བྱ་བའི་ར་དང་། རི་བོ་གངས་ཅན་ཞེས་བྱ་བ་དང་དབང་ཕྱུག་ཆེན་པོ་གནས་པའི་རི" | taranatha:c-17-5 | PASS |
-| 23 | "བོད་དཔེ་ཕལ་ཆེར་ལས། འབིགས་བྱེད་ཅེས་འབྱུང་བ་ལྟར་ན། རིའི་རྒྱལ་པོ་འབིགས་བྱེད་དེ། གཞུང་འདིའི་རྒྱ་སྐད་མཐོང་པ་རྣམས་ན། ཀཻ་ལ་ཤ་ཅེས་པར་སྣང་སྟེ། དེ་ལྟར་ན་གངས་རི་ཞེས་འདོན་པ་དང་མཐུན་མོད། །དཔེ་སྣ་ཚོགས་པ་སྣང་བའི་ཕྱིར། །གཅིག་ཏུ་ངེས་བཟུང་བ་དཀའ་བས་གཉིས་ཀ་ལྟར་མི་འགལ་བར་བྱའོ" | taranatha:c-17-7 | **PASS** (fixed 2026-08-14 — was FAIL on ellipsis-elided text, now full unbroken quote) |
-| 24 | "འབིགས་བྱེད་དམ་གངས་ཅན" | palden-sherab:c-3-1-17-1-2 | PASS |
+Both quotations retained in the revised article are unchanged, exact substrings of
+quotations already marked PASS in the prior (v1) citations.md pass, confirmed by direct text
+comparison against that pass's record (not a fresh `1-SOURCES/` lookup, per Mode B):
 
-**24/24 quotations verified PASS** (originally 23/24 with #23 failing on an ellipsis-elided
-quote; fixed in place 2026-08-14 and re-verified — see Warnings above).
-Per this task's instructions, `article.md` was left unmodified — the failure is documented
-here for a human contributor to resolve (either restore the full unbroken source clause, or
-split into two properly-bounded quotations).
+| # | Quotation | Claim | Prior PASS record | Unchanged in revision? |
+|---|---|---|---|---|
+| 1 | "སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་རི་རབ་མན་དཱ་ར་བ་ཞེས་བྱ་བ་ཡང་ཡི་གེ་ཧཱུཾ་གི་འོད་ཟེར་གྱིས་འབིགས་པར་བྱེད་པའོ" | drakpa-gyaltsen:c-1-86 | PASS (prior citations.md row 17) | yes — verbatim identical |
+| 2 | "སྦས་དོན་ནི། རི་རབ་ནི་ཚངས་པའི་རུས་པ" | taranatha:c-17-12 | PASS (prior citations.md row 11) | yes — verbatim identical |
+
+**2/2 retained quotations confirmed unchanged and PASS.**
+
+### Quotations removed in this revision (no longer in `article.md`)
+
+The remaining 22 quotations verified PASS in the prior citations.md pass (rows 1, 3–10,
+12–16, 18–24 of that pass's Verification table) were converted to paraphrase in this revision
+and no longer appear as verbatim quotations in `article.md`. Their content is preserved as
+paraphrase (see Reference map above); their original PASS verification record remains valid
+history for the source text they were drawn from, but is no longer an active verification
+claim about `article.md` since the quoted text is no longer present in it. The one prior FAIL
+(row 23, `taranatha:c-17-7`, fixed 2026-08-14) is included in this set — its passage is now
+paraphrased, not quoted.
