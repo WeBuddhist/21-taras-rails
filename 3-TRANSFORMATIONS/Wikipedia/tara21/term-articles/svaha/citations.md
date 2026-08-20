@@ -173,7 +173,14 @@ quoted* above); removed quotations need no re-check per Mode B Step 6.
 
 - **V1** — the 2 retained quotations spot-verified unchanged, see above.
 - **V2** — every `<ref>` body is `<AUTHOR>། <TITLE>།` drawn verbatim from the cited
-  commentary's own raw-file frontmatter (`author`/`title`); unchanged from v1.
+  commentary's own raw-file frontmatter (`author`/`title`). A 2026-08-20 audit found
+  this had NOT held for two of the four refs: `<ref name="pema-namgyal">` and
+  `<ref name="taranatha">` carried their `author_in_use` values (ཟུར་མང་མཁན་པོ་
+  པདྨ་རྣམ་རྒྱལ་, ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་) instead of the formal `author` field, inherited
+  unnoticed from v1. Both full ref definitions are now corrected to the formal
+  `author` (ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ།, ཏཱ་ར་ནཱ་ཐ།), matching the bibliography, which was
+  already correct. The `sungrab-tulku` and `tsultrim-namdak` ref bodies were already
+  correct and are unchanged.
 - **V3** — `<references />` present; the article has `<ref>` tags.
 - **V4** — no `{{Reflist}}` anywhere.
 - **V5** — 4 named refs, each with exactly one full definition (recounted after
@@ -200,4 +207,11 @@ quoted* above); removed quotations need no re-check per Mode B Step 6.
   འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་, ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་, མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་) match each
   commentary's own `author_in_use` frontmatter value exactly (checked directly against
   `2-RAILS/Claims/raw/tree-guided/{pema-namgyal,sungrab-tulku,taranatha,
-  tsultrim-namdak}.md` frontmatter); no fallback needed, no warning to log.
+  tsultrim-namdak}.md` frontmatter) and remain correct. However Rule 17's other half —
+  that `<ref>` content and the bibliography keep the formal `author` field, the
+  opposite of in-prose — did NOT hold: a 2026-08-20 audit found `<ref
+  name="pema-namgyal">` and `<ref name="taranatha">`'s full definitions had been
+  wrongly swapped to `author_in_use` form. Both are now corrected to the formal
+  `author` field (see V2 above); the bibliography already used the formal form and
+  needed no change. No commentary's `author_in_use` key was missing, so this is a
+  formatting correction, not a fallback case — no warning line is added.

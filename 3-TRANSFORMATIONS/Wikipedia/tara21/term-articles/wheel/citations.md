@@ -180,7 +180,14 @@ unaffected since the underlying claims are unchanged, only no longer quoted.
   sections in fixed order (`འབྲེལ་ཡོད་ཤོག་ངོས།` → `ལུང་ཁུངས།` → `དཔྱད་གཞིའི་ཡིག་ཆ།`); one allowlisted
   category (`[[རིགས་དབྱེ།:ནང་ཆོས།]]`).
 - Readability pass: reread start to finish — no remaining who-said-what fragment sequence outside
-  `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`; consensus/majority material (palm-wheel identification, heart-wheel
-  presence, dharma-wheel-turning gesture) reads as plain wikivoice fact; attribution is reserved for
-  the divergence section and for details unique to one or two commentaries (thousand-spoked detail,
-  ten-directions protection, outshine detail, hidden-meaning mandala-wheel).
+  `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`; of the three facets named in an earlier draft of this note, only the
+  palm-wheel identification (Position 2, 8/16 commentaries per `2-RAILS/Claims/wheel.md`) is actual
+  consensus/majority material and reads as plain wikivoice fact. Heart-wheel presence (3/16:
+  `gendun-gyatso`, `karma-maitri`, `tenzin-dhonzang`) and the dharma-wheel-turning gesture (2/16:
+  `lobsang-dawa`, `sungrab-tulku`) are minority claims, not consensus, and the article correctly
+  keeps them named-attributed in the body (`རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ་དང་ཀརྨ་མཻ་ཏྲི། སེར་སྨད་གཙང་དགེ་བཤེས་
+  བསྟན་འཛིན་དོན་བཟང་གསུམ་གྱིས་...བཤད་` for the heart-wheel; `དགེ་བཤེས་བློ་བཟང་ཟླ་བ་དང་...གཉིས་ཀྱིས་...
+  བཤད་` for the dharma-wheel-turning gesture) rather than stating them as wikivoice fact. Attribution
+  is reserved for the divergence section, for these two minority-attested facets, and for details
+  unique to one or two commentaries (thousand-spoked detail, ten-directions protection, outshine
+  detail, hidden-meaning mandala-wheel).

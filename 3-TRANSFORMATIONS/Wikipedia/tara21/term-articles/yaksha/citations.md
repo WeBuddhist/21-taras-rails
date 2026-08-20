@@ -39,15 +39,17 @@ all 16 raw claims files already carry the key, no fallback triggered. Scope fram
 article's deliberate non-overlap with a future `gdon` article; the "radiance-stealer" epithet
 as new synthesis) is unchanged from v1 and carried forward as settled.
 
-**Bibliography correction.** v1's `དཔྱད་གཞིའི་ཡིག་ཆ།` bullet for `yama-sonam` duplicated the
-author name (`རྗེ་བཙུན་ཡ་མ་བསོད་ནམས། རྗེ་བཙུན་ཡ་མ་བསོད་ནམས། ...`). This was a v1 formatting slip,
-not a content or citation change; corrected to a single mention in this revision.
+**Bibliography correction.** v1's `དཔྱད་གཞིའི་ཡིག་ཆ།` bullet for `yama-sonam` carried no author at
+all (`སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་། (མཛད་མཁན་མ་གསལ།)` — "author
+unclear"). This revision adds the author name (`རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།`) from the raw claims file's
+own frontmatter, a legitimate correction grounded in `2-RAILS/Claims/raw/tree-guided/yama-sonam.md`,
+not a fix to a duplication.
 
 ## Ref count and quotation count, before / after
 
 | | v1 (source) | v2 (this revision) |
 |---|---|---|
-| `<ref>` uses (inline occurrences) | 43 (16 full + 27 self-closing) | 40 (16 full + 24 self-closing) |
+| `<ref>` uses (inline occurrences) | 43 (16 full + 27 self-closing) | 34 (16 full + 18 self-closing) |
 | Distinct named refs | 16 | 16 |
 | Max refs on any one statement | most sentences carried 1 ref each, but essentially every sentence was individually attributed | 3 |
 | Verbatim commentary quotations | 23 instances (23 distinct claim IDs) | 2 |
@@ -136,8 +138,9 @@ None (unchanged from v1).
   set the page's `status` to `complete` before treating this article as final.
 - **No public URLs / years / pages exist for any of the sixteen commentaries** — unchanged from
   v1; every ref carries only author and title.
-- **`yama-sonam`'s bibliography line** is corrected in this revision (see above) — a mechanical
-  fix, not a citation-content change.
+- **`yama-sonam`'s bibliography line** is corrected in this revision (see above) — v1 carried no
+  author for this bullet (author unclear); this revision adds the author name, a legitimate
+  correction grounded in the raw claims file's frontmatter, not a duplication fix.
 - **No `author_in_use` fallback triggered.** All 16 raw claims files carry the key directly in
   their own frontmatter, confirmed by a frontmatter-only read of each; every in-prose
   commentator name in this revision uses that value (e.g. `pema-namgyal`'s

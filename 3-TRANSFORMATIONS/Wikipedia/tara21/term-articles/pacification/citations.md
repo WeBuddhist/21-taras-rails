@@ -126,8 +126,8 @@ ref name, with its quotation status and exact source block.
 
 ## Claims used but not quoted
 
-Listed inline in the Reference map table above (23 of the 44 citations are paraphrase-with-citation
-rather than direct quotation), consistent with SKILL.md Rule 5: consensus material forms unattributed
+Listed inline in the Reference map table above (41 of the 43 citations are paraphrase-with-citation
+rather than direct quotation, following the Mode B revision), consistent with SKILL.md Rule 5: consensus material forms unattributed
 or lightly-attributed backbone prose cited to representative commentaries; only ⚑ divergence
 positions, the epithet claims, and a few especially distinctive formulations are quoted verbatim.
 
@@ -181,35 +181,26 @@ located successfully in its commentary's raw tree-guided file.
 
 ## Verification
 
-Every one of the 21 direct verbatim quotations in `article.md` was checked programmatically:
-extracted from the article, whitespace-collapsed, and tested as a substring of the whitespace-
-collapsed full text of its `Cite:`-named `1-SOURCES/` file. All 21 passed.
+**Updated for the Mode B revision (2026-08-20).** The Mode B rewrite (per SKILL.md §Mode B step 6)
+converted 19 of v1's 21 verbatim quotations to paraphrase and retained only the 2 that stayed
+verbatim in the current `article.md`; those 2 were spot-verified as unchanged, exact substrings of
+the quotations already marked PASS below (a text diff against the prior article, not a fresh
+`1-SOURCES/` lookup, consistent with Mode B's spot-verification rule). Both were also re-confirmed
+programmatically against the current `article.md` fence body: exactly 2 double-quoted verbatim
+strings remain in the article, matching the 2 rows below.
 
 | # | Quotation (first ~40 chars) | Commentary | Source block | Result |
 |---|---|---|---|---|
 | 1 | ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི... | dharmabhadra | #^0-18 | PASS |
-| 2 | ཞི་བ་སྟེ་ཤེས་རབ་ | taranatha | #^0-12 | PASS |
-| 3 | རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་ | dharmabhadra | #^0-20 | PASS |
-| 4 | ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ་ | yama-sonam | #^0-35 | PASS |
-| 5 | དེ་མ་ཟད་ངན་འགྲོའི་རྒྱུ་སྡའི་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་བ... | gendun-gyatso | #^0-37 | PASS |
-| 6 | སྲིད་པ་དང་ཞི་བའི་ཕྱོགས་མཐའ་ཡས་པ་ལས་རྣམ་པར་རྒྱལ... | konchok-thabkhe | #^0-29 | PASS |
-| 7 | ཞི་བའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ་དང་། ཁྲོ་མོའི་རྣམ... | gendun-drub | #^0-18 | PASS |
-| 8 | ༡ ཞི་བའི་སྒྲོལ་མ་དཀར་མོ། ལས་བཞིའི་སྒྲོལ་མ... | tenga-tulku | #^0-228 | PASS |
-| 9 | ཞི་བ་ ནི་ 8 ཉོན་མོངས་པ། | drakpa-gyaltsen | #^0-20 | PASS |
-| 10 | ཞི་བ་ཞེས་པ། མི་མཐུན་ཕྱོགས་སེར་སྣ། ལེ་ལོ།... | gendun-drub | #^0-27 | PASS |
-| 11 | སྦྱིན་པ་དང་། བརྩོན་འགྲུས་དང་།དཀའ་ཐུབ་ཞི་བ་སྟེ... | konchok-thabkhe | #^0-23 | PASS |
-| 12 | ཞི་བ་ཞེས་པས་དངོས་བསྟན་གྱི་དབང་དུ་བྱས་ན།... | tenga-tulku | #^0-31 | PASS |
-| 13 | འགྲེལ་བ་སྔ་མ་རྣམས་ལས་འགའ་ཞིག་གིས་ཞི་བ་དང་།... | konchok-thabkhe | #^0-24 | PASS |
-| 14 | འདིར་གྲུབ་ཆེན་གྱིས ཤེས་རབ་བདག་ཉིད་ཕར་ཕྱིན་ལྔ།... | konchok-thabkhe | #^0-24 | PASS |
-| 15 | བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས... | yama-sonam | #^0-37 | PASS |
-| 16 | བཅོ་ལྔ་པ་སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་འཕགས་མ་སྒྲོལ... | palden-sherab | #^0-147 | PASS |
-| 17 | སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ | sangye-nyentrul | #^0-69 | PASS |
-| 18 | ཞི་བ་ཆེན་མོ་ལ་བསྟོད་པ | tenzin-dhonzang | #^0-231 | PASS |
-| 19 | འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་། | gendun-drub | #^0-82 | PASS |
-| 20 | ཞི་བ་ནི་གསལ་ལ་འཛིན་པ་མེད་པ་སྟོན་ཀའི་ནམ་མཁའ་ལྟ... | palden-sherab | #^0-211 | PASS |
-| 21 | འགྲོ་རྣམས་ཞི་བའི་ལས་ལ་འགོད་པ་ནས་བཟུང་།... | konchok-thabkhe | #^0-6 | PASS |
+| 2 | ༡ ཞི་བའི་སྒྲོལ་མ་དཀར་མོ། ལས་བཞིའི་སྒྲོལ་མ... | tenga-tulku | #^0-228 | PASS |
 
-**21/21 quotations PASS.**
+**2/2 quotations PASS.**
+
+The 19 quotations removed from `article.md` by the Mode B rewrite (formerly rows 2–7, 9–11, 13–21 of
+this table) were not re-verified here — they no longer appear in the article as verbatim quotations,
+so V1 (character-for-character quotation match) no longer applies to them. Their underlying claim IDs
+remain cited in-body as paraphrase (see Reference map above) or, where applicable, in "Full
+attestation beyond in-article refs"; no attestation was lost, only the verbatim wording.
 
 ## Spec validator checklist (V1–V12)
 

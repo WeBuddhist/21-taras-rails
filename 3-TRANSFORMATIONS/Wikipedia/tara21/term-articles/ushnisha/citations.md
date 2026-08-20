@@ -1,7 +1,10 @@
 ---
 topic: ushnisha
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/ushnisha/article.md (v1, wiki-article-from-claims, commit 2c986cf)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/ushnisha.md
 rails_status: draft
@@ -33,6 +36,83 @@ Source: consolidated topic page [`2-RAILS/Claims/ushnisha.md`](../../../../../2-
 **Note on scope relative to `tara-04`.** The vault already has a deity-profile article at `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-04/article.md` for the same fourth homage-verse, drawing on a different consolidated page (`2-RAILS/Claims/tara-04.md`) with the deity-profile skeleton (iconography, activity, etc.). This article is deliberately narrower and differently shaped: per the task's Adaptation 1, it uses the wikitext-spec's doctrinal-term skeleton and treats གཙུག་ཏོར as the term/subject — covering material `tara-04` does not (the term's general Buddhological sense via the *Sutra of Inconceivable Secrets*, the second uṣṇīṣa-named deity Uṣṇīṣasitātapatrā, the ritual-correlation and cosmic-scope readings) while omitting iconography/activity detail that belongs to the deity profile. `article.md` links to `tara-04`'s subject as a related page.
 
 **Note on the audit-corrected structure.** Per the task's instruction, `2-RAILS/Claims/ushnisha.md`'s "Completion-stage / subtle-body readings" section was recently split during an adversarial audit into (a) two claims that are genuine exegesis of the uṣṇīṣa-deity verse itself (`palden-sherab:c-3-1-4-3-1`, `c-3-1-4-4-1`) and (b) two claims that use the term *gtsug tor* generically as an anatomical/subtle-body landmark in Palden-Sherab's commentary on unrelated homages (homage 1's "Swift Heroine," `c-3-1-1-3-4`; homage 11's "Poverty-Dispelling" Tārā, `c-3-1-11-3-1`). This article follows that corrected structure: only (a) is drawn on, attributed explicitly to Palden-Sherab and explicitly framed as exegesis of verse 4. Claims `c-3-1-1-3-4` and `c-3-1-11-3-1` were read and are logged below under "Claims consulted but deliberately excluded" — they are not quoted or paraphrased anywhere in `article.md`.
+
+## Mode B revision (2026-08-20)
+
+Rewritten from the v1 article (`wiki-article-from-claims`, dated 2026-08-12, commit `2c986cf`)
+to v2 register per `4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`, Mode B
+(revision-in-place). No new claim ID was introduced; every ref name, claim ID, and `Cite:`
+target below is carried over unchanged from the source citations map. Only the prose
+register and in-prose author naming changed.
+
+- **Register (Rule 5).** A 2026-08-20 audit of the prior revision pass caught two remaining
+  backbone/consensus sentences still framed as numbered-attribution ("N traditions say X")
+  rather than plain wikivoice fact:
+  - The ངེས་ཚིག opening — `གཞུང་ལུགས་ལྔས་...ཞེས་མཐུན་པར་སྦྱར་ལ།` ("Five traditions
+    concordantly apply the name...") — rewritten to `ཕྱག་འཚལ་བཞི་པའི་ལྷ་མོ་འདིའི་མཚན་ལ་
+    གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ་ཞེས་སྦྱར་ལ།` (plain declarative naming fact), refs unchanged.
+  - The མཚན་ཉིད opening — `ཕྱག་འཚལ་ཉེར་གཅིག་གི་གཞུང་ལུགས་བརྒྱད་ཀྱིས་ཚིག་འདི་ཉིད་འདོན་ལ།
+    ...འདོན་ཞིང་།` ("Eight traditions recite this line... six recite it in full") —
+    rewritten to `ཚིག་འདི་ཉིད་ཕྱག་འཚལ་ཉེར་གཅིག་གི་གཞུང་ལུགས་བརྒྱད་ནང་འབྱུང་ཞིང་། དེའི་ནང་
+    ནས་དྲུག་ནང་ཚིག་བཞི་ཆ་ཚང་བར་འབྱུང་ཞིང་།` (the line's occurrence stated as a fact about
+    the text, not an action of counted traditions), refs unchanged.
+  - The same paragraph's rationale sentence — `...རྒྱུ་མཚན་ཡང་གཞུང་ལུགས་བཞིས་མཐུན་པར་
+    བཤད་དེ།` ("the reason too is explained concordantly by four traditions") — rewritten
+    to `...རྒྱུ་མཚན་ནི།` (plain "the reason is:" framing), refs unchanged.
+  No claim ID, quotation, or ref was added or removed by these three fixes — only the
+  attribution-verb grammar changed. All other attribution in the article (the ⚑ divergence
+  section `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`, and the unique-claim framings in ངེས་ཚིག/མཚན་ཉིད)
+  was already correctly attributed per Rule 5 and is untouched.
+- **Author naming (Rule 17).** Two `<ref>` first-definitions still carried
+  `author_in_use` form instead of the formal `author` field, which `<ref>` content must
+  use per Rule 17's closing line ("`<ref>` content...keep the formal `author` + `title`
+  unchanged"):
+  - `<ref name="taranatha">` — `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ།...` → `ཏཱ་ར་ནཱ་ཐ།...` (per
+    `2-RAILS/Claims/raw/tree-guided/taranatha.md`'s `author: "ཏཱ་ར་ནཱ་ཐ་"`).
+  - `<ref name="pema-namgyal">` — `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ།...` → `ལྡོམ་བུ་བ་པདྨ་
+    རྣམ་པར་རྒྱལ་བ།...` (per `2-RAILS/Claims/raw/tree-guided/pema-namgyal.md`'s
+    `author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་"`).
+  Both bibliography entries already used the formal form and are unchanged. The later
+  bare `<ref name="..." />` reuses and the in-prose bolded mentions of both commentators
+  elsewhere in the article correctly use `author_in_use` (ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་ /
+  ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་) and were left untouched, per Rule 17.
+- **Citation cap (Rule 7).** No statement in the article carries more than 3 `<ref>`s.
+  Three backbone/consensus statements are cited to 2–3 representative sources out of a
+  larger attested set on `2-RAILS/Claims/ushnisha.md`; the full attestation for each is
+  recorded below so nothing is lost to the cap.
+
+### Full attestation beyond in-article refs
+
+Per `2-RAILS/Claims/ushnisha.md`, cross-referenced against this article's actual ref
+tags on each statement:
+
+- **ངེས་ཚིག opening — Uṣṇīṣavijayā epithet identification.** The consolidated page's
+  "Identity of the deity addressed" facet records the base epithet as attested by **five**
+  commentaries: `palden-sherab:c-3-1-4-0-1`, `sangye-nyentrul:c-5-1-1`,
+  `sungrab-tulku:c-7-3`, `tenzin-dhonzang:c-4-4-1`, `tsultrim-namdak:c-3-7`. The article's
+  sentence cites only `palden-sherab`, `tenzin-dhonzang`, `tsultrim-namdak` (3 of 5, per the
+  Rule 7 cap). Not lost — attested but not separately cited on this sentence:
+  `sangye-nyentrul:c-5-1-1` (also independently cited elsewhere in the article, in the
+  lead and the divergence section, under its own claims) and `sungrab-tulku:c-7-3` (also
+  independently cited elsewhere, in the མཚན་ཉིད spelling-variant discussion).
+- **མཚན་ཉིད opening — root verse cited in full by six commentaries.** The consolidated
+  page's "The root verse and its attestation" facet records the full four-line quotation
+  as attested by **six** commentaries: `yama-sonam:c-3-4-3`, `dharmabhadra:c-1-2-2-1-1-3-2`,
+  `palden-sherab:c-3-1-4-0-2`, `sungrab-tulku:c-7-2`, `tenzin-dhonzang:c-2-8`/`c-4-4-2`,
+  `tsultrim-namdak:c-2-1-2-1-13`. The article's sentence cites only `tenzin-dhonzang`,
+  `palden-sherab`, `dharmabhadra` (3 of 6, per the Rule 7 cap). Not lost — attested but not
+  separately cited on this sentence: `yama-sonam:c-3-4-3` (independently cited elsewhere,
+  as the "from the tantra" framing and the rationale paragraph), `sungrab-tulku:c-7-2`
+  (independently cited elsewhere, in the spelling-variant discussion), and
+  `tsultrim-namdak:c-2-1-2-1-13` (independently cited elsewhere, in the divergence
+  section's emanation-position paragraph).
+- **མཚན་ཉིད rationale paragraph — "mother of all buddhas" rationale.** The consolidated
+  page's "Rationale and status" facet records this rationale as attested by **four**
+  commentaries: `yama-sonam:c-3-4-4`, `dharmabhadra:c-1-2-2-1-1-3-3`,
+  `gendun-drub:c-2-2-2-2-1-1-3-3`, `konchok-thabkhe:c-2-4-2`. The article's sentence cites
+  only `yama-sonam`, `dharmabhadra`, `gendun-drub` (3 of 4, per the Rule 7 cap). Not lost —
+  attested but not separately cited on this sentence: `konchok-thabkhe:c-2-4-2`
+  (independently cited elsewhere, in the divergence section's simile-position paragraph).
 
 ## Reference map
 
@@ -82,7 +162,14 @@ None. Every attestation ID cited anywhere on `2-RAILS/Claims/ushnisha.md` was lo
 - **`rails_status: draft`.** `2-RAILS/Claims/ushnisha.md` carries `status: draft`, not `complete`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, §11), transformations are generated only from `status: complete` rails; this article is a known, accepted exception run at the requester's explicit instruction. A domain specialist should review the consolidated page and either promote it to `complete` or flag corrections before this article is treated as more than a draft.
 - **No URLs.** None of the 16 cited commentaries has a public URL, Wikisource page, or BDRC ID recorded in this vault. All 16 `<ref>`s use the hand-formatted `AUTHOR། TITLE།` form with no link, per skill Rule 7. No `dummy.com` or other placeholder was used.
 - **No year or page for any ref.** None of the sixteen raw claims files' frontmatter records a publication year or page number for its source commentary, so none is given in any `<ref>`.
-- **Author unattested for one commentary.** `yama-sonam`'s raw file gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` / `author_in_english: "unknown"`. The `<ref>` cites the title only, and the bibliography entry is marked "(རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།)" ("Jetsün Yama Sonam") — matching the convention already used in `slot-articles/tara-04/`.
+- **`yama-sonam` author naming — corrected note.** An earlier version of this file
+  claimed `yama-sonam`'s `<ref>` "cites the title only" and that the bibliography entry
+  was parenthesized as "(རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།)". This was false and has been corrected:
+  `yama-sonam`'s raw file gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` (not unknown — only
+  `title_in_english` is unattested for this commentary), and both the `<ref name="yama-sonam">`
+  definition and the bibliography entry in `article.md` already carry the full,
+  unparenthesized author name "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" in the standard `AUTHOR། TITLE།`
+  form. No correction to `article.md` was needed for this commentary.
 - **Honorific parentheticals dropped from author names.** `gendun-drub`'s and `gendun-gyatso`'s frontmatter `author` fields carry a parenthetical gloss (e.g. "(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)" — "First Dalai Lama"); `konchok-thabkhe`'s carries "(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)". These were dropped from the `<ref>` and bibliography entries, keeping only the primary name, matching the same convention used in `slot-articles/tara-04/`. No factual content was lost.
 - **`sangye-nyentrul` title/filename discrepancy.** Its raw file's frontmatter `title` field is shorter than the actual `1-SOURCES/Commentaries/` filename (the filename carries extra words `འཕགས་མ་`, `ཉུང་ངུར་བཀོད་པ`). Per skill Rule 7 the citation is built from the raw file's frontmatter, so the shorter form is used, matching `tara-04`'s own precedent.
 - **Cross-article overlap with `tara-04`.** Several claims cited here (root verse c-3-4-3/c-4-4-2/etc., identity c-3-1-4-0-1, rationale c-3-4-4/c-1-2-2-1-1-3-3) are also cited in `slot-articles/tara-04/article.md`, since both articles describe the same fourth homage-verse from different angles (deity profile vs. doctrinal term). This is expected, not an error — see the scope note above.

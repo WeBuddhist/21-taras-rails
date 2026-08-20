@@ -29,6 +29,48 @@ status: draft
 
 # Citations — tara-02
 
+## Post-audit fixes (2026-08-20)
+
+A read-only audit of the Mode B revision (below) found two defects, both fixed in place; no
+claim ID, quotation, or citation was added or removed.
+
+1. **Rule 5 (wikivoice) — `མཚན་གྱི་ངེས་ཚིག`, "དབྱངས་ཅན་མ" naming sentence.** This statement is
+   documented above (§"Full attestation beyond in-article refs") as a consensus statement capped
+   to 3 representative refs (`palden-sherab`, `sangye-nyentrul`, `tsultrim-namdak`; `sungrab-tulku`
+   dropped for the cap), yet the drafted prose named all three commentators in an attribution
+   chain ("མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་ཀྱིས་...གདགས་ཤིང ... སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ ... དང་མཁན་པོ་ཚུལ་
+   ཁྲིམས་རྣམ་དག་བཅས་ཀྱིས་ཀྱང་...གདགས་སོ།།"). Rewritten to a plain wikivoice assertion
+   ("བློ་གཏེར་དབྱངས་ཅན་མ་ཞེས་མཚན་གྱིས་གདགས་སོ།།") with the same three `<ref>` tags, unchanged
+   content, carrying the support silently — matching how the article already handles the
+   body-colour consensus sentence in `སྐུ་ཡི་རྣམ་པ`. The section's opening sentence ("འདིའི་མཚན་ལ་
+   གཞུང་ལུགས་སོ་སོས་མི་འདྲ་བར་གདགས་ཏེ་མཚན་གཅིག་ཏུ་མ་གྲུབ།") was left unchanged — it introduces the
+   section's genuine cross-commentary naming divergence (this "Yangchenma" consensus among three
+   commentators sits alongside the differently named "Karmo Dangden Drolma" and "Zhiwa Chenmo"
+   documented later in the same section), not the capped consensus statement itself.
+2. **Rule 17 (author naming) — four `<ref>` tag definitions carried the wrong author form.**
+   `<ref>` content must use the formal `author` frontmatter value (never `author_in_use`, which is
+   reserved for in-prose mentions per Rule 17's last sentence). Fixed against each raw claims
+   file's frontmatter in `2-RAILS/Claims/raw/tree-guided/`:
+   - `taranatha`: `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ།` (that commentary's `author_in_use`, wrongly used in the ref) →
+     `ཏཱ་ར་ནཱ་ཐ` (its `author`).
+   - `pema-namgyal`: `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ།` (`author_in_use`) → `ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ`
+     (`author`).
+   - `gendun-drub`: `རྒྱལ་བ་དགེ་འདུན་གྲུབ།` (missing the frontmatter's Dalai Lama parenthetical) →
+     `རྒྱལ་བ་དགེ་འདུན་གྲུབ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)` (full `author`).
+   - `gendun-gyatso`: `རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ།` (missing the parenthetical) →
+     `རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ)` (full `author`).
+
+   Only each name's first/full `<ref>` definition was touched; later bare `<ref name="..." />`
+   reuses need no change since they carry no author text. The same wrong forms were also found
+   and fixed in the `དཔྱད་གཞིའི་ཡིག་ཆ།` bibliography for `gendun-drub` and `gendun-gyatso` (which
+   were missing the parenthetical); the bibliography entries for `taranatha` and `pema-namgyal`
+   were already in the correct formal form and were not touched. All in-prose commentator mentions
+   (e.g. `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་དང་...` in `སྦས་དོན་གྱི་བཤད་པ།`, `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་གྱི་...` in
+   `ཕྲིན་ལས་དང་ནུས་མཐུ།`, `རྒྱལ་བ་དགེ་འདུན་གྲུབ་...` in `མཚན་གྱི་ངེས་ཚིག`) already correctly used
+   `author_in_use` and were left untouched.
+
+The preview (`article-preview.md`) was regenerated after these fixes.
+
 ## Mode B revision note (2026-08-20)
 
 Rewritten in place from the v1 `wiki-article-from-claims` draft to the v2 register (wikivoice
@@ -84,7 +126,10 @@ Converted from verbatim quotation to attributed paraphrase (content unchanged, n
 content added):
 
 - `palden-sherab:c-3-1-2-0-1` ("གཉིས་པ་བློ་གཏེར་དབྱངས་ཅན་མ་ནི།") — a bare structural/ordinal
-  marker; paraphrased into "མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་ཀྱིས་བློ་གཏེར་དབྱངས་ཅན་མ་ཞེས་གདགས།".
+  marker; paraphrased into wikivoice "བློ་གཏེར་དབྱངས་ཅན་མ་ཞེས་མཚན་གྱིས་གདགས་སོ།" (see the 2026-08-20
+  post-audit fix note below — this was briefly an attributed paraphrase naming Palden Sherab and
+  was corrected to plain wikivoice per Rule 5, since citations.md itself treats this as a
+  consensus statement capped to 3 representative refs).
 - `gendun-gyatso:c-1-2-2` ("དེ་ལ་ཡང་སྐར་མ་སྟོང་གུས་པ་...འོད་དཀར་པོ་རབ་ཏུ་འབར་བའི་སྒྲོལ་མ་ལའོ།") —
   paraphrased into "རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོས་ནི་སྐར་མས་བརྒྱན་པའི་དོན་དུ་བཤད་དོ།".
 - `yama-sonam:c-3-2-5` ("འགྲེལ་མཛད་མཁན་དག") — a two-word fragment naming unspecified prior

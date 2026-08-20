@@ -48,7 +48,19 @@ over unchanged from the v1 map.
   transmission — treated as the article's identifying root-text citation, exempt from the
   quotation budget per Rule 6, the same convention v1 used for deity-profile leads) and
   converts the consensus material — the four-māra classification (`དབྱེ་བ།`), the
-  expanding-scope subjugation account (`མཚན་ཉིད།`), and the summary — to wikivoice. Inline
+  expanding-scope subjugation account (`མཚན་ཉིད།`), and the summary — to wikivoice.
+  **Correction (2026-08-20, post-audit):** the `མཚན་ཉིད།` TUTTĀRA-scope paragraph (the
+  named-cosmological-Māra facet, `2-RAILS/Claims/mara.md` §"The named cosmological
+  Māra") was in fact left in the original per-commentator "X ཀྱིས་ནི་...བཤད" chain —
+  six commentators named in sequence outside the divergence section — despite this
+  bullet's claim above that it had been converted. That claim was false; the paragraph
+  has now been rewritten into plain wikivoice, stating the shared subjugation-and-scope
+  account as fact with no commentator named (this facet's consolidated page entry
+  records "None observed" under Divergences — the variation across commentaries is one
+  of specificity and scope, not doctrine, so no attribution was owed). The same 9 refs
+  (`utpala`, `gendun-gyatso`, `karma-maitri`, `sungrab-tulku`, `tenzin-dhonzang`,
+  `konchok-thabkhe`, `palden-sherab`, `gendun-drub`, `tenga-tulku`) remain attached,
+  unchanged; no claim ID was added, removed, or reassigned. Inline
   attribution is kept only for: (a) `ངེས་ཚིག།`'s three genuinely different etymologies of
   the epithet "དཔའ་མོ" (karma-maitri / konchok-thabkhe / lobsang-dawa — a real three-way
   difference, not filler, so left attributed per the vault's no-flattening rule even though
