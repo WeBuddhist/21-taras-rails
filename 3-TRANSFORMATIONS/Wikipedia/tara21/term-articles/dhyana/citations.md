@@ -54,13 +54,22 @@ non-pāramitā uses of the same word.
   recorded meaning; no new claim content was introduced.
 - **Wikivoice conversion (Rule 5)** is limited here relative to the sibling articles,
   because most of this article's content was already single- or paired-commentary
-  material in v1 rather than broad consensus (dhyāna's antidote framing, its
-  threefold subdivision, its extended ten-pāramitā placement, and its several
-  completion-stage/hidden-meaning readings are each one or two commentaries' own
-  distinctive elaboration). What changed is quote-to-paraphrase conversion (Rule 6),
-  sentence-merging into connected prose (Rule 8), and the punctuation contract
-  (Rules 15–16) — attribution itself is largely unchanged from v1, consistent with
-  Rule 5's carve-out for unique claims.
+  material in v1 rather than broad consensus (its threefold subdivision, its
+  extended ten-pāramitā placement, and its several completion-stage/hidden-meaning
+  readings are each one or two commentaries' own distinctive elaboration). One
+  exception, corrected in this pass: dhyāna's antidote framing ("concentration is
+  the antidote to distraction") is a 3-commentary consensus on
+  `2-RAILS/Claims/dhyana.md` (`sungrab-tulku:c-6-5`, `tenga-tulku:c-1-2-2-1-1-2-4`,
+  `tenzin-dhonzang:c-4-8-7`) — v1/the prior v2 draft still named Sungrab Tulku and
+  Tenga Tulku as grammatical subject for this shared point; it now reads in plain
+  wikivoice with the same `sungrab-tulku`/`tenga-tulku` refs attached, no claim ID
+  added or removed. Tenzin Dhonzang's further elaboration into three named
+  "enemies" (agitation, distraction, dullness) is a Unique claim beyond the shared
+  point and correctly stays attributed to him by name (`author_in_use`), with the
+  same `tenzin-dhonzang` ref unchanged. Elsewhere, what changed is quote-to-paraphrase
+  conversion (Rule 6), sentence-merging into connected prose (Rule 8), and the
+  punctuation contract (Rules 15–16) — attribution itself is largely unchanged from
+  v1, consistent with Rule 5's carve-out for unique claims.
 - **Citation cap (Rule 7).** v1 stacked all fifteen corroborating commentaries' refs
   onto the lead's consensus sentence ("all sixteen commentaries attest this verse").
   v2 keeps 3 (`sungrab-tulku` for the quote itself, `palden-sherab`, `tenzin-dhonzang`);

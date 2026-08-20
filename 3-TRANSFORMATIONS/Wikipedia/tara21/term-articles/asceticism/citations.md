@@ -41,7 +41,14 @@ ID appears below that did not already appear, resolved and PASS-verified, in the
 `citations.md`. The rewrite converts the twelve-commentary discipline-pāramitā backbone
 to wikivoice, cuts the quotation count from 9 to 2, and caps in-article refs per statement
 at 3 — both divergences (konchok-thabkhe's merge of terms; tsultrim-namdak's alternate
-37-factors classification) keep their full attribution per Rule 5.
+37-factors classification) keep their full attribution per Rule 5. **Post-audit
+correction (2026-08-20, same-day):** the pass above missed two backbone sentences that
+still carried vague-plural attribution framing ("འགྲེལ་པ་མང་པོས་…" / "འགྲེལ་པ་མང་པོའི་ནང་དུ་…")
+instead of plain wikivoice — one in the lead, one in `བསྡུས་དོན།`. Both are now rewritten as
+plain declarative statements per Rule 5, with the same `<ref>` tags unchanged (no claim ID
+added, removed, or reassigned). The sanctioned "twelve commentaries clearly explain…"
+sentence in `མཚན་ཉིད།` was untouched — it names a specific count and is covered by Rule 7's
+attestation-breadth exception, not by Rule 5's ban on vague-plural framing.
 
 ## Reference map (as cited in the v2 article)
 

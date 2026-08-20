@@ -41,7 +41,14 @@ quotation-budget cut and prose-merging of what were separate one-claim sentences
 fewer, fuller sentences (still ≤3 refs each), not a wikivoice conversion. The lead and
 `ངེས་ཚིག` (fourfold-host structural attestation and general framing, genuinely
 consensus/majority material) *are* converted to wikivoice. `རྫོགས་རིམ་གྱི་སྦས་དོན།`
-(a two-commentary consensus) is also converted to wikivoice. `ཕྲིན་ལས་དང་སྐབས་གཞན།`
+(a two-commentary consensus) is also converted to wikivoice — **correction, 2026-08-20:**
+the original Mode B pass on 2026-08-20 dropped the quotation but left the sentence's
+grammatical subject as `མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་དང་ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་གཉིས་ཀས་...བཤད`
+("Khenchen Palden Sherab and Jonang Tāranātha both explain"), so the wikivoice conversion
+this note claimed was not actually realized in the fence body; a follow-up pass the same
+day rewrote the sentence to a plain declarative statement (no named subject, `sbyor
+te...mtshungs so`) with the same two `<ref>`s unchanged, completing the conversion this
+note describes. `ཕྲིན་ལས་དང་སྐབས་གཞན།`
 keeps attribution as unique claims from single commentators. The v1 `བསྡུས་དོན།` sentence
 also carried 4 refs on one statement — a pre-existing Rule 7 violation, now fixed by
 splitting it into two sentences (3 refs + 1 ref) rather than dropping any attestation.
