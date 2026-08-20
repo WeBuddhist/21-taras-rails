@@ -62,9 +62,15 @@ status: draft
 
 ## Full attestation beyond in-article refs
 
-Four commentaries that carried an in-body `<ref>` in the v1 draft no longer do, because the
-statements they supported already reach the 3-ref cap (Rule 7) with other, representative
-refs. Their attestation is preserved here and they remain in `raw_sources_cited`.
+Two commentaries that carried an in-body `<ref>` in the v1 draft no longer carry any live
+`<ref>` anywhere in the current article: **sungrab-tulku** and **lobsang-dawa** (verified by
+grepping `ref name="..."` in `article.md` against `raw_sources_cited` below — every other
+cited commentary still has at least one live in-body `<ref>`). **tsultrim-namdak** is also
+named in the bullets below, but only because one specific statement's capped ref list (the
+red-body-colour consensus clause) excluded it in favour of other representative refs — it
+still carries live `<ref name="tsultrim-namdak">` calls elsewhere in the article (see
+`མཚན་གྱི་ངེས་ཚིག` and `གཞུང་ལུགས་སོ་སོའི་བཤད་པ`), so none of its own attestation is actually
+lost. Their attestation is preserved here and they remain in `raw_sources_cited`.
 
 - **Lead — "sixth within the wrathful-abiding sub-group" classification.** Representative
   refs in-body: dharmabhadra, gendun-drub, tenga-tulku. Also attested by:
@@ -78,11 +84,13 @@ refs. Their attestation is preserved here and they remain in `raw_sources_cited`
 
 ## Claims used but not quoted (paraphrased content, per section)
 
-Fifteen of the seventeen commentary quotations marked in the v1 draft have been converted to
+Fourteen of the seventeen commentary quotations marked in the v1 draft have been converted to
 paraphrase in v2 (Rule 6 — quotation budget of 2 per article, root-verse quotation in the
-lead excluded). Only taranatha:c-13-7 ("སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་
-ལྟ་བུ་སྟེ།") and yama-sonam:c-3-13-8's iconographic label ("ཞལ་གཅིག་ཕྱག་བཞི་མ") remain as
-verbatim commentary quotations.
+lead excluded). Three quotations are retained: the root-verse quotation
+(dharmabhadra:c-1-2-2-1-2-6-2, "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར།། ...", quoted in the lead —
+outside the quotation budget per Rule 6), taranatha:c-13-7 ("སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་
+ལྟ་བུ་སྟེ།"), and yama-sonam:c-3-13-8's iconographic label ("ཞལ་གཅིག་ཕྱག་བཞི་མ") — the latter
+two are the article's 2 budgeted commentary quotations under Rule 6.
 
 - **Lead:** yama-sonam:c-3-13-1, taranatha:c-13-1, tenzin-dhonzang:c-4-13-1 (global "thirteenth" ordinal); dharmabhadra:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1 (local "sixth" ordinal within the wrathful-abiding sub-group)
 - **མཚན་གྱི་ངེས་ཚིག:** yama-sonam:c-3-13-12, gendun-drub:c-2-2-2-2-1-2-6-4 (naming, now unquoted — proper-noun designations, not treated as quotations under Rule 6); tenzin-dhonzang:c-4-13-1 (own heading name, unquoted); palden-sherab:c-3-1-13-0-1, sangye-nyentrul:c-14-1-1 (name variants, unquoted); tsultrim-namdak:c-3-16 (unique "Destroyer of Enemy Armies" naming, unquoted); dharmabhadra:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1 (functional "wrathful-abiding" classification, unquoted); konchok-thabkhe:c-2-13-1 (alternate naming, unquoted); tenzin-dhonzang:c-4-13-3 (own note on the term ཕྱག་འཚལ, unquoted)
@@ -122,6 +130,11 @@ None. Unchanged from the source draft.
 - **The five-way divergence on "enemy" and the two-way divergence on body-form iconography (two-armed vs. four-armed) are both presented in full**, per Rule 5 — no position adjudicated or dropped in the v2 rewrite; only the per-statement ref count was capped (see "Full attestation beyond in-article refs").
 - **Author-naming corrections applied (Rule 17).** The v1 draft named three commentators by short forms not matching their `author_in_use` frontmatter value: (1) སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་ was named "བསྟན་འཛིན་དོན་བཟང" — corrected to the full form throughout; (2) རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་ was named "བསྟན་དགའ་སྤྲུལ" — corrected to the full form throughout; (3) འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་ was named "གསུང་རབ་སྤྲུལ་སྐུ" in the v1 draft's bibliography reference, but its `author_in_use` value never actually appeared in v1's article-body prose (only in the bibliography, which keeps the formal `author` form per Rule 17's own carve-out) — no in-prose mention required correction, and this commentary no longer carries an in-body `<ref>` in v2 (see Full attestation). All other cited commentaries' in-prose names already matched `author_in_use` and needed no change.
 - **Bibliography (`དཔྱད་གཞིའི་ཡིག་ཆ།`) trimmed to match in-body `<ref>` calls**, per Rule 11. sungrab-tulku and lobsang-dawa no longer carry an in-body `<ref>` and were removed from the bibliography list; their attestation is preserved above under "Full attestation beyond in-article refs" and in `raw_sources_cited`.
+- **2026-08-20 defect-fix pass (post-audit, same day).** A read-only audit of this morning's Mode B rewrite found four defects, all now corrected in `article.md`:
+  1. **Punctuation (Rule 15/16).** The first paragraph under `== སྐུ་ཡི་རྣམ་པ། ==` ended in a single shad (`...མི་འཆད།`); corrected to the required paragraph-final double shad (`...མི་འཆད།།`).
+  2. **Wikivoice (Rule 5).** Three passages outside the divergence section still carried a generic "all commentaries identify/describe her as..." (`མཐའ་དག་གིས་...བཤད་དེ` / `...ངོས་འཛིན་བྱེད་དོ།།`) framing — in the lead, the opening of `སྐུ་ཡི་རྣམ་པ།`, and the opening of `བསྡུས་དོན།`. All three rewritten to plain declarative wikivoice (`རྗེ་བཙུན་མ་འདི་ནི་... ཡིན་ནོ།།` / `...ཡིན་ཏེ`); the `<ref>` tags attached to each were left byte-identical.
+  3. **`<ref>` content vs. formal `author` (Rule 17).** `taranatha` and `pema-namgyal`'s in-body `<ref>` tags wrongly carried the `author_in_use` form (`ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ`, `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ`) instead of the formal `author` frontmatter value already used correctly in the bibliography (`ཏཱ་ར་ནཱ་ཐ`, `ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ`) — fixed in the `<ref>` tags only; their correct `author_in_use` prose mentions elsewhere in the article were left untouched. Separately, `gendun-drub`, `gendun-gyatso`, and `konchok-thabkhe` were all missing their formal-author parentheticals (`(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)`, `(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་གཉིས་པ)`, `(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)` respectively) from both their `<ref>` tag and their bibliography line — restored in both places, verbatim from each commentary's `2-RAILS/Claims/raw/tree-guided/<name>.md` frontmatter `author` field. All other in-body `<ref>` tags (yama-sonam, dharmabhadra, drakpa-gyaltsen, karma-maitri, tenga-tulku, tenzin-dhonzang, palden-sherab, sangye-nyentrul, konchok-thabkhe) were checked against their raw frontmatter and already matched. `tsultrim-namdak`'s `<ref>` and bibliography line also had a stray space before the shad (`རྣམ་དག ། ` instead of `རྣམ་དག། `) — corrected as a minor punctuation fix found during the same verification pass; its author name itself was already correct.
+  4. **`citations.md` self-report numbers.** "Fifteen of the seventeen commentary quotations ... converted to paraphrase" was verified against the pre-revision v1 article (`git show 2c986cf:.../article.md`) and found wrong — the true count is fourteen converted / three retained (root verse + the 2 budgeted commentary quotations); corrected above under "Claims used but not quoted." The "Full attestation beyond in-article refs" header claiming "Four commentaries ... no longer carry an in-body `<ref>`" was verified by grepping `ref name="..."` in `article.md` against `raw_sources_cited` and found wrong — only two commentaries (sungrab-tulku, lobsang-dawa) actually have zero live in-body refs; corrected above, with a clarifying note on why tsultrim-namdak is named in that section despite still carrying live refs.
 
 ## Verification
 
