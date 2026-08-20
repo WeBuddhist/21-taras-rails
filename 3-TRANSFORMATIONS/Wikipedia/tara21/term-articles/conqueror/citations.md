@@ -50,11 +50,17 @@ the epithet applied to Vajradhara or to the historical Buddha specifically.
   not only their sons, are said to rely on the goddess) turns on that commentary's
   specific wording. All 17 other v1 quotations were converted to paraphrase, grounded
   in the same claim's recorded meaning; no new claim content was introduced.
-- **Wikivoice conversion (Rule 5).** The "Mother of the Victors" and "Sons of the
-  Victors" subsections, which in v1 quoted each corroborating commentary individually,
-  are now consensus wikivoice prose citing 3 representative refs each. The benefit-verse
-  facet ("seven hundred million Victors") is likewise wikivoice in the lead, with the
-  root verse itself as the article's one root-text quotation.
+- **Wikivoice conversion (Rule 5).** The "Mother of the Victors" subsection, which in v1
+  quoted each corroborating commentary individually, is now consensus wikivoice prose
+  citing 3 representative refs. The benefit-verse facet ("seven hundred million
+  Victors") is likewise wikivoice in the lead, with the root verse itself as the
+  article's one root-text quotation. The "Sons of the Victors" subsection's quotations
+  were converted to paraphrase in this same 2026-08-20 pass, but a post-audit review
+  (2026-08-20) found its lead sentence still carried vague-plural attribution framing
+  ("འགྲེལ་པ་མང་པོས་…བཤད་དེ…བཤད་དོ") despite only 3 refs being attached — below Rule 7's
+  breadth-assertion threshold, so the framing was not sanctioned. That sentence has now
+  been rewritten as plain declarative wikivoice, with the same 3 refs
+  (`drakpa-gyaltsen`, `karma-maitri`, `gendun-gyatso`) unchanged.
 - **Attribution retained** for `konchok-thabkhe` (Vajradhara-as-Victor usage),
   `tenzin-dhonzang` (historical-Buddha usage, plus the borrowed-prayer usages),
   `tsultrim-namdak` (borrowed-prayer usage), the three distinct "five Victor-families"
@@ -79,6 +85,14 @@ the epithet applied to Vajradhara or to the historical Buddha specifically.
   commentary's `author_in_use` value in v1 (confirmed by frontmatter-only lookup of all
   fifteen raw claims files listed above, e.g. `pema-namgyal` → "ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་",
   `taranatha` → "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་"). No fallback or warning needed.
+- **`<ref>` tag content (Rule 17) — correction.** A post-audit review (2026-08-20) found
+  the `<ref name="pema-namgyal">` tag's first/full definition used the informal
+  `author_in_use` string ("ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་") instead of the formal `author`
+  field ("ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་", per `pema-namgyal.md` frontmatter), which Rule 17
+  requires inside `<ref>` content. Corrected to "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ། ཕྱག་འཚལ་ཉེར་
+  གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ།" — matching the existing bibliography entry.
+  Only the first/full `<ref>` definition was affected; the later bare reuse
+  (`<ref name="pema-namgyal" />`) needed no change.
 - **No new claim ID introduced.** Every claim ID appearing or logged in v2
   (`c-0-3`, `c-2-10`, `c-2-6`, `c-1-1-3`, `c-0-3`(konchok), `c-2-4-3`, `c-1-5`, `c-7-6`,
   `c-1-26`, `c-1-1-4-5`, `c-1-4-3`, `c-4-7`, `c-1-3-1`, `c-2-2-3-3-1`, `c-2-4`,
