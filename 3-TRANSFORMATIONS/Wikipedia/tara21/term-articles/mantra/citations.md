@@ -47,13 +47,19 @@ in-prose author naming changed.
   identity of "root mantra" with the two peaceful/wrathful name-mantras, the mantra's
   canonical origin story, and the four power/benefit themes (destroying hostile mantras,
   protective armor, healing/purification, subjugation) — is now wikivoice declarative
-  prose with the supporting refs attached, no commentator named. Inline attribution is now
-  reserved for: (a) the `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` section, which is the article's ⚑
-  divergence section (taranatha vs. tsultrim-namdak vs. gendun-drub's three incompatible
-  accounts of where the mantra/goddess relation originates — never flattened); (b) one
-  distinctive unique framing in `ཕན་ཡོན།` (drakpa-gyaltsen's classing of the mantra as one
-  of three recollection-objects, a framing no other commentary shares); and (c) the
-  `དཔེ་བརྗོད།` section, whose four illustrative anecdotes are unique to
+  prose with the supporting refs attached, no commentator named. (A first Mode B pass
+  left five backbone passages still framed as named-attribution chains — the
+  "root mantra" identity in `རྩ་བའི་སྔགས་ཞེས་པའི་བརྗོད་བྱ།`, the origin-story
+  identification in `སྔགས་ཀྱི་འབྱུང་ཁུངས།`, the armor claim and the three
+  healing/purification sentences in `ཕན་ཡོན།`, and the subjugation-power claim in
+  `དབང་སྡུད་དང་གནོད་སེལ་གྱི་ནུས་པ།` — a 2026-08-20 audit caught these and they were
+  rewritten to plain declarative wikivoice, refs unchanged, no claim ID added or removed.)
+  Inline attribution is now reserved for: (a) the `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` section, which
+  is the article's ⚑ divergence section (taranatha vs. tsultrim-namdak vs. gendun-drub's
+  three incompatible accounts of where the mantra/goddess relation originates — never
+  flattened); (b) one distinctive unique framing in `ཕན་ཡོན།` (drakpa-gyaltsen's classing of
+  the mantra as one of three recollection-objects, a framing no other commentary shares);
+  and (c) the `དཔེ་བརྗོད།` section, whose four illustrative anecdotes are unique to
   tsultrim-namdak and are attributed to him once at the section's opening rather than
   once per sentence.
 - **Quotation budget (Rule 6).** Cut from 30 verbatim quotations to 2. Both retained

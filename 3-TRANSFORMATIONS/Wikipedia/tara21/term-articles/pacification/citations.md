@@ -118,7 +118,7 @@ ref name, with its quotation status and exact source block.
 | tsultrim-namdak | (same) | c-1-13 | མཚན་ཉིད། | not quoted (paraphrased: touch of her body pacifies all conceptual thought) | `...#^0-48` |
 | tsultrim-namdak | (same) | c-8-1-10 | མཚན་ཉིད། | not quoted (paraphrased: dedication — illness, poverty, conflict pacified wherever practitioner dwells) | `...#^0-699,700,701` |
 
-**Total: 44 claim citations across 15 commentaries; 21 direct verbatim quotations; 15 named `<ref>` definitions (one per commentary), reused via self-closing `<ref name="..." />` for repeat citations.**
+**Total: 43 claim citations across 15 commentaries; 2 direct verbatim quotations (Mode B revision, 2026-08-20 — down from 21 in v1); 15 named `<ref>` definitions (one per commentary), reused via self-closing `<ref name="..." />` for repeat citations.**
 
 ## Full attestation beyond in-article refs
 

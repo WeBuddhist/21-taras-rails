@@ -134,8 +134,16 @@ tree-guided file.
   (taranatha, palden-sherab, tsultrim-namdak, drakpa-gyaltsen, sangye-nyentrul,
   sungrab-tulku, pema-namgyal, tenzin-dhonzang) carry an `author_in_use` key directly on
   their own `2-RAILS/Claims/raw/tree-guided/<id>.md` frontmatter, and the v1 article's
-  in-prose forms already matched those values verbatim — no name changes were needed, no
-  `author` fallback used.
+  in-prose forms already matched those values verbatim — no in-prose name changes were
+  needed, no `author` fallback used. **Correction (2026-08-20, post-audit):** this check
+  originally covered in-prose mentions only and wrongly implied nothing else needed
+  fixing. A follow-up audit found the `<ref name="taranatha">` and
+  `<ref name="pema-namgyal">` tag definitions had been drafted with the `author_in_use`
+  form instead of the required formal `author` field (Rule 17 requires the opposite
+  inside `<ref>` content and the bibliography). Both have been corrected in `article.md`
+  to their formal authors — `ཏཱ་ར་ནཱ་ཐ་` (taranatha) and
+  `ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་` (pema-namgyal) — now matching the bibliography, which
+  was already correct and required no change.
 - **This page's gather step was manual, not scripted** — see the note at the top of
   `2-RAILS/Claims/obstacle.md`. No deterministic packet-assembly script exists yet for
   this cross-cutting keyword topic (unlike `gdon.md`/`mara.md`, which use

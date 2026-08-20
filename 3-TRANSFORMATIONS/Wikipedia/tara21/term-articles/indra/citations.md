@@ -42,6 +42,14 @@ commentator names now use `author_in_use` (Rule 17 — already matched the v1 fo
 every commentary used here, so no wording changed); (5) punctuation brought into the
 shad/double-shad, no-comma contract (Rules 15–16).
 
+**Defect-fix pass (2026-08-20, same day).** A read-only audit of the above
+revision found two defects, both addressed in place without touching anything
+else: (1) an unflagged who-said-what chain in ཡང་སྐབས་གཉིས་པར་གསལ་བ (Rule 9) —
+see the Warnings entry "Unflagged who-said-what corrected"; (2) an unverified
+gap in this file's Rule 17 check, which had confirmed only two of the three
+in-prose-adjacent commentator names — see the added Verification entry on
+`taranatha`. Neither fix introduced, removed, or re-cited a claim ID.
+
 Scope: this article covers Indra as a recurring figure across the corpus — his
 identity, cosmological/directional role, retinue, doctrinal ("hidden meaning")
 correlation, and any unique narrative material — per `2-RAILS/Claims/indra.md`'s
@@ -155,6 +163,30 @@ None, carried forward from v1.
   bibliography (`དཔྱད་གཞིའི་ཡིག་ཆ།`) accordingly, since that list holds one
   bullet per commentary actually cited by `<ref>` in the article body.
 - **Article length** — unchanged concern from v1: no length warning applies.
+- **Unflagged who-said-what corrected (2026-08-20 post-revision audit, Rule 9).**
+  The ཡང་སྐབས་གཉིས་པར་གསལ་བ section originally opened "རྒྱལ་བ་དགེ་འདུན་གྲུབ་ཀྱིས་
+  ...བཤད་ཅིང་།" (Gendun Drub named for the Indra-and-Brahma "kings of the hosts
+  of gods" reading), immediately followed by "འགྲེལ་པ་བཅུ་གཉིས་ཀྱིས་ཀྱང་...
+  བཤད།" ("twelve commentaries also explain it likewise"), then a second named
+  commentator (Tsultrim Namdak) for an unrelated point — two named positions
+  sitting back-to-back outside the article's designated divergence section
+  (གཞུང་ལུགས་སོ་སོའི་བཤད་པ།), the exact pattern Rule 9 flags. Checked against
+  `2-RAILS/Claims/indra.md`: the gendun-drub-plus-twelve-commentaries content
+  is the "Second appearance" facet (12/13-commentary attestation, that
+  facet's own `### ⚑ Divergences` reads "None observed"); Tsultrim Namdak's
+  adjoining sentence instead draws on "Unique devotional and iconographic
+  vignettes (Tsultrim Namdak)," attested by that commentary alone and also
+  marked "None observed" for divergence. The two are not competing positions
+  on one question — one is unflagged consensus, the other a genuine unique
+  claim mis-set beside it — so per Rules 5 and 9 the consensus clause was
+  rewritten into plain wikivoice (no commentator named; still cited to
+  `<ref name="gendun-drub" />` alone, as before) while Tsultrim Namdak's
+  sentence keeps its inline attribution, which Rule 5 reserves for unique
+  claims. No claim ID, ref, or quotation changed — only the opening sentence's
+  wording, which dropped the named subject "རྒྱལ་བ་དགེ་འདུན་གྲུབ་ཀྱིས་" in
+  favour of an impersonal construction ("ལྷ་ཡི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་ཞེས་པ་ནི་
+  ...གཉིས་སུ་བཤད་ཅིང་"). The reference-map row for `gendun-drub` above is
+  unaffected by this wording change.
 
 ## Verification
 
@@ -173,6 +205,16 @@ None, carried forward from v1.
   `.../tsultrim-namdak.md` frontmatter (frontmatter-only lookup, no claim
   content reopened) — both already matched the v1 wording exactly, so no
   prose changed under this rule.
+- The 2026-08-20 audit separately flagged that this verification note had
+  checked only the two names above and missed `taranatha`. Checked now: the
+  `<ref name="taranatha">` full definition (first use, in the ངེས་ཚིག
+  section) already carries the formal `author` field (`ཏཱ་ར་ནཱ་ཐ་`) — matching
+  both the bibliography entry (`དཔྱད་གཞིའི་ཡིག་ཆ།`) and the `author:` key in
+  `2-RAILS/Claims/raw/tree-guided/taranatha.md` frontmatter — not the
+  `author_in_use` form (`ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་`). Correct as written; no change was
+  needed or made to the ref tag. The two prose-body mentions of this
+  commentator (ངེས་ཚིག, སྦས་དོན) correctly use `author_in_use`
+  ("ཇོ་ནང་ཏཱ་ར་ནཱ་ཐས་" / "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་") per Rule 17 and were left unchanged.
 - Bibliography (`དཔྱད་གཞིའི་ཡིག་ཆ།`) trimmed from 16 to 14 entries to match the
   commentaries actually cited by `<ref>` in the revised body (`karma-maitri`
   and `pema-namgyal` removed, per Warnings above).

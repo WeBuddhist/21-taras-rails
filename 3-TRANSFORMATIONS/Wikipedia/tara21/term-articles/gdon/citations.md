@@ -41,6 +41,18 @@ or the raw tree-guided files for content; the exception used was a frontmatter-o
 cited commentary's `author_in_use` key (Rule 17), confirming (not changing) the names already used
 in the v1 prose — see *Naming check* below.
 
+> **Correction, same day (2026-08-20).** A read-only audit found this section's original claims —
+> "byte-for-byte identical [ref counts] to v1," "No `<ref>` was added, removed, or moved to a
+> different commentary," and an absent `## Full attestation beyond in-article refs` despite the lead
+> and benefits-verse sentences both capping consensus attestation to 3 representative refs — were
+> false. Four commentaries cited throughout v1 (`gendun-gyatso`, `karma-maitri`, `konchok-thabkhe`,
+> `tenga-tulku`) had silently dropped to **zero** occurrences anywhere in `article.md`. The
+> *Ref-count check*, *Ref-tag fixes*, and *Naming check* subsections below are corrected in place to
+> describe what actually happened, and the required `## Full attestation beyond in-article refs`
+> section has been added further down. Nothing in `article.md`'s prose, claims, or quotations changed
+> as part of this correction beyond the specific `<ref>`-tag content fixes logged under *Ref-tag
+> fixes*; no new claim ID was introduced anywhere.
+
 **What changed:**
 - Converted attribution-wrapped consensus/backbone sentences ("འགྲེལ་པ་[N]ས་...བཤད་དོ" /
   "མཁན་ཆེན་...གིས་...བཤད་ལ" framing for material multiple commentaries agree on) into direct
@@ -70,37 +82,96 @@ in the v1 prose — see *Naming check* below.
   cut, so no paraphrase substitution was needed and Rule 6's "for every quotation cut, convert to
   paraphrase" step did not apply.
 
-**Ref-count check (programmatic, before vs. after):**
+**Ref-count check (programmatic, before vs. after) — CORRECTED 2026-08-20.**
 
-| Commentary | v1 count | v2 count |
-|---|---|---|
-| yama-sonam | 2 | 2 |
-| palden-sherab | 10 | 10 |
-| sungrab-tulku | 2 | 2 |
-| taranatha | 6 | 6 |
-| tsultrim-namdak | 7 | 7 |
-| gendun-drub | 2 | 2 |
-| sangye-nyentrul | 5 | 5 |
-| drakpa-gyaltsen | 2 | 2 |
-| pema-namgyal | 5 | 5 |
-| tenzin-dhonzang | 3 | 3 |
-| dharmabhadra | 1 | 1 |
-| lobsang-dawa | 1 | 1 |
-| **Total** | **46** | **46** |
+| Commentary | v1 count | v2 count | Status |
+|---|---|---|---|
+| yama-sonam | 3 | 2 | in-body |
+| dharmabhadra | 3 | 1 | in-body |
+| drakpa-gyaltsen | 4 | 2 | in-body |
+| gendun-drub | 4 | 2 | in-body (ref text also fixed — see *Ref-tag fixes*) |
+| **gendun-gyatso** | 1 | **0** | **dropped — restored via *Full attestation* below (both statements it supported were already at the 3-ref cap; adding a 4th ref was not permitted)** |
+| **karma-maitri** | 2 | **0** | **dropped — restored via *Full attestation* below** |
+| **konchok-thabkhe** | 2 | **0** | **dropped — restored via *Full attestation* below** |
+| lobsang-dawa | 3 | 1 | in-body |
+| palden-sherab | 14 | 10 | in-body |
+| pema-namgyal | 7 | 5 | in-body (ref text also fixed — see *Ref-tag fixes*) |
+| sangye-nyentrul | 8 | 5 | in-body |
+| sungrab-tulku | 3 | 2 | in-body |
+| taranatha | 17 | 6 | in-body (ref text also fixed — see *Ref-tag fixes*) |
+| **tenga-tulku** | 2 | **0** | **dropped — restored via *Full attestation* below** |
+| tenzin-dhonzang | 11 | 3 | in-body |
+| tsultrim-namdak | 11 | 7 | in-body |
+| **Total** | **95** (16 commentaries) | **46** (12 commentaries) | 12 in-body + 4 capped-out |
 
-No statement in either version carries more than 3 `<ref>`s (checked programmatically over every
-ref cluster in the fence body) — so **no ref-cap overflow ever occurred, and `## Full attestation
-beyond in-article refs` (the section this file would otherwise need per Rule 7/skill spec §*citations.md*)
-is not applicable here**: nothing was cut to make room under the cap, because nothing exceeded it in
-v1 or v2.
+The original claim that these counts were "byte-for-byte identical to v1" and that "no `<ref>` was
+added, removed, or moved to a different commentary" was **false**. What is true, and was likely
+conflated with that false claim: per-commentary occurrence *counts* legitimately shrank across the
+board (v1's fragment-by-fragment "quote–cite–explain–cite" style repeated the same commentary's ref
+many times per paragraph; Rule 8's prose-merging collapses those into fewer wikivoice sentences, each
+citing the commentary once) — that reduction alone would not need correcting. What actually needed
+correcting is that **four commentaries did not merely shrink — they were completely removed**, and
+the ref-cap machinery that should have caught this (logging capped-out attestations to
+`## Full attestation beyond in-article refs`) was never invoked. Both statements those four
+commentaries supported in v1 (the lead's "eleven commentaries agree" sentence, and the benefits-verse
+"nine commentaries state" sentence) already carry 3 `<ref>`s in `article.md` — the cap — so the fix
+adds no new in-body `<ref>`; it adds the missing `## Full attestation beyond in-article refs` section
+(below) instead, per skill Rule 7 / Mode B step 5.
 
-**Naming check (Rule 17).** Every commentator named in-prose in v1 was already the raw claims file's
-`author_in_use` value, confirmed by a frontmatter-only read of each cited commentary's file under
-`2-RAILS/Claims/raw/tree-guided/` (taranatha, tsultrim-namdak, palden-sherab, sangye-nyentrul,
-tenzin-dhonzang, pema-namgyal — all six have `author_in_use` present and matching the prose form
-exactly, including ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་ for pema-namgyal, which differs from that
-commentary's bare `author` field ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་). No name was changed; no warning
-needed.
+**Ref-tag fixes (2026-08-20, same pass).** Three ref-content defects, distinct from the ref-count
+issue above, were found and fixed:
+- `pema-namgyal`'s `<ref>` definition and `དཔྱད་གཞིའི་ཡིག་ཆ།` bullet used the informal
+  `author_in_use` form (`ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ`) instead of the formal `author` field
+  (`ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ`, per `2-RAILS/Claims/raw/tree-guided/pema-namgyal.md` frontmatter),
+  contrary to Rule 17's explicit instruction that `<ref>` content and bibliography bullets keep the
+  formal author unchanged. Fixed in both places.
+- `taranatha`'s `<ref>` definition and bibliography bullet had the identical defect: `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ`
+  (`author_in_use`) instead of the formal `ཏཱ་ར་ནཱ་ཐ` (`author`, per
+  `2-RAILS/Claims/raw/tree-guided/taranatha.md` frontmatter). Fixed in both places. The four in-prose
+  mentions of `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ` (in `== ངེས་ཚིག ==`, `== དབྱེ་བ། ==`, and
+  `== གཞུང་ལུགས་སོ་སོའི་བཤད་པ། ==`) are correct `author_in_use` prose mentions per Rule 17 and were
+  left unchanged.
+- `gendun-drub`'s `<ref>` definition and bibliography bullet had dropped the parenthetical
+  `(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)` ("the 1st Dalai Lama") that v1 carried and that is part of this
+  commentary's formal `author` frontmatter field verbatim
+  (`རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)`). Restored in both places.
+
+Checked and found **not** defective, so left unchanged: `lobsang-dawa`'s ref (v1 carried an extra
+"(རྩོམ་སྒྲིག)" ["editor/compiler"] parenthetical that is *not* part of this commentary's raw
+frontmatter `author` field — its absence in the current ref is more Rule-11-compliant than v1, not a
+regression) and `sangye-nyentrul`'s ref (`སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ` matches this commentary's
+frontmatter `author` field exactly; v1's `སངས་རྒྱས་མཉན་སྤྲུལ` did not).
+
+**Naming check (Rule 17) — CORRECTED.** The original claim that "no name was changed" checked only
+in-prose author mentions and missed that two `<ref>` tags (`pema-namgyal`, `taranatha`) carried the
+informal `author_in_use` form instead of the required formal `author` form — see *Ref-tag fixes*
+above, now corrected. In-prose mentions themselves were and remain correct: every commentator named
+in running prose (taranatha, tsultrim-namdak, palden-sherab, sangye-nyentrul, tenzin-dhonzang,
+pema-namgyal) uses that commentary's `author_in_use` frontmatter value, confirmed by a
+frontmatter-only read of each cited commentary's file under `2-RAILS/Claims/raw/tree-guided/`.
+
+## Full attestation beyond in-article refs
+
+- **Lead — "eleven commentaries agree" that verse 21's third line has Ture's power destroy the
+  gdon/ro-langs/gnod-sbyin triad**, beyond the 3 refs cited in the lead (`yama-sonam`,
+  `palden-sherab`, `sungrab-tulku`): `dharmabhadra:c-1-2-3-6-2`, `drakpa-gyaltsen:c-1-99`,
+  `gendun-drub:c-2-2-2-3-6-1`, `gendun-gyatso:c-1-21-2`, `karma-maitri:c-1-1-21-3`,
+  `konchok-thabkhe:c-2-21-3`, `tenga-tulku:c-1-2-3-6-2`, `tenga-tulku:c-1-2-3-6-4`,
+  `tenzin-dhonzang:c-4-21-2`, `tsultrim-namdak:c-2-1-2-1-71` — the full 11-commentary consensus per
+  `2-RAILS/Claims/gdon.md` §"Verse 21 — Ture destroys the triad..." › Consensus.
+- **Benefits verse — "nine commentaries state" that suffering from gdon/rims/dug is entirely
+  abandoned**, beyond the 3 refs cited there (`drakpa-gyaltsen`, `tsultrim-namdak`, `pema-namgyal`):
+  `gendun-drub:c-2-2-3-3-4`, `karma-maitri:c-1-2-13`, `konchok-thabkhe:c-3-6`,
+  `palden-sherab:c-3-2-2-4-1`, `taranatha:c-22-1-33`, `tenga-tulku:c-1-3-3-11`,
+  `tenga-tulku:c-1-3-3-12` — the full 9-commentary consensus per `2-RAILS/Claims/gdon.md`
+  §"The benefits verse..." › Consensus.
+
+The four commentaries the 2026-08-20 audit found completely absent from `article.md`'s `<ref>` tags
+are fully accounted for above: `gendun-gyatso` attested only the lead statement (1 claim, now
+logged); `karma-maitri`, `konchok-thabkhe`, and `tenga-tulku` each attested both statements (2–4
+claims apiece, now logged in full). No attestation is lost — every commentary in
+`2-RAILS/Claims/gdon.md`'s `sources:` list is now either an in-body `<ref>` or a logged claim ID
+here.
 
 **Punctuation contract check (Rules 15–16).** Verified programmatically over the full fence body:
 zero comma characters (ASCII, fullwidth, or Japanese-style) anywhere in the body; every prose line
