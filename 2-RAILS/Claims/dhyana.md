@@ -3,8 +3,8 @@ topic: dhyana
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -53,7 +53,7 @@ status: draft
 
 ### Consensus
 Every one of the sixteen commentaries names བསམ་གཏན (dhyāna, "concentration") as one of the six pāramitās (ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག — generosity, diligence, discipline ["austerity," དཀའ་ཐུབ], wisdom ["peace," ཞི་བ], patience, and concentration) that the root verse for this homage presents as Tārā's own domain of conduct (སྤྱོད་ཡུལ), either by quoting the root verse directly — "སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། །བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།" — or by paraphrasing/glossing the same six-item list in their own exegesis.
-— attested: `anon-trinle-char:c-3-3-3`, `anon-utpala:c-1-2-2-1-1-2-2`, `drakpa-gyaltsen:c-1-20`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-3`, `karma-maitri:c-1-1-3-6`, `konchok-thabkhe:c-2-3-3`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-0-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `sungrab-tulku:c-6-2`, `taranatha:c-3-4`, `tenga-tulku:c-1-2-2-1-1-2-2`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-3-6` (16 commentaries)
+— attested: `yama-sonam:c-3-3-3`, `dharmabhadra:c-1-2-2-1-1-2-2`, `drakpa-gyaltsen:c-1-20`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-3`, `karma-maitri:c-1-1-3-6`, `konchok-thabkhe:c-2-3-3`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-0-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `sungrab-tulku:c-6-2`, `taranatha:c-3-4`, `tenga-tulku:c-1-2-2-1-1-2-2`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-3-6` (16 commentaries)
 
 Palden Sherab additionally restates the same list, with the six pāramitās explicitly tied to "the ten powers" (དབང་བཅུ) of a bodhisattva ocean-like in conduct — `palden-sherab:c-3-1-3-1-2`.
 
@@ -121,7 +121,7 @@ Tenzin Dhonzang: "...སྦྱིན་པ་དང་། ཚུལ་ཁྲི�
 None observed between the two full ten-item attestations.
 
 ### Unique
-Anon (Trinle Char)'s etymology gloss for the same root verse discussed in the first facet names the domain of conduct "the ten pāramitās" (ཕར་ཕྱིན་བཅུ) while explicitly enumerating only the standard six items (generosity, diligence, discipline, wisdom, patience, concentration): "...བཟོད་པ་དང་། བསམ་གཏན་བཅས་ཕར་ཕྱིན་བཅུ་སྤྱོད་ཡུལ་དུ་བྱས་ནས་..." — `anon-trinle-char:c-3-3-6`. This is flagged, not resolved: the claim's own wording says "ten" while listing six items, and no other commentary corroborates a ten-item list at this particular verse (the two genuine ten-item attestations above are commenting on a different verse). The page reports this discrepancy as it stands in the source rather than silently correcting "བཅུ" to "དྲུག" or silently treating it as a corroboration of the ten-pāramitā facet.
+Anon (Trinle Char)'s etymology gloss for the same root verse discussed in the first facet names the domain of conduct "the ten pāramitās" (ཕར་ཕྱིན་བཅུ) while explicitly enumerating only the standard six items (generosity, diligence, discipline, wisdom, patience, concentration): "...བཟོད་པ་དང་། བསམ་གཏན་བཅས་ཕར་ཕྱིན་བཅུ་སྤྱོད་ཡུལ་དུ་བྱས་ནས་..." — `yama-sonam:c-3-3-6`. This is flagged, not resolved: the claim's own wording says "ten" while listing six items, and no other commentary corroborates a ten-item list at this particular verse (the two genuine ten-item attestations above are commenting on a different verse). The page reports this discrepancy as it stands in the source rather than silently correcting "བཅུ" to "དྲུག" or silently treating it as a corroboration of the ten-pāramitā facet.
 
 ---
 
@@ -174,7 +174,7 @@ Tsultrim Namdak uses the term in its generic sense of "meditative absorption" in
 
 ## Claims reviewed, not separately cited
 
-- `anon-utpala:c-1-2-2-1-1-2-6` — a second, paraphrased restatement of the same six-pāramitā list ("རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་དང་། བཟོད་པ་དང་། བསམ་གཏན་ཏེ་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག") already represented by this commentary's root-verse citation `anon-utpala:c-1-2-2-1-1-2-2` in "Position among the six pāramitās." Not cited a second time to avoid double-counting one commentary's attestation of the same facet.
+- `dharmabhadra:c-1-2-2-1-1-2-6` — a second, paraphrased restatement of the same six-pāramitā list ("རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་དང་། བཟོད་པ་དང་། བསམ་གཏན་ཏེ་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག") already represented by this commentary's root-verse citation `dharmabhadra:c-1-2-2-1-1-2-2` in "Position among the six pāramitās." Not cited a second time to avoid double-counting one commentary's attestation of the same facet.
 - `tsultrim-namdak:c-5-3-11` — the colophon, which names the hermitage "བསམ་གཏན་ལྡིང་ཁང" ("Samten Ding," lit. "concentration-perch") where the commentary was composed. A place-name built from the word, not a doctrinal usage of the term; excluded from all facets above.
 - `tenzin-dhonzang:c-4-3-5` — "her arising from the practice of the six perfections," a paraphrase of the same root verse already covered by this commentary's direct-quote citation `tenzin-dhonzang:c-4-3-2` in "Position among the six pāramitās." Not cited a second time to avoid double-counting one commentary's attestation of the same facet.
 - `tsultrim-namdak:c-2-1-2-1-12` — an earlier, general-overview restatement of the same six-pāramitā list ("...བཟོད་པ། བསམ་གཏན་ཏེ་ཕ་རོལ་ཕྱིན་པ་དྲུག...") already represented by this commentary's verse-level citation `tsultrim-namdak:c-3-6` in "Position among the six pāramitās." Not cited a second time to avoid double-counting one commentary's attestation of the same facet.
@@ -185,8 +185,8 @@ Tsultrim Namdak uses the term in its generic sense of "meditative absorption" in
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-3-3, c-3-3-6 | Position among the six pāramitās; Extended ten-pāramitā/ten-bhūmi correlation (Unique, flagged) |
-| anon-utpala | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6 | Position among the six pāramitās; second claim logged as reviewed-not-cited |
+| yama-sonam | c-3-3-3, c-3-3-6 | Position among the six pāramitās; Extended ten-pāramitā/ten-bhūmi correlation (Unique, flagged) |
+| dharmabhadra | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6 | Position among the six pāramitās; second claim logged as reviewed-not-cited |
 | drakpa-gyaltsen | c-1-20 | Position among the six pāramitās |
 | gendun-drub | c-2-2-2-2-1-1-2-4 | Position among the six pāramitās |
 | gendun-gyatso | c-1-3-3 | Position among the six pāramitās |

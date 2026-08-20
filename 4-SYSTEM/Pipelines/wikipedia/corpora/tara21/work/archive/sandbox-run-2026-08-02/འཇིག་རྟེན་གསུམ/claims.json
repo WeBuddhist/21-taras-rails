@@ -155,7 +155,7 @@
    ],
    "claim_type": "school-position",
    "school": "ཉི་མ་སྦས་པའི་ལུགས།",
-   "reception": "internal dgag pa within TARAC09_ANON, refuting the underworld/earth/celestial reading for this specific occurrence",
+   "reception": "internal dgag pa within TARAC09_JYS, refuting the underworld/earth/celestial reading for this specific occurrence",
    "contested": true,
    "copyright_only": false
   },
@@ -215,7 +215,7 @@
    ],
    "claim_type": "school-position",
    "school": "དགེ་ལུགས།",
-   "reception": "responds to the same three/seven variant TARAC09_ANON discusses, without citing it by name",
+   "reception": "responds to the same three/seven variant TARAC09_JYS discusses, without citing it by name",
    "contested": true,
    "copyright_only": false
   },
@@ -269,7 +269,7 @@
   }
  ],
  "forbidden_syntheses": [
-  "Did not merge TARAC09_ANON's 'three or the Three Realms per Chandrakirti' polysemy claim with the separate three/seven textual-variant debate -- these are two distinct issues raised by the same commentary, kept as separate claims (C9/C11 vs C13/C14).",
+  "Did not merge TARAC09_JYS's 'three or the Three Realms per Chandrakirti' polysemy claim with the separate three/seven textual-variant debate -- these are two distinct issues raised by the same commentary, kept as separate claims (C9/C11 vs C13/C14).",
   "Did not synthesize a single 'tantric hidden meaning' claim across TARAC12_PDS and TARAC05_TRN despite near-identical wording, since each source states its own reading independently; kept as C17/C19 with cross-reference only in reception, not merged into one claim attributed to both.",
   "Did not infer that DPN's 'lower migrations/human/higher rebirth' framing (C3) is a deliberate departure from the naga/human/deity framing (C2); no source states this contrast explicitly, so no claim asserts an intentional difference in doctrine."
  ],

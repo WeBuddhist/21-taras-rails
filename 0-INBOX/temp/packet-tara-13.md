@@ -12,22 +12,22 @@
 > The coverage check (claims-consolidation step 5) diffs this list against the claim IDs the finished topic page cites. Every ID in the gap must be either folded into a facet or logged in “Claims reviewed, not separately cited.”
 
 ```
-anon-trinle-char:c-3-13-1
-anon-trinle-char:c-3-13-2
-anon-trinle-char:c-3-13-3
-anon-trinle-char:c-3-13-4
-anon-trinle-char:c-3-13-5
-anon-trinle-char:c-3-13-6
-anon-trinle-char:c-3-13-7
-anon-trinle-char:c-3-13-8
-anon-trinle-char:c-3-13-9
-anon-trinle-char:c-3-13-10
-anon-trinle-char:c-3-13-11
-anon-trinle-char:c-3-13-12
-anon-utpala:c-1-2-2-1-2-6-1
-anon-utpala:c-1-2-2-1-2-6-2
-anon-utpala:c-1-2-2-1-2-6-3
-anon-utpala:c-1-2-2-1-2-6-4
+yama-sonam:c-3-13-1
+yama-sonam:c-3-13-2
+yama-sonam:c-3-13-3
+yama-sonam:c-3-13-4
+yama-sonam:c-3-13-5
+yama-sonam:c-3-13-6
+yama-sonam:c-3-13-7
+yama-sonam:c-3-13-8
+yama-sonam:c-3-13-9
+yama-sonam:c-3-13-10
+yama-sonam:c-3-13-11
+yama-sonam:c-3-13-12
+dharmabhadra:c-1-2-2-1-2-6-1
+dharmabhadra:c-1-2-2-1-2-6-2
+dharmabhadra:c-1-2-2-1-2-6-3
+dharmabhadra:c-1-2-2-1-2-6-4
 drakpa-gyaltsen:c-1-72
 drakpa-gyaltsen:c-1-73
 drakpa-gyaltsen:c-1-74
@@ -105,7 +105,7 @@ tsultrim-namdak:c-3-16
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 **Node(s):** 3.13 — ཕྱག་འཚལ་བཅུ་གསུམ་པ་རྗེ་བཙུན་མ་སྨིན་བྱེད་སྒྲོལ་མ་
 **Claims in this packet:** 12 mapped
 
@@ -197,7 +197,7 @@ tsultrim-namdak:c-3-16
 
 ---
 
-## anon-utpala
+## dharmabhadra
 **Node(s):** 1.2.2.1.2.6 — དྲུག་པ་དྲག་པོའི་བཞུགས་ཚུལ་གྱི་སྒོ་ནས་བསྟོད་པ
 **Claims in this packet:** 4 mapped
 

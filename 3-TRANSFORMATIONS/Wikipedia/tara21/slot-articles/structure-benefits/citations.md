@@ -9,7 +9,7 @@ rails_status:
   structure: draft
   benefits: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/lobsang-dawa.md
   - 2-RAILS/Claims/raw/tree-guided/tenga-tulku.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
@@ -41,10 +41,10 @@ article body, grouped by its ref name.
 
 | Ref name | Commentary (registered_id) | Claim ID | Quoted? | Quotation (verbatim བོད་ཡིག) | Source block |
 |---|---|---|---|---|---|
-| utpala | anon-utpala | c-1-1 | Yes | "དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་དོན་འཆད་པ་ལ་གསུམ། མདོར་བསྟན་པ། རྒྱས་པར་བཤད་པ། ཕན་ཡོན་བསྟན་པའོ།" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-4 |
-| utpala | anon-utpala | c-1-2-1-1 | No (paraphrased: threefold cascade of the extended explanation) | — | …#^0-7 |
-| utpala | anon-utpala | c-1-3-1…c-1-3-3 (empowerment/buddhahood, general reference) | No | — | (per structure.md/benefits.md Coverage table) |
-| lobsang-dawa | lobsang-dawa | c-1-0-1 | No (paraphrased: three-part division, near-identical to anon-utpala) | — | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-3 |
+| utpala | dharmabhadra | c-1-1 | Yes | "དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་དོན་འཆད་པ་ལ་གསུམ། མདོར་བསྟན་པ། རྒྱས་པར་བཤད་པ། ཕན་ཡོན་བསྟན་པའོ།" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-4 |
+| utpala | dharmabhadra | c-1-2-1-1 | No (paraphrased: threefold cascade of the extended explanation) | — | …#^0-7 |
+| utpala | dharmabhadra | c-1-3-1…c-1-3-3 (empowerment/buddhahood, general reference) | No | — | (per structure.md/benefits.md Coverage table) |
+| lobsang-dawa | lobsang-dawa | c-1-0-1 | No (paraphrased: three-part division, near-identical to dharmabhadra) | — | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-3 |
 | tenga-tulku | tenga-tulku | c-1-1 | No (paraphrased: three-part division of the whole praise) | — | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-2 |
 | tenga-tulku | tenga-tulku | c-1-2-3-6-7 | Yes | "ཕྱག་འཚལ་བ་ཉེར་གཅིག་ནི། དང་པོ་ལོ་རྒྱུས་ཀྱི་སྒོ་ནས་ཕྱག་འཚལ་བ་གཅིག སྐུའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་ལ་ཞི་བའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་དྲུག་དང་། ཁྲོ་བོའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་བདུན། ཆོས་སྐུའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་གཅིག ཕྲིན་ལས་ཀྱི་ཡོན་ཏན་བསྟན་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་དྲུག་སྟེ།" | …#^0-184 |
 | tenga-tulku | tenga-tulku | c-1-3-1-1…c-1-3-4-1 | No (paraphrased: four-part benefits outline) | — | (per benefits.md Structural framing) |
@@ -88,7 +88,7 @@ article body, grouped by its ref name.
 
 ## Claims used but not quoted
 
-- **Structure section**: `anon-utpala:c-1-2-1-1` (extended-explanation threefold cascade), `lobsang-dawa:c-1-0-1` (three-part division), `tenga-tulku:c-1-1` (three-part division), `gendun-gyatso:c-1-1-1`/`c-1-1-2` (two-part division, 21-count), `karma-maitri:c-1-1-1`/`c-1-1-2` (two-part division, 21-count), `palden-sherab:c-3-0-1` (two-part division nested), `drakpa-gyaltsen:c-0-4`/`c-0-5`/`c-0-13`/`c-0-14` (cascade, benefits four-part division), `gendun-drub:c-2-2-3-1-1` (benefits four-part division).
+- **Structure section**: `dharmabhadra:c-1-2-1-1` (extended-explanation threefold cascade), `lobsang-dawa:c-1-0-1` (three-part division), `tenga-tulku:c-1-1` (three-part division), `gendun-gyatso:c-1-1-1`/`c-1-1-2` (two-part division, 21-count), `karma-maitri:c-1-1-1`/`c-1-1-2` (two-part division, 21-count), `palden-sherab:c-3-0-1` (two-part division nested), `drakpa-gyaltsen:c-0-4`/`c-0-5`/`c-0-13`/`c-0-14` (cascade, benefits four-part division), `gendun-drub:c-2-2-3-1-1` (benefits four-part division).
 - **Benefits section**: `tenga-tulku:c-1-3-1-1…c-1-3-4-1` (four-part outline), `gendun-drub:c-2-2-3-2-1/2` (manner/time), `karma-maitri:c-1-2-3/4` (manner/time), `taranatha:c-22-1-18/19/40/41` (empowerment, textual criticism), `gendun-drub:c-2-2-3-3-2` and `tenga-tulku:c-1-3-3-5` and `karma-maitri:c-1-2-11` (allegorical "poison," three positions, attributed and not flattened), `gendun-drub:c-2-2-3-4-2/3` and `gendun-gyatso:c-2-6` and `konchok-thabkhe:c-3-7` ("two/three/seven," multiple positions, attributed and not flattened), `palden-sherab:c-3-2-1-2` (faith as principal cause), `taranatha:c-22-1-1` (etymology, existence noted, not quoted syllable-by-syllable), `konchok-thabkhe:c-3-6` (poison/spirits, representative), `drakpa-gyaltsen:c-2-1`, `c-2-9`, `c-2-12` (manner, poison, spirits — representative, paraphrased).
 - **Colophon section**: `konchok-thabkhe:c-2-1`/`c-2-4` (tantra name/class — mentioned only in passing; the full kriyā/anuttarayoga divergence documented on `structure.md` under "Framing" is **not** separately reproduced in the article body — see Warnings), `pema-namgyal:c-3-5` (colophon corroboration).
 
@@ -149,7 +149,7 @@ in the `1-SOURCES/` file named by its claim's `Cite:` field.
 
 | # | Commentary | Claim ID | Quotation (opening words) | Source file / block | Result |
 |---|---|---|---|---|---|
-| 1 | anon-utpala | c-1-1 | "དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག..." | …ཨུཏྤལའི་ཆུན་པོ་...md#^0-4 | PASS |
+| 1 | dharmabhadra | c-1-1 | "དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག..." | …ཨུཏྤལའི་ཆུན་པོ་...md#^0-4 | PASS |
 | 2 | drakpa-gyaltsen | c-0-3 | "བསྟོད་པ་འདི་ལ་དོན་གཉིས་ཏེ..." | …གསལ་བའི་འོད་ཟེར...md#^0-3 | PASS |
 | 3 | tenga-tulku | c-1-2-3-6-7 | "ཕྱག་འཚལ་བ་ཉེར་གཅིག་ནི། དང་པོ་ལོ་རྒྱུས..." | …མེ་ལོང...md#^0-184 | PASS |
 | 4 | drakpa-gyaltsen | c-2-2 | "སྲོད་ཁྲོ་མོའི་སྐུ་དྲན་པ..." | …གསལ་བའི་འོད་ཟེར...md#^0-88 | PASS |

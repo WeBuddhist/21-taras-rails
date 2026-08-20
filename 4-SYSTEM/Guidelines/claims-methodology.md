@@ -352,7 +352,7 @@ Recorded so they are not re-proposed from scratch:
   `Sections/Raw/toc-tree/<id>.md`). All 16 raw claims files are `status: draft` — extraction
   drafts, not yet reviewed by a domain specialist (the LLM never marks its own extraction
   complete). Total corpus: 2,975 claims (62–368 per commentary).
-- One commentary remains outside this count: `anon-rnam-snang`, excluded pending a human check
+- One commentary remains outside this count: `rnam-snang`, excluded pending a human check
   on whether it is a genuine seventeenth commentary or a second copy of the root text (see
   `Guidelines/vault-annex.md` §3's open flags).
 - Consolidation (steps 4–6 of §2): pipeline designed and **piloted** 2026-08-07 — 3 topic

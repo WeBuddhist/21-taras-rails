@@ -12,12 +12,12 @@ sources:
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/tsultrim-namdak.md
   - 2-RAILS/Claims/raw/tree-guided/sungrab-tulku.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/sangye-nyentrul.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/pema-namgyal.md
   - 2-RAILS/Claims/raw/tree-guided/palden-sherab.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
 consolidation_questions:
   - "Does any commentary offer a definitional gloss of the term 'diligence' (brtson 'grus) itself?"
   - "How does the root text's own third homage stanza present diligence, and do the commentaries converge on reading it as one of the six pāramitās constituting Tārā's own domain of practice?"
@@ -70,11 +70,11 @@ The praise's third homage stanza states that diligence, together with generosity
 
 Quoted directly, e.g. tenzin-dhonzang:c-4-3-2: "ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱིས། ། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། ། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། ། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ། །" ("Homage — she whose hand is adorned with a water-born lotus, yellow-tinged blue; she whose very sphere of practice is generosity, diligence, austerity-discipline, patience, and meditative stability.")
 
-— attested (direct quotation of the verse): `tenzin-dhonzang:c-4-3-2`, `tenga-tulku:c-1-2-2-1-1-2-2`, `tsultrim-namdak:c-2-1-2-1-10`, `tsultrim-namdak:c-3-6`, `sungrab-tulku:c-6-2`, `anon-utpala:c-1-2-2-1-1-2-2`, `anon-trinle-char:c-3-3-3`, `palden-sherab:c-3-1-3-0-2` (7 commentaries)
+— attested (direct quotation of the verse): `tenzin-dhonzang:c-4-3-2`, `tenga-tulku:c-1-2-2-1-1-2-2`, `tsultrim-namdak:c-2-1-2-1-10`, `tsultrim-namdak:c-3-6`, `sungrab-tulku:c-6-2`, `dharmabhadra:c-1-2-2-1-1-2-2`, `yama-sonam:c-3-3-3`, `palden-sherab:c-3-1-3-0-2` (7 commentaries)
 
-— attested (paraphrase/gloss naming the same six as her domain, without quoting the verse verbatim): `tsultrim-namdak:c-2-1-2-1-11`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `konchok-thabkhe:c-2-3-3`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-5`, `karma-maitri:c-1-1-3-4` (5 additional commentaries: lobsang-dawa, konchok-thabkhe, pema-namgyal, sangye-nyentrul, karma-maitri; tsultrim-namdak, anon-trinle-char, and anon-utpala already counted above)
+— attested (paraphrase/gloss naming the same six as her domain, without quoting the verse verbatim): `tsultrim-namdak:c-2-1-2-1-11`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `konchok-thabkhe:c-2-3-3`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-5`, `karma-maitri:c-1-1-3-4` (5 additional commentaries: lobsang-dawa, konchok-thabkhe, pema-namgyal, sangye-nyentrul, karma-maitri; tsultrim-namdak, yama-sonam, and dharmabhadra already counted above)
 
-**Total: 12 commentaries** (tenzin-dhonzang, tenga-tulku, tsultrim-namdak, sungrab-tulku, anon-utpala, anon-trinle-char, palden-sherab, lobsang-dawa, konchok-thabkhe, pema-namgyal, sangye-nyentrul, karma-maitri).
+**Total: 12 commentaries** (tenzin-dhonzang, tenga-tulku, tsultrim-namdak, sungrab-tulku, dharmabhadra, yama-sonam, palden-sherab, lobsang-dawa, konchok-thabkhe, pema-namgyal, sangye-nyentrul, karma-maitri).
 
 **Elaboration — causal framing (same facet, narrower attestation).** Three of the above commentaries go further and read the verse's "domain of practice" as the causal source (རྒྱུ) from which the goddess herself arose or acted, rather than merely describing her present activity:
 - tenzin-dhonzang:c-4-3-5 — "ལྷ་མོ་འདི་རྒྱུ་གང་ལས་བྱུང་ཞེས་ན...དེ་ཁོ་ན་ཉིད་ཀྱི་སྤྱོད་ཡུལ་ཅན་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་མངོན་སུམ་གྱིས་སྤྱོད་ཡུལ་དུ་བྱས་པ་ཉིད་ལས་བྱུང་བའི་སྒྲོལ་མ་ལའོ།" (she is Tara, arisen precisely from directly making the six perfections her actualized domain of practice).
@@ -209,11 +209,11 @@ None — every claim gathered for this topic (35 claim citations across 15 comme
 | `drakpa-gyaltsen` | c-1-16 | Unique (definitional gloss) |
 | `tsultrim-namdak` | c-2-1-2-1-10, c-2-1-2-1-11, c-3-6, c-9-14 | Consensus (six pāramitās/verse 3) ×3, Unique (upholding the teaching) |
 | `sungrab-tulku` | c-6-2, c-6-5 | Consensus (six pāramitās/verse 3), Consensus (laziness antidote) |
-| `anon-utpala` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 | Consensus (six pāramitās/verse 3) ×2 |
+| `dharmabhadra` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 | Consensus (six pāramitās/verse 3) ×2 |
 | `sangye-nyentrul` | c-4-0-2 | Consensus (six pāramitās/verse 3) |
 | `gendun-drub` | c-2-2-2-2-1-1-2-4 | ⚑ Divergence (ten-vs-six count) |
 | `pema-namgyal` | c-2-4-19 | Consensus (six pāramitās/verse 3) |
 | `palden-sherab` | c-3-1-1-3-3, c-3-1-3-0-2, c-3-1-3-1-2, c-3-1-3-4-2, c-3-1-4-1-4, c-3-1-14-4-3, c-3-2-1-2, c-3-2-1-4 | Consensus (six pāramitās/verse 3), Elaboration (causal framing), Unique (tantric/completion-stage) ×2, Unique (ultimate/negation definition), Consensus (ten-pāramitā list), Unique (blessing-cause) ×2 |
-| `anon-trinle-char` | c-3-3-3, c-3-3-6 | Consensus (six pāramitās/verse 3) ×2 |
+| `yama-sonam` | c-3-3-3, c-3-3-6 | Consensus (six pāramitās/verse 3) ×2 |
 
 **Commentaries silent on this topic:** `gendun-gyatso` — no claim in its raw tree-guided file (`2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md`) mentions བརྩོན་འགྲུས (searched directly; zero matches).

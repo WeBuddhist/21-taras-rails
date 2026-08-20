@@ -5,12 +5,12 @@
 ## Quotations not found in source
 
 - TARAC16_PSR_bo_segmented#^0-30: [missing] ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། ...བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡ…
-- TARAC09_ANON_bo_segmented#^0-35: [missing] ten…
+- TARAC09_JYS_bo_segmented#^0-35: [missing] ten…
 
 ## Errors
 
 - `V1` quotation not found verbatim in 'TARAC16_PSR_bo_segmented' (method=missing): ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། ...བཟ…
-- `V1` quotation not found verbatim in 'TARAC09_ANON_bo_segmented' (method=missing): ten
+- `V1` quotation not found verbatim in 'TARAC09_JYS_bo_segmented' (method=missing): ten
 - `V2` <ref> does not match any declared citation: སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲ…
 - `V2` <ref> does not match any declared citation: རྒྱལ་བ་དགེ་འདུན་གྲུབ། སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་…
 - `V2` <ref> does not match any declared citation: རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ། ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤ…
@@ -25,8 +25,8 @@
 
 - `W1` citation 'TARAC16_PSR_bo_segmented' is missing year and page
 - `W2` citation 'TARAC16_PSR_bo_segmented' has no URL, so a reader cannot check it without the physical book
-- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
-- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_JYS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_JYS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC06_NDB_bo_segmented' is missing year and page
 - `W2` citation 'TARAC06_NDB_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC02_DGT_bo_segmented' is missing year and page
@@ -79,10 +79,10 @@
 - `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC13_TDZ_bo_segmented' is missing year and page
 - `W2` citation 'TARAC13_TDZ_bo_segmented' has no URL, so a reader cannot check it without the physical book
-- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
-- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
-- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
-- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_JYS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_JYS_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_JYS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_JYS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
 - `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC05_TRN_bo_segmented' is missing year and page

@@ -3,8 +3,8 @@ topic: vetala
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -26,10 +26,10 @@ consolidation_questions:
   - "Does any commentary attribute a specific protective benefit to prostration with respect to vetāla?"
   - "Does any commentary give a tantric or completion-stage symbolic equivalence for vetāla?"
   - "drakpa-gyaltsen, gendun-drub, and tsultrim-namdak identify Maheśvara (དབང་ཕྱུག་ཆེན་པོ) as chief/ruler of the vetālas — do other commentaries corroborate, contest, or simply not address this?"
-  - "anon-utpala, lobsang-dawa, and sungrab-tulku identify vetālas as the retinue of rākṣasas (སྲིན་པོའི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the Maheśvara-headed reading?"
+  - "dharmabhadra, lobsang-dawa, and sungrab-tulku identify vetālas as the retinue of rākṣasas (སྲིན་པོའི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the Maheśvara-headed reading?"
   - "konchok-thabkhe reads the term not as an independent being-class but as the corpse-mount ridden by a rākṣasa — does any other commentary share or contradict this reading?"
   - "palden-sherab and sangye-nyentrul place the vetāla in the south-west, headed by a figure named Legden (ལེགས་ལྡན / བདེན་དང་བྲལ་བ) — do other commentaries corroborate this directional/named identification?"
-  - "anon-utpala, lobsang-dawa, palden-sherab, and tenzin-dhonzang name a specific vetāla-associated sorcery practice, རྦོད་གཏོང་ (curse-sending) — do other commentaries corroborate this specific practice, or only describe generic harm?"
+  - "dharmabhadra, lobsang-dawa, palden-sherab, and tenzin-dhonzang name a specific vetāla-associated sorcery practice, རྦོད་གཏོང་ (curse-sending) — do other commentaries corroborate this specific practice, or only describe generic harm?"
   - "pema-namgyal lists a taxonomy of six named '-ལངས' corpse-demon subtypes alongside vetāla — is this classification paralleled in any other commentary?"
   - "palden-sherab offers two different completion-stage tantric equivalences for vetāla (ཐིག་ལེ་/'drop' in two passages, ལས་/'karma' in a third) within its own commentary — is either equivalence corroborated by any other commentary?"
 date: 2026-08-12
@@ -61,10 +61,10 @@ status: draft
 6. Does any commentary attribute a specific protective benefit to prostration with respect to vetāla?
 7. Does any commentary give a tantric or completion-stage symbolic equivalence for vetāla?
 8. drakpa-gyaltsen, gendun-drub, and tsultrim-namdak identify Maheśvara (དབང་ཕྱུག་ཆེན་པོ) as chief/ruler of the vetālas — do other commentaries corroborate, contest, or simply not address this?
-9. anon-utpala, lobsang-dawa, and sungrab-tulku identify vetālas as the retinue of rākṣasas (སྲིན་པོའི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the Maheśvara-headed reading?
+9. dharmabhadra, lobsang-dawa, and sungrab-tulku identify vetālas as the retinue of rākṣasas (སྲིན་པོའི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the Maheśvara-headed reading?
 10. konchok-thabkhe reads the term not as an independent being-class but as the corpse-mount ridden by a rākṣasa — does any other commentary share or contradict this reading?
 11. palden-sherab and sangye-nyentrul place the vetāla in the south-west, headed by a figure named Legden (ལེགས་ལྡན / བདེན་དང་བྲལ་བ) — do other commentaries corroborate this directional/named identification?
-12. anon-utpala, lobsang-dawa, palden-sherab, and tenzin-dhonzang name a specific vetāla-associated sorcery practice, རྦོད་གཏོང་ (curse-sending) — do other commentaries corroborate this specific practice, or only describe generic harm?
+12. dharmabhadra, lobsang-dawa, palden-sherab, and tenzin-dhonzang name a specific vetāla-associated sorcery practice, རྦོད་གཏོང་ (curse-sending) — do other commentaries corroborate this specific practice, or only describe generic harm?
 13. pema-namgyal lists a taxonomy of six named "-ལངས" corpse-demon subtypes alongside vetāla — is this classification paralleled in any other commentary?
 14. palden-sherab offers two different completion-stage tantric equivalences for vetāla (ཐིག་ལེ་/"drop" in two passages, ལས་/"karma" in a third) within its own commentary — is either equivalence corroborated by any other commentary?
 
@@ -78,7 +78,7 @@ The verse describing Tārā's worship by the great mundane gods (Indra, Agni, Br
 འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།
 ("...praised in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas.")
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-6`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-5`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-10`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4` (11 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-6`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-5`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-10`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4` (11 commentaries)
 
 Note: `konchok-thabkhe:c-2-6-3` fills this slot with the phrase "རོ་ལངས་ཞོན་པའི་སྲིན་པོ" (a rākṣasa riding a corpse) rather than a bare "vetāla" — the same structural position in the fourfold list, but a distinct textual/etymological reading; see the Identity facet below.
 
@@ -98,7 +98,7 @@ In the verse(s) on the power that destroys harmful forces, vetāla is regularly 
 གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས། །འཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ།
 ("...she who destroys the hosts of spirits, vetālas, and yakṣas — Ture, supreme and excellent, herself.")
 
-— attested: `anon-trinle-char:c-3-21-3`, `anon-utpala:c-1-2-3-6-2`, `drakpa-gyaltsen:c-1-99`, `gendun-drub:c-2-2-2-3-6-1`, `gendun-drub:c-2-2-2-3-6-2`, `gendun-gyatso:c-1-21-2`, `karma-maitri:c-1-1-21-3`, `konchok-thabkhe:c-2-21-3`, `palden-sherab:c-3-1-21-0-2`, `palden-sherab:c-3-1-21-2-2`, `sangye-nyentrul:c-22-0-2`, `sungrab-tulku:c-24-4`, `tenzin-dhonzang:c-4-21-2`, `tsultrim-namdak:c-2-1-2-1-71`, `tsultrim-namdak:c-2-1-2-1-74`, `tsultrim-namdak:c-3-24` (12 commentaries)
+— attested: `yama-sonam:c-3-21-3`, `dharmabhadra:c-1-2-3-6-2`, `drakpa-gyaltsen:c-1-99`, `gendun-drub:c-2-2-2-3-6-1`, `gendun-drub:c-2-2-2-3-6-2`, `gendun-gyatso:c-1-21-2`, `karma-maitri:c-1-1-21-3`, `konchok-thabkhe:c-2-21-3`, `palden-sherab:c-3-1-21-0-2`, `palden-sherab:c-3-1-21-2-2`, `sangye-nyentrul:c-22-0-2`, `sungrab-tulku:c-24-4`, `tenzin-dhonzang:c-4-21-2`, `tsultrim-namdak:c-2-1-2-1-71`, `tsultrim-namdak:c-2-1-2-1-74`, `tsultrim-namdak:c-3-24` (12 commentaries)
 
 Note: `gendun-drub:c-2-2-2-3-6-1` (a structural header, "Sixth: the activity of destroying spirits and zombies") names only spirits and vetāla, not yakṣa, in that specific line; `gendun-drub:c-2-2-2-3-6-2` completes the fuller statement including yakṣa. `konchok-thabkhe:c-2-21-3` again uses "corpse-riding demons" rather than a bare "vetāla."
 
@@ -122,7 +122,7 @@ None. Every commentary that goes beyond bare textual attestation (facets above) 
 - `tsultrim-namdak:c-2-1-2-1-22`: "རོ་ལངས་ནི་དབང་ཕྱུག་ཆེན་པོ་ལ་སོགས་པ" ("the vetālas [are ruled by] Maheśvara and others").
 
 **Position 2 — vetāla as the retinue/subclass of rākṣasas (སྲིན་པོའི་འཁོར):**
-- `anon-utpala:c-1-2-2-1-1-5-5`: "སྲིན་པོའི་འཁོར་རོ་ལངས་རྣམས" ("the vetālas, retinue of the rākṣasas").
+- `dharmabhadra:c-1-2-2-1-1-5-5`: "སྲིན་པོའི་འཁོར་རོ་ལངས་རྣམས" ("the vetālas, retinue of the rākṣasas").
 - `lobsang-dawa:c-1-2-2-1-1-5-3`: "སྲིན་པོའི་འཁོར་རོ་ལངས" ("the vetālas — the retinue of the rākṣasas").
 - `sungrab-tulku:c-9-7`: "སྲིན་པོའི་འཁོར་རོ་ལངས་དང་" ("the vetālas, retinue of the rākṣasas").
 
@@ -150,7 +150,7 @@ None beyond the positions above.
 ### Consensus
 Several commentaries specify that the harm associated with vetāla, destroyed by Tārā's mantra, is not generic but a named sorcery/curse-sending ritual, རྦོད་གཏོང་ ("rbod gtong" / "curse-sending"):
 
-— attested: `anon-utpala:c-1-2-3-6-5` ("རོ་ལངས་ཀྱི་ལས་རྦོད་གཏོང་ལ་སོགས་པའི་ངན་སྔགས" — "evil mantras, such as the vetāla's curse-sending ritual"), `lobsang-dawa:c-1-2-3-6-3` ("རོ་ལངས་ཀྱི་རྦོད་གཏོང་སོགས་ངན་སྔགས" — "zombie-sorcery ... evil mantras"), `palden-sherab:c-3-1-21-1-3` ("རོ་ལངས་ཀྱི་ལས་རྦོད་གཏོང་སོགས་ངན་སྔགས" — "zombie-sorcery such as curses and hexes"), `tenzin-dhonzang:c-4-21-7` ("རོ་ལངས་ཀྱིས་ལས་སྦོད་གཏོང་བ" — "zombies ... sent to perform sorcery") (4 commentaries)
+— attested: `dharmabhadra:c-1-2-3-6-5` ("རོ་ལངས་ཀྱི་ལས་རྦོད་གཏོང་ལ་སོགས་པའི་ངན་སྔགས" — "evil mantras, such as the vetāla's curse-sending ritual"), `lobsang-dawa:c-1-2-3-6-3` ("རོ་ལངས་ཀྱི་རྦོད་གཏོང་སོགས་ངན་སྔགས" — "zombie-sorcery ... evil mantras"), `palden-sherab:c-3-1-21-1-3` ("རོ་ལངས་ཀྱི་ལས་རྦོད་གཏོང་སོགས་ངན་སྔགས" — "zombie-sorcery such as curses and hexes"), `tenzin-dhonzang:c-4-21-7` ("རོ་ལངས་ཀྱིས་ལས་སྦོད་གཏོང་བ" — "zombies ... sent to perform sorcery") (4 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -208,8 +208,8 @@ None — single-commentary claims.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-21-3, c-3-6-3, c-3-6-6 (3) | Fourfold host, Destroyed-by-mantra |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5, c-1-2-3-6-2, c-1-2-3-6-5 (4) | Fourfold host, Destroyed-by-mantra, Identity (retinue of rākṣasas), Curse-sending sorcery |
+| `yama-sonam` | c-3-21-3, c-3-6-3, c-3-6-6 (3) | Fourfold host, Destroyed-by-mantra |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5, c-1-2-3-6-2, c-1-2-3-6-5 (4) | Fourfold host, Destroyed-by-mantra, Identity (retinue of rākṣasas), Curse-sending sorcery |
 | `drakpa-gyaltsen` | c-1-41, c-1-99 (2) | Destroyed-by-mantra, Identity (headed by Maheśvara) |
 | `gendun-drub` | c-2-2-2-2-1-1-5-3, c-2-2-2-3-6-1, c-2-2-2-3-6-2 (3) | Fourfold host, Destroyed-by-mantra, Identity (headed by Maheśvara) |
 | `gendun-gyatso` | c-1-21-2, c-1-6-2 (2) | Destroyed-by-mantra, Fourfold host, Identity (charnel-ground dweller) |

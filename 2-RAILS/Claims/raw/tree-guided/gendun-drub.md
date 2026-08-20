@@ -2,9 +2,9 @@
 registered_id: gendun-drub
 title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ"
 title_in_english: "The Precious Garland: A Ṭīkā on the Twenty-One Homages to Tārā"
-author: "རྒྱལ་བ་དགེ་འདུན་གྲུབ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)"
-author_in_use: "རྒྱལ་བ་དགེ་འདུན་གྲུབ་པ།"
-author_in_english: "Gyalwa Gendun Drub (First Dalai Lama)"
+author: "རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)"
+author_in_use: "རྒྱལ་བ་དགེ་འདུན་གྲུབ་"
+author_in_english: "Gyalwa Gendun Drub (1st Dalai Lama)"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/gendun-drub.md
 tree_qc_reports: [0-INBOX/toc-tree-qc-gendun-drub.md, 0-INBOX/toc-tree-qc-source-gendun-drub.md]
@@ -18,7 +18,7 @@ status: draft
 
 # Tree-guided claims — The Precious Garland: A Ṭīkā on the Twenty-One Homages to Tārā
 
-**Commentary:** `gendun-drub` · Gyalwa Gendun Drub (First Dalai Lama)
+**Commentary:** `gendun-drub` · Gyalwa Gendun Drub (1st Dalai Lama)
 **Source:** [`སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md`](../../../1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md)
 **TOC tree:** [`gendun-drub.md`](../../Sections/Raw/toc-tree/gendun-drub.md)
 **Citation form:** Block IDs. The commentary carries no root-verse transclusion anchors — every content block falls under chapter 0 (`^0-N`) per this commentary's own `verse_id_format: verse` and the vault convention for commentaries stamped without a parallel root-text interleave. Heading block IDs (`^<decimal>-0`) are cited only where a claim's content is the heading label itself or an adjoining announcement line. Node windows are anchored to the commentary's own inserted heading block IDs (which reproduce the tree's decimal numbering exactly, e.g. `^2-2-1-0` = tree node 2.2.1), not to the tree file's `[[N]]` pointers — `0-INBOX/toc-tree-qc-source-gendun-drub.md` documents that those pointers were captured against an earlier, differently-spaced working copy and several are stale by a few lines; the heading IDs stamped into the promoted source are the more precise, source-verified anchor for the same nodes.

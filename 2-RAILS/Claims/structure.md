@@ -3,8 +3,8 @@ topic: structure
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -30,7 +30,7 @@ consolidation_questions:
   - "Do any commentaries state their own sa-bcad structure only implicitly, through the front matter of an anthology work, rather than a clean top-level announcement for this specific praise?"
   - "Does any commentary treat this praise's title as referring to a single (chief/green) Tārā rather than to twenty-one distinct Tārās, and does this affect its stated structure?"
   - "Which commentaries are silent on the praise's own overall sa-bcad division, and can a reason be derived from their content?"
-  - "Does any other commentary corroborate anon-utpala's and lobsang-dawa's near-identical five-claim cascade (history/body-forms/activity → sambhogakāya/dharmakāya → peaceful/wrathful → six/seven subcategories)?"
+  - "Does any other commentary corroborate dharmabhadra's and lobsang-dawa's near-identical five-claim cascade (history/body-forms/activity → sambhogakāya/dharmakāya → peaceful/wrathful → six/seven subcategories)?"
   - "Does any other commentary corroborate drakpa-gyaltsen's alternative ten-claim cascade organizing the same material differently (sambhogakāya-body/dharmakāya/activity, with peaceful/wrathful nested one level deeper, under a differently-enumerated activity sixfold)?"
   - "Does any other commentary corroborate tenga-tulku's category tally (1 historical + 6 peaceful + 7 wrathful + 1 dharmakāya + 6 activity = 21)?"
   - "Does any other commentary corroborate konchok-thabkhe's report of divergent classifications of this praise's tantra by three named masters (Nyima Sepa/Namgyal Zhabs as anuttarayoga, Jowo Atiśa as kriyā)?"
@@ -56,7 +56,7 @@ status: draft
 8. Do any commentaries state their own sa-bcad structure only implicitly, through the front matter of an anthology work, rather than a clean top-level announcement for this specific praise?
 9. Does any commentary treat this praise's title as referring to a single (chief/green) Tārā rather than to twenty-one distinct Tārās, and does this affect its stated structure?
 10. Which commentaries are silent on the praise's own overall sa-bcad division, and can a reason be derived from their content?
-11. Does any other commentary corroborate anon-utpala's and lobsang-dawa's near-identical five-claim cascade (history/body-forms/activity → sambhogakāya/dharmakāya → peaceful/wrathful → six/seven subcategories)?
+11. Does any other commentary corroborate dharmabhadra's and lobsang-dawa's near-identical five-claim cascade (history/body-forms/activity → sambhogakāya/dharmakāya → peaceful/wrathful → six/seven subcategories)?
 12. Does any other commentary corroborate drakpa-gyaltsen's alternative ten-claim cascade organizing the same material differently (sambhogakāya-body/dharmakāya/activity, with peaceful/wrathful nested one level deeper, under a differently-enumerated activity sixfold)?
 13. Does any other commentary corroborate tenga-tulku's category tally (1 historical + 6 peaceful + 7 wrathful + 1 dharmakāya + 6 activity = 21)?
 14. Does any other commentary corroborate konchok-thabkhe's report of divergent classifications of this praise's tantra by three named masters (Nyima Sepa/Namgyal Zhabs as anuttarayoga, Jowo Atiśa as kriyā)?
@@ -69,7 +69,7 @@ status: draft
 None as a single statement — commentaries that state a top-level division split into two incompatible part-counts (see Divergences). No commentary in the packet reconciles the two schemes explicitly.
 
 ### ⚑ Divergences
-**Position 1 — three parts (brief teaching / extended explanation / benefits):** `anon-utpala:c-1-1` ("དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་དོན་འཆད་པ་ལ་གསུམ། མདོར་བསྟན་པ། རྒྱས་པར་བཤད་པ། ཕན་ཡོན་བསྟན་པའོ" — "the exposition... has three: the brief teaching, the extended explanation, and the teaching of the benefits"), `lobsang-dawa:c-1-0-1` (near-identical: "...ལ་གསུམ། མདོར་བསྟན་པ་དང་། རྒྱས་པར་བཤད་པ། མཇུག་བསྡུ་བའོ" — same three items, third named "the conclusion" rather than "the teaching of the benefits"), `tenga-tulku:c-1-1` (same tripartite shape, "the brief teaching, the detailed explanation, and the conclusion by way of teaching the benefits"). Three commentaries.
+**Position 1 — three parts (brief teaching / extended explanation / benefits):** `dharmabhadra:c-1-1` ("དེ་ཡང་སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་དོན་འཆད་པ་ལ་གསུམ། མདོར་བསྟན་པ། རྒྱས་པར་བཤད་པ། ཕན་ཡོན་བསྟན་པའོ" — "the exposition... has three: the brief teaching, the extended explanation, and the teaching of the benefits"), `lobsang-dawa:c-1-0-1` (near-identical: "...ལ་གསུམ། མདོར་བསྟན་པ་དང་། རྒྱས་པར་བཤད་པ། མཇུག་བསྡུ་བའོ" — same three items, third named "the conclusion" rather than "the teaching of the benefits"), `tenga-tulku:c-1-1` (same tripartite shape, "the brief teaching, the detailed explanation, and the conclusion by way of teaching the benefits"). Three commentaries.
 
 **Position 2 — two parts (actual praise / benefits):** `drakpa-gyaltsen:c-0-3` ("བསྟོད་པ་འདི་ལ་དོན་གཉིས་ཏེ། བསྟོད་པ་དངོས་དང་ཕན་ཡོན་ནོ" — "this praise has two parts: the actual praise and the benefits"), `gendun-gyatso:c-1-1-1` ("འདི་ལ་གཉིས།བསྟོད་པ་དངོས་དང་། དེའི་ཕན་ཡོན་བཤདཔའོ" — "this has two: the actual praise, and explaining its benefit"), `karma-maitri:c-1-1-1` ("ཕྱག་འཚལ་ཉེར་གཅིག་ལ་བསྟོད་པ་དངོས་དང་། ཕན་ཡོན་ནོ" — "the twenty-one homages divide into the actual praise and the benefits"). Three commentaries.
 
@@ -88,13 +88,13 @@ The page observes, without any claim asserting it: Position 1's first two elemen
 None — this facet is a genuine divergence between two full, differently-organized taxonomies for the same underlying material (see Divergences). No claim in the packet reconciles them.
 
 ### ⚑ Divergences
-**Position A — anon-utpala and lobsang-dawa share a five-step cascade, near-identically worded at every step:**
-1. Extended explanation → three: history / body-forms / activity — `anon-utpala:c-1-2-1-1`, `lobsang-dawa:c-1-2-1-1` (near-identical; lobsang-dawa adds a connecting དང་ after the first item, otherwise character-identical).
-2. Body-forms → two: sambhogakāya / dharmakāya — `anon-utpala:c-1-2-2-1-1-1-1`, `lobsang-dawa:c-1-2-2-1-1-1-1` (lobsang-dawa drops the repeated "སྐུའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ" opening clause but the two-part content matches).
-3. Sambhogakāya → two: peaceful forms / wrathful forms — `anon-utpala:c-1-2-2-1-1-1-2`, `lobsang-dawa:c-1-2-2-1-1-1-2` (near-identical; anon-utpala's copy of the second item omits the genitive འི — ཁྲོ་མོའི་རྣམ་པ་སྒོ་ནས vs. lobsang-dawa's ཁྲོ་མོའི་རྣམ་པའི་སྒོ་ནས).
-4. Peaceful forms → six: radiant face/light rays; body-colour/hand-emblem/cause; reverence of victors and heirs; subduing discord; honour by great worldly gods; vanquishing enemies — `anon-utpala:c-1-2-2-1-1-1-3`, `lobsang-dawa:c-1-2-2-1-1-1-3` (closely matching six-item lists, minor lexical variants between the two).
-5. Wrathful forms → seven: purifying māras/obscurations; hand-emblems; crown-ornament and laughter; directional guardians' activity; crown-ornament (again); wrathful manner of abiding; light from HŪṂ/HAṂ — `anon-utpala:c-1-2-2-1-2-1-1`, `lobsang-dawa:c-1-2-2-1-2-1-1` (closely matching seven-item lists).
-6. Activity (of the extended explanation's third branch) → six: peaceful/wrathful mantra activity; shaking the three grounds; dispelling poisons; dispelling disputes/bad dreams; dispelling epidemic disease; destroying spirits/zombies — `anon-utpala:c-1-2-3-1-1`, `lobsang-dawa:c-1-2-3-1-1` (closely matching six-item lists).
+**Position A — dharmabhadra and lobsang-dawa share a five-step cascade, near-identically worded at every step:**
+1. Extended explanation → three: history / body-forms / activity — `dharmabhadra:c-1-2-1-1`, `lobsang-dawa:c-1-2-1-1` (near-identical; lobsang-dawa adds a connecting དང་ after the first item, otherwise character-identical).
+2. Body-forms → two: sambhogakāya / dharmakāya — `dharmabhadra:c-1-2-2-1-1-1-1`, `lobsang-dawa:c-1-2-2-1-1-1-1` (lobsang-dawa drops the repeated "སྐུའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ" opening clause but the two-part content matches).
+3. Sambhogakāya → two: peaceful forms / wrathful forms — `dharmabhadra:c-1-2-2-1-1-1-2`, `lobsang-dawa:c-1-2-2-1-1-1-2` (near-identical; dharmabhadra's copy of the second item omits the genitive འི — ཁྲོ་མོའི་རྣམ་པ་སྒོ་ནས vs. lobsang-dawa's ཁྲོ་མོའི་རྣམ་པའི་སྒོ་ནས).
+4. Peaceful forms → six: radiant face/light rays; body-colour/hand-emblem/cause; reverence of victors and heirs; subduing discord; honour by great worldly gods; vanquishing enemies — `dharmabhadra:c-1-2-2-1-1-1-3`, `lobsang-dawa:c-1-2-2-1-1-1-3` (closely matching six-item lists, minor lexical variants between the two).
+5. Wrathful forms → seven: purifying māras/obscurations; hand-emblems; crown-ornament and laughter; directional guardians' activity; crown-ornament (again); wrathful manner of abiding; light from HŪṂ/HAṂ — `dharmabhadra:c-1-2-2-1-2-1-1`, `lobsang-dawa:c-1-2-2-1-2-1-1` (closely matching seven-item lists).
+6. Activity (of the extended explanation's third branch) → six: peaceful/wrathful mantra activity; shaking the three grounds; dispelling poisons; dispelling disputes/bad dreams; dispelling epidemic disease; destroying spirits/zombies — `dharmabhadra:c-1-2-3-1-1`, `lobsang-dawa:c-1-2-3-1-1` (closely matching six-item lists).
 
 Two commentaries share this entire cascade (six claims each, twelve claims total).
 
@@ -145,7 +145,7 @@ The wording varies: `gendun-gyatso:c-1-1-2` and `karma-maitri:c-1-1-2` simply st
 
 Only `tenga-tulku` gives a full breakdown that sums to the total: `tenga-tulku:c-1-2-3-6-7` enumerates "one homage by way of the historical narrative; six homages by way of the peaceful aspect... seven homages by way of the wrathful aspect; one homage by way of the dharmakāya aspect; and six homages teaching the qualities of activity" (1 + 6 + 7 + 1 + 6 = 21), with `tenga-tulku:c-1-2-3-6-5` as its introductory transition sentence.
 
-The page notes, without any claim stating it directly: if anon-utpala's and lobsang-dawa's Position-A cascade (above) is read together — history (implicitly 1) + sambhogakāya (peaceful 6 + wrathful 7 = 13) + dharmakāya (not further subdivided in this packet, implicitly 1) + activity (6) — the arithmetic (1 + 13 + 1 + 6 = 21) matches tenga-tulku's explicit tally exactly. No claim from anon-utpala or lobsang-dawa states a dharmakāya count or a grand total in this packet; this reading-together is the page's own observation, not a claim made by either commentary (Rule 13).
+The page notes, without any claim stating it directly: if dharmabhadra's and lobsang-dawa's Position-A cascade (above) is read together — history (implicitly 1) + sambhogakāya (peaceful 6 + wrathful 7 = 13) + dharmakāya (not further subdivided in this packet, implicitly 1) + activity (6) — the arithmetic (1 + 13 + 1 + 6 = 21) matches tenga-tulku's explicit tally exactly. No claim from dharmabhadra or lobsang-dawa states a dharmakāya count or a grand total in this packet; this reading-together is the page's own observation, not a claim made by either commentary (Rule 13).
 
 ### ⚑ Divergences
 None observed — no commentary in the packet states a different total.
@@ -216,8 +216,8 @@ Not applicable — these are not competing claims about the same fact.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | none (silent) | — |
-| `anon-utpala` | c-1-1, c-1-2-1-1, c-1-2-2-1-1-1-1, c-1-2-2-1-1-1-2, c-1-2-2-1-1-1-3, c-1-2-2-1-2-1-1, c-1-2-3-1-1 (7) | Top-level division, Cascading sub-divisions |
+| `yama-sonam` | none (silent) | — |
+| `dharmabhadra` | c-1-1, c-1-2-1-1, c-1-2-2-1-1-1-1, c-1-2-2-1-1-1-2, c-1-2-2-1-1-1-3, c-1-2-2-1-2-1-1, c-1-2-3-1-1 (7) | Top-level division, Cascading sub-divisions |
 | `drakpa-gyaltsen` | c-0-3 … c-0-14 (12) | Top-level division, Cascading sub-divisions, Benefits section division |
 | `gendun-drub` | none (silent) | — |
 | `gendun-gyatso` | c-1-1-1, c-1-1-2 (2) | Top-level division, Total count |
@@ -233,4 +233,4 @@ Not applicable — these are not competing claims about the same fact.
 | `tenzin-dhonzang` | c-4-0-1 (1) | Section-opener markers |
 | `tsultrim-namdak` | c-2-1, c-2-2, c-2-1-2-1, c-2-1-2-2, c-2-1-2-3, c-2-1-2-1-1, c-2-1-2-1-75, c-3-1, c-3-2, c-3-3, c-3-25, c-3-26, c-3-27, c-8-0-1, c-8-2, c-8-3, c-8-6 (17) | Total count, Framing/tantra source (13 logged in Claims reviewed) |
 
-**Commentaries silent on this topic:** `anon-trinle-char` (no node states a sa-bcad division of the praise itself; the one node whose position would carry it has no direct claims), `gendun-drub` (structural divisions are fused inline with front matter/verse-gloss content per that commentary's own extraction style, and could not be isolated without double-covering claims already routed whole-node), `sangye-nyentrul` (no node states its own sa-bcad division of the praise as a whole), `sungrab-tulku` (front matter covers monastery history and the author's biography instead of a structural announcement), `taranatha` (the tree runs flat from homage node 1 to node 22 with no prior division stated).
+**Commentaries silent on this topic:** `yama-sonam` (no node states a sa-bcad division of the praise itself; the one node whose position would carry it has no direct claims), `gendun-drub` (structural divisions are fused inline with front matter/verse-gloss content per that commentary's own extraction style, and could not be isolated without double-covering claims already routed whole-node), `sangye-nyentrul` (no node states its own sa-bcad division of the praise as a whole), `sungrab-tulku` (front matter covers monastery history and the author's biography instead of a structural announcement), `taranatha` (the tree runs flat from homage node 1 to node 22 with no prior division stated).

@@ -3,8 +3,8 @@ topic: bhuta
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -93,7 +93,7 @@ The verse describing Tārā's worship by the great mundane gods (Indra, Agni, Br
 འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།
 ("...praised in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas.")
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-6`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-5`, `drakpa-gyaltsen:c-1-40`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-9`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `taranatha:c-6-9`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-21` (15 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-6`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-5`, `drakpa-gyaltsen:c-1-40`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-9`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `taranatha:c-6-9`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-21` (15 commentaries)
 
 `konchok-thabkhe:c-2-6-3` spells the term `འབྱུང་བོ` (see the framing note above) but occupies the identical structural position (the second group of worshippers, alongside a corpse-riding rākṣasa for vetāla, "Yama, lord of gandharvas" for gandharva, and yakṣas guarding the north) and is counted here as a genuine attestation.
 
@@ -133,7 +133,7 @@ None as a single shared statement — every commentary that goes beyond bare tex
 Positions A and B share the identical Tibetan epithet ("lord of hosts") for bhūta's chief, naming him either as Gaṇapati by ordinary gloss (Position B) or, in the same breath, as head of the bgegs-class (Position A). The page observes (this is the page's own reading, not asserted by any single claim) that Gaṇapati is conventionally treated in Tibetan tantric literature as "Lord of Obstacles" as well as "Lord of Hosts," so these may be one tradition read two ways rather than a genuine doctrinal split — but no claim in this packet states that harmonization itself, so the two remain distinct positions per Rule 4.
 
 **Position C — bhūta as retinue of, or directly equated with, "dbang ldan" (the Powerful One, i.e. Viṣṇu):**
-- `anon-utpala:c-1-2-2-1-1-5-5`: "དབང་ལྡན་གྱི་འཁོར་འབྱུང་པོ་རྣམས" ("the bhūtas, retinue of 'the powerful one'").
+- `dharmabhadra:c-1-2-2-1-1-5-5`: "དབང་ལྡན་གྱི་འཁོར་འབྱུང་པོ་རྣམས" ("the bhūtas, retinue of 'the powerful one'").
 - `lobsang-dawa:c-1-2-2-1-1-5-3`: "དབང་ལྡན་གྱི་འཁོར་འབྱུང་པོ" ("the bhūtas — retinue of Vishnu (dbang ldan)").
 - `sungrab-tulku:c-9-7`: "དབང་ལྡན་གྱི་འཁོར་འབྱུང་པོ" ("the bhūta spirits, retinue of Īśvara").
 - `konchok-thabkhe:c-2-6-3`: "འབྱུང་བོ་སྟེ་དབང་ལྡན" ("the powerful elemental spirit," i.e. bhūta equated directly with dbang ldan rather than as its retinue — a variant of the same naming).
@@ -145,7 +145,7 @@ Positions A and B share the identical Tibetan epithet ("lord of hosts") for bhū
 
 (1 commentary.) No other commentary in this packet gives this same characterization; it is not stated as contradicting Positions A–C (a preta-class being could in principle still be led by Gaṇapati or dbang ldan), but no claim states that harmonization either.
 
-**No identification given, bare listing only:** `anon-trinle-char:c-3-6-6`, `karma-maitri:c-1-1-6-9`, `tenzin-dhonzang:c-4-6-4`.
+**No identification given, bare listing only:** `yama-sonam:c-3-6-6`, `karma-maitri:c-1-1-6-9`, `tenzin-dhonzang:c-4-6-4`.
 
 ### Unique
 None beyond the positions above.
@@ -229,7 +229,7 @@ None — single-commentary claim.
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-21-4` — "classes of harmful spirits [འབྱུང་པོའི་ཚོགས]" pacified by three vajra-syllables at the goddess's crown/throat/heart, at a "three-places" verse in this commentary's own numbering: a generic use of "'byung po" as a stock term for "harmful/malevolent spirit" rather than a claim about bhūta's own distinct identity.
+- `yama-sonam:c-3-21-4` — "classes of harmful spirits [འབྱུང་པོའི་ཚོགས]" pacified by three vajra-syllables at the goddess's crown/throat/heart, at a "three-places" verse in this commentary's own numbering: a generic use of "'byung po" as a stock term for "harmful/malevolent spirit" rather than a claim about bhūta's own distinct identity.
 - `gendun-gyatso:c-1-21-2` — the ten-syllable mantra destroys harm from "spirits, evil influences, vetālas, yakṣas" (verse-21-adjacent): generic destroy-list pairing, no distinctive content on bhūta's own identity.
 - `palden-sherab:c-3-1-9-1-2` — one of the "sixteen fears" enumerated at a different verse: "འབྱུང་པོས་རྒྱུད་བརླང་པོར་སྤྱོད་པས" ("[caused] by spirits' harsh conduct"), part of the "desire-ocean-river-wave fear" simile — thin, generic, single mention.
 - `pema-namgyal:c-2-4-41` — HŪṂ from the goddess's nostrils crushing malevolent beings dwelling across seven subterranean levels: already cited in `obstacle.md`'s "The 'fourteenth' verse" facet, Divergence Position A ("generic cosmological classes"), via this same claim ID.
@@ -247,8 +247,8 @@ None — single-commentary claim.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-6-3, c-3-6-6, c-3-21-4 (3) | Textual attestation (quote + gloss); reviewed |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5 (2) | Textual attestation, Identity (Position C) |
+| `yama-sonam` | c-3-6-3, c-3-6-6, c-3-21-4 (3) | Textual attestation (quote + gloss); reviewed |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5 (2) | Textual attestation, Identity (Position C) |
 | `drakpa-gyaltsen` | c-1-40 (1) | Textual attestation, Identity (Position B) |
 | `gendun-drub` | c-2-2-2-2-1-1-5-3 (1) | Textual attestation, Identity (Position B) |
 | `gendun-gyatso` | c-1-6-2, c-1-21-2 (2) | Textual attestation, Identity (Position B); reviewed |

@@ -81,7 +81,7 @@ discounts pure formula-word frequency.
   aggregation — not yet done.
 - **Several claims files' own `claim_count` frontmatter undercounts** the claims actually
   present (gendun-drub: states 131, actual 136 — misses 5 ⚑ divergence entries; konchok-thabkhe:
-  states 132, actual 135; anon-trinle-char: states 258, actual 260; tenzin-dhonzang: states 327,
+  states 132, actual 135; yama-sonam: states 258, actual 260; tenzin-dhonzang: states 327,
   actual 328). Signal A agents used the real per-file count in every case; aggregation should
   too, not the frontmatter field.
 

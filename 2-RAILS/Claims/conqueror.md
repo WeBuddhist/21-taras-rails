@@ -3,8 +3,8 @@ topic: conqueror
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -88,9 +88,9 @@ status: draft
 ### Consensus
 Several commentaries open their exposition by identifying the praised goddess directly as "mother of the Victors" (རྒྱལ་བའི་ཡུམ / རྒྱལ་བ་ཀུན་གྱི་ཡུམ / རྒྱལ་ཡུམ), usually in the opening homage or its immediate gloss:
 
-— attested: `anon-trinle-char:c-3-4-4`, `anon-utpala:c-1-1-3`, `gendun-drub:c-0-3`, `konchok-thabkhe:c-0-3`, `pema-namgyal:c-2-4-3`, `tsultrim-namdak:c-1-5` (6 commentaries)
+— attested: `yama-sonam:c-3-4-4`, `dharmabhadra:c-1-1-3`, `gendun-drub:c-0-3`, `konchok-thabkhe:c-0-3`, `pema-namgyal:c-2-4-3`, `tsultrim-namdak:c-1-5` (6 commentaries)
 
-`anon-utpala:c-1-1-3` states simply, "རྒྱལ་བའི་ཡུམ་གྱི་མཆོག་ཏུ་གྱུར་ཅིང" — "she has become the supreme mother of the Victors." `gendun-drub:c-0-3` opens its whole commentary with the line "རྒྱལ་བའི་ཡུམ་གྱུར་བཅོམ་ལྡན་སྒྲོལ་མ" — "to Bhagavatī Tārā, who is the mother of the Victors." `konchok-thabkhe:c-0-3` names her "རྒྱལ་ཡུམ་འཕྲིན་ལས་ལྷ་མོ" — "mother of the Victors, goddess of [buddha-]activity." `anon-trinle-char:c-3-4-4` glosses the fifth homage's uṣṇīṣa imagery through the same identity: "ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས" — "because you, goddess, are the mother of all the Victors" — and gives this as the very reason she is borne as the Tathāgatas' crown-ornament. `pema-namgyal:c-2-4-3` derives her epithet "Ārya" from the same claim: "རྒྱལ་བ་ཀུན་གྱི་ཡུམ་མཆོག་ཏུ་གྱུར་པས...འཕགས་མ" — "because she is the supreme mother of all the Victors, [she is] 'Noble.'" `tsultrim-namdak:c-1-5` gives the fullest form, in verse: "དུས་གསུམ་རྒྱལ་བ་ཀུན་གྱི་ཡུམ་གྱུར་མ" — "she who is the mother of all Victors of the three times."
+`dharmabhadra:c-1-1-3` states simply, "རྒྱལ་བའི་ཡུམ་གྱི་མཆོག་ཏུ་གྱུར་ཅིང" — "she has become the supreme mother of the Victors." `gendun-drub:c-0-3` opens its whole commentary with the line "རྒྱལ་བའི་ཡུམ་གྱུར་བཅོམ་ལྡན་སྒྲོལ་མ" — "to Bhagavatī Tārā, who is the mother of the Victors." `konchok-thabkhe:c-0-3` names her "རྒྱལ་ཡུམ་འཕྲིན་ལས་ལྷ་མོ" — "mother of the Victors, goddess of [buddha-]activity." `yama-sonam:c-3-4-4` glosses the fifth homage's uṣṇīṣa imagery through the same identity: "ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས" — "because you, goddess, are the mother of all the Victors" — and gives this as the very reason she is borne as the Tathāgatas' crown-ornament. `pema-namgyal:c-2-4-3` derives her epithet "Ārya" from the same claim: "རྒྱལ་བ་ཀུན་གྱི་ཡུམ་མཆོག་ཏུ་གྱུར་པས...འཕགས་མ" — "because she is the supreme mother of all the Victors, [she is] 'Noble.'" `tsultrim-namdak:c-1-5` gives the fullest form, in verse: "དུས་གསུམ་རྒྱལ་བ་ཀུན་གྱི་ཡུམ་གྱུར་མ" — "she who is the mother of all Victors of the three times."
 
 ### ⚑ Divergences
 None observed — every claim in this facet agrees on the identity, only varying in how much surrounding elaboration it attaches.
@@ -132,7 +132,7 @@ None observed — every claim in this facet agrees on the identity, only varying
 ### Consensus
 Nearly every commentary in the packet glosses the root text's closing benefit-verse line naming "seven hundred million Victors" (རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན) as the agents who swiftly grant empowerment to the reciter, leading toward buddhahood — the single most widely and uniformly attested use of the epithet in the whole corpus:
 
-— attested: `anon-utpala:c-1-3-1`, `drakpa-gyaltsen:c-2-6`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `pema-namgyal:c-3-2`, `sungrab-tulku:c-2-10`, `tenga-tulku:c-1-3-3-2`, `tsultrim-namdak:c-8-5` (11 commentaries)
+— attested: `dharmabhadra:c-1-3-1`, `drakpa-gyaltsen:c-2-6`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `pema-namgyal:c-3-2`, `sungrab-tulku:c-2-10`, `tenga-tulku:c-1-3-3-2`, `tsultrim-namdak:c-8-5` (11 commentaries)
 
 The wording is close to identical across all eleven: `drakpa-gyaltsen:c-2-6` glosses "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས" as bestowing this "without interruption"; `sungrab-tulku:c-2-10` quotes the verse whole, "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར" — "the seventy million Victors will swiftly grant empowerment"; `gendun-drub:c-2-2-3-3-1` and `pema-namgyal:c-3-2` both extend the same line into the full benefit sequence — common attainments in this very life, and the supreme attainment of buddhahood itself. `konchok-thabkhe:c-3-5` and `tsultrim-namdak:c-8-5` each embed the same line within a longer quoted benefits-passage (pacification of sin, destruction of lower rebirths, poison and epidemic cured, wish-fulfillment on repeated recitation) without altering the "seven hundred million Victors" formula itself.
 
@@ -153,7 +153,7 @@ None — every claim in this facet is a single commentary's own use of the phras
 None observed.
 
 ### Unique
-`anon-trinle-char:c-3-10-4` uses the phrase iconographically, describing the sixth homage's crown-ornament: "དབུ་ལ་རྒྱལ་བ་རིགས་ལྔའམ་དེའི་མཚོན་དོན་དུ་རིན་པོ་ཆེའི་དབུ་རྒྱན" — "on her head [she wears] the five Victor-families, or symbolically a jewelled crown."
+`yama-sonam:c-3-10-4` uses the phrase iconographically, describing the sixth homage's crown-ornament: "དབུ་ལ་རྒྱལ་བ་རིགས་ལྔའམ་དེའི་མཚོན་དོན་དུ་རིན་པོ་ཆེའི་དབུ་རྒྱན" — "on her head [she wears] the five Victor-families, or symbolically a jewelled crown."
 
 `palden-sherab:c-3-1-6-4-2` uses the phrase in a completion-stage-without-marks doctrinal passage, mapping the five aggregates onto the five Victor-families within a self-arisen maṇḍala: "ཕུང་པོ་ལྔ་རྒྱལ་བ་རིགས་ལྔ" — "the five aggregates are the five Victor-families" — as part of purifying all ordinary grasping into the expanse.
 
@@ -201,11 +201,11 @@ Read together, these three quotations (per Q9) show that when this corpus's comm
 
 Per the gather instructions, the following pattern is recorded explicitly rather than silently included in or excluded from the facets above. རྒྱལ་བ / རྣམ་པར་རྒྱལ་བ appears very frequently in this corpus as a **verb** ("to be victorious, to triumph") describing the praised goddess's *own* conduct, or as an element of her *own* name-epithets — a different grammatical and semantic function from the substantive noun "the Conqueror(s)" applied to buddhas that this page treats. Representative instances, kept out of the facets above:
 
-- `anon-trinle-char:c-3-4-5` — etymology of "མཐའ་ཡས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་མ" ("She Who Acts Victorious over the Limitless") as the goddess overturning obscurations herself — a verbal quality of hers, not a noun naming a buddha.
-- `anon-trinle-char:c-3-6-1`–`anon-trinle-char:c-3-6-4` — the sixth homage's own section title, "རྗེ་བཙུན་མ་འཇིག་རྟེན་གསུམ་ལས་རྣམ་པར་རྒྱལ་བ" ("the Venerable Lady Victorious over the Three Worlds"), naming the goddess herself, verbally, not a buddha.
+- `yama-sonam:c-3-4-5` — etymology of "མཐའ་ཡས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་མ" ("She Who Acts Victorious over the Limitless") as the goddess overturning obscurations herself — a verbal quality of hers, not a noun naming a buddha.
+- `yama-sonam:c-3-6-1`–`yama-sonam:c-3-6-4` — the sixth homage's own section title, "རྗེ་བཙུན་མ་འཇིག་རྟེན་གསུམ་ལས་རྣམ་པར་རྒྱལ་བ" ("the Venerable Lady Victorious over the Three Worlds"), naming the goddess herself, verbally, not a buddha.
 - `sungrab-tulku:c-7-6`'s closing clause and `pema-namgyal:c-2-4-20`'s closing clause (both cited above under other facets for their genuine substantive-epithet content) each end by shading into this same verbal sense — "རྣམ་པར་རྒྱལ་བའི་ཚུལ་དུ་སྤྱོད་ཅིང་བཞུགས་མ" / "རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ" — flagged here as the ambiguous edge of those two claims rather than silently resolved either way.
 
-Also excluded, as clearly different words or referents rather than ambiguous senses of the same one: the goddess-name element རྣམ་(པར་)རྒྱལ་མ (Vijayā, e.g. Uṣṇīṣavijayā, a distinct deity named in `anon-trinle-char:c-3-4-4` and `tsultrim-namdak:c-3-7`'s own iconographic labels); the anthology title རྣམ་པར་རྒྱལ་བའི་བ་དན ("Banner of Victory," the name of a different text within `tsultrim-namdak`'s source volume, not a claim about this praise); the compound རྒྱལ་བློན ("king and ministers," an unrelated word that only shares the substring རྒྱལ་བ); and the several commentators' own personal names built on the same root (e.g. རྒྱལ་བ་དགེ་འདུན་གྲུབ, "Gyalwa Gendun Drub" — the honorific "Gyalwa" in an author's name, not a textual claim).
+Also excluded, as clearly different words or referents rather than ambiguous senses of the same one: the goddess-name element རྣམ་(པར་)རྒྱལ་མ (Vijayā, e.g. Uṣṇīṣavijayā, a distinct deity named in `yama-sonam:c-3-4-4` and `tsultrim-namdak:c-3-7`'s own iconographic labels); the anthology title རྣམ་པར་རྒྱལ་བའི་བ་དན ("Banner of Victory," the name of a different text within `tsultrim-namdak`'s source volume, not a claim about this praise); the compound རྒྱལ་བློན ("king and ministers," an unrelated word that only shares the substring རྒྱལ་བ); and the several commentators' own personal names built on the same root (e.g. རྒྱལ་བ་དགེ་འདུན་གྲུབ, "Gyalwa Gendun Drub" — the honorific "Gyalwa" in an author's name, not a textual claim).
 
 ---
 
@@ -221,8 +221,8 @@ Also excluded, as clearly different words or referents rather than ambiguous sen
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-4-4, c-3-4-5, c-3-6-1, c-3-10-4 | Mother of the Victors; Excluded as a different sense; Five Victor-families |
-| `anon-utpala` | c-1-1-3, c-1-3-1 | Mother of the Victors; Seven hundred million Victors |
+| `yama-sonam` | c-3-4-4, c-3-4-5, c-3-6-1, c-3-10-4 | Mother of the Victors; Excluded as a different sense; Five Victor-families |
+| `dharmabhadra` | c-1-1-3, c-1-3-1 | Mother of the Victors; Seven hundred million Victors |
 | `drakpa-gyaltsen` | c-1-26, c-2-6 | Sons/heirs of the Victors (Unique); Seven hundred million Victors |
 | `gendun-drub` | c-0-3, c-2-2-2-2-1-1-3-1, c-2-2-3-3-1 | Mother of the Victors; Sons/heirs of the Victors (Divergences); Seven hundred million Victors |
 | `gendun-gyatso` | c-1-4-3, c-2-4 | Sons/heirs of the Victors (Statement A); Seven hundred million Victors |

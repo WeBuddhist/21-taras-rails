@@ -6,7 +6,7 @@ context_packages:
   - 2-RAILS/Claims/mudra.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
   - 2-RAILS/Claims/raw/tree-guided/konchok-thabkhe.md
@@ -44,19 +44,19 @@ drawn on), even where several rows share the same ref name.
 | Ref | Commentary | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
 | sungrab-tulku | sungrab-tulku | c-12-2 | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ།། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་བརྒྱན་པའི། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ།། ཞེས་པ་སྟེ།" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-62 |
-| anon-trinle-char | anon-trinle-char | c-3-9-3 | — (lead: paraphrased, "verse 9 quoted from the tantra") | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
-| anon-trinle-char | anon-trinle-char | c-3-9-5 | "ཕྱག་གཡོན་པའི་མཐེབ་སྲིན་གཉིས་ཀྱིས་པདྨ་མའི་ཡུ་བ་ནས་བཟུང་ཤིང་། མཛུབ་མོ་གུང་མོ་མཐེའུ་ཆུང་གསུམ་གནམ་དུ་བསྒྲེང་བའི་ཕྱག་རྒྱ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ་སྟེ།" | #^0-90 |
+| yama-sonam | yama-sonam | c-3-9-3 | — (lead: paraphrased, "verse 9 quoted from the tantra") | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
+| yama-sonam | yama-sonam | c-3-9-5 | "ཕྱག་གཡོན་པའི་མཐེབ་སྲིན་གཉིས་ཀྱིས་པདྨ་མའི་ཡུ་བ་ནས་བཟུང་ཤིང་། མཛུབ་མོ་གུང་མོ་མཐེའུ་ཆུང་གསུམ་གནམ་དུ་བསྒྲེང་བའི་ཕྱག་རྒྱ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ་སྟེ།" | #^0-90 |
 | drakpa-gyaltsen | drakpa-gyaltsen | c-1-56 | "སོར་མོ་གསུམ་བརྐྱངས་པ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་བརྡའོ།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-45 |
 | sungrab-tulku | sungrab-tulku | c-12-4 | — (paraphrased: the thumb-and-middle-finger variant of the hand-configuration, added in the 2026-08-15 fix pass so the article no longer flattens it into the fourteen-way consensus) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-63 |
 | karma-maitri | karma-maitri | c-1-1-9-2 | "ཕྱག་གཡོན་མཛུབ་གུང་མཐེའུ་ཆུང་གསུམ་དཀོན་མཆོག་གསུམ་མཚོན་པའི" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22 |
 | sungrab-tulku | sungrab-tulku | c-12-5 | "མཆོག་སྦྱིན་གྱི་ཕྱག་རྒྱ་མཛད་པའི་ཕྱག་ལག་དཀྱིལ་མ་ལ་འཁོར་ལོ་རྩིབས་སྟོང་གི་རི་མོས་རབ་ཏུ་མཛེས་པའི་འོད་ཟེར་གྱིས་སེམས་ཅན་ལ་གནོད་པའི་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག་སོགས་སེལ་བར་མཛད" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-64 |
-| anon-trinle-char | anon-trinle-char | c-3-9-6 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱས་ནི། རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | #^0-91 |
+| yama-sonam | yama-sonam | c-3-9-6 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱས་ནི། རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | #^0-91 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-9-5 | "ཕྱག་རྒྱ་མཛད་པའི་སོར་མོ་གསུམ་གྱིས་རང་གི་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་པའི་སྒྲོལ་མ་ནི། དུས་གསུམ་གྱི་སངས་རྒྱས་ཐམས་ཅད་འདུས་པའི་བདག་ཉིད་ཡིན་པར་མཚོན་པ་སྟེ།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-181 |
 | konchok-thabkhe | konchok-thabkhe | c-2-9-4 | "ཕྱག་རྒྱའི་རང་ཉིད་དཀོན་མཆོག་མ་ལུས་པ་འདུས་པའི་ངོ་བོར་སྟོན་པས" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-54 |
 | taranatha | taranatha | c-9-3 | "དཀོན་མཆོག་གསུམ་མཚོན་པར་བྱེད་པ་ཨུཏྤ་ལའི་ཕྱག་རྒྱ་ནི་སྒྲོལ་མའི་དམ་ཚིག་གི་ཕྱག་རྒྱ་སྟེ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-31 |
 | taranatha | taranatha | c-9-4 | "སྙིམས་པ་ཁ་སྦྱར་གྱི་གུང་མོ་སྦྱར་ཞིང་མཛུབ་མོས་བརྟེན་ནས་མཐེ་བོང་གཤིབས་ཏེ་རྩེ་བར་བཀོད་པ་ཐུགས་ཀར་གཏོང་པས་རྣམ་པར་བརྒྱན་པ" | #^0-31 |
 | taranatha | taranatha | c-9-6 | "རིག་སྔགས་ཀྱི་ལྷས་བྱིན་གིས་བརླབ་པའི་དོན་སྔོན་བྱུང་ལ་བཅོམ་ལྡན་འདས་མ་ཉིད་ཕྱག་རྒྱ་དེ་ལྟ་བུ་འཆིང་བའི་སྐུའི་རྣམ་འགྱུར་" | #^0-31 |
-| anon-trinle-char | anon-trinle-char | c-3-9-8 | "སྐབས་འདིའི་འོད་ཟེར་ནི། འགྲེལ་པ་འགའ་ཞིག་ལས། ཕྱག་གཡས་པའི་མཐིལ་གྱི་འཁོར་ལོའི་འོད་ཟེར་ཡིན་པར་གསུངས་པ་དང་། གཞན་དག་སྐུའི་འོད་ཟེར་ཡིན་པར་གསུངས་པས་བཞེད་པ་མི་འདྲ་ཡང་།" | #^0-93 |
+| yama-sonam | yama-sonam | c-3-9-8 | "སྐབས་འདིའི་འོད་ཟེར་ནི། འགྲེལ་པ་འགའ་ཞིག་ལས། ཕྱག་གཡས་པའི་མཐིལ་གྱི་འཁོར་ལོའི་འོད་ཟེར་ཡིན་པར་གསུངས་པ་དང་། གཞན་དག་སྐུའི་འོད་ཟེར་ཡིན་པར་གསུངས་པས་བཞེད་པ་མི་འདྲ་ཡང་།" | #^0-93 |
 | taranatha | taranatha | c-9-9 | "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" | #^0-33 |
 | palden-sherab | palden-sherab | c-3-1-9-3-1 | "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ། སོར་མོ་ནི་དེ་གསུམ་གཅིག་ཏུ་འདུས་པའི་ཕྱག་རྒྱ།" | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཉི་ཟླའི་འཛུམ་རླབས།.md#^0-102 |
 | taranatha | taranatha | c-19-6 | "ལྷ་མོ་ཁྱོད་ཀྱིས་བྱིན་གིས་བརླབས་པའི་སྔགས་དང་ཕྱག་རྒྱའི་གོ་ཆ་དགའ་བ་དང་བདེ་བའི་རྒྱུ་དེ་ཀུན་ནས་བཅིངས་པའི་སྒྲུབ་པ་པོས" | #^0-66 |
@@ -67,7 +67,7 @@ drawn on), even where several rows share the same ref name.
 
 ## Claims used but not quoted
 
-`anon-trinle-char:c-3-9-3` (root-verse-quoted framing, paraphrased in the lead's second
+`yama-sonam:c-3-9-3` (root-verse-quoted framing, paraphrased in the lead's second
 sentence), `tsultrim-namdak:c-2-1-2-1-66` (mantra-and-mudrā armor benefit, paraphrased),
 `palden-sherab:c-3-1-1-2-3` and `tsultrim-namdak:c-3-4` (representative instances of the
 recurring iconographic-template pattern, described in prose under དབྱེ་བ། rather than
@@ -76,12 +76,12 @@ near-identical instances already summarized on `2-RAILS/Claims/mudra.md`).
 
 ## Claims resolved but not incorporated
 
-The consolidated page cites material from `anon-utpala`, `gendun-drub`, `gendun-gyatso`,
+The consolidated page cites material from `dharmabhadra`, `gendun-drub`, `gendun-gyatso`,
 `lobsang-dawa`, `pema-namgyal`, `sangye-nyentrul`, and `tenga-tulku` under "Homage 9's
 mudrā (Three Jewels)" and "Hand-configuration." All were resolved against their raw
 files during drafting but not drawn into the final prose, because each restates the same
 thumb-and-ring-finger/three-raised-fingers configuration already established by the three
-representative witnesses quoted (anon-trinle-char, drakpa-gyaltsen, karma-maitri) without
+representative witnesses quoted (yama-sonam, drakpa-gyaltsen, karma-maitri) without
 adding a materially new detail — including them would have made the དབྱེ་བ / ངེས་ཚིག
 sections a long list of near-duplicate quotations rather than a due-weight backbone (Rule
 5 of the wiki-article-from-claims skill). Their attestation counts remain visible on
@@ -113,7 +113,7 @@ tree-guided file.
   spec's hand-formatted ref form, every `<ref>` in this article carries only author and
   title — no URL, no year, no page number, because none of these raw claims files'
   frontmatter carries a `year` or `page` field. This applies uniformly to all nine refs.
-- **One source file's title is anonymous.** `anon-trinle-char`'s commentary has no known
+- **One source file's title is anonymous.** `yama-sonam`'s commentary has no known
   author; its bibliography entry and first `<ref>` definition record this openly
   ("(མཚན་བྱང་མེད། ཡིག་ཆའི་ཁུངས་ཙམ་ལས་ངོས་འཛིན་ཐུབ།)") rather than inventing an author.
 - **Seven commentaries with resolvable attestations were not drafted in** — see "Claims
@@ -137,17 +137,17 @@ raw UTF-8 file contents (not a visual check).
 | # | Quotation | Claim | Result |
 |---|---|---|---|
 | 1 | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ།། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་བརྒྱན་པའི། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ།། ཞེས་པ་སྟེ།" | sungrab-tulku:c-12-2 | PASS |
-| 2 | "ཕྱག་གཡོན་པའི་མཐེབ་སྲིན་གཉིས་ཀྱིས་པདྨ་མའི་ཡུ་བ་ནས་བཟུང་ཤིང་། མཛུབ་མོ་གུང་མོ་མཐེའུ་ཆུང་གསུམ་གནམ་དུ་བསྒྲེང་བའི་ཕྱག་རྒྱ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ་སྟེ།" | anon-trinle-char:c-3-9-5 | PASS |
+| 2 | "ཕྱག་གཡོན་པའི་མཐེབ་སྲིན་གཉིས་ཀྱིས་པདྨ་མའི་ཡུ་བ་ནས་བཟུང་ཤིང་། མཛུབ་མོ་གུང་མོ་མཐེའུ་ཆུང་གསུམ་གནམ་དུ་བསྒྲེང་བའི་ཕྱག་རྒྱ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ་སྟེ།" | yama-sonam:c-3-9-5 | PASS |
 | 3 | "སོར་མོ་གསུམ་བརྐྱངས་པ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་པའི་བརྡའོ།" | drakpa-gyaltsen:c-1-56 | PASS |
 | 4 | "ཕྱག་གཡོན་མཛུབ་གུང་མཐེའུ་ཆུང་གསུམ་དཀོན་མཆོག་གསུམ་མཚོན་པའི" | karma-maitri:c-1-1-9-2 | PASS |
 | 5 | "མཆོག་སྦྱིན་གྱི་ཕྱག་རྒྱ་མཛད་པའི་ཕྱག་ལག་དཀྱིལ་མ་ལ་འཁོར་ལོ་རྩིབས་སྟོང་གི་རི་མོས་རབ་ཏུ་མཛེས་པའི་འོད་ཟེར་གྱིས་སེམས་ཅན་ལ་གནོད་པའི་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག་སོགས་སེལ་བར་མཛད" | sungrab-tulku:c-12-5 | PASS |
-| 6 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱས་ནི། རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | anon-trinle-char:c-3-9-6 | PASS |
+| 6 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱས་ནི། རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | yama-sonam:c-3-9-6 | PASS |
 | 7 | "ཕྱག་རྒྱ་མཛད་པའི་སོར་མོ་གསུམ་གྱིས་རང་གི་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་པའི་སྒྲོལ་མ་ནི། དུས་གསུམ་གྱི་སངས་རྒྱས་ཐམས་ཅད་འདུས་པའི་བདག་ཉིད་ཡིན་པར་མཚོན་པ་སྟེ།" | tenzin-dhonzang:c-4-9-5 | PASS |
 | 8 | "ཕྱག་རྒྱའི་རང་ཉིད་དཀོན་མཆོག་མ་ལུས་པ་འདུས་པའི་ངོ་བོར་སྟོན་པས" | konchok-thabkhe:c-2-9-4 | PASS |
 | 9 | "དཀོན་མཆོག་གསུམ་མཚོན་པར་བྱེད་པ་ཨུཏྤ་ལའི་ཕྱག་རྒྱ་ནི་སྒྲོལ་མའི་དམ་ཚིག་གི་ཕྱག་རྒྱ་སྟེ།" | taranatha:c-9-3 | PASS |
 | 10 | "སྙིམས་པ་ཁ་སྦྱར་གྱི་གུང་མོ་སྦྱར་ཞིང་མཛུབ་མོས་བརྟེན་ནས་མཐེ་བོང་གཤིབས་ཏེ་རྩེ་བར་བཀོད་པ་ཐུགས་ཀར་གཏོང་པས་རྣམ་པར་བརྒྱན་པ" | taranatha:c-9-4 | PASS |
 | 11 | "རིག་སྔགས་ཀྱི་ལྷས་བྱིན་གིས་བརླབ་པའི་དོན་སྔོན་བྱུང་ལ་བཅོམ་ལྡན་འདས་མ་ཉིད་ཕྱག་རྒྱ་དེ་ལྟ་བུ་འཆིང་བའི་སྐུའི་རྣམ་འགྱུར་" | taranatha:c-9-6 | PASS |
-| 12 | "སྐབས་འདིའི་འོད་ཟེར་ནི། འགྲེལ་པ་འགའ་ཞིག་ལས། ཕྱག་གཡས་པའི་མཐིལ་གྱི་འཁོར་ལོའི་འོད་ཟེར་ཡིན་པར་གསུངས་པ་དང་། གཞན་དག་སྐུའི་འོད་ཟེར་ཡིན་པར་གསུངས་པས་བཞེད་པ་མི་འདྲ་ཡང་།" | anon-trinle-char:c-3-9-8 | PASS |
+| 12 | "སྐབས་འདིའི་འོད་ཟེར་ནི། འགྲེལ་པ་འགའ་ཞིག་ལས། ཕྱག་གཡས་པའི་མཐིལ་གྱི་འཁོར་ལོའི་འོད་ཟེར་ཡིན་པར་གསུངས་པ་དང་། གཞན་དག་སྐུའི་འོད་ཟེར་ཡིན་པར་གསུངས་པས་བཞེད་པ་མི་འདྲ་ཡང་།" | yama-sonam:c-3-9-8 | PASS |
 | 13 | "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" | taranatha:c-9-9 | PASS |
 | 14 | "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ། སོར་མོ་ནི་དེ་གསུམ་གཅིག་ཏུ་འདུས་པའི་ཕྱག་རྒྱ།" | palden-sherab:c-3-1-9-3-1 | PASS |
 | 15 | "ལྷ་མོ་ཁྱོད་ཀྱིས་བྱིན་གིས་བརླབས་པའི་སྔགས་དང་ཕྱག་རྒྱའི་གོ་ཆ་དགའ་བ་དང་བདེ་བའི་རྒྱུ་དེ་ཀུན་ནས་བཅིངས་པའི་སྒྲུབ་པ་པོས" | taranatha:c-19-6 | PASS |

@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/vindhya.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
@@ -44,8 +44,8 @@ self-closing `<ref name="X" />`. The table lists one row per claim actually draw
 
 | Ref | Commentary | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-trinle-char | anon-trinle-char | c-3-17-3 | "རི་རབ་མནྡྷར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-214 |
-| anon-utpala | anon-utpala | c-1-2-3-2-5 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན...གཡོ་བར་མཛད་པ་ཡིན་པས" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78 |
+| yama-sonam | yama-sonam | c-3-17-3 | "རི་རབ་མནྡྷར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-214 |
+| dharmabhadra | dharmabhadra | c-1-2-3-2-5 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན...གཡོ་བར་མཛད་པ་ཡིན་པས" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78 |
 | palden-sherab | palden-sherab | c-3-1-17-0-2 | — (lead: paraphrased) | 1-SOURCES/.../ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-169 |
 | gendun-drub | gendun-drub | c-2-2-2-3-2-3 | "རི་རབ་མནྡྷ་ར་དང་འབིགས་བྱེད་ལ་སོགས་པ། འཇིག རྟེན་གསུམ་པོ་རྣམས་གཡོ་ནུས་པ་ཉིད་དོ།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-90 |
 | konchok-thabkhe | konchok-thabkhe | c-2-17-2 | "རི་རབ་དང་། རི་བོ་མནྡྷ་ར་དང་འབིགས་བྱེད་ལ་སོགས་པའི་རིའི་ཚོགས་རྣམས་སྤྲོས་ཏེ...གནོན་པར་མཛད་མའོ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84 |
@@ -54,7 +54,7 @@ self-closing `<ref name="X" />`. The table lists one row per claim actually draw
 | tenzin-dhonzang | tenzin-dhonzang | c-4-17-4 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྡཱ་ར་དང་། རི་བོ་འབིགས་བྱེད་ལ་སོགས་ས་འོག་ཀླུའི་འཇིག་རྟེན་དང་...གསུམ་དང་" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-248 |
 | pema-namgyal | pema-namgyal | c-2-4-47 | "རི་ཡི་རྒྱལ་པོ་དབུས་ཀྱི་རི་རབ་དང་ལྷ་དང་དྲང་སྲོང་ཆེན་པོ་རྣམས...རི་བོ་འབིགས་བྱེད།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-61 |
 | sangye-nyentrul | sangye-nyentrul | c-18-0-2 | — (paraphrased) | 1-SOURCES/.../བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-76 |
-| anon-trinle-char | anon-trinle-char | c-3-17-8 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས...གསུངས་པ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-219 |
+| yama-sonam | yama-sonam | c-3-17-8 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས...གསུངས་པ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-219 |
 | karma-maitri | karma-maitri | c-1-1-17-5 | "དེས་སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་གནས་རི་རབ་མནྡ་ར་ཞེས་པ་དང་རི་རབ་འབིག་བྱེད་ལ་སོགས་པ་སྟེ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-39 |
 | sangye-nyentrul | sangye-nyentrul | c-18-1-3 | "ཞབས་མཐིལ་ས་ལ་བརྡབས་པས་རི་རབ་དང་། མནྡཱ་ར། འབིབས་བྱེད། ཁམས་གསུམ...དམིགས་རིམ་ཡིན།" | #^0-77 |
 | tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-59 | "ཐུགས་ཀའི་ཧཱུཾ་ལས་འོད་ཟེར་ཧཱུཾ་གི་རྣམ་པ་ཅན་ འཕྲོས་པས...གངས་ཅན་སོགས།" | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-135 |
@@ -76,11 +76,11 @@ still carry their own `<ref>`.
 Resolved against their raw files but not drafted into the final prose, all as duplicates of
 material already represented by another quoted or paraphrased claim in the same facet:
 
-- `anon-trinle-char:c-3-17-4` — a second, longer paraphrase of the same foot-stamping/
+- `yama-sonam:c-3-17-4` — a second, longer paraphrase of the same foot-stamping/
   shaking reason already covered by `c-3-17-3` (lead) and `c-3-17-8` (Naming). Resolves to
   #^0-215.
-- `anon-utpala:c-1-2-3-2-2` — root-verse requotation, redundant with the lead's root-verse
-  quotation from `anon-trinle-char:c-3-17-3`. Resolves to #^0-76.
+- `dharmabhadra:c-1-2-3-2-2` — root-verse requotation, redundant with the lead's root-verse
+  quotation from `yama-sonam:c-3-17-3`. Resolves to #^0-76.
 - `sungrab-tulku:c-20-2` — root-verse requotation, same redundancy. Resolves to #^0-94.
 - `tenga-tulku:c-1-2-3-2-2` — root-verse requotation, same redundancy. Resolves to #^0-145.
 - `tenzin-dhonzang:c-4-17-2` — root-verse requotation, same redundancy. Resolves to #^0-246.
@@ -112,11 +112,11 @@ against its raw tree-guided file.
   `status` to `complete` before this article is treated as final.
 - **No public URLs for any of the fifteen commentaries.** Per the wikitext spec's
   hand-formatted ref form, every `<ref>` here carries only author and title (or title alone
-  for `anon-trinle-char`, whose author is recorded as unknown in its own raw file's
+  for `yama-sonam`, whose author is recorded as unknown in its own raw file's
   frontmatter) — no URL, no year, no page, because none is recorded anywhere upstream.
-- **`anon-trinle-char`'s author is unattested.** Its raw claims file's own frontmatter
-  records `author: "unknown"`; the bibliography entry therefore carries a bracketed Tibetan
-  note ("མཛད་པ་པོ་མ་གསལ།" — "author not identified") rather than an invented name.
+- **`yama-sonam`'s author is རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ (identified 2026-08-19).** Its raw claims file's own frontmatter
+  records `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`; the bibliography entry therefore carries a bracketed Tibetan
+  note ("རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" — "author not identified") rather than an invented name.
 - **Cross-reference to `meru.md` is informational, not a citation path.** Per the task's
   instruction, the taranatha manuscript-variant note (Vindhya/Vibhedaka vs. Kailāśa) is
   cited here the same way `2-RAILS/Claims/vindhya.md` cites it — directly to
@@ -140,15 +140,15 @@ fixed-string mode. One quotation required correction before verification passed.
 
 | # | Quotation (as drafted) | Claim | Result |
 |---|---|---|---|
-| 1 | "རི་རབ་མནྡྷར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།" | anon-trinle-char:c-3-17-3 | PASS |
-| 2 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན་ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་བཅུད་ཀྱིས་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བར་མཛད་པ་ཡིན་པས" | anon-utpala:c-1-2-3-2-5 | PASS |
+| 1 | "རི་རབ་མནྡྷར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།" | yama-sonam:c-3-17-3 | PASS |
+| 2 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན་ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་བཅུད་ཀྱིས་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བར་མཛད་པ་ཡིན་པས" | dharmabhadra:c-1-2-3-2-5 | PASS |
 | 3 | "རི་རབ་མནྡྷ་ར་དང་འབིགས་བྱེད་ལ་སོགས་པ། འཇིག རྟེན་གསུམ་པོ་རྣམས་གཡོ་ནུས་པ་ཉིད་དོ།" | gendun-drub:c-2-2-2-3-2-3 | PASS (corrected: source has a plain space, not a tsheg, between འཇིག and རྟེན — an orthographic irregularity in the source itself; original draft used a tsheg there and failed exact/whitespace-collapsed matching, since tsheg is not whitespace; fixed to reproduce the source's own spacing exactly) |
 | 4 | "རི་རབ་དང་། རི་བོ་མནྡྷ་ར་དང་འབིགས་བྱེད་ལ་སོགས་པའི་རིའི་ཚོགས་རྣམས་སྤྲོས་ཏེ། འཇིག་རྟེན་གསུམ་གཡོ་བར་མཛད་ནས་ཆོམ་རྐུན་གྱི་ཚོགས་རྣམས་གནོན་པར་མཛད་མའོ།" | konchok-thabkhe:c-2-17-2 | PASS |
 | 5 | "དེའི་ཞབས་བརྡབས་པས་ནི་རི་རབ་དང་རི་མནྡཱ་ར་དང་རི་ནག་པོ་འབིགས་བྱེད་སོགས།" | lobsang-dawa:c-1-2-3-2-4 | PASS |
 | 6 | "རྗེ་བཙུན་སྒྲོལ་མས་ཞབས་བརྡབས་པས། རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྡར་དང་། རི་བོ་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ" | sungrab-tulku:c-20-4 | PASS |
 | 7 | "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྡཱ་ར་དང་། རི་བོ་འབིགས་བྱེད་ལ་སོགས་ས་འོག་ཀླུའི་འཇིག་རྟེན་དང་། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་གསུམ་དང་" | tenzin-dhonzang:c-4-17-4 | PASS |
 | 8 | "རི་ཡི་རྒྱལ་པོ་དབུས་ཀྱི་རི་རབ་དང་ལྷ་དང་དྲང་སྲོང་ཆེན་པོ་རྣམས་ཀྱི་བཞུགས་གནས་མཐའི་རྒྱ་མཚོའི་ནང་ན་ཡོད་པའི་རི་བོ་མན་དཱ་ར་དང་རི་བོ་འབིགས་བྱེད།" | pema-namgyal:c-2-4-47 | PASS |
-| 9 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས། ཞེས་འཇིག་རྟེན་གསུམ་རི་རབ་དང་། མནྡར་དང་། འབིབས་བྱེད་གསུམ་ལ་བྱེད་པར་གསལ་བར་གསུངས་པ" | anon-trinle-char:c-3-17-8 | PASS |
+| 9 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས། ཞེས་འཇིག་རྟེན་གསུམ་རི་རབ་དང་། མནྡར་དང་། འབིབས་བྱེད་གསུམ་ལ་བྱེད་པར་གསལ་བར་གསུངས་པ" | yama-sonam:c-3-17-8 | PASS |
 | 10 | "དེས་སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་གནས་རི་རབ་མནྡ་ར་ཞེས་པ་དང་རི་རབ་འབིག་བྱེད་ལ་སོགས་པ་སྟེ།" | karma-maitri:c-1-1-17-5 | PASS |
 | 11 | "ཞབས་མཐིལ་ས་ལ་བརྡབས་པས་རི་རབ་དང་། མནྡཱ་ར། འབིབས་བྱེད། ཁམས་གསུམ་གཡོ་བའི་སྟོབས་ཀྱིས་དམིགས་བྱ་རྣམས་ཞབས་འོག་ཏུ་མནན་པར་བསྒོམས་ནི་དམིགས་རིམ་ཡིན།" | sangye-nyentrul:c-18-1-3 | PASS |
 | 12 | "ཐུགས་ཀའི་ཧཱུཾ་ལས་འོད་ཟེར་ཧཱུཾ་གི་རྣམ་པ་ཅན་ འཕྲོས་པས་ལྷ་ཆེན་པོ་རྣམས་ཀྱི་གནས་རི་རབ་དང་། མནྡཱ་ར་ཞེས་པའི་ རི་དང་། རི་བོ་འབིགས་བྱེད་དང་གངས་ཅན་སོགས།" | tsultrim-namdak:c-2-1-2-1-59 | PASS (source carries internal spaces after ཅན་ and པའི་ from the raw extraction's own line-wrap; reproduced exactly rather than "cleaned") |

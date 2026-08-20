@@ -351,6 +351,12 @@ Creates or updates Obsidian frontmatter properties on a file.
 Ingests a structural outline (TOC) into a source or rails file.
 → [`structural-outline-ingest/SKILL.md`](structural-outline-ingest/SKILL.md)
 
+### `author-metadata-sync` **[exists]**
+**Purpose:** Propagate human-curated author metadata (`author`, `author_in_use`, `author_in_english`) from the commentary frontmatters in `1-SOURCES/` into the raw tree-guided claims files, and report every registry surface (vault-annex table, `sources.yaml`, drafted articles) that still disagrees — run it after any human review of author names.
+**Inputs:** The `1-SOURCES/Commentaries/*.md` frontmatters (point of truth) and the `2-RAILS/Claims/raw/tree-guided/` files; all writes go through the bundled `scripts/sync_author_metadata.py` (check mode first, then `--write`).
+**Outputs:** Synced author fields + header line in each claims file; a console report of annex/sources.yaml mismatches and article placeholder strings for the manual passes the SKILL.md prescribes.
+→ [`author-metadata-sync/SKILL.md`](author-metadata-sync/SKILL.md)
+
 ---
 
 ## System skills
@@ -390,7 +396,7 @@ These skills generate encyclopedic output for bo.wikipedia from the vault's rail
 ### `wiki-article-from-claims-v2` **[exists]**
 **Purpose:** Successor candidate to `wiki-article-from-claims` (2026-08-18 reviewer feedback): same claim-resolution chain and quotation verification, but the prose is encyclopedic wikivoice — consensus stated plainly without inline commentator attribution, at most 3 refs per statement, at most 2 commentary quotations per article — plus a generated read-only `article-preview.md` (Obsidian footnotes) so reviewers read the article without inline `<ref>` clutter. The 2026-08-18 second-round review added the Tibetan punctuation contract (sentence-final shad `།`, paragraph-final double shad `།།`, no commas anywhere) and in-prose author naming via the human-curated `author_in_use` frontmatter key. v1 remains the skill of record until the human contributor retires it.
 **Inputs:** A spine-slot or keyword topic whose consolidated page exists in `2-RAILS/Claims/`, that page's raw tree-guided claims files, and the pipeline's wikitext spec as the output contract.
-**Outputs:** `article.md` (fenced wikitext) + `citations.md` (audit trail, incl. full attestation beyond the in-article refs) + `article-preview.md` (script-generated footnote rendering) under `term-articles/<topic>/` or `slot-articles/<topic>/`; bundled `scripts/make_preview.py` also runs standalone on existing v1 articles.
+**Outputs:** `article.md` (fenced wikitext) + `citations.md` (audit trail, incl. full attestation beyond the in-article refs) + `article-preview.md` (script-generated footnote rendering with author-name footnote labels) written **in place** under `term-articles/<topic>/` or `slot-articles/<topic>/` (Mode B replaces the existing files; the pilot staging stage was retired 2026-08-19 — git preserves prior versions); bundled `scripts/make_preview.py` also runs standalone on existing v1 articles.
 → [`wiki-article-from-claims-v2/SKILL.md`](wiki-article-from-claims-v2/SKILL.md)
 
 ### `article-subject-filter` **[exists]**

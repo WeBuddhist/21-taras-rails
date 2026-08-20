@@ -3,8 +3,8 @@ topic: wheel
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -35,7 +35,7 @@ consolidation_questions:
   - "Does any commentary quote an auspicious-substances/symbols verse in which a wheel is associated with the feet as one of several bodily auspicious marks?"
   - "Does any other commentary corroborate sungrab-tulku's and tenga-tulku's shared 'thousand-spoked' (རྩིབས་སྟོང་) detail for the palm-wheel?"
   - "Does any other commentary corroborate karma-maitri's placement of OṂ, rather than TAṃ, at the heart-wheel's hub?"
-  - "Does any other commentary corroborate anon-trinle-char's, taranatha's, konchok-thabkhe's, and pema-namgyal's reading of 'wheel of every direction' as denoting the totality of the ten directions' buddha-fields, rather than a physical mark?"
+  - "Does any other commentary corroborate yama-sonam's, taranatha's, konchok-thabkhe's, and pema-namgyal's reading of 'wheel of every direction' as denoting the totality of the ten directions' buddha-fields, rather than a physical mark?"
   - "Does any other commentary corroborate tsultrim-namdak's naming of a form as 'Liberator Mother, Wish-Fulfilling Wheel, Life-Extender'?"
   - "Does any other commentary corroborate palden-sherab's completion-stage reading of the maṇḍala-wheel of empty-form clear-light mahāmudrā?"
 date: 2026-08-12
@@ -69,7 +69,7 @@ The term འཁོར་ལོ། (*'khor lo*, wheel/cakra) surfaces across this
 13. Does any commentary quote an auspicious-substances/symbols verse in which a wheel is associated with the feet as one of several bodily auspicious marks?
 14. Does any other commentary corroborate sungrab-tulku's and tenga-tulku's shared "thousand-spoked" (རྩིབས་སྟོང་) detail for the palm-wheel?
 15. Does any other commentary corroborate karma-maitri's placement of OṂ, rather than TAṃ, at the heart-wheel's hub?
-16. Does any other commentary corroborate anon-trinle-char's, taranatha's, konchok-thabkhe's, and pema-namgyal's reading of "wheel of every direction" as denoting the totality of the ten directions' buddha-fields, rather than a physical mark?
+16. Does any other commentary corroborate yama-sonam's, taranatha's, konchok-thabkhe's, and pema-namgyal's reading of "wheel of every direction" as denoting the totality of the ten directions' buddha-fields, rather than a physical mark?
 17. Does any other commentary corroborate tsultrim-namdak's naming of a form as "Liberator Mother, Wish-Fulfilling Wheel, Life-Extender"?
 18. Does any other commentary corroborate palden-sherab's completion-stage reading of the maṇḍala-wheel of empty-form clear-light mahāmudrā?
 
@@ -80,7 +80,7 @@ The term འཁོར་ལོ། (*'khor lo*, wheel/cakra) surfaces across this
 ### Consensus
 The verse's own line — that her own mass of light, adorned by/agitated at a wheel [reaching] every direction without exception, is agitated, as part of the fuller four-line verse honoring the mudrā symbolizing the Three Jewels at her heart — is quoted or closely paraphrased across a wide sample of commentaries, independent of how each commentary goes on to gloss "wheel" itself (see the following facet):
 
-— attested: `anon-trinle-char:c-3-9-3`, `anon-utpala:c-1-2-2-1-2-2-2`, `gendun-drub:c-2-2-2-2-1-2-2-4`, `palden-sherab:c-3-1-9-0-2`, `tenga-tulku:c-1-2-2-1-2-2-2`, `tenzin-dhonzang:c-4-9-2`, `tsultrim-namdak:c-2-1-2-1-32` (7 commentaries)
+— attested: `yama-sonam:c-3-9-3`, `dharmabhadra:c-1-2-2-1-2-2-2`, `gendun-drub:c-2-2-2-2-1-2-2-4`, `palden-sherab:c-3-1-9-0-2`, `tenga-tulku:c-1-2-2-1-2-2-2`, `tenzin-dhonzang:c-4-9-2`, `tsultrim-namdak:c-2-1-2-1-32` (7 commentaries)
 
 Of these, `gendun-drub:c-2-2-2-2-1-2-2-4` already glosses the wheel, within its own verse-citation, as the "right-hand emblem" (གཡས་པའི་ཕྱག་མཚན) — a first, lighter locational note that its own follow-on claim (cited under "What does 'wheel' mean," below) develops into a full palm/mudrā identification.
 
@@ -100,24 +100,24 @@ None. This is a genuine, unreconciled divergence in how commentaries construe th
 ### ⚑ Divergences
 **Position 1 — cosmological/spatial totality.** Several commentaries explicitly gloss "wheel of every direction" as denoting the encompassing totality of the ten directions (and the buddha-fields within them) that her light pervades and adorns, rather than any physical wheel-shaped object:
 
-- `anon-trinle-char:c-3-9-6`: "དེ་བཞིན་མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་སྟེ་ཕྱོགས་བཞི་མཚམས་བཞི་སྟེང་འོག་གཉིས་ཏེ་ཕྱོགས་བཅུ་པོ་ཐམས་ཅད་...," glossed in the claim's own English as "the wheel of all directions without exception — the four cardinal, four intermediate, upper, and lower, all ten directions."
+- `yama-sonam:c-3-9-6`: "དེ་བཞིན་མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་སྟེ་ཕྱོགས་བཞི་མཚམས་བཞི་སྟེང་འོག་གཉིས་ཏེ་ཕྱོགས་བཅུ་པོ་ཐམས་ཅད་...," glossed in the claim's own English as "the wheel of all directions without exception — the four cardinal, four intermediate, upper, and lower, all ten directions."
 - `taranatha:c-9-7`: "the wheel of directions — that is, all the buddha-fields of the ten directions without exception."
 - `konchok-thabkhe:c-2-9-3`: "adorns the wheel of all directions and intermediate directions without exception."
 - `pema-namgyal:c-2-4-31`: reads the same phrase as "all the maṇḍala buddha-fields (འཁོར་ལོའི་ཞིང་ཁམས) of every world in the ten directions."
 
-— attested: `anon-trinle-char:c-3-9-6`, `taranatha:c-9-7`, `konchok-thabkhe:c-2-9-3`, `pema-namgyal:c-2-4-31` (4 commentaries)
+— attested: `yama-sonam:c-3-9-6`, `taranatha:c-9-7`, `konchok-thabkhe:c-2-9-3`, `pema-namgyal:c-2-4-31` (4 commentaries)
 
 **Position 2 — a physical wheel-mark on the right (boon-giving) palm.** A larger group of commentaries instead explicitly locates a wheel-shaped mark or design on the palm of her right hand, within the mudrā of supreme/boon-giving, as the source of the light described in the verse:
 
-— attested: `anon-utpala:c-1-2-2-1-2-2-4`, `drakpa-gyaltsen:c-1-57`, `gendun-drub:c-2-2-2-2-1-2-2-5`, `karma-maitri:c-1-1-9-5`, `karma-maitri:c-1-1-9-6`, `lobsang-dawa:c-1-2-2-1-2-2-2`, `sungrab-tulku:c-12-5`, `tenga-tulku:c-1-2-2-1-2-2-4`, `tsultrim-namdak:c-2-1-2-1-33` (8 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-2-2-4`, `drakpa-gyaltsen:c-1-57`, `gendun-drub:c-2-2-2-2-1-2-2-5`, `karma-maitri:c-1-1-9-5`, `karma-maitri:c-1-1-9-6`, `lobsang-dawa:c-1-2-2-1-2-2-2`, `sungrab-tulku:c-12-5`, `tenga-tulku:c-1-2-2-1-2-2-4`, `tsultrim-namdak:c-2-1-2-1-33` (8 commentaries)
 
 Within this group, two commentaries independently add that the palm's wheel is specifically "thousand-spoked" (རྩིབས་སྟོང་), a matching specific detail not stated by any of the other six: `sungrab-tulku:c-12-5` — "འཁོར་ལོ་རྩིབས་སྟོང་གི་རི་མོས་རབ་ཏུ་མཛེས་པའི་འོད་ཟེར་" — and `tenga-tulku:c-1-2-2-1-2-2-4` — "མཐིལ་དུ་འཁོར་ལོ་རྩིབས་སྟོང་གི་རི་མོས་རབ་ཏུ་མཛེས་པར་བརྒྱན་པའི་འོད་ཟེར་."
 
 — thousand-spoked detail attested: `sungrab-tulku:c-12-5`, `tenga-tulku:c-1-2-2-1-2-2-4` (2 commentaries)
 
-Also within this group, four commentaries go further than the root verse's own neutral "agitated" (འཁྲུག) and explicitly state, using the verb ཟིལ་གྱིས་གནོན་ ("outshine"/"overpower"), that the wheel's light outshines or overpowers all other light: `anon-utpala:c-1-2-2-1-2-2-4` ("འོད་གཞན་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་མ"), `drakpa-gyaltsen:c-1-58` ("འོད་གཞན་ཟིལ་གྱིས་གནོན་པའོ"), `gendun-drub:c-2-2-2-2-1-2-2-5` ("འོད་ཀྱི་ཚོགས་གཞན་རྣམས་འཁྲུག་པ་སྟེ་ཟིལ་གྱིས་གནོན་མའོ"), and `lobsang-dawa:c-1-2-2-1-2-2-2` ("འོད་གཞན་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་མ་ལའོ").
+Also within this group, four commentaries go further than the root verse's own neutral "agitated" (འཁྲུག) and explicitly state, using the verb ཟིལ་གྱིས་གནོན་ ("outshine"/"overpower"), that the wheel's light outshines or overpowers all other light: `dharmabhadra:c-1-2-2-1-2-2-4` ("འོད་གཞན་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་མ"), `drakpa-gyaltsen:c-1-58` ("འོད་གཞན་ཟིལ་གྱིས་གནོན་པའོ"), `gendun-drub:c-2-2-2-2-1-2-2-5` ("འོད་ཀྱི་ཚོགས་གཞན་རྣམས་འཁྲུག་པ་སྟེ་ཟིལ་གྱིས་གནོན་མའོ"), and `lobsang-dawa:c-1-2-2-1-2-2-2` ("འོད་གཞན་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་མ་ལའོ").
 
-— explicit "outshines other light" (ཟིལ་གྱིས་གནོན་) attested: `anon-utpala:c-1-2-2-1-2-2-4`, `drakpa-gyaltsen:c-1-58`, `gendun-drub:c-2-2-2-2-1-2-2-5`, `lobsang-dawa:c-1-2-2-1-2-2-2` (4 commentaries)
+— explicit "outshines other light" (ཟིལ་གྱིས་གནོན་) attested: `dharmabhadra:c-1-2-2-1-2-2-4`, `drakpa-gyaltsen:c-1-58`, `gendun-drub:c-2-2-2-2-1-2-2-5`, `lobsang-dawa:c-1-2-2-1-2-2-2` (4 commentaries)
 
 By contrast, `tsultrim-namdak:c-2-1-2-1-32`'s own verse-citation (cited under "Root verse 9," above) renders the same root-verse verb འཁྲུགས་མ in its own English gloss as "disturbs [overwhelms] all other lights" — the bracketed "[overwhelms]" is that raw extraction's own English wording, not a distinct Tibetan verb like ཟིལ་གྱིས་གནོན་; it is noted here as a translation choice internal to that one raw extraction, not counted among the four explicit ཟིལ་གྱིས་གནོན་ attestations above.
 
@@ -141,11 +141,11 @@ None — every form catalogued here differs from every other in the number of ar
 Not framed as a divergence in the doctrinal sense (these are not competing claims about a single image); recorded as Unique, below.
 
 ### Unique
-`anon-trinle-char` alone in this packet attests four distinct multi-armed forms bearing a wheel among other implements:
-- An eight-armed form (`anon-trinle-char:c-3-1-22`): the first two hands raised in the mudrā of great joy, the next two lowered holding a bow and arrow, the right third hand a wheel, the right fourth a sword, the left third a conch, the left fourth a lasso — corroborated by the same commentary's own citation of a verse attributed to Nyima Sbaspa (`anon-trinle-char:c-3-1-23`: "arrow, bow, wheel, sword, conch, vajra, lasso"), though that cited verse's own seven-item list does not match c-3-1-22's eight-item description implement-for-implement (the verse adds a vajra not named in c-3-1-22).
-- A three-faced, twelve-armed form, attested only via a second Nyima Sbaspa citation (`anon-trinle-char:c-3-2-11`): "khaṭvāṅga, wheel, and jewel... vajra, flower-garland... on the right; pill, blue lotus, bell, and vase and volume... on the left."
-- An alternate six-right-handed form (`anon-trinle-char:c-3-2-9`): first two hands in equipoise, then khaṭvāṅga, wheel, jewel, vajra, and a garland of flowers.
-- A four-implement form (`anon-trinle-char:c-3-7-8`): wheel and sword in the right hands, lasso and the threatening gesture in the left.
+`yama-sonam` alone in this packet attests four distinct multi-armed forms bearing a wheel among other implements:
+- An eight-armed form (`yama-sonam:c-3-1-22`): the first two hands raised in the mudrā of great joy, the next two lowered holding a bow and arrow, the right third hand a wheel, the right fourth a sword, the left third a conch, the left fourth a lasso — corroborated by the same commentary's own citation of a verse attributed to Nyima Sbaspa (`yama-sonam:c-3-1-23`: "arrow, bow, wheel, sword, conch, vajra, lasso"), though that cited verse's own seven-item list does not match c-3-1-22's eight-item description implement-for-implement (the verse adds a vajra not named in c-3-1-22).
+- A three-faced, twelve-armed form, attested only via a second Nyima Sbaspa citation (`yama-sonam:c-3-2-11`): "khaṭvāṅga, wheel, and jewel... vajra, flower-garland... on the right; pill, blue lotus, bell, and vase and volume... on the left."
+- An alternate six-right-handed form (`yama-sonam:c-3-2-9`): first two hands in equipoise, then khaṭvāṅga, wheel, jewel, vajra, and a garland of flowers.
+- A four-implement form (`yama-sonam:c-3-7-8`): wheel and sword in the right hands, lasso and the threatening gesture in the left.
 
 None of these four forms matches another, and none is corroborated by any other commentary's claims in this packet.
 
@@ -286,8 +286,8 @@ None — every claim ID in the packet's manifest is cited above, within one of t
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-1-22, c-3-1-23, c-3-2-11, c-3-2-9, c-3-7-8, c-3-9-3, c-3-9-6 (7) | Root verse 9, "Wheel" meaning (Position 1), Alternate iconographic forms |
-| `anon-utpala` | c-1-2-2-1-2-2-2, c-1-2-2-1-2-2-4 (2) | Root verse 9, "Wheel" meaning (Position 2, thousand-spoked n/a, outshine) |
+| `yama-sonam` | c-3-1-22, c-3-1-23, c-3-2-11, c-3-2-9, c-3-7-8, c-3-9-3, c-3-9-6 (7) | Root verse 9, "Wheel" meaning (Position 1), Alternate iconographic forms |
+| `dharmabhadra` | c-1-2-2-1-2-2-2, c-1-2-2-1-2-2-4 (2) | Root verse 9, "Wheel" meaning (Position 2, thousand-spoked n/a, outshine) |
 | `drakpa-gyaltsen` | c-1-57, c-1-58 (2) | "Wheel" meaning (Position 2, outshine) |
 | `gendun-drub` | c-2-2-2-2-1-2-2-4, c-2-2-2-2-1-2-2-5 (2) | Root verse 9, "Wheel" meaning (Position 2, outshine) |
 | `gendun-gyatso` | c-1-16-1, c-1-16-2 (2) | Heart-wheel |

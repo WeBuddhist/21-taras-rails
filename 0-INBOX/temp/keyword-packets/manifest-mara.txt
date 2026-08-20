@@ -1,9 +1,9 @@
-anon-trinle-char:c-3-8-3
-anon-utpala:c-1-2-1-6
-anon-utpala:c-1-2-2-1-2-1-2
-anon-utpala:c-1-2-2-1-2-1-5
-anon-utpala:c-1-2-2-1-2-3-2
-anon-utpala:c-1-2-2-1-2-3-4
+yama-sonam:c-3-8-3
+dharmabhadra:c-1-2-1-6
+dharmabhadra:c-1-2-2-1-2-1-2
+dharmabhadra:c-1-2-2-1-2-1-5
+dharmabhadra:c-1-2-2-1-2-3-2
+dharmabhadra:c-1-2-2-1-2-3-4
 drakpa-gyaltsen:c-1-24
 drakpa-gyaltsen:c-1-49
 drakpa-gyaltsen:c-1-50

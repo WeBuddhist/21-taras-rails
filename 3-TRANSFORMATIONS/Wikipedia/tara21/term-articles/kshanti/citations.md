@@ -84,9 +84,9 @@ The consolidated page's "Kṣānti among the six pāramitās" facet cites
 fourteen commentaries in total; this article selects two representative refs
 for its lead/backbone citation (sungrab-tulku, tenzin-dhonzang) per Rule 5's
 due-weight guidance rather than naming all fourteen inline. The other twelve
-attestations on that facet — `anon-trinle-char:c-3-3-3`,
-`anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-2`,
-`anon-utpala:c-1-2-2-1-1-2-6`, `karma-maitri:c-1-1-3-6`,
+attestations on that facet — `yama-sonam:c-3-3-3`,
+`yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-2`,
+`dharmabhadra:c-1-2-2-1-1-2-6`, `karma-maitri:c-1-1-3-6`,
 `konchok-thabkhe:c-2-3-3`, `lobsang-dawa:c-1-2-2-1-1-2-3`,
 `palden-sherab:c-3-1-3-0-2`, `palden-sherab:c-3-1-3-1-2`,
 `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `tenga-tulku:c-1-2-2-1-1-2-2`,

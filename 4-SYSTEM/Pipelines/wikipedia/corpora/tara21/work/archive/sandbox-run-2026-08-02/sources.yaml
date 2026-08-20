@@ -139,7 +139,7 @@ sources:
   copyright: null
   author_dates: null
   webuddhist_url: null
-- source_id: TARAC09_ANON_bo_segmented
+- source_id: TARAC09_JYS_bo_segmented
   title: སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང
   author: (མཇུག་བྱང་མི་གསལ)
   collection: ཉི་མ་སྦས་པའི་ལུགས།
@@ -151,7 +151,7 @@ sources:
   wikidata_id: null
   wikipedia_url: null
   status: ingested
-  local_path: source/commentaries/TARAC09_ANON_bo_segmented.md
+  local_path: source/commentaries/TARAC09_JYS_bo_segmented.md
   school: ཉི་མ་སྦས་པའི་ལུགས།
   copyright: null
   author_dates: null

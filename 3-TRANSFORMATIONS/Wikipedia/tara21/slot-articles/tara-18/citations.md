@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-18.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -32,7 +32,7 @@ status: draft
 
 | Ref (`name=`) | Commentary | Claim ID(s) used in article | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-trinle-char | Anonymous, *Trin-las-char-du-snyil-ba'i-sprin-phung* | c-3-18-1, c-3-18-4, c-3-18-5, c-3-18-6, c-3-18-7, c-3-18-8 | "ཕྱག་འཚལ་བཅོ་བརྒྱད་པ་རྗེ་བཙུན་མ་རྣམ་རྒྱལ་སྒྲོལ་མ་" (c-3-18-1); "རྗེ་བཙུན་མ་སྒྲོལ་མ་རྣམ་པར་རྒྱལ་མས་ཀླུ་ནད་གསོ་བའི་སྒྲུབ་ཐབས་རྫོགས་སོ།" (c-3-18-5); "ཏཱ་ར་ཏཱ་ར་ཕཊ་ཅེས་ཏཱ་ར་བཟླས་ཏེ་ལན་གཉིས་ཀྱི་མཐར་ཕཊ་ཅེས་བཏགས་པའི་རིག་སྔགས" (c-3-18-6); "སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་བཞི་མ།" (c-3-18-7); "ཉི་མ་སྦས་པས། པདྨ་དཀར་སྟེང་ཟླ་དབུས་སུ། ། འདབ་བཟང་ཁྲི་སྟེང་སྐྱིལ་ཀྲུང་བཞུགས། ། གཉིས་ཀྱི་སྤྱི་བོར་ལྕགས་ཀྱུ་འཛིན། ། གཞན་གཉིས་མཆོག་སྦྱིན་པོ་ཏི་བསྣམས།" (c-3-18-8) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-18-0, #^0-227, #^0-228, #^0-229, #^0-230, #^0-231 |
+| yama-sonam | Anonymous, *Trin-las-char-du-snyil-ba'i-sprin-phung* | c-3-18-1, c-3-18-4, c-3-18-5, c-3-18-6, c-3-18-7, c-3-18-8 | "ཕྱག་འཚལ་བཅོ་བརྒྱད་པ་རྗེ་བཙུན་མ་རྣམ་རྒྱལ་སྒྲོལ་མ་" (c-3-18-1); "རྗེ་བཙུན་མ་སྒྲོལ་མ་རྣམ་པར་རྒྱལ་མས་ཀླུ་ནད་གསོ་བའི་སྒྲུབ་ཐབས་རྫོགས་སོ།" (c-3-18-5); "ཏཱ་ར་ཏཱ་ར་ཕཊ་ཅེས་ཏཱ་ར་བཟླས་ཏེ་ལན་གཉིས་ཀྱི་མཐར་ཕཊ་ཅེས་བཏགས་པའི་རིག་སྔགས" (c-3-18-6); "སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་བཞི་མ།" (c-3-18-7); "ཉི་མ་སྦས་པས། པདྨ་དཀར་སྟེང་ཟླ་དབུས་སུ། ། འདབ་བཟང་ཁྲི་སྟེང་སྐྱིལ་ཀྲུང་བཞུགས། ། གཉིས་ཀྱི་སྤྱི་བོར་ལྕགས་ཀྱུ་འཛིན། ། གཞན་གཉིས་མཆོག་སྦྱིན་པོ་ཏི་བསྣམས།" (c-3-18-8) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-18-0, #^0-227, #^0-228, #^0-229, #^0-230, #^0-231 |
 | gendun-gyatso | Gendun Gyatso (2nd Dalai Lama), *Detailed Explanation of the Twenty-One Homages* | c-1-18-1 | "རི་དྭགས་རྟགས་ཅན་ཏེ། རི་བོང་ཅན་ཟླ་བ་ཕྱག་ན་བསྣམས་ལ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-31 |
 | karma-maitri | Karma Maitri, *Concise Commentary* | c-1-1-18-1, c-1-1-18-3, c-1-1-18-6 | "སེམས་ཅན་གང་ཞིག་བརྟན་གཡོའི་དུག་རྣམས་མ་ལུས་པ་ནི་སེལ་བའི་སྒྲོལ་མ་ལའོ།" (c-1-1-18-6) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-40, #^0-41 |
 | konchok-thabkhe | Konchok Thabkhe, *The Oral Instruction of the Noble Lady* | c-2-18-1, c-2-18-2, c-2-18-3, c-2-18-4 | "འཕགས་མ་ལྷ་ཡི་ངོ་འཛིན་ཞེས་གསུངས་པ་ནི། སྔོན་རི་རབ་ཀྱིས་བསྲུབས་ཤིང་བྱས་ཏེ་རྒྱ་མཚོ་བསྲུབས་པ་ལས་ཉི་ཟླ་གཉིས་ཐོན་པར་རིག་བྱེད་ཀྱི་གཞུང་ལས་འབྱུང་བ་དང་བསྟུན་པའོ།" (c-2-18-4) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-85, #^0-86, #^0-87, #^0-88 |
@@ -43,7 +43,7 @@ status: draft
 | sangye-nyentrul | Sangye Nyentrul, *Blessing-Rain of the Noble Lady* | c-19-0-1, c-19-0-2, c-19-1-1, c-19-1-2 | (none — cited unquoted for white body, iconography, moving/unmoving mantra, and the "Great Peahen" name) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-79, #^0-80, #^0-81 |
 | tsultrim-namdak | Khenpo Tsultrim Namdak, *Ship Entering the Ocean* | c-2-1-2-1-61, c-2-1-2-1-62, c-2-1-2-1-63, c-3-21 | "ནང་གི་དུག་ཉོན་མོངས་པ་དུག་གསུམ་དང་ཕྱི་ཡི་དུག་སྦྱར་དུག་རེག་དུག་སོགས" (c-2-1-2-1-63) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-137, #^0-138, #^0-139, #^0-249–252 |
 | tenga-tulku | Dorlob Tenga Tulku, *Clear Mirror of the Benefits* | c-1-2-3-3-1, c-1-2-3-3-2, c-1-2-3-3-3, c-1-2-3-3-4 | (none — cited unquoted for local ordinal, root verse, left-hand utpala placement, and moving/unmoving activity) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-148, #^0-153, #^0-154, #^0-155 |
-| anon-utpala | Ngulchu Dharmabhadra, *Bouquet of Blue Lotuses* | c-1-2-3-3-1, c-1-2-3-3-2, c-1-2-3-3-3, c-1-2-3-3-5 | "ཏྭ་ར་གཉིས་བརྗོད" (c-1-2-3-3-2); "རི་དྭགས་རི་བོང་གི་རྟགས་མཚན་ཅན" (c-1-2-3-3-3) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-79, #^0-80, #^0-81, #^0-82 |
+| dharmabhadra | Ngulchu Dharmabhadra, *Bouquet of Blue Lotuses* | c-1-2-3-3-1, c-1-2-3-3-2, c-1-2-3-3-3, c-1-2-3-3-5 | "ཏྭ་ར་གཉིས་བརྗོད" (c-1-2-3-3-2); "རི་དྭགས་རི་བོང་གི་རྟགས་མཚན་ཅན" (c-1-2-3-3-3) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-79, #^0-80, #^0-81, #^0-82 |
 | drakpa-gyaltsen | Jetsün Drakpa Gyaltsen, *Illuminating Light Rays* | c-1-88, c-1-90 | (none — cited unquoted for deer-only iconography and root-formula mantra/moving-unmoving) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-73, #^0-74 |
 | gendun-drub | Gyalwa Gendun Drub (1st Dalai Lama), *Precious Garland* | c-2-2-2-3-3-1, c-2-2-2-3-3-2, c-2-2-2-3-3-3, c-2-2-2-3-3-4, c-2-2-2-3-3-5 | (none — cited unquoted for local ordinal, hare-substitution, root-formula mantra, and the "Tārā of Victory" name) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-92, #^0-93, #^0-94, #^0-95, #^0-96 |
 | lobsang-dawa | Geshe Lobsang Dawa (compiler), *Annotated Commentary* | c-1-2-3-3-1, c-1-2-3-3-2, c-1-2-3-3-3 | (none — cited unquoted for deer+hare compound, moving/unmoving, and root-formula mantra) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-27 |
@@ -51,7 +51,7 @@ status: draft
 
 ## Claims used but not quoted
 
-- **anon-trinle-char**: c-3-18-1 (ordinal count, paraphrased), c-3-18-4 (general summary paraphrase, nāga/snake-poison mention)
+- **yama-sonam**: c-3-18-1 (ordinal count, paraphrased), c-3-18-4 (general summary paraphrase, nāga/snake-poison mention)
 - **gendun-gyatso**: c-1-18-1 (ordinal count)
 - **karma-maitri**: c-1-1-18-1 (ordinal count), c-1-1-18-3 (deer-only attestation)
 - **konchok-thabkhe**: c-2-18-1 (ordinal + nāga classification), c-2-18-2 (deer-only), c-2-18-3 (root-formula mantra)
@@ -62,7 +62,7 @@ status: draft
 - **sangye-nyentrul**: c-19-0-1, c-19-0-2, c-19-1-1, c-19-1-2 (all paraphrased)
 - **tsultrim-namdak**: c-2-1-2-1-61 (root verse, general), c-2-1-2-1-62 (extended mantra), c-3-21 (name + white body)
 - **tenga-tulku**: c-1-2-3-3-1 through c-1-2-3-3-4 (all paraphrased)
-- **anon-utpala**: c-1-2-3-3-1 (local ordinal/classification), c-1-2-3-3-5 (mantra variant, paraphrased)
+- **dharmabhadra**: c-1-2-3-3-1 (local ordinal/classification), c-1-2-3-3-5 (mantra variant, paraphrased)
 - **drakpa-gyaltsen**: c-1-88, c-1-90 (paraphrased)
 - **gendun-drub**: c-2-2-2-3-3-1 through c-2-2-2-3-3-5 (all paraphrased)
 - **lobsang-dawa**: c-1-2-3-3-1 through c-1-2-3-3-3 (all paraphrased)
@@ -77,9 +77,9 @@ None. Every `commentary:claim-id` attestation cited anywhere on `2-RAILS/Claims/
 - **`rails_status: draft`.** The consolidated page `2-RAILS/Claims/tara-18.md` carries `status: draft`, not `complete`. The vault's general rule (`4-SYSTEM/CLAUDE.md` §9, §11) is to generate transformations only from `status: complete` rails. Per the `wiki-article-from-claims` skill's Rule 11, this is logged here as a known, accepted exception for this run — a human contributor should confirm before this article proceeds toward `/publish`.
 - **No ref carries a year or page number.** None of the 16 raw commentary files' frontmatter attests a publication year or page for its source; per the wikitext spec, refs are hand-formatted as `<AUTHOR>། <TITLE>།` only, and every one of the 16 refs in this article is missing year/page. All are flagged here per the spec's non-blocking warning class.
 - **No public URL exists for any of the 16 sources** (per the spec, "no URLs exist for these sources yet"); none was fabricated. All 16 refs are text-only, matching precedent set by `tara-01`/`tara-02`/`tara-03`.
-- **anon-trinle-char's author is unattested** in its own raw file's frontmatter (`author: "unknown"`). Following the cleanest existing precedent in this corpus (`tara-03`, which used title-only), the ref omits an author placeholder rather than inventing text such as "author unknown" — `tara-01` and `tara-02` used two different (and mutually inconsistent) placeholder phrases for the same commentary; this is flagged for a human contributor to reconcile across the four `tara-NN` articles now on file.
+- **yama-sonam's author is རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ (identified 2026-08-19)** in its own raw file's frontmatter (`author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`). Following the cleanest existing precedent in this corpus (`tara-03`, which used title-only), the ref omits an author placeholder rather than inventing text such as "Jetsün Yama Sonam" — `tara-01` and `tara-02` used two different (and mutually inconsistent) placeholder phrases for the same commentary; this is flagged for a human contributor to reconcile across the four `tara-NN` articles now on file.
 - **No consensus name exists for this Tārā.** The consolidated page records four distinct, non-overlapping naming/classification traditions (Tārā of Victory; Great Peacock/Peahen; Dispeller of Poison; functional classification with no proper name). The article's bold lead name is therefore drawn from the root verse's own opening words (as quoted verbatim by eight of the sixteen commentaries), per the skill's Rule 3 fallback ("take the title/lead name from the consolidated page's own Tibetan heading"), rather than privileging any one contested epithet.
-- **Arm-count and animal-mark (deer/hare) are internally divergent even within a single commentary's own claims** (anon-trinle-char's c-3-18-7 vs. c-3-18-8 iconographic tension). This is preserved in the article's divergence section per Rule 5/8 and not adjudicated.
+- **Arm-count and animal-mark (deer/hare) are internally divergent even within a single commentary's own claims** (yama-sonam's c-3-18-7 vs. c-3-18-8 iconographic tension). This is preserved in the article's divergence section per Rule 5/8 and not adjudicated.
 - **`gendun-gyatso:c-1-18-2`** (a further extended mantra witness, "ཨོཾ་ཏཱ་རེ་ཏུདྷཱ་རེ་ཏུ་རེ་སྦཱ་ཧཱ") was resolved but **not used** in the article: the consolidated page itself flags this claim's wording and syntax as "uncertain in this extraction," so it was left out of the drafted mantra-wording divergence rather than risk citing an uncertain reading as one more attested position.
 - **Article length**: a rough whitespace/markup-stripped tsheg-and-shad count gives ≈1,850 marks, comfortably above the spec's 1,500-Tibetan-syllable non-blocking threshold, though this is a proxy count, not an exact syllable count.
 - **Adjacent-homage links.** `tara-17` and `tara-19` were found already drafted on disk (`3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-17/`, `.../tara-19/`, both untracked in git at the time of this run), so the related-pages section links to their actual bold lead names (`ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས་`, `ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ་`) read directly from those files, rather than an ordinal placeholder. This departs from the earlier `tara-03` article's own related-links, which used ordinal placeholders (`སྒྲོལ་མ་གཉིས་པ་`, `སྒྲོལ་མ་བཞི་པ་`) for neighbours not yet drafted at that time — a human contributor may want to reconcile `tara-03`'s links now that `tara-02`/`tara-04` exist.
@@ -97,19 +97,19 @@ Every direct quotation in `article.md` was located character-for-character (whit
 | 5 | tsultrim-namdak | ནང་གི་དུག་ཉོན་མོངས་པ་དུག་གསུམ་དང... | #^0-139 | PASS |
 | 6 | pema-namgyal | ཁྱི་སྨྱོན་དང་སྤྲུལ་ལ་སོགས་པའི་དུག་ནད... | #^0-63 | PASS |
 | 7 | konchok-thabkhe | འཕགས་མ་ལྷ་ཡི་ངོ་འཛིན་ཞེས་གསུངས་པ་ནི... | #^0-88 | PASS |
-| 8 | anon-trinle-char | རྗེ་བཙུན་མ་སྒྲོལ་མ་རྣམ་པར་རྒྱལ་མས་ཀླུ... | #^0-228 | PASS |
+| 8 | yama-sonam | རྗེ་བཙུན་མ་སྒྲོལ་མ་རྣམ་པར་རྒྱལ་མས་ཀླུ... | #^0-228 | PASS |
 | 9 | gendun-gyatso | རི་དྭགས་རྟགས་ཅན་ཏེ། རི་བོང་ཅན་ཟླ་བ... | #^0-31 | PASS |
-| 10 | anon-utpala | རི་དྭགས་རི་བོང་གི་རྟགས་མཚན་ཅན | #^0-81 | PASS |
-| 11 | anon-trinle-char | སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་བཞི་མ། | #^0-230 | PASS |
+| 10 | dharmabhadra | རི་དྭགས་རི་བོང་གི་རྟགས་མཚན་ཅན | #^0-81 | PASS |
+| 11 | yama-sonam | སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་བཞི་མ། | #^0-230 | PASS |
 | 12 | palden-sherab | ཞལ་གཅིག་ཕྱག་གཉིས། | #^0-179 | PASS |
-| 13 | anon-trinle-char | ཉི་མ་སྦས་པས། པདྨ་དཀར་སྟེང་ཟླ་དབུས... | #^0-231 | PASS |
-| 14 | anon-trinle-char | ཕྱག་འཚལ་བཅོ་བརྒྱད་པ་རྗེ་བཙུན་མ་རྣམ... | #^3-18-0 | PASS |
+| 13 | yama-sonam | ཉི་མ་སྦས་པས། པདྨ་དཀར་སྟེང་ཟླ་དབུས... | #^0-231 | PASS |
+| 14 | yama-sonam | ཕྱག་འཚལ་བཅོ་བརྒྱད་པ་རྗེ་བཙུན་མ་རྣམ... | #^3-18-0 | PASS |
 | 15 | palden-sherab | བཅོ་བརྒྱད་པ་དུག་རིགས་ཐམས་ཅད་ཞི་ཞིང... | #^0-175 | PASS |
 | 16 | tenzin-dhonzang | བཅུ་བརྒྱད་པ་དུག་སེལ་མ་ལ་བསྟོད་པ། | #^0-261 | PASS |
 | 17 | palden-sherab | ཨཱོྃ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སརྦ་བི་ཥ... | #^0-180 | PASS |
-| 18 | anon-utpala | ཏྭ་ར་གཉིས་བརྗོད | #^0-80 | PASS |
+| 18 | dharmabhadra | ཏྭ་ར་གཉིས་བརྗོད | #^0-80 | PASS |
 | 19 | taranatha | ཨོཾ་ན་མཿཏཱ་རེ་ན་མོ་ཧ་རེ་ཧཱུྃ་ཧ་རེ་སྭཱ་ཧཱ | #^0-63 | PASS |
-| 20 | anon-trinle-char | ཏཱ་ར་ཏཱ་ར་ཕཊ་ཅེས་ཏཱ་ར་བཟླས་ཏེ་ལན་གཉིས... | #^0-229 | PASS |
+| 20 | yama-sonam | ཏཱ་ར་ཏཱ་ར་ཕཊ་ཅེས་ཏཱ་ར་བཟླས་ཏེ་ལན་གཉིས... | #^0-229 | PASS |
 | 21 | palden-sherab | ལན་གཉིས་བརྗོད་པས་ཉོན་མོངས་དང་ཤེས་བྱའི... | #^0-181 | PASS |
 | 22 | taranatha | ལན་གཉིས་བརྗོད་པའི་བརྡས་སྒྲིབ་པ་གཉིས... | #^0-64 | PASS |
 | 23 | palden-sherab | ཧོཿ འགལ་རྐྱེན་ཐམས་ཅད་དུག་ལ་བརྟེན༔ | #^0-184 | PASS |

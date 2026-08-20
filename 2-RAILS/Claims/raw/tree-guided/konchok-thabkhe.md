@@ -2,7 +2,7 @@
 registered_id: konchok-thabkhe
 title: "ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང"
 title_in_english: "Commentary on the Twenty-One Homages: The Oral Instruction of the Noble Lady"
-author: "དཀོན་མཆོག་ཐབས་མཁས (མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)"
+author: "དཀོན་མཆོག་ཐབས་མཁས་(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)"
 author_in_use: "དཀོན་མཆོག་ཐབས་མཁས་"
 author_in_english: "Konchok Thabkhe (a.k.a. Tenpa Gyatso)"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md

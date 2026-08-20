@@ -33,7 +33,7 @@ deterministic: local `kwiki verify` over the sandbox run's articles produced rep
 | TARAC06_NDB | 15,775 | 146 |
 | TARAC07_KTK | 22,426 | 196 |
 | TARAC08_DTG | 24,996 | 207 |
-| TARAC09_ANON | 44,919 | 516 |
+| TARAC09_JYS | 44,919 | 516 |
 | TARAC10_DPN | 17,469 | 101 |
 | TARAC11_KMT | 7,918 | 59 |
 | TARAC12_PDS | 75,648 | 328 |

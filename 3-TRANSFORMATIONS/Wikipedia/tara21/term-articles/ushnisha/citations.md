@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/ushnisha.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -46,8 +46,8 @@ One row per named `<ref>` in `article.md` (each reused with `<ref name="..." />`
 | sungrab-tulku | Drepa Ratreng Sungrab Tulku, *སྒྲོལ་མ་ཉེར་གཅིག་གི་རྣམ་བཤད* | c-7-3, c-7-2, c-7-4 | "གཙུག་ཏོག" (c-7-3, spelling fragment) | #^0-35 (c-7-3); #^0-34 (c-7-2); #^0-36 (c-7-4) |
 | tsultrim-namdak | Khenpo Tsultrim Namdak, *སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།* | c-3-7, c-2-1-2-1-13 | (none — both claims paraphrased, per Rule 3; c-3-7's own Tibetan field does not contain a clean standalone sentence for the specific points paraphrased) | #^0-190–192 (c-3-7); #^0-86 (c-2-1-2-1-13) |
 | gendun-drub | 1st Dalai Lama Gendun Drub, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ* | c-2-2-2-2-1-1-3-5, c-2-2-2-2-1-1-3-3, c-2-2-2-2-1-1-3-2 | "འདི་ལ་གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ།" (c-2-2-2-2-1-1-3-5); "དབུའི་གཙུག་ཏོར་ལྟར་འཁུར་ཞིང་" (c-2-2-2-2-1-1-3-3) | #^0-31 (c-2-2-2-2-1-1-3-5); #^0-29 (c-2-2-2-2-1-1-3-3, c-2-2-2-2-1-1-3-2) |
-| anon-trinle-char | Anon., *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-4-3, c-3-4-4, c-3-4-7 | "རྒྱུད་ལས།" (c-3-4-3); "ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་...བཞུགས་ཤིང་།" (c-3-4-4); "ཇོ་ནང་པས་...བདག་གིར་མཛད" (c-3-4-7) | #^0-41 (c-3-4-3); #^0-42 (c-3-4-4); #^0-45 (c-3-4-7) |
-| anon-utpala | Ngulchu Dharmabhadra, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-1-1-3-3, c-1-2-2-1-1-3-2 | "དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན།" (c-1-2-2-1-1-3-3) | #^0-23 (c-1-2-2-1-1-3-3); #^0-22 (c-1-2-2-1-1-3-2) |
+| yama-sonam | Anon., *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-4-3, c-3-4-4, c-3-4-7 | "རྒྱུད་ལས།" (c-3-4-3); "ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་...བཞུགས་ཤིང་།" (c-3-4-4); "ཇོ་ནང་པས་...བདག་གིར་མཛད" (c-3-4-7) | #^0-41 (c-3-4-3); #^0-42 (c-3-4-4); #^0-45 (c-3-4-7) |
+| dharmabhadra | Ngulchu Dharmabhadra, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-1-1-3-3, c-1-2-2-1-1-3-2 | "དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན།" (c-1-2-2-1-1-3-3) | #^0-23 (c-1-2-2-1-1-3-3); #^0-22 (c-1-2-2-1-1-3-2) |
 | tenga-tulku | Dorlob Tenga Tulku, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང* | c-1-2-2-1-1-3-1-2 | (none — cited for the "opening-line-only" root-verse count, paraphrased) | #^0-35 |
 | lobsang-dawa | Geshe Lobsang Dawa (compiler), *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ* | c-1-2-2-1-1-3-2 | "གཙུག་གཏོར" (spelling fragment); "དེ་བཞིན་གཤེགས་པའི་གཙུག་གཏོར་ན" (locative quote) | #^0-10 (both) |
 | konchok-thabkhe | Konchok Thabkhe, *ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང* | c-2-4-2 | "གཙུག་ཏོར་ལྟར་བཀུར་བའི་འོས་སུ་གྱུར་པ" | #^0-28 |
@@ -64,8 +64,8 @@ One row per named `<ref>` in `article.md` (each reused with `<ref name="..." />`
 - **sungrab-tulku:** c-7-2 (counted among the six full-line attestations); c-7-3 (paraphrased for the "lacks the qualifier" and "epithet" facts, beyond the quoted spelling fragment); c-7-4 (counted among the three partial-line attestations).
 - **tsultrim-namdak:** c-2-1-2-1-13 (counted among the six full-line attestations, and as one of the two commentaries' claims independently giving the Vairocana-sourced emanation reading, in prose only — no exact-substring sentence available in the claim's own truncated བོད་ཡིག field to quote); c-3-7 (paraphrased for the epithet-with-qualifier, golden-colour corroboration, emanation position, and the "mother of bodhisattva-heirs" rationale variant — the claim's own Tibetan field is itself an ellipsis-joined extraction, so no clean exact-substring sentence was quoted from it, per the same caution `tara-04`'s own citations.md records for this commentary).
 - **gendun-drub:** c-2-2-2-2-1-1-3-2 (counted among the three partial-line attestations); c-2-2-2-2-1-1-3-3 (its rationale content — "mother of all Tathāgatas" — is paraphrased; only its simile-position clause is quoted).
-- **anon-trinle-char:** c-3-4-3 (counted among the six full-line attestations, beyond the quoted "རྒྱུད་ལས།" framing fragment).
-- **anon-utpala:** c-1-2-2-1-1-3-2 (counted among the six full-line attestations); c-1-2-2-1-1-3-3 (its rationale content is paraphrased in the མཚན་ཉིད rationale paragraph — only its locative-position clause is quoted in the divergence section).
+- **yama-sonam:** c-3-4-3 (counted among the six full-line attestations, beyond the quoted "རྒྱུད་ལས།" framing fragment).
+- **dharmabhadra:** c-1-2-2-1-1-3-2 (counted among the six full-line attestations); c-1-2-2-1-1-3-3 (its rationale content is paraphrased in the མཚན་ཉིད rationale paragraph — only its locative-position clause is quoted in the divergence section).
 - **tenga-tulku:** c-1-2-2-1-1-3-1-2 (counted among the three partial-line attestations only; not independently quoted).
 - **konchok-thabkhe:** c-2-4-2 (its rationale content is paraphrased in the མཚན་ཉིད rationale paragraph, beyond the quoted simile-position clause used in the divergence section).
 
@@ -82,7 +82,7 @@ None. Every attestation ID cited anywhere on `2-RAILS/Claims/ushnisha.md` was lo
 - **`rails_status: draft`.** `2-RAILS/Claims/ushnisha.md` carries `status: draft`, not `complete`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, §11), transformations are generated only from `status: complete` rails; this article is a known, accepted exception run at the requester's explicit instruction. A domain specialist should review the consolidated page and either promote it to `complete` or flag corrections before this article is treated as more than a draft.
 - **No URLs.** None of the 16 cited commentaries has a public URL, Wikisource page, or BDRC ID recorded in this vault. All 16 `<ref>`s use the hand-formatted `AUTHOR། TITLE།` form with no link, per skill Rule 7. No `dummy.com` or other placeholder was used.
 - **No year or page for any ref.** None of the sixteen raw claims files' frontmatter records a publication year or page number for its source commentary, so none is given in any `<ref>`.
-- **Author unattested for one commentary.** `anon-trinle-char`'s raw file gives `author: "unknown"` / `author_in_english: "unknown"`. The `<ref>` cites the title only, and the bibliography entry is marked "(མཛད་པ་པོ་མ་གསལ།)" ("author unclear") — matching the convention already used in `slot-articles/tara-04/`.
+- **Author unattested for one commentary.** `yama-sonam`'s raw file gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` / `author_in_english: "unknown"`. The `<ref>` cites the title only, and the bibliography entry is marked "(རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།)" ("Jetsün Yama Sonam") — matching the convention already used in `slot-articles/tara-04/`.
 - **Honorific parentheticals dropped from author names.** `gendun-drub`'s and `gendun-gyatso`'s frontmatter `author` fields carry a parenthetical gloss (e.g. "(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)" — "First Dalai Lama"); `konchok-thabkhe`'s carries "(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)". These were dropped from the `<ref>` and bibliography entries, keeping only the primary name, matching the same convention used in `slot-articles/tara-04/`. No factual content was lost.
 - **`sangye-nyentrul` title/filename discrepancy.** Its raw file's frontmatter `title` field is shorter than the actual `1-SOURCES/Commentaries/` filename (the filename carries extra words `འཕགས་མ་`, `ཉུང་ངུར་བཀོད་པ`). Per skill Rule 7 the citation is built from the raw file's frontmatter, so the shorter form is used, matching `tara-04`'s own precedent.
 - **Cross-article overlap with `tara-04`.** Several claims cited here (root verse c-3-4-3/c-4-4-2/etc., identity c-3-1-4-0-1, rationale c-3-4-4/c-1-2-2-1-1-3-3) are also cited in `slot-articles/tara-04/article.md`, since both articles describe the same fourth homage-verse from different angles (deity profile vs. doctrinal term). This is expected, not an error — see the scope note above.
@@ -102,16 +102,16 @@ Every quotation in `article.md` was located character-for-character (whitespace-
 | 5 | gendun-drub | c-2-2-2-2-1-1-3-5 | འདི་ལ་གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ་ཞེས... | PASS |
 | 6 | lobsang-dawa | c-1-2-2-1-1-3-2 | གཙུག་གཏོར (fragment) | PASS |
 | 7 | sungrab-tulku | c-7-3 | གཙུག་ཏོག (fragment) | PASS |
-| 8 | anon-trinle-char | c-3-4-3 | རྒྱུད་ལས། | PASS |
-| 9 | anon-trinle-char | c-3-4-4 | ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ... | PASS |
+| 8 | yama-sonam | c-3-4-3 | རྒྱུད་ལས། | PASS |
+| 9 | yama-sonam | c-3-4-4 | ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ... | PASS |
 | 10 | drakpa-gyaltsen | c-1-23 | དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་དབུའི... | PASS |
 | 11 | gendun-gyatso | c-1-4-1 | གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ | PASS |
 | 12 | karma-maitri | c-1-1-4-2 | གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ | PASS |
 | 13 | konchok-thabkhe | c-2-4-2 | གཙུག་ཏོར་ལྟར་བཀུར་བའི་འོས་སུ་གྱུར་པ | PASS |
 | 14 | gendun-drub | c-2-2-2-2-1-1-3-3 | དབུའི་གཙུག་ཏོར་ལྟར་འཁུར་ཞིང་ | PASS |
-| 15 | anon-utpala | c-1-2-2-1-1-3-3 | དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན། | PASS |
+| 15 | dharmabhadra | c-1-2-2-1-1-3-3 | དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན། | PASS |
 | 16 | lobsang-dawa | c-1-2-2-1-1-3-2 | དེ་བཞིན་གཤེགས་པའི་གཙུག་གཏོར་ན | PASS |
-| 17 | anon-trinle-char | c-3-4-7 | ཇོ་ནང་པས་དེ་བཞིན་གཤེགས་པ་རྣམ་པ... | PASS |
+| 17 | yama-sonam | c-3-4-7 | ཇོ་ནང་པས་དེ་བཞིན་གཤེགས་པ་རྣམ་པ... | PASS |
 | 18 | palden-sherab | c-3-1-4-1-1 | དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་རིག... | PASS |
 | 19 | sangye-nyentrul | c-5-0-1 | དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་སྤྲུལ་པ | PASS |
 | 20 | taranatha | c-4-3 | དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི... | PASS |

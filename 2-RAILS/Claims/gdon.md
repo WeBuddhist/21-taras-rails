@@ -3,8 +3,8 @@ topic: gdon
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -74,7 +74,7 @@ The term གདོན། (*gdon*) surfaces across this corpus in five recurring 
 ### Consensus
 The great majority of commentaries in this packet quote or gloss the root verse's third line — that Ture/Tārā destroys the hosts of *gdon* (harm-spirits), *ro-langs* (zombies/vetāla), and *gnod-sbyin* (yakṣas) — as the verse's central statement:
 
-— attested: `anon-trinle-char:c-3-21-3`, `anon-utpala:c-1-2-3-6-2`, `drakpa-gyaltsen:c-1-99`, `gendun-drub:c-2-2-2-3-6-1`, `gendun-gyatso:c-1-21-2`, `karma-maitri:c-1-1-21-3`, `konchok-thabkhe:c-2-21-3`, `sungrab-tulku:c-24-2`, `tenga-tulku:c-1-2-3-6-2`, `tenga-tulku:c-1-2-3-6-4`, `tenzin-dhonzang:c-4-21-2`, `tsultrim-namdak:c-2-1-2-1-71` (11 commentaries)
+— attested: `yama-sonam:c-3-21-3`, `dharmabhadra:c-1-2-3-6-2`, `drakpa-gyaltsen:c-1-99`, `gendun-drub:c-2-2-2-3-6-1`, `gendun-gyatso:c-1-21-2`, `karma-maitri:c-1-1-21-3`, `konchok-thabkhe:c-2-21-3`, `sungrab-tulku:c-24-2`, `tenga-tulku:c-1-2-3-6-2`, `tenga-tulku:c-1-2-3-6-4`, `tenzin-dhonzang:c-4-21-2`, `tsultrim-namdak:c-2-1-2-1-71` (11 commentaries)
 
 Of these, `tsultrim-namdak:c-2-1-2-1-74` continues the same commentary's own gloss (from `tsultrim-namdak:c-2-1-2-1-71`, above), restating that the triad's evil intentions are destroyed and adding an etymology of "Ture" (mind extremely swift, tenderly compassionate, active in all six periods of day and night) not paralleled by any other commentary's claims in this packet.
 
@@ -104,7 +104,7 @@ Both commentaries place Reading 1 before Reading 2 at the same point in their gl
 ### Consensus
 Five commentaries independently gloss "gdon" as comprising eighteen classes:
 
-— attested: `anon-utpala:c-1-2-3-6-4`, `lobsang-dawa:c-1-2-3-6-3`, `pema-namgyal:c-2-4-55`, `sangye-nyentrul:c-22-0-2`, `taranatha:c-21-1-4` (5 commentaries)
+— attested: `dharmabhadra:c-1-2-3-6-4`, `lobsang-dawa:c-1-2-3-6-3`, `pema-namgyal:c-2-4-55`, `sangye-nyentrul:c-22-0-2`, `taranatha:c-21-1-4` (5 commentaries)
 
 Four of the five explicitly cite the "boat" spirit (*nam-gru*) as the exemplary member of the set. `sangye-nyentrul:c-22-0-2` gives only "the eighteen classes of spirits **and the like**" (སོགས), without naming *nam-gru* or any other specific member.
 
@@ -213,8 +213,8 @@ None — every claim ID in the packet's manifest is cited above, within one of t
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-21-3 (1) | Verse 21 triad |
-| `anon-utpala` | c-1-2-3-6-2, c-1-2-3-6-4 (2) | Verse 21 triad, Enumeration of gdon-classes |
+| `yama-sonam` | c-3-21-3 (1) | Verse 21 triad |
+| `dharmabhadra` | c-1-2-3-6-2, c-1-2-3-6-4 (2) | Verse 21 triad, Enumeration of gdon-classes |
 | `drakpa-gyaltsen` | c-1-99, c-2-12 (2) | Verse 21 triad, Benefits verse |
 | `gendun-drub` | c-2-2-2-3-6-1, c-2-2-2-3-6-2, c-2-2-3-3-4 (3) | Verse 21 triad, Benefits verse |
 | `gendun-gyatso` | c-1-21-2 (1) | Verse 21 triad |

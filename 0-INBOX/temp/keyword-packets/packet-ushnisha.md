@@ -8,8 +8,8 @@
 
 | Commentary | Claims in packet | Status |
 |---|---|---|
-| anon-trinle-char | 3 | consulted |
-| anon-utpala | 2 | consulted |
+| yama-sonam | 3 | consulted |
+| dharmabhadra | 2 | consulted |
 | drakpa-gyaltsen | 1 | consulted |
 | gendun-drub | 3 | consulted |
 | gendun-gyatso | 1 | consulted |
@@ -26,7 +26,7 @@
 | tsultrim-namdak | 2 | consulted |
 
 ---
-## anon-trinle-char — unknown, *unknown (no English title given in the commentary's frontmatter)*
+## yama-sonam — unknown, *unknown (no English title given in the commentary's frontmatter)*
 
 #### c-3-4-3 Root verse quoted from "the tantra"
 **བོད་ཡིག:** རྒྱུད་ལས། ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། ། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་མ། ། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།
@@ -49,7 +49,7 @@
 **Referent:** PER-1 (stated), FIG-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-45)
 
-## anon-utpala — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
+## dharmabhadra — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
 
 ###### c-1-2-2-1-1-3-2 Root verse quoted: atop the Tathāgatas' uṣṇīṣa, relied upon by the victors' sons
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ།། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི།། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།།

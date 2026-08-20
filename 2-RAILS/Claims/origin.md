@@ -3,8 +3,8 @@ topic: origin
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -222,8 +222,8 @@ No claim from `lobsang-dawa`, `sungrab-tulku`, or `tsultrim-namdak` in this pack
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | none (silent) | — |
-| `anon-utpala` | none (silent) | — |
+| `yama-sonam` | none (silent) | — |
+| `dharmabhadra` | none (silent) | — |
 | `drakpa-gyaltsen` | none (silent) | — |
 | `gendun-drub` | none (silent) | — |
 | `gendun-gyatso` | none (silent) | — |
@@ -239,4 +239,4 @@ No claim from `lobsang-dawa`, `sungrab-tulku`, or `tsultrim-namdak` in this pack
 | `tenzin-dhonzang` | c-1-1 … c-1-10, c-2-1 … c-2-22 (32) | Structural placement, Yeshe Dawa narrative, Transmission of the tantra into Jambudvipa |
 | `tsultrim-namdak` | c-2-1-1-1 … c-2-1-1-13 (13) | Structural placement, Yeshe Dawa narrative, Further Avalokiteśvara-derived accounts |
 
-**Commentaries silent on this topic:** `anon-trinle-char` (origin narrative — lotus-mouth pollen — sits inside homage 1's own node 3.1, claim c-3-1-16), `anon-utpala` (origin narrative sits inside homage 1 itself, node 1.2.1, mapped to `tara-01`), `drakpa-gyaltsen` (origin narrative sits inside homage 1's own exposition, c-1-7, routed to `tara-01`), `gendun-drub` (origin narrative sits inside node 2.2.2.1, itself mapped whole to `tara-01`), `gendun-gyatso` (origin narrative sits inside homage 1's own node 1.1, claims c-1-1-7–c-1-1-8), `karma-maitri` (origin narrative sits inside homage 1, node 1.1.1), `konchok-thabkhe` (origin narrative sits inside homage 1, node 2.1), `palden-sherab` (origin narrative sits inside homage 1's word-meaning sub-node 3.1.1.1, claim c-3-1-1-1-3, routed to `tara-01`), `pema-namgyal` (origin narrative sits inside the homage-1 exposition, c-2-4-14, routed to `tara-01`), `sangye-nyentrul` (origin narrative sits inside homage 1's own node 2, claim c-2-0-5, routed to `tara-01`), `taranatha` (origin narrative sits inside homage 1's own claims, c-1-9), `tenga-tulku` (origin narrative sits inside node 1.2.1, itself mapped to `tara-01`, titled "homage by way of the historical narrative").
+**Commentaries silent on this topic:** `yama-sonam` (origin narrative — lotus-mouth pollen — sits inside homage 1's own node 3.1, claim c-3-1-16), `dharmabhadra` (origin narrative sits inside homage 1 itself, node 1.2.1, mapped to `tara-01`), `drakpa-gyaltsen` (origin narrative sits inside homage 1's own exposition, c-1-7, routed to `tara-01`), `gendun-drub` (origin narrative sits inside node 2.2.2.1, itself mapped whole to `tara-01`), `gendun-gyatso` (origin narrative sits inside homage 1's own node 1.1, claims c-1-1-7–c-1-1-8), `karma-maitri` (origin narrative sits inside homage 1, node 1.1.1), `konchok-thabkhe` (origin narrative sits inside homage 1, node 2.1), `palden-sherab` (origin narrative sits inside homage 1's word-meaning sub-node 3.1.1.1, claim c-3-1-1-1-3, routed to `tara-01`), `pema-namgyal` (origin narrative sits inside the homage-1 exposition, c-2-4-14, routed to `tara-01`), `sangye-nyentrul` (origin narrative sits inside homage 1's own node 2, claim c-2-0-5, routed to `tara-01`), `taranatha` (origin narrative sits inside homage 1's own claims, c-1-9), `tenga-tulku` (origin narrative sits inside node 1.2.1, itself mapped to `tara-01`, titled "homage by way of the historical narrative").

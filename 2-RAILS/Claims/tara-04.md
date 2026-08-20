@@ -3,8 +3,8 @@ topic: tara-04
 spine: "^1-4 (fourth homage of the twenty-one)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -72,7 +72,7 @@ status: draft
 ### Consensus
 Eight commentaries mark this passage with an explicit flat ordinal — "the fourth" (or "(4)") — identifying it as the fourth of the twenty-one homages.
 
-— attested: `anon-trinle-char:c-3-4-1`, `gendun-gyatso:c-1-4-1`, `karma-maitri:c-1-1-4-1`, `konchok-thabkhe:c-2-4-1`, `palden-sherab:c-3-1-4-0-1`, `sungrab-tulku:c-7-1`, `taranatha:c-4-1`, `tenzin-dhonzang:c-4-4-1` (8 commentaries)
+— attested: `yama-sonam:c-3-4-1`, `gendun-gyatso:c-1-4-1`, `karma-maitri:c-1-1-4-1`, `konchok-thabkhe:c-2-4-1`, `palden-sherab:c-3-1-4-0-1`, `sungrab-tulku:c-7-1`, `taranatha:c-4-1`, `tenzin-dhonzang:c-4-4-1` (8 commentaries)
 
 `palden-sherab:c-3-1-4-0-1` is also cited under "Naming and epithets" below, for the distinctive epithet ("Deathless Life-Accomplishing Uṣṇīṣavijayā") the same claim supplies alongside the ordinal; both statements are genuinely present in its text.
 
@@ -80,7 +80,7 @@ Eight commentaries mark this passage with an explicit flat ordinal — "the four
 Four commentaries instead nest this homage within a different classificatory scheme, labelling it "the third" rather than using the flat ordinal. Tenga Tulku's opening of the same node states explicitly that this is the third in a sequence of *praise-modes* (having already praised "by way of body-colour and hand-emblem," she is now, third, praised "as devotedly relied upon by the Victors and their offspring") — i.e. a rhetorical-mode count, not a renumbering of which of the twenty-one homages this is. The same node path and near-identical opening wording recur in three further commentaries.
 
 - Position 1 (flat "fourth of twenty-one"): the eight commentaries listed under Consensus above.
-- Position 2 (nested "third mode of praise," within a rhetorical-mode taxonomy rather than a flat sequence number): `anon-utpala:c-1-2-2-1-1-3-1`, `gendun-drub:c-2-2-2-2-1-1-3-1`, `lobsang-dawa:c-1-2-2-1-1-3-1`, `tenga-tulku:c-1-2-2-1-1-3-1`.
+- Position 2 (nested "third mode of praise," within a rhetorical-mode taxonomy rather than a flat sequence number): `dharmabhadra:c-1-2-2-1-1-3-1`, `gendun-drub:c-2-2-2-2-1-1-3-1`, `lobsang-dawa:c-1-2-2-1-1-3-1`, `tenga-tulku:c-1-2-2-1-1-3-1`.
 
 This is a difference in which classificatory axis is used (sequence-of-homages vs. mode-of-praise), not a doctrinal disagreement about the verse's content — but per Rule 4 it is recorded here rather than folded into the Consensus, since these four commentaries' own structural claims do not label the verse "the fourth" anywhere captured in the packet.
 
@@ -96,13 +96,13 @@ Konchok Thabkhe's commentary appends its own view ("we say," ཁོ་བོ་�
 ### Consensus
 Six commentaries quote the root verse's full four lines together in one block (subject to minor orthographic variation across transmissions — shad placement, "རྒྱལ་བ་སྤྱོད་མ" vs. "རྒྱལ་བར་སྤྱོད་མ," and similar): "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། །མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། །མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། །རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།" — "Homage to her [dwelling at] the Tathāgatas' uṣṇīṣa, whose conduct is victorious without limit, utterly relied upon by the victors' sons who have attained the perfections without exception."
 
-— attested: `anon-trinle-char:c-3-4-3`, `anon-utpala:c-1-2-2-1-1-3-2`, `palden-sherab:c-3-1-4-0-2`, `sungrab-tulku:c-7-2`, `tenzin-dhonzang:c-4-4-2`, `tsultrim-namdak:c-2-1-2-1-13` (6 commentaries)
+— attested: `yama-sonam:c-3-4-3`, `dharmabhadra:c-1-2-2-1-1-3-2`, `palden-sherab:c-3-1-4-0-2`, `sungrab-tulku:c-7-2`, `tenzin-dhonzang:c-4-4-2`, `tsultrim-namdak:c-2-1-2-1-13` (6 commentaries)
 
 ### ⚑ Divergences
 None observed on the verse's wording itself — no commentary disputes the four lines quoted above; the variation is orthographic only.
 
 ### Unique
-Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented simply as the praise's own verse — the only commentary in the corpus to attribute this particular quotation to an external tantra rather than to the praise text itself. `anon-trinle-char:c-3-4-3`
+Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented simply as the praise's own verse — the only commentary in the corpus to attribute this particular quotation to an external tantra rather than to the praise text itself. `yama-sonam:c-3-4-3`
 
 Gendun Drub quotes only the verse's first line ("ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།"), not the full four lines; the remainder of the verse appears in this commentary only as paraphrase, split across two separate glosses — line 2's content under "Identification of the object of homage" (`gendun-drub:c-2-2-2-2-1-1-3-3`), below, and lines 3–4's content under "Doctrinal: reliance of the pāramitā-bodhisattvas" (`gendun-drub:c-2-2-2-2-1-1-3-4`), below. Per Rule 9 this is recorded as a partial attestation, not folded into the full-quotation count above. `gendun-drub:c-2-2-2-2-1-1-3-2`
 
@@ -117,7 +117,7 @@ Lobsang Dawa likewise splits the verse, but under a distinct verse-numbering con
 ### Consensus
 Three commentaries give a closely corresponding causal explanation for why homage is paid at the Tathāgatas' uṣṇīṣa: because she is the mother of all Tathāgatas, she is symbolically borne / dwells as the crown-ornament atop their heads.
 
-— attested: `anon-trinle-char:c-3-4-4`, `anon-utpala:c-1-2-2-1-1-3-3`, `gendun-drub:c-2-2-2-2-1-1-3-3` (3 commentaries)
+— attested: `yama-sonam:c-3-4-4`, `dharmabhadra:c-1-2-2-1-1-3-3`, `gendun-drub:c-2-2-2-2-1-1-3-3` (3 commentaries)
 
 Konchok Thabkhe's identification overlaps with this same "mother, hence crown-ornament" idea — it names the object of homage as "the supreme definitive-meaning mother who gives rise to all victors... worthy of being honored even by all tathāgatas as their own crown-protuberance" — but frames it through the Perfection-of-Wisdom identification; it is cited in full under "Identified as the Perfection of Wisdom," below, rather than added to the attestation list above, since its own emphasis is the Prajñāpāramitā equation rather than the bare mother/crown-ornament causal link.
 
@@ -127,18 +127,18 @@ Konchok Thabkhe's identification overlaps with this same "mother, hence crown-or
 
 Anon-Trinle-Char's own commentary names this explicitly as a disagreement between two named parties:
 
-- Position A (Vairocana-specific): Anon-Trinle-Char reports that "Jonangpa" explains the verse as the emanation of vidyā-mantra wisdom specifically from the uṣṇīṣa of the Tathāgata Vairocana. `anon-trinle-char:c-3-4-7`
-- Position B (general, "all Tathāgatas," not Vairocana-specific): the same commentary reports that "Ngulchu and many other Geluk scholar-adepts" instead explain the verse "as before" — i.e. as the general uṣṇīṣa-symbolism of all Tathāgatas, not Vairocana's specifically. `anon-trinle-char:c-3-4-8`
+- Position A (Vairocana-specific): Anon-Trinle-Char reports that "Jonangpa" explains the verse as the emanation of vidyā-mantra wisdom specifically from the uṣṇīṣa of the Tathāgata Vairocana. `yama-sonam:c-3-4-7`
+- Position B (general, "all Tathāgatas," not Vairocana-specific): the same commentary reports that "Ngulchu and many other Geluk scholar-adepts" instead explain the verse "as before" — i.e. as the general uṣṇīṣa-symbolism of all Tathāgatas, not Vairocana's specifically. `yama-sonam:c-3-4-8`
 
 Position A is independently corroborated in this corpus, not merely reported at second hand: Taranatha's own commentary opens its word-gloss with "from the uṣṇīṣa of the Tathāgata Vairocana" in its own voice, and Tsultrim Namdak's commentary — re-read to confirm — likewise continues its quotation of the verse directly into "gang la phyag 'tshal na de bzhin gshegs pa rnam par snang [mdzad]," naming Vairocana as the one whose uṣṇīṣa is meant.
 
 — attested (Position A, independent of the report above): `taranatha:c-4-3`, `tsultrim-namdak:c-2-1-2-1-13` (2 further commentaries; 3 in total with the reported attribution)
 
-No claim in the packet states Position B in the commentator's own voice with Vairocana named as the position being rejected — `anon-trinle-char:c-3-4-8` reports it only as an attribution to Ngulchu and other Geluk masters. Read together with that reported position, four further commentaries in the corpus independently gloss the mother/crown-ornament identification using unqualified "all Tathāgatas" (དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་) language, without naming Vairocana — consistent with, though not explicitly framed by these commentaries themselves as taking a side in, the general reading Position B reports:
+No claim in the packet states Position B in the commentator's own voice with Vairocana named as the position being rejected — `yama-sonam:c-3-4-8` reports it only as an attribution to Ngulchu and other Geluk masters. Read together with that reported position, four further commentaries in the corpus independently gloss the mother/crown-ornament identification using unqualified "all Tathāgatas" (དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་) language, without naming Vairocana — consistent with, though not explicitly framed by these commentaries themselves as taking a side in, the general reading Position B reports:
 
-— consistent with Position B (not an explicit statement of it): `gendun-gyatso:c-1-4-1`, `gendun-drub:c-2-2-2-2-1-1-3-3`, `anon-utpala:c-1-2-2-1-1-3-3`, `drakpa-gyaltsen:c-1-23`, `konchok-thabkhe:c-2-4-2`
+— consistent with Position B (not an explicit statement of it): `gendun-gyatso:c-1-4-1`, `gendun-drub:c-2-2-2-2-1-1-3-3`, `dharmabhadra:c-1-2-2-1-1-3-3`, `drakpa-gyaltsen:c-1-23`, `konchok-thabkhe:c-2-4-2`
 
-`gendun-drub:c-2-2-2-2-1-1-3-3` and `anon-utpala:c-1-2-2-1-1-3-3` are also cited above under Consensus, for the "mother, hence crown-ornament" statement both claims fully support in addition to their general "all Tathāgatas" phrasing; both statements are genuinely present in each claim's text, so the reuse is deliberate — this is not a mis-sorted citation. `konchok-thabkhe:c-2-4-2` is likewise cited above under "Identified as the Perfection of Wisdom" for its own Prajñāpāramitā-framed identification; its wording ("worthy of being honored even by all tathāgatas as their own crown-protuberance," དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་) independently uses the same unqualified "all Tathāgatas" language, without naming Vairocana, so it belongs in this list as well.
+`gendun-drub:c-2-2-2-2-1-1-3-3` and `dharmabhadra:c-1-2-2-1-1-3-3` are also cited above under Consensus, for the "mother, hence crown-ornament" statement both claims fully support in addition to their general "all Tathāgatas" phrasing; both statements are genuinely present in each claim's text, so the reuse is deliberate — this is not a mis-sorted citation. `konchok-thabkhe:c-2-4-2` is likewise cited above under "Identified as the Perfection of Wisdom" for its own Prajñāpāramitā-framed identification; its wording ("worthy of being honored even by all tathāgatas as their own crown-protuberance," དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་) independently uses the same unqualified "all Tathāgatas" language, without naming Vairocana, so it belongs in this list as well.
 
 ### Unique
 Palden Sherab identifies her as an emanation of vidyā-mantra wisdom arising from the Tathāgata's uṣṇīṣa, whose enlightened activity is to be perfectly victorious over discordant conditions unfavourable to virtue and over boundless afflictions (one continuous gloss, split across two claim entries in the raw file with other content interleaved between them). Taranatha and Tsultrim Namdak give a closely related identification using near-identical wording — cited and discussed under "Etymology of 'boundless victorious conduct,'" below. `palden-sherab:c-3-1-4-1-1`, `palden-sherab:c-3-1-4-1-3`
@@ -179,7 +179,7 @@ None observed — no commentary in this corpus offers a competing identification
 ### Consensus
 Four commentaries gloss the verse's second line using unspecified, generic language — she is "victorious over all/limitless discordant factors/factions" — without naming a specific target of that victory.
 
-— attested: `anon-utpala:c-1-2-2-1-1-3-4`, `lobsang-dawa:c-1-2-2-1-1-3-3`, `taranatha:c-4-4`, `tsultrim-namdak:c-2-1-2-1-14` (4 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-3-4`, `lobsang-dawa:c-1-2-2-1-1-3-3`, `taranatha:c-4-4`, `tsultrim-namdak:c-2-1-2-1-14` (4 commentaries)
 
 `taranatha:c-4-4` and `tsultrim-namdak:c-2-1-2-1-14` share this generic "victorious over all discordant factions" clause as part of a longer sentence that is, in both commentaries, close to word-for-word identical: "...ཕན་ཡོན་མཐའ་ཡས་པ་དང་ལྡན་ཞིང་མི་མཐུན་པའི་ཕྱོགས་ཐམས་ཅད་ལས་རྣམ་པར་རྒྱལ་བར་བྱེད་པའི་རིག་སྔགས་..." (Taranatha) against "...ཕན་ཡོན་མཐའ་ཡས་པ་དང་ལྡན་ཞིང་མི་མཐུན་པའི་ཕྱོགས་ཐམས་ཅད་ལས་རྣམ་པར་རྒྱལ་བར་བྱེད་པའི་རིགས་སྔགས་..." (Tsultrim Namdak) — re-read and confirmed as a genuine near-verbatim correspondence, not a coincidental topical overlap, suggesting these two commentaries share an exegetical source for this clause. Both claims are also discussed under "Identification of the object of homage" → Unique, above, for the "vidyā-mantra wisdom emanation" identification carried by the same sentence.
 
@@ -192,7 +192,7 @@ None of the target-specific elaborations below contradict one another or the gen
 
 — attested: `drakpa-gyaltsen:c-1-24`, `gendun-gyatso:c-1-4-2`, `karma-maitri:c-1-1-4-3` (3 commentaries)
 
-**Afflictive and cognitive obscurations as the named target.** Anon-Trinle-Char glosses the same phrase as victory "over the limitless discordant factors such as afflictive and cognitive obscurations." Tenzin Dhonzang separately glosses it as victory over "discordant factors — the boundless cognitive obscurations and so forth." The two are related but not identical (re-read and confirmed: Anon-Trinle-Char names both obscuration-types explicitly, Tenzin Dhonzang's claim names only the cognitive one before trailing into "and so forth"), so they are not merged into one attestation. `anon-trinle-char:c-3-4-5`, `tenzin-dhonzang:c-4-4-7`
+**Afflictive and cognitive obscurations as the named target.** Anon-Trinle-Char glosses the same phrase as victory "over the limitless discordant factors such as afflictive and cognitive obscurations." Tenzin Dhonzang separately glosses it as victory over "discordant factors — the boundless cognitive obscurations and so forth." The two are related but not identical (re-read and confirmed: Anon-Trinle-Char names both obscuration-types explicitly, Tenzin Dhonzang's claim names only the cognitive one before trailing into "and so forth"), so they are not merged into one attestation. `yama-sonam:c-3-4-5`, `tenzin-dhonzang:c-4-4-7`
 
 **Obscurations preventing realization of prajñāpāramitā as the named target.** Sungrab Tulku and Tenga Tulku (already cited above under "Identified as the Perfection of Wisdom," for the surrounding Prajñāpāramitā identification) tie the "boundless victory" specifically to purifying "the two obscurations... that prevent realizing prajñāpāramitā just as it is." `sungrab-tulku:c-7-6`, `tenga-tulku:c-1-2-2-1-1-3-1-5`
 
@@ -211,7 +211,7 @@ None of the target-specific elaborations below contradict one another or the gen
 ### Consensus
 Ten commentaries state that the bodhisattva-heirs of the Victors, having themselves attained the ten pāramitās (the nature of the ten bhūmis) without exception, intensely rely upon / venerate her.
 
-— attested: `anon-trinle-char:c-3-4-6`, `anon-utpala:c-1-2-2-1-1-3-5`, `gendun-drub:c-2-2-2-2-1-1-3-4`, `lobsang-dawa:c-1-2-2-1-1-3-4`, `taranatha:c-4-7`, `sungrab-tulku:c-7-8`, `tenga-tulku:c-1-2-2-1-1-3-2-3`, `pema-namgyal:c-2-4-21`, `tsultrim-namdak:c-2-1-2-1-15`, `tenzin-dhonzang:c-4-4-8` (10 commentaries)
+— attested: `yama-sonam:c-3-4-6`, `dharmabhadra:c-1-2-2-1-1-3-5`, `gendun-drub:c-2-2-2-2-1-1-3-4`, `lobsang-dawa:c-1-2-2-1-1-3-4`, `taranatha:c-4-7`, `sungrab-tulku:c-7-8`, `tenga-tulku:c-1-2-2-1-1-3-2-3`, `pema-namgyal:c-2-4-21`, `tsultrim-namdak:c-2-1-2-1-15`, `tenzin-dhonzang:c-4-4-8` (10 commentaries)
 
 ### ⚑ Divergences
 
@@ -275,7 +275,7 @@ Two distinct iconographic traditions are attested:
 
 **Position A — elaborate form (one face, four arms):** seated firmly in bodhisattva posture on a yellow lotus and moon disc; one face, four arms; right hands in supreme-boon-granting mudrā and holding a rosary, left hands holding a pill/vase and a staff. Confirmed by this commentary's own citation of a further verse ("golden-coloured, marked by the lotus... splendorous as a golden mountain, beautiful with four arms") attributed to "Nyima Sbaspa."
 
-— attested: `anon-trinle-char:c-3-4-9`, `anon-trinle-char:c-3-4-10`, `anon-trinle-char:c-3-4-11` (1 commentary, 3 claims)
+— attested: `yama-sonam:c-3-4-9`, `yama-sonam:c-3-4-10`, `yama-sonam:c-3-4-11` (1 commentary, 3 claims)
 
 **Position B — simple longevity form (one face, two hands, golden body):** golden-coloured body holding a vase of deathless life, attested by all three commentaries below (Sangye Nyentrul and Palden Sherab further specify: seated half-cross-legged on lotus-and-moon, right hand in supreme-giving mudrā). Two of the three specify the vase as resting atop an utpala (Sangye Nyentrul, Palden Sherab); Tsultrim Namdak's own claim names only the golden colour and the vase of deathless life, with no utpala mentioned at all. Only Palden Sherab specifies the utpala's colour as blue. Sangye Nyentrul, Tsultrim Namdak, and Palden Sherab's own generation-stage visualization (cited fully under "Deathless-life practice tradition" and "Esoteric two-stage interpretation," below) independently converge on this same longevity iconography in its shared core (golden body, vase of deathless life), paired with the "Deathless Life-Accomplishing" epithet from "Naming and epithets," above.
 
@@ -352,7 +352,7 @@ Tenga Tulku's grammatical observation that the word "homage" (ཕྱག་འཚ
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-4-2` — restates the same "fourth homage, to the venerable Lady Uṣṇīṣavijayā" structural marker already attested by `anon-trinle-char:c-3-4-1` in "Structural placement"; not independently cited to avoid inflating the commentary count with a duplicate from the same source.
+- `yama-sonam:c-3-4-2` — restates the same "fourth homage, to the venerable Lady Uṣṇīṣavijayā" structural marker already attested by `yama-sonam:c-3-4-1` in "Structural placement"; not independently cited to avoid inflating the commentary count with a duplicate from the same source.
 - `sungrab-tulku:c-7-4` — re-quotes the root phrase already quoted in full at `sungrab-tulku:c-7-2`, as a bare transition into the word-by-word exegesis that follows; no independent content.
 - `sungrab-tulku:c-7-5` — a bare transitional sentence ("this is the reason why all tathāgatas or buddhas bow in homage to venerable Tārā") introducing the exegesis given in full at `sungrab-tulku:c-7-6`; no independent content beyond that transition.
 - `sungrab-tulku:c-7-7` — re-quotes the verse's third/fourth lines, already quoted in full at `sungrab-tulku:c-7-2`, as a transition into the exegesis given in full at `sungrab-tulku:c-7-8`; no independent content.
@@ -366,8 +366,8 @@ Tenga Tulku's grammatical observation that the word "homage" (ཕྱག་འཚ
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-4-1, c-3-4-2, c-3-4-3, c-3-4-4, c-3-4-5, c-3-4-6, c-3-4-7, c-3-4-8, c-3-4-9, c-3-4-10, c-3-4-11 | Structural placement, Root verse quoted, Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas, Iconographic form |
-| anon-utpala | c-1-2-2-1-1-3-1, c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-3, c-1-2-2-1-1-3-4, c-1-2-2-1-1-3-5 | Structural placement, Root verse quoted, Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas |
+| yama-sonam | c-3-4-1, c-3-4-2, c-3-4-3, c-3-4-4, c-3-4-5, c-3-4-6, c-3-4-7, c-3-4-8, c-3-4-9, c-3-4-10, c-3-4-11 | Structural placement, Root verse quoted, Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas, Iconographic form |
+| dharmabhadra | c-1-2-2-1-1-3-1, c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-3, c-1-2-2-1-1-3-4, c-1-2-2-1-1-3-5 | Structural placement, Root verse quoted, Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas |
 | drakpa-gyaltsen | c-1-23, c-1-24, c-1-25, c-1-26, c-1-27 | Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas |
 | gendun-drub | c-2-2-2-2-1-1-3-1, c-2-2-2-2-1-1-3-2, c-2-2-2-2-1-1-3-3, c-2-2-2-2-1-1-3-4, c-2-2-2-2-1-1-3-5 | Structural placement, Root verse quoted, Identification of the object of homage, Doctrinal: reliance of the pāramitā-bodhisattvas, Naming and epithets |
 | gendun-gyatso | c-1-4-1, c-1-4-2, c-1-4-3 | Structural placement, Identification of the object of homage, Etymology of "boundless victorious conduct", Doctrinal: reliance of the pāramitā-bodhisattvas |

@@ -3,8 +3,8 @@ topic: ishvara
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -54,8 +54,8 @@ status: draft
 > conflation (per the task brief and Rule 6).** The string དབང་ཕྱུག appears in
 > the corpus in several senses that are **not** this page's subject:
 > - **དགའ་རབ་དབང་ཕྱུག / བདུད་དགའ་རབ་དབང་ཕྱུག ("Kāmadeva Rabga Wangchuk")** —
->   glossed consistently across the commentaries that name him (`anon-trinle-char`,
->   `anon-utpala`, `lobsang-dawa`, `palden-sherab`, `sungrab-tulku`,
+>   glossed consistently across the commentaries that name him (`yama-sonam`,
+>   `dharmabhadra`, `lobsang-dawa`, `palden-sherab`, `sungrab-tulku`,
 >   `tenzin-dhonzang`) as **Māra Paranirmitavaśavartin, "the bodiless lord of
 >   the desire realm,"** drawn under Tārā's power by her mantra's laughter
 >   (TUTTĀRE) in a verse distinct from the sixth homage's worshipper-list.
@@ -107,7 +107,7 @@ status: draft
 homage-verse** (alongside Indra, Agni, Brahmā, and Vāyu), whether by quoting
 the root verse in full, paraphrasing its list, or glossing the bare term:
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`,
+— attested: `yama-sonam:c-3-6-3`, `dharmabhadra:c-1-2-2-1-1-5-2`,
 `drakpa-gyaltsen:c-1-34`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`,
 `karma-maitri:c-1-1-6-6`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`,
 `palden-sherab:c-3-1-6-0-2`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`,
@@ -116,7 +116,7 @@ the root verse in full, paraphrasing its list, or glossing the bare term:
 
 The root-verse wording, where quoted in full, runs: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ།
 ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་
-མདུན་ནས་བསྟོད་མ།" (`anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`,
+མདུན་ནས་བསྟོད་མ།" (`yama-sonam:c-3-6-3`, `dharmabhadra:c-1-2-2-1-1-5-2`,
 `sungrab-tulku:c-9-2`, `tenzin-dhonzang:c-4-6-2`, `tenga-tulku:c-1-2-2-1-1-5-2`,
 `palden-sherab:c-3-1-6-0-2`) — "Homage to her worshipped by Indra, Agni, Brahmā,
 Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas,
@@ -206,7 +206,7 @@ Three commentaries name Sarveśvara/Viśveśvara as **Yama**, lord of the south:
 
 - `palden-sherab:c-3-1-6-1-3`: "སྣ་ཚོགས་དབང་ཕྱུག་ནི་ལྷོ་ཕྱོགས་གཤིན་རྗེ་དང་" ("Viśveśvara
   is Yama of the south").
-- `anon-utpala:c-1-2-2-1-1-5-4`: "དེ་དག་གིས་མཚོན་པའི་གཤིན་རྗེ་དང་ཀླུ་སོགས་སྡེ་རིས་
+- `dharmabhadra:c-1-2-2-1-1-5-4`: "དེ་དག་གིས་མཚོན་པའི་གཤིན་རྗེ་དང་ཀླུ་སོགས་སྡེ་རིས་
   སྣ་ཚོགས་ཀྱི་དབང་ཕྱུག" ("Sarveśvara — the chief lords of various classes,
   exemplified by these: Yama, the nāgas, and so forth").
 - `sangye-nyentrul:c-7-0-1`: "ལྷོ་ཕྱོགས་ཀྱི་སྣ་ཚོགས་དབ༵ང་ཕྱག་སྟེ་གཤིན་རྗེ" ("Sarveśvara
@@ -220,7 +220,7 @@ Three commentaries name Sarveśvara/Viśveśvara as **Yama**, lord of the south:
   present in this commentary's own source transmission (see "Orthographic
   variants," below), not as a different word or a different referent — the
   content (Yama, south) is otherwise identical to `palden-sherab`'s and
-  `anon-utpala`'s.
+  `dharmabhadra`'s.
 
 One commentary names him **Īśāna**, in the northeast, citing an external
 liturgical source, and explicitly equates that figure with Maheśvara:
@@ -464,9 +464,9 @@ which any claim treats as denoting a different referent from the others:
   (FIG-11, distinct from its own FIG-10), carrying the "pride-destruction"
   content (see above), and also used generically by `tsultrim-namdak:c-4-8-1`
   (Śiva, in the shipwreck narrative).
-- **དྲག་པོ་དབང་ཕྱུག་ཆེན་པོ** ("the Great Wrathful Lord") — `anon-trinle-char`'s
+- **དྲག་པོ་དབང་ཕྱུག་ཆེན་པོ** ("the Great Wrathful Lord") — `yama-sonam`'s
   own variant naming for the fifth worshipper, attested at
-  `anon-trinle-char:c-3-6-5`: "...ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་
+  `yama-sonam:c-3-6-5`: "...ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་
   རྟ་ཅན་དང་། དྲག་པོ་དབང་ཕྱུག་ཆེན་པོ་དང་།" ("...Vāyu of manifold aspect,
   'Possessor of Manifold Mounts'; and the Great Wrathful Lord; and...") — no
   other commentary in the packet uses this wrathful-form epithet for the
@@ -495,16 +495,16 @@ None beyond the individual variants catalogued above.
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-8-5`, `anon-trinle-char:c-3-10-5` — Kāmadeva
+- `yama-sonam:c-3-8-5`, `yama-sonam:c-3-10-5` — Kāmadeva
   (དགའ་རབ་དབང་ཕྱུག) content, out of scope per the gather note above.
-- `anon-utpala:c-1-2-2-1-2-3-4` (per its own Grounding-index citation) —
+- `dharmabhadra:c-1-2-2-1-2-3-4` (per its own Grounding-index citation) —
   Kāmadeva content, out of scope.
 - `gendun-drub`'s and `tenga-tulku`'s and `tenzin-dhonzang`'s and
   `sungrab-tulku`'s and `palden-sherab`'s and `tsultrim-namdak`'s claims
   naming Avalokiteśvara as འཇིག་རྟེན་དབང་ཕྱུག / སྤྱན་རས་གཟིགས་དབང་ཕྱུག — out of
   scope per the gather note above (a different, already-identified deity).
 - `lobsang-dawa`'s and `palden-sherab`'s and `sungrab-tulku`'s Kāmadeva
-  claims (parallel to `anon-trinle-char`'s and `anon-utpala`'s above) — out
+  claims (parallel to `yama-sonam`'s and `dharmabhadra`'s above) — out
   of scope for the same reason; not separately enumerated by ID since none
   was drawn on for this page's content.
 - `taranatha:c-0-9` — "འཁོར་ལོའི་དབང་ཕྱུག་མ," an epithet of Tārā herself, not
@@ -535,8 +535,8 @@ None beyond the individual variants catalogued above.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-6-3, c-3-6-5, [c-3-8-5, c-3-10-5 reviewed] | Identity, Orthographic variants |
-| anon-utpala | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-4, [c-1-2-2-1-2-3-4 reviewed] | Identity, Specific identification (Yama) |
+| yama-sonam | c-3-6-3, c-3-6-5, [c-3-8-5, c-3-10-5 reviewed] | Identity, Orthographic variants |
+| dharmabhadra | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-4, [c-1-2-2-1-2-3-4 reviewed] | Identity, Specific identification (Yama) |
 | drakpa-gyaltsen | c-1-34, c-1-38, c-1-39, c-1-41 | Identity, Hierarchical framing, Vetāla-chief |
 | gendun-drub | c-2-2-2-2-1-1-5-2, c-2-2-2-2-1-1-5-3 | Identity, Vetāla-chief |
 | gendun-gyatso | c-1-6-1 | Identity |

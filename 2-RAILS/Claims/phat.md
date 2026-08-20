@@ -3,8 +3,8 @@ topic: phat
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -103,9 +103,9 @@ the two wrathful mouth-sounds TRAD/TRAṬ and PHAṬ, uttered from the goddess's
 own mouth, utterly destroy the enemy's harmful magical device (and, in several
 glosses, evil mantras, sorcery, and hail/thunderbolt weapons more broadly):
 
-— attested: `anon-trinle-char:c-3-7-3`, `anon-trinle-char:c-3-7-4`, `anon-utpala:c-1-2-2-1-1-6-2`, `drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-2`, `karma-maitri:c-1-1-7-2`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-0-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `sungrab-tulku:c-10-2`, `sungrab-tulku:c-10-4`, `taranatha:c-7-2`, `tenga-tulku:c-1-2-2-1-1-6-2`, `tenzin-dhonzang:c-4-7-2`, `tsultrim-namdak:c-2-1-2-1-24`, `tsultrim-namdak:c-3-10` (14 commentaries)
+— attested: `yama-sonam:c-3-7-3`, `yama-sonam:c-3-7-4`, `dharmabhadra:c-1-2-2-1-1-6-2`, `drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-2`, `karma-maitri:c-1-1-7-2`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-0-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `sungrab-tulku:c-10-2`, `sungrab-tulku:c-10-4`, `taranatha:c-7-2`, `tenga-tulku:c-1-2-2-1-1-6-2`, `tenzin-dhonzang:c-4-7-2`, `tsultrim-namdak:c-2-1-2-1-24`, `tsultrim-namdak:c-3-10` (14 commentaries)
 
-Only `anon-utpala:c-1-2-2-1-1-6-4` glosses PHAṬ as a word in its own right,
+Only `dharmabhadra:c-1-2-2-1-1-6-4` glosses PHAṬ as a word in its own right,
 rather than simply pairing it with TRAD/TRAṬ:
 
 **བོད་ཡིག:** དང་ཕཊ་(འགས་པ་)ཅེས་བྱ་བའི་རིག་སྔགས་ཀྱི་ང་རོ་
@@ -186,13 +186,13 @@ attestation above treats the pair jointly as a single destructive utterance.
 
 ### ⚑ Divergences
 On the "holds a deer-marked moon" homage's mantra ("ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས།
-དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ།"), `anon-trinle-char:c-3-18-6` reports a live
+དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ།"), `yama-sonam:c-3-18-6` reports a live
 disagreement among four named masters over exactly how PHAṬ attaches to the
 ten-syllable root mantra:
 
 **བོད་ཡིག:** ཏཱ་ར་གཉིས་ཅན་གྱི་རིག་སྔགས་ལ། ཨོཾ་ན་མཿ ཏཱ་རེ་ན་མོ་ཏཱ་རེ་ཧཱུྃ་ཧ་རེ་སྭཱཧཱ། ཞེས་པ་འདི་དང་། མཐར་རྟེན་ཕཊ་ཀྱི་ཡི་གེ་སརྦ་བི་ཛཿ ཤནྟིངྐུ་རུ་ཕཊ་ཅེས་པ་འདི་ཡིན་པར་ཇོ་ནང་པས་གསུངས། དངུལ་ཆུས་ཏཱ་ར་གཉིས་བརྗོད་ཀྱིས་མཚོན་པའི་ཡི་གེ་བཅུ་པའི་སྭཱཧཱའི་གནས་སུ་ཕཊ་ཅེས་སྦྱར་བའི་ཡི་གེ་བཟླས་པ་ལ་བྱེད་པར་གསུངས། ཅོ་ནེས་ཡི་གེ་བཅུ་པ་དང་བཅས་པའི་ཏཱ་ར་ཏཱ་ར་གཉིས་བརྗོད་ཅིང་ཕཊ་ཀྱི་ཡི་གེས་ཞེས་ཏཱ་ར་ལན་གཉིས་བརྗོད་པ་དང་། མཐའ་རྟེན་ཕཊ་ཡིག་ཀྱང་ཕཊ་ཡིག་རྐྱང་པ་རང་ལ་མཛད་སྣང་ཡང་། རྗེ་དགེ་འདུན་གྲུབ་པས་རྒྱུད་ཀྱི་ཚིག་ཟུར་ལྟར། ངག་ཏུ་ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས། །ཞེས་གསུངས་པ་ལྟར་ཏཱ་ར་ཏཱ་ར་ཕཊ་ཅེས་ཏཱ་ར་བཟླས་ཏེ་ལན་གཉིས་ཀྱི་མཐར་ཕཊ་ཅེས་བཏགས་པའི་རིག་སྔགས་ལ་བྱེད་ན་རྒྱུད་ཚིག་དང་མཐུན་ནོ།
 **English:** As for the vidyā-mantra containing "tāra" twice: Jonangpa states it is "OṂ NAMAḤ TĀRE NAMO TĀRE HŪṂ HARE SVĀHĀ," with the final-support syllable PHAṬ being part of "SARVA VIJAḤ ŚĀNTIṄ KURU PHAṬ." Ngulchu states it should be applied to reciting the ten-syllable [mantra] symbolised by the double "tāra," with PHAṬ attached in place of SVĀHĀ. Co ne pa appears to take it as the ten syllables together with the double "TĀRA TĀRA," with "by the letter PHAṬ" as a bare single PHAṬ serving as final support. Rje Dge 'dun grub, however, following the tantra's own marginal wording, states it as "TĀRA TĀRA PHAṬ," reciting "tāra" twice and appending PHAṬ at the end; applying the vidyā-mantra this way accords with the tantra's own wording.
-(`anon-trinle-char:c-3-18-6`)
+(`yama-sonam:c-3-18-6`)
 
 Re-reading this packet's own claims against those four reported positions
 (per Rule 10 of this skill): two of the four are independently corroborated
@@ -201,14 +201,14 @@ matching registered commentary's own gloss; the other two are not
 corroborated by any claim in this packet.
 
 - **Ngulchu's position** ("PHAṬ attached in place of SVĀHĀ") is directly
-  corroborated by `anon-utpala:c-1-2-3-3-5` — and `anon-utpala`'s own
+  corroborated by `dharmabhadra:c-1-2-3-3-5` — and `dharmabhadra`'s own
   frontmatter names its author as Ngulchu Dharmabhadra, i.e. this is the same
   author's own commentary independently stating the position
-  `anon-trinle-char` attributes to him:
+  `yama-sonam` attributes to him:
 
   **བོད་ཡིག:** ཏྭ་ར་གཉིས་བརྗོད་ཀྱིས་མཚོན་པའིཡི་གེ་བཅུ་པ་ལ་སྭཱཧཱའི་གནས་ཕཊ་ཀྱི་ཡི་གེ་བཏགས་པའི་སྔགས་བརྗོད་པས
   **English:** By reciting the mantra formed by attaching the letter PHAṬ in place of SVĀHĀ to the ten-syllable [mantra] marked by uttering "tvara" twice —
-  (`anon-utpala:c-1-2-3-3-5`; note this claim's own quotation reads "tvara,"
+  (`dharmabhadra:c-1-2-3-3-5`; note this claim's own quotation reads "tvara,"
   not "tāra" — an orthographic/dialectal variant not otherwise remarked on in
   this packet.)
 
@@ -216,16 +216,16 @@ corroborated by any claim in this packet.
   appended, no svāhā-replacement or bare-final-support framing) is consistent
   with `gendun-drub:c-2-2-2-3-3-4` — and `gendun-drub`'s own frontmatter names
   its author as Gyalwa Gendun Drub, the First Dalai Lama, matching the "Rje
-  Dge 'dun grub" `anon-trinle-char` names:
+  Dge 'dun grub" `yama-sonam` names:
 
   **བོད་ཡིག:** ངག་ཏུ་ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས་གཡོ་བའི་དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མའོ།
   **English:** By uttering "tāra" twice and the syllable PHAT, she dispels, without exception, the poisons of the moving.
   (`gendun-drub:c-2-2-2-3-3-4`)
 
   This claim states the mantra as plain "tāra twice + PHAT," matching the
-  form `anon-trinle-char` attributes to Gendun Drub, though it does not itself
+  form `yama-sonam` attributes to Gendun Drub, though it does not itself
   argue for this reading against the other three positions the way
-  `anon-trinle-char:c-3-18-6` frames Gendun Drub as doing.
+  `yama-sonam:c-3-18-6` frames Gendun Drub as doing.
 
 - **Co ne pa's position** and **Jonangpa's position** are not corroborated by
   any claim in this packet — no commentary among the 16 raw claims files is
@@ -285,12 +285,12 @@ several of these same claim IDs). Logged here per Rule 7/16 of this skill
 rather than re-cited, to keep this page focused on what is distinctively
 about the syllable itself:
 
-- `anon-trinle-char:c-3-18-3` — root verse 18 quoted in full; the plain "TĀRA
+- `yama-sonam:c-3-18-3` — root verse 18 quoted in full; the plain "TĀRA
   twice + PHAṬ dispels poison" mantra content, not the placement question.
-- `anon-trinle-char:c-3-18-4` — glosses the same verse's plain sense (poison,
+- `yama-sonam:c-3-18-4` — glosses the same verse's plain sense (poison,
   chiefly nāga-caused illness); duplicate of the consensus already established
   in `tara-mantra.md`.
-- `anon-utpala:c-1-2-3-3-2` — root verse 18 quoted in full (the "tvara"-variant
+- `dharmabhadra:c-1-2-3-3-2` — root verse 18 quoted in full (the "tvara"-variant
   reading); plain mantra content.
 - `drakpa-gyaltsen:c-1-90` — "TĀRA mantra with PHAṬ dispels stationary and
   moving poison"; plain mantra-benefit content, verse 18.
@@ -366,8 +366,8 @@ about the syllable itself:
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-18-3, c-3-18-4, c-3-18-6, c-3-7-3, c-3-7-4 (5) | TRAD/PHAṬ destroys magical devices (Consensus), Divergence over PHAṬ's placement |
-| `anon-utpala` | c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-4, c-1-2-3-3-2, c-1-2-3-3-5 (4) | TRAD/PHAṬ destroys magical devices (Consensus, word-gloss), Divergence over PHAṬ's placement (corroboration) |
+| `yama-sonam` | c-3-18-3, c-3-18-4, c-3-18-6, c-3-7-3, c-3-7-4 (5) | TRAD/PHAṬ destroys magical devices (Consensus), Divergence over PHAṬ's placement |
+| `dharmabhadra` | c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-4, c-1-2-3-3-2, c-1-2-3-3-5 (4) | TRAD/PHAṬ destroys magical devices (Consensus, word-gloss), Divergence over PHAṬ's placement (corroboration) |
 | `drakpa-gyaltsen` | c-1-45, c-1-90 (2) | TRAD/PHAṬ destroys magical devices (Consensus) |
 | `gendun-drub` | c-2-2-2-2-1-1-6-2, c-2-2-2-3-3-4 (2) | TRAD/PHAṬ destroys magical devices (Consensus), Divergence over PHAṬ's placement (corroboration) |
 | `gendun-gyatso` | c-1-18-2 (1) | (none — reviewed, not separately cited) |

@@ -15,8 +15,12 @@ Usage:
     python3 make_preview.py <path-to-article.md> [more article.md paths ...]
 
 Conversions applied to the fence body:
-    <ref name="x">content</ref>  ->  [^x]   (definition collected for the footer)
-    <ref name="x" />             ->  [^x]
+    <ref name="x">content</ref>  ->  [^label]  (definition collected for the footer;
+                                     label = slug of that commentary's author_in_english,
+                                     read live from 1-SOURCES/Commentaries/ frontmatter,
+                                     so reviewers see the author's name, not the internal
+                                     ref key; falls back to the raw ref name if unmapped)
+    <ref name="x" />             ->  [^label]
     <ref>content</ref>           ->  [^rN]  (auto-numbered, definition collected)
     == Heading ==                ->  ## Heading   (=== -> ###, etc.)
     '''bold'''                   ->  **bold**
@@ -31,10 +35,51 @@ No content inside quotations or Tibetan prose is altered beyond these markers.
 
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 FENCE_RE = re.compile(r"^```wikitext\s*$(.*?)^```\s*$", re.M | re.S)
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.S)
+
+# Vault root, resolved relative to this script (scripts/ -> skill -> Skills -> 4-SYSTEM -> root)
+VAULT_ROOT = Path(__file__).resolve().parents[4]
+
+
+def _slugify(name: str) -> str:
+    """'Jetsün Yama Sonam' -> 'jetsun-yama-sonam'. Parentheticals dropped, diacritics folded."""
+    name = re.sub(r"\([^)]*\)", "", name)
+    name = unicodedata.normalize("NFKD", name)
+    name = "".join(c for c in name if not unicodedata.combining(c))
+    name = re.sub(r"[^A-Za-z0-9]+", "-", name).strip("-").lower()
+    return name
+
+
+def load_author_labels() -> dict[str, str]:
+    """registered_id -> footnote label slug, from each commentary's author_in_english.
+
+    Read live from 1-SOURCES/Commentaries/ frontmatter so the preview always shows the
+    current human-reviewed name; the wikitext ref name (the frozen registered_id) is
+    untouched. Falls back silently to {} if the folder is unavailable.
+    """
+    labels: dict[str, str] = {}
+    used: dict[str, str] = {}
+    try:
+        for f in sorted((VAULT_ROOT / "1-SOURCES" / "Commentaries").glob("*.md")):
+            head = f.read_text(encoding="utf-8").split("\n---\n", 1)[0]
+            rid = re.search(r'^registered_id:\s*"?([\w\-]+)"?\s*$', head, re.M)
+            eng = re.search(r'^author_in_english:\s*"?(.+?)"?\s*$', head, re.M)
+            if not (rid and eng):
+                continue
+            slug = _slugify(eng.group(1))
+            if not slug:
+                continue
+            if slug in used and used[slug] != rid.group(1):
+                slug = f"{slug}-{rid.group(1)}"
+            used[slug] = rid.group(1)
+            labels[rid.group(1)] = slug
+    except OSError:
+        pass
+    return labels
 
 WARNING_CALLOUT = (
     "> [!warning] Generated preview — do not edit\n"
@@ -72,9 +117,13 @@ def sanitize_footnote_id(name: str) -> str:
 def convert(body: str) -> str:
     footnotes: dict[str, str] = {}   # id -> definition text (insertion-ordered)
     auto_n = 0
+    author_labels = load_author_labels()
 
     def register(name: str, content: str | None) -> str:
         fid = sanitize_footnote_id(name)
+        # show the reviewer the author's name, not the internal ref key;
+        # unknown keys additionally try the frozen id's historical 'anon-' form
+        fid = author_labels.get(fid) or author_labels.get(f"anon-{fid}") or fid
         if content is not None:
             content = content.strip()
             if fid in footnotes and footnotes[fid] and footnotes[fid] != content:

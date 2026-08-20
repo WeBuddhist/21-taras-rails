@@ -3,8 +3,8 @@ topic: nirvana
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -89,9 +89,9 @@ Thirteen of the sixteen commentaries, glossing the root verse's fourth epithet
 (after "blissful," "virtuous," "peaceful"), quote or paraphrase the line naming
 nirvāṇa's peace as her domain of activity:
 
-— attested (root-verse quotation): `anon-trinle-char:c-3-15-3`, `anon-utpala:c-1-2-2-2-2`, `gendun-drub:c-2-2-2-2-2-2`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-0-2`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-2`, `taranatha:c-15-4`, `tenga-tulku:c-1-2-2-2-2`, `tenzin-dhonzang:c-4-15-2`, `tsultrim-namdak:c-2-1-2-1-50` (11 commentaries)
+— attested (root-verse quotation): `yama-sonam:c-3-15-3`, `dharmabhadra:c-1-2-2-2-2`, `gendun-drub:c-2-2-2-2-2-2`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-0-2`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-2`, `taranatha:c-15-4`, `tenga-tulku:c-1-2-2-2-2`, `tenzin-dhonzang:c-4-15-2`, `tsultrim-namdak:c-2-1-2-1-50` (11 commentaries)
 
-`anon-trinle-char:c-3-15-3`, quoting what it calls "the tantra" (རྒྱུད་ལས), gives the
+`yama-sonam:c-3-15-3`, quoting what it calls "the tantra" (རྒྱུད་ལས), gives the
 line in its bare form: "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ།" — "Homage to
 her who is Bliss, Virtue, and Peace; whose very domain is the peace of nirvāṇa."
 `tenzin-dhonzang:c-4-15-2` renders the same line with a variant spelling: "མྱ་ངན་འདས་ཤིང་
@@ -102,7 +102,7 @@ abandoned to attain that domain: the two obscurations (afflictive and cognitive,
 ཉོན་སྒྲིབ་དང་ཤེས་སྒྲིབ) together with their habitual imprints, with the result named as
 cessation-truth (འགོག་བདེན) and the dharmakāya:
 
-— attested (etymology: two obscurations exhausted → cessation, dharmakāya): `anon-utpala:c-1-2-2-2-6`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-1-1`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-4`, `tenzin-dhonzang:c-4-15-5`, `tsultrim-namdak:c-2-1-2-1-51` (7 commentaries)
+— attested (etymology: two obscurations exhausted → cessation, dharmakāya): `dharmabhadra:c-1-2-2-2-6`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-1-1`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-4`, `tenzin-dhonzang:c-4-15-5`, `tsultrim-namdak:c-2-1-2-1-51` (7 commentaries)
 
 `sungrab-tulku:c-18-4` gives the fullest chain: "...ཉོན་སྒྲིབ་དང་ཤེས་སྒྲིབ་གཉིས་ཀྱི་བག་ཆགས་
 དང་བཅས་པ་མ་ལུས་པ་ཡོངས་སུ་སྤངས་པས་འགོག་པ་མྱ་ངན་ལས་འདས་ཤིང་ཞི་བ་ཆོས་སྐུ་མངོན་སུམ་དུ་སྤྱོད་ཡུལ་དང་
@@ -113,7 +113,7 @@ as her directly manifest domain: this is venerable Tārā herself." `lobsang-daw
 gives the same structure more tersely: "སྒྲིབ་གཉིས་ཀྱི་མྱ་ངན་ལས་འདས་པའི་ཞི་བ་མཆོག་གི་དབྱིངས་ལ་
 མངོན་སུམ་དུ་མཉམ་པར་བཞག་པས་དེའི་སྤྱོད་ཡུལ་ཅན་ཉིད་མ" ("directly and evenly resting in the
 supreme peaceful expanse that transcends the two obscurations' sorrow, she is its
-domain"). `anon-utpala:c-1-2-2-2-6` gives the same structure independently: "སྒྲིབ་
+domain"). `dharmabhadra:c-1-2-2-2-6` gives the same structure independently: "སྒྲིབ་
 གཉིས་ཀྱི་མྱ་ངན་ལས་འདས་པའི་ཞི་བ་མཆོག་གི་དབྱིངས་ལ་རྟག་ཏུ་མཉམ་པར་འཇོག་པས་དེའི་སྤྱོད་ཡུལ་ཅན་ཉིད་དུ་
 གྱུར་པ།" ("because she constantly abides in meditative equipoise in the expanse of
 supreme peace, the nirvāṇa beyond the two obscurations, that [expanse] itself
@@ -137,7 +137,7 @@ names *three* obscurations rather than two, adding wisdom-of-the-paths language 
 "The graduated hermeneutical unpacking," below, for its fuller context): "སྒྲིབ་པ་
 གསུམ་གྱི་དྲི་མ་ཐམས་ཅད་དང་བྲལ་བ་ནི་མྱ་ངན་ལས་འདས་པའི་སྤྱོད་པའི་ཡུལ་དང་ལྡན་པ་རྗེ་བཙུན་མ་ཉིད་ལ།..."
 
-Glossing the same "domain" line, `anon-trinle-char:c-3-15-7` explains that nirvāṇic
+Glossing the same "domain" line, `yama-sonam:c-3-15-7` explains that nirvāṇic
 peace "at every level, subtle and coarse" (ཕྲ་རགས་ཐམས་ཅད) has become the goddess's own
 domain, praising her both for being herself free of suffering and its causes and
 for possessing the power to establish others in that same state: "དེ་ལྟ་བུའི་མྱ་ངན་
@@ -453,8 +453,8 @@ not a second commentary's independent attestation.
 **Different lexical item — the "sorrowless tree" (མྱ་ངན་མེད་པའི་ཤིང), an iconographic
 name for the aśoka plant Tārā holds, sharing the root མྱ་ངན (grief/sorrow) but not
 the doctrinal compound མྱ་ངན་(ལས་)འདས་པ (nirvāṇa):**
-- `anon-trinle-char:c-3-8-9`, `anon-trinle-char:c-3-9-11`, `anon-trinle-char:c-3-9-12`,
-  `anon-trinle-char:c-3-9-14`, `anon-trinle-char:c-3-10-11` (raw file lines 866, 954,
+- `yama-sonam:c-3-8-9`, `yama-sonam:c-3-9-11`, `yama-sonam:c-3-9-12`,
+  `yama-sonam:c-3-9-14`, `yama-sonam:c-3-10-11` (raw file lines 866, 954,
   961, 975, 1056 respectively — five occurrences describing the aśoka branch/implement
   held in Tārā's hand, across the eighth, ninth, and tenth homages) — excluded as a
   different word sense, not analysed further here since none bears on the doctrinal
@@ -463,7 +463,7 @@ the doctrinal compound མྱ་ངན་(ལས་)འདས་པ (nirvāṇa)
 **Different lexical item — "dispelling sorrow" (མྱ་ངན་སེལ་བ), an epithet built on the
 bare root མྱ་ངན (grief), lexically adjacent to but distinct from the nirvāṇa
 compound:**
-- `anon-trinle-char:c-3-10-7` (raw file line 1028) — "འདི་ལ་ཉི་མ་སྦས་པས་མྱ་ངན་སེལ་བའི་
+- `yama-sonam:c-3-10-7` (raw file line 1028) — "འདི་ལ་ཉི་མ་སྦས་པས་མྱ་ངན་སེལ་བའི་
   སྒྲོལ་མ་ཞེས་གསུངས་ལ།..." ("Nyima Sbaspa calls her here 'Tārā Who Dispels Sorrow'"),
   naming the tenth homage, not the fifteenth-homage nirvāṇa material above.
 - `gendun-drub:c-2-2-2-2-1-2-3-5` — "འདི་ལ་མྱ་ངན་སེལ་བའི་སྒྲོན་མ་ཞེས་འབྱུང་ངོ་།" ("She is
@@ -518,8 +518,8 @@ attestation:**
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-15-3, c-3-15-7, c-3-8-9, c-3-9-11, c-3-9-12, c-3-9-14, c-3-10-11, c-3-10-7 [latter six reviewed, different lexical items] | Epithet-quartet (root-verse quotation, domain explained) |
-| anon-utpala | c-1-2-2-2-2, c-1-2-2-2-6 | Epithet-quartet (root-verse quotation, domain beyond two obscurations) |
+| yama-sonam | c-3-15-3, c-3-15-7, c-3-8-9, c-3-9-11, c-3-9-12, c-3-9-14, c-3-10-11, c-3-10-7 [latter six reviewed, different lexical items] | Epithet-quartet (root-verse quotation, domain explained) |
+| dharmabhadra | c-1-2-2-2-2, c-1-2-2-2-6 | Epithet-quartet (root-verse quotation, domain beyond two obscurations) |
 | drakpa-gyaltsen | c-1-81 | Epithet-quartet (etymology: conceptual thought exhausted) |
 | gendun-drub | c-2-2-2-2-2-2, ⚑c-2-2-2-2-2-3, c-2-2-2-2-1-2-3-5 [reviewed] | Epithet-quartet (root-verse quotation), ⚑ Divergence 1 |
 | gendun-gyatso | c-1-15-1 | Non-abiding nirvāṇa |

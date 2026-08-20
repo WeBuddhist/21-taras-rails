@@ -101,10 +101,10 @@ MAPPINGS: tuple[Mapping, ...] = (
     Mapping("gendun-drub", "TARAC03_GDD", is_new=True),
     Mapping("gendun-gyatso", "TARAC04_GDG"),
     Mapping("taranatha", "TARAC05_TRN"),
-    Mapping("anon-utpala", "TARAC06_NDB"),
+    Mapping("dharmabhadra", "TARAC06_NDB"),
     Mapping("konchok-thabkhe", "TARAC07_KTK"),
     Mapping("tenga-tulku", "TARAC08_DTG"),
-    Mapping("anon-trinle-char", "TARAC09_ANON"),
+    Mapping("yama-sonam", "TARAC09_JYS"),
     Mapping("pema-namgyal", "TARAC10_DPN"),
     Mapping("karma-maitri", "TARAC11_KMT"),
     Mapping("palden-sherab", "TARAC12_PDS"),
@@ -119,7 +119,7 @@ MAPPINGS: tuple[Mapping, ...] = (
 #: (Dharmabhadra's commentary; STATE.md's "R1B1817B6". Its title is textually
 #: identical to the root's own Kangyur title, which is itself worth a human look —
 #: flagged in the report, not silently resolved here.)
-NO_CORPUS_MATCH_REGISTERED_ID = "anon-rnam-snang"
+NO_CORPUS_MATCH_REGISTERED_ID = "rnam-snang"
 
 #: Frontmatter for the new Gendun Drub file, modeled on the other 15 (same field
 #: order and style as e.g. `gendun-gyatso`'s: bare Tibetan `author`, an

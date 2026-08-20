@@ -8,8 +8,8 @@
 
 | Commentary | Claims in packet | Status |
 |---|---|---|
-| anon-trinle-char | 0 | silent |
-| anon-utpala | 0 | silent |
+| yama-sonam | 0 | silent |
+| dharmabhadra | 0 | silent |
 | drakpa-gyaltsen | 2 | consulted |
 | gendun-drub | 4 | consulted |
 | gendun-gyatso | 1 | consulted |

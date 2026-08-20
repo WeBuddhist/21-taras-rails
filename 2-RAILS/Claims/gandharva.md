@@ -3,8 +3,8 @@ topic: gandharva
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -23,7 +23,7 @@ consolidation_questions:
   - "Does each commentary name gandharva among the fourfold host (bhūta, vetāla, gandharva, yakṣa) who bow/praise Tārā, and in what wording?"
   - "How does each commentary identify or explain what a gandharva actually is — retinue of Indra, exemplified by a named chief, or an intermediate-state being?"
   - "drakpa-gyaltsen, gendun-drub, karma-maitri, gendun-gyatso, and tsultrim-namdak identify the gandharvas as headed/exemplified by 'the five-crested one' (ཟུར་ཕུད་ལྔ་པ / Pañcaśikha) — do other commentaries corroborate, contest, or name a different exemplar?"
-  - "anon-utpala, lobsang-dawa, sungrab-tulku, palden-sherab, and sangye-nyentrul identify gandharvas as the retinue of Indra (བརྒྱ་བྱིན་གྱི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the 'five-crested one' reading?"
+  - "dharmabhadra, lobsang-dawa, sungrab-tulku, palden-sherab, and sangye-nyentrul identify gandharvas as the retinue of Indra (བརྒྱ་བྱིན་གྱི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the 'five-crested one' reading?"
   - "taranatha names a different gandharva exemplar (rendered in its own English gloss as Viśvāvasu) — is this corroborated or contradicted by any other commentary's naming?"
   - "konchok-thabkhe reads 'gandharva' via the Abhidharma as a synonym for an intermediate-state being, paired with Yama as its 'lord' — does any other commentary corroborate or contest this reading?"
   - "Does tenga-tulku's description of gandharvas as 'wandering the intermediate state' echo konchok-thabkhe's Abhidharma-based reading, and if so, how closely?"
@@ -59,7 +59,7 @@ status: draft
 1. Does each commentary name gandharva among the fourfold host (bhūta, vetāla, gandharva, yakṣa) who bow/praise Tārā, and in what wording?
 2. How does each commentary identify or explain what a gandharva actually is — retinue of Indra, exemplified by a named chief, or an intermediate-state being?
 3. drakpa-gyaltsen, gendun-drub, karma-maitri, gendun-gyatso, and tsultrim-namdak identify the gandharvas as headed/exemplified by "the five-crested one" (ཟུར་ཕུད་ལྔ་པ / Pañcaśikha) — do other commentaries corroborate, contest, or name a different exemplar?
-4. anon-utpala, lobsang-dawa, sungrab-tulku, palden-sherab, and sangye-nyentrul identify gandharvas as the retinue of Indra (བརྒྱ་བྱིན་གྱི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the "five-crested one" reading?
+4. dharmabhadra, lobsang-dawa, sungrab-tulku, palden-sherab, and sangye-nyentrul identify gandharvas as the retinue of Indra (བརྒྱ་བྱིན་གྱི་འཁོར) — is this corroborated elsewhere, and is it stated as compatible with the "five-crested one" reading?
 5. taranatha names a different gandharva exemplar (rendered in its own English gloss as Viśvāvasu) — is this corroborated or contradicted by any other commentary's naming?
 6. konchok-thabkhe reads "gandharva" via the Abhidharma as a synonym for an intermediate-state being, paired with Yama as its "lord" — does any other commentary corroborate or contest this reading?
 7. Does tenga-tulku's description of gandharvas as "wandering the intermediate state" echo konchok-thabkhe's Abhidharma-based reading, and if so, how closely?
@@ -78,7 +78,7 @@ The verse describing Tārā's worship by the great mundane gods (Indra, Agni, Br
 འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།
 ("...praised in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas.")
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-6`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-5`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-11`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-7`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4` (12 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-6`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-5`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-11`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-7`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4` (12 commentaries)
 
 Note: `konchok-thabkhe:c-2-6-3` fills this slot with the phrase "དྲི་ཟའི་བདག་པོ་གཤིན་རྗེ" ("Yama, lord of gandharvas") rather than a bare "gandharva" — the same structural position in the fourfold list, but a distinct textual/etymological reading; see the Identity facet below, where this same commentary's fuller etymology is given at `konchok-thabkhe:c-2-6-6`.
 
@@ -98,7 +98,7 @@ None. Every commentary that goes beyond bare textual attestation (facet above) t
 ### ⚑ Divergences
 
 **Position 1 — gandharva as the retinue of Indra (བརྒྱ་བྱིན་གྱི་འཁོར):**
-- `anon-utpala:c-1-2-2-1-1-5-5`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" ("the gandharvas, retinue of Indra").
+- `dharmabhadra:c-1-2-2-1-1-5-5`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" ("the gandharvas, retinue of Indra").
 - `lobsang-dawa:c-1-2-2-1-1-5-3`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས" ("the gandharvas — the retinue of Indra").
 - `sungrab-tulku:c-9-7`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" ("the gandharvas, retinue of Indra").
 - `palden-sherab:c-3-1-6-1-2`: "དྲི་ཟ་ནི་ལྷའི་དབང་པོ་བརྒྱ་བྱིན་གྱི་འཁོར་ཤར་ཕྱོགས་སྣ་ཚོགས་ཤིང་རྟ་སོགས་རྣམས" ("'gandharvas' are the various chariot-[riding] retinue of Indra, lord of gods, of the east").
@@ -204,8 +204,8 @@ None — every claim gathered by the Signal-A term-tagging pass (25 of 25) is ci
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-6-3, c-3-6-6 (2) | Fourfold host |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5 (2) | Fourfold host, Identity (retinue of Indra) |
+| `yama-sonam` | c-3-6-3, c-3-6-6 (2) | Fourfold host |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5 (2) | Fourfold host, Identity (retinue of Indra) |
 | `drakpa-gyaltsen` | c-1-42 (1) | Identity (five-crested exemplar) |
 | `gendun-drub` | c-2-2-2-2-1-1-5-3 (1) | Fourfold host, Identity (five-crested exemplar) |
 | `gendun-gyatso` | c-1-6-2 (1) | Fourfold host, Identity (five-crested exemplar) |

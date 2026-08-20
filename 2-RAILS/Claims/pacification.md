@@ -3,8 +3,8 @@ topic: pacification
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -31,7 +31,7 @@ consolidation_questions:
   - "Konchok-thabkhe parses 'austerity+peace' (དཀའ་ཐུབ་ཞི་བ) as a single compound meaning ethical discipline, with wisdom identified with Tārā herself rather than with the word 'peace' — does any other commentary read the compound this way?"
   - "Tenga-tulku alone glosses ཞི་བ as freedom from fault (stainlessness) across all six perfections, rather than as any one specific perfection — is this reading attested elsewhere in the packet?"
   - "Palden Sherab alone offers completion-stage 'hidden meaning' readings of ཞི་བ (tummo's pacified torment, dharmadhātu, self-liberation) — does any other commentary in the packet read ཞི་བ this way?"
-  - "Anon-trinle-char's own commentary reports an exegetical split among earlier, unnamed commentaries over whether 'peace' or 'domain' (སྤྱོད་ཡུལ) carries the wisdom-sense — can either side of that reported split be matched to a specific named commentary elsewhere in this packet?"
+  - "Anon-yama-sonam's own commentary reports an exegetical split among earlier, unnamed commentaries over whether 'peace' or 'domain' (སྤྱོད་ཡུལ) carries the wisdom-sense — can either side of that reported split be matched to a specific named commentary elsewhere in this packet?"
 date: 2026-08-12
 status: draft
 ---
@@ -57,7 +57,7 @@ status: draft
 10. Konchok-thabkhe parses "austerity+peace" (དཀའ་ཐུབ་ཞི་བ) as a single compound meaning ethical discipline, with wisdom identified with Tārā herself rather than with the word "peace" — does any other commentary read the compound this way?
 11. Tenga-tulku alone glosses ཞི་བ as freedom from fault (stainlessness) across all six perfections, rather than as any one specific perfection — is this reading attested elsewhere in the packet?
 12. Palden Sherab alone offers completion-stage "hidden meaning" readings of ཞི་བ (tummo's pacified torment, dharmadhātu, self-liberation) — does any other commentary in the packet read ཞི་བ this way?
-13. Anon-trinle-char's own commentary reports an exegetical split among earlier, unnamed commentaries over whether "peace" or "domain" (སྤྱོད་ཡུལ) carries the wisdom-sense — can either side of that reported split be matched to a specific named commentary elsewhere in this packet?
+13. Anon-yama-sonam's own commentary reports an exegetical split among earlier, unnamed commentaries over whether "peace" or "domain" (སྤྱོད་ཡུལ) carries the wisdom-sense — can either side of that reported split be matched to a specific named commentary elsewhere in this packet?
 
 ---
 
@@ -66,9 +66,9 @@ status: draft
 ### Consensus
 Four commentaries quote, in the course of their own exegesis, the same root verse enumerating Tārā's domain of practice (སྤྱོད་ཡུལ) as six items — generosity, diligence, austerity, peace, patience, and meditative concentration — with "peace" (ཞི་བ) named as the fourth:
 
-— attested: `anon-trinle-char:c-3-3-3`, `anon-utpala:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `tenzin-dhonzang:c-4-3-2` (4 commentaries)
+— attested: `yama-sonam:c-3-3-3`, `dharmabhadra:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `tenzin-dhonzang:c-4-3-2` (4 commentaries)
 
-anon-utpala's citation reads: "ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ།། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།།" (`anon-utpala:c-1-2-2-1-1-2-2`). The substance is identical across all four attestations; two spell the opening syllable གསེར་སྔོ (anon-utpala, palden-sherab: "golden-blue") against the other two's སེར་སྔོ (anon-trinle-char, tenzin-dhonzang: "yellow-blue") — a minor orthographic variant across transmissions, not a doctrinal divergence.
+dharmabhadra's citation reads: "ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ།། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།།" (`dharmabhadra:c-1-2-2-1-1-2-2`). The substance is identical across all four attestations; two spell the opening syllable གསེར་སྔོ (dharmabhadra, palden-sherab: "golden-blue") against the other two's སེར་སྔོ (yama-sonam, tenzin-dhonzang: "yellow-blue") — a minor orthographic variant across transmissions, not a doctrinal divergence.
 
 ### ⚑ Divergences
 None observed.
@@ -83,9 +83,9 @@ None.
 ### Consensus
 The majority reading equates "peace" (ཞི་བ) with the sixth of the standard six pāramitās, wisdom (ཤེས་རབ) — the verse's term "peace" is read as this text's own word for the perfection ordinarily called "wisdom":
 
-— attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-6`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-4`, `palden-sherab:c-3-1-3-1-2` (7 commentaries)
+— attested: `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-6`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-4`, `palden-sherab:c-3-1-3-1-2` (7 commentaries)
 
-The stated rationale varies even within this shared equation: anon-utpala glosses it as "the wisdom that pacifies the darkness of delusion" (རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ), while anon-trinle-char instead reasons that "'peace' [means] wisdom" because peace "becomes the root of attaining the peace of nirvana" (ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ). taranatha, lobsang-dawa, sangye-nyentrul, pema-namgyal, and palden-sherab state the equation in passing (e.g. taranatha: "ཞི་བ་སྟེ་ཤེས་རབ་") without separately arguing for it.
+The stated rationale varies even within this shared equation: dharmabhadra glosses it as "the wisdom that pacifies the darkness of delusion" (རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ), while yama-sonam instead reasons that "'peace' [means] wisdom" because peace "becomes the root of attaining the peace of nirvana" (ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ). taranatha, lobsang-dawa, sangye-nyentrul, pema-namgyal, and palden-sherab state the equation in passing (e.g. taranatha: "ཞི་བ་སྟེ་ཤེས་རབ་") without separately arguing for it.
 
 ### ⚑ Divergences
 **Position 1 — "peace" glossed as the general pacification of afflictions/discordant factors, without being equated with wisdom specifically:**
@@ -106,7 +106,7 @@ konchok-thabkhe's own commentary records a disagreement it attributes to earlier
 
 Because both sides of this reported split come from the same claim ID, both are cited to `konchok-thabkhe:c-2-3-4` rather than split across two attestations.
 
-A related but non-adjudicating observation: anon-trinle-char's own commentary independently notes that the tradition it draws on is divided on this same question, without itself resolving it or naming which commentaries hold which view: "བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས་ཞི་བའི་དོན་དུ་འགྲེལ་པ་དུ་མས་བཀྲལ་ཞིང་། ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ།" — "'austerity' is explained by many commentaries as meaning that afflictions are pacified by discipline; on the meaning of 'peace,' some apply it to the perfection of wisdom, while others take it to mean the pacifying of what is discordant with the ten perfections, explaining that 'domain' thereby teaches wisdom" (`anon-trinle-char:c-3-3-8`). Because the commentaries this claim describes are not named, this cannot be matched to a specific position above (see Question 13) and is logged here as its own independent testimony rather than folded into either side.
+A related but non-adjudicating observation: yama-sonam's own commentary independently notes that the tradition it draws on is divided on this same question, without itself resolving it or naming which commentaries hold which view: "བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས་ཞི་བའི་དོན་དུ་འགྲེལ་པ་དུ་མས་བཀྲལ་ཞིང་། ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ།" — "'austerity' is explained by many commentaries as meaning that afflictions are pacified by discipline; on the meaning of 'peace,' some apply it to the perfection of wisdom, while others take it to mean the pacifying of what is discordant with the ten perfections, explaining that 'domain' thereby teaches wisdom" (`yama-sonam:c-3-3-8`). Because the commentaries this claim describes are not named, this cannot be matched to a specific position above (see Question 13) and is logged here as its own independent testimony rather than folded into either side.
 
 ### Unique
 None beyond the divergence positions above.
@@ -155,7 +155,7 @@ gendun-drub divides "praise by bodily forms" into "praise by peaceful forms and 
 tenga-tulku is the only commentary in the packet to name an explicit **fourfold** activity scheme rather than the twofold ཞི་ཁྲོ pairing above: "༡ ཞི་བའི་སྒྲོལ་མ་དཀར་མོ། ལས་བཞིའི་སྒྲོལ་མ་ཕྱག་མཚན་མི་འདྲ་བས།" — "1: Peaceful Tārā, white. The Tārās of the *four activities* [ལས་བཞི] have differing hand-emblems: right hand in the refuge-granting mudrā, left holding an utpala; for the rest, the right hand is always the supreme-granting mudrā" (`tenga-tulku:c-z-2`). No other commentary consulted in this packet names a fourfold "four activities" (ལས་བཞི) scheme (pacifying/increasing/controlling/wrathful) for "peaceful" — see Question 9. This single attestation is the corpus's only direct link between ཞི་བ and the specific doctrinal category named in this topic's brief, and is the reason this topic is flagged as thinly attested.
 
 ### Unique
-`anon-utpala:c-1-2-2-1-1-6-8` — a nuanced middle case, neither clearly twofold nor fourfold: "ཞབས་ཞི་བའི་བཞུགས་ཚུལ་ཡིན་ཀྱང་མེ་འབར་བའི་དབུས་ན་བཞུགས་པ་ཅུང་ཟད་ཁྲོ་ཚུལ་ཙམ་མོ།" — "although the posture of her feet is that of a peaceful [deity], her abiding in the midst of blazing fire is merely a slight wrathful manner" — an iconographic observation that a single figure's appearance can blend "peaceful" and "wrathful" register rather than falling cleanly into either category.
+`dharmabhadra:c-1-2-2-1-1-6-8` — a nuanced middle case, neither clearly twofold nor fourfold: "ཞབས་ཞི་བའི་བཞུགས་ཚུལ་ཡིན་ཀྱང་མེ་འབར་བའི་དབུས་ན་བཞུགས་པ་ཅུང་ཟད་ཁྲོ་ཚུལ་ཙམ་མོ།" — "although the posture of her feet is that of a peaceful [deity], her abiding in the midst of blazing fire is merely a slight wrathful manner" — an iconographic observation that a single figure's appearance can blend "peaceful" and "wrathful" register rather than falling cleanly into either category.
 
 ---
 
@@ -239,8 +239,8 @@ None — every claim ID in the packet's manifest is cited within a facet above. 
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-3-3, c-3-3-6, c-3-3-8 | Root-verse (Consensus); Etymology (Consensus, Divergence meta-note) |
-| `anon-utpala` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6, c-1-2-2-1-1-6-8 | Root-verse (Consensus); Etymology (Consensus); Ritual-activity (Unique) |
+| `yama-sonam` | c-3-3-3, c-3-3-6, c-3-3-8 | Root-verse (Consensus); Etymology (Consensus, Divergence meta-note) |
+| `dharmabhadra` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6, c-1-2-2-1-1-6-8 | Root-verse (Consensus); Etymology (Consensus); Ritual-activity (Unique) |
 | `drakpa-gyaltsen` | c-1-18 | Etymology (Divergence, Position 1) |
 | `gendun-drub` | c-2-2-2-2-1-1-1-1, c-2-2-2-2-1-1-2-5, c-2-2-2-2-2-6, c-2-2-2-3-1-1 | Ritual-activity (Consensus); Etymology (Divergence, Position 1); Epithet (Unique) |
 | `gendun-gyatso` | c-1-3-2, c-2-3 | Etymology (Divergence, Position 1); Benefits (Consensus) |

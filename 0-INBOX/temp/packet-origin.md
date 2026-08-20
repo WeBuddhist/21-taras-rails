@@ -81,13 +81,13 @@ tsultrim-namdak:c-2-1-1-13
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 
 **Silent on this slot.** This commentary carries no separate ལོ་རྒྱུས / origin-narrative section; its account of Tārā's arising from the pollen of Avalokiteśvara's lotus-mouth sits inside homage 1's own node (3.1, claim c-3-1-16) rather than in a dedicated history node.
 
 ---
 
-## anon-utpala
+## dharmabhadra
 
 **Silent on this slot.** This commentary treats Tārā's origin narrative (birth from the lotus grown from Avalokiteśvara's tear) as the content of homage 1 itself (node 1.2.1, titled "praising through the aspect of history/origin" — ལོ་རྒྱུས་ཀྱི་སྒོ་ནས་བསྟོད་པ), which is mapped to tara-01 rather than carved out as a separate history section outside the twenty-one homages.
 

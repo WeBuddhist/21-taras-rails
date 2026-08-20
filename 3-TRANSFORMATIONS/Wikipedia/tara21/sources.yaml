@@ -121,7 +121,7 @@ sources:
   school: དགེ་ལུགས།
   note: དངུལ་ཆུའི་རི་སྦུག་ཏུ་སྦྱར།
   scan_url: https://drive.google.com/file/d/1QLbzLCx3sFN5QICjWo44etlPbxXrSkDZ/view
-  registered_id: anon-utpala
+  registered_id: dharmabhadra
 - source_id: TARAC07_KTK_bo_segmented
   title: ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང
   author: དཀོན་མཆོག་ཐབས་མཁས (མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)
@@ -162,7 +162,7 @@ sources:
   note: སྒྲོལ་མ་ཉེར་གཅིག་གི་སྐུ་མདོག་ཕྱག་མཚན་བཀོད།
   scan_url: https://drive.google.com/file/d/18dr6JOONq-iz9X2RDApaXDvIjn1jAEI2/view
   registered_id: tenga-tulku
-- source_id: TARAC09_ANON_bo_segmented
+- source_id: TARAC09_JYS_bo_segmented
   title: སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང
   author: (མཇུག་བྱང་མི་གསལ)
   collection: ཉི་མ་སྦས་པའི་ལུགས།
@@ -176,12 +176,12 @@ sources:
   status: ingested
   local_path: 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md
   sheet_row: 9
-  siglum: TARAC09_ANON
+  siglum: TARAC09_JYS
   genre: བསྟོད་འགྲེལ།
   school: ཉི་མ་སྦས་པའི་ལུགས།
   note: ཉི་མ་སྦས་པའི་གཞུང་མང་དུ་དྲངས། མཇུག་བྱང་མེད།
   scan_url: https://drive.google.com/file/d/1Y77hYCI0OPEckt97eFwO1FyViKWFeET3/view
-  registered_id: anon-trinle-char
+  registered_id: yama-sonam
 - source_id: TARAC10_DPN_bo_segmented
   title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ
   author: ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ

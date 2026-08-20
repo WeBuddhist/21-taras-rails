@@ -3,8 +3,8 @@ topic: indra
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -80,17 +80,17 @@ status: draft
 
 **Statement A — Indra appears in the corpus's sixth homage-verse, among a small set of worldly gods said to worship Tārā** (most commonly Indra, Agni, Brahmā, Vāyu, and Sarveśvara/Viśveśvara together), whether the commentary quotes the verse in full, in part, or paraphrases its list:
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`, `drakpa-gyaltsen:c-1-34`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-2`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `taranatha:c-6-3`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19` (16 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `dharmabhadra:c-1-2-2-1-1-5-2`, `drakpa-gyaltsen:c-1-34`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-2`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `taranatha:c-6-3`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19` (16 commentaries)
 
-The root-verse wording, where quoted in full, runs: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" (`anon-trinle-char:c-3-6-3`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19`, `tenga-tulku:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-2`) — "Homage to her worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas." Several other commentaries paraphrase the same list rather than quoting it verbatim, e.g. `gendun-drub:c-2-2-2-2-1-1-5-2`: "ལྷ་དབང་བརྒྱ་སྦྱིན། མེ་ལྷ། ཚངས་པ། རླུང་ལྷ་ལ་སོགས་སྣ་ཚོགས་པའི་དབང་ཕྱུག་སྟེ" ("Śakra, king of the gods; Agni; Brahmā; Vāyu; and so forth"); `karma-maitri:c-1-1-6-2` gives the minimal form of this attestation, the bare word "བརྒྱ་བྱིན" glossed simply as "Indra is named among those who worship her."
+The root-verse wording, where quoted in full, runs: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" (`yama-sonam:c-3-6-3`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19`, `tenga-tulku:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-2`) — "Homage to her worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas." Several other commentaries paraphrase the same list rather than quoting it verbatim, e.g. `gendun-drub:c-2-2-2-2-1-1-5-2`: "ལྷ་དབང་བརྒྱ་སྦྱིན། མེ་ལྷ། ཚངས་པ། རླུང་ལྷ་ལ་སོགས་སྣ་ཚོགས་པའི་དབང་ཕྱུག་སྟེ" ("Śakra, king of the gods; Agni; Brahmā; Vāyu; and so forth"); `karma-maitri:c-1-1-6-2` gives the minimal form of this attestation, the bare word "བརྒྱ་བྱིན" glossed simply as "Indra is named among those who worship her."
 
 **Statement B — Ten of these sixteen commentaries additionally gloss Indra explicitly as "lord/king of the gods"** (ལྷའི་དབང་པོ / ལྷ་དབང་ / ལྷའི་འགྲོ་བ་རྣམས་ཀྱི་རྒྱལ་པོ), rather than leaving him as a bare name in the list:
 
-— attested: `taranatha:c-6-3`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-1-1`, `drakpa-gyaltsen:c-1-34`, `gendun-gyatso:c-1-6-1`, `anon-trinle-char:c-3-6-5`, `tsultrim-namdak:c-2-1-2-1-19` (10 commentaries)
+— attested: `taranatha:c-6-3`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-1-1`, `drakpa-gyaltsen:c-1-34`, `gendun-gyatso:c-1-6-1`, `yama-sonam:c-3-6-5`, `tsultrim-namdak:c-2-1-2-1-19` (10 commentaries)
 
 `taranatha:c-6-3` is the clearest single-clause gloss: "བརྒྱ་བྱིན་ནི་ལྷའི་འགྲོ་བ་རྣམས་ཀྱི་རྒྱལ་པོའོ།" ("Indra is the king of the class of gods"). `drakpa-gyaltsen:c-1-34` and `gendun-gyatso:c-1-6-1` both use "ལྷའི་དབང་པོ་བརྒྱ་བྱིན"; `sangye-nyentrul:c-7-0-1` and `sungrab-tulku:c-9-5` use "ལྷའི་དབང་པོ" / "ལྷ་དབང་" in the same construction; `tenga-tulku:c-1-2-2-1-1-5-3` opens its exegesis "ལྷ་ཡི་དབང་པོ་བརྒྱ་བྱིན" before moving to the directional gloss (see "Directional role," below).
 
-**Orthography.** Two spellings of Indra's name are attested across the corpus: བརྒྱ་བྱིན (the more frequent form, and the one used as this page's own title and in the article-worthiness queue) and བརྒྱ་སྦྱིན (used throughout `gendun-drub`'s raw file, e.g. `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-drub:c-2-2-2-3-4-2`, and once each in `anon-trinle-char:c-3-6-5` and `tsultrim-namdak:c-8-4`). `anon-trinle-char`'s own extraction flags this tension directly: claim `anon-trinle-char:c-3-6-5`'s Referent field notes "this claim's own quotation spells the name བརྒྱ་སྦྱིན, not the Grounding index's chosen form བརྒྱ་བྱིན." No claim in the packet treats the two spellings as denoting different figures or ties the choice of spelling to any doctrinal difference — this page treats them as one figure throughout, following this page's own orthography (བརྒྱ་བྱིན) except inside verbatim quotations, which preserve each claim's own spelling.
+**Orthography.** Two spellings of Indra's name are attested across the corpus: བརྒྱ་བྱིན (the more frequent form, and the one used as this page's own title and in the article-worthiness queue) and བརྒྱ་སྦྱིན (used throughout `gendun-drub`'s raw file, e.g. `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-drub:c-2-2-2-3-4-2`, and once each in `yama-sonam:c-3-6-5` and `tsultrim-namdak:c-8-4`). `yama-sonam`'s own extraction flags this tension directly: claim `yama-sonam:c-3-6-5`'s Referent field notes "this claim's own quotation spells the name བརྒྱ་སྦྱིན, not the Grounding index's chosen form བརྒྱ་བྱིན." No claim in the packet treats the two spellings as denoting different figures or ties the choice of spelling to any doctrinal difference — this page treats them as one figure throughout, following this page's own orthography (བརྒྱ་བྱིན) except inside verbatim quotations, which preserve each claim's own spelling.
 
 ### ⚑ Divergences
 
@@ -108,9 +108,9 @@ None beyond the minimal attestation already folded into Statement A above (`karm
 
 Eight commentaries place Indra within a directional-guardian scheme (of eight, ten, or fifteen guardians, depending on the commentary), consistently assigning him the eastern direction:
 
-— attested: `anon-utpala:c-1-2-2-1-1-5-3`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-1-1`, `palden-sherab:c-3-1-11-1-1`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenga-tulku:c-1-2-2-1-2-4-3`, `tenzin-dhonzang:c-4-6-6` (8 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-5-3`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-1-1`, `palden-sherab:c-3-1-11-1-1`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenga-tulku:c-1-2-2-1-2-4-3`, `tenzin-dhonzang:c-4-6-6` (8 commentaries)
 
-`anon-utpala:c-1-2-2-1-1-5-3`: "ཤར་གྱི་ཕྱོགས་སྐྱོང་བརྒྱ་བྱིན་དང་" ("Indra, guardian of the eastern direction"). `konchok-thabkhe:c-2-6-2`: "ཤར་ཕྱོགས་སྐྱོང་བ་བརྒྱ་བྱིན་དང་" (same). `palden-sherab:c-3-1-6-1-1`: "ཤར་གྱི་ཕྱོགས་སྐྱོང་ལྷའི་དབང་པོ་བརྒྱ་བྱིན་དང་" ("Indra, lord of gods, guardian of the east"). `tenga-tulku:c-1-2-2-1-2-4-3` gives the fullest ten-guardian scheme: "ས་གཞི་སྐྱོང་བ་ནི་ཕྱོགས་སྐྱོང་བཅུ་པོ་སྟེ་སྟེང་དུ་ཚངས་པ། ཤར་དུ་བརྒྱ་བྱིན།..." ("the 'earth-protectors' are the ten directional guardians: Brahmā above; Indra in the east; ..."). `tenzin-dhonzang:c-4-6-6` cites an external liturgical source (notes on Cakrasaṃvara's subtle-drop-body maṇḍala) for an eight-guardian scheme assigning Indra the east: "ཤར་ཕྱོགས་སྐྱོང་བ་བརྒྱ་བྱིན།..." `palden-sherab:c-3-1-11-1-1` places Indra, again as "ལྷའི་དབང་པོ་བརྒྱ་བྱིན," at the head of the ten directional guardians summoned as Tārā's servants (see "Summoned as servant," below).
+`dharmabhadra:c-1-2-2-1-1-5-3`: "ཤར་གྱི་ཕྱོགས་སྐྱོང་བརྒྱ་བྱིན་དང་" ("Indra, guardian of the eastern direction"). `konchok-thabkhe:c-2-6-2`: "ཤར་ཕྱོགས་སྐྱོང་བ་བརྒྱ་བྱིན་དང་" (same). `palden-sherab:c-3-1-6-1-1`: "ཤར་གྱི་ཕྱོགས་སྐྱོང་ལྷའི་དབང་པོ་བརྒྱ་བྱིན་དང་" ("Indra, lord of gods, guardian of the east"). `tenga-tulku:c-1-2-2-1-2-4-3` gives the fullest ten-guardian scheme: "ས་གཞི་སྐྱོང་བ་ནི་ཕྱོགས་སྐྱོང་བཅུ་པོ་སྟེ་སྟེང་དུ་ཚངས་པ། ཤར་དུ་བརྒྱ་བྱིན།..." ("the 'earth-protectors' are the ten directional guardians: Brahmā above; Indra in the east; ..."). `tenzin-dhonzang:c-4-6-6` cites an external liturgical source (notes on Cakrasaṃvara's subtle-drop-body maṇḍala) for an eight-guardian scheme assigning Indra the east: "ཤར་ཕྱོགས་སྐྱོང་བ་བརྒྱ་བྱིན།..." `palden-sherab:c-3-1-11-1-1` places Indra, again as "ལྷའི་དབང་པོ་བརྒྱ་བྱིན," at the head of the ten directional guardians summoned as Tārā's servants (see "Summoned as servant," below).
 
 ### ⚑ Divergences
 
@@ -128,9 +128,9 @@ None beyond the attestations above.
 
 Five commentaries, glossing the root verse's mention of gandharvas among Tārā's worshippers, identify the gandharvas specifically as Indra's own retinue:
 
-— attested: `anon-utpala:c-1-2-2-1-1-5-5`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-7` (5 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-5-5`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-7` (5 commentaries)
 
-The wording is close to identical across all five, suggesting a shared exegetical source (re-read and confirmed: each independently pairs the same four lord–retinue assignments in the same order). `anon-utpala:c-1-2-2-1-1-5-5`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" ("the gandharvas, retinue of Indra"). `sungrab-tulku:c-9-7`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (identical wording). `lobsang-dawa:c-1-2-2-1-1-5-3`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (identical wording). `palden-sherab:c-3-1-6-1-4`: "དྲི་ཟ་ནི་ལྷའི་དབང་པོ་བརྒྱ་བྱིན་གྱི་འཁོར་ཤར་ཕྱོགས་སྣ་ཚོགས་ཤིང་རྟ་སོགས་རྣམས་དང་" ("'gandharvas' are the various chariot[-riding] retinue of Indra, lord of gods, of the east"). `sangye-nyentrul:c-7-0-2`: "ཤར་ཕྱོགས་སུ་བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (same pairing, with the eastern direction added).
+The wording is close to identical across all five, suggesting a shared exegetical source (re-read and confirmed: each independently pairs the same four lord–retinue assignments in the same order). `dharmabhadra:c-1-2-2-1-1-5-5`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" ("the gandharvas, retinue of Indra"). `sungrab-tulku:c-9-7`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (identical wording). `lobsang-dawa:c-1-2-2-1-1-5-3`: "བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (identical wording). `palden-sherab:c-3-1-6-1-4`: "དྲི་ཟ་ནི་ལྷའི་དབང་པོ་བརྒྱ་བྱིན་གྱི་འཁོར་ཤར་ཕྱོགས་སྣ་ཚོགས་ཤིང་རྟ་སོགས་རྣམས་དང་" ("'gandharvas' are the various chariot[-riding] retinue of Indra, lord of gods, of the east"). `sangye-nyentrul:c-7-0-2`: "ཤར་ཕྱོགས་སུ་བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་" (same pairing, with the eastern direction added).
 
 ### ⚑ Divergences
 
@@ -188,7 +188,7 @@ None beyond the corroborated pair above.
 
 Thirteen of the sixteen commentaries name Indra a second time, in connection with a later homage praising Tārā as served/relied-upon by "the king of the hosts of gods" together with ordinary gods and kinnaras:
 
-— attested: `anon-trinle-char:c-3-19-4`, `anon-utpala:c-1-2-3-4-3`, `gendun-drub:c-2-2-2-3-4-2`, `karma-maitri:c-1-1-19-2`, `konchok-thabkhe:c-2-19-2`, `lobsang-dawa:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-1-1`, `pema-namgyal:c-2-4-50`, `sangye-nyentrul:c-20-0-1`, `sungrab-tulku:c-22-3`, `tenzin-dhonzang:c-4-19-3`, `tsultrim-namdak:c-2-1-2-1-65`, `tsultrim-namdak:c-3-22` (12 commentaries)
+— attested: `yama-sonam:c-3-19-4`, `dharmabhadra:c-1-2-3-4-3`, `gendun-drub:c-2-2-2-3-4-2`, `karma-maitri:c-1-1-19-2`, `konchok-thabkhe:c-2-19-2`, `lobsang-dawa:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-1-1`, `pema-namgyal:c-2-4-50`, `sangye-nyentrul:c-20-0-1`, `sungrab-tulku:c-22-3`, `tenzin-dhonzang:c-4-19-3`, `tsultrim-namdak:c-2-1-2-1-65`, `tsultrim-namdak:c-3-22` (12 commentaries)
 
 `gendun-drub:c-2-2-2-3-4-2` gives the clearest gloss of the verse's phrase: "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྒྱལ་པོ་དང་ཞེས་པ་འདོད་ལྷ་བརྒྱ་སྦྱིན་དང།གཟུགས་ཀྱི་ཚངས་པ་ཆེན་པོ་སྟེ་ལྷའི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་དང་..." ("'Homage to [her revered by] the king of the hosts of gods' means: Śakra, king of the desire-realm gods, and great Brahmā of the form realm — the kings of the hosts of gods..."). `sungrab-tulku:c-22-3` and `tenzin-dhonzang:c-4-19-3` both give the same identification in near-parallel wording, pairing Indra and Brahmā as "ལྷའི་དབང་པོ་བརྒྱ་བྱིན་དང་ཚངས་པ" / "ཚངས་པ་དང་། བརྒྱ་བྱིན་སོགས." `palden-sherab:c-3-1-19-1-1` and `pema-namgyal:c-2-4-50` both extend the same list to include mountain-, tree-, and water-gods and kinnara-kings alongside Indra and Brahmā. `tsultrim-namdak:c-3-22` names this full retinue (Brahmā, Indra, nature-deities, kinnara kings) within a richer, partly-elided verse-recitation claim; `tsultrim-namdak:c-2-1-2-1-65` gives the same content as an independent gloss.
 
@@ -277,8 +277,8 @@ Tsultrim Namdak alone supplies two distinctive devotional vignettes involving In
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-6-3, c-3-6-5, c-3-19-4 | Identity (A, B), Second appearance |
-| anon-utpala | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3, c-1-2-2-1-1-5-5, c-1-2-3-4-3 | Identity (A), Directional role, Retinue, Second appearance |
+| yama-sonam | c-3-6-3, c-3-6-5, c-3-19-4 | Identity (A, B), Second appearance |
+| dharmabhadra | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3, c-1-2-2-1-1-5-5, c-1-2-3-4-3 | Identity (A), Directional role, Retinue, Second appearance |
 | drakpa-gyaltsen | c-1-34 | Identity (A, B) |
 | gendun-drub | c-2-2-2-2-1-1-5-2, c-2-2-2-3-4-2 | Identity (A, B), Second appearance |
 | gendun-gyatso | c-1-6-1 | Identity (A, B) |

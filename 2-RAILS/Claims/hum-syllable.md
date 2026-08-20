@@ -3,8 +3,8 @@ topic: hum-syllable
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -35,7 +35,7 @@ consolidation_questions:
   - "Do any commentaries give esoteric or completion-stage readings of HŪṂ (e.g. the five wisdoms, the avadhūtī channel, tummo, the four empowerments, great bliss)?"
   - "Does any other commentary corroborate Tāranātha's completion-stage/channel-based readings of HŪṂ, or are they unique to his commentary?"
   - "Do any commentaries give distinctive generation-stage sādhana visualizations in which HŪṂ marks a subsidiary implement or deity tied to a specific one of the twenty-one homages?"
-  - "Does any other commentary in the packet corroborate, in substance, each of the four bodily-location positions anon-trinle-char attributes to named masters (heart, right palm, blue HŪṂ on hand-and-foot soles, nostrils) — and does the packet's own claims from Ngulchu Dharmabhadra (anon-utpala) match the 'sole and palm' position anon-trinle-char attributes to 'Ngulchu'?"
+  - "Does any other commentary in the packet corroborate, in substance, each of the four bodily-location positions yama-sonam attributes to named masters (heart, right palm, blue HŪṂ on hand-and-foot soles, nostrils) — and does the packet's own claims from Ngulchu Dharmabhadra (dharmabhadra) match the 'sole and palm' position yama-sonam attributes to 'Ngulchu'?"
   - "Does drakpa-gyaltsen's account of light radiating from a vajra held in Tārā's hand (rather than from the heart) at the earth-striking verse agree or disagree with the majority account of light radiating from the heart-HŪṂ?"
 date: 2026-08-12
 status: draft
@@ -83,7 +83,7 @@ to this topic across all 16 commentaries in the packet (none silent).
 13. Do any commentaries give esoteric or completion-stage readings of HŪṂ (e.g. the five wisdoms, the avadhūtī channel, tummo, the four empowerments, great bliss)?
 14. Does any other commentary corroborate Tāranātha's completion-stage/channel-based readings of HŪṂ, or are they unique to his commentary?
 15. Do any commentaries give distinctive generation-stage sādhana visualizations in which HŪṂ marks a subsidiary implement or deity tied to a specific one of the twenty-one homages?
-16. Does any other commentary in the packet corroborate, in substance, each of the four bodily-location positions anon-trinle-char attributes to named masters (heart, right palm, blue HŪṂ on hand-and-foot soles, nostrils) — and does the packet's own claims from Ngulchu Dharmabhadra (anon-utpala) match the "sole and palm" position anon-trinle-char attributes to "Ngulchu"?
+16. Does any other commentary in the packet corroborate, in substance, each of the four bodily-location positions yama-sonam attributes to named masters (heart, right palm, blue HŪṂ on hand-and-foot soles, nostrils) — and does the packet's own claims from Ngulchu Dharmabhadra (dharmabhadra) match the "sole and palm" position yama-sonam attributes to "Ngulchu"?
 17. Does drakpa-gyaltsen's account of light radiating from a vajra held in Tārā's hand (rather than from the heart) at the earth-striking verse agree or disagree with the majority account of light radiating from the heart-HŪṂ?
 
 ---
@@ -95,14 +95,14 @@ Independent of any specific verse's benefit, several commentaries state — with
 further elaboration — that the HŪṂ syllable is located at Tārā's heart, typically
 alongside a wrathfully moving or furrowed brow:
 
-— attested: `anon-utpala:c-1-2-2-1-2-4-4`, `drakpa-gyaltsen:c-1-66`, `gendun-gyatso:c-1-11-2`, `karma-maitri:c-1-1-11-4` (4 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-2-4-4`, `drakpa-gyaltsen:c-1-66`, `gendun-gyatso:c-1-11-2`, `karma-maitri:c-1-1-11-4` (4 commentaries)
 
 (`gendun-gyatso:c-1-11-2` is flagged in its own raw claims file as an OCR-degraded
 block; its heart-location content is legible, but the claim's own extraction notes
 uncertainty elsewhere in the passage.)
 
 ### ⚑ Divergences
-`anon-trinle-char:c-3-14-5` explicitly reports a live disagreement among four named
+`yama-sonam:c-3-14-5` explicitly reports a live disagreement among four named
 masters over whose HŪṂ letter is meant in the earth-striking, seven-levels verse
 (see "The wrathful HŪṂ that crushes the seven levels," below, for that verse's main
 content):
@@ -112,7 +112,7 @@ content):
 — i.e.: Rje Dge 'dun grub says it is the HŪṂ at her heart; Co ne pa says it is on
 the palm of her right hand; Ngulchu speaks of a blue HŪṂ letter "on the sole and
 palm," taking it as the HŪṂ on both foot-sole and hand-palm together; Jonangpa
-says it is the HŪṂ arising from her nostrils. (`anon-trinle-char:c-3-14-5`)
+says it is the HŪṂ arising from her nostrils. (`yama-sonam:c-3-14-5`)
 
 Re-reading this packet's own claims against those four positions (Rule 10 of this
 skill): three of the four positions are independently corroborated *in substance*
@@ -130,25 +130,25 @@ that crushes the seven levels," below, which locates the crushing HŪṂ explici
 at the heart.
 
 One further data point complicates rather than resolves the picture: this
-packet's claims from `anon-utpala` — whose commentary's own frontmatter names its
+packet's claims from `dharmabhadra` — whose commentary's own frontmatter names its
 author as Ngulchu Dharmabhadra — consistently place the HŪṂ at the *heart*
 (its heart-location claim is already cited above under Consensus; its
-three-suchness claim `anon-utpala:c-1-2-3-6-3` under "The three suchness syllables
+three-suchness claim `dharmabhadra:c-1-2-3-6-3` under "The three suchness syllables
 OṂ ĀḤ HŪṂ at the three places," below, likewise places HŪṂ at the heart), not
-at the "sole and palm" position anon-trinle-char reports.
-Whether `anon-trinle-char:c-3-14-5`'s "Ngulchu" and this vault's registered
-`anon-utpala`/Ngulchu Dharmabhadra are the same author, discuss different verses
+at the "sole and palm" position yama-sonam reports.
+Whether `yama-sonam:c-3-14-5`'s "Ngulchu" and this vault's registered
+`dharmabhadra`/Ngulchu Dharmabhadra are the same author, discuss different verses
 of the root text, or simply diverge is not resolvable from the claims in this
 packet; it is recorded here as an open question rather than silently harmonized.
 
-Separately, `anon-trinle-char:c-3-11-9` records its own correction against an
+Separately, `yama-sonam:c-3-11-9` records its own correction against an
 unnamed group of "other commentaries": on the iron-hook homage's line
 "ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུཾ་གིས" ("by the letter HŪM of the quivering, frowning
 [brow]"), it states that other commentaries construe "quivering" as modifying the
 frown itself, but that in its own reading "quivering" must instead modify the
 HŪM-essence — i.e. it is the *syllable* that quivers, not the brow. No other
 commentary's claims in this packet are cited by name as holding the position
-`anon-trinle-char` argues against, so this is recorded as a single commentary's
+`yama-sonam` argues against, so this is recorded as a single commentary's
 own reported divergence rather than a two-sided disagreement between two
 registered commentaries in this packet.
 
@@ -165,19 +165,19 @@ quivering, wrathfully-frowning HŪṂ thoroughly liberates all the destitute, a 
 consensus holds that light-rays from this heart-HŪṂ liberate beings from poverty
 and destitution:
 
-— attested: `anon-trinle-char:c-3-11-7`, `gendun-drub:c-2-2-2-2-1-2-4-3`, `konchok-thabkhe:c-2-11-3`, `palden-sherab:c-3-1-11-1-2`, `pema-namgyal:c-2-4-35`, `sangye-nyentrul:c-12-0-2`, `sungrab-tulku:c-14-4`, `tenzin-dhonzang:c-4-11-4`, `tsultrim-namdak:c-2-1-2-1-40` (9 commentaries)
+— attested: `yama-sonam:c-3-11-7`, `gendun-drub:c-2-2-2-2-1-2-4-3`, `konchok-thabkhe:c-2-11-3`, `palden-sherab:c-3-1-11-1-2`, `pema-namgyal:c-2-4-35`, `sangye-nyentrul:c-12-0-2`, `sungrab-tulku:c-14-4`, `tenzin-dhonzang:c-4-11-4`, `tsultrim-namdak:c-2-1-2-1-40` (9 commentaries)
 
 Only one of the nine elaborates the specific mechanism in detail: `sangye-nyentrul:c-12-0-2` alone states that the light-rays "draw in the wealth and resources of gods, nāgas, humans and others, raining all desired things down." The other eight state the general liberation-from-destitution outcome without this specific gods/nāgas/humans imagery; it is not extended to them here.
 
 Several of these quote the root verse itself before or alongside their gloss:
 
-— quoted: `anon-trinle-char:c-3-11-3`, `palden-sherab:c-3-1-11-0-2`, `sungrab-tulku:c-14-2`, `tenga-tulku:c-1-2-2-1-2-4-2` (4 commentaries)
+— quoted: `yama-sonam:c-3-11-3`, `palden-sherab:c-3-1-11-0-2`, `sungrab-tulku:c-14-2`, `tenga-tulku:c-1-2-2-1-2-4-2` (4 commentaries)
 
 ### ⚑ Divergences
 None observed as doctrinal disagreement.
 
 ### Unique
-`anon-trinle-char:c-3-11-13` gives this homage its own distinctive two-part
+`yama-sonam:c-3-11-13` gives this homage its own distinctive two-part
 synthesis, pairing it with a separately-discussed "iron hook" epithet: the iron
 hook clears away adverse conditions, while the essence — the letter HŪM —
 accomplishes favourable conditions. This two-part framing (adversity-clearing
@@ -228,7 +228,7 @@ adds on top of (not instead of) its own literal reading, without displacing it.
 ### Unique
 `gendun-drub:c-2-2-2-2-1-2-7-3` gives its own, more abstract reading, not paralleled by any other commentary's claims in this packet: the heart's HŪM syllable "crushes — that is, dries up — the ocean of existence of the world's seven levels" — an image of drying up saṃsāric existence rather than destroying spirit-inhabitants by light, sound, or fire.
 
-`anon-trinle-char:c-3-14-4` complicates the plain "crushes all spirits" picture
+`yama-sonam:c-3-14-4` complicates the plain "crushes all spirits" picture
 with a two-step mechanism not stated elsewhere: when Tārā strikes the earth, she
 first summons — largely as allies to accomplish her own activity — the gods,
 nāgas, and yakṣas dwelling below the earth who harm the doctrine and beings; only
@@ -290,9 +290,9 @@ None observed.
 epithet not given elsewhere in the packet: "she is called here 'Tārā Who
 Proclaims the Sound HŪṂ'" (ཧཱུཾ་སྒྲ་སྒྲོགས་པའི་སྒྲོལ་མ).
 
-`anon-trinle-char:c-3-5-10` and `konchok-thabkhe:c-2-5-5` each cite an *external*
+`yama-sonam:c-3-5-10` and `konchok-thabkhe:c-2-5-5` each cite an *external*
 verse (not the root text's own line) in connection with this theme:
-`anon-trinle-char:c-3-5-10` quotes a continuation of a separate "Praise of Tārā"
+`yama-sonam:c-3-5-10` quotes a continuation of a separate "Praise of Tārā"
 text ("By the HŪṂ sound of the powerful mantra, [she] fills and pervades the
 three realms, subduing the three states of existence"), and `konchok-thabkhe:c-2-5-5`
 quotes a mahāsiddha's verse with closely parallel content ("By the hūṃ-sound of
@@ -312,7 +312,7 @@ speech), and HŪṂ (heart, mind) arrayed at the three places, a consensus holds
 that this arrangement pacifies afflictions or obstacles (of the three doors —
 body, speech, mind):
 
-— attested: `anon-utpala:c-1-2-3-6-3`, `gendun-gyatso:c-1-21-1`, `konchok-thabkhe:c-2-21-2`, `palden-sherab:c-3-1-21-1-1`, `sangye-nyentrul:c-22-0-1` (5 commentaries)
+— attested: `dharmabhadra:c-1-2-3-6-3`, `gendun-gyatso:c-1-21-1`, `konchok-thabkhe:c-2-21-2`, `palden-sherab:c-3-1-21-1-1`, `sangye-nyentrul:c-22-0-1` (5 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -337,7 +337,7 @@ folded into the pacification consensus above.
 Several commentaries state that wrathful Tārā (or her epithet "Swift One"/TURE)
 is generated from, or arises from, the seed-syllable HŪṂ:
 
-— attested: `anon-utpala:c-1-2-3-2-4`, `pema-namgyal:c-2-4-45`, `taranatha:c-16-7`, `tenzin-dhonzang:c-4-17-3` (4 commentaries)
+— attested: `dharmabhadra:c-1-2-3-2-4`, `pema-namgyal:c-2-4-45`, `taranatha:c-16-7`, `tenzin-dhonzang:c-4-17-3` (4 commentaries)
 
 `sangye-nyentrul:c-18-0-1` is routed here but does not itself state a generation/arising claim: its own text presupposes an *existing* heart-HŪM and describes Tārā stamping both soles on the earth and radiating further HŪM-shaped light-rays from that heart-HŪM — a radiation from an existing syllable, not an origination of Tārā from it. It is not counted in this Consensus.
 
@@ -365,13 +365,13 @@ cited elsewhere on this page) — and says nothing about the ten-syllable mantra
 liberates ...").
 
 ### ⚑ Divergences
-`anon-trinle-char:c-3-16-9` reports its own internal exegetical debate over the
+`yama-sonam:c-3-16-9` reports its own internal exegetical debate over the
 placement of "the ten-syllable mantra" relative to HŪṂ, citing two readings
 before stating its own judgment of the tantra's intent:
 - **Position A** ("some commentaries"): the ten-syllable mantra (oṃ namaḥ tāre namo hāre hūṃ hāre svāhā, the vidyā-mantra of HŪṂ) is arrayed at the heart and recited aloud.
 - **Position B** ("others"): the ten-syllable mantra (oṃ tāre and so forth) is arrayed at TĀṂ, and HŪṂ itself is encircled by the vidyā-mantra HŪṂ syllables "oṃ namaḥ" and so on, radiating light from that.
 
-`anon-trinle-char:c-3-16-9` itself judges that taking HŪṂ as encircled by the
+`yama-sonam:c-3-16-9` itself judges that taking HŪṂ as encircled by the
 ten mantra-letters — with light rays radiating from that encirclement to dispel
 the darkness of saṃsāra and nirvāṇa — "appears to be the tantra's own intent,"
 i.e. it favours a reading closer to Position B. This is a single commentary's own
@@ -379,7 +379,7 @@ report of a debate between unnamed prior readings, not a disagreement between tw
 registered commentaries in this packet; no other commentary's claims in the
 packet explicitly take a side between Position A and Position B as stated here.
 
-`anon-trinle-char:c-3-16-5` continues the same discussion with the two
+`yama-sonam:c-3-16-5` continues the same discussion with the two
 readings' respective benefits: meditating that one is encircled by the
 mantra-letters is said to yield the future benefit of being encircled by one's
 own steady mind, while meditating that light rays radiate from the HŪṂ letter is
@@ -513,8 +513,8 @@ non-overlapping clusters of distinctive detail.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-11-13, c-3-11-3, c-3-11-7, c-3-11-9, c-3-14-4, c-3-14-5, c-3-16-5, c-3-16-9, c-3-5-10 (9) | Location of the syllable, Iron-hook homage, Seven-levels homage, Three-realms pervasion, Ten-syllable mantra/HŪṂ relation |
-| `anon-utpala` | c-1-2-2-1-2-4-4, c-1-2-3-2-4, c-1-2-3-6-3 (3) | Location of the syllable, Seed-syllable of wrathful Tārā, Three-suchness practice |
+| `yama-sonam` | c-3-11-13, c-3-11-3, c-3-11-7, c-3-11-9, c-3-14-4, c-3-14-5, c-3-16-5, c-3-16-9, c-3-5-10 (9) | Location of the syllable, Iron-hook homage, Seven-levels homage, Three-realms pervasion, Ten-syllable mantra/HŪṂ relation |
+| `dharmabhadra` | c-1-2-2-1-2-4-4, c-1-2-3-2-4, c-1-2-3-6-3 (3) | Location of the syllable, Seed-syllable of wrathful Tārā, Three-suchness practice |
 | `drakpa-gyaltsen` | c-1-66, c-1-76, c-1-86 (3) | Location of the syllable, Seven-levels homage, Meru/Mandara/Vibhedaka |
 | `gendun-drub` | c-2-2-2-2-1-1-4-2, c-2-2-2-2-1-1-4-3, c-2-2-2-2-1-1-4-4, c-2-2-2-2-1-2-4-3, c-2-2-2-2-1-2-7-1, c-2-2-2-2-1-2-7-2, c-2-2-2-2-1-2-7-3, c-2-2-2-3-1-4 (8) | Iron-hook homage, Seven-levels homage, Three-realms pervasion, Ten-syllable mantra/HŪṂ relation |
 | `gendun-gyatso` | c-1-11-2, c-1-21-1 (2) | Location of the syllable, Three-suchness practice |

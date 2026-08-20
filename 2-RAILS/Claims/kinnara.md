@@ -3,8 +3,8 @@ topic: kinnara
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -22,12 +22,12 @@ sources:
 consolidation_questions:
   - "Does each commentary name kinnaras together with gods among those who rely upon and serve Tārā in the 'armor of joy dispels quarrels and bad dreams' verse, whether by direct quotation or by gloss/paraphrase — and how does each commentary's own tree number that verse?"
   - "Do multiple commentaries identify a specific named exemplar or king of the kinnaras, and is that naming consistent across them?"
-  - "anon-utpala, lobsang-dawa, and tenzin-dhonzang each qualify the kinnara exemplar as 'horse-headed' (རྟ་མགོ་ཅན) — do gendun-drub and drakpa-gyaltsen's parallel namings of 'the Tree' (ལྗོན་པ) corroborate this as the same figure, or name a different one?"
+  - "dharmabhadra, lobsang-dawa, and tenzin-dhonzang each qualify the kinnara exemplar as 'horse-headed' (རྟ་མགོ་ཅན) — do gendun-drub and drakpa-gyaltsen's parallel namings of 'the Tree' (ལྗོན་པ) corroborate this as the same figure, or name a different one?"
   - "Do commentaries that enumerate 'the seven worlds' (a separate doctrinal context tied to the TUTTĀRA HŪṂ subjugation verse) include kinnara among the seven, and do they agree on the full enumeration?"
   - "palden-sherab reports three named scholars' differing enumerations of the seven worlds (Drakpa Gyaltsen, Tāranātha, Gendun Gyatso) — does Tāranātha's own raw file corroborate the enumeration palden-sherab attributes to him, and does any commentary's own enumeration omit kinnara?"
   - "Does any commentary give a tantric completion-stage symbolic equivalence for kinnara, and is it corroborated by any other commentary?"
   - "Does any commentary situate kinnara-harm within a broader taxonomy of harmful spirits outside the 'gods and kinnaras' verse, and does this overlap with the parallel taxonomy already recorded for gandharva in `2-RAILS/Claims/gandharva.md`?"
-  - "Does anon-trinle-char's textual-critical flag on the 'seven worlds' caption tradition (possible scribal error) bear on how confidently the kinnara-inclusive enumerations should be read?"
+  - "Does yama-sonam's textual-critical flag on the 'seven worlds' caption tradition (possible scribal error) bear on how confidently the kinnara-inclusive enumerations should be read?"
 date: 2026-08-14
 status: draft
 ---
@@ -74,12 +74,12 @@ status: draft
 
 1. Does each commentary name kinnaras together with gods among those who rely upon and serve Tārā in the "armor of joy dispels quarrels and bad dreams" verse, whether by direct quotation or by gloss/paraphrase — and how does each commentary's own tree number that verse?
 2. Do multiple commentaries identify a specific named exemplar or king of the kinnaras, and is that naming consistent across them?
-3. anon-utpala, lobsang-dawa, and tenzin-dhonzang each qualify the kinnara exemplar as "horse-headed" (རྟ་མགོ་ཅན) — do gendun-drub's and drakpa-gyaltsen's parallel namings of "the Tree" (ལྗོན་པ) corroborate this as the same figure, or name a different one?
+3. dharmabhadra, lobsang-dawa, and tenzin-dhonzang each qualify the kinnara exemplar as "horse-headed" (རྟ་མགོ་ཅན) — do gendun-drub's and drakpa-gyaltsen's parallel namings of "the Tree" (ལྗོན་པ) corroborate this as the same figure, or name a different one?
 4. Do commentaries that enumerate "the seven worlds" (a separate doctrinal context tied to the TUTTĀRA HŪṂ subjugation verse) include kinnara among the seven, and do they agree on the full enumeration?
 5. palden-sherab reports three named scholars' differing enumerations of the seven worlds (Drakpa Gyaltsen, Tāranātha, Gendun Gyatso) — does Tāranātha's own raw file corroborate the enumeration palden-sherab attributes to him, and does any commentary's own enumeration omit kinnara?
 6. Does any commentary give a tantric completion-stage symbolic equivalence for kinnara, and is it corroborated by any other commentary?
 7. Does any commentary situate kinnara-harm within a broader taxonomy of harmful spirits outside the "gods and kinnaras" verse, and does this overlap with the parallel taxonomy already recorded for gandharva in `2-RAILS/Claims/gandharva.md`?
-8. Does anon-trinle-char's textual-critical flag on the "seven worlds" caption tradition (possible scribal error) bear on how confidently the kinnara-inclusive enumerations should be read?
+8. Does yama-sonam's textual-critical flag on the "seven worlds" caption tradition (possible scribal error) bear on how confidently the kinnara-inclusive enumerations should be read?
 
 ---
 
@@ -90,9 +90,9 @@ A verse of homage — "Homage to her who is relied upon by the king of the hosts
 
 ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།
 
-Quoted (root-verse form): `anon-trinle-char:c-3-19-3`, `anon-utpala:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-0-2`, `sungrab-tulku:c-22-2`, `tenga-tulku:c-1-2-3-4-2`, `tenzin-dhonzang:c-4-19-2`, `tsultrim-namdak:c-2-1-2-1-64`, `tsultrim-namdak:c-3-22` (7 commentaries quote the verse itself; tsultrim-namdak quotes it twice, in two different sections)
+Quoted (root-verse form): `yama-sonam:c-3-19-3`, `dharmabhadra:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-0-2`, `sungrab-tulku:c-22-2`, `tenga-tulku:c-1-2-3-4-2`, `tenzin-dhonzang:c-4-19-2`, `tsultrim-namdak:c-2-1-2-1-64`, `tsultrim-namdak:c-3-22` (7 commentaries quote the verse itself; tsultrim-namdak quotes it twice, in two different sections)
 
-Glossed/paraphrased (identifying kinnara as among those who serve/rely upon Tārā in this same verse, without independently re-quoting the full stanza): `anon-trinle-char:c-3-19-4`, `drakpa-gyaltsen:c-1-91`, `gendun-drub:c-2-2-2-3-4-2`, `gendun-gyatso:c-1-19-1`, `karma-maitri:c-1-1-19-2`, `konchok-thabkhe:c-2-19-2`, `lobsang-dawa:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-1-1`, `sangye-nyentrul:c-20-0-1`, `sungrab-tulku:c-22-3`, `taranatha:c-19-5`, `taranatha:c-19-11`, `tenga-tulku:c-1-2-3-4-3`, `tenzin-dhonzang:c-4-19-3`, `tsultrim-namdak:c-2-1-2-1-65` (15 further attestations)
+Glossed/paraphrased (identifying kinnara as among those who serve/rely upon Tārā in this same verse, without independently re-quoting the full stanza): `yama-sonam:c-3-19-4`, `drakpa-gyaltsen:c-1-91`, `gendun-drub:c-2-2-2-3-4-2`, `gendun-gyatso:c-1-19-1`, `karma-maitri:c-1-1-19-2`, `konchok-thabkhe:c-2-19-2`, `lobsang-dawa:c-1-2-3-4-2`, `palden-sherab:c-3-1-19-1-1`, `sangye-nyentrul:c-20-0-1`, `sungrab-tulku:c-22-3`, `taranatha:c-19-5`, `taranatha:c-19-11`, `tenga-tulku:c-1-2-3-4-3`, `tenzin-dhonzang:c-4-19-3`, `tsultrim-namdak:c-2-1-2-1-65` (15 further attestations)
 
 — attested overall: 15 of 16 commentaries (all except pema-namgyal, whose related but textually distinct claim is recorded separately below).
 
@@ -113,13 +113,13 @@ Five commentaries, glossing the same "gods and kinnaras" verse above, go further
 
 - `gendun-drub:c-2-2-2-3-4-2`: "ལྷ་དང་མིའམ་ཅིའི་རྒྱལ་པོ་ལྗོན་པ་ཆེན་པོ་ལ་སོགས་པས" ("the great tree-king of the gods and kinnaras and so forth").
 - `drakpa-gyaltsen:c-1-91`: "ལྷ་ཚོགས་དེ་རྣམས་ཀྱི་དཔོན་ནམ་མི་འམ་ཅི་ཡི་རྒྱལ་པོ་ལྗོན་པ་ལ་སོགས་པས" ("the lord of that host of gods, or the king of the kinnaras, [named] the Tree, and so on").
-- `anon-utpala:c-1-2-3-4-3`: "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས" ("kinnaras — [such as] the Tree, the horse-headed ones, and so forth").
+- `dharmabhadra:c-1-2-3-4-3`: "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས" ("kinnaras — [such as] the Tree, the horse-headed ones, and so forth").
 - `lobsang-dawa:c-1-2-3-4-2`: "མིའམ་ཅི་སྟེ་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ" ("kinnaras, i.e., the Tree, the horse-headed ones, and so on").
 - `tenzin-dhonzang:c-4-19-3`: "མི་འམ་ཅི་ཡིས་ལྗོན་པའི་རྒྱལ་པོ་རྟ་མགོ་ལ་སོགས་པ་རྣམས" ("kinnaras — the tree-king Horse-Head, and the like").
 
 (5 commentaries.)
 
-Three of the five (anon-utpala, lobsang-dawa, tenzin-dhonzang) additionally qualify this same named exemplar as རྟ་མགོ(་ཅན) ("horse-headed"), listing "the Tree" and "horse-headed" side by side as descriptors of the kinnara host's exemplar rather than as two different figures; two of the five (gendun-drub, drakpa-gyaltsen) name only "the [Great] Tree" without the horse-headed qualifier. No commentary states that these are two different beings, and no commentary contests another's naming — read together, these five claims converge on one named figure under two overlapping descriptions, so this is recorded as Consensus rather than Divergence (Rule 4 in reverse: this is a case where apparent variation is not a genuine disagreement).
+Three of the five (dharmabhadra, lobsang-dawa, tenzin-dhonzang) additionally qualify this same named exemplar as རྟ་མགོ(་ཅན) ("horse-headed"), listing "the Tree" and "horse-headed" side by side as descriptors of the kinnara host's exemplar rather than as two different figures; two of the five (gendun-drub, drakpa-gyaltsen) name only "the [Great] Tree" without the horse-headed qualifier. No commentary states that these are two different beings, and no commentary contests another's naming — read together, these five claims converge on one named figure under two overlapping descriptions, so this is recorded as Consensus rather than Divergence (Rule 4 in reverse: this is a case where apparent variation is not a genuine disagreement).
 
 ### ⚑ Divergences
 None observed — see the harmonization note above.
@@ -151,7 +151,7 @@ Three commentaries independently give near-identical sevenfold enumerations that
 
 — attested: `palden-sherab:c-3-1-5-1-3` (1 commentary reporting on three named scholars; two of the three reported positions, per this same claim, do not include kinnara at all, so "the seven worlds" is not a fixed formula across the tradition and its kinnara-inclusive form is one enumeration among several, not the only one).
 
-Separately, `anon-trinle-char:c-3-5-6` — a textual-critical note on captions reading "seven worlds" found on Tibetan images of Tārā — reports that "many mutually inconsistent explanations circulate without clear source" for what the seven worlds are, listing as one of several candidate explanations "preta, nāga, human, vidyādhara, kinnara, asura, and the deva-world, making seven," but concludes that the "seven worlds" caption tradition itself "appears to be a scribal error" (ཡིག་ནོར). This is the packet's most skeptical voice on the entire "seven worlds" question, bearing on all the enumerations above: even where a kinnara-inclusive sevenfold list is independently corroborated (Consensus, above), one commentary in this same packet regards the underlying "seven worlds" framing as possibly a textual corruption rather than an authoritative doctrinal count.
+Separately, `yama-sonam:c-3-5-6` — a textual-critical note on captions reading "seven worlds" found on Tibetan images of Tārā — reports that "many mutually inconsistent explanations circulate without clear source" for what the seven worlds are, listing as one of several candidate explanations "preta, nāga, human, vidyādhara, kinnara, asura, and the deva-world, making seven," but concludes that the "seven worlds" caption tradition itself "appears to be a scribal error" (ཡིག་ནོར). This is the packet's most skeptical voice on the entire "seven worlds" question, bearing on all the enumerations above: even where a kinnara-inclusive sevenfold list is independently corroborated (Consensus, above), one commentary in this same packet regards the underlying "seven worlds" framing as possibly a textual corruption rather than an authoritative doctrinal count.
 
 ### Unique
 None beyond the positions above.
@@ -194,8 +194,8 @@ None — every claim block gathered by the direct-grep pass for མིའམ་�
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-5-6, c-3-19-3, c-3-19-4 (3) | Seven worlds (skeptical note), Textual attestation (quotation + gloss) |
-| `anon-utpala` | c-1-2-3-4-2, c-1-2-3-4-3 (2) | Textual attestation (quotation), Named exemplar |
+| `yama-sonam` | c-3-5-6, c-3-19-3, c-3-19-4 (3) | Seven worlds (skeptical note), Textual attestation (quotation + gloss) |
+| `dharmabhadra` | c-1-2-3-4-2, c-1-2-3-4-3 (2) | Textual attestation (quotation), Named exemplar |
 | `drakpa-gyaltsen` | c-1-91 (1) | Textual attestation (gloss), Named exemplar |
 | `gendun-drub` | c-2-2-2-3-4-2 (1) | Textual attestation (gloss), Named exemplar |
 | `gendun-gyatso` | c-1-19-1 (1) | Textual attestation (gloss) |

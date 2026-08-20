@@ -12,13 +12,13 @@
 > The coverage check (claims-consolidation step 5) diffs this list against the claim IDs the finished topic page cites. Every ID in the gap must be either folded into a facet or logged in “Claims reviewed, not separately cited.”
 
 ```
-anon-utpala:c-1-1
-anon-utpala:c-1-2-1-1
-anon-utpala:c-1-2-2-1-1-1-1
-anon-utpala:c-1-2-2-1-1-1-2
-anon-utpala:c-1-2-2-1-1-1-3
-anon-utpala:c-1-2-2-1-2-1-1
-anon-utpala:c-1-2-3-1-1
+dharmabhadra:c-1-1
+dharmabhadra:c-1-2-1-1
+dharmabhadra:c-1-2-2-1-1-1-1
+dharmabhadra:c-1-2-2-1-1-1-2
+dharmabhadra:c-1-2-2-1-1-1-3
+dharmabhadra:c-1-2-2-1-2-1-1
+dharmabhadra:c-1-2-3-1-1
 drakpa-gyaltsen:c-0-3
 drakpa-gyaltsen:c-0-4
 drakpa-gyaltsen:c-0-5
@@ -93,13 +93,13 @@ tsultrim-namdak:c-8-6
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 
 **Silent on this slot.** No node states a sa-bcad division of the praise itself (parts, where the praise proper ends and benefits begin). Node 3 — the only node whose position would carry such a statement — has no direct claims of its own (announcement-only heading); nodes 1 and 2 instead gloss the root text's own title and opening salutation line, not a division of the praise (see Unmapped nodes).
 
 ---
 
-## anon-utpala
+## dharmabhadra
 **Claims in this packet:** 0 mapped, 7 extra
 
 > ⓘ **Routed by claim, not by node.** Node 1's own direct claim states the exposition's own threefold division (brief teaching / extended explanation / benefits). Cannot be routed by node: mapping node 1 would sweep in every claim in the file.

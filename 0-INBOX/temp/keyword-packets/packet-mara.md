@@ -8,8 +8,8 @@
 
 | Commentary | Claims in packet | Status |
 |---|---|---|
-| anon-trinle-char | 1 | consulted |
-| anon-utpala | 5 | consulted |
+| yama-sonam | 1 | consulted |
+| dharmabhadra | 5 | consulted |
 | drakpa-gyaltsen | 4 | consulted |
 | gendun-drub | 4 | consulted |
 | gendun-gyatso | 4 | consulted |
@@ -26,7 +26,7 @@
 | tsultrim-namdak | 5 | consulted |
 
 ---
-## anon-trinle-char — unknown, *unknown (no English title given in the commentary's frontmatter)*
+## yama-sonam — unknown, *unknown (no English title given in the commentary's frontmatter)*
 
 #### c-3-8-3 Root verse quoted from "the tantra"
 **བོད་ཡིག:** རྒྱུད་ལས། ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ། ། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། ། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།
@@ -35,7 +35,7 @@
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-80)
 
-## anon-utpala — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
+## dharmabhadra — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
 
 ##### c-1-2-1-6 Etymology of "Glorious One" — utterly destroys the host of māras
 **བོད་ཡིག:** བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ།

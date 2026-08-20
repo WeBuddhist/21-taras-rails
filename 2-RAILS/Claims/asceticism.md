@@ -3,8 +3,8 @@ topic: asceticism
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -247,9 +247,9 @@ own wording — the interpretive content is already captured by the Consensus
 attestations in "Austerity as the discipline-pāramitā" above, drawn from
 other claims by the same or other commentaries:
 
-- `anon-trinle-char:c-3-3-3` — root verse quoted from "the tantra"; no
+- `yama-sonam:c-3-3-3` — root verse quoted from "the tantra"; no
   independent gloss.
-- `anon-utpala:c-1-2-2-1-1-2-2` — root verse quoted; no independent gloss.
+- `dharmabhadra:c-1-2-2-1-1-2-2` — root verse quoted; no independent gloss.
 - `sungrab-tulku:c-6-2` — root verse quoted in full as a section-opener; no
   independent gloss (this commentary's discussion of the verse's content
   stops at the quotation itself at this locus).
@@ -272,8 +272,8 @@ other claims by the same or other commentaries:
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-3-3 (1) | Claims reviewed, not separately cited |
-| `anon-utpala` | c-1-2-2-1-1-2-2 (1) | Claims reviewed, not separately cited |
+| `yama-sonam` | c-3-3-3 (1) | Claims reviewed, not separately cited |
+| `dharmabhadra` | c-1-2-2-1-1-2-2 (1) | Claims reviewed, not separately cited |
 | `drakpa-gyaltsen` | c-1-17 (1) | Austerity as the discipline-pāramitā |
 | `gendun-drub` | c-2-2-2-2-1-1-2-4 (1) | Austerity as the discipline-pāramitā |
 | `gendun-gyatso` | c-1-3-2 (1) | Austerity as the discipline-pāramitā |
@@ -290,7 +290,7 @@ other claims by the same or other commentaries:
 | `tsultrim-namdak` | c-2-1-2-1-10, c-2-1-2-1-11, c-3-6 (3) | Austerity as the discipline-pāramitā (Consensus + Unique), Claims reviewed |
 
 **Commentaries silent on this topic:** none — all 16 commentaries have at
-least one claim mentioning དཀའ་ཐུབ. Three (`anon-trinle-char`, `anon-utpala`,
+least one claim mentioning དཀའ་ཐུབ. Three (`yama-sonam`, `dharmabhadra`,
 `sungrab-tulku`) attest only a verbatim quotation of the root verse, with no
 independent commentarial gloss of the term; they are logged in "Claims
 reviewed, not separately cited" above rather than cited in a facet.

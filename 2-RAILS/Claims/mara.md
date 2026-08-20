@@ -3,8 +3,8 @@ topic: mara
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -104,21 +104,21 @@ The epithet/utterance "Ture" is connected specifically to Māra by two commentar
 None observed.
 
 ### Unique
-`anon-utpala:c-1-2-1-6` etymologizes a third epithet, "the Glorious One" (དཔལ་མོ, dpal mo), the same way: "because she utterly destroys the host of māras without remainder, she is 'the Glorious One.'" No other commentary's claims in this packet etymologize this particular epithet via māra-destruction.
+`dharmabhadra:c-1-2-1-6` etymologizes a third epithet, "the Glorious One" (དཔལ་མོ, dpal mo), the same way: "because she utterly destroys the host of māras without remainder, she is 'the Glorious One.'" No other commentary's claims in this packet etymologize this particular epithet via māra-destruction.
 
 ---
 
 ## The Ture verse (Homage 8) quoted verbatim
 
 ### Consensus
-The Ture verse is quoted at length, essentially verbatim, by six commentaries. `anon-trinle-char:c-3-8-3`'s quotation (introduced "From the tantra") reads:
+The Ture verse is quoted at length, essentially verbatim, by six commentaries. `yama-sonam:c-3-8-3`'s quotation (introduced "From the tantra") reads:
 
 **བོད་ཡིག:** རྒྱུད་ལས། ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ། ། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། ། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།
 **English:** "From the tantra: 'Homage to Ture, great fear, destroyer of Māra's heroes; whose lotus-face bears a wrathful frown, who slays all enemies without exception.'"
 
-— attested: `anon-trinle-char:c-3-8-3`, `anon-utpala:c-1-2-2-1-2-1-2`, `gendun-drub:c-2-2-2-2-1-2-1-2`, `palden-sherab:c-3-1-8-0-2`, `tenzin-dhonzang:c-4-8-3`, `tsultrim-namdak:c-2-1-2-1-27` (6 commentaries)
+— attested: `yama-sonam:c-3-8-3`, `dharmabhadra:c-1-2-2-1-2-1-2`, `gendun-drub:c-2-2-2-2-1-2-1-2`, `palden-sherab:c-3-1-8-0-2`, `tenzin-dhonzang:c-4-8-3`, `tsultrim-namdak:c-2-1-2-1-27` (6 commentaries)
 
-`gendun-drub:c-2-2-2-2-1-2-1-2` and `tenzin-dhonzang:c-4-8-3` each quote only part of the four-line verse (the first two lines and the last three lines respectively), consistent with — not conflicting with — the fuller quotations given by the other three (`anon-trinle-char:c-3-8-3`, `anon-utpala:c-1-2-2-1-2-1-2`, `palden-sherab:c-3-1-8-0-2`). `tsultrim-namdak:c-2-1-2-1-27` reads the second syllable of the first line as ཆེན་པོས (instrumental) rather than ཆེན་མོ (nominative, as in every other quotation in this packet), and its own quotation is truncated mid-word (ending at དགྲ་); this is recorded as its own, fourth, textual variant — internal to this one quotation, not a doctrinal disagreement, so it is not treated as a ⚑ divergence.
+`gendun-drub:c-2-2-2-2-1-2-1-2` and `tenzin-dhonzang:c-4-8-3` each quote only part of the four-line verse (the first two lines and the last three lines respectively), consistent with — not conflicting with — the fuller quotations given by the other three (`yama-sonam:c-3-8-3`, `dharmabhadra:c-1-2-2-1-2-1-2`, `palden-sherab:c-3-1-8-0-2`). `tsultrim-namdak:c-2-1-2-1-27` reads the second syllable of the first line as ཆེན་པོས (instrumental) rather than ཆེན་མོ (nominative, as in every other quotation in this packet), and its own quotation is truncated mid-word (ending at དགྲ་); this is recorded as its own, fourth, textual variant — internal to this one quotation, not a doctrinal disagreement, so it is not treated as a ⚑ divergence.
 
 ### ⚑ Divergences
 None observed (see the textual-variant note above).
@@ -133,11 +133,11 @@ None beyond the variant reading noted above.
 ### Consensus
 A broad consensus (14 of the 16 commentaries in this packet) glosses the Ture verse's "Māra's heroes/champions" (བདུད་ཀྱི་དཔའ་བོ) as denoting the four māras (བདུད་བཞི) — the standard fourfold Buddhist classification of obstructing forces:
 
-— attested: `anon-utpala:c-1-2-2-1-2-1-5`, `drakpa-gyaltsen:c-1-50`, `drakpa-gyaltsen:c-1-51`, `gendun-drub:c-2-2-2-2-1-2-1-3`, `gendun-gyatso:c-1-8-2`, `karma-maitri:c-1-1-8-4`, `konchok-thabkhe:c-2-8-3`, `lobsang-dawa:c-1-2-2-1-2-1-4`, `palden-sherab:c-3-1-8-1-2`, `pema-namgyal:c-2-4-28`, `sangye-nyentrul:c-9-0-2`, `sungrab-tulku:c-11-4`, `tenga-tulku:c-1-2-2-1-2-1-4`, `tenzin-dhonzang:c-4-8-5`, `tsultrim-namdak:c-2-1-2-1-28`, `tsultrim-namdak:c-2-1-2-1-29` (14 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-2-1-5`, `drakpa-gyaltsen:c-1-50`, `drakpa-gyaltsen:c-1-51`, `gendun-drub:c-2-2-2-2-1-2-1-3`, `gendun-gyatso:c-1-8-2`, `karma-maitri:c-1-1-8-4`, `konchok-thabkhe:c-2-8-3`, `lobsang-dawa:c-1-2-2-1-2-1-4`, `palden-sherab:c-3-1-8-1-2`, `pema-namgyal:c-2-4-28`, `sangye-nyentrul:c-9-0-2`, `sungrab-tulku:c-11-4`, `tenga-tulku:c-1-2-2-1-2-1-4`, `tenzin-dhonzang:c-4-8-5`, `tsultrim-namdak:c-2-1-2-1-28`, `tsultrim-namdak:c-2-1-2-1-29` (14 commentaries)
 
 Within this list, drakpa-gyaltsen's own reading is built from two claims read together, not one: `drakpa-gyaltsen:c-1-50` glosses "heroes" as naming only the affliction-māra directly in the verse's own grammar ("'heroes' means the Māra of the afflictions"), and the immediately following `drakpa-gyaltsen:c-1-51` adds that "by defeating that [affliction-Māra], the three [Māras] are incidentally destroyed" — together, not individually, arriving at the same "all four" reading given directly by the other thirteen.
 
-Two further claims in this list use a compressed Tibetan phrase that is genuinely ambiguous between "the four māras, [chief of which is] the affliction[-māra]" and "the four kinds of affliction-māra": `anon-utpala:c-1-2-2-1-2-1-5` (ཉོན་མོངས་པའི་བདུད་བཞི, English gloss "the four afflictive māras") and `lobsang-dawa:c-1-2-2-1-2-1-4` (ཉོན་མོངས་པའི་བདུད་བཞི, English gloss "the four māras of the afflictions"). Both are counted above because either reading affirms a set of four māras destroyed by Tārā; neither claim's own wording resolves which of the two readings is intended, and this page does not resolve it for them.
+Two further claims in this list use a compressed Tibetan phrase that is genuinely ambiguous between "the four māras, [chief of which is] the affliction[-māra]" and "the four kinds of affliction-māra": `dharmabhadra:c-1-2-2-1-2-1-5` (ཉོན་མོངས་པའི་བདུད་བཞི, English gloss "the four afflictive māras") and `lobsang-dawa:c-1-2-2-1-2-1-4` (ཉོན་མོངས་པའི་བདུད་བཞི, English gloss "the four māras of the afflictions"). Both are counted above because either reading affirms a set of four māras destroyed by Tārā; neither claim's own wording resolves which of the two readings is intended, and this page does not resolve it for them.
 
 Of the fourteen, six enumerate the standard set by name in full — the affliction-māra (ཉོན་མོངས་པའི་བདུད་), the aggregate-māra (ཕུང་པོའི་བདུད་), the māra of the lord of death (འཆི་བདག་གི་བདུད་), and the deva-putra/god's-son māra (ལྷའི་བུའི་བདུད་) — though in varying order and wording:
 
@@ -156,11 +156,11 @@ Of the fourteen, six enumerate the standard set by name in full — the afflicti
 ### Consensus
 Eleven commentaries, treating the "TUTTĀRA"/laughter homage (verse 10 of the Twenty-One Homages), agree that the mantric sound of Tārā's laughter subjugates Māra together with other beings or worlds:
 
-— attested: `anon-utpala:c-1-2-2-1-2-3-2`, `anon-utpala:c-1-2-2-1-2-3-4`, `gendun-drub:c-2-2-2-2-1-2-3-4`, `gendun-gyatso:c-1-10-2`, `karma-maitri:c-1-1-10-5`, `konchok-thabkhe:c-2-10-3`, `palden-sherab:c-3-1-10-0-2`, `palden-sherab:c-3-1-10-1-2`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `taranatha:c-10-6`, `tenga-tulku:c-1-2-2-1-2-3-4`, `tenzin-dhonzang:c-4-10-10` (11 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-2-3-2`, `dharmabhadra:c-1-2-2-1-2-3-4`, `gendun-drub:c-2-2-2-2-1-2-3-4`, `gendun-gyatso:c-1-10-2`, `karma-maitri:c-1-1-10-5`, `konchok-thabkhe:c-2-10-3`, `palden-sherab:c-3-1-10-0-2`, `palden-sherab:c-3-1-10-1-2`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `taranatha:c-10-6`, `tenga-tulku:c-1-2-2-1-2-3-4`, `tenzin-dhonzang:c-4-10-10` (11 commentaries)
 
 Of these, seven go further and explicitly name the specific being subjugated — not a doctrinal abstraction but a named cosmological figure, the lord of the Paranirmitavaśavartin gods (the sixth and highest heaven of the desire realm) — variously transliterated/translated as "Māra, lord of the Paranirmitavaśavartin [devas]" (གཞན་འཕྲུལ་དབང་བྱེད་ཀྱི་བདག་པོ་བདུད་), "Māra Dgaʼ-rab-dbang-phyug" (བདུད་དགའ་རབ་དབང་ཕྱུག), or (one English gloss) "Kāmadeva Rabga Wangchuk":
 
-— explicit naming attested: `anon-utpala:c-1-2-2-1-2-3-4`, `gendun-gyatso:c-1-10-2`, `karma-maitri:c-1-1-10-5`, `palden-sherab:c-3-1-10-1-2`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `tenzin-dhonzang:c-4-10-10` (7 commentaries)
+— explicit naming attested: `dharmabhadra:c-1-2-2-1-2-3-4`, `gendun-gyatso:c-1-10-2`, `karma-maitri:c-1-1-10-5`, `palden-sherab:c-3-1-10-1-2`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `tenzin-dhonzang:c-4-10-10` (7 commentaries)
 
 The remaining four in the broader list describe the target only generically — as "māras" (`gendun-drub:c-2-2-2-2-1-2-3-4`, `tenga-tulku:c-1-2-2-1-2-3-4`), "the māras and the tīrthika world" (`konchok-thabkhe:c-2-10-3`), or "the Māra who subjugates other worlds" (`taranatha:c-10-6`, a descriptive periphrasis rather than the specific title) — without using the specific Paranirmitavaśavartin title.
 
@@ -250,8 +250,8 @@ None observed.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-8-3 (1) | Ture verse quoted |
-| `anon-utpala` | c-1-2-1-6, c-1-2-2-1-2-1-2, c-1-2-2-1-2-1-5, c-1-2-2-1-2-3-2, c-1-2-2-1-2-3-4 (5) | Etymology, Ture verse quoted, Four māras, Named cosmological Māra |
+| `yama-sonam` | c-3-8-3 (1) | Ture verse quoted |
+| `dharmabhadra` | c-1-2-1-6, c-1-2-2-1-2-1-2, c-1-2-2-1-2-1-5, c-1-2-2-1-2-3-2, c-1-2-2-1-2-3-4 (5) | Etymology, Ture verse quoted, Four māras, Named cosmological Māra |
 | `drakpa-gyaltsen` | c-1-24, c-1-49, c-1-50, c-1-51 (4) | General victory, Etymology, Four māras |
 | `gendun-drub` | c-2-2-2-2-1-2-1-1, c-2-2-2-2-1-2-1-2, c-2-2-2-2-1-2-1-3, c-2-2-2-2-1-2-3-4 (4) | Structural framing, Ture verse quoted, Four māras, Named cosmological Māra |
 | `gendun-gyatso` | c-1-10-2, c-1-4-2, c-1-8-1, c-1-8-2 (4) | Named cosmological Māra, General victory, Etymology, Four māras |

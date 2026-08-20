@@ -13,21 +13,21 @@ consumes these pages.** Deterministic findings are also independently reproducib
 ## tara-02.md — 70/78 verified, 1 CRITICAL
 
 1. **CRITICAL — `gendun-gyatso:c-1-2-1` (Face section).** Cited as independently
-   corroborating anon-trinle-char's "three flaws" framing (dust, mist/haze, cloud).
+   corroborating yama-sonam's "three flaws" framing (dust, mist/haze, cloud).
    The raw claim contains no flaws framing — only "face supremely white and beautiful
    like stacked full autumn moons." Correct attestation is almost certainly
    `gendun-drub:c-2-2-2-2-1-1-1-3` (clouds, mist, dust) or
-   `anon-utpala:c-1-2-2-1-1-1-5` (dust-clouds, sheep-wool clouds).
+   `dharmabhadra:c-1-2-2-1-1-1-5` (dust-clouds, sheep-wool clouds).
 2. **Moderate — `tsultrim-namdak:c-3-5` (Implements ⚑).** Credited with the full
    simple-form scheme (one face, two hands, supreme-giving mudrā). Raw claim attests
    only: white body, utpala with HRĪḤ-marked mirror, wisdom-light activity. The
    mudrā/face-count detail belongs to palden-sherab and sangye-nyentrul only.
-3. Minor — `anon-trinle-char:c-3-2-6` cited under Light reading 1 ("surpasses") when
+3. Minor — `yama-sonam:c-3-2-6` cited under Light reading 1 ("surpasses") when
    it explicitly *rejects* that reading (it belongs with reading 3 only).
-4. Minor — `anon-trinle-char:c-3-2-7` (Colour ⚑): page says three masters "all
+4. Minor — `yama-sonam:c-3-2-7` (Colour ⚑): page says three masters "all
    describe her as white"; only Nyima Sbaspa's quote does; Drakpa Shedrub's cited
    name has no colour term.
-5. Minor — `anon-trinle-char:c-3-2-11`: "Nyima Sepa's sādhana" — raw says only
+5. Minor — `yama-sonam:c-3-2-11`: "Nyima Sepa's sādhana" — raw says only
    "Nyima Sbaspa states"; no sādhana named.
 6. Minor — `taranatha:c-2-7` (Doctrinal consensus): "bliss-emptiness wisdom" and
    "central-channel cakras" are palden-sherab-only; taranatha has neither.
@@ -35,7 +35,7 @@ consumes these pages.** Deterministic findings are also independently reproducib
    figure is **twelve**.
 8. Minor — Light ⚑ omission: the "adorned by" (བརྒྱན་པ) reading is attested
    in-corpus by `gendun-gyatso:c-1-2-2` and `tenzin-dhonzang:c-4-2-4`, but presented
-   only as anon-trinle-char's report of unnamed others; the blanket "all sixteen"
+   only as yama-sonam's report of unnamed others; the blanket "all sixteen"
    Light consensus flattens this.
 - Quote mismatches: `gendun-drub:c-2-2-2-2-1-1-1-4` "བརྒྱད་གཉིས་སྒྲིགས" → raw
   བརྒྱད་གཉིས་**པ་**སྒྲིགས; `tenzin-dhonzang:c-4-2-8` "ལེགས་བྲི་མ" → raw ལེགས་བྲི**ས་**མ;
@@ -50,11 +50,11 @@ consumes these pages.** Deterministic findings are also independently reproducib
 1. Moderate — `sangye-nyentrul:c-2-1-1` cited under the knowledge/love/power
    framework Consensus; the raw claim ("increases bodhicitta and draws appearances
    under control") has no connection to that framework. With it removed, the
-   framework rests on **2** commentaries (anon-trinle-char, taranatha), not the
+   framework rests on **2** commentaries (yama-sonam, taranatha), not the
    labeled 5 — the section's breadth is meaningfully overstated.
 2. Minor — `tsultrim-namdak:c-2-1-2-1-4` listed in the "Tārā" etymology-proper list;
    it etymologizes Swift/Heroine, not "Tārā" (correctly cited elsewhere).
-3. Minor — `anon-trinle-char:c-3-1-4` cited as Pamo etymological reasoning; it is a
+3. Minor — `yama-sonam:c-3-1-4` cited as Pamo etymological reasoning; it is a
    generic three-greatnesses framing (the reasoning is c-3-1-10/11).
 4. Count labels (all recomputable by the script): etymology-proper "(11)"→10,
    Pamo "(13)"→12, Wisdom-Eyes "(12)"→11, lotus-seat "(4)"→3, Quality-Framework
@@ -63,7 +63,7 @@ consumes these pages.** Deterministic findings are also independently reproducib
    མྱུར་མ་**དཔལ་མོ** against the same commentary's c-4-1-2/c-4-1-6 (དཔའ་མོ) — likely
    transcription artifact, but it weakens the page's "no other commentary attests
    [Dpal-mo]" statement; check the source.
-6. Low-confidence lead: `anon-utpala:c-1-2-1-1` may be a third attestation of the
+6. Low-confidence lead: `dharmabhadra:c-1-2-1-1` may be a third attestation of the
    "praise by way of history" classification (page credits two).
 
 ## benefits.md — ~195/197 verified, 0 critical

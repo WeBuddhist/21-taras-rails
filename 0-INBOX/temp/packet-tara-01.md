@@ -12,39 +12,39 @@
 > The coverage check (claims-consolidation step 5) diffs this list against the claim IDs the finished topic page cites. Every ID in the gap must be either folded into a facet or logged in “Claims reviewed, not separately cited.”
 
 ```
-anon-trinle-char:c-3-1-1
-anon-trinle-char:c-3-1-2
-anon-trinle-char:c-3-1-3
-anon-trinle-char:c-3-1-4
-anon-trinle-char:c-3-1-5
-anon-trinle-char:c-3-1-6
-anon-trinle-char:c-3-1-7
-anon-trinle-char:c-3-1-8
-anon-trinle-char:c-3-1-9
-anon-trinle-char:c-3-1-10
-anon-trinle-char:c-3-1-11
-anon-trinle-char:c-3-1-12
-anon-trinle-char:c-3-1-13
-anon-trinle-char:c-3-1-14
-anon-trinle-char:c-3-1-15
-anon-trinle-char:c-3-1-16
-anon-trinle-char:c-3-1-17
-anon-trinle-char:c-3-1-18
-anon-trinle-char:c-3-1-19
-anon-trinle-char:c-3-1-20
-anon-trinle-char:c-3-1-21
-anon-trinle-char:c-3-1-22
-anon-trinle-char:c-3-1-23
-anon-trinle-char:c-3-1-24
-anon-utpala:c-1-2-1-2
-anon-utpala:c-1-2-1-3
-anon-utpala:c-1-2-1-4
-anon-utpala:c-1-2-1-5
-anon-utpala:c-1-2-1-6
-anon-utpala:c-1-2-1-7
-anon-utpala:c-1-2-1-8
-anon-utpala:c-1-2-1-9
-anon-utpala:c-1-2-1-10
+yama-sonam:c-3-1-1
+yama-sonam:c-3-1-2
+yama-sonam:c-3-1-3
+yama-sonam:c-3-1-4
+yama-sonam:c-3-1-5
+yama-sonam:c-3-1-6
+yama-sonam:c-3-1-7
+yama-sonam:c-3-1-8
+yama-sonam:c-3-1-9
+yama-sonam:c-3-1-10
+yama-sonam:c-3-1-11
+yama-sonam:c-3-1-12
+yama-sonam:c-3-1-13
+yama-sonam:c-3-1-14
+yama-sonam:c-3-1-15
+yama-sonam:c-3-1-16
+yama-sonam:c-3-1-17
+yama-sonam:c-3-1-18
+yama-sonam:c-3-1-19
+yama-sonam:c-3-1-20
+yama-sonam:c-3-1-21
+yama-sonam:c-3-1-22
+yama-sonam:c-3-1-23
+yama-sonam:c-3-1-24
+dharmabhadra:c-1-2-1-2
+dharmabhadra:c-1-2-1-3
+dharmabhadra:c-1-2-1-4
+dharmabhadra:c-1-2-1-5
+dharmabhadra:c-1-2-1-6
+dharmabhadra:c-1-2-1-7
+dharmabhadra:c-1-2-1-8
+dharmabhadra:c-1-2-1-9
+dharmabhadra:c-1-2-1-10
 drakpa-gyaltsen:c-1-1
 drakpa-gyaltsen:c-1-2
 drakpa-gyaltsen:c-1-3
@@ -152,7 +152,7 @@ tsultrim-namdak:c-8-4
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 **Node(s):** 3.1 — ཕྱག་འཚལ་དང་པོ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་
 **Claims in this packet:** 24 mapped
 
@@ -328,7 +328,7 @@ tsultrim-namdak:c-8-4
 
 ---
 
-## anon-utpala
+## dharmabhadra
 **Claims in this packet:** 0 mapped, 9 extra
 
 > ⓘ **Routed by claim, not by node.** Node 1.2.1's own leaf content: the root-verse quotation and etymological/doctrinal glosses on homage 1.

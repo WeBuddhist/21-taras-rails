@@ -3,8 +3,8 @@ topic: agni
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -77,11 +77,11 @@ status: draft
 ## Agni among the great worldly gods who worship Tārā
 
 ### Consensus
-Fifteen of the sixteen commentaries — every commentary in the packet except `taranatha` — name Agni (མེ་ལྷ) among the recurring roster of great worldly gods, alongside Indra, Brahmā, Vāyu, and Viśveśvara/Sarveśvara, who worship, praise, or rely upon Tārā. The wording is stable across commentaries, closely following or quoting the same homage-verse, e.g. `anon-trinle-char:c-3-6-3`: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by bhūtas, vetālas, gandharvas, and hosts of yakṣas."
+Fifteen of the sixteen commentaries — every commentary in the packet except `taranatha` — name Agni (མེ་ལྷ) among the recurring roster of great worldly gods, alongside Indra, Brahmā, Vāyu, and Viśveśvara/Sarveśvara, who worship, praise, or rely upon Tārā. The wording is stable across commentaries, closely following or quoting the same homage-verse, e.g. `yama-sonam:c-3-6-3`: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by bhūtas, vetālas, gandharvas, and hosts of yakṣas."
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-5`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-3`, `drakpa-gyaltsen:c-1-35`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-3`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-1`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-4`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-3-9` (15 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-5`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-3`, `drakpa-gyaltsen:c-1-35`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-3`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-1`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-4`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-3-9` (15 commentaries)
 
-Most of these claims go on to specify Agni's directional identity as guardian of the **southeast**: `anon-trinle-char:c-3-6-5` ("ཤར་ལྷོའི་ཕྱོགས་སྐྱོང་མེ་ལྷ" — "the southeast guardian Agni"), `anon-utpala:c-1-2-2-1-1-5-3` ("ཤར་ལྷོའི་མེ་ལྷ" — "Agni of the southeast"), `konchok-thabkhe:c-2-6-2` ("ཤར་ལྷོ་མེ་ལྷ"), `lobsang-dawa:c-1-2-2-1-1-5-2` ("ཤར་ལྷོའི་མེ་ལྷ"), `palden-sherab:c-3-1-6-1-1` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ" — "the sage Agni of the southeast"), `sangye-nyentrul:c-7-0-1` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ"), `sungrab-tulku:c-9-5` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ"), `tenga-tulku:c-1-2-2-1-1-5-3` ("ཤར་ལྷོར་མེ་ལྷ"). This directional identification is consistent across every commentary that states one — no commentary places Agni in a different direction within this facet.
+Most of these claims go on to specify Agni's directional identity as guardian of the **southeast**: `yama-sonam:c-3-6-5` ("ཤར་ལྷོའི་ཕྱོགས་སྐྱོང་མེ་ལྷ" — "the southeast guardian Agni"), `dharmabhadra:c-1-2-2-1-1-5-3` ("ཤར་ལྷོའི་མེ་ལྷ" — "Agni of the southeast"), `konchok-thabkhe:c-2-6-2` ("ཤར་ལྷོ་མེ་ལྷ"), `lobsang-dawa:c-1-2-2-1-1-5-2` ("ཤར་ལྷོའི་མེ་ལྷ"), `palden-sherab:c-3-1-6-1-1` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ" — "the sage Agni of the southeast"), `sangye-nyentrul:c-7-0-1` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ"), `sungrab-tulku:c-9-5` ("ཤར་ལྷོའི་དྲང་སྲོང་མེ་ལྷ"), `tenga-tulku:c-1-2-2-1-1-5-3` ("ཤར་ལྷོར་མེ་ལྷ"). This directional identification is consistent across every commentary that states one — no commentary places Agni in a different direction within this facet.
 
 `tsultrim-namdak:c-3-9` gives the fivefold worshipper-verse a wrathful colouring not found in the other fourteen claims: in its quotation, the great worldly gods (including Agni) "tremble" (འདར་) as they reverently worship the wrathful emanation Gdon-rigs-rnams-'joms-ma, rather than simply paying calm homage. This is one claim's own framing of the same underlying worshipper-list fact, not a separate consensus.
 
@@ -157,8 +157,8 @@ None beyond the elaborations above.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-6-3, c-3-6-5 (2) | Worshipper-list |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 (2) | Worshipper-list |
+| `yama-sonam` | c-3-6-3, c-3-6-5 (2) | Worshipper-list |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 (2) | Worshipper-list |
 | `drakpa-gyaltsen` | c-1-35 (1) | Worshipper-list |
 | `gendun-drub` | c-2-2-2-2-1-1-5-2 (1) | Worshipper-list |
 | `gendun-gyatso` | c-1-6-1 (1) | Worshipper-list |

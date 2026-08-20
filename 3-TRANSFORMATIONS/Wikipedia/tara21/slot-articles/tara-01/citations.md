@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-01.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -37,12 +37,12 @@ citable content for this article, so it is not among the 15 raw sources actually
 | Ref | Commentary | Claim ID(s) drawn on | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
 | 1 | taranatha | c-1-1 (structural, first homage), c-1-5 ("Mother" epithet, unique), c-1-6 (Swift tied to wisdom-eye, unique), c-1-7 (Tārā etymology, quoted), c-1-8 (four-quality summary), c-1-9 (origin, quoted) | "སྒྲོལ་མ་སྟེ་སེམས་ཅན་ཐམས་ཅད་འཁོར་བ་ལས་སྒྲོལ་བའི་ཕྲིན་ལས་ཅན་ནོ།" (c-1-7); "འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་སྤྱན་རས་གཟིགས་ཀྱི་ཞལ་རས་ཀྱི་ཆུ་སྐྱེས་ཏེ་པདྨ་གེ་སར་བྱེ་བ་ལས་སྤུལ་ཞིང་བྱུང་བའོ།" (c-1-9) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^1-0, #^0-4, #^0-5, #^0-6` |
-| 2 | anon-trinle-char | c-3-1-2 (structural), c-3-1-4 (three-greatnesses framing), c-3-1-5 (elaborated Tārā etymology, unique), c-3-1-8 (elaborated Swift etymology, unique), c-3-1-9 (refuge instruction, unique), c-3-1-10–13 (path-completion + vow-based Heroine etymology, unique, c-3-1-11 quoted), c-3-1-14 (wisdom-eye consensus), c-3-1-15 (origin, quoted), c-3-1-17 (three-quality mapping, unique), c-3-1-19 (three-worlds identity + alternate three-realms reading), c-3-1-21–24 (Nyisbepa 8-armed iconography, c-3-1-23/24 quoted) | "དེ་བཞིན་འཇིག་རྟེན་གསུམ་མགོན་ཏེ...སྤྱན་ཆབ་ཤོར་བ་ལས།" (c-3-1-15); "ཡང་ན་ཇི་སྲིད་...དཔའ་མོ་སྟེ།" (c-3-1-11); "མཁའ་དཀྱིལ་གསེར་མདོག...མེ་ཏོག་བརྒྱན།" (c-3-1-23); "འཕགས་མ་སྒྲོལ་མ་མྱུར་ཞིང་རབ་ཏུ་དཔའ་བ" (c-3-1-24) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-6, #^0-14, #^0-15, #^0-16, #^0-18, #^0-19, #^0-21, #^0-22, #^0-23, #^0-24` |
+| 2 | yama-sonam | c-3-1-2 (structural), c-3-1-4 (three-greatnesses framing), c-3-1-5 (elaborated Tārā etymology, unique), c-3-1-8 (elaborated Swift etymology, unique), c-3-1-9 (refuge instruction, unique), c-3-1-10–13 (path-completion + vow-based Heroine etymology, unique, c-3-1-11 quoted), c-3-1-14 (wisdom-eye consensus), c-3-1-15 (origin, quoted), c-3-1-17 (three-quality mapping, unique), c-3-1-19 (three-worlds identity + alternate three-realms reading), c-3-1-21–24 (Nyisbepa 8-armed iconography, c-3-1-23/24 quoted) | "དེ་བཞིན་འཇིག་རྟེན་གསུམ་མགོན་ཏེ...སྤྱན་ཆབ་ཤོར་བ་ལས།" (c-3-1-15); "ཡང་ན་ཇི་སྲིད་...དཔའ་མོ་སྟེ།" (c-3-1-11); "མཁའ་དཀྱིལ་གསེར་མདོག...མེ་ཏོག་བརྒྱན།" (c-3-1-23); "འཕགས་མ་སྒྲོལ་མ་མྱུར་ཞིང་རབ་ཏུ་དཔའ་བ" (c-3-1-24) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-6, #^0-14, #^0-15, #^0-16, #^0-18, #^0-19, #^0-21, #^0-22, #^0-23, #^0-24` |
 | 3 | palden-sherab | c-3-1-1-0-1 (function phrase), c-3-1-1-1-1 (triad etymology, incl. Heroine/bdud sde), c-3-1-1-1-2 (wisdom-eye), c-3-1-1-1-3 (origin + White/Blue Tārā id.), c-3-1-1-2-1, c-3-1-1-2-3 (Mahāyoga iconography, paraphrased — not quoted, wording differs from sangye-nyentrul's near-parallel passage) | (none — paraphrased only; see Warnings) | `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-12, #^0-14, #^0-15, #^0-16, #^0-17, #^0-18` |
 | 4 | sangye-nyentrul | c-2-0-1 (identification), c-2-0-2 (Swift), c-2-0-3 (Heroine), c-2-0-4 (wisdom-eye), c-2-0-5 (origin), c-2-1-1 (function phrase, quoted), c-2-1-2 (iconography, quoted) | "བྱང་ཆུབ་ཀྱི་སེམས་འཕེལ་ཞིང་སྣང་བ་དབང་དུ་སྡུད་པའི་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ་འདི་ཉིད" (c-2-1-1); "སྐུ་མདོག་དམར་མོ་ཁྲོ་འཛུམ...དུང་གཡས་འཁྱིལ" (c-2-1-2) | `1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-6, #^0-7, #^0-8, #^0-9` |
 | 5 | sungrab-tulku | c-4-3, c-4-4 (unity framing, quoted), c-4-5 (Tārā etym.), c-4-6 (Swift etym.), c-4-7 (Heroine etym.), c-4-9 (wisdom-eye, quoted), c-4-11, c-4-12 (three worlds), c-4-13, c-4-14 (origin) | "སྒྲོལ་མ་དང་མྱུར་མ་དཔའ་མོ་བཅས་གསུམ་ནི་མིང་འཇུག་ཚུལ་གྱི་རྣམ་གྲངས་ཙམ་" (c-4-4); "ཡེ་ཤེས་ཀྱི་སྤྱན་ནི་སྐད་ཅིག་གི་གློག་འཁྱུག་པ...ནུས་པ་ཡོད་པའོ།" (c-4-9) | `1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-17, #^0-18, #^0-19, #^0-20, #^0-22, #^0-23, #^0-24` |
 | 6 | tsultrim-namdak | c-2-1-2-1-3 (homage-as-template), c-2-1-2-1-4 (triad etymology), c-2-1-2-1-5 (wisdom-eye + three-realms reading), c-2-1-2-1-6 (origin), c-3-4 (iconography, paraphrased only — its own བོད་ཡིག field contains ellipses and is not quotable verbatim) | (none — paraphrased only; see Warnings) | `1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-75, #^0-76, #^0-77, #^0-78, #^0-79` |
-| 7 | anon-utpala | c-1-2-1-1 (threefold division), c-1-2-1-2 (root-verse "dpal mo" variant, quoted), c-1-2-1-4 (Tārā etym.), c-1-2-1-5 (Swift, comparative, unique), c-1-2-1-6 ("dpal mo" etymology, quoted), c-1-2-1-7 (wisdom-eye), c-1-2-1-8 (three-worlds id.), c-1-2-1-9 (origin) | "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔལ་མོ།" (c-1-2-1-2); "བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ།" (c-1-2-1-6) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-7, #^0-8, #^0-9, #^0-10, #^0-11` |
+| 7 | dharmabhadra | c-1-2-1-1 (threefold division), c-1-2-1-2 (root-verse "dpal mo" variant, quoted), c-1-2-1-4 (Tārā etym.), c-1-2-1-5 (Swift, comparative, unique), c-1-2-1-6 ("dpal mo" etymology, quoted), c-1-2-1-7 (wisdom-eye), c-1-2-1-8 (three-worlds id.), c-1-2-1-9 (origin) | "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔལ་མོ།" (c-1-2-1-2); "བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ།" (c-1-2-1-6) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-7, #^0-8, #^0-9, #^0-10, #^0-11` |
 | 8 | drakpa-gyaltsen | c-1-1 (Tārā etym.), c-1-2 (Swift etym.), c-1-3 (Heroine etym., quoted), c-1-4 (wisdom-eye), c-1-5–c-1-7 (origin, three-worlds id.) | "དཔའ་མོ་ནི་ཉོན་མོངས་པ་འཇོམས་པས་དཔའ་མོ།" (c-1-3) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-5, #^0-6, #^0-7, #^0-8, #^0-9` |
 | 9 | gendun-gyatso | c-1-1-3 (Tārā etym.), c-1-1-4 (Swift etym.), c-1-1-5 (Heroine etym.), c-1-1-6 (wisdom-eye), c-1-1-7, c-1-1-8 (origin, three-worlds id.) | (none — paraphrased only) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-5, #^0-6, #^0-7` |
 | 10 | karma-maitri | c-1-1-1-5 (Swift etym.), c-1-1-1-6 (Heroine etym.), c-1-1-1-7 (Tārā-from-eye-light etym., unique), c-1-1-1-8, c-1-1-1-9 (origin, three-worlds id.) | (none — paraphrased only) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3, #^0-4, #^0-5` |
@@ -61,7 +61,7 @@ attributed by name). This includes, notably: the full 10–15-commentary consens
 the Tārā/Swift/Heroine etymologies (§1 of `tara-01.md`), the wisdom-eye simile (§3), the origin
 narrative (§4), and the three-worlds identification (§5) — the article cites a representative subset
 (4–12 commentaries per fact, per Rule 5) rather than every attesting commentary, since the article is
-prose, not a citation dump. The doctrinal quality-mapping schemas (§11: anon-trinle-char, taranatha,
+prose, not a citation dump. The doctrinal quality-mapping schemas (§11: yama-sonam, taranatha,
 tenzin-dhonzang) and the practice instructions (§12) are drawn on only lightly, in the
 `ཕྲིན་ལས་དང་ནུས་མཐུ།` section, and not exhaustively — this was a scope decision to keep the article's
 length proportionate to a homage-1 profile rather than reproduce every facet on `tara-01.md`.
@@ -135,14 +135,14 @@ against the actual `1-SOURCES/Commentaries/` file (not the raw claims file's tra
 | 3 | drakpa-gyaltsen | དཔའ་མོ་ནི་ཉོན་མོངས་པ་འཇོམས་པས་དཔའ་མོ། | PASS |
 | 4 | sungrab-tulku | ཡེ་ཤེས་ཀྱི་སྤྱན་ནི་སྐད་ཅིག་གི་གློག་འཁྱུག་པ... | PASS |
 | 5 | sangye-nyentrul | སྐུ་མདོག་དམར་མོ་ཁྲོ་འཛུམ་ཆགས་པའི་ཉམས་ཅན...དུང་གཡས་འཁྱིལ | PASS |
-| 6 | anon-trinle-char | མཁའ་དཀྱིལ་གསེར་མདོག་ཆུ་སྐྱེས་གདན...མེ་ཏོག་བརྒྱན། | PASS |
-| 7 | anon-trinle-char | འཕགས་མ་སྒྲོལ་མ་མྱུར་ཞིང་རབ་ཏུ་དཔའ་བ | PASS |
+| 6 | yama-sonam | མཁའ་དཀྱིལ་གསེར་མདོག་ཆུ་སྐྱེས་གདན...མེ་ཏོག་བརྒྱན། | PASS |
+| 7 | yama-sonam | འཕགས་མ་སྒྲོལ་མ་མྱུར་ཞིང་རབ་ཏུ་དཔའ་བ | PASS |
 | 8 | sangye-nyentrul | བྱང་ཆུབ་ཀྱི་སེམས་འཕེལ་ཞིང་སྣང་བ་དབང་དུ་སྡུད་པའི་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ་འདི་ཉིད | PASS |
 | 9 | taranatha | འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་སྤྱན་རས་གཟིགས་ཀྱི་ཞལ་རས... | PASS |
-| 10 | anon-trinle-char | དེ་བཞིན་འཇིག་རྟེན་གསུམ་མགོན་ཏེ...སྤྱན་ཆབ་ཤོར་བ་ལས། | PASS |
-| 11 | anon-trinle-char | ཡང་ན་ཇི་སྲིད་འཁོར་བ་མ་སྟོང་གི་བར་དུ...དཔའ་མོ་སྟེ། | PASS |
-| 12 | anon-utpala | ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔལ་མོ། | PASS |
-| 13 | anon-utpala | བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ། | PASS |
+| 10 | yama-sonam | དེ་བཞིན་འཇིག་རྟེན་གསུམ་མགོན་ཏེ...སྤྱན་ཆབ་ཤོར་བ་ལས། | PASS |
+| 11 | yama-sonam | ཡང་ན་ཇི་སྲིད་འཁོར་བ་མ་སྟོང་གི་བར་དུ...དཔའ་མོ་སྟེ། | PASS |
+| 12 | dharmabhadra | ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔལ་མོ། | PASS |
+| 13 | dharmabhadra | བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ། | PASS |
 | 14 | tenzin-dhonzang | མྱུར་མ་དཔལ་མོ | PASS |
 | 15 | konchok-thabkhe | འདིར་གྲུབ་ཆེན་ཉི་མ་སྦས་བས...ཞེས་གསུངས་པ་ལྟར་བྲིས་སོ། | PASS |
 | 16 | konchok-thabkhe | འགྲེལ་བ་སྔོན་མ་རྣམས | PASS |

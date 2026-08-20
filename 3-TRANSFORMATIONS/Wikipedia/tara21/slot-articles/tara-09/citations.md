@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-09.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
@@ -45,8 +45,8 @@ in full; nothing in them was dropped as unresolvable.
 
 | Ref | Commentary | Claim ID(s) drawn on | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-trinle-char | Cloud-Mass of Activity (author unknown) | c-3-9-1 (name), c-3-9-3 (root verse, quoted), c-3-9-5, c-3-9-6 (iconography + wheel=directions/body reading, quoted), c-3-9-8 (two-views note, quoted), c-3-9-13 (body colour, quoted) | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་...འཁྲུགས་མ།" (c-3-9-3); "མཆོག་སྩོལ་མ" (c-3-9-1); "སྐབས་འདིའི་འོད་ཟེར་ནི།...བཞེད་པ་མི་འདྲ་ཡང་།" (c-3-9-8); "སྐུ་མདོག་ནི། པདྨ་རཱ་གའི་མདོག་ཅན་དུ་གསུངས་པས་དམར་པོ་ཡིན།" (c-3-9-13) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-9-0, #^0-88, #^0-90, #^0-91, #^0-93, #^0-99` |
-| anon-utpala | Ngulchu Dharmabhadra | c-1-2-2-1-2-2-1 (classification, quoted), c-1-2-2-1-2-2-3 (iconography), c-1-2-2-1-2-2-4 (wheel-on-palm, quoted), c-1-2-2-1-2-2-5 (wrathful-group note) | "གཡས་གཡོན་གྱི་ཕྱག་མཚན་གྱི་སྒོ་ནས་བསྟོད་པ" (c-1-2-2-1-2-2-1); "ཕྱག་གཡས་པའི་མཆོག་སྦྱིན་གྱི་མཐིལ་འཁོར་ལོས་བརྒྱན་པ་ལས་འཕྲོས་པའི་རང་གི་འོད་ཟེར" (c-1-2-2-1-2-2-4) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-43, #^0-45, #^0-46` |
+| yama-sonam | Cloud-Mass of Activity (Jetsün Yama Sonam) | c-3-9-1 (name), c-3-9-3 (root verse, quoted), c-3-9-5, c-3-9-6 (iconography + wheel=directions/body reading, quoted), c-3-9-8 (two-views note, quoted), c-3-9-13 (body colour, quoted) | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་...འཁྲུགས་མ།" (c-3-9-3); "མཆོག་སྩོལ་མ" (c-3-9-1); "སྐབས་འདིའི་འོད་ཟེར་ནི།...བཞེད་པ་མི་འདྲ་ཡང་།" (c-3-9-8); "སྐུ་མདོག་ནི། པདྨ་རཱ་གའི་མདོག་ཅན་དུ་གསུངས་པས་དམར་པོ་ཡིན།" (c-3-9-13) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-9-0, #^0-88, #^0-90, #^0-91, #^0-93, #^0-99` |
+| dharmabhadra | Ngulchu Dharmabhadra | c-1-2-2-1-2-2-1 (classification, quoted), c-1-2-2-1-2-2-3 (iconography), c-1-2-2-1-2-2-4 (wheel-on-palm, quoted), c-1-2-2-1-2-2-5 (wrathful-group note) | "གཡས་གཡོན་གྱི་ཕྱག་མཚན་གྱི་སྒོ་ནས་བསྟོད་པ" (c-1-2-2-1-2-2-1); "ཕྱག་གཡས་པའི་མཆོག་སྦྱིན་གྱི་མཐིལ་འཁོར་ལོས་བརྒྱན་པ་ལས་འཕྲོས་པའི་རང་གི་འོད་ཟེར" (c-1-2-2-1-2-2-4) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-43, #^0-45, #^0-46` |
 | drakpa-gyaltsen | Jetsün Drakpa Gyaltsen | c-1-55 (iconography, representative for left-hand consensus) | (none — paraphrased only) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-45` |
 | gendun-drub | Gyalwa Gendun Drub (1st Dalai Lama) | c-2-2-2-2-1-2-2-5 (wheel-on-palm corroboration), c-2-2-2-2-1-2-2-6 (khadira epithet, quoted) | "སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་" (c-2-2-2-2-1-2-2-6) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-51, #^0-52` |
 | karma-maitri | Karma Maitri | c-1-1-9-3 (refuge-granting mudra naming, quoted), c-1-1-9-5–7 (iconography, representative for right-hand consensus) | "སྐྱབས་སྦྱིན་གྱི་ཕྱག་རྒྱ" (c-1-1-9-3) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22, #^0-23` |
@@ -63,11 +63,11 @@ in full; nothing in them was dropped as unresolvable.
 ## Claims used but not quoted
 
 Paraphrased into the article without quotation marks (still cited via `<ref>`), per Rule 5:
-consensus backbone — `anon-trinle-char:c-3-9-5,c-3-9-6`, `tenga-tulku:c-1-2-2-1-2-2-3,-4`,
-`drakpa-gyaltsen:c-1-55`, `karma-maitri:c-1-1-9-5–7`, `anon-utpala:c-1-2-2-1-2-2-3`,
+consensus backbone — `yama-sonam:c-3-9-5,c-3-9-6`, `tenga-tulku:c-1-2-2-1-2-2-3,-4`,
+`drakpa-gyaltsen:c-1-55`, `karma-maitri:c-1-1-9-5–7`, `dharmabhadra:c-1-2-2-1-2-2-3`,
 `konchok-thabkhe:c-2-9-2`, `palden-sherab:c-3-1-9-1-1`; unique/attributed material —
 `pema-namgyal:c-2-4-30` (symbolic readings), `konchok-thabkhe:c-2-9-4` (Gendün Drup citation),
-`konchok-thabkhe:c-2-9-5` (liturgical divergence), `anon-utpala:c-1-2-2-1-2-2-5` (wrathful-group
+`konchok-thabkhe:c-2-9-5` (liturgical divergence), `dharmabhadra:c-1-2-2-1-2-2-5` (wrathful-group
 note), `sungrab-tulku:c-12-4` (finger-swap variant), `tenzin-dhonzang:c-4-9-4` (three-kāya/roots),
 `tenzin-dhonzang:c-4-9-7` (thirty-two marks), `taranatha:c-9-5,c-9-6,c-9-8,c-9-10` (samaya
 blessing/presence, tummo elaboration), `palden-sherab:c-3-1-9-1-2,1-4,1-5` (sixteen-fears
@@ -108,23 +108,23 @@ IDs in total). Nothing was dropped for failing to resolve.
 Every quotation in `article.md` was located character-for-character (whitespace-collapsed) in the
 `1-SOURCES/` file named by its claim's `Cite:` target. 19 quotations, all PASS:
 
-1. Root verse, "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།...འཁྲུགས་མ།" (anon-trinle-char:c-3-9-3) — PASS
+1. Root verse, "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།...འཁྲུགས་མ།" (yama-sonam:c-3-9-3) — PASS
 2. "སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་" (gendun-drub:c-2-2-2-2-1-2-2-6) — PASS
 3. "འཇིགས་པའི་ཚོགས་ཐམས་ཅད་ལས་སྐྱོབ་པའི་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ" (palden-sherab:c-3-1-9-0-1) — PASS
 4. "དཀོན་མཆོག་" (taranatha:c-9-1) — PASS
 5. "དཀོན་མཆོག་གསུམ་མཚོན་ལ" (tenzin-dhonzang:c-4-9-1) — PASS
 6. "དཀོན་མཆོག་གསུམ་མཆོད་མ" (sungrab-tulku:c-12-3) — PASS
-7. "མཆོག་སྩོལ་མ" (anon-trinle-char:c-3-9-1) — PASS
+7. "མཆོག་སྩོལ་མ" (yama-sonam:c-3-9-1) — PASS
 8. "གཞན་སྲུང་བའི་སྒོ་ནས་བསྟོད་པ" (konchok-thabkhe:c-2-9-1) — PASS
-9. "གཡས་གཡོན་གྱི་ཕྱག་མཚན་གྱི་སྒོ་ནས་བསྟོད་པ" (anon-utpala:c-1-2-2-1-2-2-1) — PASS
+9. "གཡས་གཡོན་གྱི་ཕྱག་མཚན་གྱི་སྒོ་ནས་བསྟོད་པ" (dharmabhadra:c-1-2-2-1-2-2-1) — PASS
 10. "སྐྱབས་སྦྱིན་གྱི་ཕྱག་རྒྱ" (karma-maitri:c-1-1-9-3) — PASS
 11. "འདི་སྒྲོལ་མ་༢༡་ལས་གཙོ་མོ་ཡིན།" (sangye-nyentrul:c-10-1-3) — PASS
 12. "དཀོན་མཆོག་གསུམ་མཚོན་པར་བྱེད་པ་ཨུཏྤ་ལའི་ཕྱག་རྒྱ་ནི་སྒྲོལ་མའི་དམ་ཚིག་གི་ཕྱག་རྒྱ་སྟེ" (taranatha:c-9-3) — PASS
-13. "སྐབས་འདིའི་འོད་ཟེར་ནི།...བཞེད་པ་མི་འདྲ་ཡང་།" (anon-trinle-char:c-3-9-8) — PASS
-14. "ཕྱག་གཡས་པའི་མཆོག་སྦྱིན་གྱི་མཐིལ་འཁོར་ལོས་བརྒྱན་པ་ལས་འཕྲོས་པའི་རང་གི་འོད་ཟེར" (anon-utpala:c-1-2-2-1-2-2-4) — PASS
+13. "སྐབས་འདིའི་འོད་ཟེར་ནི།...བཞེད་པ་མི་འདྲ་ཡང་།" (yama-sonam:c-3-9-8) — PASS
+14. "ཕྱག་གཡས་པའི་མཆོག་སྦྱིན་གྱི་མཐིལ་འཁོར་ལོས་བརྒྱན་པ་ལས་འཕྲོས་པའི་རང་གི་འོད་ཟེར" (dharmabhadra:c-1-2-2-1-2-2-4) — PASS
 15. "ཕྱོགས་ཀྱི་འཁོར་ལོ་སྟེ་ཕྱོགས་བཅུའི་ཞིང་ཁམས་མ་ལུས་པ། རང་གི་སྐུ་ལས་བྱུང་བའི་འོད་ཟེར་གི་ཚོགས" (taranatha:c-9-7) — PASS
 16. "སྐུ་དང་འཁོར་ལོ་ལས་འོད་ཟེར་འཕྲོས་པས" (sangye-nyentrul:c-10-1-2 and palden-sherab:c-3-1-9-2-2, character-identical in both) — PASS (both)
-17. "སྐུ་མདོག་ནི། པདྨ་རཱ་གའི་མདོག་ཅན་དུ་གསུངས་པས་དམར་པོ་ཡིན།" (anon-trinle-char:c-3-9-13) — PASS
+17. "སྐུ་མདོག་ནི། པདྨ་རཱ་གའི་མདོག་ཅན་དུ་གསུངས་པས་དམར་པོ་ཡིན།" (yama-sonam:c-3-9-13) — PASS
 18. "སྐུ་མདོག་ལྗང་སྔོན།" (sangye-nyentrul:c-10-1-1) — PASS
 19. "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ" (taranatha:c-9-9 and palden-sherab:c-3-1-9-3-1, character-identical in both) — PASS (both)
 

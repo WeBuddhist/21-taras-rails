@@ -129,7 +129,7 @@ The source inventory is skewed toward Geluk commentaries, with smaller represent
 | TARAC06_NDB | Ngülchu Dharmabhadra | Geluk | *rnam bshad* |
 | TARAC07_KTK | Könchok Tabkhé | Geluk | ṭīkā |
 | TARAC08_DTG | Dorlop Tenga Tulku | Sūryagupta lineage | Benefits section |
-| TARAC09_ANON | Anonymous; no colophon | Sūryagupta lineage | *bstod 'grel* |
+| TARAC09_JYS | Anonymous; no colophon | Sūryagupta lineage | *bstod 'grel* |
 | TARAC10_DPN | Dombu Pema Namgyal | Not established | Commentary |
 | TARAC11_KMT | Karma Maitri | Not established | Condensed commentary |
 | TARAC12_PDS | Khenchen Palden Sherab | Nyingma | Word commentary |
@@ -312,11 +312,11 @@ Before release, the source registry must record, for every work and edition: rig
 | tsultrim-namdak | 329 | konchok-thabkhe | 132 |
 | tenzin-dhonzang | 327 | sangye-nyentrul | 125 |
 | palden-sherab | 282 | pema-namgyal | 104 |
-| anon-trinle-char | 258 | lobsang-dawa | 87 |
+| yama-sonam | 258 | lobsang-dawa | 87 |
 | karma-maitri | 163 | gendun-gyatso | 62 |
 | sungrab-tulku | 160 | **Total claims** | **2,975** |
 | tenga-tulku | 157 | Spine maps | 16 |
-| anon-utpala | 148 | Draft topic pages | 24 |
+| dharmabhadra | 148 | Draft topic pages | 24 |
 | drakpa-gyaltsen | 142 | Drafted articles | 3 Route A + 3 exploratory Route B |
 
 Verbatim Tibetan evidence from in-copyright commentaries should not be released by default. A public dataset may need to omit or hash restricted quotations while retaining claim identifiers, bibliographic metadata, derived labels that have passed human validation, and pointers that authorized researchers can resolve locally. The release form will be determined only after item-level rights and cultural review.

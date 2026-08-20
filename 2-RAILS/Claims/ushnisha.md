@@ -3,8 +3,8 @@ topic: ushnisha
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -68,13 +68,13 @@ Ten claims across eight commentaries quote the root verse's opening line — "�
 
 Six commentaries give the full four lines: "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བ(ར)་སྤྱོད་མ། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། རྒྱལ་བ(འི)་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།" — "Homage to her [dwelling at] the Tathāgatas' uṣṇīṣa, whose conduct is victorious over the limitless, utterly relied upon by the victors' sons who have attained the perfections without exception."
 
-— attested (full four lines): `anon-trinle-char:c-3-4-3`, `anon-utpala:c-1-2-2-1-1-3-2`, `palden-sherab:c-3-1-4-0-2`, `sungrab-tulku:c-7-2`, `tenzin-dhonzang:c-2-8`, `tenzin-dhonzang:c-4-4-2`, `tsultrim-namdak:c-2-1-2-1-13` (6 commentaries)
+— attested (full four lines): `yama-sonam:c-3-4-3`, `dharmabhadra:c-1-2-2-1-1-3-2`, `palden-sherab:c-3-1-4-0-2`, `sungrab-tulku:c-7-2`, `tenzin-dhonzang:c-2-8`, `tenzin-dhonzang:c-4-4-2`, `tsultrim-namdak:c-2-1-2-1-13` (6 commentaries)
 
 Three commentaries give only the opening line, or the opening two lines, rather than the full four:
 
 — attested (opening line only, or first two lines): `gendun-drub:c-2-2-2-2-1-1-3-2`, `sungrab-tulku:c-7-4`, `tenga-tulku:c-1-2-2-1-1-3-1-2` (3 commentaries; sungrab-tulku is counted once here even though it also gives the full four lines at `sungrab-tulku:c-7-2` above, per Rule 15's unique-commentary count)
 
-Anon-Trinle-Char's claim frames the quotation as drawn "from the tantra" (རྒྱུད་ལས), rather than presenting it purely as the root praise-verse itself — a framing distinct from the other seven attestations, which quote it as the praise's own fourth verse. `anon-trinle-char:c-3-4-3`
+Anon-Trinle-Char's claim frames the quotation as drawn "from the tantra" (རྒྱུད་ལས), rather than presenting it purely as the root praise-verse itself — a framing distinct from the other seven attestations, which quote it as the praise's own fourth verse. `yama-sonam:c-3-4-3`
 
 ### ⚑ Divergences
 None observed — no commentary quotes a substantively different wording of the verse.
@@ -125,13 +125,13 @@ Drakpa-Gyaltsen: "དེ་བཞིན་གཤེགས་པ་ཐམས་�
 
 Anon-Trinle-Char: "དེ་བཞིན་གཤེགས་པའི་དབུའི་གཙུག་ཏོར་བཞུགས་ཤིང" ("you abide at the crown-uṣṇīṣa of the Tathāgatas' heads"). Anon-Utpala: "དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན" ("at the very crown of the uṣṇīṣa on their heads" — locative case). Lobsang-Dawa: "དེ་བཞིན་གཤེགས་པའི་གཙུག་གཏོར་ན" ("at the crown-protuberance of the Tathāgata" — locative case).
 
-— attested: `anon-trinle-char:c-3-4-4`, `anon-utpala:c-1-2-2-1-1-3-3`, `lobsang-dawa:c-1-2-2-1-1-3-2` (3 commentaries)
+— attested: `yama-sonam:c-3-4-4`, `dharmabhadra:c-1-2-2-1-1-3-3`, `lobsang-dawa:c-1-2-2-1-1-3-2` (3 commentaries)
 
 **Position 3 — emanation: she arises from, or is emanated out of, the uṣṇīṣa — a causal/origin claim, several specifying the Tathāgata Vairocana as its source:**
 
 Anon-Trinle-Char reports this reading explicitly as "Jonangpa's interpretation" (ཇོ་ནང་པས་...འགྲེལ་བ), not as its own default reading: "ཇོ་ནང་པས་དེ་བཞིན་གཤེགས་པ་རྣམ་པ་སྣང་མཛད་ཀྱི་དབུའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཀྱི་ཡེ་ཤེས་སྤྲུལ་པ་ལྷ་མོ་འདིས་བདག་གིར་མཛད" ("this goddess has taken possession of the wisdom-emanation of the vidyā-mantra arising from the uṣṇīṣa of the Tathāgata Vairocana"). Palden-Sherab, without attributing the reading to a named source: "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཡེ་ཤེས་ལྷ་མོར་སྤྲུལ་པ" ("emanated as the vidyā-mantra wisdom-goddess from the uṣṇīṣa of the Tathāgata"). Sangye-Nyentrul: "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལས་སྤྲུལ་པ" ("an emanation from the crown-protuberance of the Tathāgatas"). Taranatha, without naming Vairocana in the same claim's own following clause: "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི་གཙུག་གཏོར་ལས" ("from the uṣṇīṣa of the Tathāgata Vairocana"). Tsultrim-Namdak's two claims independently give the same Vairocana-sourced reading — `tsultrim-namdak:c-2-1-2-1-13` ends mid-word naming "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང" (Vairocana, truncated in the packet), and `tsultrim-namdak:c-3-7` gives the same emanation content in substance ("emanated from the Tathāgata's uṣṇīṣa," per that claim's own English gloss), though its own Tibetan wording does not contain the exact string "...ལས་...སྤྲུལ་པ" quoted for the other attestations above — the emanation-position claim rests here on the claim's English gloss rather than a verbatim Tibetan match.
 
-— attested: `anon-trinle-char:c-3-4-7`, `palden-sherab:c-3-1-4-1-1`, `sangye-nyentrul:c-5-0-1`, `taranatha:c-4-3`, `tsultrim-namdak:c-2-1-2-1-13`, `tsultrim-namdak:c-3-7` (5 commentaries)
+— attested: `yama-sonam:c-3-4-7`, `palden-sherab:c-3-1-4-1-1`, `sangye-nyentrul:c-5-0-1`, `taranatha:c-4-3`, `tsultrim-namdak:c-2-1-2-1-13`, `tsultrim-namdak:c-3-7` (5 commentaries)
 
 No commentary in the packet reconciles these three framings or states that one supersedes the others.
 
@@ -149,7 +149,7 @@ Four commentaries independently give the same rationale for the goddess's connec
 
 Anon-Trinle-Char: "ལྷ་མོ་ཁྱོད་ནི་རྒྱལ་བ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེའི་མཚོན་དོན་དུ།...བཞུགས" ("because you, goddess, are the mother of all victors, as a symbol of that you abide..."). Anon-Utpala: "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་..." ("because she is the mother of all Tathāgatas..."). Gendun-Drub: "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དབུའི་གཙུག་ཏོར་ལྟར་འཁུར་ཞིང" ("since she is the mother of all Tathāgatas, she is borne like the crown-ornament..."). Konchok-Thabkhe: she is "རྒྱལ་བ་ཐམས་ཅད་བསྐྱེད་པའི་ངེས་དོན་གྱི་ཡུམ་མཆོག" ("the supreme definitive-meaning mother who gives rise to all victors"), hence "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང་གཙུག་ཏོར་ལྟར་བཀུར་བའི་འོས་སུ་གྱུར་པ" ("worthy of being honored even by all tathāgatas as their own crown-protuberance").
 
-— attested: `anon-trinle-char:c-3-4-4`, `anon-utpala:c-1-2-2-1-1-3-3`, `gendun-drub:c-2-2-2-2-1-1-3-3`, `konchok-thabkhe:c-2-4-2` (4 commentaries)
+— attested: `yama-sonam:c-3-4-4`, `dharmabhadra:c-1-2-2-1-1-3-3`, `gendun-drub:c-2-2-2-2-1-1-3-3`, `konchok-thabkhe:c-2-4-2` (4 commentaries)
 
 ### ⚑ Divergences
 None observed.
@@ -218,8 +218,8 @@ Tenzin-Dhonzang's commentary cites the *Sutra of Inconceivable Secrets* on the u
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-4-3, c-3-4-4, c-3-4-7 | Root verse, Relation to the uṣṇīṣa (locative, emanation), Rationale/status |
-| anon-utpala | c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-3 | Root verse, Relation to the uṣṇīṣa (locative), Rationale/status |
+| yama-sonam | c-3-4-3, c-3-4-4, c-3-4-7 | Root verse, Relation to the uṣṇīṣa (locative, emanation), Rationale/status |
+| dharmabhadra | c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-3 | Root verse, Relation to the uṣṇīṣa (locative), Rationale/status |
 | drakpa-gyaltsen | c-1-23 | Relation to the uṣṇīṣa (simile) |
 | gendun-drub | c-2-2-2-2-1-1-3-2, c-2-2-2-2-1-1-3-3, c-2-2-2-2-1-1-3-5 | Root verse, Relation to the uṣṇīṣa (simile), Rationale/status, Identity (unique) |
 | gendun-gyatso | c-1-4-1 | Relation to the uṣṇīṣa (simile) |

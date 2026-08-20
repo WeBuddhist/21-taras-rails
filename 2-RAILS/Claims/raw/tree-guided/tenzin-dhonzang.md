@@ -2,9 +2,9 @@
 registered_id: tenzin-dhonzang
 title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ"
 title_in_english: "The Heart Jewel: A Commentary on the Praise in Twenty-One Homages to Tara"
-author: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང"
-author_in_use: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང"
-author_in_english: "Sermey Tsang Geshe Tenzin Dhonzang"
+author: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་"
+author_in_use: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་"
+author_in_english: "Sermé Tsang Geshe Tenzin Dhonzang"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/tenzin-dhonzang.md
 tree_qc_reports: [0-INBOX/toc-tree-qc-tenzin-dhonzang.md, 0-INBOX/toc-tree-qc-source-tenzin-dhonzang.md]
@@ -18,7 +18,7 @@ status: draft
 
 # Tree-guided claims — The Heart Jewel: A Commentary on the Praise in Twenty-One Homages to Tara
 
-**Commentary:** `tenzin-dhonzang` · Sermey Tsang Geshe Tenzin Dhonzang
+**Commentary:** `tenzin-dhonzang` · Sermé Tsang Geshe Tenzin Dhonzang
 **Source:** [`སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md`](../../../1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md)
 **TOC tree:** [`tenzin-dhonzang.md`](../../Sections/Raw/toc-tree/tenzin-dhonzang.md)
 **Citation form:** Block IDs (`^0-N` for content blocks; the commentary carries no root-verse transclusion — chapter 0 throughout per `commentary-verse-id`'s convention). Heading block IDs (`^N-0`, `^4-N-0`) are cited only where a claim's content is the heading label itself.

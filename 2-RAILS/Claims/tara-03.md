@@ -3,8 +3,8 @@ topic: tara-03
 spine: "^1-3 (third homage of the twenty-one)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -76,16 +76,16 @@ status: draft
 ### Consensus
 Eight commentaries mark this passage with an explicit ordinal — "third" (གསུམ་པ) or an equivalent numeral marker — identifying it as the third homage, before glossing the verse.
 
-— attested: `anon-trinle-char:c-3-3-1`, `gendun-gyatso:c-1-3-1`, `karma-maitri:c-1-1-3-1`, `konchok-thabkhe:c-2-3-1`, `palden-sherab:c-3-1-3-0-1`, `sungrab-tulku:c-6-1`, `taranatha:c-3-1`, `tenzin-dhonzang:c-4-3-1` (8 commentaries)
+— attested: `yama-sonam:c-3-3-1`, `gendun-gyatso:c-1-3-1`, `karma-maitri:c-1-1-3-1`, `konchok-thabkhe:c-2-3-1`, `palden-sherab:c-3-1-3-0-1`, `sungrab-tulku:c-6-1`, `taranatha:c-3-1`, `tenzin-dhonzang:c-4-3-1` (8 commentaries)
 
 ### ⚑ Divergences
 Four commentaries instead mark this same node "second" (གཉིས་པ), not "third." Three of them — Anon-Utpala, Gendun Drub, and Tenga Tulku — give a near-identical formula in their own claim text, "the second, [praise] by way of body-colour, hand-emblem, and cause" (Tenga Tulku's variant reads "body" [སྐུ] in place of "cause" [རྒྱུ] as the third listed element). The fourth, Lobsang Dawa, also marks the node "second" but its own claim gives only the bare ordinal marker — "གཉིས་པ་ནི།" ("As for the second:") — with no mention of body-colour, hand-emblem, or cause; the fuller formula sometimes associated with this claim is the raw claims file's own bracketed editorial gloss (`[body-color, hand-implements, and their cause]`), not Lobsang Dawa's own words, so it is not attributed to the claim here (per Rule 12). This is the same nested-numbering phenomenon attested for the prior homage in this corpus — these four commentaries are numbering a sub-element within this homage's own internal structure (body-colour/hand-emblem/cause is apparently counted as the "second" descriptive element, after an initial name/identification element), not the homage's position among the twenty-one as a whole. No commentary in this corpus states outright which of the two schemes the other is using; this page records the difference as a taxonomy split rather than resolving it, per Rule 4.
 
 - Position 1 (ordinal "third," homage-level count): the eight commentaries listed under Consensus above.
-- Position 2 (ordinal "second," nested sub-element count): `anon-utpala:c-1-2-2-1-1-2-1`, `gendun-drub:c-2-2-2-2-1-1-2-1`, `lobsang-dawa:c-1-2-2-1-1-2-1`, `tenga-tulku:c-1-2-2-1-1-2-1`.
+- Position 2 (ordinal "second," nested sub-element count): `dharmabhadra:c-1-2-2-1-1-2-1`, `gendun-drub:c-2-2-2-2-1-1-2-1`, `lobsang-dawa:c-1-2-2-1-1-2-1`, `tenga-tulku:c-1-2-2-1-1-2-1`.
 
 ### Unique
-Anon-Trinle-Char gives two further structural markers beyond its heading (already cited under Position 1 above): a second, near-duplicate marker restating "as for the third homage, to the venerable Lady Tārā of the Perfections," and a transitional line identifying the object of homage and asking what cause is seen for faith. Neither adds ordinal or doctrinal content beyond what its heading claim already establishes, so they are recorded here rather than double-counted in the Consensus above. `anon-trinle-char:c-3-3-2`, `anon-trinle-char:c-3-3-4`
+Anon-Trinle-Char gives two further structural markers beyond its heading (already cited under Position 1 above): a second, near-duplicate marker restating "as for the third homage, to the venerable Lady Tārā of the Perfections," and a transitional line identifying the object of homage and asking what cause is seen for faith. Neither adds ordinal or doctrinal content beyond what its heading claim already establishes, so they are recorded here rather than double-counted in the Consensus above. `yama-sonam:c-3-3-2`, `yama-sonam:c-3-3-4`
 
 Taranatha similarly gives a second, transitional structural claim — "regarding the third verse, 'homage to gold[-stemmed], blue [lotus],' etc." — which repeats the ordinal and heading content of its own claim already cited under Position 1 above, serving only to introduce the word-by-word gloss that follows. `taranatha:c-3-2`
 
@@ -100,11 +100,11 @@ Eight commentaries quote the verse's opening line(s) in a form beginning "ཕྱ
 
 **"གསེར་སྔོ" (gold-blue, with the "ga" prefix):**
 
-— attested: `anon-utpala:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `sungrab-tulku:c-6-2`, `tenga-tulku:c-1-2-2-1-1-2-2` (4 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-0-2`, `sungrab-tulku:c-6-2`, `tenga-tulku:c-1-2-2-1-1-2-2` (4 commentaries)
 
 **"སེར་སྔོ" (yellow-blue, without the prefix):**
 
-— attested: `anon-trinle-char:c-3-3-3`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-2-1-2-1-10`, `gendun-drub:c-2-2-2-2-1-1-2-2` (4 commentaries)
+— attested: `yama-sonam:c-3-3-3`, `tenzin-dhonzang:c-4-3-2`, `tsultrim-namdak:c-2-1-2-1-10`, `gendun-drub:c-2-2-2-2-1-1-2-2` (4 commentaries)
 
 Gendun Drub's own quotation — "ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།" — reads "སེར་སྔོ" with no "ག" prefix at all, so it belongs in the without-prefix group above, not the with-prefix group (corrected from an earlier mis-categorization). It also gives only the verse's first two lines rather than the full four, so it is recorded as a partial attestation of the shared quotation above, per Rule 9.
 
@@ -123,9 +123,9 @@ Sungrab-Tulku's claim `sungrab-tulku:c-6-3` glosses "ཕྱག་འཚལ་བ
 ### Consensus
 Six commentaries describe her **body** (not merely her lotus) as golden-yellow with a bluish tinge.
 
-— attested: `anon-trinle-char:c-3-3-5`, `anon-utpala:c-1-2-2-1-1-2-3`, `karma-maitri:c-1-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3` (6 commentaries)
+— attested: `yama-sonam:c-3-3-5`, `dharmabhadra:c-1-2-2-1-1-2-3`, `karma-maitri:c-1-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3` (6 commentaries)
 
-Of these, Anon-Utpala alone specifies the hue with a particular simile — "like the gold of the Jambu river" (འཛམ་བུ་ཆུ་བོའི་གསེར་ལྟར) — rather than plain gold; re-read against the other five claims in the Consensus list, none of them states this river simile, so it is not presented as shared by all six, per Rule 9. `anon-utpala:c-1-2-2-1-1-2-3`
+Of these, Anon-Utpala alone specifies the hue with a particular simile — "like the gold of the Jambu river" (འཛམ་བུ་ཆུ་བོའི་གསེར་ལྟར) — rather than plain gold; re-read against the other five claims in the Consensus list, none of them states this river simile, so it is not presented as shared by all six, per Rule 9. `dharmabhadra:c-1-2-2-1-1-2-3`
 
 Of these six, Tenga-Tulku's own exegesis is more qualified than the plain "gold body, blue tinge" formula shared by the other five: re-read in full, its claim states that "golden-blue" resembles gold only "in terms of an extremely subtle [aspect of] luster" (མདངས་ཤིན་ཏུ་ཕྲ་བའི་ཆ་ནས), and explicitly adds that "without an actual golden hue" (ཁ་དོག་གི་བཀྲག་མདངས་དངོས་སུ་མེད་པར) she possesses a blue aspect — weighting blue, not gold, as her substantive body-colour. It remains counted in this Consensus list because it does affirm both a gold-like and a blue quality of the body itself (not the lotus), but a reader relying only on the Consensus line above would not learn of this asymmetry. `tenga-tulku:c-1-2-2-1-1-2-3`
 
@@ -166,15 +166,15 @@ Gendun-Drub's own gloss of "blue and gold" construes the compound differently fr
 ### Consensus
 Commentaries agree that her hand is adorned by a water-born lotus (padma) or blue utpala flower, its petals opened and blossoming.
 
-— attested: `anon-trinle-char:c-3-3-7`, `anon-utpala:c-1-2-2-1-1-2-4`, `drakpa-gyaltsen:c-1-13`, `drakpa-gyaltsen:c-1-14`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `karma-maitri:c-1-1-3-3`, `konchok-thabkhe:c-2-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-1-1`, `pema-namgyal:c-2-4-18`, `sangye-nyentrul:c-4-0-1`, `sungrab-tulku:c-6-4`, `taranatha:c-3-3`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4`, `tsultrim-namdak:c-2-1-2-1-11` (15 commentaries; Drakpa-Gyaltsen contributes two claims)
+— attested: `yama-sonam:c-3-3-7`, `dharmabhadra:c-1-2-2-1-1-2-4`, `drakpa-gyaltsen:c-1-13`, `drakpa-gyaltsen:c-1-14`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `karma-maitri:c-1-1-3-3`, `konchok-thabkhe:c-2-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-1-1`, `pema-namgyal:c-2-4-18`, `sangye-nyentrul:c-4-0-1`, `sungrab-tulku:c-6-4`, `taranatha:c-3-3`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4`, `tsultrim-namdak:c-2-1-2-1-11` (15 commentaries; Drakpa-Gyaltsen contributes two claims)
 
 Of these, ten specify that it is her **left** hand (ཕྱག་གཡོན) that holds the lotus:
 
-— attested: `anon-utpala:c-1-2-2-1-1-2-4`, `drakpa-gyaltsen:c-1-14`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-1-1`, `pema-namgyal:c-2-4-18`, `sangye-nyentrul:c-4-0-1`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4` (10 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-2-4`, `drakpa-gyaltsen:c-1-14`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `lobsang-dawa:c-1-2-2-1-1-2-2`, `palden-sherab:c-3-1-3-1-1`, `pema-namgyal:c-2-4-18`, `sangye-nyentrul:c-4-0-1`, `sungrab-tulku:c-6-4`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4` (10 commentaries)
 
 Five of the sixteen additionally specify that the lotus's petals open level with, or facing toward, her ear:
 
-— attested: `anon-trinle-char:c-3-3-7`, `anon-utpala:c-1-2-2-1-1-2-4`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4` (5 commentaries)
+— attested: `yama-sonam:c-3-3-7`, `dharmabhadra:c-1-2-2-1-1-2-4`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `tenga-tulku:c-1-2-2-1-1-2-3`, `tenzin-dhonzang:c-4-3-4` (5 commentaries)
 
 ### ⚑ Divergences
 None observed on the base image (a lotus-adorned hand); the remaining commentaries in the Consensus list above simply do not specify laterality or ear-level detail in their routed claims, rather than stating a competing description.
@@ -189,7 +189,7 @@ Pema-Namgyal alone describes the lotus in botanical/poetic detail beyond the cor
 ### Consensus
 Thirteen commentaries state that this Tārā arises from, is identified with, or has made her domain the practice of the six pāramitās (perfections) named in the verse — generosity, diligence, austerity/discipline, peace/wisdom, patience, and meditative concentration.
 
-— attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-7`, `drakpa-gyaltsen:c-1-22`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-5`, `tenga-tulku:c-1-2-2-1-1-2-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-12` (13 commentaries)
+— attested: `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-7`, `drakpa-gyaltsen:c-1-22`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-5`, `tenga-tulku:c-1-2-2-1-1-2-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-12` (13 commentaries)
 
 Anon-Trinle-Char's phrasing describes her as having made "the ten perfections" (ཕར་ཕྱིན་བཅུ） her domain, and Gendun-Drub's phrasing likewise refers to "the ten pure perfections" (ཕ་རོལ་ཏུ་ཕྱིན་པ་བཅུ་དག་པ), even though each lists only the same six items named in the verse. This page notes the numeral discrepancy as it stands in both claims, without resolving it — neither claim explains the "ten," and no other commentary in the corpus uses this numeral for this verse.
 
@@ -206,7 +206,7 @@ Karma-Maitri's and Drakpa-Gyaltsen's word-by-word enumerations of the individual
 ### Consensus
 Fifteen commentaries gloss "austerity" (དཀའ་ཐུབ) as moral discipline (ཚུལ་ཁྲིམས) — several explicitly via the etymological play that discipline is called "austerity" because it is difficult (དཀའ） to guard, yet she is able (ཐུབ) to guard it.
 
-— attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-5`, `drakpa-gyaltsen:c-1-17`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`, `karma-maitri:c-1-1-3-5`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `sungrab-tulku:c-6-5`, `taranatha:c-3-4`, `tenga-tulku:c-1-2-2-1-1-2-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-11` (15 commentaries)
+— attested: `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-5`, `drakpa-gyaltsen:c-1-17`, `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`, `karma-maitri:c-1-1-3-5`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `sungrab-tulku:c-6-5`, `taranatha:c-3-4`, `tenga-tulku:c-1-2-2-1-1-2-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-11` (15 commentaries)
 
 ### ⚑ Divergences
 Konchok-Thabkhe alone bundles "austerity" together with "peace" as a single compound term equalling discipline ("དཀའ་ཐུབ་ཞི་བ་སྟེ་ཚུལ་ཁྲིམས"), rather than glossing "austerity" alone as discipline and "peace" as a separate item (see "Word-gloss and divergence: peace," below, and "Alternate correspondence schemes"). Re-read against the Consensus wording above, this claim's own text does not isolate "austerity" the way the other fifteen do, so it is not folded into the Consensus count. (Karma-Maitri's austerity claim, already cited in the Consensus above, was checked against this same possible pattern: it states "austerity, that is, moral discipline — by that, afflictions are pacified," a verb clause giving a rationale for the austerity=discipline equation, and it does not itself name or fold in "peace" [ཞི་བ] as a second verse-word — a different grammatical move from Konchok-Thabkhe's compound-noun bundling of the two verse-words, so it is not counted as a second instance here.)
@@ -227,7 +227,7 @@ None — the corpus is divided on what "peace" refers to, so no single gloss is 
 
 **Position A — "peace" refers to wisdom (ཤེས་རབ), directly or as wisdom's pacifying function:**
 
-— attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-6`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-11` (9 commentaries)
+— attested: `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-6`, `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-4`, `tenzin-dhonzang:c-4-3-5`, `tsultrim-namdak:c-2-1-2-1-11` (9 commentaries)
 
 **Position B — "peace" refers to the pacification of afflictions or discordant factors, not to wisdom specifically:** Drakpa-Gyaltsen and Gendun-Gyatso gloss "peace" as the pacifying of afflictions (ཉོན་མོངས་ཞི་བ) in general terms; Gendun-Drub's gloss of the same word instead names a specific list of six discordant factors it pacifies (miserliness, laziness, poor discipline, anger, distraction, wrong views) rather than the generic term "afflictions." All three share the underlying claim that "peace" names a *pacifying* function rather than an equation with wisdom, but Gendun-Drub's specific six-item list is not verbatim identical to the other two's generic wording, so it is recorded as part of the same position without claiming word-for-word agreement.
 
@@ -243,7 +243,7 @@ None — the corpus is divided on what "peace" refers to, so no single gloss is 
 
 **Anon-Trinle-Char's own meta-observation** corroborates that this exact split is visible within its own tradition: "on the meaning of 'peace,' some [commentaries] apply it to the perfection of wisdom, while others take it to mean the pacifying of what is discordant with the ten perfections." This claim does not itself take a side; it is cited here as native, in-corpus evidence that commentators were themselves aware of the Position A / Position B split recorded above.
 
-— attested: `anon-trinle-char:c-3-3-8` (1 commentary)
+— attested: `yama-sonam:c-3-3-8` (1 commentary)
 
 ### Unique
 Drakpa-Gyaltsen additionally glosses a different word in the verse — "སྤྱོད་ཡུལ་ཉིད་མ" ("she whose domain [it is]") — as referring to wisdom, keeping this separate from its own "peace" = pacification-of-afflictions gloss (Position B above). This is the same "domain"-word-to-wisdom mapping that Konchok-Thabkhe's divergence (above) reports as one option among earlier commentaries. `drakpa-gyaltsen:c-1-21`
@@ -291,7 +291,7 @@ None — no other commentary contradicts this description; the rest of the corpu
 ### Unique
 Anon-Trinle-Char alone gives a fully elaborated iconographic form for this Tārā: one face, ten arms, seated upon a sun disc atop a multicoloured lotus; the five right hands hold a rosary (at the heart), sword, arrow (being shot), vajra, and staff; the five left hands hold a hanging silk streamer, lasso, lotus, bell, and bow, with the figure seated in vajra posture. This commentary attributes the same description to a verse of "Nyima Sbaspa," quoted in full.
 
-— attested: `anon-trinle-char:c-3-3-9`, `anon-trinle-char:c-3-3-10`, `anon-trinle-char:c-3-3-11`, `anon-trinle-char:c-3-3-12` (1 commentary, 4 claims)
+— attested: `yama-sonam:c-3-3-9`, `yama-sonam:c-3-3-10`, `yama-sonam:c-3-3-11`, `yama-sonam:c-3-3-12` (1 commentary, 4 claims)
 
 ---
 
@@ -393,8 +393,8 @@ None.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-3-1, c-3-3-2, c-3-3-3, c-3-3-4, c-3-3-5, c-3-3-6, c-3-3-7, c-3-3-8, c-3-3-9, c-3-3-10, c-3-3-11, c-3-3-12 | Structural placement, Root-verse quotation, Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace, Expanded iconographic form |
-| anon-utpala | c-1-2-2-1-1-2-1, c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-3, c-1-2-2-1-1-2-4, c-1-2-2-1-1-2-5, c-1-2-2-1-1-2-6, c-1-2-2-1-1-2-7 | Structural placement, Root-verse quotation, Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace |
+| yama-sonam | c-3-3-1, c-3-3-2, c-3-3-3, c-3-3-4, c-3-3-5, c-3-3-6, c-3-3-7, c-3-3-8, c-3-3-9, c-3-3-10, c-3-3-11, c-3-3-12 | Structural placement, Root-verse quotation, Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace, Expanded iconographic form |
+| dharmabhadra | c-1-2-2-1-1-2-1, c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-3, c-1-2-2-1-1-2-4, c-1-2-2-1-1-2-5, c-1-2-2-1-1-2-6, c-1-2-2-1-1-2-7 | Structural placement, Root-verse quotation, Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace |
 | drakpa-gyaltsen | c-1-12, c-1-13, c-1-14, c-1-15, c-1-16, c-1-17, c-1-18, c-1-19, c-1-20, c-1-21, c-1-22 | Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace, Claims reviewed |
 | gendun-drub | c-2-2-2-2-1-1-2-1, c-2-2-2-2-1-1-2-2, c-2-2-2-2-1-1-2-3, c-2-2-2-2-1-1-2-4, c-2-2-2-2-1-1-2-5 | Structural placement, Root-verse quotation, Iconography — body colour, Iconography — hand-emblem, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace, Six perfections as antidotes, Epithets and identity |
 | gendun-gyatso | c-1-3-1, c-1-3-2, c-1-3-3 | Structural placement, Iconography — body colour, The six pāramitās, Word-gloss: austerity, Word-gloss and divergence: peace, Alternate correspondence schemes |

@@ -39,7 +39,7 @@ regenerable** and are cited by the IATS paper and by `REVIEW-2026-08-02.md`.
 One set mismatch, noted in `STATE.md` and resolved during migration: `TARAC03_GDD` (Gendun
 Drub's ṭīkā) existed only here, not in the original `1-SOURCES/` upload — it is now
 `1-SOURCES/Commentaries/…ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md`, `registered_id: gendun-drub`.
-`anon-rnam-snang` (Dharmabhadra) is the reverse case — in the vault, not in this corpus —
+`rnam-snang` (Dharmabhadra) is the reverse case — in the vault, not in this corpus —
 and remains unregistered in the pipeline; still flagged for a human look (its title
 duplicates the root text's own Kangyur title).
 

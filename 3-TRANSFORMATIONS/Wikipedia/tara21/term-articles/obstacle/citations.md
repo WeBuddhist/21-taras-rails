@@ -1,7 +1,10 @@
 ---
 topic: obstacle
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+source_article: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/obstacle/article.md (v1, method wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/obstacle.md
 rails_status: draft
@@ -17,6 +20,25 @@ raw_sources_cited:
 date: 2026-08-14
 status: draft
 ---
+
+## Mode B revision note (2026-08-20)
+
+Rewritten from the v1 article for register only, per
+`4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md` Mode B. No new claim IDs were
+introduced; no `1-SOURCES/`/`2-RAILS/` content was re-derived. Changes: (1) the
+`ངེས་ཚིག` section's five near-duplicate definitional quotations (taranatha, palden-sherab,
+tsultrim-namdak, sangye-nyentrul, drakpa-gyaltsen) collapsed into one wikivoice consensus
+sentence citing 3 representative refs, with `sangye-nyentrul:c-7-0-2` moved to "Full
+attestation beyond in-article refs" below; (2) the `དབྱེ་བ།` section kept its one
+formal-epithet quotation (`palden-sherab:c-3-1-14-0-1`, exact wording is the point — the
+verse's own attributed title) and paraphrased the rest; (3) the
+`གཞུང་ལུགས་སོ་སོའི་བཤད་པ` divergence section kept its attribution structure (Rule 5) but
+converted its two full-sentence quotations to paraphrase; (4) `ཕྲིན་ལས་དང་ནུས་མཐུ།` kept
+its one quotation (`tenzin-dhonzang:c-4-2-6`) as the article's second and last budgeted
+quotation; (5) `བསྡུས་དོན།` tightened to a single wikivoice sentence, 3 refs.
+Quotations: 13 (v1) → 2 (v2). All in-prose commentator names already matched
+`author_in_use` frontmatter values in v1, so no name changes were required — see
+Warnings below.
 
 # Citations — obstacle (བགེགས)
 
@@ -57,6 +79,10 @@ activity" observation (`c-4-2-7`, `c-4-13-12`) are described in the article's pr
 in aggregate ("skabs mang por ... zhes pa'i mtshungs pa'i tshig gis brjod") without an
 individual quotation, so they are not separately rowed here; see "Claims used but not
 quoted," below.
+
+## Full attestation beyond in-article refs
+
+- **ངེས་ཚིག consensus sentence** ("...ཚོགས་ཀྱི་བདག་པོ་སོགས་བགེགས་དང་ལོག་འདྲེན་བྱེད་མཁན་གྱི་རིགས་སུ་ངོས་འཛིན...", cited to `taranatha`, `palden-sherab`, `tsultrim-namdak`) — also attested by `sangye-nyentrul:c-7-0-2` ("བགེགས་སོགས་འབྱུང་པོ"), not separately ref'd in-body to stay within the 3-ref cap.
 
 ## Claims used but not quoted
 
@@ -104,6 +130,12 @@ tree-guided file.
   task's explicit instruction to judge the borderline verdict honestly.
 - **Two `sangye-nyentrul` claims (`c-15-0-2`, `c-15-1-3`) were resolved but not quoted**
   — see "Claims resolved but not incorporated," above.
+- **Mode B `author_in_use` check (2026-08-20):** all eight commentators cited in-prose
+  (taranatha, palden-sherab, tsultrim-namdak, drakpa-gyaltsen, sangye-nyentrul,
+  sungrab-tulku, pema-namgyal, tenzin-dhonzang) carry an `author_in_use` key directly on
+  their own `2-RAILS/Claims/raw/tree-guided/<id>.md` frontmatter, and the v1 article's
+  in-prose forms already matched those values verbatim — no name changes were needed, no
+  `author` fallback used.
 - **This page's gather step was manual, not scripted** — see the note at the top of
   `2-RAILS/Claims/obstacle.md`. No deterministic packet-assembly script exists yet for
   this cross-cutting keyword topic (unlike `gdon.md`/`mara.md`, which use

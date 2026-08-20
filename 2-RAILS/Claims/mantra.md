@@ -281,8 +281,8 @@ None observed.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | none (silent) | — |
-| `anon-utpala` | none (silent) | — |
+| `yama-sonam` | none (silent) | — |
+| `dharmabhadra` | none (silent) | — |
 | `drakpa-gyaltsen` | c-1-101, c-2-11 (2) | What the "root mantra" identifies, Benefit: reciting/recollecting the mantra |
 | `gendun-drub` | c-1-3, c-2-2-0-2, c-2-2-0-6, c-2-2-2-3-1-1 (4) | Origin of the mantra, "Root mantra" as structural category, What the "root mantra" identifies |
 | `gendun-gyatso` | c-1-5-2 (1) | Mantra's power: subjugation/summoning/manifestation-shift |
@@ -298,4 +298,4 @@ None observed.
 | `tenzin-dhonzang` | c-4-18-5, c-4-18-6, c-4-18-7, c-4-18-8, c-4-19-4, c-4-21-7 (6) | Etymology and typology of mantra, Mantra's power against hostile mantras and sorcery, Mantra as protective armor |
 | `tsultrim-namdak` | c-1-17, c-2-1-1-13, c-2-1-2-1-25, c-4-8-1, c-4-18-1, c-4-22-1, c-4-26-1, c-5-2-2-1, c-5-2-3-1, c-5-3-4 (10) | Origin of the mantra, Benefit: reciting/recollecting the mantra, Mantra in iconography/body-placement/practice, Mantra in ritual practice, Narrative illustrations of the mantra's efficacy |
 
-**Commentaries silent on this topic:** `anon-trinle-char`, `anon-utpala`, `konchok-thabkhe`, `lobsang-dawa` — per the packet's own Signal-A routing, no claim in any of these four commentaries' raw claims files is tagged as being "about" སྔགས (mantra); the packet gives no further per-commentary reason beyond this (unlike a spine-mapped packet, a keyword packet's silence is a tagging outcome, not a structural one).
+**Commentaries silent on this topic:** `yama-sonam`, `dharmabhadra`, `konchok-thabkhe`, `lobsang-dawa` — per the packet's own Signal-A routing, no claim in any of these four commentaries' raw claims files is tagged as being "about" སྔགས (mantra); the packet gives no further per-commentary reason beyond this (unlike a spine-mapped packet, a keyword packet's silence is a tagging outcome, not a structural one).

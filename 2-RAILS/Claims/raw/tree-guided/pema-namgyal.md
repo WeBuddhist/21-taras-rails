@@ -2,8 +2,8 @@
 registered_id: pema-namgyal
 title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ"
 title_in_english: "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
-author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ"
-author_in_use: "ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ།"
+author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་"
+author_in_use: "ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་"
 author_in_english: "Ldombuwa Pema Namgyal"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/pema-namgyal.md

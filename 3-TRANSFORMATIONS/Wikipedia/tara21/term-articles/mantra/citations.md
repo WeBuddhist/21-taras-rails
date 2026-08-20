@@ -1,7 +1,10 @@
 ---
 topic: mantra
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/mantra/article.md (v1, wiki-article-from-claims)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/mantra.md
 rails_status: draft
@@ -30,6 +33,76 @@ placement in practice — as attested by the twelve commentaries that discuss it
 `2-RAILS/Claims/mantra.md`'s own Signal-A routing). It deliberately excludes the
 syllable-by-syllable decoding of the text's own specific formula *oṃ tāre tuttāre ture
 svāhā*, which is the sibling topic `2-RAILS/Claims/tara-mantra.md` and a separate article.
+
+## Mode B revision (2026-08-20)
+
+Rewritten from the v1 article (`wiki-article-from-claims`, dated 2026-08-12) to v2 register
+per `4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`, Mode B (revision-in-place). No
+new claim ID was introduced; every ref name, claim ID, and `Cite:` target below is carried
+over unchanged from the v1 citations map. Only the prose register, quotation count, and
+in-prose author naming changed.
+
+- **Register.** Nearly every sentence in v1 opened with a named commentator
+  ("X-gis gsungs"/"Y-gis bshad"). All backbone material — etymology, classification, the
+  identity of "root mantra" with the two peaceful/wrathful name-mantras, the mantra's
+  canonical origin story, and the four power/benefit themes (destroying hostile mantras,
+  protective armor, healing/purification, subjugation) — is now wikivoice declarative
+  prose with the supporting refs attached, no commentator named. Inline attribution is now
+  reserved for: (a) the `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` section, which is the article's ⚑
+  divergence section (taranatha vs. tsultrim-namdak vs. gendun-drub's three incompatible
+  accounts of where the mantra/goddess relation originates — never flattened); (b) one
+  distinctive unique framing in `ཕན་ཡོན།` (drakpa-gyaltsen's classing of the mantra as one
+  of three recollection-objects, a framing no other commentary shares); and (c) the
+  `དཔེ་བརྗོད།` section, whose four illustrative anecdotes are unique to
+  tsultrim-namdak and are attributed to him once at the section's opening rather than
+  once per sentence.
+- **Quotation budget (Rule 6).** Cut from 30 verbatim quotations to 2. Both retained
+  quotations sit in the divergence section, where the exact wording is the point of the
+  disagreement: taranatha's "ཡི་གེ་བཅུ་པའི་ངག་སྟེ་སྔགས་ཀྱི་བཀོད་པ་ལས་བྱུང་བའི་ལྷ་མོ་ཁྱོད"
+  (claim `taranatha:c-16-5`) and tsultrim-namdak's "ཚངས་དབྱངས་ཀཱ་ལ་པིང་ཀའི་དབྱངས་ལས་ནི།
+  །བྱུང་བའི་ཏྟ་ར་ཡི་གཟུངས་ཀྱི་སྔགས" (claim `tsultrim-namdak:c-1-17`). Both are unchanged,
+  character-for-character, from their v1 wording, which was already verified PASS (see
+  original Verification table below, entries #11 and #12) — confirmed by direct text diff
+  against the v1 file, not by a fresh `1-SOURCES/` lookup, per Mode B step 6. All other 28
+  quotations were converted to paraphrase using the same claim's existing gloss already on
+  record in the Reference map below; no new phrasing was invented beyond what each claim's
+  བོད་ཡིག/English gloss already supported. One quotation (`gendun-drub:c-2-2-0-2`, the
+  anonymous-scholars' alternative mantra-formula identification) was simplified to a plain
+  description without reproducing the formula string, since the formula itself added
+  length without being part of the divergence's point; the claim's ref is still attached
+  to that sentence.
+- **Citation cap (Rule 7).** No statement in the rewrite carries more than 3 `<ref>`s.
+  Checked against v1's own per-sentence source counts, no statement's rewrite needed to
+  *drop* an attesting commentary to fit under the cap — v1 was already single- or
+  dual-sourced per sentence in every case that became a merged wikivoice statement here;
+  the heaviest merges (3 sources apiece) are the lead's is-a-book identification, the
+  "root mantra = peaceful+wrathful pair" identification, and the opening sentence of
+  `ནུས་པ་དང་ཕྲིན་ལས།`. See "Full attestation beyond in-article refs" below.
+- **Author naming (Rule 17).** All twelve commentaries' `author_in_use` values were
+  confirmed by frontmatter-only lookup of their raw tree-guided claims files (all twelve
+  carry the key natively; no `source_file` fallback needed, no warning). The three
+  in-prose names used in the rewrite — ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ (taranatha), མཁན་པོ་ཚུལ་ཁྲིམས་
+  རྣམ་དག (tsultrim-namdak), རྒྱལ་བ་དགེ་འདུན་གྲུབ (gendun-drub) in the divergence section;
+  རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན (drakpa-gyaltsen) in ཕན་ཡོན།; and མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག
+  again at the head of དཔེ་བརྗོད། — all use each commentary's `author_in_use` form, not
+  the bare `author` field.
+- **Punctuation contract (Rules 15–16).** Applied throughout: no comma character anywhere
+  in the fence body, every paragraph's last sentence ends `།།`, punctuation precedes every
+  `<ref>` tag.
+
+### Full attestation beyond in-article refs
+
+No claim's attestation was lost to the citation cap: every ref cited in v1 for a
+now-merged wikivoice statement is still cited in the rewrite (see the per-statement note
+above). The only content genuinely dropped from v1 is: (a) 28 quotation markings converted
+to plain paraphrase of the same claim (the claim and its ref remain, only the quotation
+marks and exact wording are gone); (b) the two claims v1 itself already excluded before
+drafting — `tenzin-dhonzang:c-4-18-8` and `taranatha:c-22-1-33` — which remain excluded,
+unchanged from v1's own "Claims resolved but not incorporated" note below; and (c) the
+full Sanskrit mantra strings quoted in the `སྒྲུབ་པའི་ལག་ལེན།` ritual-offering paragraph
+(claims `tsultrim-namdak:c-5-2-2-1` / `c-5-2-3-1`), condensed to a description because the
+specific syllables are not needed to support the claim being made (that offering
+substances are blessed by two named mantra classes) — the refs remain attached.
 
 ## Reference map
 

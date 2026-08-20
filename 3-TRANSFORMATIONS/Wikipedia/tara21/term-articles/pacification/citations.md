@@ -1,13 +1,16 @@
 ---
 topic: pacification
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+source_article: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/pacification/article.md (v1, method wiki-article-from-claims, dated 2026-08-12)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/pacification.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -27,6 +30,32 @@ status: draft
 
 # Citations — pacification (ཞི་བ)
 
+## Mode B revision note (2026-08-20)
+
+Rewritten from the v1 article for register only, per
+`4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md` Mode B. No new claim IDs were
+introduced; no `1-SOURCES/`/`2-RAILS/` content was re-derived; every claim ID listed in
+v1's Reference map below is still traceable in the revised article (either cited
+in-body or moved to "Full attestation beyond in-article refs"). Changes: (1) the
+`ངེས་ཚིག` section's near-duplicate consensus attestations (taranatha, dharmabhadra,
+lobsang-dawa, sangye-nyentrul, palden-sherab, pema-namgyal all separately quoted or
+name-listed) collapsed into one wikivoice consensus sentence citing 3 representative
+refs (taranatha, dharmabhadra, palden-sherab), with `lobsang-dawa:c-1-2-2-1-1-2-3`,
+`sangye-nyentrul:c-4-0-2`, `pema-namgyal:c-2-4-19` moved to "Full attestation beyond
+in-article refs"; (2) the `མཚན་ཉིད།` section's seven distinct commentator-by-commentator
+quoted sentences merged into two flowing wikivoice enumeration sentences, all claim IDs
+retained as citations, zero quotations; (3) the `དབྱེ་བ།` section kept its one
+genuinely unique quotation (`tenga-tulku:c-z-2`, the four-activity Tārā classification
+found in no other of the fourteen commentaries — exact wording is the point) and
+paraphrased the rest; (4) `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` kept its attributed,
+divergence-by-divergence structure (Rule 5) but converted all ten of its remaining
+quotations to paraphrase, tightening one-claim-one-sentence chains into connected
+prose per commentator; (5) `བསྡུས་དོན།` unchanged in substance, tightened for
+punctuation. Quotations: 21 (v1) → 2 (v2: the lead's root-verse quotation, exempt from
+the budget per Rule 6, plus the one budgeted `tenga-tulku` quotation). All in-prose
+commentator names already matched `author_in_use` frontmatter values in v1 — see
+Warnings below.
+
 Skeleton used: **doctrinal-term** (wikitext-spec.md §1), per this task's Adaptation 1 — not the
 deity-profile skeleton, since ཞི་བ is a cross-cutting keyword topic, not a deity. Output path is
 `3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/pacification/` (sibling to `slot-articles/`), per
@@ -45,16 +74,16 @@ ref name, with its quotation status and exact source block.
 
 | Ref name | Commentary | Claim ID | Article section | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|---|
-| anon-utpala | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ | c-1-2-2-1-1-2-2 | Lead | "ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ།། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།།" | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-18` |
-| anon-utpala | (same) | c-1-2-2-1-1-2-6 | ངེས་ཚིག | "རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་" | `...#^0-20` |
-| anon-utpala | (same) | c-1-2-2-1-1-6-8 | དབྱེ་བ། | not quoted (paraphrased: peaceful foot-posture amid blazing fire read as mildly wrathful) | `...#^0-37` |
-| anon-trinle-char | མཛད་པ་པོ་མ་གསལ | c-3-3-3 | Lead | not quoted (cited as additional root-verse attestation) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-33` |
-| anon-trinle-char | (same) | c-3-3-6 | ངེས་ཚིག | "ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ་" | `...#^0-35` |
-| anon-trinle-char | (same) | c-3-3-8 | གཞུང་ལུགས་སོ་སོའི་བཤད་པ། (Position 4) | "བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས་ཞི་བའི་དོན་དུ་འགྲེལ་པ་དུ་མས་བཀྲལ་ཞིང་། ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ།" | `...#^0-37` |
+| dharmabhadra | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ | c-1-2-2-1-1-2-2 | Lead | "ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ།། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།།" | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-18` |
+| dharmabhadra | (same) | c-1-2-2-1-1-2-6 | ངེས་ཚིག | "རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་" | `...#^0-20` |
+| dharmabhadra | (same) | c-1-2-2-1-1-6-8 | དབྱེ་བ། | not quoted (paraphrased: peaceful foot-posture amid blazing fire read as mildly wrathful) | `...#^0-37` |
+| yama-sonam | རྗེ་བཙུན་ཡ་མ་བསོད་ནམས | c-3-3-3 | Lead | not quoted (cited as additional root-verse attestation) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-33` |
+| yama-sonam | (same) | c-3-3-6 | ངེས་ཚིག | "ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ་" | `...#^0-35` |
+| yama-sonam | (same) | c-3-3-8 | གཞུང་ལུགས་སོ་སོའི་བཤད་པ། (Position 4) | "བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས་ཞི་བའི་དོན་དུ་འགྲེལ་པ་དུ་མས་བཀྲལ་ཞིང་། ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ།" | `...#^0-37` |
 | taranatha | ཏཱ་ར་ནཱ་ཐ | c-3-4 | ངེས་ཚིག | "ཞི་བ་སྟེ་ཤེས་རབ་" | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-12` |
 | lobsang-dawa | དགེ་བཤེས་བློ་བཟང་ཟླ་བ | c-1-2-2-1-1-2-3 | ངེས་ཚིག | not quoted (cited as consensus attestation) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-9` |
 | lobsang-dawa | (same) | c-1-2-3-6-2 | མཚན་ཉིད། | not quoted (paraphrased: OṂ ĀḤ HŪṂ pacifies harm to the three doors) | `...#^0-30` |
-| sangye-nyentrul | སངས་རྒྱས་མཉན་སྤྲུལ | c-4-0-2 | ངེས་ཚིག | not quoted (cited as consensus attestation) | `1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-16` |
+| sangye-nyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ | c-4-0-2 | ངེས་ཚིག | not quoted (cited as consensus attestation) | `1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-16` |
 | sangye-nyentrul | (same) | c-16-1-1 | གཞུང་ལུགས་སོ་སོའི་བཤད་པ། (Epithet) | "སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ" | `...#^0-69` |
 | palden-sherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ | c-3-1-3-0-2 | Lead | not quoted (cited as additional root-verse attestation) | `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-34` |
 | palden-sherab | (same) | c-3-1-3-1-2 | ངེས་ཚིག | not quoted (cited as consensus attestation) | `...#^0-36` |
@@ -91,6 +120,10 @@ ref name, with its quotation status and exact source block.
 
 **Total: 44 claim citations across 15 commentaries; 21 direct verbatim quotations; 15 named `<ref>` definitions (one per commentary), reused via self-closing `<ref name="..." />` for repeat citations.**
 
+## Full attestation beyond in-article refs
+
+- **ངེས་ཚིག consensus sentence** ("...ཞི་བ་ཞེས་པའི་དོན་ལ་ཕར་ཕྱིན་དྲུག་གི་ཐ་མ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་ཉིད་དུ་བཤད...", cited in-body to `taranatha`, `dharmabhadra`, `palden-sherab`) — also attested by `lobsang-dawa:c-1-2-2-1-1-2-3`, `sangye-nyentrul:c-4-0-2`, and `pema-namgyal:c-2-4-19`, not separately ref'd in-body to stay within the 3-ref cap.
+
 ## Claims used but not quoted
 
 Listed inline in the Reference map table above (23 of the 44 citations are paraphrase-with-citation
@@ -118,6 +151,11 @@ located successfully in its commentary's raw tree-guided file.
 
 ## Warnings
 
+- **Mode B `author_in_use` check (2026-08-20):** all fifteen commentators cited in-prose
+  carry an `author_in_use` key directly on their own
+  `2-RAILS/Claims/raw/tree-guided/<id>.md` frontmatter, and the v1 article's in-prose
+  forms already matched those values verbatim — no name changes were needed, no
+  `author` fallback used.
 - **`rails_status` is `draft`, not `complete`.** Per SKILL.md Rule 11, this is a transformation
   generated from a rails page that has not been marked `status: complete` by a domain specialist.
   `2-RAILS/Claims/pacification.md` itself flags this topic as "thinly attested" and "a borderline
@@ -149,10 +187,10 @@ collapsed full text of its `Cite:`-named `1-SOURCES/` file. All 21 passed.
 
 | # | Quotation (first ~40 chars) | Commentary | Source block | Result |
 |---|---|---|---|---|
-| 1 | ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི... | anon-utpala | #^0-18 | PASS |
+| 1 | ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི... | dharmabhadra | #^0-18 | PASS |
 | 2 | ཞི་བ་སྟེ་ཤེས་རབ་ | taranatha | #^0-12 | PASS |
-| 3 | རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་ | anon-utpala | #^0-20 | PASS |
-| 4 | ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ་ | anon-trinle-char | #^0-35 | PASS |
+| 3 | རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་ | dharmabhadra | #^0-20 | PASS |
+| 4 | ཞི་བ་མྱང་འདས་ཐོབ་པའི་རྩ་བར་གྱུར་པས་ན་ཞི་བའམ་ཤེས་རབ་ | yama-sonam | #^0-35 | PASS |
 | 5 | དེ་མ་ཟད་ངན་འགྲོའི་རྒྱུ་སྡའི་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་བ... | gendun-gyatso | #^0-37 | PASS |
 | 6 | སྲིད་པ་དང་ཞི་བའི་ཕྱོགས་མཐའ་ཡས་པ་ལས་རྣམ་པར་རྒྱལ... | konchok-thabkhe | #^0-29 | PASS |
 | 7 | ཞི་བའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ་དང་། ཁྲོ་མོའི་རྣམ... | gendun-drub | #^0-18 | PASS |
@@ -163,7 +201,7 @@ collapsed full text of its `Cite:`-named `1-SOURCES/` file. All 21 passed.
 | 12 | ཞི་བ་ཞེས་པས་དངོས་བསྟན་གྱི་དབང་དུ་བྱས་ན།... | tenga-tulku | #^0-31 | PASS |
 | 13 | འགྲེལ་བ་སྔ་མ་རྣམས་ལས་འགའ་ཞིག་གིས་ཞི་བ་དང་།... | konchok-thabkhe | #^0-24 | PASS |
 | 14 | འདིར་གྲུབ་ཆེན་གྱིས ཤེས་རབ་བདག་ཉིད་ཕར་ཕྱིན་ལྔ།... | konchok-thabkhe | #^0-24 | PASS |
-| 15 | བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས... | anon-trinle-char | #^0-37 | PASS |
+| 15 | བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས... | yama-sonam | #^0-37 | PASS |
 | 16 | བཅོ་ལྔ་པ་སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་འཕགས་མ་སྒྲོལ... | palden-sherab | #^0-147 | PASS |
 | 17 | སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ | sangye-nyentrul | #^0-69 | PASS |
 | 18 | ཞི་བ་ཆེན་མོ་ལ་བསྟོད་པ | tenzin-dhonzang | #^0-231 | PASS |

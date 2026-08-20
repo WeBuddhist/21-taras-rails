@@ -42,13 +42,13 @@ status: draft
 > actually found.** ལྷ་མོ ("the goddess") is this corpus's single most common
 > standing address and epithet for Tārā herself — every one of the twenty-one
 > homages calls her ལྷ་མོ repeatedly in exegesis, and several commentaries
-> (`anon-trinle-char`, `tenzin-dhonzang`, `tsultrim-namdak` above all) use it as
+> (`yama-sonam`, `tenzin-dhonzang`, `tsultrim-namdak` above all) use it as
 > their default third-person reference to her throughout. Of the 142 claim-block
 > hits, the overwhelming majority — including all 21 hits in
-> `anon-trinle-char`, all 20 in `tenzin-dhonzang` bar one, all 24 in
+> `yama-sonam`, all 20 in `tenzin-dhonzang` bar one, all 24 in
 > `tsultrim-namdak`, and effectively every hit in `drakpa-gyaltsen`,
 > `gendun-drub`, `gendun-gyatso`, `karma-maitri`, `lobsang-dawa`,
-> `pema-namgyal`, `sungrab-tulku`, `tenga-tulku`, and `anon-utpala` — are Tārā
+> `pema-namgyal`, `sungrab-tulku`, `tenga-tulku`, and `dharmabhadra` — are Tārā
 > self-reference and were excluded on inspection: `Referent: FIG-1 (stated/node)`
 > in the claim's own tagging, where FIG-1 is registered as Tārā (སྒྲོལ་མ /
 > རྗེ་བཙུན་མ) in that file's own Grounding index. This includes cases where a
@@ -154,8 +154,8 @@ None observed.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | (21 ལྷ་མོ hits read; all Tārā self-reference) | None — silent on this topic |
-| `anon-utpala` | (1 ལྷ་མོ hit read; Tārā self-reference) | None — silent on this topic |
+| `yama-sonam` | (21 ལྷ་མོ hits read; all Tārā self-reference) | None — silent on this topic |
+| `dharmabhadra` | (1 ལྷ་མོ hit read; Tārā self-reference) | None — silent on this topic |
 | `drakpa-gyaltsen` | (3 ལྷ་མོ hits read; all Tārā self-reference) | None — silent on this topic |
 | `gendun-drub` | (3 ལྷ་མོ hits read; all Tārā self-reference) | None — silent on this topic |
 | `gendun-gyatso` | (2 ལྷ་མོ hits read; both Tārā self-reference) | None — silent on this topic |
@@ -171,4 +171,4 @@ None observed.
 | `tenzin-dhonzang` | c-2-21, c-4-6-7, c-4-11-3 (of 22 ལྷ་མོ hits read) | Named goddesses (Māyā/Śrīdevī), Earth-goddess guardian |
 | `tsultrim-namdak` | (24 ལྷ་མོ hits read; all Tārā self-reference) | None — silent on this topic |
 
-**Commentaries silent on this topic:** `anon-trinle-char`, `anon-utpala`, `drakpa-gyaltsen`, `gendun-drub`, `gendun-gyatso`, `karma-maitri`, `lobsang-dawa`, `pema-namgyal`, `sungrab-tulku`, `tenga-tulku`, `tsultrim-namdak` (11 of 16) — every ལྷ་མོ occurrence in these files' raw claims refers to Tārā herself. Five commentaries (`konchok-thabkhe`, `palden-sherab`, `sangye-nyentrul`, `taranatha`, `tenzin-dhonzang`) contribute a combined nine claims of genuinely distinct content.
+**Commentaries silent on this topic:** `yama-sonam`, `dharmabhadra`, `drakpa-gyaltsen`, `gendun-drub`, `gendun-gyatso`, `karma-maitri`, `lobsang-dawa`, `pema-namgyal`, `sungrab-tulku`, `tenga-tulku`, `tsultrim-namdak` (11 of 16) — every ལྷ་མོ occurrence in these files' raw claims refers to Tārā herself. Five commentaries (`konchok-thabkhe`, `palden-sherab`, `sangye-nyentrul`, `taranatha`, `tenzin-dhonzang`) contribute a combined nine claims of genuinely distinct content.

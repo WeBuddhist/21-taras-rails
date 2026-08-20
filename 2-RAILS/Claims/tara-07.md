@@ -3,8 +3,8 @@ topic: tara-07
 spine: "^1-7 (seventh homage of the twenty-one)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -64,13 +64,13 @@ status: draft
 ### Consensus
 Eight commentaries mark this passage with an explicit flat ordinal — "the seventh" (བདུན་པ) or "(7)" — identifying it as the seventh of the twenty-one homages.
 
-— attested: `anon-trinle-char:c-3-7-1`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-1`, `konchok-thabkhe:c-2-7-1`, `palden-sherab:c-3-1-7-0-1`, `sungrab-tulku:c-10-1`, `taranatha:c-7-1`, `tenzin-dhonzang:c-4-7-1` (8 commentaries)
+— attested: `yama-sonam:c-3-7-1`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-1`, `konchok-thabkhe:c-2-7-1`, `palden-sherab:c-3-1-7-0-1`, `sungrab-tulku:c-10-1`, `taranatha:c-7-1`, `tenzin-dhonzang:c-4-7-1` (8 commentaries)
 
 ### ⚑ Divergences
 Four commentaries instead nest this homage within a different classificatory scheme, labelling it "the sixth" (དྲུག་པ) rather than using the flat ordinal — the same four commentaries, at the same shared node path (1.2.2.1.1.6 / 2.2.2.2.1.1.6), that diverged identically at verses 4 and 6 in `2-RAILS/Claims/tara-04.md` and `2-RAILS/Claims/tara-06.md`. Their own openers frame this as the sixth *mode of praise* ("praising through vanquishing enemies," "praise by way of destroying adversaries," "praises by way of subduing opponents"), not a renumbering of which of the twenty-one homages this is.
 
 - Position 1 (flat "seventh of twenty-one"): the eight commentaries listed under Consensus above.
-- Position 2 (nested "sixth mode of praise"): `anon-utpala:c-1-2-2-1-1-6-1`, `gendun-drub:c-2-2-2-2-1-1-6-1`, `lobsang-dawa:c-1-2-2-1-1-6-1`, `tenga-tulku:c-1-2-2-1-1-6-1`.
+- Position 2 (nested "sixth mode of praise"): `dharmabhadra:c-1-2-2-1-1-6-1`, `gendun-drub:c-2-2-2-2-1-1-6-1`, `lobsang-dawa:c-1-2-2-1-1-6-1`, `tenga-tulku:c-1-2-2-1-1-6-1`.
 
 This is a difference in classificatory axis, not a doctrinal disagreement about the verse's content — recorded here per Rule 4 rather than folded into the Consensus, since these four commentaries' own structural claims do not label the verse "the seventh" anywhere captured in the packet.
 
@@ -86,13 +86,13 @@ Drakpa Gyaltsen, Pema Namgyal, and Tsultrim Namdak contribute no claim in this p
 ### Consensus
 Seven commentaries quote the root verse's full four lines together in one block (subject to minor orthographic variation across transmissions — TRAD/TRAṬ/TRAḌ spellings and om-line punctuation vary): "ཕྱག་འཚལ་ཏྲད་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། ། ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། ། གཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་མནན་ཏེ། ། མེ་འབར་འཁྲུགས་པ་ཤིན་ཏུ་འབར་མ། །" — "Homage to her who, with [the syllables] TRAD and PHAṬ, utterly destroys the enemy's magical device; who tramples with her right leg bent and left extended, blazing amid a swirling mass of fire."
 
-— attested: `anon-trinle-char:c-3-7-3`, `anon-utpala:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-0-2`, `sungrab-tulku:c-10-2`, `tenga-tulku:c-1-2-2-1-1-6-2`, `tenzin-dhonzang:c-4-7-2`, `tsultrim-namdak:c-2-1-2-1-24` (7 commentaries)
+— attested: `yama-sonam:c-3-7-3`, `dharmabhadra:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-0-2`, `sungrab-tulku:c-10-2`, `tenga-tulku:c-1-2-2-1-1-6-2`, `tenzin-dhonzang:c-4-7-2`, `tsultrim-namdak:c-2-1-2-1-24` (7 commentaries)
 
 ### ⚑ Divergences
 No divergence in the verse's content — the variation among the seven full-quotation claims above is confined to spelling and, in one case, a single case-particle. Palden Sherab's own quotation (already cited above under Consensus) ends its first line with the quotative particle ཅེས ("ཕྱག་འཚལ་ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཅེས") rather than the instrumental ཀྱིས used by every other cited commentary's first line ("...ཕཊ་ཀྱིས"); this is a case-particle difference, not merely an orthographic one, comparable in kind to Tsultrim Namdak's missing ཏུ particle noted under Unique below. (An earlier version of this page stated the variation was "orthographic only," missing this particle-level variant; corrected here.)
 
 ### Unique
-Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented as the praise's own verse — the same distinctive attribution this commentary gives at verses 4 and 6. `anon-trinle-char:c-3-7-3` (already cited above; noted here for the attribution)
+Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented as the praise's own verse — the same distinctive attribution this commentary gives at verses 4 and 6. `yama-sonam:c-3-7-3` (already cited above; noted here for the attribution)
 
 Tenga Tulku's quotation preserves internal ellipsis marks between each line in the packet's own text (copied verbatim, not introduced by this page), the same pattern already observed at verses 4 and 6. `tenga-tulku:c-1-2-2-1-1-6-2` (already cited above)
 
@@ -118,7 +118,7 @@ Four distinct naming traditions are attested for this particular Tārā:
 
 **Position 1 — "Destroyer of Others' Power" (གཞན་མཐུ་འཇོམས་མ):** Anon-Trinle-Char's section heading and Tenzin Dhonzang's heading give this same epithet core (re-read and confirmed: both read གཞན་མཐུ་འཇོམས་མ character-for-character for the epithet proper; Anon-Trinle-Char additionally prefixes the honorific རྗེ་བཙུན་མ, "Venerable Lady"), independently naming her the same way.
 
-— attested: `anon-trinle-char:c-3-7-1`, `tenzin-dhonzang:c-4-7-1` (2 commentaries, verbatim-identical epithet core)
+— attested: `yama-sonam:c-3-7-1`, `tenzin-dhonzang:c-4-7-1` (2 commentaries, verbatim-identical epithet core)
 
 **Position 2 — "Invincible Tummo, Destroyer of Armies and Thunderbolts" (དམག་དང་ཐོག་སེར་འཇོམས་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ):** Palden Sherab and Sangye Nyentrul give near-identical wording for this epithet — re-read and confirmed: the two phrases differ by a single syllable (Palden Sherab's འཇོམས་མ vs Sangye Nyentrul's འཇོམ་མ), otherwise character-identical, so this is recorded as near-identical rather than fully verbatim. Tsultrim Namdak's own claim gives the same full content in a looser syntactic package: its quoted Tibetan reads "...དམག་དང་ཐོག་སེར་འཇོམས་པར་བྱེད་པའི་སྒྲོལ་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ..." — the "destroyer of armies and thunderbolts" content (དམག་དང་ཐོག་སེར་འཇོམས་པ) is present, immediately preceding "gtum mo," but expressed as a relative clause (འཇོམས་པར་བྱེད་པའི) modifying "Tārā" rather than fused into a single compound epithet as in Palden Sherab's and Sangye Nyentrul's phrasing. This is the same epithet content in a different syntactic package, not an omission. (An earlier version of this page described Tsultrim Namdak's form as "shorter" and "omitting" the army/thunderbolt portion; corrected here.)
 
@@ -146,7 +146,7 @@ None beyond the four positions above. The remaining nine commentaries either giv
 ### Consensus
 Two commentaries give closely corresponding plain-sense glosses of the two syllables individually: Anon-Utpala glosses TRAṬ as "to rend, i.e. destroy" (འདྲལ་བ་སྟེ་འཇོམས་པའོ) and PHAṬ as "to burst" (འགས་པ); Sangye Nyentrul glosses TRAD as "the splitting sound" (དྲལ་བ) and PHAṬ as "the bursting sound" (འགས་པ). Re-read and confirmed: the PHAṬ gloss is near-identical (Sangye Nyentrul adds the word "sound," འགས་པའི་སྒྲ, to Anon-Utpala's root gloss འགས་པ) rather than fully verbatim; the TRAD/TRAṬ gloss shares the same root verb (འདྲལ་བ / དྲལ་བ, "to rend/split") but is not itself verbatim-identical (Anon-Utpala's includes the additional explanatory "i.e. destroy," and the initial འ is present in one and absent in the other).
 
-— attested: `anon-utpala:c-1-2-2-1-1-6-3`, `anon-utpala:c-1-2-2-1-1-6-4`, `sangye-nyentrul:c-8-0-1` (2 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-6-3`, `dharmabhadra:c-1-2-2-1-1-6-4`, `sangye-nyentrul:c-8-0-1` (2 commentaries)
 
 ### ⚑ Divergences
 Tenzin Dhonzang's own gloss of TRAT is related to the Anon-Utpala/Sangye-Nyentrul "rend/split" gloss but uses a different root verb: "liberating" (བསྒྲལ་བ), which the claim itself immediately equates with "destroying," and further glosses as "slaying and expelling the malicious." This is recorded as a related but distinct gloss (different verb root) rather than folded into the Consensus above. `tenzin-dhonzang:c-4-7-3`
@@ -169,9 +169,9 @@ Lobsang Dawa gives functional labels close in sense to Pema Namgyal's: TRAD as "
 ### Consensus
 A broad consensus across the corpus holds that these two wrathful mantra-sounds destroy an enemy's harmful magical device, sorcery, or evil mantra-power directed by ill intent.
 
-— attested: `anon-trinle-char:c-3-7-4`, `anon-utpala:c-1-2-2-1-1-6-5`, `drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-3`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-3`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `sungrab-tulku:c-10-4`, `taranatha:c-7-6`, `tenzin-dhonzang:c-4-7-3`, `tenzin-dhonzang:c-4-7-4`, `tsultrim-namdak:c-2-1-2-1-25` (15 claims across 14 commentaries; Pema Namgyal and Tenga Tulku are the two contributing commentaries not cited here — Pema Namgyal has its own mantra-specific claim below, and Tenga Tulku's own exegesis of this verse (`tenga-tulku:c-1-2-2-1-1-6-3`, `tenga-tulku:c-1-2-2-1-1-6-4`) never names the TRAD/PHAT sounds as the destroying agent at all: it attributes the destructive/protective action entirely to her posture and wisdom-fire when invoked, so it is cited instead under "Practice, benefits, and protective activity" below, not here. An earlier version of this page cited `tenga-tulku:c-1-2-2-1-1-6-3` here and separately logged `tenga-tulku:c-1-2-2-1-1-6-4` — the claim that actually states the destroying action — as having "no independent content"; corrected here.)
+— attested: `yama-sonam:c-3-7-4`, `dharmabhadra:c-1-2-2-1-1-6-5`, `drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-3`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-3`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `sungrab-tulku:c-10-4`, `taranatha:c-7-6`, `tenzin-dhonzang:c-4-7-3`, `tenzin-dhonzang:c-4-7-4`, `tsultrim-namdak:c-2-1-2-1-25` (15 claims across 14 commentaries; Pema Namgyal and Tenga Tulku are the two contributing commentaries not cited here — Pema Namgyal has its own mantra-specific claim below, and Tenga Tulku's own exegesis of this verse (`tenga-tulku:c-1-2-2-1-1-6-3`, `tenga-tulku:c-1-2-2-1-1-6-4`) never names the TRAD/PHAT sounds as the destroying agent at all: it attributes the destructive/protective action entirely to her posture and wisdom-fire when invoked, so it is cited instead under "Practice, benefits, and protective activity" below, not here. An earlier version of this page cited `tenga-tulku:c-1-2-2-1-1-6-3` here and separately logged `tenga-tulku:c-1-2-2-1-1-6-4` — the claim that actually states the destroying action — as having "no independent content"; corrected here.)
 
-Re-read and confirmed: only Anon-Utpala's own claim combines an explicit "merely" (ཙམ) qualifier with an explicit "instantly" (སྐད་ཅིག) qualifier for the destruction — `anon-utpala:c-1-2-2-1-1-6-5`, "Merely by sounding it (བསྒྲགས་པ་ཙམ་གྱིས), she instantly (སྐད་ཅིག་ལ) and utterly destroys…" Two further commentaries attest only one of the two qualifiers each: Anon-Trinle-Char's own claim has "merely" (བསྒྲགས་པ་ཙམ་གྱིས) without "instantly" (`anon-trinle-char:c-3-7-4`); Sungrab Tulku's own claim has "instantly" (སྐད་ཅིག་ཉིད་ལ) without "merely" (`sungrab-tulku:c-10-4`). Tenzin Dhonzang splits the same two qualifiers across its own two consecutive claims rather than stating them in one: "merely" (བསྒྲགས་པ་ཙམ་གྱིས) appears in the etymological lead-in `tenzin-dhonzang:c-4-7-3`, and "instantly" (སྐད་ཅིག་ལ) appears in the destruction-statement that follows it, `tenzin-dhonzang:c-4-7-4`. The remaining ten claims in the attestation list above (`drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-3`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-3`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `taranatha:c-7-6`, `tsultrim-namdak:c-2-1-2-1-25`) state only that the sounds destroy the device/sorcery, with neither qualifier. The elaborated "merely…instantly" formula is therefore not the corpus-wide consensus — it is Anon-Utpala's own single-claim phrasing, echoed only partially (one qualifier each) by Anon-Trinle-Char, Sungrab Tulku, and Tenzin Dhonzang. (An earlier version of this page presented "merely…instantly" as the shared consensus wording; corrected here per Rule 9.)
+Re-read and confirmed: only Anon-Utpala's own claim combines an explicit "merely" (ཙམ) qualifier with an explicit "instantly" (སྐད་ཅིག) qualifier for the destruction — `dharmabhadra:c-1-2-2-1-1-6-5`, "Merely by sounding it (བསྒྲགས་པ་ཙམ་གྱིས), she instantly (སྐད་ཅིག་ལ) and utterly destroys…" Two further commentaries attest only one of the two qualifiers each: Anon-Trinle-Char's own claim has "merely" (བསྒྲགས་པ་ཙམ་གྱིས) without "instantly" (`yama-sonam:c-3-7-4`); Sungrab Tulku's own claim has "instantly" (སྐད་ཅིག་ཉིད་ལ) without "merely" (`sungrab-tulku:c-10-4`). Tenzin Dhonzang splits the same two qualifiers across its own two consecutive claims rather than stating them in one: "merely" (བསྒྲགས་པ་ཙམ་གྱིས) appears in the etymological lead-in `tenzin-dhonzang:c-4-7-3`, and "instantly" (སྐད་ཅིག་ལ) appears in the destruction-statement that follows it, `tenzin-dhonzang:c-4-7-4`. The remaining ten claims in the attestation list above (`drakpa-gyaltsen:c-1-45`, `gendun-drub:c-2-2-2-2-1-1-6-3`, `gendun-gyatso:c-1-7-1`, `karma-maitri:c-1-1-7-3`, `konchok-thabkhe:c-2-7-2`, `lobsang-dawa:c-1-2-2-1-1-6-2`, `palden-sherab:c-3-1-7-1-1`, `sangye-nyentrul:c-8-0-1`, `taranatha:c-7-6`, `tsultrim-namdak:c-2-1-2-1-25`) state only that the sounds destroy the device/sorcery, with neither qualifier. The elaborated "merely…instantly" formula is therefore not the corpus-wide consensus — it is Anon-Utpala's own single-claim phrasing, echoed only partially (one qualifier each) by Anon-Trinle-Char, Sungrab Tulku, and Tenzin Dhonzang. (An earlier version of this page presented "merely…instantly" as the shared consensus wording; corrected here per Rule 9.)
 
 ### ⚑ Divergences
 None on the core claim that the sounds destroy hostile magic — commentaries differ only in scope and elaboration, not in kind:
@@ -192,7 +192,7 @@ Konchok Thabkhe's own gloss additionally specifies the sounds destroy "others' e
 ### Consensus
 Every contributing commentary that describes the verse's iconography at all states the bare posture — right leg bent, left leg extended, treading down opponents amid blazing fire — as part of the root-verse quotation or its paraphrase (cited above under "Root verse quoted" and "Activity"). Beyond the bare posture, five commentaries independently assign it an explicit doctrinal symbolism: the bent right leg signifying realization of emptiness, and the extended left leg signifying compassion (or the pair together signifying non-abiding in the extremes of saṃsāra and nirvāṇa).
 
-— attested: `anon-utpala:c-1-2-2-1-1-6-6`, `gendun-drub:c-2-2-2-2-1-1-6-4`, `palden-sherab:c-3-1-7-1-2`, `sangye-nyentrul:c-8-0-2`, `sungrab-tulku:c-10-5` (5 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-6-6`, `gendun-drub:c-2-2-2-2-1-1-6-4`, `palden-sherab:c-3-1-7-1-2`, `sangye-nyentrul:c-8-0-2`, `sungrab-tulku:c-10-5` (5 commentaries)
 
 ### ⚑ Divergences
 None — no commentary in this packet contests the emptiness/compassion symbolism where it is given; commentaries that omit it simply do not address the posture's doctrinal meaning (see Unique).
@@ -216,7 +216,7 @@ Two distinct iconographic traditions are attested:
 
 **Position A — peaceful-form elaboration (one face, four arms), yellow body/garment:** Anon-Trinle-Char alone describes: seated on yellow lotus and sun maṇḍala, right leg bent/left extended; dark, terrifying wrathful expression; yellow garment, jewelled crown, various ornaments; one face, four arms; hair standing upright, adorned with a snake; right hands hold a wheel and a sword, left hands hold a lasso above the hip and form the threatening gesture. This commentary's own further citation, attributed to "Nyima Sbaspa," gives closely corresponding imagery (yellow lotus/sun, bent-extended stance, dark wrathful face, yellow garment, four arms with wheel/sword/lasso/threatening-gesture) — re-read and confirmed as a genuine, near-verbatim self-corroborating citation within the same commentary, not an independent second commentary's attestation.
 
-— attested: `anon-trinle-char:c-3-7-7`, `anon-trinle-char:c-3-7-8`, `anon-trinle-char:c-3-7-9` (1 commentary, 3 claims; the third is this commentary's own internal citation, not a second source)
+— attested: `yama-sonam:c-3-7-7`, `yama-sonam:c-3-7-8`, `yama-sonam:c-3-7-9` (1 commentary, 3 claims; the third is this commentary's own internal citation, not a second source)
 
 **Position B — wrathful "gtum mo" form (one face, two hands), black body, blazing sword on utpala:** Palden Sherab and Sangye Nyentrul independently describe closely corresponding imagery: black body compared to a massed storm-cloud, blazing mass of wisdom-fire, wrathful furrowed brow, one face, two hands, hair standing upright, right hand in supreme-giving mudrā, left hand holding an utpala atop which a blazing fire-sword rests. Re-read and confirmed: the two share this same core set of elements (black-body/storm-cloud simile, wisdom-fire, one-face-two-hands, hair upright, right supreme-giving, left utpala-with-blazing-sword), with several individual clauses very close in wording (e.g. "ཞལ་གཅིག་ཕྱག་གཉིས," "དབུ་སྐྲ་གྱེན་དུ་བརྫེས་པ" are identical in both), but the passages are not verbatim-identical overall — Palden Sherab elaborates further (archer's-stance legs rather than bent/extended, the left hand's mudrā additionally symbolizing the Three Jewels, pollen-centre/ear-level detail) where Sangye Nyentrul does not.
 
@@ -259,18 +259,18 @@ Palden Sherab alone continues into a further "completion-stage-without-marks" ti
 ### Consensus
 Multiple commentaries independently associate this homage with protection from disease, curses, and hostile spirits, though no two give closely corresponding wording strong enough to call verbatim — this is recorded as a shared theme, not a single corroborated statement.
 
-- Anon-Trinle-Char: her posture "reverses the epidemic illness and hexes... that arise from [enemies'] evil intentions." `anon-trinle-char:c-3-7-5`
+- Anon-Trinle-Char: her posture "reverses the epidemic illness and hexes... that arise from [enemies'] evil intentions." `yama-sonam:c-3-7-5`
 - Taranatha: "she pacifies epidemics, plagues, and so on"; "the spirits, such as Yama, flee"; "she performs great protection for beings." `taranatha:c-7-9`, `taranatha:c-7-11`, `taranatha:c-7-12`
 - Tenga Tulku: she is invoked "when faced with any magical device of the dark-side māras that manifests fear, such as an opponent's disease or harm"; in response, she tramples them underfoot through her wrathful bodily posture and burns māras and obstacles with the wisdom-fire blazing from her body — the destroying/protective action in Tenga Tulku's own exegesis is located entirely in posture and fire, not in the TRAD/PHAT sounds (contrast the "Activity" facet above, which is restricted to claims that name the sounds as the destroying agent). `tenga-tulku:c-1-2-2-1-1-6-3`, `tenga-tulku:c-1-2-2-1-1-6-4`
 - Tenzin Dhonzang: "this deity's chief enlightened activity is to turn back others' harmful mantras." `tenzin-dhonzang:c-4-7-12`
 - Sungrab Tulku: her wisdom-fire "burns, without even ash remaining, the obstructing spirits and hindrances that create obstacles to accomplishing the Dharma." `sungrab-tulku:c-10-5` (already cited above)
 - Tsultrim Namdak: her fierce conduct and trampling feet "pacify illness, döns, and so forth" (ནད་དང་གདོན་སོགས་ཞི་བར་མཛད་པ). `tsultrim-namdak:c-2-1-2-1-25` (already cited above under "Activity")
 
-— attested: `anon-trinle-char:c-3-7-5`, `taranatha:c-7-9`, `taranatha:c-7-11`, `taranatha:c-7-12`, `tenga-tulku:c-1-2-2-1-1-6-3`, `tenga-tulku:c-1-2-2-1-1-6-4`, `tenzin-dhonzang:c-4-7-12`, `sungrab-tulku:c-10-5`, `tsultrim-namdak:c-2-1-2-1-25` (6 commentaries, 9 claims)
+— attested: `yama-sonam:c-3-7-5`, `taranatha:c-7-9`, `taranatha:c-7-11`, `taranatha:c-7-12`, `tenga-tulku:c-1-2-2-1-1-6-3`, `tenga-tulku:c-1-2-2-1-1-6-4`, `tenzin-dhonzang:c-4-7-12`, `sungrab-tulku:c-10-5`, `tsultrim-namdak:c-2-1-2-1-25` (6 commentaries, 9 claims)
 
 Anon-Utpala and Sungrab Tulku independently use a closely corresponding "burns without even ash remaining" formula for the wisdom-fire's effect: Anon-Utpala — "ཐལ་བ་ཙམ་ཡང་མ་ལུས་པར་སྲེག་པར་མཛད་མ"; Sungrab Tulku — "ཐལ་བ་ཙམ་ཡང་མ་ལྷག་པར་སྲེག་པར་མཛད་མའོ" — re-read and confirmed near-identical (differing only in ལུས་པར vs ལྷག་པར, both meaning "left over/remaining"), not fully verbatim. Lobsang Dawa's own "burns them to ashes" (ཐལ་བར་སྲེག) shares the same imagery in shorter form, without the "not even X remaining" intensifier.
 
-— attested (near-identical "not even ash remaining" formula): `anon-utpala:c-1-2-2-1-1-6-7`, `sungrab-tulku:c-10-5` (2 commentaries; `sungrab-tulku:c-10-5` already cited above)
+— attested (near-identical "not even ash remaining" formula): `dharmabhadra:c-1-2-2-1-1-6-7`, `sungrab-tulku:c-10-5` (2 commentaries; `sungrab-tulku:c-10-5` already cited above)
 — attested (shorter "burns to ashes," related but not matching the intensified formula): `lobsang-dawa:c-1-2-2-1-1-6-3` (1 further commentary; already cited above under "Root verse quoted")
 
 ### ⚑ Divergences
@@ -279,13 +279,13 @@ None — the benefit-statements above do not contradict one another; they are re
 ### Unique
 Sangye Nyentrul alone gives an explicit meditation instruction: "one meditates that all enemy assassins are annihilated [by the blazing fire-sword] — this is the visualization sequence." `sangye-nyentrul:c-8-1-3`
 
-Anon-Utpala's own doctrinal note observes that although the posture of her feet is, in itself, that of a peaceful deity, her abiding amid blazing fire reads as "merely a slight wrathful manner" — a hedge about the degree of her wrathfulness not paralleled elsewhere in this packet. `anon-utpala:c-1-2-2-1-1-6-8`
+Anon-Utpala's own doctrinal note observes that although the posture of her feet is, in itself, that of a peaceful deity, her abiding amid blazing fire reads as "merely a slight wrathful manner" — a hedge about the degree of her wrathfulness not paralleled elsewhere in this packet. `dharmabhadra:c-1-2-2-1-1-6-8`
 
 ---
 
 ## Unique comparanda and asides
 
-Anon-Trinle-Char alone structures its exegesis of this verse around an explicit formal three-part scheme — "greatness of speech" (gsung gi che ba: the mantra-sounds alone terrify sorcerers and destroy their devices), "greatness of body" (sku'i che ba: her posture tramples powerful yakṣas and reverses epidemics/curses), and "greatness of mind" (thugs kyi che ba: her wrathful blazing demeanor protects beings from suffering out of compassion) — a rhetorical structure not shared by any other commentary in this packet for this verse. `anon-trinle-char:c-3-7-4`, `anon-trinle-char:c-3-7-5`, `anon-trinle-char:c-3-7-6` (the first two already cited above under "Activity" and "Practice, benefits, and protective activity"; `anon-trinle-char:c-3-7-6`, the "greatness of mind" claim, is cited here for the first time)
+Anon-Trinle-Char alone structures its exegesis of this verse around an explicit formal three-part scheme — "greatness of speech" (gsung gi che ba: the mantra-sounds alone terrify sorcerers and destroy their devices), "greatness of body" (sku'i che ba: her posture tramples powerful yakṣas and reverses epidemics/curses), and "greatness of mind" (thugs kyi che ba: her wrathful blazing demeanor protects beings from suffering out of compassion) — a rhetorical structure not shared by any other commentary in this packet for this verse. `yama-sonam:c-3-7-4`, `yama-sonam:c-3-7-5`, `yama-sonam:c-3-7-6` (the first two already cited above under "Activity" and "Practice, benefits, and protective activity"; `yama-sonam:c-3-7-6`, the "greatness of mind" claim, is cited here for the first time)
 
 Tenzin Dhonzang alone continues its own etymology of "homage" and the four-tantra-class discussion (already cited above under "Iconography: posture and its doctrinal symbolism") into a wider doctrinal excursus on the four joys and bliss-emptiness-inseparable wisdom, closing with a quotation from Lama Tsongkhapa and a citation from the Samputa Tantra's sixth investigation-chapter on the four tantra-classes — material drawn from outside this specific verse, not paralleled by any other commentary consulted for this topic. `tenzin-dhonzang:c-4-7-9`, `tenzin-dhonzang:c-4-7-10`, `tenzin-dhonzang:c-4-7-11`
 
@@ -295,7 +295,7 @@ Drakpa Gyaltsen's own claim `drakpa-gyaltsen:c-1-47` is a bare cross-reference (
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-7-2` — restates the same "seventh homage, to the venerable Lady Destroyer of Others' Power" structural marker already attested by `anon-trinle-char:c-3-7-1` above; not independently cited to avoid inflating the count with a duplicate from the same source.
+- `yama-sonam:c-3-7-2` — restates the same "seventh homage, to the venerable Lady Destroyer of Others' Power" structural marker already attested by `yama-sonam:c-3-7-1` above; not independently cited to avoid inflating the count with a duplicate from the same source.
 - `karma-maitri:c-1-1-7-6` — restates "she abides amid blazing fire — this is Tara," a bare identification already covered by the bare-posture attestation under "Iconography: posture and its doctrinal symbolism" (Karma Maitri's own `karma-maitri:c-1-1-7-4`/`karma-maitri:c-1-1-7-5` are cited there); no independent content beyond re-identifying the subject as Tārā.
 - `taranatha:c-7-2`, `taranatha:c-7-3` — a bare structural/attribution transition ("regarding the seventh verse... the secret mantra of TAD and PHAT... the vidyā-mantra spoken by Ārya Tārā") restating content already covered by `taranatha:c-7-1` (structural heading) and `taranatha:c-7-6` (activity); no independent content beyond identifying the mantra's speaker.
 - `taranatha:c-7-4` — "by the power of those who practice fierce conduct, it comes to perform various wrathful actions" — a general transitional statement between the mantra's attribution (`taranatha:c-7-3`) and its specific destructive activity (`taranatha:c-7-6`, cited under "Activity"); no independent content beyond what `taranatha:c-7-6` states more specifically.
@@ -310,8 +310,8 @@ Drakpa Gyaltsen's own claim `drakpa-gyaltsen:c-1-47` is a bare cross-reference (
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-7-1, c-3-7-2, c-3-7-3, c-3-7-4, c-3-7-5, c-3-7-6, c-3-7-7, c-3-7-8, c-3-7-9 | Structural placement, Root verse quoted, Naming and epithets, Activity, Practice/benefits, Iconography (elaborated forms), Unique comparanda |
-| anon-utpala | c-1-2-2-1-1-6-1, c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-3, c-1-2-2-1-1-6-4, c-1-2-2-1-1-6-5, c-1-2-2-1-1-6-6, c-1-2-2-1-1-6-7, c-1-2-2-1-1-6-8 | Structural placement, Root verse quoted, Word-gloss, Activity, Iconography (posture/symbolism), Practice/benefits |
+| yama-sonam | c-3-7-1, c-3-7-2, c-3-7-3, c-3-7-4, c-3-7-5, c-3-7-6, c-3-7-7, c-3-7-8, c-3-7-9 | Structural placement, Root verse quoted, Naming and epithets, Activity, Practice/benefits, Iconography (elaborated forms), Unique comparanda |
+| dharmabhadra | c-1-2-2-1-1-6-1, c-1-2-2-1-1-6-2, c-1-2-2-1-1-6-3, c-1-2-2-1-1-6-4, c-1-2-2-1-1-6-5, c-1-2-2-1-1-6-6, c-1-2-2-1-1-6-7, c-1-2-2-1-1-6-8 | Structural placement, Root verse quoted, Word-gloss, Activity, Iconography (posture/symbolism), Practice/benefits |
 | drakpa-gyaltsen | c-1-45, c-1-46, c-1-47, c-1-48 | Root verse quoted, Activity, Unique comparanda |
 | gendun-drub | c-2-2-2-2-1-1-6-1, c-2-2-2-2-1-1-6-2, c-2-2-2-2-1-1-6-3, c-2-2-2-2-1-1-6-4 | Structural placement, Root verse quoted, Naming and epithets, Activity, Iconography (posture/symbolism) |
 | gendun-gyatso | c-1-7-1, c-1-7-2 | Structural placement, Root verse quoted, Activity, Iconography (posture/symbolism) |

@@ -8,8 +8,8 @@
 
 | Commentary | Claims in packet | Status |
 |---|---|---|
-| anon-trinle-char | 9 | consulted |
-| anon-utpala | 12 | consulted |
+| yama-sonam | 9 | consulted |
+| dharmabhadra | 12 | consulted |
 | drakpa-gyaltsen | 3 | consulted |
 | gendun-drub | 8 | consulted |
 | gendun-gyatso | 3 | consulted |
@@ -26,7 +26,7 @@
 | tsultrim-namdak | 10 | consulted |
 
 ---
-## anon-trinle-char — unknown, *unknown (no English title given in the commentary's frontmatter)*
+## yama-sonam — unknown, *unknown (no English title given in the commentary's frontmatter)*
 
 #### c-3-10-3 Root verse quoted from "the tantra"
 **བོད་ཡིག:** རྒྱུད་ལས། ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི།། དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ། བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས། ། བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ།
@@ -91,7 +91,7 @@
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-81)
 
-## anon-utpala — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
+## dharmabhadra — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
 
 ###### c-1-2-2-1-1-4-2 Root verse quoted: TUTTĀRA HŪṂ fills the realms, treads the seven worlds
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས།། འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།། འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ།། ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ།།

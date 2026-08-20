@@ -15,12 +15,12 @@ raw_sources_cited:
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/tsultrim-namdak.md
   - 2-RAILS/Claims/raw/tree-guided/sungrab-tulku.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/sangye-nyentrul.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/pema-namgyal.md
   - 2-RAILS/Claims/raw/tree-guided/palden-sherab.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
 date: 2026-08-14
 status: draft
 ---
@@ -54,8 +54,8 @@ commentary elsewhere in the article. The table below lists one row per citation 
 | tenga-tulku | tenga-tulku | c-1-2-2-1-1-2-2 | — (paraphrased) | #^0-29 |
 | tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-10, c-2-1-2-1-11 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-83, #^0-84 |
 | sungrab-tulku | sungrab-tulku | c-6-2 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-30 |
-| anon-utpala | anon-utpala | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 | — (paraphrased) | 1-SOURCES/.../ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-18, #^0-20 |
-| anon-trinle-char | anon-trinle-char | c-3-3-3, c-3-3-6 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-33, #^0-35 |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 | — (paraphrased) | 1-SOURCES/.../ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-18, #^0-20 |
+| yama-sonam | yama-sonam | c-3-3-3, c-3-3-6 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-33, #^0-35 |
 | palden-sherab | palden-sherab | c-3-1-3-0-2 | — (paraphrased) | #^0-34 |
 | lobsang-dawa | lobsang-dawa | c-1-2-2-1-1-2-3 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-9 |
 | konchok-thabkhe | konchok-thabkhe | c-2-3-3 | — (paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-23 |
@@ -90,8 +90,8 @@ commentary elsewhere in the article. The table below lists one row per citation 
 The majority of the "twelve commentaries" cluster in the `མཚན་ཉིད།` section entered the
 prose as paraphrase rather than direct quotation, each still carrying its own `<ref>`:
 `tenga-tulku:c-1-2-2-1-1-2-2`, `tsultrim-namdak:c-2-1-2-1-10`/`c-2-1-2-1-11`,
-`sungrab-tulku:c-6-2`, `anon-utpala:c-1-2-2-1-1-2-2`/`c-1-2-2-1-1-2-5`,
-`anon-trinle-char:c-3-3-3`/`c-3-3-6`, `palden-sherab:c-3-1-3-0-2`,
+`sungrab-tulku:c-6-2`, `dharmabhadra:c-1-2-2-1-1-2-2`/`c-1-2-2-1-1-2-5`,
+`yama-sonam:c-3-3-3`/`c-3-3-6`, `palden-sherab:c-3-1-3-0-2`,
 `lobsang-dawa:c-1-2-2-1-1-2-3`, `konchok-thabkhe:c-2-3-3`, `pema-namgyal:c-2-4-19`,
 `sangye-nyentrul:c-4-0-2`, `karma-maitri:c-1-1-3-4`. Also paraphrased:
 `tenzin-dhonzang:c-4-3-5` (causal-origin elaboration) and `palden-sherab:c-3-1-3-1-2`
@@ -126,7 +126,7 @@ raw tree-guided file.
 - **No public URLs exist for any of the fifteen commentaries cited.** Per the wikitext
   spec's hand-formatted ref form, every `<ref>` in this article carries only author and
   title — no URL, no year, no page number, because none of these raw claims files'
-  frontmatter carries a `year` or `page` field. `anon-trinle-char`'s author is recorded as
+  frontmatter carries a `year` or `page` field. `yama-sonam`'s author is recorded as
   "unknown" in its raw file's own frontmatter (per the vault annex, this commentary's
   colophon is lost), so its ref carries title only, with no author segment — this is not
   an omission but a faithful reflection of the source's own metadata gap.

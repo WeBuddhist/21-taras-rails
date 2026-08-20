@@ -3,8 +3,8 @@ topic: vayu
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -88,11 +88,11 @@ status: draft
 ## Vāyu among the great worldly gods who worship Tārā
 
 ### Consensus
-Fifteen of the sixteen commentaries — every commentary in the packet except `taranatha` — name Vāyu (རླུང་ལྷ) among the recurring roster of great worldly gods, alongside Indra, Agni, Brahmā, and Viśveśvara/Sarveśvara, who worship, praise, or rely upon Tārā. The wording is stable across commentaries, closely following or quoting the same homage-verse, e.g. `anon-trinle-char:c-3-6-3`: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by bhūtas, vetālas, gandharvas, and hosts of yakṣas."
+Fifteen of the sixteen commentaries — every commentary in the packet except `taranatha` — name Vāyu (རླུང་ལྷ) among the recurring roster of great worldly gods, alongside Indra, Agni, Brahmā, and Viśveśvara/Sarveśvara, who worship, praise, or rely upon Tārā. The wording is stable across commentaries, closely following or quoting the same homage-verse, e.g. `yama-sonam:c-3-6-3`: "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by bhūtas, vetālas, gandharvas, and hosts of yakṣas."
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-5`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-3`, `drakpa-gyaltsen:c-1-37`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-5`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-4`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-2-1-2-1-21` (15 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-5`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-3`, `drakpa-gyaltsen:c-1-37`, `gendun-drub:c-2-2-2-2-1-1-5-2`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-5`, `konchok-thabkhe:c-2-6-2`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `pema-namgyal:c-2-4-24`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-4`, `sungrab-tulku:c-9-5`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-3`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-2-1-2-1-21` (15 commentaries)
 
-Most of these claims go on to specify Vāyu's directional identity as guardian of the **northwest**, stated with complete consistency wherever a direction is given at all: `anon-trinle-char:c-3-6-5` ("ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" — "the northwest guardian Vāyu of manifold aspect, that is, 'Possessor of Manifold Mounts'"), `anon-utpala:c-1-2-2-1-1-5-3` ("ནུབ་བྱུང་གི་རླུང་ལྷ" — "Vāyu of the northwest"), `konchok-thabkhe:c-2-6-2` ("ནུབ་བྱང་རླུང་ལྷ" — "the wind-god in the northwest"), `lobsang-dawa:c-1-2-2-1-1-5-2` ("ནུབ་བྱང་གི་རླུང་ལྷ" — "Vāyu of the northwest"), `tenga-tulku:c-1-2-2-1-1-5-3` ("ནུབ་བྱང་རླུང་ལྷ" — "Vāyu of the northwest"), `sungrab-tulku:c-9-5` ("ནུབ་བྱང་གི་རླུང་ལྷ" — "Vāyu in the northwest"). No commentary in the packet places Vāyu in a different direction within this facet.
+Most of these claims go on to specify Vāyu's directional identity as guardian of the **northwest**, stated with complete consistency wherever a direction is given at all: `yama-sonam:c-3-6-5` ("ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" — "the northwest guardian Vāyu of manifold aspect, that is, 'Possessor of Manifold Mounts'"), `dharmabhadra:c-1-2-2-1-1-5-3` ("ནུབ་བྱུང་གི་རླུང་ལྷ" — "Vāyu of the northwest"), `konchok-thabkhe:c-2-6-2` ("ནུབ་བྱང་རླུང་ལྷ" — "the wind-god in the northwest"), `lobsang-dawa:c-1-2-2-1-1-5-2` ("ནུབ་བྱང་གི་རླུང་ལྷ" — "Vāyu of the northwest"), `tenga-tulku:c-1-2-2-1-1-5-3` ("ནུབ་བྱང་རླུང་ལྷ" — "Vāyu of the northwest"), `sungrab-tulku:c-9-5` ("ནུབ་བྱང་གི་རླུང་ལྷ" — "Vāyu in the northwest"). No commentary in the packet places Vāyu in a different direction within this facet.
 
 `tsultrim-namdak:c-3-9` gives the fivefold worshipper-verse a wrathful colouring not found in the other claims: in its quotation, the great worldly gods (including Vāyu) "tremble" (འདར་) as they reverently worship the wrathful emanation Gdon-rigs-rnams-'joms-ma, rather than simply paying calm homage. This is one claim's own framing of the same underlying worshipper-list fact, not a separate consensus.
 
@@ -132,7 +132,7 @@ None observed — the three characterizations below describe different facets of
 ### Unique
 Three commentaries independently give Vāyu a distinctive characterization beyond the bare worshipper-list name, each in different terms:
 
-- `anon-trinle-char:c-3-6-5` names Vāyu "Possessor of Manifold Mounts" (སྣ་ཚོགས་རྟ་ཅན), glossing his epithet "of manifold aspect" (སྣ་ཚོགས་ཏེ): "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན་དང་" — "the northwest guardian Vāyu of manifold aspect, that is, 'Possessor of Manifold Mounts.'"
+- `yama-sonam:c-3-6-5` names Vāyu "Possessor of Manifold Mounts" (སྣ་ཚོགས་རྟ་ཅན), glossing his epithet "of manifold aspect" (སྣ་ཚོགས་ཏེ): "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན་དང་" — "the northwest guardian Vāyu of manifold aspect, that is, 'Possessor of Manifold Mounts.'"
 - `taranatha:c-6-6` identifies Vāyu with the cosmogonic function of shaping the physical world: "རླུང་ལྷ་ནི་འཇིག་རྟེན་གཟོའི་གནས་དང་བཀོད་པའི་ཁྱད་པར་བྱེད་པའོ།" — "Vāyu is the one who effects the particulars of the world's formation and arrangement." (This claim's own content is a definitional gloss on Vāyu, offered in the course of taranatha's exegesis of the same worshipper-verse; it does not itself assert that Vāyu worships Tārā, which is why `taranatha` is not counted in the worshipper-list facet's attestation list above, per Rule 9.)
 - `pema-namgyal:c-2-4-24` gives Vāyu the power to move the three states of existence: "སྲིད་པ་གསུམ་གཡོ་བར་ནུས་པའི་རླུང་ལྷ" — "Vāyu, able to move the three states of existence" (this claim is also cited above in the worshipper-list facet for its bare identification content; here it is additionally cited for this distinct functional epithet).
 
@@ -166,8 +166,8 @@ None beyond the elaborations above.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-6-3, c-3-6-5 (2) | Worshipper-list, Epithets/function |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 (2) | Worshipper-list |
+| `yama-sonam` | c-3-6-3, c-3-6-5 (2) | Worshipper-list, Epithets/function |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 (2) | Worshipper-list |
 | `drakpa-gyaltsen` | c-1-34, c-1-37 (2) | Worshipper-list, Claims reviewed |
 | `gendun-drub` | c-2-2-2-2-1-1-5-2 (1) | Worshipper-list |
 | `gendun-gyatso` | c-1-6-1 (1) | Worshipper-list |

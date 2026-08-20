@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/vayu.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -52,9 +52,9 @@ supports. The table below lists one row per claim actually drawn on in the artic
 
 | Ref | Commentary | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-trinle-char | anon-trinle-char | c-3-6-3 | "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-66 |
-| anon-trinle-char | anon-trinle-char | c-3-6-5 | "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" | #^0-68 |
-| anon-utpala | anon-utpala | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 | — (paraphrased: fivefold verse and directional identification) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-31, #^0-32 |
+| yama-sonam | yama-sonam | c-3-6-3 | "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-66 |
+| yama-sonam | yama-sonam | c-3-6-5 | "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" | #^0-68 |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3 | — (paraphrased: fivefold verse and directional identification) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-31, #^0-32 |
 | taranatha | taranatha | c-6-6 | "རླུང་ལྷ་ནི་འཇིག་རྟེན་གཟོའི་གནས་དང་བཀོད་པའི་ཁྱད་པར་བྱེད་པའོ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-21 |
 | taranatha | taranatha | c-6-15 | "བརྒྱ་བྱིན་ནི་ས། མེ་ལྷ་ནི་མེ། ཚངས་པ་ནི་ཆུ། རླུང་ལྷ་ནི་རླུང་། སྣ་ཚོགས་དབང་ཕྱུག་ནམ་མཁའ་འོ།" | #^0-23 |
 | palden-sherab | palden-sherab | c-3-1-6-0-2 | — (paraphrased: fivefold verse) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-63 |
@@ -81,7 +81,7 @@ Most claims above entered the article as paraphrase (still individually `<ref>`-
 This is deliberate: the "worshipper-list" facet on the consolidated page carries 21
 near-duplicate attestations of the same underlying fact (Vāyu named among the worldly
 gods who worship Tārā, consistently as guardian of the northwest), so the article
-quotes the canonical fivefold verse once in full (`anon-trinle-char:c-3-6-3`) and the
+quotes the canonical fivefold verse once in full (`yama-sonam:c-3-6-3`) and the
 bare directional gloss once (`konchok-thabkhe:c-2-6-2`), then paraphrases the
 remaining attestations by commentary, citing each one's own `<ref>`.
 
@@ -118,8 +118,8 @@ resolved cleanly against its raw tree-guided file.
 - **No public URLs exist for any of the sixteen commentaries.** Per the wikitext
   spec's hand-formatted ref form, every `<ref>` in this article carries only author
   and title — no URL, no year, no page number, because none of these commentaries has
-  a page/URL recorded anywhere upstream. `anon-trinle-char`'s own frontmatter records
-  no author at all; its ref accordingly reads "མཛད་པ་པོ་མ་གསལ་བ།" ("author
+  a page/URL recorded anywhere upstream. `yama-sonam`'s own frontmatter records
+  no author at all; its ref accordingly reads "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" ("author
   unspecified") rather than a fabricated name.
 - **Article length.** The drafted body runs to roughly 1,000–1,200 Tibetan syllables
   by rough count — below the spec's ~1,500-syllable warning threshold, reflecting
@@ -143,8 +143,8 @@ required correction.
 
 | # | Quotation (as drafted) | Claim | Result |
 |---|---|---|---|
-| 1 | "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" | anon-trinle-char:c-3-6-3 | PASS |
-| 2 | "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" | anon-trinle-char:c-3-6-5 | PASS |
+| 1 | "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།" | yama-sonam:c-3-6-3 | PASS |
+| 2 | "ནུབ་བྱང་གི་ཕྱོགས་སྐྱོང་རླུང་ལྷ་སྣ་ཚོགས་ཏེ་སྣ་ཚོགས་རྟ་ཅན" | yama-sonam:c-3-6-5 | PASS |
 | 3 | "རླུང་ལྷ་ནི་འཇིག་རྟེན་གཟོའི་གནས་དང་བཀོད་པའི་ཁྱད་པར་བྱེད་པའོ།" | taranatha:c-6-6 | PASS |
 | 4 | "སྲིད་པ་གསུམ་གཡོ་བར་ནུས་པའི་རླུང་ལྷ" | pema-namgyal:c-2-4-24 | PASS |
 | 5 | "ནུབ་བྱང་རླུང་ལྷ" | konchok-thabkhe:c-2-6-2 | PASS |

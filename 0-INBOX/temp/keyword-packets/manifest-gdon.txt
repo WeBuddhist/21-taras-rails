@@ -1,6 +1,6 @@
-anon-trinle-char:c-3-21-3
-anon-utpala:c-1-2-3-6-2
-anon-utpala:c-1-2-3-6-4
+yama-sonam:c-3-21-3
+dharmabhadra:c-1-2-3-6-2
+dharmabhadra:c-1-2-3-6-4
 drakpa-gyaltsen:c-1-99
 drakpa-gyaltsen:c-2-12
 gendun-drub:c-2-2-2-3-6-1

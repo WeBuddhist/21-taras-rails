@@ -8,8 +8,8 @@
 
 | Commentary | Claims in packet | Status |
 |---|---|---|
-| anon-trinle-char | 9 | consulted |
-| anon-utpala | 3 | consulted |
+| yama-sonam | 9 | consulted |
+| dharmabhadra | 3 | consulted |
 | drakpa-gyaltsen | 3 | consulted |
 | gendun-drub | 8 | consulted |
 | gendun-gyatso | 2 | consulted |
@@ -26,7 +26,7 @@
 | tsultrim-namdak | 2 | consulted |
 
 ---
-## anon-trinle-char — unknown, *unknown (no English title given in the commentary's frontmatter)*
+## yama-sonam — unknown, *unknown (no English title given in the commentary's frontmatter)*
 
 #### c-3-11-13 Conclusion: the iron hook clears adversity, the HŪṂ-essence accomplishes favorable conditions
 **བོད་ཡིག:** 26 དེས་ན་ལྕགས་ཀྱུས་འགལ་རྐྱེན་བསལ་ཞིང་སྙིང་པོའམ་ཧཱུཾ་ཡིག་གིས་མཐུན་རྐྱེན་སྒྲུབ་པའི་ཚུལ་ལ་བསྟོད་ཅིང་མཆོད་པའོ།
@@ -91,7 +91,7 @@
 **Referent:** PER-2 (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-57)
 
-## anon-utpala — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
+## dharmabhadra — Ngulchu Dharmabhadra, *The Bouquet of Blue Lotuses Enchanting the Mind: An Exposition of the Praise to Tārā in Twenty-One Homages*
 
 ###### c-1-2-2-1-2-4-4 Iconography: wrathful frown, HŪṂ at the heart hooks in everything desired
 **བོད་ཡིག:** ཞལ་ཁྲོ་གཉེར་གཡོ་བའི་རྣམ་པར་བཞུགས་པའི་ཐུགས་ཀའི་ཡི་གེ་ཧཱུཾ་འོད་ཟེར་གྱི་ལྕགས་ཀྱུས་འདོད་རྒུ་ཐམས་ཅད་བཀུག་ནས།

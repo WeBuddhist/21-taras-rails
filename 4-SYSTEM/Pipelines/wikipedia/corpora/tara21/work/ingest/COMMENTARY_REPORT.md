@@ -11,7 +11,7 @@
 | `TARAC06_NDB_bo_segmented` | 0 | 21 | 146 | ok |
 | `TARAC07_KTK_bo_segmented` | 0 | 2 | 196 | ok |
 | `TARAC08_DTG_bo_segmented` | 0 | 16 | 207 | ok |
-| `TARAC09_ANON_bo_segmented` | 0 | 19 | 516 | ok |
+| `TARAC09_JYS_bo_segmented` | 0 | 19 | 516 | ok |
 | `TARAC10_DPN_bo_segmented` | 0 | 0 | 101 | ok |
 | `TARAC11_KMT_bo_segmented` | 0 | 0 | 59 | ok |
 | `TARAC12_PDS_bo_segmented` | 0 | 21 | 328 | ok |
@@ -57,7 +57,7 @@
 - **transclude** — 16 verses anchored, 6 unplaced
 - **blockids** — 207 stamped, 0 headings, 207 before the first heading (^I-*)
 
-### `TARAC09_ANON_bo_segmented`
+### `TARAC09_JYS_bo_segmented`
 - **refine** — 516 → 516 blocks
 - **transclude** — 19 verses anchored, 3 unplaced
 - **blockids** — 516 stamped, 0 headings, 516 before the first heading (^I-*)

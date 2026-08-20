@@ -3,8 +3,8 @@ topic: hara
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -55,7 +55,7 @@ status: draft
 > `registered_id:claim_id`, with its specific content noted). **Every single one is a
 > mantra-formula quotation, a mantra-table entry, or an etymological gloss of the mantra
 > syllable** (uniformly glossed as the Sanskrit verbal root "to seize/carry off,"
-> Tibetan འཕྲོག་པ — e.g. `anon-utpala:c-1-2-3-5-4` "hāra glossed as 'seizer'";
+> Tibetan འཕྲོག་པ — e.g. `dharmabhadra:c-1-2-3-5-4` "hāra glossed as 'seizer'";
 > `taranatha:c-18-12` "HARA, that is, 'seizing'"; `palden-sherab:c-3-1-20-3-2` "HARA
 > means 'seizing'"). **None narrates, names, or otherwise treats Hara/Śiva/Rudra as an
 > independent deity or a being subjugated by Tārā** — there is no trampling, taming, or
@@ -68,7 +68,7 @@ status: draft
 
 1. Does any commentary discuss ཧ་ར (Hara) as an independent deity — a name of Śiva/Rudra — distinct from its occurrence as a syllable of Tārā's own wrathful mantra? (No commentary in the corpus does; see facet below.)
 2. Does any commentary narrate Hara/Śiva/Rudra as a being subjugated, tamed, or trampled by Tārā, comparable to how Māra or worldly gods are described elsewhere in this corpus? (No commentary does — no trampling/taming narrative names Hara as its object anywhere in the 37 claims reviewed.)
-3. Where commentaries gloss the syllable ཧ་ར etymologically, what meaning do they give it, and does that gloss reference the god Hara/Śiva in any way? (Every etymological gloss found — anon-utpala, taranatha, palden-sherab — derives "hara/hāra" from the Sanskrit verbal root meaning "to seize/carry off" (འཕྲོག་པ), explaining the mantra syllable's soteriological function (seizing obscurations, seizing the "enemy" of saṃsāra-and-nirvāṇa, seizing epidemic disease). None connects this gloss to the god Śiva/Rudra.)
+3. Where commentaries gloss the syllable ཧ་ར etymologically, what meaning do they give it, and does that gloss reference the god Hara/Śiva in any way? (Every etymological gloss found — dharmabhadra, taranatha, palden-sherab — derives "hara/hāra" from the Sanskrit verbal root meaning "to seize/carry off" (འཕྲོག་པ), explaining the mantra syllable's soteriological function (seizing obscurations, seizing the "enemy" of saṃsāra-and-nirvāṇa, seizing epidemic disease). None connects this gloss to the god Śiva/Rudra.)
 4. Which commentaries contain the string ཧ་ར at all, and in what structural role (mantra quotation, mantra table entry, etymological word-gloss, textual-variant note)? (14 of 16 commentaries contain the string at least once, exclusively in these four roles; 2 commentaries — karma-maitri, sangye-nyentrul — contain it nowhere. See Coverage table.)
 
 ---
@@ -85,7 +85,7 @@ that otherwise treats "Hara" as anything other than a syllable of her own mantra
 None observed — there is no divergence to record because there is no claim to disagree
 about. (For a genuine, corpus-wide divergence involving the same syllable-string, see
 `2-RAILS/Claims/tara-mantra.md`'s "Dispelling epidemic disease" facet, where
-`anon-trinle-char:c-3-20-7` argues the Kangyur's tantra reading is "HĀRA twice" rather
+`yama-sonam:c-3-20-7` argues the Kangyur's tantra reading is "HĀRA twice" rather
 than a scribally corrupted "TĀRA twice" — a textual-variant question about the mantra,
 not a claim about a deity.)
 
@@ -103,12 +103,12 @@ syllable ཧ་ར/ཧཱ་ར ("to seize," a plain-sense grammatical note on t
 about the god Hara) — with its specific content noted so the exclusion is checkable
 without re-opening the raw file:
 
-- `anon-trinle-char:c-3-18-6` — four masters' differing readings of the exact wording of the extended mantra (ཏཱ་ར vs. ཧཱ་ར twice, PHAṬ placement).
-- `anon-trinle-char:c-3-20-5` — "HARA HARA," the fierce vidyā-syllables, or the peaceful "TUTTĀRE," dispel epidemic and all decline.
-- `anon-trinle-char:c-3-20-7` — textual note: "TĀRA twice" judged a scribal corruption of "HĀRA twice" (the same claim already cited under this exact heading in `2-RAILS/Claims/tara-mantra.md`'s "Dispelling epidemic disease" Unique list).
-- `anon-utpala:c-1-2-3-1-5` — wrathful-form vidyā-mantra (containing HĀRE) surrounds a HAṂ seed, emitting light-rays.
-- `anon-utpala:c-1-2-3-5-4` — word-gloss: "hāra" glossed as "seizer" (འཕྲོག་པ), describing the wrathful mantra's doubled syllable.
-- `anon-utpala:c-1-2-3-5-5` — the wrathful mantra recited in full: OṂ NAMAḤ TĀRE NAMO HĀRE HWA HĀRE SVĀHĀ.
+- `yama-sonam:c-3-18-6` — four masters' differing readings of the exact wording of the extended mantra (ཏཱ་ར vs. ཧཱ་ར twice, PHAṬ placement).
+- `yama-sonam:c-3-20-5` — "HARA HARA," the fierce vidyā-syllables, or the peaceful "TUTTĀRE," dispel epidemic and all decline.
+- `yama-sonam:c-3-20-7` — textual note: "TĀRA twice" judged a scribal corruption of "HĀRA twice" (the same claim already cited under this exact heading in `2-RAILS/Claims/tara-mantra.md`'s "Dispelling epidemic disease" Unique list).
+- `dharmabhadra:c-1-2-3-1-5` — wrathful-form vidyā-mantra (containing HĀRE) surrounds a HAṂ seed, emitting light-rays.
+- `dharmabhadra:c-1-2-3-5-4` — word-gloss: "hāra" glossed as "seizer" (འཕྲོག་པ), describing the wrathful mantra's doubled syllable.
+- `dharmabhadra:c-1-2-3-5-5` — the wrathful mantra recited in full: OṂ NAMAḤ TĀRE NAMO HĀRE HWA HĀRE SVĀHĀ.
 - `drakpa-gyaltsen:c-1-84` — the wrathful mantra given in full: OṂ NAMAḤ TĀRE NAMO HARI HŪM HARA SVĀHĀ.
 - `drakpa-gyaltsen:c-1-94` — structural: quotes the sun-and-moon-eyes/HARA-mantra verse for glossing.
 - `drakpa-gyaltsen:c-1-96` — by the mantra-speech of the peaceful and wrathful forms (uttering HARA twice) she dispels severe epidemic disease.
@@ -151,8 +151,8 @@ required a ⚑-ambiguous flag under Rule 6 of the consolidation methodology.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-18-6, c-3-20-5, c-3-20-7 | none — all 3 excluded (mantra-formula/etymology; see reviewed section) |
-| anon-utpala | c-1-2-3-1-5, c-1-2-3-5-4, c-1-2-3-5-5 | none — all 3 excluded (mantra-formula/etymology; see reviewed section) |
+| yama-sonam | c-3-18-6, c-3-20-5, c-3-20-7 | none — all 3 excluded (mantra-formula/etymology; see reviewed section) |
+| dharmabhadra | c-1-2-3-1-5, c-1-2-3-5-4, c-1-2-3-5-5 | none — all 3 excluded (mantra-formula/etymology; see reviewed section) |
 | drakpa-gyaltsen | c-1-84, c-1-94, c-1-96 | none — all 3 excluded (mantra-formula/etymology; see reviewed section) |
 | gendun-drub | c-2-2-2-3-1-4, c-2-2-2-3-5-3 | none — both excluded (mantra-formula; see reviewed section) |
 | gendun-gyatso | c-1-19-4 | none — excluded (mantra-formula; see reviewed section) |

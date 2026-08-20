@@ -3,8 +3,8 @@ topic: yaksha
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -83,7 +83,7 @@ The verse describing Tārā's worship by the great mundane gods (Indra, Agni, Br
 འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།
 ("...praised in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas.")
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-trinle-char:c-3-6-6`, `anon-utpala:c-1-2-2-1-1-5-2`, `anon-utpala:c-1-2-2-1-1-5-5`, `drakpa-gyaltsen:c-1-40`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-12`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `taranatha:c-6-12`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-2-1-2-1-22` (15 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `yama-sonam:c-3-6-6`, `dharmabhadra:c-1-2-2-1-1-5-2`, `dharmabhadra:c-1-2-2-1-1-5-5`, `drakpa-gyaltsen:c-1-40`, `gendun-drub:c-2-2-2-2-1-1-5-3`, `gendun-gyatso:c-1-6-2`, `karma-maitri:c-1-1-6-12`, `konchok-thabkhe:c-2-6-3`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `palden-sherab:c-3-1-6-0-2`, `palden-sherab:c-3-1-6-1-4`, `sangye-nyentrul:c-7-0-2`, `sungrab-tulku:c-9-2`, `sungrab-tulku:c-9-6`, `sungrab-tulku:c-9-7`, `taranatha:c-6-12`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenga-tulku:c-1-2-2-1-1-5-4`, `tenzin-dhonzang:c-4-6-2`, `tenzin-dhonzang:c-4-6-4`, `tsultrim-namdak:c-2-1-2-1-19`, `tsultrim-namdak:c-2-1-2-1-22` (15 commentaries)
 
 `konchok-thabkhe:c-2-6-3` recasts the list with substitutions — "the powerful elemental spirit, the corpse-riding rākṣasa, Yama the lord of gandharvas, and the assembly of yakṣas guarding the north" — rather than the bare four terms, but occupies the same structural position (the second group of worshippers) and still names yakṣas explicitly.
 
@@ -114,7 +114,7 @@ None. Commentaries that name a chief/ruler for the yakṣas in this verse give g
 (6 commentaries)
 
 **Position 2 — yakṣas as the retinue of an unnamed "ill-bodied one" (ལུས་ངན), no chief named:**
-- `anon-utpala:c-1-2-2-1-1-5-5`: "ལུས་ངན་གྱི་འཁོར་གནོད་སྦྱིན་སོགས" ("the yakṣas, retinue of the 'ill-bodied one'").
+- `dharmabhadra:c-1-2-2-1-1-5-5`: "ལུས་ངན་གྱི་འཁོར་གནོད་སྦྱིན་སོགས" ("the yakṣas, retinue of the 'ill-bodied one'").
 - `lobsang-dawa:c-1-2-2-1-1-5-3`: "ལུས་ངན་གྱི་འཁོར་གནོད་སྦྱིན་ཚོགས" ("the assembly of yakṣas — the retinue of the ill-formed").
 - `sungrab-tulku:c-9-7`: "ལུས་ངན་གྱི་འཁོར་གནོད་སྦྱིན་སོགས" ("the yakṣas, retinue of the evil-bodied ones").
 
@@ -165,9 +165,9 @@ One exception: a "radiance/luster-stealer" epithet for yakṣa recurs across sev
 ### Consensus
 Within the verse-21 triad-destruction material (see previous section), five commentaries independently and specifically gloss or describe **yakṣa** — not gdon or ro-langs — as one who "steals radiance/luster" (མདངས་འཕྲོག་པ), a descriptive epithet not attached to the other two members of the triad in any claim this gather located:
 
-— attested: `anon-utpala:c-1-2-3-6-6`, `taranatha:c-21-1-6`, `palden-sherab:c-3-1-21-1-3`, `sangye-nyentrul:c-22-0-2`, `tenzin-dhonzang:c-4-21-7` (5 commentaries)
+— attested: `dharmabhadra:c-1-2-3-6-6`, `taranatha:c-21-1-6`, `palden-sherab:c-3-1-21-1-3`, `sangye-nyentrul:c-22-0-2`, `tenzin-dhonzang:c-4-21-7` (5 commentaries)
 
-`taranatha:c-21-1-6` gives the bare word-gloss: "གནོད་སྦྱིན་ནི་མདངས་འཕྲོག་པ་རྣམས་ཀྱི་གནོད་པ་སྟེ།" ("'Yakṣa' is the harm of the radiance-stealers"). `anon-utpala:c-1-2-3-6-6`: "མདངས་འཕྲོག་པའི་གནོད་སྦྱིན་ལ་སོགས་པའི་གནོད་པའི་ཚོགས་རྣམས" ("hosts of harm-doers such as light-stealing yakṣas"). `palden-sherab:c-3-1-21-1-3` and `sangye-nyentrul:c-22-0-2` and `tenzin-dhonzang:c-4-21-7` each use the same or a closely matching phrase ("མདངས་འཕྲོག་པའི་གནོད་སྦྱིན...") in their own glosses of the same triad-destruction material.
+`taranatha:c-21-1-6` gives the bare word-gloss: "གནོད་སྦྱིན་ནི་མདངས་འཕྲོག་པ་རྣམས་ཀྱི་གནོད་པ་སྟེ།" ("'Yakṣa' is the harm of the radiance-stealers"). `dharmabhadra:c-1-2-3-6-6`: "མདངས་འཕྲོག་པའི་གནོད་སྦྱིན་ལ་སོགས་པའི་གནོད་པའི་ཚོགས་རྣམས" ("hosts of harm-doers such as light-stealing yakṣas"). `palden-sherab:c-3-1-21-1-3` and `sangye-nyentrul:c-22-0-2` and `tenzin-dhonzang:c-4-21-7` each use the same or a closely matching phrase ("མདངས་འཕྲོག་པའི་གནོད་སྦྱིན...") in their own glosses of the same triad-destruction material.
 
 ### ⚑ Divergences
 None observed — no claim in this packet's gather gives yakṣa a competing epithet within the triad-verse context.
@@ -197,7 +197,7 @@ None beyond the five attestations above.
 ## Iconography: Tārā's trampling posture subdues powerful yakṣas (verse 7)
 
 ### Unique
-`anon-trinle-char:c-3-7-5` alone describes Tārā's bodily posture — right leg bent, left extended, with a slightly wrathful cast — as treading underfoot "powerful yakṣas and the like" (གནོད་སྦྱིན་མཐུ་བོ་ཆེ་སོགས), and states that this trampling reverses the epidemic illness and hexes arising from their evil intentions. No other commentary's claims in this packet's gather describe this specific iconographic detail in connection with yakṣa.
+`yama-sonam:c-3-7-5` alone describes Tārā's bodily posture — right leg bent, left extended, with a slightly wrathful cast — as treading underfoot "powerful yakṣas and the like" (གནོད་སྦྱིན་མཐུ་བོ་ཆེ་སོགས), and states that this trampling reverses the epidemic illness and hexes arising from their evil intentions. No other commentary's claims in this packet's gather describe this specific iconographic detail in connection with yakṣa.
 
 ### ⚑ Divergences
 None observed.
@@ -253,7 +253,7 @@ None — single-commentary claim.
 
 ## Claims reviewed, not separately cited
 
-**Verse 21 triad material — cross-referenced to `2-RAILS/Claims/gdon.md`'s "Verse 21" facet, not independently re-analyzed here** (per this page's framing note, above): `anon-trinle-char:c-3-21-3` (bare triad attestation — same content class as gdon.md's Consensus list, though this specific commentary is not itself in gdon.md's current citation list for that facet), `anon-trinle-char:c-3-21-4` (OṂ-ĀḤ-HŪṂ light-ray mechanism — same content class as gdon.md's "narrower group" mechanism subgroup, though this specific commentary is likewise not in gdon.md's current citation list for that subgroup — a human contributor may wish to add both to gdon.md separately), `anon-utpala:c-1-2-3-6-2` (bare triad attestation, same verse as gdon.md's Consensus list), `drakpa-gyaltsen:c-1-99` (= gdon.md's own cited claim in its Verse 21 Consensus), `gendun-drub:c-2-2-2-3-6-2` (= gdon.md's own cited claim, mechanism subgroup), `gendun-gyatso:c-1-21-2` (= gdon.md's own cited claim), `karma-maitri:c-1-1-21-3` (= gdon.md's own cited claim), `konchok-thabkhe:c-2-21-3` (= gdon.md's own cited claim), `palden-sherab:c-3-1-21-0-2` (bare triad attestation, same verse), `palden-sherab:c-3-1-21-2-2` (= gdon.md's own cited claim, mechanism + bla-tshe subgroups), `palden-sherab:c-3-1-21-3-2` (= gdon.md's own cited claim, Divergence "Reading 1"), `palden-sherab:c-3-1-21-4-2` (= gdon.md's own cited claim, Divergence "Reading 2"), `sungrab-tulku:c-24-2` (= gdon.md's own cited claim), `sungrab-tulku:c-24-4` (= gdon.md's own cited claim, mechanism subgroup), `taranatha:c-21-3-4` (= gdon.md's own cited claim, Divergence "Reading 1"), `taranatha:c-21-4-5` (= gdon.md's own cited claim, Divergence "Reading 2"), `tenga-tulku:c-1-2-3-6-2` (= gdon.md's own cited claim), `tenga-tulku:c-1-2-3-6-4` (= gdon.md's own cited claim), `tenzin-dhonzang:c-4-21-2` (= gdon.md's own cited claim), `tsultrim-namdak:c-2-1-2-1-71` (= gdon.md's own cited claim), `tsultrim-namdak:c-2-1-2-1-74` (= gdon.md's own cited claim).
+**Verse 21 triad material — cross-referenced to `2-RAILS/Claims/gdon.md`'s "Verse 21" facet, not independently re-analyzed here** (per this page's framing note, above): `yama-sonam:c-3-21-3` (bare triad attestation — same content class as gdon.md's Consensus list, though this specific commentary is not itself in gdon.md's current citation list for that facet), `yama-sonam:c-3-21-4` (OṂ-ĀḤ-HŪṂ light-ray mechanism — same content class as gdon.md's "narrower group" mechanism subgroup, though this specific commentary is likewise not in gdon.md's current citation list for that subgroup — a human contributor may wish to add both to gdon.md separately), `dharmabhadra:c-1-2-3-6-2` (bare triad attestation, same verse as gdon.md's Consensus list), `drakpa-gyaltsen:c-1-99` (= gdon.md's own cited claim in its Verse 21 Consensus), `gendun-drub:c-2-2-2-3-6-2` (= gdon.md's own cited claim, mechanism subgroup), `gendun-gyatso:c-1-21-2` (= gdon.md's own cited claim), `karma-maitri:c-1-1-21-3` (= gdon.md's own cited claim), `konchok-thabkhe:c-2-21-3` (= gdon.md's own cited claim), `palden-sherab:c-3-1-21-0-2` (bare triad attestation, same verse), `palden-sherab:c-3-1-21-2-2` (= gdon.md's own cited claim, mechanism + bla-tshe subgroups), `palden-sherab:c-3-1-21-3-2` (= gdon.md's own cited claim, Divergence "Reading 1"), `palden-sherab:c-3-1-21-4-2` (= gdon.md's own cited claim, Divergence "Reading 2"), `sungrab-tulku:c-24-2` (= gdon.md's own cited claim), `sungrab-tulku:c-24-4` (= gdon.md's own cited claim, mechanism subgroup), `taranatha:c-21-3-4` (= gdon.md's own cited claim, Divergence "Reading 1"), `taranatha:c-21-4-5` (= gdon.md's own cited claim, Divergence "Reading 2"), `tenga-tulku:c-1-2-3-6-2` (= gdon.md's own cited claim), `tenga-tulku:c-1-2-3-6-4` (= gdon.md's own cited claim), `tenzin-dhonzang:c-4-21-2` (= gdon.md's own cited claim), `tsultrim-namdak:c-2-1-2-1-71` (= gdon.md's own cited claim), `tsultrim-namdak:c-2-1-2-1-74` (= gdon.md's own cited claim).
 
 **Already covered by gdon.md's "Enumeration of gdon-classes" facet, not re-derived here:** `tenzin-dhonzang:c-4-21-6` (the White Parasol dhāraṇī's twenty-eight harmful spirits, of which "gnod sbyin" is only one item in a 28-item list quoted from an external text; already gdon.md's own ⚑ Divergences citation for that enumeration), `lobsang-dawa:c-1-2-3-6-3` (the "eighteen classes... zombie-sorcery... yakṣa harms" claim; already gdon.md's own Consensus citation for the "eighteen classes" enumeration), and `pema-namgyal:c-2-4-55` (the "eighteen classes" plus six named zombie-subtypes list; already cited by gdon.md's "Enumeration" facet for the zombie taxonomy and by `2-RAILS/Claims/vetala.md`'s "Classification" facet for the same taxonomy from vetāla's angle — this claim's yakṣa content is a generic co-mention, "hosts of elemental spirits and yakṣas... that steal life-force and vitality," alongside the gdon/ro-langs enumeration, not a claim developing yakṣa's own identity beyond what the triad-verse facets above already cover).
 
@@ -265,8 +265,8 @@ None — single-commentary claim.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-6-3, c-3-6-6, c-3-7-5, c-3-21-3, c-3-21-4 (5) | Verse 6 fourfold host, Iconography (trampling), Verse-21 triad (cross-ref) |
-| `anon-utpala` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5, c-1-2-3-6-2, c-1-2-3-6-6 (4) | Verse 6 fourfold host, Identity (Position 2), Verse-21 triad (cross-ref), Radiance-stealer epithet |
+| `yama-sonam` | c-3-6-3, c-3-6-6, c-3-7-5, c-3-21-3, c-3-21-4 (5) | Verse 6 fourfold host, Iconography (trampling), Verse-21 triad (cross-ref) |
+| `dharmabhadra` | c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-5, c-1-2-3-6-2, c-1-2-3-6-6 (4) | Verse 6 fourfold host, Identity (Position 2), Verse-21 triad (cross-ref), Radiance-stealer epithet |
 | `drakpa-gyaltsen` | c-1-40, c-1-43, c-1-99 (3) | Verse 6 fourfold host, Identity (Position 1), Verse-21 triad (cross-ref) |
 | `gendun-drub` | c-2-2-2-2-1-1-5-3, c-2-2-2-3-6-2 (2) | Verse 6 fourfold host, Identity (Position 1), Verse-21 triad (cross-ref) |
 | `gendun-gyatso` | c-1-6-2, c-1-21-2 (2) | Verse 6 fourfold host, Identity (Position 3), Verse-21 triad (cross-ref) |

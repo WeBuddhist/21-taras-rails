@@ -3,7 +3,7 @@ registered_id: taranatha
 title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ"
 title_in_english: "Detailed Explanation of the Homage in Twenty-One Verses"
 author: "ཏཱ་ར་ནཱ་ཐ་"
-author_in_use: "ཇོ་ནང་ཏ་ར་ན་ཐ་"
+author_in_use: "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་"
 author_in_english: "Tāranātha"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/taranatha.md

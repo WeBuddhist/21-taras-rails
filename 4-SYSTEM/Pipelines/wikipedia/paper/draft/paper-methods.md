@@ -616,7 +616,7 @@ report of "earlier commentaries":
 > number never diminished, wept; from his tears … a lotus grew, and Tārā arose from
 > its opened pollen/blossom. This is attested — independently, in each commentary's
 > own words — by every one of the fifteen contributing commentaries in this packet.
-> — attested: anon-trinle-char:c-3-1-15 … tsultrim-namdak:c-2-1-2-1-6 (15 commentaries)
+> — attested: yama-sonam:c-3-1-15 … tsultrim-namdak:c-2-1-2-1-6 (15 commentaries)
 >
 > ⚑ **Whose tears produced the lotus.** konchok-thabkhe explicitly flags, within its
 > own text, that "earlier commentaries" (unnamed …) gloss the tantra's second line as
@@ -646,7 +646,7 @@ minor, in a stable taxonomy. The critical case is the audit design's whole
 justification (verbatim from the findings file):
 
 > 1. **CRITICAL — `gendun-gyatso:c-1-2-1` (Face section).** Cited as independently
->    corroborating anon-trinle-char's "three flaws" framing (dust, mist/haze, cloud).
+>    corroborating yama-sonam's "three flaws" framing (dust, mist/haze, cloud).
 >    The raw claim contains no flaws framing — only "face supremely white and beautiful
 >    like stacked full autumn moons." Correct attestation is almost certainly
 >    `gendun-drub:c-2-2-2-2-1-1-1-3` …

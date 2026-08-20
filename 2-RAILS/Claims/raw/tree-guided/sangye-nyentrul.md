@@ -2,9 +2,9 @@
 registered_id: sangye-nyentrul
 title: "རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར"
 title_in_english:
-author: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།"
+author: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་"
 author_in_use: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་"
-author_in_english: "Sangye Nyentrul"
+author_in_english: "Sangye Nyenpa Rinpoche"
 source_file: "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md"
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/sangye-nyentrul.md
 tree_qc_reports: [0-INBOX/toc-tree-qc-sangye-nyentrul.md, 0-INBOX/toc-tree-qc-source-sangye-nyentrul.md]
@@ -18,7 +18,7 @@ status: draft
 
 # Tree-guided claims — རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར
 
-**Commentary:** `sangye-nyentrul` · Sangye Nyentrul (English form of the author's name per the vault's own commentary registry, [`4-SYSTEM/Guidelines/vault-annex.md`](../../../../4-SYSTEM/Guidelines/vault-annex.md) §Commentaries — the source commentary's own frontmatter gives only the Tibetan `title`/`author`, with no `title_in_english`/`author_in_english` fields, so `title_in_english` above is left blank rather than invented, and the H1 above uses the Tibetan title verbatim.)
+**Commentary:** `sangye-nyentrul` · Sangye Nyenpa Rinpoche
 **Source:** [`རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md`](../../../1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md)
 **TOC tree:** [`sangye-nyentrul.md`](../../Sections/Raw/toc-tree/sangye-nyentrul.md)
 **Citation form:** Block IDs. The commentary carries no root-verse transclusion anchors, so every content block falls under chapter 0 (`^0-N`) per `commentary-verse-id`'s convention; headings carry their own `^N-0` / `^N-N-0` IDs.

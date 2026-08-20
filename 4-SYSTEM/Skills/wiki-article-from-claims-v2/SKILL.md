@@ -40,7 +40,7 @@ Three files per article:
 
 `article.md` keeps v1's Obsidian-viewability convention: YAML frontmatter (`topic`, `article_kind`, `format`, `status`), an explanatory callout, and the publishable wikitext inside a single ```` ```wikitext ```` fence — byte-identical to what would be published. Reviewers who need the wiki markup edit **inside the fence only**.
 
-`article-preview.md` is **generated, read-only output** — produced by `scripts/make_preview.py` from `article.md`, never hand-edited, regenerated after every edit to `article.md`. It exists solely so a human reviewer can read the article in Obsidian's reading view with citations rendered as clickable footnote superscripts (`[^sungrab-tulku]`) instead of inline `<ref>` blocks. It is not published, not cited from anywhere, and carries `generated: true` frontmatter plus a warning callout. The script also runs standalone on any existing v1 `article.md`, so previews can be produced for already-drafted articles without redrafting them.
+`article-preview.md` is **generated, read-only output** — produced by `scripts/make_preview.py` from `article.md`, never hand-edited, regenerated after every edit to `article.md`. It exists solely so a human reviewer can read the article in Obsidian's reading view with citations rendered as clickable footnote superscripts instead of inline `<ref>` blocks. Footnote labels show the **author's name** (a slug of the commentary's `author_in_english`, read live from the `1-SOURCES/Commentaries/` frontmatter — e.g. `[^jetsun-yama-sonam]`), never the internal ref key / `registered_id`, which stays frozen in the wikitext itself. It is not published, not cited from anywhere, and carries `generated: true` frontmatter plus a warning callout. The script also runs standalone on any existing v1 `article.md`, so previews can be produced for already-drafted articles without redrafting them.
 
 ### `citations.md` — the audit trail
 
@@ -75,12 +75,12 @@ generated_by: 4-SYSTEM/Skills/wiki-article-from-claims-v2/scripts/make_preview.p
 > footnotes. Any correction belongs in `article.md` (inside the wikitext fence); then
 > regenerate this preview. This file is never published.
 
-**<NAME>**ནི་ … <lead prose>[^sungrab-tulku]
+**<NAME>**ནི་ … <lead prose>[^drepa-ratreng-sungrab-tulku]
 
 ## ངེས་ཚིག
 … <body prose with footnote markers> …
 
-[^sungrab-tulku]: འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ། སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད།
+[^drepa-ratreng-sungrab-tulku]: འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ། སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད།
 ```
 
 ---
@@ -132,7 +132,9 @@ Use Mode B when a verified `article.md` + `citations.md` already exists for the 
 
 **Inputs (replace Mode A's Inputs 1–2):** the existing `article.md` (fenced wikitext) and `citations.md` for the topic.
 
-**Output, during piloting:** write to `3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-v2/<topic>/{article.md,citations.md,article-preview.md}` — never overwrite the source article while it is still under human review. Only after a human contributor approves a pilot does promoting the file to the topic's real `term-articles/`/`slot-articles/` path become an option, and that promotion is a human decision, not something this skill does on its own.
+**Output — in place (human-contributor decision, 2026-08-19; the separate pilot stage is retired):** write directly to the topic's canonical folder — `term-articles/<topic>/` or `slot-articles/<topic>/` — replacing `article.md` and `citations.md` and regenerating `article-preview.md`. No side-copy is kept: the previous versions are preserved by git via the vault's auto-backup. Nothing is published by this skill; the `/publish` gate and its human review still stand between any rewritten article and bo.wikipedia.
+
+**Batch runs (parallel agents).** When rewriting many topics, dispatch one agent per topic (or a small group of topics per agent), in parallel. Each agent needs only its own topic's `article.md` + `citations.md`, this SKILL.md, and frontmatter-only lookups for Rule 17 — it must do the work itself, never fan out per-commentary subagents within a topic (2026-08-14 batch lesson), and never write outside its own topic folder(s). After the batch, a human reviewer spot-checks a sample before any `/publish`.
 
 1. **Read the source.** Load the existing `article.md` fence body and `citations.md` reference map in full. Every claim ID, quotation, and `Cite:` target already there is verified ground truth — do not re-derive it.
 2. **Classify existing statements** per Rule 5: content already in `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` (or attributed to one commentator making a genuinely distinctive point) stays attributed; everything else is a candidate for wikivoice conversion.

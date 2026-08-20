@@ -1,8 +1,19 @@
 # paper/draft — the deliverables and how to regenerate them
 
+> **2026-08-19 revision.** `paper-src.md` was updated to the current pipeline state and the
+> .docx rebuilt: §5 restructured so every step states input → output → how it works in plain
+> language; a new §5.4 (the subject-selection keyword chain); §5.9 extended with the Route B
+> batch, the import bridge, and the native-reviewer style-revision loop (v2 skill); batch
+> numbers throughout (67 consolidated pages, 43+23 drafted, 42 imported, 861/882 = 97.6%
+> verbatim); bo.wikipedia figures re-checked against the live API. Reference for the step
+> detail: `../11 - Pipeline Steps in Detail.md`. Remaining **[TO FILL]** slots are unchanged —
+> they need team data (revival-campaign records, reviewer-minutes, rater results, batch audit
+> pass rates).
+
 | file | what |
 |---|---|
 | `paper-src.md` | **The source of the .docx** — constrained markdown (`%TITLE`/`%AUTHOR`/`%DATE`, `##`/`###` headings, pipe tables, fenced code, `>` quotes, `-`/`1.` lists). Edit here, never in Word. |
+| `Expanding-the-Digital-Footprint-of-Tibetan-corrected.md` | Externally supplied correction pass (2026-08-10, dropped in after `paper-src.md` that evening) — a heavily hedged rewrite with a changed title. **Not** the docx source. Its factual fixes (dated API snapshot) were harvested into `paper-src.md` on 2026-08-19; its softened thesis framing was deliberately not adopted (the canonical plan keeps the doom-spiral/virtuous-cycle claim as the contribution, and the submitted title/abstract stand). |
 | `build_docx.js` | Regenerates the .docx: `node build_docx.js paper-src.md Expanding-the-Digital-Footprint-of-Tibetan.docx` (needs `npm install docx` once, beside this file or on NODE_PATH). Page geometry lives here: A4, 0.8in margins, Times New Roman 10.5pt, single-spaced. |
 | `Expanding-the-Digital-Footprint-of-Tibetan.docx` | The 15-page venue-neutral paper, built from `paper-src.md`. |
 | `Expanding-the-Digital-Footprint-of-Tibetan-26pp.docx` | The superseded 26-page version, kept for reference (2026-08-10). |

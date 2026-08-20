@@ -3,8 +3,8 @@ topic: tara-mantra
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -36,7 +36,7 @@ consolidation_questions:
   - "Do any commentators note textual variants or emendations in the mantra's wording?"
   - "Do any commentators give narrative illustrations of the mantra's protective power?"
   - "tsultrim-namdak's c-8-1-1 assigns each of the three syllables a distinct liberative function (TĀRE from saṃsāra, TUTTĀRE from the eight fears, TURE from sickness) — do other commentaries corroborate this specific three-way division, or address the syllables independently?"
-  - "anon-trinle-char's c-3-20-7 raises a scribal-corruption question about whether the root text reads \"TĀRA twice\" or \"HĀRA twice\" in the epidemic verse — do other commentaries address this textual question or simply follow one reading silently?"
+  - "yama-sonam's c-3-20-7 raises a scribal-corruption question about whether the root text reads \"TĀRA twice\" or \"HĀRA twice\" in the epidemic verse — do other commentaries address this textual question or simply follow one reading silently?"
 date: 2026-08-12
 status: draft
 ---
@@ -86,7 +86,7 @@ status: draft
 14. Do any commentators note textual variants or emendations in the mantra's wording?
 15. Do any commentators give narrative illustrations of the mantra's protective power?
 16. tsultrim-namdak's c-8-1-1 assigns each of the three syllables a distinct liberative function (TĀRE from saṃsāra, TUTTĀRE from the eight fears, TURE from sickness) — do other commentaries corroborate this specific three-way division, or address the syllables independently? (No commentary in this packet reproduces the same three-way division; the other 151 claims treat the syllables' functions separately rather than as one triad. Kept as a question no other commentary answers.)
-17. anon-trinle-char's c-3-20-7 raises a scribal-corruption question about whether the root text reads "TĀRA twice" or "HĀRA twice" in the epidemic verse — do other commentaries address this textual question or simply follow one reading silently? (No other commentary in this packet discusses the variant explicitly; each simply uses one reading. See "Dispelling epidemic disease" below.)
+17. yama-sonam's c-3-20-7 raises a scribal-corruption question about whether the root text reads "TĀRA twice" or "HĀRA twice" in the epidemic verse — do other commentaries address this textual question or simply follow one reading silently? (No other commentary in this packet discusses the variant explicitly; each simply uses one reading. See "Dispelling epidemic disease" below.)
 
 ---
 
@@ -98,9 +98,9 @@ The mantra's core, ten-syllable form is given as:
 **བོད་ཡིག:** ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ།
 **English:** OṂ TĀRE TUTTĀRE TURE SVĀHĀ.
 
-— attested: `anon-utpala:c-1-2-3-1-4`, `anon-utpala:c-1-2-3-5-6`, `gendun-drub:c-2-2-2-3-1-3`, `lobsang-dawa:c-1-2-3-1-4`, `palden-sherab:c-3-1-16-1-2`, `sangye-nyentrul:c-17-0-2`, `taranatha:c-20-10`, `tenzin-dhonzang:c-4-10-9`, `tenzin-dhonzang:c-4-16-4`, `tenzin-dhonzang:c-4-21-11`, `tsultrim-namdak:c-5-3-2` (8 commentaries: anon-utpala, gendun-drub, lobsang-dawa, palden-sherab, sangye-nyentrul, taranatha, tenzin-dhonzang, tsultrim-namdak)
+— attested: `dharmabhadra:c-1-2-3-1-4`, `dharmabhadra:c-1-2-3-5-6`, `gendun-drub:c-2-2-2-3-1-3`, `lobsang-dawa:c-1-2-3-1-4`, `palden-sherab:c-3-1-16-1-2`, `sangye-nyentrul:c-17-0-2`, `taranatha:c-20-10`, `tenzin-dhonzang:c-4-10-9`, `tenzin-dhonzang:c-4-16-4`, `tenzin-dhonzang:c-4-21-11`, `tsultrim-namdak:c-5-3-2` (8 commentaries: dharmabhadra, gendun-drub, lobsang-dawa, palden-sherab, sangye-nyentrul, taranatha, tenzin-dhonzang, tsultrim-namdak)
 
-Several of the same commentaries additionally frame the OṂ...SVĀHĀ syllables as bracketing the three-syllable vidyā-mantra proper (TĀRE TUTTĀRE TURE) taught by Tārā herself: `anon-utpala:c-1-2-2-2-7`, `gendun-drub:c-2-2-0-3`, `gendun-drub:c-2-2-0-4` (Spang lo chen po's verse rendering, opening and continuation of the same quotation, split across ^0-6/^0-7), `lobsang-dawa:c-1-2-2-2-3`, `taranatha:c-20-9` (identifying "uttering TARA twice" with TĀRE-twice-and-TUTTĀRE, "what was earlier called the speech of the ten syllables"), `tsultrim-namdak:c-5-3-3` (glossing the mantra syllable by syllable: OṂ bestows siddhi and fortune, TĀRE TUTTĀRE "is the meaning of Tārā's own name," SVĀHĀ pacifies sin and increases virtue).
+Several of the same commentaries additionally frame the OṂ...SVĀHĀ syllables as bracketing the three-syllable vidyā-mantra proper (TĀRE TUTTĀRE TURE) taught by Tārā herself: `dharmabhadra:c-1-2-2-2-7`, `gendun-drub:c-2-2-0-3`, `gendun-drub:c-2-2-0-4` (Spang lo chen po's verse rendering, opening and continuation of the same quotation, split across ^0-6/^0-7), `lobsang-dawa:c-1-2-2-2-3`, `taranatha:c-20-9` (identifying "uttering TARA twice" with TĀRE-twice-and-TUTTĀRE, "what was earlier called the speech of the ten syllables"), `tsultrim-namdak:c-5-3-3` (glossing the mantra syllable by syllable: OṂ bestows siddhi and fortune, TĀRE TUTTĀRE "is the meaning of Tārā's own name," SVĀHĀ pacifies sin and increases virtue).
 
 ### ⚑ Divergences
 None observed — no commentary in this packet disputes the ten-syllable core formula itself (divergence over an adjacent syllable, "TĀRA" vs. "HĀRA," belongs to the epidemic-verse mantra below, not to this core formula).
@@ -157,7 +157,7 @@ TURE is glossed as "the Swift One" (མྱུར་མ).
 **བོད་ཡིག:** ཏུ་རེ་ནི་མྱུར་མ་སྟེ།
 **English:** Ture means "the swift one."
 
-— attested: `anon-utpala:c-1-2-2-1-2-1-3`, `anon-utpala:c-1-2-3-2-3`, `karma-maitri:c-1-1-17-2`, `lobsang-dawa:c-1-2-2-1-2-1-3`, `palden-sherab:c-3-1-8-1-1`, `sungrab-tulku:c-11-3`, `taranatha:c-17-3`, `taranatha:c-21-1-8`, `tenzin-dhonzang:c-4-17-3`, `sangye-nyentrul:c-22-0-3`, `sangye-nyentrul:c-9-0-1` (10 commentaries: anon-utpala, karma-maitri, lobsang-dawa, palden-sherab, sungrab-tulku, taranatha, tenzin-dhonzang, sangye-nyentrul; partially corroborated by `tsultrim-namdak:c-2-1-2-1-74`, "her mind is extremely swift," and `gendun-drub:c-2-2-0-4`, whose verse-quotation on the same phrase reads "by ture she grants every benefit" rather than glossing "swift" directly)
+— attested: `dharmabhadra:c-1-2-2-1-2-1-3`, `dharmabhadra:c-1-2-3-2-3`, `karma-maitri:c-1-1-17-2`, `lobsang-dawa:c-1-2-2-1-2-1-3`, `palden-sherab:c-3-1-8-1-1`, `sungrab-tulku:c-11-3`, `taranatha:c-17-3`, `taranatha:c-21-1-8`, `tenzin-dhonzang:c-4-17-3`, `sangye-nyentrul:c-22-0-3`, `sangye-nyentrul:c-9-0-1` (10 commentaries: dharmabhadra, karma-maitri, lobsang-dawa, palden-sherab, sungrab-tulku, taranatha, tenzin-dhonzang, sangye-nyentrul; partially corroborated by `tsultrim-namdak:c-2-1-2-1-74`, "her mind is extremely swift," and `gendun-drub:c-2-2-0-4`, whose verse-quotation on the same phrase reads "by ture she grants every benefit" rather than glossing "swift" directly)
 
 Several of the "swift" attestations elaborate the same point with a simile: `sungrab-tulku:c-11-3` and `sangye-nyentrul:c-9-0-1` both say she is "swift like lightning" (གློག་ལྟར་མྱུར་བ), assuming a terrifying form to protect beings from frightening deluded appearance — a shared elaboration, not a divergence, since both commentaries agree.
 
@@ -183,15 +183,15 @@ The root verse describing TUTTĀRA/TUTTĀRE HŪṂ filling the desire, form, and
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས།། འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།། འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ།། ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ།།
 **English:** Homage to her who, with the letters TUTTĀRA HŪṂ, fills the desire, form, and formless [realms]; who treads the seven worlds underfoot; who is able to summon [all beings] without exception.
 
-— attested: `anon-trinle-char:c-3-5-4`, `anon-utpala:c-1-2-2-1-1-4-2`, `anon-utpala:c-1-2-2-1-1-4-3`, `gendun-drub:c-2-2-2-2-1-1-4-2`, `lobsang-dawa:c-1-2-2-1-1-4-2`, `palden-sherab:c-3-1-5-0-2`, `palden-sherab:c-3-1-5-1-1`, `sangye-nyentrul:c-6-0-1`, `sungrab-tulku:c-8-2`, `sungrab-tulku:c-8-4`, `taranatha:c-5-2`, `tenga-tulku:c-1-2-2-1-1-4-3`, `tenzin-dhonzang:c-4-5-2`, `tenzin-dhonzang:c-4-5-3` (10 commentaries: anon-trinle-char, anon-utpala, gendun-drub, lobsang-dawa, palden-sherab, sangye-nyentrul, sungrab-tulku, taranatha, tenga-tulku, tenzin-dhonzang)
+— attested: `yama-sonam:c-3-5-4`, `dharmabhadra:c-1-2-2-1-1-4-2`, `dharmabhadra:c-1-2-2-1-1-4-3`, `gendun-drub:c-2-2-2-2-1-1-4-2`, `lobsang-dawa:c-1-2-2-1-1-4-2`, `palden-sherab:c-3-1-5-0-2`, `palden-sherab:c-3-1-5-1-1`, `sangye-nyentrul:c-6-0-1`, `sungrab-tulku:c-8-2`, `sungrab-tulku:c-8-4`, `taranatha:c-5-2`, `tenga-tulku:c-1-2-2-1-1-4-3`, `tenzin-dhonzang:c-4-5-2`, `tenzin-dhonzang:c-4-5-3` (10 commentaries: yama-sonam, dharmabhadra, gendun-drub, lobsang-dawa, palden-sherab, sangye-nyentrul, sungrab-tulku, taranatha, tenga-tulku, tenzin-dhonzang)
 
-The commentaries converge on reading this verse as identifying the mantra-sound (TUTTĀRA) with light-rays radiating from a mantra-garland, and the syllable HŪṂ with compassion inseparable from emptiness, together pervading the three realms: `anon-utpala:c-1-2-2-1-1-4-3`, `sangye-nyentrul:c-6-0-1`, `palden-sherab:c-3-1-5-1-1`, `tenzin-dhonzang:c-4-5-3`.
+The commentaries converge on reading this verse as identifying the mantra-sound (TUTTĀRA) with light-rays radiating from a mantra-garland, and the syllable HŪṂ with compassion inseparable from emptiness, together pervading the three realms: `dharmabhadra:c-1-2-2-1-1-4-3`, `sangye-nyentrul:c-6-0-1`, `palden-sherab:c-3-1-5-1-1`, `tenzin-dhonzang:c-4-5-3`.
 
 ### ⚑ Divergences
 None observed on the plain sense of the verse (a separate, explicitly tantric "hidden meaning" reading of the same verse by palden-sherab is recorded under "Completion-stage" below, not here, per that commentary's own two-layer presentation).
 
 ### Unique
-- `anon-trinle-char:c-3-5-4` — reads the verse as identifying Tārā's mind (non-referential compassion, slightly wrathful) together with her speech (the mantra sound), rather than glossing the mantra syllables alone.
+- `yama-sonam:c-3-5-4` — reads the verse as identifying Tārā's mind (non-referential compassion, slightly wrathful) together with her speech (the mantra sound), rather than glossing the mantra syllables alone.
 - `sungrab-tulku:c-8-4` — glosses the "three realms" terms individually: desire realm as the five classes of hell-beings through desire-gods, "directions" as the form realm, "space" as the formless realm.
 
 ---
@@ -204,7 +204,7 @@ A separate root verse names her TURE, "Great Terror" (འཇིགས་པ་�
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ།།
 **English:** Homage to Ture, the greatly fearsome one, who utterly destroys the māra-heroes.
 
-— attested: `anon-utpala:c-1-2-2-1-2-1-2`, `drakpa-gyaltsen:c-1-49`, `gendun-drub:c-2-2-2-2-1-2-1-2`, `gendun-drub:c-2-2-2-2-1-2-1-3`, `konchok-thabkhe:c-2-8-2`, `palden-sherab:c-3-1-8-0-2`, `palden-sherab:c-3-1-8-2-1`, `pema-namgyal:c-2-4-28`, `sungrab-tulku:c-11-2`, `taranatha:c-8-3`, `tenga-tulku:c-1-2-2-1-2-1-2`, `tenzin-dhonzang:c-4-8-2`, `tsultrim-namdak:c-3-11` (12 commentaries: anon-utpala, drakpa-gyaltsen, gendun-drub, konchok-thabkhe, palden-sherab, pema-namgyal, sungrab-tulku, taranatha, tenga-tulku, tenzin-dhonzang, tsultrim-namdak)
+— attested: `dharmabhadra:c-1-2-2-1-2-1-2`, `drakpa-gyaltsen:c-1-49`, `gendun-drub:c-2-2-2-2-1-2-1-2`, `gendun-drub:c-2-2-2-2-1-2-1-3`, `konchok-thabkhe:c-2-8-2`, `palden-sherab:c-3-1-8-0-2`, `palden-sherab:c-3-1-8-2-1`, `pema-namgyal:c-2-4-28`, `sungrab-tulku:c-11-2`, `taranatha:c-8-3`, `tenga-tulku:c-1-2-2-1-2-1-2`, `tenzin-dhonzang:c-4-8-2`, `tsultrim-namdak:c-3-11` (12 commentaries: dharmabhadra, drakpa-gyaltsen, gendun-drub, konchok-thabkhe, palden-sherab, pema-namgyal, sungrab-tulku, taranatha, tenga-tulku, tenzin-dhonzang, tsultrim-namdak)
 
 Several commentaries add that the terrifying form is adopted deliberately, without her mind ever leaving peaceful dharmadhātu, in order to protect beings: `palden-sherab:c-3-1-8-1-1`, `taranatha:c-8-3`, `tsultrim-namdak:c-3-11`.
 
@@ -216,7 +216,7 @@ None observed.
 - `konchok-thabkhe:c-2-8-2` — glosses "great terror" as her protecting beings from "the eight great terrors" through the vidyā-mantra "ture."
 - `pema-namgyal:c-2-4-28` — attaches a distinct mantra form, OṂ TURE SVĀHĀ, whose "great, fearsome might" instantly destroys the four māras' warriors and retinues.
 - `taranatha:c-8-3` — the mantra recited is OṂ TURE, by whose power Tārā manifests in the terrifying form from the "naturally peaceful expanse."
-- `tenzin-dhonzang:c-4-8-4` — merely the Venerable Mother's mouth proclaiming the utterance OṂ TĀRE TUTTĀRE TURE SVĀHĀ dispels great terror (འཇིགས་པ་ཆེན་མོ), on the same node as `tenzin-dhonzang:c-4-8-2` above. (Not a claim about destroying obscurations — that content belongs to `anon-trinle-char:c-3-8-4` alone, per the "Other benefits" facet above.)
+- `tenzin-dhonzang:c-4-8-4` — merely the Venerable Mother's mouth proclaiming the utterance OṂ TĀRE TUTTĀRE TURE SVĀHĀ dispels great terror (འཇིགས་པ་ཆེན་མོ), on the same node as `tenzin-dhonzang:c-4-8-2` above. (Not a claim about destroying obscurations — that content belongs to `yama-sonam:c-3-8-4` alone, per the "Other benefits" facet above.)
 
 ---
 
@@ -228,7 +228,7 @@ A further root verse describes Ture's feet stamping the ground — the seed-syll
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། ། ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། ། རི་རབ་མནྡྷར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།
 **English:** Homage to her who, by the stamping of Ture's feet, is herself the seed of the form of HŪṂ; who herself shakes Meru, Mandara, and Vindhya, the three worlds.
 
-— attested: `anon-trinle-char:c-3-17-3`, `anon-trinle-char:c-3-17-4`, `anon-utpala:c-1-2-3-2-2`, `drakpa-gyaltsen:c-1-85`, `gendun-drub:c-2-2-2-3-2-2`, `gendun-gyatso:c-1-17-1`, `konchok-thabkhe:c-2-17-2`, `lobsang-dawa:c-1-2-3-2-2`, `palden-sherab:c-3-1-17-1-1`, `pema-namgyal:c-2-4-46`, `sungrab-tulku:c-20-3`, `tenga-tulku:c-1-2-3-2-2`, `tenzin-dhonzang:c-4-17-2` (12 commentaries: anon-trinle-char, anon-utpala, drakpa-gyaltsen, gendun-drub, gendun-gyatso, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sungrab-tulku, tenga-tulku, tenzin-dhonzang)
+— attested: `yama-sonam:c-3-17-3`, `yama-sonam:c-3-17-4`, `dharmabhadra:c-1-2-3-2-2`, `drakpa-gyaltsen:c-1-85`, `gendun-drub:c-2-2-2-3-2-2`, `gendun-gyatso:c-1-17-1`, `konchok-thabkhe:c-2-17-2`, `lobsang-dawa:c-1-2-3-2-2`, `palden-sherab:c-3-1-17-1-1`, `pema-namgyal:c-2-4-46`, `sungrab-tulku:c-20-3`, `tenga-tulku:c-1-2-3-2-2`, `tenzin-dhonzang:c-4-17-2` (12 commentaries: yama-sonam, dharmabhadra, drakpa-gyaltsen, gendun-drub, gendun-gyatso, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sungrab-tulku, tenga-tulku, tenzin-dhonzang)
 
 `drakpa-gyaltsen:c-1-85` reads this verse as the point at which she is generated in her wrathful-body form; `palden-sherab:c-3-1-17-1-1` and `pema-namgyal:c-2-4-46` similarly read it as her wrathful iconographic generation, with the HŪṂ-seed as her heart-life-force syllable.
 
@@ -237,7 +237,7 @@ None observed.
 
 ### Unique
 - `konchok-thabkhe:c-2-17-2` — reads the mountain-shaking specifically as subduing bands of thieves, noting "both the paṇḍita and the siddha find this section readily applicable to protection from thieves on the road."
-- `anon-trinle-char:c-3-17-4` — the shaking specifically "terrifies" the worlds resting on the three mountains' slopes, as a further elaboration of the effect.
+- `yama-sonam:c-3-17-4` — the shaking specifically "terrifies" the worlds resting on the three mountains' slopes, as a further elaboration of the effect.
 
 ---
 
@@ -249,9 +249,9 @@ A third root-verse group describes her joyous, crown-adorned laughter — the sy
 **བོད་ཡིག:** བཞད་པ་རབ་བཞད་ཏུ་ཏྟཱ་ར་ཡིས།། བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ།།
 **English:** ...who, greatly laughing "tuttāra," brings the māras and the world under power.
 
-— attested: `anon-trinle-char:c-3-10-3`, `anon-trinle-char:c-3-10-5`, `anon-utpala:c-1-2-2-1-2-3-2`, `anon-utpala:c-1-2-2-1-2-3-4`, `drakpa-gyaltsen:c-1-62`, `gendun-drub:c-2-2-2-2-1-2-3-4`, `karma-maitri:c-1-1-10-4`, `konchok-thabkhe:c-2-10-3`, `lobsang-dawa:c-1-2-2-1-2-3-3`, `palden-sherab:c-3-1-10-0-2`, `palden-sherab:c-3-1-10-1-2`, `pema-namgyal:c-2-4-33`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `taranatha:c-10-6`, `tenzin-dhonzang:c-4-10-2`, `tsultrim-namdak:c-2-1-2-1-36`, `tsultrim-namdak:c-3-13` (15 commentaries: anon-trinle-char, anon-utpala, drakpa-gyaltsen, gendun-drub, karma-maitri, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sangye-nyentrul, sungrab-tulku, taranatha, tenzin-dhonzang, tsultrim-namdak)
+— attested: `yama-sonam:c-3-10-3`, `yama-sonam:c-3-10-5`, `dharmabhadra:c-1-2-2-1-2-3-2`, `dharmabhadra:c-1-2-2-1-2-3-4`, `drakpa-gyaltsen:c-1-62`, `gendun-drub:c-2-2-2-2-1-2-3-4`, `karma-maitri:c-1-1-10-4`, `konchok-thabkhe:c-2-10-3`, `lobsang-dawa:c-1-2-2-1-2-3-3`, `palden-sherab:c-3-1-10-0-2`, `palden-sherab:c-3-1-10-1-2`, `pema-namgyal:c-2-4-33`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `taranatha:c-10-6`, `tenzin-dhonzang:c-4-10-2`, `tsultrim-namdak:c-2-1-2-1-36`, `tsultrim-namdak:c-3-13` (15 commentaries: yama-sonam, dharmabhadra, drakpa-gyaltsen, gendun-drub, karma-maitri, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sangye-nyentrul, sungrab-tulku, taranatha, tenzin-dhonzang, tsultrim-namdak)
 
-The commentaries specifically naming the māra subjugated concur it is the desire-realm lord Māra Paranirmitavaśavartin (variously "Dgaʼ-rab-dbang-phyug"): `anon-utpala:c-1-2-2-1-2-3-4`, `anon-trinle-char:c-3-10-5`, `palden-sherab:c-3-1-10-1-2`, `lobsang-dawa:c-1-2-2-1-2-3-3`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `tsultrim-namdak:c-2-1-2-1-36`.
+The commentaries specifically naming the māra subjugated concur it is the desire-realm lord Māra Paranirmitavaśavartin (variously "Dgaʼ-rab-dbang-phyug"): `dharmabhadra:c-1-2-2-1-2-3-4`, `yama-sonam:c-3-10-5`, `palden-sherab:c-3-1-10-1-2`, `lobsang-dawa:c-1-2-2-1-2-3-3`, `sangye-nyentrul:c-11-0-2`, `sungrab-tulku:c-13-4`, `tsultrim-namdak:c-2-1-2-1-36`.
 
 ### ⚑ Divergences
 None observed.
@@ -260,7 +260,7 @@ None observed.
 - `gendun-drub:c-2-2-2-2-1-2-3-4` — names the laughing syllable as "TĀRA" rather than "TUTTĀRA," glossing "the laughing 'TĀRA' sound subdues the māras and the eight great worldly gods." This is a difference in which specific syllable the commentary quotes from the root verse's laughter-line, not a disagreement about the effect described — the claim is retained under Consensus above for the shared effect, and noted here only for this wording detail; it names "the eight great worldly gods" as the subjugated party where most other commentaries name Māra Paranirmitavaśavartin (see the Consensus paragraph above).
 - `konchok-thabkhe:c-2-10-3` — extends the subjugated party to include "the tīrthika world that have become dark forces," alongside Māra.
 - `tsultrim-namdak:c-3-13` — the same laughter subjugates a longer list: Brahmā, Indra, gods, nāgas, human kings, queens, ministers, and householders, "granting the siddhis that subjugate all to the faithful."
-- `anon-trinle-char:c-3-10-5` — explicitly derives her epithet "She Who Draws the Māras and the World under Power" (བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ) from this two-fold action (laughter and the earlier feet-stamping).
+- `yama-sonam:c-3-10-5` — explicitly derives her epithet "She Who Draws the Māras and the World under Power" (བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ) from this two-fold action (laughter and the earlier feet-stamping).
 
 ---
 
@@ -272,7 +272,7 @@ A root verse pairs the doubled syllable HARA/HĀRA with TUTTĀRA/TUTTĀRE to dis
 **བོད་ཡིག:** ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས། ། ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ།
 **English:** ...who, by uttering "hāra" twice and by TUTTĀRE, dispels the most virulent epidemic.
 
-— attested: `anon-trinle-char:c-3-20-3`, `anon-trinle-char:c-3-20-5`, `anon-utpala:c-1-2-3-5-2`, `gendun-gyatso:c-1-19-4`, `konchok-thabkhe:c-2-20-4`, `lobsang-dawa:c-1-2-3-5-3`, `palden-sherab:c-3-1-20-0-2`, `palden-sherab:c-3-1-20-1-2`, `palden-sherab:c-3-1-20-2-2`, `pema-namgyal:c-2-4-53`, `sangye-nyentrul:c-21-0-2`, `sungrab-tulku:c-23-4`, `taranatha:c-20-4`, `tenzin-dhonzang:c-4-20-2`, `tenzin-dhonzang:c-4-20-7` (12 commentaries: anon-trinle-char, anon-utpala, gendun-gyatso, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sangye-nyentrul, sungrab-tulku, taranatha, tenzin-dhonzang)
+— attested: `yama-sonam:c-3-20-3`, `yama-sonam:c-3-20-5`, `dharmabhadra:c-1-2-3-5-2`, `gendun-gyatso:c-1-19-4`, `konchok-thabkhe:c-2-20-4`, `lobsang-dawa:c-1-2-3-5-3`, `palden-sherab:c-3-1-20-0-2`, `palden-sherab:c-3-1-20-1-2`, `palden-sherab:c-3-1-20-2-2`, `pema-namgyal:c-2-4-53`, `sangye-nyentrul:c-21-0-2`, `sungrab-tulku:c-23-4`, `taranatha:c-20-4`, `tenzin-dhonzang:c-4-20-2`, `tenzin-dhonzang:c-4-20-7` (12 commentaries: yama-sonam, dharmabhadra, gendun-gyatso, konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sangye-nyentrul, sungrab-tulku, taranatha, tenzin-dhonzang)
 
 Several commentaries give the extended fifteen-syllable form of this mantra, adding HARA HARA (or HA RA twice) and PHAṬ to the ten-syllable root: `palden-sherab:c-3-1-20-2-2`, `pema-namgyal:c-2-4-53`, `tenzin-dhonzang:c-4-18-4` (cited primarily under "Dispelling poison" below, since its own gloss frames the same fifteen-syllable count around outer/inner poison rather than epidemic), `tenzin-dhonzang:c-4-20-7`.
 
@@ -280,7 +280,7 @@ Several commentaries give the extended fifteen-syllable form of this mantra, add
 None observed as a doctrinal disagreement.
 
 ### Unique
-- `anon-trinle-char:c-3-20-7` — a textual-critical note (see Q17): the Kangyur's own tantra exemplar reads "TĀRA twice" (ཏཱ་ར་གཉིས་བརྗོད), which "many commentaries have retained...owing to a widespread scribal error," but the commentary argues, citing Nyima Sbaspa's earlier sādhana and "Rje Dge 'dun grub and others," that "HĀRA twice" is the correct reading — with the "HĀRA-twice" mantra given as OṂ NAMAḤ HARE NAMO HARE SVĀHĀ, distinct from the ten-syllable TUTTĀRE mantra. No other commentary in this packet discusses this textual question directly; each simply proceeds with one reading (most, including `anon-utpala:c-1-2-3-5-2`, `konchok-thabkhe:c-2-20-4`, `taranatha:c-20-4`, read "HARA" without comment).
+- `yama-sonam:c-3-20-7` — a textual-critical note (see Q17): the Kangyur's own tantra exemplar reads "TĀRA twice" (ཏཱ་ར་གཉིས་བརྗོད), which "many commentaries have retained...owing to a widespread scribal error," but the commentary argues, citing Nyima Sbaspa's earlier sādhana and "Rje Dge 'dun grub and others," that "HĀRA twice" is the correct reading — with the "HĀRA-twice" mantra given as OṂ NAMAḤ HARE NAMO HARE SVĀHĀ, distinct from the ten-syllable TUTTĀRE mantra. No other commentary in this packet discusses this textual question directly; each simply proceeds with one reading (most, including `dharmabhadra:c-1-2-3-5-2`, `konchok-thabkhe:c-2-20-4`, `taranatha:c-20-4`, read "HARA" without comment).
 - `sungrab-tulku:c-23-4` — attributes the epidemic-dispelling power jointly to two full name-mantras, one "wrathful" (OṂ NAMAḤ TARE NAMO HARE HŪṂ HARA SVĀHĀ) and one "peaceful" (the ten-syllable OṂ TĀRE TUTTĀRE TURE SVĀHĀ), rather than to a single doubled syllable.
 - `konchok-thabkhe:c-2-20-4` — frames the illness dispelled specifically as "the epidemic disease of the karma of lower rebirths and of the afflictions," an explanation it calls "applied to the definitive meaning."
 
@@ -337,7 +337,7 @@ A narrow point of agreement: reciting or merely proclaiming the mantra destroys 
 **བོད་ཡིག:** ཉོན་མོངས་པ་དང་ཤེས་བྱའི་སྒྲིབ་པ་
 **English:** the afflictive and cognitive obscurations.
 
-— attested: `anon-trinle-char:c-3-8-4`, `tenzin-dhonzang:c-4-15-6`, `tenzin-dhonzang:c-4-15-8` (2 commentaries: anon-trinle-char, tenzin-dhonzang)
+— attested: `yama-sonam:c-3-8-4`, `tenzin-dhonzang:c-4-15-6`, `tenzin-dhonzang:c-4-15-8` (2 commentaries: yama-sonam, tenzin-dhonzang)
 
 ### ⚑ Divergences
 None observed.
@@ -403,8 +403,8 @@ None observed.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-10-3, c-3-10-5, c-3-17-3, c-3-17-4, c-3-20-3, c-3-20-5, c-3-20-7, c-3-5-4, c-3-8-4 | Subjugating Māra and worldly gods (H), Ture's feet-stamping (G), Dispelling epidemic disease (I, incl. unique textual note), Three realms/seven worlds (E), Other benefits (L) |
-| anon-utpala | c-1-2-2-1-1-4-2, c-1-2-2-1-1-4-3, c-1-2-2-1-2-1-2, c-1-2-2-1-2-1-3, c-1-2-2-1-2-3-2, c-1-2-2-1-2-3-4, c-1-2-2-2-7, c-1-2-3-1-4, c-1-2-3-2-2, c-1-2-3-2-3, c-1-2-3-5-2, c-1-2-3-5-6 | Three realms/seven worlds (E), TURE as Great Terror (F), TURE etymology (D), Subjugating Māra (H), Mantra formula (A), Ture's feet-stamping (G), Dispelling epidemic disease (I) |
+| yama-sonam | c-3-10-3, c-3-10-5, c-3-17-3, c-3-17-4, c-3-20-3, c-3-20-5, c-3-20-7, c-3-5-4, c-3-8-4 | Subjugating Māra and worldly gods (H), Ture's feet-stamping (G), Dispelling epidemic disease (I, incl. unique textual note), Three realms/seven worlds (E), Other benefits (L) |
+| dharmabhadra | c-1-2-2-1-1-4-2, c-1-2-2-1-1-4-3, c-1-2-2-1-2-1-2, c-1-2-2-1-2-1-3, c-1-2-2-1-2-3-2, c-1-2-2-1-2-3-4, c-1-2-2-2-7, c-1-2-3-1-4, c-1-2-3-2-2, c-1-2-3-2-3, c-1-2-3-5-2, c-1-2-3-5-6 | Three realms/seven worlds (E), TURE as Great Terror (F), TURE etymology (D), Subjugating Māra (H), Mantra formula (A), Ture's feet-stamping (G), Dispelling epidemic disease (I) |
 | drakpa-gyaltsen | c-1-49, c-1-62, c-1-85 | TURE as Great Terror (F), Subjugating Māra (H), Ture's feet-stamping (G) |
 | gendun-drub | c-2-2-0-3, c-2-2-0-4, c-2-2-2-2-1-1-4-2, c-2-2-2-2-1-2-1-2, c-2-2-2-2-1-2-1-3, c-2-2-2-2-1-2-3-4, c-2-2-2-3-1-3, c-2-2-2-3-2-2 | Mantra formula (A, partial TĀRE/TUTTĀRE/TURE corroboration), Three realms/seven worlds (E), TURE as Great Terror (F), Subjugating Māra (H), Ture's feet-stamping (G) |
 | gendun-gyatso | c-1-17-1, c-1-19-4, c-1-8-1 | Ture's feet-stamping (G), Dispelling epidemic disease (I), TURE etymology (D) |

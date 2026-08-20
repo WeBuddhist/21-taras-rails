@@ -12,23 +12,23 @@
 > The coverage check (claims-consolidation step 5) diffs this list against the claim IDs the finished topic page cites. Every ID in the gap must be either folded into a facet or logged in “Claims reviewed, not separately cited.”
 
 ```
-anon-trinle-char:c-3-8-1
-anon-trinle-char:c-3-8-2
-anon-trinle-char:c-3-8-3
-anon-trinle-char:c-3-8-4
-anon-trinle-char:c-3-8-5
-anon-trinle-char:c-3-8-6
-anon-trinle-char:c-3-8-7
-anon-trinle-char:c-3-8-8
-anon-trinle-char:c-3-8-9
-anon-trinle-char:c-3-8-10
-anon-utpala:c-1-2-2-1-2-1-2
-anon-utpala:c-1-2-2-1-2-1-3
-anon-utpala:c-1-2-2-1-2-1-4
-anon-utpala:c-1-2-2-1-2-1-5
-anon-utpala:c-1-2-2-1-2-1-6
-anon-utpala:c-1-2-2-1-2-1-7
-anon-utpala:c-1-2-2-1-2-1-8
+yama-sonam:c-3-8-1
+yama-sonam:c-3-8-2
+yama-sonam:c-3-8-3
+yama-sonam:c-3-8-4
+yama-sonam:c-3-8-5
+yama-sonam:c-3-8-6
+yama-sonam:c-3-8-7
+yama-sonam:c-3-8-8
+yama-sonam:c-3-8-9
+yama-sonam:c-3-8-10
+dharmabhadra:c-1-2-2-1-2-1-2
+dharmabhadra:c-1-2-2-1-2-1-3
+dharmabhadra:c-1-2-2-1-2-1-4
+dharmabhadra:c-1-2-2-1-2-1-5
+dharmabhadra:c-1-2-2-1-2-1-6
+dharmabhadra:c-1-2-2-1-2-1-7
+dharmabhadra:c-1-2-2-1-2-1-8
 drakpa-gyaltsen:c-1-49
 drakpa-gyaltsen:c-1-50
 drakpa-gyaltsen:c-1-51
@@ -117,7 +117,7 @@ tsultrim-namdak:c-3-11
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 **Node(s):** 3.8 — ཕྱག་འཚལ་བརྒྱད་པ་རྗེ་བཙུན་མ་བདུད་འཇོམས་དབང་སྟེར་མ་
 **Claims in this packet:** 10 mapped
 
@@ -195,7 +195,7 @@ tsultrim-namdak:c-3-11
 
 ---
 
-## anon-utpala
+## dharmabhadra
 **Claims in this packet:** 0 mapped, 7 extra
 
 > ⓘ **Routed by claim, not by node.** Node 1.2.2.1.2.1's own leaf content: the root-verse quotation and doctrinal/iconography glosses on homage 8.

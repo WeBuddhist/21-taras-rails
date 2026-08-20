@@ -15,6 +15,19 @@
 > sequence — **the canonical plan wins.** These notes remain the source for verified facts,
 > policy detail, and demo logistics.
 
+> [!tip] Update 2026-08-19 — the paper now reports the corpus-wide batch and the style loop
+> `paper/draft/paper-src.md` (source of the 15-page .docx, rebuilt same day) was brought up to
+> the post-batch state: §5 restructured so **every step documents input → output → core logic
+> in plain language**; new §5.4 covers the subject-selection keyword chain; §5.9 adds the
+> Route B batch (43 term + 23 slot articles, 1 subject refused), the deterministic import
+> bridge, and the native-reviewer style-revision loop (2 linguist rounds → the v2 drafting
+> skill; 3 Mode B pilots awaiting approval); §5.10 and §8 carry the batch gate distribution
+> (861/882 quotations = 97.6% character-exact; 269 of 293 validator findings one mechanical
+> ref-format mismatch). `paper/11 - Pipeline Steps in Detail.md` is the full step reference
+> behind it (updated same day with step D1b). Still **[TO FILL]**: revival-campaign records,
+> reviewer-minutes, rater results, batch audit pass rates. Next: the presentation
+> (`build_deck.js` not yet regenerated to the batch numbers).
+
 > [!tip] Update 2026-08-02 (later) — a full draft now exists, built on a reviewed pipeline run
 > **`paper/draft/paper.md`** is the complete first draft to the canonical structure, and
 > **`paper/draft/IATS-2026-slides.pptx`** the 16-slide deck. Every pipeline number in both comes

@@ -3,8 +3,8 @@ topic: suffering
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -49,7 +49,7 @@ status: draft
 > ⚑ internal-tension claim) surrounding every hit — 138 candidate claim blocks
 > across all sixteen commentaries. Every quotation on this page is copied
 > character-for-character from that mechanical extraction, never retyped from
-> memory. Three extracted "hits" (`anon-trinle-char:c-3-18-8`,
+> memory. Three extracted "hits" (`yama-sonam:c-3-18-8`,
 > `tenzin-dhonzang:c-4-18-8`, `tsultrim-namdak:c-5-2-7-4-2-1`) turned out, on
 > inspection, to contain no actual occurrence of སྡུག་བསྔལ in their own claim
 > text — the extraction script's block boundary is the next `#### c-` or `⚑`
@@ -91,9 +91,9 @@ status: draft
 
 Ten of the sixteen commentaries, glossing the root verse's four epithets བདེ་མ (blissful), དགེ་མ (virtuous), ཞི་མ (peaceful), and "her domain is [the peace of] nirvāṇa," explain each term via the presence or absence of suffering and its causes — a structure that recurs closely enough across independent commentaries to read as a shared exegetical template keyed to result (suffering absent = blissful), cause (non-virtue/affliction abandoned = virtuous), path (affliction pacified by wisdom = peaceful), and cessation (nirvāṇa attained):
 
-— attested: `anon-trinle-char:c-3-15-4`, `anon-utpala:c-1-2-2-2-3`, `drakpa-gyaltsen:c-1-80`, `drakpa-gyaltsen:c-1-81`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-1-1`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-4`, `tenga-tulku:c-1-2-2-2-3`, `tenzin-dhonzang:c-4-15-3`, `tsultrim-namdak:c-2-1-2-1-50`, `tsultrim-namdak:c-2-1-2-1-51` (10 commentaries)
+— attested: `yama-sonam:c-3-15-4`, `dharmabhadra:c-1-2-2-2-3`, `drakpa-gyaltsen:c-1-80`, `drakpa-gyaltsen:c-1-81`, `lobsang-dawa:c-1-2-2-2-2`, `palden-sherab:c-3-1-15-1-1`, `sangye-nyentrul:c-16-0-1`, `sungrab-tulku:c-18-4`, `tenga-tulku:c-1-2-2-2-3`, `tenzin-dhonzang:c-4-15-3`, `tsultrim-namdak:c-2-1-2-1-50`, `tsultrim-namdak:c-2-1-2-1-51` (10 commentaries)
 
-`anon-utpala:c-1-2-2-2-3` gives the minimal form: "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ།" ("because her effect/result is free of suffering, she is 'blissful'"). `sungrab-tulku:c-18-4` gives the fullest four-part chain: "འབྲས་བུ་སྡུག་བསྔལ་ཟད་པས་བདེ་མ། དེའི་རྒྱུ་ལས་ཉོན་གཉིས་སྤངས་པས་དགེ་མ། དེ་ཡང་ལམ་བདེན་སྟོང་ཉིད་རྟོགས་པའི་ཤེས་རབ་ཀྱི་བཅོམ་པས་ཞི་མ། ཉོན་སྒྲིབ་དང་ཤེས་སྒྲིབ་གཉིས་ཀྱི་བག་ཆགས་དང་བཅས་པ་མ་ལུས་པ་ཡོངས་སུ་སྤངས་པས་འགོག་པ་མྱ་ངན་ལས་འདས་ཤིང་ཞི་བ་ཆོས་སྐུ་མངོན་སུམ་དུ་སྤྱོད་ཡུལ་དང་ལྡན་པ་ནི་རྗེ་བཙུན་སྒྲོལ་མ་ཉིད་ལའོ།" — "because the resultant suffering is exhausted, she is 'blissful'; because its cause, the two afflictions, is abandoned, she is 'virtuous'; because this is accomplished by the wisdom realizing the truth of the path, she is 'peaceful'; because the propensities of both obscurations are thoroughly abandoned, she has passed beyond suffering, possessing the dharmakāya as her domain."
+`dharmabhadra:c-1-2-2-2-3` gives the minimal form: "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ།" ("because her effect/result is free of suffering, she is 'blissful'"). `sungrab-tulku:c-18-4` gives the fullest four-part chain: "འབྲས་བུ་སྡུག་བསྔལ་ཟད་པས་བདེ་མ། དེའི་རྒྱུ་ལས་ཉོན་གཉིས་སྤངས་པས་དགེ་མ། དེ་ཡང་ལམ་བདེན་སྟོང་ཉིད་རྟོགས་པའི་ཤེས་རབ་ཀྱི་བཅོམ་པས་ཞི་མ། ཉོན་སྒྲིབ་དང་ཤེས་སྒྲིབ་གཉིས་ཀྱི་བག་ཆགས་དང་བཅས་པ་མ་ལུས་པ་ཡོངས་སུ་སྤངས་པས་འགོག་པ་མྱ་ངན་ལས་འདས་ཤིང་ཞི་བ་ཆོས་སྐུ་མངོན་སུམ་དུ་སྤྱོད་ཡུལ་དང་ལྡན་པ་ནི་རྗེ་བཙུན་སྒྲོལ་མ་ཉིད་ལའོ།" — "because the resultant suffering is exhausted, she is 'blissful'; because its cause, the two afflictions, is abandoned, she is 'virtuous'; because this is accomplished by the wisdom realizing the truth of the path, she is 'peaceful'; because the propensities of both obscurations are thoroughly abandoned, she has passed beyond suffering, possessing the dharmakāya as her domain."
 
 Two commentaries name the four-truths structure explicitly rather than leaving it implicit. `palden-sherab:c-3-1-15-1-1` states the correspondence directly: "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ། རྒྱུ་ཀུན་འབྱུང་མི་དགེ་བ་སྤངས་པས་དགེ་མ། སྤང་བྱ་ལས་དང་ཉོན་མོངས་པ་དག ལམ་བདེན་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་ཀྱིས་ཟད་པས་ཞི་མ། སྒྲིབ་གཉིས་ས་བོན་བག་ཆགས་དང་བཅས་པ་སྤངས་པས་འགོག་པ་མྱ་ངན་ལས་འདས་ཤིང་ཞི་བ་ཆོས་སྐུ་ཐོབ་པའོ།" — "'happy,' because the result, suffering, is absent; 'virtuous,' because the cause, non-virtue, is abandoned; 'peaceful,' because the objects to be abandoned — karma and afflictions — are exhausted by the wisdom realizing the truth of the path; 'nirvāṇa's peace,' because through abandoning the two obscurations the truth of cessation is attained." Independently, `tsultrim-namdak:c-9-2` — in an unrelated passage praising the Buddha's teaching — names the same four terms as the śrāvakayāna's own core doctrine: "སྡུག་བསྔལ་ཀུན་འབྱུང་འགོག་པ་ལམ" ("suffering, origin, cessation, path"), the corpus's clearest unprompted naming of the four truths as such (cited under "Typology of suffering," below, since its content is the four truths generally rather than this specific epithet-gloss).
 
@@ -115,9 +115,9 @@ None beyond the divergence recorded above.
 
 Six commentaries explain the deity's own name, སྒྲོལ་མ (Tārā, "liberator"), by directly deriving it from her liberating beings from suffering — distinct from, and in addition to, the "blissful/virtuous/peaceful" facet above, which explains a different set of epithets:
 
-— attested: `anon-utpala:c-1-1-6`, `lobsang-dawa:c-1-1-5`, `gendun-drub:c-2-2-1-7`, `sungrab-tulku:c-3-6`, `sungrab-tulku:c-4-5`, `sungrab-tulku:c-26-3`, `palden-sherab:c-2-6`, `palden-sherab:c-3-1-1-1-1`, `tenzin-dhonzang:c-4-1-3` (6 commentaries)
+— attested: `dharmabhadra:c-1-1-6`, `lobsang-dawa:c-1-1-5`, `gendun-drub:c-2-2-1-7`, `sungrab-tulku:c-3-6`, `sungrab-tulku:c-4-5`, `sungrab-tulku:c-26-3`, `palden-sherab:c-2-6`, `palden-sherab:c-3-1-1-1-1`, `tenzin-dhonzang:c-4-1-3` (6 commentaries)
 
-The wording is close across independent commentaries. `anon-utpala:c-1-1-6`: "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ་སྟེ།" ("because she protects all sentient beings from suffering, she is 'Tārā'"). `lobsang-dawa:c-1-1-5`: "སེམས་ཅན་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ" (near-identical). `gendun-drub:c-2-2-1-7`: "སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ།" — she who liberates beings "from the ocean of suffering." `sungrab-tulku:c-3-6` gives the same core gloss ("སེམས་ཅན་འཁོར་བའི་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ནའོ།") twice more in the same file, at `sungrab-tulku:c-4-5` (karma, afflictions, and their resultant suffering) and `sungrab-tulku:c-26-3` (within a condensed etymology of OṂ Bhagavatī Ārya Tārā together). `palden-sherab:c-2-6`, citing Rongzompa, derives all three of "Jetsünma," "Phagma," and "Drolma" together, with Drolma glossed: "སེམས་ཅན་རྣམས་འཇིགས་དང་སྡུག་བསྔལ་རྒྱུ་འབྲས་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མའོ།" ("because she protects beings from fear and from the causes and effects of suffering, she is Drolma"); `palden-sherab:c-3-1-1-1-1` repeats the same etymology in the commentary's own root-verse exegesis. `tenzin-dhonzang:c-4-1-3` gives the same gloss a fourth independent time: "སྒྲོལ་མ་ཞེས་པ་སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པ་དང་། ངན་སོང་ལས་སྐྱོབ་པའམ། འཁོར་བའི་འདམ་ལས་འདོན་པའི་ཆ་ནས་དེ་ལྟར་བཤད།"
+The wording is close across independent commentaries. `dharmabhadra:c-1-1-6`: "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ་སྟེ།" ("because she protects all sentient beings from suffering, she is 'Tārā'"). `lobsang-dawa:c-1-1-5`: "སེམས་ཅན་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ" (near-identical). `gendun-drub:c-2-2-1-7`: "སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ།" — she who liberates beings "from the ocean of suffering." `sungrab-tulku:c-3-6` gives the same core gloss ("སེམས་ཅན་འཁོར་བའི་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ནའོ།") twice more in the same file, at `sungrab-tulku:c-4-5` (karma, afflictions, and their resultant suffering) and `sungrab-tulku:c-26-3` (within a condensed etymology of OṂ Bhagavatī Ārya Tārā together). `palden-sherab:c-2-6`, citing Rongzompa, derives all three of "Jetsünma," "Phagma," and "Drolma" together, with Drolma glossed: "སེམས་ཅན་རྣམས་འཇིགས་དང་སྡུག་བསྔལ་རྒྱུ་འབྲས་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མའོ།" ("because she protects beings from fear and from the causes and effects of suffering, she is Drolma"); `palden-sherab:c-3-1-1-1-1` repeats the same etymology in the commentary's own root-verse exegesis. `tenzin-dhonzang:c-4-1-3` gives the same gloss a fourth independent time: "སྒྲོལ་མ་ཞེས་པ་སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པ་དང་། ངན་སོང་ལས་སྐྱོབ་པའམ། འཁོར་བའི་འདམ་ལས་འདོན་པའི་ཆ་ནས་དེ་ལྟར་བཤད།"
 
 ### ⚑ Divergences
 
@@ -135,9 +135,9 @@ None beyond the attestations above.
 
 Four commentaries name or gloss the corpus's nineteenth homage by an epithet built directly on the word "suffering" — she who burns away, or dispels, all suffering — though the exact verb varies:
 
-— attested: `anon-trinle-char:c-3-19-1`, `gendun-drub:c-2-2-2-3-4-4`, `tenzin-dhonzang:c-4-19-1`, `tsultrim-namdak:c-0-6` (4 commentaries)
+— attested: `yama-sonam:c-3-19-1`, `gendun-drub:c-2-2-2-3-4-4`, `tenzin-dhonzang:c-4-19-1`, `tsultrim-namdak:c-0-6` (4 commentaries)
 
-`anon-trinle-char:c-3-19-1`: "ཕྱག་འཚལ་བཅུ་དགུ་པ་རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ་" — "The Nineteenth Homage: to the Venerable Lady Who Burns Away All Suffering." `gendun-drub:c-2-2-2-3-4-4` gives the same homage a parallel name: "འདི་ལ་སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།" ("She is called here 'Tārā Who Burns Away Suffering'"). `tenzin-dhonzang:c-4-19-1` uses a different verb for the same homage: "བཅུ་དགུ་པ་སྡུག་བསྔལ་སེལ་མ་ལ་བསྟོད་པ།" ("Nineteenth, homage to Dispeller of Suffering"). `tsultrim-namdak:c-0-6`, in an independent list of the deity's names, includes "སྡུག་བསྔལ་ཀུན་སེལ་མ" ("Dispeller of All Suffering") alongside other epithets. "Burns" (བསྲེག/སྲེག) and "dispels" (སེལ) name the same homage differently rather than disagreeing about its content.
+`yama-sonam:c-3-19-1`: "ཕྱག་འཚལ་བཅུ་དགུ་པ་རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ་" — "The Nineteenth Homage: to the Venerable Lady Who Burns Away All Suffering." `gendun-drub:c-2-2-2-3-4-4` gives the same homage a parallel name: "འདི་ལ་སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།" ("She is called here 'Tārā Who Burns Away Suffering'"). `tenzin-dhonzang:c-4-19-1` uses a different verb for the same homage: "བཅུ་དགུ་པ་སྡུག་བསྔལ་སེལ་མ་ལ་བསྟོད་པ།" ("Nineteenth, homage to Dispeller of Suffering"). `tsultrim-namdak:c-0-6`, in an independent list of the deity's names, includes "སྡུག་བསྔལ་ཀུན་སེལ་མ" ("Dispeller of All Suffering") alongside other epithets. "Burns" (བསྲེག/སྲེག) and "dispels" (སེལ) name the same homage differently rather than disagreeing about its content.
 
 ### ⚑ Divergences
 
@@ -225,7 +225,7 @@ Fifteen of the sixteen commentaries (all but Lobsang Dawa, whose two claims on t
 
 **Statement 1 — protection from the suffering of poverty and destitution**, glossing the verse on Tārā liberating the destitute:
 
-— attested: `anon-utpala:c-1-2-2-1-2-4-5`, `drakpa-gyaltsen:c-1-67`, `palden-sherab:c-3-1-11-1-2`, `sungrab-tulku:c-14-4`, `taranatha:c-11-6`, `tenzin-dhonzang:c-4-11-4`, `tenzin-dhonzang:c-4-11-6`, `tsultrim-namdak:c-2-1-2-1-40` (7 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-2-4-5`, `drakpa-gyaltsen:c-1-67`, `palden-sherab:c-3-1-11-1-2`, `sungrab-tulku:c-14-4`, `taranatha:c-11-6`, `tenzin-dhonzang:c-4-11-4`, `tenzin-dhonzang:c-4-11-6`, `tsultrim-namdak:c-2-1-2-1-40` (7 commentaries)
 
 `taranatha:c-11-6`: "འགྲོ་བ་ཕོངས་བ་རྣམས་ཐམས་ཅད་དབུལ་ཞིང་ཕོངས་པའི་སྡུག་བསྔལ་མ་ལུས་པ་ལས་སྒྲོལ་ཞིང་ཞི་བར་མཛད་པ།" ("she liberates and pacifies all destitute beings from every suffering of poverty and want"). `sungrab-tulku:c-14-4` and `tenzin-dhonzang:c-4-11-4` give near-identical wordings tying this to the wrathful HŪṂ-light iconography of the eleventh homage.
 
@@ -243,7 +243,7 @@ Fifteen of the sixteen commentaries (all but Lobsang Dawa, whose two claims on t
 
 **Statement 4 — mantra recitation or recollection destroys the sin/misdeed that is suffering's cause, and thereby its resultant suffering**:
 
-— attested: `anon-utpala:c-1-2-2-2-9`, `gendun-drub:c-2-2-2-2-1-2-4-3`, `karma-maitri:c-1-1-11-5`, `pema-namgyal:c-2-4-43`, `sangye-nyentrul:c-0-2`, `sangye-nyentrul:c-16-0-2`, `taranatha:c-15-8`, `tenzin-dhonzang:c-4-9-3`, `tenzin-dhonzang:c-4-10-5`, `tenzin-dhonzang:c-4-21-3`, `tsultrim-namdak:c-5-3-3` (8 commentaries)
+— attested: `dharmabhadra:c-1-2-2-2-9`, `gendun-drub:c-2-2-2-2-1-2-4-3`, `karma-maitri:c-1-1-11-5`, `pema-namgyal:c-2-4-43`, `sangye-nyentrul:c-0-2`, `sangye-nyentrul:c-16-0-2`, `taranatha:c-15-8`, `tenzin-dhonzang:c-4-9-3`, `tenzin-dhonzang:c-4-10-5`, `tenzin-dhonzang:c-4-21-3`, `tsultrim-namdak:c-5-3-3` (8 commentaries)
 
 `sangye-nyentrul:c-0-2`, from the commentary's own opening verse, gives the strongest single-clause form of this statement: "ཁྱེད་ཞབས་དྲན་ཙམ་གྱིས་ཀྱང་དུཿཁའི་འགྲོ། ། སྡུག་བསྔལ་རྒྱུ་བཅས་མིང་གི་ལྷག་མ་རུ། ། བགྱིད་མཛད་..." ("merely recollecting your feet reduces the suffering realms, together with their causes, to a mere name").
 
@@ -283,17 +283,17 @@ No other commentary in the corpus supplies comparable individually-named narrati
 ## Claims reviewed, not separately cited
 
 **False positives (extraction artifacts — no genuine occurrence of སྡུག་བསྔལ in the claim's own text):**
-- `anon-trinle-char:c-3-18-8` — the printed block runs on into the following section heading ("### 3.19 ... སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ་"), which contains the term; the claim's own quoted verse (moon, lotus, mudrās) does not.
+- `yama-sonam:c-3-18-8` — the printed block runs on into the following section heading ("### 3.19 ... སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ་"), which contains the term; the claim's own quoted verse (moon, lotus, mudrās) does not.
 - `tenzin-dhonzang:c-4-18-8` — likewise runs on into the following "4.19 ... སྡུག་བསྔལ་སེལ་མ" heading; the claim's own text (on the mantra's essence as clear light) does not mention suffering.
 - `tsultrim-namdak:c-5-2-7-4-2-1` — runs on into the following "5.2.7.4.3 འཇིགས་དང་སྡུག་བསྔལ་ལས་སྐྱོབས་པར་གསོལ་བ" heading; the claim's own ritual-aspiration text (peace, prosperity, dharma-protecting kings) does not itself contain the term.
 
 **Structural/duplicate/redundant with an already-cited claim in the same facet:**
-- `anon-trinle-char:c-3-7-6` — a general statement that her wrathful demeanor protects beings from suffering out of compassion; a narrower, less specific instance of the pattern documented at scale under "Protection from suffering," not tied to any of that facet's four specific statements.
-- `anon-trinle-char:c-3-15-7` — restates the doctrinal point of `anon-trinle-char:c-3-15-4` (already cited), without independent content.
-- `anon-trinle-char:c-3-19-2` — a bare structural marker duplicating `anon-trinle-char:c-3-19-1` (already cited).
-- `anon-trinle-char:c-3-19-4` — names the homage's worshippers (Indra, Brahmā, etc.); already the province of `2-RAILS/Claims/indra.md`, not independently about suffering.
-- `anon-trinle-char:c-3-19-5`, `anon-trinle-char:c-3-19-6`, `anon-trinle-char:c-3-19-8`, `anon-trinle-char:c-3-19-10` — narrower verse-citations and attribution notes elaborating the same nineteenth-homage epithet already cited at `anon-trinle-char:c-3-19-1`; redundant corroboration, not independent content.
-- `anon-utpala:c-1-2-2-1-2-5-3` — iconography detail (suffering-dispelling crown-light), a narrower instance of the widely-attested "light dispels suffering" motif already covered under "Protection from suffering," Statement 1–2.
+- `yama-sonam:c-3-7-6` — a general statement that her wrathful demeanor protects beings from suffering out of compassion; a narrower, less specific instance of the pattern documented at scale under "Protection from suffering," not tied to any of that facet's four specific statements.
+- `yama-sonam:c-3-15-7` — restates the doctrinal point of `yama-sonam:c-3-15-4` (already cited), without independent content.
+- `yama-sonam:c-3-19-2` — a bare structural marker duplicating `yama-sonam:c-3-19-1` (already cited).
+- `yama-sonam:c-3-19-4` — names the homage's worshippers (Indra, Brahmā, etc.); already the province of `2-RAILS/Claims/indra.md`, not independently about suffering.
+- `yama-sonam:c-3-19-5`, `yama-sonam:c-3-19-6`, `yama-sonam:c-3-19-8`, `yama-sonam:c-3-19-10` — narrower verse-citations and attribution notes elaborating the same nineteenth-homage epithet already cited at `yama-sonam:c-3-19-1`; redundant corroboration, not independent content.
+- `dharmabhadra:c-1-2-2-1-2-5-3` — iconography detail (suffering-dispelling crown-light), a narrower instance of the widely-attested "light dispels suffering" motif already covered under "Protection from suffering," Statement 1–2.
 - `gendun-drub:c-2-2-2-2-1-2-5-3` — same crown-light iconography motif, redundant with the instances above.
 - `gendun-drub:c-2-2-3-3-3` — poison-dispelling benefit, narrower instance already covered by `gendun-drub:c-2-2-3-3-4` (cited).
 - `konchok-thabkhe:c-2-19-4` — an attribution note (the mahāsiddha verse underlying a different gloss); "suffering" appears only inside the quoted verse fragment, incidental to the claim's own point (textual sourcing).
@@ -338,8 +338,8 @@ No other commentary in the corpus supplies comparable individually-named narrati
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-7-6, c-3-15-4, c-3-15-7, c-3-18-8, c-3-19-1, c-3-19-2, c-3-19-4, c-3-19-5, c-3-19-6, c-3-19-8, c-3-19-10 | Epithet-quartet (Consensus), Nineteenth-homage epithet, Protection (Statement 1), [remainder reviewed] |
-| anon-utpala | c-1-1-6, c-1-2-2-1-2-4-5, c-1-2-2-1-2-5-3, c-1-2-2-2-3, c-1-2-2-2-9 | Etymology of Tārā, Epithet-quartet, Protection (Statements 1, 4), [c-1-2-2-1-2-5-3 reviewed] |
+| yama-sonam | c-3-7-6, c-3-15-4, c-3-15-7, c-3-18-8, c-3-19-1, c-3-19-2, c-3-19-4, c-3-19-5, c-3-19-6, c-3-19-8, c-3-19-10 | Epithet-quartet (Consensus), Nineteenth-homage epithet, Protection (Statement 1), [remainder reviewed] |
+| dharmabhadra | c-1-1-6, c-1-2-2-1-2-4-5, c-1-2-2-1-2-5-3, c-1-2-2-2-3, c-1-2-2-2-9 | Etymology of Tārā, Epithet-quartet, Protection (Statements 1, 4), [c-1-2-2-1-2-5-3 reviewed] |
 | drakpa-gyaltsen | c-1-67, c-1-80, c-1-81, c-2-13 | Epithet-quartet, Protection (Statements 1, 3) |
 | gendun-drub | c-2-2-1-7, c-2-2-2-2-1-2-4-3, c-2-2-2-2-1-2-5-3, c-2-2-2-2-2-3, c-2-2-2-3-4-4, c-2-2-3-3-3, c-2-2-3-3-4 | Etymology of Tārā, ⚑ Epithet-quartet divergence, Nineteenth-homage epithet, Protection (Statements 2, 4), [c-2-2-2-2-1-2-5-3, c-2-2-3-3-3 reviewed] |
 | gendun-gyatso | c-2-3, c-2-5 | Protection (Statement 3, and general poison/spirit benefit) |

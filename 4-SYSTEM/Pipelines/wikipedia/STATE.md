@@ -22,7 +22,7 @@ pipeline was, in practice, unable to run. Both are done now:
   `^I-*` intro-prefix and no-segment-cap sa-bcad conventions, as this vault's own rule.
 - **The set mismatch is resolved**: Gendun Drub's ṭīkā (`TARAC03_GDD`, corpus-only before this)
   is now `1-SOURCES/Commentaries/…ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md`, `registered_id: gendun-drub`,
-  17 commentaries registered total. `anon-rnam-snang` (vault-only, no corpus counterpart) stays
+  17 commentaries registered total. `rnam-snang` (vault-only, no corpus counterpart) stays
   as-is, still flagged for a human read — its title duplicates the root's own Kangyur title.
 
 Pre-migration bodies are backed up at `0-INBOX/migration-backups/2026-08-04/` — this is the

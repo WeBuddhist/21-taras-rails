@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tathagata.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -49,12 +49,12 @@ drawn on), even where several rows share the same ref name.
 | Ref | Commentary | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
 | sungrab-tulku | sungrab-tulku | c-7-2 | — (lead: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-34 |
-| anon-utpala | anon-utpala | c-1-2-2-1-1-3-3 | — (lead: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-23 |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-1-3-3 | — (lead: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-23 |
 | taranatha | taranatha | c-4-9 | "དཔལ་ལྡན་དེ་བཞིན་ཉིད་གཤེགས་ཤིང་། ། དེ་བཞིན་སླར་ཡང་གཤེགས་པ་ཉིད" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-16 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-4-3 | "ཆོས་རྣམས་ཀྱི་ཆོས་ཉིད་དེ་བཞིན་ཉིད་སྟོང་པ་ཉིད་ཀྱི་དབྱིངས་ལ་ཡེ་ཤེས་ཀྱིས་དེ་དང་རྗེས་སུ་མཐུན་པར་གཤེགས་ཤིང་མཉམ་པར་བཞག་པས་ན། དེ་བཞིན་གཤེགས་པའི་མཚན་གསོལ་བ་ཡིན" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-132 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-4-4 | "ཇི་སྐད་སྨྲས་པ་དེ་བཞིན་བྱེད" | #^0-133 |
-| anon-trinle-char | anon-trinle-char | c-3-4-3 / c-3-4-4 | — (paraphrased: verse gloss "most-used" claim) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-41, #^0-42 |
-| anon-utpala | anon-utpala | c-1-2-2-1-1-3-2 | — (shares scope note above; not separately quoted) | #^0-22 |
+| yama-sonam | yama-sonam | c-3-4-3 / c-3-4-4 | — (paraphrased: verse gloss "most-used" claim) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-41, #^0-42 |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-1-3-2 | — (shares scope note above; not separately quoted) | #^0-22 |
 | drakpa-gyaltsen | drakpa-gyaltsen | c-1-23 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-24 |
 | gendun-drub | gendun-drub | c-2-2-2-2-1-1-3-2 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-29 |
 | gendun-gyatso | gendun-gyatso | c-1-4-1 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང། གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ་སྒྱུར" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-12 |
@@ -66,14 +66,14 @@ drawn on), even where several rows share the same ref name.
 | sangye-nyentrul | sangye-nyentrul | c-5-0-1 | — (paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-19 |
 | sungrab-tulku | sungrab-tulku | c-7-2 | "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ༎ མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི།། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།། ཞེས་པ་སྟེ" | #^0-34 |
 | gendun-gyatso | gendun-gyatso | c-1-4-1 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང། གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ་སྒྱུར" (repeat, second use) | #^0-12 |
-| anon-utpala | anon-utpala | c-1-2-2-1-1-3-3 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན" | #^0-23 |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-1-3-3 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན" | #^0-23 |
 | gendun-drub | gendun-drub | c-2-2-2-2-1-1-3-3 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དབུའི་གཙུག་ཏོར་ལྟར་འཁུར" | #^0-29 |
 | gendun-drub | gendun-drub | c-0-5 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་སྒྲོལ་མ་ལ་བསྟོད་པ" | #^0-3 |
 | konchok-thabkhe | konchok-thabkhe | c-2-4-2 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང་གཙུག་ཏོར་ལྟར་བཀུར་བའི་འོས་སུ་གྱུར་པ" | #^0-28 |
 | tsultrim-namdak | tsultrim-namdak | c-3-3 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི་ཞལ་ལས་ གསུངས་པའི་བསྟོད་པ" | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-177 |
 | taranatha | taranatha | c-4-3 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི་གཙུག་གཏོར་ལས" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-13 |
-| anon-trinle-char | anon-trinle-char | c-3-4-7 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པ་སྣང་མཛད་ཀྱི་དབུའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཀྱི་ཡེ་ཤེས་སྤྲུལ་པ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-45 |
-| anon-trinle-char | anon-trinle-char | c-3-4-8 | — (paraphrased: Geluk scholars' generic reading) | #^0-45 |
+| yama-sonam | yama-sonam | c-3-4-7 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པ་སྣང་མཛད་ཀྱི་དབུའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཀྱི་ཡེ་ཤེས་སྤྲུལ་པ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-45 |
+| yama-sonam | yama-sonam | c-3-4-8 | — (paraphrased: Geluk scholars' generic reading) | #^0-45 |
 | taranatha | taranatha | c-12-7 | "རལ་པའི་ཐོར་ཚུགས་འཆར་བའི་ཁྲོད་ན་དེ་བཞིན་གཤེགས་པ་འོད་དཔག་ཏུ་མེད་པ་བཞུགས་ཤིང་གནས་པ" | #^0-41 |
 | taranatha | taranatha | c-21-4-16 | "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ཞེས་པས་ལྷ་དབང་བསྐུར" | #^0-83 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-12-9 | "དེ་བཞིན་གཤེགས་པ་བརྒྱད" | #^0-210 |
@@ -89,7 +89,7 @@ drawn on), even where several rows share the same ref name.
 | sungrab-tulku | sungrab-tulku | c-2-6 | "ཇི་སྲིད་བླ་ན་མེད་པའི་བྱང་ཆུབ་མངོན་དུ་བྱས་པ་དེ་སྲིད་དུ་མིང་ལྷ་མོ་སྒྲོལ་མའི་མཚན་འབའ་ཞིག་ཏུ་འགྱུར་བར" | #^0-8 |
 | tenzin-dhonzang | tenzin-dhonzang | c-1-6 | — (shares same wording as c-2-6, same block ^0-8 as parent claim c-1-1) | #^0-7 |
 | tsultrim-namdak | tsultrim-namdak | c-2-1-1-9 | — (shares same prophecy content) | #^0-66 |
-| anon-trinle-char | anon-trinle-char | c-3-4-7 / c-3-4-8 | — (paraphrased: internal divergence framing) | #^0-45 |
+| yama-sonam | yama-sonam | c-3-4-7 / c-3-4-8 | — (paraphrased: internal divergence framing) | #^0-45 |
 | palden-sherab | palden-sherab | c-3-1-4-3-1 | "དེ་བཞིན་གཤེགས་པ་ནི་དགའ་བཞི་ཡེ་ཤེས" | #^0-50 |
 | palden-sherab | palden-sherab | c-3-1-4-4-1 | "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ནི་ཐེག་པ་རིམ་དགུའི་རྩེ་མོ་རྫོགས་ཆེན་ཨ་ཏི་ཡོ་ག་ལྟ་བ" | #^0-51 |
 | sungrab-tulku | sungrab-tulku | c-2-1 / c-2-6 (summary) | — (paraphrased, bsdus-don) | #^0-8 |
@@ -99,12 +99,12 @@ drawn on), even where several rows share the same ref name.
 
 Several claims entered the prose as paraphrase rather than direct quotation — every
 such sentence still carries its own `<ref>`. Representative examples: `sungrab-tulku:c-7-2`
-and `anon-utpala:c-1-2-2-1-1-3-3` (lead identification), `anon-trinle-char:c-3-4-3`/`c-3-4-4`
+and `dharmabhadra:c-1-2-2-1-1-3-3` (lead identification), `yama-sonam:c-3-4-3`/`c-3-4-4`
 (fourth-homage "most-used" framing), `drakpa-gyaltsen:c-1-23`, `gendun-drub:c-2-2-2-2-1-1-3-2`,
 `karma-maitri:c-1-1-4-2`, `lobsang-dawa:c-1-2-2-1-1-3-2`, `palden-sherab:c-3-1-4-0-2`,
 `pema-namgyal:c-2-4-20`, `sangye-nyentrul:c-5-0-1` (fourth-homage consensus, un-quoted
 attestations kept as stacked refs per Rule 5's "backbone cited to representative
-commentaries" guidance rather than quoted individually), `anon-trinle-char:c-3-4-8`
+commentaries" guidance rather than quoted individually), `yama-sonam:c-3-4-8`
 (Geluk generic-reading note), `sungrab-tulku:c-2-1`/`tenzin-dhonzang:c-1-1` (origin-story
 narrative detail beyond the two quoted sentences), `tsultrim-namdak:c-2-1-1-9` (prophecy,
 same content as the quoted `sungrab-tulku:c-2-6`/`tenzin-dhonzang:c-1-6`).
@@ -164,13 +164,13 @@ Every quotation was located character-for-character (whitespace-collapsed) in th
 | 3 | "ཇི་སྐད་སྨྲས་པ་དེ་བཞིན་བྱེད" | tenzin-dhonzang:c-4-4-4 | PASS |
 | 4 | "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ༎ མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི།། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།། ཞེས་པ་སྟེ" | sungrab-tulku:c-7-2 | PASS |
 | 5 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང། གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ་སྒྱུར" | gendun-gyatso:c-1-4-1 | PASS |
-| 6 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན" | anon-utpala:c-1-2-2-1-1-3-3 | PASS |
+| 6 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན" | dharmabhadra:c-1-2-2-1-1-3-3 | PASS |
 | 7 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དབུའི་གཙུག་ཏོར་ལྟར་འཁུར" | gendun-drub:c-2-2-2-2-1-1-3-3 | PASS |
 | 8 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་སྒྲོལ་མ་ལ་བསྟོད་པ" | gendun-drub:c-0-5 | PASS |
 | 9 | "དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱིས་ཀྱང་གཙུག་ཏོར་ལྟར་བཀུར་བའི་འོས་སུ་གྱུར་པ" | konchok-thabkhe:c-2-4-2 | PASS |
 | 10 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི་ཞལ་ལས་ གསུངས་པའི་བསྟོད་པ" | tsultrim-namdak:c-3-3 | PASS |
 | 11 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པར་སྣང་མཛད་ཀྱི་གཙུག་གཏོར་ལས" | taranatha:c-4-3 | PASS |
-| 12 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པ་སྣང་མཛད་ཀྱི་དབུའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཀྱི་ཡེ་ཤེས་སྤྲུལ་པ" | anon-trinle-char:c-3-4-7 | PASS |
+| 12 | "དེ་བཞིན་གཤེགས་པ་རྣམ་པ་སྣང་མཛད་ཀྱི་དབུའི་གཙུག་ཏོར་ལས་རིག་སྔགས་ཀྱི་ཡེ་ཤེས་སྤྲུལ་པ" | yama-sonam:c-3-4-7 | PASS |
 | 13 | "རལ་པའི་ཐོར་ཚུགས་འཆར་བའི་ཁྲོད་ན་དེ་བཞིན་གཤེགས་པ་འོད་དཔག་ཏུ་མེད་པ་བཞུགས་ཤིང་གནས་པ" | taranatha:c-12-7 | PASS |
 | 14 | "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ཞེས་པས་ལྷ་དབང་བསྐུར" | taranatha:c-21-4-16 | PASS |
 | 15 | "དེ་བཞིན་གཤེགས་པ་བརྒྱད" | tenzin-dhonzang:c-4-12-9 | PASS |

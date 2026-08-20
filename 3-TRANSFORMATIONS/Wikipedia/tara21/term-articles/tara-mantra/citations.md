@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-mantra.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
@@ -35,7 +35,7 @@ representative-citation approach mandated by Adaptation 1 (see Warnings, "Select
 
 | Ref | Commentary | Claim ID(s) drawn on | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| 1 | anon-utpala | c-1-2-3-1-4 (mantra formula, lead, paraphrased), c-1-2-2-1-2-1-3 (TURE=swift, paraphrased), c-1-2-2-1-2-1-2 (great-terror root verse, quoted) | "ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ།། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད།། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།།" | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-74, #^0-40, #^0-39` |
+| 1 | dharmabhadra | c-1-2-3-1-4 (mantra formula, lead, paraphrased), c-1-2-2-1-2-1-3 (TURE=swift, paraphrased), c-1-2-2-1-2-1-2 (great-terror root verse, quoted) | "ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ།། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད།། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།།" | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-74, #^0-40, #^0-39` |
 | 2 | tenzin-dhonzang | c-4-10-9 (mantra formula, quoted), c-4-5-2/c-4-5-3 (three-realms verse+gloss, paraphrased), c-4-17-2 (feet-stamping verse, quoted), c-4-20-2 (epidemic verse, paraphrased), c-4-21-7 (spirits/zombies/yakṣas, paraphrased), c-4-15-6 (destroying great sin, paraphrased) | "ཨོཾ་ཏཱ་རེ་ཏུ་ཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ" (c-4-10-9); "ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། ། ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། ། རི་རབ་མནྡྷ་ར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། །" (c-4-17-2) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-193, #^0-141, #^0-246, #^0-275, #^0-287, #^0-236` |
 | 3 | tsultrim-namdak | c-5-3-3 (syllable-by-syllable gloss, paraphrased), c-3-11 (great-terror, paraphrased), c-3-13 (subjugating laughter, paraphrased), c-3-24 (spirits/life-force, paraphrased), c-8-1-1 (three-way syllable division, paraphrased), c-4-22-1 (parrot anecdote, paraphrased) | (none — paraphrased only; see Warnings on the anecdote's spelling variant) | `1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-571–575, #^0-207–210, #^0-215–218, #^0-261–266, #^0-677–678, #^0-321–322` |
 | 4 | pema-namgyal | c-2-3-2 (TĀRE=Tārā, quoted), c-2-4-7 (TUTTĀRE=dispels fear, quoted), c-2-4-49 (poison mantra variant, paraphrased), c-2-4-43 (destroys ten unwholesome deeds/five crimes, paraphrased) | "ཏཱ་ར་ནི་སྒྲོལ་མ།" (c-2-3-2); "ཏུཏྟཱ་རེ་ཡིས་འཇིགས་པ་སེལ་མ།" (c-2-4-7) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-24, #^0-26, #^0-63, #^0-57` |
@@ -47,7 +47,7 @@ representative-citation approach mandated by Adaptation 1 (see Warnings, "Select
 | 10 | konchok-thabkhe | c-2-17-2 (feet-stamping+thieves, paraphrased), c-2-10-3 (subjugating māras+tīrthikas, paraphrased), c-2-20-4 (epidemic, definitive-meaning reading, paraphrased), c-2-18-3 (poison mantra, quoted) | "ཏཱ་ར་ཏཱ་ར་ཕཊ" (c-2-18-3, excerpt) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84, #^0-57, #^0-95, #^0-87` |
 | 11 | drakpa-gyaltsen | c-1-85 (feet-stamping generates wrathful form, paraphrased) | (none — paraphrased only) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70` |
 | 12 | sangye-nyentrul | c-6-0-1 (three-realms, light-ray/HŪM gloss, paraphrased), c-19-0-2 (poison, paraphrased) | (none — paraphrased only) | `1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-24, #^0-80` |
-| 13 | anon-trinle-char | c-3-5-4 (mind/speech identification, three-realms, paraphrased), c-3-10-3 (subjugating-laughter root verse, paraphrased), c-3-20-3 (epidemic root verse, quoted), c-3-20-7 (TĀRA/HĀRA textual note, quoted) | "ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས། ། ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ།" (c-3-20-3, excerpt); "ཧཱ་ར་གཉིས་ཞེས་ཡོད་པ་རྣམས་དག་པར་སྣང་།" (c-3-20-7, excerpt) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-50, #^0-102, #^0-242, #^0-248` |
+| 13 | yama-sonam | c-3-5-4 (mind/speech identification, three-realms, paraphrased), c-3-10-3 (subjugating-laughter root verse, paraphrased), c-3-20-3 (epidemic root verse, quoted), c-3-20-7 (TĀRA/HĀRA textual note, quoted) | "ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས། ། ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ།" (c-3-20-3, excerpt); "ཧཱ་ར་གཉིས་ཞེས་ཡོད་པ་རྣམས་དག་པར་སྣང་།" (c-3-20-7, excerpt) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-50, #^0-102, #^0-242, #^0-248` |
 | 14 | tenga-tulku | c-1-2-3-6-4 (spirits/zombies/yakṣas, grants supreme wishes, paraphrased) | (none — paraphrased only) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-179` |
 
 **14 refs, 60 citation instances (14 full definitions + 46 self-closing reuses), 14 verbatim quotations.**
@@ -109,7 +109,7 @@ No attestation was attempted and failed to resolve.
   `2-RAILS/Claims/raw/tree-guided/`, and every quotation was independently verified against the actual
   `1-SOURCES/Commentaries/` file. This is slower but is the only way Rule 4 can be honestly satisfied.
 - **Spelling variants preserved, not smoothed.** Several raw files spell the same syllable differently
-  (e.g. anon-utpala's own mantra-formula claim c-1-2-3-1-4 spells the first syllable "ཏ་རེ" with a short
+  (e.g. dharmabhadra's own mantra-formula claim c-1-2-3-1-4 spells the first syllable "ཏ་རེ" with a short
   vowel, where most other commentaries write "ཏཱ་རེ" with a long vowel; pema-namgyal's poison-mantra claim
   c-2-4-49 gives "ཨོཾ་ཏ་ར་ཏ་ར་ཕཊ," also short-vowel). Per Rule 3, quotations are never smoothed — where
   such a form appears inside quotation marks in the article, it reproduces the source's own spelling
@@ -146,13 +146,13 @@ the actual source file (not the raw claims file's transcription of it).
 | 3 | pema-namgyal | ཏུཏྟཱ་རེ་ཡིས་འཇིགས་པ་སེལ་མ། | PASS |
 | 4 | karma-maitri | ཏུ་རེ་ནི་མྱུར་མ་སྟེ། | PASS |
 | 5 | palden-sherab | ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུྃ་ཡི་གེས།...ལུས་པ་མེད་པར་འགུགས་པ་ནུས་མ། | PASS |
-| 6 | anon-utpala | ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།།...དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།། | PASS |
+| 6 | dharmabhadra | ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།།...དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།། | PASS |
 | 7 | tenzin-dhonzang | ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས།...འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། | PASS |
-| 8 | anon-trinle-char | ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས།...ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ། | PASS |
+| 8 | yama-sonam | ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས།...ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ། | PASS |
 | 9 | palden-sherab | ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པའི།...འཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ། | PASS |
 | 10 | sungrab-tulku | ཨོཾ་ན་མཿ ཏ་རེ་ན་མོ་ཧྭ་རེ་ཧཱུྃ་ཧྭ་ར་སྭཱ་ཧཱ | PASS |
 | 11 | konchok-thabkhe | ཏཱ་ར་ཏཱ་ར་ཕཊ | PASS |
-| 12 | anon-trinle-char | ཧཱ་ར་གཉིས་ཞེས་ཡོད་པ་རྣམས་དག་པར་སྣང་། | PASS |
+| 12 | yama-sonam | ཧཱ་ར་གཉིས་ཞེས་ཡོད་པ་རྣམས་དག་པར་སྣང་། | PASS |
 | 13 | palden-sherab | ཏུཏྟཱ་ར་ནི་གདུང་བ་སྟེ་གཏུམ་མོའི་མེའོ། | PASS |
 | 14 | taranatha | ཆོས་ཀྱི་སྐུ་ལས་བྱུང་བའི་ཡེ་ཤེས་ནི་ཏཱ་རེ། | PASS |
 

@@ -3,8 +3,8 @@ topic: vindhya
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
@@ -78,9 +78,9 @@ status: draft
 ### Consensus
 Thirteen commentaries name Vindhya (འབིགས་བྱེད, variously spelled — see "Orthographic variants" below) as the third mountain, after Meru and Mandara, shaken by Tārā's foot-stamping in the verse glossed at homage seventeen. **This is the same verse and the same naming already fully treated on `2-RAILS/Claims/meru.md`'s "Identity" facet** (its Consensus paragraph and attestation list). It is not re-argued here; only the attestation list is reproduced, re-verified directly against the raw files for this page's own purposes:
 
-— attested: `anon-trinle-char:c-3-17-4`, `anon-trinle-char:c-3-17-8`, `anon-utpala:c-1-2-3-2-2`, `anon-utpala:c-1-2-3-2-5`, `gendun-drub:c-2-2-2-3-2-3`, `konchok-thabkhe:c-2-17-2`, `lobsang-dawa:c-1-2-3-2-4`, `palden-sherab:c-3-1-17-0-2`, `palden-sherab:c-3-1-17-1-2`, `pema-namgyal:c-2-4-47`, `sangye-nyentrul:c-18-0-2`, `sangye-nyentrul:c-18-1-3`, `sungrab-tulku:c-20-2`, `sungrab-tulku:c-20-4`, `tenga-tulku:c-1-2-3-2-2`, `tenzin-dhonzang:c-4-17-2`, `tenzin-dhonzang:c-4-17-4`, `tsultrim-namdak:c-2-1-2-1-58`, `tsultrim-namdak:c-2-1-2-1-59` (12 commentaries)
+— attested: `yama-sonam:c-3-17-4`, `yama-sonam:c-3-17-8`, `dharmabhadra:c-1-2-3-2-2`, `dharmabhadra:c-1-2-3-2-5`, `gendun-drub:c-2-2-2-3-2-3`, `konchok-thabkhe:c-2-17-2`, `lobsang-dawa:c-1-2-3-2-4`, `palden-sherab:c-3-1-17-0-2`, `palden-sherab:c-3-1-17-1-2`, `pema-namgyal:c-2-4-47`, `sangye-nyentrul:c-18-0-2`, `sangye-nyentrul:c-18-1-3`, `sungrab-tulku:c-20-2`, `sungrab-tulku:c-20-4`, `tenga-tulku:c-1-2-3-2-2`, `tenzin-dhonzang:c-4-17-2`, `tenzin-dhonzang:c-4-17-4`, `tsultrim-namdak:c-2-1-2-1-58`, `tsultrim-namdak:c-2-1-2-1-59` (12 commentaries)
 
-Representative wording (re-quoted here character-for-character from the raw files): `anon-utpala:c-1-2-3-2-5` — "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ...གཡོ་བར་མཛད་པ" ("she causes the king of mountains Meru, Mount Mandara, the black mountain Vindhya, and so forth...to shake"). `palden-sherab:c-3-1-17-1-2` names the alternative reading in the same breath: "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྡཱ་ར་དང་། རི་འབིགས་བྱེད་དམ་གངས་ཅན་གྱི་རི" ("Mount Meru, king of mountains, and Mount Mandara, and Mount Vindhya, or the mountain of snow [Himalaya]") — this "or" is the same manuscript-variant question treated in full below and on `meru.md`.
+Representative wording (re-quoted here character-for-character from the raw files): `dharmabhadra:c-1-2-3-2-5` — "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ...གཡོ་བར་མཛད་པ" ("she causes the king of mountains Meru, Mount Mandara, the black mountain Vindhya, and so forth...to shake"). `palden-sherab:c-3-1-17-1-2` names the alternative reading in the same breath: "རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྡཱ་ར་དང་། རི་འབིགས་བྱེད་དམ་གངས་ཅན་གྱི་རི" ("Mount Meru, king of mountains, and Mount Mandara, and Mount Vindhya, or the mountain of snow [Himalaya]") — this "or" is the same manuscript-variant question treated in full below and on `meru.md`.
 
 ### ⚑ Divergences
 See "Textual identity of the third mountain" and "Is འབིགས་བྱེད a name or a verb?", below — both broken out as their own facets rather than folded into this one, since each raises a distinct question about Vindhya specifically.
@@ -128,9 +128,9 @@ None beyond the attestations above.
 ## Descriptive epithet — "the black mountain" (fully treated on `meru.md`)
 
 ### Consensus
-Several commentaries pair Vindhya's name with the descriptive epithet "black mountain" (རི་ནག་པོ). **This epithet is already quoted in full on `meru.md`'s "Identity" Consensus paragraph** via `anon-utpala:c-1-2-3-2-5`, `sungrab-tulku:c-20-4`, and `tenzin-dhonzang:c-4-17-4`. Re-verified for this page, two further attestations of the same epithet appear that `meru.md` does not separately quote:
+Several commentaries pair Vindhya's name with the descriptive epithet "black mountain" (རི་ནག་པོ). **This epithet is already quoted in full on `meru.md`'s "Identity" Consensus paragraph** via `dharmabhadra:c-1-2-3-2-5`, `sungrab-tulku:c-20-4`, and `tenzin-dhonzang:c-4-17-4`. Re-verified for this page, two further attestations of the same epithet appear that `meru.md` does not separately quote:
 
-— attested: `anon-utpala:c-1-2-3-2-5`, `sungrab-tulku:c-20-4`, `tenzin-dhonzang:c-4-17-4`, `lobsang-dawa:c-1-2-3-2-4` (4 commentaries)
+— attested: `dharmabhadra:c-1-2-3-2-5`, `sungrab-tulku:c-20-4`, `tenzin-dhonzang:c-4-17-4`, `lobsang-dawa:c-1-2-3-2-4` (4 commentaries)
 
 `lobsang-dawa:c-1-2-3-2-4` — "དེའི་ཞབས་བརྡབས་པས་ནི་རི་རབ་དང་རི་མནྡཱ་ར་དང་རི་ནག་པོ་འབིགས་བྱེད་སོགས" ("by her feet stamping, Meru, Mount Mandara, and the black mountain Vindhya and so forth [are shaken]") — the same "black mountain" epithet, independently attested but not itself quoted on `meru.md` (which cites this claim ID only for the general Identity consensus, not for its epithet wording specifically).
 
@@ -165,8 +165,8 @@ Vindhya's name appears in the corpus under at least three spellings: འབི�
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-17-3` — root-verse quotation only ("the tantra itself: 'Meru, Mandara, and Vindhya — the three worlds'"); its content is fully subsumed by the Naming Consensus above and already logged on `meru.md`'s own "Claims reviewed" section.
-- `sungrab-tulku:c-20-2`, `tsultrim-namdak:c-2-1-2-1-58`, `tenzin-dhonzang:c-4-17-2`, `tenga-tulku:c-1-2-3-2-2`, `anon-utpala:c-1-2-3-2-2` — each is a bare root-verse quotation ("Meru, Mandara, and Vindhya...the three worlds") introducing that commentary's own subsequent exegesis claim (already cited above under Naming or, for `tenga-tulku`, under "Is འབིགས་བྱེད a name or a verb?"). None adds naming or interpretive content about Vindhya beyond confirming the verse's wording, which the Naming Consensus already establishes across thirteen commentaries.
+- `yama-sonam:c-3-17-3` — root-verse quotation only ("the tantra itself: 'Meru, Mandara, and Vindhya — the three worlds'"); its content is fully subsumed by the Naming Consensus above and already logged on `meru.md`'s own "Claims reviewed" section.
+- `sungrab-tulku:c-20-2`, `tsultrim-namdak:c-2-1-2-1-58`, `tenzin-dhonzang:c-4-17-2`, `tenga-tulku:c-1-2-3-2-2`, `dharmabhadra:c-1-2-3-2-2` — each is a bare root-verse quotation ("Meru, Mandara, and Vindhya...the three worlds") introducing that commentary's own subsequent exegesis claim (already cited above under Naming or, for `tenga-tulku`, under "Is འབིགས་བྱེད a name or a verb?"). None adds naming or interpretive content about Vindhya beyond confirming the verse's wording, which the Naming Consensus already establishes across thirteen commentaries.
 - `sangye-nyentrul:c-17-1-3` — a claim about light from a crossed vajra destroying enemies' power; the PLC-3 (Vibhedaka) referent tag on this claim in the raw file's own Places register is a cross-reference to the mountain's registration, not a fresh mention of Vindhya within this claim's own text.
 - `konchok-thabkhe:c-2-17-2` — cited under Naming above; its further content (subduing bands of thieves) belongs to Tārā's activity generally, not to Vindhya specifically, and is outside this page's scope.
 - `karma-maitri:c-1-1-17-2`, `karma-maitri:c-1-1-17-3`, `karma-maitri:c-1-1-17-4`, `karma-maitri:c-1-1-17-6` — surrounding context for `karma-maitri:c-1-1-17-5` (cited under "Textual identity," above, via its "Meru Vibhedaka" reading), already logged on `meru.md`'s own "Claims reviewed" section as not independently naming or describing Meru/Vindhya.
@@ -177,8 +177,8 @@ Vindhya's name appears in the corpus under at least three spellings: འབི�
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-17-3, c-3-17-4, c-3-17-8 | Naming |
-| `anon-utpala` | c-1-2-3-2-2, c-1-2-3-2-5 | Naming; Descriptive epithet |
+| `yama-sonam` | c-3-17-3, c-3-17-4, c-3-17-8 | Naming |
+| `dharmabhadra` | c-1-2-3-2-2, c-1-2-3-2-5 | Naming; Descriptive epithet |
 | `drakpa-gyaltsen` | c-1-86 | Is འབིགས་བྱེད a name or a verb? (⚑ Divergences) |
 | `gendun-drub` | c-2-2-2-3-2-3 | Naming |
 | `gendun-gyatso` | (none — commentary consulted, no claim names Vindhya) | Silent |

@@ -8,7 +8,7 @@
 - `V2` <ref> does not match any declared citation: རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་…
 - `V2` <ref> does not match any declared citation: མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ། རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་…
 - `V2` <ref> does not match any declared citation: སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲ…
-- `V2` <ref> does not match any declared citation: དཀོན་མཆོག་ཐབས་མཁས (མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)། ཕྱག་འཚལ་ཉེར་གཅིག…
+- `V2` <ref> does not match any declared citation: དཀོན་མཆོག་ཐབས་མཁས། ཕྱག་འཚལ་ཉེར་གཅིག…
 - `V2` <ref> does not match any declared citation: རྒྱལ་བ་དགེ་འདུན་གྲུབ། སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་…
 
 ## Warnings
@@ -33,8 +33,8 @@
 - `W2` citation 'TARAC16_PSR_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC06_NDB_bo_segmented' is missing year and page
 - `W2` citation 'TARAC06_NDB_bo_segmented' has no URL, so a reader cannot check it without the physical book
-- `W1` citation 'TARAC09_ANON_bo_segmented' is missing year and page
-- `W2` citation 'TARAC09_ANON_bo_segmented' has no URL, so a reader cannot check it without the physical book
+- `W1` citation 'TARAC09_JYS_bo_segmented' is missing year and page
+- `W2` citation 'TARAC09_JYS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC12_PDS_bo_segmented' is missing year and page
 - `W2` citation 'TARAC12_PDS_bo_segmented' has no URL, so a reader cannot check it without the physical book
 - `W1` citation 'TARAC14_LZD_bo_segmented' is missing year and page

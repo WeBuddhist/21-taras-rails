@@ -28,7 +28,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1_jPCscjq3_pv5QxVlZMDdXbc0XVsCIbr/view"
 - source_id: TARAC02_DGT_bo_segmented
   title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར"
-  author: "རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན"
+  author: "རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན་"
   collection: "ས་སྐྱ།"
   version: null
   bdrc_id: null
@@ -47,7 +47,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1SBkmrqCurN5CJ78HvmjkMy-VwZ3zwopb/view"
 - source_id: TARAC03_GDD_bo_segmented
   title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ"
-  author: "རྒྱལ་བ་དགེ་འདུན་གྲུབ (ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)"
+  author: "རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)"
   collection: "དགེ་ལུགས།"
   version: null
   bdrc_id: null
@@ -85,7 +85,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/11LgwiNsYrIUIQvk3Qa4IcYr7XKpbz5Hq/view"
 - source_id: TARAC05_TRN_bo_segmented
   title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ"
-  author: "ཏཱ་ར་ནཱ་ཐ"
+  author: "ཏཱ་ར་ནཱ་ཐ་"
   collection: "ཇོ་ནང་།"
   version: null
   bdrc_id: null
@@ -104,7 +104,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1G7f4CXE64puzIDSWpxP8VAGEsT3wneec/view"
 - source_id: TARAC06_NDB_bo_segmented
   title: "སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ"
-  author: "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ"
+  author: "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ་"
   collection: "དགེ་ལུགས།"
   version: null
   bdrc_id: null
@@ -123,7 +123,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1QLbzLCx3sFN5QICjWo44etlPbxXrSkDZ/view"
 - source_id: TARAC07_KTK_bo_segmented
   title: "ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང"
-  author: "དཀོན་མཆོག་ཐབས་མཁས (མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)"
+  author: "དཀོན་མཆོག་ཐབས་མཁས་(མིང་གཞན་བསྟན་པ་རྒྱ་མཚོ)"
   collection: "དགེ་ལུགས།"
   version: null
   bdrc_id: null
@@ -142,7 +142,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1dRpVVR78IOvBmTrglmP4Xmp80TNzxh-J/view"
 - source_id: TARAC08_DTG_bo_segmented
   title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང"
-  author: "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ"
+  author: "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་"
   collection: "ཉི་མ་སྦས་པའི་ལུགས།"
   version: null
   bdrc_id: null
@@ -159,9 +159,9 @@ sources:
   school: "ཉི་མ་སྦས་པའི་ལུགས།"
   note: "སྒྲོལ་མ་ཉེར་གཅིག་གི་སྐུ་མདོག་ཕྱག་མཚན་བཀོད།"
   scan_url: "https://drive.google.com/file/d/18dr6JOONq-iz9X2RDApaXDvIjn1jAEI2/view"
-- source_id: TARAC09_ANON_bo_segmented
+- source_id: TARAC09_JYS_bo_segmented
   title: "སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང"
-  author: "(མཇུག་བྱང་མི་གསལ)"
+  author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"
   collection: "ཉི་མ་སྦས་པའི་ལུགས།"
   version: null
   bdrc_id: null
@@ -171,16 +171,16 @@ sources:
   wikidata_id: null
   wikipedia_url: null
   status: "ingested"
-  local_path: "source/commentaries/TARAC09_ANON_bo_segmented.md"
+  local_path: "source/commentaries/TARAC09_JYS_bo_segmented.md"
   sheet_row: 9
-  siglum: "TARAC09_ANON"
+  siglum: "TARAC09_JYS"
   genre: "བསྟོད་འགྲེལ།"
   school: "ཉི་མ་སྦས་པའི་ལུགས།"
   note: "ཉི་མ་སྦས་པའི་གཞུང་མང་དུ་དྲངས། མཇུག་བྱང་མེད།"
   scan_url: "https://drive.google.com/file/d/1Y77hYCI0OPEckt97eFwO1FyViKWFeET3/view"
 - source_id: TARAC10_DPN_bo_segmented
   title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ"
-  author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ"
+  author: "ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་"
   collection: null
   version: null
   bdrc_id: null
@@ -199,7 +199,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1qMIbL6qG_FxtxOxgDLpa_Qzm6ub31LiX/view"
 - source_id: TARAC11_KMT_bo_segmented
   title: "ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ"
-  author: "ཀརྨ་མཻ་ཏྲི"
+  author: "ཀརྨ་མཻ་ཏྲི་"
   collection: null
   version: null
   bdrc_id: null
@@ -218,7 +218,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/14H5R3zO7-fiTEoVyZ_rYugLXHR1tFxhl/view"
 - source_id: TARAC12_PDS_bo_segmented
   title: "རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས"
-  author: "མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ"
+  author: "མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་"
   collection: "རྙིང་མ།"
   version: null
   bdrc_id: null
@@ -237,7 +237,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1S28FlXGf74un54kaVJDYQNp9dn7zp8xl/view"
 - source_id: TARAC13_TDZ_bo_segmented
   title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ"
-  author: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང"
+  author: "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་"
   collection: "དགེ་ལུགས།"
   version: null
   bdrc_id: null
@@ -256,7 +256,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1uJgcslSQigsSKowGSipDOtF2NRceMsoE/view"
 - source_id: TARAC14_LZD_bo_segmented
   title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ"
-  author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ (རྩོམ་སྒྲིག)"
+  author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ་"
   collection: "དགེ་ལུགས།"
   version: null
   bdrc_id: null
@@ -275,7 +275,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/17nWiYjB9VmDisA5ZYX-gjb3Z-Ogo26Dh/view"
 - source_id: TARAC15_SNT_bo_segmented
   title: "རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར"
-  author: "སངས་རྒྱས་མཉན་སྤྲུལ"
+  author: "སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་"
   collection: null
   version: null
   bdrc_id: null
@@ -294,7 +294,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1ai3OHBped3c7sPMz-eOXLezXeyeT0xUP/view"
 - source_id: TARAC16_PSR_bo_segmented
   title: "སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད"
-  author: "འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ"
+  author: "འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་"
   collection: "དགེ་ལུགས། (དེང་རབས)"
   version: null
   bdrc_id: null
@@ -313,7 +313,7 @@ sources:
   scan_url: "https://drive.google.com/file/d/1xp5aHcMwWAp-2_my6QAG694J0dPg79PB/view"
 - source_id: TARAC17_TSN_bo_segmented
   title: "སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས"
-  author: "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག"
+  author: "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་"
   collection: "བཀའ་བརྒྱུད།"
   version: null
   bdrc_id: null

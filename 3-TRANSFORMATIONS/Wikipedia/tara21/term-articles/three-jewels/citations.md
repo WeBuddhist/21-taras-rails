@@ -6,7 +6,7 @@ context_packages:
   - 2-RAILS/Claims/three-jewels.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
   - 2-RAILS/Claims/raw/tree-guided/sungrab-tulku.md
   - 2-RAILS/Claims/raw/tree-guided/tenzin-dhonzang.md
   - 2-RAILS/Claims/raw/tree-guided/taranatha.md
@@ -36,10 +36,10 @@ every later citation of that commentary.
 
 | # | Commentary (ref name) | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| 1 | anon-trinle-char | c-3-9-3 | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། ། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་བརྒྱན་པའི། ། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
-| 2 | anon-trinle-char | c-3-9-5 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ" | ...#^0-90 |
-| 3 | anon-trinle-char | c-3-9-6 | "རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | ...#^0-91 |
-| 4 | anon-trinle-char | c-3-9-7 | "སངས་རྒྱས་ཆོས་ལས་ལེགས་སྐྱེས་ཤིང་། ། དགེ་འདུན་ཀུན་སྐྱོང་བརྩེ་ཆེན་མ།" (+ sub-fragments "ལེགས་སྐྱེས", "ཀུན་སྐྱོང") | ...#^0-92 |
+| 1 | yama-sonam | c-3-9-3 | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། ། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་བརྒྱན་པའི། ། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
+| 2 | yama-sonam | c-3-9-5 | "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ" | ...#^0-90 |
+| 3 | yama-sonam | c-3-9-6 | "རྒྱུ་སངས་རྒྱས་དཀོན་མཆོག་དང་ཆོས་དཀོན་མཆོག་གཉིས་ལས་བྱུང་ཞིང་། བྱ་བ་དགེ་འདུན་རྗེས་སུ་བསྐྱང་བའི་དོན་བསྟན་པ་ཡིན་ཏེ།" | ...#^0-91 |
+| 4 | yama-sonam | c-3-9-7 | "སངས་རྒྱས་ཆོས་ལས་ལེགས་སྐྱེས་ཤིང་། ། དགེ་འདུན་ཀུན་སྐྱོང་བརྩེ་ཆེན་མ།" (+ sub-fragments "ལེགས་སྐྱེས", "ཀུན་སྐྱོང") | ...#^0-92 |
 | 5 | sungrab-tulku | c-12-2 | (cited, not quoted — see below) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-62 |
 | 6 | sungrab-tulku | c-12-3 | "གང་ལ་ཕྱག་འཚལ་བའི་ཡུལ་རྗེ་བཙུན་སྒྲོལ་མ་དཀོན་མཆོག་གསུམ་མཆོད་མ་ལ་སྒོ་གསུམ་གུས་པས་འདུད་པའོ" | ...#^0-63 |
 | 7 | sungrab-tulku | c-12-4 | "རྗེ་བཙུན་སྒྲོལ་མའི་ཕྱག་གཡོན་པའི་མཐེ་མོ་དང་གུང་མོ་གཉིས་ཀྱིས་མེ་ཏོག་ཨུཏྤལའི་ཡུ་བ་བཟུངས་ཤིང་། མཛུབ་མོ་དང་སྲིན་ལག མཐེའུ་ཆུང་བཅས་གསུམ་སྒྲེང་བ" | ...#^0-63 |
@@ -67,7 +67,7 @@ its claim's `Cite:` target names — see Verification below.
 ## Claims used but not quoted
 
 - `sungrab-tulku:c-12-2` — the full four-line root verse, cited in the lead only as a second
-  attestation alongside `anon-trinle-char:c-3-9-3` and `tenzin-dhonzang:c-4-9-2` ("attested by
+  attestation alongside `yama-sonam:c-3-9-3` and `tenzin-dhonzang:c-4-9-2` ("attested by
   multiple commentaries"); not separately quoted to avoid a redundant second verbatim block of
   the same verse.
 - `tenzin-dhonzang:c-4-9-2` — same, the commentary's own root-verse quotation, cited but not
@@ -84,17 +84,17 @@ resolved-and-verified quotations over exhaustively citing every attestation tall
 were **not** opened/resolved in this pass and so do not appear in the article. This is a scope
 choice, not a resolution failure — they remain available for a future expansion pass:
 
-- Root-verse facet: `anon-utpala:c-1-2-2-1-2-2-2`, `tenga-tulku:c-1-2-2-1-2-2-2` (both duplicate
-  the anon-trinle-char/sungrab-tulku/tenzin-dhonzang root-verse wording already covered),
+- Root-verse facet: `dharmabhadra:c-1-2-2-1-2-2-2`, `tenga-tulku:c-1-2-2-1-2-2-2` (both duplicate
+  the yama-sonam/sungrab-tulku/tenzin-dhonzang root-verse wording already covered),
   `gendun-drub:c-2-2-2-2-1-2-2-2` (partial two-line variant; the consolidated page itself notes
   it as a partial, non-full-quote attestation), `tsultrim-namdak:c-2-1-2-1-32`/`c-2-1-2-1-33`
   (this commentary's *first* root-verse pass — superseded in this draft by its second,
   divergent pass at `c-3-12`, which was judged more informative to quote).
-- Iconography consensus facet: `anon-utpala:c-1-2-2-1-2-2-3`, `gendun-gyatso:c-1-9-1`,
+- Iconography consensus facet: `dharmabhadra:c-1-2-2-1-2-2-3`, `gendun-gyatso:c-1-9-1`,
   `konchok-thabkhe:c-2-9-2`, `pema-namgyal:c-2-4-30`, `sangye-nyentrul:c-10-0-1`,
   `karma-maitri:c-1-1-9-2`, `lobsang-dawa:c-1-2-2-1-2-2-1`, `drakpa-gyaltsen:c-1-55`/`c-1-56`,
   `tenga-tulku:c-1-2-2-1-2-2-3` — the article's iconography backbone is instead built on the
-  3 individually resolved commentaries (anon-trinle-char, palden-sherab, tenzin-dhonzang), within
+  3 individually resolved commentaries (yama-sonam, palden-sherab, tenzin-dhonzang), within
   this skill's "2–4 representative commentaries" guidance for consensus prose (Rule 5); it
   therefore does not repeat the consolidated page's precise "10 commentaries" count as a fact in
   its own voice.
@@ -121,9 +121,9 @@ tree-guided file on first lookup; nothing was dropped for failing to resolve.
   `<AUTHOR>། <TITLE>།` form with no link. Per Rule 7, no URL was fabricated.
 - **No year or page recorded on any ref.** None of the 7 raw files' frontmatter carries a
   publication year or page number, so none could be appended.
-- **`anon-trinle-char`'s author is unrecorded in the source itself** (`author: "unknown"`,
+- **`yama-sonam`'s author is unrecorded in the source itself** (`author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`,
   `author_in_english: "unknown"` in the raw file's own frontmatter) — rendered in the article's
-  ref and works-cited bullet as "མཛད་པ་པོ་མ་གསལ།" (author unclear), a plain translation of that
+  ref and works-cited bullet as "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" (Jetsün Yama Sonam), a plain translation of that
   recorded fact, not a new claim.
 - **Scope narrower than the consolidated page's full attestation counts** — see "Deliberately
   out of scope" above. A reviewer wanting full parity with every attestation on
@@ -160,10 +160,10 @@ Every quotation in the Reference map above was checked character-for-character
 
 | # | Commentary:Claim | Result |
 |---|---|---|
-| 1 | anon-trinle-char:c-3-9-3 | PASS |
-| 2 | anon-trinle-char:c-3-9-5 | PASS |
-| 3 | anon-trinle-char:c-3-9-6 | PASS (fixed — see note below) |
-| 4 | anon-trinle-char:c-3-9-7 | PASS |
+| 1 | yama-sonam:c-3-9-3 | PASS |
+| 2 | yama-sonam:c-3-9-5 | PASS |
+| 3 | yama-sonam:c-3-9-6 | PASS (fixed — see note below) |
+| 4 | yama-sonam:c-3-9-7 | PASS |
 | 5 | tenzin-dhonzang:c-4-9-1 | PASS |
 | 6 | tenzin-dhonzang:c-4-9-3 | PASS (fixed — see note below) |
 | 7 | tenzin-dhonzang:c-4-9-4 (both quoted portions) | PASS |
@@ -190,7 +190,7 @@ individually verified.)
 Three quotations required a fix during drafting before verification passed, all caught and
 corrected in this same session, before the article was finalized:
 
-1. **`anon-trinle-char:c-3-9-6`** — an early draft wrote "ཕྱག་རྒྱའི་རྒྱུ་སངས་རྒྱས་..." but the
+1. **`yama-sonam:c-3-9-6`** — an early draft wrote "ཕྱག་རྒྱའི་རྒྱུ་སངས་རྒྱས་..." but the
    source reads "ཕྱག་རྒྱས་ནི། རྒྱུ་སངས་རྒྱས་..." — the quote was corrected to start exactly at
    "རྒྱུ་སངས་རྒྱས་..." (an exact substring), with the lead-in prose rewritten around it.
 2. **`tenzin-dhonzang:c-4-9-3`** — an early draft used an ellipsis ("...") inside the quotation

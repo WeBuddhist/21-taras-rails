@@ -3,7 +3,7 @@ registered_id: sungrab-tulku
 title: "སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད"
 title_in_english: "Commentary on the Twenty-One Homages to Tara (literal rendering — no title_in_english field present in the source commentary's own frontmatter)"
 author: "འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་"
-author_in_use: "དཔལ་ལྡན་ཕ་ར་རིན་ཆེན་གླིང་"
+author_in_use: "འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་"
 author_in_english: "Drepa Ratreng Sungrab Tulku"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/sungrab-tulku.md

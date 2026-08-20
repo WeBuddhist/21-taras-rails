@@ -1,7 +1,10 @@
 ---
 topic: svaha
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: term-articles/svaha/article.md (v1, method wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/svaha.md
 rails_status: draft
@@ -15,6 +18,24 @@ status: draft
 ---
 
 # Citations — སྭཱ་ཧཱ (svaha)
+
+**Mode B revision note (2026-08-20).** This article was rewritten in place from v1
+register to v2 register per `4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`
+Mode B. No claim ID was added or removed — the same four commentaries
+(`pema-namgyal`, `sungrab-tulku`, `taranatha`, `tsultrim-namdak`) and the same nine
+claim IDs already cited in the v1 article remain the article's sole factual basis. The
+change is register only: the consensus etymology (peace/pacifying-increasing) and the
+two structural facts in `དབྱེ་བ` are now stated in wikivoice without quotation; the
+naming-of-the-whole-mantra claim (`sungrab-tulku:c-26-2`/`c-26-10`) and the two
+generic-mantra-closer examples (`tsultrim-namdak:c-5-2-7-1-8`/`c-8-1-7`) are paraphrased
+from their existing glosses rather than quoted verbatim; the alternate "homage to you"
+gloss (`pema-namgyal:c-2-4-9`) and the doctrinal "indestructible speech" reading
+(`taranatha:c-15-17`) are the two quotations retained under the Rule 6 budget, since in
+both cases the exact wording is itself the point (a contested alternate gloss and a
+distinctive doctrinal formulation). All in-prose commentator names were already the
+`author_in_use` form in the v1 draft (verified against each raw claims file's
+frontmatter below) and are unchanged. All commas were removed and the punctuation
+contract applied throughout.
 
 Scope: this article covers SVĀHĀ specifically — its attested word-glosses ("peace"/
 pacifying-sin-increasing-virtue; "homage to you"; an activity-ending classification), a
@@ -58,12 +79,36 @@ statements trace only to claims actually cited on the consolidated page's facets
 
 ## Claims used but not quoted
 
-The lead paraphrases the etymology and generic-closer facets before they are quoted in
-full further down (`sungrab-tulku:c-26-11`, `tsultrim-namdak:c-5-3-3`,
-`pema-namgyal:c-2-4-9`, `tsultrim-namdak:c-5-2-7-1-8`/`c-8-1-7`); the `བསྡུས་དོན`
-section likewise paraphrases the same claims a second time as a closing summary. No
-claim in this article entered the prose as paraphrase *only* — every one is also
-quoted verbatim at least once in the body.
+Post-revision (Mode B, v2 register), the quotation budget (Rule 6, ≤2 per article)
+means most claims now enter the prose as paraphrase only, grounded in the same
+glosses already on record from the v1 draft:
+
+- `sungrab-tulku:c-26-11` — peace/pacifying-increasing etymology; stated in wikivoice
+  (lead, `ངེས་ཚིག`) jointly with `tsultrim-namdak:c-5-3-3`, no quotation.
+- `tsultrim-namdak:c-5-3-3` — same etymology, second attestation; wikivoice, no
+  quotation.
+- `sungrab-tulku:c-26-2` / `c-26-10` — SVĀHĀ names the whole ten-syllable mantra by
+  its final syllable; paraphrased in `དབྱེ་བ` and `བསྡུས་དོན`, no quotation.
+- `tsultrim-namdak:c-5-2-7-1-8` / `c-8-1-7` — SVĀHĀ attached to generic mantras
+  unrelated to the root mantra; paraphrased in `དབྱེ་བ` and `བསྡུས་དོན` as a general
+  usage pattern rather than reproducing the two example mantra strings verbatim, since
+  the exact wording of those illustrative formulas is not itself the point.
+
+Two claims remain quoted verbatim, per Rule 6 (exact wording is itself the point):
+`pema-namgyal:c-2-4-9` (the contested alternate "homage to you" gloss, in `ངེས་ཚིག`)
+and `taranatha:c-15-17` (the distinctive doctrinal "indestructible speech" reading, in
+`མཚན་ཉིད`). `taranatha:c-15-9` (the activity-transforming classification) is now
+paraphrased rather than quoted, in `ངེས་ཚིག`.
+
+## Full attestation beyond in-article refs
+
+Not applicable in the strict sense — no statement in the revised article carries more
+than 2 refs, so the Rule 7 citation cap (≤3) was never binding and no attestation was
+dropped for cap reasons. The v1 citations.md's own note stands unchanged: only 4 of the
+16 commentaries in `2-RAILS/Claims/svaha.md`'s packet land a citation here, because the
+other 12 commentaries' claims all restate content whose interpretive territory belongs
+to a sibling page (`tara-15.md`, `tara-mantra.md`, `mantra.md`, `hum-syllable.md`, or
+`phat.md`) — see the Warnings section below, carried forward unchanged from v1.
 
 ## Unresolvable attestations
 
@@ -87,7 +132,7 @@ text's own mantra") resolved cleanly against its raw tree-guided file.
   no year, no page — because none of these commentaries' raw claims frontmatter
   records a `year` or `page` field.
 - **Twelve of the sixteen commentaries in the consolidated page's packet are not cited
-  in this article** (`anon-trinle-char`, `anon-utpala`, `drakpa-gyaltsen`, `gendun-drub`,
+  in this article** (`yama-sonam`, `dharmabhadra`, `drakpa-gyaltsen`, `gendun-drub`,
   `gendun-gyatso`, `karma-maitri`, `konchok-thabkhe`, `lobsang-dawa`, `palden-sherab`,
   `sangye-nyentrul`, `tenga-tulku`, `tenzin-dhonzang`). This is not a coverage gap — see
   `2-RAILS/Claims/svaha.md`'s own Coverage table: every one of their gathered claims
@@ -104,47 +149,55 @@ text's own mantra") resolved cleanly against its raw tree-guided file.
 
 ## Verification
 
-Every quotation was located character-for-character (whitespace-collapsed, checked via
-a Python containment test against the exact `1-SOURCES/` file its claim's `Cite:`
-target names) before being placed in `article.md`. All 9 distinct quotations pass; no
-correction was needed.
+Original verification (2026-08-14, v1): all 9 quotations then in the article were
+located character-for-character against their cited `1-SOURCES/` files; all 9 passed.
+This Mode B revision (2026-08-20) does not re-derive that work. It retains only 2 of
+those 9 quotations, unchanged; each was spot-verified as an unchanged, exact substring
+of its original PASS-marked quotation (a text diff against the v1 article, not a fresh
+`1-SOURCES/` lookup, per Mode B Step 6).
 
 | # | Quotation (as drafted) | Claim | Result |
 |---|---|---|---|
-| 1 | "སྭཱ་ཧཱ་སྟེ་ཞི་བའི་དོན་ལ་གོ སྡིག་པ་ཐམས་ཅད་ཞི་བར་བྱེད་ཅིང་དགེ་བའི་ཚོགས་ཐམས་ཅད་འཕེལ་བར་བྱེད་པའོ།།" | sungrab-tulku:c-26-11 | PASS |
-| 2 | "སྡིག་པ་ཐམས་ཅད་ཞི་བྱེད་ཅིང་། །དགེ་བའི་ ཚོགས་ནི་འཕེལ་བར་བྱེད།" | tsultrim-namdak:c-5-3-3 | PASS (source splits this claim's opening syllable "སྭཱཧྭ" across a block boundary — ^0-573 ends "…སྭཱ་ཧཱ་ནི། སྭཱ་" and ^0-574 begins "ཧྭ་ཞེས་ནི་…" — so the quotation was drawn entirely from block ^0-574, after the split, rather than reproducing the cross-block artifact) |
-| 3 | "སྭཱ་ཧུའི་ཡི་གེ་ནི་ཁྱོད་ལ་འདུད་དོ།" | pema-namgyal:c-2-4-9 | PASS |
-| 4 | "འདིས་ཞི་བའི་ལས་ཀྱི་མཐའ་བསྒྱུར་བའི་སྔགས་སྭཱ་ཧཱ་ར་བཤད་ཅིང་།" | taranatha:c-15-9 | PASS |
-| 5 | "གསུང་གཞོམ་མེད་ཀྱི་སྒྲ་རིག་སྔགས་ཨོཾ་དང་སྭཱ་ཧཱ་ས་མཚོན་པ་མཐའ་ཡས་པར་ཤར་བས།" | taranatha:c-15-17 | PASS |
-| 6 | "སྭཱ་ཧཱ་ཡི་གེ་བཅུ་ལ་རབ་འདུད།།" | sungrab-tulku:c-26-2 | PASS |
-| 7 | "སྭཱ་ཧཱ་ཡི་གེ་བཅུ་ལ་རབ་འདུད༎ ཞེས་པ་སྟེ།" | sungrab-tulku:c-26-10 | PASS |
-| 8 | "ཨོཾ་ཨཱརྱ་ཏཱ་རེ་ས་པ་རི་ཝཱ་ར་བཛྲ་ཨགྷཾ། པཱཏྱཾ། པུསྦེ། དྷུཔེ། ཨ་ལོ་ཀེ གདྡྷེ། ནེ་ཝིདྱ། ཤཔྟ་པྲ་ཙྪ་སྭཱ་ཧཱ།" | tsultrim-namdak:c-5-2-7-1-8 | PASS |
-| 9 | "ཨོཾ་ཏཱ་རེ་ཀྲྀ་པཱ་བ་ལཾ་བ་ན། མཻ་ཏྱ་ ཏྰ་གེ་ཤྲ་པ་ཎཱི་ཡེ་སྭཱ་ཧཱ།" | tsultrim-namdak:c-8-1-7 | PASS |
+| 1 | "སྭཱ་ཧུའི་ཡི་གེ་ནི་ཁྱོད་ལ་འདུད་དོ།" | pema-namgyal:c-2-4-9 | PASS (spot-verified unchanged vs. v1 original PASS) |
+| 2 | "གསུང་གཞོམ་མེད་ཀྱི་སྒྲ་རིག་སྔགས་ཨོཾ་དང་སྭཱ་ཧཱ་ས་མཚོན་པ་མཐའ་ཡས་པར་ཤར་བས།" | taranatha:c-15-17 | PASS (spot-verified unchanged vs. v1 original PASS) |
 
-**9/9 quotations verified PASS.**
+The other 7 quotations previously in the article (`sungrab-tulku:c-26-11`,
+`tsultrim-namdak:c-5-3-3`, `taranatha:c-15-9`, `sungrab-tulku:c-26-2`,
+`sungrab-tulku:c-26-10`, `tsultrim-namdak:c-5-2-7-1-8`, `tsultrim-namdak:c-8-1-7`) were
+removed from quotation and now appear only as paraphrase (see *Claims used but not
+quoted* above); removed quotations need no re-check per Mode B Step 6.
 
-## Spec checklist (V1–V12, manual walk per the skill's Step 8c)
+**2/2 retained quotations verified PASS. Quotation budget (Rule 6, ≤2) satisfied.**
 
-- **V1** — all 9 quotations verified, see above.
+## Spec checklist (V1–V12, manual walk per Mode B Step 7)
+
+- **V1** — the 2 retained quotations spot-verified unchanged, see above.
 - **V2** — every `<ref>` body is `<AUTHOR>། <TITLE>།` drawn verbatim from the cited
-  commentary's own raw-file frontmatter (`author`/`title`).
+  commentary's own raw-file frontmatter (`author`/`title`); unchanged from v1.
 - **V3** — `<references />` present; the article has `<ref>` tags.
 - **V4** — no `{{Reflist}}` anywhere.
-- **V5** — 4 named refs, each with exactly one full definition (verified
-  programmatically: 4 full opens, 4 closes, 14 self-closing reuses, no undefined
-  self-closes).
-- **V6** — 7 `==` headings present (ངེས་ཚིག, མཚན་ཉིད, དབྱེ་བ, བསྡུས་དོན,
+- **V5** — 4 named refs, each with exactly one full definition (recounted after
+  revision: 4 full opens, 10 self-closing reuses, no undefined self-closes — down from
+  14 self-closes in v1, since several statements were merged into fewer, denser
+  sentences per Rule 8).
+- **V6** — same 7 `==` headings as v1, unchanged (ངེས་ཚིག, མཚན་ཉིད, དབྱེ་བ, བསྡུས་དོན,
   འབྲེལ་ཡོད་ཤོག་ངོས, ལུང་ཁུངས, དཔྱད་གཞིའི་ཡིག་ཆ).
-- **V7** — one category, `ནང་བསྟན།`, on the spec §5 allowlist.
-- **V8** — every non-tail section carries at least one citation (checked
-  programmatically; lead and all four body sections have ≥1 `<ref>`).
-- **V9** — verified programmatically: zero Latin/ASCII characters anywhere in the fence
-  body outside `<ref name="...">` attribute markup.
-- **V10** — verified programmatically: the lead's bold span `'''སྭཱ་ཧཱ་'''ནི་` keeps the
-  tsheg inside the bold before the boundary; the two `དབྱེ་བ` subheadings' bold spans
-  end in a shad (valid Tibetan line-break point) before the following space, matching
-  the pattern already used in the sibling `phat` article. All three wikilink targets
-  (`སྒྲོལ་མ་`, `སྔགས་`, `ཕཊ་`) end in tsheg, never shad.
+- **V7** — one category, `ནང་བསྟན།`, on the spec §5 allowlist; unchanged.
+- **V8** — every non-tail section carries at least one citation (lead and all four
+  body sections have ≥1 `<ref>`).
+- **V9** — zero Latin/ASCII characters anywhere in the fence body outside
+  `<ref name="...">` attribute markup.
+- **V10** — the lead's bold span `'''སྭཱ་ཧཱ་'''ནི་` keeps the tsheg inside the bold
+  before the boundary; wikilink targets (`སྒྲོལ་མ་`, `སྔགས་`, `ཕཊ་`) end in tsheg.
 - **V11** — tail order is འབྲེལ་ཡོད་ཤོག་ངོས། → ལུང་ཁུངས། → དཔྱད་གཞིའི་ཡིག་ཆ།, exactly once
-  each, nothing after.
+  each, nothing after; unchanged from v1.
 - **V12** — no placeholder text, no dummy URLs, no leftover chatter.
+- **Punctuation contract (Rules 15–16)** — no comma character anywhere in the revised
+  fence body (checked by inspection, none present); every sentence ends `།`; every
+  paragraph's final sentence ends `།།`; punctuation precedes every `<ref>` tag it
+  closes over, never follows.
+- **Author naming (Rule 17)** — all four in-prose names (ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་,
+  འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་, ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་, མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་) match each
+  commentary's own `author_in_use` frontmatter value exactly (checked directly against
+  `2-RAILS/Claims/raw/tree-guided/{pema-namgyal,sungrab-tulku,taranatha,
+  tsultrim-namdak}.md` frontmatter); no fallback needed, no warning to log.

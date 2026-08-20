@@ -3,8 +3,8 @@ topic: benefits
 spine: "^a-1–^a-7 (the closing ཕན་ཡོན / benefits-of-recitation section; ^a-7 is the colophon)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -154,9 +154,9 @@ None observed.
 ### Consensus
 Recitation is said to bring swift empowerment/blessing by countless buddhas or victors (རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་, literally "victors, ten-million-fold sevenfold"), a state superior to one's present condition already in this life, and ultimately the attainment of buddhahood:
 
-— attested: `anon-utpala:c-1-3-1`, `anon-utpala:c-1-3-2`, `anon-utpala:c-1-3-3`, `drakpa-gyaltsen:c-2-6`, `drakpa-gyaltsen:c-2-7`, `drakpa-gyaltsen:c-2-8`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `karma-maitri:c-1-2-9`, `karma-maitri:c-1-2-10`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `palden-sherab:c-3-2-2-3-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-18`, `taranatha:c-22-1-19`, `taranatha:c-22-1-20`, `taranatha:c-22-1-21`, `taranatha:c-22-1-22`, `taranatha:c-22-1-23`, `taranatha:c-22-1-24`, `taranatha:c-22-1-25`, `tenga-tulku:c-1-3-3-2`, `tenga-tulku:c-1-3-3-3`, `tsultrim-namdak:c-8-5` (11 commentaries)
+— attested: `dharmabhadra:c-1-3-1`, `dharmabhadra:c-1-3-2`, `dharmabhadra:c-1-3-3`, `drakpa-gyaltsen:c-2-6`, `drakpa-gyaltsen:c-2-7`, `drakpa-gyaltsen:c-2-8`, `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `karma-maitri:c-1-2-9`, `karma-maitri:c-1-2-10`, `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `palden-sherab:c-3-2-2-3-1`, `pema-namgyal:c-3-2`, `taranatha:c-22-1-18`, `taranatha:c-22-1-19`, `taranatha:c-22-1-20`, `taranatha:c-22-1-21`, `taranatha:c-22-1-22`, `taranatha:c-22-1-23`, `taranatha:c-22-1-24`, `taranatha:c-22-1-25`, `tenga-tulku:c-1-3-3-2`, `tenga-tulku:c-1-3-3-3`, `tsultrim-namdak:c-8-5` (11 commentaries)
 
-The Tibetan numeral for the victors is uniform across every attestation in the packet — རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་ (rgyal ba bye ba phrag bdun), "victors, seven times ten-million," i.e. seventy million — but this page's own raw-extraction English glosses render the same phrase inconsistently: "seventy million" (`anon-utpala:c-1-3-1`, English gloss), "seven times ten-million" (`gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`), and "seven hundred million" (`gendun-drub:c-2-2-3-3-1`, `pema-namgyal:c-3-2`, `tsultrim-namdak:c-8-5`, English glosses). Because the Tibetan itself does not vary, this is logged as a translation inconsistency internal to the individual raw extractions' own English glosses, not as an attested disagreement among the commentaries — it is not treated as a ⚑ divergence.
+The Tibetan numeral for the victors is uniform across every attestation in the packet — རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་ (rgyal ba bye ba phrag bdun), "victors, seven times ten-million," i.e. seventy million — but this page's own raw-extraction English glosses render the same phrase inconsistently: "seventy million" (`dharmabhadra:c-1-3-1`, English gloss), "seven times ten-million" (`gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`), and "seven hundred million" (`gendun-drub:c-2-2-3-3-1`, `pema-namgyal:c-3-2`, `tsultrim-namdak:c-8-5`, English glosses). Because the Tibetan itself does not vary, this is logged as a translation inconsistency internal to the individual raw extractions' own English glosses, not as an attested disagreement among the commentaries — it is not treated as a ⚑ divergence.
 
 ### ⚑ Divergences
 None observed in the Tibetan content itself (see the numeral note above).
@@ -313,7 +313,7 @@ None observed as doctrinal disagreement — the additional transmission details 
 
 ## Claims reviewed, not separately cited
 
-- `anon-utpala:c-1-3-4` — a textual-critical note on a variant translation of the closing line ("in some translations... it is explained as..."); no independent benefit or doctrinal content beyond the attribution already cited under "Empowerment and attainment up to buddhahood."
+- `dharmabhadra:c-1-3-4` — a textual-critical note on a variant translation of the closing line ("in some translations... it is explained as..."); no independent benefit or doctrinal content beyond the attribution already cited under "Empowerment and attainment up to buddhahood."
 - `drakpa-gyaltsen:c-2-24` — closing title restatement ("the Explanation... is complete"); a structural marker of the commentary's own end, not root-text benefit content.
 - `gendun-gyatso:c-2-8` — the commentary-author's own summary note and a list of named sādhana lineages (Atiśa, Ācārya Nyima Bepa); concerns the commentarial tradition, not the root text's benefits.
 - `gendun-gyatso:c-2-9` — the commentary-author's own closing dedication verse; not root-text content.
@@ -340,8 +340,8 @@ None observed as doctrinal disagreement — the additional transmission details 
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | none (silent) | — |
-| `anon-utpala` | c-1-3-1, c-1-3-2, c-1-3-3, c-1-3-4 (4) | Empowerment and attainment up to buddhahood |
+| `yama-sonam` | none (silent) | — |
+| `dharmabhadra` | c-1-3-1, c-1-3-2, c-1-3-3, c-1-3-4 (4) | Empowerment and attainment up to buddhahood |
 | `drakpa-gyaltsen` | c-2-1 … c-2-24 (24), plus c-1-101, c-1-102 (2 extra) | Structural framing, Manner/motivation/time, Fearlessness, Purification of sin/lower rebirth, Empowerment/buddhahood, Protection from poison, Protection from spirits/epidemics, Meaning of "two/three/seven", Desires fulfilled/obstacles destroyed, Colophon |
 | `gendun-drub` | c-2-2-3-1-1 … c-2-2-3-4-3 (14) | Structural framing, Manner/motivation/time, Fearlessness, Purification of sin/lower rebirth, Empowerment/buddhahood, Protection from poison, Protection from spirits/epidemics, Meaning of "two/three/seven", Doctrinal: allegorical "poison" |
 | `gendun-gyatso` | c-2-1 … c-2-10 (10) | Structural framing, Manner/motivation/time, Fearlessness, Purification of sin/lower rebirth, Empowerment/buddhahood, Protection from poison, Protection from spirits/epidemics, Meaning of "two/three/seven", Desires fulfilled/obstacles destroyed |
@@ -357,4 +357,4 @@ None observed as doctrinal disagreement — the additional transmission details 
 | `tenzin-dhonzang` | none (silent) | — |
 | `tsultrim-namdak` | c-8-5 (1) | Manner/motivation/time, Fearlessness, Purification of sin/lower rebirth, Empowerment/buddhahood, Protection from poison, Protection from spirits/epidemics, Meaning of "two/three/seven", Desires fulfilled/obstacles destroyed |
 
-**Commentaries silent on this topic:** `anon-trinle-char` (its tree ends at node 3.21, the twenty-first homage; no node or claim addresses the closing ཕན་ཡོན section), `lobsang-dawa` (its final node states only the praise's total stanza-count via the root mantras; no node or claim quotes or comments on ^a-1–^a-7), `tenzin-dhonzang` (its designated benefits node, node 5, holds no claims — the source file's extant text ends before node 5's own text begins, per its raw claims file's own note).
+**Commentaries silent on this topic:** `yama-sonam` (its tree ends at node 3.21, the twenty-first homage; no node or claim addresses the closing ཕན་ཡོན section), `lobsang-dawa` (its final node states only the praise's total stanza-count via the root mantras; no node or claim quotes or comments on ^a-1–^a-7), `tenzin-dhonzang` (its designated benefits node, node 5, holds no claims — the source file's extant text ends before node 5's own text begins, per its raw claims file's own note).

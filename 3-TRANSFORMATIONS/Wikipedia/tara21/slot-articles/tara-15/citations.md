@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-15.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -44,13 +44,13 @@ lists every raw claim actually drawn on for that commentary's citations in the a
 
 | Ref (named) | Commentary | Claim ID(s) used | Quotation (verbatim བོད་ཡིག, if quoted) | Source block(s) |
 |---|---|---|---|---|
-| trinlechar | (author unknown), *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-15-1, c-3-15-3, c-3-15-6, c-3-15-8, c-3-15-9, c-3-15-10, c-3-15-12 | (c-3-15-3) "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། ། སྭཱཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་མ ། ། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ།"; (c-3-15-6) "ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན། ། དགེ་མས་ཐར་པ་སྦྱིན་པ་སྟེ། ། དེ་བཞིན་ཞི་མས་རྫོགས་སངས་རྒྱས།"; (c-3-15-8) "ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ་ཞེས་པའི་རིག་སྔགས་ཡང་དག་པར་སྒྲོག་པའི་བྱིན་རླབས་ཀྱིས་སྡིག་པ་ཆེན་པོ་འཇོམས་པར་མཛད"; (c-3-15-10) "པདྨ་དཀར་དང་ཟླ་བ་ལ། ། རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་ཀུནྡའི་མདོག ། ཕྲེང་བ་མཆོག་སྦྱིན་དབྱུ་གུ་དང་། ། པདྨ་སྤྱི་བླུགས་པོ་ཏི་འཛིན།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-15-0, #^0-182, #^0-185, #^0-187, #^0-188, #^0-189, #^0-191 |
+| yama-sonam | (Jetsün Yama Sonam), *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-15-1, c-3-15-3, c-3-15-6, c-3-15-8, c-3-15-9, c-3-15-10, c-3-15-12 | (c-3-15-3) "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། ། སྭཱཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་མ ། ། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ།"; (c-3-15-6) "ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན། ། དགེ་མས་ཐར་པ་སྦྱིན་པ་སྟེ། ། དེ་བཞིན་ཞི་མས་རྫོགས་སངས་རྒྱས།"; (c-3-15-8) "ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ་ཞེས་པའི་རིག་སྔགས་ཡང་དག་པར་སྒྲོག་པའི་བྱིན་རླབས་ཀྱིས་སྡིག་པ་ཆེན་པོ་འཇོམས་པར་མཛད"; (c-3-15-10) "པདྨ་དཀར་དང་ཟླ་བ་ལ། ། རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་ཀུནྡའི་མདོག ། ཕྲེང་བ་མཆོག་སྦྱིན་དབྱུ་གུ་དང་། ། པདྨ་སྤྱི་བླུགས་པོ་ཏི་འཛིན།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-15-0, #^0-182, #^0-185, #^0-187, #^0-188, #^0-189, #^0-191 |
 | utpala | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-2-1 | (none quoted — paraphrased, structural ordinal only) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-67 |
 | gendundrub | རྒྱལ་བ་དགེ་འདུན་གྲུབ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ* | c-2-2-2-2-2-1, c-2-2-2-2-2-3, c-2-2-2-2-2-6 | (c-2-2-2-2-2-6) "འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-76, #^0-78, #^0-79, #^0-82 |
 | sungrabtulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ, *སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད* | c-18-1, c-18-3, c-18-5 | (c-18-3) "རྗེ་བཙུན་སྒྲོལ་མ་ཞི་བ་ཆེན་མོ"; (c-18-5) "གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-85, #^0-87, #^0-88 |
 | tenzindhonzang | སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང, *སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ* | c-4-15-1 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-231 |
 | paldensherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ, *རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...* | c-3-1-15-0-1, c-3-1-15-2-1, c-3-1-15-2-2, c-3-1-15-4-1 | (none quoted from this commentary — paraphrased throughout; its five-wisdoms equation is co-quoted under `taranatha`'s ref since the two share the identical wording) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-147, #^0-151, #^0-152, #^0-154 |
-| sangyenyentrul | སངས་རྒྱས་མཉན་སྤྲུལ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར* | c-16-0-1, c-16-1-1, c-16-1-2, c-16-1-3 | (c-16-1-1) "སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ་འདི་ཉིད་སྐུ་མདོག་དཀར་མོ།" | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-67, #^0-69 |
+| sangyenyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར* | c-16-0-1, c-16-1-1, c-16-1-2, c-16-1-3 | (c-16-1-1) "སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ་འདི་ཉིད་སྐུ་མདོག་དཀར་མོ།" | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-67, #^0-69 |
 | tsultrimnamdak | མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག, *སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས* | c-3-18 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-236–#^0-240 |
 | konchok | དཀོན་མཆོག་ཐབས་མཁས, *ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང* | c-2-15-2, c-2-15-3 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78, #^0-79 |
 | tengatulku | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང* | c-1-2-2-2-1, c-1-2-2-2-3, c-1-2-2-2-4 | (c-1-2-2-2-4, shared verbatim substring with `sungrabtulku:c-18-5`) "གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-125, #^0-131, #^0-132 |
@@ -61,9 +61,9 @@ lists every raw claim actually drawn on for that commentary's citations in the a
 
 ## Claims used but not quoted (paraphrased, per section)
 
-- **Lead / structural placement:** taranatha:c-15-1, anon-utpala:c-1-2-2-2-1, gendun-drub:c-2-2-2-2-2-1.
+- **Lead / structural placement:** taranatha:c-15-1, dharmabhadra:c-1-2-2-2-1, gendun-drub:c-2-2-2-2-2-1.
 - **མཚན་གྱི་ངེས་ཚིག (name/classification):** sungrab-tulku:c-18-1, tenzin-dhonzang:c-4-15-1, palden-sherab:c-3-1-15-0-1, tsultrim-namdak:c-3-18.
-- **སྐུ་ཡི་རྣམ་པ (iconography):** palden-sherab:c-3-1-15-2-1, sangye-nyentrul:c-16-1-2, tsultrim-namdak:c-3-18, anon-trinle-char:c-3-15-9.
+- **སྐུ་ཡི་རྣམ་པ (iconography):** palden-sherab:c-3-1-15-2-1, sangye-nyentrul:c-16-1-2, tsultrim-namdak:c-3-18, yama-sonam:c-3-15-9.
 - **ཕྲིན་ལས་དང་ནུས་མཐུ (activity/mantra/protection/ablution):** taranatha:c-15-8, konchok-thabkhe:c-2-15-3, tsultrim-namdak:c-3-18, sungrab-tulku:c-18-1(context)/c-18-5, tenga-tulku:c-1-2-2-2-4, palden-sherab:c-3-1-15-2-2, sangye-nyentrul:c-16-0-1/c-16-0-2/c-16-1-3.
 - **གཞུང་ལུགས་སོ་སོའི་བཤད་པ (etymology divergence and hidden meaning):** gendun-gyatso:c-1-15-1, konchok-thabkhe:c-2-15-2, pema-namgyal:c-2-4-42, gendun-drub:c-2-2-2-2-2-3, palden-sherab:c-3-1-15-4-1, tenga-tulku:c-1-2-2-2-3/c-1-2-2-2-4, pema-namgyal:c-2-4-58.
 
@@ -93,9 +93,9 @@ that claim's own `བོད་ཡིག` field.
   vault's citation convention.
 - **All 14 refs have no public URL.** Per skill Rule 7, no URL was fabricated (no `dummy.com`, no
   invented link) since none of these commentaries has a resolved public source URL yet.
-- **`trinlechar`'s author field.** `anon-trinle-char.md`'s own frontmatter gives `author: "unknown"`
+- **`yama-sonam`'s author field.** `yama-sonam.md`'s own frontmatter gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`
   (English, no Tibetan author name recorded). The bibliography and lead-section ref render this as
-  "མཛད་པ་པོ་མ་གསལ།" (a literal Tibetan rendering of "author unclear") rather than inventing a name.
+  "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" (a literal Tibetan rendering of "Jetsün Yama Sonam") rather than inventing a name.
   A human contributor should confirm this is the preferred convention for anonymous-authorship
   citations vault-wide, since no other slot article reviewed as a style reference needed to make
   this call.
@@ -107,7 +107,7 @@ that claim's own `བོད་ཡིག` field.
   a different scheme.
 - **Adjacent "related pages" links use attested homage names from outside this slot's own claim
   set.** `རྗེ་བཙུན་མ་འགུགས་བྱེད་སྒྲོལ་མ་` (14th) and `རྗེ་བཙུན་མ་དགྲ་འཇོམས་མ་` (16th) are section
-  headings read directly from `anon-trinle-char.md` (its own nodes 3.14 and 3.16, immediately
+  headings read directly from `yama-sonam.md` (its own nodes 3.14 and 3.16, immediately
   adjacent to node 3.15 used throughout this article) while resolving that file — real, attested
   names, but not among the claim IDs cited in `2-RAILS/Claims/tara-15.md` itself. Both are expected
   red links, per skill Rule 6.
@@ -126,16 +126,16 @@ no failures, nothing removed or corrected.
 
 | # | Quotation (opening words) | Claim | Source file / block | Result |
 |---|---|---|---|---|
-| 1 | ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ... (root verse) | anon-trinle-char:c-3-15-3 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182 | PASS |
+| 1 | ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ... (root verse) | yama-sonam:c-3-15-3 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182 | PASS |
 | 2 | སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ་འདི་ཉིད་སྐུ་མདོག་དཀར་མོ། | sangye-nyentrul:c-16-1-1 | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-69 | PASS |
 | 3 | འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་། | gendun-drub:c-2-2-2-2-2-6 | ...ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-82 | PASS |
-| 4 | པདྨ་དཀར་དང་ཟླ་བ་ལ... (Nyima Sbaspa iconography verse) | anon-trinle-char:c-3-15-10 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-189 | PASS |
-| 5 | ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ... (mantra + destroys great sin) | anon-trinle-char:c-3-15-8 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-187 | PASS |
+| 4 | པདྨ་དཀར་དང་ཟླ་བ་ལ... (Nyima Sbaspa iconography verse) | yama-sonam:c-3-15-10 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-189 | PASS |
+| 5 | ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ... (mantra + destroys great sin) | yama-sonam:c-3-15-8 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-187 | PASS |
 | 6 | གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག (fears phrase) | sungrab-tulku:c-18-5 | ...སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-88 | PASS |
 | 7 | གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག (identical phrase) | tenga-tulku:c-1-2-2-2-4 | ...གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-132 | PASS |
 | 8 | བདེ་མ་ནི་ཟག་མེད་ཀྱི་བདེ་བ་དང་ལྡན་མ | drakpa-gyaltsen:c-1-78 | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-65 | PASS |
 | 9 | བཅོམ་ལྡན་འདས་མ་ཉིད་རྟག་ཏུ་བདེ་བ་དང་... | taranatha:c-15-3 | ...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-50 | PASS |
-| 10 | ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན... (Nyima Sbaspa etymology verse) | anon-trinle-char:c-3-15-6 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-185 | PASS |
+| 10 | ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན... (Nyima Sbaspa etymology verse) | yama-sonam:c-3-15-6 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-185 | PASS |
 | 11 | བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས... (five-wisdoms equations) | taranatha:c-15-12…15 | ...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-52 | PASS |
 
 **11/11 quotations PASS. 0 FAIL.** (Quote #6/#7 are the same short phrase independently verified

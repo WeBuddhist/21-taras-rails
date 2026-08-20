@@ -3,8 +3,8 @@ topic: dana
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -85,7 +85,7 @@ generosity, diligence, austerity, peace, patience, and meditative
 concentration") — homage 3 of the twenty-one, addressed to the golden-blue,
 lotus-handed Tārā.
 
-— attested: `anon-trinle-char:c-3-3-3`, `anon-utpala:c-1-2-2-1-1-2-2`,
+— attested: `yama-sonam:c-3-3-3`, `dharmabhadra:c-1-2-2-1-1-2-2`,
 `sungrab-tulku:c-6-2`, `palden-sherab:c-3-1-3-0-2`,
 `tenga-tulku:c-1-2-2-1-1-2-2`, `tenzin-dhonzang:c-4-3-2`,
 `tsultrim-namdak:c-2-1-2-1-10` (7 commentaries)
@@ -95,7 +95,7 @@ commentaries, gloss the same list without quoting the verse verbatim, each
 naming dāna first among the pāramitās constituting this Tārā's own domain of
 practice:
 
-— attested: `anon-trinle-char:c-3-3-6`, `anon-utpala:c-1-2-2-1-1-2-5`,
+— attested: `yama-sonam:c-3-3-6`, `dharmabhadra:c-1-2-2-1-1-2-5`,
 `gendun-drub:c-2-2-2-2-1-1-2-4`, `gendun-gyatso:c-1-3-2`,
 `karma-maitri:c-1-1-3-4`, `lobsang-dawa:c-1-2-2-1-1-2-3`,
 `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`, `taranatha:c-3-4`,
@@ -124,7 +124,7 @@ it is classified:
   ethics, patience, diligence, meditative stability, wisdom, skillful
   means, aspiration, power, wisdom — to attainment of the ten grounds). The
   paraphrase claim already cited above under "Root verse" Consensus,
-  anon-trinle-char's claim on the same node (see that section), likewise
+  yama-sonam's claim on the same node (see that section), likewise
   states "she has made the ten perfections her domain" — the same
   ten-count position, not re-cited here to avoid a duplicate citation
   within one facet.
@@ -279,14 +279,14 @@ None observed.
 
 **Out of scope — མཆོག་སྦྱིན (supreme-giving/*varada* mudrā), an iconographic
 hand-gesture name unrelated to the pāramitā** (per the Scope note above):
-`anon-trinle-char:c-3-4-10`, `anon-trinle-char:c-3-18-7`,
-`anon-trinle-char:c-3-18-8`, `sungrab-tulku:c-12-5`,
+`yama-sonam:c-3-4-10`, `yama-sonam:c-3-18-7`,
+`yama-sonam:c-3-18-8`, `sungrab-tulku:c-12-5`,
 `tenga-tulku:c-1-2-2-1-2-2-4`, `tsultrim-namdak:c-2-1-2-1-33`.
 
 **Out of scope — generic verb "to grant/bestow" (སྦྱིན་པ/སྦྱིན་པར་མཛད་པ),
 describing Tārā's activity with no pāramitā content** (per the Scope note
-above): `anon-trinle-char:c-3-15-4` (bestows the state of omniscience),
-`anon-trinle-char:c-3-15-6` (Nyima Sbaspa verse: "by Virtue you grant
+above): `yama-sonam:c-3-15-4` (bestows the state of omniscience),
+`yama-sonam:c-3-15-6` (Nyima Sbaspa verse: "by Virtue you grant
 liberation"), `drakpa-gyaltsen:c-2-3` (mere recollection grants
 fearlessness), `karma-maitri:c-1-1-13-5` (bestowing bliss),
 `konchok-thabkhe:c-2-15-2` (mahāsiddha's verse on bliss/virtue/peace
@@ -308,8 +308,8 @@ pāramitā).
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-3-3, c-3-3-6, c-3-4-10, c-3-15-4, c-3-15-6, c-3-18-7, c-3-18-8 (7) | Root verse (verbatim + paraphrase + divergence), Claims reviewed |
-| `anon-utpala` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 (2) | Root verse (verbatim, paraphrase) |
+| `yama-sonam` | c-3-3-3, c-3-3-6, c-3-4-10, c-3-15-4, c-3-15-6, c-3-18-7, c-3-18-8 (7) | Root verse (verbatim + paraphrase + divergence), Claims reviewed |
+| `dharmabhadra` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-5 (2) | Root verse (verbatim, paraphrase) |
 | `drakpa-gyaltsen` | c-1-15, c-2-3 (2) | Definitional gloss, Claims reviewed |
 | `gendun-drub` | c-2-2-2-2-1-1-2-4 (1) | Root verse (paraphrase) |
 | `gendun-gyatso` | c-1-3-2 (1) | Root verse (paraphrase) |

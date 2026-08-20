@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/kinnara.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -46,11 +46,11 @@ that claim.
 
 | Ref | Commentary | Claim ID(s) | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-utpala | anon-utpala | c-1-2-3-4-2 | "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།" (lead) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84 |
+| dharmabhadra | dharmabhadra | c-1-2-3-4-2 | "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།" (lead) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84 |
 | sungrab-tulku | sungrab-tulku | c-22-2 | same lead quotation, cited as corroborating (source's own wording differs — see Warnings) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-102 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-19-2 | same lead quotation, cited as corroborating (source's own wording differs — see Warnings) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-270 |
 | tenga-tulku | tenga-tulku | c-1-2-3-4-2 | same lead quotation, cited as corroborating (source's own wording differs — see Warnings) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-157–#^0-161 |
-| anon-trinle-char | anon-trinle-char | c-3-19-3, c-3-19-4 | — (lead: bundled into generic "sixteen commentaries" attribution, unquoted) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-233, #^0-234 |
+| yama-sonam | yama-sonam | c-3-19-3, c-3-19-4 | — (lead: bundled into generic "sixteen commentaries" attribution, unquoted) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-233, #^0-234 |
 | drakpa-gyaltsen | drakpa-gyaltsen | c-1-91 | (quoted separately below, Named exemplar section) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-75 |
 | gendun-drub | gendun-drub | c-2-2-2-3-4-2 | (quoted separately below, Named exemplar section) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-98 |
 | gendun-gyatso | gendun-gyatso | c-1-19-1 | — (unquoted, generic) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-32 |
@@ -62,7 +62,7 @@ that claim.
 | sangye-nyentrul | sangye-nyentrul | c-6-0-2, c-20-0-1 | (c-6-0-2 quoted separately below, Seven-worlds section; c-20-0-1 unquoted, generic) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-25, #^0-83 |
 | taranatha | taranatha | c-5-6, c-19-5, c-19-11 | (c-5-6 quoted separately below, Seven-worlds section; others unquoted, generic) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-19, #^0-65, #^0-67 |
 | tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-18, c-2-1-2-1-64, c-2-1-2-1-65, c-3-22 | (c-2-1-2-1-18 quoted separately below, Seven-worlds section; others unquoted, generic) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-91, #^0-140, #^0-141, #^0-253–#^0-256 |
-| anon-utpala | anon-utpala | c-1-2-3-4-3 | "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས་ཀྱི་གཙུག་གིས་གུས་པས་ཞབས་པད་བསྟེན་མ།" | #^0-85 |
+| dharmabhadra | dharmabhadra | c-1-2-3-4-3 | "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས་ཀྱི་གཙུག་གིས་གུས་པས་ཞབས་པད་བསྟེན་མ།" | #^0-85 |
 | lobsang-dawa | lobsang-dawa | c-1-2-3-4-2 | "མིའམ་ཅི་སྟེ་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ" | #^0-28 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-19-3 | "མི་འམ་ཅི་ཡིས་ལྗོན་པའི་རྒྱལ་པོ་རྟ་མགོ་ལ་སོགས་པ་རྣམས" (corrected, see Warnings) | #^0-271 |
 | gendun-drub | gendun-drub | c-2-2-2-3-4-2 | "ལྷ་དང་མིའམ་ཅིའི་རྒྱལ་པོ་ལྗོན་པ་ཆེན་པོ་ལ་སོགས་པས་གཙུག་གིས་གུས་པས་བསྟེན་མ" (corrected, see Warnings) | #^0-98 |
@@ -73,7 +73,7 @@ that claim.
 | palden-sherab | palden-sherab | c-3-1-5-1-3 | Position 1: "འགྲོ་བ་རྒྱུད་ལྔ་དང་ཁམས་གོང་མ་གཟུགས་དང་གཟུགས་མེད་གཉིས་ཏེ་བདུན་ལ་འདོད།" | #^0-56 |
 | palden-sherab | palden-sherab | c-3-1-5-1-3 | Position 2: "ཀླུ་དང། ཡི་དྭགས་དང་། ལྷ་མིན་དང་། རིག་འཛིན་དང་། མི་དང་། མིའམ་ཅི་དང་། ལྷ་སྟེ་བདུན་ལ་བཞེད་དོ།" | #^0-56 |
 | palden-sherab | palden-sherab | c-3-1-5-1-3 | Position 3: "འགྲོ་བ་རིགས་དྲུག་དང་། བར་དོར་བཞེད་དོ།" | #^0-56 |
-| anon-trinle-char | anon-trinle-char | c-3-5-6 | "འཇིག་རྟེན་བདུན" (substring, used 3× in prose) | #^0-52 |
+| yama-sonam | yama-sonam | c-3-5-6 | "འཇིག་རྟེན་བདུན" (substring, used 3× in prose) | #^0-52 |
 | palden-sherab | palden-sherab | c-3-1-19-3-1 | "ལྷའི་རྒྱལ་པོ་ནི་རྩ་དབུ་མ། ལྷ་དང་མིའམ་ཅི་ནི་རོ་རྐྱང་གཉིས།" | #^0-191 |
 | palden-sherab | palden-sherab | c-3-1-19-4-1 | "ལྷ་དང་། མིའམ་ཅི་ཡིས་བསྟེན་མ་ནི། བསོད་ནམས་དང་། ཡེ་ཤེས་ཀྱི་ཚོགས་གཉིས་ཆེན་པོ་ངང་རྫོགས་སོ།" | #^0-192 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-21-6 | — (དབྱེ་བ section; unquoted, paraphrase per kinnara.md's Taxonomy facet) | #^0-286 |
@@ -85,7 +85,7 @@ paraphrase/generic attribution rather than direct quotation, backed by its own `
 This includes: `gendun-gyatso:c-1-19-1`, `karma-maitri:c-1-1-19-2`,
 `konchok-thabkhe:c-2-19-2`, `pema-namgyal:c-2-4-50`, `sangye-nyentrul:c-20-0-1`,
 `sungrab-tulku:c-22-3`, `taranatha:c-19-5`/`c-19-11`, `tenga-tulku:c-1-2-3-4-3`,
-`tenzin-dhonzang:c-4-21-6`, `anon-trinle-char:c-3-19-3`/`c-3-19-4`,
+`tenzin-dhonzang:c-4-21-6`, `yama-sonam:c-3-19-3`/`c-3-19-4`,
 `palden-sherab:c-3-1-19-0-2`/`c-3-1-19-1-1`, and `tsultrim-namdak:c-2-1-2-1-64`/`c-2-1-2-1-65`/`c-3-22`.
 
 Two of these are themselves "quoted (root-verse form)" attestations on `kinnara.md`
@@ -118,9 +118,9 @@ in the article (quoted or bundled into a generic citation).
 - **Lead-verse quotation cited to four sources, verbatim only for one.** The lead
   paragraph's root-verse quotation — "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་
   བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།" — is followed by
-  four `<ref>` tags (anon-utpala, sungrab-tulku, tenzin-dhonzang, tenga-tulku). Verification
+  four `<ref>` tags (dharmabhadra, sungrab-tulku, tenzin-dhonzang, tenga-tulku). Verification
   found the quoted string is an **exact** character-for-character match only for
-  **anon-utpala** (`c-1-2-3-4-2`, #^0-84). The other three sources render the same verse
+  **dharmabhadra** (`c-1-2-3-4-2`, #^0-84). The other three sources render the same verse
   with their own minor textual variants, not identical to the quoted string or to each
   other:
   - **sungrab-tulku** (`c-22-2`, #^0-102): "རྩོད་དང་**རྨི་མལ**་ངན་པ་སེལ་མ**༎**" — "རྨི་མལ"
@@ -174,11 +174,11 @@ non-trivial ways.
 
 | # | Quotation (as in article.md) | Claim | Result |
 |---|---|---|---|
-| 1 | "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།" | anon-utpala:c-1-2-3-4-2 | PASS |
+| 1 | "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།" | dharmabhadra:c-1-2-3-4-2 | PASS |
 | 2 | same string | sungrab-tulku:c-22-2 | **FAIL** (source has "རྨི་མལ...སེལ་མ༎", not fixed — see Warnings) |
 | 3 | same string | tenzin-dhonzang:c-4-19-2 | **FAIL** (source has "མི་འམ་ཅི...སེམ་མ", not fixed — see Warnings) |
 | 4 | same string | tenga-tulku:c-1-2-3-4-2 | **FAIL** (source has "མི་འམ་ཅི", single shads, split blocks; not fixed — see Warnings) |
-| 5 | "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས་ཀྱི་གཙུག་གིས་གུས་པས་ཞབས་པད་བསྟེན་མ།" | anon-utpala:c-1-2-3-4-3 | PASS |
+| 5 | "མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས་ཀྱི་གཙུག་གིས་གུས་པས་ཞབས་པད་བསྟེན་མ།" | dharmabhadra:c-1-2-3-4-3 | PASS |
 | 6 | "མིའམ་ཅི་སྟེ་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ" | lobsang-dawa:c-1-2-3-4-2 | PASS |
 | 7 | "མི་འམ་ཅི་ཡིས་ལྗོན་པའི་རྒྱལ་པོ་རྟ་མགོ་ལ་སོགས་པ་རྣམས" | tenzin-dhonzang:c-4-19-3 | PASS (corrected: originally drafted as "མིའམ་ཅི" without the tsheg; source spells it "མི་འམ་ཅི" — fixed) |
 | 8 | "ལྷ་དང་མིའམ་ཅིའི་རྒྱལ་པོ་ལྗོན་པ་ཆེན་པོ་ལ་སོགས་པས་གཙུག་གིས་གུས་པས་བསྟེན་མ" | gendun-drub:c-2-2-2-3-4-2 | PASS (corrected: originally drafted with a trailing shad "བསྟེན་མ།" not present in the source, which continues directly into "སྒྲོལ་མ་ཉིད་དོ།"; fixed by dropping the added shad) |
@@ -189,7 +189,7 @@ non-trivial ways.
 | 13 | "འགྲོ་བ་རྒྱུད་ལྔ་དང་ཁམས་གོང་མ་གཟུགས་དང་གཟུགས་མེད་གཉིས་ཏེ་བདུན་ལ་འདོད།" | palden-sherab:c-3-1-5-1-3 (Position 1) | PASS |
 | 14 | "ཀླུ་དང། ཡི་དྭགས་དང་། ལྷ་མིན་དང་། རིག་འཛིན་དང་། མི་དང་། མིའམ་ཅི་དང་། ལྷ་སྟེ་བདུན་ལ་བཞེད་དོ།" | palden-sherab:c-3-1-5-1-3 (Position 2) | PASS |
 | 15 | "འགྲོ་བ་རིགས་དྲུག་དང་། བར་དོར་བཞེད་དོ།" | palden-sherab:c-3-1-5-1-3 (Position 3) | PASS |
-| 16 | "འཇིག་རྟེན་བདུན" | anon-trinle-char:c-3-5-6 | PASS |
+| 16 | "འཇིག་རྟེན་བདུན" | yama-sonam:c-3-5-6 | PASS |
 | 17 | "ལྷའི་རྒྱལ་པོ་ནི་རྩ་དབུ་མ། ལྷ་དང་མིའམ་ཅི་ནི་རོ་རྐྱང་གཉིས།" | palden-sherab:c-3-1-19-3-1 | PASS |
 | 18 | "ལྷ་དང་། མིའམ་ཅི་ཡིས་བསྟེན་མ་ནི། བསོད་ནམས་དང་། ཡེ་ཤེས་ཀྱི་ཚོགས་གཉིས་ཆེན་པོ་ངང་རྫོགས་སོ།" | palden-sherab:c-3-1-19-4-1 | PASS |
 

@@ -12,10 +12,10 @@
 > The coverage check (claims-consolidation step 5) diffs this list against the claim IDs the finished topic page cites. Every ID in the gap must be either folded into a facet or logged in “Claims reviewed, not separately cited.”
 
 ```
-anon-utpala:c-1-3-1
-anon-utpala:c-1-3-2
-anon-utpala:c-1-3-3
-anon-utpala:c-1-3-4
+dharmabhadra:c-1-3-1
+dharmabhadra:c-1-3-2
+dharmabhadra:c-1-3-3
+dharmabhadra:c-1-3-4
 drakpa-gyaltsen:c-2-1
 drakpa-gyaltsen:c-2-2
 drakpa-gyaltsen:c-2-3
@@ -206,13 +206,13 @@ tsultrim-namdak:c-8-5
 
 ---
 
-## anon-trinle-char
+## yama-sonam
 
 **Silent on this slot.** The commentary's tree ends at node 3.21 (the twenty-first homage); no node, and no claim in the raw file, addresses the closing ཕན་ཡོན section (^a-1–^a-7).
 
 ---
 
-## anon-utpala
+## dharmabhadra
 **Node(s):** 1.3 — ཕན་ཡོན་བསྟན་པ
 **Claims in this packet:** 4 mapped
 

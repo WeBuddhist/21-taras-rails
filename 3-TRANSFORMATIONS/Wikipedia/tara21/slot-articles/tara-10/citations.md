@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-10.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -45,8 +45,8 @@ verbatim (`" "`) in the article body.
 
 | Ref (named) | Commentary | Claim ID(s) used | Quotation (verbatim བོད་ཡིག, if quoted) | Source block(s) |
 |---|---|---|---|---|
-| anon-trinle-char | Anon., *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-10-1, c-3-10-3, c-3-10-4, c-3-10-5, c-3-10-7, c-3-10-8, c-3-10-9, c-3-10-10, c-3-10-11, c-3-10-12 | (c-3-10-3) root verse, full 4 lines; (c-3-10-5) "བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས...ཞེས་གྲགས་སོ།"; (c-3-10-8) "རྗེ་ཅོ་ནེ་པས...ཞེས་གསུངས་ལ"; (c-3-10-9) "གཞན་དག...སྣང་ངོ་།"; (c-3-10-10+11, one source block) "རྣམ་པ་ནི...ཡལ་ག་བཟུང་བ་སྟེ།"; (c-3-10-12) "ཉི་མ་སྦས་པས...ཞེས་གསུངས་པའི་ཕྱིར།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-10-0, #^0-101–#^0-104, #^0-108–#^0-112 |
-| anon-utpala | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-1-2-3-3, c-1-2-2-1-2-3-4 | (c-1-2-2-1-2-3-3) "དད་ལྡན་རྣམས་ཀྱི་རེ་བ་བསྐོང་བས...འཕྲོ་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-49, #^0-50 |
+| yama-sonam | Anon., *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-10-1, c-3-10-3, c-3-10-4, c-3-10-5, c-3-10-7, c-3-10-8, c-3-10-9, c-3-10-10, c-3-10-11, c-3-10-12 | (c-3-10-3) root verse, full 4 lines; (c-3-10-5) "བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས...ཞེས་གྲགས་སོ།"; (c-3-10-8) "རྗེ་ཅོ་ནེ་པས...ཞེས་གསུངས་ལ"; (c-3-10-9) "གཞན་དག...སྣང་ངོ་།"; (c-3-10-10+11, one source block) "རྣམ་པ་ནི...ཡལ་ག་བཟུང་བ་སྟེ།"; (c-3-10-12) "ཉི་མ་སྦས་པས...ཞེས་གསུངས་པའི་ཕྱིར།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-10-0, #^0-101–#^0-104, #^0-108–#^0-112 |
+| dharmabhadra | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-1-2-3-3, c-1-2-2-1-2-3-4 | (c-1-2-2-1-2-3-3) "དད་ལྡན་རྣམས་ཀྱི་རེ་བ་བསྐོང་བས...འཕྲོ་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-49, #^0-50 |
 | drakpa-gyaltsen | རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར* | c-1-59 | (none quoted — cited for the wish-fulfillment consensus group) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-14 (window) |
 | gendun-drub | རྒྱལ་བ་དགེ་འདུན་གྲུབ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ* | c-2-2-2-2-1-2-3-1, c-2-2-2-2-1-2-3-3, c-2-2-2-2-1-2-3-4, c-2-2-2-2-1-2-3-5 | (c-2-2-2-2-1-2-3-4) "སྔགས་ཀྱི་བཞད་སྒྲ་རབ་ཏུ་བཞད་པ་ཏཱ་ར་ཡིས...མཛད་མའོ།"; (c-2-2-2-2-1-2-3-5) "འདི་ལ་མྱ་ངན་སེལ་བའི་སྒྲོན་མ་ཞེས་འབྱུང་ངོ་།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-53–#^0-57 |
 | gendun-gyatso | རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ, *ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད* | c-1-10-1, c-1-10-2 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-21, #^0-22 |
@@ -55,7 +55,7 @@ verbatim (`" "`) in the article body.
 | lobsang-dawa | དགེ་བཤེས་བློ་བཟང་ཟླ་བ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ* | c-1-2-2-1-2-3-2, c-1-2-2-1-2-3-3 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-17 |
 | palden-sherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ, *རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...* | c-3-1-10-0-1, c-3-1-10-0-2, c-3-1-10-1-1, c-3-1-10-1-2, c-3-1-10-2-1, c-3-1-10-2-2, c-3-1-10-3-1 | (c-3-1-10-0-1) "བཅུ་པ་འཇིག་རྟེན་དབང་དུ་བྱེད་པའི...ནི།"; (c-3-1-10-1-2) "གསུང་བཞད་པ་བརྒྱད་ཅན...འདུད་དོ།"; (c-3-1-10-2-1) "པདྨ་དང་ཟླ་བའི...འཛིན་པ།"; (c-3-1-10-3-1, two excerpts) "གསུམ་པ་སྦས་དོན...བདེ་བ་སྟེ།" and "ཏུཏྟཱ་ར་ནི་གདུང་བ་སྟེ...གདུང་བའོ" | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-104–#^0-110 |
 | pema-namgyal | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ* | c-2-4-33 | (c-2-4-33) "འཇིག་རྟེན་འཁོར་བ་དབང་དུ་སྡུད་ཕྱིར...མཛད་མ་དེ་ལའོ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-47 |
-| sangye-nyentrul | སངས་རྒྱས་མཉན་སྤྲུལ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ...* | c-11-0-1, c-11-0-2, c-11-1-1, c-11-1-2 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག...བཞུགས།།.md#^0-47–#^0-49 |
+| sangye-nyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ...* | c-11-0-1, c-11-0-2, c-11-1-1, c-11-1-2 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག...བཞུགས།།.md#^0-47–#^0-49 |
 | sungrab-tulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ, *སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད* | c-13-1, c-13-3, c-13-4 | (c-13-3, embedded phrase) "རྗེ་བཙུན་སྒྲོལ་མ་བདུད་དབང་དུ་སྡུད་མར" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-65, #^0-67, #^0-68 |
 | taranatha | ཏཱ་ར་ནཱ་ཐ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ* | c-10-1, c-10-8, c-10-9, c-10-10, c-10-11, c-10-12 | (c-10-8) "ཐར་པ་དང་ཐམས་ཅད་མཁྱེན་པ་ལ་འགོད་དོ།"; (c-10-9) "སྦས་དོན་ནི...ལྷན་སྐྱེས་ཏེ།"; (c-10-11) "ཏུཏྟཱ་ར་ནི་གདུང་བ་མ་སྟེ...བདུད་པས།"; (c-10-12) "བདུད་ཆགས་རྟོག་དང་...བྱེད་པ་སྟེ།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^10-0, #^0-35, #^0-36 |
 | tenga-tulku | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང* | c-1-2-2-1-2-3-4 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-92 |
@@ -64,11 +64,11 @@ verbatim (`" "`) in the article body.
 
 ## Claims consulted but not used
 
-- **Redundant structural echoes**, left out to avoid repeating the same content twice: `anon-trinle-char:c-3-10-2` (restates `c-3-10-1`'s heading — same reason the consolidated page itself flags it, see its "Claims reviewed, not separately cited"); `anon-trinle-char:c-3-10-6` (attribution-only, no new content beyond `c-3-10-4`).
+- **Redundant structural echoes**, left out to avoid repeating the same content twice: `yama-sonam:c-3-10-2` (restates `c-3-10-1`'s heading — same reason the consolidated page itself flags it, see its "Claims reviewed, not separately cited"); `yama-sonam:c-3-10-6` (attribution-only, no new content beyond `c-3-10-4`).
 - **`pema-namgyal:c-2-4-58`** — the consolidated page's own routing note states this claim "does not belong to any single verse" (it reads iconography from several homages together); excluded from the article for the same reason.
 - **`taranatha:c-10-2` through `c-10-7`** — structural/transitional glosses and the generic-Māra mantra restatement already covered more specifically by other quoted claims in the same commentary; drawn on for context while drafting but not separately cited.
 - **`konchok-thabkhe:c-2-10-5`** — extends the four-empowerments reading one step further than `c-2-10-4`; omitted for length, not because it failed to resolve.
-- Claims recorded on the consolidated page's coverage table that only restate structural placement without distinct content (e.g. `sungrab-tulku:c-13-2`, `tenzin-dhonzang:c-4-10-2`, `palden-sherab:c-3-1-10-0-2` — root-verse re-quotations) were consulted to confirm the root verse's wording but the lead quotes only `anon-trinle-char:c-3-10-3` for the root verse itself, per Rule 5 (2–4 representative commentaries for consensus material, not all sixteen).
+- Claims recorded on the consolidated page's coverage table that only restate structural placement without distinct content (e.g. `sungrab-tulku:c-13-2`, `tenzin-dhonzang:c-4-10-2`, `palden-sherab:c-3-1-10-0-2` — root-verse re-quotations) were consulted to confirm the root verse's wording but the lead quotes only `yama-sonam:c-3-10-3` for the root verse itself, per Rule 5 (2–4 representative commentaries for consensus material, not all sixteen).
 
 ## Unresolvable attestations
 
@@ -93,7 +93,7 @@ its named commentary's raw file under `2-RAILS/Claims/raw/tree-guided/`, and eve
   list) runs to roughly 2,380 Tibetan syllables (tsheg-count proxy) — above the spec's
   1,500-syllable warning threshold, so no length warning applies.
 - **Judgment calls made during drafting** (full detail also in the report to the calling agent):
-  (1) the lead/bold name `བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ` was taken from `anon-trinle-char:c-3-10-1`
+  (1) the lead/bold name `བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ` was taken from `yama-sonam:c-3-10-1`
   because its wording matches the consolidated page's own English gloss of this slot's title
   ("She Who Draws the Māras and the World under Power") most closely — the corpus has at least
   three distinct naming traditions for this slot (see `== མཚན་གྱི་ངེས་ཚིག ==`), none commanding an
@@ -120,14 +120,14 @@ failure of the underlying claim).
 
 | # | Quotation (opening words) | Claim | Source file / block | Result |
 |---|---|---|---|---|
-| 1 | ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི... (root verse) | anon-trinle-char:c-3-10-3 | ...སྤྲིན་ཕུང་།.md#^0-102 | PASS |
-| 2 | བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས...ཞེས་གྲགས་སོ། | anon-trinle-char:c-3-10-5 | ...སྤྲིན་ཕུང་།.md#^0-104 | PASS |
+| 1 | ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི... (root verse) | yama-sonam:c-3-10-3 | ...སྤྲིན་ཕུང་།.md#^0-102 | PASS |
+| 2 | བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས...ཞེས་གྲགས་སོ། | yama-sonam:c-3-10-5 | ...སྤྲིན་ཕུང་།.md#^0-104 | PASS |
 | 3 | བཅུ་པ་འཇིག་རྟེན་དབང་དུ་བྱེད་པའི...ནི། | palden-sherab:c-3-1-10-0-1 | ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-104 | PASS |
 | 4 | ཕྱག་བྱ་བ་ནི་དངོས་པོ་བདེན་འཛིན...དོན་རེད། | tenzin-dhonzang:c-4-10-3 | ...སྙིང་གི་ནོར་བུ.md#^0-187 | PASS |
-| 5 | རྣམ་པ་ནི། སྐུ་མདོག་བྱི་རུའི་མདོག...ཡལ་ག་བཟུང་བ་སྟེ། | anon-trinle-char:c-3-10-10/11 | ...སྤྲིན་ཕུང་།.md#^0-111 | PASS |
-| 6 | ཉི་མ་སྦས་པས། པདྨར་ཟླ་སྟེང...ཞེས་གསུངས་པའི་ཕྱིར། | anon-trinle-char:c-3-10-12 | ...སྤྲིན་ཕུང་།.md#^0-112 | PASS |
+| 5 | རྣམ་པ་ནི། སྐུ་མདོག་བྱི་རུའི་མདོག...ཡལ་ག་བཟུང་བ་སྟེ། | yama-sonam:c-3-10-10/11 | ...སྤྲིན་ཕུང་།.md#^0-111 | PASS |
+| 6 | ཉི་མ་སྦས་པས། པདྨར་ཟླ་སྟེང...ཞེས་གསུངས་པའི་ཕྱིར། | yama-sonam:c-3-10-12 | ...སྤྲིན་ཕུང་།.md#^0-112 | PASS |
 | 7 | པདྨ་དང་ཟླ་བའི་གདན་གྱི་སྟེང་དུ...རྒྱལ་མཚན་འཛིན་པ། | palden-sherab:c-3-1-10-2-1 | ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-108 | PASS |
-| 8 | དད་ལྡན་རྣམས་ཀྱི་རེ་བ་བསྐོང་བས...འཕྲོ་མ། | anon-utpala:c-1-2-2-1-2-3-3 | ...ཨུཏྤལའི་ཆུན་པོ...bཞུགས་སོ།.md#^0-49 | PASS |
+| 8 | དད་ལྡན་རྣམས་ཀྱི་རེ་བ་བསྐོང་བས...འཕྲོ་མ། | dharmabhadra:c-1-2-2-1-2-3-3 | ...ཨུཏྤལའི་ཆུན་པོ...bཞུགས་སོ།.md#^0-49 | PASS |
 | 9 | གསུང་བཞད་པ་བརྒྱད་ཅན་གྱི་རིག་སྔགས...འདུད་དོ། | palden-sherab:c-3-1-10-1-2 | ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-107 | PASS |
 | 10 | ཐར་པ་དང་ཐམས་ཅད་མཁྱེན་པ་ལ་འགོད་དོ། | taranatha:c-10-8 | ...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-35 | PASS |
 | 11 | རྗེ་བཙུན་མའི་དད་ལྡན་རྣམས་ཀྱི་རེ་བ...གསུངས་སྟེ། | tenzin-dhonzang:c-4-10-4 | ...སྙིང་གི་ནོར་བུ.md#^0-188 | PASS |

@@ -3,8 +3,8 @@ topic: svaha
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -183,16 +183,16 @@ These two instances are the packet's clearest direct evidence for this term's ow
 
 The following 61 gathered claims mention a spelling variant of སྭཱ་ཧཱ but restate, without adding SVĀHĀ-specific content beyond what is cited above, either the fifteenth homage's own root-verse content (already `tara-15.md`'s own Consensus facet), the plain ten-syllable/wrathful mantra formula quoted or recited elsewhere in the text (`tara-mantra.md`'s, `mantra.md`'s, or `hum-syllable.md`'s territory), or the PHAṬ-replaces-SVĀHĀ placement question (`phat.md`'s own divergence). Logged here per Rule 7/16 of the `claims-consolidation` skill rather than re-cited, to keep this page focused on what is distinctively about the syllable itself:
 
-- `anon-trinle-char:c-3-15-3` — root verse 15 quoted in full; `tara-15.md` Consensus.
-- `anon-trinle-char:c-3-15-8` — verse 15's SVĀHĀ+OṂ "destroys great sin" gloss; `tara-15.md` Consensus.
-- `anon-trinle-char:c-3-16-9` — two interpretations of the ten-syllable mantra's placement around HŪṂ; already cited in `hum-syllable.md`, not distinctly about SVĀHĀ.
-- `anon-trinle-char:c-3-18-6` — four masters' PHAṬ-vs-SVĀHĀ placement divergence; the core divergence already documented in full in `phat.md`.
-- `anon-utpala:c-1-2-2-2-2` — root verse 15 quoted in full; `tara-15.md` Consensus.
-- `anon-utpala:c-1-2-2-2-8` — OṂ/SVĀHĀ bookend word-gloss on verse 15; `tara-15.md` Consensus.
-- `anon-utpala:c-1-2-3-1-4` — peaceful ten-syllable mantra quoted in full; `tara-mantra.md` territory.
-- `anon-utpala:c-1-2-3-1-5` — wrathful vidyā-mantra quoted in full; plain formula, no distinct SVĀHĀ content.
-- `anon-utpala:c-1-2-3-3-5` — PHAṬ-replaces-SVĀHĀ variant (Ngulchu's own position); already the corroborating citation in `phat.md`'s placement divergence.
-- `anon-utpala:c-1-2-3-5-5` — wrathful mantra recited, bare quote; plain formula.
+- `yama-sonam:c-3-15-3` — root verse 15 quoted in full; `tara-15.md` Consensus.
+- `yama-sonam:c-3-15-8` — verse 15's SVĀHĀ+OṂ "destroys great sin" gloss; `tara-15.md` Consensus.
+- `yama-sonam:c-3-16-9` — two interpretations of the ten-syllable mantra's placement around HŪṂ; already cited in `hum-syllable.md`, not distinctly about SVĀHĀ.
+- `yama-sonam:c-3-18-6` — four masters' PHAṬ-vs-SVĀHĀ placement divergence; the core divergence already documented in full in `phat.md`.
+- `dharmabhadra:c-1-2-2-2-2` — root verse 15 quoted in full; `tara-15.md` Consensus.
+- `dharmabhadra:c-1-2-2-2-8` — OṂ/SVĀHĀ bookend word-gloss on verse 15; `tara-15.md` Consensus.
+- `dharmabhadra:c-1-2-3-1-4` — peaceful ten-syllable mantra quoted in full; `tara-mantra.md` territory.
+- `dharmabhadra:c-1-2-3-1-5` — wrathful vidyā-mantra quoted in full; plain formula, no distinct SVĀHĀ content.
+- `dharmabhadra:c-1-2-3-3-5` — PHAṬ-replaces-SVĀHĀ variant (Ngulchu's own position); already the corroborating citation in `phat.md`'s placement divergence.
+- `dharmabhadra:c-1-2-3-5-5` — wrathful mantra recited, bare quote; plain formula.
 - `drakpa-gyaltsen:c-1-82` — SVĀHĀ+OṂ destroys great sin, dharmakāya framing; `tara-15.md` Consensus (its dharmakāya framing is that page's own Unique note).
 - `drakpa-gyaltsen:c-1-83` — ten-syllable peaceful mantra given in full (verse 16 context); plain formula.
 - `drakpa-gyaltsen:c-1-84` — wrathful mantra given in full (verse 16 context); plain formula.
@@ -252,8 +252,8 @@ The following 61 gathered claims mention a spelling variant of སྭཱ་ཧ�
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-15-3, c-3-15-8, c-3-16-9, c-3-18-6 (4) | (none — reviewed, not separately cited; verse-15/mantra/PHAṬ-placement content already covered by `tara-15.md`/`hum-syllable.md`/`phat.md`) |
-| `anon-utpala` | c-1-2-2-2-2, c-1-2-2-2-8, c-1-2-3-1-4, c-1-2-3-1-5, c-1-2-3-3-5, c-1-2-3-5-5 (6) | (none — reviewed, not separately cited) |
+| `yama-sonam` | c-3-15-3, c-3-15-8, c-3-16-9, c-3-18-6 (4) | (none — reviewed, not separately cited; verse-15/mantra/PHAṬ-placement content already covered by `tara-15.md`/`hum-syllable.md`/`phat.md`) |
+| `dharmabhadra` | c-1-2-2-2-2, c-1-2-2-2-8, c-1-2-3-1-4, c-1-2-3-1-5, c-1-2-3-3-5, c-1-2-3-5-5 (6) | (none — reviewed, not separately cited) |
 | `drakpa-gyaltsen` | c-1-82, c-1-83, c-1-84 (3) | (none — reviewed, not separately cited) |
 | `gendun-drub` | c-2-2-0-4, c-2-2-2-2-2-4, c-2-2-2-2-2-5, c-2-2-2-3-1-3, c-2-2-2-3-1-4 (5) | (none — reviewed, not separately cited) |
 | `gendun-gyatso` | c-1-16-2, c-1-16-3, c-1-18-2 (3) | (none — reviewed, not separately cited; all three are bare verse-16/18 mantra quotations) |
@@ -269,4 +269,4 @@ The following 61 gathered claims mention a spelling variant of སྭཱ་ཧ�
 | `tenzin-dhonzang` | c-4-8-4, c-4-10-9, c-4-11-6, c-4-15-8 (4) | (none — reviewed, not separately cited) |
 | `tsultrim-namdak` | c-2-1-2-1-50, c-2-1-2-1-53, c-2-1-2-1-56, c-2-1-2-1-62, c-2-1-2-1-70, c-3-23, c-5-2-7-1-8, c-5-2-7-2-3, c-5-3-2, c-5-3-3, c-8-1-7 (11) | Etymology (Consensus, corroborating `sungrab-tulku`), SVĀHĀ as a generic ritual mantra-closing syllable (Unique — two witnesses) |
 
-**Commentaries silent on this topic:** none — all sixteen commentaries in the corpus have at least one claim block mentioning a spelling variant of སྭཱ་ཧཱ. Twelve of the sixteen (`anon-trinle-char`, `anon-utpala`, `drakpa-gyaltsen`, `gendun-drub`, `gendun-gyatso`, `karma-maitri`, `konchok-thabkhe`, `lobsang-dawa`, `palden-sherab`, `sangye-nyentrul`, `tenga-tulku`, `tenzin-dhonzang`) contribute claims that are all logged under "Claims reviewed, not separately cited" rather than a facet, because — once the fifteenth homage's own root-verse content is correctly attributed to `tara-15.md` and the plain mantra formula to `tara-mantra.md`/`mantra.md`/`hum-syllable.md`/`phat.md` — none of their gathered claims say anything distinctively about SVĀHĀ itself that is not already said, and cited, on one of those sibling pages.
+**Commentaries silent on this topic:** none — all sixteen commentaries in the corpus have at least one claim block mentioning a spelling variant of སྭཱ་ཧཱ. Twelve of the sixteen (`yama-sonam`, `dharmabhadra`, `drakpa-gyaltsen`, `gendun-drub`, `gendun-gyatso`, `karma-maitri`, `konchok-thabkhe`, `lobsang-dawa`, `palden-sherab`, `sangye-nyentrul`, `tenga-tulku`, `tenzin-dhonzang`) contribute claims that are all logged under "Claims reviewed, not separately cited" rather than a facet, because — once the fifteenth homage's own root-verse content is correctly attributed to `tara-15.md` and the plain mantra formula to `tara-mantra.md`/`mantra.md`/`hum-syllable.md`/`phat.md` — none of their gathered claims say anything distinctively about SVĀHĀ itself that is not already said, and cited, on one of those sibling pages.

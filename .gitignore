@@ -18,6 +18,9 @@
 # Corpora ARE tracked — this vault is now the working repo for the pipeline, and
 # work/archive/ is the citable record of the 2026-08-02 run (not regenerable).
 4-SYSTEM/Pipelines/*/.venv/
+4-SYSTEM/Pipelines/*/paper/draft/node_modules/
+4-SYSTEM/Pipelines/*/paper/draft/package.json
+4-SYSTEM/Pipelines/*/paper/draft/package-lock.json
 4-SYSTEM/Pipelines/*/.env
 __pycache__/
 *.pyc

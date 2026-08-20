@@ -112,30 +112,32 @@ Every commentary file in `1-SOURCES/Commentaries/` declares a `registered_id` in
 
 Once assigned, a `registered_id` never changes. New commentaries must be added to the roster below before their `registered_id` is used in any rail.
 
+**2026-08-19 ID migration (human-contributor directive — the sanctioned exception to the line above):** the placeholder-derived IDs `anon-trinle-char`, `anon-utpala`, and `anon-rnam-snang` were retired vault-wide after the author review identified the authors — they are now **`yama-sonam`** (Jetsün Yama Sonam), **`dharmabhadra`** (Ngulchu Dharmabhadra), and **`rnam-snang`** (text-based; authorship still ⚑-flagged below). Every live file and filename was migrated in one pass, including the pipeline siglum `TARAC09_ANON` → `TARAC09_JYS`. The old IDs survive only in git history and in the team's dkar-chag spreadsheet (`སྒྲོལ་མ་ཉེར་གཅིག་དཀར་ཆག.xlsx`), which the team should update to match. The never-changes rule otherwise stands.
+
 | `registered_id` | Author (English) | School / tradition | Pipeline siglum | File |
 | --- | --- | --- | --- | --- |
-| `drakpa-gyaltsen` | Drakpa Gyaltsen ⚑ (see note) | Sakya | `TARAC02_DGT` | `སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md` |
-| `gendun-drub` | Gendun Drub (1st Dalai Lama) | Gelug | `TARAC03_GDD` | `སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md` |
+| `drakpa-gyaltsen` | Jetsün Drakpa Gyaltsen | Sakya | `TARAC02_DGT` | `སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md` |
+| `gendun-drub` | Gyalwa Gendun Drub (1st Dalai Lama) | Gelug | `TARAC03_GDD` | `སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md` |
 | `gendun-gyatso` | Gendun Gyatso Palzangpo (2nd Dalai Lama) | Gelug | `TARAC04_GDG` | `ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md` |
 | `taranatha` | Tāranātha | Jonang | `TARAC05_TRN` | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` |
-| `anon-utpala` | Ngulchu Dharmabhadra | Gelug | `TARAC06_NDB` | `སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md` |
+| `dharmabhadra` | Ngulchu Dharmabhadra | Gelug | `TARAC06_NDB` | `སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md` |
 | `konchok-thabkhe` | Konchok Thabkhe (a.k.a. Tenpa Gyatso) | Gelug | `TARAC07_KTK` | `ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md` |
 | `tenga-tulku` | Dorlob Tenga Tulku | (unaffiliated / Nyima Bepé tradition) | `TARAC08_DTG` | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །.md` |
-| `anon-trinle-char` | (colophon lost; anonymous) | (unaffiliated / Nyima Bepé tradition) | `TARAC09_ANON` | `སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md` |
-| `pema-namgyal` | Domboba Pema Namgyal | (unaffiliated) | `TARAC10_DPN` | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md` |
+| `yama-sonam` | Jetsün Yama Sonam | (unaffiliated / Nyima Bepé tradition) | `TARAC09_JYS` | `སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md` |
+| `pema-namgyal` | Ldombuwa Pema Namgyal | (unaffiliated) | `TARAC10_DPN` | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md` |
 | `karma-maitri` | Karma Maitri | (unaffiliated) | `TARAC11_KMT` | `ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md` |
 | `palden-sherab` | Khenchen Palden Sherab | Nyingma | `TARAC12_PDS` | `རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས།.md` |
 | `tenzin-dhonzang` | Sermé Tsang Geshe Tenzin Dhonzang | Gelug | `TARAC13_TDZ` | `སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ།.md` |
 | `lobsang-dawa` | Geshe Lobsang Dawa (compiler) | Gelug | `TARAC14_LZD` | `སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md` |
-| `sangye-nyentrul` | Sangye Nyentrul | (unaffiliated) | `TARAC15_SNT` | `རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།.md` |
+| `sangye-nyentrul` | Sangye Nyenpa Rinpoche | (unaffiliated) | `TARAC15_SNT` | `རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།.md` |
 | `sungrab-tulku` | Drepa Ratreng Sungrab Tulku | Gelug (contemporary) | `TARAC16_PSR` | `སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md` |
 | `tsultrim-namdak` | Khenpo Tsultrim Namdak | Kagyu | `TARAC17_TSN` | `སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md` |
-| `anon-rnam-snang` | Dharmabhadra ⚑ (see note) | — | **not in pipeline corpus** | `ཡང་དག་པ་རྫོགས་པའི་སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག.md` |
+| `rnam-snang` | Dharmabhadra? ⚑ (unverified — see note; distinct from `dharmabhadra` above) | — | **not in pipeline corpus** | `ཡང་དག་པ་རྫོགས་པའི་སངས་རྒྱས་རྣམ་པར་སྣང་མཛད་ཀྱིས་གསུངས་པ་འཕགས་མ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག.md` |
 
-**⚑ Two open flags on this roster, for a human to resolve, not silently fixed here:**
+**⚑ One open flag on this roster, for a human to resolve, not silently fixed here:**
 
-- **`drakpa-gyaltsen`'s author identity is inconsistent across this file's own metadata.** Its frontmatter names the author "Gendun Drakpa Gyaltsen" (a Gelug-style name), but the pipeline corpus's `sources.yaml` entry for the same text (`TARAC02_DGT`) and the commentary's own colophon (`…ལོཙྪ་བ་གཉན་གྱིས་བསྒྱུར་བ། རྗེ་བཙུན་ཆེན་པོ་གྲགས་པ་རྒྱལ་མཚན་གྱིས་གཏན་ལ་ཕབ་པའོ།།`) both point to "Jetsün Drakpa Gyaltsen," which reads as the Sakya patriarch (1147–1216), not a Gelug figure. Worth a philological check before either value is trusted in output.
-- **`anon-rnam-snang`'s title is textually identical to the root text's own title** (STATE.md flagged this; it has no counterpart in the pipeline corpus, per §6). Whether this file is a genuine commentary or a second copy of the root deserves a human read before it is cited as a commentary anywhere.
+- ~~`drakpa-gyaltsen`'s author identity was inconsistent across this file's own metadata~~ — **resolved 2026-08-19** during the human author-name review: the commentary's frontmatter now reads རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན་ (Jetsün Drakpa Gyaltsen), matching the commentary's own colophon (`…ལོཙྪ་བ་གཉན་གྱིས་བསྒྱུར་བ། རྗེ་བཙུན་ཆེན་པོ་གྲགས་པ་རྒྱལ་མཚན་གྱིས་གཏན་ལ་ཕབ་པའོ།།`) and `sources.yaml`. An interim value naming Situ ༠༩ Pema Nyinje Wangpo was reverted the same day.
+- **`rnam-snang`'s title is textually identical to the root text's own title** (STATE.md flagged this; it has no counterpart in the pipeline corpus, per §6). Whether this file is a genuine commentary or a second copy of the root deserves a human read before it is cited as a commentary anywhere.
 
 **Tier ordering.** This praise has no single root commentary with named sub-commentaries the way a scholastic treatise does — its seventeen commentaries are independent works from five schools plus several unaffiliated authors. There is therefore no default primary/secondary ranking. When a verse package or claims comparison presents multiple commentaries together, group by school in the order the roster lists them above (Sakya → Gelug → Jonang → Nyingma → Kagyu → unaffiliated), and within a school by the roster's own order; do not invent a "the real commentary is X" hierarchy this tradition does not have.
 

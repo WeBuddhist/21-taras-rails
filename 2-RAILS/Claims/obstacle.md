@@ -3,7 +3,7 @@ topic: obstacle
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/karma-maitri.md
@@ -142,7 +142,7 @@ rather than as a second, independent Tibetan term.
 `sangye-nyentrul:c-15-1-1`, `sangye-nyentrul:c-15-1-3` (2 commentaries)
 
 The remaining six commentaries in this packet — `gendun-drub`, `karma-maitri`,
-`konchok-thabkhe`, `gendun-gyatso`, `tenga-tulku`, and `anon-trinle-char` — do not
+`konchok-thabkhe`, `gendun-gyatso`, `tenga-tulku`, and `yama-sonam` — do not
 address this verse's seven-levels content at all, under any name; see Coverage,
 below.
 
@@ -228,7 +228,7 @@ data point rather than folded into that page.
 
 ## Claims reviewed, not separately cited
 
-- `anon-utpala:c-1-2-3-1-6` — "Homage to her ... [destroying/liberating] enemies,
+- `dharmabhadra:c-1-2-3-1-6` — "Homage to her ... [destroying/liberating] enemies,
   obstacle-makers, and so forth" (དགྲ་བགེགས), at the mantra verse (36): a generic
   two-word dgra-bgegs idiom, not a distinct class.
 - `lobsang-dawa:c-1-2-3-1-6` — parallel companion-commentary wording to the above, same
@@ -303,8 +303,8 @@ data point rather than folded into that page.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | none (silent) | — |
-| `anon-utpala` | c-1-2-3-1-6 (1) | reviewed only |
+| `yama-sonam` | none (silent) | — |
+| `dharmabhadra` | c-1-2-3-1-6 (1) | reviewed only |
 | `drakpa-gyaltsen` | c-2-19, c-1-77, c-1-40 (3) | "Fourteenth verse" (⚑ Divergences, Position A), "bhūta gloss" (⚑ Divergences) |
 | `gendun-drub` | c-2-2-3-4-3 (1) | reviewed only |
 | `gendun-gyatso` | none (silent) | — |
@@ -320,5 +320,5 @@ data point rather than folded into that page.
 | `tenzin-dhonzang` | c-4-2-6, c-4-2-7, c-4-8-8, c-4-13-5, c-4-13-6, c-4-13-12, c-4-14-4, c-4-14-5, c-4-20-3, c-4-20-4 (10) | "Ritual/doctrinal" (Unique ×3), "Fourteenth verse" (⚑ Divergences, Position A); reviewed |
 | `tsultrim-namdak` | c-2-1-2-1-21, c-2-1-2-1-25, c-2-1-2-1-55, c-5-2-7-2-1, c-8-5, c-8-1-8, c-2-1-2-1-48 (7) | "bhūta gloss" (Consensus), "Ritual/doctrinal" (Unique), "Fourteenth verse" (⚑ Divergences, Position A, corroboration); reviewed |
 
-**Commentaries silent on this topic:** `anon-trinle-char` and `gendun-gyatso` — neither
+**Commentaries silent on this topic:** `yama-sonam` and `gendun-gyatso` — neither
 raw claims file contains the syllable-string བགེགས anywhere.

@@ -1,7 +1,7 @@
-anon-utpala:c-1-3-1
-anon-utpala:c-1-3-2
-anon-utpala:c-1-3-3
-anon-utpala:c-1-3-4
+dharmabhadra:c-1-3-1
+dharmabhadra:c-1-3-2
+dharmabhadra:c-1-3-3
+dharmabhadra:c-1-3-4
 drakpa-gyaltsen:c-2-1
 drakpa-gyaltsen:c-2-2
 drakpa-gyaltsen:c-2-3

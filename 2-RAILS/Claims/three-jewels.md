@@ -3,8 +3,8 @@ topic: three-jewels
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -62,7 +62,7 @@ status: draft
 
 ### Consensus
 Seven commentaries quote the full four-line root-verse as the textual basis for the ninth homage, before glossing it: "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ(ས)་བརྒྱན་པའི། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ" ("Homage to her whose heart is adorned by the fingers of the mudrā symbolizing the Three Jewels; whose own mass of light — adorned by a wheel in every direction — is agitated").
-— attested: `anon-trinle-char:c-3-9-3`, `anon-utpala:c-1-2-2-1-2-2-2`, `palden-sherab:c-3-1-9-0-2`, `sungrab-tulku:c-12-2`, `tenga-tulku:c-1-2-2-1-2-2-2`, `tenzin-dhonzang:c-4-9-2`, `tsultrim-namdak:c-2-1-2-1-32` (7 attestations, 7 commentaries)
+— attested: `yama-sonam:c-3-9-3`, `dharmabhadra:c-1-2-2-1-2-2-2`, `palden-sherab:c-3-1-9-0-2`, `sungrab-tulku:c-12-2`, `tenga-tulku:c-1-2-2-1-2-2-2`, `tenzin-dhonzang:c-4-9-2`, `tsultrim-namdak:c-2-1-2-1-32` (7 attestations, 7 commentaries)
 
 Two further claims are routed to this same node by Signal-A tagging but do not themselves support the full four-line quotation above, so they are kept out of the attestation count rather than padding it (Rule 9):
 - `gendun-drub:c-2-2-2-2-1-2-2-2` contains only the first two lines — the mudrā/heart-adornment content — and nothing of the "wheel of every direction"/"mass of light agitated" lines.
@@ -72,7 +72,7 @@ Two further claims are routed to this same node by Signal-A tagging but do not t
 No claim conflicts with the Consensus attestation's own wording. Three further notes on the nine claims that touch this node, recorded without further interpretation rather than as a competing position:
 - `tsultrim-namdak:c-3-12`'s divergent third/fourth lines (above) are a genuine textual variant left unreconciled — flagged here rather than folded silently into the Consensus.
 - gendun-drub's root-verse claim (cited above) is itself titled in the raw claims file "Verse 10 quoted," while the majority of commentaries that number this homage (e.g. `gendun-gyatso:c-1-9-1`, `tenzin-dhonzang:c-4-9-1`) call it the ninth (དགུ་པ). The quoted verse text does not differ; only the ordinal label does, and the source of the discrepancy is not stated in either raw claims file.
-- anon-trinle-char's root-verse claim (cited above) frames its citation as being "from the tantra" (རྒྱུད་ལས), whereas every other root-verse citation in this facet (anon-utpala, gendun-drub, palden-sherab, sungrab-tulku, tenga-tulku, tenzin-dhonzang, tsultrim-namdak) presents the same lines without any such attribution, simply as the praise's own verse. This packet does not contain enough context to say whether anon-trinle-char treats the praise itself as a tantra or is citing a distinct tantric source that happens to share this verse.
+- yama-sonam's root-verse claim (cited above) frames its citation as being "from the tantra" (རྒྱུད་ལས), whereas every other root-verse citation in this facet (dharmabhadra, gendun-drub, palden-sherab, sungrab-tulku, tenga-tulku, tenzin-dhonzang, tsultrim-namdak) presents the same lines without any such attribution, simply as the praise's own verse. This packet does not contain enough context to say whether yama-sonam treats the praise itself as a tantra or is citing a distinct tantric source that happens to share this verse.
 
 ### Unique
 None beyond the two partial/variant claims noted above.
@@ -84,7 +84,7 @@ None beyond the two partial/variant claims noted above.
 ### Consensus
 Commentaries that gloss the mudrā converge on two related points: (a) the raised triad of index, middle, and little fingers on Tārā's left hand is identified as the sign symbolizing the Three Jewels (Buddha, Dharma, Saṅgha); and, where the same claim also describes the rest of the hand, (b) the thumb and ring finger join and hold the stem of an utpala (blue lotus) at or adorning her heart.
 
-**Attested — both (a) raised-fingers-meaning and (b) thumb/ring-finger utpala-hold in the same claim** (10 attestations, 10 commentaries): `anon-trinle-char:c-3-9-5`, `anon-utpala:c-1-2-2-1-2-2-3`, `gendun-gyatso:c-1-9-1`, `konchok-thabkhe:c-2-9-2`, `palden-sherab:c-3-1-9-1-1`, `pema-namgyal:c-2-4-30`, `sangye-nyentrul:c-10-0-1`, `tenga-tulku:c-1-2-2-1-2-2-3`, `tenzin-dhonzang:c-4-9-4`, `tsultrim-namdak:c-2-1-2-1-33`
+**Attested — both (a) raised-fingers-meaning and (b) thumb/ring-finger utpala-hold in the same claim** (10 attestations, 10 commentaries): `yama-sonam:c-3-9-5`, `dharmabhadra:c-1-2-2-1-2-2-3`, `gendun-gyatso:c-1-9-1`, `konchok-thabkhe:c-2-9-2`, `palden-sherab:c-3-1-9-1-1`, `pema-namgyal:c-2-4-30`, `sangye-nyentrul:c-10-0-1`, `tenga-tulku:c-1-2-2-1-2-2-3`, `tenzin-dhonzang:c-4-9-4`, `tsultrim-namdak:c-2-1-2-1-33`
 
 **Attested — (a) raised-fingers-meaning only, no utpala-hold detail in this particular claim** (3 attestations): `karma-maitri:c-1-1-9-2`, `lobsang-dawa:c-1-2-2-1-2-2-1`, `drakpa-gyaltsen:c-1-56`
 
@@ -122,7 +122,7 @@ None observed (no other commentary addresses whether the mudrā recurs beyond th
 None observed as directly conflicting positions — the further hidden-meaning readings below are additional, distinct layers rather than answers that contradict the substance-reading above or one another.
 
 ### Unique
-- `anon-trinle-char:c-3-9-6` — assigns the mudrā's "cause" (rgyu) to the two jewels of Buddha and Dharma, and its "activity" (bya ba) to showing the meaning of the Saṅgha "carrying [the teaching] onward" (rjes su bskyang ba) — a cause/activity split not found in any other commentary in the packet. (Note: this claim block also contains an unrelated gloss of "wheel of all directions" describing Tārā's radiating light; only the cause/activity portion is cited here as bearing on the Three Jewels.)
+- `yama-sonam:c-3-9-6` — assigns the mudrā's "cause" (rgyu) to the two jewels of Buddha and Dharma, and its "activity" (bya ba) to showing the meaning of the Saṅgha "carrying [the teaching] onward" (rjes su bskyang ba) — a cause/activity split not found in any other commentary in the packet. (Note: this claim block also contains an unrelated gloss of "wheel of all directions" describing Tārā's radiating light; only the cause/activity portion is cited here as bearing on the Three Jewels.)
 - `tenzin-dhonzang:c-4-9-4` — maps Tārā's own body to the Saṅgha, her speech to the sacred Dharma, and her mind to the Buddha ("her body is the Sangha, her speech the sacred Dharma, her mind the Buddha — the union of all Three Jewels"), alongside parallel three-kāya and three-root mappings — a body/speech/mind-to-Jewel correspondence not found elsewhere in the packet. (The same claim's plain gesture-description is cited separately in the Iconography facet above.)
 - `palden-sherab:c-3-1-9-4-1` — offers a further, "ultimate" (mthar thug) completion-stage-without-marks reading beyond its own `palden-sherab:c-3-1-9-3-1`: the three doors of body, speech, and mind — primordially appearance, sound, and awareness, the essence of the three vajras — "awaken as the essence of 'symbolizing the Three Jewels,'" destroying the twenty peaks of the innate transitory-collection view and becoming buddha within Samantabhadrī's expanse. This builds on but is a distinct claim from `palden-sherab:c-3-1-9-3-1`'s substance-reading, and is not paralleled by `taranatha:c-9-9` or any other commentary.
 
@@ -143,7 +143,7 @@ These are two different construals of the same question — is Tārā a devotee 
 ### Unique
 - `gendun-drub:c-0-2` — the commentary's own opening homage, "Homage to the noble Three Jewels" (འཕགས་པ་དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ), a dedicatory line preceding the commentary proper, addressed to the Three Jewels in general rather than to Tārā specifically.
 - `tenzin-dhonzang:c-4-9-1` — the section heading itself names this homage "homage to She Who Signifies the Three Jewels" (དགུ་པ་དཀོན་མཆོག་གསུམ་མཚོན་ལ་བསྟོད་པ).
-- `anon-trinle-char:c-3-9-7` — cites master Nyima Sbaspa's praise: "Well born from Buddha and Dharma; great, loving one who nurtures the entire Saṅgha" (སངས་རྒྱས་ཆོས་ལས་ལེགས་སྐྱེས་ཤིང་། དགེ་འདུན་ཀུན་སྐྱོང་བརྩེ་ཆེན་མ) — an external attribution splitting Tārā's connection to the Three Jewels into being "born from" Buddha and Dharma while herself "nurturing" the Saṅgha (paralleling, without being identical to, this same commentary's own cause/activity gloss cited in the Doctrinal facet above).
+- `yama-sonam:c-3-9-7` — cites master Nyima Sbaspa's praise: "Well born from Buddha and Dharma; great, loving one who nurtures the entire Saṅgha" (སངས་རྒྱས་ཆོས་ལས་ལེགས་སྐྱེས་ཤིང་། དགེ་འདུན་ཀུན་སྐྱོང་བརྩེ་ཆེན་མ) — an external attribution splitting Tārā's connection to the Three Jewels into being "born from" Buddha and Dharma while herself "nurturing" the Saṅgha (paralleling, without being identical to, this same commentary's own cause/activity gloss cited in the Doctrinal facet above).
 - `konchok-thabkhe:c-2-9-4` — cites Gendün Drup's praise to White Tārā, in which the left-hand utpala-mudrā of refuge-giving is described as symbolizing "the buddhas of the three times," with the mudrā's own nature further explained as showing "all Three Jewels gathered as one" (དཀོན་མཆོག་མ་ལུས་པ་འདུས་པའི་ངོ་བོར) — an attributed reading assigning the Three-Jewels meaning and the "buddhas of the three times" meaning to different elements of the same gesture.
 - `taranatha:c-9-3` — states plainly that "the utpala-mudrā symbolizing the Three Jewels is Tārā's samaya-mudrā" (དཀོན་མཆོག་གསུམ་མཚོན་པར་བྱེད་པ་ཨུཏྤ་ལའི་ཕྱག་རྒྱ་ནི་སྒྲོལ་མའི་དམ་ཚིག་གི་ཕྱག་རྒྱ) — identifying the Three-Jewels mudrā itself as Tārā's own samaya (commitment) mudrā, a specific identification not made by any other commentary in the packet.
 
@@ -177,8 +177,8 @@ No other commentary in this packet provides a comparable sādhana structure for 
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-9-3, c-3-9-5, c-3-9-6, c-3-9-7 | Root verse, Iconography, Doctrinal, Tārā's relationship |
-| anon-utpala | c-1-2-2-1-2-2-2, c-1-2-2-1-2-2-3 | Root verse, Iconography |
+| yama-sonam | c-3-9-3, c-3-9-5, c-3-9-6, c-3-9-7 | Root verse, Iconography, Doctrinal, Tārā's relationship |
+| dharmabhadra | c-1-2-2-1-2-2-2, c-1-2-2-1-2-2-3 | Root verse, Iconography |
 | drakpa-gyaltsen | c-1-55, c-1-56 | Iconography |
 | gendun-drub | c-0-2, c-2-2-2-2-1-2-2-2 | Root verse, Tārā's relationship |
 | gendun-gyatso | c-1-9-1 | Iconography |

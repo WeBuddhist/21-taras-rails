@@ -2,7 +2,7 @@
 registered_id: tenga-tulku
 title: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང"
 title_in_english: "The Clear Mirror of the Benefits of the Twenty-One Homages"
-author: "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ།"
+author: "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་"
 author_in_use: "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་"
 author_in_english: "Dorlob Tenga Tulku"
 source_file: 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md

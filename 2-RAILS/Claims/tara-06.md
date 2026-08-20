@@ -3,8 +3,8 @@ topic: tara-06
 spine: "^1-6 (sixth homage of the twenty-one)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -72,7 +72,7 @@ status: draft
 ### Consensus
 Eight commentaries mark this passage with an explicit flat ordinal — "the sixth" (དྲུག་པ) or "(6)" — identifying it as the sixth of the twenty-one homages.
 
-— attested: `anon-trinle-char:c-3-6-1`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-1`, `konchok-thabkhe:c-2-6-1`, `palden-sherab:c-3-1-6-0-1`, `sungrab-tulku:c-9-1`, `taranatha:c-6-1`, `tenzin-dhonzang:c-4-6-1` (8 commentaries)
+— attested: `yama-sonam:c-3-6-1`, `gendun-gyatso:c-1-6-1`, `karma-maitri:c-1-1-6-1`, `konchok-thabkhe:c-2-6-1`, `palden-sherab:c-3-1-6-0-1`, `sungrab-tulku:c-9-1`, `taranatha:c-6-1`, `tenzin-dhonzang:c-4-6-1` (8 commentaries)
 
 `palden-sherab:c-3-1-6-0-1` and `tenzin-dhonzang:c-4-6-1` are also cited under "Naming and epithets" below, for the epithets the same claims supply alongside the ordinal; both statements are genuinely present in their text.
 
@@ -80,7 +80,7 @@ Eight commentaries mark this passage with an explicit flat ordinal — "the sixt
 Four commentaries instead nest this homage within a different classificatory scheme, labelling it "the fifth" (ལྔ་པ) rather than using the flat ordinal — the same four commentaries, at the same shared node path (1.2.2.1.1.5 / 2.2.2.2.1.1.5), that diverged identically at verse 4 in `2-RAILS/Claims/tara-04.md`. Their own openers frame this as the fifth *mode of praise* (praise "through being honoured by the great worldly gods," or "by way of the great world-protectors' reverence"), not a renumbering of which of the twenty-one homages this is.
 
 - Position 1 (flat "sixth of twenty-one"): the eight commentaries listed under Consensus above.
-- Position 2 (nested "fifth mode of praise"): `anon-utpala:c-1-2-2-1-1-5-1`, `gendun-drub:c-2-2-2-2-1-1-5-1`, `lobsang-dawa:c-1-2-2-1-1-5-1`, `tenga-tulku:c-1-2-2-1-1-5-1`.
+- Position 2 (nested "fifth mode of praise"): `dharmabhadra:c-1-2-2-1-1-5-1`, `gendun-drub:c-2-2-2-2-1-1-5-1`, `lobsang-dawa:c-1-2-2-1-1-5-1`, `tenga-tulku:c-1-2-2-1-1-5-1`.
 
 This is a difference in classificatory axis, not a doctrinal disagreement about the verse's content — recorded here per Rule 4 rather than folded into the Consensus, since these four commentaries' own structural claims do not label the verse "the sixth" anywhere captured in the packet.
 
@@ -94,13 +94,13 @@ None beyond the two positions above.
 ### Consensus
 Seven commentaries quote the root verse's full four lines together in one block (subject to minor orthographic variation across transmissions): "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །" — "Homage to her who is worshipped by Indra, Agni, Brahmā, Vāyu, and Sarveśvara, and praised from in front by hosts of bhūtas, vetālas, gandharvas, and yakṣas."
 
-— attested: `anon-trinle-char:c-3-6-3`, `anon-utpala:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19` (7 commentaries)
+— attested: `yama-sonam:c-3-6-3`, `dharmabhadra:c-1-2-2-1-1-5-2`, `palden-sherab:c-3-1-6-0-2`, `sungrab-tulku:c-9-2`, `tenga-tulku:c-1-2-2-1-1-5-2`, `tenzin-dhonzang:c-4-6-2`, `tsultrim-namdak:c-2-1-2-1-19` (7 commentaries)
 
 ### ⚑ Divergences
 None observed on the verse's wording itself — the variation is orthographic only.
 
 ### Unique
-Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented as the praise's own verse — the same distinctive attribution this commentary gives at verse 4. `anon-trinle-char:c-3-6-3` (already cited above; noted here for the attribution)
+Anon-Trinle-Char's quotation is uniquely prefaced "from the tantra" (རྒྱུད་ལས།) rather than presented as the praise's own verse — the same distinctive attribution this commentary gives at verse 4. `yama-sonam:c-3-6-3` (already cited above; noted here for the attribution)
 
 Tenga Tulku's quotation preserves internal ellipsis marks between each line in the packet's own text (copied verbatim, not introduced by this page).
 
@@ -122,7 +122,7 @@ Three distinct naming traditions are attested for this particular Tārā:
 
 **Position 1 — "[Tārā] Victorious over the Three Worlds" (འཇིག་རྟེན་གསུམ་ལས་རྣམ་པར་རྒྱལ་བ):** Anon-Trinle-Char's section heading and Tenzin Dhonzang's heading give this exact epithet in verbatim-identical wording (re-read and confirmed: both read འཇིག་རྟེན་གསུམ་ལས་རྣམ་པར་རྒྱལ་བ character-for-character), independently naming her the same way.
 
-— attested: `anon-trinle-char:c-3-6-1`, `tenzin-dhonzang:c-4-6-1` (2 commentaries, verbatim-identical epithet)
+— attested: `yama-sonam:c-3-6-1`, `tenzin-dhonzang:c-4-6-1` (2 commentaries, verbatim-identical epithet)
 
 **Position 2 — "Tārā Utterly Victorious" (རྣམ་པར་རྒྱལ་བའི་སྒྲོལ་མ), related but not identical:** Gendun Drub gives this shorter epithet, sharing the "rnam par rgyal ba" (victorious) root with Position 1 but omitting the "over the three worlds" qualifier (re-read and confirmed: the two phrases are not the same compound, so this is recorded as a separate, related position rather than merged into Position 1).
 
@@ -148,7 +148,7 @@ None beyond the three positions above. The remaining nine commentaries either gi
 ### Consensus
 The verse's first two lines name Indra, Agni, Brahmā, and Vāyu among the worshippers. Five commentaries additionally agree on a clean four-point directional-guardian assignment for these four: Indra guarding the east, Agni the southeast, Brahmā the zenith/above, and Vāyu the northwest.
 
-— attested (directional 4-guardian assignment, E/SE/above/NW): `anon-utpala:c-1-2-2-1-1-5-3`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `konchok-thabkhe:c-2-6-2`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5` (5 commentaries)
+— attested (directional 4-guardian assignment, E/SE/above/NW): `dharmabhadra:c-1-2-2-1-1-5-3`, `lobsang-dawa:c-1-2-2-1-1-5-2`, `konchok-thabkhe:c-2-6-2`, `sangye-nyentrul:c-7-0-1`, `sungrab-tulku:c-9-5` (5 commentaries)
 
 Tenga Tulku's own claim offers this same four-point directional assignment explicitly as an *alternative* reading ("ཡང་ན," "or alternatively") alongside a first, non-directional reading (Indra as "lord of gods," Brahmā as "master of the trichiliocosm") — it is therefore not folded into the clean 5-commentary count above, since the claim itself does not commit to the directional reading as its primary gloss. `tenga-tulku:c-1-2-2-1-1-5-3`
 
@@ -222,7 +222,7 @@ Given this explicit flag, the following expanded schemes are recorded as indepen
 
 Tenzin Dhonzang independently arrives at "the ten guardians of the directions" by a different route: starting from an eight-guardian scheme cited from an external liturgical source (below), then adding Brahmā (zenith) and the earth-goddess Tenma (nadir) to reach ten. `tenzin-dhonzang:c-4-6-7`
 
-Anon-Trinle-Char's own reasoning invokes "the ten directional guardians" by name when identifying Agni and Vāyu, without enumerating the full set. `anon-trinle-char:c-3-6-5`
+Anon-Trinle-Char's own reasoning invokes "the ten directional guardians" by name when identifying Agni and Vāyu, without enumerating the full set. `yama-sonam:c-3-6-5`
 
 Pema Namgyal's elaborated identification likewise names "the ten guardians of the directions" alongside its own epithet-list for the four principal gods. `pema-namgyal:c-2-4-24`
 
@@ -232,7 +232,7 @@ Pema Namgyal's elaborated identification likewise names "the ten guardians of th
 
 **Additional worshippers named beyond the directional-guardian frame:** Anon-Utpala separately names Yama, nāgas, and "various-class lords" as exemplified by the four principal gods, worshipping her as their chief object of reverence. Konchok Thabkhe separately names "the powerful elemental spirit" (dbang ldan), "the corpse-riding rākṣasa," and — distinctively — "Yama, lord of the gandharvas" (a role elsewhere in this corpus assigned to Indra; see "Divergences" under the retinue-classes facet below), together with the yakṣa-hosts guarding the north.
 
-— attested: `anon-utpala:c-1-2-2-1-1-5-4`, `konchok-thabkhe:c-2-6-3` (2 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-5-4`, `konchok-thabkhe:c-2-6-3` (2 commentaries)
 
 ### Unique
 None beyond the schemes above.
@@ -244,7 +244,7 @@ None beyond the schemes above.
 ### Consensus
 Multiple commentaries agree the verse's third and fourth lines name four classes of spirit-beings — bhūta, vetāla, gandharva, and yakṣa — who praise her from in front, and that even these normally hard-to-tame, fear-inspiring hosts do so with reverence. The bare fact of this fourfold praise (without exemplar-naming) is independently stated by:
 
-— attested: `anon-trinle-char:c-3-6-6`, `karma-maitri:c-1-1-6-13`, `taranatha:c-6-14` (3 commentaries)
+— attested: `yama-sonam:c-3-6-6`, `karma-maitri:c-1-1-6-13`, `taranatha:c-6-14` (3 commentaries)
 
 Several commentaries go further and frame each class as the specific retinue of one of the principal worshipping gods ("bhūta, the retinue of X," etc.), though they do not agree on which god each class serves — see Divergences.
 
@@ -276,7 +276,7 @@ Tenzin Dhonzang's Chakrasaṃvara citation and Sungrab Tulku's north-guardian re
 
 **Which god does each retinue serve — a further, independent axis of disagreement:** Four commentaries frame the classes explicitly as retinues ("'khor") of named gods, but disagree on the assignments. Anon-Utpala: bhūta = retinue of "the powerful one" (dbang ldan), vetāla = retinue of rākṣasas, gandharva = retinue of Indra, yakṣa = retinue of "the ill-bodied one." Lobsang Dawa: bhūta = retinue of *Viṣṇu* (dbang ldan), vetāla = retinue of rākṣasas, gandharva = retinue of Indra, yakṣa = retinue of "the ill-formed." Sungrab Tulku: bhūta = retinue of Īśvara (dbang ldan), vetāla = retinue of rākṣasas, gandharva = retinue of Indra, yakṣa = retinue of "the evil-bodied ones." These three converge closely (dbang ldan → bhūta; rākṣasas → vetāla; Indra → gandharva) but differ on precisely who "dbang ldan" is (unnamed "powerful one" vs. Viṣṇu vs. Īśvara — re-read and confirmed these are not the same gloss). Konchok Thabkhe departs further, identifying Yama — not Indra — as "lord of the gandharvas."
 
-— attested (dbang-ldan/rākṣasa/Indra/ill-bodied retinue pattern, three variant namings of "dbang ldan"): `anon-utpala:c-1-2-2-1-1-5-5`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `sungrab-tulku:c-9-7` (3 commentaries)
+— attested (dbang-ldan/rākṣasa/Indra/ill-bodied retinue pattern, three variant namings of "dbang ldan"): `dharmabhadra:c-1-2-2-1-1-5-5`, `lobsang-dawa:c-1-2-2-1-1-5-3`, `sungrab-tulku:c-9-7` (3 commentaries)
 
 Konchok Thabkhe's own claim (already cited above under "Extended directional-guardian schemes") departs from this pattern, identifying Yama rather than Indra as "lord of the gandharvas" — 1 further commentary, not merged into the count above since it takes a different position. `konchok-thabkhe:c-2-6-3`
 
@@ -317,7 +317,7 @@ Two distinct iconographic traditions are attested:
 
 **Position A — elaborate form (one face, four arms), red body:** seated in bodhisattva posture on a seat of red lotus and sun disc; one face, four arms; right hands hold a vajra and a sword, left hands form the threatening gesture (mudrā) and hold a lasso. Confirmed by this commentary's own citation of a further verse attributed to "Nyima Sbaspa": "Abiding on lotus and sun, red; one face, four arms, vajra and sword; holding the threatening gesture and lasso, accomplishing what is fitting" — near-identical to the commentary's own description, re-read and confirmed as a genuine corroborating citation rather than a loose paraphrase.
 
-— attested: `anon-trinle-char:c-3-6-7`, `anon-trinle-char:c-3-6-8`, `anon-trinle-char:c-3-6-9` (1 commentary, 3 claims)
+— attested: `yama-sonam:c-3-6-7`, `yama-sonam:c-3-6-8`, `yama-sonam:c-3-6-9` (1 commentary, 3 claims)
 
 **Position B — "Great Terrifying One" form (one face, two hands), dark-red body, wrathful implement:** dark-red body; seated on a lotus-and-moon seat; one face, two hands; right hand in supreme-giving mudrā; left hand holds an utpala at whose centre is a vajra-dagger (phurba) blazing with a HŪṂ-marked fire-lasso and sparks. Sangye Nyentrul and Palden Sherab's descriptions correspond closely on this core imagery (re-read and confirmed as genuine, not merely topical: both specify dark-red colour, lotus-and-moon seat, right-hand supreme-giving mudrā, and the utpala-vajra-dagger-HŪṂ-fire combination), though Palden Sherab alone specifies the left hand's mudrā as additionally symbolizing the Three Jewels, and neither commentary's phrasing is verbatim-identical. Tsultrim Namdak's separate claim (in a distinct section of that commentary, keyed to the epithet "Great Terrifier / Destroyer of the Spirit-Classes" already cited above) independently attests the same tradition's core elements — dark-red body, holding a phurba, radiating HŪṂ-sparks — without detailing the mudrās or seat.
 
@@ -379,8 +379,8 @@ Tenzin Dhonzang alone brings in material from outside this verse: an etymology o
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-6-2` — restates the same "sixth homage, to the venerable Lady Victorious over the Three Worlds" structural/naming marker already attested by `anon-trinle-char:c-3-6-1` above; not independently cited to avoid inflating the count with a duplicate from the same source.
-- `anon-trinle-char:c-3-6-4` — a bare "homage — to whom? To the venerable Lady..." formulaic transition, restating content already covered by `anon-trinle-char:c-3-6-1`; no independent content.
+- `yama-sonam:c-3-6-2` — restates the same "sixth homage, to the venerable Lady Victorious over the Three Worlds" structural/naming marker already attested by `yama-sonam:c-3-6-1` above; not independently cited to avoid inflating the count with a duplicate from the same source.
+- `yama-sonam:c-3-6-4` — a bare "homage — to whom? To the venerable Lady..." formulaic transition, restating content already covered by `yama-sonam:c-3-6-1`; no independent content.
 - `karma-maitri:c-1-1-6-14` — a bare closing identification ("homage is to that Tārā who is thus praised") with no distinguishing content beyond what is already established under "The four principal worshipping gods" and "The four retinue-classes," above.
 - `sungrab-tulku:c-9-4` — re-quotes the root phrase already quoted in full at `sungrab-tulku:c-9-2`, as a bare transition into the word-by-word exegesis that follows; no independent content.
 - `sungrab-tulku:c-9-6` — re-quotes the verse's third/fourth lines, already quoted in full at `sungrab-tulku:c-9-2`, as a transition into the exegesis given at `sungrab-tulku:c-9-7`; no independent content.
@@ -392,8 +392,8 @@ Tenzin Dhonzang alone brings in material from outside this verse: an etymology o
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-6-1, c-3-6-2, c-3-6-3, c-3-6-4, c-3-6-5, c-3-6-6, c-3-6-7, c-3-6-8, c-3-6-9 | Structural placement, Root verse quoted, Naming and epithets, Extended directional-guardian schemes, The four retinue-classes, Iconographic form |
-| anon-utpala | c-1-2-2-1-1-5-1, c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3, c-1-2-2-1-1-5-4, c-1-2-2-1-1-5-5 | Structural placement, Root verse quoted, The four principal worshipping gods, Extended directional-guardian schemes, The four retinue-classes |
+| yama-sonam | c-3-6-1, c-3-6-2, c-3-6-3, c-3-6-4, c-3-6-5, c-3-6-6, c-3-6-7, c-3-6-8, c-3-6-9 | Structural placement, Root verse quoted, Naming and epithets, Extended directional-guardian schemes, The four retinue-classes, Iconographic form |
+| dharmabhadra | c-1-2-2-1-1-5-1, c-1-2-2-1-1-5-2, c-1-2-2-1-1-5-3, c-1-2-2-1-1-5-4, c-1-2-2-1-1-5-5 | Structural placement, Root verse quoted, The four principal worshipping gods, Extended directional-guardian schemes, The four retinue-classes |
 | drakpa-gyaltsen | c-1-34, c-1-35, c-1-36, c-1-37, c-1-38, c-1-39, c-1-40, c-1-41, c-1-42, c-1-43, c-1-44 | Root verse quoted, The four principal worshipping gods, Identity of Sarveśvara, The four retinue-classes |
 | gendun-drub | c-2-2-2-2-1-1-5-1, c-2-2-2-2-1-1-5-2, c-2-2-2-2-1-1-5-3, c-2-2-2-2-1-1-5-4 | Structural placement, The four principal worshipping gods, Naming and epithets, The four retinue-classes |
 | gendun-gyatso | c-1-6-1, c-1-6-2 | Structural placement, The four principal worshipping gods, The four retinue-classes |

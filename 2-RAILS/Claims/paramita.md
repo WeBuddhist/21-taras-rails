@@ -3,8 +3,8 @@ topic: paramita
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -103,13 +103,13 @@ Divergence, not consensus; see below.
 The sibling pages (`dana.md` §"Root verse", `virya.md` §"root verse 3")
 already record three divergent counts for this list: **ten pāramitās**
 (`palden-sherab:c-3-1-4-1-4`, `tenzin-dhonzang:c-4-4-8`,
-`anon-trinle-char:c-3-3-6`), **five pāramitās with wisdom as basis rather
+`yama-sonam:c-3-3-6`), **five pāramitās with wisdom as basis rather
 than list-member** (`konchok-thabkhe:c-2-3-3`), and **subsumed into the
 thirty-seven factors of enlightenment** (`tsultrim-namdak:c-3-6`). This page
 adds two further attestations of the same underlying divergence not used by
 either sibling page:
 
-- **anon-trinle-char:c-3-3-8** records the divergence explicitly as a
+- **yama-sonam:c-3-3-8** records the divergence explicitly as a
   disagreement *among the commentarial tradition itself*, rather than simply
   adopting one reading: "བཀའ་ཐུབ་ཅེས་གསུངས་པ་ནི་ཚུལ་ཁྲིམས་ཀྱིས་ཉོན་མོངས་ཞི་བའི་
   དོན་དུ་འགྲེལ་པ་དུ་མས་བཀྲལ་ཞིང་། ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་
@@ -177,8 +177,8 @@ absorption, wisdom, method, power, aspiration, and [primordial] wisdom"),
 paired in the same claim with the ten-bhūmi names.
 
 — attested (root verse quoted and/or the ten-pāramitā/ten-bhūmi correlation
-glossed explicitly): `anon-trinle-char:c-3-4-3`, `anon-trinle-char:c-3-4-6`,
-`anon-utpala:c-1-2-2-1-1-3-2`, `anon-utpala:c-1-2-2-1-1-3-5`,
+glossed explicitly): `yama-sonam:c-3-4-3`, `yama-sonam:c-3-4-6`,
+`dharmabhadra:c-1-2-2-1-1-3-2`, `dharmabhadra:c-1-2-2-1-1-3-5`,
 `drakpa-gyaltsen:c-1-25`, `gendun-drub:c-2-2-2-2-1-1-3-4`,
 `gendun-gyatso:c-1-4-2`, `gendun-gyatso:c-1-4-3`, `karma-maitri:c-1-1-4-4`,
 `konchok-thabkhe:c-2-4-4`, `lobsang-dawa:c-1-2-2-1-1-3-4`,
@@ -188,8 +188,8 @@ glossed explicitly): `anon-trinle-char:c-3-4-3`, `anon-trinle-char:c-3-4-6`,
 `taranatha:c-4-7`, `tenga-tulku:c-1-2-2-1-1-3-2-2`,
 `tenga-tulku:c-1-2-2-1-1-3-2-3`, `tenzin-dhonzang:c-4-4-2`,
 `tenzin-dhonzang:c-4-4-8`, `tsultrim-namdak:c-2-1-2-1-13`,
-`tsultrim-namdak:c-2-1-2-1-15` (16 commentaries: anon-trinle-char,
-anon-utpala, drakpa-gyaltsen, gendun-drub, gendun-gyatso, karma-maitri,
+`tsultrim-namdak:c-2-1-2-1-15` (16 commentaries: yama-sonam,
+dharmabhadra, drakpa-gyaltsen, gendun-drub, gendun-gyatso, karma-maitri,
 konchok-thabkhe, lobsang-dawa, palden-sherab, pema-namgyal, sangye-nyentrul,
 sungrab-tulku, taranatha, tenga-tulku, tenzin-dhonzang, tsultrim-namdak)
 
@@ -427,8 +427,8 @@ run knows the material exists and roughly how much of it there is.
 **Structural/title-only matches** (section headings or homage-address
 phrases that repeat "Tārā of the Perfections" as a name, with no
 category-level doctrinal content beyond the name itself):
-`anon-trinle-char:c-3-3-1`, `anon-trinle-char:c-3-3-2`,
-`anon-trinle-char:c-3-3-4`, `konchok-thabkhe:c-2-3-1`,
+`yama-sonam:c-3-3-1`, `yama-sonam:c-3-3-2`,
+`yama-sonam:c-3-3-4`, `konchok-thabkhe:c-2-3-1`,
 `sungrab-tulku:c-7-7` (duplicate re-quotation of the same root-verse phrase
 already covered by `sungrab-tulku:c-7-2`), `tenzin-dhonzang:c-2-8` (duplicate
 preview quotation of the same root verse covered by `tenzin-dhonzang:c-4-4-2`),
@@ -439,7 +439,7 @@ doctrinal).
 
 **Already fully cited on a sibling pāramitā page for individual-member
 content, with no additional category-level content in the same claim**:
-`anon-trinle-char:c-3-3-3` (root verse 3, verbatim — on `dana.md`/`virya.md`),
+`yama-sonam:c-3-3-3` (root verse 3, verbatim — on `dana.md`/`virya.md`),
 `drakpa-gyaltsen:c-1-15` (dāna gloss — `dana.md`),
 `drakpa-gyaltsen:c-1-16` (vīrya gloss — `virya.md`),
 `drakpa-gyaltsen:c-1-19` (kṣānti gloss — `kshanti.md`),
@@ -471,8 +471,8 @@ rather than a name in a list.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-3-1, c-3-3-2, c-3-3-3, c-3-3-4, c-3-3-6, c-3-3-8, c-3-4-3, c-3-4-6 (8) | Root-verse-3 divergence (cross-ref), ten-pāramitā/ten-bhūmi consensus (verse 4), Claims reviewed |
-| `anon-utpala` | c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-5 (2) | Ten-pāramitā/ten-bhūmi consensus (verse 4) |
+| `yama-sonam` | c-3-3-1, c-3-3-2, c-3-3-3, c-3-3-4, c-3-3-6, c-3-3-8, c-3-4-3, c-3-4-6 (8) | Root-verse-3 divergence (cross-ref), ten-pāramitā/ten-bhūmi consensus (verse 4), Claims reviewed |
+| `dharmabhadra` | c-1-2-2-1-1-3-2, c-1-2-2-1-1-3-5 (2) | Ten-pāramitā/ten-bhūmi consensus (verse 4) |
 | `drakpa-gyaltsen` | c-1-15, c-1-16, c-1-19, c-1-20, c-1-22, c-1-25 (6) | Causal-source consensus, ten-pāramitā/ten-bhūmi consensus (verse 4), Claims reviewed |
 | `gendun-drub` | c-2-2-2-2-1-1-2-4, c-2-2-2-2-1-1-3-4 (2) | Ten-pāramitā/ten-bhūmi consensus (verse 4), Claims reviewed |
 | `gendun-gyatso` | c-1-3-2, c-1-3-3, c-1-4-2, c-1-4-3 (4) | Root-verse-3 divergence, ten-pāramitā/ten-bhūmi consensus (verse 4), Claims reviewed |

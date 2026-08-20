@@ -3,8 +3,8 @@ topic: tara-02
 spine: "^1-2 (second homage of the twenty-one)"
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -70,7 +70,7 @@ status: draft
 ### Consensus
 Six commentaries mark this passage with an explicit ordinal — "second" (or, equivalently, "(2)") — identifying it as the second of the homages, before proceeding to gloss the verse.
 
-— attested: `anon-trinle-char:c-3-2-1`, `karma-maitri:c-1-1-2-1`, `konchok-thabkhe:c-2-2-1`, `taranatha:c-2-1`, `tenzin-dhonzang:c-4-2-1`, `sungrab-tulku:c-5-1` (6 commentaries)
+— attested: `yama-sonam:c-3-2-1`, `karma-maitri:c-1-1-2-1`, `konchok-thabkhe:c-2-2-1`, `taranatha:c-2-1`, `tenzin-dhonzang:c-4-2-1`, `sungrab-tulku:c-5-1` (6 commentaries)
 
 ### ⚑ Divergences
 Three commentaries instead locate the verse inside a nested, multi-tier classificatory scheme rather than labelling it simply "second." Gendun Drub and Tenga Tulku give an almost word-for-word identical four-tier cascade — praise by enjoyment-body vs. truth-body forms → peaceful vs. wrathful forms → (within peaceful) six homages, of which this is the *first* — rather than treating it as the second homage of the praise as a whole; Lobsang Dawa's commentary opens the same node with the bare marker "the first" (དང་པོ་ནི།), consistent with the same nested reading (its node number, 1.2.2.1.1.1, matches Tenga Tulku's own node numbering exactly, suggesting a shared classificatory lineage).
@@ -90,13 +90,13 @@ Konchok Thabkhe's structural announcement additionally characterizes the homage 
 ### Consensus
 Seven commentaries quote the root verse's full four lines verbatim (or near-verbatim, subject to minor orthographic variation across transmissions): "ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས། རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ།" — "Homage to her whose face is like a hundred full autumn moons stacked together, blazing with light that outshines the massed gathering of a thousand stars."
 
-— attested: `anon-trinle-char:c-3-2-3`, `anon-utpala:c-1-2-2-1-1-1-4`, `palden-sherab:c-3-1-2-0-2`, `sungrab-tulku:c-5-2`, `tenzin-dhonzang:c-4-2-2`, `tenga-tulku:c-1-2-2-1-1-1-2`, `tsultrim-namdak:c-2-1-2-1-7` (7 commentaries)
+— attested: `yama-sonam:c-3-2-3`, `dharmabhadra:c-1-2-2-1-1-1-4`, `palden-sherab:c-3-1-2-0-2`, `sungrab-tulku:c-5-2`, `tenzin-dhonzang:c-4-2-2`, `tenga-tulku:c-1-2-2-1-1-1-2`, `tsultrim-namdak:c-2-1-2-1-7` (7 commentaries)
 
 Gendun Drub's own root-verse quotation (`gendun-drub:c-2-2-2-2-1-1-1-2`) gives only the first two lines — "ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། །གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ།" ("Homage to her whose face is like a hundred full autumn moons all gathered together") — not the full four lines; the "thousand stars"/"rab tu phye" half of the verse appears in this commentary only as paraphrase, at `gendun-drub:c-2-2-2-2-1-1-1-3` (see "Radiance surpassing a thousand stars," below). Per Rule 9 this is recorded as a partial attestation rather than folded into the full-verbatim count above.
 
 Fifteen of the sixteen contributing commentaries (all but Tenga Tulku, whose claim on this specific point addresses the simile's *mechanism* rather than restating the numeral image — see the next facet) gloss this image as meaning that her face resembles a hundred full (autumn) moons piled or stacked together.
 
-— attested: `anon-trinle-char:c-3-2-4`, `anon-utpala:c-1-2-2-1-1-1-5`, `drakpa-gyaltsen:c-1-10`, `gendun-drub:c-2-2-2-2-1-1-1-3`, `gendun-gyatso:c-1-2-1`, `karma-maitri:c-1-1-2-2`, `konchok-thabkhe:c-2-2-2`, `lobsang-dawa:c-1-2-2-1-1-1-5`, `palden-sherab:c-3-1-2-1-1`, `pema-namgyal:c-2-4-16`, `sangye-nyentrul:c-3-0-1`, `sungrab-tulku:c-5-5`, `taranatha:c-2-3`, `tenzin-dhonzang:c-4-2-3`, `tsultrim-namdak:c-2-1-2-1-8` (15 commentaries)
+— attested: `yama-sonam:c-3-2-4`, `dharmabhadra:c-1-2-2-1-1-1-5`, `drakpa-gyaltsen:c-1-10`, `gendun-drub:c-2-2-2-2-1-1-1-3`, `gendun-gyatso:c-1-2-1`, `karma-maitri:c-1-1-2-2`, `konchok-thabkhe:c-2-2-2`, `lobsang-dawa:c-1-2-2-1-1-1-5`, `palden-sherab:c-3-1-2-1-1`, `pema-namgyal:c-2-4-16`, `sangye-nyentrul:c-3-0-1`, `sungrab-tulku:c-5-5`, `taranatha:c-2-3`, `tenzin-dhonzang:c-4-2-3`, `tsultrim-namdak:c-2-1-2-1-8` (15 commentaries)
 
 Several of these additionally specify that the resulting face is supremely white and beautiful (e.g. Anon-Utpala's "supremely white and beautiful," Gendun Gyatso's "supremely white and beautiful," Sangye Nyentrul's "dazzlingly white and beautiful"), but since not every commentary in the list above makes that further evaluative addition explicit in this particular claim, it is described here in the body text rather than folded into the count above (per Rule 9).
 
@@ -121,7 +121,7 @@ Sungrab Tulku and Tenga Tulku give an almost word-for-word identical explanation
 None observed — no commentary offers a competing explanation for why "autumn" is significant.
 
 ### Unique
-Anon-Trinle-Char gives a related but distinct account: the autumn sky is described as free of "the three flaws" of dust, mist, and cloud (རྡུལ་སྨག་སྤྲིན་གྱི་སྐྱོན་བཅས་སྐྱོན་གསུམ), rather than the two-season (summer/winter) contrast used by Sungrab Tulku and Tenga Tulku, and this commentary adds a distinct claim about effect: seeing the goddess's face in this manner is said to cause faith to increase completely (དང་བ་ཡོངས་སུ་འཕེལ་ལོ). Because the specific framing differs from the two-commentary Consensus above (re-read and confirmed not to match it word-for-word), it is recorded separately here rather than folded in as a third attestation, per Rule 10. This claim is also cited under "Root verse and core simile" above, in the 15-commentary Consensus list, for the "hundred stacked moons" gloss it shares with the rest of the corpus; both statements are genuinely supported by its content. `anon-trinle-char:c-3-2-4`
+Anon-Trinle-Char gives a related but distinct account: the autumn sky is described as free of "the three flaws" of dust, mist, and cloud (རྡུལ་སྨག་སྤྲིན་གྱི་སྐྱོན་བཅས་སྐྱོན་གསུམ), rather than the two-season (summer/winter) contrast used by Sungrab Tulku and Tenga Tulku, and this commentary adds a distinct claim about effect: seeing the goddess's face in this manner is said to cause faith to increase completely (དང་བ་ཡོངས་སུ་འཕེལ་ལོ). Because the specific framing differs from the two-commentary Consensus above (re-read and confirmed not to match it word-for-word), it is recorded separately here rather than folded in as a third attestation, per Rule 10. This claim is also cited under "Root verse and core simile" above, in the 15-commentary Consensus list, for the "hundred stacked moons" gloss it shares with the rest of the corpus; both statements are genuinely supported by its content. `yama-sonam:c-3-2-4`
 
 ---
 
@@ -130,7 +130,7 @@ Anon-Trinle-Char gives a related but distinct account: the autumn sky is describ
 ### Consensus
 Nine commentaries gloss the verse's second image as meaning that her light or radiance surpasses (outshines, or is more brilliant than) a massed gathering of a thousand stars.
 
-— attested: `anon-utpala:c-1-2-2-1-1-1-6`, `drakpa-gyaltsen:c-1-11`, `gendun-drub:c-2-2-2-2-1-1-1-3`, `karma-maitri:c-1-1-2-3`, `konchok-thabkhe:c-2-2-3`, `lobsang-dawa:c-1-2-2-1-1-1-6`, `sungrab-tulku:c-5-6`, `taranatha:c-2-4`, `tenga-tulku:c-1-2-2-1-1-1-4` (9 commentaries)
+— attested: `dharmabhadra:c-1-2-2-1-1-1-6`, `drakpa-gyaltsen:c-1-11`, `gendun-drub:c-2-2-2-2-1-1-1-3`, `karma-maitri:c-1-1-2-3`, `konchok-thabkhe:c-2-2-3`, `lobsang-dawa:c-1-2-2-1-1-1-6`, `sungrab-tulku:c-5-6`, `taranatha:c-2-4`, `tenga-tulku:c-1-2-2-1-1-1-4` (9 commentaries)
 
 > Note on reuse: `gendun-drub:c-2-2-2-2-1-1-1-3` is also cited under "Root verse and core simile" above (its "hundred stacked moons" gloss) and under "Word-gloss and textual-variant tension" below (Tension 1, Position A — the same "surpasses" reading bears directly on that divergence). `tenga-tulku:c-1-2-2-1-1-1-4` and `lobsang-dawa:c-1-2-2-1-1-1-6` are likewise cited again in the Unique paragraphs immediately below (for content beyond the shared "surpasses" statement) and, for `tenga-tulku:c-1-2-2-1-1-1-4`, again under "Word-gloss and textual-variant tension" below; `lobsang-dawa:c-1-2-2-1-1-1-6` is further cited under "Naming and identity" below. Each claim genuinely and fully supports every statement it is cited for; the reuse is deliberate and retained after review, per the pattern established under "Iconographic form" above.
 
@@ -157,7 +157,7 @@ This is a genuine divergence independently attested across the corpus, not merel
 
 **Position A — her light surpasses/outshines the stars, radiating from her face:**
 
-— attested: `gendun-drub:c-2-2-2-2-1-1-1-3`, `drakpa-gyaltsen:c-1-11`, `karma-maitri:c-1-1-2-3`, `anon-utpala:c-1-2-2-1-1-1-6`, `taranatha:c-2-4`, `tenga-tulku:c-1-2-2-1-1-1-4` (6 commentaries)
+— attested: `gendun-drub:c-2-2-2-2-1-1-1-3`, `drakpa-gyaltsen:c-1-11`, `karma-maitri:c-1-1-2-3`, `dharmabhadra:c-1-2-2-1-1-1-6`, `taranatha:c-2-4`, `tenga-tulku:c-1-2-2-1-1-1-4` (6 commentaries)
 
 **Position B — she is adorned by the stars, rather than her light surpassing them:** Gendun Gyatso's gloss reads, "blazing with intensely white light, as if adorned by a thousand stars fully opened [around her] in reverence" — an "adorned by" framing, the opposite pole from Position A.
 
@@ -165,11 +165,11 @@ This is a genuine divergence independently attested across the corpus, not merel
 
 Anon-Trinle-Char argues, against an unnamed group it calls "some commentators" (འགྲེལ་མཛད་མཁན་དག), that "rab tu phye" should not be read as meaning that star-like rays of light literally emanate from the goddess's face or body, surpassing even starlight — calling this reading a fault, since starlight is itself an example of dim, unclear light and so becomes, in this commentary's view, an "ornament of denigration" if applied to the goddess. Anon-Trinle-Char's own claim names no specific commentator it is criticizing. This page observes — as its own inference, not a statement made by Anon-Trinle-Char itself (per Rule 13) — that the reading it criticizes is exactly Position A above, independently attested by six other commentaries in this corpus, and that the "adorned by" alternative it implicitly favors over that fault is exactly Position B's framing.
 
-— attested: `anon-trinle-char:c-3-2-5` (1 commentary)
+— attested: `yama-sonam:c-3-2-5` (1 commentary)
 
 Anon-Trinle-Char's own preferred reading — "rab tu phye" means "made vividly manifest to view," i.e. the moon's radiance is brought vividly before the eyes, adorned at its edge by the cluster of stars — shares Position B's "adorned" framing in substance, though its exact wording is not identical to Gendun Gyatso's gloss, so it is recorded as its own position rather than folded into Position B.
 
-— attested: `anon-trinle-char:c-3-2-6` (1 commentary)
+— attested: `yama-sonam:c-3-2-6` (1 commentary)
 
 **Tension 2 — Gendun Drub's internal textual-variant tension ("a hundred stacked" vs. "sixteen teeth, thirty-two marks").**
 
@@ -195,7 +195,7 @@ At least four distinct naming traditions for this particular Tārā are attested
 
 **Position 1 — "White Lady, Radiant One" (དཀར་མོ་མདངས་ལྡན་མ):** Anon-Trinle-Char reports that "Rje Dge 'dun grub" (Gendun Drub) names her this way, and this is independently confirmed by Gendun Drub's own commentary in this corpus, which self-identifies: "འདི་ལ་དཀར་མོ་མདངས་ལྡན་སྒྲོལ་མ་ཞེས་བཤད་དོ།" — "She is explained here as White Tārā, Radiant." Both claims were re-read to confirm this genuine, independent cross-attestation.
 
-— attested: `anon-trinle-char:c-3-2-7`, `gendun-drub:c-2-2-2-2-1-1-1-5` (2 commentaries)
+— attested: `yama-sonam:c-3-2-7`, `gendun-drub:c-2-2-2-2-1-1-1-5` (2 commentaries)
 
 **Position 2 — "Dbyangs-can-ma" / Sarasvatī (Melodious One), often "Blo-gter Dbyangs-can-ma," Treasure-of-Intellect Sarasvatī:** attested independently by four commentaries.
 
@@ -216,7 +216,7 @@ Sangye Nyentrul separately uses a near-identical epithet — "སྒྲོལ་
 — attested: `lobsang-dawa:c-1-2-2-1-1-1-6` (1 commentary)
 
 ### Unique
-Within the same claim that attests Position 1 above, Anon-Trinle-Char also reports two further names from named masters outside this corpus's sixteen commentaries — "Venerable Grags-pa bshad-sgrub" calling her "Tārā of the Great Inquiry" (སྒྲོལ་མ་ཞུ་བ་ཆེན་མོ), and "Nyima Sbaspa" calling her "Noble Tārā, white like the autumn moon" — and on this basis criticizes the common thangka/painting practice of depicting her body colour as dark maroon-red, arguing it contradicts these masters' statements and the tantra itself. Because these two further names are third-party attributions reported within a single claim rather than independently attested by those authors' own commentaries in this corpus, they are recorded here as part of Anon-Trinle-Char's own naming survey rather than as separate corpus-wide positions. `anon-trinle-char:c-3-2-7`
+Within the same claim that attests Position 1 above, Anon-Trinle-Char also reports two further names from named masters outside this corpus's sixteen commentaries — "Venerable Grags-pa bshad-sgrub" calling her "Tārā of the Great Inquiry" (སྒྲོལ་མ་ཞུ་བ་ཆེན་མོ), and "Nyima Sbaspa" calling her "Noble Tārā, white like the autumn moon" — and on this basis criticizes the common thangka/painting practice of depicting her body colour as dark maroon-red, arguing it contradicts these masters' statements and the tantra itself. Because these two further names are third-party attributions reported within a single claim rather than independently attested by those authors' own commentaries in this corpus, they are recorded here as part of Anon-Trinle-Char's own naming survey rather than as separate corpus-wide positions. `yama-sonam:c-3-2-7`
 
 ---
 
@@ -233,7 +233,7 @@ Four commentaries describe her body or complexion as white.
 Two distinct iconographic traditions are attested for this Tārā's visualized form:
 
 - **Position A — simple form (one face, two hands):** seated half-cross-legged / archer's posture on a lotus-and-moon seat, right hand in the supreme-giving mudrā, left hand holding an utpala topped by a mirror marked with a seed-syllable. `sangye-nyentrul:c-3-1-2` (seed-syllable HRIH), `palden-sherab:c-3-1-2-2-1` (seed-syllable HŪṂ — note this specific variant, not silently harmonized with the others' HRIH). Tsultrim Namdak attests only the body colour and the utpala-with-mirror-marked-HRĪḤ detail of this form, not the seated posture or mudrā — its own claim states no more than that — so per Rule 9 it is cited separately rather than folded into the full-statement list above: `tsultrim-namdak:c-3-5` (white body; utpala topped by a mirror marked HRĪḤ; seed-syllable HRĪḤ).
-- **Position B — elaborate form (three faces, twelve arms):** root face white, right face blue, left face yellow; two hands in equipoise, with the remaining ten hands (six right, six left) holding — right: khaṭvāṅga, wheel, jewel, vajra, flower garland; left: a vase of medicinal nectar, blue lotus (utpala), bell, vase, and a scriptural volume. This description is attributed by the commentary itself to a verse of "Nyima Sbaspa." `anon-trinle-char:c-3-2-8`, `anon-trinle-char:c-3-2-9`, `anon-trinle-char:c-3-2-10`, `anon-trinle-char:c-3-2-11` (1 commentary, 4 claims)
+- **Position B — elaborate form (three faces, twelve arms):** root face white, right face blue, left face yellow; two hands in equipoise, with the remaining ten hands (six right, six left) holding — right: khaṭvāṅga, wheel, jewel, vajra, flower garland; left: a vase of medicinal nectar, blue lotus (utpala), bell, vase, and a scriptural volume. This description is attributed by the commentary itself to a verse of "Nyima Sbaspa." `yama-sonam:c-3-2-8`, `yama-sonam:c-3-2-9`, `yama-sonam:c-3-2-10`, `yama-sonam:c-3-2-11` (1 commentary, 4 claims)
 
 No commentary in this corpus reconciles these two traditions or states that one supersedes the other; Position B is Anon-Trinle-Char's own report of an alternate iconography rather than its own preferred description (compare its rejection, in the same commentary, of thangka depictions in maroon-red under "Naming and identity" above).
 
@@ -292,7 +292,7 @@ Commentaries do not agree on which fourfold wisdom-scheme her light or intellige
 
 ## Claims reviewed, not separately cited
 
-- `anon-trinle-char:c-3-2-2` — restates the same "second homage, to the venerable White Lady Radiant One" structural marker already attested by `anon-trinle-char:c-3-2-1` in "Structural placement"; not independently cited to avoid inflating the commentary count with a duplicate from the same source.
+- `yama-sonam:c-3-2-2` — restates the same "second homage, to the venerable White Lady Radiant One" structural marker already attested by `yama-sonam:c-3-2-1` in "Structural placement"; not independently cited to avoid inflating the commentary count with a duplicate from the same source.
 - `taranatha:c-2-2` — restates the same section-opening identification of the second verse already given by `taranatha:c-2-1` in "Structural placement," serving as a transition into the word-by-word gloss that follows; not independently cited for the same reason.
 - `drakpa-gyaltsen:c-1-8` — a terse whole-line gloss ("a simile for white light") on the verse's first line; its content is subsumed by the fuller radiance statement attested at `drakpa-gyaltsen:c-1-11` under "Radiance surpassing a thousand stars."
 - `karma-maitri:c-1-1-2-4` — a generic identification ("the homage of this verse is directed to Tārā") with no distinguishing content beyond what is already established structurally in `karma-maitri:c-1-1-2-1`; too bare to support any specific naming or iconographic statement.
@@ -303,8 +303,8 @@ Commentaries do not agree on which fourfold wisdom-scheme her light or intellige
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| anon-trinle-char | c-3-2-1, c-3-2-2, c-3-2-3, c-3-2-4, c-3-2-5, c-3-2-6, c-3-2-7, c-3-2-8, c-3-2-9, c-3-2-10, c-3-2-11 | Structural placement, Root verse and core simile, Why autumn, Word-gloss and textual-variant tension, Naming and identity, Iconographic form |
-| anon-utpala | c-1-2-2-1-1-1-4, c-1-2-2-1-1-1-5, c-1-2-2-1-1-1-6 | Root verse and core simile, Radiance surpassing a thousand stars |
+| yama-sonam | c-3-2-1, c-3-2-2, c-3-2-3, c-3-2-4, c-3-2-5, c-3-2-6, c-3-2-7, c-3-2-8, c-3-2-9, c-3-2-10, c-3-2-11 | Structural placement, Root verse and core simile, Why autumn, Word-gloss and textual-variant tension, Naming and identity, Iconographic form |
+| dharmabhadra | c-1-2-2-1-1-1-4, c-1-2-2-1-1-1-5, c-1-2-2-1-1-1-6 | Root verse and core simile, Radiance surpassing a thousand stars |
 | drakpa-gyaltsen | c-1-8, c-1-9, c-1-10, c-1-11 | Root verse and core simile, Radiance surpassing a thousand stars |
 | gendun-drub | c-2-2-2-2-1-1-1-1, c-2-2-2-2-1-1-1-2, c-2-2-2-2-1-1-1-3, c-2-2-2-2-1-1-1-4, c-2-2-2-2-1-1-1-5 | Structural placement, Root verse and core simile, Radiance surpassing a thousand stars, Word-gloss and textual-variant tension, Naming and identity |
 | gendun-gyatso | c-1-2-1, c-1-2-2 | Root verse and core simile, Radiance surpassing a thousand stars |

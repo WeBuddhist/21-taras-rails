@@ -4,7 +4,7 @@ title: "སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག
 title_in_english: "Annotated Commentary on the Twenty-One Homages to Tara"
 author: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ་"
 author_in_use: "དགེ་བཤེས་བློ་བཟང་ཟླ་བ་"
-author_in_english: "Geshe Lobsang Dawa (compiler)"
+author_in_english: "Geshe Lobsang Dawa"
 source_file: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md
 toc_tree_source: 2-RAILS/Sections/Raw/toc-tree/lobsang-dawa.md
 tree_qc_reports: [0-INBOX/toc-tree-qc-lobsang-dawa.md, 0-INBOX/toc-tree-qc-source-lobsang-dawa.md]
@@ -18,7 +18,7 @@ status: draft
 
 # Tree-guided claims — Annotated Commentary on the Twenty-One Homages to Tara
 
-**Commentary:** `lobsang-dawa` · Geshe Lobsang Dawa (compiler)
+**Commentary:** `lobsang-dawa` · Geshe Lobsang Dawa
 **Source:** [`སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md`](../../../1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md)
 **TOC tree:** [`lobsang-dawa.md`](../../Sections/Raw/toc-tree/lobsang-dawa.md)
 **Citation form:** Block IDs. Content blocks carry `^0-N` throughout (this commentary has no root-verse transclusion anchors, so every content block falls under chapter 0, per `commentary-verse-id`'s convention). Heading block IDs (`^1-<decimal>-0`) are cited only for the rare claim whose content is the heading label itself. **Note:** the TOC tree's `[[N]]` line-pointers do not match this source file's current line numbering (the tree appears to have been built against a version of the file with different blank-line spacing); this extraction located every node instead via the heading's own block ID, which encodes the tree's decimal path exactly (e.g. `^1-2-2-1-1-2-0` = node 1.2.2.1.1.2) — a more reliable anchor than the stale pointer. See the Coverage log for the actual line range used per node.

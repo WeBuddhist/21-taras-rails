@@ -184,7 +184,7 @@ team with titles, authors, genres, and school attributions:
 | 5 | TARAC06_NDB | Ngülchu Dharmabhadra | Geluk | rnam bshad |
 | 6 | TARAC07_KTK | Könchok Tabkhé | Geluk | ṭīkkā |
 | 7 | TARAC08_DTG | Dorlop Tenga Tulku | Sūryagupta lineage | commentary on benefits |
-| 8 | TARAC09_ANON | anonymous (no colophon) | Sūryagupta lineage | bstod 'grel |
+| 8 | TARAC09_JYS | anonymous (no colophon) | Sūryagupta lineage | bstod 'grel |
 | 9 | TARAC10_DPN | Dombu Pema Namgyal | — | commentary |
 | 10 | TARAC11_KMT | Karma Maitri | — | condensed commentary |
 | 11 | TARAC12_PDS | Khenchen Palden Sherab | Nyingma | word commentary |

@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/suffering.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/konchok-thabkhe.md
   - 2-RAILS/Claims/raw/tree-guided/palden-sherab.md
@@ -49,17 +49,17 @@ event (i.e. per claim actually drawn on), even where several rows share the same
 | tenzin-dhonzang | tenzin-dhonzang | c-3-41 | "ཟག་བཅས་ཐམས་ཅད་སྡུག་བསྔལ་བ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-51 |
 | sungrab-tulku | sungrab-tulku | c-18-4 | "འབྲས་བུ་སྡུག་བསྔལ་ཟད་པས་བདེ་མ", "དེའི་རྒྱུ་ལས་ཉོན་གཉིས་སྤངས་པས་དགེ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-87 |
 | palden-sherab | palden-sherab | c-3-1-15-1-1 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...ཉི་ཟླའི་འཛུམ་རླབས།.md#^0-149 |
-| anon-utpala | anon-utpala | c-1-2-2-2-3 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ།.md#^0-69 |
+| dharmabhadra | dharmabhadra | c-1-2-2-2-3 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ།.md#^0-69 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-12-4 | "སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། གྱུར་བའི་སྡུག་བསྔལ", "སྐྱེ་བའི་སྡུག་འཆི་བའི་བསྔལ། ན་བའི་སྡུག་བསྔལ། རྒས་པའི་སྡུག་བསྔལ" | #^0-205 |
 | konchok-thabkhe | konchok-thabkhe | c-1-3-2 | "ཐོག་མར་ཕྱི་མའི་མནོ་བསམ་མེད་པ་རྣམས་ལ་ངན་སོང་གི་སྡུག་བསྔལ་བསྟན" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་།.md#^0-6 |
 | tenzin-dhonzang | tenzin-dhonzang | c-3-20 | "འཁོར་བའི་སྡུག་བསྔལ་ཡང་ཡང་བསམ་པ་ལ་རྟེན" | #^0-31 |
 | tenzin-dhonzang | tenzin-dhonzang | c-3-22 | "ལས་འབྲས་མི་བསླུ་འཁོར་བའི་སྡུག་བསྔལ་རྣམས། ། ཡང་ཡང་བསམས་པས་ཕྱི་མའི་སྣང་ཤས་ལྡོག" | #^0-33 |
 | tenzin-dhonzang | tenzin-dhonzang | c-3-33 | — (paraphrased) | #^0-43 |
-| anon-utpala | anon-utpala | c-1-1-6 | "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ" | 1-SOURCES/.../ཨུཏྤལའི་ཆུན་པོ།.md#^0-6 |
+| dharmabhadra | dharmabhadra | c-1-1-6 | "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ" | 1-SOURCES/.../ཨུཏྤལའི་ཆུན་པོ།.md#^0-6 |
 | gendun-drub | gendun-drub | c-2-2-1-7 | "སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-12 |
 | palden-sherab | palden-sherab | c-2-6 | "སེམས་ཅན་རྣམས་འཇིགས་དང་སྡུག་བསྔལ་རྒྱུ་འབྲས་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མའོ" | #^0-9 |
 | gendun-drub | gendun-drub | c-2-2-2-3-4-4 | "སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ" | #^0-100 |
-| anon-trinle-char | anon-trinle-char | c-3-19-1 | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-19-0 |
+| yama-sonam | yama-sonam | c-3-19-1 | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-19-0 |
 | taranatha | taranatha | c-11-6 | "འགྲོ་བ་ཕོངས་བ་རྣམས་ཐམས་ཅད་དབུལ་ཞིང་ཕོངས་པའི་སྡུག་བསྔལ་མ་ལུས་པ་ལས་སྒྲོལ་ཞིང་ཞི་བར་མཛད་པ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-38 |
 | tenga-tulku | tenga-tulku | c-1-3-3-11 | "སྡུག་བསྔལ་ཚོགས་ནི་རྣམ་པར་སྤང་སྟེ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་།.md#^0-215 |
 | sungrab-tulku | sungrab-tulku | c-2-9 | "བྱེ་བྲག་ཏུ་ངན་སོང་གི་སྡུག་བསྔལ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ" | #^0-10 |
@@ -95,7 +95,7 @@ pattern already established by the citations drafted in:
   same two already-drafted claims.
 - `lobsang-dawa:c-1-1-5`, `lobsang-dawa:c-1-2-2-2-2` — the etymology of "Tārā" as
   protector from suffering, and the same bliss/virtue/peace quartet; redundant with
-  `anon-utpala:c-1-1-6` and `sungrab-tulku:c-18-4`/`palden-sherab:c-3-1-15-1-1`,
+  `dharmabhadra:c-1-1-6` and `sungrab-tulku:c-18-4`/`palden-sherab:c-3-1-15-1-1`,
   already drafted.
 - `pema-namgyal:c-1-6-2`, `pema-namgyal:c-2-4-43`, `pema-namgyal:c-3-3` — the
   "ocean of suffering" petition-verse (also independently attested by
@@ -129,8 +129,8 @@ tree-guided file.
   spec's hand-formatted ref form, every `<ref>` in this article carries only author and
   title — no URL, no year, no page number — because none of these commentaries has a
   page/URL recorded anywhere upstream. This applies uniformly to all eleven refs.
-- **`anon-trinle-char`'s author is unrecorded.** Its own raw claims file's frontmatter
-  gives `author: "unknown"` (colophon lost, per the vault annex's commentary roster). The
+- **`yama-sonam`'s author is unrecorded.** Its own raw claims file's frontmatter
+  gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` (author identified 2026-08-19, per the vault annex's commentary roster). The
   bibliography entry cites the title alone, with "(མཚན་མེད་མཁན་པོ)" noting the anonymity,
   rather than fabricating an author name.
 - **Five commentaries resolved but not drafted in** — see "Claims resolved but not
@@ -170,17 +170,17 @@ and fixed during this pass:
 | 3 | "འབྲས་བུ་སྡུག་བསྔལ་ཟད་པས་བདེ་མ" | sungrab-tulku:c-18-4 | PASS |
 | 4 | "དེའི་རྒྱུ་ལས་ཉོན་གཉིས་སྤངས་པས་དགེ་མ" | sungrab-tulku:c-18-4 | PASS |
 | 5 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | palden-sherab:c-3-1-15-1-1 | PASS |
-| 6 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | anon-utpala:c-1-2-2-2-3 | PASS |
+| 6 | "འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ" | dharmabhadra:c-1-2-2-2-3 | PASS |
 | 7 | "སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། གྱུར་བའི་སྡུག་བསྔལ" | tenzin-dhonzang:c-4-12-4 | PASS |
 | 8 | "སྐྱེ་བའི་སྡུག་འཆི་བའི་བསྔལ། ན་བའི་སྡུག་བསྔལ། རྒས་པའི་སྡུག་བསྔལ" | tenzin-dhonzang:c-4-12-4 | PASS (corrected: original draft used non-source ellipses) |
 | 9 | "ཐོག་མར་ཕྱི་མའི་མནོ་བསམ་མེད་པ་རྣམས་ལ་ངན་སོང་གི་སྡུག་བསྔལ་བསྟན" | konchok-thabkhe:c-1-3-2 | PASS |
 | 10 | "འཁོར་བའི་སྡུག་བསྔལ་ཡང་ཡང་བསམ་པ་ལ་རྟེན" | tenzin-dhonzang:c-3-20 | PASS |
 | 11 | "ལས་འབྲས་མི་བསླུ་འཁོར་བའི་སྡུག་བསྔལ་རྣམས། ། ཡང་ཡང་བསམས་པས་ཕྱི་མའི་སྣང་ཤས་ལྡོག" | tenzin-dhonzang:c-3-22 | PASS (corrected: source line-break shad restored) |
-| 12 | "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ" | anon-utpala:c-1-1-6 | PASS |
+| 12 | "སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ" | dharmabhadra:c-1-1-6 | PASS |
 | 13 | "སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ" | gendun-drub:c-2-2-1-7 | PASS |
 | 14 | "སེམས་ཅན་རྣམས་འཇིགས་དང་སྡུག་བསྔལ་རྒྱུ་འབྲས་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མའོ" | palden-sherab:c-2-6 | PASS |
 | 15 | "སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ" | gendun-drub:c-2-2-2-3-4-4 | PASS |
-| 16 | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" | anon-trinle-char:c-3-19-1 | PASS |
+| 16 | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" | yama-sonam:c-3-19-1 | PASS |
 | 17 | "འགྲོ་བ་ཕོངས་བ་རྣམས་ཐམས་ཅད་དབུལ་ཞིང་ཕོངས་པའི་སྡུག་བསྔལ་མ་ལུས་པ་ལས་སྒྲོལ་ཞིང་ཞི་བར་མཛད་པ" | taranatha:c-11-6 | PASS |
 | 18 | "སྡུག་བསྔལ་ཚོགས་ནི་རྣམ་པར་སྤང་སྟེ" | tenga-tulku:c-1-3-3-11 | PASS |
 | 19 | "བྱེ་བྲག་ཏུ་ངན་སོང་གི་སྡུག་བསྔལ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ" | sungrab-tulku:c-2-9 | PASS |

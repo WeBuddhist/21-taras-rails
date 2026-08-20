@@ -3,8 +3,8 @@ topic: kshanti
 spine: global
 method: question-driven-consolidation
 sources:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -94,8 +94,8 @@ list" below) and gendun-gyatso offers a self-labeled alternate ("yang na")
 parse of a related passage (recorded under "Divergent alternate reading"
 below) — both cited there rather than double-counted here:
 
-— attested: `anon-trinle-char:c-3-3-3`, `anon-trinle-char:c-3-3-6`,
-`anon-utpala:c-1-2-2-1-1-2-2`, `anon-utpala:c-1-2-2-1-1-2-6`,
+— attested: `yama-sonam:c-3-3-3`, `yama-sonam:c-3-3-6`,
+`dharmabhadra:c-1-2-2-1-1-2-2`, `dharmabhadra:c-1-2-2-1-1-2-6`,
 `drakpa-gyaltsen:c-1-19`, `karma-maitri:c-1-1-3-6`, `konchok-thabkhe:c-2-3-3`,
 `lobsang-dawa:c-1-2-2-1-1-2-3`, `palden-sherab:c-3-1-3-0-2`,
 `palden-sherab:c-3-1-3-1-2`, `pema-namgyal:c-2-4-19`, `sangye-nyentrul:c-4-0-2`,
@@ -105,8 +105,8 @@ below) — both cited there rather than double-counted here:
 `tsultrim-namdak:c-2-1-2-1-10`, `tsultrim-namdak:c-2-1-2-1-12`
 (14 commentaries)
 
-Eight of these claims quote the root verse itself (`anon-trinle-char:c-3-3-3`,
-`anon-utpala:c-1-2-2-1-1-2-2`, `karma-maitri:c-1-1-3-6` [a fragment: "བཟོད་པ་
+Eight of these claims quote the root verse itself (`yama-sonam:c-3-3-3`,
+`dharmabhadra:c-1-2-2-1-1-2-2`, `karma-maitri:c-1-1-3-6` [a fragment: "བཟོད་པ་
 དང་། བསམ་གཏན་དང་། །"], `palden-sherab:c-3-1-3-0-2`, `sungrab-tulku:c-6-2`,
 `tenga-tulku:c-1-2-2-1-1-2-2`, `tenzin-dhonzang:c-4-3-2`,
 `tsultrim-namdak:c-2-1-2-1-10`); the remaining claims are commentarial prose
@@ -397,8 +397,8 @@ None beyond the consensus above.
 
 | Commentary (`registered_id`) | Claims consulted | Contributed to |
 |---|---|---|
-| `anon-trinle-char` | c-3-3-3, c-3-3-6 (2) | Six-pāramitā list |
-| `anon-utpala` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6 (2) | Six-pāramitā list |
+| `yama-sonam` | c-3-3-3, c-3-3-6 (2) | Six-pāramitā list |
+| `dharmabhadra` | c-1-2-2-1-1-2-2, c-1-2-2-1-1-2-6 (2) | Six-pāramitā list |
 | `drakpa-gyaltsen` | c-1-19 (1) | Six-pāramitā list |
 | `gendun-drub` | c-2-2-2-2-1-1-2-4 (1) | Extended ten-pāramitā list (corroborating) |
 | `gendun-gyatso` | c-1-3-3 (1) | Divergent alternate reading |

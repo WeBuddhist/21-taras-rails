@@ -1,13 +1,16 @@
 ---
 topic: conqueror
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+source_article: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/conqueror/article.md (v1, wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/conqueror.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -27,151 +30,116 @@ status: draft
 
 # Citations — conqueror (རྒྱལ་བ)
 
-Scope: this article covers *conqueror* (རྒྱལ་བ, Skt. *jina*) as a buddha-epithet, in the
-recurring compounds this corpus's commentaries use it in — "mother of the Victors,"
-"sons/heirs of the Victors," the benefit-verse's "seven hundred million Victors," and
-"the five Victor-families" — plus the handful of claims that apply the same epithet to
-Vajradhara or to the historical Buddha specifically, or that quote it from a canonical
-prayer outside this text's own homages. It deliberately excludes the verbal sense of
-རྒྱལ་བ / རྣམ་པར་རྒྱལ་བ ("to be victorious") used of the praised goddess's own conduct or
-name-epithets, per `2-RAILS/Claims/conqueror.md`'s own scope note and "Excluded as a
-different sense" section. `lobsang-dawa` is a source of the consolidated page but was not
-drawn on for this article's final prose (its one attestation, `c-1-2-2-1-1-3-4`, restates
-the same root-verse line already quoted from `sungrab-tulku` and paraphrased from several
-others, so was judged redundant for the article's purposes — no divergent or unique
-content was lost).
+**Mode B revision (2026-08-20).** Register-only rewrite of the v1 article
+(`wiki-article-from-claims`) into v2 register. No claim ID, quotation, or `Cite:`
+target was re-derived; every attestation below was already verified in v1's
+`citations.md`. Scope is unchanged from v1 (see that file's own scope note, carried
+forward): *conqueror* (རྒྱལ་བ, Skt. *jina*) as a buddha-epithet in this corpus's
+recurring compounds — "mother of the Victors," "sons/heirs of the Victors," the
+benefit-verse's "seven hundred million Victors," and "the five Victor-families" — plus
+the epithet applied to Vajradhara or to the historical Buddha specifically.
 
-## Reference map
+## What changed
 
-Ref names are shared per commentary (Rule 7): the same `<ref name="X">` is defined once,
-in full, on first use, and reused as `<ref name="X" />` on every later citation of that
-commentary elsewhere in the article. The table below lists one row per citation event
-(i.e. per claim actually drawn on).
+- **Quotation budget applied (Rule 6).** v1 carried 19 verbatim quotations; v2 keeps
+  **2**: the root benefit-verse ("རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་...", `sungrab-tulku:c-2-10`,
+  full form) in the lead — kept because it is the root-text passage that eleven
+  commentaries are independently glossing, so its exact wording is the article's own
+  point of reference — and `sangye-nyentrul:c-5-0-3`'s line under the "sons of the
+  Victors" divergence, kept because the divergence (whether "the Victors themselves,"
+  not only their sons, are said to rely on the goddess) turns on that commentary's
+  specific wording. All 17 other v1 quotations were converted to paraphrase, grounded
+  in the same claim's recorded meaning; no new claim content was introduced.
+- **Wikivoice conversion (Rule 5).** The "Mother of the Victors" and "Sons of the
+  Victors" subsections, which in v1 quoted each corroborating commentary individually,
+  are now consensus wikivoice prose citing 3 representative refs each. The benefit-verse
+  facet ("seven hundred million Victors") is likewise wikivoice in the lead, with the
+  root verse itself as the article's one root-text quotation.
+- **Attribution retained** for `konchok-thabkhe` (Vajradhara-as-Victor usage),
+  `tenzin-dhonzang` (historical-Buddha usage, plus the borrowed-prayer usages),
+  `tsultrim-namdak` (borrowed-prayer usage), the three distinct "five Victor-families"
+  claims (`yama-sonam`, `palden-sherab`, `pema-namgyal` — each says something different,
+  so each stays a separate attributed sentence rather than being merged into a false
+  consensus), and throughout the ⚑ divergence on whether "sons of the Victors" names
+  bodhisattvas exclusively (`palden-sherab`'s four-fold offspring reading vs.
+  `sangye-nyentrul`'s broader "even the Victors themselves" reading) — every position
+  attributed, per Rule 10, never flattened.
+- **Citation cap (Rule 7) — two facets exceeded 3 refs in v1 and were trimmed:**
+  - *Benefit-verse consensus* ("seven hundred million Victors"): v1 stacked 11 refs on
+    one statement (`sungrab-tulku`, `dharmabhadra`, `drakpa-gyaltsen`, `gendun-drub`,
+    `gendun-gyatso`, `karma-maitri`, `konchok-thabkhe`, `palden-sherab`, `pema-namgyal`,
+    `tenga-tulku`, `tsultrim-namdak`). v2 keeps 3 representative refs
+    (`sungrab-tulku`, `drakpa-gyaltsen`, `dharmabhadra`) on the lead's root-verse
+    sentence; the remaining 8 are logged below under "Full attestation beyond
+    in-article refs."
+  - *Mother-of-the-Victors consensus*: v1 stacked 6 refs (`yama-sonam`, `dharmabhadra`,
+    `gendun-drub`, `konchok-thabkhe`, `pema-namgyal`, `tsultrim-namdak`). v2 keeps 3
+    (`yama-sonam`, `dharmabhadra`, `gendun-drub`); the remaining 3 are logged below.
+- **In-prose author names (Rule 17).** All in-prose names already used each
+  commentary's `author_in_use` value in v1 (confirmed by frontmatter-only lookup of all
+  fifteen raw claims files listed above, e.g. `pema-namgyal` → "ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་",
+  `taranatha` → "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ་"). No fallback or warning needed.
+- **No new claim ID introduced.** Every claim ID appearing or logged in v2
+  (`c-0-3`, `c-2-10`, `c-2-6`, `c-1-1-3`, `c-0-3`(konchok), `c-2-4-3`, `c-1-5`, `c-7-6`,
+  `c-1-26`, `c-1-1-4-5`, `c-1-4-3`, `c-4-7`, `c-1-3-1`, `c-2-2-3-3-1`, `c-2-4`,
+  `c-1-2-8`, `c-3-5`, `c-3-2-2-2-1`, `c-3-2`, `c-1-3-3-2`, `c-8-5`, `c-22-1-20`,
+  `c-3-10-4`, `c-3-1-6-4-2`, `c-0-20`, `c-2-4-20`, `c-0-2`, `c-2-1`, `c-3-1-4-1-4`,
+  `c-5-0-3`, `c-3-95`, `c-5-2-4-2-2-2-1`) is a strict subset of the claim IDs already
+  present in v1's `citations.md`. `lobsang-dawa` remains undrawn, as in v1 (its one
+  attestation was judged redundant there).
 
-| Ref | Commentary | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
-|---|---|---|---|---|
-| gendun-drub | gendun-drub | c-0-3 | "རྒྱལ་བའི་ཡུམ་གྱུར་བཅོམ་ལྡན་སྒྲོལ་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-2 |
-| sungrab-tulku | sungrab-tulku | c-2-10 | "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས།། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར" (lead, short form) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-10 |
-| drakpa-gyaltsen | drakpa-gyaltsen | c-2-6 | — (lead: cited only, paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-92 |
-| anon-trinle-char | anon-trinle-char | c-3-4-4 | — (paraphrased here, quoted below under Five Victor-families) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-42 |
-| anon-utpala | anon-utpala | c-1-1-3 | "རྒྱལ་བའི་ཡུམ་གྱི་མཆོག་ཏུ་གྱུར་ཅིང" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6 |
-| konchok-thabkhe | konchok-thabkhe | c-0-3 | "རྒྱལ་ཡུམ་འཕྲིན་ལས་ལྷ་མོ་ཏཱ་རེ་མ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-2 |
-| pema-namgyal | pema-namgyal | c-2-4-3 | "རྒྱལ་བ་ཀུན་གྱི་ཡུམ་མཆོག་ཏུ་གྱུར་པས" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-25 |
-| tsultrim-namdak | tsultrim-namdak | c-1-5 | "དུས་གསུམ་རྒྱལ་བ་ཀུན་གྱི་ཡུམ་གྱུར་མ" | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-40 |
-| sungrab-tulku | sungrab-tulku | c-7-6 | — (paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-38 |
-| drakpa-gyaltsen | drakpa-gyaltsen | c-1-26 | "རྒྱལ་བའི་སྲས་ནི་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་དོ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-27 |
-| karma-maitri | karma-maitri | c-1-1-4-5 | "རྒྱལ་བའི་སྲས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་ཐམས་ཅད་ཀྱི་ཡུམ་དུ་གྱུར་པས" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-12 |
-| gendun-gyatso | gendun-gyatso | c-1-4-3 | — (paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-12 |
-| taranatha | taranatha | c-4-7 | — (paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-15 |
-| anon-utpala | anon-utpala | c-1-3-1 | — (cited only, benefit-verse consensus) | #^0-95 |
-| drakpa-gyaltsen | drakpa-gyaltsen | c-2-6 | — (cited only, benefit-verse consensus) | #^0-92 |
-| gendun-drub | gendun-drub | c-2-2-3-3-1 | — (cited only, benefit-verse consensus) | #^0-108 |
-| gendun-gyatso | gendun-gyatso | c-2-4 | — (cited only, benefit-verse consensus) | #^0-37 |
-| karma-maitri | karma-maitri | c-1-2-8 | — (cited only, benefit-verse consensus) | #^0-49 |
-| konchok-thabkhe | konchok-thabkhe | c-3-5 | — (cited only, benefit-verse consensus) | #^0-104 |
-| palden-sherab | palden-sherab | c-3-2-2-2-1 | — (cited only, benefit-verse consensus) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-221 |
-| pema-namgyal | pema-namgyal | c-3-2 | — (cited only, benefit-verse consensus) | #^0-74 |
-| tenga-tulku | tenga-tulku | c-1-3-3-2 | — (cited only, benefit-verse consensus) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-205 |
-| tsultrim-namdak | tsultrim-namdak | c-8-5 | — (cited only, benefit-verse consensus) | #^0-672–#^0-675 |
-| sungrab-tulku | sungrab-tulku | c-2-10 | "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས།། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ། འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་༎ སངས་རྒྱས་གོ་འཕང་མཐར་ཐུག་དེར་འགྲོ" (full form) | #^0-10 |
-| taranatha | taranatha | c-22-1-20 | — (paraphrased) | #^0-89 |
-| anon-trinle-char | anon-trinle-char | c-3-10-4 | "དབུ་ལ་རྒྱལ་བ་རིགས་ལྔའམ་དེའི་མཚོན་དོན་དུ་རིན་པོ་ཆེའི་དབུ་རྒྱན" | #^0-103 |
-| palden-sherab | palden-sherab | c-3-1-6-4-2 | "ཕུང་པོ་ལྔ་རྒྱལ་བ་རིགས་ལྔ" | #^0-72 |
-| palden-sherab | palden-sherab | c-0-20 | "ཀུན་བཟང་རྡོར་འཆང་རྒྱལ་བ་རིགས་ལྔ་ཡིས" | #^0-2 |
-| pema-namgyal | pema-namgyal | c-2-4-20 | "རྒྱལ་བ་རིགས་ལྔའི་ཚོགས་ཀྱི་གཙུག་གཏོར་གྱི་ནོར་བུ" | #^0-34 |
-| konchok-thabkhe | konchok-thabkhe | c-0-2 | "རྒྱལ་བ་རྒྱུད་ཀྱི་སྟོན་པ་རྡོ་རྗེ་འཆང" | #^0-2 |
-| tenzin-dhonzang | tenzin-dhonzang | c-2-1 | "རྒྱལ་བ་མྱ་ངན་ལས་འདས་པའི་རྗེས་སུ་མདོ་ཕྱོགས་ལ་བཀའ་བསྡུ་རིམ་པ་གསུམ་བྱུང་བ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-10 |
-| palden-sherab | palden-sherab | c-3-1-4-1-4 | "སྲས་བཞི་ནི། ཉན་ཐོས་དང་། རང་སངས་རྒྱས་དང་། བྱང་ཆུབ་སེམས་དཔའ་དང་། སངས་རྒྱས་འཕགས་པའོ" | #^0-48 |
-| sangye-nyentrul | sangye-nyentrul | c-5-0-3 | "རྒྱལ་བ་སྲས་དང་བཅས་པ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པས་ཁྱེད་ཉིད་བསྟེན་པའི" | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-21 |
-| tenzin-dhonzang | tenzin-dhonzang | c-3-95 | "ཐམས་ཅད་རྒྱལ་བ་དག་གིས་གང་བར་མོས" | #^0-98 |
-| tsultrim-namdak | tsultrim-namdak | c-5-2-4-2-2-2-1 | "རྒྱལ་ བ་ཀུན་ལ་ཕྱག་འཚལ་མཆོད་པར་བགྱི" | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-444 |
-| gendun-drub | gendun-drub | c-0-3 | — (bsdus-don restatement) | #^0-2 |
-| sungrab-tulku | sungrab-tulku | c-2-10 | — (bsdus-don restatement) | #^0-10 |
+## Full attestation beyond in-article refs
 
-## Claims used but not quoted
+- **Benefit-verse facet** ("རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན"), beyond the 3 refs cited in the lead:
+  `gendun-drub:c-2-2-3-3-1`, `gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`,
+  `konchok-thabkhe:c-3-5`, `palden-sherab:c-3-2-2-2-1`, `pema-namgyal:c-3-2`,
+  `tenga-tulku:c-1-3-3-2`, `tsultrim-namdak:c-8-5`.
+- **Mother-of-the-Victors facet**, beyond the 3 refs cited under `རྒྱལ་བའི་ཡུམ།`:
+  `konchok-thabkhe:c-0-3`, `pema-namgyal:c-2-4-3`, `tsultrim-namdak:c-1-5`.
 
-`sungrab-tulku:c-2-10` (lead's short form — paraphrased there, quoted in full later in
-the same article under "seven hundred million Victors"), `sungrab-tulku:c-7-6`
-(source-of-buddhas framing via Prajñāpāramitā identity), `taranatha:c-4-7` (bodhisattva
-sons of the Victors venerating the goddess), `gendun-gyatso:c-1-4-3` (mother of the
-bodhisattva sons of the Victors), the ten further "seven hundred million Victors"
-attestations (`anon-utpala:c-1-3-1`, `drakpa-gyaltsen:c-2-6`, `gendun-drub:c-2-2-3-3-1`,
-`gendun-gyatso:c-2-4`, `karma-maitri:c-1-2-8`, `konchok-thabkhe:c-3-5`,
-`palden-sherab:c-3-2-2-2-1`, `pema-namgyal:c-3-2`, `tenga-tulku:c-1-3-3-2`,
-`tsultrim-namdak:c-8-5` — cited as a consensus list, with `sungrab-tulku`'s claim alone
-quoted in full as the representative wording), and `taranatha:c-22-1-20` (the
-seeing-the-Victors' faces variant).
+## Claims resolved but not incorporated
+
+Unchanged from v1: `taranatha:c-22-1-20` (the seeing-the-Victors'-faces variant of the
+benefit-verse reading) was read but not separately drafted, judged a minor variant of
+the facet already covered.
 
 ## Unresolvable attestations
 
-None. Every attestation drawn on from `2-RAILS/Claims/conqueror.md` resolved cleanly
-against its raw tree-guided file. One claim drawn into the article
-(`palden-sherab:c-3-1-4-1-4`) is the direct textual continuation of an attestation already
-on the consolidated page (`palden-sherab:c-3-1-4-1-2`), and was explicitly logged there
-under "Claims reviewed, not separately cited" as part of the same divergence discussion —
-it is used here for its own distinctive content (the four-fold enumeration of "offspring")
-rather than as a new, independently-sourced attestation.
+None. Every attestation drawn on resolved cleanly against its raw tree-guided file
+(unchanged from v1 — Mode B did not re-run resolution).
 
 ## Warnings
 
-- **`rails_status: draft`.** `2-RAILS/Claims/conqueror.md` carries `status: draft`, not
-  `status: complete`. Per the skill's Rule 11 and the vault's general rule that
-  transformations generate from `complete` rails, this draft was produced anyway because
-  the consolidated page passed its deterministic gate (`verify_consolidation.py`, 0
-  errors/0 warnings) before this article was drafted from it — but it has **not** yet
-  passed the model-judgment adversarial-attribution audit (`claims-consolidation-audit`,
-  gate 2 of the `claims-consolidation` skill), which was out of scope for this task. A
-  human contributor should run that audit and set the consolidated page's `status` to
-  `complete` before this article is treated as final.
-- **No public URLs exist for any of the fourteen commentaries cited.** Per the wikitext
-  spec's hand-formatted ref form, every `<ref>` in this article carries only author and
-  title — no URL, no year, no page number — because none of these raw claims files'
-  frontmatter carries a `year` or `page` field. This applies uniformly and is not
-  singled out per-ref below.
-- **`anon-trinle-char` has no identified author.** Its raw file's own frontmatter records
-  `author: "unknown"`. The article's ref and bibliography entry render this as
-  "མཛད་པ་པོ་མ་གསལ" (author unspecified) followed by the title, rather than fabricating an
-  attribution.
-- **One quotation preserves an apparent source-text spacing irregularity.**
-  `tsultrim-namdak:c-5-2-4-2-2-2-1`'s quotation "རྒྱལ་ བ་ཀུན་ལ་..." carries a space after
-  "རྒྱལ་" that is present in the cited `1-SOURCES/` block itself (line 1030 of that file)
-  — kept verbatim per the no-normalization rule rather than silently smoothed.
-- **Article length.** The drafted body runs to roughly 1,100–1,300 Tibetan syllables by
-  rough count, below the spec's ~1,500-syllable warning threshold — this is a narrower,
-  more tightly-scoped topic than the sibling `mantra` article, reflecting that this
-  page's facets (four set compounds plus two divergences) are individually thinner than
-  mantra's typology/benefits/practice material.
-- **Wikipedia status not checked.** No `article-subject-filter`/`wiki-article-inventory`
-  snapshot for this specific term was consulted as part of this task (the task's own
-  framing already recorded the queue verdict — "standalone," queue rank 35 — as given
-  context); whether an existing bo.wikipedia stub exists for རྒྱལ་བ was not investigated
-  here and is a later human/pipeline step.
+- **`rails_status: draft`.** `2-RAILS/Claims/conqueror.md` carries `status: draft`.
+  Carried forward from v1; a human contributor should run the
+  `claims-consolidation-audit` gate and set the page's own `status` before this
+  article is treated as final.
+- **No public URLs exist for any of the fourteen commentaries cited in v2** (`tenga-tulku`
+  and `lobsang-dawa` are cited nowhere in-article in v2, `tenga-tulku`'s one attestation
+  now living only in the Full-attestation list above). Every `<ref>` carries author and
+  title only.
+- **`yama-sonam` has no identified author** — its raw file's frontmatter records
+  `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` with no separate personal name; `author_in_use` carries
+  the same value, so the in-prose form and the bibliography entry are already
+  consistent. Carried forward from v1.
+- **One quotation preserves an apparent source-text spacing irregularity** — not
+  applicable in v2: the one v1 quotation with an internal stray space
+  (`tsultrim-namdak:c-5-2-4-2-2-2-1`, "རྒྱལ་ བ་ཀུན་ལ་...") was converted to paraphrase
+  in this revision and is no longer quoted verbatim, so the irregularity no longer
+  appears in the article body.
 
 ## Verification
 
-Every quotation was located character-for-character (whitespace-collapsed) in the
-`1-SOURCES/` file its claim's `Cite:` target names.
+**Mode B spot-check, not re-verification from source.** The 2 quotations retained in
+v2 are unchanged, exact substrings of quotations already marked PASS in v1's
+`citations.md` — confirmed by direct text comparison, not a fresh `1-SOURCES/` lookup.
 
-| # | Quotation (as drafted) | Claim | Result |
-|---|---|---|---|
-| 1 | "རྒྱལ་བའི་ཡུམ་གྱི་མཆོག་ཏུ་གྱུར་ཅིང" | anon-utpala:c-1-1-3 | PASS |
-| 2 | "རྒྱལ་བའི་ཡུམ་གྱུར་བཅོམ་ལྡན་སྒྲོལ་མ" | gendun-drub:c-0-3 | PASS |
-| 3 | "རྒྱལ་ཡུམ་འཕྲིན་ལས་ལྷ་མོ་ཏཱ་རེ་མ" | konchok-thabkhe:c-0-3 | PASS |
-| 4 | "དུས་གསུམ་རྒྱལ་བ་ཀུན་གྱི་ཡུམ་གྱུར་མ" | tsultrim-namdak:c-1-5 | PASS |
-| 5 | "རྒྱལ་བ་ཀུན་གྱི་ཡུམ་མཆོག་ཏུ་གྱུར་པས" | pema-namgyal:c-2-4-3 | PASS |
-| 6 | "རྒྱལ་བའི་སྲས་ནི་བྱང་ཆུབ་སེམས་དཔའ་ཐམས་ཅད་དོ" | drakpa-gyaltsen:c-1-26 | PASS |
-| 7 | "རྒྱལ་བའི་སྲས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་ཐམས་ཅད་ཀྱི་ཡུམ་དུ་གྱུར་པས" | karma-maitri:c-1-1-4-5 | PASS |
-| 8 | "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས།། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར" (short, lead) | sungrab-tulku:c-2-10 | PASS |
-| 9 | "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས།། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ། འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་༎ སངས་རྒྱས་གོ་འཕང་མཐར་ཐུག་དེར་འགྲོ" (full) | sungrab-tulku:c-2-10 | PASS |
-| 10 | "དབུ་ལ་རྒྱལ་བ་རིགས་ལྔའམ་དེའི་མཚོན་དོན་དུ་རིན་པོ་ཆེའི་དབུ་རྒྱན" | anon-trinle-char:c-3-10-4 | PASS |
-| 11 | "ཕུང་པོ་ལྔ་རྒྱལ་བ་རིགས་ལྔ" | palden-sherab:c-3-1-6-4-2 | PASS |
-| 12 | "ཀུན་བཟང་རྡོར་འཆང་རྒྱལ་བ་རིགས་ལྔ་ཡིས" | palden-sherab:c-0-20 | PASS |
-| 13 | "རྒྱལ་བ་རིགས་ལྔའི་ཚོགས་ཀྱི་གཙུག་གཏོར་གྱི་ནོར་བུ" | pema-namgyal:c-2-4-20 | PASS |
-| 14 | "རྒྱལ་བ་རྒྱུད་ཀྱི་སྟོན་པ་རྡོ་རྗེ་འཆང" | konchok-thabkhe:c-0-2 | PASS |
-| 15 | "རྒྱལ་བ་མྱ་ངན་ལས་འདས་པའི་རྗེས་སུ་མདོ་ཕྱོགས་ལ་བཀའ་བསྡུ་རིམ་པ་གསུམ་བྱུང་བ" | tenzin-dhonzang:c-2-1 | PASS |
-| 16 | "སྲས་བཞི་ནི། ཉན་ཐོས་དང་། རང་སངས་རྒྱས་དང་། བྱང་ཆུབ་སེམས་དཔའ་དང་། སངས་རྒྱས་འཕགས་པའོ" | palden-sherab:c-3-1-4-1-4 | PASS |
-| 17 | "རྒྱལ་བ་སྲས་དང་བཅས་པ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པས་ཁྱེད་ཉིད་བསྟེན་པའི" | sangye-nyentrul:c-5-0-3 | PASS |
-| 18 | "ཐམས་ཅད་རྒྱལ་བ་དག་གིས་གང་བར་མོས" | tenzin-dhonzang:c-3-95 | PASS |
-| 19 | "རྒྱལ་ བ་ཀུན་ལ་ཕྱག་འཚལ་མཆོད་པར་བགྱི" | tsultrim-namdak:c-5-2-4-2-2-2-1 | PASS (source itself carries this internal space — preserved verbatim, not normalized) |
+| # | Quotation (as retained in v2) | Claim | v1 verification | v2 spot-check |
+|---|---|---|---|---|
+| 1 | "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས།། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ། འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་༎ སངས་རྒྱས་གོ་འཕང་མཐར་ཐུག་དེར་འགྲོ" | sungrab-tulku:c-2-10 | PASS | Unchanged — identical substring (v1 quote #9, full form) |
+| 2 | "རྒྱལ་བ་སྲས་དང་བཅས་པ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པས་ཁྱེད་ཉིད་བསྟེན་པའི" | sangye-nyentrul:c-5-0-3 | PASS | Unchanged — identical substring (v1 quote #17) |
 
-**19/19 quotations verified PASS.**
+The other 17 quotations verified PASS in v1 were removed (converted to paraphrase) in
+this revision and required no re-check, per Mode B step 6.
+
+**2/2 retained quotations confirmed unchanged.**

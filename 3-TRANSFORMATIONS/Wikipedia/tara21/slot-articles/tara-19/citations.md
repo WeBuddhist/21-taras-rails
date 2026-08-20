@@ -6,8 +6,8 @@ context_packages:
   - 2-RAILS/Claims/tara-19.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -39,8 +39,8 @@ zero silent commentaries), and all sixteen are cited in `article.md`.
 | `taranatha` | taranatha | c-19-1 (ordinal), c-19-2, c-19-3, c-19-4, c-19-5 (retinue), c-19-6, c-19-7, c-19-8 (practitioner-armor consensus), c-19-9 (etymology, quoted), c-19-10, c-19-11, c-19-12, c-19-13 (etymology continuation) | "ངེས་པའི་དོན་དུ། ལྷ་ནི་དེ་བའི་སྒྲ་ལས་དེ་ཧ་བྷ་བ་སྟེ་ལུས་ལས་བྱུང་བ། ཡེ་ཤེས་ཀྱི་སྐུའོ།" (c-19-9) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^19-0, #^0-65, #^0-66, #^0-67` |
 | `sungrab-tulku` | sungrab-tulku | c-22-1 (ordinal + naming), c-22-3 (retinue, elements-gods), c-22-4 (practitioner-armor consensus) | (none — paraphrased only) | `1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-101, #^0-103, #^0-104` |
 | `tenzin-dhonzang` | tenzin-dhonzang | c-4-19-1 (ordinal, name quoted), c-4-19-3 (retinue), c-4-19-4 (practitioner-armor/yidam practice), c-4-19-5 (extra protection verse, quoted) | "སྡུག་བསྔལ་སེལ་མ" (c-4-19-1); "དུས་མིན་འཆི་དང་ནད་ཀྱི་འཇིགས་པ་སོགས། ། མི་དང་མི་མིན་འབྱུང་པོས་བསྐྱེད་པ་ཡི། ། འཇིགས་པ་དྲན་ནས་ཁྱོད་ལ་སྐྱབས་འཆའ་ན། ། འཇིགས་པ་ཀུན་ལས་རྟག་ཏུ་སྲུང་དུ་གསོལ།" (c-4-19-5) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-269, #^0-271, #^0-272, #^0-273` |
-| `anon-trinle-char` | anon-trinle-char | c-3-19-1 (name, quoted), c-3-19-3 (root verse, quoted), c-3-19-4 (retinue), c-3-19-7 (armor divergence, quoted), c-3-19-8 (Nyima Sbaspa citation, quoted), c-3-19-9 (iconography, quoted), c-3-19-10 (Nyima Sbaspa iconography verse, paraphrased) | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" (c-3-19-1); "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། ། ཀུན་ནས་གོ་ཆ་དགའ་བ་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།" (c-3-19-3); "འགྲེལ་པ་རྣམས་སུ་སྐབས་འདིའི་གོ་ཆའི་དོན་འཆད་པའི་ཚེ་རིགས་སྔགས་དང་སྐུ་སྒོམ་པའི་གོ་ཆ་ལ་ལྷ་མོ་དགྱེས་པའམ་དགའ་བའི་དོན་དུ་བྱས་སྣང་ཡང་། ས་གསུམ་ན་གནས་པའི་ལྷ་དབང་སོགས་ཀྱིས་བསྟེན་པ་ལས་ཐུགས་ཤིན་ཏུ་དགྱེས་ཉམས་དང་། དེ་འདྲའི་སྐུའི་གཟི་བྱིན་ལས་རྩོད་ངན་སོགས་སེལ་བའི་དོན་དུ་བྱེད་དགོས་ཏེ" (c-3-19-7); "ས་གསུམ་དབང་པོས་རབ་མཆོད་ཅིང་། ། ཀུན་ནས་དགའ་བསྐྱེད་འབར་བ་ཡི། ། གཟི་ཡིས་ལྟས་ངན་སྡུག་བསྔལ་སེལ།" (c-3-19-8); "སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་གཉིས་མ། པདྨ་དཀར་པོ་དང་ཉི་མའི་དཀྱིལ་འཁོར་གྱི་སྟེང་ན་སེམས་དཔའི་སྐྱིལ་མོ་ཀྲུང་གིས་བཞུགས། འོད་ཟེར་གྱི་ཕྲེང་བས་བརྒྱན་པ། ཕྱག་གཉིས་ཀྱི་ཐུགས་ཀར་མེའི་སྣོད་བསྣམས་པ་སྟེ" (c-3-19-9) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-19-0, #^0-233, #^0-234, #^0-237, #^0-238, #^0-239, #^0-240` |
-| `anon-utpala` | anon-utpala | c-1-2-3-4-1 (naming, functional), c-1-2-3-4-4 (practitioner-armor consensus) | (none — paraphrased only) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-83, #^0-86` |
+| `yama-sonam` | yama-sonam | c-3-19-1 (name, quoted), c-3-19-3 (root verse, quoted), c-3-19-4 (retinue), c-3-19-7 (armor divergence, quoted), c-3-19-8 (Nyima Sbaspa citation, quoted), c-3-19-9 (iconography, quoted), c-3-19-10 (Nyima Sbaspa iconography verse, paraphrased) | "རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ" (c-3-19-1); "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། ། ཀུན་ནས་གོ་ཆ་དགའ་བ་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།" (c-3-19-3); "འགྲེལ་པ་རྣམས་སུ་སྐབས་འདིའི་གོ་ཆའི་དོན་འཆད་པའི་ཚེ་རིགས་སྔགས་དང་སྐུ་སྒོམ་པའི་གོ་ཆ་ལ་ལྷ་མོ་དགྱེས་པའམ་དགའ་བའི་དོན་དུ་བྱས་སྣང་ཡང་། ས་གསུམ་ན་གནས་པའི་ལྷ་དབང་སོགས་ཀྱིས་བསྟེན་པ་ལས་ཐུགས་ཤིན་ཏུ་དགྱེས་ཉམས་དང་། དེ་འདྲའི་སྐུའི་གཟི་བྱིན་ལས་རྩོད་ངན་སོགས་སེལ་བའི་དོན་དུ་བྱེད་དགོས་ཏེ" (c-3-19-7); "ས་གསུམ་དབང་པོས་རབ་མཆོད་ཅིང་། ། ཀུན་ནས་དགའ་བསྐྱེད་འབར་བ་ཡི། ། གཟི་ཡིས་ལྟས་ངན་སྡུག་བསྔལ་སེལ།" (c-3-19-8); "སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་གཉིས་མ། པདྨ་དཀར་པོ་དང་ཉི་མའི་དཀྱིལ་འཁོར་གྱི་སྟེང་ན་སེམས་དཔའི་སྐྱིལ་མོ་ཀྲུང་གིས་བཞུགས། འོད་ཟེར་གྱི་ཕྲེང་བས་བརྒྱན་པ། ཕྱག་གཉིས་ཀྱི་ཐུགས་ཀར་མེའི་སྣོད་བསྣམས་པ་སྟེ" (c-3-19-9) | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-19-0, #^0-233, #^0-234, #^0-237, #^0-238, #^0-239, #^0-240` |
+| `dharmabhadra` | dharmabhadra | c-1-2-3-4-1 (naming, functional), c-1-2-3-4-4 (practitioner-armor consensus) | (none — paraphrased only) | `1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-83, #^0-86` |
 | `karma-maitri` | karma-maitri | c-1-1-19-2 (retinue, representative of packet-wide consensus) | (none — paraphrased only) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-42` |
 | `gendun-drub` | gendun-drub | c-2-2-2-3-4-1 (naming, functional), c-2-2-2-3-4-4 (name, quoted) | "སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ" (c-2-2-2-3-4-4) | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-97, #^0-100` |
 | `palden-sherab` | palden-sherab | c-3-1-19-0-1 (name, quoted), c-3-1-19-1-1 (retinue), c-3-1-19-1-2 (practitioner-armor consensus), c-3-1-19-2-1 (iconography), c-3-1-19-2-2 (eight-ornament armor, unique), c-3-1-19-3-1 (completion-stage-with-marks, quoted), c-3-1-19-4-1 (completion-stage-without-marks, paraphrased) | "རྗེ་བཙུན་འཕགས་མ་སྒྲོལ་མ་མི་ཕམ་རྒྱལ་མོ་གདུགས་དཀར" (c-3-1-19-0-1); "ལྷའི་རྒྱལ་པོ་ནི་རྩ་དབུ་མ། ལྷ་དང་མིའམ་ཅི་ནི་རོ་རྐྱང་གཉིས།" (c-3-1-19-3-1) | `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-185, #^0-187, #^0-188, #^0-189, #^0-190, #^0-191, #^0-192` |
@@ -60,7 +60,7 @@ paraphrased consensus/unique/divergence content, cited via `<ref>` without quota
 Rule 5 (consensus backbone cited to representative commentaries; unique or divergent material
 attributed by commentator name). Notably: the packet-wide "served by kings of the hosts of
 gods/kinnaras" retinue consensus (`tara-19.md` §"Those who serve and revere her") is represented
-in the article by three representative commentaries (`anon-trinle-char`, `taranatha`,
+in the article by three representative commentaries (`yama-sonam`, `taranatha`,
 `tenzin-dhonzang`) plus its documented elaborations (`palden-sherab`, `sungrab-tulku`,
 `pema-namgyal`), not by all sixteen; the nine-commentary "practitioner's mantra/visualization
 armor" consensus (§"The protective armor") is represented by six of the nine attesting
@@ -71,7 +71,7 @@ opening clause.
 
 `tenzin-dhonzang:c-4-19-2` (the commentary's own quotation of the root verse, which reads
 "སེམ་མ" for "སེལ་མ" and is noted on `tara-19.md` as a likely scribal/OCR slip) is not separately
-cited in the article — the root verse is quoted once, in the lead, from `anon-trinle-char`, whose
+cited in the article — the root verse is quoted once, in the lead, from `yama-sonam`, whose
 reading matches every other quotation in the packet.
 
 ## Unresolvable attestations
@@ -96,10 +96,10 @@ across all sixteen raw tree-guided files, corresponding to every claim ID listed
   page/year (none is recorded in any raw file's frontmatter). All 16 refs are missing year and
   page — flagged in aggregate here since it is uniform across every source in this vault. V2 is
   treated as not-applicable to this skill's output; a human should confirm this reading.
-- **`anon-trinle-char`'s author is unattested.** Its raw file's frontmatter records
-  `author: "unknown"`; the article and bibliography follow this vault's established convention
+- **`yama-sonam`'s author is རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ (identified 2026-08-19).** Its raw file's frontmatter records
+  `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`; the article and bibliography follow this vault's established convention
   (matching `3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article.md`) of writing
-  "མཛད་པ་པོ་མ་གྲགས།" ("author unattested") in place of a fabricated name.
+  "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" ("author unattested") in place of a fabricated name.
 - **One judgment call on V8 ("every section contains ≥1 citation").** The tail sections
   (`འབྲེལ་ཡོད་ཤོག་ངོས།`, `ལུང་ཁུངས།`, `དཔྱད་གཞིའི་ཡིག་ཆ།`) carry no `<ref>` tags, matching the
   wikitext spec's own doctrinal-term skeleton and the precedent set by `tara-01/article.md`.
@@ -115,7 +115,7 @@ across all sixteen raw tree-guided files, corresponding to every claim ID listed
   slot. This mirrors Rule 6 of the governing vault CLAUDE.md (divergences/anomalies are never
   silently dropped) rather than being treated as an unresolved attestation.
 - **Two attributions of the same near-identical verse are presented side by side without
-  adjudication** (`anon-trinle-char`'s "Nyima Sbaspa" vs. `konchok-thabkhe`'s "a mahāsiddha," for
+  adjudication** (`yama-sonam`'s "Nyima Sbaspa" vs. `konchok-thabkhe`'s "a mahāsiddha," for
   the armor/dispelling clause), matching `tara-19.md`'s own refusal to assert the two figures are
   identical.
 - **Article length**: approximately 1,850 Tibetan syllables in the body (lead through the
@@ -137,18 +137,18 @@ cited block ID and comparing against the raw claims file's own transcription.
 
 | # | Commentary | Claim ID | Quotation (first ~40 chars) | Result |
 |---|---|---|---|---|
-| 1 | anon-trinle-char | c-3-19-3 | ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ... | PASS |
-| 2 | anon-trinle-char | c-3-19-1 | རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ | PASS |
+| 1 | yama-sonam | c-3-19-3 | ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ... | PASS |
+| 2 | yama-sonam | c-3-19-1 | རྗེ་བཙུན་མ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའི་སྒྲོལ་མ | PASS |
 | 3 | gendun-drub | c-2-2-2-3-4-4 | སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ | PASS |
 | 4 | tenzin-dhonzang | c-4-19-1 | སྡུག་བསྔལ་སེལ་མ | PASS |
 | 5 | palden-sherab | c-3-1-19-0-1 | རྗེ་བཙུན་འཕགས་མ་སྒྲོལ་མ་མི་ཕམ་རྒྱལ་མོ་གདུགས་དཀར | PASS |
 | 6 | sangye-nyentrul | c-20-1-1 | འཕགས་མ་མི་ཕམ་གདུགས་དཀར་མོ | PASS |
 | 7 | tsultrim-namdak | c-3-22 | སྒྲོལ་མ་མི་ཕམ་རྒྱལ་མོ | PASS |
 | 8 | konchok-thabkhe | c-2-19-1 | རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་བའི་སྒོ་ནས་བསྟོད་པ | PASS |
-| 9 | anon-trinle-char | c-3-19-9 | སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་གཉིས་མ...ཐུགས་ཀར་མེའི་སྣོད་བསྣམས་པ་སྟེ | PASS |
+| 9 | yama-sonam | c-3-19-9 | སྐུ་མདོག་དཀར་མོ། ཞལ་གཅིག་ཕྱག་གཉིས་མ...ཐུགས་ཀར་མེའི་སྣོད་བསྣམས་པ་སྟེ | PASS |
 | 10 | sangye-nyentrul | c-20-1-2 | གདུགས་དཀར་པོ་ལས་རྡོ་རྗེའི་མེ་ཡི་ཚྭ་ཚྭ་འཕྲོས་པས | PASS |
-| 11 | anon-trinle-char | c-3-19-7 | འགྲེལ་པ་རྣམས་སུ་སྐབས་འདིའི་གོ་ཆའི་དོན་འཆད་པའི་ཚེ...བྱེད་དགོས་ཏེ | PASS |
-| 12 | anon-trinle-char | c-3-19-8 | ས་གསུམ་དབང་པོས་རབ་མཆོད་ཅིང་། ། ཀུན་ནས་དགའ་བསྐྱེད་འབར་བ་ཡི... | PASS |
+| 11 | yama-sonam | c-3-19-7 | འགྲེལ་པ་རྣམས་སུ་སྐབས་འདིའི་གོ་ཆའི་དོན་འཆད་པའི་ཚེ...བྱེད་དགོས་ཏེ | PASS |
+| 12 | yama-sonam | c-3-19-8 | ས་གསུམ་དབང་པོས་རབ་མཆོད་ཅིང་། ། ཀུན་ནས་དགའ་བསྐྱེད་འབར་བ་ཡི... | PASS |
 | 13 | konchok-thabkhe | c-2-19-4 | ཀུན་ནས་དགའ་བསྐྱེད་འབར་བ་ཡི། ། གཟི་ཡིས་ལྟ་ངན་སྡུག་བསྔལ་སེལ། | PASS |
 | 14 | taranatha | c-19-9 | ངེས་པའི་དོན་དུ། ལྷ་ནི་དེ་བའི་སྒྲ་ལས་དེ་ཧ་བྷ་བ...ཡེ་ཤེས་ཀྱི་སྐུའོ། | PASS |
 | 15 | palden-sherab | c-3-1-19-3-1 | ལྷའི་རྒྱལ་པོ་ནི་རྩ་དབུ་མ། ལྷ་དང་མིའམ་ཅི་ནི་རོ་རྐྱང་གཉིས། | PASS |

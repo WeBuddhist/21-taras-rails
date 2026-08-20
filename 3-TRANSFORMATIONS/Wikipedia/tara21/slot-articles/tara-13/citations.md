@@ -1,13 +1,16 @@
 ---
 topic: tara-13
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-13/article.md (prior v1-register draft, same path — preserved in git history)
+revision_date: 2026-08-20
 context_packages:
   - 2-RAILS/Claims/tara-13.md
 rails_status: draft
 raw_sources_cited:
-  - 2-RAILS/Claims/raw/tree-guided/anon-trinle-char.md
-  - 2-RAILS/Claims/raw/tree-guided/anon-utpala.md
+  - 2-RAILS/Claims/raw/tree-guided/yama-sonam.md
+  - 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
   - 2-RAILS/Claims/raw/tree-guided/drakpa-gyaltsen.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
   - 2-RAILS/Claims/raw/tree-guided/gendun-gyatso.md
@@ -28,91 +31,115 @@ status: draft
 
 # Citations — tara-13
 
+> Revision note (Mode B, 2026-08-20): rewritten from v1 register to v2 register per
+> `wiki-article-from-claims-v2` SKILL.md. No claim ID was introduced beyond those already
+> in the source `citations.md` below. Content is unchanged; only register, quotation count,
+> per-statement ref count, punctuation, and in-prose author naming changed. The reference
+> map, "claims used but not quoted", "resolved claims not used", "unresolvable attestations",
+> and "verification" tables are carried forward from the source file with quotation-status
+> annotations updated.
+
 ## Reference map
 
 | Ref (named) | Commentary | Claim ID(s) used in article | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| anon-trinle-char | anon-trinle-char (author unknown) | c-3-13-1, c-3-13-5, c-3-13-7, c-3-13-8, c-3-13-12 | "མཚན་གྱི་རྣམ་གྲངས་ལ། ཉི་མ་སྦས་པས་ཡོངས་སུ་སྨིན་པར་བྱེད་པའི་སྒྲོལ་མ་དང་། རྗེ་དགེ་འདུན་གྲུབ་ཀྱང་དེའི་རྗེས་སུ་འབྲངས། ཅོ་ནེས་མེ་ལྟར་འབར་བའི་སྒྲོལ་མ་ཞེས་གསུངས།" (c-3-13-12); "སྐུའི་རྣམ་འགྱུར་ནི། སྐུ་མདོག་དམར་པོ། ...གཞུ་བསྣམས་པ་ཡིན་ཏེ།" (c-3-13-8); "ཀུན་ནས་བསྐོར་དགའི" (c-3-13-7, referenced not set off in quote marks in prose) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-13-0 (c-3-13-1); #^0-152 (c-3-13-5); #^0-157 (c-3-13-7); #^0-158 (c-3-13-8); #^0-165 (c-3-13-12) |
-| taranatha | taranatha (Tāranātha) | c-13-1, c-13-6, c-13-7, c-13-8 | "སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་ལྟ་བུ་སྟེ།" (c-13-7) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^13-0 (c-13-1); #^0-44 (c-13-6); #^0-45 (c-13-7, c-13-8) |
-| tenzin-dhonzang | tenzin-dhonzang (Sermey Tsang Geshe Tenzin Dhonzang) | c-4-13-1, c-4-13-3, c-4-13-4, c-4-13-5, c-4-13-6, c-4-13-12 | "བཅུ་གསུམ་པ་མེ་ལྟར་འབར་བ་ལ་བསྟོད་པ།" (c-4-13-1); "ཕྱག་འཚལ་ནི་རང་གིས་ཉམས་ལེན་དང་མཐུན་པ་སྦྱར་ན་ཆོག་པ་ཡིན།" (c-4-13-3); "ཕྱིའི་དགྲ་མྱོས་འགྱུར་གྱི་རིགས་དང་། དུག་དང་མཚོན་གྱི་རིགས།" (c-4-13-5); "ལྷ་མོ་འདིས་འཕྲིན་ལས་ཀྱི་གཙོ་བོ་བགེགས་དང་བར་ཆད་སྲུང་བར་མཛད་དོ།" (c-4-13-12) | ...སྙིང་གི་ནོར་བུ.md#^0-214 (c-4-13-1); #^0-216 (c-4-13-3); #^0-217 (c-4-13-4); #^0-218 (c-4-13-5); #^0-219 (c-4-13-6); #^0-225 (c-4-13-12) |
-| anon-utpala | anon-utpala (Ngulchu Dharmabhadra) | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-2, c-1-2-2-1-2-6-4 | "དྲག་པོའི་བཞུགས་ཚུལ་གྱི་སྒོ་ནས་བསྟོད་པ" (c-1-2-2-1-2-6-1); "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར།། འབར་བའི་འཕྲེང་བའི་དབུས་ན་གནས་མ།། གཡས་བརྐྱངས་གཡོན་བསྐུམས་ཀུན་ནས་བསྐོར་དགའི།། དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ།།" (c-1-2-2-1-2-6-2); "གདུལ་བྱའི་རྒྱུད་ཀྱི་ཕྱི་ནང་གི་དགྲ་ཡི་དཔུང་ཚོགས" (c-1-2-2-1-2-6-4) | ...ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 (c-1-2-2-1-2-6-1); #^0-60 (c-1-2-2-1-2-6-2); #^0-62 (c-1-2-2-1-2-6-4) |
-| gendun-drub | gendun-drub (Gyalwa Gendun Drub, 1st Dalai Lama) | c-2-2-2-2-1-2-6-1, c-2-2-2-2-1-2-6-3, c-2-2-2-2-1-2-6-4 | — (paraphrased; c-2-2-2-2-1-2-6-4's own wording "སྨིན་པར་བྱེད་པའི་སྒྲོལ" reused as terminology, not set off as a quotation) | ...ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-68 (c-2-2-2-2-1-2-6-1); #^0-70 (c-2-2-2-2-1-2-6-3); #^0-71 (c-2-2-2-2-1-2-6-4) |
-| tenga-tulku | tenga-tulku (Dorlob Tenga Tulku) | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-4 | — (paraphrased) | ...མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-109 (c-1-2-2-1-2-6-1); #^0-116 (c-1-2-2-1-2-6-4) |
-| lobsang-dawa | lobsang-dawa (Geshe Lobsang Dawa, compiler) | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-3 | — (paraphrased) | ...མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-20 (both claims) |
-| palden-sherab | palden-sherab (Khenchen Palden Sherab) | c-3-1-13-0-1, c-3-1-13-1-2, c-3-1-13-1-3, c-3-1-13-2-1, c-3-1-13-2-2, c-3-1-13-3-1, c-3-1-13-3-2, c-3-1-13-4-1 | "བཅུ་གསུམ་པ་དམག་སོགས་བར་ཆད་གཟུགས་ཅན་གཟུགས་མེད་ཀྱི་གཡུལ་ལས་རྒྱལ་བར་བྱེད་པའི་རྗེ་བཙུན་སྒྲོལ་མ་ནི།" (c-3-1-13-0-1); "ཞབས་གཉིས་རྟ་འབབས་སྐྱིལ་ཀྲུང་། ཞལ་གཅིག་ཕྱག་གཉིས། སྤྱན་གསུམ། ཞལ་ཞི་མ་ཁྲོའི་ཞལ་ཅན།" (c-3-1-13-2-1) | (long-titled Palden Sherab commentary).md#^0-127 (c-3-1-13-0-1); #^0-131 (c-3-1-13-1-2); #^0-130 (c-3-1-13-1-3); #^0-132 (c-3-1-13-2-1); #^0-133 (c-3-1-13-2-2); #^0-134 (c-3-1-13-3-1); #^0-135 (c-3-1-13-3-2); #^0-136 (c-3-1-13-4-1) |
-| sangye-nyentrul | sangye-nyentrul | c-14-0-2, c-14-1-1, c-14-1-2, c-14-1-3 | "གཟུགས་ཅན་གཟུགས་མེད་ཀྱི་གཡུལ་དང་བར་ཆད་ལས་རྒྱལ་བར་བྱེད་མའི་སྒྲོལ་མ" (c-14-1-1); "ལས་འོད་ཟེར་རྡོ་རྗེའི་ཚྭ་ཚྭ་རབ་ཏུ་འབར་ཞིང་འཕྲོ་བས་ཕ་རོལ་དགྲ་བོའི་དཔུང་རྣམས་ལྷག་མེད་དུ་བཅོམ་ནས།" (c-14-1-3) | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-60 (c-14-0-2); #^0-61 (c-14-1-1, c-14-1-2, c-14-1-3) |
-| tsultrim-namdak | tsultrim-namdak (Khenpo Tsultrim Namdak) | c-2-1-2-1-46, c-3-16 | — (paraphrased; c-3-16's naming and "vajra sparks" content reused as terminology, not set off as a quotation because its own བོད་ཡིག field is ellipsis-bounded across four non-contiguous blocks) | ...གྲུ་གཟིངས།.md#^0-121 (c-2-1-2-1-46); #^0-228–^0-231 (c-3-16) |
-| konchok-thabkhe | konchok-thabkhe (a.k.a. Tenpa Gyatso) | c-2-13-1, c-2-13-2 | "གདུག་པ་ཅན་འདུལ་བའི་སྒོ་ནས་བསྟོད་པ" (c-2-13-1) | ...ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70 (c-2-13-1); #^0-71 (c-2-13-2) |
-| sungrab-tulku | sungrab-tulku (Drepa Ratreng Sungrab Tulku) | c-16-1, c-16-4 | — (paraphrased) | སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-77 (c-16-1); #^0-80 (c-16-4) |
-| karma-maitri | karma-maitri | c-1-1-13-3, c-1-1-13-4, c-1-1-13-5 | "བདེ་བ་སྦྱིན་པའི་དགའ་བར་མཛད་ཅིང་།" (c-1-1-13-5) | ...བསྡུས་འགྲེལ།.md#^0-30 (c-1-1-13-3); #^0-31 (c-1-1-13-4, c-1-1-13-5) |
-| pema-namgyal | pema-namgyal (Ldombuwa Pema Namgyal) | c-2-4-39, c-2-4-58 | — (paraphrased) | ...བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-53 (c-2-4-39); #^0-71 (c-2-4-58) |
-| drakpa-gyaltsen | drakpa-gyaltsen (Jetsün Drakpa Gyaltsen) | c-1-72, c-1-73 | "ཕྱག་འཚལ་བསྐལ་པ་མཐའ་མའི་མེ་ལྟར། ། འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ།" (c-1-72) | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 (c-1-72); #^0-60 (c-1-73) |
-| gendun-gyatso | gendun-gyatso (2nd Dalai Lama) | c-1-13-1 | — (paraphrased) | ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-25 |
+| yama-sonam | yama-sonam | c-3-13-1, c-3-13-5, c-3-13-7, c-3-13-8, c-3-13-12 | "ཞལ་གཅིག་ཕྱག་བཞི་མ" (c-3-13-8) — **one of the article's 2 budgeted commentary quotations** | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-13-0 (c-3-13-1); #^0-152 (c-3-13-5); #^0-157 (c-3-13-7); #^0-158 (c-3-13-8); #^0-165 (c-3-13-12) |
+| taranatha | taranatha | c-13-1, c-13-6, c-13-7, c-13-8 | "སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་ལྟ་བུ་སྟེ།" (c-13-7) — **the article's other budgeted quotation** | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^13-0 (c-13-1); #^0-44 (c-13-6); #^0-45 (c-13-7, c-13-8) |
+| tenzin-dhonzang | tenzin-dhonzang | c-4-13-1, c-4-13-3, c-4-13-4, c-4-13-5, c-4-13-6, c-4-13-12 | — (paraphrased in v2) | ...སྙིང་གི་ནོར་བུ.md#^0-214 (c-4-13-1); #^0-216 (c-4-13-3); #^0-217 (c-4-13-4); #^0-218 (c-4-13-5); #^0-219 (c-4-13-6); #^0-225 (c-4-13-12) |
+| dharmabhadra | dharmabhadra | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-2, c-1-2-2-1-2-6-4 | — (paraphrased in v2; the 4-line root verse, c-1-2-2-1-2-6-2, is retained as the lead's root-verse quotation — outside the quotation budget, Rule 6) | ...ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 (c-1-2-2-1-2-6-1); #^0-60 (c-1-2-2-1-2-6-2); #^0-62 (c-1-2-2-1-2-6-4) |
+| gendun-drub | gendun-drub | c-2-2-2-2-1-2-6-1, c-2-2-2-2-1-2-6-3, c-2-2-2-2-1-2-6-4 | — (paraphrased) | ...ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-68 (c-2-2-2-2-1-2-6-1); #^0-70 (c-2-2-2-2-1-2-6-3); #^0-71 (c-2-2-2-2-1-2-6-4) |
+| tenga-tulku | tenga-tulku | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-4 | — (paraphrased) | ...མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-109 (c-1-2-2-1-2-6-1); #^0-116 (c-1-2-2-1-2-6-4) |
+| lobsang-dawa | lobsang-dawa | c-1-2-2-1-2-6-1, c-1-2-2-1-2-6-3 | — (paraphrased; no longer carries an in-body `<ref>` call — see Full attestation) | ...མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-20 (both claims) |
+| palden-sherab | palden-sherab | c-3-1-13-0-1, c-3-1-13-1-2, c-3-1-13-1-3, c-3-1-13-2-1, c-3-1-13-2-2, c-3-1-13-3-1, c-3-1-13-3-2, c-3-1-13-4-1 | — (paraphrased in v2) | (long-titled Palden Sherab commentary).md#^0-127 (c-3-1-13-0-1); #^0-131 (c-3-1-13-1-2); #^0-130 (c-3-1-13-1-3); #^0-132 (c-3-1-13-2-1); #^0-133 (c-3-1-13-2-2); #^0-134 (c-3-1-13-3-1); #^0-135 (c-3-1-13-3-2); #^0-136 (c-3-1-13-4-1) |
+| sangye-nyentrul | sangye-nyentrul | c-14-0-2, c-14-1-1, c-14-1-2, c-14-1-3 | — (paraphrased in v2) | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-60 (c-14-0-2); #^0-61 (c-14-1-1, c-14-1-2, c-14-1-3) |
+| tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-46, c-3-16 | — (paraphrased) | ...གྲུ་གཟིངས།.md#^0-121 (c-2-1-2-1-46); #^0-228–^0-231 (c-3-16) |
+| konchok-thabkhe | konchok-thabkhe | c-2-13-1, c-2-13-2 | — (paraphrased in v2) | ...ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70 (c-2-13-1); #^0-71 (c-2-13-2) |
+| sungrab-tulku | sungrab-tulku | c-16-1, c-16-4 | — (paraphrased; no longer carries an in-body `<ref>` call — see Full attestation) | སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-77 (c-16-1); #^0-80 (c-16-4) |
+| karma-maitri | karma-maitri | c-1-1-13-3, c-1-1-13-4, c-1-1-13-5 | — (paraphrased in v2) | ...བསྡུས་འགྲེལ།.md#^0-30 (c-1-1-13-3); #^0-31 (c-1-1-13-4, c-1-1-13-5) |
+| pema-namgyal | pema-namgyal | c-2-4-39, c-2-4-58 | — (paraphrased) | ...བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-53 (c-2-4-39); #^0-71 (c-2-4-58) |
+| drakpa-gyaltsen | drakpa-gyaltsen | c-1-72, c-1-73 | — (paraphrased in v2 — this claim duplicates the root verse already quoted from dharmabhadra in the lead) | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 (c-1-72); #^0-60 (c-1-73) |
+| gendun-gyatso | gendun-gyatso | c-1-13-1 | — (paraphrased) | ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-25 |
+
+## Full attestation beyond in-article refs
+
+Four commentaries that carried an in-body `<ref>` in the v1 draft no longer do, because the
+statements they supported already reach the 3-ref cap (Rule 7) with other, representative
+refs. Their attestation is preserved here and they remain in `raw_sources_cited`.
+
+- **Lead — "sixth within the wrathful-abiding sub-group" classification.** Representative
+  refs in-body: dharmabhadra, gendun-drub, tenga-tulku. Also attested by:
+  sungrab-tulku:c-16-1.
+- **མཚན་གྱི་ངེས་ཚིག — "external/internal enemy hordes of the disciple's mindstream"
+  wording (five-way divergence, position 4).** Representative refs in-body: dharmabhadra,
+  tenzin-dhonzang. Also attested by: lobsang-dawa:c-1-2-2-1-2-6-3, sungrab-tulku:c-16-4.
+- **གཞུང་ལུགས་སོ་སོའི་བཤད་པ — "both traditions agree on red body colour" consensus
+  clause.** Representative refs in-body: yama-sonam, palden-sherab, sangye-nyentrul. Also
+  attested by: tsultrim-namdak:c-2-1-2-1-46.
 
 ## Claims used but not quoted (paraphrased content, per section)
 
-- **Lead:** anon-trinle-char:c-3-13-1, taranatha:c-13-1, tenzin-dhonzang:c-4-13-1 (global "thirteenth" ordinal); anon-utpala:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1, lobsang-dawa:c-1-2-2-1-2-6-1 (local "sixth" ordinal within the wrathful-abiding sub-group)
-- **མཚན་གྱི་ངེས་ཚིག:** gendun-drub:c-2-2-2-2-1-2-6-4 (own corroboration of "Ripens" naming); sangye-nyentrul:c-14-1-1 (quoted); tsultrim-namdak:c-3-16 (unique "Destroyer of Enemy Armies" naming, paraphrased); anon-utpala:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1, sungrab-tulku:c-16-1 (functional "wrathful-abiding" classification, one quoted representative)
-- **སྐུ་ཡི་རྣམ་པ:** gendun-gyatso:c-1-13-1, karma-maitri:c-1-1-13-3/-4, konchok-thabkhe:c-2-13-2 (general fire-garland/stance restatement); anon-trinle-char:c-3-13-5 (leg symbolism, unique), c-3-13-7 (textual note, unique)
-- **ཕྲིན་ལས་དང་ནུས་མཐུ:** anon-utpala:c-1-2-2-1-2-6-4, taranatha:c-13-6 (root-verse destruction-of-enemies restated); pema-namgyal:c-2-4-39 (devotional benefit)
-- **སྦས་དོན་གྱི་བཤད་པ:** taranatha:c-13-7/-8, palden-sherab:c-3-1-13-3-1/-3-2 (convergent rasanā/lalanā reading); palden-sherab:c-3-1-13-4-1 (unique fourth-level reading); pema-namgyal:c-2-4-58 (flagged-ambiguous cross-verse reading)
-- **གཞུང་ལུགས་སོ་སོའི་བཤད་པ:** palden-sherab:c-3-1-13-2-1/-2-2/-1-3, sangye-nyentrul:c-14-1-2/-1-3, tsultrim-namdak:c-3-16 (two-armed iconography + vajra-sparks partial corroboration) vs. anon-trinle-char:c-3-13-8 (four-armed); taranatha:c-13-6, gendun-drub:c-2-2-2-2-1-2-6-3, tenga-tulku:c-1-2-2-1-2-6-4, palden-sherab:c-3-1-13-1-2, sangye-nyentrul:c-14-0-2, anon-utpala:c-1-2-2-1-2-6-4, lobsang-dawa:c-1-2-2-1-2-6-3, sungrab-tulku:c-16-4, tenzin-dhonzang:c-4-13-4, tsultrim-namdak:c-2-1-2-1-46 (five-way "enemy" divergence); palden-sherab:c-3-1-13-2-2, sangye-nyentrul:c-14-1-3, tenzin-dhonzang:c-4-13-5/-6 (two practice traditions)
-- **བསྡུས་དོན:** anon-trinle-char, palden-sherab, taranatha, tenzin-dhonzang (summary reuse of already-cited facts)
+Fifteen of the seventeen commentary quotations marked in the v1 draft have been converted to
+paraphrase in v2 (Rule 6 — quotation budget of 2 per article, root-verse quotation in the
+lead excluded). Only taranatha:c-13-7 ("སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་
+ལྟ་བུ་སྟེ།") and yama-sonam:c-3-13-8's iconographic label ("ཞལ་གཅིག་ཕྱག་བཞི་མ") remain as
+verbatim commentary quotations.
+
+- **Lead:** yama-sonam:c-3-13-1, taranatha:c-13-1, tenzin-dhonzang:c-4-13-1 (global "thirteenth" ordinal); dharmabhadra:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1 (local "sixth" ordinal within the wrathful-abiding sub-group)
+- **མཚན་གྱི་ངེས་ཚིག:** yama-sonam:c-3-13-12, gendun-drub:c-2-2-2-2-1-2-6-4 (naming, now unquoted — proper-noun designations, not treated as quotations under Rule 6); tenzin-dhonzang:c-4-13-1 (own heading name, unquoted); palden-sherab:c-3-1-13-0-1, sangye-nyentrul:c-14-1-1 (name variants, unquoted); tsultrim-namdak:c-3-16 (unique "Destroyer of Enemy Armies" naming, unquoted); dharmabhadra:c-1-2-2-1-2-6-1, gendun-drub:c-2-2-2-2-1-2-6-1, tenga-tulku:c-1-2-2-1-2-6-1 (functional "wrathful-abiding" classification, unquoted); konchok-thabkhe:c-2-13-1 (alternate naming, unquoted); tenzin-dhonzang:c-4-13-3 (own note on the term ཕྱག་འཚལ, unquoted)
+- **སྐུ་ཡི་རྣམ་པ:** gendun-gyatso:c-1-13-1, karma-maitri:c-1-1-13-3/-4, konchok-thabkhe:c-2-13-2 (general fire-garland/stance restatement); yama-sonam:c-3-13-5 (leg symbolism, unique), c-3-13-7 (textual note, unique); drakpa-gyaltsen:c-1-72/-73 (root-verse duplicate and stance-reversal note, unique)
+- **ཕྲིན་ལས་དང་ནུས་མཐུ:** dharmabhadra:c-1-2-2-1-2-6-4, taranatha:c-13-6 (root-verse destruction-of-enemies restated); karma-maitri:c-1-1-13-5 (joy-giving activity, now unquoted); pema-namgyal:c-2-4-39 (devotional benefit)
+- **སྦས་དོན་གྱི་བཤད་པ:** taranatha:c-13-8, palden-sherab:c-3-1-13-3-1/-3-2 (convergent rasanā/lalanā reading); palden-sherab:c-3-1-13-4-1 (unique fourth-level reading); pema-namgyal:c-2-4-58 (flagged-ambiguous cross-verse reading)
+- **གཞུང་ལུགས་སོ་སོའི་བཤད་པ:** palden-sherab:c-3-1-13-2-1/-2-2/-1-3, sangye-nyentrul:c-14-1-2/-1-3, tsultrim-namdak:c-3-16 (two-armed iconography + vajra-sparks partial corroboration, now unquoted) vs. yama-sonam:c-3-13-8 (four-armed, label quoted, remainder paraphrased); taranatha:c-13-6, gendun-drub:c-2-2-2-2-1-2-6-3, tenga-tulku:c-1-2-2-1-2-6-4, palden-sherab:c-3-1-13-1-2, sangye-nyentrul:c-14-0-2, dharmabhadra:c-1-2-2-1-2-6-4, lobsang-dawa:c-1-2-2-1-2-6-3, sungrab-tulku:c-16-4, tenzin-dhonzang:c-4-13-4, tsultrim-namdak:c-2-1-2-1-46 (five-way "enemy" divergence, now unquoted); palden-sherab:c-3-1-13-2-2, sangye-nyentrul:c-14-1-3, tenzin-dhonzang:c-4-13-5/-6 (two practice traditions, now unquoted)
+- **བསྡུས་དོན:** yama-sonam, palden-sherab, taranatha, tenzin-dhonzang (summary reuse of already-cited facts)
 
 ## Resolved claims not used in the article (due-weight / space selection — not unresolvable)
 
-These attestations from `2-RAILS/Claims/tara-13.md` were successfully resolved to their raw tree-guided files (བོད་ཡིག, English gloss, and `Cite:` all located) but were not incorporated into the drafted prose, to keep the article to a manageable length and avoid restating near-duplicate consensus points already covered by the representative citations used:
+Unchanged from the source draft:
 
-- Root-verse verbatim duplicates beyond the one quoted (anon-utpala:c-1-2-2-1-2-6-2): anon-trinle-char:c-3-13-3, drakpa-gyaltsen:c-1-72/-73/-74 (verse-split extraction, general restatement used instead), gendun-drub:c-2-2-2-2-1-2-6-2, palden-sherab:c-3-1-13-0-2, sungrab-tulku:c-16-2, tenga-tulku:c-1-2-2-1-2-6-2, tenzin-dhonzang:c-4-13-2, tsultrim-namdak:c-2-1-2-1-44.
-- Redundant "final aeon fire / blazing garland" restatements beyond the representative set used: anon-utpala:c-1-2-2-1-2-6-3, karma-maitri:c-1-1-13-2, konchok-thabkhe:c-2-13-2 (kept, used), palden-sherab:c-3-1-13-1-1, pema-namgyal:c-2-4-38, sangye-nyentrul:c-14-0-1, sungrab-tulku:c-16-3, taranatha:c-13-3/-5, tenga-tulku:c-1-2-2-1-2-6-3, tenzin-dhonzang:c-4-13-3 (kept, used for etymology instead), tsultrim-namdak:c-2-1-2-1-45.
-- Structural-opener/gloss duplicates: anon-trinle-char:c-3-13-2, karma-maitri:c-1-1-13-1/-2, taranatha:c-13-2.
-- taranatha:c-13-4 ("undefiled joy" nuance, unique) and c-13-9/-10/-11 (further hidden-meaning elaboration on the five elements and Māra) — omitted for space; candidates for a follow-up expansion of the སྦས་དོན་ section.
-- anon-trinle-char:c-3-13-6, c-3-13-9, c-3-13-10, c-3-13-11 (Nyima Sbaspa citations supporting claims already cited, and the textual-variant discrepancy note on the Dergé Kangyur/Tengyur editions) — the underlying philological point (c-3-13-7) is retained; its two supporting citation-claims are not separately quoted.
-- drakpa-gyaltsen:c-1-74 ("destroys all discordant factors," generic) — redundant with the general destruction-of-enemies statement already covered.
+- Root-verse verbatim duplicates beyond the one quoted (dharmabhadra:c-1-2-2-1-2-6-2): yama-sonam:c-3-13-3, drakpa-gyaltsen:c-1-72/-73/-74 (verse-split extraction, general restatement used instead), gendun-drub:c-2-2-2-2-1-2-6-2, palden-sherab:c-3-1-13-0-2, sungrab-tulku:c-16-2, tenga-tulku:c-1-2-2-1-2-6-2, tenzin-dhonzang:c-4-13-2, tsultrim-namdak:c-2-1-2-1-44.
+- Redundant "final aeon fire / blazing garland" restatements beyond the representative set used: dharmabhadra:c-1-2-2-1-2-6-3, karma-maitri:c-1-1-13-2, konchok-thabkhe:c-2-13-2 (kept, used), palden-sherab:c-3-1-13-1-1, pema-namgyal:c-2-4-38, sangye-nyentrul:c-14-0-1, sungrab-tulku:c-16-3, taranatha:c-13-3/-5, tenga-tulku:c-1-2-2-1-2-6-3, tenzin-dhonzang:c-4-13-3 (kept, used for etymology instead), tsultrim-namdak:c-2-1-2-1-45.
+- Structural-opener/gloss duplicates: yama-sonam:c-3-13-2, karma-maitri:c-1-1-13-1/-2, taranatha:c-13-2.
+- taranatha:c-13-4 ("undefiled joy" nuance, unique) and c-13-9/-10/-11 (further hidden-meaning elaboration on the five elements and Māra) — omitted for space.
+- yama-sonam:c-3-13-6, c-3-13-9, c-3-13-10, c-3-13-11 (supporting citations and the textual-variant discrepancy note on the Dergé Kangyur/Tengyur editions) — the underlying philological point (c-3-13-7) is retained; its supporting citation-claims are not separately restated.
+- drakpa-gyaltsen:c-1-74 ("destroys all discordant factors," generic) — redundant.
 - karma-maitri:c-1-1-13-6 (generic restatement of the verse's fourth line) — redundant.
-- konchok-thabkhe:c-2-13-3 (self-flagged tentative gloss, "འགྲེལ་དགོས་སམ་སྙམ་མོ") — omitted per its own epistemic marker rather than stated as settled doctrine.
-- gendun-drub:c-2-2-2-2-1-2-6-2, sungrab-tulku:c-16-2/-3, tenga-tulku:c-1-2-2-1-2-6-2/-3, palden-sherab:c-3-1-13-1-1 — redundant general restatements, superseded by the representative citations chosen for the same facet.
+- konchok-thabkhe:c-2-13-3 (self-flagged tentative gloss, "འགྲེལ་དགོས་སམ་སྙམ་མོ") — omitted per its own epistemic marker.
+- gendun-drub:c-2-2-2-2-1-2-6-2, sungrab-tulku:c-16-2/-3, tenga-tulku:c-1-2-2-1-2-6-2/-3, palden-sherab:c-3-1-13-1-1 — redundant general restatements.
 
 ## Unresolvable attestations
 
-None. Every one of the 88 attestation IDs cited on `2-RAILS/Claims/tara-13.md` was located in its named raw tree-guided file under `2-RAILS/Claims/raw/tree-guided/` (verified programmatically by cross-checking every `commentary:claim-id` token on the consolidated page against the extracted claim set).
+None. Unchanged from the source draft.
 
 ## Warnings
 
-- **`rails_status` is `draft`, not `complete`.** `2-RAILS/Claims/tara-13.md` frontmatter records `status: draft`. Per the vault's general rule (`4-SYSTEM/CLAUDE.md` §9, "Do not generate from rails whose `status` is not `complete`"), transformations should generate only from `complete` rails. This is a known, accepted exception for this run, per the task instructions — a human contributor is accepting that risk explicitly by running this skill against a draft page. `article.md`'s own governing record (`citations.md`, this file) is set to `status: draft` below and should not be treated as publishable until `2-RAILS/Claims/tara-13.md` itself is promoted to `complete` (or the discrepancy is otherwise resolved).
-- **No public URLs exist for any of the sixteen cited commentaries.** Every `<ref>` in `article.md` uses the skill's hand-formatted `<AUTHOR>། <TITLE>།` form with no `[<URL> ...]` wrapper, per Rule 7 (no `sources.yaml` entries exist yet for this corpus). Validator rule V2 ("every `<ref>` resolves to a source declared in `sources.yaml`") cannot be satisfied by this draft and is not applicable until the corpus gets a `sources.yaml`.
-- **`anon-trinle-char`'s author is unrecorded.** Its raw claims file's own frontmatter records `author: "unknown"`. The bibliography and in-text refs cite it as "མཛད་པ་པོ་གསལ་མེད" (author unspecified), matching the convention already used in `tara-02/article.md` — this is attested by the frontmatter, not fabricated.
-- **No ref carries a year or page.** No publication year or page number is recorded in any of the sixteen raw files' frontmatter for this corpus, so none of the sixteen `<ref>`s in this article carry a year or page, per the spec's own allowance.
-- **Article length is short of the spec's ~1,500-Tibetan-syllable guidance.** The prose body (lead through བསྡུས་དོན, excluding ref/bibliography text) runs to roughly 1,187 tsheg-separated units by a rough automated count. This is a non-blocking warning per the spec (§7), not a validator failure.
-- **`tsultrim-namdak:c-3-16`'s own བོད་ཡིག field is ellipsis-bounded** across four non-contiguous source blocks (`^0-228`–`^0-231`); its content (naming, body colour, and the "vajra sparks" iconographic detail) was therefore used only as paraphrase/terminology, never set inside `" "` quote marks, to avoid presenting an editorially-assembled excerpt as a character-for-character quotation.
-- **Two ⚑-flagged items from the consolidated page were carried through with their own caveats intact, not silently resolved:** `konchok-thabkhe:c-2-13-3`'s self-flagged tentative gloss was omitted rather than stated as settled doctrine (see "Resolved claims not used"); `pema-namgyal:c-2-4-58`'s cross-verse "hidden meaning" material was included in `སྦས་དོན་གྱི་བཤད་པ` but explicitly marked in the prose as insufficiently specific to this verse alone, per the consolidated page's own ambiguity flag.
-- **The five-way divergence on the nature of the "enemy" (`དགྲ་ཡི་དཔུང`) and the two-way divergence on body-form iconography (two-armed vs. four-armed) are both presented in full under `གཞུང་ལུགས་སོ་སོའི་བཤད་པ`,** per Rule 5 — no position was adjudicated or dropped, only the number of representative citations per position was limited for space (see "Resolved claims not used").
+- **`rails_status` is `draft`, not `complete`.** Unchanged — accepted exception per the task's own instruction.
+- **No public URLs exist for any of the sixteen cited commentaries.** Unchanged.
+- **`yama-sonam`'s author is unrecorded beyond the raw file's own frontmatter** (`author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`, matching `author_in_use`). Unchanged.
+- **No ref carries a year or page.** Unchanged.
+- **Article length** remains in the same rough range as the source draft — short of the spec's 1,500-syllable non-blocking guidance (§7). Warning, not a validator failure.
+- **`tsultrim-namdak:c-3-16`'s own བོད་ཡིག field is ellipsis-bounded** across four non-contiguous source blocks; its content continues to be used only as paraphrase/terminology, never inside `" "` quote marks. Unchanged from the source draft's own caution.
+- **Two ⚑-flagged items carried through with their caveats intact:** `konchok-thabkhe:c-2-13-3`'s self-flagged tentative gloss remains omitted; `pema-namgyal:c-2-4-58`'s cross-verse material remains included with its own ambiguity flag stated in prose. Unchanged.
+- **The five-way divergence on "enemy" and the two-way divergence on body-form iconography (two-armed vs. four-armed) are both presented in full**, per Rule 5 — no position adjudicated or dropped in the v2 rewrite; only the per-statement ref count was capped (see "Full attestation beyond in-article refs").
+- **Author-naming corrections applied (Rule 17).** The v1 draft named three commentators by short forms not matching their `author_in_use` frontmatter value: (1) སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་ was named "བསྟན་འཛིན་དོན་བཟང" — corrected to the full form throughout; (2) རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་ was named "བསྟན་དགའ་སྤྲུལ" — corrected to the full form throughout; (3) འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ་ was named "གསུང་རབ་སྤྲུལ་སྐུ" in the v1 draft's bibliography reference, but its `author_in_use` value never actually appeared in v1's article-body prose (only in the bibliography, which keeps the formal `author` form per Rule 17's own carve-out) — no in-prose mention required correction, and this commentary no longer carries an in-body `<ref>` in v2 (see Full attestation). All other cited commentaries' in-prose names already matched `author_in_use` and needed no change.
+- **Bibliography (`དཔྱད་གཞིའི་ཡིག་ཆ།`) trimmed to match in-body `<ref>` calls**, per Rule 11. sungrab-tulku and lobsang-dawa no longer carry an in-body `<ref>` and were removed from the bibliography list; their attestation is preserved above under "Full attestation beyond in-article refs" and in `raw_sources_cited`.
 
 ## Verification
 
-Every quotation wrapped in `" "` in `article.md` was located character-for-character (whitespace-collapsed) in the `1-SOURCES/` file its claim's `Cite:` field names:
+Quotations retained from the v1 draft were spot-verified as unchanged, exact substrings of
+the quotations already marked PASS in the source `citations.md` (a text diff against the
+prior version, not a fresh `1-SOURCES/` lookup, per Mode B Rule 6):
 
-| # | Quotation | Claim | Source file (block) | Result |
-|---|---|---|---|---|
-| 1 | "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར།། འབར་བའི་འཕྲེང་བའི་དབུས་ན་གནས་མ།། གཡས་བརྐྱངས་གཡོན་བསྐུམས་ཀུན་ནས་བསྐོར་དགའི།། དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ།།" | anon-utpala:c-1-2-2-1-2-6-2 | ...ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-60 | PASS |
-| 2 | "མཚན་གྱི་རྣམ་གྲངས་ལ། ཉི་མ་སྦས་པས་ཡོངས་སུ་སྨིན་པར་བྱེད་པའི་སྒྲོལ་མ་དང་། རྗེ་དགེ་འདུན་གྲུབ་ཀྱང་དེའི་རྗེས་སུ་འབྲངས། ཅོ་ནེས་མེ་ལྟར་འབར་བའི་སྒྲོལ་མ་ཞེས་གསུངས།" | anon-trinle-char:c-3-13-12 | སྒྲོལ་མའི་འགྲེལ་བ་...སྤྲིན་ཕུང་།.md#^0-165 | PASS |
-| 3 | "བཅུ་གསུམ་པ་མེ་ལྟར་འབར་བ་ལ་བསྟོད་པ།" | tenzin-dhonzang:c-4-13-1 | ...སྙིང་གི་ནོར་བུ.md#^0-214 | PASS |
-| 4 | "བཅུ་གསུམ་པ་དམག་སོགས་བར་ཆད་གཟུགས་ཅན་གཟུགས་མེད་ཀྱི་གཡུལ་ལས་རྒྱལ་བར་བྱེད་པའི་རྗེ་བཙུན་སྒྲོལ་མ་ནི།" | palden-sherab:c-3-1-13-0-1 | (long-titled Palden Sherab commentary).md#^0-127 | PASS |
-| 5 | "གཟུགས་ཅན་གཟུགས་མེད་ཀྱི་གཡུལ་དང་བར་ཆད་ལས་རྒྱལ་བར་བྱེད་མའི་སྒྲོལ་མ" | sangye-nyentrul:c-14-1-1 | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61 | PASS |
-| 6 | "སྒྲོལ་མ་དགྲ་དཔུང་འཇོམས་མ" (naming, referenced not quoted in final prose — see Warnings) | tsultrim-namdak:c-3-16 | ...གྲུ་གཟིངས།.md#^0-228–^0-231 | N/A — not set in quote marks in article; verification not required |
-| 7 | "དྲག་པོའི་བཞུགས་ཚུལ་གྱི་སྒོ་ནས་བསྟོད་པ" | anon-utpala:c-1-2-2-1-2-6-1 | ...ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 | PASS |
-| 8 | "གདུག་པ་ཅན་འདུལ་བའི་སྒོ་ནས་བསྟོད་པ" | konchok-thabkhe:c-2-13-1 | ...ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70 | PASS |
-| 9 | "ཕྱག་འཚལ་ནི་རང་གིས་ཉམས་ལེན་དང་མཐུན་པ་སྦྱར་ན་ཆོག་པ་ཡིན།" | tenzin-dhonzang:c-4-13-3 | ...སྙིང་གི་ནོར་བུ.md#^0-216 | PASS |
-| 10 | "ཕྱག་འཚལ་བསྐལ་པ་མཐའ་མའི་མེ་ལྟར། ། འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ།" | drakpa-gyaltsen:c-1-72 | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59 | PASS |
-| 11 | "བཞུགས་ཚུལ་སྔ་མ་ལས་བཟློག་པའོ།" (paraphrased in prose, not set in quote marks — logged here as it was independently verified) | drakpa-gyaltsen:c-1-73 | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-60 | PASS |
-| 12 | "ཀུན་ནས་བསྐོར་དགའི" (referenced not quoted in final prose) | anon-trinle-char:c-3-13-7 | སྒྲོལ་མའི་འགྲེལ་བ་...སྤྲིན་ཕུང་།.md#^0-157 | PASS |
-| 13 | "བདེ་བ་སྦྱིན་པའི་དགའ་བར་མཛད་ཅིང་།" | karma-maitri:c-1-1-13-5 | ...བསྡུས་འགྲེལ།.md#^0-31 | PASS |
-| 14 | "ལྷ་མོ་འདིས་འཕྲིན་ལས་ཀྱི་གཙོ་བོ་བགེགས་དང་བར་ཆད་སྲུང་བར་མཛད་དོ།" | tenzin-dhonzang:c-4-13-12 | ...སྙིང་གི་ནོར་བུ.md#^0-225 | PASS |
-| 15 | "སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་ལྟ་བུ་སྟེ།" | taranatha:c-13-7 | ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-45 | PASS |
-| 16 | "ཞབས་གཉིས་རྟ་འབབས་སྐྱིལ་ཀྲུང་། ཞལ་གཅིག་ཕྱག་གཉིས། སྤྱན་གསུམ། ཞལ་ཞི་མ་ཁྲོའི་ཞལ་ཅན།" | palden-sherab:c-3-1-13-2-1 | (long-titled Palden Sherab commentary).md#^0-132 | PASS |
-| 17 | "སྐུའི་རྣམ་འགྱུར་ནི། སྐུ་མདོག་དམར་པོ། པདྨ་དམར་པོའི་སྟེང་དུ་ཉི་མའི་དཀྱིལ་འཁོར་འོད་ཟེར་དང་བཅས་པ་ལ་གཡས་བརྐྱང་བས་གནས་པ། ཞལ་གཅིག་ཕྱག་བཞི་མ། སྨིན་མ་དང་མཆུ་གྱེན་དུ་རྩོལ་བས་ལྟ་བ། གཡས་དང་པོ་ན་རལ་གྲི། གཉིས་པ་ན་མདའ། གཡོན་དང་པོ་ན་འཁོར་ལོ། གཉིས་པ་ན་གཞུ་བསྣམས་པ་ཡིན་ཏེ།" | anon-trinle-char:c-3-13-8 | སྒྲོལ་མའི་འགྲེལ་བ་...སྤྲིན་ཕུང་།.md#^0-158 | PASS |
-| 18 | "གདུལ་བྱའི་རྒྱུད་ཀྱི་ཕྱི་ནང་གི་དགྲ་ཡི་དཔུང་ཚོགས" | anon-utpala:c-1-2-2-1-2-6-4 | ...ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-62 | PASS |
-| 19 | "ལས་འོད་ཟེར་རྡོ་རྗེའི་ཚྭ་ཚྭ་རབ་ཏུ་འབར་ཞིང་འཕྲོ་བས་ཕ་རོལ་དགྲ་བོའི་དཔུང་རྣམས་ལྷག་མེད་དུ་བཅོམ་ནས།" | sangye-nyentrul:c-14-1-3 | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61 | PASS |
-| 20 | "ཕྱིའི་དགྲ་མྱོས་འགྱུར་གྱི་རིགས་དང་། དུག་དང་མཚོན་གྱི་རིགས།" | tenzin-dhonzang:c-4-13-5 | ...སྙིང་གི་ནོར་བུ.md#^0-218 | PASS |
+| # | Quotation | Claim | Result |
+|---|---|---|---|
+| 1 | "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར།། འབར་བའི་འཕྲེང་བའི་དབུས་ན་གནས་མ།། གཡས་བརྐྱངས་གཡོན་བསྐུམས་ཀུན་ནས་བསྐོར་དགའི།། དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ།།" | dharmabhadra:c-1-2-2-1-2-6-2 | Unchanged, exact substring of source quote #1 — PASS carried forward (root-verse quote, outside the quotation budget) |
+| 2 | "ཞལ་གཅིག་ཕྱག་བཞི་མ" | yama-sonam:c-3-13-8 | Unchanged, exact substring of source quote #17 (the label alone, drawn from the same longer PASS-verified quotation) — PASS carried forward |
+| 3 | "སྦས་དོན་ནི། གཏུམ་མོ་ཡེ་ཤེས་ཀྱི་མེ་དུས་མཐའི་མེ་འབར་བ་ལྟ་བུ་སྟེ།" | taranatha:c-13-7 | Unchanged, exact substring of source quote #15 — PASS carried forward |
 
-**17/17 quotations set in `" "` in `article.md` PASS.** (Rows 6, 11, and 12 above record independent verification of source-wording that ended up reused as paraphrase/terminology rather than as a marked quotation in the final prose; they are not part of the 17 marked quotations but are logged here since they were checked during drafting.) No quotation required correction or removal.
+The remaining fourteen quotations from the v1 draft (source quotes #2–#14 excluding #15, plus
+the remainder of #17 beyond the retained label) were removed and their content converted to
+paraphrase grounded in the same claim's existing gloss; they required no re-verification
+(Mode B Rule 6 — quotations being removed are not touched).
+
+**3/3 retained quotations PASS (carried forward, spot-verified unchanged).** No quotation in
+this v2 revision required correction or removal beyond the budget-driven conversions already
+accounted for above.
