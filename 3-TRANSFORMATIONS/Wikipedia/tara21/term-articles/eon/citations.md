@@ -145,7 +145,11 @@ are now paraphrase, not quotation-marked text, in v2.
 
 **Style self-check (Rules 5–9):** no statement in the revised article carries more than 3
 `<ref>`s; exactly 2 commentary quotations remain, both budget-justified (Rule 6); consensus
-material (ངེས་ཚིག, མཚན་ཉིད།) is wikivoice with no inline attribution; unique claims
+material (ངེས་ཚིག, མཚན་ཉིད།) is wikivoice with no inline attribution — a post-hoc audit found
+three sentences (one in ངེས་ཚིག, one in མཚན་ཉིད།, one in བསྡུས་དོན།) still carrying vague-plural
+attribution framing (`འགྲེལ་པ་མང་པོས་...བཤད`, `འགྲེལ་པ་དུ་མས་...འདོད`, `མང་ཆེ་བས་...བཤད`); all
+three have been rewritten as plain declarative wikivoice with the same `<ref>`s unchanged, and
+this note now records that correction rather than a pre-existing pass; unique claims
 (དབྱེ་བ།) and the doctrinal-reading divergence (གཞུང་ལུགས་སོ་སོའི་བཤད་པ།) keep inline
 attribution via `author_in_use` forms; readability pass done — no who-said-what fragment
 sequence remains outside གཞུང་ལུགས་སོ་སོའི་བཤད་པ།.
