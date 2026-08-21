@@ -209,11 +209,18 @@ the v1 run. Mode B performed no new resolution work.
   v1's ~2,150 syllables (the 15 dropped quotations and capped ref clusters removed
   considerable bulk) but still comfortably above the spec's 1,500-syllable
   non-blocking-warning threshold — no warning needed.
-- **`ཕྲིན་ལས་དང་ནུས་མཐུ།`'s closing sentence** ("ཡོན་ཏན་གྱི་གྲངས་དང་སྦྱོར་ཚུལ་...") and
-  **`བསྡུས་དོན།`'s summary sentence** carry no ref of their own, as in v1 — connective/
-  summary content restating material already cited earlier in the same section, satisfying
-  V8 at the section level per a reading a strict per-sentence pass would flag; noted for
-  the reviewer's judgment, unchanged from v1's own note.
+- **`ཕྲིན་ལས་དང་ནུས་མཐུ།`'s closing sentence** ("ཡོན་ཏན་གྱི་གྲངས་དང་སྦྱོར་ཚུལ་...") carries no
+  ref of its own — connective content restating material already cited earlier in the same
+  section, satisfying V8 at the section level per a reading a strict per-sentence pass would
+  flag; noted for the reviewer's judgment, unchanged from v1's own note.
+- **V8 fix (post-revision, 2026-08-21): `བསྡུས་དོན།` had zero `<ref>` tags**, failing V8 at
+  the section level (not just the sentence level, unlike the `ཕྲིན་ལས་དང་ནུས་མཐུ།` case
+  above). Fixed by attaching self-closing reuses of refs already defined earlier in the
+  article — `palden-sherab`/`sangye-nyentrul`/`sungrab-tulku` (activity-embodiment claim,
+  matching the lead's own citation set), `taranatha`/`yama-sonam`/`sangye-nyentrul`
+  (origin-from-tears claim, matching `ལོ་རྒྱུས།`'s opening citation set), and
+  `yama-sonam`/`dharmabhadra`/`drakpa-gyaltsen` (wisdom-eye-like-lightning claim, matching
+  `སྐུ་ཡི་རྣམ་པ།`'s opening citation set) — no new claim, source, or ref name introduced.
 - **`sangye-nyentrul`'s raw file frontmatter has an empty `title_in_english` field** —
   unchanged from v1; bibliography and refs use the Tibetan title only.
 

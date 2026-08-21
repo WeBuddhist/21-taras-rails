@@ -230,6 +230,20 @@ by this article resolved cleanly against its raw tree-guided file.
 
 ## Warnings
 
+- **Lead / ངེས་ཚིག de-duplication fix (2026-08-21).** A readability review found the
+  ངེས་ཚིག section's opening sentence restated the lead's protective-etymology definition
+  in near-identical wording — both were paraphrases of the same source sentence
+  (`tenzin-dhonzang:c-4-18-5`, #^0-265), and that claim's remaining content (the essence /
+  secret-mantra / awareness-mantra / dhāraṇī-mantra breakdown) was already drafted into
+  the `དབྱེ་བ` section immediately below, so no unused deeper material existed to give
+  ངེས་ཚིག fresh content. Per the style skill's Rule 9 (reread as a reader; redraft
+  repetitive passages), the ངེས་ཚིག opening was reworded to state the naming principle at
+  a higher level of abstraction (the name is coined from the mantra's protective
+  function; particular distinctions within that function are what yield the further
+  name-divisions) and now functions as a topic-sentence bridge into `དབྱེ་བ` rather than a
+  restatement of the lead. The lead's own wording is unchanged. Same ref
+  (`<ref name="tenzin-dhonzang" />`) retained on the reworded sentence; no claim or
+  citation was dropped.
 - **`rails_status: draft`.** `2-RAILS/Claims/mantra.md` carries `status: draft` in its own
   frontmatter, not `status: complete`. Per Rule 11 and the vault's general rule that
   transformations generate from `complete` rails, this draft was produced anyway on the

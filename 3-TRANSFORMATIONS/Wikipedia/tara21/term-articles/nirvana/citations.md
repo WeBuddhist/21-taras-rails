@@ -183,6 +183,16 @@ None. Unchanged from v1.
 - **Wikipedia status not checked.** Unchanged from v1 — a human contributor should check
   `3-TRANSFORMATIONS/Wikipedia/tara21/work/wiki-snapshots/` for an existing bo.wikipedia article
   at this title before publishing.
+- **Readability-review fixes (2026-08-21).** Two mechanical errors caught by a readability
+  pass were corrected in `article.md` (no claim-content change; `article-preview.md`
+  regenerated after): (1) the `palden-sherab` ref was truncated mid-title (cut off after
+  "...ཚིག་དོན་རྣམ་པར་འགྲེལ་བ།"), missing the title's second half
+  ("དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་...འཛུམ་རླབས།") that is present in this article's own
+  `དཔྱད་གཞིའི་ཡིག་ཆ།` entry and in every sibling article's `palden-sherab` ref — restored to
+  the full `AUTHOR། TITLE།` form; (2) `tenzin-dhonzang`'s name was missing its tsheg before
+  shad ("དོན་བཟང།") in both the ref definition and the bibliography entry, against the
+  corpus-wide convention ("དོན་བཟང་།", 75 correct instances elsewhere vs. 2 wrong in this
+  file) — both instances corrected.
 
 ## Verification
 
