@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1b92f17f4bfcb38",
+        "id": "a09341789aa66623",
         "type": "tabs",
         "children": [
           {
-            "id": "f485d10bdcc44d46",
+            "id": "6f8747d23b054bfe",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -193,8 +193,14 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "15014ceefa497d3c",
+  "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "0-INBOX/presentation-humanities-2026/02-speaker-notes.md",
+    "0-INBOX/presentation-humanities-2026/01-slide-plan.md",
+    "0-INBOX/presentation-humanities-2026",
+    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/style.md",
+    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-en.md",
+    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/context-header.md",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-hi.md",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/work/hi.jsonl",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/work",
@@ -210,14 +216,10 @@
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/about.md",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot",
     "4-SYSTEM/Skills/dharmamitra-translate/SKILL.md",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-en.md",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work/en.jsonl",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/context-header.md",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/style.md",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/about.md",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot",
-    "4-SYSTEM/Skills/dharmamitra-translate/scripts/dm_translate.py",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article-preview.md",
@@ -228,8 +230,6 @@
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md",
     "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md",
-    "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md",
-    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md",
-    "1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md"
+    "1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md"
   ]
 }
