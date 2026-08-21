@@ -181,6 +181,15 @@ claim ID was introduced.
    frontmatter value exactly (verified by frontmatter-only lookup, Rule 17 / Mode B exception).
 7. **This revision changes register and punctuation only** — no claim ID appears in the revised
    article that was not already cited in the v1 `citations.md`'s reference map above.
+8. **Post-hoc audit fix (2026-08-21, not a new revision)**: `article.md` used the invalid ref name
+   `utpala` (not a registered commentary ID) for all `dharmabhadra` citations; every occurrence
+   (1 full definition + 3 self-closing reuses) was renamed to `ref name="dharmabhadra"`, matching
+   the registered ID in `2-RAILS/Claims/raw/tree-guided/dharmabhadra.md`. Separately, the category
+   line was changed from `[[རིགས་དབྱེ།:བསྟན་བཅོས།]]` to `[[རིགས་དབྱེ།:ནང་ཆོས།]]`, since `བསྟན་བཅོས།`
+   is not in the pipeline's `DEFAULT_CATEGORIES` allowlist (`4-SYSTEM/Pipelines/wikipedia/src/kangyur_wiki/cli.py`);
+   this supersedes Warning #5 above, which is now stale. Reference map row labels above (`utpala`)
+   were left as-is for audit-trail continuity with the pre-fix ref name; they refer to the same
+   `dharmabhadra` claims now cited under the corrected ref name in `article.md`.
 
 ## Verification
 

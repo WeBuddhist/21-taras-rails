@@ -155,6 +155,12 @@ None (unchanged from v1).
 - **No prior bo.wikipedia inventory step was run for this term** — unchanged from v1; new-vs-
   update status is left for a human contributor to check before any `/publish` step.
 - **Category unchanged:** `[[རིགས་དབྱེ།:ནང་ཆོས།]]`.
+- **V8 fix (post-revision patch, 2026-08-21):** `བསྡུས་དོན།` had zero `<ref>` tags, failing the
+  blocking "every section ≥1 citation" validator rule. Added three self-closing reuses of refs
+  already defined earlier in the article, matched to the specific restated claim: `yama-sonam`
+  after the retinue-enumeration clause, `drakpa-gyaltsen` after the three-traditions-on-the-chief
+  clause, and `palden-sherab` at the close of the mdangs-'phrog/ten-guardians sentence. No new
+  claim, source, or ref name introduced.
 
 ## Verification
 

@@ -151,6 +151,12 @@ located successfully in its commentary's raw tree-guided file.
 
 ## Warnings
 
+- **Category correction (2026-08-21):** `article.md`'s closing category lines carried
+  `[[རིགས་དབྱེ།:ནང་ཆོས།]]` and `[[རིགས་དབྱེ།:ཤེར་ཕྱིན།]]`. `ཤེར་ཕྱིན།` is not in the pipeline's
+  publish allowlist (`DEFAULT_CATEGORIES` in `4-SYSTEM/Pipelines/wikipedia/src/kangyur_wiki/cli.py`
+  is `("ནང་བསྟན།", "ནང་ཆོས།")` only), so that line was removed, leaving the single allowlisted
+  `[[རིགས་དབྱེ།:ནང་ཆོས།]]` — matching every other term-article's one-category convention. The V7
+  row below still reads as originally recorded and has not been re-verified against this fix.
 - **Mode B `author_in_use` check (2026-08-20):** all fifteen commentators cited in-prose
   carry an `author_in_use` key directly on their own
   `2-RAILS/Claims/raw/tree-guided/<id>.md` frontmatter, and the v1 article's in-prose

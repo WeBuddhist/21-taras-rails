@@ -149,8 +149,17 @@ resolution without re-deriving it.
   commentator name in this revision uses that value (e.g. `pema-namgyal`'s
   `ཟུར་མང་མཁན་པོ་པདྨ་རྣམ་རྒྱལ་`, which differs from its bare `author` field
   `ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་`).
-- **`བསྡུས་དོན།`, `འབྲེལ་ཡོད་ཤོག་ངོས།`, `ལུང་ཁུངས།`, and `དཔྱད་གཞིའི་ཡིག་ཆ།` carry no `<ref>` tags** —
-  unchanged from v1, matching the wikitext spec's own doctrinal-term exemplar.
+- **`འབྲེལ་ཡོད་ཤོག་ངོས།`, `ལུང་ཁུངས།`, and `དཔྱད་གཞིའི་ཡིག་ཆ།` carry no `<ref>` tags** — unchanged from
+  v1, matching the wikitext spec's own doctrinal-term exemplar.
+- **Post-hoc fix (2026-08-21): `བསྡུས་དོན།` previously carried zero `<ref>` tags, violating V8
+  ("every section ≥1 citation").** Added six self-closing reuses across the section's three
+  sentences — `yama-sonam` and `tenzin-dhonzang` after sentence 1 (restates the lead's "occurs
+  throughout the commentarial tradition" claim), `taranatha` and `dharmabhadra` after sentence 2
+  (restates the two-tradition palm-wheel/ten-directions divergence from `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`),
+  and `gendun-gyatso` and `sungrab-tulku` at the end of sentence 3 (restates the heart-wheel /
+  hand-implement / dharma-wheel-turning list from the lead's closing clause). All six ref names
+  were already defined earlier in `article.md`; no new claim, source, or commentary was
+  introduced.
 - **`ངེས་ཚིག` remains omitted** — no pure etymology claim exists on `wheel.md`.
 - **Article length** grew slightly from v1 (roughly 475–520 Tibetan syllables through
   `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`) because prose paragraphs replaced quote-and-cite fragments and the

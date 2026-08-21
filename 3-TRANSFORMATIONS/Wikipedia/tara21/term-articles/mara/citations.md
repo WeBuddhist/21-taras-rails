@@ -249,6 +249,18 @@ not failures, just unused:
   content sections).
 - **Related-pages red links.** `[[སྒྲོལ་མ་]]`, `[[བདུད་བཞི་]]`, and `[[ཕྱག་འཚལ་ཉེར་གཅིག་མ་]]` are
   expected red links per spec §3 — no claim was needed to justify them, they are navigation only.
+- **Post-hoc fix (2026-08-21).** Two defects corrected directly in `article.md`: (1) all three
+  occurrences of `<ref name="utpala">`/`<ref name="utpala" />` were renamed to
+  `dharmabhadra` — `utpala` was never a registered commentary ID (the 16 IDs are listed in
+  `2-RAILS/Claims/raw/tree-guided/`); the ref body is dharmabhadra's own commentary title
+  ("...ཨུཏྤལའི་ཆུན་པོ"), confirmed against `2-RAILS/Claims/raw/tree-guided/dharmabhadra.md`
+  frontmatter. No pre-existing `dharmabhadra`-named ref was present elsewhere in the article, so
+  this was a plain rename, not a merge. (2) the `བསྡུས་དོན།` (summary) section had zero `<ref>`
+  tags, failing validator rule V8 — three self-closing reuses of already-cited refs
+  (`sungrab-tulku`, `tenga-tulku`, `palden-sherab` for the four-māra claim; `taranatha`,
+  `tsultrim-namdak` for the commander/five-obstacle claim; `palden-sherab`, `taranatha` again for
+  the hidden-meaning claim) were inserted into the summary's existing prose, respecting the
+  ≤3-refs-per-statement cap. No new claim or source was introduced.
 
 ## Verification
 

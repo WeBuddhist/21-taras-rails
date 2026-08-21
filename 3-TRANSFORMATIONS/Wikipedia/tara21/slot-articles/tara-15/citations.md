@@ -111,6 +111,15 @@ content (per Mode B's rule), only frontmatter for the `author_in_use` check (Rul
 
 ## Warnings
 
+- **Ref-name correction (post-Revision-B).** `article.md`'s `<ref name="...">` values used
+  non-standard, hyphen-less names (e.g. `gendundrub`, `sungrabtulku`, `tenzindhonzang`,
+  `paldensherab`, `sangyenyentrul`, `tsultrimnamdak`, `tengatulku`, `drakpa`, `gendungyatso`,
+  `konchok`, `pemanamgyal`, `utpala`) instead of this vault's registered `registered_id` values.
+  All twelve were renamed in place to their registered IDs (`utpala` → `dharmabhadra`, `drakpa` →
+  `drakpa-gyaltsen`, `konchok` → `konchok-thabkhe`, the rest hyphenated as-is), across both the
+  full `<ref name="X">...</ref>` definition and every self-closing `<ref name="X" />` reuse. No
+  duplicate full definitions resulted. `taranatha` and `yama-sonam` were already correct and
+  untouched.
 - **`rails_status: draft`.** `2-RAILS/Claims/tara-15.md` carries `status: draft`, not `complete`.
   Unchanged from v1 — a human contributor should review and, if satisfied, promote the
   consolidated page before treating this article as more than a structural/citation draft.

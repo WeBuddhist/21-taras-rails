@@ -290,6 +290,13 @@ new unresolvable attestation; it only removed quotation marks from claims alread
   or its listed Wikidata candidates (`Q535214`, `Q18508917`, `Q116`). Neither this fact nor any publishing
   action was acted on by the v1 run or by today's Mode B revision — this article remains a standalone
   cited draft, per Rule 14 (no publishing, no network).
+- **V8 fix (post-Mode-B).** The `བསྡུས་དོན།` section previously carried zero `<ref>`s, per the V8 row's note
+  below ("the tail...carries none"). That reading no longer holds V8 as a blocking rule, so two self-closing
+  reuses were added to the summary prose: `<ref name="dharmabhadra" />`/`<ref name="tenzin-dhonzang" />` on
+  the mantra-identity/three-syllable-meaning sentence (same refs as the lead and `ངེས་ཚིག`), and
+  `<ref name="tenzin-dhonzang" />`/`<ref name="palden-sherab" />` on the root-phrase-powers/hidden-meaning
+  sentence (same refs as `མཚན་ཉིད།` and `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`). No new claim or commentary was
+  introduced — both refs are already defined earlier in the article.
 
 ## Verification
 
