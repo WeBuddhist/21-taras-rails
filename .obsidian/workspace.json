@@ -199,6 +199,10 @@
   },
   "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "4-SYSTEM/Skills/gemini-article-polish/scripts",
+    "4-SYSTEM/Skills/gemini-article-polish",
+    "4-SYSTEM/Skills/wiki-article-from-claims/scripts/make_preview.py",
+    "4-SYSTEM/Skills/wiki-article-from-claims/scripts",
     "3-TRANSFORMATIONS/Wikipedia/tara21/PUBLISHED.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/published.yaml",
     "0-INBOX/presentation-humanities-2026/03-facts-and-assets.md",
@@ -221,11 +225,8 @@
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/style.md",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/context-header.md",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/about.md",
-    "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot",
     "4-SYSTEM/Skills/dharmamitra-translate/SKILL.md",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work/en.jsonl",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/about.md",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article-preview.md",
@@ -233,7 +234,6 @@
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md"
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md"
   ]
 }

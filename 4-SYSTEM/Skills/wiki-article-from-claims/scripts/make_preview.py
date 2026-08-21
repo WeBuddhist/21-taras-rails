@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Generate a read-only Obsidian reading preview from a fenced-wikitext article.md.
 
-Converts the ```wikitext fence body of an article file (the wiki-article-from-claims /
-wiki-article-from-claims-v2 output convention) into plain Obsidian markdown in which
+Converts the ```wikitext fence body of an article file (the wiki-article-from-claims
+output convention) into plain Obsidian markdown in which
 every <ref> becomes an Obsidian footnote, so a human reviewer can read the article in
 Obsidian's reading view with citations collapsed to clickable superscript numbers —
 the same reading experience the published bo.wikipedia page will give.
 
 The output (article-preview.md, written beside the input) is derived, disposable, and
 read-only by convention: corrections belong in article.md, then this script is re-run.
-Works on v1 (wiki-article-from-claims) output as well as v2.
+Works on output from every version of the skill (the retired v1 batch included).
 
 Usage:
     python3 make_preview.py <path-to-article.md> [more article.md paths ...]
@@ -86,7 +86,7 @@ WARNING_CALLOUT = (
     "> This file is rendered from `article.md` for review reading only. Citations appear\n"
     "> as footnotes. Any correction belongs in `article.md` (inside the wikitext fence);\n"
     "> then regenerate this preview with\n"
-    "> `4-SYSTEM/Skills/wiki-article-from-claims-v2/scripts/make_preview.py`.\n"
+    "> `4-SYSTEM/Skills/wiki-article-from-claims/scripts/make_preview.py`.\n"
     "> This file is never published.\n"
 )
 
@@ -211,7 +211,7 @@ def make_preview(article_path: Path) -> Path:
         "article_kind: article-preview\n"
         "generated: true\n"
         "generated_from: article.md\n"
-        "generated_by: 4-SYSTEM/Skills/wiki-article-from-claims-v2/scripts/make_preview.py\n"
+        "generated_by: 4-SYSTEM/Skills/wiki-article-from-claims/scripts/make_preview.py\n"
         "---\n"
     )
     out_path = article_path.parent / "article-preview.md"
