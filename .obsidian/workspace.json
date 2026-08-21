@@ -199,6 +199,12 @@
   },
   "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/origin",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini",
+    "4-SYSTEM/Skills/gemini-article-polish/scripts/__pycache__/gemini_polish.cpython-314.pyc",
+    "4-SYSTEM/Skills/gemini-article-polish/scripts/__pycache__",
+    "4-SYSTEM/Skills/gemini-article-polish/SKILL.md",
+    "4-SYSTEM/Skills/gemini-article-polish/scripts/gemini_polish.py",
     "4-SYSTEM/Skills/gemini-article-polish/scripts",
     "4-SYSTEM/Skills/gemini-article-polish",
     "4-SYSTEM/Skills/wiki-article-from-claims/scripts/make_preview.py",
@@ -213,15 +219,10 @@
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-en.md",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/context-header.md",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-hi.md",
-    "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/work/hi.jsonl",
-    "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/work",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/style.md",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/context-header.md",
     "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot/about.md",
-    "3-TRANSFORMATIONS/Translations/hi-dharmamitra-zeroshot",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/praise-of-the-twenty-one-taras-zh.md",
-    "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/work/zh.jsonl",
-    "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/work",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/style.md",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/context-header.md",
     "3-TRANSFORMATIONS/Translations/zh-dharmamitra-zeroshot/about.md",
@@ -233,7 +234,6 @@
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md"
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md"
   ]
 }

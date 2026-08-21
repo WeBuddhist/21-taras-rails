@@ -413,6 +413,12 @@ These skills generate encyclopedic output for bo.wikipedia from the vault's rail
 **Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/wiki-inventory.yaml`, snapshots under `work/wiki-snapshots/`, and the kwiki-schema `terms.yaml` with `status: candidate` throughout.
 → [`wiki-article-inventory/SKILL.md`](wiki-article-inventory/SKILL.md)
 
+### `gemini-article-polish` **[exists]**
+**Purpose:** Re-compose an existing article's Tibetan prose with the Gemini API (whose native Tibetan is stronger than the drafting model's) — improving flow, register, and idiom while freezing every fact, `<ref>`, verbatim quotation, heading, and the punctuation contract — via ref-tokenised API calls, deterministic post-checks (C1–C7), and an agent-written semantic diff; experimental extra pass (2026-08-21), not part of the paper pipeline.
+**Inputs:** An existing verified `article.md` + `citations.md` topic folder, the `GEMINI_API_KEY` (env / pipeline `.env` / `~/.zshrc`), and an output mode (`pilot` default, `in-place` only on explicit human instruction).
+**Outputs:** `3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/<topic>/` — polished `article.md` (with polish provenance frontmatter), copied `citations.md`, regenerated `article-preview.md`, script-written `gemini-report.md` + before/after prose, and the agent's `semantic-diff.md` verdict.
+→ [`gemini-article-polish/SKILL.md`](gemini-article-polish/SKILL.md)
+
 ---
 
 ## Pipelines — not skills
