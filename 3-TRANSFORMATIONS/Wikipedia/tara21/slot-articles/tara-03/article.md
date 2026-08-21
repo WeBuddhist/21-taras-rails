@@ -2,7 +2,13 @@
 topic: tara-03
 article_kind: slot-article
 format: bo.wikipedia wikitext
-status: draft
+status: published
+wiki_title: སྒྲོལ་མ་གསེར་མདོག་ཅན།
+wiki_pageid: 28186
+wiki_url: https://bo.wikipedia.org/w/index.php?curid=28186
+wiki_site: bo.wikipedia.org
+published_date: 2026-08-21
+published_registry: ../../published.yaml
 ---
 
 > [!note] This file holds the bo.wikipedia **wikitext** for this article, wrapped in a

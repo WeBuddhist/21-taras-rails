@@ -199,6 +199,8 @@
   },
   "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/PUBLISHED.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/published.yaml",
     "0-INBOX/presentation-humanities-2026/03-facts-and-assets.md",
     "0-INBOX/presentation-humanities-2026/02-speaker-notes.md",
     "0-INBOX/presentation-humanities-2026/01-slide-plan.md",
@@ -224,7 +226,6 @@
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work/en.jsonl",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/about.md",
     "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot/work",
-    "3-TRANSFORMATIONS/Translations/en-dharmamitra-zeroshot",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article-preview.md",
@@ -233,7 +234,6 @@
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
     "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
-    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md",
-    "1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md"
+    "1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md"
   ]
 }

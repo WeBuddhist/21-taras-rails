@@ -6,6 +6,15 @@ Expected form: `<corpus-id> <term> [--mainspace]`. Without `--mainspace` it goes
 
 ### Preconditions — check every one, do not skip
 
+0. **Read `3-TRANSFORMATIONS/Wikipedia/<corpus>/published.yaml` first.** If the slot or term
+   already appears under `published:`, it is live — publishing again creates a duplicate
+   article. Update the existing page at its recorded title (the `pageid` is the stable
+   handle) and say so; never create. If the title you are about to use is reserved for a
+   different slot under `planned:`, stop. For a slot whose `title_status` is `contested`,
+   the title is not settled — get the human's pick before publishing, do not choose one
+   yourself. After a successful publish, move the slot from `planned:` to `published:`,
+   mirror `wiki_title` / `wiki_pageid` / `wiki_url` and `status: published` into the slot's
+   `article.md` frontmatter, and regenerate `PUBLISHED.md`.
 1. The term's ledger status is `verified` or `approved`. If it is anything else, **stop** and say so.
    The CLI enforces this too, but you should not be the one discovering it. (An audit failure
    marks the term `failed` — there is no path to `verified` around the stage-6b audit.)

@@ -1,0 +1,253 @@
+# Publication registry for the tara21 slot-article track.
+#
+# CANONICAL. Check this file before publishing anything: a slot that already has a
+# `pageid` is live and must be UPDATED at that title, never created again. A title
+# listed under `planned` is reserved for that slot — do not publish a different slot
+# under it.
+#
+# Each published slot's own article.md frontmatter carries the same wiki_title /
+# wiki_pageid / wiki_url; this file is the cross-slot view. Keep them in sync.
+#
+# Review view: PUBLISHED.md (regenerate it from here, do not edit it by hand).
+version: 1
+corpus_id: tara21
+site: bo.wikipedia.org
+namespace: mainspace
+updated: '2026-08-21'
+
+title_convention:
+  slot_articles: >-
+    A Tārā slot article is titled with the deity's epithet prefixed by སྒྲོལ་མ་ —
+    སྒྲོལ་མ་<epithet>། — so that the 21 titles form one visibly consistent series and
+    each reads as the name of a deity rather than as a line of the praise. Established
+    by the first three published (tara-01/02/03).
+  non_slot_articles: >-
+    Subject articles (origin, structure-benefits) take a plain descriptive Tibetan
+    title; the སྒྲོལ་མ་ prefix rule does not apply to them.
+  epithet_source: >-
+    The epithet must be one attested in the commentaries and named in the article's own
+    མཚན་གྱི་ངེས་ཚིག section — never invented, never taken from parametric knowledge.
+    Where the commentaries disagree on the name (they do for most slots), the choice
+    among attested candidates is a human editorial decision, recorded per slot below.
+  lead_term_caveat: >-
+    The title is NOT auto-derivable from the article's first bolded term. In most slot
+    articles that term is the opening line of the root verse (ཕྱག་འཚལ་…), not a name;
+    in tara-02 the published title adds the སྒྲོལ་མ་ prefix the source file lacks. Any
+    tooling that derives a title from the lead bold term must read this file instead.
+
+published:
+  - slot: origin
+    path: slot-articles/origin/article.md
+    wiki_title: སྒྲོལ་མའི་ལོ་རྒྱུས།
+    pageid: 28182
+    url: https://bo.wikipedia.org/w/index.php?curid=28182
+    published_date: '2026-08-21'
+    title_matches_lead_term: true
+
+  - slot: structure-benefits
+    path: slot-articles/structure-benefits/article.md
+    wiki_title: ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པ།
+    pageid: 28183
+    url: https://bo.wikipedia.org/w/index.php?curid=28183
+    published_date: '2026-08-21'
+    title_matches_lead_term: true
+
+  - slot: tara-01
+    path: slot-articles/tara-01/article.md
+    wiki_title: སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།
+    pageid: 28184
+    url: https://bo.wikipedia.org/w/index.php?curid=28184
+    published_date: '2026-08-21'
+    title_matches_lead_term: true
+
+  - slot: tara-02
+    path: slot-articles/tara-02/article.md
+    wiki_title: སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན་མ།
+    pageid: 28185
+    url: https://bo.wikipedia.org/w/index.php?curid=28185
+    published_date: '2026-08-21'
+    title_matches_lead_term: false
+    title_note: >-
+      Source lead term is བློ་གཏེར་དབྱངས་ཅན་མ; the published title prefixes སྒྲོལ་མ་ for
+      series consistency with tara-01/03. Either special-case this slot in any
+      title-deriving tooling or amend the lead term in the source file.
+
+  - slot: tara-03
+    path: slot-articles/tara-03/article.md
+    wiki_title: སྒྲོལ་མ་གསེར་མདོག་ཅན།
+    pageid: 28186
+    url: https://bo.wikipedia.org/w/index.php?curid=28186
+    published_date: '2026-08-21'
+    title_matches_lead_term: true
+
+# Not yet published. `title_status: settled` = the attested candidates converge and the
+# proposed title may be used as-is. `title_status: contested` = the commentaries name
+# this deity differently and a human must pick among `candidates` before publication.
+planned:
+  - slot: tara-04
+    path: slot-articles/tara-04/article.md
+    proposed_title: སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ།
+    title_status: settled
+    candidates:
+      - {epithet: གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ, attested_by: [article lead term, bstan-'dzin-don-bzang (གཙུག་ཏོར་རྣམ་རྒྱལ་མ)]}
+      - {epithet: གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ, attested_by: [gendun-drub]}
+      - {epithet: འཆི་མེད་ཚེ་སྒྲུབ, attested_by: [palden-sherab, sangye-nyentrul, tsultrim-namdak]}
+    note: Candidates share the གཙུག་ཏོར་ + རྣམ་རྒྱལ་ core; the ཚེ་སྒྲུབ readings describe function, not name.
+
+  - slot: tara-05
+    path: slot-articles/tara-05/article.md
+    proposed_title: null
+    title_status: contested
+    candidates: []
+    note: >-
+      The article's མཚན་གྱི་ངེས་ཚིག section explains the mantra syllables, not a deity
+      epithet — no epithet is attested for this slot at all. Needs either a fresh pass
+      over the commentaries for a name or a descriptive title outside the series.
+
+  - slot: tara-06
+    path: slot-articles/tara-06/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: འཇིག་རྟེན་གསུམ་ལས་རྣམ་པར་རྒྱལ་བ, attested_by: [yama-sonam, tenzin-dhonzang]}
+      - {epithet: གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ, attested_by: [palden-sherab, tsultrim-namdak, sungrab-tulku]}
+    note: Article states outright མཚན་གཅིག་ཏུ་མ་ངེས; twelve further commentaries give no epithet.
+
+  - slot: tara-07
+    path: slot-articles/tara-07/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: གཞན་མཐུ་འཇོམས་མ, attested_by: [yama-sonam, tenzin-dhonzang]}
+      - {epithet: དམག་དང་ཐོག་སེར་འཇོམས་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ, attested_by: [palden-sherab, article lead term]}
+      - {epithet: གཞན་འཇོམས་མ, attested_by: [sungrab-tulku]}
+      - {epithet: རྒོལ་བ་འཇོམས་པའི་སྒྲོལ་མ, attested_by: [gendun-drub]}
+
+  - slot: tara-08
+    path: slot-articles/tara-08/article.md
+    proposed_title: སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ།
+    title_status: settled
+    candidates:
+      - {epithet: འཇིགས་པ་ཆེན་མོ, attested_by: [article lead term, sungrab-tulku, drakpa-gyaltsen]}
+    note: ཏུ་རེ་ is the mantra syllable, not part of the name; drop it from the title.
+
+  - slot: tara-09
+    path: slot-articles/tara-09/article.md
+    proposed_title: སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ།
+    title_status: settled
+    candidates:
+      - {epithet: སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ, attested_by: [gendun-drub, palden-sherab, tsultrim-namdak]}
+      - {epithet: མཆོག་སྩོལ་མ, attested_by: [yama-sonam]}
+    note: >-
+      Already carries སྒྲོལ་མ་ inside the attested epithet, so it takes no prefix — the
+      series rule is satisfied without doubling the word.
+
+  - slot: tara-10
+    path: slot-articles/tara-10/article.md
+    proposed_title: སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ།
+    title_status: settled
+    candidates:
+      - {epithet: བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ, attested_by: [article lead term, cone-pa]}
+      - {epithet: འཇིག་རྟེན་དབང་སྡུད་མ, attested_by: [tenzin-dhonzang]}
+      - {epithet: མྱ་ངན་སེལ་བའི་སྒྲོལ་མ, attested_by: [nyima-bepa sādhana]}
+
+  - slot: tara-11
+    path: slot-articles/tara-11/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: ཕོངས་པ་ཀུན་སེལ, attested_by: [tenzin-dhonzang, article lead term]}
+      - {epithet: ས་གཞི, attested_by: [taranatha]}
+      - {epithet: དགུག་པའི་སྒྲོལ་མ, attested_by: [gendun-drub]}
+    note: Article states six commentaries give six different names; no convergence.
+
+  - slot: tara-12
+    path: slot-articles/tara-12/article.md
+    proposed_title: སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ།
+    title_status: settled
+    candidates:
+      - {epithet: བཀྲ་ཤིས་དོན་གྲུབ་མ, attested_by: [sangye-nyentrul, tsultrim-namdak, article lead term]}
+      - {epithet: བཀྲིས་ཐམས་ཅད་སྦྱིན་མ, attested_by: [yama-sonam]}
+      - {epithet: བཀྲ་ཤིས་དོན་བྱེད་སྒྲོལ་མ, attested_by: [palden-sherab]}
+
+  - slot: tara-13
+    path: slot-articles/tara-13/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: སྨིན་པར་བྱེད་པའི་སྒྲོལ་མ, attested_by: [gendun-drub, nyima-bepa via yama-sonam]}
+      - {epithet: མེ་ལྟར་འབར་བའི་སྒྲོལ་མ, attested_by: [cone-pa, tenzin-dhonzang]}
+      - {epithet: དགྲ་དཔུང་འཇོམས་མ, attested_by: [tsultrim-namdak]}
+
+  - slot: tara-14
+    path: slot-articles/tara-14/article.md
+    proposed_title: སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ།
+    title_status: settled
+    candidates:
+      - {epithet: ཁྲོ་གཉེར་གཡོ་བའི་སྒྲོལ་མ, attested_by: [gendun-drub]}
+      - {epithet: ཁྲོ་གཉེར་ཅན་གྱི་སྒྲོལ་མ, attested_by: [cone-pa]}
+      - {epithet: འགུགས་བྱེད་སྒྲོལ་མ, attested_by: [nyima-bepa via yama-sonam]}
+    note: Article notes gendun-drub's name recurs in his own commentary — མཚན་འདི་ངེས་པར་མཐུན.
+
+  - slot: tara-15
+    path: slot-articles/tara-15/article.md
+    proposed_title: སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།
+    title_status: settled
+    candidates:
+      - {epithet: ཞི་བ་ཆེན་མོ, attested_by: [article first-named, sungrab-tulku (རྗེ་བཙུན་སྒྲོལ་མ་ཞི་བ་ཆེན་མོ)]}
+
+  - slot: tara-16
+    path: slot-articles/tara-16/article.md
+    proposed_title: ཆགས་པ་འཇོམས་པའི་སྒྲོལ་མ།
+    title_status: settled
+    candidates:
+      - {epithet: ཆགས་པ་འཇོམས་པའི་སྒྲོལ་མ, attested_by: [gendun-drub, yama-sonam citing nyima-bepa, article lead term]}
+      - {epithet: དགྲ་འཇོམས་མའི་སྒྲོལ་མ, attested_by: [yama-sonam citing nyima-bepa]}
+    note: Epithet already contains སྒྲོལ་མ་; no prefix.
+
+  - slot: tara-17
+    path: slot-articles/tara-17/article.md
+    proposed_title: སྒྲོལ་མ་དཔག་མེད་གནོན་མ།
+    title_status: contested
+    candidates:
+      - {epithet: དཔག་མེད་གནོན་མ, attested_by: [palden-sherab, sangye-nyentrul, tsultrim-namdak]}
+      - {epithet: བདེ་བ་སྒྲུབ་པའི་སྒྲོལ་མ, attested_by: [yama-sonam, gendun-drub]}
+      - {epithet: འཇིག་རྟེན་གསུམ་གཡོ་མ, attested_by: [tenzin-dhonzang, sungrab-tulku]}
+    note: Proposal follows the three-commentary plurality, but two rival names have two each — confirm before publishing.
+
+  - slot: tara-18
+    path: slot-articles/tara-18/article.md
+    proposed_title: null
+    title_status: contested
+    candidates: []
+    note: >-
+      This is the only slot article with no མཚན་གྱི་ངེས་ཚིག section — no epithet is
+      extracted anywhere in the file. Needs a name pass over the commentaries before it
+      can take a series title.
+
+  - slot: tara-19
+    path: slot-articles/tara-19/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: མི་ཕམ་གཟི་བརྗིད་ཅན་གྱི་རྒྱལ་མོ, attested_by: [palden-sherab, sangye-nyentrul, tsultrim-namdak]}
+      - {epithet: སྡུག་བསྔལ་སྲེག་ཅིང་སེལ་བ, attested_by: [yama-sonam, gendun-drub]}
+      - {epithet: སྡུག་བསྔལ་སེལ་མ, attested_by: [tenzin-dhonzang]}
+
+  - slot: tara-20
+    path: slot-articles/tara-20/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: རི་ཁྲོད་ལོ་མ་གྱོན་མ, attested_by: [palden-sherab, sangye-nyentrul, tsultrim-namdak]}
+      - {epithet: དངོས་གྲུབ་འབྱུང་གནས, attested_by: [yama-sonam, gendun-drub]}
+
+  - slot: tara-21
+    path: slot-articles/tara-21/article.md
+    proposed_title: null
+    title_status: contested
+    candidates:
+      - {epithet: འོད་ཟེར་ཅན་མ, attested_by: [palden-sherab, tsultrim-namdak]}
+      - {epithet: ཡོངས་སུ་རྫོགས་བྱེད་སྒྲོལ་མ, attested_by: [yama-sonam, gendun-drub]}
+      - {epithet: འཕྲིན་ལས་སྒྲུབ་མཛད་མ, attested_by: [tenzin-dhonzang]}
+      - {epithet: བླུ་བྱེད, attested_by: [sangye-nyentrul]}
