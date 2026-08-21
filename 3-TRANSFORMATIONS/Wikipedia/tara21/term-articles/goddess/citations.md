@@ -142,3 +142,21 @@ already marked PASS below.
 The 2 retained quotations (#1, #2) are unchanged, exact substrings of their v1 PASS
 text — confirmed by direct string comparison against this file's own v1 record, not a
 fresh `1-SOURCES/` lookup (Mode B Rule 6). No FAILs.
+
+### Quotation-to-source pairing (v2 in-article quotes, re-verified 2026-08-21)
+
+Both quoted spans that remain in the `article.md` wikitext fence, paired explicitly to
+their registered commentary ID and source file (resolved via each ID's
+`2-RAILS/Claims/raw/tree-guided/<registered_id>.md` `source_file` frontmatter field),
+and re-checked character-for-character (whitespace-collapsed, `grep -F`) against that
+source file directly — not only against the v1 record above.
+
+| Quotation (verbatim བོད་ཡིག) | registered_id | Claim ID | Source file (`1-SOURCES/Commentaries/`) | Block | Status |
+|---|---|---|---|---|---|
+| "སངས་རྒྱས་པདྨའི་གསང་ཆེན་བཀའ་བསྡུའི་ཆེད། དབྱངས་ཅན་ལྷ་མོ་སླར་ཡང་མི་གཟུགས་སྤྲུལ།" | `palden-sherab` | c-0-18 | རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md | `^0-2` | PASS — exact substring, confirmed by direct `grep -F` against the source file 2026-08-21 |
+| "...འཇིག་རྟེན་དབང་ཕྱུག་ནི་ལྷ་མོ་ཆེན་མོ་སྒྱུ་འཕྲུལ་དུ་གྱུར་ཏོ། །དཔལ་ལྡན་ལྷ་མོ་ནི་གྲགས་འཛིན་ནོ།..." | `tenzin-dhonzang` | c-2-21 | སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md | `^0-12` | PASS — exact substring (leading/trailing `...` are the article's own elision markers, not part of the source span; the enclosed text `འཇིག་རྟེན་དབང་ཕྱུག་ནི་ལྷ་མོ་ཆེན་མོ་སྒྱུ་འཕྲུལ་དུ་གྱུར་ཏོ། །དཔལ་ལྡན་ལྷ་མོ་ནི་གྲགས་འཛིན་ནོ།` is a verbatim, whitespace-identical substring), confirmed by direct `grep -F` against the source file 2026-08-21 |
+
+No other `"..."` quoted spans exist in the `article.md` wikitext fence (the only other
+double-quote in the file is on the Obsidian-side callout note above the fence, which is
+outside the published wikitext and not a sourced quotation). Both quotations above
+PASS; no FAILs, no ambiguous pairings remain.

@@ -177,6 +177,36 @@ IDs in total). Nothing was dropped for failing to resolve.
 
 ## Verification
 
+**Ambiguity resolution (2026-08-21).** An automated verification pass could not reliably pair one or
+more of this article's retained quotations to a specific registered commentary, because two of the
+three quotations are each attached to multiple `<ref>` tags claiming "identical wording" (the
+khadira-forest-Tārā epithet is tagged `gendun-drub`, `palden-sherab`, `sangye-nyentrul`; the hidden-meaning
+line is tagged `taranatha`, `palden-sherab`). The earlier "spot-check against v1" note below did not
+verify each attributed source independently. This pass re-verified every quote against
+**every** registered commentary it is attributed to, by resolving `source_file` from each
+`2-RAILS/Claims/raw/tree-guided/<registered_id>.md` frontmatter and grepping that exact file for the
+quotation as a character-for-character (whitespace-collapsed) substring — not trusting the prior
+PASS record.
+
+| # | Quotation (location in article) | Attributed ref(s) | Registered ID checked | Source file (block) | Result |
+|---|---|---|---|---|---|
+| 1 | Root verse, lead — exempt from quote budget | `yama-sonam` | yama-sonam | `1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md` (`^0-88`) | **PASS** — exact substring |
+| 2 | "སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་" — `མཚན་གྱི་ངེས་ཚིག` | `gendun-drub`, `palden-sherab`, `sangye-nyentrul` | gendun-drub | `1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md` (`^0-52`) | **PASS** — exact substring |
+| 2 | (same quotation) | (same) | palden-sherab | `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md` (`^0-93`, heading `^3-1-9-0`) | **PASS** — exact substring |
+| 2 | (same quotation) | (same) | sangye-nyentrul | `1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md` (`^0-43`) | **PASS** — exact substring |
+| 3 | "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ" — `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` | `taranatha`, `palden-sherab` | taranatha | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` (`^0-33`) | **PASS** — exact substring |
+| 3 | (same quotation) | (same) | palden-sherab | `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md` (`^0-102`) | **PASS** — exact substring |
+
+**Outcome:** all 3 quotations, and every registered-commentary attribution attached to them (6
+quote↔source pairings total, since 2 of the 3 quotations carry more than one ref), verify as exact
+substrings of their respective source files — checked both as literal exact matches and with
+whitespace collapsed, via a direct Python substring test against the file contents (not grep alone,
+to rule out any encoding/normalization false positive). Unlike the sibling-article case that prompted
+this task (a quote wrongly co-attributed to a source that did not actually contain it), no
+mis-attribution was found here: every ref tagged on every quotation genuinely contains that quotation
+verbatim. **No changes to `article.md` were required** — no de-quoting, no re-attribution, no
+paraphrase conversion.
+
 **v1 quotations, superseded.** v1's `article.md` carried 19 quotations, all independently verified
 character-for-character against `1-SOURCES/` at the time (see the vault's git history for that PASS
 table). The v2 rewrite (Mode B) does not repeat that `1-SOURCES/` verification; per the skill's Mode B

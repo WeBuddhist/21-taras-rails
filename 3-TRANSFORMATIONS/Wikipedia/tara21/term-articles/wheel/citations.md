@@ -200,3 +200,43 @@ unaffected since the underlying claims are unchanged, only no longer quoted.
   is reserved for the divergence section, for these two minority-attested facets, and for details
   unique to one or two commentaries (thousand-spoked detail, ten-directions protection, outshine
   detail, hidden-meaning mandala-wheel).
+
+## Re-verification (2026-08-21) — quotation-to-source pairing audit
+
+An automated pass could not confirm the two retained quotations' source pairing from the Mode B
+note above alone (that note explicitly skipped a fresh `1-SOURCES/` lookup, relying on v1's
+carried-forward PASS). This pass performed the fresh `1-SOURCES/` lookup that was skipped,
+tracing each quote through `raw_sources_cited` → `2-RAILS/Claims/raw/tree-guided/<id>.md`
+frontmatter `source_file` → the actual `1-SOURCES/Commentaries/` file, then grepping for the
+quote as a whitespace-collapsed exact substring.
+
+| # | Quotation (start…end) | Attributed to (article) | `registered_id` checked | `source_file` | Result |
+|---|---|---|---|---|---|
+| 1 | "འཁོར་ལོ་དཀར་མོ་འོད་ཟེར་དཀར།…འཁོར་ལོ་ཅན་ལ་ཕྱག་འཚལ་ལོ།" | tsultrim-namdak (`c-8-1-3`) | tsultrim-namdak | `1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md` | **PASS** (with note, see below) |
+| 2 | "ཕྱོགས་ཀྱི་འཁོར་ལོ་སྟེ་ཕྱོགས་བཅུའི་ཞིང་ཁམས་མ་ལུས་པ།…ཁབ་ཅིང་བརྒྱན་པར་མཛད་པའོ།" | taranatha (`c-9-7`) | taranatha | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` | **PASS** (clean, no note) |
+
+**Quote 2 (taranatha) — clean PASS.** Whitespace-collapsed, the full quoted sentence is an exact
+substring of `taranatha`'s source file with zero character differences. Also checked, and
+confirmed absent, in the two commentaries the article cites as agreeing "in accordance"
+(`yama-sonam`, `konchok-thabkhe`) — the article's own grammar attributes the quotation verbatim
+to `taranatha` alone (`ཏཱ་ར་ནཱ་ཐས་ "..." ཞེས་གསུངས་ཤིང་...ལུགས་མཐུན་པར་བཤད།`, i.e. the other two are
+cited for agreeing in substance, not for identical wording), so no co-attribution risk exists here.
+
+**Quote 1 (tsultrim-namdak) — PASS, with a documented normalization.** The quote is *not* found by
+a naive whitespace-collapse search, because the source interposes an Obsidian block ID
+(`^0-679`) mid-quote — splitting `...ཡི་གེ་` from `བརྒྱད།...` across a block boundary — and because
+every pada break in the source carries the source document's pervasive verse convention of a
+doubled shad (`། །`, confirmed at 767 occurrences throughout this one source file, i.e. a
+document-wide convention, not an artifact local to this quote), where the article quote uses a
+single `།` at each internal pada break (matching this vault's own wikitext house style: "every
+sentence-internal boundary ends `།`", per the mechanical spec checks above). Once (a) the block-ID
+token is stripped — permitted, since block IDs are editorial additions under
+`4-SYSTEM/CLAUDE.md` §6, not original content — and (b) the doubled-shad→single-shad reduction is
+accounted for, the quote is an exact match of the source content, word-for-word, in the same
+order, with nothing added, omitted, or substituted. Confirmed absent (as expected) from
+`taranatha`, `yama-sonam`, and `konchok-thabkhe`'s source files, so there is no co-attribution
+risk and `tsultrim-namdak` is the sole correct pairing.
+
+**Verdict:** both quotations verify against their stated `registered_id`. No re-attribution was
+needed for this article (unlike the sibling-article case that motivated this pass, which found a
+wrongly co-attributed quote). No quote was converted to paraphrase.

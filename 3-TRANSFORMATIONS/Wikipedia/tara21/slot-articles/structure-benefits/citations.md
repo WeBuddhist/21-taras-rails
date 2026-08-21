@@ -190,6 +190,21 @@ claim ID was introduced.
    this supersedes Warning #5 above, which is now stale. Reference map row labels above (`utpala`)
    were left as-is for audit-trail continuity with the pre-fix ref name; they refer to the same
    `dharmabhadra` claims now cited under the corrected ref name in `article.md`.
+9. **Post-hoc quote-count audit fix (2026-08-21, not a new revision)**: a readability review flagged
+   that the article might carry more than Rule 6's cap of 2 verbatim quotations. Per an explicit
+   decision on scope, the Rule 6 lead-quote exemption for root-text verse quotation applies only to
+   the deity-profile articles (`tara-01`…`tara-21`) — this is a work-article about the text's
+   structure and benefits, so no quote in it is exempt. A full re-scan of every `"..."`-wrapped span
+   in the wikitext fence (excluding `ref name="..."` attribute quotes, which are markup syntax, not
+   content quotation) found 4 spans, not the 2 already tracked as "retained": the 2 substantive
+   quotes (drakpa-gyaltsen c-0-3, the two-part-division definition; drakpa-gyaltsen c-2-3, the
+   fearlessness line) plus 2 short quoted technical terms ("གཉིས་གསུམ་བདུན་" in the recitation-count
+   divergence; "དུག་" in the allegorical-poison divergence) that had not previously been counted
+   against the budget. The 2 substantive quotes were kept (exact wording is the claim); the 2
+   technical-term quotes were converted to unquoted mentions — the quote marks were simply removed,
+   since each term already carried its own quotative particle (`ཞེས་པ`/`ཅེས་པ`) doing the naming
+   work, so no rewording, claim content, or citation was affected. Full span-by-span accounting is
+   in Verification below. Final count: 2 quoted spans in the article, matching Rule 6.
 
 ## Verification
 
@@ -197,6 +212,29 @@ claim ID was introduced.
 audit continuity. **This revision (Mode B, step 6)** did not re-verify these against `1-SOURCES/`;
 instead, the 2 quotations retained in the revised article were diffed as an exact substring against
 the text already marked PASS below. Both matched byte-for-byte with no alteration.
+
+**Post-hoc quote-count audit fix (2026-08-21, not a new revision — see Warning #9)**: a readability
+review flagged that the article might carry more than the Rule 6 cap of 2 verbatim quotations. A
+full re-scan of every `"..."`-wrapped span in the wikitext fence (excluding `ref name="..."`
+attribute quotes, which are markup syntax, not content quotation) found **4 spans total**, not 2:
+
+| # | Location | Span | Nature | Disposition |
+|---|---|---|---|---|
+| 1 | `== ས་བཅད། ==`, drakpa-gyaltsen c-0-3 | "བསྟོད་པ་འདི་ལ་དོན་གཉིས་ཏེ། བསྟོད་པ་དངོས་དང་ཕན་ཡོན་ནོ།" | Substantive quote — the two-part-division claim itself | **Kept** (already counted as retained #1) |
+| 2 | `== ཕན་ཡོན། ==`, drakpa-gyaltsen c-2-3 | "དྲན་པས་མི་འཇིགས་ཐམས་ཅད་རབ་སྟེར།" | Substantive quote — a specific line whose exact wording is the claim | **Kept** (already counted as retained #2) |
+| 3 | `== ཕན་ཡོན། ==`, recitation-count divergence | "གཉིས་གསུམ་བདུན་" | Short quoted technical term (the colophon's numeral phrase being glossed) | **Converted** — quote marks removed; `ཞེས་པ` (already present) retained as the naming device: `མཇུག་གི་ཚིག་གཉིས་གསུམ་བདུན་ཞེས་པའི་དོན་ལ...` |
+| 4 | `== ཕན་ཡོན། ==`, allegorical-"poison" divergence | "དུག་" | Short quoted technical term (the word being given divergent readings) | **Converted** — quote marks removed; `ཅེས་པ` (already present) retained as the naming device: `འདིར་དུག་ཅེས་པའི་དོན་ལ...` |
+
+**Which 2 were kept and why**: spans #1 and #2 are quotations in the substantive sense Rule 6
+targets — the commentator's exact phrasing *is* the claim (a definitional two-part division; a
+specific promise-line whose precise wording matters). Spans #3 and #4 are single- or two-syllable
+technical terms under discussion (a numeral phrase, a poison-word), not claims about exact wording;
+each already carried its own quotative particle (`ཞེས་པ`/`ཅེས་པ`) doing the naming work, so dropping
+the ASCII quote marks around them loses nothing — the terms are still clearly flagged as terms being
+glossed, just without double-counting against the quotation budget. No claim content, citation, or
+divergence attribution was altered by either conversion — only the `"` characters were removed.
+
+**Tally after fix: 2 quoted spans in the article (down from 4 found), matching Rule 6's cap.**
 
 | # | Commentary | Claim ID | Quotation (opening words) | Source file / block | v1 Result | This revision |
 |---|---|---|---|---|---|---|
@@ -217,6 +255,11 @@ the text already marked PASS below. Both matched byte-for-byte with no alteratio
 | 15 | konchok-thabkhe | c-3-9 (b) | "འདས་པའི་སངས་རྒྱས་རྣམས་ཀྱིས་གསུངས..." | …ཞལ་ལུང...md#^0-104 | PASS | Cut — paraphrased |
 
 **Tally: 2 quotations in the revised article, both diff-matched exact against prior PASS text. 0 FAIL.**
+(The above tally covered only the 2 spans this revision had already tracked as "retained." The
+post-hoc audit above re-scanned the whole fence for every `"..."` span — including short quoted
+technical terms not previously tracked as "quotations" — and found 2 more, both now converted to
+unquoted mentions. Final count after the post-hoc fix: 2 quoted spans total in the article, per
+Rule 6.)
 
 ## Completion check (per SKILL.md, this revision)
 

@@ -256,10 +256,46 @@ tree-guided file in v1; this revision reuses that same resolved set without re-d
 
 ## Verification
 
-**Quotations**: see Warnings above — 2/2 retained sentence-level quotations spot-verified as
-unchanged substrings of v1's PASS-verified quotations; 6 short term-mentions likewise
-unchanged from v1's PASS-verified spans. No fresh `1-SOURCES/` re-verification was performed
-in this Mode B pass, per the skill's instruction to spot-verify rather than re-derive.
+**Re-verified 2026-08-21**, in response to an automated pass flagging that this file's prior
+prose-only Verification note (referencing v1 "PASS row #N" numbers with no v1 file present to
+check them against) could not be reliably parsed into quote→source pairings. Every quoted
+span (`"..."`) in the article's wikitext fence — excluding `<ref name="...">` attributes —
+was re-traced through this file's Reference map, resolved to its `registered_id`'s
+`source_file` via `2-RAILS/Claims/raw/tree-guided/<registered_id>.md` frontmatter, and
+checked as a whitespace-collapsed exact substring of that source file directly (not trusted
+from the prior note). All 9 quoted spans in the fence resolve to exactly one commentary each;
+none required re-attribution. The two sentence-length quotes were additionally checked
+against every other commentary named inside their own text (see rationale in row 1) to rule
+out the kind of false co-attribution a sibling article's audit found elsewhere — neither
+matched any commentary but the one already credited.
+
+| # | Quoted span | `<ref>` in article | Registered commentary | Source file (block ID matched) | Cross-checked against other named commentaries | Result |
+|---|---|---|---|---|---|---|
+| 1 | "ཧཱུཾ་ཡིག་གང་གི་ཡིན་ཞེ་ན། … ཇོ་ནང་པས་ཤངས་ནས་འབྱུང་བའི་ཧཱུཾ་ཡིག་ཡིན་པར་གསུངས་སོ།" (full sentence, c-3-14-5) | `yama-sonam` | Jetsün Yama Sonam | `སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md` (^0-168) | This sentence is Yama Sonam's own summary and *names* Gendün Drub, Ngülchu (Dharmabhadra), and Jonangpa (Tāranātha) as holding different views — the likely source of the automated pass's confusion. Checked verbatim against `dharmabhadra.md`, `drakpa-gyaltsen.md`, `gendun-drub.md`, and `karma-maitri.md`'s source files: not found in any of them, exact-string-match only in `yama-sonam`'s own source. | **PASS** — sole correct attribution: `yama-sonam` |
+| 2 | "ཞབས་ཕྱག་གི་མཐིལ" (mention) | `yama-sonam` (same sentence as #1, one paragraph later) | Jetsün Yama Sonam | same file, same block (^0-168) | — | **PASS** |
+| 3 | "དངུལ་ཆུ" (mention, section heading) | `yama-sonam` (heading's supporting sentence closes on this ref) | Jetsün Yama Sonam | same file, same block (^0-168) | Not the author-name occurrence of "དངུལ་ཆུ" inside "དངུལ་ཆུ་དྷརྨ་བྷ་དྲ" (unquoted, cited to `dharmabhadra` elsewhere in the same paragraph) — this quoted instance is Yama Sonam's own use of the term. | **PASS** |
+| 4 | "དངུལ་ཆུ" (mention, body) | `yama-sonam` | Jetsün Yama Sonam | same file, same block (^0-168) | — | **PASS** |
+| 5 | "ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུྃ་གིས" (root-verse phrase, quoted inline by the commentary) | `yama-sonam` | Jetsün Yama Sonam | same file (^0-114) | — | **PASS** |
+| 6 | "གཡོ་བ" (mention 1, section heading) | `yama-sonam` | Jetsün Yama Sonam | same file (^0-115–116) | — | **PASS** |
+| 7 | "གཡོ་བ" (mention 2, body) | `yama-sonam` | Jetsün Yama Sonam | same file (^0-123 — "འགྲེལ་པ་རྣམས་སུ་ཁྲོ་གཉེར་གཡོ་བ་ཞེས་པའི་གཡོ་བ་ ... ཧཱུཾ་ཡིག་གཡོ་བའི་དོན་དུ་བྱེད་དགོས་ཏེ།", matching the article's divergence claim) | — | **PASS** |
+| 8 | "གཡོ་བ" (mention 3, body) | `yama-sonam` | Jetsün Yama Sonam | same file (^0-123) | — | **PASS** |
+| 9 | "ཧཱུྃ་གི་ཡི་གེ་ནི་མི་ཤིགས་པའི་སྒྲ་སྟེ་གཏུམ་མོ་ལས་བྱུང་བའོ།" (c-5-8) | `taranatha` | Tāranātha | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` (^0-20) | Checked verbatim against `dharmabhadra.md`, `drakpa-gyaltsen.md`, `gendun-drub.md`, `karma-maitri.md` source files: not found in any of them. | **PASS** — sole correct attribution: `taranatha` |
+
+**9/9 quoted spans verified — all PASS, no re-attribution needed, no quote converted to
+paraphrase.** The two sentence-length quotes (#1, #9) are each an exact, character-for-character
+(whitespace-collapsed) substring of exactly one commentary's `source_file` and were confirmed
+absent from every other named commentary in the article. The seven short mentions (#2–#8) sit
+inside the same or immediately adjacent blocks already listed for `yama-sonam` in the
+Reference map above (`#^0-114`, `#^0-115–116`, `#^0-123`, `#^0-168`), consistent with the
+single `<ref name="yama-sonam" />` each closes on. No fresh `1-SOURCES/` re-verification had
+been performed for these in the prior Mode B pass (that pass diffed only against an absent
+v1 file's row numbers); this pass performs the actual `1-SOURCES/` grep and finds all of them
+exact matches.
+
+Note: the count of short mentions was previously described in Warnings (below) as "six" — the
+fence actually contains **seven** short-mention instances ("དངུལ་ཆུ" ×2, "ཞབས་ཕྱག་གི་མཐིལ" ×1,
+"གཡོ་བ" ×3, "ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུྃ་གིས" ×1); all seven verify, so this is a labeling
+discrepancy in the earlier note, not a verification gap.
 
 **Style self-check (v2 Rules 5–9, 15–17), walked against the final fence body:**
 

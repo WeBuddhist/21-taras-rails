@@ -60,7 +60,7 @@ attestation beyond in-article refs* below, per Rule 7.
 
 | Ref | Commentary | Claim ID(s) drawn on in v2 | Quoted in v2? | Source block |
 |---|---|---|---|---|
-| yama-sonam | yama-sonam | c-3-15-3 (lead, root verse) · c-3-15-7 (ངེས་ཚིག, domain passage) | Yes — root verse only (exempt from budget, unchanged from v1) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182, #^0-186 |
+| yama-sonam | yama-sonam | c-3-15-3 (lead, root verse) · c-3-15-7 (ངེས་ཚིག, domain passage) | No — plain (unquoted) mention (2026-08-21: the Rule 6 lead-quote exemption for root-verse quotation is a deity-profile convention and does not apply to this term-article; quote marks removed, wording unchanged) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182, #^0-186 |
 | tsultrim-namdak | tsultrim-namdak | c-2-1-2-1-50 (lead identification) | No — paraphrased | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-126 |
 | sungrab-tulku | sungrab-tulku | c-18-4 (ངེས་ཚིག consensus · བསྡུས་དོན) | No — paraphrased (v1 quoted this claim in full in the lead; v2 moves the content to ངེས་ཚིག as wikivoice paraphrase, per Rule 5) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-87 |
 | tenzin-dhonzang | tenzin-dhonzang | c-4-15-5 (ངེས་ཚིག) · c-3-67, c-3-69, c-3-73, c-3-77 (དབྱེ་བ) · c-2-15 (གཞུང་ལུགས་སོ་སོ) | No — all paraphrased | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-235, #^0-75, #^0-76, #^0-79, #^0-82, #^0-12 |
@@ -76,14 +76,18 @@ attestation beyond in-article refs* below, per Rule 7.
 
 ## Claims used but not quoted
 
-Every claim above is paraphrased into wikivoice or attributed prose except the two retained
-quotations (`drakpa-gyaltsen:c-1-81` and `palden-sherab:c-3-1-15-4-1`) and the lead's root
-verse (`yama-sonam:c-3-15-3`, exempt from the budget). This is the great majority of v1's
-24 quotations, converted per Rules 5–8: consensus material (the ངེས་ཚིག definition, the
-"non-abiding nirvāṇa" identification) now asserts in wikivoice with representative refs; unique
-and divergent material (Tenzin Dhonzang's excursus, Gendun Drub's and Konchok Thabkhe's
-two-position divergences, Taranatha's and Pema Namgyal's tantric unpackings, the buddha-display
-doctrine) stays attributed by name but is paraphrased rather than quoted verbatim.
+Every claim above is paraphrased or plainly (unquoted) mentioned except the two retained
+quotations (`drakpa-gyaltsen:c-1-81` and `palden-sherab:c-3-1-15-4-1`). This is the great
+majority of v1's 24 quotations, converted per Rules 5–8: consensus material (the ངེས་ཚིག
+definition, the "non-abiding nirvāṇa" identification) now asserts in wikivoice with
+representative refs; unique and divergent material (Tenzin Dhonzang's excursus, Gendun Drub's
+and Konchok Thabkhe's two-position divergences, Taranatha's and Pema Namgyal's tantric
+unpackings, the buddha-display doctrine) stays attributed by name but is paraphrased rather than
+quoted verbatim. **2026-08-21 correction:** the lead's root verse (`yama-sonam:c-3-15-3`) is
+included in this de-quoted set — see *Warnings* below. It was originally treated as exempt from
+the quotation budget under Rule 6's deity-profile lead-quote allowance; that allowance does not
+apply to a term-article, so the quote marks around the verse were removed and it is now a plain
+(unquoted) mention, identical in wording to what v1/the earlier v2 draft carried as a quotation.
 
 ## Full attestation beyond in-article refs
 
@@ -193,25 +197,88 @@ None. Unchanged from v1.
   shad ("དོན་བཟང།") in both the ref definition and the bibliography entry, against the
   corpus-wide convention ("དོན་བཟང་།", 75 correct instances elsewhere vs. 2 wrong in this
   file) — both instances corrected.
+- **Quotation-budget re-application, term-article exemption removed (2026-08-21).** A
+  readability review separately flagged this article as the most quotation-dense in its sample
+  and observed it likely exceeded Rule 6's 2-quote cap once every quoted span was counted, not
+  just the two spans the earlier v2 pass tracked as "quotations." On review, the decision was
+  made that Rule 6's root-text-verse-in-the-lead exemption is a **deity-profile** ('tara-01'…
+  'tara-21') convention and does **not** extend to this **term-article** — so no quoted span is
+  exempt here, including the lead's root-verse citation. Counting every span wrapped in `" "` in
+  the wikitext fence found **11** (not 2): the lead's root verse (yama-sonam:c-3-15-3) plus nine
+  bare-term mentions that the earlier v2 pass had not been counting toward the budget at all —
+  `"མྱ་ངན་འདས"` (ངེས་ཚིག intro), `"སྤྱོད་ཡུལ"` (anonymous commentary), `"མི་གནས་པའི་མྱ་ངན་
+  ལས་འདས་པ"` (×2, དབྱེ་བ heading term and its བསྡུས་དོན recap), `"མྱ་ངན"` (×3, Tenzin Dhonzang's
+  etymological excursus), and `"མྱ་ངན་འདས་པ"` (Konchok Thabkhe) — alongside the two full-sentence
+  quotations already tracked (drakpa-gyaltsen:c-1-81, palden-sherab:c-3-1-15-4-1). Kept as the
+  2 retained quotations: **drakpa-gyaltsen:c-1-81** ("རྟོག་པ་ཟད་པས་མྱ་ངན་འདས། སྡུག་བསྔལ་ཞི་བས་
+  ཞི་བདེའི་ངང་ལ་སྤྱོད་པའོ") — kept because it is genuinely divergence-defining: it states Drakpa
+  Gyaltsen's distinct "exhaustion of conceptuality" reading of the peaceful state against the
+  majority ངེས་ཚིག reading, and paraphrase would blur exactly the wording that marks the
+  divergence; and **palden-sherab:c-3-1-15-4-1** ("བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས་དང་། … བྱ་གྲུབ་ཡེ་ཤེས་
+  ཏེ") — kept because it is a precise five-term-to-five-wisdom formula where the exact pairing
+  and order carry the technical content; paraphrasing a term-by-term correspondence risks
+  mis-mapping it. The other 9 spans were converted to **plain (unquoted) mentions** — quote
+  marks removed, wording otherwise unchanged (no new phrasing invented, no claim or citation
+  dropped), and minor tsheg adjustments made only where the quote marks had substituted for
+  tsheg boundaries (e.g. `"མྱ་ངན" ཞེས་` → `མྱ་ངན་ཞེས་`). The root verse
+  (yama-sonam:c-3-15-3, lead) is the most consequential of the nine: it is no longer treated as
+  exempt and now reads as a plain mention of the fifteenth-homage verse rather than a marked
+  quotation, but its Tibetan wording is byte-identical to before. The ⚑ divergence structure in
+  `དབྱེ་བ།` and `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` is unaffected — every position (Rje btsun Grags pa
+  rgyal mtshan's, Jo nang Tāranātha's, Rdor slob Bstan dga' sprul's, Rgyal ba Dge 'dun grub's
+  two readings, Dkon mchog thabs mkhas's two readings) is still individually named and
+  attributed; only the quote marks around already-attributed material were removed. No claim ID
+  was added, removed, or re-derived; this was a register-only correction under the same Mode B
+  constraints as the 2026-08-14→2026-08-21 rewrite.
 
 ## Verification
 
 **Spot-verification only (Mode B step 6), not a fresh re-verification.** The 22 quotations
-removed from the article need no re-check (Mode B step 6). The 2 quotations retained were
-diffed character-for-character against the exact substrings already present in v1's own
-`article.md` fence body (the "settled ground truth" this revision treats as verified):
+removed from the article in the 2026-08-19→2026-08-21 Mode B rewrite needed no re-check (Mode B
+step 6). The 2 quotations retained then were diffed character-for-character against the exact
+substrings already present in v1's own `article.md` fence body (the "settled ground truth" that
+revision treated as verified):
 
-| # | Quotation (as retained in v2) | Claim | Result |
+| # | Quotation (final, as retained in the article today) | Claim | Result |
 |---|---|---|---|
 | 1 | "རྟོག་པ་ཟད་པས་མྱ་ངན་འདས། སྡུག་བསྔལ་ཞི་བས་ཞི་བདེའི་ངང་ལ་སྤྱོད་པའོ" | drakpa-gyaltsen:c-1-81 | PASS — unchanged, exact substring match against v1's fence text (v1's own verification table row 7 recorded PASS against `1-SOURCES/`) |
 | 2 | "བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས་དང་། དགེ་མ་ནི་མེ་ལོང་ཡེ་ཤེས་དང་། ཞི་མ་ནི་མཉམ་ཉིད་ཡེ་ཤེས་དང་། མྱ་ངན་འདས་ཞི་ནི་ཆོས་དབྱིངས་ཡེ་ཤེས་དང་། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ་ནི་བྱ་གྲུབ་ཡེ་ཤེས་ཏེ" | palden-sherab:c-3-1-15-4-1 | PASS — unchanged, exact substring match against v1's fence text (v1's own verification table row 22 recorded PASS against `1-SOURCES/`) |
-| — | Root-verse quotation in the lead ("རྒྱུད་ལས། ཕྱག་འཚལ་བདེ་མ་...") | yama-sonam:c-3-15-3 | PASS — unchanged from v1, carried forward untouched (exempt from the quotation budget) |
 
-One correction was caught during the diff and fixed: the v1 fence carried the drakpa-gyaltsen
-quote **without** a trailing shad before the closing quote mark ("…སྤྱོད་པའོ""), but an early
-draft of this revision mistakenly added one ("…སྤྱོད་པའོ།""). The diff against v1's fence text
-caught the mismatch; the added shad was removed so the retained quotation is byte-identical to
-the PASS-verified v1 substring.
+One correction was caught during that 2026-08-21 diff and fixed: the v1 fence carried the
+drakpa-gyaltsen quote **without** a trailing shad before the closing quote mark ("…སྤྱོད་པའོ""),
+but an early draft of that revision mistakenly added one ("…སྤྱོད་པའོ།""). The diff against v1's
+fence text caught the mismatch; the added shad was removed so the retained quotation was
+byte-identical to the PASS-verified v1 substring.
 
-**24/24 quotations from v1 remain valid attestations** (none was found to be inaccurate); 22
-were converted to paraphrase for register only, not because of any quotation-accuracy problem.
+**2026-08-21, second pass (quotation-budget re-application):** the article's quotation count was
+re-audited by counting every span wrapped in `" "` in the wikitext fence, per the finding that
+the exemption previously given to the lead's root-verse quotation (Rule 6) does not apply to a
+term-article. This raised the counted total from 2 to **11** (see *Warnings* above for the full
+list). The article now carries exactly **2** quotations — the same drakpa-gyaltsen and
+palden-sherab quotations verified above, unchanged in wording — plus **9 de-quoted spans**
+converted to plain (unquoted) mentions:
+
+| # | Span (now unquoted, quote marks only removed) | Claim | Location |
+|---|---|---|---|
+| 1 | རྒྱུད་ལས། ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ … སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ། (root verse) | yama-sonam:c-3-15-3 | lead |
+| 2 | མྱ་ངན་འདས (ངེས་ཚིག intro term) | sungrab-tulku/tenzin-dhonzang/palden-sherab:c-4-15-5 group | ངེས་ཚིག |
+| 3 | སྤྱོད་ཡུལ (anonymous commentary's term) | yama-sonam:c-3-15-7 | ངེས་ཚིག |
+| 4 | མི་གནས་པའི་མྱ་ངན་ལས་འདས་པ (དབྱེ་བ heading term) | gendun-gyatso/karma-maitri/tenzin-dhonzang:c-3-67 group | དབྱེ་བ |
+| 5 | མྱ་ངན (etymology, 1st occurrence) | tenzin-dhonzang:c-3-69 | དབྱེ་བ |
+| 6 | མྱ་ངན (etymology, 2nd occurrence) | tenzin-dhonzang:c-3-73 | དབྱེ་བ |
+| 7 | མྱ་ངན (etymology, 3rd occurrence) | tenzin-dhonzang:c-3-73 | དབྱེ་བ |
+| 8 | མྱ་ངན་འདས་པ (Konchok Thabkhe's term) | konchok-thabkhe:c-2-15-2 | གཞུང་ལུགས་སོ་སོ |
+| 9 | མི་གནས་པའི་མྱ་ངན་ལས་འདས་པ (བསྡུས་དོན recap, same term as #4) | gendun-gyatso/karma-maitri/tenzin-dhonzang:c-3-67 group | བསྡུས་དོན |
+
+Each de-quotation was verified to be a pure quote-mark removal (plus, in three cases, a tsheg
+inserted where the quote mark had substituted for one): the Tibetan wordforms themselves are
+unchanged from what stood inside the quote marks, so no fresh `1-SOURCES/` character-for-character
+check was needed — this is a formatting change, not a new quotation requiring PASS/FAIL
+verification under Rule 4. `article-preview.md` was regenerated after the edit
+(`make_preview.py`, clean run, no `<ref>` tags or `[[…]]` leaks in the output).
+
+**Final state: 2 verbatim commentary quotations in the article, both PASS-verified, 0 exempt.**
+24/24 of v1's original quotations remain valid attestations (none was ever found inaccurate);
+22 were converted to paraphrase in the earlier Mode B rewrite and 9 further spans (including the
+lead's root verse) were converted to plain unquoted mentions in this pass — both changes for
+register/budget compliance only, never because of a quotation-accuracy problem.

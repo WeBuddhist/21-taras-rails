@@ -164,13 +164,36 @@ None (unchanged from v1).
 
 ## Verification
 
-**Quotations.** The two quotations retained were spot-verified as unchanged exact substrings of
-the corresponding v1 quotations, both already PASS-verified character-for-character against
-their `1-SOURCES/` files in v1's own two-pass verification (v1 rows #1 and #16, including v1's
-own correction pass for a different pair of quotations not among these two). No fresh
-`1-SOURCES/` lookup was performed, per Mode B step 6. The twenty-one other v1 quotation
-instances were removed from the article; their v1 PASS records stand unaffected since the
-underlying claims are unchanged, only no longer quoted.
+**Quotations.** Both quoted spans in the current `article.md` fence were re-verified fresh
+against `1-SOURCES/` on 2026-08-21 (this pass), by grep/read of the exact source file — not
+inherited from the v1 table by reference, which is what the earlier prose in this section did
+and what an automated pairing check flagged as unreliable. Table:
+
+| # | Quotation (exact string in article.md) | Attributed to (article prose + `<ref>`) | Claim ID | Source file (`1-SOURCES/Commentaries/`) | Block ID | Verbatim match? | Result |
+|---|---|---|---|---|---|---|---|
+| 1 | `གནོད་སྦྱིན་ནི་མདངས་འཕྲོག་པ་རྣམས་ཀྱི་གནོད་པ་སྟེ།` | `taranatha` only (sentence closes with self-closing `<ref name="taranatha" />` immediately after the quote, in `ངེས་ཚིག`) | `c-21-1-6` (`2-RAILS/Claims/raw/tree-guided/taranatha.md:2158-2163`) | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` | `^0-74` | Yes — exact substring, confirmed by grep of the source file at `^0-74` | **PASS** |
+| 2 | `འབྱུང་པོ་རྩ། རོ་ལངས་ཐིག་ལེ། དྲི་ཟ་རླུང་། གནོད་སྦྱིན་རྣམ་རྟོག་སྟེ།` | `taranatha` (the quote itself sits inside the clause `ཇོ་ནང་ཏཱ་ར་ནཱ་ཐས་ "..." ཞེས་...བཤད་ལ`); `palden-sherab` is cited on the same sentence only for the separate, unquoted, paraphrased claim that follows — "and Khenchen Palden Sherab explained it with wording of matching order" (`གོ་རིམ་མཚུངས་པའི་ཚིག་གིས་བཤད་དོ།`), not a claim of identical wording | `c-6-17` (`2-RAILS/Claims/raw/tree-guided/taranatha.md:650-655`) | `ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md` | `^0-23` | Yes — exact substring, confirmed by grep of the source file at `^0-23` | **PASS** |
+
+**Independent check of the "matching order" claim for quote 2.** Because the article names a
+second commentator (`palden-sherab`) alongside the taranatha quote, that commentator's own
+wording was checked independently rather than assumed to match. `palden-sherab`'s claim
+`c-3-1-6-3-2` (`2-RAILS/Claims/raw/tree-guided/palden-sherab.md:1059-1064`, sourced to
+`རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-70`) reads
+`འབྱུང་པོ་རྩ་དང་། རོ་ལངས་ཐིག་ལེ་དང་། དྲི་ཟ་རླུང་དང་། གནོད་སྦྱིན་རྣམ་རྟོག་སྟེ།` — same four
+term-equations and same order as taranatha's wording, but with an extra `དང་།` connective
+after each term, so it is **not** a character-for-character match. The article's phrasing
+("wording of matching order," not "identical wording") is accurate to this difference, and
+palden-sherab's version is correctly left unquoted/paraphrased rather than presented as a
+second exact quotation of the same string. No re-attribution was needed for either quote —
+both were already correctly and exclusively attributed to `taranatha`.
+
+The twenty-one other v1 quotation instances were removed from the article in the v1→v2 revision
+and are now paraphrase; they carry no quotation marks in the current `article.md` and are out of
+scope for this pass (confirmed by the full quoted-span scan below).
+
+**Full quoted-span scan of the current `article.md` fence** (excludes `ref name="..."`
+attribute values): exactly two `"..."` spans exist in the wikitext body, both listed in the
+table above. No other quoted span remains.
 
 **Mechanical spec checks**, re-run against the revised `article.md`:
 - No comma character (ASCII, fullwidth, or ideographic) anywhere in the fence body.

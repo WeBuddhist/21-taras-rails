@@ -127,6 +127,7 @@ One resolution note, not a failure, carried forward from v1: `tsultrim-namdak`'s
 - **Two structural-classification systems left unreconciled**, per the consolidated page's own divergence: eight commentaries number this verse flatly "fifth of twenty-one," four nest it as "fourth" within a mode-of-praise taxonomy shared with tara-04. Unchanged — the lead and the `ས་བཅད་ཀྱི་གནས་ས།` paragraph present both without adjudicating.
 - **Two deity-identity/iconography traditions left unreconciled** ("Roarer of HŪM," yellow, vajra posture vs. Kurukullā, red, archer posture) — unchanged; this is exactly the divergence the article's two retained quotations (Rule 6 budget) were chosen to illustrate.
 - **`འབྲེལ་ཡོད་ཤོག་ངོས།` links are red links by design.** Unchanged from v1 — see v1 note; still correct.
+- **Grammar fix (2026-08-21): dangling `ཤིང་།` seam in `སྐུ་ཡི་རྣམ་པ།`.** A readability review flagged `...ཞེས་མཚན་བཏགས་ཤིང་།` — the continuative particle `ཤིང་` immediately followed by a full-stop shad, an artifact of the Mode B rewrite. Checked against `gendun-drub:c-2-2-2-2-1-1-4-4` — the claim behind this clause is the naming statement alone ("She is called here 'Tārā Who Proclaims the Sound HŪṂ'"), with no further shared body-form content for the gendun-drub/tenzin-dhonzang group to continue into (the following sentence's body-color/posture description belongs to `yama-sonam` alone, per `ཁོ་ནས`). Reworded to the finite ending `ཞེས་མཚན་བཏགས་སོ།`, closing the sentence correctly without adding or dropping any sourced content.
 
 ## Verification
 

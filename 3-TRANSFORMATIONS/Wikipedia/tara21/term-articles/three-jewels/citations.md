@@ -22,6 +22,54 @@ status: draft
 
 # Citations — three-jewels (དཀོན་མཆོག་གསུམ།)
 
+## Quotation budget & pairing fix (2026-08-21, second pass)
+
+A follow-up review of this Mode B revision found two problems, both fixed in this pass without
+touching `2-RAILS/Claims/` or re-opening any claim content:
+
+**Fix 1 — the lead root-verse quotation is not exempt.** The "Register conversion" note below
+(and the ref-count table) had treated the lead's root-verse quotation as exempt from Rule 6's
+quotation budget, citing the clause "root-text verse quotation in the lead ... does not count
+against the budget." That clause's own text continues "(v1's practice for **deity articles**)" —
+this article is a **term-article** (`article_kind: term-article` in frontmatter), not one of the
+tara-01…tara-21 deity-profile slot-articles the exemption names. The exemption does not apply
+here. The lead's quotation of `yama-sonam:c-3-9-3` (the ninth-praise root verse) has been
+converted to unquoted paraphrase in `article.md`, grounded in the same claim's already-recorded
+meaning — the verse's own content (mudrā symbolizing the Three Jewels, fingers adorning the
+heart, the wheel of all directions adorned by her own light) is unchanged and still cited to the
+same three refs (`yama-sonam`, `sungrab-tulku`, `tenzin-dhonzang`). No claim was dropped. The
+article now carries **exactly 2 verbatim quotations total**: `sungrab-tulku:c-12-4` (finger-
+assignment divergence, `མཚན་ཉིད།`) and `taranatha:c-9-9` (hidden-meaning gloss, `དབྱེ་བ།`) — both
+already representing cases where, per Rule 6, "the exact wording is itself the point" (a contested
+formulation and a definition whose phrasing matters, respectively).
+
+**Fix 2 — the retained `taranatha:c-9-9` quotation was ambiguously dual-sourced.** Prior to this
+fix, the article's hidden-meaning sentence attached **two** refs (`taranatha` and `palden-sherab`)
+to a single quoted string, framed as "stated in identical words" by both. This pass re-verified
+the quoted string directly against both underlying `1-SOURCES/` files (not just against the v1
+verification record):
+
+- `taranatha`'s source, `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-33`,
+  reads (in relevant part): "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ། ..." — the
+  article's quoted string is an exact, character-for-character (whitespace-collapsed) substring.
+  **PASS.**
+- `palden-sherab`'s source,
+  `1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...ཞེས་བྱ་བཞུགས་སོ།.md#^0-102`,
+  reads: "གསུམ་པ་སྦས་དོན་རྫོགས་རིམ་མཚན་བཅས་ལྟར་ན། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ། ..." —
+  the article's quoted string opens "སྦས་དོན་ནི།", but `palden-sherab`'s text opens with the
+  different clause "གསུམ་པ་སྦས་དོན་རྫོགས་རིམ་མཚན་བཅས་ལྟར་ན།" instead. The quoted string as a whole
+  is **not** an exact substring of `palden-sherab`'s source. **FAIL** as a source for this
+  particular verbatim string (even though the shared inner clause "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་
+  རླུང་གསུམ་སྟེ།" is worded identically in both — the two commentaries make the same doctrinal
+  point, but only `taranatha`'s wording matches the exact string quoted in the article).
+
+Per the correct-source-or-paraphrase rule, `article.md` was rewritten: the quotation is now
+attributed **only to `taranatha`** (its verified source), and `palden-sherab`'s parallel statement
+of the same point is cited as an unquoted paraphrase in its own sentence ("མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་
+ཀྱིས་ཀྱང་རྫོགས་རིམ་མཚན་བཅས་ཀྱི་སྐབས་སུ་དོན་མཐུན་པར་བཤད།"), still carrying its own `<ref>`. No claim
+was dropped and no new claim ID was introduced. See the updated Reference map and Verification
+table below for both quotations' final, unambiguous source pairing.
+
 ## Revision note (Mode B, 2026-08-21)
 
 This file's `article.md` was rewritten in place from v1 register (wiki-article-from-claims) to
@@ -45,7 +93,7 @@ beyond in-article refs" below.
 |---|---|---|
 | Total `<ref>` tag occurrences (opens + self-closes) | 24 | 21 (7 full defs + 14 self-closes) |
 | Distinct commentaries cited | 7 | 7 (unchanged: yama-sonam, sungrab-tulku, tenzin-dhonzang, taranatha, konchok-thabkhe, palden-sherab, tsultrim-namdak) |
-| Verbatim commentary/root-verse quotations in the article | 15 quoted spans (across 12 claim rows, two claims contributing two portions each) | 3 quoted spans total — 1 root-verse quotation in the lead (treated as exempt from the budget per Rule 6's "root-text verse quotation in the lead" clause) + 2 budgeted commentary quotations |
+| Verbatim commentary/root-verse quotations in the article | 15 quoted spans (across 12 claim rows, two claims contributing two portions each) | **2** quoted spans total, both budgeted commentary quotations (`sungrab-tulku:c-12-4`, `taranatha:c-9-9`) — corrected in the 2026-08-21 fix pass above; the lead's root-verse quotation is **not** exempt (Rule 6's lead-quote exemption names "deity articles" only, not term-articles) and has been converted to paraphrase |
 | Max refs on a single statement | up to 3 (already within v1's own practice) | ≤3, unchanged cap, verified programmatically (see Verification below) |
 | Approx. body-prose syllable count (tsheg-delimited, excluding ref/heading/bullet content) | ~1,547 (flagged borderline against the spec's ~1,500 guideline) | 335 — well under the guideline; the borderline-length warning no longer applies |
 
@@ -69,10 +117,16 @@ beyond in-article refs" below.
     the same claims' recorded meaning) to stay within the quotation budget — the divergence itself
     is preserved by attribution, not by verbatim wording, per Rule 6's guidance to spend the quote
     budget only where exact phrasing is the point.
-- **The shared "hidden meaning" gloss (channels/drops/winds, `ཁུ་རྡུལ་རླུང་གསུམ`) keeps its
-  quotation** (`taranatha:c-9-9`, budget slot 2 of 2) because `taranatha` and `palden-sherab`
-  (`c-3-1-9-3-1`) state it in **identical** wording — a definition whose precise phrasing is the
-  point, per Rule 6 — cited to both commentaries rather than quoting it twice.
+- **The "hidden meaning" gloss (channels/drops/winds, `ཁུ་རྡུལ་རླུང་གསུམ`) keeps its quotation**
+  (`taranatha:c-9-9`, budget slot 2 of 2) — a definition whose precise phrasing is the point, per
+  Rule 6. **Corrected in the 2026-08-21 fix pass:** this quotation is sourced to `taranatha` alone.
+  An earlier draft of this revision also attached `palden-sherab:c-3-1-9-3-1` to the same quoted
+  string, describing both as stating it "in identical wording" — but direct verification against
+  `palden-sherab`'s own source (`...ཞེས་བྱ་བཞུགས་སོ།.md#^0-102`) found its text opens with a
+  different clause ("གསུམ་པ་སྦས་དོན་རྫོགས་རིམ་མཚན་བཅས་ལྟར་ན།") than `taranatha`'s ("སྦས་དོན་ནི།"), so
+  the quoted string is not an exact substring of `palden-sherab`'s source, even though the shared
+  inner clause matches. `article.md` now quotes only `taranatha`, and cites `palden-sherab`'s
+  parallel statement as a separate, unquoted paraphrase sentence.
 - **Four claims that were individually quoted in v1 are now cited but paraphrased**, converting
   their content into prose without quotation marks, so no re-verification against `1-SOURCES/`
   was needed (Mode B step 4): `yama-sonam:c-3-9-6` (cause/function distinction), `taranatha:c-9-3`
@@ -122,7 +176,7 @@ since Mode B does not re-resolve claims.
 
 | # | Commentary (ref name) | Claim ID | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
 |---|---|---|---|---|
-| 1 | yama-sonam | c-3-9-3 | "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། ། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོ་བརྒྱན་པའི། ། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
+| 1 | yama-sonam | c-3-9-3 | (v1/v2-draft-1: quoted "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།...འཁྲུགས་མ།"; **2026-08-21 fix**: cited, paraphrased in the lead — the lead-quote exemption in Rule 6 names deity articles only, not term-articles, so this no longer counts toward or against the 2-quotation budget) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-88 |
 | 2 | yama-sonam | c-3-9-5 | (v1: quoted "དཀོན་མཆོག་གསུམ་མཚོན་པའི་ཕྱག་རྒྱ"; v2: cited, paraphrased into the consensus physical description in `མཚན་ཉིད།`) | ...#^0-90 |
 | 3 | yama-sonam | c-3-9-6 | (v1: quoted "རྒྱུ་སངས་རྒྱས་...བསྟན་པ་ཡིན་ཏེ།"; v2: cited, paraphrased as the unique cause/function distinction) | ...#^0-91 |
 | 4 | yama-sonam | c-3-9-7 | (cited, not quoted in v1 or v2 — supporting root-verse citation for the cause/function claim, not independently drawn on) | ...#^0-92 |
@@ -134,11 +188,11 @@ since Mode B does not re-resolve claims.
 | 10 | tenzin-dhonzang | c-4-9-3 | (v1: quoted "སྐྱབས་གནས་བསླུ་བ་མེད་པའི་...བསམས་དགོས།"; v2: cited, paraphrased as the "embodiment of the Three Jewels" divergence position) | ...#^0-179 |
 | 11 | tenzin-dhonzang | c-4-9-4 | (v1: quoted "དཀོན་མཆོག་གསུམ་འདུས་པའི་བདག་ཉིད་དུ་མཚོན་" and "དེ་ཡང་སྐུ་དགེ་འདུན...ཀུན་འདུས།"; v2: cited, paraphrased as the sku-sung-thuk correspondence) | ...#^0-180 |
 | 12 | taranatha | c-9-3 | (v1: quoted "དཀོན་མཆོག་གསུམ་མཚོན་པར་བྱེད་པ་...དམ་ཚིག་གི་ཕྱག་རྒྱ་སྟེ།"; v2: cited, paraphrased as the unique samaya-mudra identification) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-31 |
-| 13 | taranatha | c-9-9 | "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" (retained verbatim in v2 — spot-verified, see below) | ...#^0-33 |
+| 13 | taranatha | c-9-9 | "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" (retained verbatim — budget slot 2 of 2; **2026-08-21 fix**: re-verified as an exact substring of `taranatha`'s source specifically, and now attributed in-article to `taranatha` alone, see below) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-33 |
 | 14 | konchok-thabkhe | c-2-9-4 | (v1: quoted the full praise-verse + "དཀོན་མཆོག་མ་ལུས་པ་འདུས་པའི་ངོ་བོར"; v2: cited, paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-54 |
 | 15 | palden-sherab | c-3-1-9-1-1 | (v1: quoted "མཛུབ་མོ་དང་གུང་མོ་མཐེའུ་ཆུང་...ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ"; v2: cited, paraphrased into the consensus physical description in `མཚན་ཉིད།`) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་...ཞེས་བྱ་བཞུགས་སོ།.md#^0-95 |
 | 16 | palden-sherab | c-3-1-9-2-1 | (v1: quoted "དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི་མཐེབ་སྲིན་...སྙན་ཐད་དུ་ཁ་ཕྱེ་བའི་ཟེའུ་འབྲུའི་སྟེང་ན"; v2: cited, paraphrased as the generation-stage light-wheel detail) | ...#^0-97 |
-| 17 | palden-sherab | c-3-1-9-3-1 | "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" (v1: quoted separately; v2: co-attests `taranatha:c-9-9`'s quotation without repeating it verbatim, per Rule 6) | ...#^0-102 |
+| 17 | palden-sherab | c-3-1-9-3-1 | (v1: quoted "དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" separately; **2026-08-21 fix**: this clause matches `palden-sherab`'s own source verbatim, but `palden-sherab`'s full sentence opens with a different clause than the string quoted in-article for `taranatha:c-9-9` — so `palden-sherab` is cited as an unquoted paraphrase of the same point, not as a second source for `taranatha`'s exact quoted string) | ...#^0-102 |
 | 18 | palden-sherab | c-3-1-9-4-1 | (v1: quoted "ཡེ་ནས་སྒོ་གསུམ་སྣང་གྲགས་རིག་གསུམ་...ངོ་བོར་སད་པས།"; v2: cited, paraphrased as the ultimate/completion-stage reading) | ...#^0-103 |
 | 19 | palden-sherab | c-3-1-4-2-1 | (v1: quoted "གཡོན་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱས་...འཆི་མེད་ཚེའི་བུམ་པ"; v2: cited, paraphrased as one example of the recurrence-across-emanations claim) | ...#^0-49 |
 | 20 | palden-sherab | c-3-1-19-2-1 | (v1: quoted "གཡོན་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི་ཨུཏྤལ་ཟེའུ་འབྲུའི་སྟེང་ན་གདུགས་དཀར་པོ་འཛིན་པ"; v2: cited, paraphrased as the second example) | ...#^0-189 |
@@ -242,6 +296,13 @@ revision (Mode B) performed no new resolution.
   re-quoting the divergent comparison text, to avoid reconstructing a composite quotation that is
   not verbatim from any single raw claim — see the original v1 Verification note (retained below)
   for the earlier drafting error this avoided.
+- **Quotation budget and pairing corrected 2026-08-21 (second pass).** An earlier draft of this
+  v2 revision incorrectly treated the lead's root-verse quotation as exempt from Rule 6's
+  2-quotation budget (the exemption applies only to deity-profile slot-articles, not
+  term-articles like this one) and attached two refs (`taranatha`, `palden-sherab`) to a single
+  quoted string even though only `taranatha`'s source matches it exactly. Both are fixed: the
+  article now carries exactly 2 verbatim quotations (`sungrab-tulku:c-12-4`, `taranatha:c-9-9`),
+  each singly and correctly sourced. See "Quotation budget & pairing fix" at the top of this file.
 
 ## Verification
 
@@ -303,12 +364,12 @@ already-cited root-verse quotation in the lead, rather than as a second, fabrica
 
 ### v2 spot-check (Mode B step 6, 2026-08-21)
 
-The 3 quotations retained verbatim in v2's `article.md` (the root-verse quotation in the lead,
-`sungrab-tulku:c-12-4`'s finger-divergence quotation, and `taranatha:c-9-9`'s hidden-meaning
-quotation) were each diffed character-for-character against the exact quotation text already
-recorded as PASS in the Reference map / Verification table above — a text comparison against the
-settled v1 record, not a fresh `1-SOURCES/` lookup, per Mode B step 6. All three are unchanged,
-exact matches:
+The 3 quotations retained verbatim in the first v2 draft's `article.md` (the root-verse quotation
+in the lead, `sungrab-tulku:c-12-4`'s finger-divergence quotation, and `taranatha:c-9-9`'s hidden-
+meaning quotation) were each diffed character-for-character against the exact quotation text
+already recorded as PASS in the Reference map / Verification table above — a text comparison
+against the settled v1 record, not a fresh `1-SOURCES/` lookup, per Mode B step 6. All three were
+unchanged, exact matches against their v1-recorded text:
 
 | Quotation | v1 PASS text vs. v2 article text | Result |
 |---|---|---|
@@ -316,5 +377,32 @@ exact matches:
 | sungrab-tulku:c-12-4 (finger divergence, `མཚན་ཉིད།`) | identical | MATCH |
 | taranatha:c-9-9 (hidden meaning, `དབྱེ་བ།`) | identical | MATCH |
 
-No quotation text was altered in the register rewrite; only their surrounding attribution prose,
-and in most other claims' case the removal of quotation marks in favour of paraphrase, changed.
+This spot-check confirmed the *text* of each quotation was unaltered by the register rewrite, but
+did not itself catch two problems a later review found: (1) the lead's root-verse quotation was
+wrongly treated as budget-exempt (see "Quotation budget & pairing fix" above — it has since been
+converted to paraphrase), and (2) the `taranatha:c-9-9` quotation had been given a second ref
+(`palden-sherab`) implying both commentaries share the exact quoted wording, which a direct
+`1-SOURCES/` check (not just a diff against the v1 record) shows is not the case for the full
+quoted string. Both are corrected below.
+
+### Quotation budget fix — fresh source verification (2026-08-21, second pass)
+
+The article now retains exactly 2 verbatim quotations. Each was checked directly against its
+cited `1-SOURCES/` file (not merely diffed against the prior record), and each is now attributed
+in-article to exactly one commentary:
+
+| # | Quotation | Attributed to (in-article) | Checked against | Result |
+|---|---|---|---|---|
+| 1 | "རྗེ་བཙུན་སྒྲོལ་མའི་ཕྱག་གཡོན་པའི་མཐེ་མོ་དང་གུང་མོ་གཉིས་ཀྱིས་མེ་ཏོག་ཨུཏྤལའི་ཡུ་བ་བཟུངས་ཤིང་། མཛུབ་མོ་དང་སྲིན་ལག མཐེའུ་ཆུང་བཅས་གསུམ་སྒྲེང་བ" (finger-assignment divergence, `མཚན་ཉིད།`) | `sungrab-tulku` (sole ref on this quotation) | `1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-63` | **PASS** — exact substring, confirmed |
+| 2 | "སྦས་དོན་ནི། དཀོན་མཆོག་གསུམ་མཚོན་ནི་ཁུ་རྡུལ་རླུང་གསུམ་སྟེ།" (hidden-meaning gloss, `དབྱེ་བ།`) | `taranatha` (sole ref on this quotation, after this fix) | `1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-33` | **PASS** — exact substring, confirmed |
+
+For comparison, the same string checked against `palden-sherab`'s source
+(`...ཞེས་བྱ་བཞུགས་སོ།.md#^0-102`, claim `c-3-1-9-3-1`) is **FAIL** — that source's sentence opens
+"གསུམ་པ་སྦས་དོན་རྫོགས་རིམ་མཚན་བཅས་ལྟར་ན།", not "སྦས་དོན་ནི།", so the quoted string as a whole is not
+an exact substring there, which is why `palden-sherab` no longer carries a ref on this quotation
+and instead supports its own, separate, unquoted paraphrase sentence.
+
+**Both of the article's final 2 verbatim quotations are PASS, each unambiguously paired to one
+registered commentary.** No quotation text was altered from what v1 originally verified; only (a)
+the lead's root-verse span was de-quoted into paraphrase, and (b) the hidden-meaning quotation's
+attribution was narrowed from two refs to its one verified source.
