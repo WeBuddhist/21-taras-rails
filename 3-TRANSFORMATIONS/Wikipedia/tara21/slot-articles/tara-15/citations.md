@@ -1,7 +1,10 @@
 ---
 topic: tara-15
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+source_article: 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-15/article.md (v1, wiki-article-from-claims, dated 2026-08-11 — revised in place, no side-copy kept; prior version recoverable via git)
+revision_date: 2026-08-21
 context_packages:
   - 2-RAILS/Claims/tara-15.md
 rails_status: draft
@@ -26,144 +29,172 @@ status: draft
 
 # Citations — tara-15
 
+**Revision B note.** This is a register-only rewrite of the v1 article dated 2026-08-11 (method
+`wiki-article-from-claims`), done per `wiki-article-from-claims-v2`'s Mode B procedure. No claim
+ID, no `1-SOURCES/` citation, and no commentary was added, dropped, or re-derived — all fourteen
+raw tree-guided sources listed above are unchanged from v1's own `raw_sources_cited`. What changed:
+consensus material was converted from claim-by-claim attributed prose into wikivoice; 8 of v1's 10
+non-exempt verbatim quotations were converted to paraphrase (Rule 6's ≤2-quotation budget); one
+consensus statement's citation count was trimmed from 4 to 3 (Rule 7's cap); every in-prose
+commentator name was confirmed against its `author_in_use` frontmatter value (Rule 17) — all
+fourteen already matched v1's naming, so no name text changed; and the `,<ref ... />` /
+`<ref ... />,` comma pattern was removed from the four places it appeared in v1, replaced with a
+shad placed before the ref tag(s) it closes over (Rule 15–16).
+
 `2-RAILS/Claims/tara-15.md` lists sixteen raw tree-guided sources in its own `sources:`
 frontmatter (all sixteen commentaries in the packet contribute to this slot). Fourteen of the
-sixteen were drawn on directly in `article.md` (all except `karma-maitri` and `lobsang-dawa`,
-whose claims for this slot are close restatements of positions already carried by other,
-directly-quoted commentaries — see "Claims used but not quoted" below for where their content is
-implicitly represented via the consolidated page's own grouping). Every attestation ID actually
-cited in the article resolved successfully against its named commentary's raw file; none are
+sixteen are drawn on directly in `article.md` (all except `karma-maitri` and `lobsang-dawa`,
+unchanged from v1 — see "Claims used but not quoted" below). Every attestation ID actually
+cited in the article resolved successfully in v1 and is carried forward unchanged; none are
 unresolvable (see below).
 
 ## Reference map
 
 One row per named `<ref>` in `article.md` (commentary-level, per the skill's hand-formatted ref
 form — `<AUTHOR>། <TITLE>།`, no claim ID inside the wikitext itself). The "Claim ID(s)" column
-lists every raw claim actually drawn on for that commentary's citations in the article; the
-"Quotation" column gives only the claims that were quoted verbatim (in `" "`) in the article body.
+lists every raw claim actually drawn on for that commentary's citations in the article (unchanged
+from v1). The "Quotation" column now reflects Revision B's ≤2-quotation budget: only two claims
+are quoted verbatim in the article body, plus the exempt root-verse quotation in the lead (Rule 6
+— deity-profile lead quotations of the root verse do not count against the budget).
 
 | Ref (named) | Commentary | Claim ID(s) used | Quotation (verbatim བོད་ཡིག, if quoted) | Source block(s) |
 |---|---|---|---|---|
-| yama-sonam | (Jetsün Yama Sonam), *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-15-1, c-3-15-3, c-3-15-6, c-3-15-8, c-3-15-9, c-3-15-10, c-3-15-12 | (c-3-15-3) "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། ། སྭཱཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་མ ། ། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ།"; (c-3-15-6) "ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན། ། དགེ་མས་ཐར་པ་སྦྱིན་པ་སྟེ། ། དེ་བཞིན་ཞི་མས་རྫོགས་སངས་རྒྱས།"; (c-3-15-8) "ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ་ཞེས་པའི་རིག་སྔགས་ཡང་དག་པར་སྒྲོག་པའི་བྱིན་རླབས་ཀྱིས་སྡིག་པ་ཆེན་པོ་འཇོམས་པར་མཛད"; (c-3-15-10) "པདྨ་དཀར་དང་ཟླ་བ་ལ། ། རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་ཀུནྡའི་མདོག ། ཕྲེང་བ་མཆོག་སྦྱིན་དབྱུ་གུ་དང་། ། པདྨ་སྤྱི་བླུགས་པོ་ཏི་འཛིན།" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-15-0, #^0-182, #^0-185, #^0-187, #^0-188, #^0-189, #^0-191 |
-| utpala | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-2-1 | (none quoted — paraphrased, structural ordinal only) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-67 |
-| gendundrub | རྒྱལ་བ་དགེ་འདུན་གྲུབ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ* | c-2-2-2-2-2-1, c-2-2-2-2-2-3, c-2-2-2-2-2-6 | (c-2-2-2-2-2-6) "འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-76, #^0-78, #^0-79, #^0-82 |
-| sungrabtulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ, *སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད* | c-18-1, c-18-3, c-18-5 | (c-18-3) "རྗེ་བཙུན་སྒྲོལ་མ་ཞི་བ་ཆེན་མོ"; (c-18-5) "གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག" | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-85, #^0-87, #^0-88 |
-| tenzindhonzang | སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང, *སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ* | c-4-15-1 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-231 |
-| paldensherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ, *རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...* | c-3-1-15-0-1, c-3-1-15-2-1, c-3-1-15-2-2, c-3-1-15-4-1 | (none quoted from this commentary — paraphrased throughout; its five-wisdoms equation is co-quoted under `taranatha`'s ref since the two share the identical wording) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-147, #^0-151, #^0-152, #^0-154 |
-| sangyenyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར* | c-16-0-1, c-16-1-1, c-16-1-2, c-16-1-3 | (c-16-1-1) "སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ་འདི་ཉིད་སྐུ་མདོག་དཀར་མོ།" | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-67, #^0-69 |
-| tsultrimnamdak | མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག, *སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས* | c-3-18 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-236–#^0-240 |
-| konchok | དཀོན་མཆོག་ཐབས་མཁས, *ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང* | c-2-15-2, c-2-15-3 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78, #^0-79 |
-| tengatulku | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང* | c-1-2-2-2-1, c-1-2-2-2-3, c-1-2-2-2-4 | (c-1-2-2-2-4, shared verbatim substring with `sungrabtulku:c-18-5`) "གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-125, #^0-131, #^0-132 |
-| drakpa | རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར* | c-1-78, c-1-79, c-1-80 | (c-1-78) "བདེ་མ་ནི་ཟག་མེད་ཀྱི་བདེ་བ་དང་ལྡན་མ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-65 |
-| gendungyatso | རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ, *ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད* | c-1-15-1 | (none quoted — paraphrased) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-27 |
-| taranatha | ཏཱ་ར་ནཱ་ཐ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ* | c-15-1, c-15-3, c-15-8, c-15-12, c-15-13, c-15-14, c-15-15 | (c-15-3) "བཅོམ་ལྡན་འདས་མ་ཉིད་རྟག་ཏུ་བདེ་བ་དང་། དགེ་མ་དང་། ཞི་བའི་ངང་ཚུལ་ཅན་མ"; (c-15-12…15) "བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས། དགེ་མ་ནི་མེ་ལོང་ཡེ་ཤེས། ཞི་མ་མཉམ་ཉིད་ཡེ་ཤེས། མྱ་ངན་འདས་ཞི་ནི་ཆོས་དབྱིངས་ཡེ་ཤེས།" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^15-0, #^0-50, #^0-51, #^0-52 |
-| pemanamgyal | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ* | c-2-4-42, c-2-4-58 | (none quoted — paraphrased; c-2-4-58 is the ⚑-flagged, ambiguous multi-verse "hidden meaning" claim, marked in prose as not belonging cleanly to this slot alone) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-56, #^0-71 |
+| yama-sonam | (Jetsün Yama Sonam), *སྒྲོལ་མ་ཉེར་གཅིག་པའི་བསྟོད་འགྲེལ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང* | c-3-15-1, c-3-15-3, c-3-15-6, c-3-15-8, c-3-15-9, c-3-15-10, c-3-15-12 | (c-3-15-3) root verse, lead — exempt from the quotation budget under Rule 6; (c-3-15-10) six-armed iconography verse, retained — "པདྨ་དཀར་དང་ཟླ་བ་ལ། ། རྡོ་རྗེའི་སྐྱིལ་ཀྲུང་ཀུནྡའི་མདོག ། ཕྲེང་བ་མཆོག་སྦྱིན་དབྱུ་གུ་དང་། ། པདྨ་སྤྱི་བླུགས་པོ་ཏི་འཛིན།"; c-3-15-6 and c-3-15-8 converted to paraphrase (were quoted in v1) | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^3-15-0, #^0-182, #^0-185, #^0-187, #^0-188, #^0-189, #^0-191 |
+| utpala | དངུལ་ཆུ་དྷརྨ་བྷ་དྲ, *སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ* | c-1-2-2-2-1 | (none quoted — paraphrased, structural ordinal only; unchanged from v1) | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-67 |
+| gendundrub | རྒྱལ་བ་དགེ་འདུན་གྲུབ, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ* | c-2-2-2-2-2-1, c-2-2-2-2-2-3, c-2-2-2-2-2-6 | (none quoted — c-2-2-2-2-2-6, the "དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ" name, converted to paraphrase; was quoted in v1) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-76, #^0-78, #^0-79, #^0-82 |
+| sungrabtulku | འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ, *སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད* | c-18-1, c-18-3, c-18-5 | (none quoted — c-18-3 name variant and c-18-5 fears phrase both converted to paraphrase; were quoted in v1) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-85, #^0-87, #^0-88 |
+| tenzindhonzang | སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང, *སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ* | c-4-15-1 | (none quoted — paraphrased; unchanged from v1) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་སྙིང་གི་ནོར་བུ.md#^0-231 |
+| paldensherab | མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ, *རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...* | c-3-1-15-0-1, c-3-1-15-2-1, c-3-1-15-2-2, c-3-1-15-4-1 | (c-3-1-15-4-1) five-wisdoms equation, retained (co-cited with taranatha, identical wording) — "བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས། དགེ་མ་ནི་མེ་ལོང་ཡེ་ཤེས། ཞི་མ་མཉམ་ཉིད་ཡེ་ཤེས། མྱ་ངན་འདས་ཞི་ནི་ཆོས་དབྱིངས་ཡེ་ཤེས།" | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ...ཞེས་བྱ་བཞུགས་སོ།.md#^0-147, #^0-151, #^0-152, #^0-154 |
+| sangyenyentrul | སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ, *རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར* | c-16-0-1, c-16-1-1, c-16-1-2, c-16-1-3 | (none quoted — c-16-1-1 (skin-color detail) dropped as redundant with the consensus iconography sentence in `སྐུ་ཡི་རྣམ་པ།`, not restated; was quoted in v1) | 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-67, #^0-69 |
+| tsultrimnamdak | མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག, *སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས* | c-3-18 | (none quoted — paraphrased; unchanged from v1) | 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md#^0-236–#^0-240 |
+| konchok | དཀོན་མཆོག་ཐབས་མཁས, *ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང* | c-2-15-2, c-2-15-3 | (none quoted — paraphrased; unchanged from v1. Position moved: full ref definition now appears at first use in `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` rather than `ཕྲིན་ལས་དང་ནུས་མཐུ།`, since the latter's citation count was trimmed to 3 — see Warnings) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78, #^0-79 |
+| tengatulku | རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང* | c-1-2-2-2-1, c-1-2-2-2-3, c-1-2-2-2-4 | (none quoted — c-1-2-2-2-4 fears phrase converted to paraphrase; was quoted in v1) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-125, #^0-131, #^0-132 |
+| drakpa | རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན, *སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར* | c-1-78, c-1-79, c-1-80 | (none quoted — c-1-78 converted to paraphrase and merged into the wikivoice consensus sentence for the "own-qualities" reading; was quoted in v1) | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-65 |
+| gendungyatso | རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ, *ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད* | c-1-15-1 | (none quoted — paraphrased; unchanged from v1) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-27 |
+| taranatha | ཏཱ་ར་ནཱ་ཐ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ* | c-15-1, c-15-3, c-15-8, c-15-12, c-15-13, c-15-14, c-15-15 | (c-15-12…15) five-wisdoms equation, retained (see paldensherab row above, identical wording, co-cited); c-15-3 converted to paraphrase and merged into the wikivoice consensus sentence for the "own-qualities" reading (was quoted in v1) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^15-0, #^0-50, #^0-51, #^0-52 |
+| pemanamgyal | ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ, *ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ* | c-2-4-42, c-2-4-58 | (none quoted — paraphrased; unchanged from v1; c-2-4-58 is the ⚑-flagged, ambiguous multi-verse "hidden meaning" claim, marked in prose as not belonging cleanly to this slot alone) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།།.md#^0-56, #^0-71 |
+
+## Full attestation beyond in-article refs
+
+- **`ཕྲིན་ལས་དང་ནུས་མཐུ།` — mantra/protection consensus sentence** ("འགྲེལ་པ་ཐམས་ཅད་ཀྱིས་...
+  མཐུན་པར་བཤད་དོ།"): v1 cited four commentaries here (`yama-sonam`, `taranatha`, `konchok`,
+  `tsultrimnamdak`). Rule 7's 3-ref cap forced a trim; `konchok-thabkhe:c-2-15-3` is dropped from
+  *this specific sentence's* ref list (kept as the sentence's 4th attestor, full support
+  unchanged) while remaining cited in-article elsewhere, on the "grants-to-others" divergence
+  paragraph in `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།`, for a different claim (`c-2-15-2`). No attestation is
+  lost — it is simply no longer listed against this particular sentence.
+
+No other consensus statement in this article exceeded the 3-ref cap; every other statement's
+in-article ref list already equals its full attestation set as carried from v1.
 
 ## Claims used but not quoted (paraphrased, per section)
 
 - **Lead / structural placement:** taranatha:c-15-1, dharmabhadra:c-1-2-2-2-1, gendun-drub:c-2-2-2-2-2-1.
-- **མཚན་གྱི་ངེས་ཚིག (name/classification):** sungrab-tulku:c-18-1, tenzin-dhonzang:c-4-15-1, palden-sherab:c-3-1-15-0-1, tsultrim-namdak:c-3-18.
-- **སྐུ་ཡི་རྣམ་པ (iconography):** palden-sherab:c-3-1-15-2-1, sangye-nyentrul:c-16-1-2, tsultrim-namdak:c-3-18, yama-sonam:c-3-15-9.
-- **ཕྲིན་ལས་དང་ནུས་མཐུ (activity/mantra/protection/ablution):** taranatha:c-15-8, konchok-thabkhe:c-2-15-3, tsultrim-namdak:c-3-18, sungrab-tulku:c-18-1(context)/c-18-5, tenga-tulku:c-1-2-2-2-4, palden-sherab:c-3-1-15-2-2, sangye-nyentrul:c-16-0-1/c-16-0-2/c-16-1-3.
-- **གཞུང་ལུགས་སོ་སོའི་བཤད་པ (etymology divergence and hidden meaning):** gendun-gyatso:c-1-15-1, konchok-thabkhe:c-2-15-2, pema-namgyal:c-2-4-42, gendun-drub:c-2-2-2-2-2-3, palden-sherab:c-3-1-15-4-1, tenga-tulku:c-1-2-2-2-3/c-1-2-2-2-4, pema-namgyal:c-2-4-58.
+- **མཚན་གྱི་ངེས་ཚིག (name/classification):** sungrab-tulku:c-18-1 and c-18-3 (name variant, now paraphrased), tenzin-dhonzang:c-4-15-1, palden-sherab:c-3-1-15-0-1, tsultrim-namdak:c-3-18, gendun-drub:c-2-2-2-2-2-6 (name variant, now paraphrased).
+- **སྐུ་ཡི་རྣམ་པ (iconography):** palden-sherab:c-3-1-15-2-1, sangye-nyentrul:c-16-1-1 (skin-color detail, now dropped as redundant) and c-16-1-2, tsultrim-namdak:c-3-18, yama-sonam:c-3-15-9.
+- **ཕྲིན་ལས་དང་ནུས་མཐུ (activity/mantra/protection/ablution):** taranatha:c-15-8, konchok-thabkhe:c-2-15-3 (see Full attestation, above), tsultrim-namdak:c-3-18, sungrab-tulku:c-18-1(context)/c-18-5 (fears phrase, now paraphrased), tenga-tulku:c-1-2-2-2-4 (fears phrase, now paraphrased), palden-sherab:c-3-1-15-2-2, sangye-nyentrul:c-16-0-1/c-16-0-2/c-16-1-3, yama-sonam:c-3-15-8 (mantra sentence, now paraphrased).
+- **གཞུང་ལུགས་སོ་སོའི་བཤད་པ (etymology divergence and hidden meaning):** gendun-gyatso:c-1-15-1, konchok-thabkhe:c-2-15-2, pema-namgyal:c-2-4-42, gendun-drub:c-2-2-2-2-2-3, palden-sherab:c-3-1-15-4-1 (co-quoted with taranatha), tenga-tulku:c-1-2-2-2-3/c-1-2-2-2-4, pema-namgyal:c-2-4-58, drakpa-gyaltsen:c-1-78 (now paraphrased and merged into a wikivoice consensus sentence), taranatha:c-15-3 (now paraphrased and merged into the same sentence), yama-sonam:c-3-15-6 (etymology verse, now paraphrased).
 
-`karma-maitri:c-1-1-15-1…8` and `lobsang-dawa:c-1-2-2-2-1…3` were resolved on the consolidated
+`karma-maitri:c-1-1-15-1…8` and `lobsang-dawa:c-1-2-2-2-1…3` remain resolved on the consolidated
 page (both give the "own qualities" etymology reading and the mantra consensus) but were not
 independently cited in the article — their positions are already carried by the directly-quoted
-representatives (`drakpa-gyaltsen`, `taranatha`, `gendun-gyatso` for the etymology; the four-source
-mantra citation for the mantra) per Rule 5's "2–4 representative commentaries" guidance for
-consensus/majority positions. This is an editorial selection for due weight, not a resolution
-failure — both files were opened and checked against the consolidated page's own attestation lists.
+representatives (`drakpa-gyaltsen`, `taranatha`, `gendun-gyatso` for the etymology; the
+three-source mantra citation for the mantra) per Rule 7's "representative refs" guidance for
+consensus/majority positions. Unchanged from v1.
 
 ## Unresolvable attestations
 
-None. Every attestation ID actually drawn into `article.md` was located successfully in its
-named commentary's file under `2-RAILS/Claims/raw/tree-guided/`, and every quotation traces to
-that claim's own `བོད་ཡིག` field.
+None. Every attestation ID actually drawn into `article.md` was located successfully in v1, in
+its named commentary's file under `2-RAILS/Claims/raw/tree-guided/`, and every retained quotation
+traces to that claim's own `བོད་ཡིག` field. Revision B did not reopen any raw claims file for
+content (per Mode B's rule), only frontmatter for the `author_in_use` check (Rule 17).
 
 ## Warnings
 
 - **`rails_status: draft`.** `2-RAILS/Claims/tara-15.md` carries `status: draft`, not `complete`.
-  Per the vault's general rule, transformations are generated only from `status: complete` rails;
-  this article was drafted from a non-complete consolidated page as a known, accepted exception for
-  this run. A human contributor should review and, if satisfied, promote the consolidated page
-  before treating this article as more than a structural/citation draft.
-- **All 14 refs lack a publication year and page number.** None of the raw tree-guided commentary
-  files carry a `year` field; citation is by Obsidian block ID rather than a page number, per this
-  vault's citation convention.
-- **All 14 refs have no public URL.** Per skill Rule 7, no URL was fabricated (no `dummy.com`, no
-  invented link) since none of these commentaries has a resolved public source URL yet.
-- **`yama-sonam`'s author field.** `yama-sonam.md`'s own frontmatter gives `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`
-  (English, no Tibetan author name recorded). The bibliography and lead-section ref render this as
-  "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།" (a literal Tibetan rendering of "Jetsün Yama Sonam") rather than inventing a name.
-  A human contributor should confirm this is the preferred convention for anonymous-authorship
-  citations vault-wide, since no other slot article reviewed as a style reference needed to make
-  this call.
-- **`pema-namgyal:c-2-4-58` is a multi-verse claim.** The consolidated page's own consolidation
-  question 17 flags that this claim spans `^1-10`, `^1-12`, `^1-13/16`, and `^1-15` in one
-  synthesis, and is therefore of ambiguous fit to this slot alone. It is carried into the article
-  (in `== གཞུང་ལུགས་སོ་སོའི་བཤད་པ། ==`) with that ambiguity stated in prose, per the consolidated
-  page's own treatment — not silently absorbed into the five-wisdoms consensus paragraph, which is
-  a different scheme.
+  Unchanged from v1 — a human contributor should review and, if satisfied, promote the
+  consolidated page before treating this article as more than a structural/citation draft.
+- **All 14 refs lack a publication year and page number**, and **all 14 refs have no public URL**
+  — unchanged from v1; no URL was fabricated per Rule 11.
+- **`yama-sonam`'s author field.** Unchanged from v1: `yama-sonam.md`'s frontmatter gives
+  `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` and `author_in_use` identical, so the in-prose and
+  bibliography forms match with no fallback needed.
+- **No `author_in_use` fallbacks were needed in this revision.** All fourteen raw claims files
+  carry their own `author_in_use` key directly (none predates the key), and every value already
+  matched what v1 had used in prose — Rule 17's resolution chain never had to fall back to the
+  bare `author` field. No new warning entries from this check.
+- **`pema-namgyal:c-2-4-58` is a multi-verse claim.** Unchanged from v1: the consolidated page's
+  own consolidation question 17 flags that this claim spans multiple root-verse blocks and is
+  therefore of ambiguous fit to this slot alone; carried forward with that ambiguity stated in
+  prose, in `== གཞུང་ལུགས་སོ་སོའི་བཤད་པ། ==`.
+- **Konchok's ref-cap trim on the mantra/protection sentence** — see "Full attestation beyond
+  in-article refs" above. This is Revision B's only ref-cap trim; every other statement's
+  in-article citations already equalled its full attestation set.
 - **Adjacent "related pages" links use attested homage names from outside this slot's own claim
-  set.** `རྗེ་བཙུན་མ་འགུགས་བྱེད་སྒྲོལ་མ་` (14th) and `རྗེ་བཙུན་མ་དགྲ་འཇོམས་མ་` (16th) are section
-  headings read directly from `yama-sonam.md` (its own nodes 3.14 and 3.16, immediately
-  adjacent to node 3.15 used throughout this article) while resolving that file — real, attested
-  names, but not among the claim IDs cited in `2-RAILS/Claims/tara-15.md` itself. Both are expected
-  red links, per skill Rule 6.
-- **Article length:** the drafted prose body (excluding ref citation text and the bibliography
-  list) runs to roughly 1,050 Tibetan syllables — below the wikitext spec's 1,500-syllable warning
-  threshold. Flagged per spec §7's non-blocking warning list; not a blocking failure.
-- **No `== བསྡུས་དོན། ==` section.** Omitted rather than added as an uncited restatement, per the
-  skeleton's "menu, not a quota" rule; all substantive content already appears, cited, in the body
-  sections above.
+  set.** Unchanged from v1: `རྗེ་བཙུན་མ་འགུགས་བྱེད་སྒྲོལ་མ་` (14th) and `རྗེ་བཙུན་མ་དགྲ་འཇོམས་མ་`
+  (16th) are section headings read directly from `yama-sonam.md`, real attested names but not
+  among the claim IDs cited in `2-RAILS/Claims/tara-15.md` itself. Expected red links.
+- **Article length:** the revised prose body (excluding ref citation text and the bibliography
+  list) runs to roughly 950 Tibetan syllables — shorter than v1's ~1,050, consistent with
+  converting 8 quotations to more compact paraphrase, still below the wikitext spec's
+  1,500-syllable warning threshold (non-blocking, per spec §7).
+- **No `== བསྡུས་དོན། ==` section.** Unchanged from v1: omitted rather than added as an uncited
+  restatement, per the skeleton's "menu, not a quota" rule.
 
 ## Verification
 
-All 10 verbatim quotations in `article.md` were located character-for-character
-(whitespace-collapsed) in the `1-SOURCES/` file named by their claim's `Cite:` field. Full pass,
-no failures, nothing removed or corrected.
+**Quotation count: 3 total in the article (1 exempt + 2 counted against the ≤2 budget).** All
+three are unchanged, exact substrings of quotations already marked PASS in v1's verification
+table below — confirmed by direct text diff against v1's `article.md`, per Mode B step 6. No
+fresh `1-SOURCES/` lookup was performed; none was needed since the retained text is byte-identical
+to what v1 already verified.
 
-| # | Quotation (opening words) | Claim | Source file / block | Result |
+| # | Quotation (opening words) | Claim | Status | Note |
 |---|---|---|---|---|
-| 1 | ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ... (root verse) | yama-sonam:c-3-15-3 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182 | PASS |
-| 2 | སྡིག་སྒྲིབ་ཞི་བར་མཛད་པའི་སྒྲོལ་མ་འདི་ཉིད་སྐུ་མདོག་དཀར་མོ། | sangye-nyentrul:c-16-1-1 | ...འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-69 | PASS |
-| 3 | འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་། | gendun-drub:c-2-2-2-2-2-6 | ...ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-82 | PASS |
-| 4 | པདྨ་དཀར་དང་ཟླ་བ་ལ... (Nyima Sbaspa iconography verse) | yama-sonam:c-3-15-10 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-189 | PASS |
-| 5 | ཨོཾ་ཏྭ་རེ་ཏུཏྭ་རེ་ཏུ་རེ་སྭཱཧཱ... (mantra + destroys great sin) | yama-sonam:c-3-15-8 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-187 | PASS |
-| 6 | གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག (fears phrase) | sungrab-tulku:c-18-5 | ...སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-88 | PASS |
-| 7 | གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག (identical phrase) | tenga-tulku:c-1-2-2-2-4 | ...གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-132 | PASS |
-| 8 | བདེ་མ་ནི་ཟག་མེད་ཀྱི་བདེ་བ་དང་ལྡན་མ | drakpa-gyaltsen:c-1-78 | ...གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-65 | PASS |
-| 9 | བཅོམ་ལྡན་འདས་མ་ཉིད་རྟག་ཏུ་བདེ་བ་དང་... | taranatha:c-15-3 | ...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-50 | PASS |
-| 10 | ལྷ་མོ་བདེ་མས་མཐོ་རིས་སྦྱིན... (Nyima Sbaspa etymology verse) | yama-sonam:c-3-15-6 | ...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-185 | PASS |
-| 11 | བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས... (five-wisdoms equations) | taranatha:c-15-12…15 | ...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-52 | PASS |
+| 1 | ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ... (root verse, lead) | yama-sonam:c-3-15-3 | PASS (carried, exempt from budget) | Exact-substring match against v1's row 1, itself PASS-verified against `...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-182` |
+| 2 | པདྨ་དཀར་དང་ཟླ་བ་ལ... (six-armed iconography verse) | yama-sonam:c-3-15-10 | PASS (carried, counts against budget) | Exact-substring match against v1's row 4, itself PASS-verified against `...འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-189` |
+| 3 | བདེ་མ་ནི་སོར་རྟོག་ཡེ་ཤེས... (five-wisdoms equations) | taranatha:c-15-12…15 | PASS (carried, counts against budget) | Exact-substring match against v1's row 11, itself PASS-verified against `...བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-52` |
 
-**11/11 quotations PASS. 0 FAIL.** (Quote #6/#7 are the same short phrase independently verified
-against two different source files, since both commentaries are cited together for it in the
-article; counted as two verification rows because each is a separate character-for-character
-check against a separate source.)
+The other 8 quotations from v1's verification table (rows 2, 3, 5, 6, 7, 8, 9, 10) were converted
+to paraphrase in this revision and removed from the article; per Mode B step 6, they were not
+re-checked (they are not quotations any more, and their underlying claims — unchanged — remain
+correctly cited).
 
-Additional mechanical checks performed against `article.md` (spec §7 validator, V1–V12):
+Mechanical checks re-walked against the revised `article.md` (spec §7 validator, V1–V12):
 
-- V1 (quotation fidelity): PASS — see table above.
-- V2 (ref → sources.yaml): not applicable — this skill's citation form (Rule 7) is deliberately
-  hand-formatted with no URL and no `sources.yaml` entry; see Warnings.
+- V1 (quotation fidelity): PASS — see table above; 3/3 quotations verified, 0 FAIL.
+- V2 (ref → sources.yaml): not applicable — unchanged from v1 (Rule 11's hand-formatted citation
+  form).
 - V3 (`<references />` present): PASS.
 - V4 (no `{{Reflist}}`): PASS — none present.
 - V5 (ref tags balanced, one full definition per name): PASS — 14 named refs, each with exactly
-  one full definition on first appearance and correctly self-closing (`<ref name="..." />`) on
-  every repeat thereafter.
-- V6 (≥1 `==` heading): PASS — 6 headings (མཚན་གྱི་ངེས་ཚིག, སྐུ་ཡི་རྣམ་པ, ཕྲིན་ལས་དང་ནུས་མཐུ,
-  གཞུང་ལུགས་སོ་སོའི་བཤད་པ, འབྲེལ་ཡོད་ཤོག་ངོས, ལུང་ཁུངས, དཔྱད་གཞིའི་ཡིག་ཆ — 7 total including tail).
+  one full definition on first appearance (mechanically confirmed) and self-closing
+  (`<ref name="..." />`) on every repeat thereafter. `konchok`'s full definition moved to its new
+  first-use point in `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` (see Reference map, above).
+- V6 (≥1 `==` heading): PASS — 7 headings total (4 body + 3 fixed tail), unchanged from v1.
 - V7 (≥1 allowlisted category): PASS — `[[རིགས་དབྱེ།:ནང་བསྟན།]]`.
-- V8 (every section ≥1 citation): PASS for the lead and all four body sections (each carries
-  multiple refs). The three fixed-tail sections (see-also, references, bibliography) carry no
-  independent citation, consistent with their structural/navigational role, matching the precedent
-  set by `tara-03/citations.md`.
-- V9 (Tibetan script only outside refs): PASS — body uses Tibetan script and wikitext markup only;
-  no Latin letters or digits appear outside the mechanical `<ref name="...">` identifiers, which are
-  markup, not body content.
-- V10 (tsheg at every `'''`/`[[` boundary): PASS — verified for all 7 bold spans and all 3
-  wikilink targets; every closing `'''` and `]]` is preceded by a tsheg.
+- V8 (every section ≥1 citation): PASS for the lead and all four body sections.
+- V9 (Tibetan script only outside refs): PASS — body uses Tibetan script and wikitext markup only.
+- V10 (tsheg at every `'''`/`[[` boundary): PASS — mechanically confirmed for all 7 bold spans and
+  all 4 wikilink targets (3 related-page links + 1 category).
 - V11 (fixed tail order): PASS — `འབྲེལ་ཡོད་ཤོག་ངོས།` → `ལུང་ཁུངས།` → `དཔྱད་གཞིའི་ཡིག་ཆ།`.
 - V12 (no `dummy.com`, no placeholder text): PASS — none present.
+
+**Style self-check (Rules 5–9, 15–17):**
+
+- No statement carries more than 3 refs — mechanically confirmed (max run length 3).
+- No comma character (`,`, `，`, `、`) anywhere in the fence body — mechanically confirmed, 0 found
+  (the four `,<ref .../>`/`<ref .../>,` instances from v1 are removed).
+- No punctuation immediately follows a `<ref>` tag anywhere — mechanically confirmed, 0 violations.
+- Every paragraph's final sentence ends with a double shad (`།།`) — walked manually; the only
+  lines not ending `།།` are lead-ins to a block quotation ("རྩ་ཚིག་ལས།", "ཉི་མ་སྦས་པའི་ཚིགས་
+  བཅད་དྲངས་ནས།", "...མཚུངས་པར་འགྲེལ་ཏེ།"), which are mid-sentence continuations into the
+  following quotation, not paragraph-final sentences.
+- Consensus material (the "own-qualities" etymology reading, the mantra/protection paragraph, the
+  iconography paragraph, the initiation-visualization paragraph) is in wikivoice, no inline
+  commentator names; attribution is reserved for the three-way name divergence, the two-way
+  iconography divergence, the "grants-to-others" and "four-paths" etymology readings, and
+  `pema-namgyal`'s hidden-meaning claim — all genuine divergences or unique elaborations, per
+  Rule 5.
+- Every in-prose commentator name is that commentary's `author_in_use` value (verified against
+  each raw claims file's frontmatter, listed above) — no fallback was needed.
