@@ -1,549 +1,559 @@
 # Speaker notes — what to say on each slide
 
-Talking points only, in bullets. Not a script to read — the slides carry almost no text, so
-**the talk is the content**. Timings are cumulative targets; if you're past the time on a slide,
-skip ahead rather than compress.
+Talking points, not a script. The slides carry almost no text, so **the talk is the content**.
+Timings are cumulative; if you're past time on a slide, skip ahead rather than compress.
 
-**Audience assumption:** humanities scholars. They know Tibetan textual traditions cold and know
-almost nothing about software engineering. So: *never* say "pipeline stage," "orchestrator,"
-"deterministic checker," or "gate" without giving the plain-language version first. Every
-technical concept gets an analogy from *their* world — the seminar room, the critical edition,
-the index card, the concordance, the proofreader.
+## Working the 50/50 room
 
-**The three rhetorical moves that carry the whole talk:**
+Half the audience knows Tibetan textual traditions cold and nothing about software. Half is the
+reverse. **Don't average — layer.**
+
+The move, on every technical point:
+> **Name it plainly → give the analogy → then state the mechanism precisely.**
+
+The first two sentences are for everyone. The third is where the engineers lean in — and the
+humanities half still follows, because the analogy already did the work. Cues below are marked
+**[HUM]** and **[TECH]**; say both, in that order.
+
+**Two deliberate flips.** Give the technical half something they didn't expect from a
+Tibetan-studies talk — the isolation architecture (slide 16), the context-size finding (12b), the
+same-model audit result (22). Give the humanities half something that is *real philology* — the
+divergence and the root-text variant (20). Those are the two things people will repeat afterwards.
+
+**Never say** "pipeline stage," "orchestrator," or "gate" without the plain version first.
+**Do say** the precise mechanism after it — this room can take it, and half of them want it.
+
+**Three rhetorical moves carry the whole talk:**
 1. The problem is not a lack of material. Tibetan has *more* classical literature than the
    languages doing this well.
-2. The scary thing about AI on small wikis has already happened, and it was a disaster. I'm going
-   to tell you why this is the opposite of that.
-3. The machine does not have authority anywhere in this system. It has judgement everywhere.
+2. The scary thing about AI on small wikis already happened, and it was a disaster. This is the
+   opposite of that, and I'll show you why.
+3. The machine has judgement everywhere in this system and **authority nowhere**.
 
 ---
 
-## ACT I — The gap (0:00 → 4:00)
+# ACT I — The gap (0:00 → 4:00)
 
-### Slide 1 — Title · 0:00–0:20
+### 1 — Title · 0:00–0:20
+- Name, project, one-line frame.
+- "A talk about making Tibetan legible to machines — without letting machines decide what
+  Tibetan says."
 
-- Name, project (OpenPecha), and the one-line frame.
-- "This is a talk about making Tibetan legible to machines — without letting machines decide
-  what Tibetan says."
-
-### Slide 2 — Two numbers · 0:20–1:00
-
+### 2 — Two numbers · 0:20–1:00
 - Seven million speakers. One of the largest classical literatures in Asia.
-- Eight thousand articles on the Tibetan Wikipedia. *(Use the fresh count — see the verify list.)*
-- Thirty-six active editors in a typical month. Two administrators. About 350 new articles a year.
-- Eighteen years after founding, the whole Tibetan Wikipedia is roughly the size of a single
+- Eight thousand articles. *(Use the fresh count.)*
+- ~36 active editors a month. Two administrators. ~350 new articles a year.
+- Eighteen years after founding, the whole Tibetan Wikipedia is about the size of one
   English-language WikiProject.
-- **Pause here.** Don't explain the number. Let it sit.
+- **Pause.** Don't explain it.
 
-### Slide 3 — Who does more with less · 1:00–1:40 *(cut first if long)*
-
-- Welsh: in 2017 the Welsh Government made growing the Welsh Wikipedia *explicit policy* — the
-  stated reason being to make Welsh visible to technology companies.
-- 91,000 articles to over 280,000. It became the most-viewed Welsh-language website. And Welsh
-  machine translation improved on the back of it.
+### 3 — Who does more with less · 1:00–1:40 *(cut 3rd)*
+- Welsh, 2017: the Welsh Government made growing Wicipedia **explicit policy**, stated reason
+  being to make Welsh visible to technology companies.
+- 91,000 → 280,000+. Became the most-viewed Welsh-language website. Welsh machine translation
+  improved on the back of it.
 - That's this talk's argument, made a decade earlier, by a government, with results.
-- The point of the chart: every one of these languages has **fewer speakers and a smaller
-  classical corpus than Tibetan**. The constraint was never the amount of material. We have more
-  material than almost anyone. What we don't have is the *conversion*.
+- **The chart's point:** every language here has *fewer speakers and a smaller classical corpus*
+  than Tibetan. The constraint was never material. We have more material than almost anyone. What
+  we lack is the conversion.
 
-### Slide 4 — The models can't read us · 1:40–2:30
+### 4 — The models can't read us · 1:40–2:30
+- This used to be about visibility. It's now about capability.
+- TLUE benchmark, Tibetan multiple-choice: most large models score **below random guessing**.
+  GPT-4 at 17.5% against a 25% floor.
+- The one to point at: **Qwen-2.5-72B, 84.7% in Chinese, 16.5% in Tibetan.** Same model, same
+  week.
+- Worse than a coin toss isn't "needs work." It means the language is effectively absent from
+  training data.
+- **[TECH]** And there's a tokenisation tax on top: byte-level tokenisers make Tibetan roughly
+  **4× more expensive** to process than Chinese (Petrov et al. 2023). We pay more per word to be
+  served worse. If you're building anything on top of these models in Tibetan, you feel both.
+- The Wikipedia link: by Wikimedia's own account, Wikipedia is almost always the single largest
+  source in a model's training corpus, and per-language performance tracks a language's share of
+  pretraining text.
+- So when an assistant fails a basic question about Tibetan culture asked *in Tibetan*, it isn't
+  because the knowledge is obscure. The open text those systems learned from barely includes us.
 
-- This used to be a question of visibility. It's now a question of capability.
-- On the TLUE benchmark — Tibetan multiple-choice understanding — most large models score
-  **below the random-guessing baseline.** GPT-4 at 17.5% against a 25% floor.
-- The one to point at: Qwen-2.5-72B scores 84.7% in Chinese and 16.5% in Tibetan. Same model.
-- Worse than a coin toss isn't "needs work." It means the language is effectively *not in the
-  training data.*
-- And there's a cost dimension: byte-level tokenisers make Tibetan roughly four times as
-  expensive to process as Chinese. We pay more per word to be served worse.
-- The link to Wikipedia: by the Wikimedia Foundation's own account, Wikipedia is almost always
-  the single largest source in a language model's training corpus. Per-language model
-  performance tracks a language's share of pretraining text.
-- So when someone asks an AI assistant a question about Tibetan culture, *in Tibetan*, and gets
-  a wrong answer — that isn't because the knowledge is obscure. It's because the open digital
-  text those systems learned from barely includes us.
+### 5 — The loop has a sign · 2:30–3:15
+- It's a loop, and it currently runs the wrong way: absence begetting absence.
+- **Left:** no articles → little training text → tools can't serve the language → fewer people
+  work in it online → still no articles. Kornai named the endpoint: *digital language death*.
+- **Right:** cited articles → digital footprint → better tools → faster articles.
+- **The thing to hold for the rest of the talk: it's the same loop.** Identical machinery. The
+  only thing that sets the direction is whether anything was verified before publication.
 
-### Slide 5 — The loop has a sign · 2:30–3:15
-
-- So it's a loop, and right now it runs the wrong way: absence begets absence.
-- **Left ring:** no articles → little training text → the tools can't serve the language → fewer
-  people work in it online → still no articles.
-- Kornai gave the endpoint of that trajectory a name: *digital language death.*
-- **Right ring:** cited articles → digital footprint → better tools → faster articles.
-- Here's the thing worth holding onto for the rest of the talk: **it's the same loop.** The
-  machinery is identical. The only thing that determines which direction it runs is whether
-  anything was verified before it was published.
-
-### Slide 6 — Three options · 3:15–4:00
-
-- There are only three ways to grow a small-language Wikipedia to useful size.
-- **By hand.** I'll give you the arithmetic in a moment.
-- **Unsupervised automation.** This is not hypothetical and I want to name it before anyone in
-  the audience does. The Scots Wikipedia: about 23,000 articles written by one enthusiastic
-  non-speaker — credibility destroyed. Cebuano: six million bot stubs, repeated closure
-  proposals. And the Greenlandic Wikipedia was **closed by the Language Committee in 2025** over
-  machine-generated content. Inuktitut is estimated two-thirds contaminated by machine
-  translation. Several African-language wikis sit at 40–60% uncorrected machine translation.
-- So when someone says "AI content for small Wikipedias," they are currently naming a disaster,
-  not a hope. I want to be very clear that I know that.
-- **Supervised automation** is the third option, and the rest of this talk is an existence proof
-  that it's real.
-- One counterweight worth knowing: Wikipedia's own Content Translation tool — machine draft plus
-  *mandatory* human edit — produces articles with **lower** deletion rates than from-scratch
-  articles, across more than 2.4 million creations. The failure mode and the working mode differ
-  in exactly one variable.
+### 6 — Three options · 3:15–4:00
+- Only three ways to grow a small-language Wikipedia to useful size.
+- **By hand.** Arithmetic in a moment.
+- **Unsupervised.** Not hypothetical, and I'll name it before anyone else does. Scots: ~23,000
+  articles by one enthusiastic non-speaker — credibility destroyed. Cebuano: six million bot
+  stubs, repeated closure proposals. **Greenlandic: closed by the Language Committee in 2025**
+  over machine-generated content. Inuktitut estimated two-thirds MT-contaminated. Several
+  African-language wikis at 40–60% uncorrected machine translation.
+- So "AI content for small Wikipedias" currently names a disaster, not a hope. I want to be very
+  clear I know that.
+- **Supervised** is the third option, and the rest of this talk is an existence proof.
+- One counterweight: Content Translation — machine draft plus **mandatory** human edit — produces
+  articles with **lower** deletion rates than from-scratch ones, across 2.4M+ creations. The
+  failure mode and the working mode differ in exactly one variable.
 
 ---
 
-## ACT II — How the work is done (4:00 → 7:00)
+# ACT II — How the work is done (4:00 → 8:00)
 
-### Slide 7 — The arithmetic of "by hand" · 4:00–4:40 *(cut second if long)*
+### 7 — The arithmetic of "by hand" · 4:00–4:35 *(cut 2nd)*
+- Dzongkha Wikipedia Education Program, Bhutan — closest Tibetic-script precedent, fully manual.
+  Institutional backing, dozens of trained participants, five months. **Eighty articles.**
+- bo.wikipedia: ~350 articles a year.
+- 100,000 articles — call that minimally serviceable — is **more than two centuries** away.
+- **Say deliberately:** that is not a criticism of the editors. Some of the most committed
+  volunteers in any language community. It's the measured capacity of the mode.
 
-- The Dzongkha Wikipedia Education Program in Bhutan — the closest Tibetic-script precedent,
-  entirely manual. Institutional backing, dozens of trained participants, five months.
-  **Eighty articles.**
-- Tibetan Wikipedia: about 350 articles a year.
-- At that rate, a minimally serviceable encyclopedia — call it 100,000 articles — is more than
-  two centuries away.
-- **Say this deliberately:** that is not a criticism of the editors. Those are some of the most
-  committed volunteers in any language community. It's the measured capacity of the mode.
+### 8 — Agent and harness · 4:35–5:10
+- Two words I'll use throughout, defined plainly.
+- **[HUM]** The model — Claude, in our case — reads Tibetan and makes judgements. It's the
+  apprentice. The **harness** is everything around it: what files it can open, what it may write,
+  which tools it can run, what rules are pinned above the bench. Workshop and apprentice. The
+  workshop is what makes the work *reproducible* rather than *improvisational*.
+- **[TECH]** Concretely, the harness is four things: the **tools** exposed to the model (read,
+  write, run a script, search), the **context** — precisely what it is allowed to see on any given
+  call — the **rules** loaded per task, and the **loop** that runs read → judge → write → check
+  without a human between steps. That's all "agent" means here.
+- No database. Everything is plain markdown in an Obsidian vault, and Claude Desktop reads and
+  writes those files directly. Every intermediate stays human-readable and reviewable in place —
+  which turns out to matter enormously at the review step, and I'll come back to it.
 
-### Slide 8 — Agent and harness · 4:40–5:20
+### 9 — Skills: the Matrix analogy · 5:10–5:50
+- **[HUM]** The analogy I find most useful is from *The Matrix*. Neo needs to fight. He doesn't
+  train for years. Someone loads a program — "I know kung fu."
+- **A skill is exactly that.** A file of step-by-step instructions for one operation, loaded into
+  the model immediately before it does that operation.
+- The model does **not** know how to extract a sa-bcad tree from a Tibetan commentary. Nothing in
+  its training taught it our conventions. The skill file says: here's what a sa-bcad announcement
+  looks like, here are the five passes, here's the numbering scheme, here's what to do when the
+  declared count doesn't match the children you found.
+- **[TECH]** To be precise about what it is *not*: not fine-tuning, not a plugin, not code. It's a
+  markdown procedure injected into context, versioned in git. When we change how something is
+  done we write a **new version** and record what changed and why — never rewrite a shipped one in
+  place, because then you can no longer say what produced last month's output.
+- This vault has **62 of them. Eleven thousand lines** of written-down method.
 
-- Two words I'll use for the rest of the talk, so let me define them in plain terms.
-- **The model** — Claude, in our case — is the thing that reads Tibetan and makes judgements. It's
-  the apprentice.
-- **The harness** is everything around it: what files it can open, what it's allowed to write,
-  what tools it can run, what rules are pinned above the bench.
-- Think of a workshop. The apprentice is capable but has no memory of house procedure and no
-  authority. The bench, the racked tools, the rulebook on the wall, the in-tray and out-tray —
-  that's the harness. It's what makes the apprentice's work *reproducible* instead of
-  *improvisational*.
-- **An "agent"** is just the apprentice actually working at that bench: reading a file, making a
-  judgement, writing an output, running a check — in a loop, without being told each step.
-- Concretely: I work in a plain Obsidian vault of markdown files. Claude Desktop reads and
-  writes those files directly. There's no database. Every intermediate stage stays human-readable
-  and reviewable in place — which matters enormously for the review step later.
+### 10 — Anatomy of a skill · 5:50–6:30 *(technical-led)*
+- Here's what's actually inside one. Six sections, and the order is deliberate.
+- **"Why this skill exists, and what it is not"** — the reasoning, and usually the failure that
+  produced it.
+- **Inputs / Output / Output format** — the contract.
+- **Rules**, numbered.
+- **Procedure**, numbered steps.
+- **A completion check** — how you know you're done.
+- And about a third of them carry **scripts**: 21 of 62, 44 scripts total, that re-check
+  mechanically whatever can be re-checked mechanically.
+- **[HUM] — the line that matters most here:** a skill is a *text file*. A Buddhist scholar can
+  open it, read it, disagree with it, and edit it. That is not true of a prompt buried inside
+  code. It's the reason the domain experts on this project can actually govern the system rather
+  than just receive its output.
 
-### Slide 9 — Skills: the Matrix analogy · 5:20–6:10
+### 11 — Why the rules exist · 6:30–7:20 *(protect this slide)*
+- I want to show you three real rules and what produced each one, because this is the part I'd
+  most want another project to copy.
+- **Rule: "`claim_count` is computed by counting, at the end — never inherited."** That exists
+  because we once ran what we believed was a second, independent extraction of a commentary. It
+  wasn't. It was a re-bucketing of the first run: **114 of 118 Tibetan strings byte-identical**,
+  counts copied rather than recomputed, transcription errors inherited unchanged. And because it
+  looked like corroboration, it *hid* real defects — including a cross-document contamination and
+  a fabricated mantra that had been promoted to canonical status.
+- **Rule: "Corroboration must be re-read, not remembered."** From the adversarial audit. A "three
+  flaws" framing of Tārā's face was attributed to a second commentary as independent
+  corroboration. That commentary's cited claim contains no flaws framing at all. The consolidator
+  had the right idea somewhere in the corpus and attached the wrong claim ID.
+- **Rule: "Counts are computed, never hand-tallied."** On the worst pilot page, **five of five**
+  "(N commentaries)" labels were wrong.
+- **The generalisable point — say this slowly:** we don't fix a bad output by re-running with a
+  better prompt. We identify the *class* of error, write it into the skill as a numbered rule,
+  and where possible add a script that fails the build. **The fix outlives the person who found
+  it.** A skill is institutional memory. Every rule in it is a scar.
+- **[TECH]** Three principles repeat across all 62: *the model judges, the script verifies*;
+  *isolation over context*; *nothing interpretive touches the source layer*.
 
-- Here's the analogy I actually find most useful, and it's from *The Matrix*.
-- Neo needs to fight. He doesn't train for years. Someone loads a program, and then — "I know
-  kung fu."
-- **A skill is exactly that.** It's a file — step-by-step instructions for one specific operation
-  — that gets loaded into the model right before it does that operation.
-- The model does *not* know how to extract a sa-bcad tree from a Tibetan commentary. Nothing in
-  its training taught it our conventions. But the skill file says: here's what a sa-bcad
-  announcement looks like, here are the five passes to run, here's the numbering scheme, here's
-  what to do when the declared count doesn't match the children you found.
-- This vault has **63 of them**. Cleaning OCR. Formatting a root text into verses. Segmenting a
-  commentary. Extracting a tree. Extracting claims. Building a spine map. Consolidating a topic.
-  Drafting an article. Auditing one.
-- **The important part for this audience:** a skill is a *text file*. Not code. Not a black box.
-  A domain expert can read it, disagree with it, and edit it — and I'll come back at the end to
-  how that's exactly what happened.
-- And skills are *versioned*. When we change how something is done, we write a new version and
-  record what changed and why. We never rewrite a shipped one in place — because if you do, you
-  can no longer say what produced last month's output.
+### 12 — Scripts: the machine · 7:20–7:50
+- The other half is scripts — small Python programs. The analogy is a machine. Something goes in
+  the hopper, rules are bolted to the side, the same thing comes out every time. No judgement, no
+  interpretation, no mood. **A machine cannot be persuaded.**
+- **The single most important design decision in this project is one sentence:** *the model
+  judges; the script verifies.*
+- Judgement work: is this line a structural announcement or prose? Does this gloss say the flower
+  is blue or clear-hued? Which commentaries actually disagree? That's a reader's job.
+- Machine work: does this exact string appear, character for character, in the file it claims to
+  come from? Do the counts recompute? Does every claim have exactly one disposition? That's a
+  ruler's job.
+- **[TECH] And the asymmetry is the load-bearing part: the script has the final say.** If the
+  model says "publish" and the machine says the quotation doesn't match, the build fails. There
+  is no override flag. We deliberately did not build one, and we've turned down asking for one
+  twice.
 
-### Slide 10 — Scripts: the machine · 6:10–7:00
-
-- The other half is scripts — small Python programs. And the analogy is a machine.
-- You put something in the hopper. Rules are bolted to the side. The same thing comes out the
-  chute, every time. No judgement, no interpretation, no mood, no creativity. A machine cannot
-  be persuaded.
-- **The division of labour is the single most important design decision in this project**, and
-  it's one sentence: *the model judges; the script verifies.*
-- Judgement work — is this line a structural announcement or is it prose? does this gloss say the
-  flower is blue or that it's clear-hued? — that's a reader's job, and the model does it.
-- Machine work — does this exact string of Tibetan appear, character for character, in the file
-  it claims to come from? — that's a ruler's job, and code does it.
-- And the crucial asymmetry: **the script has the final say.** If the model says "publish" and the
-  machine says the quotation doesn't match, the build fails. There is no override flag. We
-  deliberately did not build one.
+### 12b — The context-size finding · 7:50–8:20 *(cut 4th — but the technical half will thank you)*
+- One measured result I'd hand to anyone building something like this.
+- Same model, same prompt, different amount of context. Given **93,000 characters**, it returned
+  ten passages totalling **873 characters**. Given **12,000 characters**, it returned twenty
+  passages totalling **5,224**.
+- **The model budgets its answer against the size of the question.** Not against the task.
+- Our capture rates in the pilot, measured against what the previous step actually offered:
+  45%, 19%, and **1.1%**.
+- You cannot fix that in the prompt. We tried. It's architectural — batch the question smaller —
+  and it's exactly why claims extraction now runs **one isolated call per outline node** instead
+  of one call per commentary.
 
 ---
 
-## ACT III — One verse, all the way through (7:00 → 15:00)
+# ACT III — One verse, all the way through (8:20 → 16:00)
 
-### Slide 11 — The corpus · 7:00–7:40
-
-- The case study: the *Praise to the Twenty-One Tārās* — Tohoku 438, in the Kangyur, attributed
-  by tradition to Vairocana. Probably the most widely recited Tārā liturgy across every Tibetan
+### 13 — The corpus · 8:20–9:00
+- The case study: *Praise to the Twenty-One Tārās*, Tohoku 438, in the Kangyur, attributed by
+  tradition to Vairocana. Probably the most widely recited Tārā liturgy across every Tibetan
   tradition.
-- Sixteen commentaries. About 540,000 characters. Drakpa Gyaltsen, the First and Second Dalai
-  Lamas, Tāranātha, Ngulchu Dharmabhadra, Khenchen Palden Sherab, living teachers. Sakya, Geluk,
-  Jonang, Nyingma, Kagyü.
-- I chose it because it's *bounded and heavily commented* — small enough to audit completely, rich
+- **Sixteen commentaries. 582,332 Tibetan characters. 3,268 citable blocks. 580 outline nodes.
+  2,975 claims.** Drakpa Gyaltsen, the First and Second Dalai Lamas, Tāranātha, Ngulchu
+  Dharmabhadra, Khenchen Palden Sherab, living teachers. Sakya, Geluk, Jonang, Nyingma, Kagyü.
+- Chosen because it's **bounded and heavily commented** — small enough to audit completely, rich
   enough that every generated sentence can be checked against a named human source.
-- One methodological note that will matter to this room: the root text we use is a **critical
-  edition**, not an OCR export. The edition we replaced had wrong verse segmentation and stopped
-  mid-clause at the twenty-first homage, omitting the benefits section that every commentary
-  comments on. The edition's own apparatus records that its two witnesses differ at **17 of the
-  21 homages**.
-- **Now the promise:** I'm going to take one verse — the third homage — and one commentary —
-  Gendün Drub, the First Dalai Lama — and follow them all the way to a finished article. Every
-  screen you see from here is a real file.
+- One note this room will care about: our root text is a **critical edition**, not an OCR export.
+  The export we replaced had wrong verse segmentation and stopped mid-clause at the twenty-first
+  homage, omitting the benefits section every commentary comments on. The edition's own apparatus
+  records that its two witnesses differ at **17 of the 21 homages**.
+- **The promise:** I'm going to take one verse — the third homage — and one commentary — Gendün
+  Drub, the First Dalai Lama — and follow them to a finished article. Every screen from here is a
+  real file.
 
-### Slide 12 — Getting the text in · 7:40–8:30
+### 14 — Getting the text in · 9:00–9:45
+- Most of this exists as **images**. Scans from BDRC and elsewhere. So step one is OCR. Sometimes
+  we get a text version off the internet instead, which needs a different kind of cleaning.
+- **[TECH]** Cleaning runs under a rule worth stating: the script first builds a **profile** of
+  the mechanical debris it found — page-number lines, running headers, the wrong tsheg character
+  — shows that profile to a human, and only then runs a cleaner limited to *exactly* those fixes.
+  It never interprets. A doubtful reading is a question for the editor.
+- Then segmentation — cutting the commentary into citation-sized blocks by a rule engine over
+  seven lexical boundary cues, with verse stanzas detected by their metre and peeled out whole.
+  Behind a **no-loss gate**: if the segmented text differs from the original by one
+  non-whitespace character once whitespace is squeezed out, the script aborts and writes nothing.
+  Residue no cue can safely cut goes to a human under a stated bias — *over-long is safer than
+  wrong*.
+- **And then the thing everything depends on.** Every block gets a permanent address.
+- **[HUM]** A footnote pointing at a *file* is a promise. A footnote pointing at a *block* is an
+  address — somebody can open it. Every citation in every artifact I'm about to show resolves to
+  one of these.
 
-- Most of this material exists as *images*. Scans from BDRC and elsewhere. So step one is OCR.
-  Sometimes we get a text version off the internet instead, and then it needs a different kind of
-  cleaning.
-- Cleaning is done under a rule that matters: the script first builds a **profile** of the
-  mechanical junk it found — page-number lines, running headers, the wrong tsheg character — shows
-  that profile to a human, and only then runs a cleaner limited to *exactly* those fixes. It never
-  interprets. A doubtful reading is a question for the editor, not for the machine.
-- Then segmentation: cutting the commentary into citation-sized blocks. This runs behind what I'd
-  call a **no-loss gate** — if the segmented text differs from the original by one non-whitespace
-  character once you squeeze out spacing, the script aborts and writes nothing. And where no rule
-  can safely make a cut, it hands the passage to a human under a stated bias: over-long is safer
-  than wrong.
-- **And then the thing that everything else depends on.** Every block gets a permanent address —
-  a block ID.
-- Why that matters to you: a footnote that points at a *file* is a promise. A footnote that points
-  at a *block* is an address. Somebody can open it. Every citation in every artifact I'm about to
-  show you resolves to one of these.
+### 15 — The sa-bcad tree · 9:45–10:30
+- Tibetan commentators announce their own structure. "This has two parts." "The second has six."
+  That's the sa-bcad, and it's the architecture of the argument.
+- We extract it as a nested outline with a pointer from every node into the source.
+- This is Gendün Drub's: **37 nodes, seven levels.** Look at the leaves under "extended
+  explanation" — exactly twenty-one. The tree recovered the praise's own architecture as the
+  commentator declared it. Nobody imposed it.
+- **[TECH]** Extraction runs as **five isolated passes** — chunk, extract candidates, copy the
+  enumeration announcements verbatim, build, check — and the reason is a finding about prompt
+  design that I think generalises: *a call that never sees the tree-building instructions cannot
+  drift into tree-building*, and a verbatim-copy call that never sees the words "interpret and
+  reconcile" stays literal. When we merged those jobs into one call, precision measurably
+  dropped.
+- The tree-builder treats the author's **own enumerations as more authoritative than individual
+  candidates**: if he declares six parts, six children must appear, and the child count must
+  match. Doctrinal lists — things enumerated as subject matter rather than as divisions of the
+  text — never become nodes.
+- The highlighted branch is where our verse lives: node 2.2.2.2.1.1.2, "praise by way of her body
+  colour, hand-emblem, and cause."
 
-### Slide 13 — The sa-bcad tree · 8:30–9:20
+### 16 — Claims · 10:30–11:30
+- The step I think is genuinely the interesting one.
+- We convert commentary prose into **atomic claims**. **[HUM]** The right analogy is the index
+  card, or a Zettelkasten slip. One card, one fact.
+- Each card carries: **verbatim Tibetan**, an English gloss, a **type**, what it's about, and a
+  **block-level citation**.
+- Five real claims from that one node. Point at the types. *Word-gloss:* "blue" refers to her body
+  colour, "gold" indicates a clear hue. *Iconography:* her left ring-finger holds a water-born
+  lotus at her heart, held so its opening faces her ear — the sign of the ten pure perfections.
+  *Structural:* the commentator simply saying "secondly." That still gets a card, because knowing
+  what's structure and what's content is itself information.
+- Across sixteen commentaries: **2,975 claims.**
+- **[TECH] Two invariants, both from failures.**
+  - **Extract first, merge later.** Each commentary read in complete isolation — never alongside
+    another commentary, never alongside an earlier extraction. Because merge decisions made while
+    reading rest on incomplete information: the first commentary you read silently defines the
+    topic space for all the rest.
+  - **One isolated call per node.** Each call receives *only* the extraction rules, the file path
+    and its own line range, and its node's decimal and title. Nothing else. It is never given the
+    paths of other extractions, and never sees the merged file being built.
+- **The consequence is the sentence I'd underline:** a call that only ever sees one node
+  *cannot* file a claim under the wrong node, and *cannot* import content from a commentary it
+  was never shown. **The guards are structural, not disciplinary.** We're not asking the model to
+  behave. We removed its ability to misbehave.
+- And underneath, a script re-checks every card: is this Tibetan actually a literal substring of
+  the block it cites — testing ellipsis-joined fragments individually, which catches a claim
+  quoting one real phrase and one invented one. Was the count computed by counting or inherited?
+- **Worth saying:** even if we never published a single Wikipedia article, this claims database —
+  typed, school-tagged, block-located, across sixteen commentaries — is a research object for
+  Tibetan studies in its own right.
 
-- Tibetan commentators announce their own structure. "This has two parts." "The second of these
-  has six." That's the sa-bcad, and it's the architecture of the argument.
-- We extract it as a nested outline, with a pointer from every node into the source.
-- This is Gendün Drub's: **37 nodes, seven levels deep.** And look at the leaf nodes under
-  "extended explanation" — there are exactly twenty-one. The tree recovered the praise's own
-  architecture, as the commentator declared it. Nobody imposed that.
-- One engineering finding that I think generalises, because it surprised us: extraction is split
-  into **five separate passes** that don't see each other's instructions. A call that never sees
-  the tree-building instructions can't drift into tree-building. A call whose only job is to copy
-  an enumeration verbatim, and which never sees the words "interpret and reconcile," stays
-  literal. When we merged those jobs into one call, precision dropped.
-- And the tree-builder treats the author's **own enumerations as more authoritative than
-  individual candidates**: if he says "this has six parts," six children must appear. Doctrinal
-  lists — things enumerated as subject matter rather than as divisions of the text — never become
-  nodes.
-- The branch highlighted here is where our verse lives: node 2.2.2.2.1.1.2, "praise by way of her
-  body colour, hand-emblem, and cause."
+### 17 — Sixteen commentaries are not sixteen of the same thing · 11:30–12:10 *(cut 1st)*
+- A finding the corpus produced by itself, which I didn't expect.
+- **Claim density varies eightfold.** Karma Maitri: 181 claims per ten thousand characters.
+  Khenpo Tsultrim Namdak: 23. Both are careful commentaries.
+- **[HUM]** That's a genre fact. A word-commentary — *tshig 'grel* — is almost nothing but
+  glosses, so it's dense. An expansive *rnam bshad* with sādhana sequences and ritual appendices
+  is long, and much of its length isn't claim-bearing.
+- **[TECH]** And it's the reason a uniform chunk size or a per-commentary token budget would have
+  been wrong. The unit of work has to be the *outline node*, not a fixed slice of characters.
+- The structural spread is even wider: outline nodes per commentary run from **2** — Drakpa
+  Gyaltsen's word-commentary has almost no sa-bcad at all — to **120** for Khenchen Palden
+  Sherab. Sixty-fold.
+- Which sets up the next problem exactly.
 
-### Slide 14 — Claims · 9:20–10:20
-
-- Now the step that I think is genuinely the interesting one for this audience.
-- We convert commentary prose into **atomic claims**. And the right analogy is the index card, or
-  a Zettelkasten slip. One card, one fact.
-- Each card carries: the **verbatim Tibetan**, an English gloss, a **type**, what it's *about*, and
-  a **block-level citation**.
-- Here are the five real claims from that one node of Gendün Drub. Point at the types: this one is
-  a *word-gloss* — "blue" refers to her body colour, "gold" indicates a clear hue. This one is
-  *iconography* — her left ring-finger holds a water-born lotus at her heart, held so its opening
-  faces her ear, and that is the sign of the ten pure perfections. This one is *structural* — it's
-  just the commentator saying "secondly." That still gets a card, because knowing what's structure
-  and what's content is itself information.
-- Across the sixteen commentaries: **2,975 claims.**
-- Two rules make this trustworthy, and both came out of a failure we had:
-  - **Extract first, merge later.** Each commentary is read *in complete isolation* — never
-    alongside another commentary, never alongside an earlier extraction. Because merge decisions
-    made while reading rest on incomplete information: the first commentary you read silently
-    defines the topic space for all the rest.
-  - **One model call per node.** Each call sees only its own node's text and its own node's title.
-    That makes the guarantees *structural* rather than disciplinary — a call that only ever sees
-    one node physically cannot file a claim under the wrong node, and cannot import content from a
-    commentary it was never shown.
-- And behind it, a script re-checks every card: is this Tibetan string actually a literal substring
-  of the block it cites? Was the claim count computed by counting, or inherited? *(That second
-  check exists because an earlier method inherited counts instead of recomputing them, and we
-  caught it.)*
-- **Worth saying explicitly:** even if we never published a single Wikipedia article, this claims
-  database — typed, school-tagged, block-located, across sixteen commentaries — is a research
-  object for Tibetan studies in its own right.
-
-### Slide 15 — Two routes · 10:20–10:50
-
-- Now: which subjects get articles?
-- **Route one — by structure.** Use the root text's own shape. Twenty-one homages, plus the
-  benefits section, plus two recurring bodies of material that sit outside the homage sequence.
-  Twenty-four slots, one article each.
-- **Route two — by keyword.** Ask what the corpus actually spends its attention on, and write an
-  article per subject.
-- We do both. They converge again at consolidation, in two slides.
-
-### Slide 16 — The keyword chain · 10:50–11:40 *(cut third if long)*
-
-- The headline: **detect in English, measure in Tibetan.**
-- The problem: Tibetan is written without word boundaries — the tsheg separates *syllables*, not
-  words — so standard keyword statistics can't run on it directly. But here's the trick: *counting
-  a string you already know* needs no word segmentation at all.
-- So: generate a deliberately **literal** English translation, verse by verse, keeping every block
-  ID. Literal, not literary — because published translations paraphrase, and a keyword absent in
-  English is not absent in Tibetan.
-- Run the standard tools over the English — TF-IDF and YAKE, treating each verse as its own
-  document so that the words appearing in every verse get punished.
-- Then, for each English candidate, open the same-numbered *Tibetan* block and identify the exact
-  span it translates. Regroup by the **Tibetan** term.
-- Why per-occurrence mapping matters — this is the part I'd want a translator to hear. Statistics
-  on a translation measure the *translator's* vocabulary, and they lie in two directions at once.
-  One Tibetan term splits across renderings — ཡེ་ཤེས་ becomes "wisdom," "gnosis," "pristine
-  awareness," the count divides three ways and the term sinks. And two different Tibetan terms
-  collapse into one English word — "wisdom" is both ཤེས་རབ་ and ཡེ་ཤེས་, and you get a merged count
-  belonging to no actual term. Mapping per occurrence and regrouping by Tibetan fixes both.
-- **193 plus 313 English candidates → 367 unique Tibetan terms.**
-- Then scoring. Three signals, and raw frequency is deliberately the *weakest*:
-  - **Attention** (dominant): how many claims are *about* the term, across how many commentaries.
-  - **Structure**: does it appear in section titles? do commentaries explicitly define it?
-  - **Presence** (tie-breaker only): frequency, counted in the commentators' own prose with
-    root-text quotations excluded — because a commentary that quotes the verse inflates every
-    word in it.
-- The empirical validation is my favourite number in the project: **before** the attention signal,
-  Tibetan intensifier particles sat in the top 20. **After** it, not one survives into the top 60.
-  Frequency alone cannot tell ལྟ་བུ་ ("like") from ཡེ་ཤེས་ — both are everywhere. But no commentary
-  ever *defines* ལྟ་བུ་. No section is titled by it. No claim is about it.
-- Then a **mechanical** cutoff — calibrated once and frozen, so it's reproducible rather than a
-  matter of taste: a term enters the queue only if at least half the commentaries engage it *and*
-  at least twenty claims are about it. **114 of 367 pass.** Nothing is deleted — terms that fail
-  stay in the registry as glossary candidates.
-- Then a subject filter: is this an encyclopedic *subject*, or is it section material? A body part
-  with a hundred claims is still section material. A deity with twenty is still standalone.
-  **44 standalone subjects.**
-- Finally we check the live wiki: does an article already exist? **25 update, 19 create.**
-- **One aside worth thirty seconds:** the same Tibetan keyword list is what we use for
-  standardising vocabulary in translation work. The keyword chain isn't only serving Wikipedia.
-
-### Slide 17 — The spine map · 11:40–12:20
-
-- Problem: every commentary numbers itself differently. One nests the seventh homage at 1.1.7.
-  Another has it at top level as node 7. One runs all twenty-one homages inside a single
-  undivided node with no internal structure at all.
-- So before you can compare them, you need a shared coordinate system.
-- **The analogy for this room:** Stephanus pagination for Plato. Bekker numbers for Aristotle. A
-  fixed set of addresses that every edition can be mapped onto, so that a citation means the same
-  thing no matter whose text you're holding.
-- We build one small routing table per commentary — which of *its* nodes hold which canonical
-  slot's content. Built once, reused by every topic afterwards.
-- And that hard case — the commentary with all twenty-one homages in one undivided node — gets
-  routed by **claim-ID range** instead, using its own "verse N quoted" claims as boundary markers.
-- The invariant: every claim gets **exactly one** disposition. Routed, flagged ambiguous, or
-  logged as unmapped. Never zero, which would be silent loss. Never two, which would be silent
-  duplication. A script recomputes every count and refuses to finish if anything is undisposed.
-- And "unmapped" is a *legitimate* outcome, not a failure — a commentary's own front matter,
+### 18 — The spine map · 12:10–12:55
+- Every commentary numbers itself differently. One nests the seventh homage at 1.1.7. Another has
+  it at top level as node 7. One runs all twenty-one inside a single undivided node with no
+  internal structure at all.
+- Before you can compare them, you need a shared coordinate system.
+- **[HUM]** Stephanus pagination for Plato. Bekker numbers for Aristotle. A fixed set of
+  addresses every edition maps onto, so a citation means the same thing regardless of whose text
+  you're holding.
+- **[TECH]** One small routing table per commentary — which of *its* nodes hold which canonical
+  slot. Built once, reused by every topic afterwards. The problem it solves is a complexity
+  problem: answering that question inside every topic run meant roughly **400 full-file reads**
+  over an unchanged multi-megabyte corpus. Sixteen judgements instead of four hundred — because
+  "which node is Tārā 5" and "which node is Tārā 12" are the same act of reading the tree.
+- The hard case, the one with all twenty-one homages in one undivided node, is routed by
+  **claim-ID range** instead, using its own "verse N quoted" claims as boundary markers.
+- **The invariant:** every claim gets **exactly one** disposition. Routed, flagged ambiguous, or
+  logged unmapped. Never zero — that's silent loss. Never two — that's silent duplication. A
+  script recomputes every count and refuses to finish if anything is undisposed.
+- And "unmapped" is a **legitimate outcome**, not a failure. A commentary's own front matter,
   colophon, ritual appendices and story collections belong to no slot. Those claims are preserved;
   they just don't feed a topic page.
 
-### Slide 18 — Consolidation as viva · 12:20–13:10
-
-- Now we bring the sixteen back together. And the way we do it is the part I'd most want to
-  defend in a seminar.
+### 19 — Consolidation as viva · 12:55–13:45
+- Now we bring the sixteen back together, and this is the part I'd most want to defend in a
+  seminar.
 - **We don't ask "what does each commentary say" and summarise.** We put the *same question* to
   all sixteen and record the answers.
-- The questions are **generated, not authored** — two free sources. From the spine, mechanically:
-  twenty-one homages times the facets that recur across the corpus — name, colour, implements,
-  stance, activity, mantra, benefit. And from the extractions themselves: every claim that one
-  commentary makes implies a question you can ask of the other fifteen.
-- So consolidation becomes a **derived completeness check**. Free reading first, then generated
-  questions catch what free reading missed.
-- Four possible outcomes per question:
-  - **Consensus** — with the full attestation list, every commentary named.
+- **[TECH]** The questions are **generated, not authored** — two free sources. Mechanically from
+  the spine: twenty-one homages times the facets that recur across the corpus — name, colour,
+  implements, stance, activity, mantra, benefit. And from the extractions themselves: every claim
+  one commentary makes implies a question you can put to the other fifteen.
+- So consolidation becomes a **derived completeness check**. Free reading first; generated
+  questions then catch what free reading missed.
+- Four outcomes per question:
+  - **Consensus** — full attestation list, every commentary named.
   - **⚑ Divergence** — recorded, attributed, *never averaged*.
   - **Unique** — a single commentary's claim, attributed inline.
-  - **Silence** — and this is the one I want to underline. If nobody addresses a question, that
-    stays on the page marked "no commentary addresses this." It is never quietly deleted. **A
-    silence in the tradition is a finding about the tradition.**
-- And afterwards a script diffs the list of claims that went *into* the packet against every claim
-  the finished page actually *cites*. Anything in the gap is either folded in or logged with a
-  one-line reason. There's no third state. In the pilot, that check caught real gaps in roughly
-  5–12% of a topic's claims per page.
+  - **Silence** — and I want to underline this one. If nobody addresses a question, it stays on
+    the page marked "no commentary addresses this." Never quietly deleted. **A silence in the
+    tradition is a finding about the tradition.**
+- **[TECH]** Afterwards a script diffs the claims that went into the packet against every claim
+  the page actually cites. Anything in the gap is folded in or logged with a one-line reason.
+  There is no third state. That check caught real gaps in **5–12%** of a topic's claims per page —
+  material that free reading had simply passed over.
 
-### Slide 19 — What it finds · 13:10–14:00 *(protect this slide; cut something else)*
-
-- Concretely, on the lotus page — ten generated questions, 120 claims from all sixteen
-  commentaries.
+### 20 — What it finds · 13:45–14:45 *(protect)*
+- Concretely, the lotus page: ten generated questions, 120 claims, all sixteen commentaries.
 - **Consensus:** wherever a commentary glosses the verse's own word པདྨ, it identifies the flower
-  specifically as an **utpala** — a blue lotus — not a generic lotus. Four commentaries say it in
-  so many words, and not one claim in the packet glosses it as any other species.
-- **Divergence** — and here's where the method earns its keep. On Tārā's origin: most commentaries
-  narrate Avalokiteśvara weeping, a lotus growing from his tears, and Tārā arising from its pollen.
-  But **Tāranātha and Karma Maitri don't say that.** They say the pollen issues from
+  specifically as an **utpala** — a blue lotus — not a generic lotus. Four say it in so many
+  words, and not one claim in the packet glosses it as any other species.
+- **Divergence** — where the method earns its keep. On Tārā's origin, most commentaries narrate
+  Avalokiteśvara weeping, a lotus growing from his tears, Tārā arising from its pollen.
+- **But Tāranātha and Karma Maitri don't say that.** They say the pollen issues from
   Avalokiteśvara's "water-born face" — the face itself as a standing lotus epithet. No tears, no
   tear-event.
-- And the way we established that is worth stating: the word སྤྱན་ཆབ — tears — **does not appear
-  anywhere in either commentary's file.** Not "the model thinks they disagree." A checkable fact
-  about two documents.
-- We're careful about what we then assert: we record it as a difference in *what these
-  commentaries' captured claims state*, not as a positive denial. A fuller account may sit
-  elsewhere in their text. That distinction is written into the page.
-- **And one more, which I did not expect the system to produce.** It surfaced a *root-text
-  variant*. Our critical edition reads གསེར་སྔོ at homage three. Gendün Drub's text quotes
-  སེར་སྔོ. One syllable — and the two readings license different etymologies.
-- So this stopped being just an aggregator somewhere along the way. It's a philological
-  instrument.
+- **And how we established it:** the word སྤྱན་ཆབ — tears — **does not appear anywhere in either
+  commentary's file.** Not "the model thinks they disagree." A checkable fact about two documents.
+- We're careful about what we then assert: the page records it as a difference in *what these
+  commentaries' captured claims state*, not as a positive denial — a fuller account may sit
+  elsewhere in their text. That epistemic distinction is written into the output, not left to the
+  reader.
+- **And one I did not expect the system to produce.** It surfaced a **root-text variant**. Our
+  critical edition reads གསེར་སྔོ at homage three. Gendün Drub's text quotes **སེར་སྔོ**. One
+  syllable — and the two readings license different etymologies.
+- Somewhere along the way this stopped being an aggregator. It's a philological instrument.
 
-### Slide 20 — The article · 14:00–15:00
-
-- And here's the article. In Tibetan, on པདྨ, with footnotes.
-- Trace one footnote with the pointer: the sentence cites a named reference; the reference resolves
-  to specific claim IDs; each claim carries verbatim Tibetan; that Tibetan cites a block; the block
-  is in a named commentary file. Five links, and every one of them is checkable by hand.
-- Two rules govern the drafting, and they're both refusals:
-- **Claims-only drafting.** Once the claims table is built, **the drafting model never sees source
-  wording again.** It writes from the claims list and cites *claim indices*. Code — not the model —
-  expands each index back into its quotations and renders the references.
-  - Why that's the crux: it means the model *cannot* smudge a quotation, because it was never
-    shown one to smudge. And it's what makes a character-for-character check meaningful rather
-    than decorative. This is verified in code, incidentally — the thing that builds the prompt
-    passes nothing else.
+### 21 — The article · 14:45–15:40
+- Here's the article. In Tibetan, on པདྨ, with footnotes.
+- Trace one footnote: the sentence cites a named reference; the reference resolves to specific
+  claim IDs; each claim carries verbatim Tibetan; that Tibetan cites a block; the block sits in a
+  named commentary file. Five links, every one checkable by hand.
+- **[TECH] Two rules govern drafting, and both are refusals.**
+- **Claims-only drafting.** Once the claims table exists, **the drafting model never sees source
+  wording again.** It writes from the claims list and cites *claim indices*. Code — not the model
+  — expands each index back into its quotations and renders the references.
+  - Why that's the crux: the model **cannot** smudge a quotation, because it was never shown one
+    to smudge. It's what makes a character-exact check meaningful rather than decorative. And
+    it's verified in code — the thing that builds the prompt passes nothing else.
 - **No parametric knowledge.** No date, no Sanskrit form, no iconographic detail, no doctrinal
   framing that isn't in a claim — however standard it seems, however confident the model is.
-- And the consequence I'm proudest of: of the 44 standalone subjects, **one was refused outright**
-  — there weren't enough citable claims to write it. It has no article. The refusal is the evidence
-  that the rule actually binds; a system that always produces an article isn't following a rule.
-- Voice follows claim type, too: consensus can be stated in the plain encyclopedic voice.
-  Anything below consensus takes mandatory in-text attribution — *this* commentator says this.
+- **The evidence the rule binds:** of 44 standalone subjects, **one was refused outright** —
+  not enough citable claims. It has no article. A system that always produces an article isn't
+  following a rule.
+- Voice follows claim type: consensus may sit in the plain encyclopedic voice; anything below
+  consensus takes **mandatory in-text attribution**.
 
 ---
 
-## ACT IV — Trust and publication (15:00 → 18:00)
+# ACT IV — Trust and publication (15:40 → 18:40)
 
-### Slide 21 — Two checks · 15:00–16:15
+### 22 — Two checks · 15:40–16:40
+- Two things check the work, and I want to be precise: **they check different things and neither
+  replaces the other.**
+- **The machine check.** Last in the chain, blocking, no AI at all. It re-reads every quotation
+  out of the file it cites. Batch: **861 of 882 character-for-character.** Deeply audited pilot:
+  **81 of 81**, and all 81 block locators resolve to the exact block named.
+- **[TECH] The tiering is the policy, and it's deliberately unequal.** Exact match passes. Match
+  once line-wrapping is removed passes — wrapping isn't part of the text. But a match that only
+  works once you *also* strip Tibetan punctuation **fails**, because if the letters agree and the
+  punctuation doesn't, you're not quoting what the file says. *Found is not the gate. Passed is
+  the gate.*
+- The story: the gate once caught a model silently promoting a **tsheg to a shad** inside a
+  quotation. String similarity **0.974**. Invisible to a human skimming Tibetan prose. Exactly
+  the drift that makes a quotation stop being a quotation.
+- And the comparison runs through a **reading view** — the source with every layer we added
+  stripped back off, not one Tibetan character touched — so a faithful quotation spanning a block
+  boundary can never fail on a caret we wrote ourselves.
+- Consequence: articles are ***sic*-faithful**. A transcription error in the source is reproduced,
+  not silently repaired. Correcting the text is an editorial act; it happens at the source layer,
+  by a human, or not at all.
+- **The meaning check.** Because a script can prove a cited claim *exists*; only a reader can
+  prove it *says what you attributed to it*.
+- **And here's the finding I'd most want to leave this room.** We audited the pilot drafts twice.
+  **The same model auditing its own work returned "publish, no findings" — three for three.** An
+  independent, different model found **five blocking errors** on two of the three. Four genuine
+  on manual adjudication. The clearest: the draft said "many scholars agree" where the underlying
+  claim says **three**.
+- **Never report a same-model audit as independent.** An agent auditing its own output re-reads
+  its own intentions, not the text.
 
-- Two things check the work, and I want to be precise that **they check different things and
-  neither replaces the other.**
-- **The machine check.** Last in the chain, blocking, and uses no AI at all. It re-reads every
-  quotation out of the file it cites. Across 42 batch articles: **861 of 882 quotations verify
-  character for character.** In the deeply audited three-article pilot: **81 of 81**, and all 81
-  block locators resolve to the exact block named.
-- The tiers are deliberately unequal. An exact match passes. A match once you remove line-wrapping
-  passes — line breaks aren't part of the text. But a match that only works once you *also* strip
-  the Tibetan punctuation **fails**. Because if the letters agree and the punctuation doesn't, the
-  article is not quoting what the file says.
-- The story on the slide: the gate once caught a model silently promoting a tsheg to a shad
-  *inside* a quotation. String similarity 0.974. Completely invisible to a human skimming Tibetan
-  prose. Exactly the drift that makes a quotation stop being a quotation.
-- And the articles are therefore ***sic*-faithful**. A transcription error in the source is
-  reproduced, not silently repaired. Correcting the text is an editorial act and it happens at the
-  source layer, by a human, or it doesn't happen.
-- **The meaning check.** Because a script can prove a cited claim *exists*; only a reader can prove
-  it *says what you attributed to it*.
-- And here's the finding I'd most want to travel out of this talk. We audited the pilot drafts
-  twice. **The same model auditing its own work returned "publish, no findings" — three for
-  three.** An independent, different model found **five blocking errors** on two of the three.
-- Four were genuine on manual adjudication. The clearest: the draft said "many scholars agree"
-  where the underlying claim says **three**.
-- The lesson, stated as a rule: **never report a same-model audit as independent.** An agent
-  auditing its own output re-reads its own intentions, not the text.
-- Two honesty notes I always include. The auditor shows round-to-round variance — re-running it
-  three times on the fixed articles gave pass rates of 0.67, 0.67, and 1.0 — so we report audit
-  outcomes as pass *rates*, never single verdicts. And twice the auditor **misquoted the draft
-  inside its own finding**, inventing typos that weren't there. Model-written finding text is
-  itself untrusted. Which is exactly why the deterministic check — the one that cannot hallucinate
-  — sits underneath the audit rather than beside it.
-- And on the rails side: a fresh model re-checked **all 418 citations** across three consolidated
-  pages. Zero fabricated claim IDs. One critical finding, one moderate, about sixteen minor. Every
-  one of those error classes was then turned into an executable rule or a standing check.
-- **The line to land on:** we've now had pages where every single quotation was character-perfect
-  and the meaning audit still found four critical defects. A clean quote check is never, by itself,
-  publication-ready.
+### 23 — What the audits measured · 16:40–17:20
+- Walk the table quickly; don't read every row.
+- Rails side: a fresh context re-checked **all 418 citations** across three consolidated pages.
+  Zero fabricated claim IDs. One critical, one moderate, about sixteen minor. Every error class
+  became an executable rule or a standing check.
+- **Two honesty notes I always include.** Of 293 validator findings, **269** are one
+  reference-format mismatch between two drafting routes — a mechanical reconciliation, not
+  fabricated citations. And twice the auditor **misquoted the draft inside its own finding**,
+  inventing typos that weren't there. Model-written finding text is itself untrusted — which is
+  precisely why the deterministic check, which cannot hallucinate, sits *beneath* the audit
+  rather than beside it.
+- The auditor also shows round-to-round variance — three re-runs on fixed articles gave pass
+  rates of 0.67, 0.67, 1.0 — so we report audit outcomes as pass **rates**, never single verdicts.
+- **And the batch confirmed the division of labour the hard way:** on the first two keyword pages
+  audited, **every quotation was character-perfect** and the meaning audit still found four
+  critical defects — a divergence manufactured out of English-gloss noise over identical Tibetan,
+  an inverted corpus fact, a citation corroborating content it doesn't contain, and a uniqueness
+  claim pinned to the wrong ID.
+- **A clean quote check is never, by itself, publication-ready.**
 
-### Slide 22 — The humans, and the gate · 16:15–17:40
+### 24 — The humans, and the loop that matters · 17:20–18:10
+- Last part, and it took the longest.
+- **None of this was built in one sitting.** Every skill went back and forth with Buddhist
+  scholars and Tibetan language experts, several rounds each. They read the output, told us what
+  was wrong, and **we changed the skill — not the output.**
+- The clearest example: our Tibetan linguist, later joined by a Tibetan-language expert, read the
+  first batch and returned six findings.
+  - Register: statements carry far more citations than they need; the articles read like a
+    **literature review** rather than an encyclopedia — visibly stitched together from claims;
+    raw wikitext unreadable because of inline reference tags.
+  - Orthography and respect: every paragraph must close with the double shad །།; **the comma does
+    not exist in Tibetan** and must not appear; commentators must be named in prose by a
+    respectful, human-curated form of their name.
+- Every one became a rule in a **new versioned drafting skill**. Consensus statements move to
+  plain encyclopedic voice with at most three supporting references, the full attestation list
+  migrating to the citation trail so nothing is lost. At most two verbatim quotations per article,
+  spent only where the exact wording is the point.
+- **The respect rule is the one I'd dwell on:** a human-curated name field on every commentary
+  that the model may only **copy**. It may never invent, translate, or upgrade an honorific.
+- **That's the loop that actually matters.** A human reader's objection became executable. It
+  applies to every article we will ever generate, and it will still apply when I'm not the one
+  running it.
+- And we gated it: three revised articles are with the linguist now; the corpus-wide redraft waits
+  on that approval. We don't batch-redraft ahead of the human.
 
-- Last part, and it's the part that took the longest.
-- **None of this was built in one sitting.** Every skill you've seen went back and forth with
-  Buddhist scholars and Tibetan language experts, several rounds each. They read the output, told
-  us what was wrong, and we changed the skill — not the output.
-- The clearest example: our project's Tibetan linguist, later joined by a Tibetan-language expert,
-  read the first batch and came back with six findings.
-  - Three about register: statements carry far more citations than they need; the articles read
-    like a **literature review** rather than an encyclopedia — visibly stitched together from
-    claims; and the raw wikitext is unreadable because of inline reference tags.
-  - Three about orthography and respect: every paragraph must close with the double shad །།; **the
-    comma does not exist in Tibetan** and must not appear; and commentators must be named in prose
-    by a respectful, human-curated form of their name.
-- Every one of those became a rule in a **new versioned drafting skill.** Consensus statements move
-  to plain encyclopedic voice with at most three supporting references, and the full attestation
-  list migrates to the citation trail so nothing is lost. At most two verbatim quotations per
-  article, spent only where the exact wording is the point. And a human-curated respectful-name
-  field on every commentary — which the model may only **copy**. It may never invent, translate, or
-  upgrade an honorific.
-- **That's the loop that actually matters.** A human reader's objection became executable. It will
-  apply to every article we ever generate, and it will still apply when I'm not the one running it.
-- We also gated it: three revised articles are with the linguist now, and the corpus-wide redraft
-  waits on that approval. We don't batch-redraft ahead of the human.
-- **Publication.** Two paths. If no article exists — 19 subjects — we create one. If one already
-  exists — 25 subjects — we **update** it with cited sections. One subject, one article. We never
-  fork into "X according to the Tārā commentaries."
-- Right now every publication step is manual. Later it's a bot, and it will publish only what has
-  already passed review — the bot moves text, it never decides.
-- **And: nothing has been published yet.** On purpose. The target wiki has no local policy on
-  machine-assisted content, and we read that vacuum as *stop*, not as permission. Before any
-  mainspace edit there'll be a public bilingual proposal on the community forum and an on-wiki
-  project page listing every pipeline-assisted article with its reviewer and its sources. Every
-  edit will disclose the machine assistance.
-- There's also a debt I'll name: not one of our citations yet carries a public URL, so a reader
-  can't check a quotation online yet. That's our single largest pre-publication task.
-- **The economics, in one breath:** machine cost is about seventy cents an article. It is not the
+### 25 — Publication and economics · 18:10–18:40
+- **Two paths.** If no article exists — 19 subjects — create. If one exists — 25 — **update** it
+  with cited sections. One subject, one article. Never forked into "X according to the Tārā
+  commentaries."
+- Every publication step is manual now. Later it's a bot, and the bot publishes only what already
+  passed review. **The bot moves text; it never decides.**
+- **Nothing has been published yet. On purpose.** The wiki has no local policy on machine-assisted
+  content, and we read that vacuum as *stop*, not permission. Before any mainspace edit: a public
+  bilingual proposal on the community forum, an on-wiki project page listing every assisted
+  article with its reviewer and sources, and disclosure on every edit.
+- A debt I'll name: not one citation yet carries a public URL, so a reader can't check a quotation
+  online. Our largest pre-publication task.
+- **The economics in one breath:** machine cost is about **seventy cents an article**. Not the
   constraint. **Human review is the constraint, by design.** At 30–60 reviewer-minutes an article,
-  100,000 articles is 24 to 48 person-years of review, spread across a community — against roughly
-  285 years of *writing* at the current rate. That's the whole argument in one comparison:
-  supervised automation turns a writing problem measured in generations into a reviewing problem
-  measured in person-years. And reviewing parallelises across every fluent speaker you can recruit.
-- **Close:** "The answer to the gap I opened with is neither refusal nor flood. It's verification,
-  with a human hand on the gate."
+  100,000 articles is **24–48 person-years** of review spread across a community — against roughly
+  **285 years of writing** at the current rate. Supervised automation turns a writing problem
+  measured in generations into a reviewing problem measured in person-years. And reviewing
+  parallelises across every fluent speaker you can recruit.
+- **Close:** *"The answer to the gap I opened with is neither refusal nor flood. It's
+  verification, with a human hand on the gate."*
 
 ---
 
-## Q&A — prepared answers
+# Q&A — prepared answers
 
-**"Isn't this just going to flood the wiki with AI slop?"**
-Throughput is bounded by human review capacity, not by model capacity — that's a design property,
-not a promise. Nothing publishes without a named human. Every edit discloses machine assistance.
-And nothing at all has been published yet, because the community hasn't been consulted. The wikis
-that were damaged were damaged by unaccountable *volume*: content nobody fluent verified, at rates
-nobody could review, with no disclosure. Every one of those properties is negated here.
+**"Isn't this going to flood the wiki with AI slop?"**
+Throughput is bounded by human review capacity, not model capacity — a design property, not a
+promise. Nothing publishes without a named human. Every edit discloses machine assistance. Nothing
+at all has been published yet, because the community hasn't been consulted. The wikis that were
+damaged were damaged by unaccountable *volume*: content nobody fluent verified, at rates nobody
+could review, with no disclosure. Every one of those properties is negated here.
 
 **"Who takes responsibility for an error?"**
-A named human editor, who is the sole publishing agent. The pipeline reduces the surface a reviewer
-has to distrust. It does not abolish editorial responsibility, and it isn't meant to. I'll say the
-residual risk out loud: a fluent reviewer can still wave through a subtly wrong article.
+A named human editor, the sole publishing agent. The pipeline reduces the surface a reviewer must
+distrust. It doesn't abolish editorial responsibility and isn't meant to. Residual risk, said out
+loud: a fluent reviewer can still wave through a subtly wrong article.
 
 **"How do you handle sectarian bias?"**
-Two ways. Divergences are never flattened — every position is recorded and attributed, and the page
-adjudicates none of them. And a school with exactly one representative in the corpus has its
-positions typed *school-position*, never *fringe* — sole representation is a fact about our
-corpus, not about the tradition. That said, the corpus *is* skewed: seven of sixteen are Geluk.
-I treat that as data the system must respect, not as noise.
+Divergences are never flattened — every position recorded and attributed, the page adjudicating
+none. And a school with exactly one representative has its positions typed *school-position*,
+never *fringe* — sole representation is a fact about our corpus, not about the tradition. That
+said, the corpus *is* skewed: seven of sixteen are Geluk. That's data the system must respect, not
+noise.
 
 **"Is this Wikipedia-notable? Aren't these primary sources?"**
-Two gates. Corpus breadth proposes — a term explained across many commentaries is encyclopedic; a
-term one commentator happens to use isn't. But breadth is salience *within the corpus*, not
-notability in Wikipedia's sense. The publication layer disposes: no article without at least one
-independent reliable secondary source, and a human curator makes that call.
+Double-gated. Corpus breadth *proposes* — a term explained across many commentaries is
+encyclopedic; a term one commentator happens to use isn't. But breadth is salience *within the
+corpus*, not notability in Wikipedia's sense. The publication layer *disposes*: no article without
+at least one independent reliable secondary source, human curator making the call.
 
 **"What about copyright on the commentaries?"**
 None of the major Tibetan digital libraries license their *text* for the CC BY-SA reuse Wikipedia
-requires. That constraint is a design principle rather than an obstacle: we cite, we quote
-minimally under a hard cap, and we never copy. At most two verbatim quotations per article.
+requires. We treat that as a design principle: cite, quote minimally under a hard cap — at most
+two verbatim quotations per article — never copy.
+
+**"Which model, and does it matter?"**
+Model-agnostic library. Reported runs used Claude Sonnet for drafting, Gemini Flash for the
+cross-model audit. The load-bearing part is the *cross*, not which two. The model asymmetry in
+Tibetan is real and we report it as a finding, not a design choice.
+
+**"Why one call per node? Isn't that expensive?"** *(technical half will ask this)*
+It's more calls but smaller ones, and it's cheaper in the way that matters — see the context-size
+finding. Given 93k characters the model returned 873 characters of extraction; given 12k it
+returned 5,224. Larger context bought us *less* output, not more. And the isolation is doing
+double duty: it also makes several correctness guarantees structural rather than disciplinary.
+
+**"Why Obsidian and markdown rather than a database?"**
+Because the review surface has to work for humans. Sources, claims and drafted articles are all
+plain files. A citation is an address that *renders* — a note transcludes the block it cites, so
+the cited Tibetan appears inline inside the note citing it, and a reviewer checks a quotation by
+reading down the page rather than trusting our verification report. Review state is a field in the
+file, and only a domain specialist may set it to complete. And the whole review history is a git
+history: every reviewer edit is a commit you can diff against what the machine generated.
+
+**"What was the hardest lesson?"**
+Two. Batch the question smaller — the context-size finding. And: an agent auditing its own work
+re-reads its own intentions, not the text. Both cost us a rebuild to learn.
 
 **"Could I run this on my corpus?"**
-It needs a root text, commentaries, and a curated registry. Nothing in the architecture is specific
-to twenty-one homages — the machinery is already prepared over the Bodhicaryāvatāra with ten
-commentaries, which is also where the reception/refutation machinery will actually get tested,
-because a praise-commentary corpus produces zero contested claims. Sanskrit, Pāli and classical
-Chinese scholasticism have the same shape: layered canon, commentarial tradition, school structure.
-
-**"Which model do you use? Does it matter?"**
-The library is model-agnostic. The reported runs used Claude Sonnet for drafting and Gemini Flash
-for the cross-model audit. And I'd stress the *cross*-model part is the load-bearing bit, not which
-two. The model asymmetry in Tibetan is real and we report it as a finding, not a design choice.
-
-**"What was the hardest technical lesson?"**
-Batch the question smaller. Measured directly: the same model on the same prompt returned ten
-passages totalling 873 characters when we gave it 93,000 characters of context — and twenty
-passages totalling 5,224 when we gave it 12,000. The model budgets its answer against the size of
-the question. You cannot fix that by shouting louder in the prompt. It's architectural, and it's
-why claims extraction now runs one isolated call per outline node.
-
-**"Why Obsidian and markdown, rather than a database?"**
-Because the review surface is the thing that has to work for humans. Sources, claims and drafted
-articles are all plain files. A citation is an address that *renders* — a note can transclude the
-block it cites, so the cited Tibetan appears inline inside the note citing it, and a reviewer
-checks a quotation by reading down the page rather than by trusting our verification report.
-Review state is a field in the file. And the whole review history is a git history, so every
-reviewer edit is a commit you can diff against what the machine generated.
+It needs a root text, commentaries, and a curated registry. Nothing in the architecture is
+specific to twenty-one homages — the machinery is already prepared over the Bodhicaryāvatāra with
+ten commentaries, which is also where the reception and refutation machinery finally gets tested,
+because a praise-commentary corpus produces **zero** contested claims. Sanskrit, Pāli and
+classical Chinese scholasticism have the same shape: layered canon, commentarial tradition, school
+structure.
