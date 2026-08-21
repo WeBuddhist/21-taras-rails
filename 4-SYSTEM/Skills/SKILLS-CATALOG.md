@@ -318,6 +318,14 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Rules:** Translate small batches only — one or a few TOC nodes at a time. Every keyword rendering must match the per-track termbase. Introduce no new rendering without first adding it to the termbase and feeding it back into the consolidated bilingual glossary.
 → `translate-section/SKILL.md` *(to be written)*
 
+### `dharmamitra-translate` **[exists]**
+**Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API once per block ID, threading the document's own preceding translations back in as context.
+**Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `german`, `modern chinese`, …); optionally a style instruction, a context header, and a flat `source<TAB>target` glossary.
+**Outputs:** `3-TRANSFORMATIONS/Translations/<lang-tag>-dharmamitra-zeroshot/` — the block-ID-aligned translation, its `about.md` / `style.md` / `context-header.md`, and an append-only per-call ledger under `work/`.
+**Rules:** One block ID per API call; never writes to `1-SOURCES/`; never writes into an existing translation track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public and shared — keep `--sleep` at 4 s or higher and never parallelise around a 429.
+**Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Use it for a fast external baseline, for a language no track covers, or as raw material for `glossary-extract-raw`.
+→ [`dharmamitra-translate/SKILL.md`](dharmamitra-translate/SKILL.md)
+
 ---
 
 ## Translation QA skills
