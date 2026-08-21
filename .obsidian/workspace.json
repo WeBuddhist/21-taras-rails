@@ -11,10 +11,14 @@
             "id": "6f8747d23b054bfe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "article"
             }
           }
         ]
