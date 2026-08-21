@@ -4,7 +4,7 @@ method: gemini-article-polish
 source: 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/article.md
 model: gemini-3.1-pro-preview
 date: 2026-08-21
-verdict: PASS
+verdict: PASS-after-reversion
 status: draft
 ---
 
@@ -93,3 +93,13 @@ No ref was moved onto a different assertion; no ref was dropped or duplicated be
 ## Verdict
 
 **PASS.** No fact was added, dropped, weakened, strengthened, or re-attributed to a different commentator across all 26 compared units. Every verbatim verse/citation quotation (paragraphs 2, 7, 13) is character-for-character identical to the source. Every `<ref>` remains attached to the same statement it supported before. Six W1 warnings are all false positives from pre-existing quote-block paragraph structure, none introduced by the recomposition. Six lexical/register-level substitutions are recorded above in §Flagged substitutions for the domain expert's accept/reject — none constitutes factual drift under Rule 8.
+
+
+## Reverted drift (orchestrator pass, 2026-08-21)
+
+The unattested honorific སློབ་དཔོན་ that Gemini inserted before ཉི་མ་སྦས་པ was reverted
+in `article.md` by surgical deletion (Rule 8 remedy (a)) — the sentence now matches the
+source wording exactly at that span. `body-after.txt` is left untouched as the raw model
+record, so it still shows the insertion. The same insertion occurred independently in
+tara-01; the pattern is now blocked in the script prompt and documented in the SKILL.md.
+This item had been recorded under §Flagged substitutions (item 1); per the naming doctrine (wiki-article-from-claims Rule 17, honorifics are human-curated) it is reclassified as drift and reverted rather than left to the domain expert.

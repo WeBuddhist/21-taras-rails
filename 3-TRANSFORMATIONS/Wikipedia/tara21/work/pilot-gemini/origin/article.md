@@ -2,7 +2,8 @@
 topic: origin
 article_kind: slot-article
 format: bo.wikipedia wikitext
-status: published
+status: draft
+source_status: published
 wiki_title: སྒྲོལ་མའི་ལོ་རྒྱུས།
 wiki_pageid: 28182
 wiki_url: https://bo.wikipedia.org/w/index.php?curid=28182

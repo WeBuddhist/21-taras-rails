@@ -2,7 +2,8 @@
 topic: structure-benefits
 article_kind: slot-article
 format: bo.wikipedia wikitext
-status: published
+status: draft
+source_status: published
 wiki_title: ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པ།
 wiki_pageid: 28183
 wiki_url: https://bo.wikipedia.org/w/index.php?curid=28183

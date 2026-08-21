@@ -78,6 +78,7 @@ You must NOT:
 - add, remove, weaken, or strengthen any fact, name, number, list item, or doctrinal position
 - add any information from your own knowledge, however standard it seems
 - change who is said to hold which position, or reword any personal name or text title
+- add, remove, or change any title or honorific before a personal name (སློབ་དཔོན་, གྲུབ་ཆེན་, རྗེ་བཙུན་, མཁན་ཆེན་ and the like) — copy every personal name with EXACTLY the words the source uses, no more and no less
 - touch the tokens that look like ⟦R7⟧ — each is a frozen citation marker. Every token must appear EXACTLY ONCE in your output, attached to (immediately after) the same statement it supports now. Move a token only together with the statement it belongs to. Never invent, drop, or renumber a token.
 - alter anything inside double quotation marks "…" — these are verbatim quotations; copy them character-for-character
 - change, add, remove, or reorder the section headings (lines like == … ==)
@@ -313,13 +314,20 @@ def main() -> int:
 
     new_fence = restore_refs(cand_tok, refs) + tail
     new_text = text[:m.start(1)] + new_fence + text[m.end(1):]
-    new_text = re.sub(
-        r"\A(---\n.*?)(\n---\n)",
-        lambda fm: fm.group(1)
-        + f"\npolished_by: gemini-article-polish\npolish_model: {model_used}"
-        + f"\npolish_date: '{today}'\npolish_source: {args.article}"
-        + fm.group(2),
-        new_text, count=1, flags=re.S)
+    def _amend_frontmatter(fm: re.Match) -> str:
+        head = fm.group(1)
+        # a polished copy is always a draft for review; keep the source's status on record
+        sm = re.search(r"^status:\s*(.+?)\s*$", head, re.M)
+        if sm and sm.group(1) != "draft":
+            head = (head[:sm.start()] + "status: draft\nsource_status: " + sm.group(1)
+                    + head[sm.end():])
+        return (head
+                + f"\npolished_by: gemini-article-polish\npolish_model: {model_used}"
+                + f"\npolish_date: '{today}'\npolish_source: {args.article}"
+                + fm.group(2))
+
+    new_text = re.sub(r"\A(---\n.*?)(\n---\n)", _amend_frontmatter, new_text,
+                      count=1, flags=re.S)
     (args.out / "article.md").write_text(new_text, encoding="utf-8")
     print(f"wrote {args.out / 'article.md'} ({status}; {len(warns)} warning(s))")
     return 0
