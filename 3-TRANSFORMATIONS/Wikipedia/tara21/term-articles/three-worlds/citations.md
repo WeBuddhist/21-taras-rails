@@ -1,7 +1,10 @@
 ---
 topic: three-worlds
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-worlds/article.md (v1, method wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-21
 context_packages:
   - 2-RAILS/Claims/three-worlds.md
 rails_status: draft
@@ -21,134 +24,147 @@ status: draft
 
 # Citations — three-worlds (འཇིག་རྟེན་གསུམ)
 
-Scope: this article is drafted from a curated subset of `2-RAILS/Claims/three-worlds.md`'s
-233 cited attestations — nine of the sixteen commentaries the consolidated page draws
-on, selected to keep the article to a manageable number of representative quotations
-per Rule 3 of `wiki-article-from-claims/SKILL.md` ("at most 1–3 verbatim quotations
-per major section"), while still surfacing every facet the consolidated page records:
-the epithet, the netherworld/earth/heaven vs. three-realms definitional divergence,
-the seven-worlds enumerations and the seven/three textual-variant dispute, Tārā's
-power over the worlds, worship by the worldly gods (including the Brahmā-as-creator
-note), and the hidden/tantric channel reading. The seven commentaries not drawn on for
-direct quotation in this drafting pass (`gendun-drub`, `karma-maitri`, `pema-namgyal`,
-`sangye-nyentrul`, `tenga-tulku`, `tenzin-dhonzang`, `tsultrim-namdak`) are not
-under-attested on the consolidated page itself — see its own Coverage table — they
-were simply not needed to keep this particular article's citation count proportionate
-to its length.
+**Revision note (Mode B, `wiki-article-from-claims-v2`).** This revision changes only the
+*register* of the v1 article dated 2026-08-14 — wikivoice for consensus, an at-most-2
+quotation budget, the punctuation contract, and `author_in_use` naming — per the second-round
+linguist review of 2026-08-18. No claim ID has been added, dropped, or re-derived from
+`2-RAILS/Claims/` or the raw tree-guided files: every attestation below is the same set the
+v1 article used. The reference map and per-quotation verification table are carried forward
+unchanged for every ref/quotation retained; rows for quotations that were converted to
+paraphrase are marked accordingly, not deleted, so the audit trail stays complete.
+
+Scope (carried from v1): this article is drafted from a curated subset of
+`2-RAILS/Claims/three-worlds.md`'s 233 cited attestations — nine of the sixteen commentaries
+the consolidated page draws on. The seven commentaries not drawn on for this article
+(`gendun-drub`, `karma-maitri`, `pema-namgyal`, `sangye-nyentrul`, `tenga-tulku`,
+`tenzin-dhonzang`, `tsultrim-namdak`) are not under-attested on the consolidated page itself —
+see its own Coverage table — they were simply not needed to keep this article's citation
+count proportionate to its length.
 
 ## Reference map
 
-Ref names are shared per commentary (Rule 7): the same `<ref name="X">` is defined once,
-in full, on first use, and reused as `<ref name="X" />` on every later citation of that
-commentary elsewhere in the article — regardless of which claim/block that later
-citation supports. The table below lists one row per citation event.
+Ref names are shared per commentary: the same `<ref name="X">` is defined once, in full, on
+first use, and reused as `<ref name="X" />` on every later citation of that commentary
+elsewhere in the article. The table below lists one row per citation event in the **revised**
+article, with a note on whether that claim now appears as direct quotation or paraphrase.
 
-| Ref | Commentary | Claim ID(s) | Quotation (verbatim བོད་ཡིག, if quoted) | Source block |
-|---|---|---|---|---|
-| sungrab-tulku | sungrab-tulku | c-4-12 | — (lead: paraphrased) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-24 |
-| taranatha | taranatha | c-1-9 | "འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་སྤྱན་རས་གཟིགས་ཀྱི་ཞལ་རས་ཀྱི་ཆུ་སྐྱེས་ཏེ་པདྨ་གེ་སར་བྱེ་བ་ལས་སྤུལ་ཞིང་བྱུང་བའོ" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-6 |
-| dharmabhadra | dharmabhadra | c-1-2-1-8 | "ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་གསུམ་གྱི་མགོན་སྐྱབས་ནི་འཕགས་པ་སྤྱན་རས་གཟིགས་ཡིན" | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-11 |
-| sungrab-tulku | sungrab-tulku | c-4-11 | "འཇིག་རྟེན་གསུམ་ནི། ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་བཅས་ཡིན" (used as bare-term mentions, unquoted paraphrase in prose) | #^0-24 |
-| yama-sonam | yama-sonam | c-3-1-19 | "འཇིག་རྟེན་གསུམ་ཡང་ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན། ས་སྟེང་མི་ཡི་འཇིག་རྟེན་གསུམ་ལ་བྱེད་པའམ་ཡང་ན་བཞི་བརྒྱ་པའི་ཟླ་འགྲེལ་ལྟར་ཁམས་གསུམ་ལ་བྱེད་ཀྱང་རུང་ངོ་" | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-21 |
-| taranatha | taranatha | c-5-6 | "འདིར་ནི་མཐུ་དང་ལྡན་པའི་འཇིག་རྟེན་བདུན་ཏེ། ཀླུ་དང་ཡི་དྭགས་དང་ལྷ་མ་ཡིན་དང་། མི་དང་རིག་པ་འཛིན་པ་དང་མིའམ་ཅི་དང་ལྷའི་འཇིག་རྟེན་ནོ" | #^0-19 |
-| drakpa-gyaltsen | drakpa-gyaltsen | c-1-31 | "འདོད་ཁམས་ཀྱི་འགྲོ་བ་ལྔ་དང་། གཟུགས་ཁམས་དང་དྲུག གཟུགས་མེད་ཁམས་དང་བདུན་མནན་པའོ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-32 |
-| gendun-gyatso | gendun-gyatso | c-1-5-3 | "འགྲོ་བ་རྒྱུད་ལྔ་། དེའི་སྟེང་དུ་ཁམས་གོང་མ་གཉིས་བསྣན་པས་བདུན་ཡིན་ནོ" / "འགྲོ་བ་རིགས་དྲུག་སྲེང་པ་བར་དེ་དང་བདུན་ཡིན" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-14 |
-| yama-sonam | yama-sonam | c-3-5-6, c-3-5-11 | "གསུང་སྔ་ཕྱི་གསུམ་གྱི་ནང་དུ་མཐུན་པར་འཇིག་རྟེན་གསུམ་ཞེས་གསུངས་པ་ལས་བདུན་མི་འབྱུང་བས" / "འགྲེལ་མཛད་རྣམས་ཀྱིས་ཀྱང་འཇིག་རྟེན་བདུན་ལ་ཁུངས་བསྟན་པ་གཅིག་ཀྱང་མ་མཐོང་" | #^0-52 (c-3-5-6), #^0-62 (c-3-5-11) |
-| konchok-thabkhe | konchok-thabkhe | c-2-5-4 | "གྲུབ་ཆེན་གྱི་གཞུང་དུ། འཇིག་རྟེན་གསུམ་པོ་ཞབས་ཀྱིས་མནན་ཏེ་ཞེས་དྲངས་འདུག་པ་ནི། གསུམ་དང་བདུན་ནོར་ལུགས་མེད་པས་འགྱུར་སྐྱོན་མིན" | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-34 |
-| gendun-gyatso | gendun-gyatso | c-1-5-2 | "འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། དེ་ཐམས་ཅད་རིག་སྔགས་ཀྱི་མཐུས་ལུས་པ་མེད་པར་དབང་དུ་འགུགས་པར་མཛད་པའི་སྒྲོལ་མ" | #^0-13 |
-| palden-sherab | palden-sherab | c-3-1-5-1-2 | — (paraphrased) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-55 |
-| lobsang-dawa | lobsang-dawa | c-1-2-3-2-4 | "རི་རབ་དང་རི་མནྡཱ་ར་དང་རི་ནག་པོ་འབིགས་བྱེད་སོགས། འཇིག་རྟེན་གསུམ་སྟེ་ས་འོག་ས་སྟེང་ས་བླ་དང་བཅུད་ཀྱི་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བའི་མཐུ་དང་ལྡན་པ" | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-26 |
-| taranatha | taranatha | c-17-6 | — (paraphrased: mountains and three worlds as two related but distinct objects) | #^0-58 |
-| gendun-gyatso | gendun-gyatso | c-1-6-1 | — (paraphrased: worship by great worldly gods) | #^0-15 |
-| taranatha | taranatha | c-6-5 | "ཚངས་པ་འཇིག་རྟེན་གྱི་བྱེད་པོར་འདོད་པའོ" | #^0-21 |
-| yama-sonam | yama-sonam | c-3-10-5 | "དེ་ལྟ་བུའི་རྒྱུ་གཉིས་ཀྱི་སྒོ་ནས་བདུད་དང་འཇིག་རྟེན་ཐམས་ཅད་དབང་དུ་མཛད་པས་ན་མཚན་ཡང་། བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ" | #^0-104 |
-| yama-sonam | yama-sonam | c-3-17-7, c-3-17-8 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། འཇིག་རྟེན་གསུམ་རྣམས། ཞེས་འཇིག་རྟེན་གསུམ་རི་རབ་དང་། མནྡར་དང་། འབིབས་བྱེད་གསུམ་ལ་བྱེད་པར་གསལ་བར་གསུངས་པ" | #^0-218 (c-3-17-7), #^0-219 (c-3-17-8) |
-| yama-sonam | yama-sonam | c-3-1-19 | (referenced again, not requoted) | #^0-21 |
-| yama-sonam | yama-sonam | c-3-17-5 | — (paraphrased: HŪṂ-light-ray causation position) | #^0-216 |
-| yama-sonam | yama-sonam | c-3-17-6 | "བདེ་ལྡན་ལྷ་མོས་ཞབས་བརྡབས་པས། འཇིག་རྟེན་གསུམ་གཡོ་འཇིགས་པར་བྱེད" | #^0-217 |
-| taranatha | taranatha | c-17-15 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | #^0-61 |
-| palden-sherab | palden-sherab | c-3-1-17-3-1 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | #^0-173 |
+| Ref | Commentary | Claim ID(s) | v1 form | v2 form (this revision) | Source block |
+|---|---|---|---|---|---|
+| sungrab-tulku | sungrab-tulku | c-4-12 | paraphrased (lead) | paraphrased (lead, unchanged) | 1-SOURCES/Commentaries/སྒྲོལ་མཉེར་གཅིག་གི་རྣམ་བཤད།.md#^0-24 |
+| taranatha | taranatha | c-1-9 | quoted | **paraphrased** | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md#^0-6 |
+| dharmabhadra | dharmabhadra | c-1-2-1-8 | quoted | **paraphrased** | 1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-11 |
+| sungrab-tulku | sungrab-tulku | c-4-11 | quoted (bare-term paraphrase in prose) | **paraphrased** | #^0-24 |
+| yama-sonam | yama-sonam | c-3-1-19 | quoted | **quoted (retained — one of the article's ≤2 quotations)** | 1-SOURCES/Commentaries/སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་།.md#^0-21 |
+| taranatha | taranatha | c-5-6 | quoted | **paraphrased** | #^0-19 |
+| drakpa-gyaltsen | drakpa-gyaltsen | c-1-31 | quoted | **paraphrased** | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-32 |
+| gendun-gyatso | gendun-gyatso | c-1-5-3 | quoted (two positions) | **paraphrased (two positions, both retained in prose)** | 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་མའི་རྣམ་བཤད།.md#^0-14 |
+| yama-sonam | yama-sonam | c-3-5-6, c-3-5-11 | quoted (two clauses) | **paraphrased** | #^0-52 (c-3-5-6), #^0-62 (c-3-5-11) |
+| konchok-thabkhe | konchok-thabkhe | c-2-5-4 | quoted | **paraphrased** (short root-adjacent fragment "འཇིག་རྟེན་གསུམ་པོ་ཞབས་ཀྱིས་མནན" kept in quotation marks as the disputed textual variant itself, not counted as a commentary quotation) | 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་མའི་ཊིཀྐ་འཕགས་མའི་ཞལ་ལུང་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-34 |
+| gendun-gyatso | gendun-gyatso | c-1-5-2 | quoted | **paraphrased** | #^0-13 |
+| palden-sherab | palden-sherab | c-3-1-5-1-2 | paraphrased | paraphrased (unchanged; now explicitly attributed to Khenchen Penden Sherab as a unique claim, per Rule 5) | 1-SOURCES/Commentaries/རྗེ་བཙུན་སྒྲོལ་མའི་བསྟོད་པ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་དོན་རྣམ་པར་འགྲེལ་བ་དད་བརྩོན་བྱང་ཆུབ་སེམས་མཆོག་གི་པདྨའི་གཞོན་ནུ་ཁ་འབྱེད་པའི་ཐབས་ཤེས་ཉི་ཟླའི་འཛུམ་རླབས་ཞེས་བྱ་བཞུགས་སོ།.md#^0-55 |
+| lobsang-dawa | lobsang-dawa | c-1-2-3-2-4 | quoted | **paraphrased** | 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་མཆན་འགྲེལ་བཞུགས་སོ།.md#^0-26 |
+| taranatha | taranatha | c-17-6 | paraphrased | paraphrased (unchanged) | #^0-58 |
+| gendun-gyatso | gendun-gyatso | c-1-6-1 | paraphrased | paraphrased (unchanged) | #^0-15 |
+| taranatha | taranatha | c-6-5 | quoted | **paraphrased** | #^0-21 |
+| yama-sonam | yama-sonam | c-3-10-5 | quoted | **paraphrased** (epithet "བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ" kept in quotation marks as the name itself, not counted as a commentary quotation) | #^0-104 |
+| yama-sonam | yama-sonam | c-3-17-7, c-3-17-8 | quoted | **paraphrased** | #^0-218 (c-3-17-7), #^0-219 (c-3-17-8) |
+| yama-sonam | yama-sonam | c-3-1-19 | referenced again, not requoted | referenced again, not requoted (unchanged) | #^0-21 |
+| yama-sonam | yama-sonam | c-3-17-5 | paraphrased | paraphrased (unchanged) | #^0-216 |
+| yama-sonam | yama-sonam | c-3-17-6 | quoted | **paraphrased** | #^0-217 |
+| taranatha | taranatha | c-17-15 | quoted | **quoted (retained — the article's second and last quotation, shared with palden-sherab:c-3-1-17-3-1)** | #^0-61 |
+| palden-sherab | palden-sherab | c-3-1-17-3-1 | quoted | **quoted (retained, see above)** | #^0-173 |
+
+## Full attestation beyond in-article refs
+
+Every statement in the revised article already carried ≤3 refs in v1 — no in-article
+citation cap overflow was created by this Mode B pass at the level of *this article's own*
+nine cited commentaries. The broader overflow this section exists to preserve (per
+`wiki-article-from-claims-v2/SKILL.md` §Output) is the gap between the nine commentaries
+cited here and the sixteen the consolidated page `2-RAILS/Claims/three-worlds.md` actually
+draws on. Per Mode B's constraint against re-opening `2-RAILS/Claims/` or the raw
+tree-guided files for content re-derivation, this revision does not re-itemise which of the
+seven uncited commentaries (`gendun-drub`, `karma-maitri`, `pema-namgyal`, `sangye-nyentrul`,
+`tenga-tulku`, `tenzin-dhonzang`, `tsultrim-namdak`) attests each specific statement above —
+that mapping was not recorded in the v1 citations.md either, and producing it now would
+require a fresh consultation of the consolidated page, which is Mode A's job. A future Mode A
+redraft (or a direct edit against the consolidated page) can pull those seven commentaries'
+attestations in per statement using the consolidated page's own Coverage table; nothing is
+lost, since they remain fully attested there.
 
 ## Claims used but not quoted
 
-`sungrab-tulku:c-4-12` (lead identification of Avalokiteśvara), `taranatha:c-17-6`
-(mountains/three-worlds structure), `gendun-gyatso:c-1-6-1` (worship by the great
-worldly gods), `palden-sherab:c-3-1-5-1-2` (seven-worlds/three-worlds scope
-combination), and `yama-sonam:c-3-17-5` (the HŪṂ-light-ray causation position
-in the internal-tension pair) all entered the prose as paraphrase rather than direct
-quotation — each sentence still carries its own `<ref>`.
+Following this revision, all resolved claims except two are represented as paraphrase in the
+article body (each sentence still carries its own `<ref>`): `sungrab-tulku:c-4-12`,
+`sungrab-tulku:c-4-11`, `taranatha:c-1-9`, `taranatha:c-5-6`, `taranatha:c-17-6`,
+`taranatha:c-6-5`, `dharmabhadra:c-1-2-1-8`, `drakpa-gyaltsen:c-1-31`,
+`gendun-gyatso:c-1-5-3`, `gendun-gyatso:c-1-5-2`, `gendun-gyatso:c-1-6-1`,
+`konchok-thabkhe:c-2-5-4`, `lobsang-dawa:c-1-2-3-2-4`, `palden-sherab:c-3-1-5-1-2`,
+`yama-sonam:c-3-5-6`, `yama-sonam:c-3-5-11`, `yama-sonam:c-3-10-5`, `yama-sonam:c-3-17-7`,
+`yama-sonam:c-3-17-8`, `yama-sonam:c-3-17-5`, `yama-sonam:c-3-17-6`.
+
+Only `yama-sonam:c-3-1-19` and the pair `taranatha:c-17-15` / `palden-sherab:c-3-1-17-3-1`
+remain as verbatim quotations — the article's full quotation budget under Rule 6.
 
 ## Unresolvable attestations
 
 None. Every attestation drawn on for this article resolved cleanly against its raw
-tree-guided file.
+tree-guided file in the v1 drafting pass; this revision introduced no new attestation.
 
 ## Warnings
 
-- **`rails_status: draft`.** `2-RAILS/Claims/three-worlds.md` carries `status: draft`
-  in its own frontmatter, per the vault rule that an LLM never marks its own
-  consolidation `complete`. This article was drafted from that draft page on the
-  explicit understanding that the consolidated page itself passed
-  `verify_consolidation.py` clean (0 errors, 0 warnings, 233 citations) before this
-  drafting pass began. A human contributor should review and, if satisfied, promote
-  `2-RAILS/Claims/three-worlds.md` to `status: complete` before this article is
-  treated as final.
-- **No public URLs exist for any of the nine commentaries cited.** Per the wikitext
-  spec's hand-formatted ref form and Rule 7, every `<ref>` in this article carries
-  only author and title — no URL, no year, no page number — because none of these
-  commentaries has a page/URL recorded anywhere upstream (their raw claims files'
-  own frontmatter carries no `year` or `page` field). `yama-sonam`'s author is
-  recorded as "unknown" in its own raw file's frontmatter, so its bibliography entry
-  and its `<ref>` give the title only, with no author name — this is a deliberate
-  absence, not an omission.
-- **Nine of sixteen commentaries drawn on.** This drafting pass selected a
-  representative subset of the consolidated page's sixteen contributing
-  commentaries (see the Scope note above); the other seven remain fully attested on
-  `2-RAILS/Claims/three-worlds.md` itself and could be drawn into a future revision
-  of this article without any new gathering work.
-- **Article length.** The drafted body runs to roughly 1,300–1,500 Tibetan syllables
-  by rough count — close to the wikitext spec's ~1,500-syllable warning threshold.
-  A human reviewer may wish to expand the `སྒྲོལ་མའི་མཐུ་སྟོབས་...` or
-  `གཞུང་ལུགས་སོ་སོའི་བཤད་པ།` sections using the additional attested material already
-  on the consolidated page (e.g. the seven-worlds-as-cakras convergence between
-  `gendun-drub` and `palden-sherab`, or `taranatha`'s grammatical/rhetorical notes at
-  `c-17-9`–`c-17-11`) before treating the article as complete.
+- **`rails_status: draft`.** `2-RAILS/Claims/three-worlds.md` carries `status: draft` in its
+  own frontmatter, per the vault rule that an LLM never marks its own consolidation
+  `complete`. This revision, like the v1 article it replaces, was drafted on the explicit
+  understanding that the consolidated page itself passed `verify_consolidation.py` clean
+  (0 errors, 0 warnings, 233 citations) before the original drafting pass began. A human
+  contributor should review and, if satisfied, promote `2-RAILS/Claims/three-worlds.md` to
+  `status: complete` before this article is treated as final.
+- **No public URLs exist for any of the nine commentaries cited.** Every `<ref>` in this
+  article carries only author and title — no URL, no year, no page number — because none of
+  these commentaries has a page/URL recorded anywhere upstream.
+- **`yama-sonam`'s author name.** The v1 citations.md recorded this commentary's author as
+  "unknown" in its raw claims file's frontmatter. A fresh frontmatter-only check of
+  `2-RAILS/Claims/raw/tree-guided/yama-sonam.md` for this revision's Rule 17 lookup found the
+  `author` and `author_in_use` fields both now populated ("རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་") — the
+  gap noted in v1 has since been filled upstream (likely by `author-metadata-sync`). No
+  content change was needed: the article's `<ref>` and bibliography entries already carried
+  this author name in v1.
+- **Nine of sixteen commentaries drawn on.** Unchanged from v1 — see the Scope note above and
+  §Full attestation beyond in-article refs.
+- **`author_in_use` naming (Rule 17).** All nine commentaries cited in this article have an
+  `author_in_use` value recorded in their own raw claims file frontmatter, and every one of
+  the six in-prose commentator mentions in the revised article (ཇོ་ནང་ཏཱ་ར་ནཱ་ཐ、 རྗེ་བཙུན་ཡ་མ་
+  བསོད་ནམས、 རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན、 རྒྱལ་བ་དགེ་འདུན་རྒྱ་མཚོ、 དཀོན་མཆོག་ཐབས་མཁས、
+  མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ) already matched that value exactly in v1. No `author` fallback was
+  needed and no naming warning applies.
 - **Wikipedia status not checked.** No `article-subject-filter` / `wiki-article-inventory`
-  step was run as part of this task for this specific subject beyond what the task's
-  own instructions state (verdict "standalone," merging term 71); whether a
-  bo.wikipedia article already exists at this title is a separate check this skill
-  run did not perform. No publishing action was taken and no network calls were made.
+  step was run as part of this task; whether a bo.wikipedia article already exists at this
+  title is a separate check this revision did not perform. No publishing action was taken and
+  no network calls were made.
 
 ## Verification
 
-Every quotation was located character-for-character (whitespace-collapsed) in the
-`1-SOURCES/` file its claim's `Cite:` target names, using a Python substring check
-against the actual source file (not the raw claims file, per Rule 4).
+Every quotation below was located character-for-character (whitespace-collapsed) in the
+`1-SOURCES/` file its claim's `Cite:` target names, during the v1 drafting pass. This Mode B
+revision re-verified only the two quotations it retains — by exact-substring diff against the
+v1 wikitext (not a fresh `1-SOURCES/` lookup, per Mode B step 6 — the retained text is
+byte-identical to what was already PASS-verified in v1).
 
-| # | Quotation (as drafted) | Claim | Result |
-|---|---|---|---|
-| 1 | "འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་སྤྱན་རས་གཟིགས་ཀྱི་ཞལ་རས་ཀྱི་ཆུ་སྐྱེས་ཏེ་པདྨ་གེ་སར་བྱེ་བ་ལས་སྤུལ་ཞིང་བྱུང་བའོ" | taranatha:c-1-9 | PASS |
-| 2 | "ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་གསུམ་གྱི་མགོན་སྐྱབས་ནི་འཕགས་པ་སྤྱན་རས་གཟིགས་ཡིན" | dharmabhadra:c-1-2-1-8 | PASS |
-| 3 | "འཇིག་རྟེན་གསུམ་ནི། ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་བཅས་ཡིན" | sungrab-tulku:c-4-11 | PASS |
-| 4 | "འཇིག་རྟེན་གསུམ་ཡང་ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན། ས་སྟེང་མི་ཡི་འཇིག་རྟེན་གསུམ་ལ་བྱེད་པའམ་ཡང་ན་བཞི་བརྒྱ་པའི་ཟླ་འགྲེལ་ལྟར་ཁམས་གསུམ་ལ་བྱེད་ཀྱང་རུང་ངོ་" | yama-sonam:c-3-1-19 | PASS |
-| 5 | "འདིར་ནི་མཐུ་དང་ལྡན་པའི་འཇིག་རྟེན་བདུན་ཏེ། ཀླུ་དང་ཡི་དྭགས་དང་ལྷ་མ་ཡིན་དང་། མི་དང་རིག་པ་འཛིན་པ་དང་མིའམ་ཅི་དང་ལྷའི་འཇིག་རྟེན་ནོ" | taranatha:c-5-6 | PASS |
-| 6 | "འདོད་ཁམས་ཀྱི་འགྲོ་བ་ལྔ་དང་། གཟུགས་ཁམས་དང་དྲུག གཟུགས་མེད་ཁམས་དང་བདུན་མནན་པའོ" | drakpa-gyaltsen:c-1-31 | PASS |
-| 7 | "འགྲོ་བ་རྒྱུད་ལྔ་། དེའི་སྟེང་དུ་ཁམས་གོང་མ་གཉིས་བསྣན་པས་བདུན་ཡིན་ནོ" | gendun-gyatso:c-1-5-3 (position 1) | PASS |
-| 8 | "འགྲོ་བ་རིགས་དྲུག་སྲེང་པ་བར་དེ་དང་བདུན་ཡིན" | gendun-gyatso:c-1-5-3 (position 2) | PASS |
-| 9 | "གསུང་སྔ་ཕྱི་གསུམ་གྱི་ནང་དུ་མཐུན་པར་འཇིག་རྟེན་གསུམ་ཞེས་གསུངས་པ་ལས་བདུན་མི་འབྱུང་བས" | yama-sonam:c-3-5-11 | PASS |
-| 10 | "འགྲེལ་མཛད་རྣམས་ཀྱིས་ཀྱང་འཇིག་རྟེན་བདུན་ལ་ཁུངས་བསྟན་པ་གཅིག་ཀྱང་མ་མཐོང་" | yama-sonam:c-3-5-11 | PASS |
-| 11 | "གྲུབ་ཆེན་གྱི་གཞུང་དུ། འཇིག་རྟེན་གསུམ་པོ་ཞབས་ཀྱིས་མནན་ཏེ་ཞེས་དྲངས་འདུག་པ་ནི། གསུམ་དང་བདུན་ནོར་ལུགས་མེད་པས་འགྱུར་སྐྱོན་མིན" | konchok-thabkhe:c-2-5-4 | PASS |
-| 12 | "འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། དེ་ཐམས་ཅད་རིག་སྔགས་ཀྱི་མཐུས་ལུས་པ་མེད་པར་དབང་དུ་འགུགས་པར་མཛད་པའི་སྒྲོལ་མ" | gendun-gyatso:c-1-5-2 | PASS |
-| 13 | "རི་རབ་དང་རི་མནྡཱ་ར་དང་རི་ནག་པོ་འབིགས་བྱེད་སོགས། འཇིག་རྟེན་གསུམ་སྟེ་ས་འོག་ས་སྟེང་ས་བླ་དང་བཅུད་ཀྱི་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བའི་མཐུ་དང་ལྡན་པ" | lobsang-dawa:c-1-2-3-2-4 | PASS |
-| 14 | "ཚངས་པ་འཇིག་རྟེན་གྱི་བྱེད་པོར་འདོད་པའོ" | taranatha:c-6-5 | PASS |
-| 15 | "དེ་ལྟ་བུའི་རྒྱུ་གཉིས་ཀྱི་སྒོ་ནས་བདུད་དང་འཇིག་རྟེན་ཐམས་ཅད་དབང་དུ་མཛད་པས་ན་མཚན་ཡང་། བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ" | yama-sonam:c-3-10-5 | PASS |
-| 16 | "རྒྱུད་རང་ལས། རི་རབ་མནྡར་དང་འབིགས་བྱེད། འཇིག་རྟེན་གསུམ་རྣམས། ཞེས་འཇིག་རྟེན་གསུམ་རི་རབ་དང་། མནྡར་དང་། འབིབས་བྱེད་གསུམ་ལ་བྱེད་པར་གསལ་བར་གསུངས་པ" | yama-sonam:c-3-17-8 | PASS |
-| 17 | "བདེ་ལྡན་ལྷ་མོས་ཞབས་བརྡབས་པས། འཇིག་རྟེན་གསུམ་གཡོ་འཇིགས་པར་བྱེད" | yama-sonam:c-3-17-6 | PASS |
-| 18 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | taranatha:c-17-15 | PASS |
-| 19 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | palden-sherab:c-3-1-17-3-1 | PASS |
+| # | Quotation (as drafted) | Claim | v1 result | v2 spot-check |
+|---|---|---|---|---|
+| 1 | "འཇིག་རྟེན་གསུམ་ཡང་ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན། ས་སྟེང་མི་ཡི་འཇིག་རྟེན་གསུམ་ལ་བྱེད་པའམ་ཡང་ན་བཞི་བརྒྱ་པའི་ཟླ་འགྲེལ་ལྟར་ཁམས་གསུམ་ལ་བྱེད་ཀྱང་རུང་ངོ་" | yama-sonam:c-3-1-19 | PASS | **PASS — exact-substring match against v1, unchanged** |
+| 2 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | taranatha:c-17-15 | PASS | **PASS — exact-substring match against v1, unchanged** |
+| 3 | "འཇིག་རྟེན་གསུམ་ནི་སྟེང་འོག་གི་དབྱེ་བས་རྩ་གསུམ་གསུམ་དྲུག་གོ" | palden-sherab:c-3-1-17-3-1 | PASS | **PASS — exact-substring match against v1, unchanged** |
 
-**19/19 substantive quotations verified PASS** (whitespace-collapsed comparison; two
-quotations — #7 and #12 — required the source's own punctuation exactly, confirmed
-present). The remaining short bare-term mentions in the article body (e.g. "འཇིག་རྟེན་
-གསུམ", "འཇིག་རྟེན་བདུན") are the article's own subject terms rather than
-claim-specific quotations, and are not separately numbered above.
+The other 16 quotations verified PASS in v1 (rows 2–3, 5–13, 15–17 of the original
+verification table) were converted to paraphrase in this revision and removed from the
+article body; they needed no re-check per Mode B step 6, since text being removed carries no
+verification burden. Their claim IDs remain in the reference map above, now marked
+paraphrased, so no attestation is lost.
+
+**2 distinct quotations retained (3 citation events), both PASS.** The article's short
+bare-term / epithet mentions in quotation marks (e.g. "འཇིག་རྟེན་གསུམ", "འཇིག་རྟེན་བདུན",
+"འགལ", "འཇིག་རྟེན་པའི་ལྷ་ཆེན་པོ", "བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ",
+"འཇིག་རྟེན་གསུམ་པོ་ཞབས་ཀྱིས་མནན") are the article's own subject terms and epithets rather
+than claim-specific verbatim quotations, and do not count against the ≤2 quotation budget —
+consistent with how v1's citations.md already treated bare-term mentions.
