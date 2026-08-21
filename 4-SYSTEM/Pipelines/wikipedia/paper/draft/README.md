@@ -1,12 +1,27 @@
 # paper/draft — the deliverables and how to regenerate them
 
+> **2026-08-21 revision — back to 15 pages.** The 2026-08-19 update had grown the paper to
+> ~19 pages; `paper-src.md` was cut back to the 15-page budget (12,879 → 10,812 words) and
+> the .docx rebuilt. Page count was verified by exporting the .docx to PDF via Pages: this
+> build and the known-15-page 2026-08-10 build both render at 19 Pages-pages (Pages inflates
+> the Word layout ~×1.27, so 19 Pages-pages ≈ 15 Word pages). Content changes beyond
+> compression: **the alignment/transclusion step (old §5.3) is removed from the paper** —
+> retired from the production path, nothing downstream consumes aligned data; one honest
+> clause in Route A (§5.8) records that the pilot's extraction used it, since the §8
+> extraction-capture numbers are measured against it. Sections 5.4–5.12 renumbered to
+> 5.3–5.11. **New Figure 3**: a worked example — excerpt of Gendün Drub's promoted sa-bcad
+> tree (10 of 37 nodes, English glosses; its leaves under the extended explanation number
+> exactly 21). Old Table 3 (human checkpoints) became a prose sentence in §5.0; Tables 4–6
+> renumbered 3–5. All measured numbers and [TO FILL] slots preserved.
+
 > **2026-08-19 revision.** `paper-src.md` was updated to the current pipeline state and the
 > .docx rebuilt: §5 restructured so every step states input → output → how it works in plain
 > language; a new §5.4 (the subject-selection keyword chain); §5.9 extended with the Route B
 > batch, the import bridge, and the native-reviewer style-revision loop (v2 skill); batch
 > numbers throughout (67 consolidated pages, 43+23 drafted, 42 imported, 861/882 = 97.6%
 > verbatim); bo.wikipedia figures re-checked against the live API. Reference for the step
-> detail: `../11 - Pipeline Steps in Detail.md`. Remaining **[TO FILL]** slots are unchanged —
+> detail: `../11 - Pipeline Steps in Detail.md` (note: it still documents the alignment step
+> the paper no longer reports, as run history). Remaining **[TO FILL]** slots are unchanged —
 > they need team data (revival-campaign records, reviewer-minutes, rater results, batch audit
 > pass rates).
 

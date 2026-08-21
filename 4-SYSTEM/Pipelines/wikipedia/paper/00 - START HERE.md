@@ -15,6 +15,16 @@
 > sequence — **the canonical plan wins.** These notes remain the source for verified facts,
 > policy detail, and demo logistics.
 
+> [!tip] Update 2026-08-21 — cut back to the 15-page budget; alignment step removed
+> `paper/draft/paper-src.md` was compressed from ~19 pages back to 15 (12,879 → 10,812
+> words; page count verified via Pages PDF export against the known-15-page 2026-08-10
+> build) and the .docx rebuilt. The alignment/transclusion step (old §5.3) is **removed
+> from the paper** — it is retired from the production path and nothing downstream
+> consumes aligned data; Route A (§5.8) keeps one clause noting the pilot's extraction
+> used it. Sections and tables renumbered accordingly. New Figure 3: a worked example —
+> excerpt of Gendün Drub's promoted sa-bcad tree with English glosses. All measured
+> numbers and [TO FILL] slots preserved. Details: `draft/README.md`.
+
 > [!tip] Update 2026-08-19 — the paper now reports the corpus-wide batch and the style loop
 > `paper/draft/paper-src.md` (source of the 15-page .docx, rebuilt same day) was brought up to
 > the post-batch state: §5 restructured so **every step documents input → output → core logic
