@@ -1,7 +1,10 @@
 ---
 topic: paramita
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/paramita/article.md (v1, method wiki-article-from-claims, dated 2026-08-14)
+revision_date: 2026-08-21
 context_packages:
   - 2-RAILS/Claims/paramita.md
 rails_status: draft
@@ -22,6 +25,47 @@ status: draft
 ---
 
 # Citations — pāramitā (ཕ་རོལ་ཕྱིན་པ།)
+
+## Revision note (Mode B, 2026-08-21)
+
+This article was rewritten in place from the v1 draft (`wiki-article-from-claims`,
+2026-08-14) to v2 register (`wiki-article-from-claims-v2`), per
+`4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md` Mode B. No claim IDs were added
+or re-derived — every claim ID used below already appears in this file's v1 reference
+map, "Claims used but not quoted", or "Claims resolved but not incorporated" sections,
+which are carried forward unchanged as the underlying grounding record. Three changes
+were made:
+
+1. **Quotation budget applied (Rule 6).** Of the v1 draft's 14 verbatim commentary
+   quotations, 12 were converted to wikivoice/attributed paraphrase (grounded in the same
+   claim's བོད་ཡིག/gloss already on record — no new phrasing invented). The 2 retained —
+   `yama-sonam:c-3-3-8` (the ⚑ divergence on six- vs ten-fold grouping) and
+   `tenzin-dhonzang:c-3-69` (the fourfold ཤེར་ཕྱིན/ཡུམ/མྱང་འདས/ཆོས་སྐུ equation) — were
+   spot-verified as unchanged exact substrings of their v1 PASS-verified text (see
+   Verification below); they were not re-checked against `1-SOURCES/` from scratch. The
+   root-verse-4 quotation in the lead is unchanged and remains exempt from the budget
+   (Rule 6: root-text quotation in the lead does not count).
+2. **Citation cap applied (Rule 7).** Statements that carried 4–6 refs in v1 (the lead's
+   and the "ཕྱག་འཚལ་བཞི་པ" section's ten-pāramitā/ten-bhūmi consensus, previously cited to
+   6 of the 16 attesting commentaries) are now capped at 3 representative refs per
+   statement, reusing refs already named elsewhere in the article (Rule 7). The refs
+   dropped from those specific statements — `yama-sonam` and `tsultrim-namdak` — remain
+   cited elsewhere in the article for their own divergence/unique material; they are not
+   removed from the article, only from that one capped statement. See "Full attestation
+   beyond in-article refs" below for the complete list per capped statement.
+3. **`author_in_use` naming correction (Rule 17).** v1 named `yama-sonam`'s commentary in
+   prose by **title only** ("སྒྲོལ་མའི་འགྲེལ་བ་འཕྲིན་ལས་ཆར་དུ་སྙིལ་བའི་སྤྲིན་ཕུང་ལས") because
+   its old warning below (now corrected) recorded the author as unknown. A frontmatter-only
+   lookup of `2-RAILS/Claims/raw/tree-guided/yama-sonam.md` for this revision found
+   `author_in_use: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` already populated (no longer "unknown") — this
+   commentary's authorship was evidently resolved by a human contributor since the v1
+   draft, likely via the `author-metadata-sync` skill. The v2 prose now names the
+   commentator directly ("རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ཀྱིས"), per Rule 17. No other commentary's
+   `author_in_use` in this article changed from what v1 already used in prose — v1's other
+   ten in-prose names already matched their `author_in_use` values exactly.
+
+All other content below (reference map, claims-used lists, unresolvable attestations,
+verification table) is v1's grounding record, carried forward unchanged.
 
 Scope: this article covers the pāramitā **category itself** — its count/classification
 as six- or ten-fold, its central attestation at root verse 4 (correlated with the ten
@@ -96,6 +140,31 @@ quotation already on `dana.md`/`virya.md`), `konchok-thabkhe:c-2-4-5` (verse-3/v
 structural distinction, paraphrased), `tenga-tulku:c-1-2-2-1-1-2-4` (causal/antidote
 framing, paraphrased).
 
+## Full attestation beyond in-article refs
+
+Added for the v2 revision, per Rule 7 / the v2 skill's `citations.md` addition. Two
+statements in the v2 article cap a consensus attestation at 3 representative refs; the
+complete attesting set (all 16 commentaries) is preserved here so no attestation is lost.
+
+- **Lead, root-verse-4 → ten-pāramitā/ten-bhūmi consensus** (v2 in-article refs:
+  `tenzin-dhonzang`, `palden-sherab`, `konchok-thabkhe`). Also stated a second time in
+  "ཕྱག་འཚལ་བཞི་པའི་ཕ་རོལ་ཕྱིན་པ་བཅུ་དང་ས་བཅུ།" with a third rep-set (`tenzin-dhonzang`,
+  `drakpa-gyaltsen`, `konchok-thabkhe`). Across both mentions, the in-article refs for
+  this one underlying consensus claim are `tenzin-dhonzang`, `palden-sherab`,
+  `konchok-thabkhe`, `drakpa-gyaltsen` (4 of 16). The remaining attesting commentaries,
+  not named for this claim anywhere in the v2 article body (though several are cited
+  elsewhere for their own distinct material):
+  `yama-sonam:c-3-4-3`/`c-3-4-6`, `tsultrim-namdak:c-2-1-2-1-13`/`c-2-1-2-1-15`,
+  `dharmabhadra:c-1-2-2-1-1-3-2`/`c-1-2-2-1-1-3-5`, `gendun-drub:c-2-2-2-2-1-1-3-4`,
+  `karma-maitri:c-1-1-4-4`, `lobsang-dawa:c-1-2-2-1-1-3-4`, `sangye-nyentrul:c-5-0-3`.
+- **"ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་མར་ངོས་འཛིན་པ།", Tārā identified with Prajñāpāramitā itself**
+  (v1 cited 4: `pema-namgyal`, `sungrab-tulku:c-7-6`, `tenga-tulku:c-1-2-2-1-1-3-1-3`,
+  `konchok-thabkhe:c-2-4-2`; v2 in-article refs capped to 3: `pema-namgyal`,
+  `sungrab-tulku`, `konchok-thabkhe`). Not named for this specific claim in the v2
+  article: `tenga-tulku:c-1-2-2-1-1-3-1-3` (this commentary is still cited elsewhere in
+  the v2 article, for the causal-transformation claim in
+  "རྒྱུའི་གནས་སྐབས་སུ་སྒྲོལ་མའི་སྐུར་འགྱུར་ཚུལ།").
+
 ## Claims resolved but not incorporated
 
 Five commentaries that contributed to `paramita.md`'s Facet-2 (ten-pāramitā/ten-bhūmi)
@@ -125,11 +194,25 @@ tree-guided file.
   spec's hand-formatted ref form, every `<ref>` carries only author and title — no URL,
   year, or page, because none of these raw claims files' frontmatter records a `year` or
   `page` field. True of all eleven refs without exception.
-- **`yama-sonam`'s author is unknown.** Its raw claims file records `author:
-  "unknown"` in frontmatter, matching the convention already used on `dana/article.md`:
-  its ref carries only the title plus `(རྗེ་བཙུན་ཡ་མ་བསོད་ནམས།)` ("Jetsün Yama Sonam").
+- **`yama-sonam`'s author, previously logged as unknown, is now resolved (v2 correction).**
+  The v1 draft's warning here said this commentary's raw claims file recorded `author:
+  "unknown"` and that its ref/prose therefore carried only the title. A frontmatter-only
+  re-check of `2-RAILS/Claims/raw/tree-guided/yama-sonam.md` for this v2 revision (Rule 17
+  lookup) found `author: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"` and `author_in_use: "རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་"`
+  already populated — the "unknown" state no longer holds, apparently resolved by a human
+  contributor between the v1 and v2 drafting dates (possibly via `author-metadata-sync`).
+  The v2 article now names this commentator directly in prose ("རྗེ་བཙུན་ཡ་མ་བསོད་ནམས་ཀྱིས")
+  per Rule 17; the `<ref>` tag content is unchanged (title + formal author, per this
+  skill's ref-form rule).
+- **Quotation budget (v2).** 12 of the v1 draft's 14 verbatim commentary quotations were
+  converted to paraphrase to meet the v2 skill's 2-quotation cap (Rule 6); see the
+  Revision note above for which 2 were retained and why.
+- **Citation cap (v2).** Two statements that carried 4–6 refs in v1 are capped to 3
+  representative refs each in v2 (Rule 7); the dropped refs are not removed from the
+  article (most are cited elsewhere for their own material) but no longer attached to
+  those two specific statements. See "Full attestation beyond in-article refs" above.
 - **Five claims resolved but not drafted in** — see "Claims resolved but not
-  incorporated" above.
+  incorporated" above (unchanged from v1; still not incorporated in v2).
 - **The śīla/prajñā gap is not resolved by this article.** `2-RAILS/Claims/paramita.md`
   flags that śīla and prajñā were not selected as standalone topics by the
   article-worthiness filter, and that the Prajñāpāramitā-identity material gathered for
@@ -149,24 +232,35 @@ tree-guided file.
 
 Every quotation was located character-for-character (whitespace-collapsed, via `grep -F`)
 in the `1-SOURCES/` file its claim's `Cite:` target names. All quotations passed on first
-attempt; none required correction.
+attempt; none required correction. This table is v1's original 14-quotation verification
+record, carried forward unchanged as the grounding evidence. **In the v2 article, only
+rows 5 and 14 remain as verbatim quotations** (root-verse quotation aside — that quote,
+in the lead, is unchanged from v1 and stays outside the quotation budget per Rule 6); rows
+1–4 and 6–13 were converted to wikivoice or attributed paraphrase per Rule 6, using the
+same claim's content already resolved and verified here — no fresh `1-SOURCES/` lookup was
+needed for a paraphrase. Rows 5 and 14 were spot-verified for the v2 revision as unchanged
+exact substrings of the PASS text below (Mode B step 6), not re-checked against
+`1-SOURCES/` from scratch.
 
-| # | Quotation (as drafted) | Claim | Result |
-|---|---|---|---|
-| 1 | "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། ། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། ། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། ། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ" | tenzin-dhonzang:c-4-4-2 | PASS |
-| 2 | "ཕ་རོལ་ཕྱིན་པ་བཅུ་ནི། སྦྱིན་པ་དང་། ཚུལ་ཁྲིམས་དང་། བཟོད་པ་དང་། བརྩོན་འགྲུས་དང་། བསམ་གཏན་དང་། ཤེས་རབ་དང་། ཐབས་དང་། སྟོབས་དང་། སྨོན་ལམ་དང་། ཡེ་ཤེས་ཕར་ཕྱིན་ནོ" | palden-sherab:c-3-1-4-1-4 | PASS |
-| 3 | "ས་བཅུ་མ་ལུས་པའི་ངོ་བོ་ཕ་རོལ་ཕྱིན་པ་བཅུ་ཐོབ་པའོ" | drakpa-gyaltsen:c-1-25 | PASS |
-| 4 | "ས་རང་རང་གི་ངོས་སྐལ་གྱི་ཕར་ཕྱིན་བཅུའི་འཕེལ་བ་ཡོངས་སུ་རྫོགས་པས་རྒྱལ་བའི་སྲས་ས་བཅུ་པ་རྣམས་ཀྱིས་ཀྱང་ཤིན་ཏུ་སྟེ་རབ་ཏུ་བསྟེན་པར་མཛད་མའོ" | konchok-thabkhe:c-2-4-4 | PASS |
-| 5 | "ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ" | yama-sonam:c-3-3-8 | PASS |
-| 6 | "ཕར་ཕྱིན་བཅུ་སྟེ་རླུང་བཅུ་གནས་དག་པས་ཡེ་ཤེས་ཆོས་སྐུ་ནི་རྒྱལ་བ་སྲས་བཅས་ཡུམ་ཆེན་ཡིན་ནོ" | palden-sherab:c-3-1-4-3-1 | PASS |
-| 7 | "ཕར་ཕྱིན་བཅུ་སྟེ་རླུང་བཅུ་གནས་གྱུར་པས" | taranatha:c-4-11 | PASS |
-| 8 | "ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་པོ་དེ་སྤྱད་པ་ལས་སྒྲོལ་མའི་སྐུ་ཐོབ་སྟེ" | drakpa-gyaltsen:c-1-22 | PASS |
-| 9 | "སེར་སྣའི་གཉེན་པོ་སྦྱིན་པ་དང་། ལེ་ལོའི་གཉེན་པོ་བརྩོན་འགྲུས་དང་། ཚུལ་འཆལ་གྱི་གཉེན་པོ་བསྲུང་དཀའ་བ་ཐུབ་པའི་ཚུལ་ཁྲིམས" | sungrab-tulku:c-6-5 | PASS |
-| 10 | "ཆོས་སྐུ་ཤེས་རབ་ཕ་རོལ་ཕྱིན་མ་ཡུམ" | pema-namgyal:c-0-2 | PASS |
-| 11 | "རྗེ་བཙུན་སྒྲོལ་མ་ནི། ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ངོ་བོ་ཡིན་ལ" | sungrab-tulku:c-7-6 | PASS |
-| 12 | "རྗེ་བཙུན་མ་ནི་ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ངོ་བོར་གྱུར་པ་ཡིན་ནོ" | tenga-tulku:c-1-2-2-1-1-3-1-3 | PASS |
-| 13 | "རྒྱལ་བ་ཐམས་ཅད་བསྐྱེད་པའི་ངེས་དོན་གྱི་ཡུམ་མཆོག་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་མ" | konchok-thabkhe:c-2-4-2 | PASS |
-| 14 | "རང་བཞིན་གྱི་ཤེར་ཕྱིན། རང་བཞིན་གྱི་ཡུམ། རང་བཞིན་གྱི་མྱང་འདས། རང་བཞིན་གྱི་ཆོས་སྐུ" | tenzin-dhonzang:c-3-69 | PASS |
+| # | Quotation (as drafted) | Claim | Result | In v2 article? |
+|---|---|---|---|---|
+| 1 | "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། ། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། ། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། ། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ" | tenzin-dhonzang:c-4-4-2 | PASS | Yes — root-verse quotation in the lead, exempt from the v2 quotation budget (Rule 6) |
+| 2 | "ཕ་རོལ་ཕྱིན་པ་བཅུ་ནི། སྦྱིན་པ་དང་། ཚུལ་ཁྲིམས་དང་། བཟོད་པ་དང་། བརྩོན་འགྲུས་དང་། བསམ་གཏན་དང་། ཤེས་རབ་དང་། ཐབས་དང་། སྟོབས་དང་། སྨོན་ལམ་དང་། ཡེ་ཤེས་ཕར་ཕྱིན་ནོ" | palden-sherab:c-3-1-4-1-4 | PASS | No — converted to unquoted wikivoice enumeration in "དབྱེ་བ།" |
+| 3 | "ས་བཅུ་མ་ལུས་པའི་ངོ་བོ་ཕ་རོལ་ཕྱིན་པ་བཅུ་ཐོབ་པའོ" | drakpa-gyaltsen:c-1-25 | PASS | No — folded into the consensus sentence in "ཕྱག་འཚལ་བཞི་པའི..." (paraphrased, no longer separately attributed) |
+| 4 | "ས་རང་རང་གི་ངོས་སྐལ་གྱི་ཕར་ཕྱིན་བཅུའི་འཕེལ་བ་ཡོངས་སུ་རྫོགས་པས་རྒྱལ་བའི་སྲས་ས་བཅུ་པ་རྣམས་ཀྱིས་ཀྱང་ཤིན་ཏུ་སྟེ་རབ་ཏུ་བསྟེན་པར་མཛད་མའོ" | konchok-thabkhe:c-2-4-4 | PASS | No — converted to attributed paraphrase |
+| 5 | "ཞི་བའི་དོན་ལ་འགའ་ཞིག་གིས་ཤེས་རབ་ཀྱི་ཕར་ཕྱིན་ལ་སྦྱར་བ་དང་། གཞན་དག་ཕར་ཕྱིན་བཅུའི་མི་མཐུན་ཕྱོགས་ཞི་བའི་དོན་དུ་བྱས་ནས་སྤྱོད་ཡུལ་གྱིས་ཤེས་རབ་བསྟན་པར་གསུངས་སོ" | yama-sonam:c-3-3-8 | PASS | **Yes — retained verbatim (budget quote 1 of 2), ⚑ divergence, spot-verified unchanged** |
+| 6 | "ཕར་ཕྱིན་བཅུ་སྟེ་རླུང་བཅུ་གནས་དག་པས་ཡེ་ཤེས་ཆོས་སྐུ་ནི་རྒྱལ་བ་སྲས་བཅས་ཡུམ་ཆེན་ཡིན་ནོ" | palden-sherab:c-3-1-4-3-1 | PASS | No — converted to attributed paraphrase (merged with row 7's commentary) |
+| 7 | "ཕར་ཕྱིན་བཅུ་སྟེ་རླུང་བཅུ་གནས་གྱུར་པས" | taranatha:c-4-11 | PASS | No — converted to attributed paraphrase |
+| 8 | "ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་པོ་དེ་སྤྱད་པ་ལས་སྒྲོལ་མའི་སྐུ་ཐོབ་སྟེ" | drakpa-gyaltsen:c-1-22 | PASS | No — converted to attributed/wikivoice paraphrase, merged with rows 9's/12's related material |
+| 9 | "སེར་སྣའི་གཉེན་པོ་སྦྱིན་པ་དང་། ལེ་ལོའི་གཉེན་པོ་བརྩོན་འགྲུས་དང་། ཚུལ་འཆལ་གྱི་གཉེན་པོ་བསྲུང་དཀའ་བ་ཐུབ་པའི་ཚུལ་ཁྲིམས" | sungrab-tulku:c-6-5 | PASS | No — converted to attributed paraphrase |
+| 10 | "ཆོས་སྐུ་ཤེས་རབ་ཕ་རོལ་ཕྱིན་མ་ཡུམ" | pema-namgyal:c-0-2 | PASS | No — converted to wikivoice paraphrase |
+| 11 | "རྗེ་བཙུན་སྒྲོལ་མ་ནི། ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ངོ་བོ་ཡིན་ལ" | sungrab-tulku:c-7-6 | PASS | No — converted to wikivoice paraphrase |
+| 12 | "རྗེ་བཙུན་མ་ནི་ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ངོ་བོར་གྱུར་པ་ཡིན་ནོ" | tenga-tulku:c-1-2-2-1-1-3-1-3 | PASS | No — dropped to the "Full attestation beyond in-article refs" list for this claim (ref cap); `tenga-tulku` remains cited elsewhere in the article |
+| 13 | "རྒྱལ་བ་ཐམས་ཅད་བསྐྱེད་པའི་ངེས་དོན་གྱི་ཡུམ་མཆོག་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་མ" | konchok-thabkhe:c-2-4-2 | PASS | No — converted to wikivoice paraphrase |
+| 14 | "རང་བཞིན་གྱི་ཤེར་ཕྱིན། རང་བཞིན་གྱི་ཡུམ། རང་བཞིན་གྱི་མྱང་འདས། རང་བཞིན་གྱི་ཆོས་སྐུ" | tenzin-dhonzang:c-3-69 | PASS | **Yes — retained verbatim (budget quote 2 of 2), distinctive unique formulation, spot-verified unchanged** |
 
-**14/14 quotations verified PASS**, all located via `grep -F` against their cited
-`1-SOURCES/Commentaries/` file with no correction needed.
+**14/14 quotations verified PASS** (v1 record, carried forward), all located via `grep -F`
+against their cited `1-SOURCES/Commentaries/` file with no correction needed. **In the v2
+article, 2 of these 14 remain as verbatim commentary quotations** (rows 5 and 14, both
+spot-verified unchanged for this revision) **plus the unchanged root-verse quotation in
+the lead** (row 1, exempt from the budget) — satisfying the v2 skill's 2-quotation cap.

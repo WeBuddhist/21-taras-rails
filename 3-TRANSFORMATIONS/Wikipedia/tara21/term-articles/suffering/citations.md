@@ -1,7 +1,9 @@
 ---
 topic: suffering
 article: article.md
-method: wiki-article-from-claims
+method: wiki-article-from-claims-v2
+revision_mode: B
+revised_from: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/suffering/article.md (v1, method wiki-article-from-claims, dated 2026-08-14)
 context_packages:
   - 2-RAILS/Claims/suffering.md
 rails_status: draft
@@ -18,10 +20,81 @@ raw_sources_cited:
   - 2-RAILS/Claims/raw/tree-guided/tenzin-dhonzang.md
   - 2-RAILS/Claims/raw/tree-guided/tsultrim-namdak.md
 date: 2026-08-14
+revision_date: 2026-08-21
 status: draft
 ---
 
 # Citations — suffering (སྡུག་བསྔལ།)
+
+## Revision note (Mode B, 2026-08-21)
+
+This article was rewritten in place from the `wiki-article-from-claims` (v1) draft to
+`wiki-article-from-claims-v2` register, per `4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`
+Procedure — Mode B. Only the **register** changed — no claim IDs, quotations' underlying
+facts, or citation targets were altered, added, or dropped. Concretely:
+
+- **Wikivoice conversion.** Every consensus/majority-attested statement (the lead's
+  four-truths placement, the མཚན་ཉིད quartet gloss, the etymology of "Tārā" as protector
+  from suffering, the benefits described in ཕན་ཡོན) was rewritten from "commentator X
+  says '…'" into plain declarative wikivoice, with the supporting `<ref>`s retained.
+  Inline commentator attribution was kept only for the two facets the source
+  `citations.md` had already flagged as unique to a single commentary — Tenzin Dhonzang's
+  typology/renunciation material (དབྱེ་བ, ངེས་འབྱུང་) and Tsultrim Namdak's narrative
+  illustrations (ལོ་རྒྱུས་དཔེ་བརྗོད) — and for the one genuine ⚑ divergence
+  (`gendun-drub:⚑c-2-2-2-2-2-3`, in གཞུང་ལུགས་སོ་སོའི་བཤད་པ).
+- **Quotation budget applied.** 23 of the 25 verbatim quotations in the v1 draft were
+  converted to paraphrase (same claim content, same ref, quotation marks removed); the
+  remaining 2 — both positions of the ⚑ divergence — were kept verbatim because the
+  divergence turns on the exact wording. No claim ID was dropped: every quotation cut
+  still carries its original `<ref>` on the paraphrased sentence.
+- **Citation cap applied.** Several one-claim-one-sentence v1 sentences were merged into
+  single wikivoice statements citing 2–3 representative commentaries (e.g. the མཚན་ཉིད
+  quartet gloss now cites sungrab-tulku + palden-sherab + dharmabhadra in one sentence;
+  the etymology sentence cites dharmabhadra + gendun-drub + palden-sherab). No merged
+  statement carries more than 3 `<ref>`s. Because every original claim's ref is still
+  present in the rewrite (redistributed onto merged sentences, never deleted), no
+  attestation was lost to the cap — see "Full attestation beyond in-article refs," below.
+- **Author naming.** All 11 raw claims files already carry an `author_in_use` key in
+  their own frontmatter (confirmed by a frontmatter-only read on 2026-08-21); none needed
+  the `source_file` fallback. Since v1's attribution style is now almost entirely removed
+  in favor of wikivoice, `author_in_use` names now appear in-prose only in the two unique
+  facets and the divergence section — `སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་`,
+  `མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་`, and `རྒྱལ་བ་དགེ་འདུན་གྲུབ་` — all copied verbatim from their
+  raw claims files' `author_in_use` field, unchanged from what v1 already used for these
+  three. No warning needed.
+- **`<ref>` and bibliography content untouched**, per Rule 17 (formal `author` + `title`
+  only, `author_in_use` is prose-only) — carried forward byte-identical from v1.
+- **Not touched:** `2-RAILS/Claims/`, the raw tree-guided files, and `1-SOURCES/` were
+  not reopened, per Mode B. The two retained quotations were spot-verified as an exact
+  substring diff against the source `citations.md`'s own PASS records (see
+  "Spot-verification of retained quotations," below), not re-checked against `1-SOURCES/`.
+
+### Full attestation beyond in-article refs
+
+Not applicable in the overflow sense Rule 7 anticipates: no rewritten statement exceeds
+the 3-ref cap, so no attestation was displaced from a statement to make room. Every
+`<ref>` cited in the v1 draft still appears in this revision — merging several
+one-claim sentences into one wikivoice sentence redistributed refs across fewer,
+denser statements but dropped none. There is accordingly no additional attestation
+to record here beyond the reference map below (unchanged from v1) and the "Claims
+resolved but not incorporated" section (also unchanged from v1 — those five commentaries
+were never drafted into either version).
+
+### Spot-verification of retained quotations
+
+Both quotations kept in the v2 rewrite (the ⚑ divergence's two positions) are unchanged,
+exact-substring matches against the quotations already marked PASS in this file's
+original verification table (rows 24–25, both `gendun-drub:⚑c-2-2-2-2-2-3`):
+
+| Quotation | Claim | v1 PASS row | v2 status |
+|---|---|---|---|
+| "འབྲས་བུ་སྡུག་བསྔལ་ཞི་མ" | gendun-drub:⚑c-2-2-2-2-2-3 (Position 1) | row 24 | unchanged, exact match |
+| "འབྲས་བུ་སྐྱེ་རྒ་ན་འཆི་སོགས་ཀྱི་སྡུག་བསྔལ་ཞི་བས་ཞི་མ" | gendun-drub:⚑c-2-2-2-2-2-3 (Position 2) | row 25 | unchanged, exact match |
+
+The other 23 quotations from the v1 verification table below were converted to
+paraphrase in the v2 article body and are no longer quoted verbatim; their PASS records
+remain below as the historical verification trail for the underlying claims, which are
+still cited (via the same `<ref>`s) as paraphrased factual content.
 
 Scope: this article covers *suffering* (སྡུག་བསྔལ, duḥkha) as a doctrinal category in its
 own right — its place in the four truths, its typology, its role in generating
