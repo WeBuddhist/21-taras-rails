@@ -199,6 +199,7 @@
   },
   "active": "5fa4b81c8c5b897a",
   "lastOpenFiles": [
+    "4-SYSTEM/Pipelines/wikipedia/paper/draft/paper-src.md.tmp.91378.b00ab65989ff",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-15/article.md.bak",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/article-preview.md",
@@ -233,7 +234,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/པདྨ/history",
     "3-TRANSFORMATIONS/Wikipedia/tara21/articles/ཕྱག་རྒྱ/history",
     "3-TRANSFORMATIONS/Wikipedia/tara21/ledger.json",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/གནོད་སྦྱིན/import.json",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/གནོད་སྦྱིན/citations.json"
+    "3-TRANSFORMATIONS/Wikipedia/tara21/articles/གནོད་སྦྱིན/import.json"
   ]
 }
