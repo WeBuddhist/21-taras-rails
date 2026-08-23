@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/article.md (pre-polish).
+
 # Citations — meru (རི་རབ།)
 
 **Mode B revision (2026-08-20).** This citations.md replaces the prior (v1-register)

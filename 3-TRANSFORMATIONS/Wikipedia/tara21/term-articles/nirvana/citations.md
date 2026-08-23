@@ -28,6 +28,8 @@ date: 2026-08-21
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/nirvana/article.md (pre-polish).
+
 # Citations — nirvana (མྱ་ངན་འདས།)
 
 Scope: unchanged from the v1 article this revises — *nirvāṇa* (མྱ་ངན་འདས།) as it is treated

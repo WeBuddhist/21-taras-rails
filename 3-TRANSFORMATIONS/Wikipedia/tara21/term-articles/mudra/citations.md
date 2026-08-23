@@ -22,6 +22,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/mudra/article.md (pre-polish).
+
 # Citations — mudra (ཕྱག་རྒྱ)
 
 **Mode B revision.** This citations.md was rewritten in place from the v1 article's own

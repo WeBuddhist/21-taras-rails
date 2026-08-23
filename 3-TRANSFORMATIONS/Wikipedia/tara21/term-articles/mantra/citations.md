@@ -25,6 +25,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/mantra/article.md (pre-polish).
+
 # Citations — mantra (སྔགས)
 
 Scope: this article covers *mantra* (སྔགས) as a generic Vajrayana category — etymology,

@@ -28,6 +28,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/pacification/article.md (pre-polish).
+
 # Citations — pacification (ཞི་བ)
 
 ## Mode B revision note (2026-08-20)
