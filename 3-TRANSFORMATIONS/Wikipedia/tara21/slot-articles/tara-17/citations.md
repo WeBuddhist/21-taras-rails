@@ -29,6 +29,8 @@ date: 2026-08-11
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-17/article.md (pre-polish).
+
 # Citations — tara-17
 
 > **Revision (Mode B, wiki-article-from-claims-v2, 2026-08-20).** `article.md` was rewritten in place from the v1 draft (`wiki-article-from-claims`, dated 2026-08-11) to convert consensus material into wikivoice prose, cut the article's verbatim commentary quotations from 25 to 2 (Rule 6 — the root-verse quotation in the lead is free and not counted), and cap every statement at ≤3 `<ref>`s (Rule 7). No claim ID was introduced beyond what this file already listed; no `2-RAILS/Claims/` file or raw tree-guided file was reopened for content. `author_in_use` forms were already in place from the v1 draft and are unchanged. The reference map, "Claims used but not quoted," and "Resolved claims not used" sections below are updated to reflect the revised prose; a new §"Full attestation beyond in-article refs" records every attestation moved off a capped statement.
