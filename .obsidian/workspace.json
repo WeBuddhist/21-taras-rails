@@ -11,14 +11,10 @@
             "id": "6f8747d23b054bfe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article-preview.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "article-preview"
+              "title": "New tab"
             }
           }
         ]
@@ -199,6 +195,10 @@
   },
   "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/gemini-report.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/body-after.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/body-before.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/origin/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/origin/article-preview.md",
@@ -208,7 +208,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/citations.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/citations.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/structure-benefits/article-preview.md",
@@ -231,9 +230,6 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/structure-benefits/body-after.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/structure-benefits/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-02/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-02/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-02/body-after.txt",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-02/body-before.txt",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/origin/body-after.txt"
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-02/body-after.txt"
   ]
 }
