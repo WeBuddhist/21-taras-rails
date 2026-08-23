@@ -27,6 +27,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/article.md (pre-polish).
+
 # Citations — vetala (རོ་ལངས།)
 
 > **Mode B revision (2026-08-21).** This `citations.md` is the v2 rewrite of the v1 audit

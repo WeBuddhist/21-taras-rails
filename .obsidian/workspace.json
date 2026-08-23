@@ -197,8 +197,19 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "6f8747d23b054bfe",
+  "active": "15014ceefa497d3c",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vindhya/semantic-diff.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/virya/gemini-report.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/virya/body-after.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/virya/body-before.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/semantic-diff.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vindhya/gemini-report.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vindhya/body-after.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vindhya/body-before.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/gemini-report.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/body-after.txt",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vetala/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/ushnisha/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-jewels/semantic-diff.md",
@@ -216,24 +227,13 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-worlds/body-after.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-worlds/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/body-after.txt",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/body-after.txt",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-jewels/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-jewels/body-after.txt",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-jewels/body-before.txt",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/phat/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/suffering/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/svaha/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/paramita/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/pacification/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/mantra/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/mara/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/lotus/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/meru/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/nirvana/semantic-diff.md"
+    "3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/pacification/semantic-diff.md"
   ]
 }
