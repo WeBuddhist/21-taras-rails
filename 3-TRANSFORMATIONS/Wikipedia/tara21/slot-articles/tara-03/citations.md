@@ -29,6 +29,8 @@ date: 2026-08-10
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md (pre-polish).
+
 # Citations — tara-03
 
 ## Mode B revision note (2026-08-20)

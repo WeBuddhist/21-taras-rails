@@ -27,6 +27,8 @@ date: 2026-08-11
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/article.md (pre-polish).
+
 # Citations — structure-benefits
 
 This is a **multi-topic work article** (Inputs §1, `wiki-article-from-claims/SKILL.md`): the topic

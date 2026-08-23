@@ -29,6 +29,8 @@ source_article: 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-08/article
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-08/article.md (pre-polish).
+
 # Citations — tara-08
 
 Mode B (revision-in-place) rewrite from v1 register (wiki-article-from-claims) to v2 register

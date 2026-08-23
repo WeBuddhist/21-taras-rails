@@ -11,10 +11,14 @@
             "id": "6f8747d23b054bfe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/article-preview.md",
+                "bFile": "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/article-preview.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: article-preview  (Working Tree)"
             }
           }
         ]
@@ -178,7 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.484375
+    "width": 382.47265625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,6 +199,11 @@
   },
   "active": "6f8747d23b054bfe",
   "lastOpenFiles": [
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/origin/article-preview.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/origin/gemini-report.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/semantic-diff.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-08/semantic-diff.md",
+    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-04/semantic-diff.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/semantic-diff.md",
@@ -219,17 +228,12 @@
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-07/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-02/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-01/gemini-report.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/origin/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/structure-benefits/gemini-report.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/article.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/origin/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/origin/article-preview.md",
     "3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-03/article.md",
     "0-INBOX/presentation-humanities-2026/04-canva-build-brief.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/article-preview.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/citations.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/semantic-diff.md",
-    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-01/citations.md"
+    "3-TRANSFORMATIONS/Wikipedia/tara21/work/pilot-gemini/tara-03/article-preview.md"
   ]
 }
