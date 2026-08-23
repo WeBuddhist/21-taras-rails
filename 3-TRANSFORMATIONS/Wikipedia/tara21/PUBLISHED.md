@@ -2,7 +2,7 @@
 type: review-view
 canonical_sources:
   - published.yaml
-checked: 2026-08-21
+checked: 2026-08-23
 ---
 
 # Published articles — tara21
@@ -10,12 +10,12 @@ checked: 2026-08-21
 > [!warning] Check this before publishing anything.
 > A slot under **Live on bo.wikipedia** already exists on the wiki. Republishing it creates a
 > duplicate. Update it at its existing title instead — the page ID is the stable handle.
-> Titles under **Queued** are reserved for their slot.
+> The same applies to term articles under **Term articles — live on bo.wikipedia**.
 
 > [!note] Obsidian-readable view of [published.yaml](published.yaml). That file is canonical;
 > regenerate this view after any change rather than editing it here.
 
-**5 live · 18 queued · all 21 slot titles settled** (as of 2026-08-21)
+**23 live · 0 queued · all 21 slot titles settled and published · 10 term articles live** (as of 2026-08-23)
 
 ## The 21-slot title series
 
@@ -28,24 +28,24 @@ kept identical to its title.
 | 1 | `tara-01` | [སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།](https://bo.wikipedia.org/w/index.php?curid=28184) | 🟢 live · 28184 |
 | 2 | `tara-02` | [སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28185) | 🟢 live · 28185 |
 | 3 | `tara-03` | [སྒྲོལ་མ་གསེར་མདོག་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28186) | 🟢 live · 28186 |
-| 4 | `tara-04` | སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ། | ⚪ queued |
-| 5 | `tara-05` | སྒྲོལ་མ་ཧཱུཾ་སྒྲ་སྒྲོག་མ། | ⚪ queued |
-| 6 | `tara-06` | སྒྲོལ་མ་གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ། | ⚪ queued |
-| 7 | `tara-07` | སྒྲོལ་མ་གཞན་གྱིས་མི་ཐུབ་མ། | ⚪ queued |
-| 8 | `tara-08` | སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ། | ⚪ queued |
-| 9 | `tara-09` | སྒྲོལ་མ་སེང་ལྡེང་ནགས། | ⚪ queued |
-| 10 | `tara-10` | སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ། | ⚪ queued |
-| 11 | `tara-11` | སྒྲོལ་མ་ཕོངས་པ་ཀུན་སེལ། | ⚪ queued |
-| 12 | `tara-12` | སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ། | ⚪ queued |
-| 13 | `tara-13` | སྒྲོལ་མ་མེ་ལྟར་འབར་བ། | ⚪ queued |
-| 14 | `tara-14` | སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ། | ⚪ queued |
-| 15 | `tara-15` | སྒྲོལ་མ་ཞི་བ་ཆེན་མོ། | ⚪ queued |
-| 16 | `tara-16` | སྒྲོལ་མ་ཆགས་པ་འཇོམས་པ། | ⚪ queued |
-| 17 | `tara-17` | སྒྲོལ་མ་དཔག་མེད་གནོན་མ། | ⚪ queued |
-| 18 | `tara-18` | སྒྲོལ་མ་རྨ་བྱ་ཆེན་མོ། | ⚪ queued |
-| 19 | `tara-19` | སྒྲོལ་མ་མི་ཕམ་གཟི་བརྗིད་ཅན། | ⚪ queued |
-| 20 | `tara-20` | སྒྲོལ་མ་རི་ཁྲོད་ལོ་མ་གྱོན་མ། | ⚪ queued |
-| 21 | `tara-21` | སྒྲོལ་མ་འོད་ཟེར་ཅན་མ། | ⚪ queued |
+| 4 | `tara-04` | [སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ།](https://bo.wikipedia.org/w/index.php?curid=28193) | 🟢 live · 28193 |
+| 5 | `tara-05` | [སྒྲོལ་མ་ཧཱུཾ་སྒྲ་སྒྲོག་མ།](https://bo.wikipedia.org/w/index.php?curid=28194) | 🟢 live · 28194 |
+| 6 | `tara-06` | [སྒྲོལ་མ་གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28195) | 🟢 live · 28195 |
+| 7 | `tara-07` | [སྒྲོལ་མ་གཞན་གྱིས་མི་ཐུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28196) | 🟢 live · 28196 |
+| 8 | `tara-08` | [སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28197) | 🟢 live · 28197 |
+| 9 | `tara-09` | [སྒྲོལ་མ་སེང་ལྡེང་ནགས།](https://bo.wikipedia.org/w/index.php?curid=28198) | 🟢 live · 28198 |
+| 10 | `tara-10` | [སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ།](https://bo.wikipedia.org/w/index.php?curid=28199) | 🟢 live · 28199 |
+| 11 | `tara-11` | [སྒྲོལ་མ་ཕོངས་པ་ཀུན་སེལ།](https://bo.wikipedia.org/w/index.php?curid=28200) | 🟢 live · 28200 |
+| 12 | `tara-12` | [སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28201) | 🟢 live · 28201 |
+| 13 | `tara-13` | [སྒྲོལ་མ་མེ་ལྟར་འབར་བ།](https://bo.wikipedia.org/w/index.php?curid=28202) | 🟢 live · 28202 |
+| 14 | `tara-14` | [སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ།](https://bo.wikipedia.org/w/index.php?curid=28203) | 🟢 live · 28203 |
+| 15 | `tara-15` | [སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28204) | 🟢 live · 28204 |
+| 16 | `tara-16` | [སྒྲོལ་མ་ཆགས་པ་འཇོམས་པ།](https://bo.wikipedia.org/w/index.php?curid=28205) | 🟢 live · 28205 |
+| 17 | `tara-17` | [སྒྲོལ་མ་དཔག་མེད་གནོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28206) | 🟢 live · 28206 |
+| 18 | `tara-18` | [སྒྲོལ་མ་རྨ་བྱ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28207) | 🟢 live · 28207 |
+| 19 | `tara-19` | [སྒྲོལ་མ་མི་ཕམ་གཟི་བརྗིད་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28208) | 🟢 live · 28208 |
+| 20 | `tara-20` | [སྒྲོལ་མ་རི་ཁྲོད་ལོ་མ་གྱོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28209) | 🟢 live · 28209 |
+| 21 | `tara-21` | [སྒྲོལ་མ་འོད་ཟེར་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28210) | 🟢 live · 28210 |
 
 Subject articles outside the series (no `སྒྲོལ་མ་` prefix rule):
 
@@ -63,9 +63,50 @@ Subject articles outside the series (no `སྒྲོལ་མ་` prefix rule):
 | `tara-01` | [སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།](https://bo.wikipedia.org/w/index.php?curid=28184) | 28184 | [article.md](slot-articles/tara-01/article.md) | 2026-08-21 |
 | `tara-02` | [སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28185) | 28185 | [article.md](slot-articles/tara-02/article.md) | 2026-08-21 |
 | `tara-03` | [སྒྲོལ་མ་གསེར་མདོག་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28186) | 28186 | [article.md](slot-articles/tara-03/article.md) | 2026-08-21 |
+| `tara-04` | [སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ།](https://bo.wikipedia.org/w/index.php?curid=28193) | 28193 | [article.md](slot-articles/tara-04/article.md) | 2026-08-23 |
+| `tara-05` | [སྒྲོལ་མ་ཧཱུཾ་སྒྲ་སྒྲོག་མ།](https://bo.wikipedia.org/w/index.php?curid=28194) | 28194 | [article.md](slot-articles/tara-05/article.md) | 2026-08-23 |
+| `tara-06` | [སྒྲོལ་མ་གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28195) | 28195 | [article.md](slot-articles/tara-06/article.md) | 2026-08-23 |
+| `tara-07` | [སྒྲོལ་མ་གཞན་གྱིས་མི་ཐུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28196) | 28196 | [article.md](slot-articles/tara-07/article.md) | 2026-08-23 |
+| `tara-08` | [སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28197) | 28197 | [article.md](slot-articles/tara-08/article.md) | 2026-08-23 |
+| `tara-09` | [སྒྲོལ་མ་སེང་ལྡེང་ནགས།](https://bo.wikipedia.org/w/index.php?curid=28198) | 28198 | [article.md](slot-articles/tara-09/article.md) | 2026-08-23 |
+| `tara-10` | [སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ།](https://bo.wikipedia.org/w/index.php?curid=28199) | 28199 | [article.md](slot-articles/tara-10/article.md) | 2026-08-23 |
+| `tara-11` | [སྒྲོལ་མ་ཕོངས་པ་ཀུན་སེལ།](https://bo.wikipedia.org/w/index.php?curid=28200) | 28200 | [article.md](slot-articles/tara-11/article.md) | 2026-08-23 |
+| `tara-12` | [སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28201) | 28201 | [article.md](slot-articles/tara-12/article.md) | 2026-08-23 |
+| `tara-13` | [སྒྲོལ་མ་མེ་ལྟར་འབར་བ།](https://bo.wikipedia.org/w/index.php?curid=28202) | 28202 | [article.md](slot-articles/tara-13/article.md) | 2026-08-23 |
+| `tara-14` | [སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ།](https://bo.wikipedia.org/w/index.php?curid=28203) | 28203 | [article.md](slot-articles/tara-14/article.md) | 2026-08-23 |
+| `tara-15` | [སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28204) | 28204 | [article.md](slot-articles/tara-15/article.md) | 2026-08-23 |
+| `tara-16` | [སྒྲོལ་མ་ཆགས་པ་འཇོམས་པ།](https://bo.wikipedia.org/w/index.php?curid=28205) | 28205 | [article.md](slot-articles/tara-16/article.md) | 2026-08-23 |
+| `tara-17` | [སྒྲོལ་མ་དཔག་མེད་གནོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28206) | 28206 | [article.md](slot-articles/tara-17/article.md) | 2026-08-23 |
+| `tara-18` | [སྒྲོལ་མ་རྨ་བྱ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28207) | 28207 | [article.md](slot-articles/tara-18/article.md) | 2026-08-23 |
+| `tara-19` | [སྒྲོལ་མ་མི་ཕམ་གཟི་བརྗིད་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28208) | 28208 | [article.md](slot-articles/tara-19/article.md) | 2026-08-23 |
+| `tara-20` | [སྒྲོལ་མ་རི་ཁྲོད་ལོ་མ་གྱོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28209) | 28209 | [article.md](slot-articles/tara-20/article.md) | 2026-08-23 |
+| `tara-21` | [སྒྲོལ་མ་འོད་ཟེར་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28210) | 28210 | [article.md](slot-articles/tara-21/article.md) | 2026-08-23 |
 
 > [!warning] `tara-02` has an un-pushed change: lead sentence — source corrected 2026-08-21, not yet pushed.
 > Published before the series prefix rule was written down: the live title carries སྒྲོལ་མ་ but the source lead term did not. Source lead corrected to match on 2026-08-21; the live page still shows the old lead sentence and needs a wiki update to catch up. The title itself is correct and must not change.
+
+## Term articles — live on bo.wikipedia
+
+Not part of the 21-slot title series or its སྒྲོལ་མ་ prefix rule — each takes a plain descriptive
+Tibetan title for the term itself. Source: `2-RAILS/Local-Wiki/`, drafted via `wiki-article-from-claims`
+into `term-articles/<term>/`.
+
+| Term | Title | Page ID | Repo file | Published |
+|---|---|---|---|---|
+| `agni` | [མེ་ལྷ།](https://bo.wikipedia.org/w/index.php?curid=28211) | 28211 | [article.md](term-articles/agni/article.md) | 2026-08-23 |
+| `bhuta` | [འབྱུང་པོ།](https://bo.wikipedia.org/w/index.php?curid=28212) | 28212 | [article.md](term-articles/bhuta/article.md) | 2026-08-23 |
+| `goddess` | [ལྷ་མོ།](https://bo.wikipedia.org/w/index.php?curid=28213) | 28213 | [article.md](term-articles/goddess/article.md) | 2026-08-23 |
+| `lotus` | [པདྨ།](https://bo.wikipedia.org/w/index.php?curid=28214) | 28214 | [article.md](term-articles/lotus/article.md) | 2026-08-23 |
+| `meru` | [རི་རབ།](https://bo.wikipedia.org/w/index.php?curid=28215) | 28215 | [article.md](term-articles/meru/article.md) | 2026-08-23 |
+| `mudra` | [ཕྱག་རྒྱ།](https://bo.wikipedia.org/w/index.php?curid=28216) | 28216 | [article.md](term-articles/mudra/article.md) | 2026-08-23 |
+| `obstacle` | [བགེགས།](https://bo.wikipedia.org/w/index.php?curid=28217) | 28217 | [article.md](term-articles/obstacle/article.md) | 2026-08-23 |
+| `pacification` | [ཞི་བ།](https://bo.wikipedia.org/w/index.php?curid=28218) | 28218 | [article.md](term-articles/pacification/article.md) | 2026-08-23 |
+| `paramita` | [ཕ་རོལ་ཕྱིན་པ།](https://bo.wikipedia.org/w/index.php?curid=28219) | 28219 | [article.md](term-articles/paramita/article.md) | 2026-08-23 |
+| `phat` | [ཕཊ།](https://bo.wikipedia.org/w/index.php?curid=28220) | 28220 | [article.md](term-articles/phat/article.md) | 2026-08-23 |
+
+The other term articles under `term-articles/` (e.g. `amitabha`, `dana`, `kshanti`,
+`three-jewels`, `ushnisha`, …) remain `status: draft` and unpublished — check each
+`article.md` frontmatter before publishing.
 
 ## Title convention
 
@@ -81,7 +122,10 @@ Subject articles outside the series (no `སྒྲོལ་མ་` prefix rule):
 
 **Do not auto-derive from the lead term.** The title is NOT auto-derivable from the article's first bolded term. In most slot articles that term is the opening line of the root verse (ཕྱག་འཚལ་…), not a name; in tara-02 the published title adds the སྒྲོལ་མ་ prefix the source file lacks. Any tooling that derives a title from the lead bold term must read this file instead.
 
-## Queued — decided titles and the evidence behind them
+## Decided titles and the evidence behind them (tara-04 – tara-21)
+
+All 18 of these slots are now live (see the table above); this section is kept as the auditable
+record of how each contested title was decided, not a queue.
 
 `convergent` = the attested names agree. `plurality` = most commentaries. `article-carried` =
 no plurality, so the name the article itself already uses. `tie-broken` = even split, resolved
@@ -127,6 +171,9 @@ Bold marks the candidate the title was taken from.
 
 ## Recording a new publication
 
+**Slot articles:**
 1. Move the slot from `planned:` to `published:` in [published.yaml](published.yaml) with its page ID and URL.
-2. Set `status: published` and the same `wiki_title` / `wiki_pageid` / `wiki_url` in that slot's `article.md` frontmatter.
+2. In that slot's `article.md` frontmatter, add `source_status: published`, `wiki_title`, `wiki_pageid`, `wiki_url`, `wiki_site`, `published_date`, and `published_registry: ../../published.yaml` (`status:` itself stays `draft` — it tracks the wikitext draft state, not the publish state; see tara-01/02/03/04… for the pattern).
 3. Regenerate this view.
+
+**Term articles:** same as above, but add the entry under `term_articles:` (keyed by `term:`, not `slot:`) instead of `published:`/`planned:`.

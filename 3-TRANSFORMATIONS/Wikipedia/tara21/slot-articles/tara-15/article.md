@@ -3,6 +3,13 @@ topic: tara-15
 article_kind: slot-article
 format: bo.wikipedia wikitext
 status: draft
+source_status: published
+wiki_title: སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།
+wiki_pageid: 28204
+wiki_url: https://bo.wikipedia.org/w/index.php?curid=28204
+wiki_site: bo.wikipedia.org
+published_date: 2026-08-23
+published_registry: ../../published.yaml
 polished_by: gemini-article-polish
 polish_model: gemini-3.1-pro-preview
 polish_date: '2026-08-23'
