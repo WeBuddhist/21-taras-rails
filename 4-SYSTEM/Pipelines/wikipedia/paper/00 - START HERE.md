@@ -15,6 +15,13 @@
 > sequence — **the canonical plan wins.** These notes remain the source for verified facts,
 > policy detail, and demo logistics.
 
+> [!note] Update 2026-08-23 — superseded drafts deleted
+> On the lead's instruction, `paper/draft/` now holds only the final set: `paper-src.md` →
+> the 15-page .docx, the deck + builders, and the working notes. Deleted (all recoverable
+> from git history): `paper.md`, `paper-methods.md`, `paper-skeleton.md`, the 26-page .docx,
+> and the externally supplied `…-corrected.md`. Mentions of those files in the dated
+> callouts below are historical.
+
 > [!tip] Update 2026-08-21 — cut back to the 15-page budget; alignment step removed
 > `paper/draft/paper-src.md` was compressed from ~19 pages back to 15 (12,879 → 10,812
 > words; page count verified via Pages PDF export against the known-15-page 2026-08-10

@@ -1,5 +1,13 @@
 # paper/draft — the deliverables and how to regenerate them
 
+> **2026-08-23 cleanup.** Superseded paper versions were deleted on the lead's instruction —
+> `paper.md` (the 2026-08-02 first draft), `paper-methods.md` and `paper-skeleton.md` (the
+> 2026-08-10 intermediates), the 26-page .docx, and the externally supplied
+> `…-corrected.md` rewrite (its factual fixes were already harvested on 2026-08-19). All are
+> recoverable from git history. What remains is the final set: `paper-src.md` → the 15-page
+> .docx, the deck + its builder, and the three working notes (cost, batch checklist, this
+> README).
+
 > **2026-08-21 revision — back to 15 pages.** The 2026-08-19 update had grown the paper to
 > ~19 pages; `paper-src.md` was cut back to the 15-page budget (12,879 → 10,812 words) and
 > the .docx rebuilt. Page count was verified by exporting the .docx to PDF via Pages: this
@@ -28,11 +36,8 @@
 | file | what |
 |---|---|
 | `paper-src.md` | **The source of the .docx** — constrained markdown (`%TITLE`/`%AUTHOR`/`%DATE`, `##`/`###` headings, pipe tables, fenced code, `>` quotes, `-`/`1.` lists). Edit here, never in Word. |
-| `Expanding-the-Digital-Footprint-of-Tibetan-corrected.md` | Externally supplied correction pass (2026-08-10, dropped in after `paper-src.md` that evening) — a heavily hedged rewrite with a changed title. **Not** the docx source. Its factual fixes (dated API snapshot) were harvested into `paper-src.md` on 2026-08-19; its softened thesis framing was deliberately not adopted (the canonical plan keeps the doom-spiral/virtuous-cycle claim as the contribution, and the submitted title/abstract stand). |
 | `build_docx.js` | Regenerates the .docx: `node build_docx.js paper-src.md Expanding-the-Digital-Footprint-of-Tibetan.docx` (needs `npm install docx` once, beside this file or on NODE_PATH). Page geometry lives here: A4, 0.8in margins, Times New Roman 10.5pt, single-spaced. |
 | `Expanding-the-Digital-Footprint-of-Tibetan.docx` | The 15-page venue-neutral paper, built from `paper-src.md`. |
-| `Expanding-the-Digital-Footprint-of-Tibetan-26pp.docx` | The superseded 26-page version, kept for reference (2026-08-10). |
-| `paper.md` | Full first draft to the canonical structure (`../10 - Canonical Paper and Slides Plan.md`). Every pipeline number comes from the reviewed run — `corpora/tara21/REVIEW-2026-08-02.md`. `[TO FILL]` slots need team-only data: revival-campaign records (§3), human-rater + reviewer-minutes results (§8). |
 | `IATS-2026-slides.pptx` | The 16-slide deck per the canonical plan. Same numbers, same `[TO FILL]` markers (slides 3 and 13); slide 12 has the slot for the pre-recorded demo capture. |
 | `build_deck.js` | Regenerates the deck: `node build_deck.js` (needs `npm install pptxgenjs react react-dom react-icons sharp` once, beside this file or on NODE_PATH). Edit content here, not in PowerPoint, while numbers are still moving. Every Tibetan run on the slides carries an English gloss — keep that invariant when editing; the IATS audience mostly does not read Tibetan. |
 | `cost-and-scalability.md` | Measured per-article machine cost (volumes from `corpora/tara21/work/eval/eval.json`, prices as of 2026-08-02) and the scaling arithmetic behind §8 and slide 13. |
