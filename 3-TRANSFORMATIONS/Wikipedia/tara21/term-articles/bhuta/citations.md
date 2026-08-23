@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/bhuta/article.md (pre-polish).
+
 # Citations — bhuta (འབྱུང་པོ)
 
 **Mode B revision.** Register-only rewrite of the v1 article. No claim ID appears in the

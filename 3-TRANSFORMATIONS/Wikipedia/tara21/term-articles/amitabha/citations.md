@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/amitabha/article.md (pre-polish).
+
 # Citations — amitabha (འོད་དཔག་མེད།) — v2 revision
 
 Scope: unchanged from the v1 `citations.md` — this article covers Amitābha (འོད་དཔག་མེད།)

@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/agni/article.md (pre-polish).
+
 # Citations — agni (མེ་ལྷ) — v2 revision
 
 Scope: unchanged from the v1 `citations.md` — this article covers Agni (མེ་ལྷ) as an
