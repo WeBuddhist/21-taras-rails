@@ -29,6 +29,8 @@ date: 2026-08-11
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/slot-articles/tara-06/article.md (pre-polish).
+
 # Citations — tara-06
 
 > **Revision note (Mode B, 2026-08-21).** This article was rewritten in place from the prior v1 draft (`method: wiki-article-from-claims`) into v2 register per `4-SYSTEM/Skills/wiki-article-from-claims-v2/SKILL.md`. No claim ID was added beyond what the source `citations.md` already carried. The rewrite: (1) converted 7 of the prior draft's 10 verbatim quotations to paraphrase to meet the ≤2 quotation budget (the lead's root-verse quotation is exempt per Rule 6 and was kept as-is); (2) fixed several `<ref/>,` and `text<ref/>།` punctuation-order violations against Rule 15/16 (no article content changed, only punctuation position and the removal of stray ASCII commas); (3) trimmed a small number of over-cap ref clusters (>3 refs on one statement) to ≤3 by either splitting one run-on sentence into separate shad-bounded statements (no citation lost) or replacing a named list with "སོགས" in one sentence (two commentaries' individual inline refs folded into that sentence's general framing — see *Full attestation beyond in-article refs* below); (4) swapped in-prose commentator names to their `author_in_use` frontmatter form (all matched the names v1 already used, so no textual name changes were needed — see Warnings); (5) merged several one-claim-one-sentence runs into flowing prose. The underlying facts, claim IDs, and citation targets are unchanged from the source draft below.
