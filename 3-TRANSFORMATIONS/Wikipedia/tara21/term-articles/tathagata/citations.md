@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tathagata/article.md (pre-polish).
+
 # Citations — tathagata (དེ་བཞིན་གཤེགས་པ)
 
 **Revision note (2026-08-21, Mode B, `wiki-article-from-claims-v2`).** This file and the

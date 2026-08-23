@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/vayu/article.md (pre-polish).
+
 # Citations — vayu (རླུང་ལྷ)
 
 **Revision note (Mode B, 2026-08-21).** This is a register-only rewrite of the v1

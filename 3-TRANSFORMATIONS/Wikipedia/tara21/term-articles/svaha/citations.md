@@ -17,6 +17,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/svaha/article.md (pre-polish).
+
 # Citations — སྭཱ་ཧཱ (svaha)
 
 **Mode B revision note (2026-08-20).** This article was rewritten in place from v1

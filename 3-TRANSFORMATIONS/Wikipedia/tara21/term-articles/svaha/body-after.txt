@@ -1,21 +1,3 @@
----
-topic: svaha
-article_kind: term-article
-format: bo.wikipedia wikitext
-status: draft
-polished_by: gemini-article-polish
-polish_model: gemini-3.1-pro-preview
-polish_date: '2026-08-23'
-polish_source: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/svaha/article.md
----
-
-> [!note] This file holds the bo.wikipedia **wikitext** for this article, wrapped in a
-> code fence so Obsidian displays it verbatim (headings like `== ... ==`, `'''bold'''`,
-> `<ref>` tags, and `[[...]]` targets are wiki markup, not Obsidian markup). Edit inside
-> the fence only — the publish step strips everything outside it. The citation audit
-> trail is in `citations.md` beside this file.
-
-```wikitext
 '''སྭཱ་ཧཱ་'''ནི་སྔགས་མང་པོའི་མཇུག་ཏུ་སྦྱར་བའི་ཐུན་མོང་གི་ཡི་གེ་ཞིག་ཡིན་ཏེ་སྔགས་གང་གི་མཇུག་ཏུའང་སྦྱོར་རུང་བར་གྲགས།<ref name="tsultrim-namdak">མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག། སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།</ref> དེ་ནི་ཞི་བའི་དོན་དུ་འགྲེལ་ཞིང་སྡིག་པ་ཞི་བ་དང་དགེ་བའི་ཚོགས་འཕེལ་བར་བྱེད་པའི་ནུས་པ་དང་ལྡན་པར་བཤད།<ref name="sungrab-tulku">འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ། སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད།</ref><ref name="tsultrim-namdak" /> འགྲེལ་པ་གཞན་ལས་ཁྱོད་ལ་འདུད་ཅེས་པའི་དོན་དུའང་བཀྲལ་ལོ།།<ref name="pema-namgyal">ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ།</ref>
 
 == ངེས་ཚིག ==
@@ -29,20 +11,3 @@ polish_source: 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/svaha/article.md
 
 == བསྡུས་དོན། ==
 སྭཱ་ཧཱ་ནི་སྔགས་མང་པོའི་མཇུག་ཏུ་སྦྱར་བའི་ཐུན་མོང་གི་ཡི་གེ་ཞིག་ཡིན་ཞིང་ཞི་བའི་དོན་དང་ཁྱོད་ལ་འདུད་པའི་དོན་གཉིས་ཀ་གཞུང་འདིའི་ནང་དུ་གསལ།<ref name="sungrab-tulku" /><ref name="pema-namgyal" /> ཡི་གེ་བཅུ་པའི་སྔགས་མཐའ་དག་གི་མིང་དུའང་སྦྱར་ཞིང་སྒྲོལ་མའི་རྩ་བའི་སྔགས་ཉིད་དང་མི་འབྲེལ་བའི་སྐབས་སུའང་མཐར་སྦྱོར་བའི་ལག་ལེན་སྣང་ངོ་།།<ref name="tsultrim-namdak" />
-
-== འབྲེལ་ཡོད་ཤོག་ངོས། ==
-* [[སྒྲོལ་མ་]]
-* [[སྔགས་]]
-* [[ཕཊ་]]
-
-== ལུང་ཁུངས། ==
-<references />
-
-== དཔྱད་གཞིའི་ཡིག་ཆ། ==
-* ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ།
-* འབྲས་ཕ་ར་གྲྭ་སྨད་གསུང་རབ་སྤྲུལ་སྐུ། སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་རྣམ་བཤད།
-* ཏཱ་ར་ནཱ་ཐ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།
-* མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག། སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།
-
-[[རིགས་དབྱེ།:ནང་བསྟན།]]
-```
