@@ -29,6 +29,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/hum-syllable/article.md (pre-polish).
+
 # Citations — hum-syllable (Mode B revision)
 
 **Revision mode: B (revision-in-place).** This file replaces the v1 `citations.md` for

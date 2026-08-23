@@ -22,6 +22,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/kshanti/article.md (pre-polish).
+
 # Citations — kshanti (བཟོད་པ)
 
 **Revision note (Mode B, 2026-08-20).** This file and `article.md` were revised

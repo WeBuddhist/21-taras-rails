@@ -21,6 +21,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/obstacle/article.md (pre-polish).
+
 ## Mode B revision note (2026-08-20)
 
 Rewritten from the v1 article for register only, per

@@ -27,6 +27,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/ishvara/article.md (pre-polish).
+
 # Citations — ishvara (དབང་ཕྱུག)
 
 **Mode B revision.** This citations.md is a register-only revision of the v1 file
