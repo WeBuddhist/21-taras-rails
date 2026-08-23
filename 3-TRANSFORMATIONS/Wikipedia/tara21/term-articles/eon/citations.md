@@ -25,6 +25,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/eon/article.md (pre-polish).
+
 # Citations — eon (བསྐལ་པ)
 
 **Mode B revision.** This is a register-only rewrite of the v1 article (same topic,

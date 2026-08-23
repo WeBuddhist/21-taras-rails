@@ -29,6 +29,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/gandharva/article.md (pre-polish).
+
 # Citations — gandharva (དྲི་ཟ།)
 
 **Mode B revision.** Register-only rewrite of the v1 article. No claim ID appears in the
