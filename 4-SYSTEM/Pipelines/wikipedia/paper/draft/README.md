@@ -1,5 +1,17 @@
 # paper/draft — the deliverables and how to regenerate them
 
+> **2026-08-23 — retired steps removed from the paper.** On the lead's instruction the last
+> traces of two retired steps are out of `paper-src.md` and the .docx was rebuilt
+> (10,812 → 10,743 words, still inside the 15-page budget): the **root↔commentary alignment /
+> transclusion-anchor** layer (the Route A paragraph in §5.8 no longer explains where its
+> extraction candidates came from, and §8's extraction-capture sentence now says the stage
+> "was offered" its characters rather than naming a locator layer) and any **resegmentation**
+> variant. Verified against the live vault before cutting: zero transclusion anchors remain in
+> `1-SOURCES/Commentaries/`, and `aligned.json` survives only inside the frozen `corpora/`
+> archive. `../11 - Pipeline Steps in Detail.md` was cut to match — old step A6 (alignment)
+> deleted, A7 (lint) renumbered A6, the two alignment rows dropped from its numbers appendix.
+> All measured evaluation numbers are unchanged.
+
 > **2026-08-23 cleanup.** Superseded paper versions were deleted on the lead's instruction —
 > `paper.md` (the 2026-08-02 first draft), `paper-methods.md` and `paper-skeleton.md` (the
 > 2026-08-10 intermediates), the 26-page .docx, and the externally supplied

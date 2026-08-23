@@ -2,6 +2,13 @@
 
 > **What this is.** The complete, step-by-step reference of the article-generation workflow, written 2026-08-18 as study material for the IATS paper and the conference presentation. Every step is documented in tree form: what goes in, what comes out, what happens inside, and *why it was designed that way*. Compiled from the skills (`4-SYSTEM/Skills/`), the guidelines (`keyword-extraction-methodology.md`, `claims-methodology.md`, `vault-annex.md`), the pipeline docs (`docs/reference/cowork-pipeline.md`, `wikitext-spec.md`, `STATE.md`), the methods draft (`paper/draft/paper-methods.md` §5 — a superseded intermediate, deleted 2026-08-23, in git history), and the actual on-disk artifacts of the tara21 run.
 >
+> **Scope note (2026-08-23).** Two retired steps were removed from this reference on the lead's
+> instruction: the meaning-based commentary **resegmentation** variant (the rule-engine
+> segmentation of A3 is the production path) and the root↔commentary **alignment /
+> transclusion-anchor** step. Neither is in the production path — no transclusion anchor remains
+> in `1-SOURCES/Commentaries/`, and nothing downstream consumes alignment data; the node-by-node
+> claims layer (C1) supersedes it. Git history holds the earlier text.
+>
 > **How to read it.** Section 0 is the overview (matches the "overview" workflow diagram). Sections A–E are the five phases; inside each phase, every step follows the same skeleton: **Input → Output → What happens → Why → Gate**. The nested bullets under "What happens" are the sub-steps (matches the "detailed" workflow diagram).
 
 ---
@@ -34,11 +41,10 @@ E. PUBLICATION             verified article  →  pre-publication review  →  h
 |---|------|----------------|--------------------|
 | A1 | Clean the raw OCR | `clean-raw-text` (inside `raw-to-sources`) | profile shown before any change; raw never overwritten |
 | A2 | Place in 1-SOURCES + frontmatter | `raw-to-sources` | collision stop; `status: 0-raw` |
-| A3 | Segment into citable blocks | `format-tibetan-root-text` (root), `commentary-resegment` / `commentary-segmentation` (commentaries) | `assert_no_loss` — abort if one non-whitespace char changed |
+| A3 | Segment into citable blocks | `format-tibetan-root-text` (root), `commentary-segmentation` (commentaries) | `assert_no_loss` — abort if one non-whitespace char changed |
 | A4 | Extract the sa-bcad TOC tree | `toc-tree-extraction` (4 isolated passes) | `qc_check_tree.py` + `qc_tree_vs_source.py`, both zero-issue |
 | A5 | Ingest headings into the source | `toc-tree-ingest` (+ `tag-inline-toc`) | `verify_prose_unchanged` diff-back |
-| A6 | Align root ↔ commentary | `Transclusion-rootext-into-commentaries` (+ `kwiki align` clustering) | count identity; `verify_spans` |
-| A7 | Lint | `lint-annotations` | report-only pre-flight |
+| A6 | Lint | `lint-annotations` | report-only pre-flight |
 | B1 | Literal English translation | `zeroshot-translator` | block IDs preserved, pada-aligned |
 | B2 | English candidate extraction | YAKE + spaCy, TF-IDF vs Reuters IDF | scripts, deterministic |
 | B3 | en→bo mapping → Tibetan term registry | LLM per occurrence (5 parallel agents) | terms regrouped by Tibetan form |
@@ -101,7 +107,7 @@ E. PUBLICATION             verified article  →  pre-publication review  →  h
 - **Output:** the same text with block boundaries and stable block IDs — the vault's sole cross-file reference mechanism. Root: one stanza per paragraph, `^chapter-verse` IDs (`^1-1` … `^1-21`, invocation `^I-1`, benefits `^a-1`–`^a-7`). Commentaries: citation-sized blocks (1–2 prose sentences, one stanza, or one quotation each).
 - **What happens:**
   - **Root — `format-tibetan-root-text`:** a small grammar of Tibetan punctuation drives a deterministic formatter: verse-line separator `། །`; mid-verse breaks at `[letter] །[letter]` (negative lookbehind prevents matching inside a `། །` pair); stanza = typically 4 verse-lines, one block ID per stanza on the last line; double-shad `།།` appears only in colophons, so it detects colophon lines reliably; chapter headings get `^N-0` anchors (the `-0` slot is reserved for headings so they can never collide with content IDs).
-  - **Commentaries — rule-engine segmentation (`commentary-segmentation`):** a boundary-cue engine over seven lexical signals — terminal particles (`འོ`/`ནོ`/`དོ`… + `།`), quote closers (`ཞེས་སོ། །` …), quote openers (`…ལས།`), enumeration heads (`…ལ་གསུམ་སྟེ།`), ordinal openers (`དང་པོ་…`), objection close/open (`…ཞེ་ན།` / `འོ་ན་…`), and a protected verse-stanza detector (2–4 uniform clause units of 6–11 syllables, peeled out whole and never re-cut). Target granularity ~40 syllables; over-cap blocks split at shads; residue no rule can cut is flagged `STAGE2_MANUAL` for the human. (The `/ingest` chain's step 2 uses `commentary-resegment`, the meaning-based variant: the LLM groups clause-lines into sense-unit paragraphs, byte-identity verified.)
+  - **Commentaries — rule-engine segmentation (`commentary-segmentation`):** a boundary-cue engine over seven lexical signals — terminal particles (`འོ`/`ནོ`/`དོ`… + `།`), quote closers (`ཞེས་སོ། །` …), quote openers (`…ལས།`), enumeration heads (`…ལ་གསུམ་སྟེ།`), ordinal openers (`དང་པོ་…`), objection close/open (`…ཞེ་ན།` / `འོ་ན་…`), and a protected verse-stanza detector (2–4 uniform clause units of 6–11 syllables, peeled out whole and never re-cut). Target granularity ~40 syllables; over-cap blocks split at shads; residue no rule can cut is flagged `STAGE2_MANUAL` for the human.
 - **Why:** blocks are the unit of citation — small enough that a claim can cite exactly the span it needs. Weak signals report rather than cut ("when in doubt, under-cut; over-long is safer than wrong"). Verses are protected because meter is a stronger signal than any prose rule.
 - **Gate:** `assert_no_loss` in every script — output minus whitespace must equal input minus whitespace, **or it aborts and writes nothing**. This is "the property that makes this safe to run at all."
 
@@ -129,17 +135,7 @@ Tibetan commentaries announce their own structure inline (the sa-bcad): the auth
 - **Why:** sa-bcad detection has too many surface variants for regex ("every rule spawns three exceptions; tuning it is an endless loop") — so reading for meaning is model work. But because block IDs are assigned by code, "depth-skipping and numbering bugs are impossible by construction," and because wraps are exact-substring and diffed back, "silent transcription drift is caught and the run fails loudly. **The model never retypes prose — it only points at substrings that already exist.**" A corpus-driven lesson: tara21's sa-bcad openers are near-universally bare ordinals (`དང་པོ་ནི།`) recurring up to forty times per file with no unique substring — which forced **line-number anchors** into the annotation contract, because a context-string-only contract left those sections legally unannotatable.
 - **Gate:** `verify_prose_unchanged` — the tagged file may differ from the source only by headings and link wrappers; any prose change is a PROSE INTEGRITY VIOLATION and the run fails. "Never work around it by editing the source."
 
-### A6. Alignment: which commentary passage explains which stanza
-
-- **Input:** root text + each commentary (headings and block IDs in place).
-- **Output:** `![[root#^1-1]]` transclusion anchors inserted in the commentary above each stanza quotation (the alignment lives *in the file*); plus, on the pipeline side, `work/aligned.json` with lexical-cluster spans for the remainder.
-- **What happens — two mechanisms, deliberately ordered:**
-  1. **Transclusion anchors first (`Transclusion-rootext-into-commentaries`, deterministic):** for each root stanza, find its first full inline quotation and insert the anchor line above it. Variant-tolerant (character-overlap ≥ 0.80, so `བསྒོམ`/`སྒོམ` absorb); full quotations preferred over passing citations; single-line matches accepted only inside a citation frame (`ཞེས་པ་ནི།`); an `--incipit` mode for the praise-commentary citation shape (incipit inside a `ཞེས` frame); `--in-order` uses the fact that commentaries follow their root in order. Unplaceable verses are listed `UNPLACED` and resolved by hand, never silently dropped.
-  2. **Lexical clustering second (`stages/align.py`):** instead of searching for the stanza as a string, ask where *fragments cluster* — each verse contributes probes (whole lines weighted 3.0, 9-char n-grams 1.0), densest windows of distinct probes are scored, and one cluster per verse is chosen under a monotonicity constraint (a score-weighted longest-increasing-subsequence — "commentaries follow their root text in order," which pins a phrase recurring in two chapters to the right one by its neighbours). An optional LLM pass may propose spans for what remains, but its output is never trusted as text: `verify_spans` re-checks every span exists verbatim — "we accept its *judgement* about which passage is relevant, never its *reproduction* of the text."
-- **Why deterministic-first:** "alignment errors are silent … deterministic matching can fail to find a verse, but it cannot invent a location."
-- **Numbers (tara21):** anchor recall went **116 → 209 of 352 possible (33% → 59%)** after three named bug fixes (a dead comparison against Latin transliterations; blank lines counted as mismatches; no incipit path). The three commentaries still at zero are the word-commentaries (བསྡུས་འགྲེལ, མཆན་འགྲེལ) that dissolve the stanza into glosses and genuinely never quote it — a structural limit, not a tuning problem. Full alignment: **314 spans over the 23 root units — 209 by transclusion anchor, 105 by clustering — 85.6% mean coverage, 7 of 16 commentaries at 100%.**
-
-### A7. Lint — `lint-annotations`
+### A6. Lint — `lint-annotations`
 
 - **What happens:** a report-only pre-flight that sequences existing deterministic checkers — every content block ends with a block ID; every heading ID ends in `-0`; no deprecated anchor forms; verse IDs sequential per chapter; merged half-lines detected; stray flattened footnote digits flagged.
 - **Why report-only:** every finding goes to the human before any fix — some pattern matches are legitimate (opening ornaments, colophon terminals), "which is exactly why findings go to the human before any fix." Fixes route back to the owning step rather than being patched ad hoc.
@@ -171,7 +167,7 @@ Tibetan commentaries announce their own structure inline (the sa-bcad): the auth
 
 ### B4. Tibetan-side counting (presence)
 
-- **What happens:** deterministic string-match per registry term across root + each of the 16 commentaries, **counting the commentary's own prose only — root-text quotations excluded** (in the executed run, via a difflib ≥0.8 similarity quote-detector standing in for the missing transclusion anchors; recorded as a deviation, not silently substituted). Output: the frequency matrix with a spread column.
+- **What happens:** deterministic string-match per registry term across root + each of the 16 commentaries, **counting the commentary's own prose only — root-text quotations excluded** (via a difflib ≥0.8 similarity quote-detector, which finds the quoted stanza in the commentary's own text). Output: the frequency matrix with a spread column.
 - **Why quote-excluded:** a commentary that quotes the verse inflates every word in it; what matters is what the commentator *says*, not what he copies.
 
 ### B5. Composite scoring — attention beats presence
@@ -340,7 +336,7 @@ The code route (`kwiki article <corpus> <term>`): **extract → claims → outli
 - **What it is:** last in the chain, blocking, and LLM-free. Two halves:
   1. **Quotation check** — every cited quotation must appear in its cited source. Four tiers, deliberately unequal: `exact` (substring — pass), `collapsed` (substring after whitespace removal — pass; line wrapping is not part of the text), `fuzzy` (substring only after shads/tshegs/head marks are also dropped — **not a pass**: the letters agree but the punctuation does not, so the article is not quoting what the file says), `missing` (fail). "Reporting a fuzzy hit as success would quietly reintroduce exactly the class of error this gate exists to catch — `found` is not the gate; `passed` is."
   2. **Wikitext validator V1–V12** — the output contract: every quotation character-real (V1); every ref resolves to a declared source (V2); `<references />` present iff refs exist (V3); **never `{{Reflist}}`** (V4 — bo.wikipedia's template injects its own heading, producing two stacked headings; verified on a live render; "the single most likely failure mode, because the idiom is correct on English Wikipedia and every LLM reaches for it"); refs balanced (V5); ≥1 heading (V6); ≥1 allowlisted category (V7 — the model never invents a category name, because the live namespace contains misspellings); every section cited (V8); Tibetan script only outside ref URLs (V9); **a tsheg survives every `'''` and `[[` boundary** (V10 — a Tibetan spelling error MediaWiki itself will never surface; only the linter catches it); fixed tail order (V11); no placeholders or model chatter (V12). Non-blocking warnings: refs missing year/page (W1), unlinked refs (W2), short articles <1,500 syllables (W4).
-- **The reading view:** quotations are compared against the commentary with every layer ingest added (block IDs, transclusion lines, headings, wikilinks) stripped back off — "not one Tibetan character touched" — because a faithful quotation spanning a block boundary must never fail on a caret the pipeline itself wrote. Independently, every block locator is resolved: the quotation must also appear inside the specific block its citation names (a wrong locator is a warning, not a failure — the quote is real, but it sends a reviewer to the wrong paragraph).
+- **The reading view:** quotations are compared against the commentary with every layer ingest added (block IDs, headings, wikilinks) stripped back off — "not one Tibetan character touched" — because a faithful quotation spanning a block boundary must never fail on a caret the pipeline itself wrote. Independently, every block locator is resolved: the quotation must also appear inside the specific block its citation names (a wrong locator is a warning, not a failure — the quote is real, but it sends a reviewer to the wrong paragraph).
 - **Why it matters (the paper's best evidence):** in a live run the gate caught a model silently promoting a tsheg to a shad inside a quotation — similarity 0.974, invisible to a human skimming Tibetan prose at speed. That is the class of drift that makes a quotation not a quotation. Corollary: articles are ***sic*-faithful** to the ingested edition — textual correction is an editorial act for the source layer, never a liberty of the drafting model. **There is no bypass flag, and an audit "publish" verdict does not skip the gate.**
 - **Batch form (`verify_batch.py`):** runs the same gate over every drafted article and writes one distribution report (`work/VERIFY-BATCH.md`) instead of exiting non-zero per term — "which is right for a gate and useless for a batch." Re-run after any fix pass; the numbers are the fix's evidence.
 - **Batch results (2026-08-15, 42 imported articles):**
@@ -384,8 +380,6 @@ Small batches; method disclosed on a project page naming every pipeline-assisted
 |---|---|
 | Corpus | Praise to the Twenty-One Tārās (Tōh. 438) + 16 commentaries, ~540k chars, 5 schools |
 | Root units | 22 stanzas + invocation (23 units); benefits section `^a-1`–`^a-7` |
-| Alignment | 314 spans (209 transclusion-anchored, 105 clustered), 85.6% mean coverage, 7/16 commentaries at 100% |
-| Anchor-recall fix | 116 → 209 of 352 possible (33% → 59%) |
 | TOC trees | 16 promoted; 15 clean under both checkers, 1 (gendun-gyatso) pending a source-check rerun after a post-QC restamp |
 | Claims | 2,975 across 16 files (62–368 per commentary), all cited to source blocks |
 | Spine | 24 registered slots; 16 spine maps |

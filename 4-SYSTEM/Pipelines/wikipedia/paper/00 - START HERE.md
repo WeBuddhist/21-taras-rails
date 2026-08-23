@@ -15,6 +15,17 @@
 > sequence — **the canonical plan wins.** These notes remain the source for verified facts,
 > policy detail, and demo logistics.
 
+> [!tip] Update 2026-08-23 — alignment/transclusion and resegmentation removed from the paper
+> The 2026-08-21 cut had left one paragraph in §5.8 still explaining the retired verse-alignment
+> layer, and `11 - Pipeline Steps in Detail.md` still carried it as step A6 plus a
+> resegmentation variant in A3. Both are now gone from both documents and the .docx is rebuilt
+> (10,743 words). Checked before cutting: no transclusion anchor remains in
+> `1-SOURCES/Commentaries/` and `aligned.json` lives only in the frozen `corpora/` archive, so
+> the removal matches the vault. **Open inconsistency for the lead:** `.claude/commands/ingest.md`
+> still lists resegmentation as its step 2, and `4-SYSTEM/Skills/commentary-resegment/` still
+> exists — retiring those is a skills-layer decision, not a paper edit, so nothing was touched
+> there.
+
 > [!note] Update 2026-08-23 — superseded drafts deleted
 > On the lead's instruction, `paper/draft/` now holds only the final set: `paper-src.md` →
 > the 15-page .docx, the deck + builders, and the working notes. Deleted (all recoverable
