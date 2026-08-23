@@ -312,7 +312,13 @@ def main() -> int:
               f"{args.out / 'gemini-report.md'}", file=sys.stderr)
         return 2
 
-    new_fence = restore_refs(cand_tok, refs) + tail
+    # Gemini frequently trims trailing whitespace/newlines from its response. Since the
+    # tail (starting at a TAIL_HEADINGS heading) is reattached verbatim right after the
+    # polished body, a trimmed boundary glues "...last sentence.== heading ==" onto one
+    # line, which MediaWiki does not parse as a heading. None of C1-C7 can catch this —
+    # they only inspect the editable body, never the reassembled tail boundary. Normalize
+    # the join here so it can never regress, regardless of what Gemini trims.
+    new_fence = restore_refs(cand_tok, refs).rstrip("\n") + "\n\n" + tail.lstrip("\n")
     new_text = text[:m.start(1)] + new_fence + text[m.end(1):]
     def _amend_frontmatter(fm: re.Match) -> str:
         head = fm.group(1)
