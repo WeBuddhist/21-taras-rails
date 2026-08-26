@@ -3,6 +3,13 @@ topic: tara-mantra
 article_kind: term-article
 format: bo.wikipedia wikitext
 status: draft
+source_status: published
+wiki_title: ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ།
+wiki_pageid: 28223
+wiki_url: https://bo.wikipedia.org/w/index.php?curid=28223
+wiki_site: bo.wikipedia.org
+published_date: 2026-08-23
+published_registry: ../../published.yaml
 polished_by: gemini-article-polish
 polish_model: gemini-3.1-pro-preview
 polish_date: '2026-08-23'

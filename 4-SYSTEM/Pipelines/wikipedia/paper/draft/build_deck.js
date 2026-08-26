@@ -1,4 +1,5 @@
-// IATS 2026 — 16-slide deck per paper/10 - Canonical Paper and Slides Plan.md
+// IATS 2026 — 18-slide deck per paper/10 - Canonical Paper and Slides Plan.md
+// (slides added on the lead's instruction 2026-08-24: 2 "outline" · 5 "by machine, unsupervised")
 // All pipeline numbers from the reviewed tara21 run (corpora/tara21/REVIEW-2026-08-02.md).
 const pptxgen = require("pptxgenjs");
 const React = require("react");
@@ -8,6 +9,7 @@ const {
   FaBookOpen, FaUsers, FaSyncAlt, FaLayerGroup, FaAnchor, FaTable,
   FaBalanceScale, FaUserCheck, FaPlayCircle, FaChartBar, FaShieldAlt,
   FaExpandArrowsAlt, FaFlagCheckered, FaExclamationTriangle, FaRobot, FaSearch,
+  FaListOl,
 } = require("react-icons/fa");
 
 // ---- palette -------------------------------------------------------------
@@ -40,7 +42,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     anchor: FaAnchor, table: FaTable, scale: FaBalanceScale, check: FaUserCheck,
     play: FaPlayCircle, chart: FaChartBar, shield: FaShieldAlt,
     expand: FaExpandArrowsAlt, flag: FaFlagCheckered, warn: FaExclamationTriangle,
-    robot: FaRobot, search: FaSearch,
+    robot: FaRobot, search: FaSearch, list: FaListOl,
   };
   for (const [k, C] of Object.entries(defs)) icons[k] = await iconPng(C, WHITE);
   const iconsGold = {};
@@ -88,7 +90,26 @@ async function iconPng(Comp, colorHex, size = 256) {
   ], { x: 0.8, y: 5.6, w: W - 1.6, h: 1.0, fontFace: SANS, align: "center", color: TINT2 });
   s.addNotes("Thirty seconds. One-line thesis: the same feedback loop that is destroying small-language Wikipedias becomes a virtuous cycle under one condition — human verification. Everything in this talk is that condition made concrete.");
 
-  // ---- 2 · THE GAP -------------------------------------------------------
+  // ---- 2 · OUTLINE -------------------------------------------------------
+  s = pres.addSlide();
+  title(s, "Outline", "list");
+  const tocRow = (y, n, head, desc) => {
+    s.addShape("ellipse", { x: 0.9, y, w: 0.5, h: 0.5, fill: { color: GOLD }, line: { color: GOLD } });
+    s.addText(String(n), { x: 0.9, y: y - 0.01, w: 0.5, h: 0.5, fontFace: SANS, fontSize: 15, bold: true, color: MAROON_DARK, align: "center", valign: "middle", margin: 0 });
+    s.addText(head, { x: 1.65, y: y - 0.02, w: 4.7, h: 0.55, fontFace: SERIF, fontSize: 17, bold: true, color: MAROON, valign: "middle", margin: 0 });
+    s.addText(desc, { x: 6.5, y: y - 0.02, w: 6.25, h: 0.55, fontFace: SANS, fontSize: 13, color: INK, valign: "middle", margin: 0 });
+  };
+  tocRow(1.7, 1, "The gap", "a language of 7M+ speakers, missing from the digital record");
+  tocRow(2.5, 2, "Three options", "by hand, by machine — both measured failures — and the supervised third");
+  tocRow(3.3, 3, "The case study", "Praise to the Twenty-One Tārās + 16 commentaries — a text this room can check");
+  tocRow(4.1, 4, "The pipeline", "block IDs → atomic claims → drafting with sources closed → layered verification");
+  tocRow(4.9, 5, "Demo & early results", "the chain end to end, and the numbers it produced");
+  tocRow(5.7, 6, "Ethics, limits, scale", "disclosure, pacing, honest limits — and what comes after Tārā");
+  s.addText("One argument throughout: verification flips the sign of the AI-content loop.", {
+    x: 0.9, y: 6.55, w: 11.5, h: 0.5, fontFace: SERIF, fontSize: 15, italic: true, color: MAROON, align: "center" });
+  s.addNotes("Twenty seconds, one spoken sentence per line: problem, options, text, mechanism, evidence, ethics. The italic line is the thesis restated — everything on this list serves it.");
+
+  // ---- 3 · THE GAP -------------------------------------------------------
   s = pres.addSlide();
   title(s, "The gap, in three numbers", "book");
   const stat = (x, big, label, sub) => {
@@ -108,7 +129,7 @@ async function iconPng(Comp, colorHex, size = 256) {
   });
   s.addNotes("Trim-order note: this slide is first to cut if time runs short. Live demo of the chatbot failure is in the recorded video, not live.");
 
-  // ---- 3 · OUR REVIVAL CAMPAIGNS ----------------------------------------
+  // ---- 4 · OUR REVIVAL CAMPAIGNS ----------------------------------------
   s = pres.addSlide();
   title(s, "We ran the manual revival — here is what it yields", "users");
   s.addText("First person: OpenPecha and collaborators have trained editors and run bo.wikipedia workshops. The public record shows what manual-only effort achieves.", {
@@ -128,9 +149,31 @@ async function iconPng(Comp, colorHex, size = 256) {
   ], { x: 1.1, y: 4.9, w: 11.1, h: 0.7, fontFace: SANS, fontSize: 13.5 });
   s.addText("At ~350 articles/year, a 100,000-article encyclopedia is two centuries away. That is the measured capacity of manual-only.", {
     x: 0.9, y: 6.1, w: 11.5, h: 0.7, fontFace: SERIF, fontSize: 16.5, italic: true, color: MAROON });
-  s.addNotes("The standing matters: this claim lands differently coming from the people who did the volunteer work. Never cut this slide (canonical trim order protects 3, 4, 13).");
+  s.addNotes("The standing matters: this claim lands differently coming from the people who did the volunteer work. Never cut this slide (canonical trim order protects 4, 6, 15).");
 
-  // ---- 4 · THE TRILEMMA --------------------------------------------------
+  // ---- 5 · BY MACHINE, UNSUPERVISED — THE MEASURED FAILURES --------------
+  s = pres.addSlide();
+  title(s, "The machine has been tried too — unsupervised", "warn");
+  s.addText("Automation reaches volume that manual effort never will. Every unsupervised run of it on a small-language wiki is now a measured failure.", {
+    x: 0.6, y: 1.35, w: W - 1.2, h: 0.6, fontFace: SANS, fontSize: 14.5, color: INK });
+  const mrow = (y, k, v) => {
+    s.addText(k, { x: 0.9, y, w: 4.9, h: 0.5, fontFace: SANS, fontSize: 15, bold: true, color: MAROON, margin: 0 });
+    s.addText(v, { x: 5.9, y, w: 6.8, h: 0.5, fontFace: SANS, fontSize: 14.5, color: INK, margin: 0 });
+  };
+  mrow(2.1, "Scots Wikipedia", "≈23,000 articles by one enthusiastic non-speaker — credibility destroyed");
+  mrow(2.7, "Cebuano", "≈6 million bot stubs — recurring closure proposals");
+  mrow(3.3, "Greenlandic", "closed by the Language Committee, 2025 — over machine-generated content");
+  mrow(3.9, "Inuktitut · African-language wikis", "≈⅔ MT-contaminated · 40–60% uncorrected MT (MIT Tech Review, 2025)");
+  s.addShape("roundRect", { x: 0.9, y: 4.7, w: 11.5, h: 1.25, rectRadius: 0.1, fill: { color: "F5E3E0" }, line: { color: RED, width: 1 } });
+  s.addText([
+    { text: "The drawbacks are structural, not accidental: ", options: { bold: true, color: RED } },
+    { text: "nobody fluent verifies, nothing is disclosed, no one answers to the community — and the damage exports downstream: low-resource web text is already dominated by MT junk (Thompson 2024), and models collapse trained on recursive synthetic data (Shumailov 2024, Nature).", options: { color: INK } },
+  ], { x: 1.1, y: 4.85, w: 11.1, h: 1.0, fontFace: SANS, fontSize: 13 });
+  s.addText("It reaches volume by destroying trust — the property that makes volume worth having. That is the measured record of machine-only.", {
+    x: 0.9, y: 6.15, w: 11.5, h: 0.7, fontFace: SERIF, fontSize: 16.5, italic: true, color: MAROON });
+  s.addNotes("Deliberate mirror of the by-hand slide: same structure, opposite failure. By hand fails on volume; by machine fails on trust — and it poisons the training corpora, closing the doom spiral of slide 7. This sets up the trilemma's third column: the difference between this slide and our pipeline is one variable — verification before publication. If time runs short, this slide compresses into the trilemma's middle column.");
+
+  // ---- 6 · THE TRILEMMA --------------------------------------------------
   s = pres.addSlide();
   title(s, "The trilemma", "scale");
   const col = (x, head, lines, dark) => {
@@ -146,9 +189,9 @@ async function iconPng(Comp, colorHex, size = 256) {
   col(8.83, "3 · Supervised automation", ["Machine drafts under hard verification", "Throughput bounded by review capacity", "A named human is the publisher", "This pipeline"], true);
   s.addText("“No demonstrated alternative reaches critical mass within a generation.”", {
     x: 0.9, y: 6.35, w: 11.5, h: 0.6, fontFace: SERIF, fontSize: 18, italic: true, color: INK, align: "center" });
-  s.addNotes("Phrase in print as 'no demonstrated alternative…'; the punchy version is for the podium, backed by the slide-13 arithmetic. The ethics section later is the third horn, not an apology.");
+  s.addNotes("Phrase in print as 'no demonstrated alternative…'; the punchy version is for the podium, backed by the slide-15 arithmetic. The ethics section later is the third horn, not an apology.");
 
-  // ---- 5 · THE CYCLE -----------------------------------------------------
+  // ---- 7 · THE CYCLE -----------------------------------------------------
   s = pres.addSlide();
   title(s, "The cycle — the whole argument on one slide", "cycle");
   const nodes = [
@@ -174,7 +217,7 @@ async function iconPng(Comp, colorHex, size = 256) {
   s.addText("Verified: CX-style human-gated content shows lower deletion rates than from-scratch articles", { x: 7.05, y: 6.1, w: 5.5, h: 0.75, fontFace: SANS, fontSize: 11.5, color: "2F5230" });
   s.addNotes("45 seconds. This is the argument; everything after is mechanism. Wikipedia is almost always the largest source in LLM training mixes; per-language capability tracks pretraining share; Welsh entered the loop deliberately as policy.");
 
-  // ---- 6 · CASE STUDY ----------------------------------------------------
+  // ---- 8 · CASE STUDY ----------------------------------------------------
   s = pres.addSlide();
   title(s, "A text this room can check", "anchor");
   s.addText([
@@ -210,11 +253,11 @@ async function iconPng(Comp, colorHex, size = 256) {
     s.addText(`${name} — ${n}`, { x: 8.0, y: ly - 0.05, w: 4.6, h: 0.4, fontFace: SANS, fontSize: 12.5, color: INK, margin: 0 });
     ly += 0.42;
   });
-  s.addText("Deliberately familiar: the room can judge output quality itself. School skew is data the pipeline must respect (slide 10).", {
+  s.addText("Deliberately familiar: the room can judge output quality itself. School skew is data the pipeline must respect (slide 12).", {
     x: 7.6, y: ly + 0.15, w: 5.15, h: 1.0, fontFace: SANS, fontSize: 12, italic: true, color: MUTED, margin: 0 });
   s.addNotes("22 stanzas rebuilt with stable per-stanza IDs, cross-checked against an annotated edition. Ingest is deterministic: re-running reproduces every source file byte-for-byte — verified on a second machine this week.");
 
-  // ---- 7 · PIPELINE OVERVIEW --------------------------------------------
+  // ---- 9 · PIPELINE OVERVIEW --------------------------------------------
   s = pres.addSlide();
   title(s, "The pipeline in one pass", "layers");
   const stagesInfo = [
@@ -241,7 +284,7 @@ async function iconPng(Comp, colorHex, size = 256) {
   s.addText("17 steps · 4 layers · one skill per step · versioned prompts · 546 passing tests", { x: 0.55, y: 6.7, w: 12.2, h: 0.4, fontFace: SANS, fontSize: 11.5, color: MUTED });
   s.addNotes("Two minutes, one pass, no detail. The red boxes are the talk's spine: everything distinctive follows from these two constraints.");
 
-  // ---- 8 · ALIGNMENT & IDs ----------------------------------------------
+  // ---- 10 · ALIGNMENT & IDs ----------------------------------------------
   s = pres.addSlide();
   title(s, "Verse alignment and stable IDs", "search");
   const arow = (y, k, v, bold) => {
@@ -265,7 +308,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.9, y: 6.6, w: 11.5, h: 0.5, fontFace: SANS, fontSize: 12, italic: true, color: MUTED });
   s.addNotes("Second slide in the trim order if squeezed. The reading-view invariant: every added scaffold layer strips back to a byte-identical text, so verification can never fail on the pipeline's own marginalia.");
 
-  // ---- 9 · ATOMIC CLAIMS -------------------------------------------------
+  // ---- 11 · ATOMIC CLAIMS -------------------------------------------------
   s = pres.addSlide();
   title(s, "Atomic claims — the firewall", "table");
   s.addText("One real row (སྒྲོལ་མ, claim 0):", { x: 0.6, y: 1.32, w: 11, h: 0.4, fontFace: SANS, fontSize: 13.5, bold: true, color: INK, margin: 0 });
@@ -287,11 +330,11 @@ async function iconPng(Comp, colorHex, size = 256) {
   };
   cstat(0.7, "81 → 47", "verbatim passages compressed to atomic claims (3 articles)");
   cstat(3.75, "13 / 13 / 21", "consensus / school-position / single-commentator");
-  cstat(6.8, "0", "majority-with-dissent — praise commentary isn't polemical (slide 10)");
+  cstat(6.8, "0", "majority-with-dissent — praise commentary isn't polemical (slide 12)");
   cstat(9.85, "100%", "claims carry passage indices, school, and reception tags");
   s.addNotes("Two minutes. The claim type triggers voice rules: consensus speaks plainly; a school position names its school; a single commentator is attributed. All types are corpus-relative — consensus means these sixteen commentaries agree, not the tradition at large. Facts aren't copyrightable — this is also the licensing posture: cite, don't copy (it narrows copyright risk; the review still checks quote length and paraphrase).");
 
-  // ---- 10 · WEIGHTING ----------------------------------------------------
+  // ---- 12 · WEIGHTING ----------------------------------------------------
   s = pres.addSlide();
   title(s, "Breadth decides existence; reception decides weight", "scale");
   s.addText([
@@ -314,7 +357,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.6, y: 6.7, w: 12.1, h: 0.45, fontFace: SERIF, fontSize: 15, italic: true, color: MAROON, align: "center" });
   s.addNotes("The slide for this room. Frame: the pipeline reads the tradition's own reception record — citation and refutation patterns — as due-weight policy, the way Wikipedia reads secondary literature.");
 
-  // ---- 11 · TWO MODELS, ONE LOOP ----------------------------------------
+  // ---- 13 · TWO MODELS, ONE LOOP ----------------------------------------
   s = pres.addSlide();
   title(s, "The auditor never writes — and it matters, measurably", "robot");
   const mcard = (x, head, lines, dark) => {
@@ -338,7 +381,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.6, y: 6.1, w: 12.15, h: 0.85, fontFace: SANS, fontSize: 13, italic: true, color: INK });
   s.addNotes("The layers catch disjoint failure classes: audit reads meaning (paraphrase drift, weight inflation); the gate reads characters (quotation integrity). The auditor also twice misquoted the draft in its own findings — model text is untrusted everywhere, which is why the blocking decision keys on categories and the gate is LLM-free.");
 
-  // ---- 12 · DEMO ---------------------------------------------------------
+  // ---- 14 · DEMO ---------------------------------------------------------
   s = pres.addSlide();
   title(s, "Demo — pre-recorded, offline-first", "play");
   s.addShape("roundRect", { x: 0.9, y: 1.5, w: 7.4, h: 4.4, rectRadius: 0.12, fill: { color: MAROON_DARK }, line: { color: MAROON } });
@@ -359,7 +402,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.9, y: 6.25, w: 11.8, h: 0.7, fontFace: SANS, fontSize: 12, italic: true, color: MUTED });
   s.addNotes("2:30. The recording exists before travel; cached at three redundancies (USB, cloud, email). If video fails, the PDF slide sequence of the same frames.");
 
-  // ---- 13 · EARLY RESULTS ------------------------------------------------
+  // ---- 15 · EARLY RESULTS ------------------------------------------------
   s = pres.addSlide();
   title(s, "Early results — and the number that carries the claim", "chart");
   const rows = [
@@ -385,7 +428,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.6, y: 6.5, w: 12.15, h: 0.6, fontFace: SERIF, fontSize: 14.5, italic: true, color: MAROON });
   s.addNotes("Never cut this slide. Single run, reported as such; pass rates over repeated runs are the evaluation-batch metric. WikiCrow anchors for context: 86.1% rater-judged citation precision vs 71.2% human baseline — ours is a stricter, byte-level property.");
 
-  // ---- 14 · ETHICS & LIMITS ---------------------------------------------
+  // ---- 16 · ETHICS & LIMITS ---------------------------------------------
   s = pres.addSlide();
   title(s, "Ethics and limits — the hardest question, pre-empted", "shield");
   s.addText("Small-wiki AI content has a body count: Greenlandic closed (2025) · Inuktitut ⅔ MT-contaminated · African wikis 40–60% uncorrected MT.", {
@@ -406,7 +449,7 @@ async function iconPng(Comp, colorHex, size = 256) {
   ], { x: 0.6, y: 5.0, w: 12.15, h: 1.5, fontFace: SANS, fontSize: 13 });
   s.addNotes("One minute. The residual risk stays named: a fluent reviewer can still wave through a subtly wrong article. The pipeline shrinks what a reviewer must distrust; it does not abolish editorial responsibility — and is not meant to.");
 
-  // ---- 15 · SCALING ------------------------------------------------------
+  // ---- 17 · SCALING ------------------------------------------------------
   s = pres.addSlide();
   title(s, "What scale looks like", "expand");
   const scard = (x, big, lab) => {
@@ -423,7 +466,7 @@ async function iconPng(Comp, colorHex, size = 256) {
     x: 0.6, y: 5.5, w: 12.15, h: 0.6, fontFace: SERIF, fontSize: 16, italic: true, color: MAROON, align: "center" });
   s.addNotes("45 seconds. Hundreds of texts queued behind the same contract. The durable asset is the claims database, not the article count.");
 
-  // ---- 16 · TAKEAWAY -----------------------------------------------------
+  // ---- 18 · TAKEAWAY -----------------------------------------------------
   s = pres.addSlide();
   s.background = { color: MAROON_DARK };
   s.addText("The loop is running either way.", { x: 0.8, y: 0.9, w: W - 1.6, h: 0.8, fontFace: SERIF, fontSize: 32, bold: true, color: WHITE, align: "center" });

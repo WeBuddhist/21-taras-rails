@@ -1,5 +1,14 @@
 # paper/draft — the deliverables and how to regenerate them
 
+> **2026-08-24 — FINAL DRAFT for submission.** `paper-src.md` updated to report the live
+> publication (40 articles on bo.wikipedia, 21–23 Aug, page IDs 28182–28227, verified against
+> `published.yaml` and the live wiki), the corpus-wide style-v2 rewrite + re-run gate
+> (216/216 quotations, 100%, per `3-TRANSFORMATIONS/Wikipedia/tara21/work/VERIFY-BATCH.md`),
+> and the public repo URL; all **[TO FILL]** boxes and draft-state phrasings retired; counts
+> corrected (42 term + 23 slot = 65 drafted). .docx rebuilt (10,903 words — ~91 over the
+> 10,812-word 15-page calibration; verify the page count via Pages export before submitting).
+> Figures 1–2 remain bracketed placeholders.
+
 > **2026-08-23 — retired steps removed from the paper.** On the lead's instruction the last
 > traces of two retired steps are out of `paper-src.md` and the .docx was rebuilt
 > (10,812 → 10,743 words, still inside the 15-page budget): the **root↔commentary alignment /

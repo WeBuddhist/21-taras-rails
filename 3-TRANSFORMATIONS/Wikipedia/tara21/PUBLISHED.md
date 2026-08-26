@@ -15,7 +15,7 @@ checked: 2026-08-23
 > [!note] Obsidian-readable view of [published.yaml](published.yaml). That file is canonical;
 > regenerate this view after any change rather than editing it here.
 
-**23 live · 0 queued · all 21 slot titles settled and published · 10 term articles live** (as of 2026-08-23)
+**40 live · 0 queued · all 21 slot titles settled and published · 17 term articles live** (as of 2026-08-23)
 
 ## The 21-slot title series
 
@@ -103,10 +103,17 @@ into `term-articles/<term>/`.
 | `pacification` | [ཞི་བ།](https://bo.wikipedia.org/w/index.php?curid=28218) | 28218 | [article.md](term-articles/pacification/article.md) | 2026-08-23 |
 | `paramita` | [ཕ་རོལ་ཕྱིན་པ།](https://bo.wikipedia.org/w/index.php?curid=28219) | 28219 | [article.md](term-articles/paramita/article.md) | 2026-08-23 |
 | `phat` | [ཕཊ།](https://bo.wikipedia.org/w/index.php?curid=28220) | 28220 | [article.md](term-articles/phat/article.md) | 2026-08-23 |
+| `suffering` | [སྡུག་བསྔལ།](https://bo.wikipedia.org/w/index.php?curid=28221) | 28221 | [article.md](term-articles/suffering/article.md) | 2026-08-23 |
+| `svaha` | [སྭཱ་ཧཱ།](https://bo.wikipedia.org/w/index.php?curid=28222) | 28222 | [article.md](term-articles/svaha/article.md) | 2026-08-23 |
+| `tara-mantra` | [ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ།](https://bo.wikipedia.org/w/index.php?curid=28223) | 28223 | [article.md](term-articles/tara-mantra/article.md) | 2026-08-23 |
+| `ushnisha` | [གཙུག་ཏོར།](https://bo.wikipedia.org/w/index.php?curid=28224) | 28224 | [article.md](term-articles/ushnisha/article.md) | 2026-08-23 |
+| `vayu` | [རླུང་ལྷ།](https://bo.wikipedia.org/w/index.php?curid=28225) | 28225 | [article.md](term-articles/vayu/article.md) | 2026-08-23 |
+| `vindhya` | [འབིགས་བྱེད།](https://bo.wikipedia.org/w/index.php?curid=28226) | 28226 | [article.md](term-articles/vindhya/article.md) | 2026-08-23 |
+| `yaksha` | [གནོད་སྦྱིན།](https://bo.wikipedia.org/w/index.php?curid=28227) | 28227 | [article.md](term-articles/yaksha/article.md) | 2026-08-23 |
 
 The other term articles under `term-articles/` (e.g. `amitabha`, `dana`, `kshanti`,
-`three-jewels`, `ushnisha`, …) remain `status: draft` and unpublished — check each
-`article.md` frontmatter before publishing.
+`three-jewels`, `vetala`, `virya`, `wheel`, …) remain `status: draft` and unpublished —
+check each `article.md` frontmatter before publishing.
 
 ## Title convention
 

@@ -29,6 +29,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/ushnisha/article.md (pre-polish).
+
 # Citations — ushnisha (གཙུག་ཏོར།)
 
 Source: consolidated topic page [`2-RAILS/Claims/ushnisha.md`](../../../../../2-RAILS/Claims/ushnisha.md) — a cross-cutting keyword-topic page (not a registered spine slot), assembled by `assemble_keyword_packet.py` per that page's own header note. All 16 commentaries listed in its `sources:` frontmatter contributed at least one claim to that page (its own Coverage table confirms "Commentaries silent on this topic: none"). Every attestation ID cited anywhere on the consolidated page was resolved through its raw tree-guided claims file before drafting began (skill Procedure step 2); none failed to resolve.

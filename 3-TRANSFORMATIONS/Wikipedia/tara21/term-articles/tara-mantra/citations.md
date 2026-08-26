@@ -27,6 +27,8 @@ date: 2026-08-12
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/tara-mantra/article.md (pre-polish).
+
 # Citations — tara-mantra
 
 `gendun-gyatso` and `lobsang-dawa` are listed in `tara-mantra.md`'s `sources:` frontmatter but were not

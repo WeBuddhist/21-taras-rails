@@ -15,6 +15,24 @@
 > sequence — **the canonical plan wins.** These notes remain the source for verified facts,
 > policy detail, and demo logistics.
 
+> [!important] Update 2026-08-24 — FINAL DRAFT: publication reported, draft-state language retired, repo link added
+> On the lead's instruction the day before submission, `paper/draft/paper-src.md` was brought to
+> its final state (10,903 words; .docx rebuilt same day): (1) **the paper now reports the live
+> publication** — 40 articles on bo.wikipedia (21–23 Aug 2026: the full 21-slot Tārā series, 2
+> subject articles, 17 term articles, page IDs 28182–28227), verified against `published.yaml`
+> and against the live wiki itself (publisher account Ta4tsering; edit summaries name the
+> project; site article count 8,073→8,113 across the window, live API 24 Aug). Every "nothing
+> yet published" passage rewritten accordingly (§1, §5.10, §7, §8, §10, abstract). (2) All
+> **[TO FILL]** boxes and "all status: draft" phrasings replaced with the measured current
+> state: style-v2 rewrite of all 65 drafted articles + re-run gate **216/216 quotations
+> (100%)**, 54/65 validator-clean (per `work/VERIFY-BATCH.md`); pending human legs now read as
+> prose future work. Corrected 43→42 term articles drafted (hara refused), batch 66→65, 69→68.
+> (3) The public repo link (https://github.com/WeBuddhist/21-taras-rails) added in §5.0 and
+> Reproducibility. The Gemini polish pass is deliberately NOT in the paper (lead's standing
+> instruction). Still open, flagged to the lead: Figures 1–2 are still bracketed placeholders,
+> and the word count sits ~91 over the 10,812-word 15-page calibration — check the Pages
+> export before submission.
+
 > [!tip] Update 2026-08-23 — alignment/transclusion and resegmentation removed from the paper
 > The 2026-08-21 cut had left one paragraph in §5.8 still explaining the retired verse-alignment
 > layer, and `11 - Pipeline Steps in Detail.md` still carried it as step A6 plus a

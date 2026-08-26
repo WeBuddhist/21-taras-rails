@@ -22,6 +22,8 @@ date: 2026-08-14
 status: draft
 ---
 
+> [!note] Polished — gemini-article-polish, 2026-08-23, model gemini-3.1-pro-preview; claim usage unchanged from 3-TRANSFORMATIONS/Wikipedia/tara21/term-articles/three-worlds/article.md (pre-polish). Two drift spans found and surgically reverted — see semantic-diff.md (verdict: PASS-after-reversion).
+
 # Citations — three-worlds (འཇིག་རྟེན་གསུམ)
 
 **Revision note (Mode B, `wiki-article-from-claims-v2`).** This revision changes only the

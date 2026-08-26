@@ -302,3 +302,45 @@ term_articles:
   pageid: 28220
   url: https://bo.wikipedia.org/w/index.php?curid=28220
   published_date: '2026-08-23'
+- term: suffering
+  path: term-articles/suffering/article.md
+  wiki_title: སྡུག་བསྔལ།
+  pageid: 28221
+  url: https://bo.wikipedia.org/w/index.php?curid=28221
+  published_date: '2026-08-23'
+- term: svaha
+  path: term-articles/svaha/article.md
+  wiki_title: སྭཱ་ཧཱ།
+  pageid: 28222
+  url: https://bo.wikipedia.org/w/index.php?curid=28222
+  published_date: '2026-08-23'
+- term: tara-mantra
+  path: term-articles/tara-mantra/article.md
+  wiki_title: ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ།
+  pageid: 28223
+  url: https://bo.wikipedia.org/w/index.php?curid=28223
+  published_date: '2026-08-23'
+- term: ushnisha
+  path: term-articles/ushnisha/article.md
+  wiki_title: གཙུག་ཏོར།
+  pageid: 28224
+  url: https://bo.wikipedia.org/w/index.php?curid=28224
+  published_date: '2026-08-23'
+- term: vayu
+  path: term-articles/vayu/article.md
+  wiki_title: རླུང་ལྷ།
+  pageid: 28225
+  url: https://bo.wikipedia.org/w/index.php?curid=28225
+  published_date: '2026-08-23'
+- term: vindhya
+  path: term-articles/vindhya/article.md
+  wiki_title: འབིགས་བྱེད།
+  pageid: 28226
+  url: https://bo.wikipedia.org/w/index.php?curid=28226
+  published_date: '2026-08-23'
+- term: yaksha
+  path: term-articles/yaksha/article.md
+  wiki_title: གནོད་སྦྱིན།
+  pageid: 28227
+  url: https://bo.wikipedia.org/w/index.php?curid=28227
+  published_date: '2026-08-23'
