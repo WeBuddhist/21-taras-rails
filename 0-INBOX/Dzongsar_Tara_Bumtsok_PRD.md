@@ -78,8 +78,9 @@ The interface used by the event moderator to push live text updates to the globa
 *   Build the Admin Control Dashboard with latency optimization.
 
 
-Meeting Notes:
-The 11 client requirements provided in the note:
+# Meeting Notes
+
+**The 11 client requirements provided in the note:**
   
 1. **Practice Plan Title (སྒྲུབ་འཆར་མིང):** Dzongsar Tara Bumtsok (2026)
 	
