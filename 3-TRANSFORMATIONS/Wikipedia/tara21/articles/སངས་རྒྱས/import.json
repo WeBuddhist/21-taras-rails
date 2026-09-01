@@ -1,9 +1,0 @@
-{
- "imported_by": "scripts/import_term_article.py",
- "imported_from": "term-articles/buddha",
- "method": "wiki-article-from-claims",
- "source_status": "draft",
- "rows_parsed": 15,
- "citations_written": 16,
- "unresolved_rows": []
-}

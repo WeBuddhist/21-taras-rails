@@ -1,9 +1,0 @@
-{
- "imported_by": "scripts/import_term_article.py",
- "imported_from": "term-articles/vetala",
- "method": "wiki-article-from-claims",
- "source_status": "draft",
- "rows_parsed": 40,
- "citations_written": 41,
- "unresolved_rows": []
-}
