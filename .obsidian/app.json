@@ -2,5 +2,6 @@
   "userIgnoreFilters": [
     "4-SYSTEM/Pipelines/"
   ],
-  "showLineNumber": true
+  "showLineNumber": true,
+  "spellcheck": false
 }
