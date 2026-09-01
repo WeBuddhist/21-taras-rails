@@ -1,0 +1,8 @@
+{
+  "window_idx": 1,
+  "heading": "(front matter)",
+  "line_range": [134, 207],
+  "operations": [
+    {"op": "merge", "lines": [178, 179, 180, 181, 182, 183]}
+  ]
+}

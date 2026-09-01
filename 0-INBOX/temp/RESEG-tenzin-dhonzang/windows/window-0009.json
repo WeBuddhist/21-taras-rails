@@ -1,0 +1,15 @@
+{
+  "window_idx": 9,
+  "heading": "(front matter)",
+  "line_range": [934, 998],
+  "operations": [
+    {"op": "merge", "lines": [936, 937, 938, 939, 940]},
+    {"op": "merge", "lines": [944, 945, 946, 947]},
+    {"op": "merge", "lines": [951, 952, 953, 954, 955, 956]},
+    {"op": "merge", "lines": [966, 967, 968, 969]},
+    {"op": "merge", "lines": [973, 974, 975, 976, 977]},
+    {"op": "merge", "lines": [978, 979, 980, 981]},
+    {"op": "merge", "lines": [983, 984, 985, 986, 987]},
+    {"op": "merge", "lines": [995, 996]}
+  ]
+}

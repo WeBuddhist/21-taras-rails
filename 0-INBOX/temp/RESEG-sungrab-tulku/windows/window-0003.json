@@ -1,0 +1,17 @@
+{
+  "window_idx": 3,
+  "heading": "(front matter)",
+  "line_range": [313, 387],
+  "operations": [
+    {"op": "merge", "lines": [315, 316, 317, 318, 319]},
+    {"op": "merge", "lines": [327, 328, 329, 330, 331]},
+    {"op": "merge", "lines": [339, 340, 341, 342, 343]},
+    {"op": "merge", "lines": [351, 352, 353]},
+    {"op": "merge", "lines": [358, 359, 360, 361, 362, 363]},
+    {"op": "merge", "lines": [365, 366]},
+    {"op": "merge", "lines": [369, 370]},
+    {"op": "merge", "lines": [374, 375]},
+    {"op": "merge", "lines": [379, 380]},
+    {"op": "merge", "lines": [383, 384, 385, 386, 387]}
+  ]
+}
