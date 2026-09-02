@@ -1,0 +1,29 @@
+{
+  "alignMode": "none",
+  "alignCenter": false,
+  "alignLevel": 0,
+  "alignCustom": [
+    "-",
+    "=",
+    "~"
+  ],
+  "fancyRender": {
+    "cliticMarks": false,
+    "infixBrackets": false,
+    "nullElement": false
+  },
+  "gloss": {
+    "useMarkup": false,
+    "altSpaces": false,
+    "styles": {
+      "global": [],
+      "levelA": [],
+      "levelB": [],
+      "levelC": [],
+      "levelX": [],
+      "preamble": [],
+      "translation": [],
+      "source": []
+    }
+  }
+}

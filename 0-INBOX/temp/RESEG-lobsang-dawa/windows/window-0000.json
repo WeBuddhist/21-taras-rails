@@ -1,0 +1,166 @@
+{
+  "window_idx": 0,
+  "heading": "(front matter)",
+  "line_range": [
+    18,
+    129
+  ],
+  "operations": [
+    {
+      "op": "merge",
+      "lines": [
+        20,
+        21
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        29,
+        31,
+        33
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        37,
+        39
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        41,
+        43
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        45,
+        47,
+        49
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        51,
+        53
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        55,
+        57
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        59,
+        61
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        65,
+        67
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        69,
+        71
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        73,
+        75
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        77,
+        79
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        81,
+        83
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        85,
+        87
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        89,
+        91
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        95,
+        97
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        101,
+        103
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        105,
+        107
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        109,
+        111
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        113,
+        115
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        117,
+        119
+      ]
+    },
+    {
+      "op": "merge",
+      "lines": [
+        121,
+        123
+      ]
+    }
+  ]
+}

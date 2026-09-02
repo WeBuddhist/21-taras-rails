@@ -1,0 +1,205 @@
+{
+ "term": "སྡུག་བསྔལ",
+ "claims": [
+  {
+   "id": "C1",
+   "claim_bo": "སྒྲོལ་མའི་མཚན་དོན་ཉིད་ལ། སེམས་ཅན་རྣམས་སྡུག་བསྔལ་ལས་སྐྱོབ་པའམ་སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའི་དོན་དུ་མཐུན་པར་འགྲེལ་ལོ།",
+   "passage_indices": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "claim_type": "consensus",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C2",
+   "claim_bo": "ཕྱག་འཚལ་བཅོ་ལྔ་པའི་བདེ་མ་དགེ་མ་ཞི་མ་ཞེས་པའི་ཚིག་ལ། འགྲེལ་པ་མང་པོས་མཐུན་པར་བཤད་པར། བདེ་མ་ནི་འབྲས་བུའི་སྡུག་བསྔལ་མེད་པའམ་ཟད་པ། དགེ་མ་ནི་རྒྱུ་མི་དགེ་བ་སྤངས་པ། ཞི་མ་ནི་སྟོང་ཉིད་དམ་ལམ་བདེན་རྟོགས་པའི་ཤེས་རབ་ཀྱིས་སྒྲིབ་གཉིས་ཀྱི་བག་ཆགས་ཟད་པ་ལ་གོའོ།",
+   "passage_indices": [
+    4,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "claim_type": "consensus",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C3",
+   "claim_bo": "འགྲེལ་པ་གཅིག་གིས་མཁས་པ་གཞན་ཁ་ཅིག་གི་བཤད་ཚུལ་ཞིག་ཀྱང་བཀོད་དེ། བདེ་དགེ་ཞི་གསུམ་དང་འགོག་པ་བཞི་པོ་དེ་དག་ཚོགས་ལམ། སྦྱོར་ལམ། མཐོང་ལམ། མི་སློབ་ལམ་བཅས་ལམ་བཞིའི་ཐོག་ནས་བཀྲལ་ཞིང་། ཞི་མ་ནི་མཐོང་ལམ་ཐོབ་དུས་སྐྱེ་རྒ་ན་འཆིའི་སྡུག་བསྔལ་ཞི་བར་འགྱུར་བའི་དོན་དུ་བཤད།",
+   "passage_indices": [
+    5
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "reported within TARAC03_GDD as an alternate view held by unnamed 'other scholars'; not otherwise engaged",
+   "contested": true,
+   "copyright_only": false
+  },
+  {
+   "id": "C4",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་ནི་བདེ་མ་ཞེས་པའི་དོན་ལ་ངན་སོང་ལས་ཐར་བ་དང་། ལུས་ཀྱི་ནད་སེམས་ཀྱི་སྡུག་བསྔལ་མེད་པ། ཟག་མེད་ཀྱི་བདེ་བ་ཐོབ་པ་བཅས་གསུམ་གྱི་སྒོ་ནས་བཀྲལ།",
+   "passage_indices": [
+    9
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C5",
+   "claim_bo": "མཇུག་བྱང་མི་གསལ་བའི་འགྲེལ་པ་ཞིག་གིས་ནི་བདེ་དགེ་ཞི་གསུམ་པོ་དེ་དག་རིམ་བཞིན་ངན་སོང་གི་སྡུག་བསྔལ་དང་། སྲིད་པའི་སྡུག་བསྔལ། སྲིད་ཞིའི་ཉེས་ཚོགས་གསུམ་ཀ་ལས་གདུལ་བྱ་སོ་སོའི་ལས་སྐལ་ལྟར་འགོད་པའི་རིམ་པ་ཞིག་ཏུ་བཀྲལ།",
+   "passage_indices": [
+    19
+   ],
+   "claim_type": "school-position",
+   "school": "ཉི་མ་སྦས་པའི་ལུགས།",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C6",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་སྡུག་བསྔལ་ལ་དབྱེ་ན་གསུམ་སྟེ། སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ། འགྱུར་བའི་སྡུག་བསྔལ། ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་བཅས་གསུངས་ཤིང་། འཁོར་བའི་ཉེས་དམིགས་གཞན་དྲུག་ཀྱང་བཀོད།",
+   "passage_indices": [
+    15
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C7",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་སྡུག་བསྔལ་བརྒྱད་དུ་ཡང་བགྲངས་ཏེ། སྐྱེ་བ། རྒ་བ། ན་བ། འཆི་བ། མི་སྡུག་པ་དང་ཕྲད་པ། སྡུག་པ་དང་བྲལ་བ། འདོད་པ་བཙལ་ཀྱང་མི་རྙེད་པ། ཉེར་ལེན་གྱི་ཕུང་པོ་བཅས་སོ།",
+   "passage_indices": [
+    16
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C8",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་ཁྱབ་པ་འདུ་བྱེད་ཀྱི་སྡུག་བསྔལ་དེ་ངེས་འབྱུང་གི་དམིགས་ཡུལ་ཕྲ་ཤོས་སུ་བཞེད་དེ། སྡུག་བསྔལ་འདི་ལ་སྐྱོ་བ་མ་སྐྱེས་ཀྱི་བར་འཁོར་བ་ལ་སྐྱོ་བ་རྣལ་མ་མི་འོང་བར་གསུངས།",
+   "passage_indices": [
+    17
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C9",
+   "claim_bo": "མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་གིས་ཉན་ཐོས་ཐེག་པའི་ལྟ་སྒོམ་སྤྱོད་གསུམ་གྱི་སྙིང་པོའི་དོན་ལ་སྡུག་བསྔལ། ཀུན་འབྱུང་། འགོག་པ། ལམ་བཅས་བདེན་པ་བཞིའི་སྒོ་ནས་བཤད།",
+   "passage_indices": [
+    18
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C10",
+   "claim_bo": "རྙིང་མའི་མཁན་ཆེན་དཔལ་ལྡན་ཤེས་རབ་ཀྱིས་མཐར་ཐུག་མཚན་མེད་རྫོགས་རིམ་གྱི་སྐབས་སུ། ཆོས་ཉིད་རིག་སྟོང་ཟང་ཐལ་དུ་མངོན་དུ་གྱུར་པའི་དུས་སུ་འཁོར་འདས་བཟང་ངན་སྡུག་བསྔལ་བདེ་བ་སོགས་ཀྱི་གཟུང་འཛིན་རེ་དོགས་ཐམས་ཅད་རང་གྲོལ་དུ་བཤད།",
+   "passage_indices": [
+    20
+   ],
+   "claim_type": "school-position",
+   "school": "རྙིང་མ།",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C11",
+   "claim_bo": "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་གྱིས་སྡུག་བསྔལ་དང་འཇིགས་པ་གནས་སྐབས་སུ་བདུད་བཞིའི་སྒོ་ནས་སྐྱེ་བར་བཤད་དེ། ལྷའི་བུའི་བདུད། འཆི་བདག་གི་བདུད། ཕུང་པོའི་བདུད། ཉོན་མོངས་པའི་བདུད་བཅས་སོ།",
+   "passage_indices": [
+    21
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C12",
+   "claim_bo": "ཕྱག་འཚལ་བཅུ་དགུ་པའི་མཚན་བརྗོད་ལས་སྒྲོལ་མ་ལ་སྡུག་བསྔལ་ཐམས་ཅད་བསྲེག་པའམ་སེལ་བའི་སྒྲོལ་མ་ཞེས་མཐུན་པར་གྲགས།",
+   "passage_indices": [
+    22,
+    23,
+    24
+   ],
+   "claim_type": "consensus",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C13",
+   "claim_bo": "རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་གྱིས་སྐྱེ་གནས་རིགས་བདུན་གྱི་དབྱེ་བ་ཞིག་ཀྱང་བཀོད་དེ། ངན་སོང་གསུམ་དང་མཐོ་རིས་ལྷ་མིའི་གནས་བཅས་ཀྱི་སྐྱེ་གནས་བདུན་པོའི་ནང་གནས་པའི་སེམས་ཅན་ཐམས་ཅད་གནས་སྐབས་དང་མཐར་ཐུག་གི་སྡུག་བསྔལ་ལས་སྐྱོབ་པར་བཤད།",
+   "passage_indices": [
+    25,
+    26
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C14",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་ཉོན་མོངས་པ་རྣམས་གློ་བུར་བ་ཙམ་ཡིན་གྱི་སེམས་ཀྱི་རང་བཞིན་དུ་མ་ཞུགས་པས། ལམ་གང་ཞིག་བརྟེན་ཀྱང་སྡུག་བསྔལ་ཟད་ཅིང་འགོག་བདེན་ཐོབ་རུང་བར་བཤད།",
+   "passage_indices": [
+    27
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  },
+  {
+   "id": "C15",
+   "claim_bo": "སེར་སྨད་གཙང་དགེ་བཤེས་བསྟན་འཛིན་དོན་བཟང་གིས་བྱང་ཆུབ་སེམས་དཔའི་སྨོན་ལམ་ལ། སྡུག་བསྔལ་གྱི་དབུགས་མ་ཕྱིན་པའི་སེམས་ཅན་ཐམས་ཅད་མྱང་འདས་སངས་རྒྱས་ཀྱི་གོ་འཕང་ལ་འགོད་པར་བྱའོ་སྙམ་པའི་སེམས་རྒྱ་ཆེར་བསྐྱེད་པའི་དོན་དུ་བཤད།",
+   "passage_indices": [
+    28
+   ],
+   "claim_type": "single-commentator",
+   "school": "",
+   "reception": "unengaged",
+   "contested": false,
+   "copyright_only": false
+  }
+ ],
+ "forbidden_syntheses": [
+  "Did not merge the three distinct bliss/virtue/peace frameworks (C2 majority formula, C3's five-paths reading, C4's threefold-bliss elaboration, C5's suffering-stage progression) into one composite account -- each source states its own framework and none states another's, so they remain four separate claims.",
+  "Did not infer that TDZ's classical three/eight-sufferings typology (C6/C7) is meant to gloss the bde/dge/zhi tetrad specifically -- TDZ presents it as a general aside on samsara's faults, not tied to stanza 15's tetrad by the source itself, so no claim asserts that connection.",
+  "Did not merge DTG's two sevenfold-rebirth passages (C13) with TARAC09_JYS's threefold suffering-stage progression (C5) despite both involving graded categories of rebirth/suffering -- no source draws that connection itself."
+ ],
+ "dropped": []
+}

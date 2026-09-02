@@ -1,0 +1,12 @@
+{
+ "model": "claude-sonnet-5",
+ "note": "Stages 4-6 were run with Claude standing in for Gemini: generativelanguage.googleapis.com is 403'd at the egress proxy in this environment. Prompts, schemas, artifact writing and the stage-7 verification gate are the repo's own code, unmodified. Do not report these as Gemini numbers.",
+ "run_at": "2026-08-02T07:12:15+00:00",
+ "prompts": {
+  "04-extract": "v2-block-locators.md",
+  "04b-claims": "v1.md",
+  "05-organize": "v2-claims-outline.md",
+  "06-draft": "v3-claims-only.md",
+  "06b-audit": "v1.md"
+ }
+}

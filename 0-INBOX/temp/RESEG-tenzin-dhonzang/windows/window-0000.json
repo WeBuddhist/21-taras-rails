@@ -1,0 +1,32 @@
+{
+  "window_idx": 0,
+  "heading": "(front matter)",
+  "line_range": [21, 172],
+  "operations": [
+    {"op": "merge", "lines": [23, 24]},
+    {"op": "merge", "lines": [27, 28, 29, 30, 31]},
+    {"op": "merge", "lines": [34, 35]},
+    {"op": "merge", "lines": [36, 37, 38]},
+    {"op": "merge", "lines": [40, 41, 42, 43]},
+    {"op": "merge", "lines": [44, 45, 46, 47]},
+    {"op": "merge", "lines": [48, 49, 50, 51]},
+    {"op": "merge", "lines": [57, 59]},
+    {"op": "merge", "lines": [61, 62, 63, 64, 65, 66, 67]},
+    {"op": "merge", "lines": [69, 70]},
+    {"op": "merge", "lines": [74, 75, 76, 77, 78, 79]},
+    {"op": "merge", "lines": [81, 82, 83, 84, 85, 86]},
+    {"op": "merge", "lines": [90, 91, 92, 93, 94]},
+    {"op": "merge", "lines": [95, 96, 97, 98]},
+    {"op": "merge", "lines": [99, 100, 101, 102]},
+    {"op": "merge", "lines": [103, 104, 105, 106, 107]},
+    {"op": "merge", "lines": [113, 114, 115]},
+    {"op": "merge", "lines": [117, 118, 119, 120]},
+    {"op": "merge", "lines": [124, 125, 126]},
+    {"op": "merge", "lines": [128, 129, 130, 131]},
+    {"op": "merge", "lines": [137, 138, 139, 140, 141, 142]},
+    {"op": "merge", "lines": [144, 145, 146, 147, 148, 149]},
+    {"op": "merge", "lines": [151, 152, 153, 154, 155, 156]},
+    {"op": "merge", "lines": [162, 163, 164, 165]},
+    {"op": "merge", "lines": [167, 168, 169, 170, 171, 172]}
+  ]
+}

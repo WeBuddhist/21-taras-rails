@@ -1,0 +1,4714 @@
+{
+  "ཕྱག་འཚལ།": {
+    "variants": [
+      "ཕྱག་འཚལ།"
+    ],
+    "en_glosses": [
+      "homage"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-2",
+      "1-3",
+      "1-4",
+      "1-5",
+      "1-6",
+      "1-7",
+      "1-8",
+      "1-9",
+      "1-10",
+      "1-11",
+      "1-12",
+      "1-13",
+      "1-14",
+      "1-15",
+      "1-16",
+      "1-17",
+      "1-18",
+      "1-19",
+      "1-20",
+      "1-21",
+      "I-1"
+    ],
+    "block_count": 22
+  },
+  "རབ་ཏུ།": {
+    "variants": [
+      "རབ་ཏུ།"
+    ],
+    "en_glosses": [
+      "complete",
+      "completely",
+      "exceedingly",
+      "highly",
+      "thoroughly"
+    ],
+    "root_blocks": [
+      "1-2",
+      "1-7",
+      "1-10",
+      "1-16",
+      "a-1",
+      "a-4"
+    ],
+    "block_count": 6
+  },
+  "ཚོགས།": {
+    "variants": [
+      "ཚོགས།"
+    ],
+    "en_glosses": [
+      "assembly",
+      "host",
+      "hosts",
+      "masses"
+    ],
+    "root_blocks": [
+      "1-6",
+      "1-9",
+      "1-11",
+      "1-19",
+      "1-21",
+      "a-5"
+    ],
+    "block_count": 6
+  },
+  "འོད།": {
+    "variants": [
+      "འོད།"
+    ],
+    "en_glosses": [
+      "light"
+    ],
+    "root_blocks": [
+      "1-2",
+      "1-9",
+      "1-10",
+      "1-12",
+      "1-20"
+    ],
+    "block_count": 5
+  },
+  "རྣམ་པར།": {
+    "variants": [
+      "རྣམ་པར།"
+    ],
+    "en_glosses": [
+      "beautifully",
+      "completely",
+      "thoroughly"
+    ],
+    "root_blocks": [
+      "1-3",
+      "1-9",
+      "1-11",
+      "1-13",
+      "a-5"
+    ],
+    "block_count": 5
+  },
+  "ཉིད།": {
+    "variants": [
+      "ཉིད།"
+    ],
+    "en_glosses": [
+      "indeed",
+      "itself",
+      "utterly"
+    ],
+    "root_blocks": [
+      "1-3",
+      "1-21",
+      "a-2",
+      "a-4",
+      "a-6"
+    ],
+    "block_count": 5
+  },
+  "ཡི་གེ།": {
+    "variants": [
+      "ཡི་གེ།"
+    ],
+    "en_glosses": [
+      "letter",
+      "syllable",
+      "syllables"
+    ],
+    "root_blocks": [
+      "1-5",
+      "1-11",
+      "1-14",
+      "1-16",
+      "1-18"
+    ],
+    "block_count": 5
+  },
+  "སྒྲོལ་མ།": {
+    "variants": [
+      "སྒྲོལ་མ།"
+    ],
+    "en_glosses": [
+      "liberates",
+      "tara"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-11",
+      "I-1",
+      "a-7"
+    ],
+    "block_count": 4
+  },
+  "འཇིག་རྟེན།": {
+    "variants": [
+      "འཇིག་རྟེན།"
+    ],
+    "en_glosses": [
+      "world",
+      "worlds"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-5",
+      "1-10",
+      "1-17"
+    ],
+    "block_count": 4
+  },
+  "ཤིན་ཏུ།": {
+    "variants": [
+      "ཤིན་ཏུ།"
+    ],
+    "en_glosses": [
+      "exceeding",
+      "exceedingly",
+      "extremely",
+      "intensely",
+      "most",
+      "thoroughly"
+    ],
+    "root_blocks": [
+      "1-4",
+      "1-7",
+      "1-12",
+      "1-20"
+    ],
+    "block_count": 4
+  },
+  "ཞབས།": {
+    "variants": [
+      "ཞབས།"
+    ],
+    "en_glosses": [
+      "feet",
+      "foot"
+    ],
+    "root_blocks": [
+      "1-5",
+      "1-7",
+      "1-14",
+      "1-17"
+    ],
+    "block_count": 4
+  },
+  "ཧཱུྃ།": {
+    "variants": [
+      "ཧཱུྃ།"
+    ],
+    "en_glosses": [
+      "hum"
+    ],
+    "root_blocks": [
+      "1-5",
+      "1-14",
+      "1-16",
+      "1-17"
+    ],
+    "block_count": 4
+  },
+  "རབ།": {
+    "variants": [
+      "རབ།"
+    ],
+    "en_glosses": [
+      "completely",
+      "exceedingly",
+      "supreme"
+    ],
+    "root_blocks": [
+      "1-10",
+      "1-16",
+      "1-20",
+      "a-2"
+    ],
+    "block_count": 4
+  },
+  "འཇོམས་པ།": {
+    "variants": [
+      "འཇོམས་པ།"
+    ],
+    "en_glosses": [
+      "destroyed",
+      "destroyer",
+      "destroying"
+    ],
+    "root_blocks": [
+      "1-15",
+      "1-21",
+      "a-2",
+      "a-6"
+    ],
+    "block_count": 4
+  },
+  "བསྟོད་པ།": {
+    "variants": [
+      "བསྟོད་པ།"
+    ],
+    "en_glosses": [
+      "praise"
+    ],
+    "root_blocks": [
+      "I-1",
+      "a-1",
+      "a-7"
+    ],
+    "block_count": 3
+  },
+  "ཞལ།": {
+    "variants": [
+      "ཞལ།"
+    ],
+    "en_glosses": [
+      "face"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-2",
+      "1-8"
+    ],
+    "block_count": 3
+  },
+  "འབར་མ།": {
+    "variants": [
+      "འབར་མ།"
+    ],
+    "en_glosses": [
+      "blaze",
+      "blazing"
+    ],
+    "root_blocks": [
+      "1-2",
+      "1-7",
+      "1-12"
+    ],
+    "block_count": 3
+  },
+  "མ་ལུས།": {
+    "variants": [
+      "མ་ལུས།"
+    ],
+    "en_glosses": [
+      "every",
+      "exception",
+      "single",
+      "without"
+    ],
+    "root_blocks": [
+      "1-4",
+      "1-8",
+      "1-9"
+    ],
+    "block_count": 3
+  },
+  "འཇོམས་མ།": {
+    "variants": [
+      "འཇོམས་མ།"
+    ],
+    "en_glosses": [
+      "conqueror",
+      "destroy",
+      "destroys"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-8",
+      "1-13"
+    ],
+    "block_count": 3
+  },
+  "ཏུ་རེ།": {
+    "variants": [
+      "ཏུ་རེ།"
+    ],
+    "en_glosses": [
+      "king",
+      "ture"
+    ],
+    "root_blocks": [
+      "1-8",
+      "1-17",
+      "1-21"
+    ],
+    "block_count": 3
+  },
+  "ཚོགས་རྣམས།": {
+    "variants": [
+      "ཚོགས་རྣམས།"
+    ],
+    "en_glosses": [
+      "assemblies",
+      "hosts"
+    ],
+    "root_blocks": [
+      "1-11",
+      "1-19",
+      "1-21"
+    ],
+    "block_count": 3
+  },
+  "སེལ་མ།": {
+    "variants": [
+      "སེལ་མ།"
+    ],
+    "en_glosses": [
+      "dispel",
+      "dispels",
+      "disperse",
+      "dispersing"
+    ],
+    "root_blocks": [
+      "1-18",
+      "1-19",
+      "1-20"
+    ],
+    "block_count": 3
+  },
+  "དུག།": {
+    "variants": [
+      "དུག།"
+    ],
+    "en_glosses": [
+      "poison",
+      "poisons",
+      "son"
+    ],
+    "root_blocks": [
+      "1-18",
+      "a-4",
+      "a-5"
+    ],
+    "block_count": 3
+  },
+  "ཉི་ཤུ་རྩ་གཅིག།": {
+    "variants": [
+      "ཉི་ཤུ་རྩ་གཅིག།"
+    ],
+    "en_glosses": [
+      "twenty-one"
+    ],
+    "root_blocks": [
+      "I-1",
+      "a-1"
+    ],
+    "block_count": 2
+  },
+  "སྤྱན།": {
+    "variants": [
+      "དཔའ་མོ། / སྤྱན།",
+      "སྤྱན།"
+    ],
+    "en_glosses": [
+      "eye",
+      "eyes",
+      "heroine eye"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-20"
+    ],
+    "block_count": 2
+  },
+  "ཆུ་སྐྱེས།": {
+    "variants": [
+      "ཆུ་སྐྱེས།"
+    ],
+    "en_glosses": [
+      "water bear",
+      "water-born"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-8"
+    ],
+    "block_count": 2
+  },
+  "ཆུ་སྐྱེས་ཞལ།": {
+    "variants": [
+      "ཆུ་སྐྱེས་ཞལ།"
+    ],
+    "en_glosses": [
+      "water bear face"
+    ],
+    "root_blocks": [
+      "1-1",
+      "1-8"
+    ],
+    "block_count": 2
+  },
+  "ཟླ་བ།": {
+    "variants": [
+      "ཟླ་བ།"
+    ],
+    "en_glosses": [
+      "moon",
+      "moons"
+    ],
+    "root_blocks": [
+      "1-2",
+      "1-20"
+    ],
+    "block_count": 2
+  },
+  "སྤྱོད་ཡུལ།": {
+    "variants": [
+      "སྤྱོད་ཡུལ།"
+    ],
+    "en_glosses": [
+      "activity",
+      "range",
+      "sphere"
+    ],
+    "root_blocks": [
+      "1-3",
+      "1-15"
+    ],
+    "block_count": 2
+  },
+  "བརྒྱན་མ།": {
+    "variants": [
+      "བརྒྱན་མ།"
+    ],
+    "en_glosses": [
+      "adorn",
+      "adorned"
+    ],
+    "root_blocks": [
+      "1-3",
+      "1-9"
+    ],
+    "block_count": 2
+  },
+  "རྣམ་པར་བརྒྱན་མ།": {
+    "variants": [
+      "རྣམ་པར་བརྒྱན་མ།"
+    ],
+    "en_glosses": [
+      "beautifully adorn",
+      "completely adorn"
+    ],
+    "root_blocks": [
+      "1-3",
+      "1-9"
+    ],
+    "block_count": 2
+  },
+  "ཞི་བ།": {
+    "variants": [
+      "ཞི་བ།"
+    ],
+    "en_glosses": [
+      "pacification",
+      "pacifying"
+    ],
+    "root_blocks": [
+      "1-3",
+      "a-2"
+    ],
+    "block_count": 2
+  },
+  "བསྟེན་མ།": {
+    "variants": [
+      "བསྟེན་མ།"
+    ],
+    "en_glosses": [
+      "attended",
+      "relied"
+    ],
+    "root_blocks": [
+      "1-4",
+      "1-19"
+    ],
+    "block_count": 2
+  },
+  "ནུས་མ།": {
+    "variants": [
+      "ནུས་མ།"
+    ],
+    "en_glosses": [
+      "able"
+    ],
+    "root_blocks": [
+      "1-5",
+      "1-11"
+    ],
+    "block_count": 2
+  },
+  "ཕྱོགས།": {
+    "variants": [
+      "ཕྱོགས།"
+    ],
+    "en_glosses": [
+      "direction",
+      "directions"
+    ],
+    "root_blocks": [
+      "1-5",
+      "1-9"
+    ],
+    "block_count": 2
+  },
+  "རོ་ལངས།": {
+    "variants": [
+      "རོ་ལངས།"
+    ],
+    "en_glosses": [
+      "vetalas",
+      "zombies"
+    ],
+    "root_blocks": [
+      "1-6",
+      "1-21"
+    ],
+    "block_count": 2
+  },
+  "གནོད་སྦྱིན།": {
+    "variants": [
+      "གནོད་སྦྱིན།"
+    ],
+    "en_glosses": [
+      "yaksha",
+      "yakshas"
+    ],
+    "root_blocks": [
+      "1-6",
+      "1-21"
+    ],
+    "block_count": 2
+  },
+  "ཤིན་ཏུ་འབར་མ།": {
+    "variants": [
+      "ཤིན་ཏུ་འབར་མ།"
+    ],
+    "en_glosses": [
+      "blaze intensely",
+      "exceedingly blaze"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-12"
+    ],
+    "block_count": 2
+  },
+  "བརྐྱང་།": {
+    "variants": [
+      "བརྐྱང་།"
+    ],
+    "en_glosses": [
+      "extend",
+      "extended"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-13"
+    ],
+    "block_count": 2
+  },
+  "མེ།": {
+    "variants": [
+      "མེ།"
+    ],
+    "en_glosses": [
+      "fire"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-13"
+    ],
+    "block_count": 2
+  },
+  "གཡོན།": {
+    "variants": [
+      "གཡོན།"
+    ],
+    "en_glosses": [
+      "leave",
+      "left"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-13"
+    ],
+    "block_count": 2
+  },
+  "ཕཊ།": {
+    "variants": [
+      "ཕཊ།"
+    ],
+    "en_glosses": [
+      "phat"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-18"
+    ],
+    "block_count": 2
+  },
+  "བསྐུམ།": {
+    "variants": [
+      "བསྐུམ།"
+    ],
+    "en_glosses": [
+      "bent",
+      "retracted"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-13"
+    ],
+    "block_count": 2
+  },
+  "གཡས།": {
+    "variants": [
+      "གཡས།"
+    ],
+    "en_glosses": [
+      "right"
+    ],
+    "root_blocks": [
+      "1-7",
+      "1-13"
+    ],
+    "block_count": 2
+  },
+  "ཁྲོ་གཉེར།": {
+    "variants": [
+      "ཁྲོ་གཉེར།"
+    ],
+    "en_glosses": [
+      "frown",
+      "frowning",
+      "wrathful",
+      "wrinkles"
+    ],
+    "root_blocks": [
+      "1-8",
+      "1-11"
+    ],
+    "block_count": 2
+  },
+  "མཛད།": {
+    "variants": [
+      "མཛད།"
+    ],
+    "en_glosses": [
+      "make",
+      "making"
+    ],
+    "root_blocks": [
+      "1-8",
+      "1-14"
+    ],
+    "block_count": 2
+  },
+  "བདུད།": {
+    "variants": [
+      "བདུད།"
+    ],
+    "en_glosses": [
+      "maras"
+    ],
+    "root_blocks": [
+      "1-8",
+      "1-10"
+    ],
+    "block_count": 2
+  },
+  "ཏུ་ཏྟྭ་ར།": {
+    "variants": [
+      "ཏུ་ཏྟྭ་ར།"
+    ],
+    "en_glosses": [
+      "tara",
+      "tuttara"
+    ],
+    "root_blocks": [
+      "1-10",
+      "1-20"
+    ],
+    "block_count": 2
+  },
+  "དགྲ།": {
+    "variants": [
+      "དགྲ།"
+    ],
+    "en_glosses": [
+      "enemies",
+      "enemy"
+    ],
+    "root_blocks": [
+      "1-13",
+      "1-16"
+    ],
+    "block_count": 2
+  },
+  "ཀུན་ནས།": {
+    "variants": [
+      "ཀུན་ནས།"
+    ],
+    "en_glosses": [
+      "side",
+      "sides"
+    ],
+    "root_blocks": [
+      "1-13",
+      "1-19"
+    ],
+    "block_count": 2
+  },
+  "འགེམས་མ།": {
+    "variants": [
+      "འགེམས་མ།"
+    ],
+    "en_glosses": [
+      "destroy",
+      "destroys",
+      "shatter",
+      "shatters"
+    ],
+    "root_blocks": [
+      "1-14",
+      "1-16"
+    ],
+    "block_count": 2
+  },
+  "ཆེན་པོ།": {
+    "variants": [
+      "ཆེན་པོ།"
+    ],
+    "en_glosses": [
+      "great"
+    ],
+    "root_blocks": [
+      "1-15",
+      "a-4"
+    ],
+    "block_count": 2
+  },
+  "སྡིག་པ།": {
+    "variants": [
+      "སྡིག་པ།"
+    ],
+    "en_glosses": [
+      "actions",
+      "negative",
+      "negativity"
+    ],
+    "root_blocks": [
+      "1-15",
+      "a-2"
+    ],
+    "block_count": 2
+  },
+  "ཡང་དག།": {
+    "variants": [
+      "ཡང་དག།"
+    ],
+    "en_glosses": [
+      "perfect",
+      "perfectly"
+    ],
+    "root_blocks": [
+      "1-15",
+      "1-21"
+    ],
+    "block_count": 2
+  },
+  "བཀོད་པའི།": {
+    "variants": [
+      "བཀོད་པའི།"
+    ],
+    "en_glosses": [
+      "arrangement",
+      "arranges"
+    ],
+    "root_blocks": [
+      "1-16",
+      "1-21"
+    ],
+    "block_count": 2
+  },
+  "དགའ་བའི།": {
+    "variants": [
+      "དགའ་བའི།"
+    ],
+    "en_glosses": [
+      "joyful"
+    ],
+    "root_blocks": [
+      "1-16",
+      "1-19"
+    ],
+    "block_count": 2
+  },
+  "རྣམ་པའི།": {
+    "variants": [
+      "རྣམ་པའི།"
+    ],
+    "en_glosses": [
+      "form"
+    ],
+    "root_blocks": [
+      "1-17",
+      "1-18"
+    ],
+    "block_count": 2
+  },
+  "ལྷ།": {
+    "variants": [
+      "ལྷ།"
+    ],
+    "en_glosses": [
+      "celestial",
+      "god",
+      "gods"
+    ],
+    "root_blocks": [
+      "1-18",
+      "1-19"
+    ],
+    "block_count": 2
+  },
+  "བརྗོད།": {
+    "variants": [
+      "བརྗོད།"
+    ],
+    "en_glosses": [
+      "pronouncing",
+      "uttering"
+    ],
+    "root_blocks": [
+      "1-18",
+      "1-20"
+    ],
+    "block_count": 2
+  },
+  "རིམས།": {
+    "variants": [
+      "རིམས།"
+    ],
+    "en_glosses": [
+      "disease",
+      "diseases",
+      "infectious",
+      "infectious disease"
+    ],
+    "root_blocks": [
+      "1-20",
+      "a-5"
+    ],
+    "block_count": 2
+  },
+  "གདོན།": {
+    "variants": [
+      "གདོན།"
+    ],
+    "en_glosses": [
+      "demon",
+      "demons"
+    ],
+    "root_blocks": [
+      "1-21",
+      "a-5"
+    ],
+    "block_count": 2
+  },
+  "བརྗོད་པ།": {
+    "variants": [
+      "བརྗོད་པ།"
+    ],
+    "en_glosses": [
+      "recited",
+      "reciting"
+    ],
+    "root_blocks": [
+      "a-1",
+      "a-5"
+    ],
+    "block_count": 2
+  },
+  "དྲན་པ།": {
+    "variants": [
+      "དྲན་པ།"
+    ],
+    "en_glosses": [
+      "remember",
+      "remembering"
+    ],
+    "root_blocks": [
+      "a-2",
+      "a-4"
+    ],
+    "block_count": 2
+  },
+  "སངས་རྒྱས།": {
+    "variants": [
+      "སངས་རྒྱས།"
+    ],
+    "en_glosses": [
+      "buddha"
+    ],
+    "root_blocks": [
+      "a-3",
+      "a-7"
+    ],
+    "block_count": 2
+  },
+  "ཐོབ།": {
+    "variants": [
+      "ཐོབ།"
+    ],
+    "en_glosses": [
+      "obtain",
+      "obtained",
+      "obtains"
+    ],
+    "root_blocks": [
+      "a-4",
+      "a-6"
+    ],
+    "block_count": 2
+  },
+  "ཨེ་ཀ་བིཾ་ཤ་ཏི།": {
+    "variants": [
+      "ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+    ],
+    "en_glosses": [
+      "ati",
+      "ekaviṃśati"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཕན་ཡོན།": {
+    "variants": [
+      "ཕན་ཡོན།"
+    ],
+    "en_glosses": [
+      "benefit",
+      "benefits"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།": {
+    "variants": [
+      "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།"
+    ],
+    "en_glosses": [
+      "ekaviṃśati stotra"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།": {
+    "variants": [
+      "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+    ],
+    "en_glosses": [
+      "ekaviṃśati stotra guṇahitasāka"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།": {
+    "variants": [
+      "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+    ],
+    "en_glosses": [
+      "guṇahitasāka"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "རྒྱ་གར།": {
+    "variants": [
+      "རྒྱ་གར།"
+    ],
+    "en_glosses": [
+      "india"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "འཕགས་མ།": {
+    "variants": [
+      "འཕགས་མ།"
+    ],
+    "en_glosses": [
+      "lady",
+      "noble",
+      "noble lady"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "སྐད།": {
+    "variants": [
+      "སྐད།"
+    ],
+    "en_glosses": [
+      "language"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "རྒྱ་གར་སྐད།": {
+    "variants": [
+      "རྒྱ་གར་སྐད།"
+    ],
+    "en_glosses": [
+      "language india"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "བོད་སྐད།": {
+    "variants": [
+      "བོད་སྐད།"
+    ],
+    "en_glosses": [
+      "language tibet"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ན་མཿ།": {
+    "variants": [
+      "ན་མཿ།"
+    ],
+    "en_glosses": [
+      "nama",
+      "namaḥ"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ན་མཿཏཱ་རཱ།": {
+    "variants": [
+      "ན་མཿཏཱ་རཱ།"
+    ],
+    "en_glosses": [
+      "namaḥ tāre"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།": {
+    "variants": [
+      "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+    ],
+    "en_glosses": [
+      "namaḥ tāre ekaviṃśati"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "སྟོ་ཏྲ།": {
+    "variants": [
+      "སྟོ་ཏྲ།"
+    ],
+    "en_glosses": [
+      "stotra"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།": {
+    "variants": [
+      "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+    ],
+    "en_glosses": [
+      "stotra guṇahitasāka"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "བོད།": {
+    "variants": [
+      "བོད།"
+    ],
+    "en_glosses": [
+      "tibet"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "དང་བཅས་པ།": {
+    "variants": [
+      "དང་བཅས་པ།"
+    ],
+    "en_glosses": [
+      "together"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་རཱ།": {
+    "variants": [
+      "ཏཱ་རཱ།"
+    ],
+    "en_glosses": [
+      "tāre"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།": {
+    "variants": [
+      "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+    ],
+    "en_glosses": [
+      "tāre ekaviṃśati"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།": {
+    "variants": [
+      "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།"
+    ],
+    "en_glosses": [
+      "tāre ekaviṃśati stotra"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "རྗེ་བཙུན་མ།": {
+    "variants": [
+      "རྗེ་བཙུན་མ།"
+    ],
+    "en_glosses": [
+      "venerable"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "རྗེ་བཙུན་མ་སྒྲོལ་མ།": {
+    "variants": [
+      "རྗེ་བཙུན་མ་སྒྲོལ་མ།"
+    ],
+    "en_glosses": [
+      "venerable tara"
+    ],
+    "root_blocks": [
+      "I-1"
+    ],
+    "block_count": 1
+  },
+  "བྱུང་མ།": {
+    "variants": [
+      "བྱུང་མ།",
+      "འཇིག་རྟེན་གསུམ། / བྱུང་མ།"
+    ],
+    "en_glosses": [
+      "arise",
+      "arisen",
+      "world arise"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "གློག།": {
+    "variants": [
+      "གློག།"
+    ],
+    "en_glosses": [
+      "flash",
+      "light",
+      "lightning"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "དཔའ་མོ།": {
+    "variants": [
+      "དཔའ་མོ།",
+      "དཔའ་མོ། / སྤྱན།"
+    ],
+    "en_glosses": [
+      "heroine",
+      "heroine eye"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་འཚལ་སྒྲོལ་མ།": {
+    "variants": [
+      "ཕྱག་འཚལ་སྒྲོལ་མ།"
+    ],
+    "en_glosses": [
+      "homage tara"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།": {
+    "variants": [
+      "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།"
+    ],
+    "en_glosses": [
+      "homage tara swift"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "སྐད་ཅིག།": {
+    "variants": [
+      "སྐད་ཅིག།"
+    ],
+    "en_glosses": [
+      "instant"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "ཕྱེ་བ།": {
+    "variants": [
+      "ཕྱེ་བ།"
+    ],
+    "en_glosses": [
+      "opening"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "མགོན།": {
+    "variants": [
+      "མགོན།"
+    ],
+    "en_glosses": [
+      "protector"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "གེ་སར།": {
+    "variants": [
+      "གེ་སར།"
+    ],
+    "en_glosses": [
+      "stamen"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "མྱུར་མ།": {
+    "variants": [
+      "མྱུར་མ།"
+    ],
+    "en_glosses": [
+      "swift"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "སྒྲོལ་མ་མྱུར་མ།": {
+    "variants": [
+      "སྒྲོལ་མ་མྱུར་མ།"
+    ],
+    "en_glosses": [
+      "tara swift"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།": {
+    "variants": [
+      "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།"
+    ],
+    "en_glosses": [
+      "tara swift heroine"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "འཇིག་རྟེན་གསུམ།": {
+    "variants": [
+      "འཇིག་རྟེན་གསུམ། / བྱུང་མ།"
+    ],
+    "en_glosses": [
+      "world arise"
+    ],
+    "root_blocks": [
+      "1-1"
+    ],
+    "block_count": 1
+  },
+  "ཚོགས་པ།": {
+    "variants": [
+      "ཚོགས་པ།"
+    ],
+    "en_glosses": [
+      "assemblies",
+      "assembly"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "སྟོན་ཀ།": {
+    "variants": [
+      "སྟོན་ཀ།"
+    ],
+    "en_glosses": [
+      "autumn"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "སྟོན་ཀའི་ཟླ་བ།": {
+    "variants": [
+      "སྟོན་ཀའི་ཟླ་བ།"
+    ],
+    "en_glosses": [
+      "autumn moon"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་ཕྱེ་བ།": {
+    "variants": [
+      "རབ་ཏུ་ཕྱེ་བ།"
+    ],
+    "en_glosses": [
+      "brilliant"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་ཕྱེ་བའི་འོད།": {
+    "variants": [
+      "རབ་ཏུ་ཕྱེ་བའི་འོད།"
+    ],
+    "en_glosses": [
+      "brilliant light",
+      "highly brilliant light"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "གང་བ།": {
+    "variants": [
+      "གང་བ།"
+    ],
+    "en_glosses": [
+      "full"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "བརྩེགས་པ།": {
+    "variants": [
+      "བརྩེགས་པ།"
+    ],
+    "en_glosses": [
+      "gathered"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱ།": {
+    "variants": [
+      "བརྒྱ།"
+    ],
+    "en_glosses": [
+      "hundred"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "བརྩེགས་པའི།": {
+    "variants": [
+      "བརྩེགས་པའི།"
+    ],
+    "en_glosses": [
+      "like"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "སྐར་མ།": {
+    "variants": [
+      "སྐར་མ།"
+    ],
+    "en_glosses": [
+      "stars"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "སྟོང་ཕྲག།": {
+    "variants": [
+      "སྟོང་ཕྲག།"
+    ],
+    "en_glosses": [
+      "thousands"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "ཀུན་དུ།": {
+    "variants": [
+      "ཀུན་དུ།"
+    ],
+    "en_glosses": [
+      "together"
+    ],
+    "root_blocks": [
+      "1-2"
+    ],
+    "block_count": 1
+  },
+  "དཀའ་ཐུབ།": {
+    "variants": [
+      "དཀའ་ཐུབ།"
+    ],
+    "en_glosses": [
+      "asceticism"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "སྔོ།": {
+    "variants": [
+      "སྔོ།"
+    ],
+    "en_glosses": [
+      "blue"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "བསམ་གཏན།": {
+    "variants": [
+      "བསམ་གཏན།"
+    ],
+    "en_glosses": [
+      "concentration",
+      "meditative"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "བརྩོན་འགྲུས།": {
+    "variants": [
+      "བརྩོན་འགྲུས།"
+    ],
+    "en_glosses": [
+      "diligence"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "སྦྱིན་པ།": {
+    "variants": [
+      "སྦྱིན་པ།"
+    ],
+    "en_glosses": [
+      "giving"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "གསེར།": {
+    "variants": [
+      "གསེར།"
+    ],
+    "en_glosses": [
+      "golden"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག།": {
+    "variants": [
+      "ཕྱག།"
+    ],
+    "en_glosses": [
+      "hand"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "པདྨ།": {
+    "variants": [
+      "པདྨ།"
+    ],
+    "en_glosses": [
+      "lotus"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "བཟོད་པ།": {
+    "variants": [
+      "བཟོད་པ།"
+    ],
+    "en_glosses": [
+      "patience"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "ཆུ་ནས་སྐྱེས།": {
+    "variants": [
+      "ཆུ་ནས་སྐྱེས།"
+    ],
+    "en_glosses": [
+      "water bear",
+      "water-born"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ།": {
+    "variants": [
+      "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ།"
+    ],
+    "en_glosses": [
+      "water bear lotus"
+    ],
+    "root_blocks": [
+      "1-3"
+    ],
+    "block_count": 1
+  },
+  "ཐོབ་པ།": {
+    "variants": [
+      "ཐོབ་པ།"
+    ],
+    "en_glosses": [
+      "attained"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "གཙུག་ཏོར།": {
+    "variants": [
+      "གཙུག་ཏོར།"
+    ],
+    "en_glosses": [
+      "crown",
+      "protrusion"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "མཐའ་ཡས།": {
+    "variants": [
+      "མཐའ་ཡས།"
+    ],
+    "en_glosses": [
+      "infinite"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "ཕ་རོལ་ཕྱིན་པ།": {
+    "variants": [
+      "ཕ་རོལ་ཕྱིན་པ།"
+    ],
+    "en_glosses": [
+      "perfect",
+      "perfection"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "སྤྱོད་མ།": {
+    "variants": [
+      "སྤྱོད་མ།"
+    ],
+    "en_glosses": [
+      "practices"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "སྲས།": {
+    "variants": [
+      "སྲས།"
+    ],
+    "en_glosses": [
+      "son",
+      "sons"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "དེ་བཞིན་གཤེགས་པ།": {
+    "variants": [
+      "དེ་བཞིན་གཤེགས་པ།"
+    ],
+    "en_glosses": [
+      "tathagata"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བའི།": {
+    "variants": [
+      "རྒྱལ་བའི།"
+    ],
+    "en_glosses": [
+      "victorious"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བར།": {
+    "variants": [
+      "རྒྱལ་བར།"
+    ],
+    "en_glosses": [
+      "victory"
+    ],
+    "root_blocks": [
+      "1-4"
+    ],
+    "block_count": 1
+  },
+  "འདོད།": {
+    "variants": [
+      "འདོད།"
+    ],
+    "en_glosses": [
+      "desire"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ལུས་པ་མེད་པར།": {
+    "variants": [
+      "ལུས་པ་མེད་པར།"
+    ],
+    "en_glosses": [
+      "exception",
+      "without"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "གང་མ།": {
+    "variants": [
+      "གང་མ།"
+    ],
+    "en_glosses": [
+      "fill",
+      "filling"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།": {
+    "variants": [
+      "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།"
+    ],
+    "en_glosses": [
+      "fill desire"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་འཚལ་ཏུཏྟྭ་ར།": {
+    "variants": [
+      "ཕྱག་འཚལ་ཏུཏྟྭ་ར།"
+    ],
+    "en_glosses": [
+      "homage tuttara"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ཧཱུྃ་ཡི་གེ།": {
+    "variants": [
+      "ཧཱུྃ་ཡི་གེ།"
+    ],
+    "en_glosses": [
+      "hum syllable"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ནམ་མཁའ།": {
+    "variants": [
+      "ནམ་མཁའ།"
+    ],
+    "en_glosses": [
+      "space"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "འགུགས་པ།": {
+    "variants": [
+      "འགུགས་པ།"
+    ],
+    "en_glosses": [
+      "summon"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ཏུཏྟྭ་ར།": {
+    "variants": [
+      "ཏུཏྟྭ་ར།"
+    ],
+    "en_glosses": [
+      "tara",
+      "tuttara"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "མནན་ཏེ།": {
+    "variants": [
+      "མནན་ཏེ།"
+    ],
+    "en_glosses": [
+      "treading"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "ཏུཏྟྭ་ར་ཧཱུྃ།": {
+    "variants": [
+      "ཏུཏྟྭ་ར་ཧཱུྃ།"
+    ],
+    "en_glosses": [
+      "tuttara hum"
+    ],
+    "root_blocks": [
+      "1-5"
+    ],
+    "block_count": 1
+  },
+  "མེ་ལྷ།": {
+    "variants": [
+      "མེ་ལྷ།"
+    ],
+    "en_glosses": [
+      "agni"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "འབྱུང་པོ།": {
+    "variants": [
+      "འབྱུང་པོ།"
+    ],
+    "en_glosses": [
+      "bhuta",
+      "bhutas"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "ཚངས་པ།": {
+    "variants": [
+      "ཚངས་པ།"
+    ],
+    "en_glosses": [
+      "brahma"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "དྲི་ཟ།": {
+    "variants": [
+      "དྲི་ཟ།"
+    ],
+    "en_glosses": [
+      "gandharvas"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "འབྱུང་པོ་...ཚོགས།": {
+    "variants": [
+      "འབྱུང་པོ་ ... ཚོགས།"
+    ],
+    "en_glosses": [
+      "host bhuta"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱ་བྱིན།": {
+    "variants": [
+      "བརྒྱ་བྱིན།"
+    ],
+    "en_glosses": [
+      "indra"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "དབང་ཕྱུག།": {
+    "variants": [
+      "དབང་ཕྱུག།"
+    ],
+    "en_glosses": [
+      "ishvaras"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "བསྟོད།": {
+    "variants": [
+      "བསྟོད།"
+    ],
+    "en_glosses": [
+      "praise"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "བསྟོད་མ།": {
+    "variants": [
+      "བསྟོད་མ།"
+    ],
+    "en_glosses": [
+      "praised"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "མདུན།": {
+    "variants": [
+      "མདུན།"
+    ],
+    "en_glosses": [
+      "presence"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "སྣ་ཚོགས།": {
+    "variants": [
+      "སྣ་ཚོགས།"
+    ],
+    "en_glosses": [
+      "various"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "རླུང་ལྷ།": {
+    "variants": [
+      "རླུང་ལྷ།"
+    ],
+    "en_glosses": [
+      "vayu"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱ་བྱིན་...མཆོད་མ།": {
+    "variants": [
+      "བརྒྱ་བྱིན་ ... མཆོད་མ།"
+    ],
+    "en_glosses": [
+      "worship indra"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "མཆོད་མ།": {
+    "variants": [
+      "མཆོད་མ།"
+    ],
+    "en_glosses": [
+      "worshiped"
+    ],
+    "root_blocks": [
+      "1-6"
+    ],
+    "block_count": 1
+  },
+  "ཕ་རོལ།": {
+    "variants": [
+      "ཕ་རོལ།"
+    ],
+    "en_glosses": [
+      "adversaries"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "འབར།": {
+    "variants": [
+      "འབར།"
+    ],
+    "en_glosses": [
+      "blaze"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "མེ་འབར།": {
+    "variants": [
+      "མེ་འབར།"
+    ],
+    "en_glosses": [
+      "blaze fire"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་འཇོམས་མ།": {
+    "variants": [
+      "རབ་ཏུ་འཇོམས་མ།"
+    ],
+    "en_glosses": [
+      "completely destroy"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "འཇོམས།": {
+    "variants": [
+      "འཇོམས།"
+    ],
+    "en_glosses": [
+      "destroy"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "འཁྲུགས་པ།": {
+    "variants": [
+      "འཁྲུགས་པ།"
+    ],
+    "en_glosses": [
+      "mass",
+      "swirling"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཕཊ་...རབ་ཏུ།": {
+    "variants": [
+      "ཕཊ་ ... རབ་ཏུ།"
+    ],
+    "en_glosses": [
+      "phat completely"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཕཊ་...རབ་ཏུ་འཇོམས་མ།": {
+    "variants": [
+      "ཕཊ་ ... རབ་ཏུ་འཇོམས་མ།"
+    ],
+    "en_glosses": [
+      "phat completely destroy"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "མནན།": {
+    "variants": [
+      "མནན།"
+    ],
+    "en_glosses": [
+      "suppress",
+      "suppressing"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཅེས་བྱ།": {
+    "variants": [
+      "ཅེས་བྱ།"
+    ],
+    "en_glosses": [
+      "syllable"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཏྲད་ཅེས་བྱ།": {
+    "variants": [
+      "ཏྲད་ཅེས་བྱ།"
+    ],
+    "en_glosses": [
+      "syllable trad"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཏྲད་ཅེས་བྱ་དང་ཕཊ།": {
+    "variants": [
+      "ཏྲད་ཅེས་བྱ་དང་ཕཊ།"
+    ],
+    "en_glosses": [
+      "syllables"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཏྲད།": {
+    "variants": [
+      "ཏྲད།"
+    ],
+    "en_glosses": [
+      "trad"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "ཏྲད་...ཕཊ།": {
+    "variants": [
+      "ཏྲད་ ... ཕཊ།"
+    ],
+    "en_glosses": [
+      "trad phat"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "འཁྲུལ་འཁོར།": {
+    "variants": [
+      "འཁྲུལ་འཁོར།"
+    ],
+    "en_glosses": [
+      "wheel-devices"
+    ],
+    "root_blocks": [
+      "1-7"
+    ],
+    "block_count": 1
+  },
+  "དགྲ་བོ།": {
+    "variants": [
+      "དགྲ་བོ།"
+    ],
+    "en_glosses": [
+      "enemies",
+      "enemy"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "ཆེན་མོ།": {
+    "variants": [
+      "ཆེན་མོ།"
+    ],
+    "en_glosses": [
+      "female",
+      "great"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "དཔའ་བོ།": {
+    "variants": [
+      "དཔའ་བོ།"
+    ],
+    "en_glosses": [
+      "heroes"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་འཚལ་ཏུ་རེ།": {
+    "variants": [
+      "ཕྱག་འཚལ་ཏུ་རེ།"
+    ],
+    "en_glosses": [
+      "homage ture"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "ལྡན།": {
+    "variants": [
+      "ལྡན།"
+    ],
+    "en_glosses": [
+      "possess"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "གསོད་མ།": {
+    "variants": [
+      "གསོད་མ།"
+    ],
+    "en_glosses": [
+      "slayer"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "འཇིགས་པ།": {
+    "variants": [
+      "འཇིགས་པ།"
+    ],
+    "en_glosses": [
+      "terrifier"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "ཆུ་སྐྱེས་ཞལ་...ལྡན།": {
+    "variants": [
+      "ཆུ་སྐྱེས་ཞལ་ ... ལྡན།"
+    ],
+    "en_glosses": [
+      "water bear face possess"
+    ],
+    "root_blocks": [
+      "1-8"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱན་པའི།": {
+    "variants": [
+      "བརྒྱན་པའི།"
+    ],
+    "en_glosses": [
+      "adorned"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "འཁྲུག་མ།": {
+    "variants": [
+      "འཁྲུག་མ།"
+    ],
+    "en_glosses": [
+      "agitates"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "སོར་མོ།": {
+    "variants": [
+      "སོར་མོ།"
+    ],
+    "en_glosses": [
+      "fingers"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "ཐུགས་ཀ།": {
+    "variants": [
+      "ཐུགས་ཀ།"
+    ],
+    "en_glosses": [
+      "heart"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "དཀོན་མཆོག།": {
+    "variants": [
+      "དཀོན་མཆོག།"
+    ],
+    "en_glosses": [
+      "jewel"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "དཀོན་མཆོག་གསུམ།": {
+    "variants": [
+      "དཀོན་མཆོག་གསུམ།"
+    ],
+    "en_glosses": [
+      "jewels"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་རྒྱ།": {
+    "variants": [
+      "ཕྱག་རྒྱ།"
+    ],
+    "en_glosses": [
+      "mudra"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "མཚོན།": {
+    "variants": [
+      "མཚོན།"
+    ],
+    "en_glosses": [
+      "symbolizing"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "འཁོར་ལོ།": {
+    "variants": [
+      "འཁོར་ལོ།"
+    ],
+    "en_glosses": [
+      "wheel"
+    ],
+    "root_blocks": [
+      "1-9"
+    ],
+    "block_count": 1
+  },
+  "བརྗིད་པའི།": {
+    "variants": [
+      "བརྗིད་པའི།"
+    ],
+    "en_glosses": [
+      "brilliant"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དབུ་རྒྱན།": {
+    "variants": [
+      "དབུ་རྒྱན།"
+    ],
+    "en_glosses": [
+      "crown ornament",
+      "crown-ornament"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དབུ་རྒྱན་...སྤེལ་མ།": {
+    "variants": [
+      "དབུ་རྒྱན་ ... སྤེལ་མ།"
+    ],
+    "en_glosses": [
+      "crown ornament spread"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་དགའ་བ།": {
+    "variants": [
+      "རབ་ཏུ་དགའ་བ།"
+    ],
+    "en_glosses": [
+      "exceedingly joyful"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན།": {
+    "variants": [
+      "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན།"
+    ],
+    "en_glosses": [
+      "exceedingly joyful crown ornament"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "ཕྲེང་བ།": {
+    "variants": [
+      "ཕྲེང་བ།"
+    ],
+    "en_glosses": [
+      "garlands"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དགའ་བ།": {
+    "variants": [
+      "དགའ་བ།"
+    ],
+    "en_glosses": [
+      "joyful"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དགའ་བ་...དབུ་རྒྱན།": {
+    "variants": [
+      "དགའ་བ་ ... དབུ་རྒྱན།"
+    ],
+    "en_glosses": [
+      "joyful crown ornament"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དགའ་བ་...སྤེལ་མ།": {
+    "variants": [
+      "དགའ་བ་ ... སྤེལ་མ།"
+    ],
+    "en_glosses": [
+      "joyful crown ornament spread"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "བཞད་པ།": {
+    "variants": [
+      "བཞད་པ།"
+    ],
+    "en_glosses": [
+      "laugh",
+      "laughing"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "སྤེལ་མ།": {
+    "variants": [
+      "སྤེལ་མ།"
+    ],
+    "en_glosses": [
+      "spreads"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དབང་དུ་མཛད།": {
+    "variants": [
+      "དབང་དུ་མཛད།"
+    ],
+    "en_glosses": [
+      "subdue"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "བདུད་...དབང་དུ་མཛད།": {
+    "variants": [
+      "བདུད་ ... དབང་དུ་མཛད།"
+    ],
+    "en_glosses": [
+      "subdue mara"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "དབང་དུ་མཛད་མ།": {
+    "variants": [
+      "དབང་དུ་མཛད་མ།"
+    ],
+    "en_glosses": [
+      "subdues"
+    ],
+    "root_blocks": [
+      "1-10"
+    ],
+    "block_count": 1
+  },
+  "ས་གཞི།": {
+    "variants": [
+      "ས་གཞི།"
+    ],
+    "en_glosses": [
+      "earth"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "སྐྱོང་བ།": {
+    "variants": [
+      "སྐྱོང་བ།"
+    ],
+    "en_glosses": [
+      "guardians"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "ཧཱུཾ།": {
+    "variants": [
+      "ཧཱུཾ།"
+    ],
+    "en_glosses": [
+      "hum"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།": {
+    "variants": [
+      "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།"
+    ],
+    "en_glosses": [
+      "hum move",
+      "letter hum move"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "ཡི་གེ་ཧཱུཾ།": {
+    "variants": [
+      "ཡི་གེ་ཧཱུཾ།"
+    ],
+    "en_glosses": [
+      "letter hum"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "གཡོ་བའི།": {
+    "variants": [
+      "གཡོ་བའི།"
+    ],
+    "en_glosses": [
+      "move",
+      "moving"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "ཕོངས་པ།": {
+    "variants": [
+      "ཕོངས་པ།"
+    ],
+    "en_glosses": [
+      "poverty"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "འགུགས་པར།": {
+    "variants": [
+      "འགུགས་པར།"
+    ],
+    "en_glosses": [
+      "summon"
+    ],
+    "root_blocks": [
+      "1-11"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱན།": {
+    "variants": [
+      "བརྒྱན།"
+    ],
+    "en_glosses": [
+      "adorn",
+      "adorned"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "འོད་དཔག་མེད།": {
+    "variants": [
+      "འོད་དཔག་མེད།"
+    ],
+    "en_glosses": [
+      "amitabha"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "རྟག་པར།": {
+    "variants": [
+      "རྟག་པར།"
+    ],
+    "en_glosses": [
+      "constantly"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།": {
+    "variants": [
+      "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།"
+    ],
+    "en_glosses": [
+      "constantly make",
+      "constantly make exceed"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "ཟླ་བའི་རྩེ་མོ།": {
+    "variants": [
+      "ཟླ་བའི་རྩེ་མོ།"
+    ],
+    "en_glosses": [
+      "crescent"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "ཤིན་ཏུ་འོད།": {
+    "variants": [
+      "ཤིན་ཏུ་འོད།"
+    ],
+    "en_glosses": [
+      "exceed light"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "རལ་པའི།": {
+    "variants": [
+      "རལ་པའི།"
+    ],
+    "en_glosses": [
+      "hair",
+      "matted"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "དབུ།": {
+    "variants": [
+      "དབུ།"
+    ],
+    "en_glosses": [
+      "head"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "མཛད་མ།": {
+    "variants": [
+      "མཛད་མ།"
+    ],
+    "en_glosses": [
+      "make",
+      "making"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "ཤིན་ཏུ་འོད་ནི་མཛད་མ།": {
+    "variants": [
+      "ཤིན་ཏུ་འོད་ནི་མཛད་མ།"
+    ],
+    "en_glosses": [
+      "make exceed",
+      "make exceed light"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "ཁྲོད་ན།": {
+    "variants": [
+      "ཁྲོད་ན།"
+    ],
+    "en_glosses": [
+      "midst"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "ཟླ་བའི།": {
+    "variants": [
+      "ཟླ་བའི།"
+    ],
+    "en_glosses": [
+      "moon"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "བརྒྱན་པ།": {
+    "variants": [
+      "བརྒྱན་པ།"
+    ],
+    "en_glosses": [
+      "ornaments"
+    ],
+    "root_blocks": [
+      "1-12"
+    ],
+    "block_count": 1
+  },
+  "འབར་བའི།": {
+    "variants": [
+      "འབར་བའི།"
+    ],
+    "en_glosses": [
+      "blaze",
+      "blazing"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "འབར་བའི་ཕྲེང་བ།": {
+    "variants": [
+      "འབར་བའི་ཕྲེང་བ།"
+    ],
+    "en_glosses": [
+      "blaze garland"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "དབུས་ན།": {
+    "variants": [
+      "དབུས་ན།"
+    ],
+    "en_glosses": [
+      "center",
+      "within"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།": {
+    "variants": [
+      "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།"
+    ],
+    "en_glosses": [
+      "destroy host"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "གནས་མ།": {
+    "variants": [
+      "གནས་མ།"
+    ],
+    "en_glosses": [
+      "dwells"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "ཐ་མའི།": {
+    "variants": [
+      "ཐ་མའི།"
+    ],
+    "en_glosses": [
+      "end"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "དགྲ་ཡི།": {
+    "variants": [
+      "དགྲ་ཡི།"
+    ],
+    "en_glosses": [
+      "enemies"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "བསྐལ་པ།": {
+    "variants": [
+      "བསྐལ་པ།"
+    ],
+    "en_glosses": [
+      "eon"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "ཕྲེང་བའི།": {
+    "variants": [
+      "ཕྲེང་བའི།"
+    ],
+    "en_glosses": [
+      "garland"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "དཔུང་།": {
+    "variants": [
+      "དཔུང་།"
+    ],
+    "en_glosses": [
+      "host"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "དགས།": {
+    "variants": [
+      "དགས།"
+    ],
+    "en_glosses": [
+      "joy"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "གཡས་བརྐྱང་གཡོན་བསྐུམ།": {
+    "variants": [
+      "གཡས་བརྐྱང་གཡོན་བསྐུམ།"
+    ],
+    "en_glosses": [
+      "leg"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "བསྐོར།": {
+    "variants": [
+      "བསྐོར།"
+    ],
+    "en_glosses": [
+      "surround",
+      "surrounded"
+    ],
+    "root_blocks": [
+      "1-13"
+    ],
+    "block_count": 1
+  },
+  "ས་གཞིའི།": {
+    "variants": [
+      "ས་གཞིའི།"
+    ],
+    "en_glosses": [
+      "earth"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ངོས་ལ།": {
+    "variants": [
+      "ངོས་ལ།"
+    ],
+    "en_glosses": [
+      "face",
+      "surface"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ཁྲོ་གཉེར་ཅན།": {
+    "variants": [
+      "ཁྲོ་གཉེར་ཅན།"
+    ],
+    "en_glosses": [
+      "frown",
+      "frowning"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ཁྲོ་གཉེར་ཅན་མཛད།": {
+    "variants": [
+      "ཁྲོ་གཉེར་ཅན་མཛད།"
+    ],
+    "en_glosses": [
+      "grimace"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་གི།": {
+    "variants": [
+      "ཕྱག་གི།"
+    ],
+    "en_glosses": [
+      "hand"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།": {
+    "variants": [
+      "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།"
+    ],
+    "en_glosses": [
+      "hum shatter",
+      "letter hum shatter"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "ཡི་གེ་ཧཱུྃ།": {
+    "variants": [
+      "ཡི་གེ་ཧཱུྃ།"
+    ],
+    "en_glosses": [
+      "letter hum"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "རིམ་པ།": {
+    "variants": [
+      "རིམ་པ།"
+    ],
+    "en_glosses": [
+      "levels"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "མཐིལ།": {
+    "variants": [
+      "མཐིལ།"
+    ],
+    "en_glosses": [
+      "palm"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "བརྡུང་མ།": {
+    "variants": [
+      "བརྡུང་མ།"
+    ],
+    "en_glosses": [
+      "stamps"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "བསྣུན།": {
+    "variants": [
+      "བསྣུན།"
+    ],
+    "en_glosses": [
+      "strike",
+      "strikes"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "རིམ་པ་བདུན་པོ།": {
+    "variants": [
+      "རིམ་པ་བདུན་པོ།"
+    ],
+    "en_glosses": [
+      "underworld"
+    ],
+    "root_blocks": [
+      "1-14"
+    ],
+    "block_count": 1
+  },
+  "མྱ་ངན་འདས།": {
+    "variants": [
+      "མྱ་ངན་འདས།"
+    ],
+    "en_glosses": [
+      "beyond"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "བདེ་མ།": {
+    "variants": [
+      "བདེ་མ།"
+    ],
+    "en_glosses": [
+      "blissful"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "ཡང་དག་ལྡན་པས།": {
+    "variants": [
+      "ཡང་དག་ལྡན་པས།"
+    ],
+    "en_glosses": [
+      "endow",
+      "endowed"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།": {
+    "variants": [
+      "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།"
+    ],
+    "en_glosses": [
+      "endow svaha"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "ཞི།": {
+    "variants": [
+      "ཞི།"
+    ],
+    "en_glosses": [
+      "peace"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "ཞི་མ།": {
+    "variants": [
+      "ཞི་མ།"
+    ],
+    "en_glosses": [
+      "peaceful"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "མྱ་ངན།": {
+    "variants": [
+      "མྱ་ངན།"
+    ],
+    "en_glosses": [
+      "sorrow"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "སྭཱ་ཧཱ།": {
+    "variants": [
+      "སྭཱ་ཧཱ།"
+    ],
+    "en_glosses": [
+      "svaha"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "དགེ་མ།": {
+    "variants": [
+      "དགེ་མ།"
+    ],
+    "en_glosses": [
+      "virtuous"
+    ],
+    "root_blocks": [
+      "1-15"
+    ],
+    "block_count": 1
+  },
+  "ལུས།": {
+    "variants": [
+      "ལུས།"
+    ],
+    "en_glosses": [
+      "bodies"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "རབ་དགའ་བའི།": {
+    "variants": [
+      "རབ་དགའ་བའི།"
+    ],
+    "en_glosses": [
+      "completely joyful"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "ཉིད་མ།": {
+    "variants": [
+      "ཉིད་མ།"
+    ],
+    "en_glosses": [
+      "herself"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "རིག་པ་ཧཱུྃ།": {
+    "variants": [
+      "རིག་པ་ཧཱུྃ།"
+    ],
+    "en_glosses": [
+      "knowledge-hum"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "སྒྲོན་མ།": {
+    "variants": [
+      "སྒྲོན་མ།"
+    ],
+    "en_glosses": [
+      "lamp"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "ངག།": {
+    "variants": [
+      "ངག།"
+    ],
+    "en_glosses": [
+      "speech"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "ཀུན་ནས་བསྐོར།": {
+    "variants": [
+      "ཀུན་ནས་བསྐོར།"
+    ],
+    "en_glosses": [
+      "surround",
+      "surrounded"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "ཡི་གེ་བཅུ་པའི།": {
+    "variants": [
+      "ཡི་གེ་བཅུ་པའི།"
+    ],
+    "en_glosses": [
+      "syllables"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "བཅུ་པའི།": {
+    "variants": [
+      "བཅུ་པའི།"
+    ],
+    "en_glosses": [
+      "ten"
+    ],
+    "root_blocks": [
+      "1-16"
+    ],
+    "block_count": 1
+  },
+  "གཡོ་བ་ཉིད་མ།": {
+    "variants": [
+      "གཡོ་བ་ཉིད་མ།"
+    ],
+    "en_glosses": [
+      "causes"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "ཧཱུྃ་གི་རྣམ་པའི།": {
+    "variants": [
+      "ཧཱུྃ་གི་རྣམ་པའི།"
+    ],
+    "en_glosses": [
+      "form hum"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "མན་དཱ་ར།": {
+    "variants": [
+      "མན་དཱ་ར།"
+    ],
+    "en_glosses": [
+      "mandara"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "རི་རབ།": {
+    "variants": [
+      "རི་རབ།"
+    ],
+    "en_glosses": [
+      "meru"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "ས་བོན།": {
+    "variants": [
+      "ས་བོན།"
+    ],
+    "en_glosses": [
+      "seed-syllable"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "བརྡབས་པས།": {
+    "variants": [
+      "བརྡབས་པས།"
+    ],
+    "en_glosses": [
+      "stamping"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "གཡོ་བ།": {
+    "variants": [
+      "གཡོ་བ།"
+    ],
+    "en_glosses": [
+      "tremble"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "འབིགས་བྱེད།": {
+    "variants": [
+      "འབིགས་བྱེད།"
+    ],
+    "en_glosses": [
+      "vindhya"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "འཇིག་རྟེན་གསུམ་རྣམས།": {
+    "variants": [
+      "འཇིག་རྟེན་གསུམ་རྣམས།"
+    ],
+    "en_glosses": [
+      "worlds"
+    ],
+    "root_blocks": [
+      "1-17"
+    ],
+    "block_count": 1
+  },
+  "མ་ལུས་པར།": {
+    "variants": [
+      "མ་ལུས་པར།"
+    ],
+    "en_glosses": [
+      "completely",
+      "exception",
+      "without"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "མ་ལུས་པར་ནི་སེལ་མ།": {
+    "variants": [
+      "མ་ལུས་པར་ནི་སེལ་མ།"
+    ],
+    "en_glosses": [
+      "completely dispel"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "རི་དགས་རྟགས་ཅན།": {
+    "variants": [
+      "རི་དགས་རྟགས་ཅན།"
+    ],
+    "en_glosses": [
+      "deer-marked"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་ན།": {
+    "variants": [
+      "ཕྱག་ན།"
+    ],
+    "en_glosses": [
+      "hand"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "བསྣམས་མ།": {
+    "variants": [
+      "བསྣམས་མ།"
+    ],
+    "en_glosses": [
+      "holds"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "མཚོ།": {
+    "variants": [
+      "མཚོ།"
+    ],
+    "en_glosses": [
+      "ocean"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "དུག་རྣམས།": {
+    "variants": [
+      "དུག་རྣམས།"
+    ],
+    "en_glosses": [
+      "poisons"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་ར་གཉིས་བརྗོད།": {
+    "variants": [
+      "ཏཱ་ར་གཉིས་བརྗོད།"
+    ],
+    "en_glosses": [
+      "pronounce tara"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "ཕཊ་ཀྱི་ཡི་གེ།": {
+    "variants": [
+      "ཕཊ་ཀྱི་ཡི་གེ།"
+    ],
+    "en_glosses": [
+      "syllable phat"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་ར།": {
+    "variants": [
+      "ཏཱ་ར།"
+    ],
+    "en_glosses": [
+      "tara"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "ཏཱ་ར་གཉིས།": {
+    "variants": [
+      "ཏཱ་ར་གཉིས།"
+    ],
+    "en_glosses": [
+      "taras"
+    ],
+    "root_blocks": [
+      "1-18"
+    ],
+    "block_count": 1
+  },
+  "གོ་ཆ།": {
+    "variants": [
+      "གོ་ཆ།"
+    ],
+    "en_glosses": [
+      "armor"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "ངན་པ།": {
+    "variants": [
+      "ངན་པ།"
+    ],
+    "en_glosses": [
+      "bad"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "རྩོད།": {
+    "variants": [
+      "རྩོད།"
+    ],
+    "en_glosses": [
+      "conflicts"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "རྨི་ལམ།": {
+    "variants": [
+      "རྨི་ལམ།"
+    ],
+    "en_glosses": [
+      "dreams"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་པོ།": {
+    "variants": [
+      "རྒྱལ་པོ།"
+    ],
+    "en_glosses": [
+      "king"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "མིའམ་ཅི།": {
+    "variants": [
+      "མིའམ་ཅི།"
+    ],
+    "en_glosses": [
+      "kinnaras"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "བརྗིད།": {
+    "variants": [
+      "བརྗིད།"
+    ],
+    "en_glosses": [
+      "splendor"
+    ],
+    "root_blocks": [
+      "1-19"
+    ],
+    "block_count": 1
+  },
+  "གསལ་མ།": {
+    "variants": [
+      "གསལ་མ།"
+    ],
+    "en_glosses": [
+      "brilliant",
+      "shed",
+      "shedding"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "རབ་གསལ་མ།": {
+    "variants": [
+      "རབ་གསལ་མ།"
+    ],
+    "en_glosses": [
+      "exceedingly brilliant"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "རྒྱས་པའི།": {
+    "variants": [
+      "རྒྱས་པའི།"
+    ],
+    "en_glosses": [
+      "expanded",
+      "fully"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "སྤྱན་གཉིས་པོ།": {
+    "variants": [
+      "སྤྱན་གཉིས་པོ།"
+    ],
+    "en_glosses": [
+      "eyes"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "དྲག་པོའི།": {
+    "variants": [
+      "དྲག་པོའི།"
+    ],
+    "en_glosses": [
+      "fierce"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "ཧ་ར།": {
+    "variants": [
+      "ཧ་ར།"
+    ],
+    "en_glosses": [
+      "hara"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "ཉི་མ།": {
+    "variants": [
+      "ཉི་མ།"
+    ],
+    "en_glosses": [
+      "sun"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "གཉིས།": {
+    "variants": [
+      "གཉིས།"
+    ],
+    "en_glosses": [
+      "twice"
+    ],
+    "root_blocks": [
+      "1-20"
+    ],
+    "block_count": 1
+  },
+  "ལྡན་མ།": {
+    "variants": [
+      "ལྡན་མ།"
+    ],
+    "en_glosses": [
+      "endow",
+      "endowed"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "ཞི་བའི།": {
+    "variants": [
+      "ཞི་བའི།"
+    ],
+    "en_glosses": [
+      "peace"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "མཐུ།": {
+    "variants": [
+      "མཐུ།"
+    ],
+    "en_glosses": [
+      "power"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "དེ་ཉིད་གསུམ།": {
+    "variants": [
+      "དེ་ཉིད་གསུམ།"
+    ],
+    "en_glosses": [
+      "realities"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "རབ་མཆོག།": {
+    "variants": [
+      "རབ་མཆོག།"
+    ],
+    "en_glosses": [
+      "supreme"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "ཏུ་རེ་རབ་མཆོག།": {
+    "variants": [
+      "ཏུ་རེ་རབ་མཆོག།"
+    ],
+    "en_glosses": [
+      "supreme ture"
+    ],
+    "root_blocks": [
+      "1-21"
+    ],
+    "block_count": 1
+  },
+  "གུས་པ།": {
+    "variants": [
+      "གུས་པ།"
+    ],
+    "en_glosses": [
+      "devotion"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "ལྡན་པ།": {
+    "variants": [
+      "ལྡན་པ།"
+    ],
+    "en_glosses": [
+      "endow",
+      "endowed"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "ལྷ་མོ།": {
+    "variants": [
+      "ལྷ་མོ།"
+    ],
+    "en_glosses": [
+      "goddess"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "ཕྱག་འཚལ་བ།": {
+    "variants": [
+      "ཕྱག་འཚལ་བ།"
+    ],
+    "en_glosses": [
+      "homage",
+      "homages"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "བློ་ལྡན།": {
+    "variants": [
+      "བློ་ལྡན།"
+    ],
+    "en_glosses": [
+      "intelligent"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "སྔགས།": {
+    "variants": [
+      "སྔགས།"
+    ],
+    "en_glosses": [
+      "mantra"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "ཡང་དག་པ།": {
+    "variants": [
+      "ཡང་དག་པ།"
+    ],
+    "en_glosses": [
+      "perfect"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "རྩ་བ།": {
+    "variants": [
+      "རྩ་བ།"
+    ],
+    "en_glosses": [
+      "root"
+    ],
+    "root_blocks": [
+      "a-1"
+    ],
+    "block_count": 1
+  },
+  "ལངས་པ།": {
+    "variants": [
+      "ལངས་པ།"
+    ],
+    "en_glosses": [
+      "arise",
+      "arisen"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "སྟེར།": {
+    "variants": [
+      "སྟེར།"
+    ],
+    "en_glosses": [
+      "bestows"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "རབ་སྟེར།": {
+    "variants": [
+      "རབ་སྟེར།"
+    ],
+    "en_glosses": [
+      "completely bestow"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "རབ་ཏུ་ཞི་བ།": {
+    "variants": [
+      "རབ་ཏུ་ཞི་བ།"
+    ],
+    "en_glosses": [
+      "completely pacify"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "ཐོ་རངས།": {
+    "variants": [
+      "ཐོ་རངས།"
+    ],
+    "en_glosses": [
+      "dawn"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "སྲོད།": {
+    "variants": [
+      "སྲོད།"
+    ],
+    "en_glosses": [
+      "dusk"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "མི་འཇིགས།": {
+    "variants": [
+      "མི་འཇིགས།"
+    ],
+    "en_glosses": [
+      "fearlessness"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "ངན་འགྲོ།": {
+    "variants": [
+      "ངན་འགྲོ།"
+    ],
+    "en_glosses": [
+      "lower",
+      "realms"
+    ],
+    "root_blocks": [
+      "a-2"
+    ],
+    "block_count": 1
+  },
+  "འཐོབ།": {
+    "variants": [
+      "འཐོབ།"
+    ],
+    "en_glosses": [
+      "attain",
+      "attaining"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "བསྐུར་བ།": {
+    "variants": [
+      "བསྐུར་བ།"
+    ],
+    "en_glosses": [
+      "conferred"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བ།": {
+    "variants": [
+      "རྒྱལ་བ།"
+    ],
+    "en_glosses": [
+      "conqueror",
+      "conquerors"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བ...མྱུར་དུ།": {
+    "variants": [
+      "རྒྱལ་བ ... མྱུར་དུ།"
+    ],
+    "en_glosses": [
+      "conqueror quickly"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བ...མྱུར་དུ་དབང་།": {
+    "variants": [
+      "རྒྱལ་བ ... མྱུར་དུ་དབང་།"
+    ],
+    "en_glosses": [
+      "conqueror quickly empowerment"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "དབང་།": {
+    "variants": [
+      "དབང་།"
+    ],
+    "en_glosses": [
+      "empowerment"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "འགྲོ།": {
+    "variants": [
+      "འགྲོ།"
+    ],
+    "en_glosses": [
+      "goes"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "ཆེ་བ།": {
+    "variants": [
+      "ཆེ་བ།"
+    ],
+    "en_glosses": [
+      "great"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "ཆེ་བ་ཉིད།": {
+    "variants": [
+      "ཆེ་བ་ཉིད།"
+    ],
+    "en_glosses": [
+      "greatness"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "བྱེ་བ།": {
+    "variants": [
+      "བྱེ་བ།"
+    ],
+    "en_glosses": [
+      "million"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བ་བྱེ་བ།": {
+    "variants": [
+      "རྒྱལ་བ་བྱེ་བ།"
+    ],
+    "en_glosses": [
+      "million conqueror"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "རྒྱལ་བ་བྱེ་བ...མྱུར་དུ།": {
+    "variants": [
+      "རྒྱལ་བ་བྱེ་བ ... མྱུར་དུ།"
+    ],
+    "en_glosses": [
+      "million conqueror quickly"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "མྱུར་དུ།": {
+    "variants": [
+      "མྱུར་དུ།"
+    ],
+    "en_glosses": [
+      "quickly"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "བདུན།": {
+    "variants": [
+      "བདུན།"
+    ],
+    "en_glosses": [
+      "seventy"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "གོ་འཕང།": {
+    "variants": [
+      "གོ་འཕང།"
+    ],
+    "en_glosses": [
+      "state"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "མཐར་ཐུག།": {
+    "variants": [
+      "མཐར་ཐུག།"
+    ],
+    "en_glosses": [
+      "ultimate"
+    ],
+    "root_blocks": [
+      "a-3"
+    ],
+    "block_count": 1
+  },
+  "གནས་པ།": {
+    "variants": [
+      "གནས་པ།"
+    ],
+    "en_glosses": [
+      "abiding"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "འཐུངས་པ།": {
+    "variants": [
+      "འཐུངས་པ།"
+    ],
+    "en_glosses": [
+      "drinking"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "ཟོས་པ།": {
+    "variants": [
+      "ཟོས་པ།"
+    ],
+    "en_glosses": [
+      "eating"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "སེལ་བ།": {
+    "variants": [
+      "སེལ་བ།"
+    ],
+    "en_glosses": [
+      "elimination"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "དྲག་པོ།": {
+    "variants": [
+      "དྲག་པོ།"
+    ],
+    "en_glosses": [
+      "fierce"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "འགྲོ་བ།": {
+    "variants": [
+      "འགྲོ་བ།"
+    ],
+    "en_glosses": [
+      "move",
+      "moving"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "བརྟན།": {
+    "variants": [
+      "བརྟན།"
+    ],
+    "en_glosses": [
+      "stable"
+    ],
+    "root_blocks": [
+      "a-4"
+    ],
+    "block_count": 1
+  },
+  "གཟིར་བ།": {
+    "variants": [
+      "གཟིར་བ།"
+    ],
+    "en_glosses": [
+      "afflicted"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "སེམས་ཅན།": {
+    "variants": [
+      "སེམས་ཅན།"
+    ],
+    "en_glosses": [
+      "beings",
+      "sentient"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "མངོན་པར།": {
+    "variants": [
+      "མངོན་པར།"
+    ],
+    "en_glosses": [
+      "clearly"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "རྣམ་པར་སྤོང་བ།": {
+    "variants": [
+      "རྣམ་པར་སྤོང་བ།"
+    ],
+    "en_glosses": [
+      "completely eliminate"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "སྤོང་བ།": {
+    "variants": [
+      "སྤོང་བ།"
+    ],
+    "en_glosses": [
+      "eliminated"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "སྡུག་བསྔལ།": {
+    "variants": [
+      "སྡུག་བསྔལ།"
+    ],
+    "en_glosses": [
+      "sufferings"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "དུ།": {
+    "variants": [
+      "དུ།"
+    ],
+    "en_glosses": [
+      "times"
+    ],
+    "root_blocks": [
+      "a-5"
+    ],
+    "block_count": 1
+  },
+  "འདོད་པ།": {
+    "variants": [
+      "འདོད་པ།"
+    ],
+    "en_glosses": [
+      "desire",
+      "desires",
+      "desiring"
+    ],
+    "root_blocks": [
+      "a-6"
+    ],
+    "block_count": 1
+  },
+  "སོ་སོར།": {
+    "variants": [
+      "སོ་སོར།"
+    ],
+    "en_glosses": [
+      "individually"
+    ],
+    "root_blocks": [
+      "a-6"
+    ],
+    "block_count": 1
+  },
+  "བགེགས།": {
+    "variants": [
+      "བགེགས།"
+    ],
+    "en_glosses": [
+      "obstacle",
+      "obstacles"
+    ],
+    "root_blocks": [
+      "a-6"
+    ],
+    "block_count": 1
+  },
+  "བུ།": {
+    "variants": [
+      "བུ།"
+    ],
+    "en_glosses": [
+      "son"
+    ],
+    "root_blocks": [
+      "a-6"
+    ],
+    "block_count": 1
+  },
+  "ནོར།": {
+    "variants": [
+      "ནོར།"
+    ],
+    "en_glosses": [
+      "wealth"
+    ],
+    "root_blocks": [
+      "a-6"
+    ],
+    "block_count": 1
+  },
+  "བཅོམ་ལྡན་འདས་མ།": {
+    "variants": [
+      "བཅོམ་ལྡན་འདས་མ།"
+    ],
+    "en_glosses": [
+      "bhagavati"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།": {
+    "variants": [
+      "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།"
+    ],
+    "en_glosses": [
+      "bhagavati tara"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ...གསུངས་པ།": {
+    "variants": [
+      "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ ... གསུངས་པ།"
+    ],
+    "en_glosses": [
+      "bhagavati tara speak"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "རྫོགས་སོ།": {
+    "variants": [
+      "རྫོགས་སོ།"
+    ],
+    "en_glosses": [
+      "completed"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "ཡང་དག་པར།": {
+    "variants": [
+      "ཡང་དག་པར།"
+    ],
+    "en_glosses": [
+      "completely"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "ཡང་དག་པར་རྫོགས་པ།": {
+    "variants": [
+      "ཡང་དག་པར་རྫོགས་པ།"
+    ],
+    "en_glosses": [
+      "completely perfect"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།": {
+    "variants": [
+      "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།"
+    ],
+    "en_glosses": [
+      "completely perfect buddha"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "རྫོགས་པ།": {
+    "variants": [
+      "རྫོགས་པ།"
+    ],
+    "en_glosses": [
+      "perfect",
+      "perfected"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "རྫོགས་པའི་སངས་རྒྱས།": {
+    "variants": [
+      "རྫོགས་པའི་སངས་རྒྱས།"
+    ],
+    "en_glosses": [
+      "perfect buddha"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "གསུངས་པ།": {
+    "variants": [
+      "གསུངས་པ།"
+    ],
+    "en_glosses": [
+      "spoken"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  },
+  "སྒྲོལ་མ...གསུངས་པ།": {
+    "variants": [
+      "སྒྲོལ་མ ... གསུངས་པ།"
+    ],
+    "en_glosses": [
+      "tara speak"
+    ],
+    "root_blocks": [
+      "a-7"
+    ],
+    "block_count": 1
+  }
+}

@@ -1,0 +1,8 @@
+# source: 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md
+# total_lines: 223
+# chunk_size: 150
+# overlap: 25
+# total_chunks: 2
+# columns: chunk_id	start_line	end_line  (1-based, inclusive; read with: sed -n 'START,ENDp' <source>)
+000	1	150
+001	126	223

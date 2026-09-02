@@ -1,0 +1,25 @@
+verses=22  placed=19  unplaced=3
+  ^1-1     -> line 23
+  ^1-2     -> line 93
+  ^1-3     -> line 156
+  ^1-4     -> line 208
+  ^1-6     -> line 284
+  ^1-7     -> line 314
+  ^1-8     -> line 356
+  ^1-9     -> line 382
+  ^1-10    -> line 440
+  ^1-11    -> line 482
+  ^1-12    -> line 538
+  ^1-13    -> line 600
+  ^1-15    -> line 700
+  ^1-17    -> line 818
+  ^1-18    -> line 882
+  ^1-19    -> line 920
+  ^1-20    -> line 959
+  ^1-21    -> line 1007
+  ^1-22    -> line 1044
+UNPLACED (resolve by hand if a genuine quotation exists):
+  ^1-5: NO-MATCH (quoted with large variant / split / absent)
+  ^1-14: NO-MATCH (quoted with large variant / split / absent)
+  ^1-16: NO-MATCH (quoted with large variant / split / absent)
+APPLIED 19 insertions
