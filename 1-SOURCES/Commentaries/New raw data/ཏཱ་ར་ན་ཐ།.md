@@ -1,7 +1,7 @@
 ---
-title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ
-author: ཏཱ་ར་ནཱ་ཐ
-author_in_english: "Tāranātha"
+title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།
+author: ཏཱ་ར་ནཱ་ཐ།
+author_in_english: Tāranātha
 date: 16th–17th century CE (1575–1634)
 language: Tibetan
 script: Unicode Tibetan
@@ -11,7 +11,7 @@ verse_id_format: verse
 registered_id: taranatha
 root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
 covers_verses: 1-1–1-21
-source_description: "Source unknown — to be verified"
+source_description: Source unknown — to be verified
 ---
 
 # ༄༅། །​ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ་བཞུགས་སོ། །

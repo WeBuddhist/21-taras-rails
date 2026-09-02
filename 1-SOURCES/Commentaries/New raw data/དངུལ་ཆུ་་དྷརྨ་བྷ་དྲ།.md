@@ -1,7 +1,7 @@
 ---
-title: སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ
-author: དངུལ་ཆུ་དྷརྨ་བྷ་དྲ
-author_in_english: "Ngulchu Dharmabhadra"
+title: སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ།
+author: དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།
+author_in_english: Ngulchu Dharmabhadra
 date: 18th–19th century CE (1772–1851)
 language: Tibetan
 script: Unicode Tibetan
@@ -11,7 +11,7 @@ verse_id_format: verse
 registered_id: dharmabhadra
 root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
 covers_verses: 1-1–1-21
-source_description: "Source unknown — to be verified"
+source_description: Source unknown — to be verified
 ---
 
 # ༄༅། །སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། །

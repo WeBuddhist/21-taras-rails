@@ -1,7 +1,7 @@
 ---
-title: སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ
-author: རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན
-author_in_english: "Jetsün Drakpa Gyaltsen"
+title: སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ།
+author: རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།
+author_in_english: Jetsün Drakpa Gyaltsen
 date: 12th–13th century CE (1147–1216)
 language: Tibetan
 script: Unicode Tibetan
@@ -11,7 +11,7 @@ verse_id_format: verse
 registered_id: drakpa-gyaltsen
 root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
 covers_verses: 1-1–1-21
-source_description: "Source unknown — to be verified"
+source_description: Source unknown — to be verified
 ---
 
 # ༄༅། །སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ། །
