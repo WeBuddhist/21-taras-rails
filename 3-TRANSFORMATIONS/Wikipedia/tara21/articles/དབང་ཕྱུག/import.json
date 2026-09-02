@@ -1,9 +1,0 @@
-{
- "imported_by": "scripts/import_term_article.py",
- "imported_from": "term-articles/ishvara",
- "method": "wiki-article-from-claims",
- "source_status": "draft",
- "rows_parsed": 33,
- "citations_written": 34,
- "unresolved_rows": []
-}
