@@ -45,7 +45,7 @@ transformation.
 ## Provenance
 
 - Endpoint: `https://dharmamitra.org/api-search/cat-translate/v1/translate` (public, unauthenticated)
-- Source: [`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`](1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md)
+- Source: [`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`](bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md)
 - Granularity: one source block ID per API call
 - Rolling context: the preceding translated blocks of this same document are
   threaded into each call so terminology and register stay coherent.

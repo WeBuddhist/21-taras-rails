@@ -3,5 +3,6 @@
     "4-SYSTEM/Pipelines/"
   ],
   "showLineNumber": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "alwaysUpdateLinks": true
 }

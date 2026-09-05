@@ -88,6 +88,12 @@ The six skills below form the **deterministic ingest chain** for Tibetan materia
 **Outputs:** The same file with a block ID on every segment.
 → [`commentary-verse-id/SKILL.md`](commentary-verse-id/SKILL.md)
 
+### `Obsidian-Block-ID-to-Commentary` **[exists]**
+**Purpose:** Stamp Obsidian block IDs onto a Tibetan commentary's headings and body-text blocks — headings numbered hierarchically (`^0`, `^0-N`, `^0-N-N`), body blocks numbered sequentially per `##` section, transclusion lines always skipped and never counted against the sequence. The variant of `commentary-verse-id` for files whose headings themselves also need an id, and whose body numbering is keyed to `##` structure rather than the transcluded root's own chapter/verse numbers.
+**Inputs:** One commentary file with at least one `##` heading; `###` sub-headings and root-text transclusions (`![[...]]`) are optional.
+**Outputs:** The same file with a block id on every heading and body-text block; transclusion lines untouched, no numbering gaps left where one was skipped.
+→ [`Obsidian-Block-ID-to-Commentary/SKILL.md`](Obsidian-Block-ID-to-Commentary/SKILL.md)
+
 ### `commentary-resegment` **[exists]**
 **Purpose:** Re-paragraph a commentary that has one clause per line into readable sense-unit paragraphs. The model decides boundaries **by meaning** — content and context — not by grammar rules or particles.
 **Inputs:** A one-clause-per-line commentary.
@@ -111,6 +117,12 @@ The six skills below form the **deterministic ingest chain** for Tibetan materia
 **Inputs:** A finished tree (`2-RAILS/Sections/Raw/toc-tree/<id>.md`, preferred) and the commentary it belongs to.
 **Outputs:** The same `1-SOURCES/Commentaries/<id>.md` file, updated in place with heading lines and `^N-…-0` heading IDs — no side-copy.
 → [`toc-tree-ingest/SKILL.md`](toc-tree-ingest/SKILL.md)
+
+### `TOC-to-HEADING` **[exists]**
+**Purpose:** The text-matching sibling of `toc-tree-ingest`, for TOC trees whose `[[N]]` pointers are source-PDF page numbers rather than resolved commentary line numbers. Locates each TOC entry's sa-bcad (outline-announcement) phrase in a raw commentary's prose and inserts a heading directly before it — by reading and matching text, not by trusting the pointer as a line number.
+**Inputs:** A TOC tree (`2-RAILS/Sections/Raw/toc-tree/<id>.md`) and the matching raw commentary (`1-SOURCES/Commentaries/New raw data/bo-<name>.md`).
+**Outputs:** The same raw commentary file, updated in place with heading lines — no side-copy.
+→ [`TOC-to-HEADING/SKILL.md`](TOC-to-HEADING/SKILL.md)
 
 ### `Outline-Extractor` **[exists]**
 **Purpose:** Extract the structural outline (ས་བཅད) from a Tibetan commentary into a nested `.md` file — YAML frontmatter, heading-based hierarchy for levels 1–5, indented bold list items below that.
