@@ -56,31 +56,31 @@ Subject articles outside the series (no `སྒྲོལ་མ་` prefix rule):
 
 ## Live on bo.wikipedia
 
-| Slot | Title | Page ID | Repo file | Published |
-|---|---|---|---|---|
-| `origin` | [སྒྲོལ་མའི་ལོ་རྒྱུས།](https://bo.wikipedia.org/w/index.php?curid=28182) | 28182 | [article.md](slot-articles/origin/article.md) | 2026-08-21 |
-| `structure-benefits` | [ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པ།](https://bo.wikipedia.org/w/index.php?curid=28183) | 28183 | [article.md](slot-articles/structure-benefits/article.md) | 2026-08-21 |
-| `tara-01` | [སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།](https://bo.wikipedia.org/w/index.php?curid=28184) | 28184 | [article.md](slot-articles/tara-01/article.md) | 2026-08-21 |
-| `tara-02` | [སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28185) | 28185 | [article.md](slot-articles/tara-02/article.md) | 2026-08-21 |
-| `tara-03` | [སྒྲོལ་མ་གསེར་མདོག་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28186) | 28186 | [article.md](slot-articles/tara-03/article.md) | 2026-08-21 |
-| `tara-04` | [སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ།](https://bo.wikipedia.org/w/index.php?curid=28193) | 28193 | [article.md](slot-articles/tara-04/article.md) | 2026-08-23 |
-| `tara-05` | [སྒྲོལ་མ་ཧཱུཾ་སྒྲ་སྒྲོག་མ།](https://bo.wikipedia.org/w/index.php?curid=28194) | 28194 | [article.md](slot-articles/tara-05/article.md) | 2026-08-23 |
-| `tara-06` | [སྒྲོལ་མ་གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28195) | 28195 | [article.md](slot-articles/tara-06/article.md) | 2026-08-23 |
-| `tara-07` | [སྒྲོལ་མ་གཞན་གྱིས་མི་ཐུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28196) | 28196 | [article.md](slot-articles/tara-07/article.md) | 2026-08-23 |
-| `tara-08` | [སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28197) | 28197 | [article.md](slot-articles/tara-08/article.md) | 2026-08-23 |
-| `tara-09` | [སྒྲོལ་མ་སེང་ལྡེང་ནགས།](https://bo.wikipedia.org/w/index.php?curid=28198) | 28198 | [article.md](slot-articles/tara-09/article.md) | 2026-08-23 |
-| `tara-10` | [སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ།](https://bo.wikipedia.org/w/index.php?curid=28199) | 28199 | [article.md](slot-articles/tara-10/article.md) | 2026-08-23 |
-| `tara-11` | [སྒྲོལ་མ་ཕོངས་པ་ཀུན་སེལ།](https://bo.wikipedia.org/w/index.php?curid=28200) | 28200 | [article.md](slot-articles/tara-11/article.md) | 2026-08-23 |
-| `tara-12` | [སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28201) | 28201 | [article.md](slot-articles/tara-12/article.md) | 2026-08-23 |
-| `tara-13` | [སྒྲོལ་མ་མེ་ལྟར་འབར་བ།](https://bo.wikipedia.org/w/index.php?curid=28202) | 28202 | [article.md](slot-articles/tara-13/article.md) | 2026-08-23 |
-| `tara-14` | [སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ།](https://bo.wikipedia.org/w/index.php?curid=28203) | 28203 | [article.md](slot-articles/tara-14/article.md) | 2026-08-23 |
-| `tara-15` | [སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28204) | 28204 | [article.md](slot-articles/tara-15/article.md) | 2026-08-23 |
-| `tara-16` | [སྒྲོལ་མ་ཆགས་པ་འཇོམས་པ།](https://bo.wikipedia.org/w/index.php?curid=28205) | 28205 | [article.md](slot-articles/tara-16/article.md) | 2026-08-23 |
-| `tara-17` | [སྒྲོལ་མ་དཔག་མེད་གནོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28206) | 28206 | [article.md](slot-articles/tara-17/article.md) | 2026-08-23 |
-| `tara-18` | [སྒྲོལ་མ་རྨ་བྱ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28207) | 28207 | [article.md](slot-articles/tara-18/article.md) | 2026-08-23 |
-| `tara-19` | [སྒྲོལ་མ་མི་ཕམ་གཟི་བརྗིད་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28208) | 28208 | [article.md](slot-articles/tara-19/article.md) | 2026-08-23 |
-| `tara-20` | [སྒྲོལ་མ་རི་ཁྲོད་ལོ་མ་གྱོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28209) | 28209 | [article.md](slot-articles/tara-20/article.md) | 2026-08-23 |
-| `tara-21` | [སྒྲོལ་མ་འོད་ཟེར་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28210) | 28210 | [article.md](slot-articles/tara-21/article.md) | 2026-08-23 |
+| Slot                 | Title                                                                                                   | Page ID | Repo file                                                 | Published  |
+| -------------------- | ------------------------------------------------------------------------------------------------------- | ------- | --------------------------------------------------------- | ---------- |
+| `origin`             | [སྒྲོལ་མའི་ལོ་རྒྱུས།](https://bo.wikipedia.org/w/index.php?curid=28182)                                 | 28182   | [article.md](slot-articles/origin/article.md)             | 2026-08-21 |
+| `structure-benefits` | [ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པ།](https://bo.wikipedia.org/w/index.php?curid=28183)                       | 28183   | [article.md](slot-articles/structure-benefits/article.md) | 2026-08-21 |
+| `tara-01`            | [སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།](https://bo.wikipedia.org/w/index.php?curid=28184)                              | 28184   | [article.md](slot-articles/tara-01/article.md)            | 2026-08-21 |
+| `tara-02`            | [སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28185)                        | 28185   | [article.md](slot-articles/tara-02/article.md)            | 2026-08-21 |
+| `tara-03`            | [སྒྲོལ་མ་གསེར་མདོག་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28186)                               | 28186   | [article.md](slot-articles/tara-03/article.md)            | 2026-08-21 |
+| `tara-04`            | [སྒྲོལ་མ་གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ།](https://bo.wikipedia.org/w/index.php?curid=28193)                     | 28193   | [article.md](slot-articles/tara-04/article.md)            | 2026-08-23 |
+| `tara-05`            | [སྒྲོལ་མ་ཧཱུཾ་སྒྲ་སྒྲོག་མ།](https://bo.wikipedia.org/w/index.php?curid=28194)                           | 28194   | [article.md](slot-articles/tara-05/article.md)            | 2026-08-23 |
+| `tara-06`            | [སྒྲོལ་མ་གདོན་རིགས་རྣམ་པར་འཇོམས་པ་འཇིགས་བྱེད་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28195) | 28195   | [article.md](slot-articles/tara-06/article.md)            | 2026-08-23 |
+| `tara-07`            | [སྒྲོལ་མ་གཞན་གྱིས་མི་ཐུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28196)                          | 28196   | [article.md](slot-articles/tara-07/article.md)            | 2026-08-23 |
+| `tara-08`            | [སྒྲོལ་མ་འཇིགས་པ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28197)                             | 28197   | [article.md](slot-articles/tara-08/article.md)            | 2026-08-23 |
+| `tara-09`            | [སྒྲོལ་མ་སེང་ལྡེང་ནགས།](https://bo.wikipedia.org/w/index.php?curid=28198)                               | 28198   | [article.md](slot-articles/tara-09/article.md)            | 2026-08-23 |
+| `tara-10`            | [སྒྲོལ་མ་བདུད་དང་འཇིག་རྟེན་དབང་སྡུད་མ།](https://bo.wikipedia.org/w/index.php?curid=28199)               | 28199   | [article.md](slot-articles/tara-10/article.md)            | 2026-08-23 |
+| `tara-11`            | [སྒྲོལ་མ་ཕོངས་པ་ཀུན་སེལ།](https://bo.wikipedia.org/w/index.php?curid=28200)                             | 28200   | [article.md](slot-articles/tara-11/article.md)            | 2026-08-23 |
+| `tara-12`            | [སྒྲོལ་མ་བཀྲ་ཤིས་དོན་གྲུབ་མ།](https://bo.wikipedia.org/w/index.php?curid=28201)                         | 28201   | [article.md](slot-articles/tara-12/article.md)            | 2026-08-23 |
+| `tara-13`            | [སྒྲོལ་མ་མེ་ལྟར་འབར་བ།](https://bo.wikipedia.org/w/index.php?curid=28202)                               | 28202   | [article.md](slot-articles/tara-13/article.md)            | 2026-08-23 |
+| `tara-14`            | [སྒྲོལ་མ་ཁྲོ་གཉེར་གཡོ་བ།](https://bo.wikipedia.org/w/index.php?curid=28203)                             | 28203   | [article.md](slot-articles/tara-14/article.md)            | 2026-08-23 |
+| `tara-15`            | [སྒྲོལ་མ་ཞི་བ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28204)                                | 28204   | [article.md](slot-articles/tara-15/article.md)            | 2026-08-23 |
+| `tara-16`            | [སྒྲོལ་མ་ཆགས་པ་འཇོམས་པ།](https://bo.wikipedia.org/w/index.php?curid=28205)                              | 28205   | [article.md](slot-articles/tara-16/article.md)            | 2026-08-23 |
+| `tara-17`            | [སྒྲོལ་མ་དཔག་མེད་གནོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28206)                             | 28206   | [article.md](slot-articles/tara-17/article.md)            | 2026-08-23 |
+| `tara-18`            | [སྒྲོལ་མ་རྨ་བྱ་ཆེན་མོ།](https://bo.wikipedia.org/w/index.php?curid=28207)                               | 28207   | [article.md](slot-articles/tara-18/article.md)            | 2026-08-23 |
+| `tara-19`            | [སྒྲོལ་མ་མི་ཕམ་གཟི་བརྗིད་ཅན།](https://bo.wikipedia.org/w/index.php?curid=28208)                         | 28208   | [article.md](slot-articles/tara-19/article.md)            | 2026-08-23 |
+| `tara-20`            | [སྒྲོལ་མ་རི་ཁྲོད་ལོ་མ་གྱོན་མ།](https://bo.wikipedia.org/w/index.php?curid=28209)                        | 28209   | [article.md](slot-articles/tara-20/article.md)            | 2026-08-23 |
+| `tara-21`            | [སྒྲོལ་མ་འོད་ཟེར་ཅན་མ།](https://bo.wikipedia.org/w/index.php?curid=28210)                               | 28210   | [article.md](slot-articles/tara-21/article.md)            | 2026-08-23 |
 
 > [!warning] `tara-02` has an un-pushed change: lead sentence — source corrected 2026-08-21, not yet pushed.
 > Published before the series prefix rule was written down: the live title carries སྒྲོལ་མ་ but the source lead term did not. Source lead corrected to match on 2026-08-21; the live page still shows the old lead sentence and needs a wiki update to catch up. The title itself is correct and must not change.
