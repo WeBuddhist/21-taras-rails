@@ -208,4 +208,6 @@ In short, all our wishes will be fulfilled. ^2-6
 
 ## Colophon ^a-0
 
+![[bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།#^a-1]]
+
 "The Twenty-One Praises to Tara" text is taken from Accumulating Wisdom and Merit through the Mandala of Arya Tara discovered by Chokgyur Dechen Lingpa and adapted by Dzongsar Jamyang Khyentse Rinpoche, June 4 2021. ^a-1
