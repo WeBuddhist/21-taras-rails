@@ -148,6 +148,12 @@ The six skills below form the **deterministic ingest chain** for Tibetan materia
 **Outputs:** The commentary with transclusion anchors and corrected spacing. Dry-run by default; `--apply` to write.
 → [`Transclusion-rootext-into-commentaries/SKILL.md`](Transclusion-rootext-into-commentaries/SKILL.md)
 
+### `Transclude-Rootexto-Commentary` **[exists]**
+**Purpose:** Insert a transclusion of each root-text verse immediately before that verse's own inline quotation in a commentary that quotes verses verbatim before commenting on them — the quote-anchored sibling of `transclusion` (sa-bcad-anchored) and `Transclusion-rootext-into-commentaries` (also sa-bcad-anchored). Tolerates orthographic variants between the commentary's quoted wording and the root's critical-edition wording, and embeds a verse only once when the commentary quotes it in split pieces across a line-by-line exegesis.
+**Inputs:** One commentary file that quotes root verses verbatim (in whole or in part) and its block-ID'd root text.
+**Outputs:** The commentary with a transclusion anchor, followed by a blank line, placed directly above each matched verse quotation.
+→ [`Transclude-Rootexto-Commentary/SKILL.md`](Transclude-Rootexto-Commentary/SKILL.md)
+
 ---
 
 ### `root-text-frontmatter` **[exists]**
