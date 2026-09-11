@@ -7,14 +7,17 @@ Tibetan commentary file, following the vault's blank-line block convention.
 
 Numbering scheme:
 - Headings are numbered hierarchically, independent of body content:
-    # Title              -> ^0                (at most one per file)
-    ## Section            -> ^0-{h2}           (h2 = 1, 2, 3, ... in order)
-    ### Sub-section        -> ^0-{h2}-{h3}      (h3 resets to 1 at each new ##)
+    # Title              -> ^0                    (at most one per file)
+    ## Section            -> ^{h2}-0               (h2 = 1, 2, 3, ... in order)
+    ### Sub-section        -> ^{h2}-{h3}-0          (h3 resets to 1 at each new ##)
+    #### Sub-sub-section    -> ^{h2}-{h3}-{h4}-0     (h4 resets to 1 at each new ###)
 - Body-text blocks (a run of consecutive non-blank, non-heading,
   non-transclusion lines, terminated by a blank line or a heading) are
   numbered ^{h2}-{n}, where h2 is the index of the most recently seen ##
   heading and n is a running counter that starts at 1 under each ## and is
-  NOT reset by ### sub-headings within it.
+  NOT reset by ### or #### sub-headings within it — a body block always
+  gets the same two-segment form regardless of how deep its enclosing
+  heading nests.
 - Root-text transclusion lines (![[...]]) are never modified and never
   receive an id, and they do not consume a body counter value — they are
   invisible to the numbering.
@@ -25,9 +28,11 @@ Assumptions / limitations (see SKILL.md §Rules):
 - No body content may appear between the `#` title and the first `##`
   heading. If any is found, the script aborts rather than guessing a
   numbering for it (front matter of that shape has never been validated).
-- Only heading levels 1–3 (#, ##, ###) are supported. A #### or deeper
-  heading aborts the script — flag it for human review instead of
-  inventing a fourth numbering tier.
+- Only heading levels 1–4 (#, ##, ###, ####) are supported. A ##### or
+  deeper heading aborts the script — flag it for human review instead of
+  inventing a fifth numbering tier. A #### heading also requires an
+  enclosing ### in the same ## section; one that doesn't have one aborts
+  rather than guessing a numbering for it.
 - A heading line always starts a new block, even if it directly abuts the
   previous line with no blank line between them (a known formatting
   inconsistency in some raw commentary files).
@@ -48,7 +53,7 @@ import sys
 
 HEADING_RE = re.compile(r'^(#{1,6})\s+\S')
 TRANSCLUSION_RE = re.compile(r'^!\[\[.*\]\]\s*$')
-EXISTING_ID_RE = re.compile(r'\s\^[0-9]+(?:-[0-9]+){0,2}\s*$')
+EXISTING_ID_RE = re.compile(r'\s\^[0-9]+(?:-[0-9]+){0,3}\s*$')
 
 
 class AbortError(Exception):
@@ -83,11 +88,11 @@ def segment_blocks(lines, frontmatter_end):
                 blocks.append((current_start, i - 1, 'body'))
                 current_start = None
             level = len(stripped) - len(stripped.lstrip('#'))
-            if level >= 4:
+            if level >= 5:
                 raise AbortError(
-                    f"Line {i+1}: heading level {level} (####+) is not "
+                    f"Line {i+1}: heading level {level} (#####+) is not "
                     f"supported by this skill — stop and flag for human "
-                    f"review instead of guessing a fourth numbering tier.\n"
+                    f"review instead of guessing a fifth numbering tier.\n"
                     f"  {lines[i]!r}"
                 )
             blocks.append((i, i, 'heading'))
@@ -113,6 +118,7 @@ def segment_blocks(lines, frontmatter_end):
 def tag_blocks(lines, blocks):
     h2 = 0
     h3 = 0
+    h4 = 0
     body_counter = 1
     seen_h2 = False
     stats = []  # (section_label, first_id, last_id, count)
@@ -137,19 +143,35 @@ def tag_blocks(lines, blocks):
                 seen_h2 = True
                 h2 += 1
                 h3 = 0
+                h4 = 0
                 if current_section is not None:
                     stats.append(tuple(current_section))
-                current_section = [f"^0-{h2}", None, None]
+                current_section = [f"^{h2}", None, None]
                 body_counter = 1
-                bid = f"^0-{h2}"
+                bid = f"^{h2}-0"
             elif level == 3:
                 if not seen_h2:
                     raise AbortError(
                         f"Line {s+1}: a ### heading appeared before any "
-                        f"## heading — cannot assign ^0-{{h2}}-{{h3}}."
+                        f"## heading — cannot assign ^{{h2}}-{{h3}}-0."
                     )
                 h3 += 1
-                bid = f"^0-{h2}-{h3}"
+                h4 = 0
+                bid = f"^{h2}-{h3}-0"
+            elif level == 4:
+                if not seen_h2:
+                    raise AbortError(
+                        f"Line {s+1}: a #### heading appeared before any "
+                        f"## heading — cannot assign ^{{h2}}-{{h3}}-{{h4}}-0."
+                    )
+                if h3 == 0:
+                    raise AbortError(
+                        f"Line {s+1}: a #### heading appeared before any "
+                        f"### heading in this ## section — cannot assign "
+                        f"^{{h2}}-{{h3}}-{{h4}}-0 without an enclosing ###."
+                    )
+                h4 += 1
+                bid = f"^{h2}-{h3}-{h4}-0"
             else:
                 raise AbortError(f"Unreachable heading level {level} at line {s+1}")
 
@@ -201,10 +223,10 @@ def print_stats(heading_count, stats):
         return
     print(f"{'section':<10}{'first_id':<14}{'last_id':<14}{'count'}")
     for label, first, last in stats:
+        h2 = label.lstrip('^')
         if first is None:
             print(f"{label:<10}{'(none)':<14}{'(none)':<14}0")
             continue
-        h2 = label.split('-')[-1]
         count = last - first + 1
         print(f"{label:<10}^{h2}-{first:<12}^{h2}-{last:<12}{count}")
 
