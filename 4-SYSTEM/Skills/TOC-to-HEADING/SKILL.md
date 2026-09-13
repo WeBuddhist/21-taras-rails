@@ -40,13 +40,17 @@ The same `commentary_file`, updated in place: one Markdown heading line inserted
 | `1.2.2.1` | 4 | `####` |
 | `1.2.2.1.1` | 5 | `#####` |
 | `1.2.2.1.1.1` | 6 | `######` |
-| `1.2.2.1.1.3.1` | 7 | `#######` (literal — Markdown/Obsidian will not render this as a real heading past level 6; ask the human contributor how to handle depth >6 before proceeding if any TOC entry goes that deep, since it's a real design tradeoff, not a mechanical default) |
+| `1.2.2.1.1.3.1` | 7 | `#######` **bold** (see below) |
+| `1.2.2.1.1.3.1.1` | 8 | `########` **bold** (see below) |
 
-**Heading text = TOC label, cleaned**: take the entry's text before the trailing `[[page]]` reference, strip a trailing tsheg (`་`) if present, then end the heading with a shad (`།`).
+**Depth beyond Obsidian's max heading level (6):** Obsidian/Markdown only renders `#` through `######` (level 6) as an actual heading; deeper levels are just literal hash characters on the page. For any TOC depth of 7 or more, still write a literal run of `#` equal to the entry's depth (seven `#` at depth 7, eight at depth 8, and so on — never cap at six), and additionally wrap the heading text itself in `**bold**` markers so it still reads visually as a heading even though Markdown won't render it as one. This is applied mechanically — no need to check with the human contributor before proceeding, however deep a TOC entry goes.
+
+**Heading text = TOC label, cleaned**: take the entry's text before the trailing `[[page]]` reference, strip a trailing tsheg (`་`) if present, then end the heading with a shad (`།`). At depth ≥7, also wrap that cleaned text in `**...**`.
 
 ```
 དང་པོ་མདོར་བསྟན་པ་ [[24]]   →   ## དང་པོ་མདོར་བསྟན་པ།
 ཁྲོ་མོའི་ཚུལ་ལ་ཕྱག་འཚལ་བ་ [[126]]   →   ##### ཁྲོ་མོའི་ཚུལ་ལ་ཕྱག་འཚལ་བ།
+དང་པོ་ཁྲོས་པའི་ཞལ་གྱིས་བསྟོད་པ་ [[130]]   →   ####### **དང་པོ་ཁྲོས་པའི་ཞལ་གྱིས་བསྟོད་པ།**
 ```
 
 **Spacing**: every heading is followed by a blank line before whatever comes next — content or another heading. When headings are stacked (see Rule 4), each one is separated from the next by a blank line too:
@@ -94,5 +98,5 @@ The same `commentary_file`, updated in place: one Markdown heading line inserted
 - [ ] Heading text = TOC label with the `[[page]]` reference stripped and the trailing tsheg replaced by a shad
 - [ ] Blank line present above and below every heading, including between stacked headings
 - [ ] No existing prose deleted, reordered, or retyped — paragraph splits (Rule 5) preserve both resulting fragments verbatim
-- [ ] Any TOC depth beyond 6 was confirmed with the human contributor rather than defaulted silently
+- [ ] Any TOC depth beyond 6 used a literal `#` count equal to its depth with the heading text wrapped in `**bold**`
 - [ ] File re-read after edits to confirm correct order and spacing
