@@ -1,0 +1,320 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Puja overlay</title>
+<!--
+  OBS Browser Source page. One per language stream:
+     overlay.html?lang=en   overlay.html?lang=zh   overlay.html?lang=hi   overlay.html?lang=bo
+  Recommended OBS source size: 1920 x 1080, transparent background.
+
+  BRANDING: edit the variables in :root below. Swap LOGO_URL for the event
+  logo, and the colors/fonts for the event's brand.
+-->
+<style>
+  :root {
+    /* --- Style tokens (matches WeBuddhist Figma overlay) --- */
+    --ink: #000000;            /* transliteration (bold) */
+    --ink-soft: #242424;       /* meaning line */
+    --panel: rgba(255,255,255,0.60);  /* frosted white bar */
+    --name: #000000;           /* verse name */
+    --meta: #3a3a3a;           /* number / round */
+    --sans: "Inter", "Noto Sans", system-ui, sans-serif;
+    --cjk: "Noto Sans SC", sans-serif;
+    --deva: "Noto Sans Devanagari", sans-serif;
+    --tibetan: "Noto Serif Tibetan", "Noto Sans Tibetan", serif;
+  }
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC&family=Noto+Sans+Devanagari&family=Noto+Sans+Tibetan&family=Noto+Serif+Tibetan&display=swap");
+
+  html, body { margin: 0; height: 100%; background: transparent; overflow: hidden; }
+  body { font-family: var(--sans); }
+
+  /* Centered frosted bar, constrained width (not full-screen) */
+  #stage { position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: center; padding: 0 24px 28px; box-sizing: border-box; }
+
+  #panel {
+    width: 100%; max-width: 1560px;
+    background: var(--panel);
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 22px 34px 26px;
+    box-sizing: border-box;
+    position: relative;
+    opacity: 0; transform: translateY(8px);
+    transition: opacity .4s ease, transform .4s ease;
+  }
+  #panel.show { opacity: 1; transform: none; }
+  /* Tibetan stream: wider bar for the enlarged Uchen */
+  body[data-lang="bo"] #panel { max-width: 1720px; }
+
+  /* Text on the left, Tara painting on the right */
+  .row { display: flex; align-items: stretch; gap: 28px; }
+  .textcol { flex: 1; min-width: 0; }
+  .imgcol { flex: none; width: 210px; display: flex; align-items: center; justify-content: center; }
+  .imgcol img {
+    max-height: 300px; max-width: 210px; width: auto; height: auto;
+    border-radius: 8px; display: block;
+  }
+  .imgcol.empty { display: none; }
+  /* Tibetan stream needs more horizontal room for the enlarged Uchen */
+  body[data-lang="bo"] .row { gap: 8px; }
+
+  /* Header row: [number · names] on the left, round right-justified */
+  .head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+  .logo { display: none; }
+  .num { font-family: var(--sans); font-weight: 700; font-size: 30px; color: var(--ink); flex: none; }
+  .label { display: none; }
+  .head .spacer { flex: 1; }
+  .pass { font-family: var(--sans); font-weight: 700; font-size: 30px; color: var(--meta); flex: none; text-align: right; }
+
+  /* Names sit inline next to the number, same line */
+  .names { display: none; }
+  .translit { display: none; }
+  .subname {
+    font-family: var(--sans); font-weight: 600; font-size: 28px;
+    color: var(--name); margin: 0;
+  }
+
+  hr.rule { border: 0; border-top: 1.5px solid rgba(0,0,0,0.25); margin: 12px 0 20px; }
+  #panel.section hr.rule { display: none; }
+
+  /* Two columns, large text for phone readability */
+  .meaning.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 44px; }
+  /* Tibetan Uchen is larger, so tighten the column gap to give each line room */
+  body[data-lang="bo"] .meaning.cols { gap: 10px 8px; }
+  .col { display: flex; flex-direction: column; gap: 14px; }
+  .couplet { break-inside: avoid; }
+  .c-top {
+    font-family: var(--sans); font-weight: 600; font-size: 32px;
+    color: var(--ink); line-height: 1.22;
+  }
+  .c-bot {
+    font-family: var(--sans); font-weight: 400; font-size: 27px;
+    color: var(--ink-soft); line-height: 1.28; margin-top: 2px;
+  }
+  /* Tibetan stream: Uchen only, enlarged */
+  body[data-lang="bo"] .c-top { font-family: var(--tibetan); font-weight: 500; font-size: 46px; line-height: 1.6; }
+  body[data-lang="bo"] .c-bot { display: none; }
+  body[data-lang="bo"] .subname { font-family: var(--tibetan); font-weight: 500; font-size: 34px; line-height: 1.5; }
+  body[data-lang="bo"] .pass { font-family: var(--tibetan); font-size: 40px; }
+  body[data-lang="bo"] .num { font-family: var(--tibetan); }
+  body[data-lang="zh"] .c-bot { font-family: var(--cjk); font-size: 28px; line-height: 1.4; }
+  /* When a Chinese phonetic chant line is present, that line is tagged .cjk-chant */
+  .c-top.cjk-chant { font-family: var(--cjk); }
+  body[data-lang="hi"] .c-bot { font-family: var(--deva); font-size: 27px; line-height: 1.45; }
+
+  /* Section screens (Refuge, Bodhichitta, Dedication) */
+  #panel.section .head { display: none; }
+  .meaning.section-title { text-align: center; }
+  .sect { font-family: var(--sans); font-weight: 600; font-size: 40px; color: var(--ink); padding: 6px 0; }
+
+  .conn { position: absolute; top: 10px; right: 12px; width: 7px; height: 7px; border-radius: 50%;
+          background: #c0392b; opacity: 0; transition: opacity .3s; }
+  .conn.bad { opacity: .7; }
+</style>
+
+<div id="dbg" style="position:absolute;top:8px;left:8px;z-index:9999;font:13px/1.4 monospace;color:#fff;background:rgba(180,0,0,.85);padding:6px 10px;border-radius:6px;max-width:60vw;display:none;white-space:pre-wrap"></div>
+<div id="stage">
+  <div id="panel">
+    <div class="conn" id="conn" title="disconnected"></div>
+    <div class="row">
+      <div class="textcol">
+        <div class="head">
+          <img class="logo" id="logo" alt="" />
+          <span class="num" id="num"></span>
+          <span class="subname" id="subname"></span>
+          <span class="spacer"></span>
+          <span class="pass" id="pass"></span>
+        </div>
+        <div class="names" id="names">
+          <div class="translit" id="translit"></div>
+        </div>
+        <hr class="rule" id="rule">
+        <div class="meaning" id="meaning"></div>
+      </div>
+      <div class="imgcol" id="imgcol"><img id="taraimg" alt="" /></div>
+    </div>
+  </div>
+</div>
+
+<script src="sequence.js"></script>
+<script>
+  // ---- BRANDING: set your logo here (or leave "" to hide it) ----
+  const LOGO_URL = ""; // e.g. "logo.svg"
+
+  const lang = new URLSearchParams(location.search).get("lang") || "en";
+  document.body.dataset.lang = lang;
+  if (LOGO_URL) document.getElementById("logo").src = LOGO_URL;
+  else document.getElementById("logo").style.display = "none";
+
+  const el = (id) => document.getElementById(id);
+  let SEQ = null;
+
+  function pick(obj, fallbackEn) {
+    // choose the language field, falling back to English, then empty
+    if (!obj) return "";
+    if (obj[lang] && obj[lang].length) return obj[lang];
+    if (fallbackEn && obj.en) return obj.en;
+    return obj[lang] || "";
+  }
+
+  function render(index, pass) {
+    const step = SEQ.steps[index];
+    if (!step) return;
+    const panel = el("panel");
+    panel.classList.remove("show");
+
+    setTimeout(() => {
+      // reset
+      el("num").textContent = "";
+      el("translit").textContent = "";
+      el("subname").textContent = "";
+      el("meaning").innerHTML = "";
+      el("pass").textContent = "";
+      panel.classList.toggle("section", step.type === "section");
+
+      // Tara image on the right (verses with an image only)
+      const imgcol = el("imgcol");
+      if (step.type === "verse" && step.image) {
+        el("taraimg").src = step.image;
+        imgcol.classList.remove("empty");
+      } else {
+        el("taraimg").removeAttribute("src");
+        imgcol.classList.add("empty");
+      }
+
+      if (step.type === "section") {
+        // Refuge / Bodhichitta / Dedication — just the title, large & centered
+        const title = (step.title && (step.title[lang] || step.title.en)) || "";
+        el("subname").textContent = "";
+        el("meaning").className = "meaning section-title";
+        el("meaning").innerHTML = `<div class="sect">${title}</div>`;
+      } else if (step.type === "verse") {
+        if (step.number) {
+          if (lang === "bo") {
+            const tibDigits = "༠༡༢༣༤༥༦༧༨༩";
+            el("num").textContent = String(step.number).replace(/[0-9]/g, (d) => tibDigits[+d]) + "།";
+          } else {
+            el("num").textContent = step.number + ".";
+          }
+        }
+
+        const chant = (lang === "zh" && step.translit_zh && step.translit_zh.length)
+          ? step.translit_zh
+          : (step.translit_full && step.translit_full.length)
+          ? step.translit_full : (step.translit ? [step.translit] : []);
+        const sub = (lang === "bo" && step.names && step.names.bo)
+          ? step.names.bo
+          : (lang === "zh" && step.names && step.names.zh)
+          ? step.names.zh
+          : [step.names && step.names.sanskrit, step.names && step.names.en]
+              .filter(Boolean).join("  ·  ");
+
+        el("subname").textContent = sub;
+
+        // Build couplets. Each couplet = a top line over a bottom line.
+        // Non-Tibetan: transliteration over meaning.
+        // Tibetan: Uchen only (transliteration is redundant for Tibetan readers).
+        let top, bottom;
+        if (lang === "bo") {
+          top = (step.uchen || "").split("\n").filter(Boolean);
+          bottom = [];
+        } else {
+          top = chant;
+          bottom = (pick(step.meaning, true) || []);
+        }
+        const n = Math.max(top.length, bottom.length);
+        // Tag the top line for CJK font only when it is the Chinese phonetic chant.
+        const topCls = (lang === "zh" && step.translit_zh && step.translit_zh.length)
+          ? "c-top cjk-chant" : "c-top";
+
+        // Single-line verses (like the homage) or section-length content:
+        // render centered, full width, not split into columns.
+        if (n <= 1) {
+          el("meaning").className = "meaning single";
+          el("meaning").innerHTML =
+            '<div class="couplet">'
+            + (top[0] ? `<div class="${topCls}">${top[0]}</div>` : "")
+            + (bottom[0] ? `<div class="c-bot">${bottom[0]}</div>` : "")
+            + '</div>';
+        } else {
+          // Reading order into two columns: left = couplets 1..ceil(n/2), right = rest.
+          const half = Math.ceil(n / 2);
+          const couplet = (k) =>
+            '<div class="couplet">'
+            + (top[k] ? `<div class="${topCls}">${top[k]}</div>` : "")
+            + (bottom[k] ? `<div class="c-bot">${bottom[k]}</div>` : "")
+            + '</div>';
+          let left = "", right = "";
+          for (let k = 0; k < n; k++) (k < half ? (left += couplet(k)) : (right += couplet(k)));
+          el("meaning").className = "meaning cols";
+          el("meaning").innerHTML =
+            `<div class="col">${left}</div><div class="col">${right}</div>`;
+        }
+
+        if (index >= SEQ.loopStart && index <= SEQ.loopEnd) {
+          if (lang === "bo") {
+            const tibDigits = "༠༡༢༣༤༥༦༧༨༩";
+            const tibNum = String(pass).replace(/[0-9]/g, (d) => tibDigits[+d]);
+            el("pass").textContent = tibNum + " ཕྲེང་འཁོར";
+          } else if (lang === "zh") {
+            el("pass").textContent = "第 " + pass + " 遍";
+          } else {
+            el("pass").textContent = "Round " + pass;
+          }
+        }
+      }
+      panel.classList.add("show");
+    }, 120);
+  }
+
+  // ---- on-screen debug (so failures aren't a silent black screen) ----
+  function dbg(text) {
+    const d = el("dbg");
+    if (!text) { d.style.display = "none"; return; }
+    d.style.display = "block";
+    d.textContent = "[" + lang + "] " + text;
+  }
+
+  // Hold the latest state the server sent, even if content isn't loaded yet.
+  let pending = null;
+
+  // ---- transport: WebSocket to the server. Opens regardless of content load. ----
+  function connect() {
+    const proto = location.protocol === "https:" ? "wss" : "ws";
+    let ws;
+    try { ws = new WebSocket(`${proto}://${location.host}`); }
+    catch (err) { el("conn").classList.add("bad"); dbg("socket create failed: " + err.message); setTimeout(connect, 1500); return; }
+
+    ws.onopen = () => { el("conn").classList.remove("bad"); dbg(""); };
+    ws.onclose = () => { el("conn").classList.add("bad"); dbg("socket closed, reconnecting…"); setTimeout(connect, 1500); };
+    ws.onerror = () => { el("conn").classList.add("bad"); dbg("socket error"); };
+    ws.onmessage = (e) => {
+      let msg; try { msg = JSON.parse(e.data); } catch { return; }
+      if (msg.type === "state") {
+        if (SEQ) render(msg.index, msg.pass);   // content ready → draw now
+        else pending = msg;                      // content not ready → draw when it loads
+      }
+    };
+  }
+
+  // ---- content load with retry; never blocks the socket ----
+  async function loadContentWithRetry(tries = 20) {
+    for (let i = 0; i < tries; i++) {
+      try {
+        SEQ = await loadSequence();
+        dbg("");
+        // If a state arrived before content was ready, draw it now.
+        if (pending) { render(pending.index, pending.pass); pending = null; }
+        else render(0, 1);
+        return;
+      } catch (err) {
+        dbg("content.json load failed (try " + (i + 1) + "/" + tries + "): " + err.message);
+        await new Promise((r) => setTimeout(r, 1000));
+      }
+    }
+    dbg("GAVE UP loading content.json after " + tries + " tries");
+  }
+
+  // Open the socket immediately, and load content in parallel with retries.
+  connect();
+  loadContentWithRetry();
+</script>

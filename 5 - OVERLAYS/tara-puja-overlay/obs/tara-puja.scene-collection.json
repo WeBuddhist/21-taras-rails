@@ -1,0 +1,1183 @@
+{
+  "name": "Untitled",
+  "AuxAudioDevice1": {
+    "prev_ver": 537001986,
+    "name": "Mic/Aux",
+    "uuid": "964b94dc-4a8a-4962-a71e-1c91ff41c989",
+    "id": "coreaudio_input_capture",
+    "versioned_id": "coreaudio_input_capture",
+    "settings": {
+      "device_id": "default"
+    },
+    "mixers": 255,
+    "sync": 0,
+    "flags": 0,
+    "volume": 1.0,
+    "balance": 0.5,
+    "enabled": true,
+    "muted": true,
+    "push-to-mute": false,
+    "push-to-mute-delay": 0,
+    "push-to-talk": false,
+    "push-to-talk-delay": 0,
+    "hotkeys": {
+      "libobs.mute": [],
+      "libobs.unmute": [],
+      "libobs.push-to-mute": [],
+      "libobs.push-to-talk": []
+    },
+    "deinterlace_mode": 0,
+    "deinterlace_field_order": 0,
+    "monitoring_type": 0,
+    "private_settings": {}
+  },
+  "groups": [],
+  "scene_order": [
+    {
+      "name": "Tibetan"
+    },
+    {
+      "name": "English"
+    },
+    {
+      "name": "Chinese"
+    }
+  ],
+  "current_scene": "English",
+  "current_program_scene": "English",
+  "canvases": [],
+  "current_transition": "Fade",
+  "transition_duration": 300,
+  "transitions": [],
+  "quick_transitions": [
+    {
+      "name": "Cut",
+      "duration": 300,
+      "hotkeys": [],
+      "id": 1,
+      "fade_to_black": false
+    },
+    {
+      "name": "Fade",
+      "duration": 300,
+      "hotkeys": [],
+      "id": 2,
+      "fade_to_black": false
+    },
+    {
+      "name": "Fade",
+      "duration": 300,
+      "hotkeys": [],
+      "id": 3,
+      "fade_to_black": true
+    }
+  ],
+  "saved_projectors": [],
+  "preview_locked": false,
+  "scaling_enabled": true,
+  "scaling_level": -1,
+  "scaling_off_x": 0.0,
+  "scaling_off_y": 0.0,
+  "virtual-camera": {
+    "type2": 3
+  },
+  "modules": {
+    "scripts-tool": [],
+    "output-timer": {
+      "streamTimerHours": 0,
+      "streamTimerMinutes": 0,
+      "streamTimerSeconds": 30,
+      "recordTimerHours": 0,
+      "recordTimerMinutes": 0,
+      "recordTimerSeconds": 30,
+      "autoStartStreamTimer": false,
+      "autoStartRecordTimer": false,
+      "pauseRecordTimer": true
+    },
+    "auto-scene-switcher": {
+      "interval": 300,
+      "non_matching_scene": "",
+      "switch_if_not_matching": false,
+      "active": false,
+      "switches": []
+    }
+  },
+  "resolution": {
+    "x": 1920,
+    "y": 1080
+  },
+  "version": 2,
+  "sources": [
+    {
+      "prev_ver": 537001986,
+      "name": "Camera-C920",
+      "uuid": "64e7bd64-9e05-4a58-92ed-18042dc189e7",
+      "id": "macos-avcapture",
+      "versioned_id": "macos-avcapture",
+      "settings": {
+        "device_name": "HD Pro Webcam C920",
+        "device": "0x113000046d08e5"
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Chinese",
+      "uuid": "69f6e2b7-d7a1-4ae3-a0b1-2b012ab72719",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 5,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "Camera-C920",
+            "source_uuid": "64e7bd64-9e05-4a58-92ed-18042dc189e7",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "bounds_rel": {
+              "x": 3.555555582046509,
+              "y": 2.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Image",
+            "source_uuid": "759748bb-4120-477e-ad57-1de71814e6f6",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": -189.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.350000023841858
+            },
+            "scale": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "scale_rel": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Overlays-Chinese",
+            "source_uuid": "4993e0b3-550e-4770-9cc6-cbd7072d1566",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "pos": {
+              "x": -22.0,
+              "y": -21.0
+            },
+            "pos_rel": {
+              "x": -1.8185185194015503,
+              "y": -1.038888931274414
+            },
+            "scale": {
+              "x": 1.0426316261291504,
+              "y": 1.0425926446914673
+            },
+            "scale_rel": {
+              "x": 1.0426316261291504,
+              "y": 1.0425926446914673
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "EnableFilter.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "DisableFilter.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "EnableAllStreaming.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "DisableAllStreaming.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "EnableStreamingService0.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "DisableStreamingService0.94488be4-ab51-4ca9-8da3-bb79b57210ab": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": [],
+        "libobs.show_scene_item.3": [],
+        "libobs.hide_scene_item.3": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001986,
+          "name": "REC-Chinese",
+          "uuid": "94488be4-ab51-4ca9-8da3-bb79b57210ab",
+          "id": "osi_branch_output",
+          "versioned_id": "osi_branch_output",
+          "settings": {
+            "preset2": "p5",
+            "preview_crop_rect_rel": false,
+            "preview_crop_rect_abs": false,
+            "replay_buffer_estimate": false,
+            "service_count": 1,
+            "preset": "veryfast",
+            "server": "rtmp://a.rtmp.youtube.com/live2",
+            "key": "",
+            "audio_encoder": "ffmpeg_aac",
+            "video_encoder": "com.apple.videotoolbox.videoencoder.ave.avc",
+            "audio_bitrate": 160,
+            "streaming_enabled": true,
+            "stream_recording": false,
+            "use_profile_recording_path": true,
+            "rec_format": "mkv",
+            "streaming_output_enabled_0": true,
+            "streaming_output_enabled_1": true,
+            "streaming_output_enabled_2": true,
+            "streaming_output_enabled_3": true,
+            "streaming_output_enabled_4": true,
+            "streaming_output_enabled_5": true,
+            "streaming_output_enabled_6": true,
+            "streaming_output_enabled_7": true,
+            "recording_output_enabled": true,
+            "replay_buffer_output_enabled": true,
+            "bitrate": 3000,
+            "keyint_sec": 2,
+            "codec_type": 1635148593
+          },
+          "mixers": 0,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "English",
+      "uuid": "ee87055d-32f4-4675-a1ce-b7db648eff54",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 5,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "Camera-C920",
+            "source_uuid": "64e7bd64-9e05-4a58-92ed-18042dc189e7",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 5,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "bounds_rel": {
+              "x": 3.555555582046509,
+              "y": 2.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Monks picture",
+            "source_uuid": "07eee2bd-237e-4f03-8b35-a0b57ec9bc41",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 3,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": -189.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.350000023841858
+            },
+            "scale": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "scale_rel": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Overlays-English",
+            "source_uuid": "92dc72be-6449-492c-a3c3-180b6d0638e7",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 1,
+            "group_item_backup": false,
+            "pos": {
+              "x": -14.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.8037036657333374,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.033684253692627,
+              "y": 1.0334261655807495
+            },
+            "scale_rel": {
+              "x": 1.033684253692627,
+              "y": 1.0334261655807495
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "EnableFilter.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "DisableFilter.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "EnableAllStreaming.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "DisableAllStreaming.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "EnableStreamingService0.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "DisableStreamingService0.96ac33a1-3733-4c41-bbdf-be177f2c7a57": [],
+        "libobs.show_scene_item.5": [],
+        "libobs.hide_scene_item.5": [],
+        "libobs.show_scene_item.3": [],
+        "libobs.hide_scene_item.3": [],
+        "libobs.show_scene_item.1": [],
+        "libobs.hide_scene_item.1": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001986,
+          "name": "REC-English",
+          "uuid": "96ac33a1-3733-4c41-bbdf-be177f2c7a57",
+          "id": "osi_branch_output",
+          "versioned_id": "osi_branch_output",
+          "settings": {
+            "preset2": "p5",
+            "preview_crop_rect_rel": false,
+            "preview_crop_rect_abs": false,
+            "replay_buffer_estimate": false,
+            "preset": "veryfast",
+            "service_count": 1,
+            "key": "",
+            "server": "rtmp://a.rtmp.youtube.com/live2",
+            "audio_encoder": "ffmpeg_aac",
+            "video_encoder": "com.apple.videotoolbox.videoencoder.ave.avc",
+            "audio_bitrate": 160,
+            "streaming_enabled": true,
+            "stream_recording": false,
+            "use_profile_recording_path": true,
+            "rec_format": "mkv",
+            "streaming_output_enabled_0": true,
+            "streaming_output_enabled_1": true,
+            "streaming_output_enabled_2": true,
+            "streaming_output_enabled_3": true,
+            "streaming_output_enabled_4": true,
+            "streaming_output_enabled_5": true,
+            "streaming_output_enabled_6": true,
+            "streaming_output_enabled_7": true,
+            "recording_output_enabled": true,
+            "replay_buffer_output_enabled": true,
+            "bitrate": 3000,
+            "keyint_sec": 2,
+            "codec_type": 1635148593
+          },
+          "mixers": 0,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Image",
+      "uuid": "759748bb-4120-477e-ad57-1de71814e6f6",
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "settings": {
+        "file": "/Users/evanyerburgh/Downloads/Screenshot 2569-09-02 at 1.37.02 PM.png"
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Monks picture",
+      "uuid": "07eee2bd-237e-4f03-8b35-a0b57ec9bc41",
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "settings": {
+        "file": "/Users/evanyerburgh/Downloads/Screenshot 2569-09-02 at 1.37.02 PM.png"
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {},
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Overlays Tibetan",
+      "uuid": "1d31e55c-9c71-4b8e-be22-19aca24ee77a",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "http://localhost:8080/overlay.html?lang=bo",
+        "width": 1920,
+        "height": 1080
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Overlays-Chinese",
+      "uuid": "4993e0b3-550e-4770-9cc6-cbd7072d1566",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "http://localhost:8080/overlay.html?lang=zh",
+        "width": 1920,
+        "height": 1080
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Overlays-English",
+      "uuid": "92dc72be-6449-492c-a3c3-180b6d0638e7",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "http://localhost:8080/overlay.html?lang=en",
+        "width": 1920,
+        "height": 1080
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "ObsBrowser.Refresh": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Tara Club Tibetan chanting",
+      "uuid": "085e0c97-f99d-407a-acc2-d862a4cb2200",
+      "id": "ffmpeg_source",
+      "versioned_id": "ffmpeg_source",
+      "settings": {
+        "input": "https://kfprod.s3.us-east-1.amazonaws.com/PUBLIC/audio/21+Tara+Orchestral.mp3",
+        "is_local_file": false
+      },
+      "mixers": 255,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "libobs.mute": [],
+        "libobs.unmute": [],
+        "libobs.push-to-mute": [],
+        "libobs.push-to-talk": [],
+        "MediaSource.Restart": [],
+        "MediaSource.Play": [],
+        "MediaSource.Pause": [],
+        "MediaSource.Stop": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 2,
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 537001986,
+      "name": "Tibetan",
+      "uuid": "91af476c-0bbe-4875-b145-05b6e2a72aff",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "id_counter": 14,
+        "custom_size": false,
+        "items": [
+          {
+            "name": "Camera-C920",
+            "source_uuid": "64e7bd64-9e05-4a58-92ed-18042dc189e7",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 1,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 12,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "bounds_rel": {
+              "x": 3.555555582046509,
+              "y": 2.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Image",
+            "source_uuid": "759748bb-4120-477e-ad57-1de71814e6f6",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 14,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": -189.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.350000023841858
+            },
+            "scale": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "scale_rel": {
+              "x": 0.854995608329773,
+              "y": 0.8551213145256042
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Tara Club Tibetan chanting",
+            "source_uuid": "085e0c97-f99d-407a-acc2-d862a4cb2200",
+            "visible": false,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 8,
+            "group_item_backup": false,
+            "pos": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "pos_rel": {
+              "x": -1.7777777910232544,
+              "y": -1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "scale_rel": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          },
+          {
+            "name": "Overlays Tibetan",
+            "source_uuid": "1d31e55c-9c71-4b8e-be22-19aca24ee77a",
+            "visible": true,
+            "locked": false,
+            "rot": 0.0,
+            "scale_ref": {
+              "x": 1920.0,
+              "y": 1080.0
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds_crop": false,
+            "crop_left": 0,
+            "crop_top": 0,
+            "crop_right": 0,
+            "crop_bottom": 0,
+            "id": 2,
+            "group_item_backup": false,
+            "pos": {
+              "x": -34.0,
+              "y": -23.0
+            },
+            "pos_rel": {
+              "x": -1.8407407999038696,
+              "y": -1.0425926446914673
+            },
+            "scale": {
+              "x": 1.0442708730697632,
+              "y": 1.0444444417953491
+            },
+            "scale_rel": {
+              "x": 1.0442708730697632,
+              "y": 1.0444444417953491
+            },
+            "bounds": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "bounds_rel": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "scale_filter": "disable",
+            "blend_method": "default",
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 300
+            },
+            "hide_transition": {
+              "duration": 300
+            },
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1.0,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "push-to-mute": false,
+      "push-to-mute-delay": 0,
+      "push-to-talk": false,
+      "push-to-talk-delay": 0,
+      "hotkeys": {
+        "OBSBasic.SelectScene": [],
+        "EnableFilter.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "DisableFilter.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "EnableAllStreaming.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "DisableAllStreaming.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "EnableStreamingService0.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "DisableStreamingService0.dd18b240-5218-4f9e-a843-3f5cc06aea6b": [],
+        "libobs.show_scene_item.12": [],
+        "libobs.hide_scene_item.12": [],
+        "libobs.show_scene_item.14": [],
+        "libobs.hide_scene_item.14": [],
+        "libobs.show_scene_item.8": [],
+        "libobs.hide_scene_item.8": [],
+        "libobs.show_scene_item.2": [],
+        "libobs.hide_scene_item.2": []
+      },
+      "deinterlace_mode": 0,
+      "deinterlace_field_order": 0,
+      "monitoring_type": 0,
+      "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+      "private_settings": {},
+      "filters": [
+        {
+          "prev_ver": 537001986,
+          "name": "REC-Tibetan",
+          "uuid": "dd18b240-5218-4f9e-a843-3f5cc06aea6b",
+          "id": "osi_branch_output",
+          "versioned_id": "osi_branch_output",
+          "settings": {
+            "preset2": "p5",
+            "preview_crop_rect_rel": false,
+            "preview_crop_rect_abs": false,
+            "replay_buffer_estimate": false,
+            "preset": "veryfast",
+            "service_count": 1,
+            "server": "rtmp://a.rtmp.youtube.com/live2",
+            "key": "",
+            "audio_encoder": "ffmpeg_aac",
+            "video_encoder": "com.apple.videotoolbox.videoencoder.ave.avc",
+            "audio_bitrate": 160,
+            "streaming_enabled": true,
+            "stream_recording": false,
+            "use_profile_recording_path": true,
+            "rec_format": "mkv",
+            "streaming_output_enabled_0": true,
+            "streaming_output_enabled_1": true,
+            "streaming_output_enabled_2": true,
+            "streaming_output_enabled_3": true,
+            "streaming_output_enabled_4": true,
+            "streaming_output_enabled_5": true,
+            "streaming_output_enabled_6": true,
+            "streaming_output_enabled_7": true,
+            "recording_output_enabled": true,
+            "replay_buffer_output_enabled": true,
+            "bitrate": 3000,
+            "keyint_sec": 2,
+            "codec_type": 1635148593
+          },
+          "mixers": 0,
+          "sync": 0,
+          "flags": 0,
+          "volume": 1.0,
+          "balance": 0.5,
+          "enabled": true,
+          "muted": false,
+          "push-to-mute": false,
+          "push-to-mute-delay": 0,
+          "push-to-talk": false,
+          "push-to-talk-delay": 0,
+          "hotkeys": {},
+          "deinterlace_mode": 0,
+          "deinterlace_field_order": 0,
+          "monitoring_type": 0,
+          "private_settings": {}
+        }
+      ]
+    }
+  ]
+}
