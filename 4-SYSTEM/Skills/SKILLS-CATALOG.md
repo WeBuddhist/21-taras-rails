@@ -452,3 +452,15 @@ It **drives the six ingest-chain skills above** — `kwiki commentaries` resolve
 
 Slash commands: `/ingest`, `/pipeline`, `/publish`.
 → [`../Pipelines/wikipedia/README.md`](../Pipelines/wikipedia/README.md)
+
+---
+
+## Plan-generation skills
+
+These skills assemble calendar-driven daily practice files for a fixed practice cycle, transcluding directly from `1-SOURCES/` and `0-INBOX/` rather than from a Translation-track output — an intentional exception to the general convention in `3-TRANSFORMATIONS/Plans/About Plans.md` (which routes day-file content through a Translation/Adaptation output and disallows citing `1-SOURCES/` directly), made because a devotional/liturgical day-plan assembled from fixed root texts and images is not itself a translation deliverable.
+
+### `Tara-Plan-Creator` **[exists]**
+**Purpose:** On an explicit "run this skill" command, generate a daily practice-plan file for whichever day(s) of the Tara practice cycle the user asks for — the full Zabtig Drolchok sadhana, the day's Tara (image, name, praise stanza, introduction), a never-repeated story of Tara, the full 21-Praises recitation, and a YouTube-links placeholder.
+**Inputs:** An explicit run command naming the requested day(s) (count and which days are entirely up to the user, never assumed); the Zabtig Drolchok sadhana, the 21 Surya Gupta Tara images, the 21 Drolma introductions, the 28-story raw-data file, and the 21-Praises root text (all fixed paths under `1-SOURCES/` and `0-INBOX/`).
+**Outputs:** `3-TRANSFORMATIONS/Plans/21-Day-Plans-bo/Day-<N> Tara Plan.md`, one file per requested day.
+→ [`Tara-Plan-Creator/SKILL.md`](Tara-Plan-Creator/SKILL.md)
