@@ -1,3 +1,13 @@
+---
+title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།
+title_in_english: "The Clear Mirror: The Twenty-One Homages Together with Their Benefits"
+author: རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་སྐུ།
+author_in_english: Dorlob Tenga Tulku
+file_type: commentary
+language_tag: bo
+source_description: "Colophon attributes authorship to Dorlob Tenga Tulku (རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ), styled ཞེས་རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་མིང་པས་སོ at the end of the text."
+---
+
 # ༄༅། །ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །། ^0
 
 ## དང་པོ་མདོར་བསྟན་པ། ^1-0
