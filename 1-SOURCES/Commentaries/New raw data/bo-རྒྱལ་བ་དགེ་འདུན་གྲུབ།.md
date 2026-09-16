@@ -1,3 +1,20 @@
+---
+title: སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ་བཞུགས་སོ།
+title_in_english: "The Precious Garland Tikka: A Commentary on the Twenty-One Homages to Tārā"
+author: རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)
+author_in_english: "Gyalwa Gendun Drub (1st Dalai Lama)"
+date: unknown
+language: Tibetan
+script: Unicode Tibetan
+file_type: commentary
+lang_tag: bo
+verse_id_format: chapter-verse
+registered_id: gendun-drub
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+covers_verses: I-3–2-6
+source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as gendun-drub (TARAC03_GDD; see 1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md, BDRC WA0XLAF346564AF02). Title and opening lines ('འཕགས་པ་དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ...') are identical to that file, which remains status: 0-raw with flat sequential block IDs and no author_in_english/date recorded."
+bdrc_work_id: WA0XLAF346564AF02
+---
 
 # ༄༅། །སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ་བཞུགས་སོ། ། ^0
 

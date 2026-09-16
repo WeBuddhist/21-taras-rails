@@ -1,3 +1,19 @@
+---
+title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།
+title_in_english: "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
+author: ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་
+author_in_english: Ldombuwa Pema Namgyal
+date: unknown
+language: Tibetan
+script: Unicode Tibetan
+file_type: commentary
+lang_tag: bo
+verse_id_format: chapter-verse
+registered_id: pema-namgyal
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+covers_verses: I-1–2-6
+source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as pema-namgyal (TARAC10_DPN; see 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md). Title, opening verses ('ཨོཾ་སྭ་སྟི། ཆོས་སྐུ་ཤེས་རབ་ཕ་རོལ་ཕྱིན་མ་ཡུམ...'), and colophon ('ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བས་གུས་པར་བྲིས་ཏེ...') are identical to that file, which remains status: 0-raw with flat sequential block IDs. NOTE: this file's transclusions cite root-text block IDs #^2-1 through #^2-6 for the closing benefits, which predate the vault's 2026-08-07 root-text resegmentation (current scheme: homages ^1-1–^1-21, benefits ^a-0–^a-7) — these links should be re-checked/re-pointed before this file is promoted out of New raw data."
+---
 # ༄༅། །ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ། ། ^0
 
 ## མཆོད་བརྗོད། ^I-0
