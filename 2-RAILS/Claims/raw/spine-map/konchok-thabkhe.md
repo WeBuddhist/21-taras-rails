@@ -3,7 +3,7 @@ registered_id: konchok-thabkhe
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/konchok-thabkhe.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/konchok-thabkhe.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 135
 mapped_claims: 107
 extra_claims: 5

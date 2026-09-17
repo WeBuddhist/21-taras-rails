@@ -14,7 +14,7 @@ The text is a single short work, not a multi-volume collection, so there is one 
 
 | Source-text file | Content |
 | --- | --- |
-| `1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md` | The root praise: one invocation block (`^I-1`) + 21 homage stanzas + 1 closing stanza (`^1-1`–`^1-22`) |
+| `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md` | The root praise: one invocation block (`^I-1`) + 21 homage stanzas + 1 closing stanza (`^1-1`–`^1-22`) |
 
 Sixteen of the seventeen registered commentaries on this praise are ingested (§3). No other root text is served by this vault.
 

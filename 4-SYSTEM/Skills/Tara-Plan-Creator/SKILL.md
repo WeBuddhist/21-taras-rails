@@ -20,7 +20,7 @@ Produces the daily plan file for one or more days of the 21-day Tara practice cy
 | Sadhana (Task 1)                              | `1-SOURCES/Sadhana/bo-ཟབ་ཏིག་སྒྲོལ་ཆོག.md`                         | One file, identical every day. Whole-file transclusion.                                                                                                                                                                                                                                                                                      |
 | Tara images (Task 2)                          | `0-INBOX/21-Tara's-Images/21-Surya-Gupta-Taras-Images/`            | 21 PNGs, filenames prefixed `01_` … `21_`. See the reference table below.                                                                                                                                                                                                                                                                    |
 | Drolma introductions (Task 2)                 | `0-INBOX/21-Drolma-Introductions/`                                 | 21 pairs of files per Tara (an English file and a `(Tibetan)` file); this skill only ever uses the `(Tibetan)` file. Filenames prefixed `01 ` … `21 `. See the reference table below.                                                                                                                                                        |
-| 21-Praises root text (Task 2 stanza + Task 4) | `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`                | One file, identical every day for Task 4. Individual homage stanzas are block-referenced `^1-1` … `^1-21`, one per Tara, in order.                                                                                                                                                                                                           |
+| 21-Praises root text (Task 2 stanza + Task 4) | `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`                | One file, identical every day for Task 4. Individual homage stanzas are block-referenced `^1-1` … `^1-21`, one per Tara, in order.                                                                                                                                                                                                           |
 | Stories of Tara (Task 3)                      | `1-SOURCES/Commentaries/New raw data/bo-མཁན་པོ་ཚུལ་རྣམ།_སྒྲུང།.md` | 28 numbered stories as `###` headings under `## ལོ་རྒྱུས་དངོས།`. Each heading carries its own Obsidian block ID (`^1-N-0`), and its content sits in one or more separately block-ID'd paragraphs immediately below the heading. **Transclude by block ID only — never by heading text** (see Rule 3). See the story reference table below.   |
 | Existing day files                            | `3-TRANSFORMATIONS/Plans/21-Day-Plans-bo/*.md`                     | Read before assigning a story number, to avoid repeats.                                                                                                                                                                                                                                                                                      |
 
@@ -67,7 +67,7 @@ status: draft
 
 ### བསྟོད་པའི་ཚིགས་བཅད
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-<N>]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-<N>]]
 
 ### ངོ་སྤྲོད
 
@@ -81,7 +81,7 @@ status: draft
 
 ## སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ་ཁ་ཏོན
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md]]
 
 ## སྒྲོལ་མའི་སློབ་ཁྲིད་ཡུ་ཊུབ་སྦྲེལ་མཐུད
 ```
@@ -206,7 +206,7 @@ Run this checklist and confirm every box **before** writing the file (Rule 13) �
 - [ ] The image file named in the plan is the exact, currently-existing filename from `21-Surya-Gupta-Taras-Images/` for Tara N (checked against the folder, not assumed from the table alone).
 - [ ] The introduction file named in the plan is the exact, currently-existing `(Tibetan)` filename from `21-Drolma-Introductions/` for Tara N.
 - [ ] The "Name" line was copied character-for-character from that introduction file's first line — no translation, no rewording, no added text.
-- [ ] The praise-stanza transclusion targets `^1-N` in `bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`, and N matches the day/Tara number exactly.
+- [ ] The praise-stanza transclusion targets `^1-N` in `bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`, and N matches the day/Tara number exactly.
 - [ ] Task 1 and Task 4 transclude the complete, unmodified sadhana and 21-Praises source files — nothing abridged, nothing retyped.
 - [ ] The assigned story number is not used by any other file currently in `3-TRANSFORMATIONS/Plans/21-Day-Plans-bo/`, and not used by any other day already generated in this same run.
 - [ ] The story is transcluded by block ID (never heading text): the heading block ID and every content block ID (two for stories 16 and 21, one otherwise) match the assigned story number in the reference table, and each block ID has been confirmed to exist at that exact spelling in the source file — not merely assumed from the table.

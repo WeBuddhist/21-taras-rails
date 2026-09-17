@@ -3,7 +3,7 @@ registered_id: tenga-tulku
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/tenga-tulku.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/tenga-tulku.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 157
 mapped_claims: 121
 extra_claims: 9
