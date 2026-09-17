@@ -23,10 +23,10 @@ status: ingested
 source: https://webuddhist.com
 type: critical
 license: public
-category_id: "LCorCb2K98p3TICt3UCDm"
+category_id: LCorCb2K98p3TICt3UCDm
 text_id: HyUbHGlzS9LsSrgiFQNYE
 edition_id: lEmYv8BrRQkOMPY9ymQpS
-toc_id: 
+toc_id: 8yWBQ5Xo33QWHKhxAhud8
 ---
 
 # ༄༅། །སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། ^0
