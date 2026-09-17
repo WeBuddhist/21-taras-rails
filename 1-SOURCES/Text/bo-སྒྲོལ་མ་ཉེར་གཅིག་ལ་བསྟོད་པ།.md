@@ -26,7 +26,7 @@ license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: HyUbHGlzS9LsSrgiFQNYE
 edition_id: lEmYv8BrRQkOMPY9ymQpS
-toc_id: 8yWBQ5Xo33QWHKhxAhud8
+toc_id: JIiakpj3bZKHd0JzYZDQI
 ---
 
 # ༄༅། །སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། ^0
@@ -39,7 +39,7 @@ toc_id: 8yWBQ5Xo33QWHKhxAhud8
 
 ཨོཾ། རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། ། ^I-3
 
-## 1. བསྟོད་པ་དངོས། ^1-0
+## བསྟོད་པ་དངོས། ^1-0
 
 ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །
 སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །
