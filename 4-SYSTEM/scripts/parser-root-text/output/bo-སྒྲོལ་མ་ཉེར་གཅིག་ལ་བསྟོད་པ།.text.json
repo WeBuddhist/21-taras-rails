@@ -1,7 +1,12 @@
 {
   "bdrc": "WA0XLF0FAD365454A",
+  "date": "unknown — canonical Kangyur text",
   "title": {
+<<<<<<< HEAD
     "bo": "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
+=======
+    "bo": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།"
+>>>>>>> origin/main
   },
   "alt_titles": [
     {

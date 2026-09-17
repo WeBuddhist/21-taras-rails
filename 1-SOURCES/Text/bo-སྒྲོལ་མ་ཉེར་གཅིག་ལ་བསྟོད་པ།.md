@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
+=======
+title: "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།"
+>>>>>>> origin/main
 alt_titles:
   - en: "Praise of the Twenty-One Taras"
 author: "སངས་རྒྱས་བཅོམ་ལྡན་འདས (རྣམ་པར་སྣང་མཛད)"
@@ -21,7 +25,6 @@ openpecha_id: MDAFBF633
 superseded_transcription: 0-INBOX/root-text-backup-pre-resegmentation-2026-08-07.md
 status: ingested
 source: https://webuddhist.com
-type: critical
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: HyUbHGlzS9LsSrgiFQNYE
