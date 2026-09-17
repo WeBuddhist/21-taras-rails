@@ -1,8 +1,9 @@
 ---
-title: སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ་བཞུགས་སོ།
+title: རྒྱལ་བ་དགེ་འདུན་གྲུབ་ཀྱི་སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ།
+title_in_the_text: སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ་བཞུགས་སོ། །
 title_in_english: "The Precious Garland Tikka: A Commentary on the Twenty-One Homages to Tārā"
 author: རྒྱལ་བ་དགེ་འདུན་གྲུབ་(ཏཱ་ལའི་བླ་མ་སྐུ་ཕྲེང་དང་པོ)
-author_in_english: "Gyalwa Gendun Drub (1st Dalai Lama)"
+author_in_english: Gyalwa Gendun Drub (1st Dalai Lama)
 date: unknown
 language: Tibetan
 script: Unicode Tibetan

@@ -1,5 +1,6 @@
 ---
-title: རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།
+title: སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེའི་སྒྲོལ་མ་ཉེར་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ།
+title_in_the_text: རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས། །
 title_in_english: "Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā"
 author: སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་
 author_in_english: Sangye Nyenpa Rinpoche

@@ -1,5 +1,6 @@
 ---
-title: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།
+title: པདྨ་རྣམ་རྒྱལ་གྱི་སྒྲོལ་མའི་བསྟོད་འགྲེལ།
+title_in_the_text: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ། །
 title_in_english: "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
 author: ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་
 author_in_english: Ldombuwa Pema Namgyal

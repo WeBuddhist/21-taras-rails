@@ -1,6 +1,7 @@
 ---
-title: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ།
-title_in_english: "Notes on Karma Maitri's Praise to Tārā"
+tittle: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས།
+title_in_the_text: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ།
+title_in_english: Notes on Karma Maitri's Praise to Tārā
 author: ཀརྨ་མཻ་ཏྲི་
 author_in_english: Karma Maitri
 date: unknown

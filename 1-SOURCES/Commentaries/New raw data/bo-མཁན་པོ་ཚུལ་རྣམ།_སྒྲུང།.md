@@ -1,5 +1,6 @@
 ---
-title: རྗེ་བཙུན་སྒྲོལ་མ་ལ་གསོལ་བ་བཏབས་པས་འཇིགས་པ་ལས་བསྐྱབས་པའི་གཏམ་ཐོར་བུ་འགའ་ཕྱོགས་གཅིག་ཏུ་བསྡེབས་པ་དད་པའི་རྔ་སྒྲ་ཞེས་བྱ་བ་བཞུགས་སོ།
+title: མཁན་པོ་ཚུལ་རྣམ་གྱི་སྒྲོལ་མས་འཇིགས་པ་ལས་བསྐྱབས་པའི་གཏམ་ཕྱོགས་བསྒྲིགས།
+title_in_the_text: རྗེ་བཙུན་སྒྲོལ་མ་ལ་གསོལ་བ་བཏབས་པས་འཇིགས་པ་ལས་བསྐྱབས་པའི་གཏམ་ཐོར་བུ་འགའ་ཕྱོགས་གཅིག་ཏུ་བསྡེབས་པ་དད་པའི་རྔ་སྒྲ་ཞེས་བྱ་བ་བཞུགས་སོ།
 title_in_english: "The Drum of Faith: A Compilation of Scattered Accounts of Protection from Fear through Supplication to Jetsün Tārā"
 author: མཁན་པོ་ཚུལ་ཁྲིམས་རྣམ་དག་
 author_in_english: Khenpo Tsultrim Namdak
@@ -11,7 +12,7 @@ lang_tag: bo
 verse_id_format: chapter-verse
 registered_id: namdak-drum
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
-source_description: "A narrative anthology of 28 protection-from-fear tales (headed towards the classical 16 fears associated with the praise's benefits section), by the same author already registered as tsultrim-namdak for a different, formal exegetical commentary (TARAC17_TSN; see 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md). That file's own source_description names 'a compiled book of protection-tale colophons' as one of eight works in the same author's Volume 5 anthology — this file appears to be that work, extracted separately. Colophon here ('མཁན་མིང་ཚུལ་མིང་པས་བཀོད་པས') is consistent with Khenpo Tsultrim [Namdak] authorship. registered_id is PROPOSED and NOT YET entered in the vault annex (4-SYSTEM/Guidelines/vault-annex.md §3) — a human contributor should confirm the ID (or choose another) and register it there before this file, or any 2-RAILS/ claim citing it, is promoted; 'tsultrim-namdak' itself could not be reused since it already denotes the other, different commentary by this author. Source unknown beyond the above — to be verified."
+source_description: A narrative anthology of 28 protection-from-fear tales (headed towards the classical 16 fears associated with the praise's benefits section), by the same author already registered as tsultrim-namdak for a different, formal exegetical commentary (TARAC17_TSN; see 1-SOURCES/Commentaries/སྒྲོལ་འགྲེལ་ཚོགས་གཉིས་རྒྱ་མཚོར་འཇུག་པའི་གྲུ་གཟིངས།.md). That file's own source_description names 'a compiled book of protection-tale colophons' as one of eight works in the same author's Volume 5 anthology — this file appears to be that work, extracted separately. Colophon here ('མཁན་མིང་ཚུལ་མིང་པས་བཀོད་པས') is consistent with Khenpo Tsultrim [Namdak] authorship. registered_id is PROPOSED and NOT YET entered in the vault annex (4-SYSTEM/Guidelines/vault-annex.md §3) — a human contributor should confirm the ID (or choose another) and register it there before this file, or any 2-RAILS/ claim citing it, is promoted; 'tsultrim-namdak' itself could not be reused since it already denotes the other, different commentary by this author. Source unknown beyond the above — to be verified.
 ---
 
 # ༄༅། །རྗེ་བཙུན་སྒྲོལ་མ་ལ་གསོལ་བ་བཏབས་པས་འཇིགས་པ་ལས་བསྐྱབས་པའི་གཏམ་ཐོར་བུ་འགའ་ཕྱོགས་གཅིག་ཏུ་བསྡེབས་པ་དད་པའི་རྔ་སྒྲ་ཞེས་བྱ་བ་བཞུགས་སོ། ། ^0
