@@ -29,7 +29,7 @@ regenerable** and are cited by the IATS paper and by `REVIEW-2026-08-02.md`.
 
 | Old (`corpora/tara21/…`) | New |
 |---|---|
-| `source/root.md` | `1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md` |
+| `source/root.md` | `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md` |
 | `source/commentaries/TARAC{02..17}_*_bo_segmented.md` | `1-SOURCES/Commentaries/*.md` (matched by `registered_id`; see `sources.yaml`'s `registered_id` field for the mapping) |
 | `sources.yaml`, `terms.yaml`, `ledger.json` | `3-TRANSFORMATIONS/Wikipedia/tara21/{sources.yaml,terms.yaml,ledger.json}` |
 | `articles/<term>/` | `3-TRANSFORMATIONS/Wikipedia/tara21/articles/<term>/` |

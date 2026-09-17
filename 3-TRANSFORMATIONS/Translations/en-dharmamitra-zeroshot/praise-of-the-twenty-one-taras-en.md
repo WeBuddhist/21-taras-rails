@@ -2,7 +2,7 @@
 title: Praise of the Twenty-One Taras — DharmaMitra zero-shot (english)
 file_type: translation
 track_type: machine-baseline
-translation_of: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+translation_of: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 source_language: tibetan
 target_language: english
 lang_tag: en

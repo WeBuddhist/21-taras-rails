@@ -3,7 +3,7 @@ title: "Praise of the Twenty-One Taras — DharmaMitra zero-shot (hindi)"
 track_type: machine-baseline
 target_language: hindi
 lang_tag: hi
-translation_of: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+translation_of: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 generator: dharmamitra cat-translate v1
 endpoint: https://dharmamitra.org/api-search/cat-translate/v1/translate
 rails_used: none
@@ -45,7 +45,7 @@ transformation.
 ## Provenance
 
 - Endpoint: `https://dharmamitra.org/api-search/cat-translate/v1/translate` (public, unauthenticated)
-- Source: [`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`](bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md)
+- Source: [`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`](bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md)
 - Granularity: one source block ID per API call
 - Rolling context: the preceding translated blocks of this same document are
   threaded into each call so terminology and register stay coherent.
@@ -54,5 +54,5 @@ Regenerate or extend with:
 
 ```bash
 python3 4-SYSTEM/Skills/dharmamitra-translate/scripts/dm_translate.py \
-  --source "1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md" --lang hindi
+  --source "1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md" --lang hindi
 ```

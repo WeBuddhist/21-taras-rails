@@ -47,7 +47,7 @@ status: draft
 > cites a raw claim ID; raw claims cite `1-SOURCES/` segments. This page never
 > cites a commentary file directly, and regenerating it never touches `raw/`.
 
-The root text's closing section (heading `བསྟོད་པའི་ཕན་ཡོན། ^a-0`, 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md) runs six verses of benefits (^a-1–^a-6) followed by a one-line colophon (^a-7) stating that the praise was spoken by the Bhagavatī Buddha Vairocana to the Bhagavatī Tārā.
+The root text's closing section (heading `བསྟོད་པའི་ཕན་ཡོན། ^a-0`, 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md) runs six verses of benefits (^a-1–^a-6) followed by a one-line colophon (^a-7) stating that the praise was spoken by the Bhagavatī Buddha Vairocana to the Bhagavatī Tārā.
 
 ## Questions asked
 

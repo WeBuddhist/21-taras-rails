@@ -3,7 +3,7 @@ registered_id: dharmabhadra
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/dharmabhadra.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/dharmabhadra.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 148
 mapped_claims: 105
 extra_claims: 31
@@ -29,7 +29,7 @@ divides into enjoyment-body — peaceful (`1.2.2.1.1.1`–`.6` → `tara-02`–`
 wrathful (`1.2.2.1.2.1`–`.7` → `tara-08`–`tara-14`) — and truth-body (`1.2.2.2` → `tara-15`,
 one node, one verse). Activity divides into six nodes (`1.2.3.1`–`.6` → `tara-16`–`tara-21`).
 Every leaf node's correspondence is attested by its own "Root verse quoted" claim, matched
-against `1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`'s `^1-1`–`^1-21` (e.g. `1.2.2.1.1.4`
+against `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`'s `^1-1`–`^1-21` (e.g. `1.2.2.1.1.4`
 quotes "TUTTĀRA HŪṂ fills the realms, treads the seven worlds," matching `^1-5` verbatim).
 Several ancestor nodes in this tree carry **no claims of their own** — the extraction
 attributes each ancestor's own division-announcement sentence to the opening claim(s) of its

@@ -3,7 +3,7 @@ registered_id: tsultrim-namdak
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/tsultrim-namdak.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/tsultrim-namdak.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 329
 mapped_claims: 13
 extra_claims: 112

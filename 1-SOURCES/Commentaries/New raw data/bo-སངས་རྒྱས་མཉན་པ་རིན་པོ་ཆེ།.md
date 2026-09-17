@@ -10,7 +10,7 @@ file_type: commentary
 lang_tag: bo
 verse_id_format: chapter-verse
 registered_id: sangye-nyentrul
-root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 covers_verses: 1-1–1-21
 source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as sangye-nyentrul (TARAC15_SNT; see 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md, same title). Colophon here ('ཕྲན་སངས་རྒྱས་མཉན་སྤྲུལ་མིང་དུ་འབོད་པས་བྲིས་པས') matches that attribution, and also names the commentary's own bases: 'ཏཱ་ར་ན་ཐ་དང་། ཀུན་མཁྱེན་འཇིགས་མེད་གླིང་པ། རྒྱལ་སྲས་བསྟན་འཛིན་རབ་རྒྱས་སོགས་ཀྱི་འགྲེལ་པ་གཞིར་བཞག'. This file's own commentary body covers the 21 homages only (^1-1–^1-68 in its own sequential numbering, keyed to root verses 1-1 through 1-21); its closing 'གཞུང་གི་དོན་བསྡུ་བ' summary section is original prose, not a transclusion-anchored commentary on the root text's ^2-*/^a-* benefits section."
 ---
@@ -38,7 +38,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-2-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-1]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-1]]
 
 ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །
 སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །
@@ -55,7 +55,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-3-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-2]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-2]]
 
 ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། །
 གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། །
@@ -72,7 +72,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-4-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-3]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-3]]
 
 ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །
 པདྨས་ཕྱག་ན་རྣམ་པར་བརྒྱན་མ། །
@@ -89,7 +89,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-5-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-4]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-4]]
 
 ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། །
 མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། །
@@ -106,7 +106,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-6-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-5]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-5]]
 
 ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས། །
 འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ། །
@@ -125,7 +125,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-7-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-6]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-6]]
 
 ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། །
 རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱག་མཆོད་མ། །
@@ -142,7 +142,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-8-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-7]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-7]]
 
 ཕྱག་འཚལ་ཏྲཌ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། །
 ཕ་རོལ་འཕྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། །
@@ -159,7 +159,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-9-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-8]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-8]]
 
 ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོས། །
 བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། །
@@ -176,7 +176,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-10-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-9]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-9]]
 
 ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། །
 སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། །
@@ -196,7 +196,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-11-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-10]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-10]]
 
 ཕྱག་འཚལ་རབ་ཏུ་དགའ་བས་བརྗིད་པའི། །
 དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བས་སྤེལ་མ། །
@@ -213,7 +213,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-12-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-11]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-11]]
 
 ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས། །
 ཐམས་ཅད་འགུགས་པར་ནུས་པ་ཉིད་མ། །
@@ -230,7 +230,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-13-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-12]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-12]]
 
 ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་རྒྱན། །
 བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། 
@@ -247,7 +247,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-14-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-13]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-13]]
 
 ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར། །
 འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། །
@@ -264,7 +264,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-15-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-14]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-14]]
 
 ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། །
 མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུངས་མ། །
@@ -281,7 +281,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-16-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-15]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-15]]
 
 ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། །
 མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉི་མ། །
@@ -298,7 +298,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-17-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-16]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-16]]
 
 ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། །
 དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། །
@@ -317,7 +317,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-18-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-17]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-17]]
 
 ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། །
 ཧཱུྃ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། །
@@ -334,7 +334,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-19-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-18]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-18]]
 
 ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། །
 རི་དྭགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ། །
@@ -351,7 +351,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-20-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-19]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-19]]
 
 ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། །
 ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། །
@@ -368,7 +368,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-21-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-20]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-20]]
 
 ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི། །
 སྤྱན་གཉིས་པོ་ལས་འོད་རབ་གསལ་མ། །
@@ -385,7 +385,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 
 #### ཚིག་འགྲེལ། ^1-22-1-0
 
-![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-21]]
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-21]]
 
 ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པའི། །
 ཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ། །

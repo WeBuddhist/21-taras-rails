@@ -1,7 +1,7 @@
 ---
 title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
-title_in_source: "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།"
-title_in_english: "Praise of the Twenty-One Taras"
+alt_titles:
+  - en: "Praise of the Twenty-One Taras"
 author: "སངས་རྒྱས་བཅོམ་ལྡན་འདས (རྣམ་པར་སྣང་མཛད)"
 author_in_english: "The Buddha, the Blessed One (spoken through Vairocana)"
 date: unknown — canonical Kangyur text
@@ -20,6 +20,13 @@ book_id: MDAFBF633
 openpecha_id: MDAFBF633
 superseded_transcription: 0-INBOX/root-text-backup-pre-resegmentation-2026-08-07.md
 status: ingested
+source: https://webuddhist.com
+type: critical
+license: public
+category_id: LCorCb2K98p3TICt3UCDm
+text_id: HyUbHGlzS9LsSrgiFQNYE
+edition_id: lEmYv8BrRQkOMPY9ymQpS
+toc_id: JIiakpj3bZKHd0JzYZDQI
 ---
 
 # ༄༅། །སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། ^0
