@@ -402,6 +402,10 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Build a bilingual en↔bo key-term list from a translation | `english-keyword-extraction` |
 | Fill a term table with verbatim commentary definitions | `term-definition-from-commentaries` |
 | Quick translation, no termbase | `zeroshot-translator` |
+| Machine-baseline translation via DharmaMitra (en, zh, …), block-ID aligned, headings included | `dharmamitra-translate` |
+| Machine-baseline translation via Gemini (hi, ne, mn, vi, …), line parity enforced | `gemini-translate` |
+| Upload a translation note to the WeBuddhist library (edition + alignment + TOC; dry-run first) | `translation-upload` |
+| Check that every translation mirrors the root (segments, line counts, TOC tree, payloads; report-only) | `translation-alignment-check` |
 | Bring a raw OCR/segmentation text into 1-SOURCES with frontmatter | `raw-to-sources` |
 | Draft a Tibetan Wikipedia article from a consolidated claims topic page | `wiki-article-from-claims` |
 | Improve an existing article's Tibetan composition with Gemini (facts frozen) | `gemini-article-polish` |

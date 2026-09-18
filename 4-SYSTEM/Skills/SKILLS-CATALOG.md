@@ -337,12 +337,33 @@ These skills populate `2-RAILS/` with the structured context that translation an
 → `translate-section/SKILL.md` *(to be written)*
 
 ### `dharmamitra-translate` **[exists]**
-**Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API once per block ID, threading the document's own preceding translations back in as context.
-**Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `german`, `modern chinese`, …); optionally a style instruction, a context header, and a flat `source<TAB>target` glossary.
-**Outputs:** `3-TRANSFORMATIONS/Translations/<lang-tag>-dharmamitra-zeroshot/` — the block-ID-aligned translation, its `about.md` / `style.md` / `context-header.md`, and an append-only per-call ledger under `work/`.
-**Rules:** One block ID per API call; never writes to `1-SOURCES/`; never writes into an existing translation track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public and shared — keep `--sleep` at 4 s or higher and never parallelise around a 429.
-**Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Use it for a fast external baseline, for a language no track covers, or as raw material for `glossary-extract-raw`.
+**Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API on small batches of adjacent block IDs, threading the document's own preceding translations back in as context; section headings are translated separately (`--headings`).
+**Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `modern chinese`, …); optionally a style instruction, a context header, a flat `source<TAB>target` glossary, and `--extra-fm` frontmatter keys.
+**Outputs:** `3-TRANSFORMATIONS/Translations/Dharmamitra/<tag>/<source stem>-<tag>.md` — block-ID aligned to the Tibetan by transclusion, with `about.md` / `style.md` / `context-header.md` and an append-only ledger under `work/`. Its frontmatter is what the vault linter expects of a `file_type: translation` note, so `translation-upload` consumes it directly.
+**Rules:** Never writes to `1-SOURCES/`; never writes into a non-baseline track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public with a **daily** quota of 400 calls — batch, count calls, never parallelise.
+**Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Fork of the Liturgy-rails skill (imported 2026-09-17; the en and zh tracks of the Twenty-One Praises were imported and re-cut from that vault).
 → [`dharmamitra-translate/SKILL.md`](dharmamitra-translate/SKILL.md)
+
+### `gemini-translate` **[exists]**
+**Purpose:** The sibling of `dharmamitra-translate` for display languages DharmaMitra does not serve (Hindi, Nepali, Mongolian, Vietnamese, …): Google Gemini under a JSON line schema, with line parity enforced per block and headings translated in one call (`--headings`).
+**Inputs:** A block-ID'd Tibetan note under `1-SOURCES/Text/`; a language label; optionally `--reference-track`, a `glossary.tsv` of pinned names, `--model` / `--thinking`.
+**Outputs:** `3-TRANSFORMATIONS/Translations/Gemini/<tag>/<source stem>-<tag>.md` + ledger, the same shape as the DharmaMitra track. `gm_verify.py` checks a track without API calls.
+**Rules:** Source is always the Tibetan (a reference translation is context, recorded as such); never guess a split; parity failures are reported, never padded. Corpus drivers (`gm_corpus`, `gm_titles`, `gm_names`) were not imported — single-text vault. Fork of the Liturgy-rails skill (imported 2026-09-17; the hi, mn, ne, vi tracks of the Twenty-One Praises were imported and re-cut from that vault).
+→ [`gemini-translate/SKILL.md`](gemini-translate/SKILL.md)
+
+### `translation-upload` **[exists]**
+**Purpose:** Lint, parse and upload one `file_type: translation` note to the WeBuddhist library as an edition of its own text, aligned segment-for-segment to the live root edition, with its own table of contents. Reuses an existing `text_id`; dry-run by default; `--execute` only on explicit human confirmation.
+**Inputs:** A block-ID-aligned translation note (machine-baseline track or `1-SOURCES/Translations/`); the root note's `text_id` / `edition_id`; `WEBUDDHIST_API_KEY` in the environment.
+**Outputs:** Linter and parser payloads; on execute, `edition_id` / `aligned_to_edition_id` / `toc_id` patched into the note and receipts in `4-SYSTEM/scripts/upload_ledger.json`. `--verify` reads the live state back.
+**Rules:** Never `--execute` without confirmation; never re-create a text that exists; the live root's segment references are the truth; ids go back into the note.
+→ [`translation-upload/SKILL.md`](translation-upload/SKILL.md)
+
+### `translation-alignment-check` **[exists]**
+**Purpose:** Report-only structural check that every translation note mirrors the Tibetan root exactly — segment references, per-segment line counts, segment types, heading ids and levels, the TOC tree, a same-id transclusion above every block, no numeral or heading text in content — and, with `--payloads`, that the parser's edition / toc / alignment payloads say the same; with `--live`, that the library's root edition still matches the root note.
+**Inputs:** The root note and the translation notes (default: every machine track); optional `--payloads`, `--live`.
+**Outputs:** A report on stdout; exit 0 only when every check holds. Writes nothing.
+**Rules:** Run before any translation upload and after any re-cut, re-translation or heading change; fix failures at the source (ledger + re-render, or the root note), never in a payload.
+→ [`translation-alignment-check/SKILL.md`](translation-alignment-check/SKILL.md)
 
 ---
 
