@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: "སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།"
-=======
 title: "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།"
->>>>>>> origin/main
 alt_titles:
   - en: "Praise of the Twenty-One Taras"
 author: "སངས་རྒྱས་བཅོམ་ལྡན་འདས (རྣམ་པར་སྣང་མཛད)"
