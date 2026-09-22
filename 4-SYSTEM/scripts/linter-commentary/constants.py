@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json
+import os
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -43,8 +44,14 @@ SCHEMA_FIELDS = (
     "contributions", "tag_ids",
 )
 
-PERSONS_API = "http://13.250.189.160/v2/persons"
-LANGUAGES_API = "http://13.250.189.160/v2/languages"
+# FORK(21-taras-rails, 2026-09-17): the OpenPecha host these pointed at answers
+# 404 for /v2/languages, so load_languages() silently fell back to the cached
+# languages.py (frozen 2026-08-05, no `ne`). This vault uploads to the
+# WeBuddhist library, whose language list is public and is the one that
+# matters (it carries `ne`, `mr`, …). Override with VAULT_API_BASE if needed.
+_API_BASE = os.environ.get("VAULT_API_BASE", "https://library.webuddhist.com").rstrip("/")
+PERSONS_API = f"{_API_BASE}/v2/persons"
+LANGUAGES_API = f"{_API_BASE}/v2/languages"
 BDRC_SEARCH = "https://autocomplete.bdrc.io/msearch"
 
 BDRC_LABEL_LANGS = {
