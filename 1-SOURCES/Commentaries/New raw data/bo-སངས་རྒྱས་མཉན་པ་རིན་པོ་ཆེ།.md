@@ -1,7 +1,8 @@
 ---
 title: སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེའི་སྒྲོལ་མ་ཉེར་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ།
-title_in_the_text: རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས། །
-title_in_english: "Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā"
+alt_titles:
+  - bo: "རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།"
+  - en: "Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā"
 author: སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ་
 author_in_english: Sangye Nyenpa Rinpoche
 date: unknown
@@ -14,6 +15,14 @@ registered_id: sangye-nyentrul
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 covers_verses: 1-1–1-21
 source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as sangye-nyentrul (TARAC15_SNT; see 1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md, same title). Colophon here ('ཕྲན་སངས་རྒྱས་མཉན་སྤྲུལ་མིང་དུ་འབོད་པས་བྲིས་པས') matches that attribution, and also names the commentary's own bases: 'ཏཱ་ར་ན་ཐ་དང་། ཀུན་མཁྱེན་འཇིགས་མེད་གླིང་པ། རྒྱལ་སྲས་བསྟན་འཛིན་རབ་རྒྱས་སོགས་ཀྱི་འགྲེལ་པ་གཞིར་བཞག'. This file's own commentary body covers the 21 homages only (^1-1–^1-68 in its own sequential numbering, keyed to root verses 1-1 through 1-21); its closing 'གཞུང་གི་དོན་བསྡུ་བ' summary section is original prose, not a transclusion-anchored commentary on the root text's ^2-*/^a-* benefits section."
+commentary_of: HyUbHGlzS9LsSrgiFQNYE
+category_id: LCorCb2K98p3TICt3UCDm
+source: https://webuddhist.com
+license: public
+category_id: LCorCb2K98p3TICt3UCDm
+text_id: exz1MI85hysNKQK45uPzf
+edition_id: 6swTxNEBfzwRsajvBYqnD
+toc_id: a9NeJzx7oLjbKLhVaEe10
 ---
 
 # ༄༅། །རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས། ། ^0
