@@ -248,6 +248,7 @@ solwa deb so choktün ngödrub tsol
 To you I pray, grant me siddhis, common and supreme!
 
 <small>ཁ་སྐོང་ནི།</small>
+<small>Addition</small>
 
 བེ་རོའི་རྣམ་འཕྲུལ་འགྱུར་མེད་ཚེ་དབང་རྩལ། །
 beró namtrul gyurmé tsewang tsal
@@ -260,6 +261,7 @@ solwa deb so choktün ngödrub tsol
 To you I pray, grant me siddhis, common and supreme!
 
 <small>མངྒ་ལའི་གསུང།</small>
+<small>Composed by Mangala</small>
 
 གཞན་ཡང་ཟབ་རྒྱས་སྨིན་གྲོལ་མཛོད་འཛིན་པའི། །
 zhenyang zabgyé mindrol dzö dzinpé
@@ -2175,7 +2177,6 @@ om supratishta benza yé soha
 <small>ཞེས་མེ་ཏོག་འཐོར་ཞིང་བརྟན་བཞུགས་བྱ།</small>
 <small>Thus, scatter flowers and offer the request to remain.</small>
 
-
 <small>རྟེན་མེད་ན།</small>
 <small>If there is no support,</small>
 
@@ -3712,7 +3713,6 @@ And grant your grace so I bring the twofold benefit to completion!
 <small>ཅེས་ཡོན་ཏན་རྒྱ་མཚོ་བདག་རང་ལོ་སུམ་ཅུ་པར་བྲོ་ནད་ཚབ་པོ་ཆེས་ཉེན་ཅིང་རྒྱལ་ཁམས་སུའང་སྙིགས་མའི་རྒུད་པ་མངོན་དུ་གྱུར་པའི་སྐབས་གསོལ་བ་ཅི་དྲན་དུ་བཏབ་པ་དཀོན་མཆོག་གསུམ་གྱི་བདེན་པས་འགྲུབ་པར་གྱུར་ཅིག། །།</small>
 <small>At the age of thirty I, Yönten Gyatso,formulated this spontaneous prayer while I was severely ill, andthe country, too, was suffering from decline and degeneration.By the truth of the Three Jewels, may it be answered! Translated by Khyentse Vision Project (Heidi Nevin and Jamie Creek)</small>
 
-
 ## ༄༅། །འཕགས་མ་སྒྲོལ་མ་ལ་རྩ་སྔགས་དང་སྦྱར་བའི་སྒོ་ནས་གསོལ་བ་འདེབས་པ་དོན་ཀུན་གྲུབ་པའི་དབྱངས་སྙན་ཞེས་བྱ་བ་བཞུགས་སོ། །
 The Sweet-Sounding Song That Fulfills All Aims
 
@@ -3926,9 +3926,6 @@ Spreading an abundant feast of joy and benefit.
 
 <small>ཞེས་པའང་མང་དུ་གཟིགས་པའི་སྤྱན་ཡངས་འགྱུར་མེད་རྣམ་དག་གི་ཆེད་དུ། འཇམ་དབྱངས་མཁྱེན་བརྩེའི་དབང་པོས་འཕགས་མ་སྙིང་རྗེའི་ཟླ་བ་ལ་ཚིགས་སུ་བཅད་པ་བཀྲ་ཤིས་པའི་གྲངས་ཀྱིས་ཕྱག་བཙལ་ཞིང་གསོལ་བ་བཏབ་པ་སིདྡྷི་རསྟུ།། །།</small>
 <small>For the sake of Gyurme Namdak, one whose expansive vision is rich with insight, Jamyang Khyentse Wangpo composed an auspicious number of verses in homage and supplication to the Noble Lady, Moon of Compassion. </small>
-
-
-
 
 ## ༄༅། །རྗེ་བཙུན་སྒྲོལ་མ་ལ་བསྔགས་པ་འདོད་དོན་འགྲུབ་པའི་ཤིས་བརྗོད་ཅེས་བྱ་བ་བཞུགས་སོ། །
 Words of Auspiciousness to Accomplish One’s Aims
@@ -4261,7 +4258,6 @@ You liberate from every form of destitution.
 སྒྲོལ་མ་ཡུམ་ལ་མཆོད་པ་འབུལ། །
 drölma yum la chöpa bül
 To you, Mother Tārā, I make this offering.
-
 
 ༈ བདག་གིས་ཚེ་རབས་སྔོན་ནས་བསྒྲུབ་པའི་ལྷ། །
 dak gi tserab ngön né drubpé lha

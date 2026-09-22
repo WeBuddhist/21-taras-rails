@@ -1,3 +1,41 @@
+---
+title: ཟབ་ཏིག་སྒྲོལ་ཆོག
+title_in_the_text: ༄༅། །དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས། མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། །
+title_in_english: "Essence of the Two Accumulations: The Ritual for the Elaborate Outer Practice from the Mind Treasure, “Tārā’s Profound Essence”"
+authors:
+  - name: ས་སྐྱ་པཎྜྀ་ཏ
+    name_in_english: Sakya Paṇḍita
+    section: Prayer to the King of the Śākyas (I)
+  - name: པདྨ་མདོ་སྔགས་གླིང་པ
+    name_in_english: Pema Dongak Lingpa
+    section: Supplement (II)
+  - name: ཞེ་ཆེན་ཀོང་སྤྲུལ
+    name_in_english: Shechen Kongtrul
+    section: Auspicious verses (III)
+  - name: ཡོན་ཏན་རྒྱ་མཚོ
+    name_in_english: Yönten Gyatso
+    section: Aspiration prayer (a)
+  - name: འཇམ་དབྱངས་མཁྱེན་བརྩེ་དབང་པོ
+    name_in_english: Jamyang Khyentse Wangpo
+    section: Aspiration prayers (b, c)
+  - name: རིག་པ་འཛིན་པ་མཉྫུ་གྷོ་ཥ
+    name_in_english: Vidyādhara Mañjughoṣa (epithet)
+    section: Aspiration prayer (d)
+  - name: ཆོས་ཀྱི་བློ་གྲོས
+    name_in_english: Chökyi Lodrö
+    section: Prayer for the teachings (e)
+  - name: མཁན་ཆེན་ཀུན་དགའ་དབང་ཕྱུག
+    name_in_english: Khenchen Kunga Wangchuk
+    section: Prayers for conclusion (g)
+  - name: དོལ་པོ་པ
+    name_in_english: Dolpopa
+    section: Closing verse (g)
+file_type: sadhana
+language_tag: Tibetan
+make_available: Dzongsar Institute
+source_description: "Compiled anthology: an opening fifteen-verse prayer to the Buddha by Sakya Paṇḍita, a supplement by Pema Dongak Lingpa, auspicious verses by Shechen Kongtrul, the core mandala-ritual chapters (elaborate and abbreviated) with no internal colophon, and a series of appended aspiration/dedication prayers individually signed by Yönten Gyatso, Jamyang Khyentse Wangpo (x2), the vidyādhara Mañjughoṣa, Chökyi Lodrö (colophon: written at Vajrāsana/Bodhgayā, India), Khenchen Kunga Wangchuk, and Dolpopa."
+---
+
 # ༄༅། །དགོངས་གཏེར་སྒྲོལ་མའི་ཟབ་ཏིག་ལས། མཎྜལ་ཆོ་ག་ཚོགས་གཉིས་སྙིང་པོ་ཞེས་བྱ་བ་བཞུགས་སོ། ། ^0
 
 ## ༄༅། །བཅོམ་ལྡན་འདས་ཤཱཀྱའི་རྒྱལ་པོ་ལ་གསོལ་བ་འདེབས་པའི་ཚིགས་སུ་བཅད་པ་བཅོ་ལྔ་པ། ^I-0
