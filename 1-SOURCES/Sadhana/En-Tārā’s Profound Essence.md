@@ -4356,4 +4356,3 @@ May at least a little of it weigh on my mind.
 
 <small>ཀུན་མཁྱེེན་དོལ་པོོའིི་གསུང་ངོ༌། །</small>
 <small>The words of the omniscient Dolpopa.</small>
-
