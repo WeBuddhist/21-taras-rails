@@ -53,7 +53,7 @@ Transclusions in the commentary (`![[1-SOURCES/Text/<lang>-<title>.md#^1-1]]`) s
 - `source_segment_reference` — segment in the commentary
 - `target_segment_reference` — segment in the root text
 
-A transclusion, or a group of consecutive transclusions, opens a scope. Every commentary block that follows is aligned to those root-text segments until the scope ends, at either:
+A transclusion, or a group of consecutive transclusions, opens a scope. Transclusions written one after another count as one group even when blank lines separate them (keep them on separate lines — the parser joins them). Every commentary block that follows is aligned to those root-text segments until the scope ends, at either:
 
 - the next transclusion group, or
 - any heading — commentary after a heading must carry its own transclusion to be aligned
@@ -82,6 +82,7 @@ python3 4-SYSTEM\scripts\parser-commentary\parser.py "1-SOURCES\Commentaries\<la
 - Blocks without a block ID are skipped with a warning; so are content blocks whose ID has more than 3 parts
 - Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not. The source file is never changed.
 - Non-breaking spaces (U+00A0) become ordinary spaces in `content`.
+- Headings deeper than level 6 (7+ `#`) are often written in bold, since Obsidian renders only six levels. For those, the `**` markers are dropped from the TOC title.
 - Blocks that contain only transclusions are left out of the edition content; they feed alignment only
 - TOC spans are offsets into the edition `content` (which has no heading text), built the same way as in `parser-root-text`
 - Tibetan TOC titles in Wylie are converted to Unicode

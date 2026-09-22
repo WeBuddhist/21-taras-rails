@@ -58,6 +58,7 @@ A block of prose that was hard-wrapped onto several lines without a blank line b
 - Built from the headings; the heading level (`#` count) sets the nesting
 - Spans are character offsets into the edition `content`, which has no heading text. A section starts where the text after its heading starts, and ends where the next heading at the same or a higher level starts (or at the end of the content)
 - A heading with no text before the next heading gets an empty span (`start` = `end`)
+- Headings deeper than level 6 (7+ `#`) are often written in bold, since Obsidian renders only six levels. For those, the `**` markers are dropped from the title.
 - Titles are keyed by `lang_tag` (default `en`); Tibetan titles in Wylie are converted to Unicode
 
 ## Alignment

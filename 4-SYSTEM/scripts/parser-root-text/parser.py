@@ -147,6 +147,18 @@ def _heading_level(line):
     return len(stripped) - len(stripped.lstrip('#'))
 
 
+BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+
+
+def _clean_heading_title(text, level):
+    """Obsidian renders only six heading levels, so a deeper heading (7+ '#')
+    is often written in bold to look like one. That bold is display-only:
+    drop the ** markers from the TOC title."""
+    if level > 6:
+        text = BOLD_RE.sub(r"\1", text).strip()
+    return text
+
+
 def _root_heading_refs(fm, source_path):
     """Block IDs of the headings in the file linked by root_text.
 
@@ -297,9 +309,11 @@ def _build_content_and_segmentation(blocks, doc_default):
             ref_idx = text.rfind(ref)
             if ref_idx != -1:
                 text = text[:ref_idx].rstrip()
+            level = _heading_level(raw_lines[0])
+            text = _clean_heading_title(text, level)
             if text:
                 headings.append({
-                    "level": _heading_level(raw_lines[0]),
+                    "level": level,
                     "title": text,
                     "reference": ref_no_caret,
                     "offset": pos,
