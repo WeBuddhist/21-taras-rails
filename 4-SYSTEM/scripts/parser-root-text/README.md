@@ -15,10 +15,11 @@ Run `linter-root-text` first.
 
 ```
 output/
-  <stem>.text.json        # text_input payload
-  <stem>.edition.json     # edition metadata, content and segments
-  <stem>.toc.json         # nested TOC with character spans
-  <stem>.alignment.json   # translation/commentary → root-text alignments
+  <stem>/                  # one folder per source file, named after it
+    <stem>.text.json        # text_input payload
+    <stem>.edition.json     # edition metadata, content and segments
+    <stem>.toc.json         # nested TOC with character spans
+    <stem>.alignment.json   # translation/commentary → root-text alignments
 ```
 
 ## Edition
@@ -28,28 +29,36 @@ output/
 - Blocks are separated by blank lines. Each content block becomes one segment, with one span per line, and its block ID (without `^`) as `reference`
 - The block ID is removed from the text; lines are joined with no separator
 - Blocks without a block ID are skipped with a warning (headings too); so are content blocks whose ID has more than 3 parts
+- Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not. The source file is never changed.
+- Non-breaking spaces (U+00A0) become ordinary spaces in `content`.
 - Transclusion lines (`![[...#^ref]]`) are left out of the content
 
 ### Segment types
 
-The type of each segment comes from its block ID. The rows are checked from top to bottom; the first match wins.
+The shape of the block is checked first, then its ID:
 
-| Block / ID | Type | Example |
-|------------|------|---------|
+| Test | Type | Example |
+|------|------|---------|
+| **Two or more lines with no empty line between them** | `verse` | a quoted verse, one line per unit |
 | ID starts with `T` or `t` | `top_segment` | `^T-1` |
 | Any part is an uppercase Roman numeral | `front_matter` | `^I-1`, `^2-I-3` |
-| ID contains `<number>x<number>` | the file's default | `^1-2x3` |
-| Last part is `U<number>` (unnumbered) | the file's default | `^1-U4` |
 | Any part is lowercase letters only | `back_matter` | `^a-1` |
-| Anything else | the file's default | `^1-1` |
+| Anything else | the document default | `^1-1`, `^1-2x3`, `^1-U4` |
 
-The default is `verse`. It is `paragraph` when the file has `commentary_of`, or is a translation whose `root_text` is a commentary.
+**Verse wins over the ID.** A verse in the front matter or the colophon is `verse`, not `front_matter` or `back_matter`: those mark where a block sits, and the block's shape says what it is. The ID types only blocks that are not verse.
+
+The document default is `verse`. It is `paragraph` when the file has `commentary_of`, or is a translation whose `root_text` is a commentary.
+
+An empty line inside a block — including a line holding only an invisible character such as a zero-width space — stops it being verse, and the parser warns about it. Such a block is usually two paragraphs that each need their own block ID, and Obsidian shows no gap there, so the warning is the only sign.
+
+A block of prose that was hard-wrapped onto several lines without a blank line between them reads as verse to this rule. Keep a paragraph on one line.
 
 ## Table of contents
 
 - Built from the headings; the heading level (`#` count) sets the nesting
 - Spans are character offsets into the edition `content`, which has no heading text. A section starts where the text after its heading starts, and ends where the next heading at the same or a higher level starts (or at the end of the content)
 - A heading with no text before the next heading gets an empty span (`start` = `end`)
+- Headings deeper than level 6 (7+ `#`) are often written in bold, since Obsidian renders only six levels. For those, the `**` markers are dropped from the title.
 - Titles are keyed by `lang_tag` (default `en`); Tibetan titles in Wylie are converted to Unicode
 
 ## Alignment
@@ -82,4 +91,3 @@ python3 4-SYSTEM\scripts\parser-root-text\parser.py "1-SOURCES\Text\<lang>-<titl
 ## Notes
 
 - If the lint JSON has no alt titles or contributors, the parser warns and carries on
-- When given a `.lint.errors.json`, the text payload is named `<stem>.lint.errors.text.json`

@@ -1,7 +1,8 @@
 ---
 title: པདྨ་རྣམ་རྒྱལ་གྱི་སྒྲོལ་མའི་བསྟོད་འགྲེལ།
-title_in_the_text: ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ། །
-title_in_english: "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
+alt_titles:
+  - bo: "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།"
+  - en: "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
 author: ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བ་
 author_in_english: Ldombuwa Pema Namgyal
 date: unknown
@@ -14,6 +15,13 @@ registered_id: pema-namgyal
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 covers_verses: I-1–2-6
 source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as pema-namgyal (TARAC10_DPN; see 1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md). Title, opening verses ('ཨོཾ་སྭ་སྟི། ཆོས་སྐུ་ཤེས་རབ་ཕ་རོལ་ཕྱིན་མ་ཡུམ...'), and colophon ('ལྡོམ་བུ་བ་པདྨ་རྣམ་པར་རྒྱལ་བས་གུས་པར་བྲིས་ཏེ...') are identical to that file, which remains status: 0-raw with flat sequential block IDs. NOTE: this file's transclusions cite root-text block IDs #^2-1 through #^2-6 for the closing benefits, which predate the vault's 2026-08-07 root-text resegmentation (current scheme: homages ^1-1–^1-21, benefits ^a-0–^a-7) — these links should be re-checked/re-pointed before this file is promoted out of New raw data."
+commentary_of: HyUbHGlzS9LsSrgiFQNYE
+category_id: LCorCb2K98p3TICt3UCDm
+source: https://webuddhist.com
+license: public
+text_id: t2pCadlPdCq0RLMMBTMWK
+edition_id: tjCX4bU9vrotnebrWauZc
+toc_id: XUBYESdQrDkcbtJZNCi3t
 ---
 # ༄༅། །ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ། ། ^0
 
@@ -88,6 +96,7 @@ source_description: "Resegmented version (chapter-verse addressing keyed to root
 སོ་སོ་སྐྱེ་བོ་ལ་སོགས་པས། །
 དུས་གསུམ་དགེ་བ་ཅི་བསགས་པའི། །
 བསོད་ནམས་ལ་ནི་བདག་ཡི་རང་། ། ^II-13
+
 #### ལྔ་པ་ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་དུ་གསོལ་བའི་ཡན་ལག ^II-2-5-0
 
 ལྔ་པ་ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་དུ་གསོལ་བའི་ཡན་ལག་ནི། ^II-14

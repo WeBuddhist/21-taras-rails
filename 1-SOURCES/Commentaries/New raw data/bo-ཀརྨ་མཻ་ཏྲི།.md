@@ -1,7 +1,8 @@
 ---
-tittle: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས།
-title_in_the_text: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ།
-title_in_english: Notes on Karma Maitri's Praise to Tārā
+title: ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས།
+alt_titles:
+  - bo: "ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ།"
+  - en: "Notes on Karma Maitri's Praise to Tārā"
 author: ཀརྨ་མཻ་ཏྲི་
 author_in_english: Karma Maitri
 date: unknown
@@ -15,6 +16,13 @@ root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་
 covers_verses: 1-1–2-6
 source_description: "Resegmented version (chapter-verse addressing keyed to root-verse numbers, with root-text transclusions added) of the commentary already registered as karma-maitri (TARAC11_KMT; see 1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md, BDRC WA0XL10E024BE73B5). Opening line ('ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་ར་ཡཻ') and first paragraph are word-for-word identical to that file, confirming same underlying work; colophon here ('ཀརྨ་མཻ་ཏྲིའི་མིང་གིས་མཁས་གྲུབ་ཀྱིས་གསུངས་པ་དག་ལས་ཟིན་ཐོར་བྲིས་པ') matches that file's own catalogued colophon note. NOTE: this file's transclusions cite root-text block IDs #^1-22 and #^2-1 through #^2-6 for the closing material, which predate the vault's 2026-08-07 root-text resegmentation (current scheme: homages ^1-1–^1-21, benefits ^a-0–^a-7) — these links should be re-checked/re-pointed before this file is promoted out of New raw data."
 bdrc_work_id: WA0XL10E024BE73B5
+source: https://webuddhist.com
+license: public
+category_id: LCorCb2K98p3TICt3UCDm
+text_id: IZpPQackQMjMsG6i9laM3
+edition_id: EfyTxb0DHFh0OJLtjHTf7
+toc_id: ZqAcpuBWl657mSu5rUGvD
+commentary_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 # ༄༅། །ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ། ། ^0
 
