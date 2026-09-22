@@ -1148,8 +1148,8 @@ Is, in itself, the root mantra.
 <small>ཚར་གཉིས་བརྗོད། </small>
 <small>Recite twice.</small>
 
-སླར་ཡང།
-Then again.
+<small>སླར་ཡང།</small>
+<small>Then again.</small>
 
 ཨོཾ༔ དངོས་འབྱོར་ཡིད་ལས་བྱུང་བ་ཡི༔
 om, ngöjor yi lé jungwa yi༔
