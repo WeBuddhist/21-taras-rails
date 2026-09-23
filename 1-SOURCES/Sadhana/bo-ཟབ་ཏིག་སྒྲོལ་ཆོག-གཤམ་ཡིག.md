@@ -315,7 +315,7 @@ Grant the supreme and common accomplishments!
 The Essence of the Two Accumulations: The Ritual for the Elaborate Outer Practice
 From the mind Treasure cycle The Profound Essence of Tara
 
-ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་རེ་ཡེ།
+ན་མོ་གུ་རུ་ཨཱརྻ་ཏཱ་རཱ་ཡེ།
 Namo Gurvya aryatarayai!
 
 <small>དུས་གསུམ་འདྲེན་པ་སྲས་བཅས་ལས། །</small>
@@ -495,8 +495,8 @@ Since you are fully omniscient,
 chomden khor ché né dir shek su sol
 Blessed One and your retinue, please approach this place!
 
-པདྨ་ཀ་མ་ལཱ་ཡ་སྟྭཾ།
-pema kamala ya stam
+པདྨ་ཀ་མ་ལཱ་ཡེ་སྟྭཾ།
+pema kamala ye stam
 
 <small>ཡན་ལག་བདུན་པ་ནི།</small>
 <small>Next recite the Seven Branch Prayer:</small>
@@ -809,8 +809,8 @@ For as long as I may honor you,༔
 desi chomden zhuk su sol༔
 Blessed One, please remain seated!༔
 
-པདྨ་ཀ་མ་ལཱ་ཡ་སྟྭཾ༔
-pema kamala ya stam༔
+པདྨ་ཀ་མ་ལཱ་ཡེ་སྟྭཾ༔
+pema kamala ye stam༔
 
 ཨོཾ༔ དངོས་འབྱོར་ཡིད་ལས་བྱུང་བ་ཡི༔
 om, ngöjor yi lé jungwa yi༔
@@ -844,7 +844,7 @@ I offer to the lords of compassion.༔
 zhé né jingyi lap tu sol
 Accept them all and bestow your blessings, I pray!༔
 
-ཨོཾ་སརྦ་ཏ་ཐཱ་ག་ཏ་རཏྣ་མཎྜ་ལ་པཱུ་ཛཿཧོ༔
+ཨོཾ་སརྦ་ཏ་ཐཱ་ག་ཏ་རཏྣ་མཎྜ་ལ་པཱུ་ཛ་ཧོ༔
 om sarva tathagata ratna mandala pudza ho
 
 <small>ཞེས་མཎྜལ་བྱེ་བྲག་ཏུ་ཕུལ་ནས། བསྟོད་པའི་རྒྱལ་པོའི་རྒྱུད་འདོན།</small>
@@ -1010,7 +1010,7 @@ With your quivering frown and the syllable Hung
 pongpa tamché nampar drolma
 You deliver us all from every misfortune.
 
-ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །
+ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་རྒྱན། །
 chaktsel dawé dumbü wugyen
 Homage to you, so brightly adorned,
 བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །
@@ -1367,7 +1367,7 @@ With your quivering frown and the syllable Hung
 pongpa tamché nampar drolma
 You deliver us all from every misfortune.
 
-ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །
+ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་རྒྱན། །
 chaktsel dawé dumbü wugyen
 Homage to you, so brightly adorned,
 བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །
@@ -1724,7 +1724,7 @@ With your quivering frown and the syllable Hung
 pongpa tamché nampar drolma
 You deliver us all from every misfortune.
 
-ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །
+ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་རྒྱན། །
 chaktsel dawé dumbü wugyen
 Homage to you, so brightly adorned,
 བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །
@@ -2123,7 +2123,7 @@ Let us be indivisible from you!
 མདུན་བསྐྱེད་འོད་ཞུ་རང་ལ་ཐིམ༔
 dünkyé ö zhu rang la tim
 The front visualization melts into light and dissolves into me.
-དབྱེར་མེད་ཉིད་དུ་བྱིན་རླབས་པས༔
+དབྱེར་མེད་ཉིད་དུ་བྱིན་བརླབས་པས༔
 yermé nyi du jinlapé
 Blessed to be indivisible from her,
 རང་ཉིད་འཕགས་མ་སྒྲོལ་མའི་སྐུ༔
@@ -2555,8 +2555,8 @@ For as long as I may honor you,༔
 desi chomden zhuk su sol༔
 Blessed One, please remain seated!༔
 
-པདྨ་ཀ་མ་ལཱ་ཡ་སྟྭཾ༔
-pema kamala ya stam༔
+པདྨ་ཀ་མ་ལཱ་ཡེ་སྟྭཾ༔
+pema kamala ye stam༔
 
 ཨོཾ༔ དངོས་འབྱོར་ཡིད་ལས་བྱུང་བ་ཡི༔
 om, ngöjor yi lé jungwa yi༔
@@ -2590,7 +2590,7 @@ I offer to the lords of compassion.༔
 zhé né jingyi lap tu sol
 Accept them all and bestow your blessings, I pray!༔
 
-ཨོཾ་སརྦ་ཏ་ཐཱ་ག་ཏ་རཏྣ་མཎྜ་ལ་པཱུ་ཛཿཧོ༔
+ཨོཾ་སརྦ་ཏ་ཐཱ་ག་ཏ་རཏྣ་མཎྜ་ལ་པཱུ་ཛ་ཧོ༔
 om sarva tathagata ratna mandala pudza ho
 
 <small>ཞེས་མཎྜལ་བྱེ་བྲག་ཏུ་ཕུལ་ནས། བསྟོད་པའི་རྒྱལ་པོའི་རྒྱུད་འདོན།</small>
@@ -2756,7 +2756,7 @@ With your quivering frown and the syllable Hung
 pongpa tamché nampar drolma
 You deliver us all from every misfortune.
 
-ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །
+ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་རྒྱན། །
 chaktsel dawé dumbü wugyen
 Homage to you, so brightly adorned,
 བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །
@@ -3058,7 +3058,7 @@ Let us be indivisible from you!
 མདུན་བསྐྱེད་འོད་ཞུ་རང་ལ་ཐིམ༔
 dünkyé ö zhu rang la tim
 The front visualization melts into light and dissolves into me.
-དབྱེར་མེད་ཉིད་དུ་བྱིན་རླབས་པས༔
+དབྱེར་མེད་ཉིད་དུ་བྱིན་བརླབས་པས༔
 yermé nyi du jinlapé
 Blessed to be indivisible from her,
 རང་ཉིད་འཕགས་མ་སྒྲོལ་མའི་སྐུ༔
