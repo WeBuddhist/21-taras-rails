@@ -1,0 +1,38 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md",
+  "validated_at": "2026-09-22T04:55:22.058566+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "translation_of: not set (optional)",
+    "commentary_of: 'HyUbHGlzS9LsSrgiFQNYE'",
+    "root_text: '1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://webuddhist.com'",
+    "toc: 34 headers found"
+  ],
+  "warnings": [
+    "author 'Tāranātha': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": "16th-17th century CE (1575-1634)",
+    "title": {
+      "bo": "ཏཱ་ར་ན་ཐའི་སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པའི་རྣམ་བཤད།"
+    },
+    "alt_titles": [
+      {
+        "bo": "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།"
+      }
+    ],
+    "language": "bo",
+    "commentary_of": "HyUbHGlzS9LsSrgiFQNYE",
+    "translation_of": null,
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}
