@@ -54,6 +54,10 @@ Authority comes from the human commentary tradition, never from the LLM's parame
   Claims/       # top level: consolidated topic pages (question-driven)
                 # (raw/ holds per-commentary claims inventories, by extraction method;
                 #  raw/spine-map/ holds each commentary's routing index onto the spine)
+  Keywords/     # the source-term registry: which terms the corpus is about,
+                # measured across it — descriptive inventory, not a cited rail
+  termbases/    # term-localization.md: commentary-sourced definitions +
+                # target-language renderings (the vocabulary-standardisation table)
   Bilingual-Glossaries/ # bilingual descriptive glossaries per language pair
 3-TRANSFORMATIONS/      # AI-generated outputs, organised in three categories
   Translations/ # language-by-language translation tracks
@@ -265,13 +269,37 @@ Authoring skills: `commentary-claims`, `toc-scaffolded-claims`, `tree-guided-cla
 
 **Order of operations:** extract every commentary (`tree-guided-claims`) → map every commentary (`spine-map`, once each) → consolidate per topic (`claims-consolidation`, assembling each packet by script). Consolidating before the maps exist will fail loudly: `assemble_packet.py` errors on any commentary that has claims but no spine map.
 
+### `Keywords/` — the source-term registry
+
+`2-RAILS/Keywords/` holds the corpus's **vocabulary inventory**: one canonical Tibetan lemma per concept with its attested variants and English renderings (`source-term-registry.json`), quote-excluded counts across the root text and every commentary (`frequency-matrix.json`), and the mechanically-gated ranked queue of terms with enough commentarial attention to carry an article (`article-queue.json`, `article-subjects.json`).
+
+It exists so the keyword pipeline is **run once and read many times**, exactly as `Claims/` and `Sections/Raw/toc-tree/` do. Nothing downstream re-derives keywords; it reads these files.
+
+**These files are not citation-chain rails.** They are counts, ranks and gate verdicts, and they carry no per-item `1-SOURCES/` citation, so no `3-TRANSFORMATIONS/` output may cite one as its ground for a claim. What they legitimately govern is *vocabulary* — which term is which. The boundary rule stands: keywords select and order publication; they never define the consolidation topic space.
+
+One trap, documented in full in `2-RAILS/Keywords/About Keywords.md`: registry lemmas carry a trailing shad (`སྒྲོལ་མ།`) while running Tibetan carries a tsheg (`སྒྲོལ་མ་`). Match on the `match_form` field, never the bare lemma — on this vault's root text the bare lemma matches 74 of 370 terms and `match_form` matches 348.
+
+Authoring skill: `keyword-extract`. Front door: [`../2-RAILS/Keywords/About Keywords.md`](../2-RAILS/Keywords/About%20Keywords.md).
+
+### `termbases/` — the vocabulary-standardisation table
+
+`2-RAILS/termbases/term-localization.md` carries one row per key term: the Tibetan lemma, a **Meaning** column of verbatim commentary definitions each cited to its block ID, and one column per target language. It is the hinge between the descriptive rails and a prescriptive translation track — the place where "what the commentaries say this word means" becomes "what we will call it".
+
+The Meaning column is filled by `term-definition` (verbatim, never paraphrased); the language columns by `term-localization`, which derives each rendering **from the Meaning column rather than a dictionary** and skips any row whose Meaning cell is empty rather than guessing. `graded-translate` Phase 1 exports a track's chosen rows into that track's own `termbase.md`, which is the contract a translation run locks to.
+
+`termbases/` also holds `graded-translate`'s per-grade JSON build cache. When the cache and a track's `termbase.md` disagree, **the markdown wins** — regenerate the cache, never the reverse.
+
+Authoring skills: `term-definition`, `term-localization`, `graded-translate` (Phase 1).
+
 ### `Bilingual-Glossaries/` — bilingual descriptive glossaries
 
 One consolidated file per language pair: `[src]-[tgt].md`. Each entry maps a source lemma to every attested target-language rendering, frequency-ranked across all existing translations.
 
 Raw inputs sit under `Bilingual-Glossaries/Raw/`: one interlinear gloss file per translation, and one per-translation raw bilingual glossary extracted from it. The consolidated file merges them.
 
-Authoring skills: `interlinear-gloss`, `glossary-extract-raw`, `glossary-combine`.
+The same file can instead be built directly from a `keyword-extract` run's per-block en↔bo mappings by `glossary-select` Step 0 — faster, and it reuses alignment work already done, but it sees only the blocks the keyword run covered. Either way the file is **machine-generated: never hand-edit it**, because the next run overwrites it. A chosen rendering belongs in the track's `termbase.md`, not here.
+
+Authoring skills: `interlinear-gloss`, `glossary-extract-raw`, `glossary-combine`, or `glossary-select` (Step 0).
 
 ---
 
@@ -399,8 +427,14 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Tag inline sa-bcad announcements and insert headings | `tag-inline-toc` |
 | Check annotation conventions (report-only) | `lint-annotations` |
 | Transclude root verses into a commentary | `Transclusion-rootext-into-commentaries` |
-| Build a bilingual en↔bo key-term list from a translation | `english-keyword-extraction` |
-| Fill a term table with verbatim commentary definitions | `term-definition-from-commentaries` |
+| Extract, standardise and rank the corpus's key terms (writes `2-RAILS/Keywords/`) | `keyword-extract` |
+| Fill a term table with verbatim commentary definitions | `term-definition` |
+| Turn those definitions into target-language renderings | `term-localization` |
+| **Standardise the vocabulary**: gather every rendering a translation used per term, then choose one per track from purpose, audience, register and the TOC | `glossary-select` |
+| Build an audience-graded, term-locked translation (termbase → translate → drift check) | `graded-translate` |
+| Vocabulary-standardised translation via DharmaMitra, with lock verification | `dharmamitra-termlocked` |
+| Fact-check a translation against one commentary, then apply the mechanical fixes | `commentary-fact-check` |
+| Fact-check a translation against the whole corpus + consolidated claims (vault-local) | `claims-fact-check` |
 | Quick translation, no termbase | `zeroshot-translator` |
 | Machine-baseline translation via DharmaMitra (en, zh, …), block-ID aligned, headings included | `dharmamitra-translate` |
 | Machine-baseline translation via Gemini (hi, ne, mn, vi, …), line parity enforced | `gemini-translate` |

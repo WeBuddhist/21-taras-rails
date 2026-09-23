@@ -477,6 +477,10 @@ def main():
     p.add_argument("--style", default=None, help="style instruction, verbatim")
     p.add_argument("--style-file", default=None)
     p.add_argument("--context-header", default=None)
+    p.add_argument("--glossary-max-hits", type=int, default=15,
+                   help="FORK(21-taras-rails): max glossary entries per call. Was a "
+                        "hard-coded 15 in dm.build_context; a term-locked run sends a whole "
+                        "termbase and must raise it or lose locks silently.")
     p.add_argument("--glossary", default=None,
                    help="optional 'source<TAB>target' lines; matching entries join the context")
     p.add_argument("--reference-track", default=None,
@@ -752,7 +756,8 @@ def main():
         prior.sort(key=lambda r: order[r["block_id"]])
         combined = {"text": "\n".join(u["text"] for u in batch)}
         return dm.build_context(header, prior, combined, glossary,
-                                args.context_blocks, args.context_cap)
+                                args.context_blocks, args.context_cap,
+                                args.glossary_max_hits)
 
     def solo(unit, first=None):
         """Translate one block alone until its line count matches. Returns

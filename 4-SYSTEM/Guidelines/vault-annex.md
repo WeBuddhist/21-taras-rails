@@ -24,7 +24,26 @@ Sixteen of the seventeen registered commentaries on this praise are ingested (§
 
 **`verse_id_format`:** `chapter-verse`
 
-**Format example:** `^1-1` (chapter 1, verse 1) … `^1-21` (chapter 1, verse 21); `^I-1` for the pre-stanza title/invocation block; `^a-1` … `^a-7` for the closing benefits section.
+**Format example:** `^1-1` (chapter 1, verse 1) … `^1-21` (chapter 1, verse 21); `^I-1` for the pre-stanza title/invocation block; `^1-22`, `^2-1`–`^2-6` and `^a-1` for the closing benefits section.
+
+### ⚑⚑ Correction 2026-09-22 — the benefits section is NOT `^a-1`–`^a-7`
+
+The two paragraphs below describe a re-addressing of the benefits section to `^a-0`–`^a-7` that **the root text does not actually carry**. Read off the file itself, every block ID in `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md` is:
+
+```
+^0 ^I-0 ^I-1 ^I-2 ^I-3
+^1-0 ^1-1 … ^1-21 ^1-22
+^2-0 ^2-1 … ^2-6
+^a-0 ^a-1
+```
+
+So the closing material sits at **`^1-22` (the mantra-praise line) + `^2-1`–`^2-6` (the seven ཕན་ཡོན stanzas' run) + `^a-1` (the colophon)** — 32 content blocks in total, which is also what the WeBuddhist library edition carries and what the ten verse-aligned commentaries in `1-SOURCES/Commentaries/New raw data/` anchor to. Those commentaries' frontmatter carries a note warning that their anchors "predate the resegmentation"; **that note is mistaken and should be removed** — their anchors match the root exactly.
+
+Consequences, so nobody re-derives this:
+
+- The `benefits` spine slot (§2a) is unchanged as a **slot ID**; only its root-anchor column was wrong. It covers `^1-22`, `^2-1`–`^2-6` and `^a-1`.
+- `claims-fact-check` maps `^1-22`, `^2-*` and `^a-*` to `benefits` (`assemble_block_packet.py`), verified against `^2-3`: seven commentaries with prose, claims page attached.
+- A human contributor should decide whether to *perform* the `^a-*` re-addressing these paragraphs describe, or to retire the plan. Until then the file wins over the annex.
 
 There is functionally one "chapter" (the praise has no internal chapter divisions), so every verse ID's leading segment is `1`, and the addressing scheme's real content is the verse number: **`^1-1` through `^1-21`, one block per four-line homage stanza** — never a homage split across two or three blocks.
 
@@ -145,23 +164,138 @@ Once assigned, a `registered_id` never changes. New commentaries must be added t
 
 ## 4. Language tracks
 
-| Tag | Language | Translation track | Plan stream |
-| --- | -------- | ------------------ | ----------- |
+| Tag | Language | Translation track | Status |
+| --- | -------- | ------------------ | ------ |
 | `bo` | Tibetan | — (source; every `1-SOURCES/` file in this vault) | — |
+| `en` | English | `3-TRANSFORMATIONS/Translations/Dharmamitra/en/` | `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft` |
+| `en` | English | `3-TRANSFORMATIONS/Translations/Dharmamitra-termlocked/en/` | planned — the vocabulary-standardised track (`dharmamitra-termlocked`); not yet generated as of 2026-09-22 |
 
-No target-language translation track exists yet under `3-TRANSFORMATIONS/Translations/` (the folder holds only its `About` file). The `kwiki` pipeline's `article.en.md` files (`3-TRANSFORMATIONS/Wikipedia/tara21/articles/<term>/article.en.md`) are **English check-translations for human review**, not a registered `en` track — they exist to let a reviewer who reads English confirm a Tibetan draft's content, and are not translation-track output governed by `3-TRANSFORMATIONS/About Transformations.md`'s per-track contracts (`requirements.md`/`termbase.md`/`audience.md`). A genuine `en` (or any other) translation track, if started, follows the standard process: create `3-TRANSFORMATIONS/Translations/en-<descriptor>/`, write its three contract files, and populate this table.
+**The zero-shot English baseline is not a governed translation track.** It carries no
+`requirements.md` / `termbase.md` / `audience.md`, cites no rails, and may not be cited by any
+other `3-TRANSFORMATIONS/` output. It exists as the **control**: the record of what the machine
+says with nothing whispered to it, against which a term-locked run is measured. Nothing may be
+written into it that was produced with a termbase.
+
+**Five tracks were deleted on 2026-09-21** (DharmaMitra `zh`; Gemini `hi`, `mn`, `ne`, `vi`) on
+the human contributor's instruction, from both the vault and the WeBuddhist library, because a
+zero-shot track has neither vocabulary standardisation nor a per-segment fact check. They are to
+be rebuilt through the chain in §4a. `4-SYSTEM/scripts/upload_ledger.json` keeps their entries
+marked `deleted: 2026-09-21`; a re-upload creates a new library text id.
+
+The `kwiki` pipeline's `article.en.md` files
+(`3-TRANSFORMATIONS/Wikipedia/tara21/articles/<term>/article.en.md`) are **English
+check-translations for human review**, not a registered `en` track — they let a reviewer who
+reads English confirm a Tibetan draft's content, and are not governed by
+`About Transformations.md`'s per-track contracts.
 
 ---
 
-## 5. Bilingual glossary pairs
+## 4a. The vocabulary-standardised translation chain
 
-None yet. `2-RAILS/Bilingual-Glossaries/` and its `Raw/` subfolder are empty (`.gitkeep` only). The first pair created here follows `interlinear-gloss` → `glossary-extract-raw` → `glossary-combine`, per `4-SYSTEM/CLAUDE.md` §7.
+Decided with the human contributor 2026-09-22. This is the path a translation must travel
+before it is uploaded anywhere; each step names the skill that performs it.
+
+```
+1  keyword-extract          → 2-RAILS/Keywords/source-term-registry.json
+                               which terms the corpus is about (descriptive)
+2  term-definition          → 2-RAILS/termbases/term-localization.md, Meaning column
+                               verbatim commentary definitions, each cited to a block ID
+3  term-localization        → same table, target-language columns
+                               rendering derived from the definition, not a dictionary
+4  graded-translate P1      → 3-TRANSFORMATIONS/Translations/<track>/termbase.md
+                               THE CONTRACT: one locked rendering per term, per track
+5  dharmamitra-termlocked   → the translation, with the lock glossary sent on every call
+   (or graded-translate P2, which translates with the agent's own model)
+6  check_locks / P3         → every lock that should have applied, verified EXACT/LOOSE/MISSING
+7  commentary-fact-check    → meaning checked against one commentary at a time
+   + claims-fact-check      → and against the whole corpus + consolidated claims
+8  re-translate the failures → back to step 5 for those blocks, or fix the termbase (step 3/4)
+                               when the fault is the rendering rather than the block
+9  translation-upload       → dry-run first; never `--execute` without explicit confirmation
+```
+
+Steps 1–3 are **descriptive and live in `2-RAILS/`** — they record what the tradition says a
+term means. Step 4 is the **first prescriptive step** and lives in `3-TRANSFORMATIONS/`: it is a
+choice, and choices do not belong in the rails.
+
+### Steps 2–4, the attested route (added 2026-09-23)
+
+Steps 2–3 above are the **definition-driven** route: read what the commentaries say the term
+means, then derive a rendering from that. It is the more authoritative route and the slower one —
+step 2 must run before step 3 can produce anything, and a term whose Meaning cell is empty is
+skipped rather than guessed.
+
+`glossary-select` is the **attested route** to the same contract, and it can run today:
+
+```
+2b glossary-select Step 0  → 2-RAILS/Bilingual-Glossaries/bo-en.md
+                              every rendering the zero-shot actually used per lemma,
+                              with counts, block IDs, and a lexical/inflectional split
+4b glossary-select Step 1  → 3-TRANSFORMATIONS/Translations/<track>/termbase.md
+                              one rendering chosen per lemma, decided by the track's
+                              purpose, audience, register and the text's TOC
+```
+
+The two routes are not rivals; they meet at step 4. The attested route starts from what a
+translation already did and asks *which of these words is right for this audience*; the
+definition route starts from the commentary and asks *what does this term mean*. When
+`glossary-select` cannot decide a lemma from the attested options, its fallback **is** the
+Meaning column — so an unfinished step 2 becomes a per-term backlog rather than a blocker, and
+every run reports which terms it needed a definition for.
+
+Use the attested route when a block-aligned pivot translation exists and the question is which
+English word to standardise on. Use the definition route when the term is contested in the
+commentaries, or when no pivot translation renders it at all.
+
+Both routes are still descriptive up to the moment of choice. **Step 4 / 4b is where choice
+enters**, and it lives in `3-TRANSFORMATIONS/` either way.
+
+**Why step 6 exists:** the lock is a prompt-side instruction. Measured against the DharmaMitra
+endpoint on 2026-09-22, a batched call honoured 3 of 11 locks unglossed and 10 of 11 glossed,
+the residual being an inflection rather than a substitution. Strong, not total — so the
+guarantee comes from the check, not the asking. Evidence:
+`4-SYSTEM/Skills/dharmamitra-termlocked/references/glossary-probe-2026-09-22.md`.
+
+**Why steps 7 both exist:** `commentary-fact-check` grades against one commentary per run, which
+is right for asking *does this match this authority* and wrong for a corpus of seventeen
+independent commentaries with no ranking among them — it flags a faithful rendering of one
+school whenever the run is against another. `claims-fact-check` grades against the consolidated
+claims page, which has already separated Consensus from ⚑ Divergences, so a rendering that
+follows one attested side of a divergence is graded **⚑ tradition-specific** rather than wrong.
+
+---
+
+## 5. Keyword and termbase layers
+
+**`2-RAILS/Keywords/`** holds the 2026-08 Tārā-21 keyword run, promoted out of
+`0-INBOX/AI_translation/keyword-extraction/output/` on 2026-09-22: 367 terms in the registry,
+370 rows of the frequency matrix across 16 commentaries, 114 terms passing the viability gate
+with 253 recorded gate failures, and 101 article subjects. This **supersedes the open question
+in `keyword-extraction-methodology.md` §5 about where the registry lives** — the answer is
+`2-RAILS/Keywords/`, per `$KEYWORDS` in `4-SYSTEM/Skills/_shared/PROFILES.md`.
+
+Three gaps are carried forward honestly rather than backfilled, and are listed in
+`2-RAILS/Keywords/About Keywords.md`: no synonyms/epithets, no `dropped` audit trail, and
+similarity-based rather than tag-based quote exclusion.
+
+**`2-RAILS/termbases/term-localization.md`** was seeded 2026-09-22 with the 345 registry terms
+that occur in the root text, ordered by composite rank, Meaning and `En` empty. Unfilled rows
+are inert in every consumer, so its length is not a commitment to filling all of it.
+
+---
+
+## 5a. Bilingual glossary pairs
+
+None yet. `2-RAILS/Bilingual-Glossaries/` and its `Raw/` subfolder are empty (`.gitkeep` only).
+The first pair created here follows `interlinear-gloss` → `glossary-extract-raw` →
+`glossary-combine`, per `4-SYSTEM/CLAUDE.md` §7.
 
 ---
 
 ## 6. Active transformation tracks
 
-No `Translations/`, `Adaptations/`, or `Plans/` track has been started under `3-TRANSFORMATIONS/` (each holds only its `About` file).
+One `Translations/` track exists (the DharmaMitra English machine baseline, §4); no
+`Adaptations/` track has been started, and `Plans/` holds `21-Day-Plans-bo/`.
 
 **The `kwiki` Wikipedia pipeline is this vault's one active generative system**, and it sits outside the `Translations`/`Adaptations`/`Plans` taxonomy `4-SYSTEM/CLAUDE.md` §9 defines. Its output lives at `3-TRANSFORMATIONS/Wikipedia/tara21/`:
 

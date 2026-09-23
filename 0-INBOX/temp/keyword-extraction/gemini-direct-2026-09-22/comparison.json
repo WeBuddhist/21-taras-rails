@@ -1,0 +1,4035 @@
+{
+ "schema": "keyword-route-comparison/1",
+ "a_registry": "/Users/tashitsering/Desktop/work/Obsidian/21-taras-rails/2-RAILS/Keywords/source-term-registry.json",
+ "b_gemini": "0-INBOX/temp/keyword-extraction/gemini-direct-2026-09-22/gemini-terms.json",
+ "a_terms": 345,
+ "b_terms": 208,
+ "in_both": 154,
+ "only_a": 191,
+ "only_b": 54,
+ "a_top50_found_by_b": "46/50",
+ "provenance": {
+  "same": 99,
+  "different": 55,
+  "a_had_no_blocks": 0,
+  "differences": [
+   {
+    "term": "གདོན",
+    "b_blocks": [
+     "1-21",
+     "2-5"
+    ],
+    "a_blocks": [
+     "1-21",
+     "a-5"
+    ]
+   },
+   {
+    "term": "གཟིརབ",
+    "b_blocks": [
+     "2-5"
+    ],
+    "a_blocks": [
+     "a-5"
+    ]
+   },
+   {
+    "term": "གོའཕང",
+    "b_blocks": [
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "ངནའགྲོ",
+    "b_blocks": [
+     "2-2"
+    ],
+    "a_blocks": [
+     "a-2"
+    ]
+   },
+   {
+    "term": "ཉིཤུརྩགཅིག",
+    "b_blocks": [
+     "1-22",
+     "I-2"
+    ],
+    "a_blocks": [
+     "I-1",
+     "a-1"
+    ]
+   },
+   {
+    "term": "ཐོབ",
+    "b_blocks": [
+     "2-4"
+    ],
+    "a_blocks": [
+     "a-4",
+     "a-6"
+    ]
+   },
+   {
+    "term": "ཐོརངས",
+    "b_blocks": [
+     "2-2"
+    ],
+    "a_blocks": [
+     "a-2"
+    ]
+   },
+   {
+    "term": "དབང",
+    "b_blocks": [
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "དུག",
+    "b_blocks": [
+     "1-18",
+     "2-4",
+     "2-5"
+    ],
+    "a_blocks": [
+     "1-18",
+     "a-4",
+     "a-5"
+    ]
+   },
+   {
+    "term": "ནོར",
+    "b_blocks": [
+     "2-6"
+    ],
+    "a_blocks": [
+     "a-6"
+    ]
+   },
+   {
+    "term": "ཕནཡོན",
+    "b_blocks": [
+     "I-2"
+    ],
+    "a_blocks": [
+     "I-1"
+    ]
+   },
+   {
+    "term": "ཕྱག",
+    "b_blocks": [
+     "1-14",
+     "1-18",
+     "1-3"
+    ],
+    "a_blocks": [
+     "1-3"
+    ]
+   },
+   {
+    "term": "ཕྱགའཚལ",
+    "b_blocks": [
+     "1-1",
+     "1-10",
+     "1-11",
+     "1-12",
+     "1-13",
+     "1-14",
+     "1-15",
+     "1-16",
+     "1-17",
+     "1-18",
+     "1-19",
+     "1-2",
+     "1-20",
+     "1-21",
+     "1-8",
+     "1-9",
+     "I-2",
+     "I-3"
+    ],
+    "a_blocks": [
+     "1-1",
+     "1-10",
+     "1-11",
+     "1-12",
+     "1-13",
+     "1-14",
+     "1-15",
+     "1-16",
+     "1-17",
+     "1-18",
+     "1-19",
+     "1-2",
+     "1-20",
+     "1-21",
+     "1-3",
+     "1-4",
+     "1-5",
+     "1-6",
+     "1-7",
+     "1-8",
+     "1-9",
+     "I-1"
+    ]
+   },
+   {
+    "term": "ཕྱགའཚལབ",
+    "b_blocks": [
+     "1-22"
+    ],
+    "a_blocks": [
+     "a-1"
+    ]
+   },
+   {
+    "term": "བགེགས",
+    "b_blocks": [
+     "2-6"
+    ],
+    "a_blocks": [
+     "a-6"
+    ]
+   },
+   {
+    "term": "བཅོམལྡནའདསམ",
+    "b_blocks": [
+     "a-1"
+    ],
+    "a_blocks": [
+     "a-7"
+    ]
+   },
+   {
+    "term": "བཅོམལྡནའདསམསྒྲོལམ",
+    "b_blocks": [
+     "a-1"
+    ],
+    "a_blocks": [
+     "a-7"
+    ]
+   },
+   {
+    "term": "བརྗིད",
+    "b_blocks": [
+     "1-10",
+     "1-19"
+    ],
+    "a_blocks": [
+     "1-19"
+    ]
+   },
+   {
+    "term": "བརྗོད",
+    "b_blocks": [
+     "2-1"
+    ],
+    "a_blocks": [
+     "1-18",
+     "1-20"
+    ]
+   },
+   {
+    "term": "བསྟེནམ",
+    "b_blocks": [
+     "1-19"
+    ],
+    "a_blocks": [
+     "1-19",
+     "1-4"
+    ]
+   },
+   {
+    "term": "བསྟོདཔ",
+    "b_blocks": [
+     "1-22",
+     "I-2",
+     "a-1"
+    ],
+    "a_blocks": [
+     "I-1",
+     "a-1",
+     "a-7"
+    ]
+   },
+   {
+    "term": "བུ",
+    "b_blocks": [
+     "2-6"
+    ],
+    "a_blocks": [
+     "a-6"
+    ]
+   },
+   {
+    "term": "བོདསྐད",
+    "b_blocks": [
+     "I-2"
+    ],
+    "a_blocks": [
+     "I-1"
+    ]
+   },
+   {
+    "term": "བློལྡན",
+    "b_blocks": [
+     "2-1"
+    ],
+    "a_blocks": [
+     "a-1"
+    ]
+   },
+   {
+    "term": "མཐརཐུག",
+    "b_blocks": [
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "མིའཇིགས",
+    "b_blocks": [
+     "2-2"
+    ],
+    "a_blocks": [
+     "a-2"
+    ]
+   },
+   {
+    "term": "ཚོགས",
+    "b_blocks": [
+     "1-11",
+     "1-9",
+     "2-5"
+    ],
+    "a_blocks": [
+     "1-11",
+     "1-19",
+     "1-21",
+     "1-6",
+     "1-9",
+     "a-5"
+    ]
+   },
+   {
+    "term": "ཞལ",
+    "b_blocks": [
+     "1-1",
+     "1-8"
+    ],
+    "a_blocks": [
+     "1-1",
+     "1-2",
+     "1-8"
+    ]
+   },
+   {
+    "term": "ཞིབ",
+    "b_blocks": [
+     "1-3",
+     "2-2"
+    ],
+    "a_blocks": [
+     "1-3",
+     "a-2"
+    ]
+   },
+   {
+    "term": "ཟོསཔ",
+    "b_blocks": [
+     "2-4"
+    ],
+    "a_blocks": [
+     "a-4"
+    ]
+   },
+   {
+    "term": "ཟླབ",
+    "b_blocks": [
+     "1-12",
+     "1-2",
+     "1-20"
+    ],
+    "a_blocks": [
+     "1-2",
+     "1-20"
+    ]
+   },
+   {
+    "term": "འགྲོ",
+    "b_blocks": [
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "འགྲོབ",
+    "b_blocks": [
+     "2-4"
+    ],
+    "a_blocks": [
+     "a-4"
+    ]
+   },
+   {
+    "term": "འཇིགརྟེན",
+    "b_blocks": [
+     "1-1",
+     "1-10",
+     "1-5"
+    ],
+    "a_blocks": [
+     "1-1",
+     "1-10",
+     "1-17",
+     "1-5"
+    ]
+   },
+   {
+    "term": "འཇིགརྟེནགསུམ",
+    "b_blocks": [
+     "1-1",
+     "1-17"
+    ],
+    "a_blocks": [
+     "1-1"
+    ]
+   },
+   {
+    "term": "འཇོམསཔ",
+    "b_blocks": [
+     "1-21",
+     "2-2"
+    ],
+    "a_blocks": [
+     "1-15",
+     "1-21",
+     "a-2",
+     "a-6"
+    ]
+   },
+   {
+    "term": "འཐུངསཔ",
+    "b_blocks": [
+     "2-4"
+    ],
+    "a_blocks": [
+     "a-4"
+    ]
+   },
+   {
+    "term": "འཐོབ",
+    "b_blocks": [
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "འདོདཔ",
+    "b_blocks": [
+     "2-6"
+    ],
+    "a_blocks": [
+     "a-6"
+    ]
+   },
+   {
+    "term": "འཕགསམ",
+    "b_blocks": [
+     "I-3"
+    ],
+    "a_blocks": [
+     "I-1"
+    ]
+   },
+   {
+    "term": "འབརམ",
+    "b_blocks": [
+     "1-2"
+    ],
+    "a_blocks": [
+     "1-12",
+     "1-2",
+     "1-7"
+    ]
+   },
+   {
+    "term": "ཡངདགཔརརྫོགསཔའིསངསརྒྱས",
+    "b_blocks": [
+     "a-1"
+    ],
+    "a_blocks": [
+     "a-7"
+    ]
+   },
+   {
+    "term": "ཡིགེཧཱུཾ",
+    "b_blocks": [
+     "1-14"
+    ],
+    "a_blocks": [
+     "1-11",
+     "1-14"
+    ]
+   },
+   {
+    "term": "རིམས",
+    "b_blocks": [
+     "1-20",
+     "2-5"
+    ],
+    "a_blocks": [
+     "1-20",
+     "a-5"
+    ]
+   },
+   {
+    "term": "རྒྱལབ",
+    "b_blocks": [
+     "1-4",
+     "2-3"
+    ],
+    "a_blocks": [
+     "a-3"
+    ]
+   },
+   {
+    "term": "རྗེབཙུནམ",
+    "b_blocks": [
+     "I-3"
+    ],
+    "a_blocks": [
+     "I-1"
+    ]
+   },
+   {
+    "term": "ལྷམོ",
+    "b_blocks": [
+     "2-1"
+    ],
+    "a_blocks": [
+     "a-1"
+    ]
+   },
+   {
+    "term": "སངསརྒྱས",
+    "b_blocks": [
+     "2-3",
+     "a-1"
+    ],
+    "a_blocks": [
+     "a-3",
+     "a-7"
+    ]
+   },
+   {
+    "term": "སེམསཅན",
+    "b_blocks": [
+     "2-5"
+    ],
+    "a_blocks": [
+     "a-5"
+    ]
+   },
+   {
+    "term": "སེལབ",
+    "b_blocks": [
+     "2-4"
+    ],
+    "a_blocks": [
+     "a-4"
+    ]
+   },
+   {
+    "term": "སྒྲོལམ",
+    "b_blocks": [
+     "1-1",
+     "I-2",
+     "I-3",
+     "a-1"
+    ],
+    "a_blocks": [
+     "1-1",
+     "1-11",
+     "I-1",
+     "a-7"
+    ]
+   },
+   {
+    "term": "སྔགས",
+    "b_blocks": [
+     "1-22"
+    ],
+    "a_blocks": [
+     "a-1"
+    ]
+   },
+   {
+    "term": "སྡིགཔ",
+    "b_blocks": [
+     "1-15",
+     "2-2"
+    ],
+    "a_blocks": [
+     "1-15",
+     "a-2"
+    ]
+   },
+   {
+    "term": "སྡུགབསྔལ",
+    "b_blocks": [
+     "2-5"
+    ],
+    "a_blocks": [
+     "a-5"
+    ]
+   },
+   {
+    "term": "སྲོད",
+    "b_blocks": [
+     "2-2"
+    ],
+    "a_blocks": [
+     "a-2"
+    ]
+   }
+  ]
+ },
+ "b_verification": {
+  "VERBATIM": 282,
+  "NORMALIZED": 5,
+  "ABSENT": 0
+ },
+ "only_a_terms": [
+  {
+   "lemma": "ཀུན་དུ།",
+   "rank": 356,
+   "glosses": [
+    "together"
+   ]
+  },
+  {
+   "lemma": "ཀུན་ནས།",
+   "rank": 231,
+   "glosses": [
+    "side",
+    "sides"
+   ]
+  },
+  {
+   "lemma": "ཀུན་ནས་བསྐོར།",
+   "rank": 162,
+   "glosses": [
+    "surround",
+    "surrounded"
+   ]
+  },
+  {
+   "lemma": "ཁྲོ་གཉེར་ཅན་མཛད།",
+   "rank": 287,
+   "glosses": [
+    "grimace"
+   ]
+  },
+  {
+   "lemma": "ཁྲོད་ན།",
+   "rank": 296,
+   "glosses": [
+    "midst"
+   ]
+  },
+  {
+   "lemma": "གང་བ།",
+   "rank": 175,
+   "glosses": [
+    "full"
+   ]
+  },
+  {
+   "lemma": "གང་མ།",
+   "rank": 343,
+   "glosses": [
+    "fill",
+    "filling"
+   ]
+  },
+  {
+   "lemma": "གཉིས།",
+   "rank": 143,
+   "glosses": [
+    "twice"
+   ]
+  },
+  {
+   "lemma": "གནས་པ།",
+   "rank": 289,
+   "glosses": [
+    "abiding"
+   ]
+  },
+  {
+   "lemma": "གནས་མ།",
+   "rank": 220,
+   "glosses": [
+    "dwells"
+   ]
+  },
+  {
+   "lemma": "གཡས།",
+   "rank": 51,
+   "glosses": [
+    "right"
+   ]
+  },
+  {
+   "lemma": "གཡས་བརྐྱང་གཡོན་བསྐུམ།",
+   "rank": 159,
+   "glosses": [
+    "leg"
+   ]
+  },
+  {
+   "lemma": "གཡོན།",
+   "rank": 49,
+   "glosses": [
+    "leave",
+    "left"
+   ]
+  },
+  {
+   "lemma": "གཡོ་བ།",
+   "rank": 91,
+   "glosses": [
+    "tremble"
+   ]
+  },
+  {
+   "lemma": "གཡོ་བ་ཉིད་མ།",
+   "rank": 353,
+   "glosses": [
+    "causes"
+   ]
+  },
+  {
+   "lemma": "གཡོ་བའི།",
+   "rank": 174,
+   "glosses": [
+    "move",
+    "moving"
+   ]
+  },
+  {
+   "lemma": "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།",
+   "rank": 318,
+   "glosses": [
+    "hum move",
+    "letter hum move"
+   ]
+  },
+  {
+   "lemma": "གསུངས་པ།",
+   "rank": 250,
+   "glosses": [
+    "spoken"
+   ]
+  },
+  {
+   "lemma": "གསེར།",
+   "rank": 39,
+   "glosses": [
+    "golden"
+   ]
+  },
+  {
+   "lemma": "གསོད་མ།",
+   "rank": 185,
+   "glosses": [
+    "slayer"
+   ]
+  },
+  {
+   "lemma": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "rank": 346,
+   "glosses": [
+    "guṇahitasāka"
+   ]
+  },
+  {
+   "lemma": "ངག།",
+   "rank": 291,
+   "glosses": [
+    "speech"
+   ]
+  },
+  {
+   "lemma": "ངན་པ།",
+   "rank": 98,
+   "glosses": [
+    "bad"
+   ]
+  },
+  {
+   "lemma": "ངོས་ལ།",
+   "rank": 163,
+   "glosses": [
+    "face",
+    "surface"
+   ]
+  },
+  {
+   "lemma": "ཅེས་བྱ།",
+   "rank": 294,
+   "glosses": [
+    "syllable"
+   ]
+  },
+  {
+   "lemma": "ཆེན་པོ།",
+   "rank": 182,
+   "glosses": [
+    "great"
+   ]
+  },
+  {
+   "lemma": "ཆེན་མོ།",
+   "rank": 177,
+   "glosses": [
+    "female",
+    "great"
+   ]
+  },
+  {
+   "lemma": "ཆེ་བ།",
+   "rank": 309,
+   "glosses": [
+    "great"
+   ]
+  },
+  {
+   "lemma": "ཆེ་བ་ཉིད།",
+   "rank": 307,
+   "glosses": [
+    "greatness"
+   ]
+  },
+  {
+   "lemma": "ཉིད།",
+   "rank": 205,
+   "glosses": [
+    "indeed",
+    "itself",
+    "utterly"
+   ]
+  },
+  {
+   "lemma": "ཉིད་མ།",
+   "rank": 257,
+   "glosses": [
+    "herself"
+   ]
+  },
+  {
+   "lemma": "ཏཱ་ར་གཉིས།",
+   "rank": 272,
+   "glosses": [
+    "taras"
+   ]
+  },
+  {
+   "lemma": "ཏཱ་ར་གཉིས་བརྗོད།",
+   "rank": 109,
+   "glosses": [
+    "pronounce tara"
+   ]
+  },
+  {
+   "lemma": "ཏཱ་རཱ།",
+   "rank": 274,
+   "glosses": [
+    "tāre"
+   ]
+  },
+  {
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "rank": 358,
+   "glosses": [
+    "tāre ekaviṃśati"
+   ]
+  },
+  {
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "rank": 359,
+   "glosses": [
+    "tāre ekaviṃśati stotra"
+   ]
+  },
+  {
+   "lemma": "ཏུཏྟྭ་ར་ཧཱུྃ།",
+   "rank": 242,
+   "glosses": [
+    "tuttara hum"
+   ]
+  },
+  {
+   "lemma": "ཏུ་རེ་རབ་མཆོག།",
+   "rank": 127,
+   "glosses": [
+    "supreme ture"
+   ]
+  },
+  {
+   "lemma": "ཏྲད་ཅེས་བྱ།",
+   "rank": 321,
+   "glosses": [
+    "syllable trad"
+   ]
+  },
+  {
+   "lemma": "ཏྲད་ཅེས་བྱ་དང་ཕཊ།",
+   "rank": 316,
+   "glosses": [
+    "syllables"
+   ]
+  },
+  {
+   "lemma": "ཐ་མའི།",
+   "rank": 275,
+   "glosses": [
+    "end"
+   ]
+  },
+  {
+   "lemma": "ཐོབ་པ།",
+   "rank": 225,
+   "glosses": [
+    "attained"
+   ]
+  },
+  {
+   "lemma": "དགའ་བའི།",
+   "rank": 259,
+   "glosses": [
+    "joyful"
+   ]
+  },
+  {
+   "lemma": "དགས།",
+   "rank": 332,
+   "glosses": [
+    "joy"
+   ]
+  },
+  {
+   "lemma": "དགྲ་ཡི།",
+   "rank": 138,
+   "glosses": [
+    "enemies"
+   ]
+  },
+  {
+   "lemma": "དང་བཅས་པ།",
+   "rank": 292,
+   "glosses": [
+    "together"
+   ]
+  },
+  {
+   "lemma": "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།",
+   "rank": 263,
+   "glosses": [
+    "destroy host"
+   ]
+  },
+  {
+   "lemma": "དབང་དུ་མཛད།",
+   "rank": 154,
+   "glosses": [
+    "subdue"
+   ]
+  },
+  {
+   "lemma": "དབང་དུ་མཛད་མ།",
+   "rank": 327,
+   "glosses": [
+    "subdues"
+   ]
+  },
+  {
+   "lemma": "དབང་ཕྱུག།",
+   "rank": 107,
+   "glosses": [
+    "ishvaras"
+   ]
+  },
+  {
+   "lemma": "དབུ།",
+   "rank": 196,
+   "glosses": [
+    "head"
+   ]
+  },
+  {
+   "lemma": "དབུས་ན།",
+   "rank": 232,
+   "glosses": [
+    "center",
+    "within"
+   ]
+  },
+  {
+   "lemma": "དུ།",
+   "rank": 157,
+   "glosses": [
+    "times"
+   ]
+  },
+  {
+   "lemma": "དུག་རྣམས།",
+   "rank": 115,
+   "glosses": [
+    "poisons"
+   ]
+  },
+  {
+   "lemma": "དྲག་པོ།",
+   "rank": 171,
+   "glosses": [
+    "fierce"
+   ]
+  },
+  {
+   "lemma": "དྲག་པོའི།",
+   "rank": 145,
+   "glosses": [
+    "fierce"
+   ]
+  },
+  {
+   "lemma": "དྲན་པ།",
+   "rank": 165,
+   "glosses": [
+    "remember",
+    "remembering"
+   ]
+  },
+  {
+   "lemma": "ན་མཿ།",
+   "rank": 256,
+   "glosses": [
+    "nama",
+    "namaḥ"
+   ]
+  },
+  {
+   "lemma": "ན་མཿཏཱ་རཱ།",
+   "rank": 350,
+   "glosses": [
+    "namaḥ tāre"
+   ]
+  },
+  {
+   "lemma": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "rank": 334,
+   "glosses": [
+    "namaḥ tāre ekaviṃśati"
+   ]
+  },
+  {
+   "lemma": "ནུས་མ།",
+   "rank": 261,
+   "glosses": [
+    "able"
+   ]
+  },
+  {
+   "lemma": "ཕཊ་ཀྱི་ཡི་གེ།",
+   "rank": 156,
+   "glosses": [
+    "syllable phat"
+   ]
+  },
+  {
+   "lemma": "ཕ་རོལ།",
+   "rank": 112,
+   "glosses": [
+    "adversaries"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་གི།",
+   "rank": 255,
+   "glosses": [
+    "hand"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་ན།",
+   "rank": 216,
+   "glosses": [
+    "hand"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་འཚལ་ཏུཏྟྭ་ར།",
+   "rank": 315,
+   "glosses": [
+    "homage tuttara"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་འཚལ་ཏུ་རེ།",
+   "rank": 238,
+   "glosses": [
+    "homage ture"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ།",
+   "rank": 248,
+   "glosses": [
+    "homage tara"
+   ]
+  },
+  {
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།",
+   "rank": 262,
+   "glosses": [
+    "homage tara swift"
+   ]
+  },
+  {
+   "lemma": "ཕྱེ་བ།",
+   "rank": 322,
+   "glosses": [
+    "opening"
+   ]
+  },
+  {
+   "lemma": "ཕྲེང་བའི།",
+   "rank": 305,
+   "glosses": [
+    "garland"
+   ]
+  },
+  {
+   "lemma": "བཀོད་པའི།",
+   "rank": 266,
+   "glosses": [
+    "arrangement",
+    "arranges"
+   ]
+  },
+  {
+   "lemma": "བཅུ་པའི།",
+   "rank": 293,
+   "glosses": [
+    "ten"
+   ]
+  },
+  {
+   "lemma": "བདུན།",
+   "rank": 110,
+   "glosses": [
+    "seventy"
+   ]
+  },
+  {
+   "lemma": "བརྐྱང་།",
+   "rank": 197,
+   "glosses": [
+    "extend",
+    "extended"
+   ]
+  },
+  {
+   "lemma": "བརྒྱ།",
+   "rank": 106,
+   "glosses": [
+    "hundred"
+   ]
+  },
+  {
+   "lemma": "བརྒྱན།",
+   "rank": 235,
+   "glosses": [
+    "adorn",
+    "adorned"
+   ]
+  },
+  {
+   "lemma": "བརྒྱན་པ།",
+   "rank": 200,
+   "glosses": [
+    "ornaments"
+   ]
+  },
+  {
+   "lemma": "བརྒྱན་པའི།",
+   "rank": 253,
+   "glosses": [
+    "adorned"
+   ]
+  },
+  {
+   "lemma": "བརྒྱན་མ།",
+   "rank": 283,
+   "glosses": [
+    "adorn",
+    "adorned"
+   ]
+  },
+  {
+   "lemma": "བརྗིད་པའི།",
+   "rank": 330,
+   "glosses": [
+    "brilliant"
+   ]
+  },
+  {
+   "lemma": "བརྗོད་པ།",
+   "rank": 265,
+   "glosses": [
+    "recited",
+    "reciting"
+   ]
+  },
+  {
+   "lemma": "བརྟན།",
+   "rank": 167,
+   "glosses": [
+    "stable"
+   ]
+  },
+  {
+   "lemma": "བརྡབས་པས།",
+   "rank": 191,
+   "glosses": [
+    "stamping"
+   ]
+  },
+  {
+   "lemma": "བརྡུང་མ།",
+   "rank": 186,
+   "glosses": [
+    "stamps"
+   ]
+  },
+  {
+   "lemma": "བརྩེགས་པ།",
+   "rank": 233,
+   "glosses": [
+    "gathered"
+   ]
+  },
+  {
+   "lemma": "བརྩེགས་པའི།",
+   "rank": 331,
+   "glosses": [
+    "like"
+   ]
+  },
+  {
+   "lemma": "བསྐུམ།",
+   "rank": 153,
+   "glosses": [
+    "bent",
+    "retracted"
+   ]
+  },
+  {
+   "lemma": "བསྐུར་བ།",
+   "rank": 267,
+   "glosses": [
+    "conferred"
+   ]
+  },
+  {
+   "lemma": "བསྐོར།",
+   "rank": 180,
+   "glosses": [
+    "surround",
+    "surrounded"
+   ]
+  },
+  {
+   "lemma": "བསྟོད།",
+   "rank": 140,
+   "glosses": [
+    "praise"
+   ]
+  },
+  {
+   "lemma": "བསྟོད་མ།",
+   "rank": 301,
+   "glosses": [
+    "praised"
+   ]
+  },
+  {
+   "lemma": "བསྣུན།",
+   "rank": 189,
+   "glosses": [
+    "strike",
+    "strikes"
+   ]
+  },
+  {
+   "lemma": "བོད།",
+   "rank": 273,
+   "glosses": [
+    "tibet"
+   ]
+  },
+  {
+   "lemma": "བྱུང་མ།",
+   "rank": 221,
+   "glosses": [
+    "arise",
+    "arisen",
+    "world arise"
+   ]
+  },
+  {
+   "lemma": "བྱེ་བ།",
+   "rank": 181,
+   "glosses": [
+    "million"
+   ]
+  },
+  {
+   "lemma": "མངོན་པར།",
+   "rank": 338,
+   "glosses": [
+    "clearly"
+   ]
+  },
+  {
+   "lemma": "མཆོད་མ།",
+   "rank": 169,
+   "glosses": [
+    "worshiped"
+   ]
+  },
+  {
+   "lemma": "མདུན།",
+   "rank": 208,
+   "glosses": [
+    "presence"
+   ]
+  },
+  {
+   "lemma": "མནན།",
+   "rank": 226,
+   "glosses": [
+    "suppress",
+    "suppressing"
+   ]
+  },
+  {
+   "lemma": "མནན་ཏེ།",
+   "rank": 149,
+   "glosses": [
+    "treading"
+   ]
+  },
+  {
+   "lemma": "མཚོན།",
+   "rank": 187,
+   "glosses": [
+    "symbolizing"
+   ]
+  },
+  {
+   "lemma": "མཛད།",
+   "rank": 217,
+   "glosses": [
+    "make",
+    "making"
+   ]
+  },
+  {
+   "lemma": "མཛད་མ།",
+   "rank": 271,
+   "glosses": [
+    "make",
+    "making"
+   ]
+  },
+  {
+   "lemma": "མ་ལུས།",
+   "rank": 195,
+   "glosses": [
+    "every",
+    "exception",
+    "single",
+    "without"
+   ]
+  },
+  {
+   "lemma": "མ་ལུས་པར།",
+   "rank": 284,
+   "glosses": [
+    "completely",
+    "exception",
+    "without"
+   ]
+  },
+  {
+   "lemma": "མ་ལུས་པར་ནི་སེལ་མ།",
+   "rank": 339,
+   "glosses": [
+    "completely dispel"
+   ]
+  },
+  {
+   "lemma": "མེ་འབར།",
+   "rank": 213,
+   "glosses": [
+    "blaze fire"
+   ]
+  },
+  {
+   "lemma": "མྱ་ངན།",
+   "rank": 215,
+   "glosses": [
+    "sorrow"
+   ]
+  },
+  {
+   "lemma": "མྱུར་དུ།",
+   "rank": 228,
+   "glosses": [
+    "quickly"
+   ]
+  },
+  {
+   "lemma": "ཚོགས་པ།",
+   "rank": 249,
+   "glosses": [
+    "assemblies",
+    "assembly"
+   ]
+  },
+  {
+   "lemma": "ཚོགས་རྣམས།",
+   "rank": 219,
+   "glosses": [
+    "assemblies",
+    "hosts"
+   ]
+  },
+  {
+   "lemma": "ཞི།",
+   "rank": 121,
+   "glosses": [
+    "peace"
+   ]
+  },
+  {
+   "lemma": "ཞི་བའི།",
+   "rank": 89,
+   "glosses": [
+    "peace"
+   ]
+  },
+  {
+   "lemma": "ཟླ་བའི།",
+   "rank": 194,
+   "glosses": [
+    "moon"
+   ]
+  },
+  {
+   "lemma": "ཟླ་བའི་རྩེ་མོ།",
+   "rank": 139,
+   "glosses": [
+    "crescent"
+   ]
+  },
+  {
+   "lemma": "འཁྲུག་མ།",
+   "rank": 302,
+   "glosses": [
+    "agitates"
+   ]
+  },
+  {
+   "lemma": "འཁྲུགས་པ།",
+   "rank": 160,
+   "glosses": [
+    "mass",
+    "swirling"
+   ]
+  },
+  {
+   "lemma": "འགུགས་པ།",
+   "rank": 111,
+   "glosses": [
+    "summon"
+   ]
+  },
+  {
+   "lemma": "འགུགས་པར།",
+   "rank": 179,
+   "glosses": [
+    "summon"
+   ]
+  },
+  {
+   "lemma": "འགེམས་མ།",
+   "rank": 210,
+   "glosses": [
+    "destroy",
+    "destroys",
+    "shatter",
+    "shatters"
+   ]
+  },
+  {
+   "lemma": "འཇིག་རྟེན་གསུམ་རྣམས།",
+   "rank": 209,
+   "glosses": [
+    "worlds"
+   ]
+  },
+  {
+   "lemma": "འཇིགས་པ།",
+   "rank": 29,
+   "glosses": [
+    "terrifier"
+   ]
+  },
+  {
+   "lemma": "འཇོམས།",
+   "rank": 148,
+   "glosses": [
+    "destroy"
+   ]
+  },
+  {
+   "lemma": "འཇོམས་མ།",
+   "rank": 172,
+   "glosses": [
+    "conqueror",
+    "destroy",
+    "destroys"
+   ]
+  },
+  {
+   "lemma": "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།",
+   "rank": 201,
+   "glosses": [
+    "fill desire"
+   ]
+  },
+  {
+   "lemma": "འབར།",
+   "rank": 183,
+   "glosses": [
+    "blaze"
+   ]
+  },
+  {
+   "lemma": "འབར་བའི།",
+   "rank": 184,
+   "glosses": [
+    "blaze",
+    "blazing"
+   ]
+  },
+  {
+   "lemma": "འབར་བའི་ཕྲེང་བ།",
+   "rank": 129,
+   "glosses": [
+    "blaze garland"
+   ]
+  },
+  {
+   "lemma": "ཡང་དག།",
+   "rank": 288,
+   "glosses": [
+    "perfect",
+    "perfectly"
+   ]
+  },
+  {
+   "lemma": "ཡང་དག་པ།",
+   "rank": 311,
+   "glosses": [
+    "perfect"
+   ]
+  },
+  {
+   "lemma": "ཡང་དག་པར།",
+   "rank": 313,
+   "glosses": [
+    "completely"
+   ]
+  },
+  {
+   "lemma": "ཡང་དག་པར་རྫོགས་པ།",
+   "rank": 349,
+   "glosses": [
+    "completely perfect"
+   ]
+  },
+  {
+   "lemma": "ཡང་དག་ལྡན་པས།",
+   "rank": 344,
+   "glosses": [
+    "endow",
+    "endowed"
+   ]
+  },
+  {
+   "lemma": "ཡི་གེ་བཅུ་པའི།",
+   "rank": 63,
+   "glosses": [
+    "syllables"
+   ]
+  },
+  {
+   "lemma": "རབ།",
+   "rank": 204,
+   "glosses": [
+    "completely",
+    "exceedingly",
+    "supreme"
+   ]
+  },
+  {
+   "lemma": "རབ་གསལ་མ།",
+   "rank": 269,
+   "glosses": [
+    "exceedingly brilliant"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ།",
+   "rank": 244,
+   "glosses": [
+    "complete",
+    "completely",
+    "exceedingly",
+    "highly",
+    "thoroughly"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ་དགའ་བ།",
+   "rank": 113,
+   "glosses": [
+    "exceedingly joyful"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ་ཕྱེ་བ།",
+   "rank": 280,
+   "glosses": [
+    "brilliant"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ་ཕྱེ་བའི་འོད།",
+   "rank": 193,
+   "glosses": [
+    "brilliant light",
+    "highly brilliant light"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ་ཞི་བ།",
+   "rank": 306,
+   "glosses": [
+    "completely pacify"
+   ]
+  },
+  {
+   "lemma": "རབ་ཏུ་འཇོམས་མ།",
+   "rank": 258,
+   "glosses": [
+    "completely destroy"
+   ]
+  },
+  {
+   "lemma": "རབ་དགའ་བའི།",
+   "rank": 325,
+   "glosses": [
+    "completely joyful"
+   ]
+  },
+  {
+   "lemma": "རབ་མཆོག།",
+   "rank": 319,
+   "glosses": [
+    "supreme"
+   ]
+  },
+  {
+   "lemma": "རབ་སྟེར།",
+   "rank": 337,
+   "glosses": [
+    "completely bestow"
+   ]
+  },
+  {
+   "lemma": "རལ་པའི།",
+   "rank": 86,
+   "glosses": [
+    "hair",
+    "matted"
+   ]
+  },
+  {
+   "lemma": "རིག་པ་ཧཱུྃ།",
+   "rank": 211,
+   "glosses": [
+    "knowledge-hum"
+   ]
+  },
+  {
+   "lemma": "རིམ་པ།",
+   "rank": 236,
+   "glosses": [
+    "levels"
+   ]
+  },
+  {
+   "lemma": "རིམ་པ་བདུན་པོ།",
+   "rank": 144,
+   "glosses": [
+    "underworld"
+   ]
+  },
+  {
+   "lemma": "རྒྱལ་བ་བྱེ་བ།",
+   "rank": 251,
+   "glosses": [
+    "million conqueror"
+   ]
+  },
+  {
+   "lemma": "རྒྱལ་བའི།",
+   "rank": 97,
+   "glosses": [
+    "victorious"
+   ]
+  },
+  {
+   "lemma": "རྒྱལ་བར།",
+   "rank": 142,
+   "glosses": [
+    "victory"
+   ]
+  },
+  {
+   "lemma": "རྒྱས་པའི།",
+   "rank": 230,
+   "glosses": [
+    "expanded",
+    "fully"
+   ]
+  },
+  {
+   "lemma": "རྟག་པར།",
+   "rank": 161,
+   "glosses": [
+    "constantly"
+   ]
+  },
+  {
+   "lemma": "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "rank": 304,
+   "glosses": [
+    "constantly make",
+    "constantly make exceed"
+   ]
+  },
+  {
+   "lemma": "རྣམ་པའི།",
+   "rank": 279,
+   "glosses": [
+    "form"
+   ]
+  },
+  {
+   "lemma": "རྣམ་པར།",
+   "rank": 239,
+   "glosses": [
+    "beautifully",
+    "completely",
+    "thoroughly"
+   ]
+  },
+  {
+   "lemma": "རྣམ་པར་བརྒྱན་མ།",
+   "rank": 227,
+   "glosses": [
+    "beautifully adorn",
+    "completely adorn"
+   ]
+  },
+  {
+   "lemma": "རྩ་བ།",
+   "rank": 158,
+   "glosses": [
+    "root"
+   ]
+  },
+  {
+   "lemma": "རྫོགས་པ།",
+   "rank": 320,
+   "glosses": [
+    "perfect",
+    "perfected"
+   ]
+  },
+  {
+   "lemma": "རྫོགས་པའི་སངས་རྒྱས།",
+   "rank": 329,
+   "glosses": [
+    "perfect buddha"
+   ]
+  },
+  {
+   "lemma": "རྫོགས་སོ།",
+   "rank": 300,
+   "glosses": [
+    "completed"
+   ]
+  },
+  {
+   "lemma": "ལངས་པ།",
+   "rank": 323,
+   "glosses": [
+    "arise",
+    "arisen"
+   ]
+  },
+  {
+   "lemma": "ལུས་པ་མེད་པར།",
+   "rank": 264,
+   "glosses": [
+    "exception",
+    "without"
+   ]
+  },
+  {
+   "lemma": "ལྡན།",
+   "rank": 276,
+   "glosses": [
+    "possess"
+   ]
+  },
+  {
+   "lemma": "ལྡན་པ།",
+   "rank": 285,
+   "glosses": [
+    "endow",
+    "endowed"
+   ]
+  },
+  {
+   "lemma": "ལྡན་མ།",
+   "rank": 234,
+   "glosses": [
+    "endow",
+    "endowed"
+   ]
+  },
+  {
+   "lemma": "ཤིན་ཏུ།",
+   "rank": 268,
+   "glosses": [
+    "exceeding",
+    "exceedingly",
+    "extremely",
+    "intensely",
+    "most"
+   ]
+  },
+  {
+   "lemma": "ཤིན་ཏུ་འབར་མ།",
+   "rank": 173,
+   "glosses": [
+    "blaze intensely",
+    "exceedingly blaze"
+   ]
+  },
+  {
+   "lemma": "ཤིན་ཏུ་འོད།",
+   "rank": 281,
+   "glosses": [
+    "exceed light"
+   ]
+  },
+  {
+   "lemma": "ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "rank": 352,
+   "glosses": [
+    "make exceed",
+    "make exceed light"
+   ]
+  },
+  {
+   "lemma": "ས་གཞིའི།",
+   "rank": 166,
+   "glosses": [
+    "earth"
+   ]
+  },
+  {
+   "lemma": "སོ་སོར།",
+   "rank": 312,
+   "glosses": [
+    "individually"
+   ]
+  },
+  {
+   "lemma": "སྐད།",
+   "rank": 290,
+   "glosses": [
+    "language"
+   ]
+  },
+  {
+   "lemma": "སྒྲོལ་མ་མྱུར་མ།",
+   "rank": 297,
+   "glosses": [
+    "tara swift"
+   ]
+  },
+  {
+   "lemma": "སྔོ།",
+   "rank": 31,
+   "glosses": [
+    "blue"
+   ]
+  },
+  {
+   "lemma": "སྟེར།",
+   "rank": 229,
+   "glosses": [
+    "bestows"
+   ]
+  },
+  {
+   "lemma": "སྟོང་ཕྲག།",
+   "rank": 222,
+   "glosses": [
+    "thousands"
+   ]
+  },
+  {
+   "lemma": "སྟོ་ཏྲ།",
+   "rank": 342,
+   "glosses": [
+    "stotra"
+   ]
+  },
+  {
+   "lemma": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "rank": 347,
+   "glosses": [
+    "stotra guṇahitasāka"
+   ]
+  },
+  {
+   "lemma": "སྣ་ཚོགས།",
+   "rank": 218,
+   "glosses": [
+    "various"
+   ]
+  },
+  {
+   "lemma": "སྤེལ་མ།",
+   "rank": 241,
+   "glosses": [
+    "spreads"
+   ]
+  },
+  {
+   "lemma": "སྤྱན་གཉིས་པོ།",
+   "rank": 96,
+   "glosses": [
+    "eyes"
+   ]
+  },
+  {
+   "lemma": "སྤྱོད་མ།",
+   "rank": 299,
+   "glosses": [
+    "practices"
+   ]
+  },
+  {
+   "lemma": "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།",
+   "rank": 252,
+   "glosses": [
+    "endow svaha"
+   ]
+  },
+  {
+   "lemma": "ཧཱུྃ་གི་རྣམ་པའི།",
+   "rank": 202,
+   "glosses": [
+    "form hum"
+   ]
+  },
+  {
+   "lemma": "ཧཱུྃ་ཡི་གེ།",
+   "rank": 298,
+   "glosses": [
+    "hum syllable"
+   ]
+  },
+  {
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "rank": 340,
+   "glosses": [
+    "ati",
+    "ekaviṃśati"
+   ]
+  },
+  {
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "rank": 357,
+   "glosses": [
+    "ekaviṃśati stotra"
+   ]
+  },
+  {
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "rank": 345,
+   "glosses": [
+    "ekaviṃśati stotra guṇahitasāka"
+   ]
+  }
+ ],
+ "only_b_terms": [
+  {
+   "surfaces": [
+    "གནོད་སྦྱིན་ཚོགས་"
+   ],
+   "glosses": [
+    "host of yakshas"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-21"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གཡས་བརྐྱང་"
+   ],
+   "glosses": [
+    "right leg extended"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "1-13"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གཡས་བསྐུམ་"
+   ],
+   "glosses": [
+    "right leg drawn"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "1-7"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གཡོན་བརྐྱང་"
+   ],
+   "glosses": [
+    "left leg extended"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "1-7"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གཡོན་བསྐུམ་"
+   ],
+   "glosses": [
+    "left leg bent"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "1-13"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གསེར་སྔོ་"
+   ],
+   "glosses": [
+    "golden blue"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "1-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "གུས་"
+   ],
+   "glosses": [
+    "devotion"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "2-1"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དགའ་བའི་བརྗིད་"
+   ],
+   "glosses": [
+    "joyful splendor"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "1-19"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དགྲ་ཡི་དཔུང་"
+   ],
+   "glosses": [
+    "enemy forces"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-13"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དགྲ་ཡི་ལུས་"
+   ],
+   "glosses": [
+    "enemy's body"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-16"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དབུ་བརྒྱན"
+   ],
+   "glosses": [
+    "crown ornament"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-12"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དབུས་"
+   ],
+   "glosses": [
+    "center"
+   ],
+   "kinds": [
+    "place"
+   ],
+   "blocks": [
+    "1-13"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དེ་ཉིད་"
+   ],
+   "glosses": [
+    "reality / suchness"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-21"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དྲག་པོ་ཆེན་པོ"
+   ],
+   "glosses": [
+    "great fierce"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "2-4"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དྲག་པོའི་རིམས་"
+   ],
+   "glosses": [
+    "fierce plague"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-20"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "དྲན་"
+   ],
+   "glosses": [
+    "mindfulness",
+    "remembering"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "2-2",
+    "2-4"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ"
+   ],
+   "glosses": [
+    "Praise to 21 Taras"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "I-1"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "བགེགས་རྣམས་"
+   ],
+   "glosses": [
+    "hindrances"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "2-6"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "བདུད་ཀྱི་དཔའ་བོ་"
+   ],
+   "glosses": [
+    "Mara's warriors"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-8"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "བརྟན་གནས་"
+   ],
+   "glosses": [
+    "stationary"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "2-4"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "བསྐལ་པ་ཐ་མའི་མེ་"
+   ],
+   "glosses": [
+    "apocalyptic fire"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-13"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "བསྐུར་"
+   ],
+   "glosses": [
+    "bestow"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "2-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "མཆོག་"
+   ],
+   "glosses": [
+    "supreme"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "1-21"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ཞལ་མ"
+   ],
+   "glosses": [
+    "She with a face"
+   ],
+   "kinds": [
+    "epithet"
+   ],
+   "blocks": [
+    "1-2"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ཞི་བའི་མཐུ་"
+   ],
+   "glosses": [
+    "power of peace"
+   ],
+   "kinds": [
+    "quality"
+   ],
+   "blocks": [
+    "1-21"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "འཇིག་རྟེན་གསུམ་མགོན་"
+   ],
+   "glosses": [
+    "Protector of Three Worlds"
+   ],
+   "kinds": [
+    "epithet"
+   ],
+   "blocks": [
+    "1-1"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "འཇིགས་པ་ཆེན་མོ"
+   ],
+   "glosses": [
+    "great terrifying one"
+   ],
+   "kinds": [
+    "epithet"
+   ],
+   "blocks": [
+    "1-8"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "འདོད་པ་ཐམས་ཅད་"
+   ],
+   "glosses": [
+    "all desires"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "2-6"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "འོད་ཀྱི་ཕྲེང་བ་"
+   ],
+   "glosses": [
+    "garland of light"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-10"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "འོད་ཀྱི་ཚོགས་"
+   ],
+   "glosses": [
+    "mass of light"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-9"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ཡི་གེ་བཅུ་"
+   ],
+   "glosses": [
+    "ten syllables"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-16"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ཡི་གེ་བཅུ་པའི་ངག་"
+   ],
+   "glosses": [
+    "ten-syllable mantra"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-16"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རལ་པ"
+   ],
+   "glosses": [
+    "matted hair"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-12"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རིག་པ་"
+   ],
+   "glosses": [
+    "awareness"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-16"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རི་དགས་"
+   ],
+   "glosses": [
+    "deer"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-18"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རིམ་པ་བདུན་"
+   ],
+   "glosses": [
+    "seven levels"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-14"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་"
+   ],
+   "glosses": [
+    "seven ten-millions of Victors"
+   ],
+   "kinds": [
+    "deity"
+   ],
+   "blocks": [
+    "2-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་"
+   ],
+   "glosses": [
+    "Noble Reverend Tara"
+   ],
+   "kinds": [
+    "deity"
+   ],
+   "blocks": [
+    "I-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྣམ་པར་རྒྱལ་བ"
+   ],
+   "glosses": [
+    "complete victory"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-4"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྨི་ལམ་ངན་པ་"
+   ],
+   "glosses": [
+    "bad dream"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-19"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྩ་བའི་སྔགས་"
+   ],
+   "glosses": [
+    "root mantra"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-22"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "རྩེ་མོ"
+   ],
+   "glosses": [
+    "tip / point"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-12"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ལྷ་ཡི་མཚོ་"
+   ],
+   "glosses": [
+    "divine lake"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-18"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ལྷ་ཡི་ཚོགས་"
+   ],
+   "glosses": [
+    "assembly of gods"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-19"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ས་གཞིའི་ངོས་"
+   ],
+   "glosses": [
+    "surface of the earth"
+   ],
+   "kinds": [
+    "place"
+   ],
+   "blocks": [
+    "1-14"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ས་གཞི་སྐྱོང་བ"
+   ],
+   "glosses": [
+    "earth protectors"
+   ],
+   "kinds": [
+    "being-class"
+   ],
+   "blocks": [
+    "1-11"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སངས་རྒྱས་གོ་འཕང་"
+   ],
+   "glosses": [
+    "state of Buddhahood"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "2-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྐར་མ་སྟོང་ཕྲག་"
+   ],
+   "glosses": [
+    "Thousands of stars"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-2"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྡིག་པ་ཆེན་པོ་"
+   ],
+   "glosses": [
+    "great sin"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "1-15"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྡུག་བསྔལ་ཚོགས་"
+   ],
+   "glosses": [
+    "mass of suffering"
+   ],
+   "kinds": [
+    "doctrinal"
+   ],
+   "blocks": [
+    "2-5"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྣ་ཚོགས་དབང་ཕྱུག་"
+   ],
+   "glosses": [
+    "Vishveshvara"
+   ],
+   "kinds": [
+    "deity"
+   ],
+   "blocks": [
+    "1-6"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྤོང་"
+   ],
+   "glosses": [
+    "abandon"
+   ],
+   "kinds": [
+    "action"
+   ],
+   "blocks": [
+    "2-5"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "སྤྱན་གཉིས་"
+   ],
+   "glosses": [
+    "two eyes"
+   ],
+   "kinds": [
+    "object"
+   ],
+   "blocks": [
+    "1-20"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  },
+  {
+   "surfaces": [
+    "ཨོཾ",
+    "ཨོཾ་"
+   ],
+   "glosses": [
+    "Om"
+   ],
+   "kinds": [
+    "mantra"
+   ],
+   "blocks": [
+    "1-15",
+    "I-3"
+   ],
+   "verification": [
+    "VERBATIM"
+   ]
+  }
+ ],
+ "in_both_terms": [
+  {
+   "lemma": "ཁྲོ་གཉེར།",
+   "b_surfaces": [
+    "ཁྲོ་གཉེར་"
+   ],
+   "rank": 25
+  },
+  {
+   "lemma": "ཁྲོ་གཉེར་ཅན།",
+   "b_surfaces": [
+    "ཁྲོ་གཉེར་ཅན་"
+   ],
+   "rank": 151
+  },
+  {
+   "lemma": "གདོན།",
+   "b_surfaces": [
+    "གདོན་"
+   ],
+   "rank": 6
+  },
+  {
+   "lemma": "གནོད་སྦྱིན།",
+   "b_surfaces": [
+    "གནོད་སྦྱིན་"
+   ],
+   "rank": 57
+  },
+  {
+   "lemma": "གཙུག་ཏོར།",
+   "b_surfaces": [
+    "གཙུག་ཏོར"
+   ],
+   "rank": 14
+  },
+  {
+   "lemma": "གཟིར་བ།",
+   "b_surfaces": [
+    "གཟིར་བ"
+   ],
+   "rank": 308
+  },
+  {
+   "lemma": "གསལ་མ།",
+   "b_surfaces": [
+    "གསལ་མ"
+   ],
+   "rank": 277
+  },
+  {
+   "lemma": "གེ་སར།",
+   "b_surfaces": [
+    "གེ་སར་"
+   ],
+   "rank": 124
+  },
+  {
+   "lemma": "གོ་ཆ།",
+   "b_surfaces": [
+    "གོ་ཆ་"
+   ],
+   "rank": 95
+  },
+  {
+   "lemma": "གོ་འཕང།",
+   "b_surfaces": [
+    "གོ་འཕང་"
+   ],
+   "rank": 141
+  },
+  {
+   "lemma": "གློག།",
+   "b_surfaces": [
+    "གློག་"
+   ],
+   "rank": 88
+  },
+  {
+   "lemma": "ངན་འགྲོ།",
+   "b_surfaces": [
+    "ངན་འགྲོ་"
+   ],
+   "rank": 120
+  },
+  {
+   "lemma": "ཆུ་ནས་སྐྱེས།",
+   "b_surfaces": [
+    "ཆུ་ནས་སྐྱེས་"
+   ],
+   "rank": 192
+  },
+  {
+   "lemma": "ཆུ་སྐྱེས།",
+   "b_surfaces": [
+    "ཆུ་སྐྱེས་"
+   ],
+   "rank": 190
+  },
+  {
+   "lemma": "ཆུ་སྐྱེས་ཞལ།",
+   "b_surfaces": [
+    "ཆུ་སྐྱེས་ཞལ་"
+   ],
+   "rank": 136
+  },
+  {
+   "lemma": "ཉི་མ།",
+   "b_surfaces": [
+    "ཉི་མ་"
+   ],
+   "rank": 28
+  },
+  {
+   "lemma": "ཉི་ཤུ་རྩ་གཅིག།",
+   "b_surfaces": [
+    "ཉི་ཤུ་རྩ་གཅིག",
+    "ཉི་ཤུ་རྩ་གཅིག་"
+   ],
+   "rank": 9
+  },
+  {
+   "lemma": "ཏཱ་ར།",
+   "b_surfaces": [
+    "ཏཱ་ར་"
+   ],
+   "rank": 134
+  },
+  {
+   "lemma": "ཏུ་ཏྟྭ་ར།",
+   "b_surfaces": [
+    "ཏུ་ཏྟྭ་ར་",
+    "ཏུཏྟྭ་ར་"
+   ],
+   "rank": 92
+  },
+  {
+   "lemma": "ཏུ་རེ།",
+   "b_surfaces": [
+    "ཏུ་རེ",
+    "ཏུ་རེ་"
+   ],
+   "rank": 16
+  },
+  {
+   "lemma": "ཏྲད།",
+   "b_surfaces": [
+    "ཏྲད་"
+   ],
+   "rank": 206
+  },
+  {
+   "lemma": "ཐུགས་ཀ།",
+   "b_surfaces": [
+    "ཐུགས་ཀ"
+   ],
+   "rank": 40
+  },
+  {
+   "lemma": "ཐོབ།",
+   "b_surfaces": [
+    "ཐོབ་"
+   ],
+   "rank": 223
+  },
+  {
+   "lemma": "ཐོ་རངས།",
+   "b_surfaces": [
+    "ཐོ་རངས་"
+   ],
+   "rank": 147
+  },
+  {
+   "lemma": "དཀའ་ཐུབ།",
+   "b_surfaces": [
+    "དཀའ་ཐུབ་"
+   ],
+   "rank": 99
+  },
+  {
+   "lemma": "དཀོན་མཆོག།",
+   "b_surfaces": [
+    "དཀོན་མཆོག་"
+   ],
+   "rank": 188
+  },
+  {
+   "lemma": "དཀོན་མཆོག་གསུམ།",
+   "b_surfaces": [
+    "དཀོན་མཆོག་གསུམ་"
+   ],
+   "rank": 22
+  },
+  {
+   "lemma": "དགའ་བ།",
+   "b_surfaces": [
+    "དགའ་བ་"
+   ],
+   "rank": 176
+  },
+  {
+   "lemma": "དགེ་མ།",
+   "b_surfaces": [
+    "དགེ་མ་"
+   ],
+   "rank": 48
+  },
+  {
+   "lemma": "དགྲ།",
+   "b_surfaces": [
+    "དགྲ་"
+   ],
+   "rank": 66
+  },
+  {
+   "lemma": "དགྲ་བོ།",
+   "b_surfaces": [
+    "དགྲ་བོ་"
+   ],
+   "rank": 119
+  },
+  {
+   "lemma": "དཔའ་བོ།",
+   "b_surfaces": [
+    "དཔའ་བོ་"
+   ],
+   "rank": 133
+  },
+  {
+   "lemma": "དཔའ་མོ།",
+   "b_surfaces": [
+    "དཔའ་མོ"
+   ],
+   "rank": 19
+  },
+  {
+   "lemma": "དཔུང་།",
+   "b_surfaces": [
+    "དཔུང་"
+   ],
+   "rank": 178
+  },
+  {
+   "lemma": "དབང་།",
+   "b_surfaces": [
+    "དབང་"
+   ],
+   "rank": 69
+  },
+  {
+   "lemma": "དབུ་རྒྱན།",
+   "b_surfaces": [
+    "དབུ་རྒྱན་"
+   ],
+   "rank": 13
+  },
+  {
+   "lemma": "དུག།",
+   "b_surfaces": [
+    "དུག་"
+   ],
+   "rank": 15
+  },
+  {
+   "lemma": "དེ་ཉིད་གསུམ།",
+   "b_surfaces": [
+    "དེ་ཉིད་གསུམ་"
+   ],
+   "rank": 105
+  },
+  {
+   "lemma": "དེ་བཞིན་གཤེགས་པ།",
+   "b_surfaces": [
+    "དེ་བཞིན་གཤེགས་པ་"
+   ],
+   "rank": 56
+  },
+  {
+   "lemma": "དྲི་ཟ།",
+   "b_surfaces": [
+    "དྲི་ཟ་"
+   ],
+   "rank": 54
+  },
+  {
+   "lemma": "ནམ་མཁའ།",
+   "b_surfaces": [
+    "ནམ་མཁའ"
+   ],
+   "rank": 123
+  },
+  {
+   "lemma": "ནོར།",
+   "b_surfaces": [
+    "ནོར་"
+   ],
+   "rank": 122
+  },
+  {
+   "lemma": "པདྨ།",
+   "b_surfaces": [
+    "པདྨ"
+   ],
+   "rank": 43
+  },
+  {
+   "lemma": "ཕཊ།",
+   "b_surfaces": [
+    "ཕཊ",
+    "ཕཊ་"
+   ],
+   "rank": 77
+  },
+  {
+   "lemma": "ཕན་ཡོན།",
+   "b_surfaces": [
+    "ཕན་ཡོན་"
+   ],
+   "rank": 100
+  },
+  {
+   "lemma": "ཕ་རོལ་ཕྱིན་པ།",
+   "b_surfaces": [
+    "ཕ་རོལ་ཕྱིན་པ་"
+   ],
+   "rank": 84
+  },
+  {
+   "lemma": "ཕོངས་པ།",
+   "b_surfaces": [
+    "ཕོངས་པ་"
+   ],
+   "rank": 64
+  },
+  {
+   "lemma": "ཕྱག།",
+   "b_surfaces": [
+    "ཕྱག་"
+   ],
+   "rank": 58
+  },
+  {
+   "lemma": "ཕྱག་འཚལ།",
+   "b_surfaces": [
+    "ཕྱག་འཚལ་"
+   ],
+   "rank": 17
+  },
+  {
+   "lemma": "ཕྱག་འཚལ་བ།",
+   "b_surfaces": [
+    "ཕྱག་འཚལ་བ་"
+   ],
+   "rank": 38
+  },
+  {
+   "lemma": "ཕྱག་རྒྱ།",
+   "b_surfaces": [
+    "ཕྱག་རྒྱ"
+   ],
+   "rank": 41
+  },
+  {
+   "lemma": "ཕྱོགས།",
+   "b_surfaces": [
+    "ཕྱོགས་"
+   ],
+   "rank": 46
+  },
+  {
+   "lemma": "ཕྲེང་བ།",
+   "b_surfaces": [
+    "ཕྲེང་བ་"
+   ],
+   "rank": 75
+  },
+  {
+   "lemma": "བགེགས།",
+   "b_surfaces": [
+    "བགེགས་"
+   ],
+   "rank": 87
+  },
+  {
+   "lemma": "བཅོམ་ལྡན་འདས་མ།",
+   "b_surfaces": [
+    "བཅོམ་ལྡན་འདས་མ་"
+   ],
+   "rank": 212
+  },
+  {
+   "lemma": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།",
+   "b_surfaces": [
+    "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ་"
+   ],
+   "rank": 310
+  },
+  {
+   "lemma": "བདུད།",
+   "b_surfaces": [
+    "བདུད་"
+   ],
+   "rank": 5
+  },
+  {
+   "lemma": "བདེ་མ།",
+   "b_surfaces": [
+    "བདེ་མ་"
+   ],
+   "rank": 34
+  },
+  {
+   "lemma": "བཞད་པ།",
+   "b_surfaces": [
+    "བཞད་པ་"
+   ],
+   "rank": 83
+  },
+  {
+   "lemma": "བཟོད་པ།",
+   "b_surfaces": [
+    "བཟོད་པ་"
+   ],
+   "rank": 80
+  },
+  {
+   "lemma": "བརྒྱ་བྱིན།",
+   "b_surfaces": [
+    "བརྒྱ་བྱིན་"
+   ],
+   "rank": 33
+  },
+  {
+   "lemma": "བརྗིད།",
+   "b_surfaces": [
+    "བརྗིད་"
+   ],
+   "rank": 207
+  },
+  {
+   "lemma": "བརྗོད།",
+   "b_surfaces": [
+    "བརྗོད་"
+   ],
+   "rank": 245
+  },
+  {
+   "lemma": "བརྩོན་འགྲུས།",
+   "b_surfaces": [
+    "བརྩོན་འགྲུས་"
+   ],
+   "rank": 82
+  },
+  {
+   "lemma": "བསམ་གཏན།",
+   "b_surfaces": [
+    "བསམ་གཏན་"
+   ],
+   "rank": 79
+  },
+  {
+   "lemma": "བསྐལ་པ།",
+   "b_surfaces": [
+    "བསྐལ་པ་"
+   ],
+   "rank": 52
+  },
+  {
+   "lemma": "བསྟེན་མ།",
+   "b_surfaces": [
+    "བསྟེན་མ"
+   ],
+   "rank": 155
+  },
+  {
+   "lemma": "བསྟོད་པ།",
+   "b_surfaces": [
+    "བསྟོད་པ་"
+   ],
+   "rank": 12
+  },
+  {
+   "lemma": "བསྣམས་མ།",
+   "b_surfaces": [
+    "བསྣམས་མ"
+   ],
+   "rank": 198
+  },
+  {
+   "lemma": "བུ།",
+   "b_surfaces": [
+    "བུ་"
+   ],
+   "rank": 61
+  },
+  {
+   "lemma": "བོད་སྐད།",
+   "b_surfaces": [
+    "བོད་སྐད་"
+   ],
+   "rank": 314
+  },
+  {
+   "lemma": "བློ་ལྡན།",
+   "b_surfaces": [
+    "བློ་ལྡན་"
+   ],
+   "rank": 247
+  },
+  {
+   "lemma": "མགོན།",
+   "b_surfaces": [
+    "མགོན་"
+   ],
+   "rank": 131
+  },
+  {
+   "lemma": "མཐའ་ཡས།",
+   "b_surfaces": [
+    "མཐའ་ཡས་"
+   ],
+   "rank": 128
+  },
+  {
+   "lemma": "མཐར་ཐུག།",
+   "b_surfaces": [
+    "མཐར་ཐུག་"
+   ],
+   "rank": 164
+  },
+  {
+   "lemma": "མཐིལ།",
+   "b_surfaces": [
+    "མཐིལ་"
+   ],
+   "rank": 90
+  },
+  {
+   "lemma": "མཐུ།",
+   "b_surfaces": [
+    "མཐུ་"
+   ],
+   "rank": 60
+  },
+  {
+   "lemma": "མན་དཱ་ར།",
+   "b_surfaces": [
+    "མན་དཱ་ར་"
+   ],
+   "rank": 135
+  },
+  {
+   "lemma": "མཚོ།",
+   "b_surfaces": [
+    "མཚོ་"
+   ],
+   "rank": 102
+  },
+  {
+   "lemma": "མི་འཇིགས།",
+   "b_surfaces": [
+    "མི་འཇིགས་"
+   ],
+   "rank": 114
+  },
+  {
+   "lemma": "མིའམ་ཅི།",
+   "b_surfaces": [
+    "མིའམ་ཅི་"
+   ],
+   "rank": 72
+  },
+  {
+   "lemma": "མེ།",
+   "b_surfaces": [
+    "མེ་"
+   ],
+   "rank": 81
+  },
+  {
+   "lemma": "མེ་ལྷ།",
+   "b_surfaces": [
+    "མེ་ལྷ་"
+   ],
+   "rank": 53
+  },
+  {
+   "lemma": "མྱ་ངན་འདས།",
+   "b_surfaces": [
+    "མྱ་ངན་འདས་"
+   ],
+   "rank": 132
+  },
+  {
+   "lemma": "མྱུར་མ།",
+   "b_surfaces": [
+    "མྱུར་མ་"
+   ],
+   "rank": 7
+  },
+  {
+   "lemma": "ཚངས་པ།",
+   "b_surfaces": [
+    "ཚངས་པ"
+   ],
+   "rank": 47
+  },
+  {
+   "lemma": "ཚོགས།",
+   "b_surfaces": [
+    "ཚོགས་"
+   ],
+   "rank": 101
+  },
+  {
+   "lemma": "ཞབས།",
+   "b_surfaces": [
+    "ཞབས་"
+   ],
+   "rank": 20
+  },
+  {
+   "lemma": "ཞལ།",
+   "b_surfaces": [
+    "ཞལ་"
+   ],
+   "rank": 10
+  },
+  {
+   "lemma": "ཞི་བ།",
+   "b_surfaces": [
+    "ཞི་བ",
+    "ཞི་བ་"
+   ],
+   "rank": 4
+  },
+  {
+   "lemma": "ཞི་མ།",
+   "b_surfaces": [
+    "ཞི་མ་"
+   ],
+   "rank": 32
+  },
+  {
+   "lemma": "ཟོས་པ།",
+   "b_surfaces": [
+    "ཟོས་པ་"
+   ],
+   "rank": 260
+  },
+  {
+   "lemma": "ཟླ་བ།",
+   "b_surfaces": [
+    "ཟླ་བ",
+    "ཟླ་བ་"
+   ],
+   "rank": 11
+  },
+  {
+   "lemma": "འཁོར་ལོ།",
+   "b_surfaces": [
+    "འཁོར་ལོ"
+   ],
+   "rank": 30
+  },
+  {
+   "lemma": "འཁྲུལ་འཁོར།",
+   "b_surfaces": [
+    "འཁྲུལ་འཁོར་"
+   ],
+   "rank": 74
+  },
+  {
+   "lemma": "འགྲོ།",
+   "b_surfaces": [
+    "འགྲོ"
+   ],
+   "rank": 278
+  },
+  {
+   "lemma": "འགྲོ་བ།",
+   "b_surfaces": [
+    "འགྲོ་བ"
+   ],
+   "rank": 254
+  },
+  {
+   "lemma": "འཇིག་རྟེན།",
+   "b_surfaces": [
+    "འཇིག་རྟེན་"
+   ],
+   "rank": 76
+  },
+  {
+   "lemma": "འཇིག་རྟེན་གསུམ།",
+   "b_surfaces": [
+    "འཇིག་རྟེན་གསུམ་"
+   ],
+   "rank": 44
+  },
+  {
+   "lemma": "འཇོམས་པ།",
+   "b_surfaces": [
+    "འཇོམས་པ་"
+   ],
+   "rank": 152
+  },
+  {
+   "lemma": "འཐུངས་པ།",
+   "b_surfaces": [
+    "འཐུངས་པ་"
+   ],
+   "rank": 270
+  },
+  {
+   "lemma": "འཐོབ།",
+   "b_surfaces": [
+    "འཐོབ་"
+   ],
+   "rank": 336
+  },
+  {
+   "lemma": "འདོད།",
+   "b_surfaces": [
+    "འདོད་"
+   ],
+   "rank": 214
+  },
+  {
+   "lemma": "འདོད་པ།",
+   "b_surfaces": [
+    "འདོད་པ་"
+   ],
+   "rank": 224
+  },
+  {
+   "lemma": "འཕགས་མ།",
+   "b_surfaces": [
+    "འཕགས་མ་"
+   ],
+   "rank": 24
+  },
+  {
+   "lemma": "འབར་མ།",
+   "b_surfaces": [
+    "འབར་མ"
+   ],
+   "rank": 246
+  },
+  {
+   "lemma": "འབིགས་བྱེད།",
+   "b_surfaces": [
+    "འབིགས་བྱེད"
+   ],
+   "rank": 118
+  },
+  {
+   "lemma": "འབྱུང་པོ།",
+   "b_surfaces": [
+    "འབྱུང་པོ་"
+   ],
+   "rank": 94
+  },
+  {
+   "lemma": "འོད།",
+   "b_surfaces": [
+    "འོད་"
+   ],
+   "rank": 18
+  },
+  {
+   "lemma": "འོད་དཔག་མེད།",
+   "b_surfaces": [
+    "འོད་དཔག་མེད་"
+   ],
+   "rank": 73
+  },
+  {
+   "lemma": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།",
+   "b_surfaces": [
+    "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་"
+   ],
+   "rank": 282
+  },
+  {
+   "lemma": "ཡི་གེ།",
+   "b_surfaces": [
+    "ཡི་གེ",
+    "ཡི་གེ་"
+   ],
+   "rank": 130
+  },
+  {
+   "lemma": "ཡི་གེ་ཧཱུཾ།",
+   "b_surfaces": [
+    "ཡི་གེ་ཧཱུྃ་"
+   ],
+   "rank": 85
+  },
+  {
+   "lemma": "རི་དགས་རྟགས་ཅན།",
+   "b_surfaces": [
+    "རི་དགས་རྟགས་ཅན་"
+   ],
+   "rank": 117
+  },
+  {
+   "lemma": "རིམས།",
+   "b_surfaces": [
+    "རིམས་"
+   ],
+   "rank": 2
+  },
+  {
+   "lemma": "རི་རབ།",
+   "b_surfaces": [
+    "རི་རབ་"
+   ],
+   "rank": 62
+  },
+  {
+   "lemma": "རོ་ལངས།",
+   "b_surfaces": [
+    "རོ་ལངས་"
+   ],
+   "rank": 26
+  },
+  {
+   "lemma": "རྒྱ་གར།",
+   "b_surfaces": [
+    "རྒྱ་གར་"
+   ],
+   "rank": 326
+  },
+  {
+   "lemma": "རྒྱ་གར་སྐད།",
+   "b_surfaces": [
+    "རྒྱ་གར་སྐད་"
+   ],
+   "rank": 341
+  },
+  {
+   "lemma": "རྒྱལ་པོ།",
+   "b_surfaces": [
+    "རྒྱལ་པོ"
+   ],
+   "rank": 108
+  },
+  {
+   "lemma": "རྒྱལ་བ།",
+   "b_surfaces": [
+    "རྒྱལ་བ",
+    "རྒྱལ་བ་"
+   ],
+   "rank": 35
+  },
+  {
+   "lemma": "རྗེ་བཙུན་མ།",
+   "b_surfaces": [
+    "རྗེ་བཙུན་མ་"
+   ],
+   "rank": 55
+  },
+  {
+   "lemma": "རྨི་ལམ།",
+   "b_surfaces": [
+    "རྨི་ལམ་"
+   ],
+   "rank": 3
+  },
+  {
+   "lemma": "རྩོད།",
+   "b_surfaces": [
+    "རྩོད་"
+   ],
+   "rank": 8
+  },
+  {
+   "lemma": "རླུང་ལྷ།",
+   "b_surfaces": [
+    "རླུང་ལྷ་"
+   ],
+   "rank": 65
+  },
+  {
+   "lemma": "ལུས།",
+   "b_surfaces": [
+    "ལུས་"
+   ],
+   "rank": 168
+  },
+  {
+   "lemma": "ལྷ།",
+   "b_surfaces": [
+    "ལྷ་"
+   ],
+   "rank": 59
+  },
+  {
+   "lemma": "ལྷ་མོ།",
+   "b_surfaces": [
+    "ལྷ་མོ་"
+   ],
+   "rank": 104
+  },
+  {
+   "lemma": "ས་གཞི།",
+   "b_surfaces": [
+    "ས་གཞི་"
+   ],
+   "rank": 45
+  },
+  {
+   "lemma": "སངས་རྒྱས།",
+   "b_surfaces": [
+    "སངས་རྒྱས་"
+   ],
+   "rank": 116
+  },
+  {
+   "lemma": "ས་བོན།",
+   "b_surfaces": [
+    "ས་བོན་"
+   ],
+   "rank": 70
+  },
+  {
+   "lemma": "སེམས་ཅན།",
+   "b_surfaces": [
+    "སེམས་ཅན་"
+   ],
+   "rank": 125
+  },
+  {
+   "lemma": "སེལ་བ།",
+   "b_surfaces": [
+    "སེལ་བ་"
+   ],
+   "rank": 199
+  },
+  {
+   "lemma": "སེལ་མ།",
+   "b_surfaces": [
+    "སེལ་མ"
+   ],
+   "rank": 203
+  },
+  {
+   "lemma": "སོར་མོ།",
+   "b_surfaces": [
+    "སོར་མོ"
+   ],
+   "rank": 150
+  },
+  {
+   "lemma": "སྐད་ཅིག།",
+   "b_surfaces": [
+    "སྐད་ཅིག་"
+   ],
+   "rank": 137
+  },
+  {
+   "lemma": "སྐར་མ།",
+   "b_surfaces": [
+    "སྐར་མ་"
+   ],
+   "rank": 68
+  },
+  {
+   "lemma": "སྐྱོང་བ།",
+   "b_surfaces": [
+    "སྐྱོང་བ"
+   ],
+   "rank": 37
+  },
+  {
+   "lemma": "སྒྲོན་མ།",
+   "b_surfaces": [
+    "སྒྲོན་མ་"
+   ],
+   "rank": 295
+  },
+  {
+   "lemma": "སྒྲོལ་མ།",
+   "b_surfaces": [
+    "སྒྲོལ་མ་"
+   ],
+   "rank": 1
+  },
+  {
+   "lemma": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།",
+   "b_surfaces": [
+    "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ"
+   ],
+   "rank": 170
+  },
+  {
+   "lemma": "སྔགས།",
+   "b_surfaces": [
+    "སྔགས་"
+   ],
+   "rank": 27
+  },
+  {
+   "lemma": "སྟོན་ཀ།",
+   "b_surfaces": [
+    "སྟོན་ཀ་"
+   ],
+   "rank": 237
+  },
+  {
+   "lemma": "སྟོན་ཀའི་ཟླ་བ།",
+   "b_surfaces": [
+    "སྟོན་ཀའི་ཟླ་བ་"
+   ],
+   "rank": 71
+  },
+  {
+   "lemma": "སྡིག་པ།",
+   "b_surfaces": [
+    "སྡིག་པ་"
+   ],
+   "rank": 21
+  },
+  {
+   "lemma": "སྡུག་བསྔལ།",
+   "b_surfaces": [
+    "སྡུག་བསྔལ་"
+   ],
+   "rank": 50
+  },
+  {
+   "lemma": "སྤྱན།",
+   "b_surfaces": [
+    "སྤྱན་"
+   ],
+   "rank": 42
+  },
+  {
+   "lemma": "སྤྱོད་ཡུལ།",
+   "b_surfaces": [
+    "སྤྱོད་ཡུལ་"
+   ],
+   "rank": 126
+  },
+  {
+   "lemma": "སྦྱིན་པ།",
+   "b_surfaces": [
+    "སྦྱིན་པ་"
+   ],
+   "rank": 78
+  },
+  {
+   "lemma": "སྭཱ་ཧཱ།",
+   "b_surfaces": [
+    "སྭཱ་ཧཱ་"
+   ],
+   "rank": 93
+  },
+  {
+   "lemma": "སྲས།",
+   "b_surfaces": [
+    "སྲས་"
+   ],
+   "rank": 36
+  },
+  {
+   "lemma": "སྲོད།",
+   "b_surfaces": [
+    "སྲོད་"
+   ],
+   "rank": 146
+  },
+  {
+   "lemma": "ཧ་ར།",
+   "b_surfaces": [
+    "ཧ་ར་"
+   ],
+   "rank": 67
+  },
+  {
+   "lemma": "ཧཱུྃ།",
+   "b_surfaces": [
+    "ཧཱུཾ་",
+    "ཧཱུྃ",
+    "ཧཱུྃ་"
+   ],
+   "rank": 23
+  }
+ ]
+}

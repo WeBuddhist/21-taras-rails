@@ -235,13 +235,23 @@ def load_glossary(path):
     return [e for e in entries if e[0] and e[1]]
 
 
-def build_context(header, done, unit, glossary, window, char_cap):
-    """Compose the `context` field: work header + glossary hits + rolling prior blocks."""
+def build_context(header, done, unit, glossary, window, char_cap, max_hits=15):
+    """Compose the `context` field: work header + glossary hits + rolling prior blocks.
+
+    FORK(21-taras-rails): `max_hits` was a hard-coded 15. It is a flag
+    (`--glossary-max-hits`) because `dharmamitra-termlocked` sends a whole
+    termbase, where a silent truncation at 15 drops real locks — and a dropped
+    lock is invisible in the output. `last_glossary_hits` records what was
+    actually sent, for the ledger.
+    """
     parts = [header.strip()] if header.strip() else []
 
     hits = [f"{s} → {t}" for s, t in glossary if s and s in unit["text"]]
+    build_context.last_glossary_hits = hits[:max_hits]
+    build_context.last_glossary_dropped = hits[max_hits:]
     if hits:
-        parts.append("Terminology already fixed for this text:\n" + "\n".join(hits[:15]))
+        parts.append("Terminology already fixed for this text:\n"
+                     + "\n".join(hits[:max_hits]))
 
     rolling = []
     for rec in done[-window:] if window > 0 else []:
@@ -265,6 +275,10 @@ def build_context(header, done, unit, glossary, window, char_cap):
         )
         ctx = "\n\n".join(parts)
     return ctx[:char_cap]
+
+
+build_context.last_glossary_hits = []
+build_context.last_glossary_dropped = []
 
 
 # ---------------------------------------------------------------- track seeding
@@ -597,7 +611,7 @@ def render(out_md, units, ledger, meta, args, source_rel, prov=None, extra_fm=No
         "language": LANG_NAMES.get(args.lang_tag, args.lang.title()),
         "lang_tag": args.lang_tag,
         "file_type": "translation",
-        "track_type": "machine-baseline",
+        "track_type": getattr(args, "track_type", "machine-baseline"),
         "root_text": source_rel,
         "translation_of_text_id": keep("translation_of_text_id", meta.get("text_id") or ""),
         "translation_of_edition_id": keep("translation_of_edition_id", meta.get("edition_id") or ""),
@@ -617,7 +631,7 @@ def render(out_md, units, ledger, meta, args, source_rel, prov=None, extra_fm=No
         "endpoint": prov["endpoint"],
         **prov["fields"],
         "style_instruction": args.style,
-        "rails_used": "none",
+        "rails_used": getattr(args, "rails_used", "none"),
         "generated": _dt.date.today().isoformat(),
         "blocks_translated": n_blocks_done,
         "blocks_total": n_blocks_total,
@@ -705,6 +719,17 @@ def main():
                    help="file with the fixed work-level context prepended to every call")
     p.add_argument("--glossary", default=None,
                    help="optional 'source<TAB>target' lines; matching entries join the context")
+    p.add_argument("--track-type", default="machine-baseline",
+                   help="FORK(21-taras-rails): frontmatter track_type. dharmamitra-termlocked "
+                        "passes 'term-locked' so a vocabulary-standardised track is never "
+                        "mislabelled as the unlocked baseline it is measured against.")
+    p.add_argument("--rails-used", default="none",
+                   help="FORK(21-taras-rails): frontmatter rails_used; the termbase and "
+                        "registry a term-locked run was governed by.")
+    p.add_argument("--glossary-max-hits", type=int, default=15,
+                   help="max glossary entries sent with one call (FORK(21-taras-rails): was "
+                        "a hard-coded 15; dharmamitra-termlocked raises it so a whole "
+                        "termbase is not silently truncated)")
     p.add_argument("--context-blocks", type=int, default=3,
                    help="how many prior translated blocks to thread back in (0 disables)")
     p.add_argument("--context-cap", type=int, default=3000, help="max chars of context")
@@ -932,6 +957,8 @@ def main():
             "batch_size": len(batch_ids),
             "batch_block_ids": batch_ids,
             "batch_fallback": fell_back,
+            "glossary_hits": list(build_context.last_glossary_hits),
+            "glossary_dropped": list(build_context.last_glossary_dropped),
             "elapsed_s": round(elapsed, 2),
             "ts": _dt.datetime.now().isoformat(timespec="seconds"),
         }
@@ -954,7 +981,8 @@ def main():
                                       if b in order and b not in ids and order[b] < first_pos)]
         combined = {"text": "\n".join(u["text"] for u in batch)}
         return build_context(header, prior, combined, glossary,
-                             args.context_blocks, args.context_cap)
+                             args.context_blocks, args.context_cap,
+                             args.glossary_max_hits)
 
     for bi, batch in enumerate(batches, 1):
         ids = [u["id"] for u in batch]
