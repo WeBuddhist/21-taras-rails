@@ -35,8 +35,8 @@
     "zh_note": "Classical has 敬禮 in all 21 stanzas; DharmaMitra has 頂禮. Both are standard. 敬禮 is what Chinese practitioners already chant, and a modern reader understands it.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "21/21 of its verses",
-      "dharmamitra_zh": "0/25 of its verses"
+      "reference": "21/21 of its verses",
+      "machine_draft": "0/25 of its verses"
     }
   },
   "tara": {
@@ -54,8 +54,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical 救度母 / 尊聖救度母; DharmaMitra 度母 / 救度母; the Karmapa-office title uses 度母. The short name 度母 is the common modern one.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "4/5 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "4/5 of its verses"
     }
   },
   "benefits": {
@@ -70,8 +70,8 @@
     "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "Standard rendering of ཕན་ཡོན; classical has no heading for it.",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "2/2 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "2/2 of its verses"
     }
   },
   "noble_venerable": {
@@ -85,8 +85,8 @@
     "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "རྗེ་བཙུན་ = 至尊 (standard); འཕགས་མ = 聖. Classical opening has 尊聖救度母; DharmaMitra 至尊聖救度母. Used before 度母: 至尊聖度母.",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "sanskrit_title": {
@@ -100,8 +100,8 @@
     "zh_source": "kept as in the English",
     "zh_note": "The Sanskrit title line stays in IAST, as in English (zh register rule).",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "praise": {
@@ -116,11 +116,11 @@
       "2-0",
       "a-1"
     ],
-    "zh_source": "DharmaMitra zh draft + standard Buddhist term",
+    "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "Classical uses 讚 / 讚嘆 / 稱歎; DharmaMitra 讚頌. 讚頌 is the clearest modern word for བསྟོད་པ.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "3/5 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "3/5 of its verses"
     }
   },
   "blessed_tara": {
@@ -135,8 +135,8 @@
     "zh_note": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ; 世尊度母 is used in modern Tibetan-Buddhist Chinese. 薄伽梵母 would be the technical alternative (advanced grade).",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "perfectly": {
@@ -152,8 +152,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "ཡང་དག / ཡང་དག་པར as a modifier; appears inside 圓滿具足 (1-15, 1-21). In a-1 it is part of 正等覺佛.",
     "zh_evidence": {
-      "classical_T1108": "0/2 of its verses",
-      "dharmamitra_zh": "2/3 of its verses"
+      "reference": "0/2 of its verses",
+      "machine_draft": "2/3 of its verses"
     }
   },
   "perfect_buddha": {
@@ -167,8 +167,8 @@
     "zh_source": "standard Buddhist term",
     "zh_note": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས = samyaksaṃbuddha = 正等覺 (standard pair). DharmaMitra wrote 正等覺如來, adding 如來 which is not in the Tibetan.",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "blessed_one": {
@@ -182,8 +182,8 @@
     "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "བཅོམ་ལྡན་འདས(མ) = 世尊. Only occurs inside 世尊度母 (a-1).",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "actual_praise": {
@@ -198,8 +198,8 @@
     "zh_note": "Section heading བསྟོད་པ་དངོས. DharmaMitra 正行讚頌 borrows 正行 (\"main practice\"), which fits a sādhana, not a section of a text. 讚頌正文 = \"the praise itself\".",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "lightning": {
@@ -210,11 +210,11 @@
     "verse_ids": [
       "1-1"
     ],
-    "zh_source": "DharmaMitra zh draft + classical canon (CBETA T1108)",
+    "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical 電光; DharmaMitra 閃電光. 閃電 is the plain modern word.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "world": {
@@ -231,8 +231,8 @@
     "zh_note": "Classical 三世界 (1-1), 七世界 (1-5). DharmaMitra mixes 三界 / 七世間界. 三界 is avoided because in Chinese it names the desire/form/formless realms (ཁམས་གསུམ), a different Tibetan word.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "2/3 of its verses",
-      "dharmamitra_zh": "0/3 of its verses"
+      "reference": "2/3 of its verses",
+      "machine_draft": "0/3 of its verses"
     }
   },
   "face": {
@@ -248,8 +248,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "Classical 面 (single character, too short to lock in modern prose); DharmaMitra 面容 / 容顏. Also inside 蓮花面容 (1-8).",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "1/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "1/3 of its verses"
     }
   },
   "lotus": {
@@ -262,11 +262,11 @@
       "1-1",
       "1-8"
     ],
-    "zh_source": "DharmaMitra zh draft + classical canon (CBETA T1108)",
+    "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical 蓮華 is the same word in older spelling; 蓮花 is the modern form.",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "3/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "3/3 of its verses"
     }
   },
   "lotus_face": {
@@ -280,8 +280,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "1-8 only (her own face, likened to a lotus), as settled in the English fact-check.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "light": {
@@ -299,8 +299,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "All sources use 光.",
     "zh_evidence": {
-      "classical_T1108": "5/5 of its verses",
-      "dharmamitra_zh": "5/5 of its verses"
+      "reference": "5/5 of its verses",
+      "machine_draft": "5/5 of its verses"
     }
   },
   "blaze": {
@@ -316,8 +316,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "DharmaMitra 熾燃 / 熾然 (inconsistent — locked to 熾燃); classical 熾盛. 熾燃 keeps the sense of flames.",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "1/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "1/3 of its verses"
     }
   },
   "moon": {
@@ -334,8 +334,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "All sources use 月. Includes the kenning རི་དགས་རྟགས་ཅན (\"deer-marked one\") in 1-18, as in English.",
     "zh_evidence": {
-      "classical_T1108": "3/4 of its verses",
-      "dharmamitra_zh": "4/4 of its verses"
+      "reference": "3/4 of its verses",
+      "machine_draft": "4/4 of its verses"
     }
   },
   "peace": {
@@ -348,11 +348,11 @@
       "1-15",
       "1-21"
     ],
-    "zh_source": "DharmaMitra zh draft + standard Buddhist term",
+    "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "ཞི / ཞི་བ = 寂靜 (standard). Classical 靜 / 善靜 / 寂滅.",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "2/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "2/3 of its verses"
     }
   },
   "without_exception": {
@@ -367,8 +367,8 @@
     "zh_source": "classical canon (CBETA T1108)",
     "zh_note": "Classical 盡無餘 / 攝無餘; DharmaMitra 無餘. Readers know 一切無餘.",
     "zh_evidence": {
-      "classical_T1108": "1/2 of its verses",
-      "dharmamitra_zh": "0/2 of its verses"
+      "reference": "1/2 of its verses",
+      "machine_draft": "0/2 of its verses"
     }
   },
   "hum": {
@@ -386,8 +386,8 @@
     "zh_source": "classical canon (CBETA T1108) + modern Tārā-mantra recitation",
     "zh_note": "All Chinese sources write 吽.",
     "zh_evidence": {
-      "classical_T1108": "5/5 of its verses",
-      "dharmamitra_zh": "1/5 of its verses"
+      "reference": "5/5 of its verses",
+      "machine_draft": "1/5 of its verses"
     }
   },
   "syllable": {
@@ -401,8 +401,8 @@
     "zh_source": "classical canon (CBETA T1108)",
     "zh_note": "Classical 吽字; DharmaMitra 字.",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "trampling": {
@@ -417,8 +417,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical 足踏 / 踐蹋; DharmaMitra 足下踏. Single character so the verb can sit in natural phrases (踩踏, 踏於).",
     "zh_evidence": {
-      "classical_T1108": "1/2 of its verses",
-      "dharmamitra_zh": "2/2 of its verses"
+      "reference": "1/2 of its verses",
+      "machine_draft": "2/2 of its verses"
     }
   },
   "feet": {
@@ -434,8 +434,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical and DharmaMitra 足.",
     "zh_evidence": {
-      "classical_T1108": "3/3 of its verses",
-      "dharmamitra_zh": "3/3 of its verses"
+      "reference": "3/3 of its verses",
+      "machine_draft": "3/3 of its verses"
     }
   },
   "tuttare": {
@@ -452,8 +452,8 @@
     "zh_note": "ཏུཏྟྭ་ར. The Tārā mantra is commonly recited 嗡 達咧 都達咧 都咧 梭哈. Classical writes it three ways (怛囉 1-5, 覩怛哩 1-10, 咄怛哩 1-20); DharmaMitra left Latin. Same normalisation as the English \"tuttare\".",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "0/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "0/3 of its verses"
     }
   },
   "hosts": {
@@ -470,8 +470,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical and DharmaMitra 眾.",
     "zh_evidence": {
-      "classical_T1108": "2/4 of its verses",
-      "dharmamitra_zh": "2/4 of its verses"
+      "reference": "2/4 of its verses",
+      "machine_draft": "2/4 of its verses"
     }
   },
   "spirit": {
@@ -486,8 +486,8 @@
     "zh_note": "འབྱུང་པོ (bhūta). Classical and DharmaMitra both write the transliteration 部多, which a general reader cannot parse. 鬼神 is the ordinary Chinese word for spirits and keeps it distinct from 邪魅 (གདོན).",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "destroy": {
@@ -504,8 +504,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "DharmaMitra 摧毀; classical 摧壞 / 摧滅 (same root 摧).",
     "zh_evidence": {
-      "classical_T1108": "0/4 of its verses",
-      "dharmamitra_zh": "2/4 of its verses"
+      "reference": "0/4 of its verses",
+      "machine_draft": "2/4 of its verses"
     }
   },
   "phat": {
@@ -521,8 +521,8 @@
     "zh_note": "ཕཊ. 呸 is the common modern Chinese form in Tibetan-Buddhist mantras; classical writes 發. Chinese characters per the user's choice.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "0/2 of its verses",
-      "dharmamitra_zh": "0/2 of its verses"
+      "reference": "0/2 of its verses",
+      "machine_draft": "0/2 of its verses"
     }
   },
   "trat": {
@@ -537,8 +537,8 @@
     "zh_note": "ཏྲད. Not part of the common mantra, so the classical form 特囉 (1-7 特囉胝發) is used.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "ture": {
@@ -554,8 +554,8 @@
     "zh_source": "modern Tārā-mantra recitation",
     "zh_note": "ཏུ་རེ. Recitation form 都咧 (嗡 達咧 都達咧 都咧 梭哈); classical 都哩.",
     "zh_evidence": {
-      "classical_T1108": "0/3 of its verses",
-      "dharmamitra_zh": "0/3 of its verses"
+      "reference": "0/3 of its verses",
+      "machine_draft": "0/3 of its verses"
     }
   },
   "great": {
@@ -570,8 +570,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "ཆེན་མོ / ཆེན་པོ (1-8 大怖畏, 1-15 大罪). 2-3 ཆེ་བ is split out as \"greater\" for Chinese.",
     "zh_evidence": {
-      "classical_T1108": "2/2 of its verses",
-      "dharmamitra_zh": "2/2 of its verses"
+      "reference": "2/2 of its verses",
+      "machine_draft": "2/2 of its verses"
     }
   },
   "supreme": {
@@ -585,8 +585,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "རབ in 1-10 (supreme joy): classical 最極喜, DharmaMitra 極喜.",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "power": {
@@ -601,8 +601,8 @@
     "zh_note": "དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 (\"subdue by force\"), which is stronger than the Tibetan. 攝伏 = bring under one's control.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "joy": {
@@ -619,8 +619,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "Classical 歡悅 / 喜悅 / 喜笑; DharmaMitra 喜 / 歡喜 / 極喜. The shared character 喜 is locked so compounds stay natural.",
     "zh_evidence": {
-      "classical_T1108": "3/4 of its verses",
-      "dharmamitra_zh": "4/4 of its verses"
+      "reference": "3/4 of its verses",
+      "machine_draft": "4/4 of its verses"
     }
   },
   "syllable_hum": {
@@ -635,8 +635,8 @@
     "zh_source": "classical canon (CBETA T1108)",
     "zh_note": "Classical 吽字 / 吽聲; Chinese puts the syllable before 字.",
     "zh_evidence": {
-      "classical_T1108": "0/2 of its verses",
-      "dharmamitra_zh": "0/2 of its verses"
+      "reference": "0/2 of its verses",
+      "machine_draft": "0/2 of its verses"
     }
   },
   "ability": {
@@ -651,8 +651,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "ནུས (\"able to\"). Chinese says this with 能 (classical 亦能鉤召 1-11, 悉能鉤召 1-5). Added 1-5 for Chinese, where the same ནུས occurs; English did not lock it there.",
     "zh_evidence": {
-      "classical_T1108": "2/2 of its verses",
-      "dharmamitra_zh": "1/2 of its verses"
+      "reference": "2/2 of its verses",
+      "machine_draft": "1/2 of its verses"
     }
   },
   "perfectly_endowed": {
@@ -667,8 +667,8 @@
     "zh_source": "DharmaMitra zh draft",
     "zh_note": "ཡང་དག་ལྡན (1-15, 1-21). DharmaMitra 圓滿具足; classical 皆具足.",
     "zh_evidence": {
-      "classical_T1108": "0/2 of its verses",
-      "dharmamitra_zh": "1/2 of its verses"
+      "reference": "0/2 of its verses",
+      "machine_draft": "1/2 of its verses"
     }
   },
   "endowed": {
@@ -684,8 +684,8 @@
     "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft",
     "zh_note": "ལྡན. Classical 具足 (1-21).",
     "zh_evidence": {
-      "classical_T1108": "1/2 of its verses",
-      "dharmamitra_zh": "2/3 of its verses"
+      "reference": "1/2 of its verses",
+      "machine_draft": "2/3 of its verses"
     }
   },
   "mantra": {
@@ -700,8 +700,8 @@
     "zh_source": "classical canon (CBETA T1108) + standard Buddhist term",
     "zh_note": "སྔགས. Classical 呪 is a variant of 咒; DharmaMitra alternates 咒 / 真言 — locked to 咒 (根本咒 1-22, 十字咒 / 明咒 1-16).",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "2/2 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "2/2 of its verses"
     }
   },
   "goddess": {
@@ -716,8 +716,8 @@
     "zh_note": "ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "vetala": {
@@ -732,8 +732,8 @@
     "zh_source": "classical canon (CBETA T1108)",
     "zh_note": "རོ་ལངས (\"risen corpse\"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6.",
     "zh_evidence": {
-      "classical_T1108": "1/2 of its verses",
-      "dharmamitra_zh": "1/2 of its verses"
+      "reference": "1/2 of its verses",
+      "machine_draft": "1/2 of its verses"
     }
   },
   "empowerment": {
@@ -744,11 +744,11 @@
     "verse_ids": [
       "2-3"
     ],
-    "zh_source": "classical canon (CBETA T1108) + DharmaMitra zh draft + standard Buddhist term",
+    "zh_source": "classical canon (CBETA T1108) + standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "དབང in 2-3 (the Victors confer empowerment). Classical benefits section 灌頂.",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "1/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "1/1 of its verses"
     }
   },
   "demon": {
@@ -764,8 +764,8 @@
     "zh_note": "གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "0/2 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "0/2 of its verses"
     }
   },
   "yaksha": {
@@ -777,11 +777,11 @@
       "1-6",
       "1-21"
     ],
-    "zh_source": "DharmaMitra zh draft + standard Buddhist term",
+    "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "གནོད་སྦྱིན. Classical 藥叉 is the older spelling of the same word.",
     "zh_evidence": {
-      "classical_T1108": "0/2 of its verses",
-      "dharmamitra_zh": "1/2 of its verses"
+      "reference": "0/2 of its verses",
+      "machine_draft": "1/2 of its verses"
     }
   },
   "might": {
@@ -795,8 +795,8 @@
     "zh_source": "classical canon (CBETA T1108)",
     "zh_note": "མཐུ (1-21): classical 善靜威力; DharmaMitra 威德力.",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     }
   },
   "greater": {
@@ -807,12 +807,12 @@
     "verse_ids": [
       "2-3"
     ],
-    "zh_source": "DharmaMitra zh draft + standard Buddhist term",
+    "zh_source": "standard Buddhist term + DharmaMitra zh draft",
     "zh_note": "Chinese-only split from \"great\": ཆེ་བ in 2-3 is comparative (\"greater than this\"), so 大 does not fit. DharmaMitra 更勝者.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "no aligned verse",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "no aligned verse",
+      "machine_draft": "0/1 of its verses"
     },
     "zh_only": true
   },
@@ -828,8 +828,8 @@
     "zh_source": "modern Tārā-mantra recitation",
     "zh_note": "Chinese-only entry: English left mantra syllables unlocked. 嗡 is the common modern form; classical 唵.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "1/2 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "1/2 of its verses"
     },
     "zh_only": true
   },
@@ -844,8 +844,8 @@
     "zh_source": "modern Tārā-mantra recitation",
     "zh_note": "Chinese-only entry. Recitation form 梭哈; classical 莎訶.",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     },
     "zh_only": true
   },
@@ -861,8 +861,8 @@
     "zh_note": "Chinese-only entry. Not part of the common mantra; classical 1-20 誦二喝囉.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "1/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "1/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     },
     "zh_only": true
   },
@@ -878,8 +878,8 @@
     "zh_note": "Chinese-only entry. 1-18 \"reciting TĀRA twice\": the recitation form 達咧 (as in 嗡 達咧 都達咧), same normalisation as tuttare. Classical 誦二怛囉.",
     "zh_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "zh_evidence": {
-      "classical_T1108": "0/1 of its verses",
-      "dharmamitra_zh": "0/1 of its verses"
+      "reference": "0/1 of its verses",
+      "machine_draft": "0/1 of its verses"
     },
     "zh_only": true
   }

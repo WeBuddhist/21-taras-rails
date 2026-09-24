@@ -6,46 +6,29 @@ file_type: termbase-review
 grade: general
 termbase: en-bo-zh-termbase-general.json
 grade_file: bo_zh_keyword_general.json
-glossary: glossary-zh-general.tsv
-built: 2026-09-24
+decisions: zh-decisions-general.json
+built_by: zh-keyword-standardize/scripts/build_zh_termbase.py
 entries: 52
-decided_by_claude: 14
+decided_flagged: 14
 status: awaiting native-speaker review
 ---
 
-# Chinese word list — general grade
+# Chinese word list — Praise to the Twenty-One Tārās (general grade)
 
-This is the list of locked Chinese words for the Twenty-One Tārās. Every Chinese
-translation step must use these words for these Tibetan words.
+The locked Chinese words for this text. Every Chinese translation step must use these words for these
+Tibetan words. **Edit `zh-decisions-general.json`, not this file** — this file is rebuilt from it.
 
-**Choices made by Tenkal:** Traditional characters · clear modern Chinese
-(general grade, not the chanting style) · mantra syllables in Chinese characters ·
-flagged picks decided by Claude, with the reason written down.
+**Choices:** Traditional characters · clear modern Chinese (general grade, not the chanting style) · mantra syllables in Chinese characters · flagged picks decided by Claude, with the reason written down (Tenkal, 2026-09-24).
 
-**Sources, most trusted first:**
+**Sources:** (1) the classical canon version CBETA T1108B — the same text the 17th Karmapa office publishes — aligned in 0-INBOX/AI_translation/zh-references/zh-classical-T1108B.md, used for its words only; (2) the standard Buddhist term; (3) the DharmaMitra zero-shot zh draft, which suggests but never confirms. The online Mahāvyutpatti (Oslo) could not be read in this session, so "standard Buddhist term" means the well-known pair — the reviewer should check those.
 
-1. The classical Chinese version in the canon (CBETA T1108). It is the same text the
-   17th Karmapa's office publishes, and is aligned to our verses in
-   `0-INBOX/AI_translation/zh-references/zh-classical-T1108B.md`. We use it for its
-   words only.
-2. The standard Buddhist term for the Tibetan word.
-3. The DharmaMitra zero-shot Chinese draft. It can suggest a word, but it never
-   confirms one on its own.
+**Chinese-only entries:** greater, om, svaha, hara, tara_syllable.
 
-The online Mahāvyutpatti (Oslo) could not be read with the tools in this session,
-so "standard Buddhist term" means the well-known pair. The native reviewer should
-check those.
+**Baseline:** the DharmaMitra zero-shot draft already uses 63 of 137 locked words (46%, check_termbase_consistency.py --lang zh). Most misses are 頂禮 for 敬禮 and mantra syllables left in Latin letters.
 
-**Chinese-only entries** (`zh_only` in the JSON): mantra syllables that English left
-unlocked (嗡, 梭哈, 喝囉, 達咧), and "greater" (2-3), split from "great". `ability`
-also covers 1-5 in Chinese.
+## Flagged picks — please look at these first (14)
 
-**Baseline:** the DharmaMitra zero-shot draft already uses 63 of 137 locked words
-(46%). Most misses are 頂禮 for 敬禮 and mantra syllables left in Latin letters.
-
-## Decided by Claude — please look at these first (14)
-
-The sources disagreed on these, or none had a usable word. Each row says why.
+Sources disagreed or had nothing. Decided by: Claude pick — user delegated flagged picks ("go with your picks"), 2026-09-24.
 
 | Tibetan | English | Chinese | Source | Verses | Why |
 |---|---|---|---|---|---|
@@ -60,7 +43,7 @@ The sources disagreed on these, or none had a usable word. Each row says why.
 | དབང | power | **攝伏** | classical canon (CBETA T1108) | 1-10 | དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 ("subdue by force"), which is stronger than the Tibetan. 攝伏 = bring under one's control. |
 | ལྷ་མོ | goddess | **天女** | DharmaMitra zh draft | 2-1 | ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English. |
 | གདོན | demons | **邪魅** | new (no source had it) | 1-21, 2-5 | གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits. |
-| ཆེ་བ | greater | **更殊勝** | DharmaMitra zh draft + standard Buddhist term | 2-3 | Chinese-only split from "great": ཆེ་བ in 2-3 is comparative ("greater than this"), so 大 does not fit. DharmaMitra 更勝者. |
+| ཆེ་བ | greater | **更殊勝** | standard Buddhist term + DharmaMitra zh draft | 2-3 | Chinese-only split from "great": ཆེ་བ in 2-3 is comparative ("greater than this"), so 大 does not fit. DharmaMitra 更勝者. |
 | ཧ་ར | HARA | **喝囉** | classical canon (CBETA T1108) | 1-20 | Chinese-only entry. Not part of the common mantra; classical 1-20 誦二喝囉. |
 | ཏཱ་ར | TĀRA | **達咧** | modern Tārā-mantra recitation | 1-18 | Chinese-only entry. 1-18 "reciting TĀRA twice": the recitation form 達咧 (as in 嗡 達咧 都達咧), same normalisation as tuttare. Classical 誦二怛囉. |
 
@@ -72,18 +55,18 @@ The sources disagreed on these, or none had a usable word. Each row says why.
 | ཕན་ཡོན | benefits | **功德** | standard Buddhist term + DharmaMitra zh draft | I-2, 2-0 | Standard rendering of ཕན་ཡོན; classical has no heading for it. |
 | རྗེ་བཙུན་མ་འཕགས་མ | Noble and Venerable | **至尊聖** | standard Buddhist term + DharmaMitra zh draft | I-3 | རྗེ་བཙུན་ = 至尊 (standard); འཕགས་མ = 聖. Classical opening has 尊聖救度母; DharmaMitra 至尊聖救度母. Used before 度母: 至尊聖度母. |
 | གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ | Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka | **Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka** | kept as in the English | I-1 | The Sanskrit title line stays in IAST, as in English (zh register rule). |
-| བསྟོད / བསྟོད་པ | praise | **讚頌** | DharmaMitra zh draft + standard Buddhist term | 1-0, 1-22, 1-6, 2-0, a-1 | Classical uses 讚 / 讚嘆 / 稱歎; DharmaMitra 讚頌. 讚頌 is the clearest modern word for བསྟོད་པ. |
+| བསྟོད / བསྟོད་པ | praise | **讚頌** | standard Buddhist term + DharmaMitra zh draft | 1-0, 1-22, 1-6, 2-0, a-1 | Classical uses 讚 / 讚嘆 / 稱歎; DharmaMitra 讚頌. 讚頌 is the clearest modern word for བསྟོད་པ. |
 | ཡང་དག / ཡང་དག་པར | perfectly | **圓滿** | DharmaMitra zh draft | 1-21, 1-15, a-1 | ཡང་དག / ཡང་དག་པར as a modifier; appears inside 圓滿具足 (1-15, 1-21). In a-1 it is part of 正等覺佛. |
 | ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས | the Perfectly Complete Buddha | **正等覺佛** | standard Buddhist term | a-1 | ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས = samyaksaṃbuddha = 正等覺 (standard pair). DharmaMitra wrote 正等覺如來, adding 如來 which is not in the Tibetan. |
 | བཅོམ་ལྡན་འདས་མ | the Blessed One | **世尊** | standard Buddhist term + DharmaMitra zh draft | a-1 | བཅོམ་ལྡན་འདས(མ) = 世尊. Only occurs inside 世尊度母 (a-1). |
-| གློག | lightning | **閃電** | DharmaMitra zh draft + classical canon (CBETA T1108) | 1-1 | Classical 電光; DharmaMitra 閃電光. 閃電 is the plain modern word. |
+| གློག | lightning | **閃電** | classical canon (CBETA T1108) + DharmaMitra zh draft | 1-1 | Classical 電光; DharmaMitra 閃電光. 閃電 is the plain modern word. |
 | ཞལ | face | **面容** | DharmaMitra zh draft | 1-2, 1-1, 1-8 | Classical 面 (single character, too short to lock in modern prose); DharmaMitra 面容 / 容顏. Also inside 蓮花面容 (1-8). |
-| ཆུ་སྐྱེས / པདྨ | lotus | **蓮花** | DharmaMitra zh draft + classical canon (CBETA T1108) | 1-3, 1-1, 1-8 | Classical 蓮華 is the same word in older spelling; 蓮花 is the modern form. |
+| ཆུ་སྐྱེས / པདྨ | lotus | **蓮花** | classical canon (CBETA T1108) + DharmaMitra zh draft | 1-3, 1-1, 1-8 | Classical 蓮華 is the same word in older spelling; 蓮花 is the modern form. |
 | ཆུ་སྐྱེས་ཞལ | lotus face | **蓮花面容** | DharmaMitra zh draft | 1-8 | 1-8 only (her own face, likened to a lotus), as settled in the English fact-check. |
 | འོད | light | **光** | classical canon (CBETA T1108) + DharmaMitra zh draft | 1-2, 1-12, 1-10, 1-20, 1-9 | All sources use 光. |
 | འབར | blazing | **熾燃** | DharmaMitra zh draft | 1-7, 1-2, 1-13 | DharmaMitra 熾燃 / 熾然 (inconsistent — locked to 熾燃); classical 熾盛. 熾燃 keeps the sense of flames. |
 | ཟླ་བ / རི་དགས་རྟགས་ཅན | moon | **月** | classical canon (CBETA T1108) + DharmaMitra zh draft | 1-2, 1-12, 1-20, 1-18 | All sources use 月. Includes the kenning རི་དགས་རྟགས་ཅན ("deer-marked one") in 1-18, as in English. |
-| ཞི / ཞི་བ | peace | **寂靜** | DharmaMitra zh draft + standard Buddhist term | 1-3, 1-15, 1-21 | ཞི / ཞི་བ = 寂靜 (standard). Classical 靜 / 善靜 / 寂滅. |
+| ཞི / ཞི་བ | peace | **寂靜** | standard Buddhist term + DharmaMitra zh draft | 1-3, 1-15, 1-21 | ཞི / ཞི་བ = 寂靜 (standard). Classical 靜 / 善靜 / 寂滅. |
 | མ་ལུས | without exception | **無餘** | classical canon (CBETA T1108) | 1-8, 1-4 | Classical 盡無餘 / 攝無餘; DharmaMitra 無餘. Readers know 一切無餘. |
 | ཧཱུཾ / ཧཱུྃ | hum | **吽** | classical canon (CBETA T1108) + modern Tārā-mantra recitation | 1-5, 1-17, 1-14, 1-16, 1-11 | All Chinese sources write 吽. |
 | ཡི་གེ | syllable | **字** | classical canon (CBETA T1108) | 1-5 | Classical 吽字; DharmaMitra 字. |
@@ -101,8 +84,8 @@ The sources disagreed on these, or none had a usable word. Each row says why.
 | ལྡན | endowed | **具足** | classical canon (CBETA T1108) + DharmaMitra zh draft | 1-21, 1-15, 2-1 | ལྡན. Classical 具足 (1-21). |
 | ཡི་གེ་བཅུ་པའི་ངག / སྔགས | mantra | **咒** | classical canon (CBETA T1108) + standard Buddhist term | 1-22, 1-16 | སྔགས. Classical 呪 is a variant of 咒; DharmaMitra alternates 咒 / 真言 — locked to 咒 (根本咒 1-22, 十字咒 / 明咒 1-16). |
 | རོ་ལངས | vetāla | **起屍** | classical canon (CBETA T1108) | 1-21, 1-6 | རོ་ལངས ("risen corpse"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6. |
-| དབང | empowerment | **灌頂** | classical canon (CBETA T1108) + DharmaMitra zh draft + standard Buddhist term | 2-3 | དབང in 2-3 (the Victors confer empowerment). Classical benefits section 灌頂. |
-| གནོད་སྦྱིན | yaksas | **夜叉** | DharmaMitra zh draft + standard Buddhist term | 1-6, 1-21 | གནོད་སྦྱིན. Classical 藥叉 is the older spelling of the same word. |
+| དབང | empowerment | **灌頂** | classical canon (CBETA T1108) + standard Buddhist term + DharmaMitra zh draft | 2-3 | དབང in 2-3 (the Victors confer empowerment). Classical benefits section 灌頂. |
+| གནོད་སྦྱིན | yaksas | **夜叉** | standard Buddhist term + DharmaMitra zh draft | 1-6, 1-21 | གནོད་སྦྱིན. Classical 藥叉 is the older spelling of the same word. |
 | མཐུ | might | **威力** | classical canon (CBETA T1108) | 1-21 | མཐུ (1-21): classical 善靜威力; DharmaMitra 威德力. |
 | ཨོཾ | Oṃ | **嗡** | modern Tārā-mantra recitation | I-3, 1-15 | Chinese-only entry: English left mantra syllables unlocked. 嗡 is the common modern form; classical 唵. |
 | སྭཱ་ཧཱ | svāhā | **梭哈** | modern Tārā-mantra recitation | 1-15 | Chinese-only entry. Recitation form 梭哈; classical 莎訶. |

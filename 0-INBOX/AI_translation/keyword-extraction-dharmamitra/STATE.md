@@ -552,3 +552,17 @@ The online Mahāvyutpatti (Oslo TLB) could not be read with this session's tools
 modern Chinese, Chinese-character mantras). Then enforce the word list verse by verse → zh-general D2 →
 consistency check → meaning check against the English D3 and the consensus → back-translation → native
 reviewer.
+
+### Update — Chinese word list is now a skill (2026-09-24)
+
+New shared skill **`zh-keyword-standardize`** (Webuddhist-Skills `rails/zh-keyword-standardize/`,
+slash command `/zh-keyword-standardize`). It covers choices → classical reference → worksheet → decisions →
+build → validate/baseline/glossary.
+- **`zh-decisions-general.json` is now the file to edit.** `build_zh_termbase.py --force` rebuilds
+  `en-bo-zh-termbase-general.json`, `bo_zh_keyword_general.json` and `termbase-zh-general.md` from it. The
+  rebuild matched the hand-built files exactly; only the evidence field names and the order of source labels
+  changed.
+- `zh-worksheet-general.md`: the evidence per term and verse, from `zh_worksheet.py`. It shows 10 terms whose
+  Tibetan also occurs where the term is not locked. Two examples: སྒྲོལ་མ in 1-11 is the verb "liberate", not
+  Tārā's name; ཆུ་སྐྱེས་ཞལ in 1-1 is the Lord's face, not hers.
+- Re-checked: validator (`--lang zh`) 0 errors; baseline 63/137; glossary 76 lines, all verse-scoped.
