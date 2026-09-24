@@ -181,9 +181,10 @@ def check(root, tr, payload_dir=None):
 
     if payload_dir:
         stem = pathlib.Path(tr["path"]).stem
-        ed = payload_dir / f"{stem}.edition.json"
-        toc = payload_dir / f"{stem}.toc.json"
-        al = payload_dir / f"{stem}.alignment.json"
+        out = payload_dir / stem          # the parser writes output/<stem>/
+        ed = out / f"{stem}.edition.json"
+        toc = out / f"{stem}.toc.json"
+        al = out / f"{stem}.alignment.json"
         if not (ed.exists() and toc.exists() and al.exists()):
             fails.append(f"payloads missing under {payload_dir} (run the dry-run upload first)")
         else:

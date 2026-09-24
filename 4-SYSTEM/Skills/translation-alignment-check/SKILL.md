@@ -20,7 +20,7 @@ What it proves, per translation, against the root note:
 | a transclusion above every block pointing at the same id | that is where the vault parser reads the alignment from |
 | no `*[not yet translated]*` placeholder, `file_type: translation`, `root_text` names the root | upload preconditions |
 
-With `--payloads`, for each note's `<stem>.edition.json` / `.toc.json` / `.alignment.json` under `4-SYSTEM/scripts/parser-root-text/output/`: references equal the note's, content equals the note's parse and carries no `#` and no heading title, spans are contiguous and cover the whole content, the TOC has one root section (the H1) whose subsections are contiguous, cover the content, and carry the note's heading titles in the note's language, and the alignment is identity over every segment.
+With `--payloads`, for each note's `<stem>.edition.json` / `.toc.json` / `.alignment.json` under `4-SYSTEM/scripts/parser-root-text/output/<stem>/`: references equal the note's, content equals the note's parse and carries no `#` and no heading title, spans are contiguous and cover the whole content, the TOC has one root section (the H1) whose subsections are contiguous, cover the content, and carry the note's heading titles in the note's language, and the alignment is identity over every segment.
 
 With `--live`, the root note is compared with the library (GET only): the live root edition's segment references and TOC subsection count.
 
