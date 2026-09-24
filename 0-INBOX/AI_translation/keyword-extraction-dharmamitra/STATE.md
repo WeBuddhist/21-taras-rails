@@ -323,3 +323,76 @@ gaps.
   currently left in DharmaMitra's own scholarly spelling; worth adding to
   the termbase if the user wants full consistency with tuttare/hum/phat/
   trat/ture's plain-spelling treatment.
+
+---
+
+## Commentary fact-check (Phase 1, report only) — Drakpa Gyaltsen — DONE
+
+**Commentary inventory, corrected:** the earlier claim that none of the commentaries
+were transcluded was wrong (only folder names had been checked). In
+`1-SOURCES/Commentaries/New raw data/`, 8 of 10 files already carry
+`![[root#^verse-id]]` markers that `extract_commentary.py` reads. All their verse IDs
+exist in the root. The two Khenpo Tsultrim Namdak files have no markers or
+frontmatter and still need transclusion. Sangye Nyenpa covers only 1-1 to 1-21.
+
+**Source fix (user-approved):** Padma Namgyal line 264 was transcluded as `^2-2` but
+its prose quotes verse 2-5 (between 2-4 and 2-6). Changed to `^2-5`. That is the only
+edit made to `1-SOURCES/`.
+
+**Run:** `commentary-fact-check` Phase 1 against Jetsün Drakpa Gyaltsen
+(`bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md`), scope = all 30 verses it covers (I-3, 1-1 to 1-22,
+2-1 to 2-6, a-1). The translation was not edited. Report:
+`3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-report-drakpa-gyaltsen-en-general.md`.
+
+**Result:** 17 clean, 7 with errors, 6 with mismatches only.
+- Errors: 1-1 (lotus born from Avalokiteśvara's tears, not "lotus face"); 1-3
+  ("austerity" = ethical discipline); 1-6 (one Maheśvara, not "various Īśvaras");
+  1-8 ("Fearful" → she terrifies); 1-16 (*rig pa* = knowledge-mantra, not "awareness");
+  1-17 (*'bigs byed* read as the verb "pierce", not the mountain Vindhya); 1-19 (the
+  kings of the gods serve her; she isn't "the sovereign").
+- The whole of chapter 2 and the colophon are clean.
+- Two termbase issues surfaced: `supreme` used for ཤིན་ཏུ at 1-12, and `power` used
+  for མཐུ at 1-21 (the termbase note itself says མཐུ = "might").
+- The `lotus_face` lock is too broad: right at 1-8, wrong at 1-1 per this commentary.
+
+**Tool limitation:** `extract_translation.py` captures only the last line of each
+multi-line verse in the transclusion layout. The audit used the grade file's
+`en_text` instead. Worth fixing upstream before this skill runs on other verse texts.
+
+**Next:** Phase 2 (apply mechanical fixes only, log the judgment calls). Before
+fixing 1-17 (Vindhya), cross-check a second commentary.
+
+---
+
+## Commentary fact-check across 4 commentaries (Phase 1, report only) — DONE
+
+Added Gyalwa Gendun Drub, Tāranātha and Dorlob Tenga Tulku to the Drakpa Gyaltsen run.
+One report each, plus `commentary-fact-check-consensus-en-general.md`, all in
+`3-TRANSFORMATIONS/Translations/en-general/`. The translation has still not been edited.
+
+Rule: fix when ≥3 of 4 say the English is wrong; translator's choice on a split; leave
+single-commentary flags.
+
+**Fix (11 items, 10 verses):** 1-1 lotus from tears/face (4/4); 1-3 austerity →
+discipline (4/4); 1-3 wisdom missing from the six perfections (3/4); 1-5 realms, or keep
+literal deliberately (3/4); 1-8 "Fearful" → Terrifying (3/3 that gloss it); 1-9 one wheel
+on her palm (3/4); 1-10 the joy she brings (3/4); 1-16 knowledge-mantra, not "awareness"
+(4/4); 1-17 Ture is her, not a syllable (3/3); 1-19 the kings serve her (4/4); 1-21 the
+three suchnesses set on her, not "established by" (4/4).
+
+**Split — translator's choice:** 1-3 whose colours; 1-8 ture as the one addressed;
+1-8 "champions"; 1-14 "underworld"; 1-17 Vindhya vs "pierces" (2–2); 1-22 one praise
+vs two.
+
+**Dropped:** Drakpa Gyaltsen's 1-6 (singular Maheśvara) and 1-15 (order) flags —
+the other three disagree.
+
+**Worth a look apart from the commentaries:** 2-6's root line is optative
+(*'joms 'gyur cig*), but the English is future tense.
+
+**Correction for the record:** in chat I called Tenga Tulku "Kagyu". His file says only
+"Dorlob Tenga Tulku", and his lineage isn't recorded here.
+
+**Next:** Phase 2 — apply the 11 fixes (minimal edits, logged), handle the termbase
+changes they imply (`lotus_face` narrowed to 1-8; `supreme` at 1-12 and `power` at 1-21),
+then re-run the check.

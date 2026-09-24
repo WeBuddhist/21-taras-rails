@@ -184,9 +184,9 @@
     "en": "lotus face",
     "rank": 138,
     "verse_ids": [
-      "1-1",
       "1-8"
-    ]
+    ],
+    "note": "Her own face, likened to a lotus (1-8). Removed from 1-1 on 2026-09-24: all four commentaries checked read 1-1's ཆུ་སྐྱེས་ཞལ་གྱི as the lotus that arose from Avalokiteśvara's face/tears, not a 'lotus face'."
   },
   "light": {
     "bo": "འོད",
@@ -518,5 +518,14 @@
       "1-21"
     ],
     "note": "Not picked up by keywords.py's YAKE pass — missed entirely from the original termbase. Added from the TF-IDF pass (rank 43, count 2) after you flagged it. Dharmamitra draft spells it 'yakṣas' (with the ṣ diacritic); the attested translation spells it 'yaksas' (no diacritic), matching the same plain-spelling pattern already applied to Tara/hum/tuttare/trat/phat/ture — locked to the attested spelling for the same reason: general register, not a scholarly transliteration register. Note for the record: the ṣ character isn't in the TF-IDF script's token-character allowlist, so it split 'yakṣas' into fragments ('yak' + 'as') rather than counting it as one word — that's a real small bug in generate_en_translation_idf.py's tokenize(), worth fixing upstream if this script gets used on texts with more Sanskrit vocabulary."
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "note": "Added 2026-09-24. The 'power' note already said མཐུ ('might') is kept distinct from དབང ('power'), but 1-21 had been tagged 'power'. Now locked separately."
   }
 }

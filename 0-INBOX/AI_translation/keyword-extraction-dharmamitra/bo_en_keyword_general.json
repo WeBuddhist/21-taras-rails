@@ -385,16 +385,6 @@
     "term": "lotus",
     "en": "lotus",
     "grade": "general"
-   },
-   {
-    "key": "lotus face",
-    "rank": 138,
-    "score": 0.253881,
-    "count": 1,
-    "bo": "ཆུ་སྐྱེས་ཞལ",
-    "term": "lotus_face",
-    "en": "lotus face",
-    "grade": "general"
    }
   ]
  },
@@ -1473,8 +1463,8 @@
     "score": 0.202539,
     "count": 1,
     "bo": "མཐུ",
-    "term": "power",
-    "en": "power",
+    "term": "might",
+    "en": "might",
     "grade": "general"
    },
    {

@@ -14,20 +14,36 @@ edition_id:
 toc_id:
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
-translator: dharmamitra cat-translate v1 (raw draft), termbase-enforced by Claude per graded-translate Phase 1-2
+translator: dharmamitra cat-translate v1 (raw draft); termbase-enforced and commentary-fact-checked by Claude per graded-translate Phase 1-2 and commentary-fact-check Phase 1-2
 source: https://dharmamitra.org
 edition_type: critical
 source_language: tibetan
 target_language: english
-generator: graded-translate Phase 2 (dharmamitra cat-translate v1 base + 47-term locked termbase)
-rails_used: graded-translate (Phase 1, Phase 2)
+generator: graded-translate Phase 2 (dharmamitra cat-translate v1 base + 47-term locked termbase) + commentary-fact-check (4 commentaries, consensus fixes)
+rails_used: graded-translate (Phase 1, Phase 2); commentary-fact-check (Phase 1, Phase 2)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en-bo-en-termbase-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/bo_en_keyword_general.json
 generated: 2026-09-24
+revised: 2026-09-24
+draft: 3
+draft_history:
+  - 1 — DharmaMitra raw output (3-TRANSFORMATIONS/Translations/Dharmamitra/en-general/)
+  - 2 — termbase-enforced (graded-translate Phase 2); text kept in grade_file en_text
+  - 3 — commentary fact-check fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 4
-note: "Second-draft translation: DharmaMitra cat-translate raw output (glossary-primed), corrected verse-by-verse against the general-grade locked termbase (47 terms) so every locked term appears in its assigned rendering throughout. Not yet fact-checked against the commentaries (graded-translate Phase 3 / pipeline Step 6) -- treat as draft pending that pass."
+fact_checked: 2026-09-24
+fact_check_commentaries:
+  - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
+fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-fixes-log-en-general.md
+fact_check_fixes_applied: 11
+fact_check_open_items: 6
+note: "Third draft. (1) DharmaMitra cat-translate raw output, glossary-primed; (2) corrected verse by verse against the general-grade locked termbase; (3) fact-checked term by term against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku). 11 fixes were applied where at least 3 of 4 commentaries agreed the English was wrong, plus 2 termbase-consistency fixes (1-12, 1-21). Readings where the commentaries split (e.g. Vindhya at 1-17) were left as translator's choice and are listed in fact_check_fixes_log. Not yet reviewed by a domain specialist -- treat as draft."
 status: draft
 ---
 
@@ -53,8 +69,8 @@ Oṃ! Homage to the Noble and Venerable Tara. ^I-3
 
 Homage to Tara, the swift and heroic,
 Whose eyes are like a flash of lightning,
-Born from the opening stamens of the lotus face
-Of the Lord of the Three Worlds. ^1-1
+Born from the opening stamens of the lotus
+That arose from the face of the Lord of the Three Worlds. ^1-1
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-2]]
 
@@ -67,8 +83,8 @@ Of a thousand gathered stars. ^1-2
 
 Homage to her whose hand is adorned
 With a gold and blue water-born lotus,
-She whose sphere of activity is generosity, diligence, austerity, peace,
-Patience, and meditative concentration. ^1-3
+She whose sphere of activity is generosity, diligence, discipline, peace,
+Patience, meditative concentration, and wisdom. ^1-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-4]]
 
@@ -80,7 +96,7 @@ Who have attained every single perfection without exception. ^1-4
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-5]]
 
 Homage to her who, with the syllables tuttare and hum,
-Fills the realms of desire, the directions, and space,
+Fills the desire, form, and formless realms,
 Trampling the seven worlds under her feet,
 Able to summon all without exception. ^1-5
 
@@ -100,7 +116,7 @@ Blazing amidst a swirling mass of fire. ^1-7
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-8]]
 
-Homage to ture, the Great Fearful One,
+Homage to ture, the Great Terrifying One,
 Who completely destroys the champions of Mara,
 Who forms a frowning expression upon your lotus face,
 And slays all enemies without exception. ^1-8
@@ -109,13 +125,13 @@ And slays all enemies without exception. ^1-8
 
 Homage to her whose fingers, in the mudra symbolizing the Three Jewels,
 Beautifully adorn her heart,
-Adorned with wheels in every direction without exception,
+Her palm adorned with the wheel of all directions without exception,
 Radiating a turbulent mass of her own light. ^1-9
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
-Homage to you, whose majestic and supreme joy
-Spreads garlands of light from your crown,
+Homage to you, who bring supreme joy, whose majestic
+Crown ornament spreads garlands of light,
 Who, with the great laughter of tuttare,
 Brings maras and the world under your power. ^1-10
 
@@ -131,7 +147,7 @@ Completely liberate from all destitution. ^1-11
 Homage to you, whose head is adorned with a crescent moon,
 Whose every ornament blazes intensely,
 From whose matted locks Amitābha
-Constantly radiates a supreme light. ^1-12
+Constantly radiates an intense light. ^1-12
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-13]]
 
@@ -159,11 +175,11 @@ You completely destroy great negativity. ^1-15
 Homage to you, surrounded by joy,
 Who utterly shatters the bodies of enemies;
 With the ten-syllable mantra arranged,
-You are the lamp arising from the hum of awareness. ^1-16
+You are the lamp arising from the knowledge-mantra hum. ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
 
-Homage to you, who stamp your feet with the syllable ture,
+Homage to you, Ture, who stamp your feet,
 Whose essence is the seed-syllable in the form of hum;
 You cause Mount Meru, Mandara, and Vindhya,
 And all the three worlds to tremble. ^1-17
@@ -177,8 +193,8 @@ You eliminate every poison without exception. ^1-18
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
-Homage to the sovereign of the hosts of gods,
-Whom gods and kinnaras rely upon;
+Homage to you, served by the kings of the hosts of gods,
+Relied upon by gods and kinnaras;
 With the majesty of your armor of universal joy,
 You dispel conflicts and evil dreams. ^1-19
 
@@ -191,8 +207,8 @@ You dispel the most violent infectious diseases. ^1-20
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-Homage to you, perfectly endowed with the power of peace,
-Established by the three suchnesses;
+Homage to you, perfectly endowed with the might of peace,
+With the three suchnesses set upon you;
 You are the supreme Ture who destroys
 The hosts of demons, vetālas, and yaksas. ^1-21
 
