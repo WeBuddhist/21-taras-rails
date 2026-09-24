@@ -19,6 +19,7 @@ hold raw machine output, which is never the translation to use.
 | English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | specialist review · `translation-qa` · upload | no |
 | Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Chinese review (word list first) · `translation-qa` · upload | no |
 | Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 4 | locked words 137/137 · back-translation meaning check · full commentary fact-check (4 commentaries, consensus, 9 fixes, 4 translator decisions) | native Vietnamese review (word list first) · `translation-qa` · upload | no |
+| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 4 | locked words 136/136 · back-translation meaning check · full commentary fact-check (4 commentaries, no errors, 13 fixes, 2 translator decisions) | native Hindi review (word list first) · `translation-qa` · upload | no (the old Gemini baseline is) |
 
 ## Reports behind each translation
 
@@ -42,9 +43,17 @@ hold raw machine output, which is never the translation to use.
 - `commentary-fact-check-consensus-vi-general.md` and `commentary-fact-check-fixes-log-vi-general.md`: draft 3 → 4
 - `commentary-light-check-vi-general.md`: the earlier light check (superseded)
 
+**Hindi** — `hi-general/reports/`
+- `phase2-fixes-log-hi-general.md`: draft 1 (Gemini zero-shot) → 2 (approved words enforced)
+- `back-translation-check-hi-general.md`: draft 2 → 3 (meaning check, verse by verse)
+- `commentary-fact-check-report-*-hi-general.md`: one full report per commentary
+- `commentary-fact-check-consensus-hi-general.md` and `commentary-fact-check-fixes-log-hi-general.md`: draft 3 → 4
+
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
-is. English: `en/en-bo-en-termbase-general.json`. Chinese and Vietnamese: `zh/zh-decisions-general.json`,
-`vi/vi-decisions-general.json` (the files to edit) and `zh/termbase-zh-general.md`, `vi/termbase-vi-general.md` (to review).
+is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi: `zh/zh-decisions-general.json`,
+`vi/vi-decisions-general.json`, `hi/hi-decisions-general.json` (the files to edit) and `zh/termbase-zh-general.md`,
+`vi/termbase-vi-general.md`, `hi/termbase-hi-general.md` (to review). All languages in one table:
+`standardised-keywords-general.md`.
 
 ## Machine drafts — raw, not for use
 
@@ -55,7 +64,8 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese and Vietnamese: `zh/zh
 | `Dharmamitra/zh/` | Chinese | DharmaMitra zero-shot (draft 0) | yes (baseline) |
 | `Dharmamitra/zh-general/` | Chinese | DharmaMitra primed with the Chinese word list (draft 1 of zh-general) | no |
 | `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
-| `Gemini/hi/`, `Gemini/mn/`, `Gemini/ne/` | Hindi, Mongolian, Nepali | Gemini zero-shot — the starting point for those languages | yes (baselines) |
+| `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | yes (baseline) |
+| `Gemini/mn/`, `Gemini/ne/` | Mongolian, Nepali | Gemini zero-shot — the starting point for those languages | yes (baselines) |
 
 These folders stay where they are, because the translation scripts write to these paths. Don't edit the files
 by hand; a new run replaces them.

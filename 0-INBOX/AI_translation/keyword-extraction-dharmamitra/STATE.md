@@ -737,3 +737,31 @@ via graded-translate + commentary-fact-check".
 Tenkal asked for Gemini back. Both folders were restored unchanged from `6a87d12^` (63 files). They are the
 recorded draft 0/1 sources of vi-general and zh-general, and the `--mt-draft` inputs of the zh/vi rebuild
 commands. Nothing else from that commit was touched.
+
+## Hindi (hi), general — word list and Drafts 2–4 (2026-09-24)
+
+**Choices (Tenkal):** Sanskritized Buddhist Hindi (general grade) · Devanagari, mantra syllables in Devanagari ·
+start from the existing Gemini zero-shot (`Gemini/hi/`, 2026-09-17) · flagged picks by Claude ("go with your picks").
+
+**Word list** (`hi/`): no reference text — Hindi uses the Sanskrit Buddhist terms directly, so "standard" is the
+Sanskrit word in Devanagari. 51 entries: 47 plus 4 Hindi-only mantra entries (ॐ, स्वाहा, हर, तारे); 7 flagged
+(पूज्य आर्या kept apart from भगवती; परम for supreme; अक्षर vs बीजाक्षर; ग्रह for གདོན; आनंद; चन्द्र; तारे).
+Stems locked where Sanskrit compounds hide the word (महा, चन्द्र). Validator 0 errors. Baseline: Gemini
+zero-shot **123/136 (90%)** — much higher than Chinese (46%) or Vietnamese (73%).
+
+**Draft 2** (`3-TRANSFORMATIONS/Translations/hi-general/`): 12 verses changed, locked words only → **136/136**.
+**Draft 3:** back-translation meaning check — 17 match, 7 minor, 8 differ; all 15 fixed (1-1 lotus from the
+face, 1-3 शील + प्रज्ञा, 1-4 the bodhisattvas rely on her, 1-5 three realms, 1-9 one wheel on her palm, 1-11
+destitution, 1-14 seven levels left open, 1-17 Ture as vocative).
+**Draft 4:** full commentary fact-check, four reports in parallel (DG 17/30, GD 18/29, TN 17/28, TT 16/29
+clean) — **no errors in any**. 13 wording fixes (2-2/2-4 "recollecting her", 1-19 the kings serve her, 1-9
+འཁྲུག, 1-16/1-21 བཀོད "set", 1-20 her eyes, …). Tenkal decided 2: बोधिसत्त्व/बुद्धों instead of जिनपुत्र/जिन
+(Jain echo); ग्रह kept, flagged. Still 136/136.
+
+Process note: two of the parallel checkers shared the device scratch folder `$HOME/work`; Tenga Tulku's
+re-extracted its commentary into a private folder and verified it. Each report's findings are specific to
+its commentary. Next time give each checker its own scratch folder.
+
+Also: `keyword-standardize/SKILL.md` has a Hindi section; `standardised-keywords-general.md` now has a Hindi
+column. **Next:** native Hindi review (flagged word list first: `hi/termbase-hi-general.md`), `translation-qa`,
+upload (the platform still has the old Gemini baseline).
