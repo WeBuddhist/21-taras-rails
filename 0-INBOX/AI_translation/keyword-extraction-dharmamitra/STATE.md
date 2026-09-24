@@ -619,3 +619,14 @@ back-translation route could not cover:
 - 137/137 locked words.
 
 Report: `3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md`.
+
+## Translations folder tidied (2026-09-24)
+
+- `3-TRANSFORMATIONS/Translations/00-INDEX-current-translations.md` (new) lists the **current file per language**
+  (en-general draft 3, zh-general draft 3), with the checks each has had, what is left, and the machine-draft
+  folders (not for use).
+- In `en-general/` and `zh-general/`, only the translation stays at the top. The reports moved (not deleted) into
+  `reports/`, and every path in the translation properties and in this file was updated.
+- `Dharmamitra/` and `Gemini/` were left in place, because the scripts write there.
+- Convention written down in Webuddhist-Skills `rails/CONVENTIONS.md` §8. `commentary-fact-check` now writes its
+  reports to `<translation-dir>/reports/`.
