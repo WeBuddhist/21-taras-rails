@@ -336,13 +336,13 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Rules:** Translate small batches only — one or a few TOC nodes at a time. Every keyword rendering must match the per-track termbase. Introduce no new rendering without first adding it to the termbase and feeding it back into the consolidated bilingual glossary.
 → `translate-section/SKILL.md` *(to be written)*
 
-### `dharmamitra-translate` **[exists]**
+### `dharmamitra-translate` **[archived 2026-09-24 → Webuddhist-Skills `rails/machine-translate`]**
 **Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API on small batches of adjacent block IDs, threading the document's own preceding translations back in as context; section headings are translated separately (`--headings`).
 **Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `modern chinese`, …); optionally a style instruction, a context header, a flat `source<TAB>target` glossary, and `--extra-fm` frontmatter keys.
 **Outputs:** `3-TRANSFORMATIONS/Translations/Dharmamitra/<tag>/<source stem>-<tag>.md` — block-ID aligned to the Tibetan by transclusion, with `about.md` / `style.md` / `context-header.md` and an append-only ledger under `work/`. Its frontmatter is what the vault linter expects of a `file_type: translation` note, so `translation-upload` consumes it directly.
 **Rules:** Never writes to `1-SOURCES/`; never writes into a non-baseline track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public with a **daily** quota of 400 calls — batch, count calls, never parallelise.
 **Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Fork of the Liturgy-rails skill (imported 2026-09-17; the en and zh tracks of the Twenty-One Praises were imported and re-cut from that vault).
-→ [`dharmamitra-translate/SKILL.md`](dharmamitra-translate/SKILL.md)
+→ Use `Webuddhist-Skills/rails/machine-translate/SKILL.md` (Engine 2). Archived copy: [`_archive/dharmamitra-translate/SKILL.md`](_archive/dharmamitra-translate/SKILL.md)
 
 ### `gemini-translate` **[exists]**
 **Purpose:** The sibling of `dharmamitra-translate` for display languages DharmaMitra does not serve (Hindi, Nepali, Mongolian, Vietnamese, …): Google Gemini under a JSON line schema, with line parity enforced per block and headings translated in one call (`--headings`).
