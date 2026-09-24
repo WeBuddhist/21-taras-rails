@@ -465,3 +465,29 @@ D0 zero-shot, D1 glossary-primed, D2 termbase pass and D3 fact-checked.
   until D2/D3; D0 used "spirits" for both འབྱུང་པོ and གདོན).
 - **Caveat:** the yardstick is our own termbase, so D2/D3 score high by design.
   The script is in the session scratch (`~/fc_tmp/consistency.py`), not the vault.
+
+---
+
+## Skill improvements from this run (2026-09-24)
+
+Fixes committed to the shared Webuddhist-Skills repo (`main`):
+- **keyword-extract:** clean corpus outputs; full IAST tokenizer; `--keep-transliterated`; `keyword_gap_report.py`.
+- **graded-translate:** `validate_grade_file.py`; grade-file mode and `--strict-diacritics` in `check_termbase_consistency.py`; `termbase_to_glossary.py` and `termbase_to_md.py`.
+- **commentary-fact-check:** whole-verse `extract_translation.py`; duplicate and unknown-ID checks in `extract_commentary.py`; `find_textual_variants.py`; `tally_report.py`; Phase 1b consensus; a generic Phase 2.
+- **machine-translate:** fail-fast network errors; certifi; verse-scoped glossary lines.
+- **CONVENTIONS §7:** translation history properties.
+
+The vault's `4-SYSTEM/Skills/dharmamitra-translate/` is **archived** (moved, not deleted) to
+`4-SYSTEM/Skills/_archive/`. `/dharmamitra-translate` and `recut_liturgy_import.py` now
+point at `../Webuddhist-Skills/rails/machine-translate/`.
+
+**The new validator found 3 errors in this project's termbase/grade file** (not yet fixed):
+- **I-3 `noble_venerable`:** the Tibetan is written འཕགས་མ་རྗེ་བཙུན་མ, but the verse reads རྗེ་བཙུན་མ་འཕགས་མ (reversed order).
+- **1-5 `tuttare`:** ཏུཏྟྭ་ར་ཡི་གེ isn't contiguous in the verse, because hūṃ sits between the words.
+- **1-13 `joy`:** the root spells the word དགས, but the entry has དགའ.
+
+Also: `venerable_tara` uses a "..." form, which can never match text. Together with
+`noble_venerable` it causes the 2 remaining drift-check misses at I-3.
+
+Run: `python3 ../Webuddhist-Skills/rails/graded-translate/scripts/validate_grade_file.py
+--termbase <this folder>/en-bo-en-termbase-general.json --grade-file <this folder>/bo_en_keyword_general.json`.
