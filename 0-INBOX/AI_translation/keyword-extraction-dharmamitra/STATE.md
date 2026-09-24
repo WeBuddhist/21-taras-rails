@@ -215,3 +215,23 @@ the register table's own examples), not a Sanskrit-rich technical register
   not familiarity, so the same general/advanced logic doesn't apply to it.
 
 Both files updated; grade-file `graha` references retargeted to `demon`.
+
+---
+
+## TF-IDF pass (keyword-extract Mode 1, Step 2 — optional, run on request)
+
+`generate_en_translation_idf.py` against the Dharmamitra draft, output in
+`tfidf/`. Unlike `keywords.py`'s own `__main__` block, this script's
+`tokenize()` does strip frontmatter correctly — output is clean, no
+contamination this time.
+
+Cross-checked its top 60 words against the 46-term locked termbase: strong
+agreement (homage, Tara, hum, praise, hosts, destroy, syllable, blazing,
+joy, ture, moon, endowed, lotus, world(s), light, peace, perfectly, spirits,
+etc. all rank highly here too). Nothing in the gap list looks like a missed
+content term — mostly plurals of terms already locked (syllables, zombies),
+words already deliberately excluded (completely/utterly — the intensifiers),
+or generic narrative nouns (eyes, fire, leg, wealth, child) not worth
+locking. One candidate worth a look if the termbase gets extended: "yakṣa"
+(gandharvas/yakṣas class of being) wasn't picked up by YAKE and isn't in
+the current termbase at all.
