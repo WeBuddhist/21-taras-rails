@@ -42,6 +42,8 @@
   },
   "bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi": {
     "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "deleted": "2026-09-21",
+    "deleted_note": "Zero-shot baseline withdrawn 2026-09-21: alignment, TOC, edition and text all deleted from the library (204 each; the text now 404s). Vault copy removed the same day. Ids kept as receipts only; they no longer resolve. Regenerate through graded-translate (vocabulary-standardised) + commentary-fact-check before any re-upload; a re-upload creates a new text_id.",
     "edition_id": "ZzYzbThBTiUGmzyq66hAZ",
     "lang_tag": "hi",
     "log": [
@@ -63,6 +65,16 @@
         "subsections": 4,
         "toc_id": "BR4it8Nco2pI86y98CmXS",
         "ts": "2026-09-17T16:17:59"
+      },
+      {
+        "deleted": [
+          "alignment",
+          "toc",
+          "edition",
+          "text"
+        ],
+        "step": "deleted",
+        "ts": "2026-09-21"
       }
     ],
     "previous_edition_deleted": "2026-09-16",
@@ -74,6 +86,8 @@
   },
   "bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn": {
     "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "deleted": "2026-09-21",
+    "deleted_note": "Zero-shot baseline withdrawn 2026-09-21: alignment, TOC, edition and text all deleted from the library (204 each; the text now 404s). Vault copy removed the same day. Ids kept as receipts only; they no longer resolve. Regenerate through graded-translate (vocabulary-standardised) + commentary-fact-check before any re-upload; a re-upload creates a new text_id.",
     "edition_id": "kVvsEydjnSZuHNRaB1jT2",
     "lang_tag": "mn",
     "log": [
@@ -95,6 +109,16 @@
         "subsections": 4,
         "toc_id": "Qm1EpYF6HU4BPGigNmZit",
         "ts": "2026-09-17T16:18:03"
+      },
+      {
+        "deleted": [
+          "alignment",
+          "toc",
+          "edition",
+          "text"
+        ],
+        "step": "deleted",
+        "ts": "2026-09-21"
       }
     ],
     "previous_edition_deleted": "2026-09-16",
@@ -106,6 +130,8 @@
   },
   "bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne": {
     "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "deleted": "2026-09-21",
+    "deleted_note": "Zero-shot baseline withdrawn 2026-09-21: alignment, TOC, edition and text all deleted from the library (204 each; the text now 404s). Vault copy removed the same day. Ids kept as receipts only; they no longer resolve. Regenerate through graded-translate (vocabulary-standardised) + commentary-fact-check before any re-upload; a re-upload creates a new text_id.",
     "edition_id": "8PKpBCH7ylnmOBDwArpzb",
     "lang_tag": "ne",
     "log": [
@@ -127,6 +153,16 @@
         "subsections": 4,
         "toc_id": "EvLJD78ez2U6S36NKQ7oO",
         "ts": "2026-09-17T16:18:06"
+      },
+      {
+        "deleted": [
+          "alignment",
+          "toc",
+          "edition",
+          "text"
+        ],
+        "step": "deleted",
+        "ts": "2026-09-21"
       }
     ],
     "previous_edition_deleted": "2026-09-16",
@@ -138,6 +174,8 @@
   },
   "bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi": {
     "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "deleted": "2026-09-21",
+    "deleted_note": "Zero-shot baseline withdrawn 2026-09-21: alignment, TOC, edition and text all deleted from the library (204 each; the text now 404s). Vault copy removed the same day. Ids kept as receipts only; they no longer resolve. Regenerate through graded-translate (vocabulary-standardised) + commentary-fact-check before any re-upload; a re-upload creates a new text_id.",
     "edition_id": "pQKlQBCpVAxL0ZLxDgWLy",
     "lang_tag": "vi",
     "log": [
@@ -159,6 +197,16 @@
         "subsections": 4,
         "toc_id": "zMB7oTfLcbXMpGAwDHWAI",
         "ts": "2026-09-17T16:18:10"
+      },
+      {
+        "deleted": [
+          "alignment",
+          "toc",
+          "edition",
+          "text"
+        ],
+        "step": "deleted",
+        "ts": "2026-09-21"
       }
     ],
     "previous_edition_deleted": "2026-09-16",
@@ -170,6 +218,8 @@
   },
   "bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh": {
     "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "deleted": "2026-09-21",
+    "deleted_note": "Zero-shot baseline withdrawn 2026-09-21: alignment, TOC, edition and text all deleted from the library (204 each; the text now 404s). Vault copy removed the same day. Ids kept as receipts only; they no longer resolve. Regenerate through graded-translate (vocabulary-standardised) + commentary-fact-check before any re-upload; a re-upload creates a new text_id.",
     "edition_id": "PHYYTAPEDkEDb0cxNZf1u",
     "lang_tag": "zh",
     "log": [
@@ -191,6 +241,16 @@
         "subsections": 4,
         "toc_id": "OLPyu5ELI2kykrg21xYR9",
         "ts": "2026-09-17T16:17:55"
+      },
+      {
+        "deleted": [
+          "alignment",
+          "toc",
+          "edition",
+          "text"
+        ],
+        "step": "deleted",
+        "ts": "2026-09-21"
       }
     ],
     "previous_edition_deleted": "2026-09-16",
