@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-པདྨ་རྣམ་རྒྱལ།.md
 translation_of_text_id: t2pCadlPdCq0RLMMBTMWK
 translation_of_edition_id: rAzfQ2Etm7B299mMEFQUb
-text_id:
-edition_id:
-toc_id:
+text_id: nQ0scRqFD7uYbuEMbSJye
+edition_id: DxdBgv1EHaHT7xGNW5A6Z
+toc_id: ZBdzlOfUrug3tHMzynjqn
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 16
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: t2pCadlPdCq0RLMMBTMWK
+aligned_to_edition_id: rAzfQ2Etm7B299mMEFQUb
 ---
 
 # 二十一禮讚註釋：甘露歡喜園 ^0

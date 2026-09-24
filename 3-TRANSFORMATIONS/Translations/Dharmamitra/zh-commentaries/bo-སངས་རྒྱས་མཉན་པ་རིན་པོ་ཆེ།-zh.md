@@ -11,9 +11,9 @@ root_text: 1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མ
 translation_of: exz1MI85hysNKQK45uPzf
 translation_of_text_id: exz1MI85hysNKQK45uPzf
 translation_of_edition_id: EwjzyZ1asr7jdvWzXMlJH
-text_id:
-edition_id:
-toc_id:
+text_id: JbM5W7RBBxa3xWKBpgDfR
+edition_id: TTFX0bszCTu4nrIx8OLrb
+toc_id: oMHNRLlnB3ianQGrGRDWR
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ blocks_total: 73
 headings_translated: 69
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: EwjzyZ1asr7jdvWzXMlJH
 ---
 
 # 聖救度母加持驟雨：二十一聖救度母禮讚文詞義釋與觀修次第簡編 ^0

@@ -11,9 +11,9 @@ root_text: 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་ག
 translation_of: nmGX5G3SzfoiNdvbp6YQq
 translation_of_text_id: nmGX5G3SzfoiNdvbp6YQq
 translation_of_edition_id: n0meYebRr1clD2ysfDjyK
-text_id:
-edition_id:
-toc_id:
+text_id: yXurCIiwutOkMj4xOm2iu
+edition_id: Q87sYzj6MFx4oke0Tefpw
+toc_id: PsTTH4Rr1T0I57TGooY38
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ blocks_total: 36
 headings_translated: 8
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: n0meYebRr1clD2ysfDjyK
 ---
 
 # 度母二十一禮讚釋義：明亮光芒 ^0

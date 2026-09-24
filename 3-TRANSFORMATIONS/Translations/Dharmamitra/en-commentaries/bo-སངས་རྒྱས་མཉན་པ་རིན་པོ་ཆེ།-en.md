@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md
 translation_of_text_id: exz1MI85hysNKQK45uPzf
 translation_of_edition_id: EwjzyZ1asr7jdvWzXMlJH
-text_id:
-edition_id:
-toc_id:
+text_id: vjsSOgHOLTinKjf75np0n
+edition_id: gTU4qhF7Bt2x6FRxcBzX1
+toc_id: gGdPjPPnz8mCXHQ79EmBB
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 69
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: exz1MI85hysNKQK45uPzf
+aligned_to_edition_id: EwjzyZ1asr7jdvWzXMlJH
 ---
 
 # Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā ^0

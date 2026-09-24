@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
 translation_of_text_id: nmGX5G3SzfoiNdvbp6YQq
 translation_of_edition_id: n0meYebRr1clD2ysfDjyK
-text_id:
-edition_id:
-toc_id:
+text_id: Kf0egWjqCojftqEz3zZfj
+edition_id: VIYVb7cM4daOLzqSyB3U7
+toc_id: NOogNSSW1mKPfbzPRrFLs
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 8
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: nmGX5G3SzfoiNdvbp6YQq
+aligned_to_edition_id: n0meYebRr1clD2ysfDjyK
 ---
 
 # Brilliant Rays of Light: An Explanation of the Praise to Tārā in Twenty-One Homages ^0

@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md
 translation_of_text_id: 8x7kZUDklxT6ZP6C29KpN
 translation_of_edition_id: b0NiLO9CIGktSFgsbsYR7
-text_id:
-edition_id:
-toc_id:
+text_id: PcEDNJ1YJGPrm2YC975rk
+edition_id: cNGVYQeJqsGbrryJUbrcY
+toc_id: M3GZxSoxIbm6ZM2AIHSaA
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 43
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: 8x7kZUDklxT6ZP6C29KpN
+aligned_to_edition_id: b0NiLO9CIGktSFgsbsYR7
 ---
 
 # A Bouquet of Utpala Flowers Captivating the Mind: An Explanation of the Praise to Tārā in Twenty-One Homages ^0

@@ -11,9 +11,9 @@ root_text: 1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི
 translation_of: IZpPQackQMjMsG6i9laM3
 translation_of_text_id: IZpPQackQMjMsG6i9laM3
 translation_of_edition_id: EPWPiXyjSDcgewleXnbIj
-text_id:
-edition_id:
-toc_id:
+text_id: sqMARGUWrTONnbhW0OKBG
+edition_id: O7nuya64iV3nJ1MEsvkDs
+toc_id: ttDwSgG2hKX8AFHmB4Div
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ blocks_total: 30
 headings_translated: 26
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: EPWPiXyjSDcgewleXnbIj
 ---
 
 # Notes on Karma Maitri's Praise to Tārā ^0

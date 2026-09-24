@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
 translation_of_text_id: 0Mf7CNevYyHI8TTBh3RHW
 translation_of_edition_id: B8oZ0xtFaCCSswH0MqLNW
-text_id:
-edition_id:
-toc_id:
+text_id: PnHSB0pkE5lqVrqCmUrDd
+edition_id: gXyjcGbJp853IijR2qCTL
+toc_id: IwwErUZTpSbuiLZbatpKb
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 37
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: 0Mf7CNevYyHI8TTBh3RHW
+aligned_to_edition_id: B8oZ0xtFaCCSswH0MqLNW
 ---
 
 # 二十一禮讚功德利益明鏡 ^0

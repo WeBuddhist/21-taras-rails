@@ -10,9 +10,9 @@ track_type: machine-baseline
 root_text: 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
 translation_of_text_id: FLkNt28DzdIV3eEgYBdYi
 translation_of_edition_id: iNygWczubSeZPsjP2LEwH
-text_id:
-edition_id:
-toc_id:
+text_id: AzUMElusW4ctpFstpeNP3
+edition_id: ApdHJWxMgveOODdLqJ3bM
+toc_id: ziNLgrfvx1PbCqkYivk1w
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ headings_translated: 39
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
 translation_of: FLkNt28DzdIV3eEgYBdYi
+aligned_to_edition_id: iNygWczubSeZPsjP2LEwH
 ---
 
 # The Precious Garland Tikka: A Commentary on the Twenty-One Homages to Tārā ^0

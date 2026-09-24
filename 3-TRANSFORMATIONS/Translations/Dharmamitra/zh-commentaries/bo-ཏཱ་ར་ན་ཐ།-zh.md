@@ -11,9 +11,9 @@ root_text: 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
 translation_of: zbAO8BchLZ09EiGSm9DrR
 translation_of_text_id: zbAO8BchLZ09EiGSm9DrR
 translation_of_edition_id: rm5AmphMXQyUW3EMmjybA
-text_id:
-edition_id:
-toc_id:
+text_id: ss7im6Ac5OfLoofd20Itu
+edition_id: eaWcGlnzC81a8EibhCizs
+toc_id: saGJYVJr8wMQ8Wu964Ztx
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: dharmamitra cat-translate v1
@@ -34,6 +34,7 @@ blocks_total: 72
 headings_translated: 33
 note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
 status: draft
+aligned_to_edition_id: rm5AmphMXQyUW3EMmjybA
 ---
 
 # 二十一禮讚釋義 ^0
