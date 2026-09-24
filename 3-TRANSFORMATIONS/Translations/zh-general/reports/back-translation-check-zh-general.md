@@ -5,7 +5,7 @@ translation: bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བས�
 checked_draft: 2
 result_draft: 3
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
-consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
+consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 date: 2026-09-24
 verses: 32
 match: 17

@@ -342,7 +342,7 @@ edit made to `1-SOURCES/`.
 **Run:** `commentary-fact-check` Phase 1 against Jetsün Drakpa Gyaltsen
 (`bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md`), scope = all 30 verses it covers (I-3, 1-1 to 1-22,
 2-1 to 2-6, a-1). The translation was not edited. Report:
-`3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-report-drakpa-gyaltsen-en-general.md`.
+`3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-report-drakpa-gyaltsen-en-general.md`.
 
 **Result:** 17 clean, 7 with errors, 6 with mismatches only.
 - Errors: 1-1 (lotus born from Avalokiteśvara's tears, not "lotus face"); 1-3
@@ -446,7 +446,7 @@ property; 1-22 "and". Properties: `fact_check_open_items: 0`, `translator_decisi
 
 ## Draft 1 vs draft 3 comparison — DONE
 
-`3-TRANSFORMATIONS/Translations/en-general/comparison-draft1-vs-draft3-en-general.md`:
+`3-TRANSFORMATIONS/Translations/en-general/reports/comparison-draft1-vs-draft3-en-general.md`:
 a verse-by-verse word diff (Obsidian ~~strike~~ / ==highlight==), with each change
 attributed to the termbase pass (T), the fact-check (F) or a user decision (D).
 21 of 32 verses changed: 16 by T, 13 by F/D, 8 by both; 11 unchanged. The zero-shot
@@ -457,7 +457,7 @@ the soft glossary hint barely steered the output.
 
 ## Consistency measurement — DONE
 
-`3-TRANSFORMATIONS/Translations/en-general/consistency-report-en-general.md`, covering
+`3-TRANSFORMATIONS/Translations/en-general/reports/consistency-report-en-general.md`, covering
 D0 zero-shot, D1 glossary-primed, D2 termbase pass and D3 fact-checked.
 - **Locked-term adherence** (122 verse–term pairs, 5 subsumed pairs excluded): 78.7% → 86.9% → 99.2% → 100%.
 - **Repeated words with more than one spelling** (8 tracked): 1 → 2 → 0 → 0 (tuttare; D1 also hum).
@@ -580,7 +580,7 @@ build → validate/baseline/glossary.
     lake's form rather than Tara, 1-14 an added 障礙 removed, 1-1 the lotus from the Lord's face);
   - 5 headings.
   **137/137 locked words (100%)**; line counts unchanged; no Latin letters outside the Sanskrit title.
-  The log is in `zh-general/phase2-fixes-log-zh-general.md`, which also lists 4 open meaning items for the next
+  The log is in `zh-general/reports/phase2-fixes-log-zh-general.md`, which also lists 4 open meaning items for the next
   step. Draft 2 text is written to `zh_text` in `bo_zh_keyword_general.json`.
 - Skill fix: `build_zh_termbase.py --force` now keeps `zh_text` that is already written.
 - **Next:** meaning check of each verse against the English D3 and the commentary consensus (including the 4 open
@@ -596,7 +596,7 @@ build → validate/baseline/glossary.
   1-10 she brings the joy, 1-21 the suchnesses set upon her). Also fixed: 1-7 外道 → 敵方幻輪 and 1-4, where the
   bodhisattvas are the ones who attained the perfections.
 - Still **137/137 locked words**; line counts unchanged.
-- Report: `3-TRANSFORMATIONS/Translations/zh-general/back-translation-check-zh-general.md`. `zh_text` in the grade
+- Report: `3-TRANSFORMATIONS/Translations/zh-general/reports/back-translation-check-zh-general.md`. `zh_text` in the grade
   file stays the Draft 2 snapshot, as with English.
 - **Next:** a native Chinese reader reviews (the flagged word list first, then the text); then `translation-qa`
   and upload.
@@ -618,4 +618,4 @@ back-translation route could not cover:
   (`zh_text` kept).
 - 137/137 locked words.
 
-Report: `3-TRANSFORMATIONS/Translations/zh-general/commentary-light-check-zh-general.md`.
+Report: `3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md`.

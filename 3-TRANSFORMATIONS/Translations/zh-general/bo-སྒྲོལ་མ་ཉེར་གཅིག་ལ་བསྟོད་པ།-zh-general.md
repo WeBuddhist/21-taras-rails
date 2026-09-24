@@ -39,7 +39,7 @@ draft_history:
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
-phase2_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/phase2-fixes-log-zh-general.md
+phase2_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/reports/phase2-fixes-log-zh-general.md
 phase2_changes: 21 (5 locked-word, 11 error, 5 heading)
 fact_checked: 2026-09-24 (meaning check against the English fact-check and its commentary consensus, then a light direct check of the Chinese-only choices, the translator decisions and the single-commentary flags against the four commentaries)
 fact_check_commentaries:
@@ -47,16 +47,16 @@ fact_check_commentaries:
   - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
-commentary_light_check_report: 3-TRANSFORMATIONS/Translations/zh-general/commentary-light-check-zh-general.md
+commentary_light_check_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md
 translator_decisions: 7 (the English translator decisions, followed in Chinese)
 translator_notes:
   - "1-17: 頻闍山 renders འབིགས་བྱེད as the mountain Vindhya (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'the rays of HŪṂ pierce Meru and Mandara'."
   - "2-6: the last line follows our root's optative འཇོམས་འགྱུར་ཅིག (願…), as Tenga Tulku does. The copies quoted by Drakpa Gyaltsen, Gendun Drub and Taranatha read འཇོམས་འགྱུར ('will be destroyed')."
   - "1-14: 七層 ('seven levels') is left open on purpose — the commentaries read རིམ་པ་བདུན as seven classes of beings (Drakpa Gyaltsen, Tenga Tulku), seven world-levels (Gendun Drub) or seven underground levels (Taranatha)."
   - "2-1 (for the reviewer): ལྷ་མོ is rendered 天女 (goddess). Gendun Drub (ལྷ་མོ་སྒྲོལ་མ) and Taranatha (= བཅོམ་ལྡན་འདས་མ) make clear it is Tārā herself. If 天女 reads as a lesser celestial being to Chinese readers, the reviewer may prefer 聖尊 or 女尊."
-meaning_check_report: 3-TRANSFORMATIONS/Translations/zh-general/back-translation-check-zh-general.md
+meaning_check_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/back-translation-check-zh-general.md
 meaning_check_result: 17 match, 7 minor, 8 differ — all 15 fixed
-fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
+fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 native_review: false
 note: "Third draft. (1) DharmaMitra cat-translate raw output from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced verse by verse against the 52-term general-grade zh termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus; 15 verses fixed (see meaning_check_report). 137/137 locked words. Not yet reviewed by a native Chinese reader -- treat as draft."
 status: draft

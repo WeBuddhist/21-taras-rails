@@ -39,8 +39,8 @@ fact_check_commentaries:
   - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
-fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
-fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-fixes-log-en-general.md
+fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-fixes-log-en-general.md
 fact_check_fixes_applied: 11
 fact_check_open_items: 0
 translator_decisions: 7

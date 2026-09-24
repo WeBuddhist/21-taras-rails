@@ -8,7 +8,7 @@ commentaries:
   - GD — Gendun Drub (bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།)
   - TN — Taranatha (bo-ཏཱ་ར་ན་ཐ།)
   - TT — Tenga Tulku (bo-བསྟན་དགའ་སྤྲུལ་སྐུ།)
-consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
+consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 date: 2026-09-24
 result: 1 wording fix (1-7), 4 translator notes added, 1 item for the native reviewer (2-1 天女)
 ---
