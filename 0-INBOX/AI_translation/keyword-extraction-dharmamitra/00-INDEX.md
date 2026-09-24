@@ -13,6 +13,20 @@ each in every language. The translations themselves are in
 **Edit** = change a decision here. **Read** = the file for a person to review. **Built** = made by a script;
 don't edit it by hand, rebuild it.
 
+## Start here
+
+**`standardised-keywords-general.md`** has all standardised keywords in one table: the Tibetan term and its
+locked English, Chinese and Vietnamese renderings, with the verses (52 terms). It is built from the word lists
+below; to rebuild it after a change:
+
+```bash
+K=0-INBOX/AI_translation/keyword-extraction-dharmamitra
+python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/multilingual_table.py \
+  --base $K/en/en-bo-en-termbase-general.json \
+  --lang zh=$K/zh/en-bo-zh-termbase-general.json --lang vi=$K/vi/en-bo-vi-termbase-general.json \
+  --title "Praise to the Twenty-One Tārās" -o $K/standardised-keywords-general.md
+```
+
 ## `en/` — English (general)
 
 | File | What | |
