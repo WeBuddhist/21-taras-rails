@@ -508,5 +508,15 @@
       "'demons' -> 'graha': attested explicitly uses 'grahas' (1-21) for གདོན — a Sanskrit technical term for a possessing/seizing spirit, not the English gloss 'demon'. NOTE: attested is not fully consistent either — it renders the same word as plain 'evil' at 2-5. Flagged below as a register trade-off, not force-applied without your sign-off.",
       "Correction: an earlier pass in this session applied 'graha' and reported it as 'flagged, not applied' to the user — that was inconsistent. Reverted to 'demons' on review, for the reason in the note above."
     ]
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "note": "Not picked up by keywords.py's YAKE pass — missed entirely from the original termbase. Added from the TF-IDF pass (rank 43, count 2) after you flagged it. Dharmamitra draft spells it 'yakṣas' (with the ṣ diacritic); the attested translation spells it 'yaksas' (no diacritic), matching the same plain-spelling pattern already applied to Tara/hum/tuttare/trat/phat/ture — locked to the attested spelling for the same reason: general register, not a scholarly transliteration register. Note for the record: the ṣ character isn't in the TF-IDF script's token-character allowlist, so it split 'yakṣas' into fragments ('yak' + 'as') rather than counting it as one word — that's a real small bug in generate_en_translation_idf.py's tokenize(), worth fixing upstream if this script gets used on texts with more Sanskrit vocabulary."
   }
 }

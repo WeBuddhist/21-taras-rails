@@ -235,3 +235,18 @@ or generic narrative nouns (eyes, fire, leg, wealth, child) not worth
 locking. One candidate worth a look if the termbase gets extended: "yakṣa"
 (gandharvas/yakṣas class of being) wasn't picked up by YAKE and isn't in
 the current termbase at all.
+
+---
+
+## Added `yaksha` (manually, TF-IDF-sourced)
+
+47th termbase entry. Missed by YAKE entirely; found via the TF-IDF pass
+(rank 43). Occurs at 1-6 and 1-21. Locked to `yaksas` — the attested
+translation's spelling, dropping the diacritic on the same reasoning already
+applied to Tara/hum/tuttare/trat/phat/ture (general register, not scholarly
+transliteration). Added to both files.
+
+Small bug noted for the record: the TF-IDF script's tokenizer doesn't
+recognize `ṣ` as a word character, so it split "yakṣas" into "yak" + "as"
+instead of counting it as one word — that's why it took manual digging to
+find rather than showing up cleanly in the report.

@@ -650,6 +650,17 @@
         "term": "vetala",
         "en": "vetāla",
         "grade": "general"
+      },
+      {
+        "key": "yakṣas",
+        "rank": null,
+        "score": null,
+        "count": 1,
+        "bo": "གནོད་སྦྱིན",
+        "term": "yaksha",
+        "en": "yaksas",
+        "grade": "general",
+        "source": "tfidf-added-manually"
       }
     ]
   },
@@ -1505,6 +1516,17 @@
         "term": "vetala",
         "en": "vetāla",
         "grade": "general"
+      },
+      {
+        "key": "yakṣas",
+        "rank": null,
+        "score": null,
+        "count": 1,
+        "bo": "གནོད་སྦྱིན",
+        "term": "yaksha",
+        "en": "yaksas",
+        "grade": "general",
+        "source": "tfidf-added-manually"
       }
     ]
   },
