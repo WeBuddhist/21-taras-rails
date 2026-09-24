@@ -765,3 +765,22 @@ its commentary. Next time give each checker its own scratch folder.
 Also: `keyword-standardize/SKILL.md` has a Hindi section; `standardised-keywords-general.md` now has a Hindi
 column. **Next:** native Hindi review (flagged word list first: `hi/termbase-hi-general.md`), `translation-qa`,
 upload (the platform still has the old Gemini baseline).
+
+## translation-qa for all four languages, fixes applied; Chinese full fact-check (2026-09-24)
+
+**QA (MQM), first run:** en 96.0 FAIL (1 Major: 1-8 "your lotus face"), zh 93.6 FAIL (3 Major: 1-17 who
+shakes the mountains; 1-12 and 2-3 in 7-character chant style), vi 98.2 PASS, hi 96.6 PASS. Stage 0 clean for
+all; its "latin characters" hits are false positives for English and Vietnamese (the check assumes a
+non-Latin script).
+
+**Fixes applied (Tenkal: "yes do it"):** en → draft 4 (30 fixes; one voice "Homage to you" throughout; plain
+spellings to match the locked ones), zh → draft 4 (35 fixes), vi → draft 5 (16), hi → draft 5 (30). Re-check:
+en 99.8, zh 99.9, vi 99.8, hi 100.0 — all PASS. Alignment OK and locked words intact for all four. Each fixes log
+lists items "for the word list" (possible new locks, the vi/hi lock-scope questions for 2-2/2-6, en a-1 Tārā and
+vetālas diacritics) — not yet decided.
+
+**Chinese full commentary check** on draft 4 (four checkers in parallel, own scratch folders): DG 20/30, GD
+18/29, TN 16/28, TT 17/29 clean — no errors. 5 fixes → draft 5 (1-2 thousands, 1-12 subject, 1-16 十個字,
+1-19 爭執, 2-3 no added recipient). 2-1 天女 left, flagged for the native reviewer (3 commentaries: it is Tārā).
+
+A stray linter output (`draft4-backup.lint.json`) was moved to `4-SYSTEM/scripts/linter-root-text/output/_to_delete/`.

@@ -16,10 +16,10 @@ hold raw machine output, which is never the translation to use.
 
 | Language | Current file | Draft | Checks done | Still to do | On the platform |
 |---|---|---|---|---|---|
-| English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | **QA 96.0, FAIL (1 Major: 1-8 "your lotus face")** — fix, then specialist review · upload | no |
-| Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | **QA 93.6, FAIL (3 Major: 1-17, 1-12, 2-3)** — fix; full commentary check · native Chinese review · upload | no |
-| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 4 | locked words 137/137 · back-translation meaning check · full commentary fact-check (4 commentaries, consensus, 9 fixes, 4 translator decisions) | **QA 98.2, PASS** (18 Minor) · native Vietnamese review · upload | no |
-| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 4 | locked words 136/136 · back-translation meaning check · full commentary fact-check (4 commentaries, no errors, 13 fixes, 2 translator decisions) | **QA 96.6, PASS** (30 Minor) · native Hindi review · upload | no (the old Gemini baseline is) |
+| English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 4 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions · **QA 99.8, PASS** (after fixes) | specialist review · upload | no |
+| Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 5 | locked words 137/137 · back-translation meaning check · **QA 99.9, PASS** (after fixes) · full commentary fact-check (4 commentaries, no errors, 5 fixes) | native Chinese review (word list first) · upload | no |
+| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 5 | locked words 137/137 · back-translation meaning check · full commentary fact-check (9 fixes, 4 translator decisions) · **QA 99.8, PASS** (after fixes) | native Vietnamese review (word list first) · upload | no |
+| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 5 | locked words 136/136 · back-translation meaning check · full commentary fact-check (no errors, 13 fixes, 2 translator decisions) · **QA 100.0, PASS** (after fixes) | native Hindi review (word list first) · upload | no (the old Gemini baseline is) |
 
 ## Reports behind each translation
 
@@ -34,7 +34,9 @@ hold raw machine output, which is never the translation to use.
 **Chinese** — `zh-general/reports/`
 - `phase2-fixes-log-zh-general.md`: draft 1 → 2 (approved words enforced, clear errors fixed)
 - `back-translation-check-zh-general.md`: draft 2 → 3 (meaning check, verse by verse)
-- `commentary-light-check-zh-general.md`: Chinese-only word choices checked against the commentaries
+- `commentary-light-check-zh-general.md`: the earlier light check (superseded)
+- `qa-report.md`, `qa-fixes-log-zh-general.md`: draft 3 → 4 (translation-qa)
+- `commentary-fact-check-report-*-zh-general.md`, `…-consensus-zh-general.md`, `…-fixes-log-zh-general.md`: draft 4 → 5
 
 **Vietnamese** — `vi-general/reports/`
 - `phase2-fixes-log-vi-general.md`: draft 1 (Gemini zero-shot) → 2 (approved words enforced, clear errors fixed)
@@ -49,7 +51,7 @@ hold raw machine output, which is never the translation to use.
 - `commentary-fact-check-report-*-hi-general.md`: one full report per commentary
 - `commentary-fact-check-consensus-hi-general.md` and `commentary-fact-check-fixes-log-hi-general.md`: draft 3 → 4
 
-**QA** — each language's `reports/qa-report.md` (translation-qa, MQM score and gate, 2026-09-24)
+**QA** — each language's `reports/qa-report.md` (translation-qa: MQM score, gate, and the re-check after fixes) and `reports/qa-fixes-log-<lang>-general.md` (the fixes applied: en D3→4, zh D3→4, vi D4→5, hi D4→5)
 
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
 is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi: `zh/zh-decisions-general.json`,

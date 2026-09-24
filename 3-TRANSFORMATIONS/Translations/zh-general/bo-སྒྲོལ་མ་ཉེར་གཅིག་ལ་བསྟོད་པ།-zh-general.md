@@ -23,20 +23,21 @@ edition_type: critical
 source_language: tibetan
 target_language: modern chinese
 generator: graded-translate Phase 2 (dharmamitra cat-translate v1 base + 52-term locked zh termbase)
-rails_used: zh-keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check against commentary-fact-check consensus
+rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary-fact-check (Phase 1 ×4, Phase 1b, Phase 2); translation-qa
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/en-bo-zh-termbase-general.json
 termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/zh-decisions-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/bo_zh_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24
-draft: 4
+draft: 5
 draft_history:
   - 0 — DharmaMitra zero-shot, no word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh/)
   - 1 — DharmaMitra, glossary-primed with the zh word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file zh_text
   - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
-  - 4 — translation-qa fixes applied (this file)
+  - 4 — translation-qa fixes applied
+  - 5 — full commentary fact-check (4 commentaries), consensus fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -48,7 +49,7 @@ fact_check_commentaries:
   - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
   - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
-commentary_light_check_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md
+commentary_light_check_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md (superseded by the full check)
 translator_decisions: 7 (the English translator decisions, followed in Chinese)
 translator_notes:
   - "1-17: 頻闍山 renders འབིགས་བྱེད as the mountain Vindhya (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'the rays of HŪṂ pierce Meru and Mandara'."
@@ -61,8 +62,18 @@ qa_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/qa-report.md
 qa_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/reports/qa-fixes-log-zh-general.md
 qa_fixes_applied: 35
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
+fact_check_full: 2026-09-24
+fact_check_reports:
+  - 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-report-drakpa-gyaltsen-zh-general.md
+  - 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-report-gendun-drub-zh-general.md
+  - 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-report-taranatha-zh-general.md
+  - 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-report-tenga-tulku-zh-general.md
+fact_check_consensus_zh: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-consensus-zh-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-fact-check-fixes-log-zh-general.md
+fact_check_fixes_applied: 5
+fact_check_open_items: 0
 native_review: false
-note: "Fourth draft. (1) DharmaMitra cat-translate raw output from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced verse by verse against the 52-term general-grade zh termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus; 15 verses fixed (see meaning_check_report). (4) translation-qa (MQM) fixes applied: the 3 Majors (1-17 subject; 1-12 and 2-3 rewritten out of 7-character chant style), all 26 Minors, and 6 more lines modernised out of 7-character classical style (see qa_fixes_log). 137/137 locked words. A full four-commentary fact-check is still to run on this draft. Not yet reviewed by a native Chinese reader -- treat as draft."
+note: "Fifth draft. (1) DharmaMitra cat-translate from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced (137/137) and clear mistranslations fixed; (3) back-translation meaning check, 15 verses fixed; (4) translation-qa (MQM) fixes applied (3 Majors, 26 Minors, 6 lines modernised out of 7-character chant style); (5) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): no errors, 5 wording fixes. Not yet reviewed by a native Chinese reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -96,7 +107,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 敬禮面容猶如一百輪
 秋季滿月層層相疊者，
-她以千顆星辰匯聚
+她以成千星辰匯聚
 所放射的光芒，極其熾燃。 ^1-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-3]]
@@ -166,7 +177,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 敬禮以月牙莊嚴頭頂者，
 所有飾物都極其熾燃，
-從她髮髻中的阿彌陀佛
+她從髮髻中的阿彌陀佛
 恆常放出極其燦爛的光芒。 ^1-12
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-13]]
@@ -194,7 +205,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 敬禮周遭環繞極喜者，
 徹底粉碎敵人之身，
-布列十字咒語，
+布列十個字的咒語，
 從明咒吽字生起的明燈。 ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
@@ -216,7 +227,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 敬禮天眾之王所侍奉，
 諸天與緊那羅所依止者，
 以周遍喜樂鎧甲的威嚴，
-消除爭鬥與惡夢。 ^1-19
+消除爭執與惡夢。 ^1-19
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-20]]
 
@@ -254,7 +265,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
 七千萬尊佛
-將迅速為此人授予灌頂，
+將迅速授予灌頂，
 此人還會獲得比這更殊勝的成就，
 並抵達那究竟的佛果。 ^2-3
 
