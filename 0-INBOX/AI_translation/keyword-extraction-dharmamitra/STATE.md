@@ -726,3 +726,14 @@ Still 137/137 locked words. The light-check report is kept, marked superseded. R
 English, Chinese and Vietnamese, the verses, ⚑ for flagged picks, and notes where a language's verses differ
 from English. It is built by the new `keyword-standardize/scripts/multilingual_table.py` and linked from
 `00-INDEX.md`.
+
+## Machine-draft tracks restored (2026-09-24)
+
+A teammate's commit `6a87d12` (ta4tsering, "Vocabulary-standardisation chain, wiki commentary sorting, track
+cleanup", dated 2026-09-23) arrived through the auto-backup's merge of origin/main this evening. It removed
+`Translations/Gemini/` (hi, mn, ne, vi) and `Translations/Dharmamitra/zh/`, as "zero-shot tracks … to be rebuilt
+via graded-translate + commentary-fact-check".
+
+Tenkal asked for Gemini back. Both folders were restored unchanged from `6a87d12^` (63 files). They are the
+recorded draft 0/1 sources of vi-general and zh-general, and the `--mt-draft` inputs of the zh/vi rebuild
+commands. Nothing else from that commit was touched.
