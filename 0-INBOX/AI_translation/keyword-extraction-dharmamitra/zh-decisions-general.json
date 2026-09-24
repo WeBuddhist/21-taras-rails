@@ -229,7 +229,7 @@
       "source": [
         "new"
       ],
-      "note": "འབྱུང་པོ (bhūta). Classical and DharmaMitra both write the transliteration 部多, which a general reader cannot parse. 鬼神 is the ordinary Chinese word for spirits and keeps it distinct from 邪魅 (གདོན).",
+      "note": "འབྱུང་པོ (bhūta). Classical and DharmaMitra both write the transliteration 部多, which a general reader cannot parse. 鬼神 is the ordinary Chinese word for spirits and keeps it distinct from 邪魅 (གདོན). Commentary check: Drakpa Gyaltsen, Gendun Drub and Taranatha name Gaṇapati (ཚོགས་བདག) as their chief; Taranatha: obstructers and misleaders. 鬼神 fits.",
       "decision": true
     },
     "destroy": {
@@ -283,7 +283,7 @@
       "source": [
         "classical"
       ],
-      "note": "དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 (\"subdue by force\"), which is stronger than the Tibetan. 攝伏 = bring under one's control.",
+      "note": "དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 (\"subdue by force\"), which is stronger than the Tibetan. 攝伏 = bring under one's control. Commentary check: all four read དབང་དུ་མཛད as bringing under her control (Gendun Drub: the māras and the eight great worldly gods). 攝伏 fits.",
       "decision": true
     },
     "joy": {
@@ -340,7 +340,7 @@
       "source": [
         "mt"
       ],
-      "note": "ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English.",
+      "note": "ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English. Commentary check 2026-09-24: Gendun Drub (ལྷ་མོ་སྒྲོལ་མ) and Taranatha (= བཅོམ་ལྡན་འདས་མ) identify ལྷ་མོ with Tārā herself. Reviewer: if 天女 reads as a lesser celestial being, use 聖尊 or 女尊.",
       "decision": true
     },
     "vetala": {
@@ -348,7 +348,7 @@
       "source": [
         "classical"
       ],
-      "note": "རོ་ལངས (\"risen corpse\"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6."
+      "note": "རོ་ལངས (\"risen corpse\"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6. Commentary check: Taranatha glosses རོ་ལངས as a class of beings (ལྷའི་སྲིན་པོའི་རིགས་དགུ), which may be why DharmaMitra wrote 羅剎; the word itself is \"risen corpse\", so 起屍 stays."
     },
     "empowerment": {
       "zh": "灌頂",
@@ -364,7 +364,7 @@
       "source": [
         "new"
       ],
-      "note": "གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits.",
+      "note": "གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits. Commentary check: Taranatha — the eighteen གདོན (e.g. ནམ་གུའི་གདོན); Drakpa Gyaltsen — all that obstructs. 邪魅 (harmful spirits) fits.",
       "decision": true
     },
     "yaksha": {
@@ -388,7 +388,7 @@
         "mt",
         "standard"
       ],
-      "note": "Chinese-only split from \"great\": ཆེ་བ in 2-3 is comparative (\"greater than this\"), so 大 does not fit. DharmaMitra 更勝者.",
+      "note": "Chinese-only split from \"great\": ཆེ་བ in 2-3 is comparative (\"greater than this\"), so 大 does not fit. DharmaMitra 更勝者. Commentary check: Gendun Drub — the common great siddhis; Taranatha — many greater qualities. 更殊勝 fits.",
       "decision": true,
       "new_entry": {
         "bo": "ཆེ་བ",

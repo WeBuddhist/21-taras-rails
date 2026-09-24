@@ -41,7 +41,19 @@ blocks_total: 32
 headings_translated: 5
 phase2_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/phase2-fixes-log-zh-general.md
 phase2_changes: 21 (5 locked-word, 11 error, 5 heading)
-fact_checked: 2026-09-24 (meaning check against the English fact-check and its commentary consensus; the Chinese was not checked against the commentaries directly)
+fact_checked: 2026-09-24 (meaning check against the English fact-check and its commentary consensus, then a light direct check of the Chinese-only choices, the translator decisions and the single-commentary flags against the four commentaries)
+fact_check_commentaries:
+  - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
+commentary_light_check_report: 3-TRANSFORMATIONS/Translations/zh-general/commentary-light-check-zh-general.md
+translator_decisions: 7 (the English translator decisions, followed in Chinese)
+translator_notes:
+  - "1-17: 頻闍山 renders འབིགས་བྱེད as the mountain Vindhya (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'the rays of HŪṂ pierce Meru and Mandara'."
+  - "2-6: the last line follows our root's optative འཇོམས་འགྱུར་ཅིག (願…), as Tenga Tulku does. The copies quoted by Drakpa Gyaltsen, Gendun Drub and Taranatha read འཇོམས་འགྱུར ('will be destroyed')."
+  - "1-14: 七層 ('seven levels') is left open on purpose — the commentaries read རིམ་པ་བདུན as seven classes of beings (Drakpa Gyaltsen, Tenga Tulku), seven world-levels (Gendun Drub) or seven underground levels (Taranatha)."
+  - "2-1 (for the reviewer): ལྷ་མོ is rendered 天女 (goddess). Gendun Drub (ལྷ་མོ་སྒྲོལ་མ) and Taranatha (= བཅོམ་ལྡན་འདས་མ) make clear it is Tārā herself. If 天女 reads as a lesser celestial being to Chinese readers, the reviewer may prefer 聖尊 or 女尊."
 meaning_check_report: 3-TRANSFORMATIONS/Translations/zh-general/back-translation-check-zh-general.md
 meaning_check_result: 17 match, 7 minor, 8 differ — all 15 fixed
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
@@ -113,7 +125,7 @@ status: draft
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-7]]
 
 敬禮以特囉與呸字，
-徹底摧毀敵方幻輪者，
+徹底摧毀敵方咒術幻輪者，
 右屈左伸以足踏，
 安住熾燃翻騰的火焰之中。 ^1-7
 

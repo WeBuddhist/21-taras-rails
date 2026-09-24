@@ -600,3 +600,22 @@ build → validate/baseline/glossary.
   file stays the Draft 2 snapshot, as with English.
 - **Next:** a native Chinese reader reviews (the flagged word list first, then the text); then `translation-qa`
   and upload.
+
+### Chinese — commentary light check (2026-09-24)
+
+Chose the light check over four full reports. It read the four commentaries directly for three things the
+back-translation route could not cover:
+- the Chinese-only word choices (鬼神, 起屍, 邪魅, 夜叉, 攝伏, 更殊勝, 天女, 1-7, 1-4);
+- whether the Chinese follows the 7 English translator decisions;
+- the single-commentary flags and textual variants.
+
+**Result:**
+- 1 wording fix: 1-7 敵方幻輪 → 敵方咒術幻輪, since the commentaries read it as adversaries' sorcery devices and
+  curses.
+- 4 translator notes added to the zh file's properties (1-17, 2-6, 1-14, and 2-1 for the reviewer: 天女 vs
+  聖尊/女尊).
+- The commentary evidence is recorded in `zh-decisions-general.json`, and the termbase was rebuilt from it
+  (`zh_text` kept).
+- 137/137 locked words.
+
+Report: `3-TRANSFORMATIONS/Translations/zh-general/commentary-light-check-zh-general.md`.
