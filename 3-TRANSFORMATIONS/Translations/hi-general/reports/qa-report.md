@@ -95,3 +95,28 @@ in that verse, but that break the file's own consistency.
 5. **1-4, 1-10** undo the stiff locked-word joins: अशेष पारमिताओं; split 1-10 line 1 into "radiant, bringing supreme joy" and "whose crown spreads garlands of light".
 
 Also quick: बायाँ (1-7, 1-13), कम्पित (1-11), श्रद्धा for भक्ति (2-1), इससे भी बढ़कर (2-3), निवारण (2-4).
+
+## Re-check after fixes (draft 5) — 2026-09-24
+
+**Fixes:** 30 of 30 Minor findings applied (see `hi-general/reports/qa-fixes-log-hi-general.md`). Neutral rows
+not applied. No Tenkal decision, consensus fix or locked word changed.
+
+**Stage 0 (mechanical):** `mqm_mechanical_checks.py <file> --source <root>` — 32 distinct verse IDs,
+32 transclusions, 0 critical / 0 major / 0 minor. Stage-0 gate PASS-so-far.
+**Alignment:** `check_translation_alignment.py` — OK (32 segments, 5 headings; every block keeps its line count).
+**Terminology (mechanical):** `check_termbase_consistency.py --lang hi` — 136/136 locked words found, 0 loose,
+1 covered by a longer locked phrase (a-1, unchanged), 0 misses; same with `--strict-diacritics`.
+2-3 महा is still met (in महानता).
+**Lint:** `lint_text_input.py` — OK (WARNs only: alt_titles, translator ids — unchanged from draft 4).
+
+**Re-read:** the 30 draft-4 rows and every changed line. All 30 resolved; no new error found in the
+changed lines. This re-check covers the listed findings and the edits. It is not a fresh full Stage 1 run.
+
+**Word count:** 874 (same method as the draft-4 run, which counted 880).
+**Counts:** 0 critical · 0 major · 0 minor.
+**Score:** 100 − (0 / 874) × 100 = **100.0 / 100**   **Gate:** PASS — may go to native review; stays `draft`.
+
+Still open for the reviewer (neutral, unchanged): spelling mix (needs a word-list decision), ग्रह in 1-21/2-5,
+1-8 भृकुटि चढ़ाती हैं (new wording, translator note updated), 1-7 चरण beside 1-13 पैर (Tibetan differs).
+
+**This is an LLM self-check.** It is not a sign-off.

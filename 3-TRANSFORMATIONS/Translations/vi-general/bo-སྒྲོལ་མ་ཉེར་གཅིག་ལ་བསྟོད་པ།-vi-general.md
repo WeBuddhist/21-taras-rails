@@ -28,12 +28,13 @@ grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/vi/bo_vi_keywo
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24
-draft: 4
+draft: 5
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/vi/, 2026-09-17)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file vi_text
   - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
-  - 4 — full commentary fact-check (4 commentaries), consensus fixes applied (this file)
+  - 4 — full commentary fact-check (4 commentaries), consensus fixes applied
+  - 5 — translation-qa fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -60,6 +61,9 @@ fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/vi-general/reports/commenta
 fact_check_fixes_applied: 9
 translator_decisions_vi: "4 (Tenkal, 2026-09-24): 1-21 changed to tam chân như; 1-11, 1-14 kept as in the English; 1-8 kept, flagged for the reviewer"
 fact_check_open_items: 0
+qa_report: 3-TRANSFORMATIONS/Translations/vi-general/reports/qa-report.md
+qa_fixes_log: 3-TRANSFORMATIONS/Translations/vi-general/reports/qa-fixes-log-vi-general.md
+qa_fixes_applied: 16
 translator_decisions: 7 (the English translator decisions, followed in Vietnamese)
 translator_notes:
   - "1-17: núi Vindhya renders འབིགས་བྱེད as the mountain Vindhya (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'the rays of HŪṂ pierce Meru and Mandara'."
@@ -68,7 +72,7 @@ translator_notes:
   - "1-8 (for the reviewer): bậc đại uy mãnh for འཇིགས་པ་ཆེན་མོ 'the Great Terrifying One' — Taranatha and Tenga Tulku find it too mild, Gendun Drub says it fits; Đại Bố Úy is the literal alternative."
   - "2-1 and 1-6/1-21 (for the reviewer): ལྷ་མོ is rendered Nữ Thần; Gendun Drub and Taranatha make clear it is Tārā herself — Thánh Mẫu or Tôn nữ if Nữ Thần reads as a folk goddess. རོ་ལངས is rendered khởi thi (Hán-Việt of 起屍); 'thây ma sống dậy' if khởi thi is too obscure."
 native_review: false
-note: "Fourth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced (137/137) and clear errors fixed; (3) back-translation meaning check, 10 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): 9 fixes applied where 3–4 agreed or the fix restores the root wording; 4 translator's-choice items decided by Tenkal (1-21 changed to tam chân như; 1-11, 1-14, 1-8 kept). Not yet reviewed by a native Vietnamese reader -- treat as draft."
+note: "Fifth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced (137/137) and clear errors fixed; (3) back-translation meaning check, 10 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): 9 fixes applied where 3–4 agreed or the fix restores the root wording; 4 translator's-choice items decided by Tenkal (1-21 changed to tam chân như; 1-11, 1-14, 1-8 kept); (5) translation-qa (MQM) self-check, 16 of 18 minor fixes applied (accuracy in 1-9, 1-10, 1-12, 1-14, 2-4; the locked tiêu diệt in 2-2, 2-6; wording, register and names), Bồ-tát / Niết-bàn spelling kept. Not yet reviewed by a native Vietnamese reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -93,7 +97,7 @@ Om! Kính lễ Chí Tôn Thánh Độ Mẫu! ^I-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-1]]
 
-Kính lễ Độ Mẫu nhanh chóng, dũng mãnh,
+Kính lễ Độ Mẫu mau lẹ, dũng mãnh,
 Đôi mắt ngài tựa tia chớp lóe sáng,
 Sen mọc từ gương mặt Hộ Chủ ba thế giới,
 Từ nhụy hoa bừng nở mà ngài đản sinh. ^1-1
@@ -128,8 +132,8 @@ Có năng lực triệu thỉnh tất thảy không sót. ^1-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-6]]
 
-Kính lễ bậc được Đế Thích, Hỏa thần, Phạm Thiên,
-Phong thần, chư Tự Tại cúng dường,
+Kính lễ bậc được Đế Thích, Hỏa Thần, Phạm Thiên,
+Phong Thần, chư Tự Tại cúng dường,
 Quỷ thần, khởi thi cùng với càn-thát-bà,
 Và chúng dạ-xoa hiện tiền tán thán. ^1-6
 
@@ -152,14 +156,14 @@ Sát diệt tất thảy kẻ thù không sót. ^1-8
 Kính lễ Độ Mẫu ngón tay kết ấn
 Tam Bảo trang nghiêm nơi trái tim,
 Lòng bàn tay trang nghiêm bánh xe mười phương không sót,
-Tỏa ánh hào quang tự thân rực rỡ. ^1-9
+Tỏa khối hào quang tự thân cuộn xoáy. ^1-9
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
 Kính lễ Độ Mẫu ban niềm cực hỷ,
 Vương miện uy nghi tỏa chuỗi hào quang,
 Cười vang lớn với chữ Tuttare,
-Nhiếp phục ác ma cùng toàn thế giới. ^1-10
+Nhiếp phục ác ma cùng thế giới. ^1-10
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-11]]
 
@@ -173,7 +177,7 @@ Giải thoát hoàn toàn khỏi mọi nghèo khó. ^1-11
 Kính lễ Độ Mẫu vương miện trăng khuyết,
 Mọi món trang sức rực rỡ bừng sáng,
 Đức A Di Đà ngự trên búi tóc,
-Thường hằng phóng chiếu vô lượng quang minh. ^1-12
+Thường hằng phóng chiếu quang minh mãnh liệt. ^1-12
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-13]]
 
@@ -185,7 +189,7 @@ Tiêu diệt hoàn toàn quân binh kẻ thù. ^1-13
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-14]]
 
 Kính lễ Độ Mẫu lấy lòng bàn tay
-Vỗ mặt đất và dùng bàn chân dậm đạp,
+Đập xuống mặt đất và dùng bàn chân dậm đạp,
 Mày nhíu phẫn nộ cùng với chữ Hum,
 Phá vỡ tan tành cả bảy tầng. ^1-14
 
@@ -207,7 +211,7 @@ Ngài là ngọn đèn từ minh chú chữ Hum. ^1-16
 
 Kính lễ Ture dậm bàn chân,
 Chủng tử của ngài mang hình tướng chữ Hum,
-Làm rung chuyển núi Tu-di, Mạn-đà, núi Vindhya
+Làm rung chuyển núi Tu-di, núi Mandara, núi Vindhya
 Cùng cả ba thế giới. ^1-17
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-18]]
@@ -215,7 +219,7 @@ Cùng cả ba thế giới. ^1-17
 Kính lễ Độ Mẫu tay cầm vầng trăng sáng,
 Mang dấu ấn hươu như hồ nước chư thiên,
 Tụng hai lần Tare cùng với chữ Phat,
-Tiêu trừ toàn bộ không sót mọi chất độc. ^1-18
+Tiêu trừ mọi chất độc không sót. ^1-18
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
@@ -254,21 +258,21 @@ Chí thành tụng đọc những lời tán thán này, ^2-1
 
 Khi thức dậy lúc chạng vạng và rạng đông,
 Nhờ nhớ nghĩ, được ban mọi vô úy.
-Tiêu trừ hoàn toàn tất thảy mọi ác nghiệp,
-Hủy diệt hoàn toàn tất thảy mọi ác đạo, ^2-2
+Tiêu trừ hoàn toàn tất thảy ác nghiệp,
+Tiêu diệt hoàn toàn tất thảy ác đạo, ^2-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
-Được bảy mươi triệu Đấng Như Lai Tôn Thắng,
+Được bảy mươi triệu Đấng Chiến Thắng,
 Mau chóng ban truyền quán đảnh cho người,
 Lại còn đạt được điều thù thắng hơn thế,
 Rồi sẽ tiến đến quả vị Phật tối hậu. ^2-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-4]]
 
-Dù là những loại độc tố rất hung hiểm,
+Dù là những chất độc rất hung hiểm,
 Dù từ vật bất động hay loài di động,
-Dù đã lỡ ăn vào hay lỡ uống vào,
+Dù đã ăn vào hay đã uống vào,
 Nhờ nhớ nghĩ mà tiêu trừ hoàn toàn. ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
@@ -283,9 +287,9 @@ Nếu trì tụng rõ hai, ba, bảy biến,
 Người cầu con cái ắt được con cái,
 Người cầu tài lộc ắt được tài lộc,
 Mọi điều mong cầu thảy đều đạt được,
-Nguyện mọi chướng ngại không còn, từng cái đều tận diệt. ^2-6
+Nguyện mọi chướng ngại không còn, từng thứ đều bị tiêu diệt. ^2-6
 
-## Lạc khoản ^a-0
+## Lời kết ^a-0
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^a-1]]
 

@@ -1,7 +1,7 @@
 {
   "status": "ok",
-  "source": "../../../3-TRANSFORMATIONS/Translations/vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general.md",
-  "validated_at": "2026-09-24T13:44:27.981649+00:00",
+  "source": "/sessions/rcw-01hesxe9hczshzdudaktd6ke/mnt/21-taras-rails/3-TRANSFORMATIONS/Translations/vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general.md",
+  "validated_at": "2026-09-24T14:03:24.332188+00:00",
   "notes": [
     "bdrc_work_id: not set (optional)",
     "wiki: not set (optional)",
@@ -15,8 +15,10 @@
   "warnings": [
     "alt_titles: missing — ignored for now",
     "translator 'gemini-3.1-pro-preview (raw zero-shot draft)': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
-    "translator 'termbase-enforced and meaning-checked by Claude per keyword-standardize': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
-    "translator 'graded-translate Phase 2 and a back-translation check': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+    "translator 'termbase-enforced': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'meaning-checked and commentary-fact-checked by Claude per keyword-standardize': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'graded-translate Phase 2': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'a back-translation check and commentary-fact-check Phase 1-2': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
   ],
   "text_input": {
     "bdrc": null,

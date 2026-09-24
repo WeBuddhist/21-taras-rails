@@ -66,3 +66,20 @@ date: 2026-09-24
 3. Pick one convention for mantra syllables and one for loanword diacritics, and fix it in the termbase (OṂ/SVĀHĀ, TĀRA, HARA vs hum/phat; yaksas; Tārā vs Tara).
 4. Make repeated Tibetan words match: ཁྲོ་གཉེར "wrathful frown", སྤྱོད་ཡུལ, སྡིག་པ, རྒྱལ་བ, བསྐུམ; and do not use "trample" for བརྡུང (1-14).
 5. Restore "praise" in the I-2 title and "by the root mantra" at 1-22.
+
+## Re-check after fixes (draft 4) — 2026-09-24
+
+Fixes applied per `qa-fixes-log-en-general.md` (approved by Tenkal): 30 of 31 rows — the 1-8 Major and 29 of 30 Minors; all 21 homages now in the second person.
+
+**Stage 0** (`mqm_mechanical_checks.py <file> --source <root>`): 32 distinct verse IDs, 32 transclusions; 0 critical, 0 major, 112 minor — all 112 are "latin characters in content", false positives for an English track (the check is written for Devanagari). Stage-0 gate: PASS. Not counted.
+**Alignment** (`check_translation_alignment.py`): OK — 32 segments, 5 headings, line counts and IDs unchanged. **Linter** (`lint_text_input.py`): OK.
+**Terminology** (`check_termbase_consistency.py --strict-diacritics`): 131/131 locked renderings found, 0 misses (4 loose inflections, 3 covered) — unchanged from draft 3.
+**Word count:** 878 (same method as the draft-3 run, 882).
+
+**Remaining errors:** 0 critical · 0 major · 2 minor
+| Verse | Dimension | Severity | Note |
+|---|---|---|---|
+| a-1 | Terminology | Minor | "the Blessed Tārā" vs "Tara" elsewhere — locked (`blessed_tara`); needs a word-list change |
+| 1-6, 1-21 | LocaleConvention | Minor | "vetālas" keeps a macron in an otherwise plain-spelled file — locked (`vetala`); needs a word-list change |
+
+**Score:** 100 − (2 × 1 / 878) × 100 = **99.8 / 100**   **Gate:** PASS (0 critical, 0 major). The file stays `status: draft`: only a domain specialist sets `complete`. The two remaining Minors clear once the word list is changed (see "For the word list" in the fixes log). This re-check is an LLM self-check of the applied fixes, not a fresh full QA run.

@@ -82,3 +82,22 @@ This is an LLM self-check (Claude). It is not a sign-off. A native Vietnamese re
 4. 2-2 and 2-6: use the locked *tiêu diệt* for འཇོམས, and add 2-6 to the grade file.
 5. Decide the spelling of *Bồ Tát* / *niết bàn* once for the whole file, and fix the stacked "all" words in 1-18 and 2-2.
 
+
+## Re-check after fixes (draft 5) — 2026-09-24
+
+16 of the 18 minor rows were applied (see `qa-fixes-log-vi-general.md`). Not applied: 1-4 *Bồ-tát* and 1-15 *Niết-bàn* — the word list has no entry for either, so the file keeps its current forms (1-4 is also the exact wording of vi consensus fix #1). Neutral rows were not applied.
+
+**Stage 0 (mechanical):** `mqm_mechanical_checks.py <file> --source <root>` → 32 distinct verse IDs, 32 transclusions, 0 critical, 0 major, 112 minor. All 112 are "latin characters in content", false positives for Vietnamese (Latin script). Not counted. Gate: PASS-so-far.
+
+**Alignment:** `check_translation_alignment.py` → OK (32 segments, 5 headings, every block mirrors the root). **Linter:** `lint_text_input.py` → OK.
+
+**Terminology (mechanical):** `check_termbase_consistency.py --lang vi --strict-diacritics` → 137/137 locked renderings found, 0 loose, 0 drift. By reading: 2-2 and 2-6 now use *tiêu diệt* for འཇོམས (outside the lock's verse scope; scope question listed in the fixes log).
+
+**Remaining errors:** 1-4 Terminology Minor (*Bồ-tát*), 1-15 Terminology Minor (*Niết-bàn*) — kept by rule, open to a word-list decision.
+
+**Word count:** 992 Vietnamese syllables (998 − 6 from the fixes).
+
+**Score:** 100 − (2 × 1 / 992) × 100 = **99.8 / 100**   **Gate:** PASS (0 critical, 0 major; 2 minor)
+**Profile:** Accuracy 0 · Terminology 2 · Fluency 0 · Style/Register 0 · Audience 0 · LocaleConvention 0 · Markup/BlockID 0 · Neutral 9 (unchanged, not scored)
+
+Still an LLM self-check, not a sign-off; the file stays `status: draft` for the native reviewer.

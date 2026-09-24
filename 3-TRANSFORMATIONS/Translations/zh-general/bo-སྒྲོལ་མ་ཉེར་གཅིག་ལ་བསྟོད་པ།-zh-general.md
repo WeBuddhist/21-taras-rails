@@ -30,12 +30,13 @@ grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/bo_zh_keywo
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24
-draft: 3
+draft: 4
 draft_history:
   - 0 — DharmaMitra zero-shot, no word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh/)
   - 1 — DharmaMitra, glossary-primed with the zh word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file zh_text
-  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file)
+  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 4 — translation-qa fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -56,9 +57,12 @@ translator_notes:
   - "2-1 (for the reviewer): ལྷ་མོ is rendered 天女 (goddess). Gendun Drub (ལྷ་མོ་སྒྲོལ་མ) and Taranatha (= བཅོམ་ལྡན་འདས་མ) make clear it is Tārā herself. If 天女 reads as a lesser celestial being to Chinese readers, the reviewer may prefer 聖尊 or 女尊."
 meaning_check_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/back-translation-check-zh-general.md
 meaning_check_result: 17 match, 7 minor, 8 differ — all 15 fixed
+qa_report: 3-TRANSFORMATIONS/Translations/zh-general/reports/qa-report.md
+qa_fixes_log: 3-TRANSFORMATIONS/Translations/zh-general/reports/qa-fixes-log-zh-general.md
+qa_fixes_applied: 35
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 native_review: false
-note: "Third draft. (1) DharmaMitra cat-translate raw output from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced verse by verse against the 52-term general-grade zh termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus; 15 verses fixed (see meaning_check_report). 137/137 locked words. Not yet reviewed by a native Chinese reader -- treat as draft."
+note: "Fourth draft. (1) DharmaMitra cat-translate raw output from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced verse by verse against the 52-term general-grade zh termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus; 15 verses fixed (see meaning_check_report). (4) translation-qa (MQM) fixes applied: the 3 Majors (1-17 subject; 1-12 and 2-3 rewritten out of 7-character chant style), all 26 Minors, and 6 more lines modernised out of 7-character classical style (see qa_fixes_log). 137/137 locked words. A full four-commentary fact-check is still to run on this draft. Not yet reviewed by a native Chinese reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -92,8 +96,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 敬禮面容猶如一百輪
 秋季滿月層層相疊者，
-千顆星辰匯聚一處，
-放射極其熾燃的光芒。 ^1-2
+她以千顆星辰匯聚
+所放射的光芒，極其熾燃。 ^1-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-3]]
 
@@ -105,16 +109,16 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-4]]
 
 敬禮如來頂髻者，
-行持無邊、全然勝利，
+以無邊的全然勝利而行持，
 已證一切無餘波羅蜜的
-佛子們所極力依止者。 ^1-4
+諸菩薩所極力依止者。 ^1-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-5]]
 
 敬禮以都達咧與吽字，
 充滿欲界、色界與無色界，
 以足踏住七個世界，
-能令無餘盡召集。 ^1-5
+能將一切無餘召集而來。 ^1-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-6]]
 
@@ -128,13 +132,13 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 敬禮以特囉與呸字，
 徹底摧毀敵方咒術幻輪者，
 右屈左伸以足踏，
-安住熾燃翻騰的火焰之中。 ^1-7
+於翻騰的火焰中極其熾燃。 ^1-7
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-8]]
 
-敬禮都咧大怖畏，
+敬禮都咧，令人大怖畏者，
 徹底摧毀魔的勇士，
-蓮花面容現忿怒，
+蓮花面容現忿怒顰眉，
 無餘誅殺一切怨敵。 ^1-8
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-9]]
@@ -142,41 +146,41 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 敬禮以三寶手印之指，
 莊嚴於心間者，
 手掌以無餘十方之輪為飾，
-熾盛自身光聚者。 ^1-9
+自身的光聚翻騰湧動者。 ^1-9
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
 敬禮賜予極喜者，其威嚴
-頭冠散發光明花鬘，
+頭冠散發光鬘，
 以都達咧的大笑聲，
 令魔與世間皆受攝伏。 ^1-10
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-11]]
 
-敬禮守護大地諸神眾，
-一切皆能召集者，
-忿怒顰眉吽字中，
-解脫一切諸貧困。 ^1-11
+敬禮能將守護大地的神眾
+全都召集而來者，
+以顫動的忿怒顰眉和吽字，
+使人從一切貧困中解脫。 ^1-11
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-12]]
 
-敬禮月牙冠頂飾，
-一切飾物極熾燃，
-髮髻之中阿彌陀，
-恆常放光極燦爛。 ^1-12
+敬禮以月牙莊嚴頭頂者，
+所有飾物都極其熾燃，
+從她髮髻中的阿彌陀佛
+恆常放出極其燦爛的光芒。 ^1-12
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-13]]
 
 敬禮安住於如劫末之火般
 熾燃的火鬘中央者，
-右伸左屈，周遭環繞喜悅，
-摧毀一切敵軍眾。 ^1-13
+右伸左屈，為喜悅所環繞，
+摧毀敵人的軍隊。 ^1-13
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-14]]
 
-敬禮以手擊大地，
-並以足踏震動者，
-忿怒顰眉吽字中，
+敬禮以手掌拍擊大地，
+並以雙足踐踏者，
+現忿怒顰眉，以吽字
 摧毀七層者。 ^1-14
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-15]]
@@ -184,42 +188,42 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 敬禮安樂、善妙、寂靜者，
 以涅槃寂靜為行境，
 圓滿具足嗡梭哈，
-摧毀一切大罪障。 ^1-15
+摧毀大罪障。 ^1-15
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-16]]
 
 敬禮周遭環繞極喜者，
 徹底粉碎敵人之身，
-以十字咒語莊嚴布列，
+布列十字咒語，
 從明咒吽字生起的明燈。 ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
 
 敬禮都咧頓足者，
-吽字種子形相者，
-須彌山、曼陀羅山與頻闍山，
-令三世界皆震動。 ^1-17
+她即是吽字形相的種子字，
+令須彌山、曼陀羅山、頻闍山
+與三世界皆震動。 ^1-17
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-18]]
 
 敬禮手持形如天湖、
 帶有鹿紋的月亮者，
-誦二達咧呸字咒，
-消除一切諸毒害。 ^1-18
+念誦兩遍達咧，並以呸字
+消除所有毒物，無一遺漏。 ^1-18
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
 敬禮天眾之王所侍奉，
 諸天與緊那羅所依止者，
-具足喜樂鎧甲威，
+以周遍喜樂鎧甲的威嚴，
 消除爭鬥與惡夢。 ^1-19
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-20]]
 
 敬禮雙目如圓滿日月，
 放射極其明亮之光者，
-誦二喝囉與都達咧，
-消除極猛傳染病。 ^1-20
+念誦兩遍喝囉，並以都達咧
+消除極其猛烈的傳染病。 ^1-20
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
@@ -230,8 +234,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-22]]
 
-以此根本咒讚頌，
-及二十一敬禮文。 ^1-22
+這篇以根本咒所作的讚頌，
+以及二十一偈敬禮。 ^1-22
 
 ## 讚頌的功德 ^2-0
 
@@ -243,29 +247,29 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
 於黃昏與黎明起身後，
-憶念即得大無畏，
-一切罪障皆消滅，
-一切惡趣盡摧毀。 ^2-2
+憶念她，即得賜予一切無畏，
+一切罪障都將徹底平息，
+一切惡趣都將被摧毀。 ^2-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
-七千萬尊諸如來，
-將速為其授灌頂，
-由此獲得更殊勝，
-終將證得佛果位。 ^2-3
+七千萬尊佛
+將迅速為此人授予灌頂，
+此人還會獲得比這更殊勝的成就，
+並抵達那究竟的佛果。 ^2-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-4]]
 
 其毒極其猛烈，
-無論定住或遊走，
-即便已食或已飲，
-憶念即得盡消除。 ^2-4
+無論是靜止的毒還是移動的毒，
+即使是已經吃下或喝下的，
+憶念她，也能將其徹底消除。 ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
-受邪魅、瘟疫、毒物所苦，
+受邪魅、傳染病、毒物所苦，
 一切苦難皆得遠離，
-此亦適用於其他眾生。 ^2-5
+其他眾生也同樣如此。 ^2-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-6]]
 
@@ -273,7 +277,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 求子者即得子嗣，
 求財者即得財富，
 一切所願皆能圓滿，
-願無障礙，一一摧毀。 ^2-6
+願諸障礙皆無，並一一被摧毀。 ^2-6
 
 ## 題記 ^a-0
 
