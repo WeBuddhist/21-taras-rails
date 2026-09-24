@@ -37,7 +37,7 @@ Why the shape matters: a translation is its own **text** on the backend (`transl
 ## Output
 
 - `4-SYSTEM/scripts/linter-root-text/output/<stem>.lint.json`
-- `4-SYSTEM/scripts/parser-root-text/output/<stem>.{text,edition,toc,alignment}.json`
+- `4-SYSTEM/scripts/parser-root-text/output/<stem>/<stem>.{text,edition,toc,alignment}.json`
 - On `--execute`: `edition_id`, `aligned_to_edition_id`, `toc_id` patched into the note's frontmatter after each successful call, and a receipt appended to `4-SYSTEM/scripts/upload_ledger.json` after every call (so an interrupted run resumes; a step whose id is already in the note is skipped).
 
 ---

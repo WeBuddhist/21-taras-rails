@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "source": "3-TRANSFORMATIONS/Translations/Dharmamitra/zh-commentaries/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།-zh.md",
+  "validated_at": "2026-09-24T15:41:58.254671+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "root_text: '1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://dharmamitra.org'",
+    "toc: 70 headers found"
+  ],
+  "warnings": [
+    "alt_titles: missing — ignored for now",
+    "translator 'dharmamitra cat-translate v1': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "zh": "聖救度母加持驟雨：二十一聖救度母禮讚文詞義釋與觀修次第簡編"
+    },
+    "alt_titles": null,
+    "language": "zh",
+    "commentary_of": null,
+    "translation_of": "exz1MI85hysNKQK45uPzf",
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}

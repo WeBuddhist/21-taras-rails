@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "source": "3-TRANSFORMATIONS/Translations/Dharmamitra/zh-commentaries/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།-zh.md",
+  "validated_at": "2026-09-24T15:41:55.927247+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "root_text: '1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://dharmamitra.org'",
+    "toc: 44 headers found"
+  ],
+  "warnings": [
+    "alt_titles: missing — ignored for now",
+    "translator 'dharmamitra cat-translate v1': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "zh": "度母二十一禮讚釋義：悅意優缽羅花鬘"
+    },
+    "alt_titles": null,
+    "language": "zh",
+    "commentary_of": null,
+    "translation_of": "8x7kZUDklxT6ZP6C29KpN",
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}
