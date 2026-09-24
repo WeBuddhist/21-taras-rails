@@ -57,21 +57,14 @@
       "2-0"
     ]
   },
-  "venerable_tara": {
-    "bo": "རྗེ་བཙུན་མ...སྒྲོལ་མ",
-    "en": "the venerable Tārā",
-    "rank": 55,
-    "verse_ids": [
-      "I-3"
-    ]
-  },
   "noble_venerable": {
-    "bo": "འཕགས་མ་རྗེ་བཙུན་མ",
-    "en": "the Noble and Venerable One",
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
     "rank": 137,
     "verse_ids": [
       "I-3"
-    ]
+    ],
+    "note": "FIX 2026-09-24 (validate_grade_file E2): Tibetan was stored in reversed order (འཕགས་མ་རྗེ་བཙུན་མ); the root reads རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ. Rendering changed from 'the Noble and Venerable One' to 'Noble and Venerable' — the epithet pair as it stands in the text before 'Tara' (I-3). Absorbs the archived 'venerable_tara' entry (see en-bo-en-termbase-general.archived-entries.json)."
   },
   "sanskrit_title": {
     "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
@@ -288,7 +281,7 @@
     ]
   },
   "tuttare": {
-    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར་ཡི་གེ",
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
     "en": "tuttare",
     "rank": 96,
     "verse_ids": [
@@ -296,7 +289,7 @@
       "1-10",
       "1-20"
     ],
-    "note": "FIX: Dharmamitra draft spells this TUTTĀRA in 1-5 but TUTTĀRE in 1-10/1-20 — same Tibetan word (ཏུཏྟྭ་ར / ཏུ་ཏྟྭ་ར, tsheg-spacing variant only). Locked to TUTTĀRE, matching the standard mantra (oṃ tāre tuttāre ture svāhā); 1-5 needs correcting in the second draft.",
+    "note": "FIX: Dharmamitra draft spells this TUTTĀRA in 1-5 but TUTTĀRE in 1-10/1-20 — same Tibetan word (ཏུཏྟྭ་ར / ཏུ་ཏྟྭ་ར, tsheg-spacing variant only). Locked to TUTTĀRE, matching the standard mantra (oṃ tāre tuttāre ture svāhā); 1-5 needs correcting in the second draft. | FIX 2026-09-24 (validate_grade_file E2): form ཏུཏྟྭ་ར་ཡི་གེ does not occur in 1-5 (root: ཏུཏྟྭ་ར་ཧཱུྃ་ཡི་གེ — ཧཱུྃ stands between them); form reduced to ཏུཏྟྭ་ར. ཡི་གེ stays its own term (syllable).",
     "attested_check": [
       "'TUTTĀRE' -> 'tuttare': attested: lowercase 'tuttare', no diacritic (1-5,1-10,1-20) — also resolves the TUTTĀRA/TUTTĀRE spelling inconsistency in the Dharmamitra draft, since attested is consistent"
     ]
@@ -401,7 +394,7 @@
     "note": "the 'control/dominion' sense of དབང (1-10); kept distinct from 'ability' (ནུས) and 'might' (མཐུ) below — three different Tibetan words were all flattened to 'power' in the Dharmamitra draft"
   },
   "joy": {
-    "bo": "དགའ / དགའ་བ",
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
     "en": "joy",
     "rank": 90,
     "verse_ids": [
@@ -409,7 +402,8 @@
       "1-16",
       "1-13",
       "1-19"
-    ]
+    ],
+    "note": "FIX 2026-09-24 (validate_grade_file E2): 1-13 reads ཀུན་ནས་བསྐོར་དགས (དགས, not དགའ), so form བསྐོར་དགས added for that verse. Bare དགས is NOT listed on purpose: it also occurs in 1-18 inside རི་དགས 'deer', where it must not be primed or checked as 'joy'."
   },
   "syllable_hum": {
     "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",

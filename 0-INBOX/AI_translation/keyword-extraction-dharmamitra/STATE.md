@@ -481,7 +481,7 @@ The vault's `4-SYSTEM/Skills/dharmamitra-translate/` is **archived** (moved, not
 `4-SYSTEM/Skills/_archive/`. `/dharmamitra-translate` and `recut_liturgy_import.py` now
 point at `../Webuddhist-Skills/rails/machine-translate/`.
 
-**The new validator found 3 errors in this project's termbase/grade file** (not yet fixed):
+**The new validator found 3 errors in this project's termbase/grade file** (fixed 2026-09-24 — see next section):
 - **I-3 `noble_venerable`:** the Tibetan is written འཕགས་མ་རྗེ་བཙུན་མ, but the verse reads རྗེ་བཙུན་མ་འཕགས་མ (reversed order).
 - **1-5 `tuttare`:** ཏུཏྟྭ་ར་ཡི་གེ isn't contiguous in the verse, because hūṃ sits between the words.
 - **1-13 `joy`:** the root spells the word དགས, but the entry has དགའ.
@@ -491,3 +491,22 @@ Also: `venerable_tara` uses a "..." form, which can never match text. Together w
 
 Run: `python3 ../Webuddhist-Skills/rails/graded-translate/scripts/validate_grade_file.py
 --termbase <this folder>/en-bo-en-termbase-general.json --grade-file <this folder>/bo_en_keyword_general.json`.
+
+## Termbase fixes from the validator (2026-09-24)
+
+- **`noble_venerable`:** Tibetan corrected to རྗེ་བཙུན་མ་འཕགས་མ (the text's word order). Rendering changed
+  from "the Noble and Venerable One" to **"Noble and Venerable"**, which is what the fact-checked I-3 says
+  before "Tara".
+- **`venerable_tara`:** **archived, not deleted.** It moved to `en-bo-en-termbase-general.archived-entries.json`
+  with its I-3 grade-file keyword, the date and the reason. `noble_venerable` + `tara` already cover I-3.
+- **`tuttare`:** the form is now ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར. The 1-5 keyword is ཏུཏྟྭ་ར.
+- **`joy`:** added the form བསྐོར་དགས for 1-13, which is now the 1-13 keyword. Bare དགས is left out on purpose:
+  it also occurs in 1-18 inside རི་དགས "deer".
+- `en_text` in the grade file is unchanged (it is still the D2 snapshot). `glossary-en-general.tsv` is unchanged
+  (it is the historical D1 input). For a new DharmaMitra run, regenerate it with `termbase_to_glossary.py`.
+
+The termbase now has **47 entries**, plus 1 archived.
+- `validate_grade_file.py`: **0 errors**, 22 warnings. The warnings are W2/W3/W5 and are all intended splits or
+  nestings.
+- `check_termbase_consistency.py --grade-file … --strict-diacritics` on the fact-checked translation:
+  **131/131 locked renderings found, 0 misses** (before the fix: 130/132, with 2 misses at I-3).

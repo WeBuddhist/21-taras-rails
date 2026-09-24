@@ -79,23 +79,13 @@
     "grade": "general"
    },
    {
-    "key": "venerable tārā",
-    "rank": 55,
-    "score": 0.106809,
-    "count": 1,
-    "bo": "རྗེ་བཙུན་མ...སྒྲོལ་མ",
-    "term": "venerable_tara",
-    "en": "the venerable Tārā",
-    "grade": "general"
-   },
-   {
     "key": "noble venerable",
     "rank": 137,
     "score": 0.25235,
     "count": 1,
-    "bo": "འཕགས་མ་རྗེ་བཙུན་མ",
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
     "term": "noble_venerable",
-    "en": "the Noble and Venerable One",
+    "en": "Noble and Venerable",
     "grade": "general"
    }
   ]
@@ -579,7 +569,7 @@
     "rank": 100,
     "score": 0.224813,
     "count": 1,
-    "bo": "ཏུཏྟྭ་ར་ཡི་གེ",
+    "bo": "ཏུཏྟྭ་ར",
     "term": "tuttare",
     "en": "tuttare",
     "grade": "general"
@@ -1026,7 +1016,7 @@
     "rank": 90,
     "score": 0.205606,
     "count": 1,
-    "bo": "དགའ",
+    "bo": "བསྐོར་དགས",
     "term": "joy",
     "en": "joy",
     "grade": "general"
