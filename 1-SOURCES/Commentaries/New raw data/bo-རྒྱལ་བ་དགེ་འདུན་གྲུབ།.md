@@ -20,8 +20,8 @@ source: https://webuddhist.com
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: FLkNt28DzdIV3eEgYBdYi
-edition_id: 7zWNGHfxBGRBWJR0APGc2
-toc_id: GNQ01rjOvEKkjh9SDTLkD
+edition_id: iNygWczubSeZPsjP2LEwH
+toc_id: FccnNEZparPBV4qizIZLp
 commentary_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 

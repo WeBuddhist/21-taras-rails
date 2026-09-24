@@ -20,9 +20,10 @@ category_id: LCorCb2K98p3TICt3UCDm
 source: https://webuddhist.com
 license: public
 text_id: t2pCadlPdCq0RLMMBTMWK
-edition_id: tjCX4bU9vrotnebrWauZc
-toc_id: XUBYESdQrDkcbtJZNCi3t
+edition_id: rAzfQ2Etm7B299mMEFQUb
+toc_id: rt7JC3DaDkyJRxPDpGL13
 ---
+
 # ༄༅། །ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ། ། ^0
 
 ## མཆོད་བརྗོད། ^I-0

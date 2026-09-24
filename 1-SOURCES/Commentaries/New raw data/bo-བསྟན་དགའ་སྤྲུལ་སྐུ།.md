@@ -15,8 +15,8 @@ source: https://webuddhist.com
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: 0Mf7CNevYyHI8TTBh3RHW
-edition_id: ZB3ZdAgT8jElYZBBpDVvF
-toc_id: iuTHgVGXmo79D2bKrXVCL
+edition_id: B8oZ0xtFaCCSswH0MqLNW
+toc_id: MWl89fxcxJJyrLoEKWSvw
 commentary_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 

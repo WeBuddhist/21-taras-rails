@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "source": "1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md",
-  "validated_at": "2026-09-22T06:33:12.280566+00:00",
+  "validated_at": "2026-09-24T05:35:15.503233+00:00",
   "notes": [
     "bdrc_work_id: not set (optional)",
     "wiki: not set (optional)",
@@ -27,7 +27,7 @@
         "bo": "རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།"
       },
       {
-        "eb": "Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā"
+        "en": "Rain-Cloud of the Noble Lady's Blessings: A Concise Word-Commentary and Visualization Sequence for the Twenty-One Homages to Ārya Tārā"
       }
     ],
     "language": "bo",

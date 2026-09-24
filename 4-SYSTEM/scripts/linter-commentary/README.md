@@ -19,7 +19,7 @@ Forked from `linter-root-text`. The differences: the file must be `file_type: co
 
 ## Rules
 
-Same as `linter-root-text` (see its README), with these changes. That includes the title rules: titles are keyed by the text's language code and kept in their own script, except Pali, which must be in Roman script (still keyed `pi`).
+Same as `linter-root-text` (see its README), with these changes. That includes the title rules: titles are keyed by the text's language code and kept in their own script, except Pali, which must be in Roman script (still keyed `pi`), and every language key in `title` / `alt_titles` must be a code from the language API (`bod`, `english` and the like are errors).
 
 | Field | Rule |
 |-------|------|
