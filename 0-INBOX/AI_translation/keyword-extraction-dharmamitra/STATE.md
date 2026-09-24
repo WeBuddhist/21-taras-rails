@@ -250,3 +250,76 @@ Small bug noted for the record: the TF-IDF script's tokenizer doesn't
 recognize `ṣ` as a word character, so it split "yakṣas" into "yak" + "as"
 instead of counting it as one word — that's why it took manual digging to
 find rather than showing up cleanly in the report.
+
+---
+
+## Phase 2 — DharmaMitra draft + termbase enforcement (general grade) — DONE
+
+**Network blocker along the way:** the sandboxed proxy this session runs
+through (both the cloud workspace and the `device_bash` channel) rejects
+`dharmamitra.org` with a 403 at the CONNECT level — an org/account network
+policy, not a DharmaMitra problem. The user ran `dm_translate.py` directly
+in their own Terminal (outside the sandboxed channel) instead, which reached
+the API fine but then hit a local `SSL: CERTIFICATE_VERIFY_FAILED` (Python's
+cert bundle wasn't wired up) — fixed with `pip3 install --upgrade certifi`
++ `export SSL_CERT_FILE=$(python3 -m certifi)`, then the real run succeeded:
+32/32 blocks, 0 dropped, no `[[n]]` marker fallbacks, no `not yet translated`
+gaps.
+
+**What ran:**
+1. Converted the 47-term termbase into `glossary-en-general.tsv` (70 lines —
+   multi-form `bo` entries split into one line per surface form, since
+   `dm_translate.py`'s glossary hit-check is a literal substring match).
+2. `dm_translate.py --source ... --lang english --glossary glossary-en-general.tsv
+   --out 3-TRANSFORMATIONS/Translations/Dharmamitra/en-general` — new track,
+   kept separate from the original zero-shot `Dharmamitra/en/` baseline so
+   neither gets overwritten. This raw output stays untouched (machine-baseline
+   convention: never hand-edited) — headings weren't run (`--headings` needs
+   the same blocked API access; left for the user if they want that specific
+   baseline file's own heading fields filled).
+3. Went block-by-block through all 32 translated verses against the 47-term
+   termbase's `verse_ids`. 16 blocks needed a fix; 16 were already correct.
+   Full before/after log kept in this session; the pattern was almost
+   entirely DharmaMitra using the scholarly/diacritic spelling
+   (TUTTĀRA/TUTTARE, HŪṂ, PHAṬ→PHAT, TRAṬ→TRAT, TURE, yakṣas, Tārā) where the
+   general-grade termbase had already locked the plain attested-translation
+   spelling (tuttare, hum, phat, trat, ture/Ture, yaksas, Tara) — exactly the
+   drift the consistency pass exists to catch. Two substantive (non-spelling)
+   fixes: 1-11 "power to summon" → "ability to summon" (ནུས, not དབང — the
+   Dharmamitra draft flattened both to "power," the termbase's whole reason
+   for splitting `ability` out); 1-6/1-21 "Zombies/zombies" → "Vetālas/vetālas"
+   (རོ་ལངས is locked to `vetāla`, not the English gloss); 2-1 "Goddess" →
+   "goddess" (lowercase, matching the plain-register choice over "Devi").
+   Left two untouched on purpose as out-of-scope: `TĀRA` at 1-18 and `HARA`
+   at 1-20 are real mantra-syllable words (ཏཱ་ར, ཧ་ར) but neither is one of
+   the 47 locked terms, so no termbase basis to force a spelling on them —
+   flagged here as an optional future addition, not applied unilaterally.
+4. Filled `en_text` for all 34 tracked entries in
+   `bo_en_keyword_general.json` (the grade file) with the corrected text.
+   Section headings (I-0, 1-0, 2-0) used the grade file's own pre-existing
+   `text` field verbatim rather than re-inventing a translation — it already
+   read well ("Meaning of the Title and the Translator's Homage", "The
+   Actual Praise", "The Benefits of the Praise"). The colophon heading
+   (a-0) and verse 2-6 aren't tracked in the grade file at all (no keyword
+   was ever extracted for either) — translated directly into the final
+   markdown without a termbase basis, since neither needed one.
+5. Wrote the actual Phase 2 deliverable — not a hand-edit of the raw
+   baseline, a new file — to
+   `3-TRANSFORMATIONS/Translations/en-general/bo-...-en-general.md`,
+   transclusion layout, `track_type: graded`, `status: draft`,
+   `rails_used: graded-translate (Phase 1, Phase 2)`. 32/32 blocks, 4/4
+   headings, no leftover `[[n]]` markers or "not yet translated" gaps.
+
+**Not done yet / explicitly out of scope for this pass:**
+- `check_termbase_consistency.py` (graded-translate's own Phase 3 script)
+  expects a `termbase.md` table and `2-RAILS/Verses/<id>.md` rail files with
+  `concepts_in_verse` frontmatter — infrastructure this project never built
+  (we used the lighter JSON termbase + grade file, appropriate for a single
+  32-block text rather than a 900-verse corpus). Ran the equivalent check by
+  hand instead (Step 3 above) rather than force-fitting that script's format.
+- Commentary fact-check (pipeline Step 6 / the user's original step 6) —
+  not started.
+- `TĀRA` (1-18) and `HARA` (1-20) — real transliterated mantra syllables,
+  currently left in DharmaMitra's own scholarly spelling; worth adding to
+  the termbase if the user wants full consistency with tuttare/hum/phat/
+  trat/ture's plain-spelling treatment.
