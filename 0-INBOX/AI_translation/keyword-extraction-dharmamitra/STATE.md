@@ -129,3 +129,89 @@ register, terms locked) and Phase 3 (drift check). Both need a go-ahead —
 Phase 2 in particular means producing a fresh translation from the Tibetan
 rather than regrading the Dharmamitra English, per the user's own pipeline
 plan (step 5).
+
+---
+
+## Attested-translation cross-check (Phase 1, Steps 3-4)
+
+Checked all 46 termbase entries against `1-SOURCES/Translations/en-The Twenty-One
+Praises to Tara.md` (colophon: adapted by Dzongsar Jamyang Khyentse Rinpoche from
+a terma revealed by Chokgyur Dechen Lingpa, 2021) — a free, metrical translation,
+not a literal one, so not every keyword has a clean 1:1 match. Per "attested beats
+base beats invented," applied every clear, repeated match; logged the rest as
+options rather than forcing them.
+
+**Applied (strong, repeated evidence):**
+- `Tārā` -> **`Tara`** — attested drops the macron consistently, 20+ occurrences.
+- Mantra syllables switched from Dharmamitra's scholarly caps+diacritics to
+  attested's plain lowercase, confirmed at every occurrence: `HŪṂ` -> **`hum`**,
+  `TUTTĀRE` -> **`tuttare`** (this also resolves the earlier TUTTĀRA/TUTTĀRE
+  spelling clash — attested is consistent where Dharmamitra wasn't), `PHAṬ` ->
+  **`phat`**, `TRAṬ` -> **`trat`**, `TURE` -> **`ture`** (attested capitalizes
+  "Ture" only when it's used as a direct epithet — "Supreme Ture," 1-21 — not
+  as a mantra reference elsewhere; apply that contextually in Phase 2 rather
+  than as a second locked term).
+- `zombie` (རོ་ལངས) -> **`vetāla`** — attested explicitly uses "vetālas" (1-21).
+- **`might`/`power`/`ability` collapsed from three words to two.** I'd
+  originally locked three distinct English words for three distinct Tibetan
+  words (དབང/ནུས/མཐུ), all glossed "power" in the Dharmamitra draft. Attested
+  gave no clean support for a three-way split — it uses "power" for མཐུ too
+  ("Commands all the power she needs," 1-21) — so `might` is now merged into
+  `power`; `ability` (ནུས) stays separate, still unconfirmed either way.
+- **`power` split by sense, confirmed.** 2-3's དབང ("Victors will confer
+  ___") is the technical tantric-initiation sense — attested confirms with
+  "receive abhishekas." Split into its own term, **`empowerment`**, separate
+  from 1-10's general "power."
+
+**Flagged, not applied — genuine open calls for you:**
+- **`demon` (གདོན) -> `graha`?** Attested uses "grahas" (Sanskrit) at 1-21, but
+  "evil" at 2-5 — not even self-consistent. "Graha" is a real but much less
+  commonly known term than "demon" for a general-register audience; your call.
+- **`goddess` (ལྷ་མོ, 2-1) -> `devi`?** Same trade-off — attested uses the
+  Sanskrit "devi." Left as "goddess" for now.
+- **1-16's "mantra"**: attested renders this literally as "your ten letters,"
+  not "mantra." Dharmamitra already said "mantra" independently, so I kept the
+  standardization, but attested doesn't support it — flagging rather than
+  silently deciding.
+- **`without_exception` (མ་ལུས / ལུས་པ་མེད་པར)**: attested renders this
+  contextually — "without exception" at 1-5, but "completely" at 1-8 — rather
+  than as one fixed phrase. Left it locked for consistency, but this is the
+  kind of term where locking costs some of the naturalness a free translation
+  has; worth knowing that trade-off is real here, not hypothetical.
+- Several verbs vary in attested where I've locked one word — most visibly
+  `destroy` (འཇོམས): attested uses "destroy," "destroys...completely,"
+  "vanquish," "annihilates" across its four occurrences. That's the locking
+  methodology's whole trade-off (consistency vs. natural variation), not a
+  new finding, but worth restating now that there's a concrete comparison.
+
+Files updated in place: `en-bo-en-termbase-general.json` (11 changes logged
+per-entry under `attested_check`), `bo_en_keyword_general.json` (keyword
+`term`/`en` fields re-synced to match).
+
+---
+
+## Flagged items resolved (my judgment, per user request)
+
+Correction first: the previous section said "graha" and "devi" were flagged
+but not applied. That was wrong — an earlier script actually did rename
+`demon` -> `graha` in the termbase. Caught and reverted on review.
+
+Decisions, applying one consistent rule: the **general** grade is an educated
+general reader with common loanwords unglossed (karma, nirvana, bodhichitta —
+the register table's own examples), not a Sanskrit-rich technical register
+(that's what an **advanced** grade would be for).
+
+- **`demon` (གདོན)** — kept, not `graha`. Attested's "graha" is a real Sanskrit
+  astrological term but far less familiar than the register's own loanword
+  examples, and attested isn't even consistent with it ("evil" at 2-5). Revisit
+  for an advanced-grade termbase if one gets built.
+- **`goddess` (ལྷ་མོ)** — kept, not `devi`, same reasoning.
+- **`mantra` (1-16)** — kept, not attested's literal "ten letters." "Mantra"
+  is immediately meaningful to a general reader; "ten letters" isn't
+  self-explanatory out of context. Recommend Phase 2 write "the ten-syllable
+  mantra" at 1-16 to preserve the numeral without losing clarity.
+- **`vetāla`** (already applied last turn, not reopened) stays — that one was
+  kept for accuracy (avoids "zombie"'s misleading horror-movie connotation),
+  not familiarity, so the same general/advanced logic doesn't apply to it.
+
+Both files updated; grade-file `graha` references retargeted to `demon`.

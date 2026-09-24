@@ -38,7 +38,7 @@
         "count": 1,
         "bo": "སྒྲོལ་མ",
         "term": "tara",
-        "en": "Tārā",
+        "en": "Tara",
         "grade": "general"
       },
       {
@@ -75,7 +75,7 @@
         "count": 1,
         "bo": "སྒྲོལ་མ",
         "term": "tara",
-        "en": "Tārā",
+        "en": "Tara",
         "grade": "general"
       },
       {
@@ -112,7 +112,7 @@
         "count": 1,
         "bo": "ཏཱ་རཱ",
         "term": "tara",
-        "en": "Tārā",
+        "en": "Tara",
         "grade": "general"
       },
       {
@@ -219,7 +219,7 @@
         "count": 1,
         "bo": "སྒྲོལ་མ",
         "term": "tara",
-        "en": "Tārā",
+        "en": "Tara",
         "grade": "general"
       },
       {
@@ -343,7 +343,7 @@
         "count": 1,
         "bo": "སྒྲོལ་མ",
         "term": "tara",
-        "en": "Tārā",
+        "en": "Tara",
         "grade": "general"
       },
       {
@@ -541,7 +541,7 @@
         "count": 1,
         "bo": "ཧཱུྃ",
         "term": "hum",
-        "en": "HŪṂ",
+        "en": "hum",
         "grade": "general"
       },
       {
@@ -591,7 +591,7 @@
         "count": 1,
         "bo": "ཏུཏྟྭ་ར་ཡི་གེ",
         "term": "tuttare",
-        "en": "TUTTĀRE",
+        "en": "tuttare",
         "grade": "general"
       }
     ]
@@ -647,8 +647,8 @@
         "score": 0.255926,
         "count": 1,
         "bo": "རོ་ལངས",
-        "term": "zombie",
-        "en": "zombie",
+        "term": "vetala",
+        "en": "vetāla",
         "grade": "general"
       }
     ]
@@ -705,7 +705,7 @@
         "count": 1,
         "bo": "ཕཊ",
         "term": "phat",
-        "en": "PHAṬ",
+        "en": "phat",
         "grade": "general"
       },
       {
@@ -715,7 +715,7 @@
         "count": 1,
         "bo": "ཏྲད",
         "term": "trat",
-        "en": "TRAṬ",
+        "en": "trat",
         "grade": "general"
       }
     ]
@@ -742,7 +742,7 @@
         "count": 1,
         "bo": "ཏུ་རེ",
         "term": "ture",
-        "en": "TURE",
+        "en": "ture",
         "grade": "general"
       },
       {
@@ -886,7 +886,7 @@
         "count": 1,
         "bo": "ཏུ་ཏྟྭ་ར",
         "term": "tuttare",
-        "en": "TUTTĀRE",
+        "en": "tuttare",
         "grade": "general"
       }
     ]
@@ -913,7 +913,7 @@
         "count": 1,
         "bo": "ཧཱུཾ",
         "term": "hum",
-        "en": "HŪṂ",
+        "en": "hum",
         "grade": "general"
       },
       {
@@ -923,7 +923,7 @@
         "count": 1,
         "bo": "ཡི་གེ་ཧཱུཾ",
         "term": "syllable_hum",
-        "en": "the syllable HŪṂ",
+        "en": "the syllable hum",
         "grade": "general"
       },
       {
@@ -1054,7 +1054,7 @@
         "count": 1,
         "bo": "ཧཱུྃ",
         "term": "hum",
-        "en": "HŪṂ",
+        "en": "hum",
         "grade": "general"
       },
       {
@@ -1064,7 +1064,7 @@
         "count": 1,
         "bo": "ཡི་གེ་ཧཱུྃ",
         "term": "syllable_hum",
-        "en": "the syllable HŪṂ",
+        "en": "the syllable hum",
         "grade": "general"
       },
       {
@@ -1178,7 +1178,7 @@
         "count": 1,
         "bo": "ཧཱུྃ",
         "term": "hum",
-        "en": "HŪṂ",
+        "en": "hum",
         "grade": "general"
       },
       {
@@ -1225,7 +1225,7 @@
         "count": 1,
         "bo": "ཧཱུྃ",
         "term": "hum",
-        "en": "HŪṂ",
+        "en": "hum",
         "grade": "general"
       },
       {
@@ -1235,7 +1235,7 @@
         "count": 1,
         "bo": "ཏུ་རེ",
         "term": "ture",
-        "en": "TURE",
+        "en": "ture",
         "grade": "general"
       },
       {
@@ -1292,7 +1292,7 @@
         "count": 1,
         "bo": "ཕཊ་ཀྱི་ཡི་གེ",
         "term": "phat",
-        "en": "PHAṬ",
+        "en": "phat",
         "grade": "general"
       },
       {
@@ -1302,7 +1302,7 @@
         "count": 1,
         "bo": "ཕཊ",
         "term": "phat",
-        "en": "PHAṬ",
+        "en": "phat",
         "grade": "general"
       }
     ]
@@ -1386,7 +1386,7 @@
         "count": 1,
         "bo": "ཏུ་ཏྟྭ་ར",
         "term": "tuttare",
-        "en": "TUTTĀRE",
+        "en": "tuttare",
         "grade": "general"
       }
     ]
@@ -1413,7 +1413,7 @@
         "count": 1,
         "bo": "ཏུ་རེ",
         "term": "ture",
-        "en": "TURE",
+        "en": "ture",
         "grade": "general"
       },
       {
@@ -1462,8 +1462,8 @@
         "score": 0.202539,
         "count": 1,
         "bo": "མཐུ",
-        "term": "might",
-        "en": "might",
+        "term": "power",
+        "en": "power",
         "grade": "general"
       },
       {
@@ -1502,8 +1502,8 @@
         "score": 0.255926,
         "count": 1,
         "bo": "རོ་ལངས",
-        "term": "zombie",
-        "en": "zombie",
+        "term": "vetala",
+        "en": "vetāla",
         "grade": "general"
       }
     ]
@@ -1626,8 +1626,8 @@
         "score": 0.202539,
         "count": 1,
         "bo": "དབང",
-        "term": "power",
-        "en": "power",
+        "term": "empowerment",
+        "en": "empowerment",
         "grade": "general"
       }
     ]
