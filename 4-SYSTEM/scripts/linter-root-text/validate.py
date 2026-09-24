@@ -90,6 +90,49 @@ def _is_pali_key(key):
     return isinstance(key, str) and key.split("-", 1)[0] == "pi"
 
 
+def _lang_key_base(key):
+    """The plain language code behind a title key.
+
+    A script-suffixed key ("sa-x-iast") is reduced to its base ("sa"), the
+    same way build.py normalizes it before upload.
+    """
+    if isinstance(key, str) and "-x-" in key:
+        return key.split("-x-", 1)[0]
+    return key
+
+
+def _check_lang_key(key, field, items):
+    """The key of a title / alt_titles entry must be a language code the API
+    knows (the list fetched from /v2/languages)."""
+    if not isinstance(key, str) or not key.strip():
+        items.append(("ERROR", f"{field}: language key must be a non-empty string"))
+        return
+    base = _lang_key_base(key)
+    if base not in LANGUAGE_VALUES:
+        name = LANGUAGE_CODE_TO_NAME.get(base)
+        items.append((
+            "ERROR",
+            f'{field}: "{key}" is not a valid language code'
+            + (f' (did you mean "{name}"?)' if name else "")
+            + f". Valid codes (from the languages API): {sorted(LANGUAGE_VALUES)}",
+        ))
+
+
+def _validate_title_lang_keys(data, items):
+    """Every language key used in title / alt_titles must be a known code."""
+    title = data.get("title")
+    if isinstance(title, dict):
+        for key in title:
+            _check_lang_key(key, f"title.{key}", items)
+
+    alt = data.get("alt_titles")
+    if isinstance(alt, list):
+        for i, item in enumerate(alt):
+            if isinstance(item, dict):
+                for key in item:
+                    _check_lang_key(key, f"alt_titles[{i}].{key}", items)
+
+
 def _validate_pali_roman_titles(data, items):
     """Titles keep the text's own language and script, except Pali:
     Pali title/alt_titles must be in Roman script (still keyed "pi")."""
@@ -440,6 +483,7 @@ def validate_text_input(data):
         else:
             items.append(("ERROR", "alt_titles: expected string or list of strings"))
 
+    _validate_title_lang_keys(data, items)
     _validate_pali_roman_titles(data, items)
 
     vault_tag = data.get("lang_tag")

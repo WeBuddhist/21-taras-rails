@@ -49,7 +49,16 @@ import urllib.error
 import urllib.request
 
 HERE = pathlib.Path(__file__).resolve().parent
-DM_PATH = HERE.parent.parent / "dharmamitra-translate" / "scripts" / "dm_translate.py"
+# dm_translate.py: prefer the shared Webuddhist-Skills copy (cloned next to this vault);
+# fall back to the vault's former location and its 2026-09-24 archive.
+_VAULT = HERE.parents[3]
+DM_PATH = next((p for p in (
+    _VAULT.parent / "Webuddhist-Skills" / "rails" / "machine-translate" / "scripts" / "dm_translate.py",
+    HERE.parent.parent / "dharmamitra-translate" / "scripts" / "dm_translate.py",
+    HERE.parent.parent / "_archive" / "dharmamitra-translate" / "scripts" / "dm_translate.py",
+) if p.exists()), None)
+if DM_PATH is None:
+    raise SystemExit("gm_translate: cannot find dm_translate.py (expected ../Webuddhist-Skills/rails/machine-translate/scripts/)")
 _spec = importlib.util.spec_from_file_location("dm_translate", DM_PATH)
 dm = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(dm)
@@ -754,7 +763,7 @@ def main():
                  if dm.is_heading_record(r) == bool(args.headings)
                  and r["block_id"] in order and order[r["block_id"]] < first_pos]
         prior.sort(key=lambda r: order[r["block_id"]])
-        combined = {"text": "\n".join(u["text"] for u in batch)}
+        combined = {"text": "\n".join(u["text"] for u in batch), "ids": [u["id"] for u in batch]}
         return dm.build_context(header, prior, combined, glossary,
                                 args.context_blocks, args.context_cap,
                                 args.glossary_max_hits)

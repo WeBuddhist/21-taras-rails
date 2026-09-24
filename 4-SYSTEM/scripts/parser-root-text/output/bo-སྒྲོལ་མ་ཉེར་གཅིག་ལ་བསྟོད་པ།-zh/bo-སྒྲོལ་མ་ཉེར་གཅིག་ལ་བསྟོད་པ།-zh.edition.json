@@ -1,0 +1,651 @@
+{
+  "metadata": {
+    "type": "critical",
+    "source": "https://dharmamitra.org"
+  },
+  "content": "梵語云：Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka。藏語云：禮讚度母二十一尊及其功德。嗡，頂禮至尊聖救度母。頂禮度母，迅捷勇猛，雙眸猶如閃電光，三界怙主蓮花面，花蕊綻放所化生。頂禮秋季滿月者，百月疊聚容顏明，猶如千星匯聚處，熾然煥發極光芒。頂禮金藍水生蓮，手持蓮花作莊嚴，布施精進苦行寂，忍辱禪定為行境。頂禮如來頂髻者，行持無邊勝妙道，圓滿證得波羅蜜，佛子極力所依怙。頂禮Tuttāra吽字音，遍滿欲界方與空，七世間界足下踏，悉皆攝伏無餘者。頂禮帝釋火梵天，風神自在所供養，部多羅剎乾闥婆，夜叉眾前讚歎者。頂禮Traṭ與Phaṭ之音，摧毀外道諸幻術，右屈左伸足踏壓，熾然烈火極燃燒。頂禮Ture大怖畏，摧毀魔軍勇猛者，蓮花面容現忿怒，盡除一切諸怨敵。頂禮三寶印手相，手指莊嚴於心間，遍飾無餘諸方輪，自光熾盛擾群魔。頂禮極喜威光者，頂飾散發光鬘網，笑語大笑Tuttāre，降伏魔眾與世間。頂禮能召諸地祇，一切悉皆能勾召，忿怒顰眉Hūṃ字音，盡除一切諸貧苦。頂禮月牙冠頂飾，一切飾物極熾燃，髮髻之中阿彌陀，恆常放光極明耀。頂禮劫末火燄中，安住熾燃火鬘者，右伸左屈喜圍繞，摧毀一切怨敵軍。頂禮以手按大地，掌心擊地足踏之，忿怒顰眉Hūṃ字音，摧毀七重諸地界。頂禮寂靜善樂者，涅槃寂滅所行境，圓滿具足Oṃ與Svāhā，盡除一切大罪障。頂禮周匝極喜者，摧毀一切怨敵身，十字真言所佈列，Hūṃ字明咒顯光輝。頂禮Ture足踏地，Hūṃ字種子之本性，須彌曼達與持雙，震動一切三界者。頂禮天海之形相，手中執持鹿印月，誦二Tāra與Phaṭ字，盡除一切諸毒害。頂禮諸天眾之王，天與緊那羅所依，具足歡喜鎧甲威，消除爭鬥與惡夢。頂禮日輪月輪盛，二目放射極明光，誦二Hara與Tuttāre，消除極猛傳染病。禮讚安立三真如，具足寂靜威德力。摧伏魔類、起屍、鬼，最勝度母 Ture 尊。以此根本咒讚頌，及此二十一禮讚。若有具慧具信者，對此天女誠敬誦，於晨於昏起修持，憶念即賜無畏懼。一切罪障悉寂滅，摧毀一切惡趣道，七千萬尊諸如來，速疾為其授灌頂。此中將獲更勝者，趨向佛陀究竟位。彼之毒素極猛烈，無論定住或遊行。縱使已食或已飲，憶念即能悉消除。受魔、疫、毒所惱者，一切苦難悉皆遣。亦能利益諸眾生。若能二三七遍誦，求子之人得子嗣，求財之人得財富，一切所願皆圓滿，願諸障礙悉消除。世尊度母讚，由正等覺如來所宣說圓滿。",
+  "segmentation": {
+    "segments": [
+      {
+        "lines": [
+          {
+            "start": 0,
+            "end": 47
+          }
+        ],
+        "type": "front_matter",
+        "reference": "I-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 47,
+            "end": 64
+          }
+        ],
+        "type": "front_matter",
+        "reference": "I-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 64,
+            "end": 75
+          }
+        ],
+        "type": "front_matter",
+        "reference": "I-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 75,
+            "end": 85
+          },
+          {
+            "start": 85,
+            "end": 93
+          },
+          {
+            "start": 93,
+            "end": 101
+          },
+          {
+            "start": 101,
+            "end": 109
+          }
+        ],
+        "type": "verse",
+        "reference": "1-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 109,
+            "end": 117
+          },
+          {
+            "start": 117,
+            "end": 125
+          },
+          {
+            "start": 125,
+            "end": 133
+          },
+          {
+            "start": 133,
+            "end": 141
+          }
+        ],
+        "type": "verse",
+        "reference": "1-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 141,
+            "end": 149
+          },
+          {
+            "start": 149,
+            "end": 157
+          },
+          {
+            "start": 157,
+            "end": 165
+          },
+          {
+            "start": 165,
+            "end": 173
+          }
+        ],
+        "type": "verse",
+        "reference": "1-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 173,
+            "end": 181
+          },
+          {
+            "start": 181,
+            "end": 189
+          },
+          {
+            "start": 189,
+            "end": 197
+          },
+          {
+            "start": 197,
+            "end": 205
+          }
+        ],
+        "type": "verse",
+        "reference": "1-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 205,
+            "end": 218
+          },
+          {
+            "start": 218,
+            "end": 226
+          },
+          {
+            "start": 226,
+            "end": 234
+          },
+          {
+            "start": 234,
+            "end": 242
+          }
+        ],
+        "type": "verse",
+        "reference": "1-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 242,
+            "end": 250
+          },
+          {
+            "start": 250,
+            "end": 258
+          },
+          {
+            "start": 258,
+            "end": 266
+          },
+          {
+            "start": 266,
+            "end": 274
+          }
+        ],
+        "type": "verse",
+        "reference": "1-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 274,
+            "end": 288
+          },
+          {
+            "start": 288,
+            "end": 296
+          },
+          {
+            "start": 296,
+            "end": 304
+          },
+          {
+            "start": 304,
+            "end": 312
+          }
+        ],
+        "type": "verse",
+        "reference": "1-7"
+      },
+      {
+        "lines": [
+          {
+            "start": 312,
+            "end": 322
+          },
+          {
+            "start": 322,
+            "end": 330
+          },
+          {
+            "start": 330,
+            "end": 338
+          },
+          {
+            "start": 338,
+            "end": 346
+          }
+        ],
+        "type": "verse",
+        "reference": "1-8"
+      },
+      {
+        "lines": [
+          {
+            "start": 346,
+            "end": 354
+          },
+          {
+            "start": 354,
+            "end": 362
+          },
+          {
+            "start": 362,
+            "end": 370
+          },
+          {
+            "start": 370,
+            "end": 378
+          }
+        ],
+        "type": "verse",
+        "reference": "1-9"
+      },
+      {
+        "lines": [
+          {
+            "start": 378,
+            "end": 386
+          },
+          {
+            "start": 386,
+            "end": 394
+          },
+          {
+            "start": 394,
+            "end": 406
+          },
+          {
+            "start": 406,
+            "end": 414
+          }
+        ],
+        "type": "verse",
+        "reference": "1-10"
+      },
+      {
+        "lines": [
+          {
+            "start": 414,
+            "end": 422
+          },
+          {
+            "start": 422,
+            "end": 430
+          },
+          {
+            "start": 430,
+            "end": 440
+          },
+          {
+            "start": 440,
+            "end": 448
+          }
+        ],
+        "type": "verse",
+        "reference": "1-11"
+      },
+      {
+        "lines": [
+          {
+            "start": 448,
+            "end": 456
+          },
+          {
+            "start": 456,
+            "end": 464
+          },
+          {
+            "start": 464,
+            "end": 472
+          },
+          {
+            "start": 472,
+            "end": 480
+          }
+        ],
+        "type": "verse",
+        "reference": "1-12"
+      },
+      {
+        "lines": [
+          {
+            "start": 480,
+            "end": 488
+          },
+          {
+            "start": 488,
+            "end": 496
+          },
+          {
+            "start": 496,
+            "end": 504
+          },
+          {
+            "start": 504,
+            "end": 512
+          }
+        ],
+        "type": "verse",
+        "reference": "1-13"
+      },
+      {
+        "lines": [
+          {
+            "start": 512,
+            "end": 520
+          },
+          {
+            "start": 520,
+            "end": 528
+          },
+          {
+            "start": 528,
+            "end": 538
+          },
+          {
+            "start": 538,
+            "end": 546
+          }
+        ],
+        "type": "verse",
+        "reference": "1-14"
+      },
+      {
+        "lines": [
+          {
+            "start": 546,
+            "end": 554
+          },
+          {
+            "start": 554,
+            "end": 562
+          },
+          {
+            "start": 562,
+            "end": 575
+          },
+          {
+            "start": 575,
+            "end": 583
+          }
+        ],
+        "type": "verse",
+        "reference": "1-15"
+      },
+      {
+        "lines": [
+          {
+            "start": 583,
+            "end": 591
+          },
+          {
+            "start": 591,
+            "end": 599
+          },
+          {
+            "start": 599,
+            "end": 607
+          },
+          {
+            "start": 607,
+            "end": 617
+          }
+        ],
+        "type": "verse",
+        "reference": "1-16"
+      },
+      {
+        "lines": [
+          {
+            "start": 617,
+            "end": 627
+          },
+          {
+            "start": 627,
+            "end": 637
+          },
+          {
+            "start": 637,
+            "end": 645
+          },
+          {
+            "start": 645,
+            "end": 653
+          }
+        ],
+        "type": "verse",
+        "reference": "1-17"
+      },
+      {
+        "lines": [
+          {
+            "start": 653,
+            "end": 661
+          },
+          {
+            "start": 661,
+            "end": 669
+          },
+          {
+            "start": 669,
+            "end": 682
+          },
+          {
+            "start": 682,
+            "end": 690
+          }
+        ],
+        "type": "verse",
+        "reference": "1-18"
+      },
+      {
+        "lines": [
+          {
+            "start": 690,
+            "end": 698
+          },
+          {
+            "start": 698,
+            "end": 706
+          },
+          {
+            "start": 706,
+            "end": 714
+          },
+          {
+            "start": 714,
+            "end": 722
+          }
+        ],
+        "type": "verse",
+        "reference": "1-19"
+      },
+      {
+        "lines": [
+          {
+            "start": 722,
+            "end": 730
+          },
+          {
+            "start": 730,
+            "end": 738
+          },
+          {
+            "start": 738,
+            "end": 753
+          },
+          {
+            "start": 753,
+            "end": 761
+          }
+        ],
+        "type": "verse",
+        "reference": "1-20"
+      },
+      {
+        "lines": [
+          {
+            "start": 761,
+            "end": 769
+          },
+          {
+            "start": 769,
+            "end": 777
+          },
+          {
+            "start": 777,
+            "end": 787
+          },
+          {
+            "start": 787,
+            "end": 799
+          }
+        ],
+        "type": "verse",
+        "reference": "1-21"
+      },
+      {
+        "lines": [
+          {
+            "start": 799,
+            "end": 807
+          },
+          {
+            "start": 807,
+            "end": 815
+          }
+        ],
+        "type": "verse",
+        "reference": "1-22"
+      },
+      {
+        "lines": [
+          {
+            "start": 815,
+            "end": 823
+          },
+          {
+            "start": 823,
+            "end": 831
+          }
+        ],
+        "type": "verse",
+        "reference": "2-1"
+      },
+      {
+        "lines": [
+          {
+            "start": 831,
+            "end": 839
+          },
+          {
+            "start": 839,
+            "end": 847
+          },
+          {
+            "start": 847,
+            "end": 855
+          },
+          {
+            "start": 855,
+            "end": 863
+          }
+        ],
+        "type": "verse",
+        "reference": "2-2"
+      },
+      {
+        "lines": [
+          {
+            "start": 863,
+            "end": 871
+          },
+          {
+            "start": 871,
+            "end": 879
+          },
+          {
+            "start": 879,
+            "end": 887
+          },
+          {
+            "start": 887,
+            "end": 895
+          }
+        ],
+        "type": "verse",
+        "reference": "2-3"
+      },
+      {
+        "lines": [
+          {
+            "start": 895,
+            "end": 903
+          },
+          {
+            "start": 903,
+            "end": 911
+          },
+          {
+            "start": 911,
+            "end": 919
+          },
+          {
+            "start": 919,
+            "end": 927
+          }
+        ],
+        "type": "verse",
+        "reference": "2-4"
+      },
+      {
+        "lines": [
+          {
+            "start": 927,
+            "end": 937
+          },
+          {
+            "start": 937,
+            "end": 945
+          },
+          {
+            "start": 945,
+            "end": 953
+          }
+        ],
+        "type": "verse",
+        "reference": "2-5"
+      },
+      {
+        "lines": [
+          {
+            "start": 953,
+            "end": 961
+          },
+          {
+            "start": 961,
+            "end": 969
+          },
+          {
+            "start": 969,
+            "end": 977
+          },
+          {
+            "start": 977,
+            "end": 985
+          },
+          {
+            "start": 985,
+            "end": 993
+          }
+        ],
+        "type": "verse",
+        "reference": "2-6"
+      },
+      {
+        "lines": [
+          {
+            "start": 993,
+            "end": 1011
+          }
+        ],
+        "type": "back_matter",
+        "reference": "a-1"
+      }
+    ]
+  }
+}

@@ -271,6 +271,13 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Alternative producer for the menu:** `interlinear-gloss` → `glossary-extract-raw` → `glossary-combine` builds the same file token by token. Use that route when there is no `keyword-extract` run, or when several translations should appear side by side.
 → [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
 
+### `keyword-standardize` **[exists — Webuddhist-Skills `rails/keyword-standardize`; alias `zh-keyword-standardize`]**
+**Purpose:** Build the locked word list in any target language (Chinese, Vietnamese, …) for a Tibetan text that has no human translation in that language. It collects and aligns the classical canon version (CBETA), lays out the evidence term by term, records one Chinese rendering per locked Tibetan term (with its source and reason) in one editable decisions file, and builds the termbase, grade file, verse-scoped glossary and review table from it.
+**Inputs:** The base (English) termbase and grade file in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; the fact-checked translation as the meaning reference; optionally a classical reference in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/` and a zero-shot Chinese draft.
+**Outputs:** `zh-decisions-<grade>.json` (the file to edit), `en-bo-zh-termbase-<grade>.json`, `bo_zh_keyword_<grade>.json`, `glossary-zh-<grade>.tsv`, `termbase-zh-<grade>.md`, `zh-worksheet-<grade>.md`.
+**Rules:** Translate from the Tibetan. The English is only the meaning check. The classical version is word evidence, never copied text. Edit the decisions file, then rebuild; never edit the built files. Run first on the Twenty-One Tārās, general grade (2026-09-24).
+→ `../Webuddhist-Skills/rails/keyword-standardize/SKILL.md` (slash command `/keyword-standardize`; `/zh-keyword-standardize` still works)
+
 ### `commentary-fact-check` **[exists]**
 **Purpose:** Audit an English translation verse by verse against a Tibetan commentary that transcludes the root text, using strict **term-by-term alignment** — for every content word the commentary glosses, check the translation renders it — rather than a gist/comprehension check.
 **Inputs:** A graded English translation and the commentary that transcludes the root.
@@ -374,13 +381,13 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Rules:** Translate small batches only — one or a few TOC nodes at a time. Every keyword rendering must match the per-track termbase. Introduce no new rendering without first adding it to the termbase and feeding it back into the consolidated bilingual glossary.
 → `translate-section/SKILL.md` *(to be written)*
 
-### `dharmamitra-translate` **[exists]**
+### `dharmamitra-translate` **[archived 2026-09-24 → Webuddhist-Skills `rails/machine-translate`]**
 **Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API on small batches of adjacent block IDs, threading the document's own preceding translations back in as context; section headings are translated separately (`--headings`).
 **Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `modern chinese`, …); optionally a style instruction, a context header, a flat `source<TAB>target` glossary, and `--extra-fm` frontmatter keys.
 **Outputs:** `3-TRANSFORMATIONS/Translations/Dharmamitra/<tag>/<source stem>-<tag>.md` — block-ID aligned to the Tibetan by transclusion, with `about.md` / `style.md` / `context-header.md` and an append-only ledger under `work/`. Its frontmatter is what the vault linter expects of a `file_type: translation` note, so `translation-upload` consumes it directly.
 **Rules:** Never writes to `1-SOURCES/`; never writes into a non-baseline track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public with a **daily** quota of 400 calls — batch, count calls, never parallelise.
 **Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Fork of the Liturgy-rails skill (imported 2026-09-17; the en and zh tracks of the Twenty-One Praises were imported and re-cut from that vault).
-→ [`dharmamitra-translate/SKILL.md`](dharmamitra-translate/SKILL.md)
+→ Use `Webuddhist-Skills/rails/machine-translate/SKILL.md` (Engine 2). Archived copy: [`_archive/dharmamitra-translate/SKILL.md`](_archive/dharmamitra-translate/SKILL.md)
 
 ### `dharmamitra-termlocked` **[exists]**
 **Purpose:** Vocabulary-**standardised** translation through the same DharmaMitra API — build a lock glossary from the track's `termbase.md`, send it with every call, then mechanically verify that every lock which should have applied to a block actually landed (EXACT / LOOSE / MISSING) and re-run only the blocks where it did not.
