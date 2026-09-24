@@ -566,3 +566,22 @@ build → validate/baseline/glossary.
   Tibetan also occurs where the term is not locked. Two examples: སྒྲོལ་མ in 1-11 is the verb "liberate", not
   Tārā's name; ཆུ་སྐྱེས་ཞལ in 1-1 is the Lord's face, not hers.
 - Re-checked: validator (`--lang zh`) 0 errors; baseline 63/137; glossary 76 lines, all verse-scoped.
+
+## Chinese (zh), general — Draft 1 and Draft 2 (2026-09-24)
+
+- **Draft 1** (Tenkal ran it in Terminal): DharmaMitra, primed with `glossary-zh-general.tsv`, style from
+  `Dharmamitra/zh-general/style.md` → `3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/`. 32/32 blocks.
+  **122/137 locked words (89%)**, against 63/137 for the zero-shot draft 0. For Chinese, the glossary priming
+  worked (for English it barely moved).
+- **Draft 2**: `3-TRANSFORMATIONS/Translations/zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general.md`, with the
+  same block IDs and transclusion layout as en-general. It keeps DharmaMitra's wording, and 21 blocks changed:
+  - 5 locked-word fixes;
+  - 11 clear-error fixes (e.g. 1-6/1-21 羅剎 → 起屍, 1-17 瓶山 → 頻闍山 Vindhya, 1-18 the moon has the
+    lake's form rather than Tara, 1-14 an added 障礙 removed, 1-1 the lotus from the Lord's face);
+  - 5 headings.
+  **137/137 locked words (100%)**; line counts unchanged; no Latin letters outside the Sanskrit title.
+  The log is in `zh-general/phase2-fixes-log-zh-general.md`, which also lists 4 open meaning items for the next
+  step. Draft 2 text is written to `zh_text` in `bo_zh_keyword_general.json`.
+- Skill fix: `build_zh_termbase.py --force` now keeps `zh_text` that is already written.
+- **Next:** meaning check of each verse against the English D3 and the commentary consensus (including the 4 open
+  items), then a back-translation, then the native reviewer.
