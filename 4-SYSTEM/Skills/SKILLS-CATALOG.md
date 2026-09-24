@@ -240,12 +240,12 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/termbase.md` — the prescriptive termbase scoped to keywords that appear in the text being translated; plus updates to the consolidated bilingual glossary for any new derived renderings.
 → [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
 
-### `zh-keyword-standardize` **[exists — Webuddhist-Skills `rails/zh-keyword-standardize`]**
-**Purpose:** Build the locked Chinese word list for a Tibetan text that has no human Chinese translation. It collects and aligns the classical canon version (CBETA), lays out the evidence term by term, records one Chinese rendering per locked Tibetan term (with its source and reason) in one editable decisions file, and builds the termbase, grade file, verse-scoped glossary and review table from it.
+### `keyword-standardize` **[exists — Webuddhist-Skills `rails/keyword-standardize`; alias `zh-keyword-standardize`]**
+**Purpose:** Build the locked word list in any target language (Chinese, Vietnamese, …) for a Tibetan text that has no human translation in that language. It collects and aligns the classical canon version (CBETA), lays out the evidence term by term, records one Chinese rendering per locked Tibetan term (with its source and reason) in one editable decisions file, and builds the termbase, grade file, verse-scoped glossary and review table from it.
 **Inputs:** The base (English) termbase and grade file in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; the fact-checked translation as the meaning reference; optionally a classical reference in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/` and a zero-shot Chinese draft.
 **Outputs:** `zh-decisions-<grade>.json` (the file to edit), `en-bo-zh-termbase-<grade>.json`, `bo_zh_keyword_<grade>.json`, `glossary-zh-<grade>.tsv`, `termbase-zh-<grade>.md`, `zh-worksheet-<grade>.md`.
 **Rules:** Translate from the Tibetan. The English is only the meaning check. The classical version is word evidence, never copied text. Edit the decisions file, then rebuild; never edit the built files. Run first on the Twenty-One Tārās, general grade (2026-09-24).
-→ `../Webuddhist-Skills/rails/zh-keyword-standardize/SKILL.md` (slash command `/zh-keyword-standardize`)
+→ `../Webuddhist-Skills/rails/keyword-standardize/SKILL.md` (slash command `/keyword-standardize`; `/zh-keyword-standardize` still works)
 
 ### `commentary-fact-check` **[exists]**
 **Purpose:** Audit an English translation verse by verse against a Tibetan commentary that transcludes the root text, using strict **term-by-term alignment** — for every content word the commentary glosses, check the translation renders it — rather than a gist/comprehension check.

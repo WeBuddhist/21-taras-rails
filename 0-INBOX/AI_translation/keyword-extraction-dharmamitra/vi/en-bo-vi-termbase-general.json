@@ -1,0 +1,834 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "vi": "Kính lễ",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "Hán-Việt of the Chinese 敬禮; the Gemini draft already opens every stanza with Kính lễ. (Đảnh lễ, used by Gemini in I-0/I-2, is the same act; one form is locked.)",
+    "vi_evidence": {
+      "machine_draft": "21/25 of its verses"
+    }
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tara",
+    "vi": "Độ Mẫu",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "Hán-Việt of 度母; used throughout the Gemini draft and pinned in its track glossary.",
+    "vi_evidence": {
+      "machine_draft": "4/5 of its verses"
+    }
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "vi": "lợi ích",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "ཕན་ཡོན = benefits. The Chinese chose 功德 (công đức), but in Vietnamese công đức means merit; lợi ích (利益) is the exact word and is what the Gemini draft has.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "noble_venerable": {
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
+    "vi": "Chí Tôn Thánh",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list",
+    "vi_note": "Hán-Việt of 至尊聖 (རྗེ་བཙུན་ = 至尊 chí tôn, འཕགས་མ = 聖 thánh), used before Độ Mẫu: Chí Tôn Thánh Độ Mẫu. Gemini paraphrased it (\"Thánh nữ … tôn quý\").",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "vi": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "vi_source": "kept as in the English",
+    "vi_note": "The Sanskrit title line stays in IAST, as in English and Chinese (Gemini dropped the diacritics).",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "vi": "tán thán",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "བསྟོད་པ. Tán thán (讚歎) is the usual Vietnamese Buddhist word and the Gemini draft's; the Chinese 讚頌 would be tán tụng, which is less common.",
+    "vi_evidence": {
+      "machine_draft": "4/5 of its verses"
+    }
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "vi": "Thế Tôn Độ Mẫu",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "Hán-Việt of 世尊度母; Gemini has the same.",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "vi": "viên mãn",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "圓滿 viên mãn; Gemini uses it in 1-15, 1-21, a-1.",
+    "vi_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "vi": "Chánh Đẳng Chánh Giác",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term",
+    "vi_note": "正等正覺 (samyaksaṃbuddha). Gemini writes Chính Đẳng Chính Giác; Vietnamese Buddhist usage and the graded-translate register table (chánh niệm) use Chánh.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "vi": "Thế Tôn",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term + Gemini vi draft",
+    "vi_note": "世尊; only inside Thế Tôn Độ Mẫu (a-1).",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "vi": "chánh văn tán thán",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ],
+    "vi_source": "new (no source had it)",
+    "vi_note": "Heading བསྟོད་པ་དངོས (\"the praise itself\"). Gemini's \"tán thán chính tông\" borrows chính tông (\"orthodox lineage\"), which is wrong here; chánh văn (正文) = the main text, as in the Chinese 讚頌正文.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "vi": "tia chớp",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "གློག. Gemini paraphrased (\"chớp sáng tựa luồng điện xẹt\"); tia chớp is the plain word. Chinese 閃電.",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "vi": "thế giới",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "世界 thế giới; Gemini 1-5, 1-17. Not cõi, which Vietnamese uses for realm (ཁམས, as in ba cõi / dục giới) — the same distinction the Chinese keeps (世界 vs 三界).",
+    "vi_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "vi": "gương mặt",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "ཞལ. Gemini gương mặt (1-1, 1-2, 1-8), the plain modern word; Hán-Việt dung nhan is literary.",
+    "vi_evidence": {
+      "machine_draft": "1/3 of its verses"
+    }
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "vi": "sen",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "ཆུ་སྐྱེས / པདྨ. Locks the core word so hoa sen, đóa sen, sen thủy sinh all fit.",
+    "vi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "vi": "gương mặt hoa sen",
+    "rank": 138,
+    "verse_ids": [
+      "1-8"
+    ],
+    "vi_source": "Gemini vi draft",
+    "vi_note": "1-8 only (her own face, likened to a lotus), as settled in the English fact-check. Gemini has the same phrase there.",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "vi": "quang",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "འོད. Hán-Việt 光 quang, as in hào quang / quang minh, which Gemini uses (1-2, 1-9, 1-12). Locked short so the compound can vary.",
+    "vi_evidence": {
+      "machine_draft": "3/5 of its verses"
+    }
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "vi": "rực",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ],
+    "vi_source": "Gemini vi draft",
+    "vi_note": "འབར. Rực covers rực cháy (fire, 1-7, 1-13) and rực sáng (light, 1-2); Gemini has rực rỡ / rực cháy. The Hán-Việt xí nhiên (熾燃) is not used in prayers.",
+    "vi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "vi": "trăng",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "ཟླ་བ and the kenning རི་དགས་རྟགས་ཅན (1-18): vầng trăng, trăng thu, trăng khuyết. Gemini throughout.",
+    "vi_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "vi": "tịch tĩnh",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "ཞི / ཞི་བ = 寂靜 tịch tĩnh (Gemini 1-3). Gemini used an bình / bình an in 1-15 and 1-21; one form is locked.",
+    "vi_evidence": {
+      "machine_draft": "1/3 of its verses"
+    }
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "vi": "không sót",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "vi_source": "Gemini vi draft",
+    "vi_note": "མ་ལུས. The Hán-Việt of the Chinese 無餘 (vô dư) is not understood by general readers; không sót is the plain word Gemini uses (1-5, 1-8).",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "hum",
+    "vi": "Hum",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Latin, without diacritics, as Vietnamese Vajrayana practitioners write it (Tenkal's choice).",
+    "vi_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "vi": "chữ",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "ཡི་གེ. Gemini says âm (\"sound\"); ཡི་གེ is the written syllable — chữ Hum, chủng tự — as Vietnamese Vajrayana texts write it, like the Chinese 字.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "vi": "đạp",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ],
+    "vi_source": "Gemini vi draft",
+    "vi_note": "མནན; Gemini 1-5, 1-7.",
+    "vi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "vi": "chân",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ],
+    "vi_source": "Gemini vi draft",
+    "vi_note": "ཞབས: bàn chân. Note for the drift check: chân is also in chân ngôn (mantra) and chân như (suchness); neither occurs in the verses where feet is locked (1-5, 1-14, 1-17).",
+    "vi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
+    "en": "tuttare",
+    "vi": "Tuttare",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation",
+    "vi_note": "ཏུཏྟྭ་ར. Latin, as in Om Tare Tuttare Ture Soha. Gemini wrote Tuttara in 1-5, 1-10, 1-20.",
+    "vi_evidence": {
+      "machine_draft": "0/3 of its verses"
+    }
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "vi": "chúng",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "ཚོགས = 眾 chúng (chúng dạ-xoa, chúng thần).",
+    "vi_evidence": {
+      "machine_draft": "1/4 of its verses"
+    }
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "vi": "quỷ thần",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term",
+    "vi_note": "འབྱུང་པོ (bhūta). Hán-Việt of the Chinese 鬼神, the ordinary Vietnamese word for spirits. Gemini tinh linh reads as \"sprites\". Kept distinct from ác quỷ (གདོན).",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "vi": "tiêu diệt",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "འཇོམས; Gemini 1-8, 1-13, 1-15, 1-21. The Hán-Việt of 摧毀 (tồi hủy) is not used.",
+    "vi_evidence": {
+      "machine_draft": "1/4 of its verses"
+    }
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "phat",
+    "vi": "Phat",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Latin, without diacritics.",
+    "vi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "trat",
+    "vi": "Trat",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Latin, without diacritics.",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "ture",
+    "vi": "Ture",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Latin, as in the mantra.",
+    "vi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "great": {
+    "bo": "ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "vi": "đại",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list",
+    "vi_note": "ཆེན་མོ / ཆེན་པོ (1-8 the Great Terrifying One, 1-15 great negativity): Hán-Việt 大 đại — đại bố úy, đại tội. 2-3 ཆེ་བ is split out as \"greater\".",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "vi": "cực",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "རབ in 1-10 (supreme joy): 極 cực — cực hỷ.",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "vi": "nhiếp phục",
+    "rank": 85,
+    "verse_ids": [
+      "1-10"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "དབང in 1-10: 攝伏 nhiếp phục; Gemini has exactly this (\"Nhiếp phục ác ma\"). The commentaries read it as bringing under her control.",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
+    "en": "joy",
+    "vi": "hỷ",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "དགའ: 喜 hỷ, locked short so hoan hỷ / cực hỷ fit; Gemini hoan hỷ in 1-10, 1-13, 1-16, 1-19.",
+    "vi_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable hum",
+    "vi": "chữ Hum",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "ཡི་གེ་ཧཱུཾ; Vietnamese puts chữ before the syllable.",
+    "vi_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "vi": "năng lực",
+    "rank": 85,
+    "verse_ids": [
+      "1-11",
+      "1-5"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "ནུས: 能力 năng lực; Gemini 1-11 (\"có năng lực triệu thỉnh\"). Also 1-5 (same ནུས), as in Chinese.",
+    "vi_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "vi": "viên mãn đầy đủ",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "ཡང་དག་ལྡན (1-15, 1-21). The Hán-Việt of 圓滿具足 (viên mãn cụ túc) is literary; viên mãn đầy đủ is clear and keeps both locked parts.",
+    "vi_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "vi": "đầy đủ",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "ལྡན. Plain word; the Hán-Việt cụ túc (具足) is literary.",
+    "vi_evidence": {
+      "machine_draft": "0/3 of its verses"
+    }
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "vi": "chú",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "སྔགས = 咒 chú: căn bản chú (1-22), chú mười chữ and minh chú (1-16). Gemini also had chân ngôn once; one form is locked.",
+    "vi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "vi": "Nữ Thần",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "vi_source": "standard Buddhist term",
+    "vi_note": "ལྷ་མོ (2-1); Gemini left it out. Gendun Drub and Taranatha identify it with Tārā herself (see the Chinese note). Nữ Thần is the plain word for a goddess. Reviewer: if it reads as a folk goddess, Thánh Mẫu or Tôn nữ are options.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "vetala": {
+    "bo": "རོ་ལངས",
+    "en": "vetāla",
+    "vi": "khởi thi",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list",
+    "vi_note": "རོ་ལངས (\"risen corpse\"): Hán-Việt of 起屍, the term in Vietnamese Mật tông texts. Gemini thây ma means \"corpse / zombie\" — the reading the English fact-check rejected. Reviewer: if khởi thi is too obscure, \"thây ma sống dậy\".",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "empowerment": {
+    "bo": "དབང",
+    "en": "empowerment",
+    "vi": "quán đảnh",
+    "rank": 85,
+    "verse_ids": [
+      "2-3"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term + Gemini vi draft",
+    "vi_note": "དབང in 2-3: 灌頂 quán đảnh; Gemini the same.",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "vi": "ác quỷ",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "vi_source": "standard Buddhist term + Gemini vi draft",
+    "vi_note": "གདོན (afflicting spirits): Gemini ác quỷ (1-21, 2-5). Ma is kept for བདུད (Māra, 1-8, 1-10), so the Chinese 邪魅 (tà mị) is not needed.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "vi": "dạ-xoa",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term + Gemini vi draft",
+    "vi_note": "གནོད་སྦྱིན: 夜叉 dạ-xoa; Gemini the same.",
+    "vi_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "vi": "uy lực",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + Gemini vi draft",
+    "vi_note": "མཐུ (1-21): 威力 uy lực; Gemini the same.",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "greater": {
+    "bo": "ཆེ་བ",
+    "en": "greater",
+    "vi": "thù thắng hơn",
+    "rank": 999,
+    "verse_ids": [
+      "2-3"
+    ],
+    "vi_source": "Sino-Vietnamese reading of the zh word list + standard Buddhist term",
+    "vi_note": "Vietnamese-only split from \"great\", as in Chinese: ཆེ་བ in 2-3 is comparative (\"greater than this\") → thù thắng hơn (更殊勝).",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    },
+    "vi_only": true
+  },
+  "om": {
+    "bo": "ཨོཾ",
+    "en": "Oṃ",
+    "vi": "Om",
+    "rank": 999,
+    "verse_ids": [
+      "I-3",
+      "1-15"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Vietnamese-only entry (English left mantra syllables unlocked). Latin, as in Om Tare Tuttare Ture Soha.",
+    "vi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    },
+    "vi_only": true
+  },
+  "svaha": {
+    "bo": "སྭཱ་ཧཱ",
+    "en": "svāhā",
+    "vi": "Soha",
+    "rank": 999,
+    "verse_ids": [
+      "1-15"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation",
+    "vi_note": "Vietnamese-only entry. Soha is how Vietnamese Vajrayana practitioners write svāhā in this mantra (Om Tare Tuttare Ture Soha); Gemini wrote Svaha.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    },
+    "vi_only": true
+  },
+  "hara": {
+    "bo": "ཧ་ར",
+    "en": "HARA",
+    "vi": "Hara",
+    "rank": 999,
+    "verse_ids": [
+      "1-20"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation + Gemini vi draft",
+    "vi_note": "Vietnamese-only entry.",
+    "vi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "vi_only": true
+  },
+  "tara_syllable": {
+    "bo": "ཏཱ་ར",
+    "en": "TĀRA",
+    "vi": "Tare",
+    "rank": 999,
+    "verse_ids": [
+      "1-18"
+    ],
+    "vi_source": "Vietnamese Vajrayana recitation",
+    "vi_note": "Vietnamese-only entry. 1-18 \"reciting TĀRA twice\": the recitation form Tare (Om Tare Tuttare …), the same normalisation as tuttare and the Chinese 達咧. Gemini wrote Tara, which also reads as her name.",
+    "vi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "vi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    },
+    "vi_only": true
+  }
+}

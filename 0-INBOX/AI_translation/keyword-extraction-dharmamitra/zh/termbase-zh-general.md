@@ -7,7 +7,7 @@ grade: general
 termbase: en-bo-zh-termbase-general.json
 grade_file: bo_zh_keyword_general.json
 decisions: zh-decisions-general.json
-built_by: zh-keyword-standardize/scripts/build_zh_termbase.py
+built_by: keyword-standardize/scripts/build_termbase.py
 entries: 52
 decided_flagged: 14
 status: awaiting native-speaker review

@@ -39,7 +39,7 @@ After editing `zh-decisions-general.json`, rebuild from the vault root:
 
 ```bash
 K=0-INBOX/AI_translation/keyword-extraction-dharmamitra
-python3 ../Webuddhist-Skills/rails/zh-keyword-standardize/scripts/build_zh_termbase.py \
+python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/build_termbase.py \
   --decisions $K/zh/zh-decisions-general.json \
   --base-termbase $K/en/en-bo-en-termbase-general.json --base-grade-file $K/en/bo_en_keyword_general.json \
   --meaning-text "3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md" \
