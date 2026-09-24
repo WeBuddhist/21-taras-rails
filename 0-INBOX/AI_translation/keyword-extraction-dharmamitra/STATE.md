@@ -441,3 +441,27 @@ property; 1-22 "and". Properties: `fact_check_open_items: 0`, `translator_decisi
 **State of the translation:** draft 3, no open fact-check items, `status: draft`.
 **Next:** specialist review, then publish (pipeline step 7). Upload goes through
 `translation-upload` / `4-SYSTEM/scripts/upload_translation.py`, not this workflow.
+
+---
+
+## Draft 1 vs draft 3 comparison — DONE
+
+`3-TRANSFORMATIONS/Translations/en-general/comparison-draft1-vs-draft3-en-general.md`:
+a verse-by-verse word diff (Obsidian ~~strike~~ / ==highlight==), with each change
+attributed to the termbase pass (T), the fact-check (F) or a user decision (D).
+21 of 32 verses changed: 16 by T, 13 by F/D, 8 by both; 11 unchanged. The zero-shot
+DharmaMitra draft (`Dharmamitra/en/`) is ~88% similar to the glossary-primed draft 1 —
+the soft glossary hint barely steered the output.
+
+---
+
+## Consistency measurement — DONE
+
+`3-TRANSFORMATIONS/Translations/en-general/consistency-report-en-general.md`, covering
+D0 zero-shot, D1 glossary-primed, D2 termbase pass and D3 fact-checked.
+- **Locked-term adherence** (122 verse–term pairs, 5 subsumed pairs excluded): 78.7% → 86.9% → 99.2% → 100%.
+- **Repeated words with more than one spelling** (8 tracked): 1 → 2 → 0 → 0 (tuttare; D1 also hum).
+- **Distinct Tibetan words merged** (3 groups): 2 → 1 → 1 → 0 (ནུས/དབང/མཐུ all "power"
+  until D2/D3; D0 used "spirits" for both འབྱུང་པོ and གདོན).
+- **Caveat:** the yardstick is our own termbase, so D2/D3 score high by design.
+  The script is in the session scratch (`~/fc_tmp/consistency.py`), not the vault.
