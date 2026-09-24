@@ -60,6 +60,7 @@ fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commenta
 native_review: false
 note: "Third draft. (1) DharmaMitra cat-translate raw output from the Tibetan, primed with the verse-scoped zh glossary; (2) every locked word enforced verse by verse against the 52-term general-grade zh termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus; 15 verses fixed (see meaning_check_report). 137/137 locked words. Not yet reviewed by a native Chinese reader -- treat as draft."
 status: draft
+translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 
 # 二十一度母禮讚文 ^0

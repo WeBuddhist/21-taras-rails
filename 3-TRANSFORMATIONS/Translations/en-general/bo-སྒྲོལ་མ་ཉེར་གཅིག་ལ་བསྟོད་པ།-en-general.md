@@ -49,6 +49,7 @@ translator_notes:
   - "2-6: the last line follows our root's optative འཇོམས་འགྱུར་ཅིག ('may … be destroyed'), as Tenga Tulku does. The copies quoted by Drakpa Gyaltsen, Gendun Drub and Taranatha read འཇོམས་འགྱུར ('will be destroyed')."
 note: "Third draft. (1) DharmaMitra cat-translate raw output, glossary-primed; (2) corrected verse by verse against the general-grade locked termbase; (3) fact-checked term by term against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku). 11 fixes were applied where at least 3 of 4 commentaries agreed the English was wrong, plus 2 termbase-consistency fixes (1-12, 1-21). Where the commentaries split, the translator decided (7 items: 2 changed at 1-14 and 2-6, 5 kept); see fact_check_fixes_log and translator_notes. Not yet reviewed by a domain specialist -- treat as draft."
 status: draft
+translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 
 # Praise to the Twenty-One Taras ^0
