@@ -235,7 +235,7 @@
         "related",
         "standard"
       ],
-      "note": "འབྱུང་པོ (bhūta). Hán-Việt of the Chinese 鬼神, the ordinary Vietnamese word for spirits. Gemini tinh linh reads as \"sprites\". Kept distinct from ác quỷ (གདོན).",
+      "note": "འབྱུང་པོ (bhūta). Hán-Việt of the Chinese 鬼神, the ordinary Vietnamese word for spirits. Gemini tinh linh reads as \"sprites\". Kept distinct from ác quỷ (གདོན). Commentary check: DG, GD, TN name Gaṇapati (ཚོགས་བདག) as their chief; TN: obstructers and misleaders. Quỷ thần fits.",
       "decision": true
     },
     "destroy": {
@@ -292,7 +292,7 @@
         "related",
         "mt"
       ],
-      "note": "དབང in 1-10: 攝伏 nhiếp phục; Gemini has exactly this (\"Nhiếp phục ác ma\"). The commentaries read it as bringing under her control."
+      "note": "དབང in 1-10: 攝伏 nhiếp phục; Gemini has exactly this (\"Nhiếp phục ác ma\"). The commentaries read it as bringing under her control. Commentary check: all four read དབང་དུ་མཛད as bringing under her control. Nhiếp phục fits."
     },
     "joy": {
       "vi": "hỷ",
@@ -355,7 +355,7 @@
       "source": [
         "related"
       ],
-      "note": "རོ་ལངས (\"risen corpse\"): Hán-Việt of 起屍, the term in Vietnamese Mật tông texts. Gemini thây ma means \"corpse / zombie\" — the reading the English fact-check rejected. Reviewer: if khởi thi is too obscure, \"thây ma sống dậy\".",
+      "note": "རོ་ལངས (\"risen corpse\"): Hán-Việt of 起屍, the term in Vietnamese Mật tông texts. Gemini thây ma means \"corpse / zombie\" — the reading the English fact-check rejected. Reviewer: if khởi thi is too obscure, \"thây ma sống dậy\". Commentary check: TN glosses རོ་ལངས as a class of beings named after the rite; the word is \"risen corpse\", so khởi thi stays and thây ma (\"zombie\") does not.",
       "decision": true
     },
     "empowerment": {
@@ -373,7 +373,7 @@
         "mt",
         "standard"
       ],
-      "note": "གདོན (afflicting spirits): Gemini ác quỷ (1-21, 2-5). Ma is kept for བདུད (Māra, 1-8, 1-10), so the Chinese 邪魅 (tà mị) is not needed.",
+      "note": "གདོན (afflicting spirits): Gemini ác quỷ (1-21, 2-5). Ma is kept for བདུད (Māra, 1-8, 1-10), so the Chinese 邪魅 (tà mị) is not needed. Commentary check: TN — the eighteen གདོན; DG — all that obstructs. Ác quỷ fits.",
       "decision": true
     },
     "yaksha": {
@@ -399,7 +399,7 @@
         "related",
         "standard"
       ],
-      "note": "Vietnamese-only split from \"great\", as in Chinese: ཆེ་བ in 2-3 is comparative (\"greater than this\") → thù thắng hơn (更殊勝).",
+      "note": "Vietnamese-only split from \"great\", as in Chinese: ཆེ་བ in 2-3 is comparative (\"greater than this\") → thù thắng hơn (更殊勝). Commentary check: GD — the common great siddhis; TN — many greater qualities. Thù thắng hơn fits.",
       "new_entry": {
         "bo": "ཆེ་བ",
         "en": "greater",

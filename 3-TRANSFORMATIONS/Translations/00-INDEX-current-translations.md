@@ -18,6 +18,7 @@ hold raw machine output, which is never the translation to use.
 |---|---|---|---|---|---|
 | English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | specialist review · `translation-qa` · upload | no |
 | Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Chinese review (word list first) · `translation-qa` · upload | no |
+| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Vietnamese review (word list first) · `translation-qa` · upload | no |
 
 ## Reports behind each translation
 
@@ -34,9 +35,14 @@ hold raw machine output, which is never the translation to use.
 - `back-translation-check-zh-general.md`: draft 2 → 3 (meaning check, verse by verse)
 - `commentary-light-check-zh-general.md`: Chinese-only word choices checked against the commentaries
 
+**Vietnamese** — `vi-general/reports/`
+- `phase2-fixes-log-vi-general.md`: draft 1 (Gemini zero-shot) → 2 (approved words enforced, clear errors fixed)
+- `back-translation-check-vi-general.md`: draft 2 → 3 (meaning check, verse by verse)
+- `commentary-light-check-vi-general.md`: Vietnamese-only word choices checked against the commentaries
+
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
-is. English: `en/en-bo-en-termbase-general.json`. Chinese: `zh/zh-decisions-general.json` (the file to edit) and
-`zh/termbase-zh-general.md` (the file to review).
+is. English: `en/en-bo-en-termbase-general.json`. Chinese and Vietnamese: `zh/zh-decisions-general.json`,
+`vi/vi-decisions-general.json` (the files to edit) and `zh/termbase-zh-general.md`, `vi/termbase-vi-general.md` (to review).
 
 ## Machine drafts — raw, not for use
 
@@ -46,7 +52,8 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese: `zh/zh-decisions-gene
 | `Dharmamitra/en-general/` | English | DharmaMitra primed with the English word list (draft 1 of en-general) | no |
 | `Dharmamitra/zh/` | Chinese | DharmaMitra zero-shot (draft 0) | yes (baseline) |
 | `Dharmamitra/zh-general/` | Chinese | DharmaMitra primed with the Chinese word list (draft 1 of zh-general) | no |
-| `Gemini/hi/`, `Gemini/mn/`, `Gemini/ne/`, `Gemini/vi/` | Hindi, Mongolian, Nepali, Vietnamese | Gemini zero-shot — the starting point for those languages | yes (baselines) |
+| `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
+| `Gemini/hi/`, `Gemini/mn/`, `Gemini/ne/` | Hindi, Mongolian, Nepali | Gemini zero-shot — the starting point for those languages | yes (baselines) |
 
 These folders stay where they are, because the translation scripts write to these paths. Don't edit the files
 by hand; a new run replaces them.

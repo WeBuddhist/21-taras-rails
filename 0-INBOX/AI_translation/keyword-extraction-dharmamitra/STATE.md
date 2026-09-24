@@ -673,3 +673,25 @@ Soha, Hara, Tare); 14 flagged.
 `dm_translate.py`, because the vault's dharmamitra-translate skill had been archived and the shared copy had a
 wrong path. Both copies now load it again. Gemini batches now also pass their block IDs, so the verse-scoped
 glossary works for Gemini (1-8's lotus face is no longer hinted in 1-1).
+
+## Vietnamese (vi), general — Drafts 2 and 3 (2026-09-24)
+
+- **Base:** Tenkal chose to start from the existing Gemini zero-shot draft (`Gemini/vi/`, 2026-09-17; 100/137
+  locked words) instead of a new machine run. The DharmaMitra test was not needed.
+- **Draft 2** (`3-TRANSFORMATIONS/Translations/vi-general/`, same layout as en/zh): 25 blocks changed — 16
+  locked-word, 5 error, 2 consensus, 2 heading.
+  - Errors fixed: 1-6/1-21 thây ma ("zombie") → khởi thi; 1-7 trận đồ → tà thuật (sorcery); 1-11 ách nạn →
+    nghèo khó; 1-14 "facing the ground" → striking it; 1-1 the lotus from the Lord's face.
+  - **137/137** locked words (`--strict-diacritics`). The text is in `vi_text` of the grade file.
+- **Draft 3:** back-translation meaning check — 22 match, 5 minor, 5 differ; all 10 fixed. The five that differed:
+  - 1-2: face like a hundred autumn moons;
+  - 1-3: lotus colours, trì giới, trí tuệ;
+  - 1-4: the bodhisattvas attained the perfections;
+  - 1-5: the three realms;
+  - 1-9: the wheel on her palm.
+- **Commentary light check** (reusing the passages from the Chinese check): no text changes. 4 translator notes
+  added; the commentary evidence was added to `vi-decisions-general.json` and the termbase rebuilt (`vi_text`
+  kept).
+- **Reports** are in `vi-general/reports/`. The translations index has a Vietnamese row.
+- **Next:** native Vietnamese review (the flagged word list first: `vi/termbase-vi-general.md`); then
+  `translation-qa` and upload.
