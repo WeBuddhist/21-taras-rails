@@ -84,3 +84,33 @@ This is an LLM self-check (Stages 0–2 of `translation-qa`). It is not a sign-o
 7. Unify the words not locked in the termbase: ཁྲོ་གཉེར 忿怒顰眉 (1-8), རིམས 傳染病 (2-5), དུག 毒/毒物 (1-18). Consider locking them.
 
 **Next step:** fix the 3 Majors, then re-run this check. The file stays `status: draft`. Because Chinese has had only the light commentary check, a full four-commentary check and a native Chinese reader are still needed before any promotion.
+
+## Re-check after fixes (draft 4) — 2026-09-24
+
+The fixes approved by Tenkal were applied to draft 3, giving draft 4: 3 Majors, all 26 Minors, and 6 more lines taken out of 7-character classical style (35 changes). No Neutral row was applied. See `reports/qa-fixes-log-zh-general.md`. This is still an LLM self-check, not a sign-off.
+
+**Score:** 99.9 / 100   **Gate:** PASS (0 critical, 0 major)
+**Counts:** Critical 0 · Major 0 · Minor 1 · Neutral 11
+**Word count:** 1,050 Han characters in the translated content (same rule as above) ÷ 1.5 = 700 words. Penalty 0×5 + 1×1 = 1. Score = 100 − 1/700×100 = 99.9.
+
+### Stage 0 and mechanical checks
+
+- Stage 0 (`mqm_mechanical_checks.py <file> --source <root>`): 32 verse IDs, 32 transclusions, **0 critical, 0 major, 1 minor** — Latin letters in I-1, the Sanskrit title in IAST on purpose. Neutral, no penalty. Stage-0 gate PASS-so-far.
+- Terminology (`check_termbase_consistency.py --lang zh`): **137/137 locked words found**, 0 loose, 0 misses, 1 covered by a longer locked phrase (I-1).
+- Alignment (`check_translation_alignment.py`): OK — every block mirrors the root. Line count per block unchanged from draft 3 (32/32 blocks compared).
+- Linter (`lint_text_input.py`): OK (WARN only for translator strings without BDRC/OP ids; INFO for optional fields).
+- Traditional characters: OpenCC `s2t` finds no Simplified character. The only differences are variant preferences: 布 → 佈 (布施, 布列) and 吃 → 喫 (2-4 吃下). 吃 is the standard Traditional form in Taiwan and Hong Kong. No fix.
+- Punctuation: all full-width; no half-width marks next to Han characters.
+- Seven-character lines: 13 of 113 (was 43), scattered; no verse is left in chanting metre.
+
+### Remaining items
+
+| Verse | Dimension | Severity | Note | Cite |
+|---|---|---|---|---|
+| 2-3 | Accuracy/Addition | Minor | 比這更殊勝的成就 ("attainments greater than this"): 成就 is the head noun Chinese grammar needs, but the Tibetan has only ཆེ་བ་ཉིད ("greatness"). Supported by Gendun Drub (the common great siddhis, termbase note on ཆེ་བ); Taranatha reads "greater qualities". Check in the full fact-check. | ^2-3 འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་། |
+| I-1, 1-3, 1-9, 1-14, 1-17, 1-19, 1-21, 2-1, 2-6, a-1 | — | Neutral | The 10 Neutral rows of the draft-3 run stand as they were (not applied). | see run above |
+| 2-4 | LocaleConvention | Neutral | OpenCC prefers 喫 to 吃; 吃 is standard Traditional. | — |
+
+All 3 Majors and all other Minors of the draft-3 run are resolved.
+
+**Next step:** the full four-commentary fact-check on draft 4, then a native Chinese reader. The file stays `status: draft`.
