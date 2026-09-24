@@ -1,0 +1,482 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "note": "recurring refrain — opens every one of the 21 stanzas"
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tārā",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "note": "merges Tibetan སྒྲོལ་མ and its Sanskrit form ཏཱ་རཱ"
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ]
+  },
+  "venerable_tara": {
+    "bo": "རྗེ་བཙུན་མ...སྒྲོལ་མ",
+    "en": "the venerable Tārā",
+    "rank": 55,
+    "verse_ids": [
+      "I-3"
+    ]
+  },
+  "noble_venerable": {
+    "bo": "འཕགས་མ་རྗེ་བཙུན་མ",
+    "en": "the Noble and Venerable One",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ]
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "note": "the Sanskrit title line, consolidated from 9 overlapping YAKE n-gram fragments of the same phrase — not 9 separate terms"
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ]
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ]
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "note": "merges ཡང་དག and ཡང་དག་པར"
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "note": "merges རྫོགས་པ / ཡང་དག་པར་རྫོགས་པ (modifier) into the full epithet"
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "note": "FIX: Dharmamitra draft rendered this 'goddess' — བཅོམ་ལྡན་འདས་མ is the title 'Bhagavatī/Blessed One', not the generic word for goddess (that's ལྷ་མོ, see 'goddess' below). Flag for the second draft."
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ]
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "note": "disambiguated from 'light' (འོད) — this keyword (1-1) renders གློག, 'flash of lightning', a different word"
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ]
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ]
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "note": "merges ཆུ་སྐྱེས (lit. 'water-born') and པདྨ (the Sanskrit loanword)"
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "rank": 138,
+    "verse_ids": [
+      "1-1",
+      "1-8"
+    ]
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ]
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ]
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "note": "merges the literal ཟླ་བ and the kenning རི་དགས་རྟགས་ཅན ('deer-marked one', a traditional epithet for the moon)"
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "note": "merges ཞི་བ and ཞི (same root)"
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "note": "merges མ་ལུས and ལུས་པ་མེད་པར (1-5) — near-synonyms, both mean 'without remainder'"
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "HŪṂ",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "note": "mantra seed-syllable; merges the ཧཱུྃ/ཧཱུཾ spelling variants (attested doublet per vault-annex)"
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "note": "the generic word (1-5 only); named syllables (HŪṂ, PHAṬ, etc.) are locked individually"
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ]
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ]
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར་ཡི་གེ",
+    "en": "TUTTĀRE",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "note": "FIX: Dharmamitra draft spells this TUTTĀRA in 1-5 but TUTTĀRE in 1-10/1-20 — same Tibetan word (ཏུཏྟྭ་ར / ཏུ་ཏྟྭ་ར, tsheg-spacing variant only). Locked to TUTTĀRE, matching the standard mantra (oṃ tāre tuttāre ture svāhā); 1-5 needs correcting in the second draft."
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ]
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "note": "see note on 'demons' above — disambiguated from གདོན"
+  },
+  "zombie": {
+    "bo": "རོ་ལངས",
+    "en": "zombie",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "note": "Dharmamitra's own choice for རོ་ལངས (vetāla, lit. 'risen corpse'); flag for reviewer — 'vetāla' or 'walking corpse' are alternatives"
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ]
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "PHAṬ",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "note": "mantra syllable"
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "TRAṬ",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "note": "mantra syllable"
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "TURE",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "note": "mantra syllable / name"
+  },
+  "great": {
+    "bo": "ཆེ་བ / ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8",
+      "2-3"
+    ],
+    "note": "merges ཆེན་མོ / ཆེན་པོ / ཆེ་བ"
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "note": "disambiguated from 'great' — renders རབ, a different word"
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "rank": 85,
+    "verse_ids": [
+      "1-10",
+      "2-3"
+    ],
+    "note": "the 'control/dominion' sense of དབང (1-10); kept distinct from 'ability' (ནུས) and 'might' (མཐུ) below — three different Tibetan words were all flattened to 'power' in the Dharmamitra draft"
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ",
+    "en": "joy",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ]
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable HŪṂ",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ]
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "rank": 85,
+    "verse_ids": [
+      "1-11"
+    ],
+    "note": "disambiguated from 'power'/'might' — renders ནུས, 'power/ability to'"
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ]
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ]
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "note": "standardizes སྔགས (1-22, the literal word) and the 1-16 paraphrase ཡི་གེ་བཅུ་པའི་ངག ('ten-syllable speech') to the same English term, since both denote the mantra"
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "note": "disambiguated from 'power'/'ability' — renders མཐུ, a third distinct word"
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "note": "FIX/disambiguate: གདོན was rendered 'spirit' in the Dharmamitra draft, same as འབྱུང་པོ (see 'spirit' below) — locked separately since they're different Tibetan words with different senses (གདོན = possessing/afflicting spirit; འབྱུང་པོ = elemental spirit/bhūta)"
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "note": "kept distinct from 'the Blessed One' (བཅོམ་ལྡན་འདས་མ) — see note there"
+  }
+}
