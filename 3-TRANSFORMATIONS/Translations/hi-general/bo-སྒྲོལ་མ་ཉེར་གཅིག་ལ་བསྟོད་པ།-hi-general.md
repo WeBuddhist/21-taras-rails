@@ -21,18 +21,19 @@ edition_type: critical
 source_language: tibetan
 target_language: hindi
 generator: graded-translate Phase 2 (Gemini zero-shot base + 51-term locked hi termbase)
-rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check
+rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary-fact-check (Phase 1 ×4, Phase 1b, Phase 2)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/hi/en-bo-hi-termbase-general.json
 termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/hi/hi-decisions-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/hi/bo_hi_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24
-draft: 3
+draft: 4
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/hi/, 2026-09-17)
   - 2 — locked words enforced verse by verse; text kept in grade_file hi_text
-  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file)
+  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 4 — full commentary fact-check (4 commentaries), consensus fixes and translator decisions applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -42,8 +43,31 @@ fact_checked: 2026-09-24 (meaning check by back-translation against the English 
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 meaning_check_report: 3-TRANSFORMATIONS/Translations/hi-general/reports/back-translation-check-hi-general.md
 meaning_check_result: 17 match, 7 minor, 8 differ — all 15 fixed
+fact_check_commentaries:
+  - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
+fact_check_full: 2026-09-24
+fact_check_reports:
+  - 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-report-drakpa-gyaltsen-hi-general.md
+  - 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-report-gendun-drub-hi-general.md
+  - 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-report-taranatha-hi-general.md
+  - 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-report-tenga-tulku-hi-general.md
+fact_check_consensus_hi: 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-consensus-hi-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/hi-general/reports/commentary-fact-check-fixes-log-hi-general.md
+fact_check_fixes_applied: 13
+translator_decisions_hi: "2 (Tenkal, 2026-09-24): 1-4 बोधिसत्त्व and 2-3 बुद्धों instead of जिनपुत्र/जिन (Jain echo); ग्रह kept for གདོན, flagged for the reviewer"
+fact_check_open_items: 0
+translator_decisions: 7 (the English translator decisions, followed in Hindi; 1-11 दरिद्रता kept as Tenkal decided for the Vietnamese)
+translator_notes:
+  - "1-7: 'blazing amid fire' as in the English and the Vietnamese; Taranatha and Tenga Tulku read the fire as blazing from her own wrathful body."
+  - "1-14: सात स्तरों ('seven levels') is left open on purpose, as in the English."
+  - "1-21 and 2-5 (for the reviewer): ग्रह for གདོན — confirm it does not read as 'planets'. दुष्ट आत्माएँ is the plain alternative."
+  - "1-8 (for the reviewer): भृकुटी धारण करती हैं for 'forms a frown' — check it reads naturally."
+  - "1-2: तारा means both Tārā and 'star' in Hindi; तारों in 1-2 is 'stars'."
 native_review: false
-note: "Third draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced against the 51-term Hindi word list (136/136); (3) back-translation meaning check, 15 verses fixed. Not yet checked directly against the commentaries or reviewed by a native Hindi reader -- treat as draft."
+note: "Fourth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced against the 51-term Hindi word list (136/136); (3) back-translation meaning check, 15 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): no errors, 13 wording fixes applied, 2 translator decisions by Tenkal. Not yet reviewed by a native Hindi reader -- treat as draft."
 status: draft
 ---
 
@@ -91,12 +115,12 @@ status: draft
 उनको नमस्कार, जो तथागतों का उष्णीष हैं,
 जो अनन्त और पूर्ण विजय से कार्य करती हैं,
 अशेष सभी पारमिताओं को प्राप्त कर चुके
-जिनपुत्र जिनका अत्यंत आश्रय लेते हैं। ^1-4
+बोधिसत्त्व जिनका अत्यंत आश्रय लेते हैं। ^1-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-5]]
 
 उनको नमस्कार, जो तुत्तारे और हूँ अक्षर से,
-काम, रूप और अरूप लोकों को पूर्ण करती हैं,
+काम, रूप और अरूप लोकों को भर देती हैं,
 जो अपने चरणों से सप्त लोकों को आक्रांत कर,
 बिना शेष छोड़े सबको आकर्षित करने में समर्थ हैं। ^1-5
 
@@ -126,20 +150,20 @@ status: draft
 उनको नमस्कार, जो त्रिरत्न की मुद्रा से,
 अपनी अंगुलियों द्वारा हृदय को पूर्णतः अलंकृत करती हैं,
 जिनकी हथेली अशेष दिशाओं के चक्र से सुशोभित है,
-और अपने प्रकाश के समूहों को प्रज्वलित करती हैं। ^1-9
+और अपने प्रकाश के समूहों को क्षुब्ध कर विकीर्ण करती हैं। ^1-9
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
 उनको नमस्कार, जो परम आनंद देती हैं, जिनका तेजोमय
 मुकुट प्रकाश की मालाओं को फैलाता है,
 जो तुत्तारे के महान हास्य से,
-मार और सम्पूर्ण लोकों को वश में करती हैं। ^1-10
+मार और लोक को वश में करती हैं। ^1-10
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-11]]
 
 उनको नमस्कार, जो पृथ्वी के रक्षकों के समूहों को,
 सम्पूर्ण रूप से आकर्षित करने में समर्थ हैं,
-जो भृकुटी के विक्षेप और हूँ बीजाक्षर से,
+जो कंपित भृकुटी और हूँ बीजाक्षर से,
 सभी प्रकार की दरिद्रता से पूर्णतः मुक्त करती हैं। ^1-11
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-12]]
@@ -159,7 +183,7 @@ status: draft
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-14]]
 
 उनको नमस्कार, जो अपने हाथों की हथेलियों से,
-पृथ्वी के तल को आहत करती हैं और चरणों से प्रहार करती हैं,
+पृथ्वी के तल पर आघात करती हैं और चरणों से प्रहार करती हैं,
 जो अपनी भृकुटी और हूँ बीजाक्षर से,
 सात स्तरों को छिन्न-भिन्न करती हैं। ^1-14
 
@@ -174,7 +198,7 @@ status: draft
 
 उनको नमस्कार, जो चारों ओर आनंद से घिरी हैं,
 और शत्रुओं के शरीरों को पूर्णतः विदीर्ण करती हैं,
-जो दस अक्षरों के मंत्र से अलंकृत हैं,
+जिनमें दस अक्षरों का मंत्र विन्यस्त है,
 और हूँ विद्याक्षर से उत्पन्न दीपक स्वरूप हैं। ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
@@ -193,21 +217,21 @@ status: draft
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
-उनको नमस्कार, जो देवसमूहों के राजा,
+उनको नमस्कार, जो देवसमूहों के राजाओं,
 देवों और किन्नरों द्वारा सेवित हैं,
 जो अपने आनंदमय और तेजोमय कवच से,
 विवादों और दुःस्वप्नों को दूर करती हैं। ^1-19
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-20]]
 
-उनको नमस्कार, जो पूर्ण सूर्य और चन्द्रमा के समान,
-अपनी दोनों आँखों से अत्यंत प्रकाशमान हैं,
+उनको नमस्कार, जिनके दोनों नेत्र पूर्ण सूर्य और चन्द्रमा के समान
+अत्यंत प्रकाशमान हैं,
 जो दो बार हर और तुत्तारे के उच्चारण से,
 अत्यंत भयंकर महामारियों को नष्ट करती हैं। ^1-20
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-उनको नमस्कार, जो तीन तत्त्वों से अलंकृत हैं,
+उनको नमस्कार, जिन पर तीन तत्त्व विन्यस्त हैं,
 और शांति की शक्ति से पूर्णतः युक्त हैं,
 जो ग्रहों, वेतालों और यक्षों के समूहों का,
 विनाश करती हैं, वे तुरे अत्यंत श्रेष्ठ हैं। ^1-21
@@ -227,27 +251,27 @@ status: draft
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
 संध्याकाल और उषाकाल में उठकर,
-इसके स्मरण से सम्पूर्ण अभय प्राप्त करता है।
+उनके स्मरण से सम्पूर्ण अभय प्राप्त करता है।
 सम्पूर्ण पाप पूर्णतः शांत हो जाते हैं,
 सभी दुर्गतियों का पूर्णतः विनाश हो जाता है। ^2-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
-सात कोटि जिनों द्वारा,
+सात कोटि बुद्धों द्वारा,
 शीघ्र ही अभिषेक प्राप्त होगा,
 और इससे भी महानता प्राप्त करके,
-अंततः बुद्धत्व के पद तक पहुँचेंगे। ^2-3
+अंततः बुद्धत्व के पद तक पहुँचेगा। ^2-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-4]]
 
 अत्यंत भयंकर महान विष,
 चाहे स्थावर हो या जंगम,
 यदि खाया या पिया भी गया हो,
-तो इसके स्मरण से पूर्णतः निराकरण प्राप्त होता है। ^2-4
+तो उनके स्मरण से पूर्णतः निराकरण प्राप्त होता है। ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
-ग्रहों, महामारियों और विषों से पीड़ित होने वाले,
+ग्रहों, महामारियों और विषों से पीड़ित जनों के
 दुःखों का समूह पूर्णतः दूर हो जाता है,
 और अन्य सत्त्वों के लिए भी ऐसा ही है। ^2-5
 
