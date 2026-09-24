@@ -34,9 +34,9 @@ hold raw machine output, which is never the translation to use.
 - `back-translation-check-zh-general.md`: draft 2 → 3 (meaning check, verse by verse)
 - `commentary-light-check-zh-general.md`: Chinese-only word choices checked against the commentaries
 
-**Word lists** (in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`): `en-bo-en-termbase-general.json`
-for English; for Chinese, `zh-decisions-general.json` (the file to edit) and `termbase-zh-general.md` (the file
-to review).
+**Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
+is. English: `en/en-bo-en-termbase-general.json`. Chinese: `zh/zh-decisions-general.json` (the file to edit) and
+`zh/termbase-zh-general.md` (the file to review).
 
 ## Machine drafts — raw, not for use
 
