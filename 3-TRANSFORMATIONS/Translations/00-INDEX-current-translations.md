@@ -18,7 +18,7 @@ hold raw machine output, which is never the translation to use.
 |---|---|---|---|---|---|
 | English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | specialist review · `translation-qa` · upload | no |
 | Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Chinese review (word list first) · `translation-qa` · upload | no |
-| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Vietnamese review (word list first) · `translation-qa` · upload | no |
+| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 4 | locked words 137/137 · back-translation meaning check · full commentary fact-check (4 commentaries, consensus, 9 fixes, 4 translator decisions) | native Vietnamese review (word list first) · `translation-qa` · upload | no |
 
 ## Reports behind each translation
 
@@ -38,7 +38,9 @@ hold raw machine output, which is never the translation to use.
 **Vietnamese** — `vi-general/reports/`
 - `phase2-fixes-log-vi-general.md`: draft 1 (Gemini zero-shot) → 2 (approved words enforced, clear errors fixed)
 - `back-translation-check-vi-general.md`: draft 2 → 3 (meaning check, verse by verse)
-- `commentary-light-check-vi-general.md`: Vietnamese-only word choices checked against the commentaries
+- `commentary-fact-check-report-*-vi-general.md`: one full report per commentary
+- `commentary-fact-check-consensus-vi-general.md` and `commentary-fact-check-fixes-log-vi-general.md`: draft 3 → 4
+- `commentary-light-check-vi-general.md`: the earlier light check (superseded)
 
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
 is. English: `en/en-bo-en-termbase-general.json`. Chinese and Vietnamese: `zh/zh-decisions-general.json`,

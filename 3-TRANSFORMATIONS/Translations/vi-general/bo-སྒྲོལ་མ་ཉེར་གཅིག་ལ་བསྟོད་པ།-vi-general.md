@@ -21,18 +21,19 @@ edition_type: critical
 source_language: tibetan
 target_language: vietnamese
 generator: graded-translate Phase 2 (Gemini zero-shot base + 52-term locked vi termbase)
-rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary light check
+rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary-fact-check (Phase 1 ×4, Phase 1b, Phase 2)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/vi/en-bo-vi-termbase-general.json
 termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/vi/vi-decisions-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/vi/bo_vi_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24
-draft: 3
+draft: 4
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/vi/, 2026-09-17)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file vi_text
-  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file)
+  - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 4 — full commentary fact-check (4 commentaries), consensus fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -47,15 +48,27 @@ fact_check_commentaries:
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 meaning_check_report: 3-TRANSFORMATIONS/Translations/vi-general/reports/back-translation-check-vi-general.md
 meaning_check_result: 22 match, 5 minor, 5 differ — all 10 fixed
-commentary_light_check_report: 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-light-check-vi-general.md
+commentary_light_check_report: 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-light-check-vi-general.md (superseded by the full check)
+fact_check_full: 2026-09-24
+fact_check_reports:
+  - 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-report-drakpa-gyaltsen-vi-general.md
+  - 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-report-gendun-drub-vi-general.md
+  - 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-report-taranatha-vi-general.md
+  - 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-report-tenga-tulku-vi-general.md
+fact_check_consensus_vi: 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-consensus-vi-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/vi-general/reports/commentary-fact-check-fixes-log-vi-general.md
+fact_check_fixes_applied: 9
+translator_decisions_vi: "4 (Tenkal, 2026-09-24): 1-21 changed to tam chân như; 1-11, 1-14 kept as in the English; 1-8 kept, flagged for the reviewer"
+fact_check_open_items: 0
 translator_decisions: 7 (the English translator decisions, followed in Vietnamese)
 translator_notes:
   - "1-17: núi Vindhya renders འབིགས་བྱེད as the mountain Vindhya (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'the rays of HŪṂ pierce Meru and Mandara'."
   - "2-6: the last line follows our root's optative འཇོམས་འགྱུར་ཅིག (Nguyện…), as Tenga Tulku does. The copies quoted by Drakpa Gyaltsen, Gendun Drub and Taranatha read འཇོམས་འགྱུར ('will be destroyed')."
   - "1-14: bảy tầng ('seven levels') is left open on purpose — the commentaries read རིམ་པ་བདུན as seven classes of beings (Drakpa Gyaltsen, Tenga Tulku), seven world-levels (Gendun Drub) or seven underground levels (Taranatha)."
+  - "1-8 (for the reviewer): bậc đại uy mãnh for འཇིགས་པ་ཆེན་མོ 'the Great Terrifying One' — Taranatha and Tenga Tulku find it too mild, Gendun Drub says it fits; Đại Bố Úy is the literal alternative."
   - "2-1 and 1-6/1-21 (for the reviewer): ལྷ་མོ is rendered Nữ Thần; Gendun Drub and Taranatha make clear it is Tārā herself — Thánh Mẫu or Tôn nữ if Nữ Thần reads as a folk goddess. རོ་ལངས is rendered khởi thi (Hán-Việt of 起屍); 'thây ma sống dậy' if khởi thi is too obscure."
 native_review: false
-note: "Third draft. (1) Gemini zero-shot output from the Tibetan (no word list); (2) every locked word enforced verse by verse against the 52-term general-grade vi termbase, and clear mistranslations fixed (see phase2_fixes_log); (3) every verse back-translated into literal English and compared with the fact-checked English and the commentary consensus, 10 verses fixed (see meaning_check_report); then a light direct check against the four commentaries (no further changes). 137/137 locked words. Not yet reviewed by a native Vietnamese reader -- treat as draft."
+note: "Fourth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced (137/137) and clear errors fixed; (3) back-translation meaning check, 10 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): 9 fixes applied where 3–4 agreed or the fix restores the root wording; 4 translator's-choice items decided by Tenkal (1-21 changed to tam chân như; 1-11, 1-14, 1-8 kept). Not yet reviewed by a native Vietnamese reader -- treat as draft."
 status: draft
 ---
 
@@ -102,7 +115,7 @@ Nhẫn nhục, thiền định và trí tuệ là hành xứ của ngài. ^1-3
 
 Kính lễ Độ Mẫu đảnh kế Như Lai,
 Hành động vô biên, hoàn toàn chiến thắng,
-Các Phật tử đã chứng đắc ba-la-mật không sót
+Chư Bồ-tát đã chứng đắc ba-la-mật không sót
 Đều hết lòng nương tựa nơi ngài. ^1-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-5]]
@@ -114,8 +127,8 @@ Có năng lực triệu thỉnh tất thảy không sót. ^1-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-6]]
 
-Kính lễ bậc được Đế Thích, Phạm Thiên,
-Hỏa thần, Phong thần, chư Tự Tại cúng dường,
+Kính lễ bậc được Đế Thích, Hỏa thần, Phạm Thiên,
+Phong thần, chư Tự Tại cúng dường,
 Quỷ thần, khởi thi cùng với càn-thát-bà,
 Và chúng dạ-xoa hiện tiền tán thán. ^1-6
 
@@ -124,7 +137,7 @@ Và chúng dạ-xoa hiện tiền tán thán. ^1-6
 Kính lễ Độ Mẫu với chữ Trat và Phat,
 Tiêu diệt hoàn toàn tà thuật của kẻ thù,
 Chân phải co lại, chân trái duỗi đạp,
-Ngự trong ngọn lửa rực rỡ bừng cháy. ^1-7
+Rực cháy giữa khối lửa cuộn xoáy. ^1-7
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-8]]
 
@@ -193,15 +206,15 @@ Ngài là ngọn đèn từ minh chú chữ Hum. ^1-16
 
 Kính lễ Ture dậm bàn chân,
 Chủng tử của ngài mang hình tướng chữ Hum,
-Núi Tu-di, Mạn-đà cùng núi Vindhya,
-Làm rung chuyển cả ba thế giới. ^1-17
+Làm rung chuyển núi Tu-di, Mạn-đà, núi Vindhya
+Cùng cả ba thế giới. ^1-17
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-18]]
 
 Kính lễ Độ Mẫu tay cầm vầng trăng sáng,
 Mang dấu ấn hươu như hồ nước chư thiên,
 Tụng hai lần Tare cùng với chữ Phat,
-Tiêu trừ toàn bộ không sót mọi nọc độc. ^1-18
+Tiêu trừ toàn bộ không sót mọi chất độc. ^1-18
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
@@ -219,7 +232,7 @@ Tiêu trừ hoàn toàn những dịch bệnh hung hiểm. ^1-20
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-Kính lễ Độ Mẫu có ba chân như an lập nơi thân,
+Kính lễ Độ Mẫu có tam chân như an lập nơi thân,
 Viên mãn đầy đủ uy lực tịch tĩnh,
 Các chúng ác quỷ, khởi thi, dạ-xoa,
 Ture tối thắng tiêu diệt tất cả. ^1-21
@@ -238,8 +251,8 @@ Chí thành tụng đọc những lời tán thán này, ^2-1
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
-Khi thức giấc lúc chạng vạng hay rạng đông,
-Nhờ luôn ghi nhớ được ban mọi vô úy.
+Khi thức dậy lúc chạng vạng và rạng đông,
+Nhờ nhớ nghĩ, được ban mọi vô úy.
 Tiêu trừ hoàn toàn tất thảy mọi ác nghiệp,
 Hủy diệt hoàn toàn tất thảy mọi ác đạo, ^2-2
 
@@ -255,13 +268,13 @@ Rồi sẽ tiến đến quả vị Phật tối hậu. ^2-3
 Dù là những loại độc tố rất hung hiểm,
 Dù từ vật bất động hay loài di động,
 Dù đã lỡ ăn vào hay lỡ uống vào,
-Nhờ luôn ghi nhớ liền tiêu trừ hoàn toàn. ^2-4
+Nhờ nhớ nghĩ mà tiêu trừ hoàn toàn. ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
 Người bị ác quỷ, dịch bệnh và độc hành hạ,
 Mọi nỗi khổ đau đều sẽ được tận diệt.
-Cả đối với tất thảy những chúng sinh khác, ^2-5
+Cả những chúng sinh khác cũng được như vậy. ^2-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-6]]
 
@@ -269,7 +282,7 @@ Nếu trì tụng rõ hai, ba, bảy biến,
 Người cầu con cái ắt được con cái,
 Người cầu tài lộc ắt được tài lộc,
 Mọi điều mong cầu thảy đều đạt được,
-Nguyện mọi ma chướng tiêu tan, thảy đều tận diệt. ^2-6
+Nguyện mọi chướng ngại không còn, từng cái đều tận diệt. ^2-6
 
 ## Lạc khoản ^a-0
 

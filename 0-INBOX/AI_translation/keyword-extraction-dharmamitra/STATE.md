@@ -695,3 +695,27 @@ glossary works for Gemini (1-8's lotus face is no longer hinted in 1-1).
 - **Reports** are in `vi-general/reports/`. The translations index has a Vietnamese row.
 - **Next:** native Vietnamese review (the flagged word list first: `vi/termbase-vi-general.md`); then
   `translation-qa` and upload.
+
+### Vietnamese — full commentary fact-check, Draft 4 (2026-09-24)
+
+Tenkal asked for the full check instead of the light one. Four Phase 1 reports ran in parallel, one per
+commentary, each checking the Vietnamese term by term:
+
+| Commentary | Clean | Errors |
+|---|---|---|
+| DG | 15/30 | 2 |
+| GD | 14/29 | 3 |
+| TN | 12/28 | 1 |
+| TT | 17/29 | 0 |
+
+**Consensus:**
+- 4 fixes where 3–4 commentaries agree: 1-4 Phật tử → chư Bồ-tát; 1-18 nọc độc → chất độc; 2-2 hay → và; 2-5 the
+  unfinished sentence.
+- 5 root-wording fixes: "luôn" (always) removed in 2-2 and 2-4; 1-17 the grammar (she shakes the mountains); 1-7
+  she blazes amid fire; 1-6 the root order of the gods; 2-6 "each".
+- 4 translator's-choice items, decided by Tenkal: 1-21 → tam chân như; 1-11 and 1-14 kept, as in the English;
+  1-8 kept and flagged for the reviewer.
+- 17 single-commentary notes left.
+
+Still 137/137 locked words. The light-check report is kept, marked superseded. Reports are in
+`vi-general/reports/`.

@@ -11,6 +11,7 @@ commentaries:
 consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 related_check: 3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-check-zh-general.md
 date: 2026-09-24
+superseded_by: commentary-fact-check-consensus-vi-general.md (full check, same day)
 result: no further changes; 4 translator notes added; 2 items for the native reviewer (2-1 Nữ Thần, 1-6/1-21 khởi thi)
 ---
 
