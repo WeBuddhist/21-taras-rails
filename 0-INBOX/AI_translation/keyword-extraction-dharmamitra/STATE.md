@@ -510,3 +510,45 @@ The termbase now has **47 entries**, plus 1 archived.
   nestings.
 - `check_termbase_consistency.py --grade-file … --strict-diacritics` on the fact-checked translation:
   **131/131 locked renderings found, 0 misses** (before the fix: 130/132, with 2 misses at I-3).
+
+## Chinese (zh), general grade — Phase 1 word list (2026-09-24)
+
+**Tenkal's choices:** Traditional characters; clear modern Chinese (general grade, not the chanting style);
+mantra syllables in Chinese characters; flagged picks "go with your picks" (decided by Claude, with the reason
+recorded).
+
+**Direction:** translate from the Tibetan, not from the English. The English (D3) and the commentary consensus
+are the meaning check. Keyword extraction was not re-run: the 47 Tibetan terms and their verse scopes are reused.
+
+**No attested Chinese translation**, so every value has a source (graded-translate Phase 1 Step 4b, new):
+1. the classical canon version, CBETA T1108B (the same text the 17th Karmapa's office publishes), aligned to our
+   block IDs in `../zh-references/zh-classical-T1108B.md` (vocabulary evidence only);
+2. the standard Buddhist term;
+3. the zero-shot DharmaMitra zh draft (`Dharmamitra/zh/`), as a suggestion only.
+The online Mahāvyutpatti (Oslo TLB) could not be read with this session's tools; web search is off for the org.
+
+**Files (this folder):**
+- `en-bo-zh-termbase-general.json` — 52 entries: 47 carried over, plus 5 Chinese-only (`greater` split from
+  `great` at 2-3; mantra syllables `om`, `svaha`, `hara`, `tara_syllable`). Each entry has `zh`, `zh_source`,
+  `zh_note` and `zh_evidence`; the 14 decided by Claude also have `zh_decision`. `ability` also covers 1-5.
+- `bo_zh_keyword_general.json` — 34 verses, 148 keywords. `text` is the fact-checked English D3, used as the
+  meaning reference; `zh_text` is empty until Phase 2.
+- `glossary-zh-general.tsv` — built with `termbase_to_glossary.py --lang zh --scope-all` (76 lines, all
+  verse-scoped, so 1-8's 蓮花面容 is not hinted in 1-1).
+- `termbase-zh-general.md` — readable review table, with Claude's 14 decisions first.
+
+**Checks:**
+- `validate_grade_file.py --lang zh`: **0 errors**, 22 warnings (intended splits and nestings).
+- Baseline: the zero-shot zh draft already uses **63/137 locked words (46%)**
+  (`check_termbase_consistency.py --lang zh --grade-file …`). Most misses are 頂禮 for 敬禮 and mantra syllables
+  left in Latin letters. 1-6 has 羅剎 where the Tibetan is རོ་ལངས (起屍).
+
+**Skill changes (Webuddhist-Skills):** a `zh` register section plus Step 4b in graded-translate; `--lang` on
+`validate_grade_file.py`, `check_termbase_consistency.py` and `termbase_to_glossary.py`; `--scope-all` on
+`termbase_to_glossary.py`.
+
+**Next — Phase 2 (DharmaMitra, run by Tenkal in Terminal):** new track
+`3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/`. `style.md` is written already (Traditional, clear
+modern Chinese, Chinese-character mantras). Then enforce the word list verse by verse → zh-general D2 →
+consistency check → meaning check against the English D3 and the consensus → back-translation → native
+reviewer.
