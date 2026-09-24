@@ -17,6 +17,8 @@ This is a draft self-check, not a scholarly sign-off.
 
 ### Fix — most commentaries say the English is wrong
 
+**Applied 2026-09-24** — see `commentary-fact-check-fixes-log-en-general.md`.
+
 | # | Verse | Issue | DG | GD | TN | TT | Current English | Direction of fix |
 |---|---|---|---|---|---|---|---|---|
 | 1 | 1-1 | *chu skyes zhal gyi*: a lotus that grew from Avalokiteśvara's tears (or face), not his face as a lotus | ✗ | ✗ | ✗ | ✗ | "the opening stamens of the lotus face / Of the Lord of the Three Worlds" | e.g. "Born from the opening stamens of the lotus / That arose from the face of the Lord of the Three Worlds". Also unlock `lotus_face` for 1-1 (keep it for 1-8) |

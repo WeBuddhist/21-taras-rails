@@ -396,3 +396,33 @@ the other three disagree.
 **Next:** Phase 2 — apply the 11 fixes (minimal edits, logged), handle the termbase
 changes they imply (`lotus_face` narrowed to 1-8; `supreme` at 1-12 and `power` at 1-21),
 then re-run the check.
+
+---
+
+## Commentary fact-check Phase 2 — fixes applied (draft 3) — DONE
+
+Edited `3-TRANSFORMATIONS/Translations/en-general/bo-...-en-general.md` in place
+(the user chose in-place editing over a separate file). Pre-edit version: git
+`250b054` (11:57). Note that the vault's auto-backup then committed the edited file
+at 12:23 (`07697ce`), so use `250b054` for the draft-2 text, not HEAD~ from a later
+point.
+
+- **11 edits:** all 11 consensus fixes, plus 2 termbase fixes (1-12 "supreme" →
+  "intense", for ཤིན་ཏུ; 1-21 "power" → "might", for མཐུ). The log is
+  `commentary-fact-check-fixes-log-en-general.md`.
+- **Properties updated so the file shows what was done:** `draft: 3`, `draft_history`,
+  `revised`, `fact_checked`, `fact_check_commentaries` (the 4 paths),
+  `fact_check_consensus`, `fact_check_fixes_log`, `fact_check_fixes_applied: 11`,
+  `fact_check_open_items: 6`; `rails_used`, `generator`, `translator` and `note`
+  rewritten. `status: draft` is unchanged. YAML parses. The vault linter defines an
+  allowed-key list but never enforces it, and the file already carried extra keys.
+- **Termbase (now 48 entries):** `lotus_face` narrowed to 1-8; new `might` (མཐུ, 1-21);
+  the 1-21 keyword in the grade file is retagged; glossary TSV updated. The grade file's
+  `en_text` is intentionally left as the draft-2 snapshot, so it no longer matches the
+  .md for the 11 edited verses.
+- **Verified:** alignment checker OK; exactly the 11 intended blocks changed; no locked
+  term newly missing; all 10 fixed verses re-read against the consensus glosses.
+
+**Open for the translator:** the 6 split readings (1-3 colours, 1-8 ture and
+"champions", 1-14 underworld, 1-17 Vindhya — footnote?, 1-22), and 2-6's optative.
+**Next in the original pipeline:** human/specialist review, then publish (step 7).
