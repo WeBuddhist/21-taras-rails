@@ -719,3 +719,10 @@ commentary, each checking the Vietnamese term by term:
 
 Still 137/137 locked words. The light-check report is kept, marked superseded. Reports are in
 `vi-general/reports/`.
+
+## Standardised keywords overview (2026-09-24)
+
+`standardised-keywords-general.md` (new, top of the keywords folder) is one table of all 52 locked terms: Tibetan,
+English, Chinese and Vietnamese, the verses, ⚑ for flagged picks, and notes where a language's verses differ
+from English. It is built by the new `keyword-standardize/scripts/multilingual_table.py` and linked from
+`00-INDEX.md`.
