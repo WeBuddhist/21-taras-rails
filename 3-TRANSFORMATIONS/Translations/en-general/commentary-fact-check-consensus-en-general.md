@@ -35,6 +35,8 @@ This is a draft self-check, not a scholarly sign-off.
 
 ### Translator's choice — the commentaries split
 
+**Decided 2026-09-24:** 1-14 changed to "the seven levels"; 1-3, 1-8 (×2), 1-17 (note added) and 1-22 kept. 2-6 (below) changed to the optative. See the fixes log.
+
 | Verse | Issue | DG | GD | TN | TT | Note |
 |---|---|---|---|---|---|---|
 | 1-3 | *gser sngo*: whose colours? | – | her body | the lotus (gold stalk, blue flower) | her body | The English gives them to the lotus. Two say body, one says lotus, one unclear |

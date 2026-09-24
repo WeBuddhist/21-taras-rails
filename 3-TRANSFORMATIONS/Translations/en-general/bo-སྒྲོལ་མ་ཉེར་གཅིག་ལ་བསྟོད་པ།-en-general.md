@@ -42,8 +42,12 @@ fact_check_commentaries:
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-consensus-en-general.md
 fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/en-general/commentary-fact-check-fixes-log-en-general.md
 fact_check_fixes_applied: 11
-fact_check_open_items: 6
-note: "Third draft. (1) DharmaMitra cat-translate raw output, glossary-primed; (2) corrected verse by verse against the general-grade locked termbase; (3) fact-checked term by term against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku). 11 fixes were applied where at least 3 of 4 commentaries agreed the English was wrong, plus 2 termbase-consistency fixes (1-12, 1-21). Readings where the commentaries split (e.g. Vindhya at 1-17) were left as translator's choice and are listed in fact_check_fixes_log. Not yet reviewed by a domain specialist -- treat as draft."
+fact_check_open_items: 0
+translator_decisions: 7
+translator_notes:
+  - "1-17: 'Vindhya' renders འབིགས་བྱེད as the mountain's name (Gendun Drub; Taranatha, who notes Sanskrit copies read Kailāsa and calls either acceptable). Drakpa Gyaltsen and Tenga Tulku read it as the verb 'pierces': 'rays of HŪṂ pierce Meru and Mandara'."
+  - "2-6: the last line follows our root's optative འཇོམས་འགྱུར་ཅིག ('may … be destroyed'), as Tenga Tulku does. The copies quoted by Drakpa Gyaltsen, Gendun Drub and Taranatha read འཇོམས་འགྱུར ('will be destroyed')."
+note: "Third draft. (1) DharmaMitra cat-translate raw output, glossary-primed; (2) corrected verse by verse against the general-grade locked termbase; (3) fact-checked term by term against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku). 11 fixes were applied where at least 3 of 4 commentaries agreed the English was wrong, plus 2 termbase-consistency fixes (1-12, 1-21). Where the commentaries split, the translator decided (7 items: 2 changed at 1-14 and 2-6, 5 kept); see fact_check_fixes_log and translator_notes. Not yet reviewed by a domain specialist -- treat as draft."
 status: draft
 ---
 
@@ -161,7 +165,7 @@ You completely destroy the armies of enemies. ^1-13
 Homage to you, who strike the surface of the earth
 With the palms of your hands and trample it with your feet;
 With a wrathful frown and the syllable hum,
-You shatter the seven underworld levels. ^1-14
+You shatter the seven levels. ^1-14
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-15]]
 
@@ -257,7 +261,7 @@ If recited two, three, or seven times,
 Those who desire a child will obtain a child,
 Those who desire wealth will obtain wealth,
 All desires will be fulfilled,
-And obstacles will be non-existent and individually destroyed. ^2-6
+And may obstacles be absent, each one destroyed. ^2-6
 
 ## Colophon ^a-0
 

@@ -80,3 +80,23 @@ Against the commentaries (each changed verse re-read against the consensus gloss
 | 1-21 | the three suchnesses set upon her (all 4); `might` for མཐུ | OK |
 
 **Re-verification: 10/10 fixed verses consistent with the commentary consensus; 0 flags remaining in the fix group.** Open items: the 6 translator's-choice rows and the 2-6 optative above.
+
+### Run — 2026-09-24 — translator decisions on the open items
+
+Decided by the user (Tenkal), item by item.
+
+| Verse | Question | Decision | Change |
+|---|---|---|---|
+| 1-3 | whose colours are "gold and blue"? | Keep: the lotus's (Tibetan grammar; TN) | none |
+| 1-8 | "ture": the one addressed, or the mantra? | Keep: her name (GD, TT; consistent with 1-17 and 1-21) | none |
+| 1-8 | "champions of Mara" | Keep (TN, TT) | none |
+| 1-14 | "seven underworld levels" | Change to the Tibetan's plain "seven levels" (no side taken) | "You shatter the seven underworld levels." → "You shatter the seven levels." |
+| 1-17 | Vindhya, or "pierces"? | Keep Vindhya; the alternative is recorded in the file's `translator_notes` | none (property added) |
+| 1-22 | one praise, or two? | Keep "and" (literal) | none |
+| 2-6 | future, or optative? | Change to follow our root's optative *'gyur cig* (TT) | "And obstacles will be non-existent and individually destroyed." → "And may obstacles be absent, each one destroyed." |
+
+Properties: `fact_check_open_items: 0`, `translator_decisions: 7`, `translator_notes`
+(1-17, 2-6); `note` updated.
+Verified: the alignment checker passes; only the 1-14 and 2-6 lines changed; YAML parses.
+
+**Result: all open items resolved — 2 changed, 5 kept. The file remains `status: draft`, pending specialist review.**

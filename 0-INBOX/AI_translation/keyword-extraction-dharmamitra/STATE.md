@@ -426,3 +426,18 @@ point.
 **Open for the translator:** the 6 split readings (1-3 colours, 1-8 ture and
 "champions", 1-14 underworld, 1-17 Vindhya — footnote?, 1-22), and 2-6's optative.
 **Next in the original pipeline:** human/specialist review, then publish (step 7).
+
+---
+
+## Open items decided (user) — DONE
+
+The user decided the 7 open items. Changed: 1-14 "seven underworld levels" → "seven
+levels"; 2-6 last line to the optative ("And may obstacles be absent, each one
+destroyed."). Kept: 1-3 colours on the lotus; 1-8 "ture" as her name; 1-8 "champions of
+Mara"; 1-17 Vindhya, with the "pierces" reading recorded in the `translator_notes`
+property; 1-22 "and". Properties: `fact_check_open_items: 0`, `translator_decisions: 7`,
+`translator_notes`. Alignment check OK.
+
+**State of the translation:** draft 3, no open fact-check items, `status: draft`.
+**Next:** specialist review, then publish (pipeline step 7). Upload goes through
+`translation-upload` / `4-SYSTEM/scripts/upload_translation.py`, not this workflow.
