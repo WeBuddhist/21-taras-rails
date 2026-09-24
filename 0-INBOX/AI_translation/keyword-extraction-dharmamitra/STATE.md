@@ -726,3 +726,61 @@ Still 137/137 locked words. The light-check report is kept, marked superseded. R
 English, Chinese and Vietnamese, the verses, ⚑ for flagged picks, and notes where a language's verses differ
 from English. It is built by the new `keyword-standardize/scripts/multilingual_table.py` and linked from
 `00-INDEX.md`.
+
+## Machine-draft tracks restored (2026-09-24)
+
+A teammate's commit `6a87d12` (ta4tsering, "Vocabulary-standardisation chain, wiki commentary sorting, track
+cleanup", dated 2026-09-23) arrived through the auto-backup's merge of origin/main this evening. It removed
+`Translations/Gemini/` (hi, mn, ne, vi) and `Translations/Dharmamitra/zh/`, as "zero-shot tracks … to be rebuilt
+via graded-translate + commentary-fact-check".
+
+Tenkal asked for Gemini back. Both folders were restored unchanged from `6a87d12^` (63 files). They are the
+recorded draft 0/1 sources of vi-general and zh-general, and the `--mt-draft` inputs of the zh/vi rebuild
+commands. Nothing else from that commit was touched.
+
+## Hindi (hi), general — word list and Drafts 2–4 (2026-09-24)
+
+**Choices (Tenkal):** Sanskritized Buddhist Hindi (general grade) · Devanagari, mantra syllables in Devanagari ·
+start from the existing Gemini zero-shot (`Gemini/hi/`, 2026-09-17) · flagged picks by Claude ("go with your picks").
+
+**Word list** (`hi/`): no reference text — Hindi uses the Sanskrit Buddhist terms directly, so "standard" is the
+Sanskrit word in Devanagari. 51 entries: 47 plus 4 Hindi-only mantra entries (ॐ, स्वाहा, हर, तारे); 7 flagged
+(पूज्य आर्या kept apart from भगवती; परम for supreme; अक्षर vs बीजाक्षर; ग्रह for གདོན; आनंद; चन्द्र; तारे).
+Stems locked where Sanskrit compounds hide the word (महा, चन्द्र). Validator 0 errors. Baseline: Gemini
+zero-shot **123/136 (90%)** — much higher than Chinese (46%) or Vietnamese (73%).
+
+**Draft 2** (`3-TRANSFORMATIONS/Translations/hi-general/`): 12 verses changed, locked words only → **136/136**.
+**Draft 3:** back-translation meaning check — 17 match, 7 minor, 8 differ; all 15 fixed (1-1 lotus from the
+face, 1-3 शील + प्रज्ञा, 1-4 the bodhisattvas rely on her, 1-5 three realms, 1-9 one wheel on her palm, 1-11
+destitution, 1-14 seven levels left open, 1-17 Ture as vocative).
+**Draft 4:** full commentary fact-check, four reports in parallel (DG 17/30, GD 18/29, TN 17/28, TT 16/29
+clean) — **no errors in any**. 13 wording fixes (2-2/2-4 "recollecting her", 1-19 the kings serve her, 1-9
+འཁྲུག, 1-16/1-21 བཀོད "set", 1-20 her eyes, …). Tenkal decided 2: बोधिसत्त्व/बुद्धों instead of जिनपुत्र/जिन
+(Jain echo); ग्रह kept, flagged. Still 136/136.
+
+Process note: two of the parallel checkers shared the device scratch folder `$HOME/work`; Tenga Tulku's
+re-extracted its commentary into a private folder and verified it. Each report's findings are specific to
+its commentary. Next time give each checker its own scratch folder.
+
+Also: `keyword-standardize/SKILL.md` has a Hindi section; `standardised-keywords-general.md` now has a Hindi
+column. **Next:** native Hindi review (flagged word list first: `hi/termbase-hi-general.md`), `translation-qa`,
+upload (the platform still has the old Gemini baseline).
+
+## translation-qa for all four languages, fixes applied; Chinese full fact-check (2026-09-24)
+
+**QA (MQM), first run:** en 96.0 FAIL (1 Major: 1-8 "your lotus face"), zh 93.6 FAIL (3 Major: 1-17 who
+shakes the mountains; 1-12 and 2-3 in 7-character chant style), vi 98.2 PASS, hi 96.6 PASS. Stage 0 clean for
+all; its "latin characters" hits are false positives for English and Vietnamese (the check assumes a
+non-Latin script).
+
+**Fixes applied (Tenkal: "yes do it"):** en → draft 4 (30 fixes; one voice "Homage to you" throughout; plain
+spellings to match the locked ones), zh → draft 4 (35 fixes), vi → draft 5 (16), hi → draft 5 (30). Re-check:
+en 99.8, zh 99.9, vi 99.8, hi 100.0 — all PASS. Alignment OK and locked words intact for all four. Each fixes log
+lists items "for the word list" (possible new locks, the vi/hi lock-scope questions for 2-2/2-6, en a-1 Tārā and
+vetālas diacritics) — not yet decided.
+
+**Chinese full commentary check** on draft 4 (four checkers in parallel, own scratch folders): DG 20/30, GD
+18/29, TN 16/28, TT 17/29 clean — no errors. 5 fixes → draft 5 (1-2 thousands, 1-12 subject, 1-16 十個字,
+1-19 爭執, 2-3 no added recipient). 2-1 天女 left, flagged for the native reviewer (3 commentaries: it is Tārā).
+
+A stray linter output (`draft4-backup.lint.json`) was moved to `4-SYSTEM/scripts/linter-root-text/output/_to_delete/`.

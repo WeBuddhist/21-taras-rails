@@ -16,7 +16,7 @@ don't edit it by hand, rebuild it.
 ## Start here
 
 **`standardised-keywords-general.md`** has all standardised keywords in one table: the Tibetan term and its
-locked English, Chinese and Vietnamese renderings, with the verses (52 terms). It is built from the word lists
+locked English, Chinese, Vietnamese and Hindi renderings, with the verses (52 terms). It is built from the word lists
 below; to rebuild it after a change:
 
 ```bash
@@ -24,6 +24,7 @@ K=0-INBOX/AI_translation/keyword-extraction-dharmamitra
 python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/multilingual_table.py \
   --base $K/en/en-bo-en-termbase-general.json \
   --lang zh=$K/zh/en-bo-zh-termbase-general.json --lang vi=$K/vi/en-bo-vi-termbase-general.json \
+  --lang hi=$K/hi/en-bo-hi-termbase-general.json \
   --title "Praise to the Twenty-One Tārās" -o $K/standardised-keywords-general.md
 ```
 
@@ -74,6 +75,18 @@ Rebuild: the same command as for Chinese, with `vi/vi-decisions-general.json`, `
 Gemini draft (`3-TRANSFORMATIONS/Translations/Gemini/vi/…-vi.md`) as `--mt-draft`. Use no `--reference`: the
 Chinese reference is shown in the worksheet only.
 
+## `hi/` — Hindi (general)
+
+| File | What | |
+|---|---|---|
+| `hi-decisions-general.json` | **The one file to edit**: each Hindi word with its source and reason | **Edit** |
+| `termbase-hi-general.md` | Review table, with the 7 flagged picks first — start here | **Read** |
+| `en-bo-hi-termbase-general.json`, `bo_hi_keyword_general.json` (`hi_text` = Hindi draft 2), `glossary-hi-general.tsv`, `hi-worksheet-general.md` | Built, the same as for Chinese | Built |
+
+Rebuild: the same command as for Chinese, with `hi/hi-decisions-general.json`, `--out-dir $K/hi`, the Gemini
+draft (`3-TRANSFORMATIONS/Translations/Gemini/hi/…-hi.md`) as `--mt-draft`, and no `--reference` (Hindi uses
+the Sanskrit terms directly).
+
 ## `shared/` — keyword extraction (used by every language)
 
 | File | What |
@@ -84,4 +97,4 @@ Chinese reference is shown in the worksheet only.
 ## Top level
 
 - `STATE.md`: running log of every step, in order. The older entries use the file paths from before this reorganisation.
-- A new language gets its own folder beside `en/`, `zh/` and `vi/` (e.g. `hi/`).
+- A new language gets its own folder beside `en/`, `zh/`, `vi/` and `hi/` (e.g. `ne/`).
