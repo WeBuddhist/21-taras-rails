@@ -643,3 +643,33 @@ and whether to edit, read, or rebuild it.
 - Re-checked from the new locations: the Chinese rebuild is byte-identical; the validator reports 0 errors for
   en and zh; the drift check finds en 131/131 and zh 137/137.
 - Layout written into Webuddhist-Skills `rails/CONVENTIONS.md` §8.
+
+## Vietnamese (vi), general — Phase 1 word list (2026-09-24)
+
+**Tenkal's choices:** clear modern Vietnamese (general grade) with Sino-Vietnamese Buddhist vocabulary; mantra
+syllables in Latin letters without diacritics; flagged picks decided by Claude; no human Vietnamese translation.
+He asked whether DharmaMitra can do Vietnamese, so a one-verse test is pending (he runs it). Gemini is the
+fallback.
+
+**Skill generalised:** `zh-keyword-standardize` → **`keyword-standardize`** (any language), with Chinese and
+Vietnamese sections. The scripts were renamed (`build_termbase.py`, `worksheet.py`, `common.py`); the old name
+and script names still work as aliases, and there is a new `/keyword-standardize` command. The Chinese rebuild
+with the renamed scripts is identical.
+
+**Sources (no attestation):**
+1. the Chinese word list and zh-general draft 3, read as Hán-Việt (source code `related`; shown as the reference
+   column in the worksheet);
+2. the standard Vietnamese Buddhist term;
+3. the Gemini zero-shot draft `Gemini/vi/` (a suggestion only).
+
+**Files:** `vi/vi-decisions-general.json` (edit), `vi/termbase-vi-general.md` (read), plus the built termbase,
+grade file, worksheet and glossary (76 lines, verse-scoped). 52 entries: 47 plus 5 Vietnamese-only (greater, Om,
+Soha, Hara, Tare); 14 flagged.
+
+**Checks:** validator (`--lang vi`) 0 errors. Baseline: Gemini zero-shot **100/137 (73%)** with
+`--strict-diacritics`.
+
+**Bug fixed on the way:** `gm_translate.py` (both the vault copy and the shared copy) could not find
+`dm_translate.py`, because the vault's dharmamitra-translate skill had been archived and the shared copy had a
+wrong path. Both copies now load it again. Gemini batches now also pass their block IDs, so the verse-scoped
+glossary works for Gemini (1-8's lotus face is no longer hinted in 1-1).

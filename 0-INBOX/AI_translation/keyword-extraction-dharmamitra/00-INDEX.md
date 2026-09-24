@@ -48,6 +48,18 @@ python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/build_termbase.py
   --out-dir $K/zh --force
 ```
 
+## `vi/` — Vietnamese (general)
+
+| File | What | |
+|---|---|---|
+| `vi-decisions-general.json` | **The one file to edit**: each Vietnamese word with its source and reason | **Edit** |
+| `termbase-vi-general.md` | Review table, with the 14 flagged picks first — start here | **Read** |
+| `en-bo-vi-termbase-general.json`, `bo_vi_keyword_general.json`, `glossary-vi-general.tsv`, `vi-worksheet-general.md` | Built, the same as for Chinese | Built |
+
+Rebuild: the same command as for Chinese, with `vi/vi-decisions-general.json`, `--out-dir $K/vi`, and the
+Gemini draft (`3-TRANSFORMATIONS/Translations/Gemini/vi/…-vi.md`) as `--mt-draft`. Use no `--reference`: the
+Chinese reference is shown in the worksheet only.
+
 ## `shared/` — keyword extraction (used by every language)
 
 | File | What |
@@ -58,4 +70,4 @@ python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/build_termbase.py
 ## Top level
 
 - `STATE.md`: running log of every step, in order. The older entries use the file paths from before this reorganisation.
-- A new language gets its own folder beside `en/` and `zh/` (e.g. `hi/`).
+- A new language gets its own folder beside `en/`, `zh/` and `vi/` (e.g. `hi/`).
