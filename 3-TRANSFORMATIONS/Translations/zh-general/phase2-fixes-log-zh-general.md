@@ -44,7 +44,7 @@ Draft 1 is the glossary-primed DharmaMitra output. Draft 2 keeps its wording and
 | 2-6 | error | 若能誦持二、三、七遍， / 求子者即得子嗣， / 求財者即得財富， / 一切所願皆能圓滿， / 障礙消除並被各別摧毀。 | 若能誦持二、三、七遍， / 求子者即得子嗣， / 求財者即得財富， / 一切所願皆能圓滿， / 願無障礙，一一摧毀。 | Last line: 障礙消除並被各別摧毀 was awkward and missed the optative; the translator decision for the English (2-6) follows our root's འཇོམས་འགྱུར་ཅིག ("may…") → 願無障礙，一一摧毀. |
 | a-0 | heading | ## མཛད་བྱང། | ## 題記 | Heading translated (colophon). |
 
-## For the meaning check (next step)
+## For the meaning check (next step) — resolved in draft 3, see back-translation-check-zh-general.md
 
 These were **not** changed in Phase 2. They are left for the check against the commentary consensus:
 

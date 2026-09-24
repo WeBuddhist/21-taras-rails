@@ -585,3 +585,18 @@ build → validate/baseline/glossary.
 - Skill fix: `build_zh_termbase.py --force` now keeps `zh_text` that is already written.
 - **Next:** meaning check of each verse against the English D3 and the commentary consensus (including the 4 open
   items), then a back-translation, then the native reviewer.
+
+## Chinese (zh), general — Draft 3: meaning check by back-translation (2026-09-24)
+
+- Every verse of Draft 2 was translated back into literal English and compared with the fact-checked English
+  (en-general D3) and the commentary consensus. Result: **17 match, 7 minor, 8 differ; all 15 fixed in place**
+  (Draft 3, same file, properties updated).
+- The 8 that differed: 1-2, 1-3, 1-4, 1-5, 1-7, 1-9, 1-10, 1-21. Five of them are consensus points the English
+  fact-check had already settled (1-3 discipline and wisdom, 1-5 three realms, 1-9 one wheel on the palm,
+  1-10 she brings the joy, 1-21 the suchnesses set upon her). Also fixed: 1-7 外道 → 敵方幻輪 and 1-4, where the
+  bodhisattvas are the ones who attained the perfections.
+- Still **137/137 locked words**; line counts unchanged.
+- Report: `3-TRANSFORMATIONS/Translations/zh-general/back-translation-check-zh-general.md`. `zh_text` in the grade
+  file stays the Draft 2 snapshot, as with English.
+- **Next:** a native Chinese reader reviews (the flagged word list first, then the text); then `translation-qa`
+  and upload.
