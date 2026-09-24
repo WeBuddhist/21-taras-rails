@@ -15,7 +15,7 @@ edition_id:
 toc_id:
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
-translator: gemini-3.1-pro-preview (raw zero-shot draft); termbase-enforced and meaning-checked by Claude per keyword-standardize, graded-translate Phase 2 and a back-translation check
+translator: gemini-3.1-pro-preview (raw zero-shot draft); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
 source: https://ai.google.dev
 edition_type: critical
 source_language: tibetan
@@ -70,6 +70,7 @@ translator_notes:
 native_review: false
 note: "Fourth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced (137/137) and clear errors fixed; (3) back-translation meaning check, 10 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): 9 fixes applied where 3–4 agreed or the fix restores the root wording; 4 translator's-choice items decided by Tenkal (1-21 changed to tam chân như; 1-11, 1-14, 1-8 kept). Not yet reviewed by a native Vietnamese reader -- treat as draft."
 status: draft
+translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 
 # Tán Thán Hai Mươi Mốt Độ Mẫu ^0

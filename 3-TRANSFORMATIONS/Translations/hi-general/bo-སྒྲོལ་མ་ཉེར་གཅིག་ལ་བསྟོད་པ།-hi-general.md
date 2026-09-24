@@ -15,7 +15,7 @@ edition_id:
 toc_id:
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
-translator: gemini-3.1-pro-preview (raw zero-shot draft); termbase-enforced by Claude per keyword-standardize and graded-translate Phase 2
+translator: gemini-3.1-pro-preview (raw zero-shot draft); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
 source: https://ai.google.dev
 edition_type: critical
 source_language: tibetan
@@ -69,6 +69,7 @@ translator_notes:
 native_review: false
 note: "Fourth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced against the 51-term Hindi word list (136/136); (3) back-translation meaning check, 15 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): no errors, 13 wording fixes applied, 2 translator decisions by Tenkal. Not yet reviewed by a native Hindi reader -- treat as draft."
 status: draft
+translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
 
 # इक्कीस तारा स्तोत्र ^0
