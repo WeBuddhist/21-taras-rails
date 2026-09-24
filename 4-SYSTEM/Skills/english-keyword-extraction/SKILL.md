@@ -17,6 +17,10 @@ description: >
   with Tibetan", "build the en-bo term list").
 ---
 
+> **⚠ SUPERSEDED 2026-09-22 — do not run this skill.** Replaced by [`keyword-extract`](../keyword-extract/SKILL.md), the consolidated version from the canonical `Webuddhist-Skills` library. It carries this skill's scripts verbatim as its Phase 1 and adds Phases 2–6 (occurrence mapping, the source-term registry, the frequency matrix, composite scoring, the viability gate), writing to `2-RAILS/Keywords/`.
+> This file is kept only so links and old run notes still resolve. Deleting it is a human contributor's call.
+
+
 # english-keyword-extraction
 
 Keyword statistics behave badly on classical Tibetan directly: tokenization is

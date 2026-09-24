@@ -19,8 +19,8 @@ category_id: LCorCb2K98p3TICt3UCDm
 source: https://webuddhist.com
 license: public
 text_id: nmGX5G3SzfoiNdvbp6YQq
-edition_id: 9nC6WRDtjyBzEDhMYcYxe
-toc_id: NigiI2izU7ac2e9Q9HMdg
+edition_id: n0meYebRr1clD2ysfDjyK
+toc_id: QTIyaxmOCZ7EMH3UDJDrh
 ---
 
 # ༄༅། །སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ། ། ^0

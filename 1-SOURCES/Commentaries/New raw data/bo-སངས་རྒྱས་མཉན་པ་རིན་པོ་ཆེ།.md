@@ -21,8 +21,8 @@ source: https://webuddhist.com
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: exz1MI85hysNKQK45uPzf
-edition_id: 6swTxNEBfzwRsajvBYqnD
-toc_id: a9NeJzx7oLjbKLhVaEe10
+edition_id: EwjzyZ1asr7jdvWzXMlJH
+toc_id: 6Dl8FTtBtujD5jzG9EAKN
 ---
 
 # ༄༅། །རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས། ། ^0

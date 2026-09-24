@@ -85,6 +85,7 @@ alt_titles:
 - **Exception — Pali:** titles are still keyed `pi`, but must be written in Roman script (e.g. IAST: `Dhammasaṅgaṇī`). Any non-Latin letter (Sinhala, Thai, Burmese, Devanagari, …) is an error
 - `title_in_english` (or `title in English`) is added under `en`
 - Titles given as a `{lang: title}` object are kept, but script-suffixed keys are reduced to the language code (`sa-x-iast` → `sa`, `pi-x-iast` → `pi`)
+- **Every language key is checked against the language list from the API** (`/v2/languages`, the same list used for `language` and `lang_tag`). A key that is not a known code — `bod` instead of `bo`, `english` instead of `en` — is an error naming the field, the bad key and the valid codes. A script-suffixed key is checked on its base (`sa-x-iast` → `sa`). If the API cannot be reached, the run says so and falls back to the cached list in `languages.py`, which may not know a recently added code
 - Tibetan titles written in Wylie (e.g. `kun dpal spyod 'jug`) are converted to Unicode (needs `pyewts`)
 
 ## Output

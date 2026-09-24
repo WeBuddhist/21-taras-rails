@@ -1,0 +1,7995 @@
+{
+ "schema": "source-term-registry/1",
+ "lang_tag": "bo",
+ "run": "tara21-2026-08",
+ "date": "2026-08-19",
+ "promoted": "2026-09-22",
+ "promoted_from": "0-INBOX/AI_translation/keyword-extraction/output/{ranked_keywords,registry_compact}.json",
+ "notes": [
+  "`match_form` is the lemma with its trailing shad converted to a tsheg; it is the form to string-match against running Tibetan. Matching the bare lemma hits 74/370 terms; match_form hits 348/370.",
+  "`synonyms` and `epithets` are empty: the 2026-08 run did not collect them (keyword-extract Phase 3c). Fill on the next run.",
+  "No `dropped: true` rows: the 2026-08 run's particle filter ran before the ranking and its audit trail was not preserved. keyword-extract Phase 3 Rule 3 requires it going forward."
+ ],
+ "terms": [
+  {
+   "id": "t-cdfded3e",
+   "slug": "liberates",
+   "lemma": "སྒྲོལ་མ།",
+   "match_form": "སྒྲོལ་མ་",
+   "variants": [
+    "སྒྲོལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "liberates",
+    "tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-11",
+    "I-1",
+    "a-7"
+   ],
+   "rank": 1,
+   "composite": 0.7717,
+   "dropped": false
+  },
+  {
+   "id": "t-e87a84e1",
+   "slug": "disease",
+   "lemma": "རིམས།",
+   "match_form": "རིམས་",
+   "variants": [
+    "རིམས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "disease",
+    "diseases",
+    "infectious",
+    "infectious disease"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20",
+    "a-5"
+   ],
+   "rank": 2,
+   "composite": 0.5455,
+   "dropped": false
+  },
+  {
+   "id": "t-506737b8",
+   "slug": "dreams",
+   "lemma": "རྨི་ལམ།",
+   "match_form": "རྨི་ལམ་",
+   "variants": [
+    "རྨི་ལམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "dreams"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 3,
+   "composite": 0.5321,
+   "dropped": false
+  },
+  {
+   "id": "t-b898a513",
+   "slug": "pacification",
+   "lemma": "ཞི་བ།",
+   "match_form": "ཞི་བ་",
+   "variants": [
+    "ཞི་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "pacification",
+    "pacifying"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3",
+    "a-2"
+   ],
+   "rank": 4,
+   "composite": 0.5287,
+   "dropped": false
+  },
+  {
+   "id": "t-b8c66575",
+   "slug": "maras",
+   "lemma": "བདུད།",
+   "match_form": "བདུད་",
+   "variants": [
+    "བདུད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "maras"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10",
+    "1-8"
+   ],
+   "rank": 5,
+   "composite": 0.5247,
+   "dropped": false
+  },
+  {
+   "id": "t-8b0bc3e1",
+   "slug": "demon",
+   "lemma": "གདོན།",
+   "match_form": "གདོན་",
+   "variants": [
+    "གདོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "demon",
+    "demons"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21",
+    "a-5"
+   ],
+   "rank": 6,
+   "composite": 0.5222,
+   "dropped": false
+  },
+  {
+   "id": "t-bbe8a56e",
+   "slug": "swift",
+   "lemma": "མྱུར་མ།",
+   "match_form": "མྱུར་མ་",
+   "variants": [
+    "མྱུར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "swift"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 7,
+   "composite": 0.5071,
+   "dropped": false
+  },
+  {
+   "id": "t-b3f3ba48",
+   "slug": "conflicts",
+   "lemma": "རྩོད།",
+   "match_form": "རྩོད་",
+   "variants": [
+    "རྩོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conflicts"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 8,
+   "composite": 0.5038,
+   "dropped": false
+  },
+  {
+   "id": "t-1e1f8b3f",
+   "slug": "twenty-one",
+   "lemma": "ཉི་ཤུ་རྩ་གཅིག།",
+   "match_form": "ཉི་ཤུ་རྩ་གཅིག་",
+   "variants": [
+    "ཉི་ཤུ་རྩ་གཅིག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "twenty-one"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1",
+    "a-1"
+   ],
+   "rank": 9,
+   "composite": 0.5004,
+   "dropped": false
+  },
+  {
+   "id": "t-e6cc63e3",
+   "slug": "face",
+   "lemma": "ཞལ།",
+   "match_form": "ཞལ་",
+   "variants": [
+    "ཞལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "face"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-2",
+    "1-8"
+   ],
+   "rank": 10,
+   "composite": 0.4996,
+   "dropped": false
+  },
+  {
+   "id": "t-10dd7e02",
+   "slug": "moon",
+   "lemma": "ཟླ་བ།",
+   "match_form": "ཟླ་བ་",
+   "variants": [
+    "ཟླ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "moon",
+    "moons"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2",
+    "1-20"
+   ],
+   "rank": 11,
+   "composite": 0.4944,
+   "dropped": false
+  },
+  {
+   "id": "t-1d137a3b",
+   "slug": "praise",
+   "lemma": "བསྟོད་པ།",
+   "match_form": "བསྟོད་པ་",
+   "variants": [
+    "བསྟོད་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "praise"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1",
+    "a-1",
+    "a-7"
+   ],
+   "rank": 12,
+   "composite": 0.4933,
+   "dropped": false
+  },
+  {
+   "id": "t-75703ac7",
+   "slug": "crown-ornament",
+   "lemma": "དབུ་རྒྱན།",
+   "match_form": "དབུ་རྒྱན་",
+   "variants": [
+    "དབུ་རྒྱན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "crown ornament",
+    "crown-ornament"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 13,
+   "composite": 0.4921,
+   "dropped": false
+  },
+  {
+   "id": "t-31678206",
+   "slug": "crown",
+   "lemma": "གཙུག་ཏོར།",
+   "match_form": "གཙུག་ཏོར་",
+   "variants": [
+    "གཙུག་ཏོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "crown",
+    "protrusion"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 14,
+   "composite": 0.4913,
+   "dropped": false
+  },
+  {
+   "id": "t-4d176bc5",
+   "slug": "poison",
+   "lemma": "དུག།",
+   "match_form": "དུག་",
+   "variants": [
+    "དུག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "poison",
+    "poisons",
+    "son"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18",
+    "a-4",
+    "a-5"
+   ],
+   "rank": 15,
+   "composite": 0.4897,
+   "dropped": false
+  },
+  {
+   "id": "t-606cf66a",
+   "slug": "king",
+   "lemma": "ཏུ་རེ།",
+   "match_form": "ཏུ་རེ་",
+   "variants": [
+    "ཏུ་རེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "king",
+    "ture"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17",
+    "1-21",
+    "1-8"
+   ],
+   "rank": 16,
+   "composite": 0.4863,
+   "dropped": false
+  },
+  {
+   "id": "t-e4f0d90f",
+   "slug": "homage",
+   "lemma": "ཕྱག་འཚལ།",
+   "match_form": "ཕྱག་འཚལ་",
+   "variants": [
+    "ཕྱག་འཚལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-10",
+    "1-11",
+    "1-12",
+    "1-13",
+    "1-14",
+    "1-15",
+    "1-16",
+    "1-17",
+    "1-18",
+    "1-19",
+    "1-2",
+    "1-20",
+    "1-21",
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7",
+    "1-8",
+    "1-9",
+    "I-1"
+   ],
+   "rank": 17,
+   "composite": 0.4843,
+   "dropped": false
+  },
+  {
+   "id": "t-0f49ae62",
+   "slug": "light",
+   "lemma": "འོད།",
+   "match_form": "འོད་",
+   "variants": [
+    "འོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "light"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10",
+    "1-12",
+    "1-2",
+    "1-20",
+    "1-9"
+   ],
+   "rank": 18,
+   "composite": 0.4803,
+   "dropped": false
+  },
+  {
+   "id": "t-921b5be3",
+   "slug": "heroine",
+   "lemma": "དཔའ་མོ།",
+   "match_form": "དཔའ་མོ་",
+   "variants": [
+    "དཔའ་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "heroine",
+    "heroine eye"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 19,
+   "composite": 0.4801,
+   "dropped": false
+  },
+  {
+   "id": "t-b86a1243",
+   "slug": "feet",
+   "lemma": "ཞབས།",
+   "match_form": "ཞབས་",
+   "variants": [
+    "ཞབས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "feet",
+    "foot"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14",
+    "1-17",
+    "1-5",
+    "1-7"
+   ],
+   "rank": 20,
+   "composite": 0.4751,
+   "dropped": false
+  },
+  {
+   "id": "t-ae512524",
+   "slug": "actions",
+   "lemma": "སྡིག་པ།",
+   "match_form": "སྡིག་པ་",
+   "variants": [
+    "སྡིག་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "actions",
+    "negative",
+    "negativity"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15",
+    "a-2"
+   ],
+   "rank": 21,
+   "composite": 0.4733,
+   "dropped": false
+  },
+  {
+   "id": "t-87a9b696",
+   "slug": "jewels",
+   "lemma": "དཀོན་མཆོག་གསུམ།",
+   "match_form": "དཀོན་མཆོག་གསུམ་",
+   "variants": [
+    "དཀོན་མཆོག་གསུམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "jewels"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 22,
+   "composite": 0.4693,
+   "dropped": false
+  },
+  {
+   "id": "t-372c9ace",
+   "slug": "hum",
+   "lemma": "ཧཱུྃ།",
+   "match_form": "ཧཱུྃ་",
+   "variants": [
+    "ཧཱུྃ།",
+    "ཧཱུཾ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hum"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-14",
+    "1-16",
+    "1-17",
+    "1-5"
+   ],
+   "rank": 23,
+   "composite": 0.4691,
+   "dropped": false
+  },
+  {
+   "id": "t-8a7c4cfc",
+   "slug": "lady",
+   "lemma": "འཕགས་མ།",
+   "match_form": "འཕགས་མ་",
+   "variants": [
+    "འཕགས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "lady",
+    "noble",
+    "noble lady"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 24,
+   "composite": 0.4672,
+   "dropped": false
+  },
+  {
+   "id": "t-23fff0bc",
+   "slug": "frown",
+   "lemma": "ཁྲོ་གཉེར།",
+   "match_form": "ཁྲོ་གཉེར་",
+   "variants": [
+    "ཁྲོ་གཉེར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "frown",
+    "frowning",
+    "wrathful",
+    "wrinkles"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-8"
+   ],
+   "rank": 25,
+   "composite": 0.4668,
+   "dropped": false
+  },
+  {
+   "id": "t-802d5d41",
+   "slug": "vetalas",
+   "lemma": "རོ་ལངས།",
+   "match_form": "རོ་ལངས་",
+   "variants": [
+    "རོ་ལངས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "vetalas",
+    "zombies"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21",
+    "1-6"
+   ],
+   "rank": 26,
+   "composite": 0.4667,
+   "dropped": false
+  },
+  {
+   "id": "t-c4729587",
+   "slug": "mantra",
+   "lemma": "སྔགས།",
+   "match_form": "སྔགས་",
+   "variants": [
+    "སྔགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "mantra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 27,
+   "composite": 0.4634,
+   "dropped": false
+  },
+  {
+   "id": "t-533f2d5e",
+   "slug": "sun",
+   "lemma": "ཉི་མ།",
+   "match_form": "ཉི་མ་",
+   "variants": [
+    "ཉི་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "sun"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 28,
+   "composite": 0.4622,
+   "dropped": false
+  },
+  {
+   "id": "t-0aecc375",
+   "slug": "terrifier",
+   "lemma": "འཇིགས་པ།",
+   "match_form": "འཇིགས་པ་",
+   "variants": [
+    "འཇིགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "terrifier"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 29,
+   "composite": 0.4611,
+   "dropped": false
+  },
+  {
+   "id": "t-ab209135",
+   "slug": "wheel",
+   "lemma": "འཁོར་ལོ།",
+   "match_form": "འཁོར་ལོ་",
+   "variants": [
+    "འཁོར་ལོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "wheel"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 30,
+   "composite": 0.4598,
+   "dropped": false
+  },
+  {
+   "id": "t-53946136",
+   "slug": "blue",
+   "lemma": "སྔོ།",
+   "match_form": "སྔོ་",
+   "variants": [
+    "སྔོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blue"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 31,
+   "composite": 0.4571,
+   "dropped": false
+  },
+  {
+   "id": "t-7a9cbd98",
+   "slug": "peaceful",
+   "lemma": "ཞི་མ།",
+   "match_form": "ཞི་མ་",
+   "variants": [
+    "ཞི་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "peaceful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 32,
+   "composite": 0.4561,
+   "dropped": false
+  },
+  {
+   "id": "t-3633bb3a",
+   "slug": "indra",
+   "lemma": "བརྒྱ་བྱིན།",
+   "match_form": "བརྒྱ་བྱིན་",
+   "variants": [
+    "བརྒྱ་བྱིན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "indra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 33,
+   "composite": 0.4533,
+   "dropped": false
+  },
+  {
+   "id": "t-46ef6056",
+   "slug": "blissful",
+   "lemma": "བདེ་མ།",
+   "match_form": "བདེ་མ་",
+   "variants": [
+    "བདེ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blissful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 34,
+   "composite": 0.449,
+   "dropped": false
+  },
+  {
+   "id": "t-8a970a50",
+   "slug": "conqueror",
+   "lemma": "རྒྱལ་བ།",
+   "match_form": "རྒྱལ་བ་",
+   "variants": [
+    "རྒྱལ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conqueror",
+    "conquerors"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 35,
+   "composite": 0.448,
+   "dropped": false
+  },
+  {
+   "id": "t-17c88a6a",
+   "slug": "son",
+   "lemma": "སྲས།",
+   "match_form": "སྲས་",
+   "variants": [
+    "སྲས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "son",
+    "sons"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 36,
+   "composite": 0.4453,
+   "dropped": false
+  },
+  {
+   "id": "t-1133a1d3",
+   "slug": "guardians",
+   "lemma": "སྐྱོང་བ།",
+   "match_form": "སྐྱོང་བ་",
+   "variants": [
+    "སྐྱོང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "guardians"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 37,
+   "composite": 0.4439,
+   "dropped": false
+  },
+  {
+   "id": "t-582d9ecd",
+   "slug": "homage-2",
+   "lemma": "ཕྱག་འཚལ་བ།",
+   "match_form": "ཕྱག་འཚལ་བ་",
+   "variants": [
+    "ཕྱག་འཚལ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage",
+    "homages"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 38,
+   "composite": 0.4437,
+   "dropped": false
+  },
+  {
+   "id": "t-1b5c38bc",
+   "slug": "golden",
+   "lemma": "གསེར།",
+   "match_form": "གསེར་",
+   "variants": [
+    "གསེར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "golden"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 39,
+   "composite": 0.4401,
+   "dropped": false
+  },
+  {
+   "id": "t-91f569fb",
+   "slug": "heart",
+   "lemma": "ཐུགས་ཀ།",
+   "match_form": "ཐུགས་ཀ་",
+   "variants": [
+    "ཐུགས་ཀ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "heart"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 40,
+   "composite": 0.4383,
+   "dropped": false
+  },
+  {
+   "id": "t-b2f05091",
+   "slug": "mudra",
+   "lemma": "ཕྱག་རྒྱ།",
+   "match_form": "ཕྱག་རྒྱ་",
+   "variants": [
+    "ཕྱག་རྒྱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "mudra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 41,
+   "composite": 0.4379,
+   "dropped": false
+  },
+  {
+   "id": "t-7b0b1022",
+   "slug": "eye",
+   "lemma": "སྤྱན།",
+   "match_form": "སྤྱན་",
+   "variants": [
+    "སྤྱན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "eye",
+    "eyes",
+    "heroine eye"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-20"
+   ],
+   "rank": 42,
+   "composite": 0.4355,
+   "dropped": false
+  },
+  {
+   "id": "t-1035bc45",
+   "slug": "lotus",
+   "lemma": "པདྨ།",
+   "match_form": "པདྨ་",
+   "variants": [
+    "པདྨ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "lotus"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 43,
+   "composite": 0.4314,
+   "dropped": false
+  },
+  {
+   "id": "t-cdcd37b7",
+   "slug": "world-arise",
+   "lemma": "འཇིག་རྟེན་གསུམ།",
+   "match_form": "འཇིག་རྟེན་གསུམ་",
+   "variants": [
+    "འཇིག་རྟེན་གསུམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "world arise"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 44,
+   "composite": 0.4311,
+   "dropped": false
+  },
+  {
+   "id": "t-a334ab81",
+   "slug": "earth",
+   "lemma": "ས་གཞི།",
+   "match_form": "ས་གཞི་",
+   "variants": [
+    "ས་གཞི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "earth"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 45,
+   "composite": 0.4297,
+   "dropped": false
+  },
+  {
+   "id": "t-69c67daa",
+   "slug": "direction",
+   "lemma": "ཕྱོགས།",
+   "match_form": "ཕྱོགས་",
+   "variants": [
+    "ཕྱོགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "direction",
+    "directions"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5",
+    "1-9"
+   ],
+   "rank": 46,
+   "composite": 0.4294,
+   "dropped": false
+  },
+  {
+   "id": "t-2679f18f",
+   "slug": "brahma",
+   "lemma": "ཚངས་པ།",
+   "match_form": "ཚངས་པ་",
+   "variants": [
+    "ཚངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "brahma"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 47,
+   "composite": 0.4262,
+   "dropped": false
+  },
+  {
+   "id": "t-54718532",
+   "slug": "virtuous",
+   "lemma": "དགེ་མ།",
+   "match_form": "དགེ་མ་",
+   "variants": [
+    "དགེ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "virtuous"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 48,
+   "composite": 0.4245,
+   "dropped": false
+  },
+  {
+   "id": "t-cfc971f6",
+   "slug": "leave",
+   "lemma": "གཡོན།",
+   "match_form": "གཡོན་",
+   "variants": [
+    "གཡོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "leave",
+    "left"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7"
+   ],
+   "rank": 49,
+   "composite": 0.4241,
+   "dropped": false
+  },
+  {
+   "id": "t-536d54eb",
+   "slug": "sufferings",
+   "lemma": "སྡུག་བསྔལ།",
+   "match_form": "སྡུག་བསྔལ་",
+   "variants": [
+    "སྡུག་བསྔལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "sufferings"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 50,
+   "composite": 0.4238,
+   "dropped": false
+  },
+  {
+   "id": "t-25d619bd",
+   "slug": "right",
+   "lemma": "གཡས།",
+   "match_form": "གཡས་",
+   "variants": [
+    "གཡས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "right"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7"
+   ],
+   "rank": 51,
+   "composite": 0.4213,
+   "dropped": false
+  },
+  {
+   "id": "t-14dfbca4",
+   "slug": "eon",
+   "lemma": "བསྐལ་པ།",
+   "match_form": "བསྐལ་པ་",
+   "variants": [
+    "བསྐལ་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "eon"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 52,
+   "composite": 0.4199,
+   "dropped": false
+  },
+  {
+   "id": "t-bf58bec3",
+   "slug": "agni",
+   "lemma": "མེ་ལྷ།",
+   "match_form": "མེ་ལྷ་",
+   "variants": [
+    "མེ་ལྷ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "agni"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 53,
+   "composite": 0.4188,
+   "dropped": false
+  },
+  {
+   "id": "t-4d22adf8",
+   "slug": "gandharvas",
+   "lemma": "དྲི་ཟ།",
+   "match_form": "དྲི་ཟ་",
+   "variants": [
+    "དྲི་ཟ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "gandharvas"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 54,
+   "composite": 0.4182,
+   "dropped": false
+  },
+  {
+   "id": "t-e856d885",
+   "slug": "venerable",
+   "lemma": "རྗེ་བཙུན་མ།",
+   "match_form": "རྗེ་བཙུན་མ་",
+   "variants": [
+    "རྗེ་བཙུན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "venerable"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 55,
+   "composite": 0.4166,
+   "dropped": false
+  },
+  {
+   "id": "t-c5ca219a",
+   "slug": "tathagata",
+   "lemma": "དེ་བཞིན་གཤེགས་པ།",
+   "match_form": "དེ་བཞིན་གཤེགས་པ་",
+   "variants": [
+    "དེ་བཞིན་གཤེགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tathagata"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 56,
+   "composite": 0.4165,
+   "dropped": false
+  },
+  {
+   "id": "t-44543b5f",
+   "slug": "yaksha",
+   "lemma": "གནོད་སྦྱིན།",
+   "match_form": "གནོད་སྦྱིན་",
+   "variants": [
+    "གནོད་སྦྱིན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "yaksha",
+    "yakshas"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21",
+    "1-6"
+   ],
+   "rank": 57,
+   "composite": 0.414,
+   "dropped": false
+  },
+  {
+   "id": "t-c774b93d",
+   "slug": "hand",
+   "lemma": "ཕྱག།",
+   "match_form": "ཕྱག་",
+   "variants": [
+    "ཕྱག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hand"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 58,
+   "composite": 0.4118,
+   "dropped": false
+  },
+  {
+   "id": "t-118b960f",
+   "slug": "celestial",
+   "lemma": "ལྷ།",
+   "match_form": "ལྷ་",
+   "variants": [
+    "ལྷ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "celestial",
+    "god",
+    "gods"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18",
+    "1-19"
+   ],
+   "rank": 59,
+   "composite": 0.4116,
+   "dropped": false
+  },
+  {
+   "id": "t-e19e12a2",
+   "slug": "power",
+   "lemma": "མཐུ།",
+   "match_form": "མཐུ་",
+   "variants": [
+    "མཐུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "power"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 60,
+   "composite": 0.4111,
+   "dropped": false
+  },
+  {
+   "id": "t-edc9a56f",
+   "slug": "son-2",
+   "lemma": "བུ།",
+   "match_form": "བུ་",
+   "variants": [
+    "བུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "son"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-6"
+   ],
+   "rank": 61,
+   "composite": 0.4104,
+   "dropped": false
+  },
+  {
+   "id": "t-6fcf3133",
+   "slug": "meru",
+   "lemma": "རི་རབ།",
+   "match_form": "རི་རབ་",
+   "variants": [
+    "རི་རབ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "meru"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 62,
+   "composite": 0.405,
+   "dropped": false
+  },
+  {
+   "id": "t-e9ff808b",
+   "slug": "syllables",
+   "lemma": "ཡི་གེ་བཅུ་པའི།",
+   "match_form": "ཡི་གེ་བཅུ་པའི་",
+   "variants": [
+    "ཡི་གེ་བཅུ་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "syllables"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 63,
+   "composite": 0.4044,
+   "dropped": false
+  },
+  {
+   "id": "t-05370405",
+   "slug": "poverty",
+   "lemma": "ཕོངས་པ།",
+   "match_form": "ཕོངས་པ་",
+   "variants": [
+    "ཕོངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "poverty"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 64,
+   "composite": 0.3959,
+   "dropped": false
+  },
+  {
+   "id": "t-58b6a836",
+   "slug": "vayu",
+   "lemma": "རླུང་ལྷ།",
+   "match_form": "རླུང་ལྷ་",
+   "variants": [
+    "རླུང་ལྷ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "vayu"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 65,
+   "composite": 0.3943,
+   "dropped": false
+  },
+  {
+   "id": "t-35ad3611",
+   "slug": "enemies",
+   "lemma": "དགྲ།",
+   "match_form": "དགྲ་",
+   "variants": [
+    "དགྲ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "enemies",
+    "enemy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-16"
+   ],
+   "rank": 66,
+   "composite": 0.3933,
+   "dropped": false
+  },
+  {
+   "id": "t-13e69273",
+   "slug": "hara",
+   "lemma": "ཧ་ར།",
+   "match_form": "ཧ་ར་",
+   "variants": [
+    "ཧ་ར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 67,
+   "composite": 0.3923,
+   "dropped": false
+  },
+  {
+   "id": "t-bd0f5cb4",
+   "slug": "stars",
+   "lemma": "སྐར་མ།",
+   "match_form": "སྐར་མ་",
+   "variants": [
+    "སྐར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stars"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 68,
+   "composite": 0.3882,
+   "dropped": false
+  },
+  {
+   "id": "t-cdfb99bb",
+   "slug": "empowerment",
+   "lemma": "དབང་།",
+   "match_form": "དབང་",
+   "variants": [
+    "དབང་།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "empowerment"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 69,
+   "composite": 0.3866,
+   "dropped": false
+  },
+  {
+   "id": "t-74d2b950",
+   "slug": "seed-syllable",
+   "lemma": "ས་བོན།",
+   "match_form": "ས་བོན་",
+   "variants": [
+    "ས་བོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "seed-syllable"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 70,
+   "composite": 0.386,
+   "dropped": false
+  },
+  {
+   "id": "t-b8356842",
+   "slug": "autumn-moon",
+   "lemma": "སྟོན་ཀའི་ཟླ་བ།",
+   "match_form": "སྟོན་ཀའི་ཟླ་བ་",
+   "variants": [
+    "སྟོན་ཀའི་ཟླ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "autumn moon"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 71,
+   "composite": 0.3858,
+   "dropped": false
+  },
+  {
+   "id": "t-885f65a0",
+   "slug": "kinnaras",
+   "lemma": "མིའམ་ཅི།",
+   "match_form": "མིའམ་ཅི་",
+   "variants": [
+    "མིའམ་ཅི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "kinnaras"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 72,
+   "composite": 0.3857,
+   "dropped": false
+  },
+  {
+   "id": "t-f50818ae",
+   "slug": "amitabha",
+   "lemma": "འོད་དཔག་མེད།",
+   "match_form": "འོད་དཔག་མེད་",
+   "variants": [
+    "འོད་དཔག་མེད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "amitabha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 73,
+   "composite": 0.3855,
+   "dropped": false
+  },
+  {
+   "id": "t-49fa45b5",
+   "slug": "wheel-devices",
+   "lemma": "འཁྲུལ་འཁོར།",
+   "match_form": "འཁྲུལ་འཁོར་",
+   "variants": [
+    "འཁྲུལ་འཁོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "wheel-devices"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 74,
+   "composite": 0.3825,
+   "dropped": false
+  },
+  {
+   "id": "t-c5e216f6",
+   "slug": "garlands",
+   "lemma": "ཕྲེང་བ།",
+   "match_form": "ཕྲེང་བ་",
+   "variants": [
+    "ཕྲེང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "garlands"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 75,
+   "composite": 0.3823,
+   "dropped": false
+  },
+  {
+   "id": "t-296fee89",
+   "slug": "world",
+   "lemma": "འཇིག་རྟེན།",
+   "match_form": "འཇིག་རྟེན་",
+   "variants": [
+    "འཇིག་རྟེན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "world",
+    "worlds"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-10",
+    "1-17",
+    "1-5"
+   ],
+   "rank": 76,
+   "composite": 0.3797,
+   "dropped": false
+  },
+  {
+   "id": "t-521a03be",
+   "slug": "phat",
+   "lemma": "ཕཊ།",
+   "match_form": "ཕཊ་",
+   "variants": [
+    "ཕཊ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "phat"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18",
+    "1-7"
+   ],
+   "rank": 77,
+   "composite": 0.3786,
+   "dropped": false
+  },
+  {
+   "id": "t-aac6ef83",
+   "slug": "giving",
+   "lemma": "སྦྱིན་པ།",
+   "match_form": "སྦྱིན་པ་",
+   "variants": [
+    "སྦྱིན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "giving"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 78,
+   "composite": 0.3772,
+   "dropped": false
+  },
+  {
+   "id": "t-f70b19b1",
+   "slug": "concentration",
+   "lemma": "བསམ་གཏན།",
+   "match_form": "བསམ་གཏན་",
+   "variants": [
+    "བསམ་གཏན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "concentration",
+    "meditative"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 79,
+   "composite": 0.3755,
+   "dropped": false
+  },
+  {
+   "id": "t-5e0fa685",
+   "slug": "patience",
+   "lemma": "བཟོད་པ།",
+   "match_form": "བཟོད་པ་",
+   "variants": [
+    "བཟོད་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "patience"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 80,
+   "composite": 0.3754,
+   "dropped": false
+  },
+  {
+   "id": "t-2c21aa1e",
+   "slug": "fire",
+   "lemma": "མེ།",
+   "match_form": "མེ་",
+   "variants": [
+    "མེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fire"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7"
+   ],
+   "rank": 81,
+   "composite": 0.375,
+   "dropped": false
+  },
+  {
+   "id": "t-e1802375",
+   "slug": "diligence",
+   "lemma": "བརྩོན་འགྲུས།",
+   "match_form": "བརྩོན་འགྲུས་",
+   "variants": [
+    "བརྩོན་འགྲུས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "diligence"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 82,
+   "composite": 0.3714,
+   "dropped": false
+  },
+  {
+   "id": "t-832c86d8",
+   "slug": "laugh",
+   "lemma": "བཞད་པ།",
+   "match_form": "བཞད་པ་",
+   "variants": [
+    "བཞད་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "laugh",
+    "laughing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 83,
+   "composite": 0.369,
+   "dropped": false
+  },
+  {
+   "id": "t-9611823b",
+   "slug": "perfect",
+   "lemma": "ཕ་རོལ་ཕྱིན་པ།",
+   "match_form": "ཕ་རོལ་ཕྱིན་པ་",
+   "variants": [
+    "ཕ་རོལ་ཕྱིན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "perfect",
+    "perfection"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 84,
+   "composite": 0.3684,
+   "dropped": false
+  },
+  {
+   "id": "t-be05edd6",
+   "slug": "letter-hum",
+   "lemma": "ཡི་གེ་ཧཱུཾ།",
+   "match_form": "ཡི་གེ་ཧཱུཾ་",
+   "variants": [
+    "ཡི་གེ་ཧཱུཾ།",
+    "ཡི་གེ་ཧཱུྃ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "letter hum"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-14"
+   ],
+   "rank": 85,
+   "composite": 0.3647,
+   "dropped": false
+  },
+  {
+   "id": "t-c17f6a34",
+   "slug": "hair",
+   "lemma": "རལ་པའི།",
+   "match_form": "རལ་པའི་",
+   "variants": [
+    "རལ་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hair",
+    "matted"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 86,
+   "composite": 0.3635,
+   "dropped": false
+  },
+  {
+   "id": "t-6928b765",
+   "slug": "obstacle",
+   "lemma": "བགེགས།",
+   "match_form": "བགེགས་",
+   "variants": [
+    "བགེགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "obstacle",
+    "obstacles"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-6"
+   ],
+   "rank": 87,
+   "composite": 0.3599,
+   "dropped": false
+  },
+  {
+   "id": "t-55515322",
+   "slug": "flash",
+   "lemma": "གློག།",
+   "match_form": "གློག་",
+   "variants": [
+    "གློག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "flash",
+    "light",
+    "lightning"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 88,
+   "composite": 0.3597,
+   "dropped": false
+  },
+  {
+   "id": "t-c7b81fb0",
+   "slug": "peace",
+   "lemma": "ཞི་བའི།",
+   "match_form": "ཞི་བའི་",
+   "variants": [
+    "ཞི་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "peace"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 89,
+   "composite": 0.3592,
+   "dropped": false
+  },
+  {
+   "id": "t-3f92b0a5",
+   "slug": "palm",
+   "lemma": "མཐིལ།",
+   "match_form": "མཐིལ་",
+   "variants": [
+    "མཐིལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "palm"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 90,
+   "composite": 0.3588,
+   "dropped": false
+  },
+  {
+   "id": "t-1870a0cd",
+   "slug": "tremble",
+   "lemma": "གཡོ་བ།",
+   "match_form": "གཡོ་བ་",
+   "variants": [
+    "གཡོ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tremble"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 91,
+   "composite": 0.3576,
+   "dropped": false
+  },
+  {
+   "id": "t-72c6b671",
+   "slug": "tara",
+   "lemma": "ཏུ་ཏྟྭ་ར།",
+   "match_form": "ཏུ་ཏྟྭ་ར་",
+   "variants": [
+    "ཏུ་ཏྟྭ་ར།",
+    "ཏུཏྟྭ་ར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tara",
+    "tuttara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10",
+    "1-20",
+    "1-5"
+   ],
+   "rank": 92,
+   "composite": 0.3563,
+   "dropped": false
+  },
+  {
+   "id": "t-1b50bc5c",
+   "slug": "svaha",
+   "lemma": "སྭཱ་ཧཱ།",
+   "match_form": "སྭཱ་ཧཱ་",
+   "variants": [
+    "སྭཱ་ཧཱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "svaha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 93,
+   "composite": 0.353,
+   "dropped": false
+  },
+  {
+   "id": "t-600d4bf6",
+   "slug": "bhuta",
+   "lemma": "འབྱུང་པོ།",
+   "match_form": "འབྱུང་པོ་",
+   "variants": [
+    "འབྱུང་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bhuta",
+    "bhutas"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 94,
+   "composite": 0.3526,
+   "dropped": false
+  },
+  {
+   "id": "t-e4989222",
+   "slug": "armor",
+   "lemma": "གོ་ཆ།",
+   "match_form": "གོ་ཆ་",
+   "variants": [
+    "གོ་ཆ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "armor"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 95,
+   "composite": 0.3522,
+   "dropped": false
+  },
+  {
+   "id": "t-979de625",
+   "slug": "eyes",
+   "lemma": "སྤྱན་གཉིས་པོ།",
+   "match_form": "སྤྱན་གཉིས་པོ་",
+   "variants": [
+    "སྤྱན་གཉིས་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "eyes"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 96,
+   "composite": 0.3464,
+   "dropped": false
+  },
+  {
+   "id": "t-19cc8372",
+   "slug": "victorious",
+   "lemma": "རྒྱལ་བའི།",
+   "match_form": "རྒྱལ་བའི་",
+   "variants": [
+    "རྒྱལ་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "victorious"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 97,
+   "composite": 0.3458,
+   "dropped": false
+  },
+  {
+   "id": "t-9322a58b",
+   "slug": "bad",
+   "lemma": "ངན་པ།",
+   "match_form": "ངན་པ་",
+   "variants": [
+    "ངན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bad"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 98,
+   "composite": 0.3456,
+   "dropped": false
+  },
+  {
+   "id": "t-7b386479",
+   "slug": "asceticism",
+   "lemma": "དཀའ་ཐུབ།",
+   "match_form": "དཀའ་ཐུབ་",
+   "variants": [
+    "དཀའ་ཐུབ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "asceticism"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 99,
+   "composite": 0.3442,
+   "dropped": false
+  },
+  {
+   "id": "t-88e48ad5",
+   "slug": "benefit",
+   "lemma": "ཕན་ཡོན།",
+   "match_form": "ཕན་ཡོན་",
+   "variants": [
+    "ཕན་ཡོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "benefit",
+    "benefits"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 100,
+   "composite": 0.3422,
+   "dropped": false
+  },
+  {
+   "id": "t-7ef34ddd",
+   "slug": "assembly",
+   "lemma": "ཚོགས།",
+   "match_form": "ཚོགས་",
+   "variants": [
+    "ཚོགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "assembly",
+    "host",
+    "hosts",
+    "masses"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-19",
+    "1-21",
+    "1-6",
+    "1-9",
+    "a-5"
+   ],
+   "rank": 101,
+   "composite": 0.3414,
+   "dropped": false
+  },
+  {
+   "id": "t-ce425232",
+   "slug": "ocean",
+   "lemma": "མཚོ།",
+   "match_form": "མཚོ་",
+   "variants": [
+    "མཚོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ocean"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 102,
+   "composite": 0.3392,
+   "dropped": false
+  },
+  {
+   "id": "t-cd196b1e",
+   "slug": "devotion",
+   "lemma": "གུས་པ།",
+   "match_form": "གུས་པ་",
+   "variants": [
+    "གུས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "devotion"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 103,
+   "composite": 0.3375,
+   "dropped": false
+  },
+  {
+   "id": "t-cace3614",
+   "slug": "goddess",
+   "lemma": "ལྷ་མོ།",
+   "match_form": "ལྷ་མོ་",
+   "variants": [
+    "ལྷ་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "goddess"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 104,
+   "composite": 0.3373,
+   "dropped": false
+  },
+  {
+   "id": "t-82a892cb",
+   "slug": "realities",
+   "lemma": "དེ་ཉིད་གསུམ།",
+   "match_form": "དེ་ཉིད་གསུམ་",
+   "variants": [
+    "དེ་ཉིད་གསུམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "realities"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 105,
+   "composite": 0.3341,
+   "dropped": false
+  },
+  {
+   "id": "t-b62e4ed7",
+   "slug": "hundred",
+   "lemma": "བརྒྱ།",
+   "match_form": "བརྒྱ་",
+   "variants": [
+    "བརྒྱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hundred"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 106,
+   "composite": 0.3338,
+   "dropped": false
+  },
+  {
+   "id": "t-8dedebd9",
+   "slug": "ishvaras",
+   "lemma": "དབང་ཕྱུག།",
+   "match_form": "དབང་ཕྱུག་",
+   "variants": [
+    "དབང་ཕྱུག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ishvaras"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 107,
+   "composite": 0.3305,
+   "dropped": false
+  },
+  {
+   "id": "t-92babfa7",
+   "slug": "king-2",
+   "lemma": "རྒྱལ་པོ།",
+   "match_form": "རྒྱལ་པོ་",
+   "variants": [
+    "རྒྱལ་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "king"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 108,
+   "composite": 0.3293,
+   "dropped": false
+  },
+  {
+   "id": "t-f45de55d",
+   "slug": "pronounce-tara",
+   "lemma": "ཏཱ་ར་གཉིས་བརྗོད།",
+   "match_form": "ཏཱ་ར་གཉིས་བརྗོད་",
+   "variants": [
+    "ཏཱ་ར་གཉིས་བརྗོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "pronounce tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 109,
+   "composite": 0.3278,
+   "dropped": false
+  },
+  {
+   "id": "t-d0cf5cd0",
+   "slug": "seventy",
+   "lemma": "བདུན།",
+   "match_form": "བདུན་",
+   "variants": [
+    "བདུན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "seventy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 110,
+   "composite": 0.3265,
+   "dropped": false
+  },
+  {
+   "id": "t-a594b970",
+   "slug": "summon",
+   "lemma": "འགུགས་པ།",
+   "match_form": "འགུགས་པ་",
+   "variants": [
+    "འགུགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "summon"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 111,
+   "composite": 0.3249,
+   "dropped": false
+  },
+  {
+   "id": "t-5318fdcb",
+   "slug": "adversaries",
+   "lemma": "ཕ་རོལ།",
+   "match_form": "ཕ་རོལ་",
+   "variants": [
+    "ཕ་རོལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "adversaries"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 112,
+   "composite": 0.3229,
+   "dropped": false
+  },
+  {
+   "id": "t-894926e0",
+   "slug": "exceedingly-joyful",
+   "lemma": "རབ་ཏུ་དགའ་བ།",
+   "match_form": "རབ་ཏུ་དགའ་བ་",
+   "variants": [
+    "རབ་ཏུ་དགའ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exceedingly joyful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 113,
+   "composite": 0.3209,
+   "dropped": false
+  },
+  {
+   "id": "t-9fdf1262",
+   "slug": "fearlessness",
+   "lemma": "མི་འཇིགས།",
+   "match_form": "མི་འཇིགས་",
+   "variants": [
+    "མི་འཇིགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fearlessness"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 114,
+   "composite": 0.3179,
+   "dropped": false
+  },
+  {
+   "id": "t-f2f6d64e",
+   "slug": "poisons",
+   "lemma": "དུག་རྣམས།",
+   "match_form": "དུག་རྣམས་",
+   "variants": [
+    "དུག་རྣམས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "poisons"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 115,
+   "composite": 0.3172,
+   "dropped": false
+  },
+  {
+   "id": "t-80072315",
+   "slug": "buddha",
+   "lemma": "སངས་རྒྱས།",
+   "match_form": "སངས་རྒྱས་",
+   "variants": [
+    "སངས་རྒྱས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "buddha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3",
+    "a-7"
+   ],
+   "rank": 116,
+   "composite": 0.3155,
+   "dropped": false
+  },
+  {
+   "id": "t-8c74ca7b",
+   "slug": "deer-marked",
+   "lemma": "རི་དགས་རྟགས་ཅན།",
+   "match_form": "རི་དགས་རྟགས་ཅན་",
+   "variants": [
+    "རི་དགས་རྟགས་ཅན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "deer-marked"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 117,
+   "composite": 0.3152,
+   "dropped": false
+  },
+  {
+   "id": "t-766cf4d0",
+   "slug": "vindhya",
+   "lemma": "འབིགས་བྱེད།",
+   "match_form": "འབིགས་བྱེད་",
+   "variants": [
+    "འབིགས་བྱེད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "vindhya"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 118,
+   "composite": 0.3151,
+   "dropped": false
+  },
+  {
+   "id": "t-a3c67ee5",
+   "slug": "enemies-2",
+   "lemma": "དགྲ་བོ།",
+   "match_form": "དགྲ་བོ་",
+   "variants": [
+    "དགྲ་བོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "enemies",
+    "enemy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 119,
+   "composite": 0.3099,
+   "dropped": false
+  },
+  {
+   "id": "t-114a1d7e",
+   "slug": "lower",
+   "lemma": "ངན་འགྲོ།",
+   "match_form": "ངན་འགྲོ་",
+   "variants": [
+    "ངན་འགྲོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "lower",
+    "realms"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 120,
+   "composite": 0.3093,
+   "dropped": false
+  },
+  {
+   "id": "t-a5a7d1b6",
+   "slug": "peace-2",
+   "lemma": "ཞི།",
+   "match_form": "ཞི་",
+   "variants": [
+    "ཞི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "peace"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 121,
+   "composite": 0.3086,
+   "dropped": false
+  },
+  {
+   "id": "t-f1bb6cce",
+   "slug": "wealth",
+   "lemma": "ནོར།",
+   "match_form": "ནོར་",
+   "variants": [
+    "ནོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "wealth"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-6"
+   ],
+   "rank": 122,
+   "composite": 0.3084,
+   "dropped": false
+  },
+  {
+   "id": "t-86b70b9a",
+   "slug": "space",
+   "lemma": "ནམ་མཁའ།",
+   "match_form": "ནམ་མཁའ་",
+   "variants": [
+    "ནམ་མཁའ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "space"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 123,
+   "composite": 0.3076,
+   "dropped": false
+  },
+  {
+   "id": "t-7387cdd6",
+   "slug": "stamen",
+   "lemma": "གེ་སར།",
+   "match_form": "གེ་སར་",
+   "variants": [
+    "གེ་སར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stamen"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 124,
+   "composite": 0.3005,
+   "dropped": false
+  },
+  {
+   "id": "t-23dc052e",
+   "slug": "beings",
+   "lemma": "སེམས་ཅན།",
+   "match_form": "སེམས་ཅན་",
+   "variants": [
+    "སེམས་ཅན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "beings",
+    "sentient"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 125,
+   "composite": 0.3001,
+   "dropped": false
+  },
+  {
+   "id": "t-901f3303",
+   "slug": "activity",
+   "lemma": "སྤྱོད་ཡུལ།",
+   "match_form": "སྤྱོད་ཡུལ་",
+   "variants": [
+    "སྤྱོད་ཡུལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "activity",
+    "range",
+    "sphere"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15",
+    "1-3"
+   ],
+   "rank": 126,
+   "composite": 0.2969,
+   "dropped": false
+  },
+  {
+   "id": "t-7efcceab",
+   "slug": "supreme-ture",
+   "lemma": "ཏུ་རེ་རབ་མཆོག།",
+   "match_form": "ཏུ་རེ་རབ་མཆོག་",
+   "variants": [
+    "ཏུ་རེ་རབ་མཆོག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "supreme ture"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 127,
+   "composite": 0.2967,
+   "dropped": false
+  },
+  {
+   "id": "t-c39aa080",
+   "slug": "infinite",
+   "lemma": "མཐའ་ཡས།",
+   "match_form": "མཐའ་ཡས་",
+   "variants": [
+    "མཐའ་ཡས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "infinite"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 128,
+   "composite": 0.2956,
+   "dropped": false
+  },
+  {
+   "id": "t-95c78978",
+   "slug": "blaze-garland",
+   "lemma": "འབར་བའི་ཕྲེང་བ།",
+   "match_form": "འབར་བའི་ཕྲེང་བ་",
+   "variants": [
+    "འབར་བའི་ཕྲེང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze garland"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 129,
+   "composite": 0.2941,
+   "dropped": false
+  },
+  {
+   "id": "t-7813ac1b",
+   "slug": "letter",
+   "lemma": "ཡི་གེ།",
+   "match_form": "ཡི་གེ་",
+   "variants": [
+    "ཡི་གེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "letter",
+    "syllable",
+    "syllables"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-14",
+    "1-16",
+    "1-18",
+    "1-5"
+   ],
+   "rank": 130,
+   "composite": 0.2938,
+   "dropped": false
+  },
+  {
+   "id": "t-d76a6443",
+   "slug": "protector",
+   "lemma": "མགོན།",
+   "match_form": "མགོན་",
+   "variants": [
+    "མགོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "protector"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 131,
+   "composite": 0.2938,
+   "dropped": false
+  },
+  {
+   "id": "t-8579fa74",
+   "slug": "beyond",
+   "lemma": "མྱ་ངན་འདས།",
+   "match_form": "མྱ་ངན་འདས་",
+   "variants": [
+    "མྱ་ངན་འདས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "beyond"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 132,
+   "composite": 0.2888,
+   "dropped": false
+  },
+  {
+   "id": "t-2e3394fe",
+   "slug": "heroes",
+   "lemma": "དཔའ་བོ།",
+   "match_form": "དཔའ་བོ་",
+   "variants": [
+    "དཔའ་བོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "heroes"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 133,
+   "composite": 0.288,
+   "dropped": false
+  },
+  {
+   "id": "t-590a7748",
+   "slug": "tara-2",
+   "lemma": "ཏཱ་ར།",
+   "match_form": "ཏཱ་ར་",
+   "variants": [
+    "ཏཱ་ར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 134,
+   "composite": 0.2868,
+   "dropped": false
+  },
+  {
+   "id": "t-adfeaef3",
+   "slug": "mandara",
+   "lemma": "མན་དཱ་ར།",
+   "match_form": "མན་དཱ་ར་",
+   "variants": [
+    "མན་དཱ་ར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "mandara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 135,
+   "composite": 0.2865,
+   "dropped": false
+  },
+  {
+   "id": "t-23cd9c8a",
+   "slug": "water-bear-face",
+   "lemma": "ཆུ་སྐྱེས་ཞལ།",
+   "match_form": "ཆུ་སྐྱེས་ཞལ་",
+   "variants": [
+    "ཆུ་སྐྱེས་ཞལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "water bear face"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-8"
+   ],
+   "rank": 136,
+   "composite": 0.2859,
+   "dropped": false
+  },
+  {
+   "id": "t-dd957593",
+   "slug": "instant",
+   "lemma": "སྐད་ཅིག།",
+   "match_form": "སྐད་ཅིག་",
+   "variants": [
+    "སྐད་ཅིག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "instant"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 137,
+   "composite": 0.2839,
+   "dropped": false
+  },
+  {
+   "id": "t-ccf42e74",
+   "slug": "enemies-3",
+   "lemma": "དགྲ་ཡི།",
+   "match_form": "དགྲ་ཡི་",
+   "variants": [
+    "དགྲ་ཡི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "enemies"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 138,
+   "composite": 0.2837,
+   "dropped": false
+  },
+  {
+   "id": "t-68b2b5aa",
+   "slug": "crescent",
+   "lemma": "ཟླ་བའི་རྩེ་མོ།",
+   "match_form": "ཟླ་བའི་རྩེ་མོ་",
+   "variants": [
+    "ཟླ་བའི་རྩེ་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "crescent"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 139,
+   "composite": 0.2819,
+   "dropped": false
+  },
+  {
+   "id": "t-cf857f8b",
+   "slug": "praise-2",
+   "lemma": "བསྟོད།",
+   "match_form": "བསྟོད་",
+   "variants": [
+    "བསྟོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "praise"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 140,
+   "composite": 0.2809,
+   "dropped": false
+  },
+  {
+   "id": "t-479e9ffe",
+   "slug": "state",
+   "lemma": "གོ་འཕང།",
+   "match_form": "གོ་འཕང་",
+   "variants": [
+    "གོ་འཕང།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "state"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 141,
+   "composite": 0.2783,
+   "dropped": false
+  },
+  {
+   "id": "t-6a826d26",
+   "slug": "victory",
+   "lemma": "རྒྱལ་བར།",
+   "match_form": "རྒྱལ་བར་",
+   "variants": [
+    "རྒྱལ་བར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "victory"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 142,
+   "composite": 0.2776,
+   "dropped": false
+  },
+  {
+   "id": "t-431b5ec5",
+   "slug": "twice",
+   "lemma": "གཉིས།",
+   "match_form": "གཉིས་",
+   "variants": [
+    "གཉིས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "twice"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 143,
+   "composite": 0.276,
+   "dropped": false
+  },
+  {
+   "id": "t-907694d0",
+   "slug": "underworld",
+   "lemma": "རིམ་པ་བདུན་པོ།",
+   "match_form": "རིམ་པ་བདུན་པོ་",
+   "variants": [
+    "རིམ་པ་བདུན་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "underworld"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 144,
+   "composite": 0.2741,
+   "dropped": false
+  },
+  {
+   "id": "t-8b5f420d",
+   "slug": "fierce",
+   "lemma": "དྲག་པོའི།",
+   "match_form": "དྲག་པོའི་",
+   "variants": [
+    "དྲག་པོའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fierce"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 145,
+   "composite": 0.2732,
+   "dropped": false
+  },
+  {
+   "id": "t-184a0e1b",
+   "slug": "dusk",
+   "lemma": "སྲོད།",
+   "match_form": "སྲོད་",
+   "variants": [
+    "སྲོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "dusk"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 146,
+   "composite": 0.2725,
+   "dropped": false
+  },
+  {
+   "id": "t-ead65399",
+   "slug": "dawn",
+   "lemma": "ཐོ་རངས།",
+   "match_form": "ཐོ་རངས་",
+   "variants": [
+    "ཐོ་རངས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "dawn"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 147,
+   "composite": 0.2676,
+   "dropped": false
+  },
+  {
+   "id": "t-4aa578df",
+   "slug": "destroy",
+   "lemma": "འཇོམས།",
+   "match_form": "འཇོམས་",
+   "variants": [
+    "འཇོམས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "destroy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 148,
+   "composite": 0.2668,
+   "dropped": false
+  },
+  {
+   "id": "t-b29f6e90",
+   "slug": "treading",
+   "lemma": "མནན་ཏེ།",
+   "match_form": "མནན་ཏེ་",
+   "variants": [
+    "མནན་ཏེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "treading"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 149,
+   "composite": 0.2638,
+   "dropped": false
+  },
+  {
+   "id": "t-d426379d",
+   "slug": "fingers",
+   "lemma": "སོར་མོ།",
+   "match_form": "སོར་མོ་",
+   "variants": [
+    "སོར་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fingers"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 150,
+   "composite": 0.2636,
+   "dropped": false
+  },
+  {
+   "id": "t-a379da2d",
+   "slug": "frown-2",
+   "lemma": "ཁྲོ་གཉེར་ཅན།",
+   "match_form": "ཁྲོ་གཉེར་ཅན་",
+   "variants": [
+    "ཁྲོ་གཉེར་ཅན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "frown",
+    "frowning"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 151,
+   "composite": 0.2631,
+   "dropped": false
+  },
+  {
+   "id": "t-66d6ec43",
+   "slug": "destroyed",
+   "lemma": "འཇོམས་པ།",
+   "match_form": "འཇོམས་པ་",
+   "variants": [
+    "འཇོམས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "destroyed",
+    "destroyer",
+    "destroying"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15",
+    "1-21",
+    "a-2",
+    "a-6"
+   ],
+   "rank": 152,
+   "composite": 0.259,
+   "dropped": false
+  },
+  {
+   "id": "t-4e1c2ee6",
+   "slug": "bent",
+   "lemma": "བསྐུམ།",
+   "match_form": "བསྐུམ་",
+   "variants": [
+    "བསྐུམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bent",
+    "retracted"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7"
+   ],
+   "rank": 153,
+   "composite": 0.2588,
+   "dropped": false
+  },
+  {
+   "id": "t-97e33070",
+   "slug": "subdue",
+   "lemma": "དབང་དུ་མཛད།",
+   "match_form": "དབང་དུ་མཛད་",
+   "variants": [
+    "དབང་དུ་མཛད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "subdue"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 154,
+   "composite": 0.2564,
+   "dropped": false
+  },
+  {
+   "id": "t-9a326fa7",
+   "slug": "attended",
+   "lemma": "བསྟེན་མ།",
+   "match_form": "བསྟེན་མ་",
+   "variants": [
+    "བསྟེན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "attended",
+    "relied"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19",
+    "1-4"
+   ],
+   "rank": 155,
+   "composite": 0.2527,
+   "dropped": false
+  },
+  {
+   "id": "t-386bade1",
+   "slug": "syllable-phat",
+   "lemma": "ཕཊ་ཀྱི་ཡི་གེ།",
+   "match_form": "ཕཊ་ཀྱི་ཡི་གེ་",
+   "variants": [
+    "ཕཊ་ཀྱི་ཡི་གེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "syllable phat"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 156,
+   "composite": 0.2515,
+   "dropped": false
+  },
+  {
+   "id": "t-733ecc78",
+   "slug": "times",
+   "lemma": "དུ།",
+   "match_form": "དུ་",
+   "variants": [
+    "དུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "times"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 157,
+   "composite": 0.2483,
+   "dropped": false
+  },
+  {
+   "id": "t-d3f41223",
+   "slug": "root",
+   "lemma": "རྩ་བ།",
+   "match_form": "རྩ་བ་",
+   "variants": [
+    "རྩ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "root"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 158,
+   "composite": 0.2481,
+   "dropped": false
+  },
+  {
+   "id": "t-688728c4",
+   "slug": "leg",
+   "lemma": "གཡས་བརྐྱང་གཡོན་བསྐུམ།",
+   "match_form": "གཡས་བརྐྱང་གཡོན་བསྐུམ་",
+   "variants": [
+    "གཡས་བརྐྱང་གཡོན་བསྐུམ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "leg"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 159,
+   "composite": 0.2479,
+   "dropped": false
+  },
+  {
+   "id": "t-ec9b55aa",
+   "slug": "mass",
+   "lemma": "འཁྲུགས་པ།",
+   "match_form": "འཁྲུགས་པ་",
+   "variants": [
+    "འཁྲུགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "mass",
+    "swirling"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 160,
+   "composite": 0.2449,
+   "dropped": false
+  },
+  {
+   "id": "t-301913b8",
+   "slug": "constantly",
+   "lemma": "རྟག་པར།",
+   "match_form": "རྟག་པར་",
+   "variants": [
+    "རྟག་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "constantly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 161,
+   "composite": 0.2438,
+   "dropped": false
+  },
+  {
+   "id": "t-19d1caaf",
+   "slug": "surround",
+   "lemma": "ཀུན་ནས་བསྐོར།",
+   "match_form": "ཀུན་ནས་བསྐོར་",
+   "variants": [
+    "ཀུན་ནས་བསྐོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "surround",
+    "surrounded"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 162,
+   "composite": 0.2435,
+   "dropped": false
+  },
+  {
+   "id": "t-93982437",
+   "slug": "face-2",
+   "lemma": "ངོས་ལ།",
+   "match_form": "ངོས་ལ་",
+   "variants": [
+    "ངོས་ལ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "face",
+    "surface"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 163,
+   "composite": 0.2432,
+   "dropped": false
+  },
+  {
+   "id": "t-ce0df28d",
+   "slug": "ultimate",
+   "lemma": "མཐར་ཐུག།",
+   "match_form": "མཐར་ཐུག་",
+   "variants": [
+    "མཐར་ཐུག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ultimate"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 164,
+   "composite": 0.2426,
+   "dropped": false
+  },
+  {
+   "id": "t-8d32110e",
+   "slug": "remember",
+   "lemma": "དྲན་པ།",
+   "match_form": "དྲན་པ་",
+   "variants": [
+    "དྲན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "remember",
+    "remembering"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2",
+    "a-4"
+   ],
+   "rank": 165,
+   "composite": 0.242,
+   "dropped": false
+  },
+  {
+   "id": "t-3c0c74f5",
+   "slug": "earth-2",
+   "lemma": "ས་གཞིའི།",
+   "match_form": "ས་གཞིའི་",
+   "variants": [
+    "ས་གཞིའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "earth"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 166,
+   "composite": 0.239,
+   "dropped": false
+  },
+  {
+   "id": "t-72ca56bd",
+   "slug": "stable",
+   "lemma": "བརྟན།",
+   "match_form": "བརྟན་",
+   "variants": [
+    "བརྟན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stable"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 167,
+   "composite": 0.2389,
+   "dropped": false
+  },
+  {
+   "id": "t-3ca8afda",
+   "slug": "bodies",
+   "lemma": "ལུས།",
+   "match_form": "ལུས་",
+   "variants": [
+    "ལུས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bodies"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 168,
+   "composite": 0.2387,
+   "dropped": false
+  },
+  {
+   "id": "t-2033660e",
+   "slug": "worshiped",
+   "lemma": "མཆོད་མ།",
+   "match_form": "མཆོད་མ་",
+   "variants": [
+    "མཆོད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "worshiped"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 169,
+   "composite": 0.2378,
+   "dropped": false
+  },
+  {
+   "id": "t-cbd0ce5d",
+   "slug": "tara-swift-heroine",
+   "lemma": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།",
+   "match_form": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ་",
+   "variants": [
+    "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tara swift heroine"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 170,
+   "composite": 0.2373,
+   "dropped": false
+  },
+  {
+   "id": "t-26231dc1",
+   "slug": "fierce-2",
+   "lemma": "དྲག་པོ།",
+   "match_form": "དྲག་པོ་",
+   "variants": [
+    "དྲག་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fierce"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 171,
+   "composite": 0.2369,
+   "dropped": false
+  },
+  {
+   "id": "t-f513ed76",
+   "slug": "conqueror-2",
+   "lemma": "འཇོམས་མ།",
+   "match_form": "འཇོམས་མ་",
+   "variants": [
+    "འཇོམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conqueror",
+    "destroy",
+    "destroys"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7",
+    "1-8"
+   ],
+   "rank": 172,
+   "composite": 0.2355,
+   "dropped": false
+  },
+  {
+   "id": "t-2684025e",
+   "slug": "blaze-intensely",
+   "lemma": "ཤིན་ཏུ་འབར་མ།",
+   "match_form": "ཤིན་ཏུ་འབར་མ་",
+   "variants": [
+    "ཤིན་ཏུ་འབར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze intensely",
+    "exceedingly blaze"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12",
+    "1-7"
+   ],
+   "rank": 173,
+   "composite": 0.2339,
+   "dropped": false
+  },
+  {
+   "id": "t-f1e7dc12",
+   "slug": "move",
+   "lemma": "གཡོ་བའི།",
+   "match_form": "གཡོ་བའི་",
+   "variants": [
+    "གཡོ་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "move",
+    "moving"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 174,
+   "composite": 0.2327,
+   "dropped": false
+  },
+  {
+   "id": "t-06230446",
+   "slug": "full",
+   "lemma": "གང་བ།",
+   "match_form": "གང་བ་",
+   "variants": [
+    "གང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "full"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 175,
+   "composite": 0.2305,
+   "dropped": false
+  },
+  {
+   "id": "t-a0431b2d",
+   "slug": "joyful",
+   "lemma": "དགའ་བ།",
+   "match_form": "དགའ་བ་",
+   "variants": [
+    "དགའ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "joyful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 176,
+   "composite": 0.2304,
+   "dropped": false
+  },
+  {
+   "id": "t-edd955b8",
+   "slug": "female",
+   "lemma": "ཆེན་མོ།",
+   "match_form": "ཆེན་མོ་",
+   "variants": [
+    "ཆེན་མོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "female",
+    "great"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 177,
+   "composite": 0.2303,
+   "dropped": false
+  },
+  {
+   "id": "t-b484e8a1",
+   "slug": "host",
+   "lemma": "དཔུང་།",
+   "match_form": "དཔུང་",
+   "variants": [
+    "དཔུང་།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "host"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 178,
+   "composite": 0.2296,
+   "dropped": false
+  },
+  {
+   "id": "t-b08b99ab",
+   "slug": "summon-2",
+   "lemma": "འགུགས་པར།",
+   "match_form": "འགུགས་པར་",
+   "variants": [
+    "འགུགས་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "summon"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 179,
+   "composite": 0.2292,
+   "dropped": false
+  },
+  {
+   "id": "t-a80ab560",
+   "slug": "surround-2",
+   "lemma": "བསྐོར།",
+   "match_form": "བསྐོར་",
+   "variants": [
+    "བསྐོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "surround",
+    "surrounded"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 180,
+   "composite": 0.2292,
+   "dropped": false
+  },
+  {
+   "id": "t-46503eb7",
+   "slug": "million",
+   "lemma": "བྱེ་བ།",
+   "match_form": "བྱེ་བ་",
+   "variants": [
+    "བྱེ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "million"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 181,
+   "composite": 0.2275,
+   "dropped": false
+  },
+  {
+   "id": "t-60bff9a5",
+   "slug": "great",
+   "lemma": "ཆེན་པོ།",
+   "match_form": "ཆེན་པོ་",
+   "variants": [
+    "ཆེན་པོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "great"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15",
+    "a-4"
+   ],
+   "rank": 182,
+   "composite": 0.2272,
+   "dropped": false
+  },
+  {
+   "id": "t-b59e5d68",
+   "slug": "blaze",
+   "lemma": "འབར།",
+   "match_form": "འབར་",
+   "variants": [
+    "འབར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 183,
+   "composite": 0.2265,
+   "dropped": false
+  },
+  {
+   "id": "t-b9291dec",
+   "slug": "blaze-2",
+   "lemma": "འབར་བའི།",
+   "match_form": "འབར་བའི་",
+   "variants": [
+    "འབར་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze",
+    "blazing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 184,
+   "composite": 0.2265,
+   "dropped": false
+  },
+  {
+   "id": "t-25474aa4",
+   "slug": "slayer",
+   "lemma": "གསོད་མ།",
+   "match_form": "གསོད་མ་",
+   "variants": [
+    "གསོད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "slayer"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 185,
+   "composite": 0.2251,
+   "dropped": false
+  },
+  {
+   "id": "t-b88b2d2e",
+   "slug": "stamps",
+   "lemma": "བརྡུང་མ།",
+   "match_form": "བརྡུང་མ་",
+   "variants": [
+    "བརྡུང་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stamps"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 186,
+   "composite": 0.2243,
+   "dropped": false
+  },
+  {
+   "id": "t-d215c137",
+   "slug": "symbolizing",
+   "lemma": "མཚོན།",
+   "match_form": "མཚོན་",
+   "variants": [
+    "མཚོན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "symbolizing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 187,
+   "composite": 0.2206,
+   "dropped": false
+  },
+  {
+   "id": "t-9fb5c977",
+   "slug": "jewel",
+   "lemma": "དཀོན་མཆོག།",
+   "match_form": "དཀོན་མཆོག་",
+   "variants": [
+    "དཀོན་མཆོག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "jewel"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 188,
+   "composite": 0.2202,
+   "dropped": false
+  },
+  {
+   "id": "t-ade3576c",
+   "slug": "strike",
+   "lemma": "བསྣུན།",
+   "match_form": "བསྣུན་",
+   "variants": [
+    "བསྣུན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "strike",
+    "strikes"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 189,
+   "composite": 0.2197,
+   "dropped": false
+  },
+  {
+   "id": "t-4c1daeeb",
+   "slug": "water-bear",
+   "lemma": "ཆུ་སྐྱེས།",
+   "match_form": "ཆུ་སྐྱེས་",
+   "variants": [
+    "ཆུ་སྐྱེས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "water bear",
+    "water-born"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1",
+    "1-8"
+   ],
+   "rank": 190,
+   "composite": 0.2168,
+   "dropped": false
+  },
+  {
+   "id": "t-0e24465b",
+   "slug": "stamping",
+   "lemma": "བརྡབས་པས།",
+   "match_form": "བརྡབས་པས་",
+   "variants": [
+    "བརྡབས་པས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stamping"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 191,
+   "composite": 0.2151,
+   "dropped": false
+  },
+  {
+   "id": "t-b3790024",
+   "slug": "water-bear-2",
+   "lemma": "ཆུ་ནས་སྐྱེས།",
+   "match_form": "ཆུ་ནས་སྐྱེས་",
+   "variants": [
+    "ཆུ་ནས་སྐྱེས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "water bear",
+    "water-born"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 192,
+   "composite": 0.2148,
+   "dropped": false
+  },
+  {
+   "id": "t-297fe760",
+   "slug": "brilliant-light",
+   "lemma": "རབ་ཏུ་ཕྱེ་བའི་འོད།",
+   "match_form": "རབ་ཏུ་ཕྱེ་བའི་འོད་",
+   "variants": [
+    "རབ་ཏུ་ཕྱེ་བའི་འོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "brilliant light",
+    "highly brilliant light"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 193,
+   "composite": 0.2137,
+   "dropped": false
+  },
+  {
+   "id": "t-bd5cfff8",
+   "slug": "moon-2",
+   "lemma": "ཟླ་བའི།",
+   "match_form": "ཟླ་བའི་",
+   "variants": [
+    "ཟླ་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "moon"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 194,
+   "composite": 0.2078,
+   "dropped": false
+  },
+  {
+   "id": "t-3da29e5c",
+   "slug": "every",
+   "lemma": "མ་ལུས།",
+   "match_form": "མ་ལུས་",
+   "variants": [
+    "མ་ལུས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "every",
+    "exception",
+    "single",
+    "without"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4",
+    "1-8",
+    "1-9"
+   ],
+   "rank": 195,
+   "composite": 0.2071,
+   "dropped": false
+  },
+  {
+   "id": "t-e53e602b",
+   "slug": "head",
+   "lemma": "དབུ།",
+   "match_form": "དབུ་",
+   "variants": [
+    "དབུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "head"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 196,
+   "composite": 0.2064,
+   "dropped": false
+  },
+  {
+   "id": "t-12bf053d",
+   "slug": "extend",
+   "lemma": "བརྐྱང་།",
+   "match_form": "བརྐྱང་",
+   "variants": [
+    "བརྐྱང་།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "extend",
+    "extended"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-7"
+   ],
+   "rank": 197,
+   "composite": 0.2059,
+   "dropped": false
+  },
+  {
+   "id": "t-de2ed795",
+   "slug": "holds",
+   "lemma": "བསྣམས་མ།",
+   "match_form": "བསྣམས་མ་",
+   "variants": [
+    "བསྣམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "holds"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 198,
+   "composite": 0.2044,
+   "dropped": false
+  },
+  {
+   "id": "t-80a5aa2b",
+   "slug": "elimination",
+   "lemma": "སེལ་བ།",
+   "match_form": "སེལ་བ་",
+   "variants": [
+    "སེལ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "elimination"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 199,
+   "composite": 0.2039,
+   "dropped": false
+  },
+  {
+   "id": "t-53378e8a",
+   "slug": "ornaments",
+   "lemma": "བརྒྱན་པ།",
+   "match_form": "བརྒྱན་པ་",
+   "variants": [
+    "བརྒྱན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ornaments"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 200,
+   "composite": 0.2024,
+   "dropped": false
+  },
+  {
+   "id": "t-d0116803",
+   "slug": "fill-desire",
+   "lemma": "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།",
+   "match_form": "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ་",
+   "variants": [
+    "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fill desire"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 201,
+   "composite": 0.2002,
+   "dropped": false
+  },
+  {
+   "id": "t-13347294",
+   "slug": "form-hum",
+   "lemma": "ཧཱུྃ་གི་རྣམ་པའི།",
+   "match_form": "ཧཱུྃ་གི་རྣམ་པའི་",
+   "variants": [
+    "ཧཱུྃ་གི་རྣམ་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "form hum"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 202,
+   "composite": 0.199,
+   "dropped": false
+  },
+  {
+   "id": "t-ab332c7d",
+   "slug": "dispel",
+   "lemma": "སེལ་མ།",
+   "match_form": "སེལ་མ་",
+   "variants": [
+    "སེལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "dispel",
+    "dispels",
+    "disperse",
+    "dispersing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18",
+    "1-19",
+    "1-20"
+   ],
+   "rank": 203,
+   "composite": 0.1989,
+   "dropped": false
+  },
+  {
+   "id": "t-1c433989",
+   "slug": "completely",
+   "lemma": "རབ།",
+   "match_form": "རབ་",
+   "variants": [
+    "རབ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely",
+    "exceedingly",
+    "supreme"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10",
+    "1-16",
+    "1-20",
+    "a-2"
+   ],
+   "rank": 204,
+   "composite": 0.1986,
+   "dropped": false
+  },
+  {
+   "id": "t-00e0f2ad",
+   "slug": "indeed",
+   "lemma": "ཉིད།",
+   "match_form": "ཉིད་",
+   "variants": [
+    "ཉིད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "indeed",
+    "itself",
+    "utterly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21",
+    "1-3",
+    "a-2",
+    "a-4",
+    "a-6"
+   ],
+   "rank": 205,
+   "composite": 0.1973,
+   "dropped": false
+  },
+  {
+   "id": "t-22c5dbc0",
+   "slug": "trad",
+   "lemma": "ཏྲད།",
+   "match_form": "ཏྲད་",
+   "variants": [
+    "ཏྲད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "trad"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 206,
+   "composite": 0.1963,
+   "dropped": false
+  },
+  {
+   "id": "t-e333798e",
+   "slug": "splendor",
+   "lemma": "བརྗིད།",
+   "match_form": "བརྗིད་",
+   "variants": [
+    "བརྗིད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "splendor"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-19"
+   ],
+   "rank": 207,
+   "composite": 0.1955,
+   "dropped": false
+  },
+  {
+   "id": "t-0c2976b9",
+   "slug": "presence",
+   "lemma": "མདུན།",
+   "match_form": "མདུན་",
+   "variants": [
+    "མདུན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "presence"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 208,
+   "composite": 0.1945,
+   "dropped": false
+  },
+  {
+   "id": "t-66b42f91",
+   "slug": "worlds",
+   "lemma": "འཇིག་རྟེན་གསུམ་རྣམས།",
+   "match_form": "འཇིག་རྟེན་གསུམ་རྣམས་",
+   "variants": [
+    "འཇིག་རྟེན་གསུམ་རྣམས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "worlds"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 209,
+   "composite": 0.1942,
+   "dropped": false
+  },
+  {
+   "id": "t-dca4d4a9",
+   "slug": "destroy-2",
+   "lemma": "འགེམས་མ།",
+   "match_form": "འགེམས་མ་",
+   "variants": [
+    "འགེམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "destroy",
+    "destroys",
+    "shatter",
+    "shatters"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14",
+    "1-16"
+   ],
+   "rank": 210,
+   "composite": 0.1931,
+   "dropped": false
+  },
+  {
+   "id": "t-d12dc7e7",
+   "slug": "knowledge-hum",
+   "lemma": "རིག་པ་ཧཱུྃ།",
+   "match_form": "རིག་པ་ཧཱུྃ་",
+   "variants": [
+    "རིག་པ་ཧཱུྃ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "knowledge-hum"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 211,
+   "composite": 0.1928,
+   "dropped": false
+  },
+  {
+   "id": "t-aaa7e87d",
+   "slug": "bhagavati",
+   "lemma": "བཅོམ་ལྡན་འདས་མ།",
+   "match_form": "བཅོམ་ལྡན་འདས་མ་",
+   "variants": [
+    "བཅོམ་ལྡན་འདས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bhagavati"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 212,
+   "composite": 0.1927,
+   "dropped": false
+  },
+  {
+   "id": "t-0ecbd64a",
+   "slug": "blaze-fire",
+   "lemma": "མེ་འབར།",
+   "match_form": "མེ་འབར་",
+   "variants": [
+    "མེ་འབར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze fire"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 213,
+   "composite": 0.1914,
+   "dropped": false
+  },
+  {
+   "id": "t-370f31ac",
+   "slug": "desire",
+   "lemma": "འདོད།",
+   "match_form": "འདོད་",
+   "variants": [
+    "འདོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "desire"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 214,
+   "composite": 0.1912,
+   "dropped": false
+  },
+  {
+   "id": "t-e58e189b",
+   "slug": "sorrow",
+   "lemma": "མྱ་ངན།",
+   "match_form": "མྱ་ངན་",
+   "variants": [
+    "མྱ་ངན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "sorrow"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 215,
+   "composite": 0.1894,
+   "dropped": false
+  },
+  {
+   "id": "t-f9ec88c6",
+   "slug": "hand-2",
+   "lemma": "ཕྱག་ན།",
+   "match_form": "ཕྱག་ན་",
+   "variants": [
+    "ཕྱག་ན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hand"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 216,
+   "composite": 0.1889,
+   "dropped": false
+  },
+  {
+   "id": "t-e81968d1",
+   "slug": "make",
+   "lemma": "མཛད།",
+   "match_form": "མཛད་",
+   "variants": [
+    "མཛད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "make",
+    "making"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14",
+    "1-8"
+   ],
+   "rank": 217,
+   "composite": 0.1885,
+   "dropped": false
+  },
+  {
+   "id": "t-e3c85eaf",
+   "slug": "various",
+   "lemma": "སྣ་ཚོགས།",
+   "match_form": "སྣ་ཚོགས་",
+   "variants": [
+    "སྣ་ཚོགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "various"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 218,
+   "composite": 0.1877,
+   "dropped": false
+  },
+  {
+   "id": "t-485073e6",
+   "slug": "assemblies",
+   "lemma": "ཚོགས་རྣམས།",
+   "match_form": "ཚོགས་རྣམས་",
+   "variants": [
+    "ཚོགས་རྣམས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "assemblies",
+    "hosts"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-19",
+    "1-21"
+   ],
+   "rank": 219,
+   "composite": 0.1876,
+   "dropped": false
+  },
+  {
+   "id": "t-3831e381",
+   "slug": "dwells",
+   "lemma": "གནས་མ།",
+   "match_form": "གནས་མ་",
+   "variants": [
+    "གནས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "dwells"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 220,
+   "composite": 0.1865,
+   "dropped": false
+  },
+  {
+   "id": "t-ee843f3f",
+   "slug": "arise",
+   "lemma": "བྱུང་མ།",
+   "match_form": "བྱུང་མ་",
+   "variants": [
+    "བྱུང་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "arise",
+    "arisen",
+    "world arise"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 221,
+   "composite": 0.1863,
+   "dropped": false
+  },
+  {
+   "id": "t-cd503b79",
+   "slug": "thousands",
+   "lemma": "སྟོང་ཕྲག།",
+   "match_form": "སྟོང་ཕྲག་",
+   "variants": [
+    "སྟོང་ཕྲག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "thousands"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 222,
+   "composite": 0.1847,
+   "dropped": false
+  },
+  {
+   "id": "t-82b174d6",
+   "slug": "obtain",
+   "lemma": "ཐོབ།",
+   "match_form": "ཐོབ་",
+   "variants": [
+    "ཐོབ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "obtain",
+    "obtained",
+    "obtains"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4",
+    "a-6"
+   ],
+   "rank": 223,
+   "composite": 0.1829,
+   "dropped": false
+  },
+  {
+   "id": "t-623d6f05",
+   "slug": "desire-2",
+   "lemma": "འདོད་པ།",
+   "match_form": "འདོད་པ་",
+   "variants": [
+    "འདོད་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "desire",
+    "desires",
+    "desiring"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-6"
+   ],
+   "rank": 224,
+   "composite": 0.1813,
+   "dropped": false
+  },
+  {
+   "id": "t-686f341e",
+   "slug": "attained",
+   "lemma": "ཐོབ་པ།",
+   "match_form": "ཐོབ་པ་",
+   "variants": [
+    "ཐོབ་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "attained"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 225,
+   "composite": 0.1809,
+   "dropped": false
+  },
+  {
+   "id": "t-2b94eed4",
+   "slug": "suppress",
+   "lemma": "མནན།",
+   "match_form": "མནན་",
+   "variants": [
+    "མནན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "suppress",
+    "suppressing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 226,
+   "composite": 0.1798,
+   "dropped": false
+  },
+  {
+   "id": "t-50131abe",
+   "slug": "beautifully-adorn",
+   "lemma": "རྣམ་པར་བརྒྱན་མ།",
+   "match_form": "རྣམ་པར་བརྒྱན་མ་",
+   "variants": [
+    "རྣམ་པར་བརྒྱན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "beautifully adorn",
+    "completely adorn"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3",
+    "1-9"
+   ],
+   "rank": 227,
+   "composite": 0.1757,
+   "dropped": false
+  },
+  {
+   "id": "t-e31a452a",
+   "slug": "quickly",
+   "lemma": "མྱུར་དུ།",
+   "match_form": "མྱུར་དུ་",
+   "variants": [
+    "མྱུར་དུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "quickly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 228,
+   "composite": 0.1754,
+   "dropped": false
+  },
+  {
+   "id": "t-867b28d4",
+   "slug": "bestows",
+   "lemma": "སྟེར།",
+   "match_form": "སྟེར་",
+   "variants": [
+    "སྟེར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bestows"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 229,
+   "composite": 0.1729,
+   "dropped": false
+  },
+  {
+   "id": "t-6ff9fe4c",
+   "slug": "expanded",
+   "lemma": "རྒྱས་པའི།",
+   "match_form": "རྒྱས་པའི་",
+   "variants": [
+    "རྒྱས་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "expanded",
+    "fully"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 230,
+   "composite": 0.1721,
+   "dropped": false
+  },
+  {
+   "id": "t-acc99aa8",
+   "slug": "side",
+   "lemma": "ཀུན་ནས།",
+   "match_form": "ཀུན་ནས་",
+   "variants": [
+    "ཀུན་ནས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "side",
+    "sides"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13",
+    "1-19"
+   ],
+   "rank": 231,
+   "composite": 0.1696,
+   "dropped": false
+  },
+  {
+   "id": "t-8d4b6f04",
+   "slug": "center",
+   "lemma": "དབུས་ན།",
+   "match_form": "དབུས་ན་",
+   "variants": [
+    "དབུས་ན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "center",
+    "within"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 232,
+   "composite": 0.1664,
+   "dropped": false
+  },
+  {
+   "id": "t-df2a39b1",
+   "slug": "gathered",
+   "lemma": "བརྩེགས་པ།",
+   "match_form": "བརྩེགས་པ་",
+   "variants": [
+    "བརྩེགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "gathered"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 233,
+   "composite": 0.1661,
+   "dropped": false
+  },
+  {
+   "id": "t-29db2041",
+   "slug": "endow",
+   "lemma": "ལྡན་མ།",
+   "match_form": "ལྡན་མ་",
+   "variants": [
+    "ལྡན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "endow",
+    "endowed"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 234,
+   "composite": 0.1658,
+   "dropped": false
+  },
+  {
+   "id": "t-624ac044",
+   "slug": "adorn",
+   "lemma": "བརྒྱན།",
+   "match_form": "བརྒྱན་",
+   "variants": [
+    "བརྒྱན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "adorn",
+    "adorned"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 235,
+   "composite": 0.1651,
+   "dropped": false
+  },
+  {
+   "id": "t-d5aeffa1",
+   "slug": "levels",
+   "lemma": "རིམ་པ།",
+   "match_form": "རིམ་པ་",
+   "variants": [
+    "རིམ་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "levels"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 236,
+   "composite": 0.1632,
+   "dropped": false
+  },
+  {
+   "id": "t-92c663f4",
+   "slug": "autumn",
+   "lemma": "སྟོན་ཀ།",
+   "match_form": "སྟོན་ཀ་",
+   "variants": [
+    "སྟོན་ཀ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "autumn"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 237,
+   "composite": 0.1628,
+   "dropped": false
+  },
+  {
+   "id": "t-34348b72",
+   "slug": "homage-ture",
+   "lemma": "ཕྱག་འཚལ་ཏུ་རེ།",
+   "match_form": "ཕྱག་འཚལ་ཏུ་རེ་",
+   "variants": [
+    "ཕྱག་འཚལ་ཏུ་རེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage ture"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 238,
+   "composite": 0.1617,
+   "dropped": false
+  },
+  {
+   "id": "t-0abaf921",
+   "slug": "beautifully",
+   "lemma": "རྣམ་པར།",
+   "match_form": "རྣམ་པར་",
+   "variants": [
+    "རྣམ་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "beautifully",
+    "completely",
+    "thoroughly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-13",
+    "1-3",
+    "1-9",
+    "a-5"
+   ],
+   "rank": 239,
+   "composite": 0.1615,
+   "dropped": false
+  },
+  {
+   "id": "t-e6f2179a",
+   "slug": "water-bear-lotus",
+   "lemma": "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ།",
+   "match_form": "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ་",
+   "variants": [
+    "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "water bear lotus"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3"
+   ],
+   "rank": 240,
+   "composite": 0.1566,
+   "dropped": false
+  },
+  {
+   "id": "t-33969154",
+   "slug": "spreads",
+   "lemma": "སྤེལ་མ།",
+   "match_form": "སྤེལ་མ་",
+   "variants": [
+    "སྤེལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "spreads"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 241,
+   "composite": 0.1563,
+   "dropped": false
+  },
+  {
+   "id": "t-f8d34740",
+   "slug": "tuttara-hum",
+   "lemma": "ཏུཏྟྭ་ར་ཧཱུྃ།",
+   "match_form": "ཏུཏྟྭ་ར་ཧཱུྃ་",
+   "variants": [
+    "ཏུཏྟྭ་ར་ཧཱུྃ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tuttara hum"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 242,
+   "composite": 0.156,
+   "dropped": false
+  },
+  {
+   "id": "t-8dacd191",
+   "slug": "hum-shatter",
+   "lemma": "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།",
+   "match_form": "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ་",
+   "variants": [
+    "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hum shatter",
+    "letter hum shatter"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 243,
+   "composite": 0.156,
+   "dropped": false
+  },
+  {
+   "id": "t-bf60c7c2",
+   "slug": "complete",
+   "lemma": "རབ་ཏུ།",
+   "match_form": "རབ་ཏུ་",
+   "variants": [
+    "རབ་ཏུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "complete",
+    "completely",
+    "exceedingly",
+    "highly",
+    "thoroughly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10",
+    "1-16",
+    "1-2",
+    "1-7",
+    "a-1",
+    "a-4"
+   ],
+   "rank": 244,
+   "composite": 0.1553,
+   "dropped": false
+  },
+  {
+   "id": "t-00a2680c",
+   "slug": "pronouncing",
+   "lemma": "བརྗོད།",
+   "match_form": "བརྗོད་",
+   "variants": [
+    "བརྗོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "pronouncing",
+    "uttering"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18",
+    "1-20"
+   ],
+   "rank": 245,
+   "composite": 0.1516,
+   "dropped": false
+  },
+  {
+   "id": "t-c4b11f40",
+   "slug": "blaze-3",
+   "lemma": "འབར་མ།",
+   "match_form": "འབར་མ་",
+   "variants": [
+    "འབར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "blaze",
+    "blazing"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12",
+    "1-2",
+    "1-7"
+   ],
+   "rank": 246,
+   "composite": 0.1507,
+   "dropped": false
+  },
+  {
+   "id": "t-4eb3ffbf",
+   "slug": "intelligent",
+   "lemma": "བློ་ལྡན།",
+   "match_form": "བློ་ལྡན་",
+   "variants": [
+    "བློ་ལྡན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "intelligent"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 247,
+   "composite": 0.1503,
+   "dropped": false
+  },
+  {
+   "id": "t-4a82fb2d",
+   "slug": "homage-tara",
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ།",
+   "match_form": "ཕྱག་འཚལ་སྒྲོལ་མ་",
+   "variants": [
+    "ཕྱག་འཚལ་སྒྲོལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 248,
+   "composite": 0.1476,
+   "dropped": false
+  },
+  {
+   "id": "t-c4b2e17d",
+   "slug": "assemblies-2",
+   "lemma": "ཚོགས་པ།",
+   "match_form": "ཚོགས་པ་",
+   "variants": [
+    "ཚོགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "assemblies",
+    "assembly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 249,
+   "composite": 0.1468,
+   "dropped": false
+  },
+  {
+   "id": "t-56bb78f7",
+   "slug": "spoken",
+   "lemma": "གསུངས་པ།",
+   "match_form": "གསུངས་པ་",
+   "variants": [
+    "གསུངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "spoken"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 250,
+   "composite": 0.144,
+   "dropped": false
+  },
+  {
+   "id": "t-ee46e82b",
+   "slug": "million-conqueror",
+   "lemma": "རྒྱལ་བ་བྱེ་བ།",
+   "match_form": "རྒྱལ་བ་བྱེ་བ་",
+   "variants": [
+    "རྒྱལ་བ་བྱེ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "million conqueror"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 251,
+   "composite": 0.1401,
+   "dropped": false
+  },
+  {
+   "id": "t-5e164803",
+   "slug": "endow-svaha",
+   "lemma": "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།",
+   "match_form": "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས་",
+   "variants": [
+    "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "endow svaha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 252,
+   "composite": 0.1372,
+   "dropped": false
+  },
+  {
+   "id": "t-946985d2",
+   "slug": "adorned",
+   "lemma": "བརྒྱན་པའི།",
+   "match_form": "བརྒྱན་པའི་",
+   "variants": [
+    "བརྒྱན་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "adorned"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 253,
+   "composite": 0.1371,
+   "dropped": false
+  },
+  {
+   "id": "t-d4abd964",
+   "slug": "move-2",
+   "lemma": "འགྲོ་བ།",
+   "match_form": "འགྲོ་བ་",
+   "variants": [
+    "འགྲོ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "move",
+    "moving"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 254,
+   "composite": 0.137,
+   "dropped": false
+  },
+  {
+   "id": "t-5b84a0c8",
+   "slug": "hand-3",
+   "lemma": "ཕྱག་གི།",
+   "match_form": "ཕྱག་གི་",
+   "variants": [
+    "ཕྱག་གི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hand"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 255,
+   "composite": 0.1365,
+   "dropped": false
+  },
+  {
+   "id": "t-8adff90f",
+   "slug": "nama",
+   "lemma": "ན་མཿ།",
+   "match_form": "ན་མཿ་",
+   "variants": [
+    "ན་མཿ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "nama",
+    "namaḥ"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 256,
+   "composite": 0.135,
+   "dropped": false
+  },
+  {
+   "id": "t-2bf187d2",
+   "slug": "herself",
+   "lemma": "ཉིད་མ།",
+   "match_form": "ཉིད་མ་",
+   "variants": [
+    "ཉིད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "herself"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 257,
+   "composite": 0.1335,
+   "dropped": false
+  },
+  {
+   "id": "t-6ae36b37",
+   "slug": "completely-destroy",
+   "lemma": "རབ་ཏུ་འཇོམས་མ།",
+   "match_form": "རབ་ཏུ་འཇོམས་མ་",
+   "variants": [
+    "རབ་ཏུ་འཇོམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely destroy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 258,
+   "composite": 0.1315,
+   "dropped": false
+  },
+  {
+   "id": "t-84da14a6",
+   "slug": "joyful-2",
+   "lemma": "དགའ་བའི།",
+   "match_form": "དགའ་བའི་",
+   "variants": [
+    "དགའ་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "joyful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16",
+    "1-19"
+   ],
+   "rank": 259,
+   "composite": 0.1314,
+   "dropped": false
+  },
+  {
+   "id": "t-0f7e16bb",
+   "slug": "eating",
+   "lemma": "ཟོས་པ།",
+   "match_form": "ཟོས་པ་",
+   "variants": [
+    "ཟོས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "eating"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 260,
+   "composite": 0.1308,
+   "dropped": false
+  },
+  {
+   "id": "t-45baeb67",
+   "slug": "able",
+   "lemma": "ནུས་མ།",
+   "match_form": "ནུས་མ་",
+   "variants": [
+    "ནུས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "able"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11",
+    "1-5"
+   ],
+   "rank": 261,
+   "composite": 0.1304,
+   "dropped": false
+  },
+  {
+   "id": "t-28be7cd9",
+   "slug": "homage-tara-swift",
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།",
+   "match_form": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་",
+   "variants": [
+    "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage tara swift"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 262,
+   "composite": 0.1287,
+   "dropped": false
+  },
+  {
+   "id": "t-57c77ec3",
+   "slug": "destroy-host",
+   "lemma": "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།",
+   "match_form": "དཔུང་ནི་རྣམ་པར་འཇོམས་མ་",
+   "variants": [
+    "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "destroy host"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 263,
+   "composite": 0.1266,
+   "dropped": false
+  },
+  {
+   "id": "t-b457cae0",
+   "slug": "exception",
+   "lemma": "ལུས་པ་མེད་པར།",
+   "match_form": "ལུས་པ་མེད་པར་",
+   "variants": [
+    "ལུས་པ་མེད་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exception",
+    "without"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 264,
+   "composite": 0.1262,
+   "dropped": false
+  },
+  {
+   "id": "t-40949fb1",
+   "slug": "recited",
+   "lemma": "བརྗོད་པ།",
+   "match_form": "བརྗོད་པ་",
+   "variants": [
+    "བརྗོད་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "recited",
+    "reciting"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1",
+    "a-5"
+   ],
+   "rank": 265,
+   "composite": 0.1221,
+   "dropped": false
+  },
+  {
+   "id": "t-f25138f6",
+   "slug": "arrangement",
+   "lemma": "བཀོད་པའི།",
+   "match_form": "བཀོད་པའི་",
+   "variants": [
+    "བཀོད་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "arrangement",
+    "arranges"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16",
+    "1-21"
+   ],
+   "rank": 266,
+   "composite": 0.1217,
+   "dropped": false
+  },
+  {
+   "id": "t-5d89e554",
+   "slug": "conferred",
+   "lemma": "བསྐུར་བ།",
+   "match_form": "བསྐུར་བ་",
+   "variants": [
+    "བསྐུར་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conferred"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 267,
+   "composite": 0.1203,
+   "dropped": false
+  },
+  {
+   "id": "t-56e16446",
+   "slug": "exceeding",
+   "lemma": "ཤིན་ཏུ།",
+   "match_form": "ཤིན་ཏུ་",
+   "variants": [
+    "ཤིན་ཏུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exceeding",
+    "exceedingly",
+    "extremely",
+    "intensely",
+    "most"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12",
+    "1-20",
+    "1-4",
+    "1-7"
+   ],
+   "rank": 268,
+   "composite": 0.1192,
+   "dropped": false
+  },
+  {
+   "id": "t-e25df4c1",
+   "slug": "exceedingly-brilliant",
+   "lemma": "རབ་གསལ་མ།",
+   "match_form": "རབ་གསལ་མ་",
+   "variants": [
+    "རབ་གསལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exceedingly brilliant"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 269,
+   "composite": 0.1166,
+   "dropped": false
+  },
+  {
+   "id": "t-206a60b6",
+   "slug": "drinking",
+   "lemma": "འཐུངས་པ།",
+   "match_form": "འཐུངས་པ་",
+   "variants": [
+    "འཐུངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "drinking"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 270,
+   "composite": 0.1166,
+   "dropped": false
+  },
+  {
+   "id": "t-5c7077c4",
+   "slug": "make-2",
+   "lemma": "མཛད་མ།",
+   "match_form": "མཛད་མ་",
+   "variants": [
+    "མཛད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "make",
+    "making"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 271,
+   "composite": 0.1164,
+   "dropped": false
+  },
+  {
+   "id": "t-d9cfa722",
+   "slug": "taras",
+   "lemma": "ཏཱ་ར་གཉིས།",
+   "match_form": "ཏཱ་ར་གཉིས་",
+   "variants": [
+    "ཏཱ་ར་གཉིས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "taras"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 272,
+   "composite": 0.1157,
+   "dropped": false
+  },
+  {
+   "id": "t-d682542b",
+   "slug": "tibet",
+   "lemma": "བོད།",
+   "match_form": "བོད་",
+   "variants": [
+    "བོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tibet"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 273,
+   "composite": 0.1148,
+   "dropped": false
+  },
+  {
+   "id": "t-57ae8d56",
+   "slug": "t-re",
+   "lemma": "ཏཱ་རཱ།",
+   "match_form": "ཏཱ་རཱ་",
+   "variants": [
+    "ཏཱ་རཱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tāre"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 274,
+   "composite": 0.1144,
+   "dropped": false
+  },
+  {
+   "id": "t-c49ca9ac",
+   "slug": "end",
+   "lemma": "ཐ་མའི།",
+   "match_form": "ཐ་མའི་",
+   "variants": [
+    "ཐ་མའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "end"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 275,
+   "composite": 0.113,
+   "dropped": false
+  },
+  {
+   "id": "t-fa099a28",
+   "slug": "possess",
+   "lemma": "ལྡན།",
+   "match_form": "ལྡན་",
+   "variants": [
+    "ལྡན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "possess"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 276,
+   "composite": 0.1129,
+   "dropped": false
+  },
+  {
+   "id": "t-075ee13b",
+   "slug": "brilliant",
+   "lemma": "གསལ་མ།",
+   "match_form": "གསལ་མ་",
+   "variants": [
+    "གསལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "brilliant",
+    "shed",
+    "shedding"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-20"
+   ],
+   "rank": 277,
+   "composite": 0.1067,
+   "dropped": false
+  },
+  {
+   "id": "t-663e537e",
+   "slug": "goes",
+   "lemma": "འགྲོ།",
+   "match_form": "འགྲོ་",
+   "variants": [
+    "འགྲོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "goes"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 278,
+   "composite": 0.1048,
+   "dropped": false
+  },
+  {
+   "id": "t-2a35ee12",
+   "slug": "form",
+   "lemma": "རྣམ་པའི།",
+   "match_form": "རྣམ་པའི་",
+   "variants": [
+    "རྣམ་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "form"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17",
+    "1-18"
+   ],
+   "rank": 279,
+   "composite": 0.1036,
+   "dropped": false
+  },
+  {
+   "id": "t-281fb015",
+   "slug": "brilliant-2",
+   "lemma": "རབ་ཏུ་ཕྱེ་བ།",
+   "match_form": "རབ་ཏུ་ཕྱེ་བ་",
+   "variants": [
+    "རབ་ཏུ་ཕྱེ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "brilliant"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 280,
+   "composite": 0.1015,
+   "dropped": false
+  },
+  {
+   "id": "t-efe134e6",
+   "slug": "exceed-light",
+   "lemma": "ཤིན་ཏུ་འོད།",
+   "match_form": "ཤིན་ཏུ་འོད་",
+   "variants": [
+    "ཤིན་ཏུ་འོད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exceed light"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 281,
+   "composite": 0.1015,
+   "dropped": false
+  },
+  {
+   "id": "t-5178bebe",
+   "slug": "completely-perfect-buddha",
+   "lemma": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།",
+   "match_form": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་",
+   "variants": [
+    "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely perfect buddha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 282,
+   "composite": 0.1013,
+   "dropped": false
+  },
+  {
+   "id": "t-f3f9ae8c",
+   "slug": "adorn-2",
+   "lemma": "བརྒྱན་མ།",
+   "match_form": "བརྒྱན་མ་",
+   "variants": [
+    "བརྒྱན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "adorn",
+    "adorned"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-3",
+    "1-9"
+   ],
+   "rank": 283,
+   "composite": 0.101,
+   "dropped": false
+  },
+  {
+   "id": "t-8ad023d7",
+   "slug": "completely-2",
+   "lemma": "མ་ལུས་པར།",
+   "match_form": "མ་ལུས་པར་",
+   "variants": [
+    "མ་ལུས་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely",
+    "exception",
+    "without"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 284,
+   "composite": 0.101,
+   "dropped": false
+  },
+  {
+   "id": "t-97e5b227",
+   "slug": "endow-2",
+   "lemma": "ལྡན་པ།",
+   "match_form": "ལྡན་པ་",
+   "variants": [
+    "ལྡན་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "endow",
+    "endowed"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 285,
+   "composite": 0.1001,
+   "dropped": false
+  },
+  {
+   "id": "t-5ecdf38a",
+   "slug": "subdue-mara",
+   "lemma": "བདུད་...དབང་དུ་མཛད།",
+   "match_form": "བདུད་...དབང་དུ་མཛད་",
+   "variants": [
+    "བདུད་...དབང་དུ་མཛད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "subdue mara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 286,
+   "composite": 0.0977,
+   "dropped": false
+  },
+  {
+   "id": "t-81258f25",
+   "slug": "grimace",
+   "lemma": "ཁྲོ་གཉེར་ཅན་མཛད།",
+   "match_form": "ཁྲོ་གཉེར་ཅན་མཛད་",
+   "variants": [
+    "ཁྲོ་གཉེར་ཅན་མཛད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "grimace"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-14"
+   ],
+   "rank": 287,
+   "composite": 0.0972,
+   "dropped": false
+  },
+  {
+   "id": "t-d7b330d6",
+   "slug": "perfect-2",
+   "lemma": "ཡང་དག།",
+   "match_form": "ཡང་དག་",
+   "variants": [
+    "ཡང་དག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "perfect",
+    "perfectly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15",
+    "1-21"
+   ],
+   "rank": 288,
+   "composite": 0.0971,
+   "dropped": false
+  },
+  {
+   "id": "t-1f0139d1",
+   "slug": "abiding",
+   "lemma": "གནས་པ།",
+   "match_form": "གནས་པ་",
+   "variants": [
+    "གནས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "abiding"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-4"
+   ],
+   "rank": 289,
+   "composite": 0.0971,
+   "dropped": false
+  },
+  {
+   "id": "t-60ce88c6",
+   "slug": "language",
+   "lemma": "སྐད།",
+   "match_form": "སྐད་",
+   "variants": [
+    "སྐད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "language"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 290,
+   "composite": 0.0957,
+   "dropped": false
+  },
+  {
+   "id": "t-020d1fab",
+   "slug": "speech",
+   "lemma": "ངག།",
+   "match_form": "ངག་",
+   "variants": [
+    "ངག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "speech"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 291,
+   "composite": 0.0948,
+   "dropped": false
+  },
+  {
+   "id": "t-a24715ad",
+   "slug": "together",
+   "lemma": "དང་བཅས་པ།",
+   "match_form": "དང་བཅས་པ་",
+   "variants": [
+    "དང་བཅས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "together"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 292,
+   "composite": 0.0941,
+   "dropped": false
+  },
+  {
+   "id": "t-263e2749",
+   "slug": "ten",
+   "lemma": "བཅུ་པའི།",
+   "match_form": "བཅུ་པའི་",
+   "variants": [
+    "བཅུ་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ten"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 293,
+   "composite": 0.0908,
+   "dropped": false
+  },
+  {
+   "id": "t-bceac303",
+   "slug": "syllable",
+   "lemma": "ཅེས་བྱ།",
+   "match_form": "ཅེས་བྱ་",
+   "variants": [
+    "ཅེས་བྱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "syllable"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 294,
+   "composite": 0.0878,
+   "dropped": false
+  },
+  {
+   "id": "t-eba03fe9",
+   "slug": "lamp",
+   "lemma": "སྒྲོན་མ།",
+   "match_form": "སྒྲོན་མ་",
+   "variants": [
+    "སྒྲོན་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "lamp"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 295,
+   "composite": 0.0875,
+   "dropped": false
+  },
+  {
+   "id": "t-a42119c6",
+   "slug": "midst",
+   "lemma": "ཁྲོད་ན།",
+   "match_form": "ཁྲོད་ན་",
+   "variants": [
+    "ཁྲོད་ན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "midst"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 296,
+   "composite": 0.0857,
+   "dropped": false
+  },
+  {
+   "id": "t-7b71deb1",
+   "slug": "tara-swift",
+   "lemma": "སྒྲོལ་མ་མྱུར་མ།",
+   "match_form": "སྒྲོལ་མ་མྱུར་མ་",
+   "variants": [
+    "སྒྲོལ་མ་མྱུར་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tara swift"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 297,
+   "composite": 0.0847,
+   "dropped": false
+  },
+  {
+   "id": "t-b9930f36",
+   "slug": "hum-syllable",
+   "lemma": "ཧཱུྃ་ཡི་གེ།",
+   "match_form": "ཧཱུྃ་ཡི་གེ་",
+   "variants": [
+    "ཧཱུྃ་ཡི་གེ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hum syllable"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 298,
+   "composite": 0.0824,
+   "dropped": false
+  },
+  {
+   "id": "t-8322f27f",
+   "slug": "practices",
+   "lemma": "སྤྱོད་མ།",
+   "match_form": "སྤྱོད་མ་",
+   "variants": [
+    "སྤྱོད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "practices"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-4"
+   ],
+   "rank": 299,
+   "composite": 0.0821,
+   "dropped": false
+  },
+  {
+   "id": "t-906ea037",
+   "slug": "completed",
+   "lemma": "རྫོགས་སོ།",
+   "match_form": "རྫོགས་སོ་",
+   "variants": [
+    "རྫོགས་སོ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completed"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 300,
+   "composite": 0.082,
+   "dropped": false
+  },
+  {
+   "id": "t-96346e63",
+   "slug": "praised",
+   "lemma": "བསྟོད་མ།",
+   "match_form": "བསྟོད་མ་",
+   "variants": [
+    "བསྟོད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "praised"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 301,
+   "composite": 0.0818,
+   "dropped": false
+  },
+  {
+   "id": "t-990029b8",
+   "slug": "agitates",
+   "lemma": "འཁྲུག་མ།",
+   "match_form": "འཁྲུག་མ་",
+   "variants": [
+    "འཁྲུག་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "agitates"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-9"
+   ],
+   "rank": 302,
+   "composite": 0.0783,
+   "dropped": false
+  },
+  {
+   "id": "t-61146daf",
+   "slug": "exceedingly-joyful-crown-ornament",
+   "lemma": "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན།",
+   "match_form": "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན་",
+   "variants": [
+    "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "exceedingly joyful crown ornament"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 303,
+   "composite": 0.0783,
+   "dropped": false
+  },
+  {
+   "id": "t-0cf5400e",
+   "slug": "constantly-make",
+   "lemma": "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "match_form": "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ་",
+   "variants": [
+    "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "constantly make",
+    "constantly make exceed"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 304,
+   "composite": 0.0776,
+   "dropped": false
+  },
+  {
+   "id": "t-e28ed6de",
+   "slug": "garland",
+   "lemma": "ཕྲེང་བའི།",
+   "match_form": "ཕྲེང་བའི་",
+   "variants": [
+    "ཕྲེང་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "garland"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 305,
+   "composite": 0.0735,
+   "dropped": false
+  },
+  {
+   "id": "t-54489360",
+   "slug": "completely-pacify",
+   "lemma": "རབ་ཏུ་ཞི་བ།",
+   "match_form": "རབ་ཏུ་ཞི་བ་",
+   "variants": [
+    "རབ་ཏུ་ཞི་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely pacify"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 306,
+   "composite": 0.0726,
+   "dropped": false
+  },
+  {
+   "id": "t-5d7dff72",
+   "slug": "greatness",
+   "lemma": "ཆེ་བ་ཉིད།",
+   "match_form": "ཆེ་བ་ཉིད་",
+   "variants": [
+    "ཆེ་བ་ཉིད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "greatness"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 307,
+   "composite": 0.0724,
+   "dropped": false
+  },
+  {
+   "id": "t-3b8b32ca",
+   "slug": "afflicted",
+   "lemma": "གཟིར་བ།",
+   "match_form": "གཟིར་བ་",
+   "variants": [
+    "གཟིར་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "afflicted"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 308,
+   "composite": 0.0719,
+   "dropped": false
+  },
+  {
+   "id": "t-c8b7c189",
+   "slug": "great-2",
+   "lemma": "ཆེ་བ།",
+   "match_form": "ཆེ་བ་",
+   "variants": [
+    "ཆེ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "great"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 309,
+   "composite": 0.0685,
+   "dropped": false
+  },
+  {
+   "id": "t-b9b39384",
+   "slug": "bhagavati-tara",
+   "lemma": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།",
+   "match_form": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ་",
+   "variants": [
+    "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bhagavati tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 310,
+   "composite": 0.0684,
+   "dropped": false
+  },
+  {
+   "id": "t-08ddbabc",
+   "slug": "perfect-3",
+   "lemma": "ཡང་དག་པ།",
+   "match_form": "ཡང་དག་པ་",
+   "variants": [
+    "ཡང་དག་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "perfect"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-1"
+   ],
+   "rank": 311,
+   "composite": 0.0676,
+   "dropped": false
+  },
+  {
+   "id": "t-429d4523",
+   "slug": "individually",
+   "lemma": "སོ་སོར།",
+   "match_form": "སོ་སོར་",
+   "variants": [
+    "སོ་སོར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "individually"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-6"
+   ],
+   "rank": 312,
+   "composite": 0.0671,
+   "dropped": false
+  },
+  {
+   "id": "t-737947c0",
+   "slug": "completely-3",
+   "lemma": "ཡང་དག་པར།",
+   "match_form": "ཡང་དག་པར་",
+   "variants": [
+    "ཡང་དག་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 313,
+   "composite": 0.0671,
+   "dropped": false
+  },
+  {
+   "id": "t-27532305",
+   "slug": "language-tibet",
+   "lemma": "བོད་སྐད།",
+   "match_form": "བོད་སྐད་",
+   "variants": [
+    "བོད་སྐད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "language tibet"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 314,
+   "composite": 0.0601,
+   "dropped": false
+  },
+  {
+   "id": "t-c4a7f2f8",
+   "slug": "homage-tuttara",
+   "lemma": "ཕྱག་འཚལ་ཏུཏྟྭ་ར།",
+   "match_form": "ཕྱག་འཚལ་ཏུཏྟྭ་ར་",
+   "variants": [
+    "ཕྱག་འཚལ་ཏུཏྟྭ་ར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "homage tuttara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 315,
+   "composite": 0.0582,
+   "dropped": false
+  },
+  {
+   "id": "t-d47c11d5",
+   "slug": "syllables-2",
+   "lemma": "ཏྲད་ཅེས་བྱ་དང་ཕཊ།",
+   "match_form": "ཏྲད་ཅེས་བྱ་དང་ཕཊ་",
+   "variants": [
+    "ཏྲད་ཅེས་བྱ་དང་ཕཊ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "syllables"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 316,
+   "composite": 0.0582,
+   "dropped": false
+  },
+  {
+   "id": "t-40fc98a7",
+   "slug": "water-bear-face-possess",
+   "lemma": "ཆུ་སྐྱེས་ཞལ་...ལྡན།",
+   "match_form": "ཆུ་སྐྱེས་ཞལ་...ལྡན་",
+   "variants": [
+    "ཆུ་སྐྱེས་ཞལ་...ལྡན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "water bear face possess"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-8"
+   ],
+   "rank": 317,
+   "composite": 0.0582,
+   "dropped": false
+  },
+  {
+   "id": "t-37401249",
+   "slug": "hum-move",
+   "lemma": "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།",
+   "match_form": "གཡོ་བའི་ཡི་གེ་ཧཱུཾ་",
+   "variants": [
+    "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "hum move",
+    "letter hum move"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-11"
+   ],
+   "rank": 318,
+   "composite": 0.0582,
+   "dropped": false
+  },
+  {
+   "id": "t-79ce9f95",
+   "slug": "supreme",
+   "lemma": "རབ་མཆོག།",
+   "match_form": "རབ་མཆོག་",
+   "variants": [
+    "རབ་མཆོག།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "supreme"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-21"
+   ],
+   "rank": 319,
+   "composite": 0.058,
+   "dropped": false
+  },
+  {
+   "id": "t-e3e00367",
+   "slug": "perfect-4",
+   "lemma": "རྫོགས་པ།",
+   "match_form": "རྫོགས་པ་",
+   "variants": [
+    "རྫོགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "perfect",
+    "perfected"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 320,
+   "composite": 0.0578,
+   "dropped": false
+  },
+  {
+   "id": "t-ab1344d9",
+   "slug": "syllable-trad",
+   "lemma": "ཏྲད་ཅེས་བྱ།",
+   "match_form": "ཏྲད་ཅེས་བྱ་",
+   "variants": [
+    "ཏྲད་ཅེས་བྱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "syllable trad"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 321,
+   "composite": 0.0577,
+   "dropped": false
+  },
+  {
+   "id": "t-a118127a",
+   "slug": "opening",
+   "lemma": "ཕྱེ་བ།",
+   "match_form": "ཕྱེ་བ་",
+   "variants": [
+    "ཕྱེ་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "opening"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-1"
+   ],
+   "rank": 322,
+   "composite": 0.0573,
+   "dropped": false
+  },
+  {
+   "id": "t-5892e128",
+   "slug": "arise-2",
+   "lemma": "ལངས་པ།",
+   "match_form": "ལངས་པ་",
+   "variants": [
+    "ལངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "arise",
+    "arisen"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 323,
+   "composite": 0.0572,
+   "dropped": false
+  },
+  {
+   "id": "t-8400425a",
+   "slug": "venerable-tara",
+   "lemma": "རྗེ་བཙུན་མ་སྒྲོལ་མ།",
+   "match_form": "རྗེ་བཙུན་མ་སྒྲོལ་མ་",
+   "variants": [
+    "རྗེ་བཙུན་མ་སྒྲོལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "venerable tara"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 324,
+   "composite": 0.0557,
+   "dropped": false
+  },
+  {
+   "id": "t-d63dc7af",
+   "slug": "completely-joyful",
+   "lemma": "རབ་དགའ་བའི།",
+   "match_form": "རབ་དགའ་བའི་",
+   "variants": [
+    "རབ་དགའ་བའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely joyful"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-16"
+   ],
+   "rank": 325,
+   "composite": 0.0546,
+   "dropped": false
+  },
+  {
+   "id": "t-706e23b6",
+   "slug": "india",
+   "lemma": "རྒྱ་གར།",
+   "match_form": "རྒྱ་གར་",
+   "variants": [
+    "རྒྱ་གར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "india"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 326,
+   "composite": 0.0544,
+   "dropped": false
+  },
+  {
+   "id": "t-5358dfae",
+   "slug": "subdues",
+   "lemma": "དབང་དུ་མཛད་མ།",
+   "match_form": "དབང་དུ་མཛད་མ་",
+   "variants": [
+    "དབང་དུ་མཛད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "subdues"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 327,
+   "composite": 0.053,
+   "dropped": false
+  },
+  {
+   "id": "t-90dbb51b",
+   "slug": "completely-eliminate",
+   "lemma": "རྣམ་པར་སྤོང་བ།",
+   "match_form": "རྣམ་པར་སྤོང་བ་",
+   "variants": [
+    "རྣམ་པར་སྤོང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely eliminate"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 328,
+   "composite": 0.053,
+   "dropped": false
+  },
+  {
+   "id": "t-92b8c5b2",
+   "slug": "perfect-buddha",
+   "lemma": "རྫོགས་པའི་སངས་རྒྱས།",
+   "match_form": "རྫོགས་པའི་སངས་རྒྱས་",
+   "variants": [
+    "རྫོགས་པའི་སངས་རྒྱས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "perfect buddha"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 329,
+   "composite": 0.0527,
+   "dropped": false
+  },
+  {
+   "id": "t-67e0295a",
+   "slug": "brilliant-3",
+   "lemma": "བརྗིད་པའི།",
+   "match_form": "བརྗིད་པའི་",
+   "variants": [
+    "བརྗིད་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "brilliant"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 330,
+   "composite": 0.0499,
+   "dropped": false
+  },
+  {
+   "id": "t-5c238b95",
+   "slug": "like",
+   "lemma": "བརྩེགས་པའི།",
+   "match_form": "བརྩེགས་པའི་",
+   "variants": [
+    "བརྩེགས་པའི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "like"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 331,
+   "composite": 0.0483,
+   "dropped": false
+  },
+  {
+   "id": "t-b724db2d",
+   "slug": "joy",
+   "lemma": "དགས།",
+   "match_form": "དགས་",
+   "variants": [
+    "དགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "joy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-13"
+   ],
+   "rank": 332,
+   "composite": 0.0483,
+   "dropped": false
+  },
+  {
+   "id": "t-e029a937",
+   "slug": "trad-phat",
+   "lemma": "ཏྲད་...ཕཊ།",
+   "match_form": "ཏྲད་...ཕཊ་",
+   "variants": [
+    "ཏྲད་...ཕཊ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "trad phat"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 333,
+   "composite": 0.0395,
+   "dropped": false
+  },
+  {
+   "id": "t-a9fe4272",
+   "slug": "nama-t-re-ekavi-ati",
+   "lemma": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "match_form": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་",
+   "variants": [
+    "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "namaḥ tāre ekaviṃśati"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 334,
+   "composite": 0.0388,
+   "dropped": false
+  },
+  {
+   "id": "t-c8234426",
+   "slug": "crown-ornament-spread",
+   "lemma": "དབུ་རྒྱན་...སྤེལ་མ།",
+   "match_form": "དབུ་རྒྱན་...སྤེལ་མ་",
+   "variants": [
+    "དབུ་རྒྱན་...སྤེལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "crown ornament spread"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 335,
+   "composite": 0.0388,
+   "dropped": false
+  },
+  {
+   "id": "t-89970002",
+   "slug": "attain",
+   "lemma": "འཐོབ།",
+   "match_form": "འཐོབ་",
+   "variants": [
+    "འཐོབ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "attain",
+    "attaining"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 336,
+   "composite": 0.0386,
+   "dropped": false
+  },
+  {
+   "id": "t-6d56b77d",
+   "slug": "completely-bestow",
+   "lemma": "རབ་སྟེར།",
+   "match_form": "རབ་སྟེར་",
+   "variants": [
+    "རབ་སྟེར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely bestow"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-2"
+   ],
+   "rank": 337,
+   "composite": 0.0383,
+   "dropped": false
+  },
+  {
+   "id": "t-d7226833",
+   "slug": "clearly",
+   "lemma": "མངོན་པར།",
+   "match_form": "མངོན་པར་",
+   "variants": [
+    "མངོན་པར།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "clearly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 338,
+   "composite": 0.0381,
+   "dropped": false
+  },
+  {
+   "id": "t-ddf22b8c",
+   "slug": "completely-dispel",
+   "lemma": "མ་ལུས་པར་ནི་སེལ་མ།",
+   "match_form": "མ་ལུས་པར་ནི་སེལ་མ་",
+   "variants": [
+    "མ་ལུས་པར་ནི་སེལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely dispel"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-18"
+   ],
+   "rank": 339,
+   "composite": 0.0336,
+   "dropped": false
+  },
+  {
+   "id": "t-69bf9768",
+   "slug": "ati",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "match_form": "ཨེ་ཀ་བིཾ་ཤ་ཏི་",
+   "variants": [
+    "ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ati",
+    "ekaviṃśati"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 340,
+   "composite": 0.0289,
+   "dropped": false
+  },
+  {
+   "id": "t-5835b823",
+   "slug": "language-india",
+   "lemma": "རྒྱ་གར་སྐད།",
+   "match_form": "རྒྱ་གར་སྐད་",
+   "variants": [
+    "རྒྱ་གར་སྐད།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "language india"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 341,
+   "composite": 0.0289,
+   "dropped": false
+  },
+  {
+   "id": "t-7ea9d687",
+   "slug": "stotra",
+   "lemma": "སྟོ་ཏྲ།",
+   "match_form": "སྟོ་ཏྲ་",
+   "variants": [
+    "སྟོ་ཏྲ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stotra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 342,
+   "composite": 0.0289,
+   "dropped": false
+  },
+  {
+   "id": "t-4fb7a928",
+   "slug": "fill",
+   "lemma": "གང་མ།",
+   "match_form": "གང་མ་",
+   "variants": [
+    "གང་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "fill",
+    "filling"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-5"
+   ],
+   "rank": 343,
+   "composite": 0.0284,
+   "dropped": false
+  },
+  {
+   "id": "t-24bda866",
+   "slug": "endow-3",
+   "lemma": "ཡང་དག་ལྡན་པས།",
+   "match_form": "ཡང་དག་ལྡན་པས་",
+   "variants": [
+    "ཡང་དག་ལྡན་པས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "endow",
+    "endowed"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-15"
+   ],
+   "rank": 344,
+   "composite": 0.0242,
+   "dropped": false
+  },
+  {
+   "id": "t-87eb4b06",
+   "slug": "ekavi-ati-stotra-gu-ahitas-ka",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "match_form": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ་",
+   "variants": [
+    "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ekaviṃśati stotra guṇahitasāka"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 345,
+   "composite": 0.0241,
+   "dropped": false
+  },
+  {
+   "id": "t-a7fa9ce5",
+   "slug": "gu-ahitas-ka",
+   "lemma": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "match_form": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ་",
+   "variants": [
+    "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "guṇahitasāka"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 346,
+   "composite": 0.0241,
+   "dropped": false
+  },
+  {
+   "id": "t-ea94a61f",
+   "slug": "stotra-gu-ahitas-ka",
+   "lemma": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "match_form": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ་",
+   "variants": [
+    "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "stotra guṇahitasāka"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 347,
+   "composite": 0.0241,
+   "dropped": false
+  },
+  {
+   "id": "t-7487fbc3",
+   "slug": "eliminated",
+   "lemma": "སྤོང་བ།",
+   "match_form": "སྤོང་བ་",
+   "variants": [
+    "སྤོང་བ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "eliminated"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-5"
+   ],
+   "rank": 348,
+   "composite": 0.0237,
+   "dropped": false
+  },
+  {
+   "id": "t-bfc58dfd",
+   "slug": "completely-perfect",
+   "lemma": "ཡང་དག་པར་རྫོགས་པ།",
+   "match_form": "ཡང་དག་པར་རྫོགས་པ་",
+   "variants": [
+    "ཡང་དག་པར་རྫོགས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "completely perfect"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 349,
+   "composite": 0.0236,
+   "dropped": false
+  },
+  {
+   "id": "t-ee90e643",
+   "slug": "nama-t-re",
+   "lemma": "ན་མཿཏཱ་རཱ།",
+   "match_form": "ན་མཿཏཱ་རཱ་",
+   "variants": [
+    "ན་མཿཏཱ་རཱ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "namaḥ tāre"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 350,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-7b95d7b6",
+   "slug": "worship-indra",
+   "lemma": "བརྒྱ་བྱིན་...མཆོད་མ།",
+   "match_form": "བརྒྱ་བྱིན་...མཆོད་མ་",
+   "variants": [
+    "བརྒྱ་བྱིན་...མཆོད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "worship indra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 351,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-614ae033",
+   "slug": "make-exceed",
+   "lemma": "ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "match_form": "ཤིན་ཏུ་འོད་ནི་མཛད་མ་",
+   "variants": [
+    "ཤིན་ཏུ་འོད་ནི་མཛད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "make exceed",
+    "make exceed light"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-12"
+   ],
+   "rank": 352,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-b855fa39",
+   "slug": "causes",
+   "lemma": "གཡོ་བ་ཉིད་མ།",
+   "match_form": "གཡོ་བ་ཉིད་མ་",
+   "variants": [
+    "གཡོ་བ་ཉིད་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "causes"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-17"
+   ],
+   "rank": 353,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-4a3bbe4d",
+   "slug": "conqueror-quickly-empowerment",
+   "lemma": "རྒྱལ་བ...མྱུར་དུ་དབང་།",
+   "match_form": "རྒྱལ་བ...མྱུར་དུ་དབང་",
+   "variants": [
+    "རྒྱལ་བ...མྱུར་དུ་དབང་།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conqueror quickly empowerment"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 354,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-53db94a4",
+   "slug": "bhagavati-tara-speak",
+   "lemma": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ...གསུངས་པ།",
+   "match_form": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ...གསུངས་པ་",
+   "variants": [
+    "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ...གསུངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "bhagavati tara speak"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 355,
+   "composite": 0.0194,
+   "dropped": false
+  },
+  {
+   "id": "t-acdd3cb4",
+   "slug": "together-2",
+   "lemma": "ཀུན་དུ།",
+   "match_form": "ཀུན་དུ་",
+   "variants": [
+    "ཀུན་དུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "together"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-2"
+   ],
+   "rank": 356,
+   "composite": 0.0142,
+   "dropped": false
+  },
+  {
+   "id": "t-8cf8d659",
+   "slug": "ekavi-ati-stotra",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "match_form": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་",
+   "variants": [
+    "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "ekaviṃśati stotra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 357,
+   "composite": 0.0047,
+   "dropped": false
+  },
+  {
+   "id": "t-fe85de61",
+   "slug": "t-re-ekavi-ati",
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "match_form": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་",
+   "variants": [
+    "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tāre ekaviṃśati"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 358,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-bdf7fa0c",
+   "slug": "t-re-ekavi-ati-stotra",
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "match_form": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་",
+   "variants": [
+    "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tāre ekaviṃśati stotra"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "I-1"
+   ],
+   "rank": 359,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-f731e9f6",
+   "slug": "host-bhuta",
+   "lemma": "འབྱུང་པོ་...ཚོགས།",
+   "match_form": "འབྱུང་པོ་...ཚོགས་",
+   "variants": [
+    "འབྱུང་པོ་...ཚོགས།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "host bhuta"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-6"
+   ],
+   "rank": 360,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-bb11fcdf",
+   "slug": "phat-completely",
+   "lemma": "ཕཊ་...རབ་ཏུ།",
+   "match_form": "ཕཊ་...རབ་ཏུ་",
+   "variants": [
+    "ཕཊ་...རབ་ཏུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "phat completely"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 361,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-d2adc2d8",
+   "slug": "phat-completely-destroy",
+   "lemma": "ཕཊ་...རབ་ཏུ་འཇོམས་མ།",
+   "match_form": "ཕཊ་...རབ་ཏུ་འཇོམས་མ་",
+   "variants": [
+    "ཕཊ་...རབ་ཏུ་འཇོམས་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "phat completely destroy"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-7"
+   ],
+   "rank": 362,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-35b66c31",
+   "slug": "joyful-crown-ornament",
+   "lemma": "དགའ་བ་...དབུ་རྒྱན།",
+   "match_form": "དགའ་བ་...དབུ་རྒྱན་",
+   "variants": [
+    "དགའ་བ་...དབུ་རྒྱན།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "joyful crown ornament"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 363,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-a1efa82f",
+   "slug": "joyful-crown-ornament-spread",
+   "lemma": "དགའ་བ་...སྤེལ་མ།",
+   "match_form": "དགའ་བ་...སྤེལ་མ་",
+   "variants": [
+    "དགའ་བ་...སྤེལ་མ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "joyful crown ornament spread"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "1-10"
+   ],
+   "rank": 364,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-7f46dc1e",
+   "slug": "conqueror-quickly",
+   "lemma": "རྒྱལ་བ...མྱུར་དུ།",
+   "match_form": "རྒྱལ་བ...མྱུར་དུ་",
+   "variants": [
+    "རྒྱལ་བ...མྱུར་དུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "conqueror quickly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 365,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-c96a3ac5",
+   "slug": "million-conqueror-quickly",
+   "lemma": "རྒྱལ་བ་བྱེ་བ...མྱུར་དུ།",
+   "match_form": "རྒྱལ་བ་བྱེ་བ...མྱུར་དུ་",
+   "variants": [
+    "རྒྱལ་བ་བྱེ་བ...མྱུར་དུ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "million conqueror quickly"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-3"
+   ],
+   "rank": 366,
+   "composite": 0.0,
+   "dropped": false
+  },
+  {
+   "id": "t-95458c53",
+   "slug": "tara-speak",
+   "lemma": "སྒྲོལ་མ...གསུངས་པ།",
+   "match_form": "སྒྲོལ་མ...གསུངས་པ་",
+   "variants": [
+    "སྒྲོལ་མ...གསུངས་པ།"
+   ],
+   "synonyms": [],
+   "epithets": [],
+   "english_renderings": [
+    "tara speak"
+   ],
+   "root_text_prior": true,
+   "root_text_blocks": [
+    "a-7"
+   ],
+   "rank": 367,
+   "composite": 0.0,
+   "dropped": false
+  }
+ ]
+}

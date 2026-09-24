@@ -3,6 +3,10 @@ name: BCA-Term-Definition
 description: Extract verbatim definitions of key terms from Tibetan commentaries and fill them into the Meaning column of BCA-Term-Localization.md, formatted in traditional Tibetan quotation style.
 ---
 
+> **⚠ SUPERSEDED 2026-09-22 — do not run this skill.** Replaced by [`term-definition`](../term-definition/SKILL.md), the consolidated version, which does the same extraction against `2-RAILS/termbases/term-localization.md` and is paired with [`term-localization`](../term-localization/SKILL.md) for the rendering step.
+> This file is kept only so links and old run notes still resolve. Deleting it is a human contributor's call.
+
+
 # BCA-Term-Definition
 
 This skill populates the **Meaning** column of `2-RAILS/Local-Wiki/BCA-Term-Localization.md` by locating definitional passages in `1-SOURCES/Commentaries/` and extracting them verbatim. A definitional passage is one where a commentary explains a term using the formulaic markers `[term]ནི་`, `[term]ཞེས་པ་ནི་`, or `[term]ཅེས་པ་ནི་`. Extracted text is formatted in traditional Tibetan quotation style. The skill never paraphrases, summarises, or writes any explanatory text of its own — all content comes word-for-word from the cited commentary.

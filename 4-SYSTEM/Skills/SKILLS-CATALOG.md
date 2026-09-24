@@ -203,14 +203,42 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One file at `2-RAILS/Local-Wiki/<term>_(<disambiguator>).md` containing: cited commentary explanations in the original language, and a short contextual definition drafted from those citations (also in the original language).
 → [`local-wiki-article/SKILL.md`](local-wiki-article/SKILL.md)
 
-### `term-definition-from-commentaries` **[exists]**
+### `term-definition` **[exists]**
+**Purpose:** Fill the **Meaning** column of `2-RAILS/termbases/term-localization.md` by locating definitional passages in the commentaries (`[term]ནི་`, `[term]ཞེས་པ་ནི་`, `[term]ཅེས་པ་ནི་`) and extracting them **verbatim**, each cited to its block ID. Never paraphrases or writes explanatory text of its own.
+**Inputs:** One or more Tibetan terms (normally from `2-RAILS/Keywords/source-term-registry.json`), plus the commentaries.
+**Outputs:** `2-RAILS/termbases/term-localization.md`, Meaning column filled.
+**Why it matters:** this is the step that makes a locked rendering defensible — the rendering is derived from what the commentaries say the term means, not from a dictionary.
+→ [`term-definition/SKILL.md`](term-definition/SKILL.md)
+
+### `term-localization` **[exists]**
+**Purpose:** Fill the target-language columns of `2-RAILS/termbases/term-localization.md`, deriving each rendering from the commentary-sourced Meaning column. Where the Meaning cell holds two or more commentary definitions, it selects the sense that fits this text's genre and register (declared once in the vault annex) rather than averaging them; where the Meaning cell is empty it flags the row and skips it rather than guessing.
+**Inputs:** The term table with its Meaning column filled, plus the target-language list.
+**Outputs:** The same table, target-language columns filled; novel renderings flagged `*`.
+→ [`term-localization/SKILL.md`](term-localization/SKILL.md)
+
+### `keyword-extract` **[exists]**
+**Purpose:** The vocabulary-standardization pipeline, six phases. Candidate keywords from a block-aligned English translation (YAKE/TF-IDF), every occurrence mapped back **per occurrence** to the Tibetan term it renders, regrouped by Tibetan term (splitting one English word across two terms and merging two English words into one), counted quote-excluded across the whole corpus, scored on claim density / structure / presence, and gated into a ranked article queue.
+**Inputs:** A block-ID-preserving English translation, the Tibetan root text, the commentaries, `2-RAILS/Claims/raw/tree-guided/`, `2-RAILS/Sections/Raw/toc-tree/`.
+**Outputs:** `2-RAILS/Keywords/{source-term-registry,frequency-matrix,article-queue}.json` — the durable keyword layer; working intermediates stay in `0-INBOX/temp/`.
+**Note:** the 2026-08 Tārā-21 run is already promoted into `2-RAILS/Keywords/` (367 terms, 114 queued). See [`2-RAILS/Keywords/About Keywords.md`](../../2-RAILS/Keywords/About%20Keywords.md) for its three known gaps.
+→ [`keyword-extract/SKILL.md`](keyword-extract/SKILL.md)
+
+### `gemini-keyword-extract` **[exists]**
+**Purpose:** Extract key terms **directly from the Tibetan** by sending blocks to Gemini in batches, keeping a per-block provenance map, and grading every returned term against the block it was claimed from — VERBATIM / NORMALIZED / ABSENT. `gk_compare.py` then diffs the result against `keyword-extract`'s English-mediated registry.
+**Inputs:** A block-ID'd Tibetan file; `GEMINI_API_KEY`.
+**Outputs:** `0-INBOX/temp/keyword-extraction/<run>/{gemini-terms,comparison}.json` + `comparison.md`. **Never `2-RAILS/Keywords/`** — promoting a run into the rails is a human decision.
+**Why it exists:** `keyword-extract` detects candidates in an English translation because statistics cannot run on unsegmented Tibetan; the unmeasured cost is that a term the translator paraphrased away never becomes a candidate. This skill measures that cost. It is a comparison arm, not a replacement — it returns a set, not a ranking, and ranking needs the corpus-wide attention signals only `keyword-extract` computes.
+**One trap it documents:** asked to label blocks with their IDs, the model echoed the source's own `### BLOCK 1-3` heading back as `block_id`, and five of seven batches were silently recorded as empty while the run looked successful. A response that parses is not a response that matched.
+→ [`gemini-keyword-extract/SKILL.md`](gemini-keyword-extract/SKILL.md)
+
+### `term-definition-from-commentaries` **[superseded 2026-09-22 → `term-definition`]**
 **Purpose:** Fill the Meaning column of a term-localization table by locating definitional passages in the commentaries and extracting them **verbatim**, formatted in traditional Tibetan quotation style. A definitional passage is one using the formulaic markers `[term]ནི་`, `[term]ཞེས་པ་ནི་`, `[term]ཅེས་པ་ནི་`. The skill never paraphrases, summarises, or writes explanatory text of its own.
 **Inputs:** One or more Tibetan terms, plus the commentary files in `1-SOURCES/Commentaries/`.
 **Outputs:** The term-localization table under `2-RAILS/Local-Wiki/`, updated in place — one quotation entry per commentary passage found.
 **Note:** written against the BCA vault's `BCA-Term-Localization.md`; repoint the table path for this vault before running.
 → [`term-definition-from-commentaries/SKILL.md`](term-definition-from-commentaries/SKILL.md)
 
-### `english-keyword-extraction` **[exists]**
+### `english-keyword-extraction` **[superseded 2026-09-22 → `keyword-extract`]**
 **Purpose:** Extract ranked keywords per verse from an **English translation** of a Tibetan root text (YAKE + spaCy, optional TF-IDF against a general-English IDF corpus), then enrich each English keyword with its contextually correct Tibetan equivalent — producing a bilingual en↔bo key-term list keyed by verse block ID. The translation-mediated route to key terms, for when Tibetan-only extraction over-returns or fragments (tokenization is contested and no standard reference corpus exists).
 **Inputs:** A block-ID-preserving English translation of the root text (see `zeroshot-translator`), plus the Tibetan root text.
 **Outputs:** A ranked bilingual en↔bo candidate term list for human review.
@@ -234,20 +262,37 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Outputs:** One consolidated bilingual glossary at `2-RAILS/Bilingual-Glossaries/<lang-pair>.md` showing every attested rendering side by side.
 → [`glossary-combine/SKILL.md`](glossary-combine/SKILL.md)
 
-### `glossary-select` **[exists]**
-**Purpose:** Build the prescriptive per-track termbase for one track by selecting the preferred rendering for each term from the consolidated bilingual glossary, guided by the track's `requirements.md`. If no existing rendering is satisfactory, derive one from the Local-Wiki article for that term and feed the new rendering back into the consolidated bilingual glossary.
-**Inputs:** `2-RAILS/Bilingual-Glossaries/<lang-pair>.md`, `3-TRANSFORMATIONS/Translations/<track-name>/requirements.md`, Local-Wiki articles as needed.
-**Outputs:** `3-TRANSFORMATIONS/Translations/<track-name>/termbase.md` — the prescriptive termbase scoped to keywords that appear in the text being translated; plus updates to the consolidated bilingual glossary for any new derived renderings.
+### `glossary-select` **[exists — rewritten 2026-09-23]**
+**Purpose:** The vocabulary-standardisation decision step, in two parts. **Step 0** builds the descriptive *variant menu* — for each source lemma, every rendering the pivot (zero-shot) translation actually used, with occurrence counts, block IDs, and a lexical-vs-inflectional split so the real decision surface is visible. **Step 1** chooses one rendering per lemma for one track, decided by the track's purpose, audience, register and the text's TOC — with attested frequency as a tie-breaker only, never the decider. A rendering that is not attested is derived from the Meaning column of `term-localization.md`, never from parametric knowledge; a lemma that cannot be decided is flagged, not guessed.
+**Inputs:** Step 0 — the `keyword-extract` run's per-block `mappings/batch*.json` + `<run>_keyword_verses.json` + `2-RAILS/Keywords/source-term-registry.json`. Step 1 — the menu, plus `requirements.md` and `audience.md` for the track, the TOC trees, and `2-RAILS/termbases/term-localization.md` as the derivation fallback.
+**Outputs:** `2-RAILS/Bilingual-Glossaries/<pair>.md` (descriptive menu, machine-generated — never hand-edited) and `3-TRANSFORMATIONS/Translations/<track>/termbase.md` (the prescriptive contract).
+**Script:** `scripts/build_variant_menu.py`.
+**Why the rewrite:** the pre-2026-09 version read a consolidated glossary that did not exist, wrote to a retired path, fell back to Local-Wiki articles (none exist in this vault), cited a `requirements-author` skill that does not exist, and knew nothing of `audience.md` or the TOC. It also told you to write derived renderings back into the consolidated glossary — which is now machine-generated, so a write-back is destroyed on the next run. The two format traps in the new version (an undecided row must leave column 2 **empty**, and a sense split cannot be expressed as a disambiguator in column 1) were both verified against `build_lock_glossary.py`'s parser.
+**Alternative producer for the menu:** `interlinear-gloss` → `glossary-extract-raw` → `glossary-combine` builds the same file token by token. Use that route when there is no `keyword-extract` run, or when several translations should appear side by side.
 → [`glossary-select/SKILL.md`](glossary-select/SKILL.md)
+
+### `keyword-standardize` **[exists — Webuddhist-Skills `rails/keyword-standardize`; alias `zh-keyword-standardize`]**
+**Purpose:** Build the locked word list in any target language (Chinese, Vietnamese, …) for a Tibetan text that has no human translation in that language. It collects and aligns the classical canon version (CBETA), lays out the evidence term by term, records one Chinese rendering per locked Tibetan term (with its source and reason) in one editable decisions file, and builds the termbase, grade file, verse-scoped glossary and review table from it.
+**Inputs:** The base (English) termbase and grade file in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; the fact-checked translation as the meaning reference; optionally a classical reference in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/` and a zero-shot Chinese draft.
+**Outputs:** `zh-decisions-<grade>.json` (the file to edit), `en-bo-zh-termbase-<grade>.json`, `bo_zh_keyword_<grade>.json`, `glossary-zh-<grade>.tsv`, `termbase-zh-<grade>.md`, `zh-worksheet-<grade>.md`.
+**Rules:** Translate from the Tibetan. The English is only the meaning check. The classical version is word evidence, never copied text. Edit the decisions file, then rebuild; never edit the built files. Run first on the Twenty-One Tārās, general grade (2026-09-24).
+→ `../Webuddhist-Skills/rails/keyword-standardize/SKILL.md` (slash command `/keyword-standardize`; `/zh-keyword-standardize` still works)
 
 ### `commentary-fact-check` **[exists]**
 **Purpose:** Audit an English translation verse by verse against a Tibetan commentary that transcludes the root text, using strict **term-by-term alignment** — for every content word the commentary glosses, check the translation renders it — rather than a gist/comprehension check.
 **Inputs:** A graded English translation and the commentary that transcludes the root.
 **Outputs:** A `commentary-fact-check-report-<grade>.md` with ⚠ discrepancies.
-**Note:** imported from `bodhisattvacharyavatara-rails`; its paths and grade names are BCA-specific — repoint them before running here.
+**Note:** re-imported 2026-09-22 from the consolidated `Webuddhist-Skills` library — the BCA-specific paths and grade names are gone, and the apply-fixes skill is now its **Phase 2**. **One commentary per run, by design.** Use the ten verse-aligned files in `1-SOURCES/Commentaries/New raw data/`; the set in `used for wiki/` carries no transclusion anchors and cannot be split by block.
 → [`commentary-fact-check/SKILL.md`](commentary-fact-check/SKILL.md)
 
-### `commentary-fact-check-apply-fixes` **[exists]**
+### `claims-fact-check` **[exists]**
+**Purpose:** Fact-check a translation block by block against the **whole corpus at once** — every verse-aligned commentary's prose for that block plus the consolidated claims page for its spine slot — grading each finding **⚠ ERROR** (contradicts consensus), **⚑ tradition-specific** (follows one attested side of a recorded divergence), **◇ unsupported**, or OK.
+**Inputs:** A translation, a bounded block scope, the root text; `1-SOURCES/Commentaries/New raw data/` and `2-RAILS/Claims/<slot>.md` are derived.
+**Outputs:** `<translation-dir>/claims-fact-check-report.md`, appended to. Never edits the translation.
+**Why both fact-check skills exist:** `commentary-fact-check` asks *does this match **this** authority?* and must see one commentary at a time. On a corpus of seventeen independent commentaries with no ranking among them, that flags a faithful rendering of Tāranātha as wrong whenever the run is against Gendun Drub. This skill asks *is this supported by **anyone**, and is the corpus split?* — which is only safe because the claims layer has already separated Consensus from ⚑ Divergences. Vault-local: it needs `2-RAILS/Claims/`.
+→ [`claims-fact-check/SKILL.md`](claims-fact-check/SKILL.md)
+
+### `commentary-fact-check-apply-fixes` **[superseded 2026-09-22 → `commentary-fact-check` Phase 2]**
 **Purpose:** Apply the ⚠ discrepancies already logged in a `commentary-fact-check` report to the graded translation, one grade at a time.
 **Inputs:** A fact-check report and the translation it grades.
 **Outputs:** The translation, corrected.
@@ -336,13 +381,28 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Rules:** Translate small batches only — one or a few TOC nodes at a time. Every keyword rendering must match the per-track termbase. Introduce no new rendering without first adding it to the termbase and feeding it back into the consolidated bilingual glossary.
 → `translate-section/SKILL.md` *(to be written)*
 
-### `dharmamitra-translate` **[exists]**
+### `dharmamitra-translate` **[archived 2026-09-24 → Webuddhist-Skills `rails/machine-translate`]**
 **Purpose:** Produce a zero-shot **machine-baseline** translation of a block-ID'd source file by calling DharmaMitra's public `cat-translate` API on small batches of adjacent block IDs, threading the document's own preceding translations back in as context; section headings are translated separately (`--headings`).
 **Inputs:** A block-ID'd file under `1-SOURCES/`; a target-language label (`english`, `modern chinese`, …); optionally a style instruction, a context header, a flat `source<TAB>target` glossary, and `--extra-fm` frontmatter keys.
 **Outputs:** `3-TRANSFORMATIONS/Translations/Dharmamitra/<tag>/<source stem>-<tag>.md` — block-ID aligned to the Tibetan by transclusion, with `about.md` / `style.md` / `context-header.md` and an append-only ledger under `work/`. Its frontmatter is what the vault linter expects of a `file_type: translation` note, so `translation-upload` consumes it directly.
 **Rules:** Never writes to `1-SOURCES/`; never writes into a non-baseline track; output is `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft`, and may not be cited by any other transformation. The endpoint is public with a **daily** quota of 400 calls — batch, count calls, never parallelise.
 **Contrast with `zeroshot-translator`:** that skill translates with the agent's own model and enforces pada alignment; this one calls an external multi-witness API and records exactly what was sent for every line. Fork of the Liturgy-rails skill (imported 2026-09-17; the en and zh tracks of the Twenty-One Praises were imported and re-cut from that vault).
-→ [`dharmamitra-translate/SKILL.md`](dharmamitra-translate/SKILL.md)
+→ Use `Webuddhist-Skills/rails/machine-translate/SKILL.md` (Engine 2). Archived copy: [`_archive/dharmamitra-translate/SKILL.md`](_archive/dharmamitra-translate/SKILL.md)
+
+### `dharmamitra-termlocked` **[exists]**
+**Purpose:** Vocabulary-**standardised** translation through the same DharmaMitra API — build a lock glossary from the track's `termbase.md`, send it with every call, then mechanically verify that every lock which should have applied to a block actually landed (EXACT / LOOSE / MISSING) and re-run only the blocks where it did not.
+**Inputs:** The root text, a target-language label, and the track's `termbase.md` (or `2-RAILS/Keywords/source-term-registry.json` plus a renderings TSV).
+**Outputs:** `3-TRANSFORMATIONS/Translations/Dharmamitra-termlocked/<tag>/` — `track_type: term-locked`, plus `lock-glossary.tsv` and `work/lock-report.json`.
+**Measured, not assumed:** a 2026-09-22 probe of the endpoint found a batched call honouring 3/11 locks unglossed and 10/11 glossed, with markers intact and the single residual being an inflection (`pāramitā` for `pāramitās`). Injection position — `context` vs `style_instruction` — made no difference. Evidence in [`dharmamitra-termlocked/references/glossary-probe-2026-09-22.md`](dharmamitra-termlocked/references/glossary-probe-2026-09-22.md).
+**Never writes into the zero-shot track** — that track is the unlocked control this one is measured against.
+→ [`dharmamitra-termlocked/SKILL.md`](dharmamitra-termlocked/SKILL.md)
+
+### `graded-translate` **[exists]**
+**Purpose:** Audience-graded, term-locked translation in three phases: build the per-grade termbase (beginner / general / intermediate / advanced, rank-cut and register-adapted) on top of `2-RAILS/Keywords/`; translate chapter by chapter with every rendering locked; run the mechanical drift check.
+**Inputs:** Root text, a pivot translation (a human one, or a zero-shot draft), a keyword source, the track contract.
+**Outputs:** The track's `termbase.md` (canonical), a `2-RAILS/termbases/` build cache, and the graded translation.
+**Note:** its Phase 2 translates with the agent's own model. For DharmaMitra as the engine, use its Phase 1 termbase and hand off to `dharmamitra-termlocked`.
+→ [`graded-translate/SKILL.md`](graded-translate/SKILL.md)
 
 ### `gemini-translate` **[exists]**
 **Purpose:** The sibling of `dharmamitra-translate` for display languages DharmaMitra does not serve (Hindi, Nepali, Mongolian, Vietnamese, …): Google Gemini under a JSON line schema, with line parity enforced per block and headings translated in one call (`--headings`).

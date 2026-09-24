@@ -118,7 +118,11 @@ def _write_languages_file(name_map: dict, code_map: dict):
 
 
 def load_languages():
-    """Fetch language list from API, update runtime globals, persist to languages.py."""
+    """Fetch language list from API, update runtime globals, persist to languages.py.
+
+    Returns True when the list came from the API, False when the API could not
+    be reached and the cached languages.py is used instead.
+    """
     try:
         data = _call_api(LANGUAGES_API)
         if not isinstance(data, list) or not data:
@@ -142,6 +146,7 @@ def load_languages():
         LANG_TAG_MAP.clear()
         LANG_TAG_MAP.update({c: c for c in code_map})
         _write_languages_file(name_map, code_map)
+        return True
     except Exception:
         # API unreachable — runtime values come from languages.py import
-        pass
+        return False
