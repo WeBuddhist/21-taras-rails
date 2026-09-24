@@ -5,8 +5,6 @@
 > 十字呪句妙嚴布，  
 > 明呪吽聲常朗耀。  
 
-出處：[《度母深奧精髓》中文翻譯・第 16 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:724)，區塊 `^1-79`。
-
 她是二十一度母中的第十六尊。偈頌以「普遍極喜」稱揚她，同時描寫摧怨之力，使喜悅與猛烈的形象相互交織。
 
 後兩句轉向咒語的莊嚴：「十字呪句妙嚴布，明呪吽聲常朗耀。」咒句、吽聲與朗耀的意象，構成這首禮讚另一個鮮明的重點。

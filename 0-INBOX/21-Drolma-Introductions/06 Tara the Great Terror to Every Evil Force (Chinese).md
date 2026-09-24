@@ -5,8 +5,6 @@
 > 部多起屍尋香等，  
 > 諸藥叉眾作稱歎。  
 
-出處：[《度母深奧精髓》中文翻譯・第 06 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:654)，區塊 `^1-69`。
-
 她是二十一度母中的第六尊。偈頌將釋、梵、火天，以及風神、自在等眾聚集的景象置於眼前，又寫部多、起屍、尋香與諸藥叉眾共同稱歎她。
 
 這首禮讚的特色在於眾會：多種天眾與非人出現在同一幅禮敬的景象中。透過他們的聚集與稱歎，度母的威德得以顯明。

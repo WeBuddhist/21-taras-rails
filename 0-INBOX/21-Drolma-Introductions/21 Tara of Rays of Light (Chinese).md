@@ -5,8 +5,6 @@
 > 藥叉執魅尾怛辣，  
 > 都哩(TURE)最極除災禍。  
 
-出處：[《度母深奧精髓》中文翻譯・第 21 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:759)，區塊 `^1-84`。
-
 她是二十一度母中的第二十一尊，以「具三真實」為名。偈頌讚歎她善靜與威力皆具足，並以「都哩」咒音連結遣除災禍的事業。
 
 頌中列出藥叉、執魅、尾怛辣等名稱，最後以「最極除災禍」收束。這首禮讚將寂靜與威力並置，使守護的意象在全篇末尾再次鮮明呈現。

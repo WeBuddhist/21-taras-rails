@@ -5,8 +5,6 @@
 > 如千星宿俱時聚，  
 > 殊勝威光超於彼。  
 
-出處：[《度母深奧精髓》中文翻譯・第 02 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:626)，區塊 `^1-65`。
-
 她是二十一度母中的第二尊。偈頌以「百秋朗月」讚歎她圓滿無垢的容顏，又以千星同時匯聚的景象襯托她的威光，說明其光明甚至超過群星。
 
 這首禮讚從月色寫到星光，呈現清澄、圓滿而明耀的身相。「無垢」與「威光」相映，使她的莊嚴兼具寧靜與攝受人心的力量。

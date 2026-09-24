@@ -5,8 +5,6 @@
 > 威德歡悅若堅鎧，  
 > 滅除鬪諍及惡夢。  
 
-出處：[《度母深奧精髓》中文翻譯・第 19 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:745)，區塊 `^1-82`。
-
 她是二十一度母中的第十九尊，是天眾與緊那羅所依止、敬愛的對象。偈頌以諸天集會的景象襯托她，並以堅固的鎧甲譬喻她歡悅而有威德的守護。
 
 「滅除鬪諍及惡夢」將這份守護帶到切身的生活之中：一者關乎紛爭，一者關乎夢中的不安。堅鎧的意象，使兩種處境都得到同一份護佑的回應。

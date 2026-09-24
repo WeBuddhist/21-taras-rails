@@ -5,8 +5,6 @@
 > 嚴飾方輪盡無餘，  
 > 自身熾盛光聚種。  
 
-出處：[《度母深奧精髓》中文翻譯・第 09 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:675)，區塊 `^1-72`。
-
 她是二十一度母中的第九尊，以「三寶嚴印」為名。偈頌描寫她手指當心、顯現威嚴之相，並以莊嚴諸方與熾盛光聚，展現她的光明。
 
 這首禮讚由胸前的手印寫到周遍的光耀，將凝聚於身前的莊嚴延展至諸方。手印與光明相互映照，是這一尊最鮮明的文字形象。

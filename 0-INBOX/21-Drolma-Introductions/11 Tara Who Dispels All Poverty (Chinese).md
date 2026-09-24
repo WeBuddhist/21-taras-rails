@@ -5,8 +5,6 @@
 > 搖顰眉面吽聲字，  
 > 一切衰敗令度脫。  
 
-出處：[《度母深奧精髓》中文翻譯・第 11 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:689)，區塊 `^1-74`。
-
 她是二十一度母中的第十一尊，以守護眾地、鉤召諸神眾受到讚歎。偈頌中的顰眉與吽聲，呈現她成辦守護事業時的威勢。
 
 末句「一切衰敗令度脫」道出這首禮讚的祈望。「衰敗」一詞涵義寬廣，使介紹的重點落在眾生由困頓、衰損中獲得救護，而不只限於物質上的貧乏。

@@ -5,8 +5,6 @@
 > 最極喜笑覩怛哩(TUTTARA)，  
 > 鎮世間魔作攝伏。  
 
-出處：[《度母深奧精髓》中文翻譯・第 10 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:682)，區塊 `^1-73`。
-
 她是二十一度母中的第十尊。寶冠、珠鬘與眾光構成她的莊嚴，而最引人注目的，是偈頌將她的歡笑與「覩怛哩」咒音相連，讚歎其攝伏世間魔的威德。
 
 這份威德帶著歡悅的神情。前面數首的顰眉與足踏，在此轉為喜笑與光飾，讓持誦者看見禮讚呈現度母事業的另一種方式。

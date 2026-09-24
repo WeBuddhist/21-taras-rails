@@ -5,8 +5,6 @@
 > 展左踡右作足踏，  
 > 烈焰騰湧極明耀。  
 
-出處：[《度母深奧精髓》中文翻譯・第 07 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:661)，區塊 `^1-70`。
-
 她是二十一度母中的第七尊，以呼「遮」、作「呸」之聲受到讚歎。偈頌緊接著以「敵方咒輪悉摧壞」讚歎她的威力，讓咒音與迅猛的降伏形象緊密相連。
 
 她展開左腿、屈曲右腿，作足踏之姿；烈焰騰湧，光明耀眼。聲音、姿態與烈焰共同構成這一尊鮮明的威猛之相。

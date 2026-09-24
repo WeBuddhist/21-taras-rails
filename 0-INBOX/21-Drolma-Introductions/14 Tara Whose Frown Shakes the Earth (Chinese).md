@@ -5,8 +5,6 @@
 > 現顰眉面作吽聲，  
 > 能破七險鎮降伏。  
 
-出處：[《度母深奧精髓》中文翻譯・第 14 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:710)，區塊 `^1-77`。
-
 她是二十一度母中的第十四尊。手按大地、以足踐踏，是這首禮讚最直接的動作；顰眉與吽聲則進一步顯示其鎮壓、降伏的威力。
 
 由手掌到雙足，由面容到聲音，全頌將多種身語表現凝聚為有力的形象。末句以「能破七險鎮降伏」總結這份遣除危難的威勢。

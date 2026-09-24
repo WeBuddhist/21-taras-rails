@@ -5,8 +5,6 @@
 > 阿彌陀佛髻中現，  
 > 常放眾妙寶光明。  
 
-出處：[《度母深奧精髓》中文翻譯・第 12 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:696)，區塊 `^1-75`。
-
 她是二十一度母中的第十二尊。偈頌以頂冠的月相、冠中的莊嚴光，以及髻中顯現的阿彌陀佛，描繪她明耀而殊勝的身相。
 
 全頌的視線集中於冠髻之間，又隨「常放眾妙寶光明」向外展開。月相、佛像與寶光共同構成這一尊的莊嚴，也使阿彌陀佛與度母在同一幅禮讚景象中呈現。

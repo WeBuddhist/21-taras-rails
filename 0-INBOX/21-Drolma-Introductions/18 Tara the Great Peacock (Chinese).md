@@ -5,8 +5,6 @@
 > 誦二怛囉(TARA)作發(PHAT)聲，  
 > 能滅諸毒盡無餘。  
 
-出處：[《度母深奧精髓》中文翻譯・第 18 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:738)，區塊 `^1-81`。
-
 她是二十一度母中的第十八尊。這首禮讚描繪她手持帶有鹿紋的月輪，以「怛囉」與「發」之聲，展現滅除諸毒的事業。
 
 持物與咒音在此共同構成她的形象，末句「能滅諸毒盡無餘」則明確指出禮讚的主題。介紹她時，可以從這份遠離毒害的祈願切入，讓形相與功德彼此呼應。

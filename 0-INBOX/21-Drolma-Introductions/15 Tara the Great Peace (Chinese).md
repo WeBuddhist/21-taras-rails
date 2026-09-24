@@ -5,8 +5,6 @@
 > 莎訶(SVAHA)嗡(OM)字以相應，  
 > 善能摧滅諸重罪。  
 
-出處：[《度母深奧精髓》中文翻譯・第 15 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:717)，區塊 `^1-78`。
-
 她是二十一度母中的第十五尊。偈頌以安穩、柔善稱揚她，並以「涅槃寂滅最樂境」展現深沉的寂靜與安樂。
 
 這首禮讚將「莎訶」「嗡」二者與她相應，繼而讚歎「善能摧滅諸重罪」的功德。寂靜與淨除罪障在同一首偈頌中相連，使柔善本身也呈現出力量。

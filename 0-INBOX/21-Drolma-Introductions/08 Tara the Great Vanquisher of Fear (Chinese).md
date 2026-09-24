@@ -5,8 +5,6 @@
 > 於蓮華面作顰眉，  
 > 摧壞一切冤家眾。  
 
-出處：[《度母深奧精髓》中文翻譯・第 08 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:668)，區塊 `^1-71`。
-
 她是二十一度母中的第八尊，名為都哩威怖母。偈頌以「勇猛能摧怨魔類」稱揚她的威力，並以蓮華般的面容顯現顰眉之相，描繪其猛烈的降伏事業。
 
 蓮華面與顰眉同時出現，使清淨莊嚴與威猛之勢交織於同一容顏。全頌集中呈現她面對怨魔與阻礙時的勇猛，語氣直接而有力。

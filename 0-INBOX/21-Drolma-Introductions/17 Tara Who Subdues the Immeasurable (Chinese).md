@@ -5,8 +5,6 @@
 > 須彌曼陀及賓陀，  
 > 三世間悉皆震動。  
 
-出處：[《度母深奧精髓》中文翻譯・第 17 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:731)，區塊 `^1-80`。
-
 她是二十一度母中的第十七尊。偈頌以「都哩」咒音帶出名號，將足躡之勢與吽字種子相連，描繪一股足以引發震動的威力。
 
 須彌、曼陀與賓陀依次出現，隨後以「三世間悉皆震動」展開廣大的景象。山嶽與三世間的震動，共同顯示這份威力所及的範圍。

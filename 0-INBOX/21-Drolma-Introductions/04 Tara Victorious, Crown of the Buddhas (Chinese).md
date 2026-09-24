@@ -5,8 +5,6 @@
 > 得到彼岸盡無餘，  
 > 勝勢佛子極所愛。  
 
-出處：[《度母深奧精髓》中文翻譯・第 04 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:640)，區塊 `^1-67`。
-
 她是二十一度母中的第四尊，以「如來頂髻」為名。偈頌隨即讚歎她圓滿無邊行、到達彼岸的功德，整首呈現出殊勝而圓成的氣象。
 
 「得到彼岸盡無餘」把禮讚的目光引向修行的圓滿；「勝勢佛子極所愛」則寫出佛子對她的敬愛。她的尊勝，因而與廣大的行持及其究竟成就緊密相連。

@@ -5,8 +5,6 @@
 > 誦二喝囉咄怛哩(HARA TUTTARA)，  
 > 善除惡毒瘟熱病。  
 
-出處：[《度母深奧精髓》中文翻譯・第 20 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:752)，區塊 `^1-83`。
-
 她是二十一度母中的第二十尊。偈頌以日月與普照的光明讚歎她的目光，使這一尊呈現出明亮、廣大的形象。
 
 後兩句以「喝囉咄怛哩」的咒音，連結遣除惡毒與瘟熱病的功德。明耀的目光與息除病苦的祈願相互映照，是這首禮讚的主軸。

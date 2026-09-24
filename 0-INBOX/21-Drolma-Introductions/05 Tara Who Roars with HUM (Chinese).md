@@ -5,8 +5,6 @@
 > 運足遍履七世界，  
 > 悉能鉤召攝無餘。  
 
-出處：[《度母深奧精髓》中文翻譯・第 05 首](C:/Users/yojen/Obsidian/Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md:647)，區塊 `^1-68`。
-
 她是二十一度母中的第五尊，名號中直接含有「都怛囉吽」的咒音。這首禮讚以「遍滿欲界諸方空」、雙足遍履七世界，描繪她廣大的攝受之力。
 
 聲音與足跡共同展開這幅景象：一者遍滿欲界諸方虛空，一者遍履世界，最後歸於「悉能鉤召攝無餘」。全頌的重點，是這份召攝無所遺漏的廣大。
