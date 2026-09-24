@@ -630,3 +630,16 @@ Report: `3-TRANSFORMATIONS/Translations/zh-general/reports/commentary-light-chec
 - `Dharmamitra/` and `Gemini/` were left in place, because the scripts write there.
 - Convention written down in Webuddhist-Skills `rails/CONVENTIONS.md` §8. `commentary-fact-check` now writes its
   reports to `<translation-dir>/reports/`.
+
+## This folder reorganised (2026-09-24)
+
+Files moved (not deleted) into `shared/` (keyword extraction), `en/` (plus `en/notes/`), and `zh/` (plus
+`zh/references/`, which was `0-INBOX/AI_translation/zh-references/`). A new `00-INDEX.md` says what each file is
+and whether to edit, read, or rebuild it.
+
+- All paths in the translation properties, the Chinese decisions file, the review table, the
+  `/zh-keyword-standardize` command, SKILLS-CATALOG and the zh-keyword-standardize skill were updated. **The
+  entries above this one use the old flat paths.**
+- Re-checked from the new locations: the Chinese rebuild is byte-identical; the validator reports 0 errors for
+  en and zh; the drift check finds en 131/131 and zh 137/137.
+- Layout written into Webuddhist-Skills `rails/CONVENTIONS.md` §8.

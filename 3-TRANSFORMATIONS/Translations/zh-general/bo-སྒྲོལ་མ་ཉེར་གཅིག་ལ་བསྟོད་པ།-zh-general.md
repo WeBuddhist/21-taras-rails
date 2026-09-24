@@ -24,9 +24,9 @@ source_language: tibetan
 target_language: modern chinese
 generator: graded-translate Phase 2 (dharmamitra cat-translate v1 base + 52-term locked zh termbase)
 rails_used: zh-keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check against commentary-fact-check consensus
-termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en-bo-zh-termbase-general.json
-termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh-decisions-general.json
-grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/bo_zh_keyword_general.json
+termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/en-bo-zh-termbase-general.json
+termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/zh-decisions-general.json
+grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/bo_zh_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-24
 revised: 2026-09-24

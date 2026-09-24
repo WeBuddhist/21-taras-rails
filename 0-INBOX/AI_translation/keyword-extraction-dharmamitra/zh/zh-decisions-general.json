@@ -7,7 +7,7 @@
     "title": "Chinese word list — Praise to the Twenty-One Tārās (general grade)",
     "choices": "Traditional characters · clear modern Chinese (general grade, not the chanting style) · mantra syllables in Chinese characters · flagged picks decided by Claude, with the reason written down (Tenkal, 2026-09-24).",
     "decided_by": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
-    "sources_note": "(1) the classical canon version CBETA T1108B — the same text the 17th Karmapa office publishes — aligned in 0-INBOX/AI_translation/zh-references/zh-classical-T1108B.md, used for its words only; (2) the standard Buddhist term; (3) the DharmaMitra zero-shot zh draft, which suggests but never confirms. The online Mahāvyutpatti (Oslo) could not be read in this session, so \"standard Buddhist term\" means the well-known pair — the reviewer should check those.",
+    "sources_note": "(1) the classical canon version CBETA T1108B — the same text the 17th Karmapa office publishes — aligned in 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/zh-classical-T1108B.md, used for its words only; (2) the standard Buddhist term; (3) the DharmaMitra zero-shot zh draft, which suggests but never confirms. The online Mahāvyutpatti (Oslo) could not be read in this session, so \"standard Buddhist term\" means the well-known pair — the reviewer should check those.",
     "source_labels": {
       "classical": "classical canon (CBETA T1108)",
       "mt": "DharmaMitra zh draft",

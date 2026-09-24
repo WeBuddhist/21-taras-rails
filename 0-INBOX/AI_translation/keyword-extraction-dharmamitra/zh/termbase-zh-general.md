@@ -20,7 +20,7 @@ Tibetan words. **Edit `zh-decisions-general.json`, not this file** — this file
 
 **Choices:** Traditional characters · clear modern Chinese (general grade, not the chanting style) · mantra syllables in Chinese characters · flagged picks decided by Claude, with the reason written down (Tenkal, 2026-09-24).
 
-**Sources:** (1) the classical canon version CBETA T1108B — the same text the 17th Karmapa office publishes — aligned in 0-INBOX/AI_translation/zh-references/zh-classical-T1108B.md, used for its words only; (2) the standard Buddhist term; (3) the DharmaMitra zero-shot zh draft, which suggests but never confirms. The online Mahāvyutpatti (Oslo) could not be read in this session, so "standard Buddhist term" means the well-known pair — the reviewer should check those.
+**Sources:** (1) the classical canon version CBETA T1108B — the same text the 17th Karmapa office publishes — aligned in 0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/zh-classical-T1108B.md, used for its words only; (2) the standard Buddhist term; (3) the DharmaMitra zero-shot zh draft, which suggests but never confirms. The online Mahāvyutpatti (Oslo) could not be read in this session, so "standard Buddhist term" means the well-known pair — the reviewer should check those.
 
 **Chinese-only entries:** greater, om, svaha, hara, tara_syllable.
 

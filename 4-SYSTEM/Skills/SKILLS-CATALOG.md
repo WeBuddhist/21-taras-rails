@@ -242,7 +242,7 @@ These skills populate `2-RAILS/` with the structured context that translation an
 
 ### `zh-keyword-standardize` **[exists — Webuddhist-Skills `rails/zh-keyword-standardize`]**
 **Purpose:** Build the locked Chinese word list for a Tibetan text that has no human Chinese translation. It collects and aligns the classical canon version (CBETA), lays out the evidence term by term, records one Chinese rendering per locked Tibetan term (with its source and reason) in one editable decisions file, and builds the termbase, grade file, verse-scoped glossary and review table from it.
-**Inputs:** The base (English) termbase and grade file in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; the fact-checked translation as the meaning reference; optionally a classical reference in `0-INBOX/AI_translation/zh-references/` and a zero-shot Chinese draft.
+**Inputs:** The base (English) termbase and grade file in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; the fact-checked translation as the meaning reference; optionally a classical reference in `0-INBOX/AI_translation/keyword-extraction-dharmamitra/zh/references/` and a zero-shot Chinese draft.
 **Outputs:** `zh-decisions-<grade>.json` (the file to edit), `en-bo-zh-termbase-<grade>.json`, `bo_zh_keyword_<grade>.json`, `glossary-zh-<grade>.tsv`, `termbase-zh-<grade>.md`, `zh-worksheet-<grade>.md`.
 **Rules:** Translate from the Tibetan. The English is only the meaning check. The classical version is word evidence, never copied text. Edit the decisions file, then rebuild; never edit the built files. Run first on the Twenty-One Tārās, general grade (2026-09-24).
 → `../Webuddhist-Skills/rails/zh-keyword-standardize/SKILL.md` (slash command `/zh-keyword-standardize`)

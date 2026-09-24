@@ -341,7 +341,7 @@ Current pick: **踏** (classical, mt) — Classical 足踏 / 踐蹋; DharmaMitra
 
 English note: the 'control/dominion' sense of དབང (1-10); kept distinct from 'ability' (ནུས) and 'might' (མཐུ) below — three different Tibetan words were all flattened to 'power' in the Dharmamitra draft
 
-Current pick: **攝伏** (classical) — དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 ("subdue by force"), which is stronger than the Tibetan. 攝伏 = bring under one's control.
+Current pick: **攝伏** (classical) — དབང in 1-10 (brings māras and the world under her power). Classical 作攝伏; DharmaMitra 降伏 ("subdue by force"), which is stronger than the Tibetan. 攝伏 = bring under one's control. Commentary check: all four read དབང་དུ་མཛད as bringing under her control (Gendun Drub: the māras and the eight great worldly gods). 攝伏 fits.
 
 | verse | Tibetan | meaning (English) | reference | machine draft |
 |---|---|---|---|---|
@@ -391,7 +391,7 @@ Current pick: **足** (classical, mt) — Classical and DharmaMitra 足.
 
 English note: see note on 'demons' above — disambiguated from གདོན
 
-Current pick: **鬼神** (new) — འབྱུང་པོ (bhūta). Classical and DharmaMitra both write the transliteration 部多, which a general reader cannot parse. 鬼神 is the ordinary Chinese word for spirits and keeps it distinct from 邪魅 (གདོན).
+Current pick: **鬼神** (new) — འབྱུང་པོ (bhūta). Classical and DharmaMitra both write the transliteration 部多, which a general reader cannot parse. 鬼神 is the ordinary Chinese word for spirits and keeps it distinct from 邪魅 (གདོན). Commentary check: Drakpa Gyaltsen, Gendun Drub and Taranatha name Gaṇapati (ཚོགས་བདག) as their chief; Taranatha: obstructers and misleaders. 鬼神 fits.
 
 | verse | Tibetan | meaning (English) | reference | machine draft |
 |---|---|---|---|---|
@@ -401,7 +401,7 @@ Current pick: **鬼神** (new) — འབྱུང་པོ (bhūta). Classical 
 
 English note: possessing/afflicting spirit (distinct from འབྱུང་པོ 'spirit', see that entry). Attested (2021 DJKR translation) uses the Sanskrit 'graha' at 1-21 but plain 'evil' at 2-5 — not fully consistent itself. Decision: keep 'demons' for the GENERAL grade — 'graha' is a real but much less common term than karma/nirvana/bodhichitta (the general register's own examples of unglossed loanwords), so it reads as general-register-appropriate to keep this in plain English. 'graha' would be the right choice if/when an ADVANCED grade is built (that register explicitly wants Sanskrit-rich vocabulary).
 
-Current pick: **邪魅** (new) — གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits.
+Current pick: **邪魅** (new) — གདོན (afflicting spirits). DharmaMitra 魔 / 鬼 — but 魔 is needed for བདུད (Māra) in 1-8 and 1-10. Classical 執魅 (1-21) points to 魅. 邪魅 = harmful spirits. Commentary check: Taranatha — the eighteen གདོན (e.g. ནམ་གུའི་གདོན); Drakpa Gyaltsen — all that obstructs. 邪魅 (harmful spirits) fits.
 
 | verse | Tibetan | meaning (English) | reference | machine draft |
 |---|---|---|---|---|
@@ -501,7 +501,7 @@ Current pick: **世尊** (standard, mt) — བཅོམ་ལྡན་འདས
 
 English note: kept distinct from 'the Blessed One' (བཅོམ་ལྡན་འདས་མ) — see note there | Reviewed: keeping 'goddess' over attested's Sanskrit 'devi' for the general grade, same reasoning as 'demons' above (devi is less familiar than karma/nirvana to a general reader; better suited to an advanced grade).
 
-Current pick: **天女** (mt) — ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English.
+Current pick: **天女** (mt) — ལྷ་མོ (2-1). 天女 is the usual Chinese for lha mo / devī (cf. 吉祥天女). Kept distinct from 世尊 (བཅོམ་ལྡན་འདས་མ), as in English. Commentary check 2026-09-24: Gendun Drub (ལྷ་མོ་སྒྲོལ་མ) and Taranatha (= བཅོམ་ལྡན་འདས་མ) identify ལྷ་མོ with Tārā herself. Reviewer: if 天女 reads as a lesser celestial being, use 聖尊 or 女尊.
 
 | verse | Tibetan | meaning (English) | reference | machine draft |
 |---|---|---|---|---|
@@ -543,7 +543,7 @@ Also occurs, unlocked, in: 1-1 — check whether it means the same there.
 
 English note: Dharmamitra's own choice for རོ་ལངས (vetāla, lit. 'risen corpse'); flag for reviewer — 'vetāla' or 'walking corpse' are alternatives
 
-Current pick: **起屍** (classical) — རོ་ལངས ("risen corpse"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6.
+Current pick: **起屍** (classical) — རོ་ལངས ("risen corpse"): classical 起屍 (1-6). DharmaMitra has 起屍 in 1-21 but 羅剎 (rākṣasa, a different being) in 1-6 — Phase 2 must correct 1-6. Commentary check: Taranatha glosses རོ་ལངས as a class of beings (ལྷའི་སྲིན་པོའི་རིགས་དགུ), which may be why DharmaMitra wrote 羅剎; the word itself is "risen corpse", so 起屍 stays.
 
 | verse | Tibetan | meaning (English) | reference | machine draft |
 |---|---|---|---|---|

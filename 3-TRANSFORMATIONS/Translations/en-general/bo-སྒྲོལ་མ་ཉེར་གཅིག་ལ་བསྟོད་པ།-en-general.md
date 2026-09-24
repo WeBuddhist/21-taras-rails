@@ -21,8 +21,8 @@ source_language: tibetan
 target_language: english
 generator: graded-translate Phase 2 (dharmamitra cat-translate v1 base + 47-term locked termbase) + commentary-fact-check (4 commentaries, consensus fixes)
 rails_used: graded-translate (Phase 1, Phase 2); commentary-fact-check (Phase 1, Phase 2)
-termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en-bo-en-termbase-general.json
-grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/bo_en_keyword_general.json
+termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en/en-bo-en-termbase-general.json
+grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en/bo_en_keyword_general.json
 generated: 2026-09-24
 revised: 2026-09-24
 draft: 3
