@@ -20,10 +20,11 @@ source: https://webuddhist.com
 license: public
 category_id: LCorCb2K98p3TICt3UCDm
 text_id: IZpPQackQMjMsG6i9laM3
-edition_id: EfyTxb0DHFh0OJLtjHTf7
-toc_id: ZqAcpuBWl657mSu5rUGvD
+edition_id: EPWPiXyjSDcgewleXnbIj
+toc_id: jUgourpgWtZRVAfdftIz0
 commentary_of: HyUbHGlzS9LsSrgiFQNYE
 ---
+
 # ༄༅། །ཀརྨ་མཻ་ཏྲིའི་སྒྲོལ་བསྟོད་ཟིན་བྲིས་བཞུགས་སོ། ། ^0
 
 ## མཆོད་བརྗོད། ^I-0

@@ -1,0 +1,31 @@
+{
+  "_about": "Termbase entries removed from en-bo-en-termbase-general.json, kept here instead of deleted. Each entry is stored exactly as it was, with the grade-file keywords that used it.",
+  "venerable_tara": {
+    "archived": "2026-09-24",
+    "reason": "Gapped form རྗེ་བཙུན་མ...སྒྲོལ་མ (validate_grade_file W1) can never match a text or be sent as a glossary line. Redundant: I-3 is already covered by 'noble_venerable' (རྗེ་བཙུན་མ་འཕགས་མ → Noble and Venerable) + 'tara' (སྒྲོལ་མ → Tara). Its locked rendering 'the venerable Tārā' was also never used in the fact-checked text, which reads 'the Noble and Venerable Tara'.",
+    "replaced_by": [
+      "noble_venerable",
+      "tara"
+    ],
+    "entry": {
+      "bo": "རྗེ་བཙུན་མ...སྒྲོལ་མ",
+      "en": "the venerable Tārā",
+      "rank": 55,
+      "verse_ids": [
+        "I-3"
+      ]
+    },
+    "grade_file_keywords": {
+      "I-3": {
+        "key": "venerable tārā",
+        "rank": 55,
+        "score": 0.106809,
+        "count": 1,
+        "bo": "རྗེ་བཙུན་མ...སྒྲོལ་མ",
+        "term": "venerable_tara",
+        "en": "the venerable Tārā",
+        "grade": "general"
+      }
+    }
+  }
+}

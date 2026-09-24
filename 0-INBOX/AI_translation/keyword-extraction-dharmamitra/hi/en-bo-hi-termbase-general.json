@@ -1,0 +1,812 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "hi": "नमस्कार",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent throughout the Gemini draft; the standard word for reverential salutation, matching the refrain use.",
+    "hi_evidence": {
+      "machine_draft": "24/25 of its verses"
+    }
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tara",
+    "hi": "तारा",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the Sanskrit name, kept as in Hindi Buddhist usage (also style.md); covers both སྒྲོལ་མ and ཏཱ་རཱ.",
+    "hi_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "hi": "लाभ",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "plain, clear modern word; matches the draft at I-2 and 2-0.",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "noble_venerable": {
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
+    "hi": "पूज्य आर्या",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "Sanskrit ārya (noble) + pūjya (venerable/worthy of reverence). Flagged: the Gemini draft renders this भगवती (I-3), the same word it uses for 'the Blessed One' at a-1 for a different Tibetan phrase (བཅོམ་ལྡན་འདས་མ). Kept the two English locks distinct in Hindi too, since བཅོམ་ལྡན་འདས་མ literally is the Tibetan calque of Bhagavatī and རྗེ་བཙུན་མ་འཕགས་མ is a separate epithet pair — reviewer should confirm.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "hi": "नमः तारा एकविंशति स्तोत्र गुणहित साक",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the Sanskrit title transliterated into Devanagari (Hindi's own script) rather than kept in Latin/IAST, since Hindi readers read Devanagari natively; compound गुणहित written as one word per Sanskrit sandhi (draft split it 'गुण हित').",
+    "hi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "hi": "स्तुति",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent throughout (1-0, 1-22, 1-6, 2-0, a-1); the standard word for a hymn of praise.",
+    "hi_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "hi": "भगवती तारा",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "a-1; Bhagavatī is the standard Sanskrit-Hindi equivalent of བཅོམ་ལྡན་འདས་མ.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "hi": "पूर्णतः",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "matches 1-15, 1-21 (a-1's यang dag par is inside the separate perfect_buddha epithet, not this generic adverb).",
+    "hi_evidence": {
+      "machine_draft": "1/3 of its verses"
+    }
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "hi": "सम्यक् सम्बुद्ध",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the standard Sanskrit-Hindi term (Samyaksambuddha); matches the draft at a-1 exactly.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "hi": "भगवती",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the standard Sanskrit-Hindi equivalent of བཅོམ་ལྡན་འདས་མ, matching the draft at a-1.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "hi": "मूल स्तुति",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-0 heading; 'the root/actual praise', built on the 'praise' lock (मूल = root/actual).",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "hi": "विद्युत",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-1: क्षणिक विद्युत, 'a flash of lightning'.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "hi": "लोक",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-5 सप्त लोकों, 1-1 त्रिलोकनाथ, 1-17 तीनों लोकों).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "hi": "मुख",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-2, 1-1, 1-8).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "hi": "कमल",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-3, 1-1, 1-8); the standard word, covers both ཆུ་སྐྱེས and པདྨ.",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "hi": "कमल मुख",
+    "rank": 138,
+    "verse_ids": [
+      "1-8"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-8; built on the lotus + face locks, matching the draft's कमल मुख।",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "hi": "प्रकाश",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "most common rendering (1-12, 1-10); 1-2 and 1-9 use the near-synonym आभा/रश्मि in context, Phase 2 may need to vary the exact word grammatically but the lock is प्रकाश.",
+    "hi_evidence": {
+      "machine_draft": "4/5 of its verses"
+    }
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "hi": "प्रज्वलित",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-7, 1-2, 1-13 प्रज्वलित ज्वालाओं).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "hi": "चन्द्र",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the Sanskrit-correct spelling (not चंद्रमा) for the Sanskritized register; consistent meaning throughout (1-2, 1-12, 1-20, 1-18). Locked as the stem चन्द्र (rule 6) so it also covers 1-12's अर्धचन्द्र ('crescent moon'); the draft's चंद्रमाओं (1-2) was respelled चन्द्रमाओं.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "3/4 of its verses"
+    }
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "hi": "शांति",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent, standard term (1-3, 1-15, 1-21).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "hi": "अशेष",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-8 अशेष...अशेष वध; 1-4's मा लुस् is folded into सम्पूर्ण there in the draft — Phase 2 should render it explicitly as अशेष to keep the lock visible.",
+    "hi_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "hum",
+    "hi": "हूँ",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "the seed syllable as chanted; matches the draft everywhere.",
+    "hi_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "hi": "अक्षर",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the generic word (1-5 only). Flagged: split from syllable_hum's बीजाक्षर (seed-syllable) — the draft uses बीजाक्षर for both, but 'syllable' alone (bare ཡི་གེ) and 'the syllable hum' (a named seed-syllable) are different English locks and should render differently in Hindi too.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "hi": "आक्रांत",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-7, 1-5 आक्रांत करती हैं / आक्रांत कर).",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "hi": "चरण",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-5, 1-17, 1-14); the respectful register word, fitting a devotional praise.",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
+    "en": "tuttare",
+    "hi": "तुत्तारे",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "the mantra syllable as chanted (oṃ tāre tuttāre ture svāhā); matches the draft (1-5, 1-10, 1-20).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "hi": "समूह",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-21, 1-6, 1-19, 1-11 समूहों).",
+    "hi_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "hi": "भूत",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-6; the standard word, distinct from yaksha/vetala/demon below.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "hi": "विनाश",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-7, 1-15, 1-21, 1-13 विनाश करती हैं).",
+    "hi_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "phat",
+    "hi": "फट्",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "the mantra syllable as chanted; matches the draft (1-7, 1-18).",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "trat",
+    "hi": "त्रट्",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "the mantra syllable as chanted; matches the draft (1-7).",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "ture",
+    "hi": "तुरे",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "Tārā's mantra name/syllable, as chanted; matches the draft (1-21, 1-17, 1-8).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "great": {
+    "bo": "ཆེ་བ / ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "hi": "महा",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8",
+      "2-3"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "shortest form (rule 6), so the lock covers महान् (1-15 महान पापों), the compound prefix (1-8 महाभयंकर) and 2-3's abstract महानता — all the same Sanskrit root mahā.",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "hi": "परम",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "Flagged: kept distinct from 'great' (महान्), matching the English's own disambiguation (रब vs ཆེན). The draft used अत्यंत ('extremely') at 1-10, which is an intensifier, not 'supreme' — परम is the standard word for 'supreme/highest', better preserving the distinction.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "hi": "वश",
+    "rank": 85,
+    "verse_ids": [
+      "1-10"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-10: मार और सम्पूर्ण लोकों को वश में करती हैं, 'brings under (her) power/control'; kept distinct from might/ability.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
+    "en": "joy",
+    "hi": "आनंद",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "Flagged: the noun form. The draft mostly uses the adjective मुदित ('joyful', 1-10, 1-16, 1-13) or आनंदमय (1-19); Phase 2 will need to adapt the part of speech to the sentence, but the underlying lock is आनंद (the standard noun).",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "1/4 of its verses"
+    }
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable hum",
+    "hi": "हूँ बीजाक्षर",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent (1-14, 1-11); बीजाक्षर ('seed-syllable') reserved for this named mantra syllable, distinct from the generic अक्षर ('syllable') above.",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "hi": "समर्थ",
+    "rank": 85,
+    "verse_ids": [
+      "1-11"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-11 समर्थ हैं; kept distinct from power/might.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "hi": "पूर्णतः युक्त",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "built from the perfectly + endowed locks; 1-15 and 1-21 both read पूर्णतः युक्त (1-21 reordered in draft 2 from पूर्ण शांति … युक्त).",
+    "hi_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "hi": "युक्त",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "consistent standalone (2-1 से युक्त, 1-21, 1-15).",
+    "hi_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "hi": "मंत्र",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the standard word; matches the draft (1-22, 1-16).",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "hi": "देवी",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "2-1; the standard word, kept distinct from भगवती (blessed_one/blessed_tara) as English also keeps 'goddess' distinct from 'the Blessed One'.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "vetala": {
+    "bo": "རོ་ལངས",
+    "en": "vetāla",
+    "hi": "वेताल",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the Sanskrit word (vetāla, 'risen corpse'), same as Dharmamitra's Chinese/English choice; matches the draft (1-21, 1-6).",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "empowerment": {
+    "bo": "དབང",
+    "en": "empowerment",
+    "hi": "अभिषेक",
+    "rank": 85,
+    "verse_ids": [
+      "2-3"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the standard Sanskrit-Hindi term for tantric empowerment/abhisheka; matches the draft at 2-3 exactly, and is the technical term the English note itself names.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "hi": "ग्रह",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "Flagged: the draft independently chose ग्रह (graha) at both 1-21 and 2-5. Unlike English (which kept the plain 'demons' for the general grade because 'graha' is obscure to an English reader), ग्रह is a term ordinary Hindi speakers already know in this exact sense (an afflicting planetary/spirit force — राहु-केतु ग्रह, ग्रह-दोष), so it fits the general grade in Hindi even though the parallel English term does not use its Sanskrit cognate.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "hi": "यक्ष",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "hi_source": "the standard Sanskrit-Hindi Buddhist term",
+    "hi_note": "the Sanskrit word; matches the draft (1-6, 1-21 यक्षों).",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "hi": "शक्ति",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "hi_source": "Gemini hi draft (2026-09-17)",
+    "hi_note": "1-21; kept distinct from power (वश) and ability (समर्थ), matching the English's three-way disambiguation.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "om": {
+    "bo": "ཨོཾ",
+    "en": "Oṃ",
+    "hi": "ॐ",
+    "rank": 999,
+    "verse_ids": [
+      "I-3",
+      "1-15"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari) + Gemini hi draft (2026-09-17)",
+    "hi_note": "Hindi-only entry (English left mantra syllables unlocked; rule 5). The Devanagari sign ॐ, as the draft already wrote it.",
+    "hi_evidence": {
+      "machine_draft": "2/2 of its verses"
+    },
+    "hi_only": true
+  },
+  "svaha": {
+    "bo": "སྭཱ་ཧཱ",
+    "en": "svāhā",
+    "hi": "स्वाहा",
+    "rank": 999,
+    "verse_ids": [
+      "1-15"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari) + Gemini hi draft (2026-09-17)",
+    "hi_note": "Hindi-only entry. The Sanskrit svāhā in Devanagari, as chanted (ॐ तारे तुत्तारे तुरे स्वाहा).",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "hi_only": true
+  },
+  "hara": {
+    "bo": "ཧ་ར",
+    "en": "HARA",
+    "hi": "हर",
+    "rank": 999,
+    "verse_ids": [
+      "1-20"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari) + Gemini hi draft (2026-09-17)",
+    "hi_note": "Hindi-only entry.",
+    "hi_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "hi_only": true
+  },
+  "tara_syllable": {
+    "bo": "ཏཱ་ར",
+    "en": "TĀRA",
+    "hi": "तारे",
+    "rank": 999,
+    "verse_ids": [
+      "1-18"
+    ],
+    "hi_source": "the mantra syllable as chanted (Devanagari)",
+    "hi_note": "Hindi-only entry. 1-18 'reciting TĀRA twice': the recitation form तारे (ॐ तारे तुत्तारे …), the same normalisation as तुत्तारे and as Chinese 達咧 / Vietnamese Tare. Gemini wrote तारा, which reads as her name.",
+    "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
+    "hi_evidence": {
+      "machine_draft": "0/1 of its verses"
+    },
+    "hi_only": true
+  }
+}

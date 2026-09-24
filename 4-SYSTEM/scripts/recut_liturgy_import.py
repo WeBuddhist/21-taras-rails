@@ -49,7 +49,12 @@ import subprocess
 import sys
 
 VAULT = pathlib.Path(__file__).resolve().parents[2]
-DM = VAULT / "4-SYSTEM/Skills/dharmamitra-translate/scripts/dm_translate.py"
+# dharmamitra-translate moved to the shared repo (rails/machine-translate) on
+# 2026-09-24; the vault copy is archived. Prefer the shared copy next to the vault.
+DM = next((p for p in (
+    VAULT.parent / "Webuddhist-Skills/rails/machine-translate/scripts/dm_translate.py",
+    VAULT / "4-SYSTEM/Skills/_archive/dharmamitra-translate/scripts/dm_translate.py",
+) if p.exists()), VAULT.parent / "Webuddhist-Skills/rails/machine-translate/scripts/dm_translate.py")
 GM = VAULT / "4-SYSTEM/Skills/gemini-translate/scripts/gm_translate.py"
 
 NEW_ROOT = VAULT / "1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md"
