@@ -16,10 +16,10 @@ hold raw machine output, which is never the translation to use.
 
 | Language | Current file | Draft | Checks done | Still to do | On the platform |
 |---|---|---|---|---|---|
-| English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | specialist review · `translation-qa` · upload | no |
-| Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | native Chinese review (word list first) · `translation-qa` · upload | no |
-| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 4 | locked words 137/137 · back-translation meaning check · full commentary fact-check (4 commentaries, consensus, 9 fixes, 4 translator decisions) | native Vietnamese review (word list first) · `translation-qa` · upload | no |
-| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 4 | locked words 136/136 · back-translation meaning check · full commentary fact-check (4 commentaries, no errors, 13 fixes, 2 translator decisions) | native Hindi review (word list first) · `translation-qa` · upload | no (the old Gemini baseline is) |
+| English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 3 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions | **QA 96.0, FAIL (1 Major: 1-8 "your lotus face")** — fix, then specialist review · upload | no |
+| Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 3 | locked words 137/137 · back-translation meaning check · commentary light check | **QA 93.6, FAIL (3 Major: 1-17, 1-12, 2-3)** — fix; full commentary check · native Chinese review · upload | no |
+| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 4 | locked words 137/137 · back-translation meaning check · full commentary fact-check (4 commentaries, consensus, 9 fixes, 4 translator decisions) | **QA 98.2, PASS** (18 Minor) · native Vietnamese review · upload | no |
+| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 4 | locked words 136/136 · back-translation meaning check · full commentary fact-check (4 commentaries, no errors, 13 fixes, 2 translator decisions) | **QA 96.6, PASS** (30 Minor) · native Hindi review · upload | no (the old Gemini baseline is) |
 
 ## Reports behind each translation
 
@@ -48,6 +48,8 @@ hold raw machine output, which is never the translation to use.
 - `back-translation-check-hi-general.md`: draft 2 → 3 (meaning check, verse by verse)
 - `commentary-fact-check-report-*-hi-general.md`: one full report per commentary
 - `commentary-fact-check-consensus-hi-general.md` and `commentary-fact-check-fixes-log-hi-general.md`: draft 3 → 4
+
+**QA** — each language's `reports/qa-report.md` (translation-qa, MQM score and gate, 2026-09-24)
 
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
 is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi: `zh/zh-decisions-general.json`,
