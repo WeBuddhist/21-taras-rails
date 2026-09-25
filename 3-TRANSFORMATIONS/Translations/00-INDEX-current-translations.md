@@ -70,6 +70,8 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi:
 | `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
 | `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | yes (baseline) |
 | `Gemini/mn/`, `Gemini/ne/` | Mongolian, Nepali | Gemini zero-shot — the starting point for those languages | yes (baselines) |
+| `Dharmamitra/en-commentaries/` | English | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
+| `Dharmamitra/zh-commentaries/` | Chinese (Traditional) | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
 
 These folders stay where they are, because the translation scripts write to these paths. Don't edit the files
 by hand; a new run replaces them.
