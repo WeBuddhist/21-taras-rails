@@ -845,3 +845,15 @@ the word list, run-mn-general.sh). Dry run checked; the hints (whole words) are 
 - **Draft 6:** translation-qa 97.1 PASS (17 Minor, all fixed) → 100.0.
 - `standardised-keywords-general.md` has a Mongolian column. Reviewer: 11 flagged words (spirit classes; охин
   тэнгэр = also Palden Lhamo; нүүр/лянхуа vs the traditional forms).
+
+## Thai (th), general — zero-shot, word list, primed run set-up (2026-09-25)
+
+**Choices (Tenkal):** Thai script; clear modern Thai with the Pāli-based Buddhist words Thai readers know,
+Sanskrit names for deities and beings; the respectful vocabulary for Tārā's body (พระพักตร์, พระหัตถ์, พระบาท);
+mantras in Thai script as chanted; flagged picks by Claude. No Thai draft existed, so — unlike the other
+languages — a plain Gemini zero-shot was run first (`Gemini/th/`, run-th.sh) as the independent second opinion
+for the word list; Thai has no reference text and no Thai tradition for this praise.
+
+**Word list** (`th/`): 51 entries (47 + โอม, โซฮา, ฮารา, ตาเร), 7 flagged (พระแม่ตารา, อารย, สงบ vs ศานติ, เพ็ด,
+สูงสุด, กอปร, ผีร้าย). The zero-shot showed the one real clash: it wrote หมู่มาร for གདོན, its word for Māra
+(བདུད) — locked ผีร้าย instead. Zero-shot baseline **122/136**. Run set up in `Gemini/th-general/`.

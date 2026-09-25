@@ -1,0 +1,472 @@
+{
+  "_meta": {
+    "lang": "th",
+    "grade": "general",
+    "script": "Thai",
+    "lang_tag": "th",
+    "language_name": "Thai",
+    "title": "Thai word list — Praise to the Twenty-One Tārās (general grade)",
+    "choices": "Thai script · clear modern Thai with the Pāli-based Buddhist vocabulary Thai readers know, Sanskrit names for deities and classes of beings · the respectful religious vocabulary for Tārā's body (พระพักตร์, พระหัตถ์, พระบาท) · mantras in Thai script as chanted (โอม ตาเร ตุตตาเร ตุเร โซฮา) · flagged picks by Claude, with reasons (Tenkal, 2026-09-25).",
+    "decided_by": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "sources_note": "(1) standard Thai Buddhist vocabulary (Pāli-based; source `standard`); (2) the Gemini zero-shot th draft (Gemini/th/, 2026-09-25), run first on purpose as an independent second opinion because no Thai reference or tradition for this text exists (`mt`); (3) the mantra syllables as chanted by Thai Tibetan-Buddhist groups (`recitation`). Several picks are flagged for a native Thai reader.",
+    "source_labels": {
+      "standard": "the standard Thai Buddhist term",
+      "mt": "Gemini th zero-shot (2026-09-25)",
+      "recitation": "the syllable as chanted (Thai script)"
+    },
+    "baseline": "the Gemini zero-shot draft (Gemini/th/, 2026-09-25, run first as the second opinion) already uses 122 of 136 locked words (90%). Misses: หมู่มาร for གདོན (the Māra word), no word for རབ at 1-10, 1-15 and 2-1 phrasing of 'endowed', รัศมี for light at 1-12/1-20, บทสดุดี at a-1, the I-0 heading."
+  },
+  "terms": {
+    "homage": {
+      "th": "นอบน้อม",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's refrain ขอนอบน้อม (and การขอนอบน้อม, 1-22); locked as the core so both match.",
+      "hint": "ขอนอบน้อม"
+    },
+    "tara": {
+      "th": "ตารา",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. พระแม่ตารา is the name used by Thai Tibetan-Buddhist groups (the draft's at 1-1, a-1); locked as the core ตารา so พระอารยตารา (I-3) and the Sanskrit title also match.",
+      "hint": "พระแม่ตารา",
+      "decision": true
+    },
+    "benefits": {
+      "th": "อานิสงส์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard word; the draft's."
+    },
+    "noble_venerable": {
+      "th": "อารย",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. འཕགས་མ = อารยา (ārya); རྗེ་བཙུན་མ = ผู้ประเสริฐ (the draft: พระอารยตาราผู้ประเสริฐ). The core อารย is locked.",
+      "hint": "พระอารยาผู้ประเสริฐ",
+      "decision": true
+    },
+    "sanskrit_title": {
+      "th": "นะมะห์ ตารา เอกะวิงศะติ สโตตระ คุณะหิตะสากะ",
+      "source": [
+        "mt"
+      ],
+      "note": "the Sanskrit title in Thai script, as the draft has it."
+    },
+    "praise": {
+      "th": "สรรเสริญ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word (บทสรรเสริญ); a-1 had บทสดุดี — to be made consistent."
+    },
+    "blessed_tara": {
+      "th": "ภควตีพระแม่ตารา",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Bhagavatī + Tārā, as the draft's a-1."
+    },
+    "perfectly": {
+      "th": "สมบูรณ์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "'fully, perfectly' (อย่างสมบูรณ์, 1-21)."
+    },
+    "perfect_buddha": {
+      "th": "สัมมาสัมพุทธเจ้า",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard Pāli-Thai term; the draft's."
+    },
+    "blessed_one": {
+      "th": "ภควตี",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Bhagavatī, the draft's."
+    },
+    "actual_praise": {
+      "th": "ตัวบทสรรเสริญ",
+      "source": [
+        "mt"
+      ],
+      "note": "the draft's 1-0 heading."
+    },
+    "lightning": {
+      "th": "ฟ้าแลบ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the everyday word; the draft's."
+    },
+    "world": {
+      "th": "โลก",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers ไตรโลก, โลกทั้งเจ็ด."
+    },
+    "face": {
+      "th": "พักตร์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the respectful word (พระพักตร์).",
+      "hint": "พระพักตร์"
+    },
+    "lotus": {
+      "th": "บัว",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "ดอกบัว; covers ดุจดอกบัว.",
+      "hint": "ดอกบัว"
+    },
+    "lotus_face": {
+      "th": "ดุจดอกบัว",
+      "source": [
+        "mt"
+      ],
+      "note": "1-8 only, her own face like a lotus. In 1-1 the draft read 'the Lord's lotus face' — the known error; the lotus grows from his face.",
+      "hint": "พระพักตร์ดุจดอกบัว"
+    },
+    "light": {
+      "th": "แสง",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers แสงสว่าง; 1-12 had รัศมี."
+    },
+    "blaze": {
+      "th": "ลุก",
+      "source": [
+        "mt"
+      ],
+      "note": "the stem of ลุกโชน / ลุกโชติช่วง; hint ลุกโชน.",
+      "hint": "ลุกโชน"
+    },
+    "moon": {
+      "th": "จันทร์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers ดวงจันทร์, พระจันทร์."
+    },
+    "peace": {
+      "th": "สงบ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. The plain word (ความสงบ); the draft also used the more learned ศานติ at 1-15 and 1-21.",
+      "decision": true
+    },
+    "without_exception": {
+      "th": "เหลือ",
+      "source": [
+        "mt"
+      ],
+      "note": "covers ไม่เหลือ, ไร้ส่วนเหลือ, ไม่มีเหลือ; hint โดยไม่เหลือ.",
+      "hint": "โดยไม่เหลือ"
+    },
+    "hum": {
+      "th": "ฮูม",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "syllable": {
+      "th": "พยางค์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "trampling": {
+      "th": "เหยียบ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers เหยียบย่ำ.",
+      "hint": "เหยียบย่ำ"
+    },
+    "feet": {
+      "th": "บาท",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the respectful word (พระบาท).",
+      "hint": "พระบาท"
+    },
+    "tuttare": {
+      "th": "ตุตตาเร",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "hosts": {
+      "th": "หมู่",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers หมู่ยักษ์, หมู่เทพ."
+    },
+    "spirit": {
+      "th": "ภูต",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "destroy": {
+      "th": "ทำลาย",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "consistent in the draft."
+    },
+    "phat": {
+      "th": "เพ็ด",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Flagged. As Tibetan-tradition chanters say it (pé); the Sanskrit spelling would be ผัฏ.",
+      "decision": true
+    },
+    "trat": {
+      "th": "ตรัด",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "ture": {
+      "th": "ตุเร",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "great": {
+      "th": "ยิ่ง",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers ยิ่งใหญ่ and อย่างยิ่ง; verse-scoped (1-15, 1-8, 2-3).",
+      "hint": "ยิ่งใหญ่"
+    },
+    "supreme": {
+      "th": "สูงสุด",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. 'highest', kept apart from ยิ่ง; the draft had no word for རབ at 1-10.",
+      "decision": true
+    },
+    "power": {
+      "th": "อำนาจ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "1-10 ให้อยู่ในอำนาจ."
+    },
+    "joy": {
+      "th": "ยินดี",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers ปีติยินดี, ร่าเริงยินดี.",
+      "hint": "ปีติยินดี"
+    },
+    "syllable_hum": {
+      "th": "พยางค์ ฮูม",
+      "source": [
+        "mt"
+      ],
+      "note": "syllable + HŪṂ, as the draft."
+    },
+    "ability": {
+      "th": "สามารถ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "perfectly_endowed": {
+      "th": "กอปร",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "'endowed with' (กอปรด้วย, 1-21); the 'perfectly' is its own lock.",
+      "hint": "กอปรด้วย"
+    },
+    "endowed": {
+      "th": "กอปร",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. กอปรด้วย is formal; at 2-1 the draft used เปี่ยมด้วย ('full of'). One word keeps the three verses consistent.",
+      "hint": "กอปรด้วย",
+      "decision": true
+    },
+    "mantra": {
+      "th": "มนตร์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers มูลมนตร์."
+    },
+    "goddess": {
+      "th": "เทวี",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's พระเทวี."
+    },
+    "vetala": {
+      "th": "เวตาล",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the Sanskrit word in Thai (Thai readers know it from the Vetāla tales)."
+    },
+    "empowerment": {
+      "th": "อภิเษก",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "demon": {
+      "th": "ผีร้าย",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. The draft wrote หมู่มาร (Māras) for གདོན at 1-21 and 2-5 — but มาร is its word for བདུད (Māra, 1-8, 1-10), a different being. ผีร้าย ('evil spirits') keeps them apart.",
+      "decision": true
+    },
+    "yaksha": {
+      "th": "ยักษ์",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "might": {
+      "th": "นุภาพ",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "covers พลานุภาพ and อานุภาพ (the อ drops in the compound พล+อานุภาพ); hint พลานุภาพ. Kept apart from อำนาจ.",
+      "hint": "พลานุภาพ"
+    },
+    "om": {
+      "th": "โอม",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Thai-only entry: the syllable as chanted.",
+      "new_entry": {
+        "bo": "ཨོཾ",
+        "en": "Oṃ",
+        "verse_ids": [
+          "I-3",
+          "1-15"
+        ]
+      }
+    },
+    "svaha": {
+      "th": "โซฮา",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Thai-only entry: the syllable as chanted.",
+      "new_entry": {
+        "bo": "སྭཱ་ཧཱ",
+        "en": "svāhā",
+        "verse_ids": [
+          "1-15"
+        ]
+      }
+    },
+    "hara": {
+      "th": "ฮารา",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Thai-only entry: the syllable as chanted.",
+      "new_entry": {
+        "bo": "ཧ་ར",
+        "en": "HARA",
+        "verse_ids": [
+          "1-20"
+        ]
+      }
+    },
+    "tara_syllable": {
+      "th": "ตาเร",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Thai-only entry: the syllable as chanted.",
+      "new_entry": {
+        "bo": "ཏཱ་ར",
+        "en": "TĀRA",
+        "verse_ids": [
+          "1-18"
+        ]
+      }
+    }
+  }
+}
