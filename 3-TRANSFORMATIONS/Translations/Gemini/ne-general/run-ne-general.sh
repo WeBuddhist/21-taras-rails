@@ -8,6 +8,26 @@ GM="../Webuddhist-Skills/rails/machine-translate/scripts/gm_translate.py"
 SRC="1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md"
 OUT="3-TRANSFORMATIONS/Translations/Gemini/ne-general"
 [ -f "$GM" ] || { echo "cannot find $GM (Webuddhist-Skills must sit next to the vault)"; exit 1; }
+# macOS python.org Python ships without trusted certificates ("CERTIFICATE_VERIFY_FAILED").
+# If Python cannot verify HTTPS, give it a certificate bundle: certifi if installed, else one
+# built from the Mac's own keychains (this also covers any company certificate installed there).
+pyssl_ok() { python3 -c 'import ssl,urllib.request,urllib.error
+try: urllib.request.urlopen("https://generativelanguage.googleapis.com/", timeout=15)
+except urllib.error.HTTPError: pass
+except Exception as e:
+    import sys; sys.exit(1 if "CERTIFICATE_VERIFY_FAILED" in str(e) else 0)' ; }
+if ! pyssl_ok; then
+  CA=$(python3 -c 'import certifi; print(certifi.where())' 2>/dev/null || true)
+  if [ -z "$CA" ] && command -v security >/dev/null; then
+    CA="${TMPDIR:-/tmp}/gemini-ca-bundle.pem"
+    security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates.keychain > "$CA"
+    security find-certificate -a -p /Library/Keychains/System.keychain >> "$CA" 2>/dev/null || true
+  fi
+  export SSL_CERT_FILE="$CA"
+  pyssl_ok || { echo "Python still cannot verify HTTPS. Run: open \"/Applications/Python 3.*/Install Certificates.command\" and re-run."; exit 1; }
+  echo "certificates: using $SSL_CERT_FILE"
+fi
+
 if [ -z "${GEMINI_API_KEY:-}" ]; then read -r -s -p "Gemini API key (hidden): " GEMINI_API_KEY; echo; fi
 export GEMINI_API_KEY
 
