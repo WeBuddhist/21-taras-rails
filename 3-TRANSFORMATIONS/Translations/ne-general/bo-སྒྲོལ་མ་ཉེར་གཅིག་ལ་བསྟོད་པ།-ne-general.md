@@ -15,25 +15,26 @@ edition_id:
 toc_id:
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
-translator: gemini-3.1-pro-preview (raw draft, primed with the Nepali word list); termbase-enforced by Claude per keyword-standardize and graded-translate Phase 2
+translator: gemini-3.1-pro-preview (raw draft, primed with the Nepali word list); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
 source: https://ai.google.dev
 edition_type: critical
 source_language: tibetan
 target_language: nepali
 generator: graded-translate Phase 2 (Gemini glossary-primed base + 51-term locked ne termbase)
-rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check
+rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary-fact-check (Phase 1 ×4, Phase 1b, Phase 2)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/ne/en-bo-ne-termbase-general.json
 termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/ne/ne-decisions-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/ne/bo_ne_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-25
 revised: 2026-09-25
-draft: 4
+draft: 5
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/ne/, 2026-09-17)
   - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Nepali word list (3-TRANSFORMATIONS/Translations/Gemini/ne-general/, 2026-09-25)
   - 3 — locked words enforced verse by verse, clear errors fixed ; text kept in grade_file ne_text
-  - 4 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file)
+  - 4 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 5 — full commentary fact-check (4 commentaries), consensus and grammar fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -43,8 +44,24 @@ fact_checked: 2026-09-25 (meaning check by back-translation against the English 
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 meaning_check_report: 3-TRANSFORMATIONS/Translations/ne-general/reports/back-translation-check-ne-general.md
 meaning_check_result: 18 match, 7 minor, 7 differ — all 14 fixed
+fact_check_commentaries:
+  - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
+fact_check_full: 2026-09-25
+fact_check_reports:
+  - 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-report-drakpa-gyaltsen-ne-general.md
+  - 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-report-gendun-drub-ne-general.md
+  - 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-report-taranatha-ne-general.md
+  - 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-report-tenga-tulku-ne-general.md
+fact_check_consensus_ne: 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-consensus-ne-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/ne-general/reports/commentary-fact-check-fixes-log-ne-general.md
+fact_check_fixes_applied: 15
+fact_check_open_items: 0
+translator_decisions: "7 English translator decisions followed; Tenkal's Hindi decisions followed (1-11 दरिद्रता, 1-7 amid fire, बोधिसत्त्व/बुद्ध, ग्रह kept and flagged)"
 native_review: false
-note: "Fourth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Nepali word list; (3) locked words enforced (136/136) and clear errors fixed; (4) back-translation meaning check, 14 verses fixed. Not yet checked directly against the commentaries or reviewed by a native Nepali reader -- treat as draft."
+note: "Fifth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Nepali word list; (3) locked words enforced (136/136) and clear errors fixed; (4) back-translation meaning check, 14 verses fixed; (5) full fact-check against four Tibetan commentaries: 1 error (1-10, all four agree) and 14 consensus/grammar fixes. Not yet reviewed by a native Nepali reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -70,7 +87,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-1]]
 
 वन्दना तारा, द्रुत र शूरवीर,
-जसका नयन क्षणभरको बिजुली जस्ता छन्,
+जसका नेत्र क्षणभरको बिजुली जस्ता छन्,
 तीन लोकका नाथको मुखबाट प्रकट कमलको
 प्रस्फुटित केशरबाट उत्पन्न भएकी। ^1-1
 
@@ -90,7 +107,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-4]]
 
-वन्दना तथागतको उष्णीष स्वरूप,
+वन्दना तथागतहरूको उष्णीष स्वरूप,
 अनन्त र पूर्ण विजयी आचरण गर्ने,
 अशेष पारमिताहरू प्राप्त गरेका
 बोधिसत्त्वहरूद्वारा अत्यन्त सेवितलाई। ^1-4
@@ -100,7 +117,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 वन्दना तुत्तारे र हूँ अक्षरद्वारा,
 काम, रूप र अरूप लोकहरू भर्ने,
 सातै लोकलाई चरणले कुल्चेर
-सबैलाई निःशेष तान्न सक्ने क्षमता भएकी। ^1-5
+सबैलाई निःशेष तान्न समर्थ भएकी। ^1-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-6]]
 
@@ -112,9 +129,9 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-7]]
 
 वन्दना त्रट् र फट् द्वारा,
-शत्रुको यन्त्रहरू पूर्ण रूपले नष्ट गर्ने,
+शत्रुका यन्त्रहरू पूर्ण रूपले नष्ट गर्ने,
 दाहिने खुम्च्याएको र देब्रे तन्काएको चरणले कुल्चेर,
-प्रज्वलित अग्निमा अत्यन्त प्रज्वलित हुने। ^1-7
+उर्लँदो अग्निमा अत्यन्त प्रज्वलित हुने। ^1-7
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-8]]
 
@@ -132,7 +149,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
-वन्दना परम आनन्दित तेजको
+वन्दना परम आनन्द दिने, तेजोमय
 मुकुटबाट प्रकाशको माला फैलाउने,
 तुत्तारेको अट्टहासद्वारा,
 मार र लोकलाई वशमा गर्ने। ^1-10
@@ -146,7 +163,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-12]]
 
-वन्दना अर्धचन्द्रले मुकुट सजिएकी,
+वन्दना अर्धचन्द्रले शिर सजिएकी,
 सम्पूर्ण आभूषणहरू अत्यन्त प्रज्वलित हुने,
 जटाको बीचमा अमिताभबाट,
 निरन्तर अत्यन्त प्रकाश प्रदान गर्ने। ^1-12
@@ -176,7 +193,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 वन्दना चारैतिर परम आनन्दले घेरिएकी,
 शत्रुको शरीरलाई पूर्ण रूपले तहसनहस पार्ने,
-दश अक्षरको मन्त्र स्थापित भएको,
+जसमा दश अक्षरको मन्त्र स्थापित छ,
 विद्या हूँबाट उत्पन्न दीप स्वरूप भएकी। ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
@@ -195,8 +212,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
-वन्दना देवसमूहका राजाहरू,
-देवता र किन्नरहरूद्वारा सेवित,
+वन्दना देवसमूहका राजाहरूद्वारा,
+देवता र किन्नरहरूद्वारा पनि सेवित,
 चारैतिरबाट कवचको आनन्दमय तेजले,
 विवाद र नराम्रो सपना हटाउने। ^1-19
 
@@ -209,7 +226,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-वन्दना तीन तत्त्वहरू स्थापित भएकी,
+वन्दना जसमा तीन तत्त्व स्थापित छन्,
 शान्तिको शक्तिसँग पूर्ण रूपले युक्त,
 ग्रह, वेताल र यक्ष समूहहरूलाई,
 नष्ट गर्ने तुरे परम उत्तम भएकी। ^1-21
@@ -224,14 +241,14 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-1]]
 
 देवीप्रति पूर्ण रूपले भक्तिले युक्त,
-जुन बुद्धिमानले राम्ररी पाठ गर्नाले, ^2-1
+जो बुद्धिमान्‌ले यसको राम्ररी पाठ गर्छ, ^2-1
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
 साँझ र बिहान उठेर,
-उहाँको स्मरण गर्नाले सम्पूर्ण अभय राम्ररी प्रदान गर्छ,
-सम्पूर्ण पापहरू पूर्ण रूपले शान्त हुन्छ,
-सम्पूर्ण दुर्गतिहरूलाई नष्ट गर्दछ। ^2-2
+उहाँको स्मरणले सम्पूर्ण अभय प्राप्त हुन्छ,
+सम्पूर्ण पापहरू पूर्ण रूपले शान्त हुन्छन्,
+सम्पूर्ण दुर्गतिहरू नष्ट हुन्छन्। ^2-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
@@ -242,15 +259,15 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-4]]
 
-त्यो भयंकर महा विष,
+अत्यन्त भयंकर महाविष,
 स्थावर होस् वा जङ्गम,
 खाएको र पिएको भए तापनि,
 उहाँको स्मरण गर्नाले पूर्ण रूपले हट्नेछ। ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
-ग्रह, महामारी र विषद्वारा पीडित भएको,
-सम्पूर्ण दुःखका समूहहरू पूर्ण रूपले हटाइनेछ,
+ग्रह, महामारी र विषद्वारा पीडित हुनेहरूका
+सम्पूर्ण दुःखका समूहहरू पूर्ण रूपले हटाइनेछन्,
 अन्य प्राणीहरूका लागि पनि त्यस्तै हुनेछ। ^2-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-6]]
@@ -258,7 +275,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 दुई, तीन, सात पटक स्पष्ट रूपले पाठ गरेमा,
 पुत्र चाहनेले पुत्र प्राप्त गर्नेछ र,
 धन चाहनेले धनहरू नै प्राप्त गर्नेछ,
-सम्पूर्ण इच्छाहरू प्राप्त हुनेछ र,
+सम्पूर्ण इच्छाहरू पूरा हुनेछन् र,
 विघ्नहरू नरहून् र एक-एक गरी नष्ट होऊन्। ^2-6
 
 ## पुष्पिका ^a-0
