@@ -869,3 +869,7 @@ for the word list; Thai has no reference text and no Thai tradition for this pra
   other languages): 21 match, 9 minor, 2 differ — 1-11 lines 1–2 were not a sentence; 1-16 had her reciting
   the ten-syllable mantra instead of it being set in her. Also "frowns by means of HŪṂ" (1-11, 1-14), 1-22
   "This is…" cutting the link to 2-1, 2-2 ไร้ภัย → ความไม่หวาดกลัว. All fixed, 136/136 kept. QA not yet run.
+- **Draft 6:** translation-qa (MQM) on draft 5: **98.7 PASS** (0 critical, 0 major, 13 minor; 973 words by
+  PyThaiNLP) — I-2 'twenty-one kinds', 1-17 'has' the seed, 1-15 added 'all', 1-12 เมาลี → ชฎา, 2-1 ความเคารพ →
+  ศรัทธา, 2-3 opening โดย, and idiom fixes (1-1, 1-3, 1-4, 1-7, 1-21). All 13 fixed → 100.0; 136/136 kept.
+  Next: native Thai review; Thai must be added as a platform language before upload (the linter rejects "th").

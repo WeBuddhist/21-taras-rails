@@ -28,13 +28,14 @@ grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/th/bo_th_keywo
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-25
 revised: 2026-09-25
-draft: 5
+draft: 6
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/th/, 2026-09-25)
   - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Thai word list (3-TRANSFORMATIONS/Translations/Gemini/th-general/, 2026-09-25)
   - 3 — the 4 missed locked words swapped in, wording otherwise untouched
   - 4 — full commentary fact-check (4 commentaries), consensus fixes applied
-  - 5 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file); text kept in grade_file th_text
+  - 5 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 6 — translation-qa fixes applied (this file); text kept in grade_file th_text
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -60,9 +61,12 @@ fact_check_consensus_th: 3-TRANSFORMATIONS/Translations/th-general/reports/comme
 fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/th-general/reports/commentary-fact-check-fixes-log-th-general.md
 fact_check_fixes_applied: 21 blocks
 fact_check_open_items: 0
+qa_report: 3-TRANSFORMATIONS/Translations/th-general/reports/qa-report.md
+qa_fixes_log: 3-TRANSFORMATIONS/Translations/th-general/reports/qa-fixes-log-th-general.md
+qa_fixes_applied: 13
 translator_decisions: "English translator decisions followed (1-3 colours, 1-8 and 1-17 Ture as her name, 1-14 seven levels, 1-17 Vindhya, 1-22 and, 2-6 optative); Tenkal's decisions followed (1-11 destitution, 1-7 amid fire)"
 native_review: false
-note: "Fifth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Thai word list (132/136 locked words); (3) the 4 missed locked words swapped in (136/136); (4) full fact-check against four Tibetan commentaries: 21 blocks fixed, including the 1-1 lotus-face error, 1-3 missing wisdom, 1-4 who attained the perfections, and the homage-by-means-of wording in 1-5, 1-7 and 1-9; (5) back-translation meaning check: 21 match, 9 minor, 2 differ (1-11 broken sentence, 1-16 mantra recited vs set), all fixed (136/136 kept). QA not yet run, and not reviewed by a native Thai reader -- treat as draft."
+note: "Sixth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Thai word list (132/136 locked words); (3) the 4 missed locked words swapped in (136/136); (4) full fact-check against four Tibetan commentaries: 21 blocks fixed, including the 1-1 lotus-face error, 1-3 missing wisdom, 1-4 who attained the perfections, and the homage-by-means-of wording in 1-5, 1-7 and 1-9; (5) back-translation meaning check: 21 match, 9 minor, 2 differ (1-11 broken sentence, 1-16 mantra recited vs set), all fixed (136/136 kept). (6) translation-qa (MQM): 0 critical, 0 major, 13 minor, all 13 fixed (score 98.7 to 100). Not yet reviewed by a native Thai reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -77,7 +81,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^I-2]]
 
-ในภาษาทิเบตว่า บทสรรเสริญขอนอบน้อมแด่พระแม่ตาราทั้งยี่สิบเอ็ดประการพร้อมด้วยอานิสงส์ ^I-2
+ในภาษาทิเบตว่า บทสรรเสริญพระแม่ตาราด้วยการขอนอบน้อมยี่สิบเอ็ดบท พร้อมด้วยอานิสงส์ ^I-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^I-3]]
 
@@ -88,7 +92,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-1]]
 
 ขอนอบน้อมแด่พระแม่ตาราผู้รวดเร็วและกล้าหาญ
-พระเนตรดุจฟ้าแลบในฉับพลัน
+พระเนตรดุจฟ้าแลบแปลบปลาบ
 ทรงอุบัติจากเกสรที่เบ่งบานของดอกบัว
 ที่ผุดขึ้นจากพระพักตร์ของพระผู้เป็นที่พึ่งแห่งโลกทั้งสาม ^1-1
 
@@ -101,7 +105,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-3]]
 
-ขอนอบน้อมพระผู้มีดอกบัวสีน้ำเงินทองที่เกิดจากน้ำ
+ขอนอบน้อมพระผู้มีดอกบัวสีทองและสีน้ำเงินที่เกิดจากน้ำ
 ประดับอยู่บนพระหัตถ์อย่างงดงาม
 ทาน วิริยะ ศีล ความสงบ
 ขันติ ฌาน และปัญญา คือวิสัยแห่งการปฏิบัติของพระองค์ ^1-3
@@ -109,7 +113,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-4]]
 
 ขอนอบน้อมพระผู้เป็นพระเกตุมาลาแห่งพระตถาคตทั้งปวง
-ผู้ทรงกระทำชัยชนะอย่างไม่มีที่สิ้นสุด
+ผู้ทรงดำเนินด้วยชัยชนะโดยสิ้นเชิงอันไม่มีที่สิ้นสุด
 พระโพธิสัตว์บุตรแห่งพระชินเจ้า
 ผู้บรรลุบารมีทั้งปวงโดยไม่เหลือ ต่างพึ่งพิงพระองค์อย่างยิ่ง ^1-4
 
@@ -132,7 +136,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ขอนอบน้อมพระผู้ทรงใช้พยางค์ ตรัด และ เพ็ด
 ทำลายยันต์และคุณไสยแห่งฝ่ายศัตรูอย่างสิ้นเชิง
 ทรงงอพระบาทขวาและเหยียดพระบาทซ้ายเหยียบย่ำ
-ผู้ทรงลุกโชนอย่างยิ่งท่ามกลางกองเพลิงอันปั่นป่วน ^1-7
+ผู้ทรงลุกโชนอย่างยิ่งท่ามกลางกองเพลิงที่โหมกระหน่ำ ^1-7
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-8]]
 
@@ -166,8 +170,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้ประดับพระเศียรด้วยจันทร์เสี้ยว
 เครื่องประดับทั้งปวงเปล่งแสงลุกโชนอย่างยิ่ง
-ท่ามกลางพระเมาลีมีพระอมิตาภพุทธะ
-ทรงเปล่งแสงอันเจิดจ้าอย่างยิ่งอยู่เสมอ ^1-12
+พระอมิตาภพุทธะท่ามกลางพระชฎา
+เปล่งแสงอันเจิดจ้าอย่างยิ่งอยู่เสมอ ^1-12
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-13]]
 
@@ -188,7 +192,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ขอนอบน้อมพระผู้เปี่ยมสุข ดีงาม และสงบ
 ความสงบแห่งนิพพานคือวิสัยแห่งการปฏิบัติของพระองค์
 กอปรด้วย โซฮา และ โอม อย่างสมบูรณ์
-ผู้ทรงทำลายบาปอันยิ่งใหญ่ทั้งปวง ^1-15
+ผู้ทรงทำลายบาปอันยิ่งใหญ่ ^1-15
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-16]]
 
@@ -200,7 +204,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
 
 ขอนอบน้อมพระตุเร ผู้ทรงกระทืบพระบาท
-ทรงมีพยางค์พืชคือ ฮูม
+พระองค์คือพยางค์พืชในรูปแห่ง ฮูม
 ทรงทำให้เขาพระสุเมรุ เขามันทระ เขาพินธัย
 และโลกทั้งสามสั่นสะเทือน ^1-17
 
@@ -229,8 +233,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้มีตถตาทั้งสามประดิษฐานอยู่
 กอปรด้วยพลานุภาพแห่งความสงบอย่างสมบูรณ์
-ผีร้าย เวตาล และหมู่ยักษ์
-ตุเร ผู้ประเสริฐสุดทรงทำลาย ^1-21
+ทรงทำลายผีร้าย เวตาล และหมู่ยักษ์
+พระองค์คือพระตุเรผู้ประเสริฐสุด ^1-21
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-22]]
 
@@ -241,8 +245,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-1]]
 
-กอปรด้วยความเคารพอย่างแท้จริงต่อเทวี
-ผู้มีปัญญาใดที่สวดสรรเสริญเป็นอย่างดี ^2-1
+ผู้กอปรด้วยศรัทธาอันแรงกล้าต่อเทวี
+ผู้มีปัญญาใดที่สวดสาธยายอย่างตั้งใจ ^2-1
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
@@ -253,7 +257,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
-โดยพระพุทธเจ้าเจ็ดโกฏิพระองค์
+พระชินเจ้าเจ็ดโกฏิพระองค์
 จะทรงประทานอภิเษกให้อย่างรวดเร็ว
 จะได้รับความยิ่งใหญ่ยิ่งกว่านี้
 และบรรลุถึงสภาวะแห่งพระพุทธเจ้าในท้ายที่สุด ^2-3
