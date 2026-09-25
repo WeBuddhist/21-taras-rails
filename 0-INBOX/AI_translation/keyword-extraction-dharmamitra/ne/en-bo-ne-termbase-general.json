@@ -314,6 +314,7 @@
     ],
     "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
     "ne_note": "the stem, as in Hindi (covers चन्द्रमा, अर्धचन्द्र). At 1-18 the draft wrote मृगाङ्क (चन्द्रमा) — the parenthesis is an addition.",
+    "ne_hint": "चन्द्रमा",
     "ne_evidence": {
       "machine_draft": "4/4 of its verses"
     }
@@ -392,6 +393,7 @@
     ],
     "ne_source": "Gemini ne zero-shot (2026-09-17)",
     "ne_note": "Flagged. The stem of the native Nepali verb 'to trample' (कुल्चेर, कुल्चँदै in the draft); Hindi's आक्रांत is literary in Nepali. Locked as the stem so every verb form matches.",
+    "ne_hint": "कुल्चनु",
     "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
     "ne_evidence": {
       "machine_draft": "2/2 of its verses"
@@ -534,6 +536,7 @@
     ],
     "ne_source": "Hindi word list and Hindi draft 5",
     "ne_note": "the stem, as Hindi (महान्, महाभयङ्करी, महिमा…).",
+    "ne_hint": "महान्",
     "ne_evidence": {
       "machine_draft": "3/3 of its verses"
     }

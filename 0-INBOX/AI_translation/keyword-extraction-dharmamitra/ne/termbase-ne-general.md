@@ -24,6 +24,8 @@ Tibetan words. **Edit `ne-decisions-general.json`, not this file** — this file
 
 **Nepali-only entries:** om, svaha, hara, tara_syllable.
 
+**Baseline:** the Gemini zero-shot draft (Gemini/ne/, 2026-09-17) already uses 126 of 136 locked words (93%, check_termbase_consistency.py --lang ne) before any priming. Misses: joy (प्रमुदित throughout), जलजात for कमल at 1-8, त्रत् for त्रट्, I-2 प्रणाम, 1-19 समूह, 2-1 युक्त. It also has the 1-1 'lotus face' error and 'तुत्तार' for तुत्तारे.
+
 ## Flagged picks — please look at these first (7)
 
 Sources disagreed or had nothing. Decided by: Claude pick — user delegated flagged picks ("you do it"), 2026-09-25.

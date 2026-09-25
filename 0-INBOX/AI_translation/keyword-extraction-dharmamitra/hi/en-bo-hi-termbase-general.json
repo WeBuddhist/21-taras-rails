@@ -312,6 +312,7 @@
     ],
     "hi_source": "the standard Sanskrit-Hindi Buddhist term",
     "hi_note": "the Sanskrit-correct spelling (not चंद्रमा) for the Sanskritized register; consistent meaning throughout (1-2, 1-12, 1-20, 1-18). Locked as the stem चन्द्र (rule 6) so it also covers 1-12's अर्धचन्द्र ('crescent moon'); the draft's चंद्रमाओं (1-2) was respelled चन्द्रमाओं.",
+    "hi_hint": "चन्द्रमा",
     "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "hi_evidence": {
       "machine_draft": "3/4 of its verses"
@@ -533,6 +534,7 @@
     ],
     "hi_source": "Gemini hi draft (2026-09-17)",
     "hi_note": "shortest form (rule 6), so the lock covers महान् (1-15 महान पापों), the compound prefix (1-8 महाभयंकर) and 2-3's abstract महानता — all the same Sanskrit root mahā.",
+    "hi_hint": "महान्",
     "hi_evidence": {
       "machine_draft": "3/3 of its verses"
     }
@@ -712,7 +714,7 @@
       "2-5"
     ],
     "hi_source": "Gemini hi draft (2026-09-17)",
-    "hi_note": "Flagged: the draft independently chose ग्रह (graha) at both 1-21 and 2-5. Unlike English (which kept the plain 'demons' for the general grade because 'graha' is obscure to an English reader), ग्रह is a term ordinary Hindi speakers already know in this exact sense (an afflicting planetary/spirit force — राहु-केतु ग्रह, ग्रह-दोष), so it fits the general grade in Hindi even though the parallel English term does not use its Sanskrit cognate.",
+    "hi_note": "Flagged: the draft independently chose ग्रह (graha) at both 1-21 and 2-5. Unlike English (which kept the plain 'demons' for the general grade because 'graha' is obscure to an English reader), ग्रह is a term ordinary Hindi speakers already know in this exact sense (an afflicting planetary/spirit force — राहु-केतु ग्रह, ग्रह-दोष), so it fits the general grade in Hindi even though the parallel English term does not use its Sanskrit cognate. Commentary check (GD): at 2-5 a reader might think of 'planets'. Tenkal, 2026-09-24: keep ग्रह, flag for the native reviewer (plain alternative दुष्ट आत्माएँ).",
     "hi_decision": "Claude pick — user delegated flagged picks (\"go with your picks\"), 2026-09-24",
     "hi_evidence": {
       "machine_draft": "2/2 of its verses"

@@ -171,7 +171,8 @@
         "related",
         "standard"
       ],
-      "note": "the stem, as in Hindi (covers चन्द्रमा, अर्धचन्द्र). At 1-18 the draft wrote मृगाङ्क (चन्द्रमा) — the parenthesis is an addition."
+      "note": "the stem, as in Hindi (covers चन्द्रमा, अर्धचन्द्र). At 1-18 the draft wrote मृगाङ्क (चन्द्रमा) — the parenthesis is an addition.",
+      "hint": "चन्द्रमा"
     },
     "peace": {
       "ne": "शान्ति",
@@ -210,7 +211,8 @@
         "mt"
       ],
       "note": "Flagged. The stem of the native Nepali verb 'to trample' (कुल्चेर, कुल्चँदै in the draft); Hindi's आक्रांत is literary in Nepali. Locked as the stem so every verb form matches.",
-      "decision": true
+      "decision": true,
+      "hint": "कुल्चनु"
     },
     "feet": {
       "ne": "चरण",
@@ -276,7 +278,8 @@
       "source": [
         "related"
       ],
-      "note": "the stem, as Hindi (महान्, महाभयङ्करी, महिमा…)."
+      "note": "the stem, as Hindi (महान्, महाभयङ्करी, महिमा…).",
+      "hint": "महान्"
     },
     "supreme": {
       "ne": "परम",

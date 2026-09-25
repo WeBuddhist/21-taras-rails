@@ -149,7 +149,8 @@
         "standard"
       ],
       "note": "the Sanskrit-correct spelling (not चंद्रमा) for the Sanskritized register; consistent meaning throughout (1-2, 1-12, 1-20, 1-18). Locked as the stem चन्द्र (rule 6) so it also covers 1-12's अर्धचन्द्र ('crescent moon'); the draft's चंद्रमाओं (1-2) was respelled चन्द्रमाओं.",
-      "decision": true
+      "decision": true,
+      "hint": "चन्द्रमा"
     },
     "peace": {
       "hi": "शांति",
@@ -248,7 +249,8 @@
       "source": [
         "mt"
       ],
-      "note": "shortest form (rule 6), so the lock covers महान् (1-15 महान पापों), the compound prefix (1-8 महाभयंकर) and 2-3's abstract महानता — all the same Sanskrit root mahā."
+      "note": "shortest form (rule 6), so the lock covers महान् (1-15 महान पापों), the compound prefix (1-8 महाभयंकर) and 2-3's abstract महानता — all the same Sanskrit root mahā.",
+      "hint": "महान्"
     },
     "supreme": {
       "hi": "परम",
