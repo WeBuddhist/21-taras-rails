@@ -1,0 +1,1862 @@
+{
+ "I-0": {
+  "text": "## Meaning of the Title and the Translator's Homage",
+  "bo_text": "མཚན་དོན་དང་འགྱུར་ཕྱག",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   }
+  ]
+ },
+ "I-2": {
+  "text": "In the language of Tibet: The Praise to Tara in Twenty-One Homages, with Its Benefits.",
+  "bo_text": "བོད་སྐད་དུ། སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གིས་བསྟོད་པ་ཕན་ཡོན་དང་བཅས་པ།",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "tārā",
+    "rank": 18,
+    "score": 0.042996,
+    "count": 1,
+    "bo": "སྒྲོལ་མ",
+    "term": "tara",
+    "en": "Tara",
+    "grade": "general",
+    "mn": "Дарь эх"
+   },
+   {
+    "key": "benefit",
+    "rank": 95,
+    "score": 0.208799,
+    "count": 1,
+    "bo": "ཕན་ཡོན",
+    "term": "benefits",
+    "en": "benefits",
+    "grade": "general",
+    "mn": "ач тус"
+   }
+  ]
+ },
+ "I-3": {
+  "text": "Om! Homage to the Noble and Venerable Tara.",
+  "bo_text": "ཨོཾ། རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "tārā",
+    "rank": 18,
+    "score": 0.042996,
+    "count": 1,
+    "bo": "སྒྲོལ་མ",
+    "term": "tara",
+    "en": "Tara",
+    "grade": "general",
+    "mn": "Дарь эх"
+   },
+   {
+    "key": "noble venerable",
+    "rank": 137,
+    "score": 0.25235,
+    "count": 1,
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "term": "noble_venerable",
+    "en": "Noble and Venerable",
+    "grade": "general",
+    "mn": "богд хутагт"
+   },
+   {
+    "key": "oṃ",
+    "rank": 999,
+    "score": null,
+    "count": 1,
+    "bo": "ཨོཾ",
+    "term": "om",
+    "en": "Oṃ",
+    "grade": "general",
+    "mn": "Ум",
+    "mn_only": true
+   }
+  ]
+ },
+ "I-1": {
+  "text": "In the language of India: Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka.",
+  "bo_text": "༄༅༅། །རྒྱ་གར་སྐད་དུ། ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "tārā",
+    "rank": 18,
+    "score": 0.042996,
+    "count": 1,
+    "bo": "ཏཱ་རཱ",
+    "term": "tara_sanskrit",
+    "en": "Tārā (in the Sanskrit title)",
+    "grade": "general",
+    "mn": "Тара"
+   },
+   {
+    "key": "namaḥ tārā ekaviṃśati",
+    "rank": 23,
+    "score": 0.055246,
+    "count": 1,
+    "bo": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "tārā ekaviṃśati stotra",
+    "rank": 24,
+    "score": 0.055787,
+    "count": 1,
+    "bo": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "namaḥ tārā",
+    "rank": 52,
+    "score": 0.100833,
+    "count": 1,
+    "bo": "ན་མཿཏཱ་རཱ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "tārā ekaviṃśati",
+    "rank": 53,
+    "score": 0.101683,
+    "count": 1,
+    "bo": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "stotra guṇahita sāka",
+    "rank": 59,
+    "score": 0.12941,
+    "count": 1,
+    "bo": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "ekaviṃśati stotra guṇahita",
+    "rank": 60,
+    "score": 0.130745,
+    "count": 1,
+    "bo": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "guṇahita sāka",
+    "rank": 99,
+    "score": 0.223882,
+    "count": 1,
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "ekaviṃśati stotra",
+    "rank": 101,
+    "score": 0.225984,
+    "count": 1,
+    "bo": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   },
+   {
+    "key": "stotra guṇahita",
+    "rank": 102,
+    "score": 0.225984,
+    "count": 1,
+    "bo": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ",
+    "term": "sanskrit_title",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "grade": "general",
+    "mn": "Намо Тара Экавимшати Стотра Гунахита Сака"
+   }
+  ]
+ },
+ "a-1": {
+  "text": "The praise to the Blessed Tārā, spoken by the Perfectly Complete Buddha, is completed.",
+  "bo_text": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ་ལ་ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་ཀྱིས་བསྟོད་པ་གསུངས་པ་རྫོགས་སོ།། །།",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "tārā",
+    "rank": 18,
+    "score": 0.042996,
+    "count": 1,
+    "bo": "སྒྲོལ་མ",
+    "term": "tara",
+    "en": "Tara",
+    "grade": "general",
+    "mn": "Дарь эх"
+   },
+   {
+    "key": "praise",
+    "rank": 27,
+    "score": 0.058504,
+    "count": 1,
+    "bo": "བསྟོད་པ",
+    "term": "praise",
+    "en": "praise",
+    "grade": "general",
+    "mn": "магт"
+   },
+   {
+    "key": "bless goddess tārā",
+    "rank": 39,
+    "score": 0.074211,
+    "count": 1,
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "term": "blessed_tara",
+    "en": "the Blessed Tārā",
+    "grade": "general",
+    "mn": "Төгс нөгчсөн Дарь эх"
+   },
+   {
+    "key": "goddess tārā",
+    "rank": 54,
+    "score": 0.105352,
+    "count": 1,
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "term": "blessed_tara",
+    "en": "the Blessed Tārā",
+    "grade": "general",
+    "mn": "Төгс нөгчсөн Дарь эх"
+   },
+   {
+    "key": "perfectly",
+    "rank": 65,
+    "score": 0.144737,
+    "count": 1,
+    "bo": "ཡང་དག་པར",
+    "term": "perfectly",
+    "en": "perfectly",
+    "grade": "general",
+    "mn": "сайтар"
+   },
+   {
+    "key": "perfectly complete buddha",
+    "rank": 88,
+    "score": 0.203878,
+    "count": 1,
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "term": "perfect_buddha",
+    "en": "the Perfectly Complete Buddha",
+    "grade": "general",
+    "mn": "төгс туулсан"
+   },
+   {
+    "key": "goddess",
+    "rank": 98,
+    "score": 0.221674,
+    "count": 1,
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "term": "blessed_one",
+    "en": "the Blessed One",
+    "grade": "general",
+    "mn": "Төгс нөгчсөн"
+   },
+   {
+    "key": "bless goddess",
+    "rank": 144,
+    "score": 0.296901,
+    "count": 1,
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "term": "blessed_one",
+    "en": "the Blessed One",
+    "grade": "general",
+    "mn": "Төгс нөгчсөн"
+   }
+  ]
+ },
+ "1-0": {
+  "text": "## The Actual Praise",
+  "bo_text": "བསྟོད་པ་དངོས།",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "praise",
+    "rank": 27,
+    "score": 0.058504,
+    "count": 1,
+    "bo": "བསྟོད་པ",
+    "term": "praise",
+    "en": "praise",
+    "grade": "general",
+    "mn": "магт"
+   },
+   {
+    "key": "actual praise",
+    "rank": 68,
+    "score": 0.153176,
+    "count": 1,
+    "bo": "བསྟོད་པ་དངོས",
+    "term": "actual_praise",
+    "en": "the actual praise",
+    "grade": "general",
+    "mn": "Үндсэн магтаал"
+   }
+  ]
+ },
+ "1-1": {
+  "text": "Homage to you, Tara, swift one and heroine,\nWhose eyes are like a flash of lightning,\nBorn from the opening stamens of the lotus\nThat arose from the face of the Lord of the Three Worlds.",
+  "bo_text": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། ། སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། ། འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། ། གེ་སར་ཕྱེ་བ་ལས་ནི་བྱུང་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "tārā",
+    "rank": 18,
+    "score": 0.042996,
+    "count": 1,
+    "bo": "སྒྲོལ་མ",
+    "term": "tara",
+    "en": "Tara",
+    "grade": "general",
+    "mn": "Дарь эх"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "གློག",
+    "term": "lightning",
+    "en": "lightning",
+    "grade": "general",
+    "mn": "цахилгаан"
+   },
+   {
+    "key": "world",
+    "rank": 67,
+    "score": 0.148902,
+    "count": 1,
+    "bo": "འཇིག་རྟེན",
+    "term": "world",
+    "en": "world(s)",
+    "grade": "general",
+    "mn": "ертөнц"
+   },
+   {
+    "key": "face",
+    "rank": 80,
+    "score": 0.193164,
+    "count": 1,
+    "bo": "ཞལ",
+    "term": "face",
+    "en": "face",
+    "grade": "general",
+    "mn": "нүүр"
+   },
+   {
+    "key": "lotus",
+    "rank": 82,
+    "score": 0.193713,
+    "count": 1,
+    "bo": "ཆུ་སྐྱེས",
+    "term": "lotus",
+    "en": "lotus",
+    "grade": "general",
+    "mn": "лянхуа"
+   }
+  ]
+ },
+ "1-2": {
+  "text": "Homage to you, whose face is like\nA hundred full autumn moons heaped together,\nBlazing with the brilliant light\nOf thousands of gathered stars.",
+  "bo_text": "ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་དུ། ། གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། ། སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས། ། རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "འོད",
+    "term": "light",
+    "en": "light",
+    "grade": "general",
+    "mn": "гэр"
+   },
+   {
+    "key": "blaze",
+    "rank": 64,
+    "score": 0.136511,
+    "count": 1,
+    "bo": "འབར",
+    "term": "blaze",
+    "en": "blazing",
+    "grade": "general",
+    "mn": "бад"
+   },
+   {
+    "key": "moon",
+    "rank": 77,
+    "score": 0.187035,
+    "count": 1,
+    "bo": "ཟླ་བ",
+    "term": "moon",
+    "en": "moon",
+    "grade": "general",
+    "mn": "сар"
+   },
+   {
+    "key": "face",
+    "rank": 80,
+    "score": 0.193164,
+    "count": 1,
+    "bo": "ཞལ",
+    "term": "face",
+    "en": "face",
+    "grade": "general",
+    "mn": "нүүр"
+   }
+  ]
+ },
+ "1-3": {
+  "text": "Homage to you, whose hand is adorned\nWith a gold and blue water-born lotus,\nWho are generosity, diligence, discipline, peace,\nPatience, concentration, and the very domain of wisdom.",
+  "bo_text": "ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། ། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། ། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། ། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "lotus",
+    "rank": 82,
+    "score": 0.193713,
+    "count": 1,
+    "bo": "པདྨ",
+    "term": "lotus",
+    "en": "lotus",
+    "grade": "general",
+    "mn": "лянхуа"
+   },
+   {
+    "key": "peace",
+    "rank": 92,
+    "score": 0.206866,
+    "count": 1,
+    "bo": "ཞི་བ",
+    "term": "peace",
+    "en": "peace",
+    "grade": "general",
+    "mn": "амар"
+   }
+  ]
+ },
+ "1-4": {
+  "text": "Homage to you, Usnisa of the Tathagatas,\nWho act with infinite, complete victory,\nDeeply relied upon by the children of the Victors,\nWho have attained all the perfections without exception.",
+  "bo_text": "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། ། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། ། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། ། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "exception",
+    "rank": 78,
+    "score": 0.190049,
+    "count": 1,
+    "bo": "མ་ལུས",
+    "term": "without_exception",
+    "en": "without exception",
+    "grade": "general",
+    "mn": "үлдэлгүй"
+   }
+  ]
+ },
+ "1-5": {
+  "text": "Homage to you who, with the syllables tuttare and hum,\nFill the desire, form, and formless realms,\nTrampling the seven worlds under your feet,\nAble to summon all without exception.",
+  "bo_text": "ཕྱག་འཚལ་ཏུཏྟྭ་ར་ཧཱུྃ་ཡི་གེ། ། འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ། ། འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། ། ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "hūṃ",
+    "rank": 28,
+    "score": 0.059021,
+    "count": 1,
+    "bo": "ཧཱུྃ",
+    "term": "hum",
+    "en": "hum",
+    "grade": "general",
+    "mn": "хум"
+   },
+   {
+    "key": "syllable",
+    "rank": 50,
+    "score": 0.097489,
+    "count": 1,
+    "bo": "ཡི་གེ",
+    "term": "syllable",
+    "en": "syllable",
+    "grade": "general",
+    "mn": "үсэг"
+   },
+   {
+    "key": "world",
+    "rank": 67,
+    "score": 0.148902,
+    "count": 1,
+    "bo": "འཇིག་རྟེན",
+    "term": "world",
+    "en": "world(s)",
+    "grade": "general",
+    "mn": "ертөнц"
+   },
+   {
+    "key": "trample",
+    "rank": 83,
+    "score": 0.199274,
+    "count": 1,
+    "bo": "མནན",
+    "term": "trampling",
+    "en": "trampling",
+    "grade": "general",
+    "mn": "гишгэ"
+   },
+   {
+    "key": "foot",
+    "rank": 86,
+    "score": 0.202926,
+    "count": 1,
+    "bo": "ཞབས",
+    "term": "feet",
+    "en": "feet",
+    "grade": "general",
+    "mn": "өлмий"
+   },
+   {
+    "key": "syllable tuttāra",
+    "rank": 100,
+    "score": 0.224813,
+    "count": 1,
+    "bo": "ཏུཏྟྭ་ར",
+    "term": "tuttare",
+    "en": "tuttare",
+    "grade": "general",
+    "mn": "дүдарэ"
+   }
+  ]
+ },
+ "1-6": {
+  "text": "Homage to you whom Indra, Agni, Brahma,\nVayu, and the various Isvaras worship,\nPraised before you by spirits,\nVetālas, gandharvas, and hosts of yaksas.",
+  "bo_text": "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "praise",
+    "rank": 27,
+    "score": 0.058504,
+    "count": 1,
+    "bo": "བསྟོད",
+    "term": "praise",
+    "en": "praise",
+    "grade": "general",
+    "mn": "магт"
+   },
+   {
+    "key": "host",
+    "rank": 61,
+    "score": 0.132447,
+    "count": 1,
+    "bo": "ཚོགས",
+    "term": "hosts",
+    "en": "hosts",
+    "grade": "general",
+    "mn": "чуулга"
+   },
+   {
+    "key": "spirit",
+    "rank": 87,
+    "score": 0.2033,
+    "count": 1,
+    "bo": "འབྱུང་པོ",
+    "term": "spirit",
+    "en": "spirits",
+    "grade": "general",
+    "mn": "чөтгөр"
+   },
+   {
+    "key": "zombie",
+    "rank": 140,
+    "score": 0.255926,
+    "count": 1,
+    "bo": "རོ་ལངས",
+    "term": "vetala",
+    "en": "vetāla",
+    "grade": "general",
+    "mn": "босоо"
+   },
+   {
+    "key": "yakṣas",
+    "rank": null,
+    "score": null,
+    "count": 1,
+    "bo": "གནོད་སྦྱིན",
+    "term": "yaksha",
+    "en": "yaksas",
+    "grade": "general",
+    "source": "tfidf-added-manually",
+    "mn": "хорлогч"
+   }
+  ]
+ },
+ "1-7": {
+  "text": "Homage to you who, with the syllables trat and phat,\nUtterly destroy the magical wheels of adversaries,\nTrampling with right leg drawn in and left extended,\nBlazing amidst a swirling mass of fire.",
+  "bo_text": "ཕྱག་འཚལ་ཏྲད་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། ། ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། ། གཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་མནན་ཏེ། ། མེ་འབར་འཁྲུགས་པ་ཤིན་ཏུ་འབར་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "destroy",
+    "rank": 63,
+    "score": 0.135951,
+    "count": 1,
+    "bo": "འཇོམས",
+    "term": "destroy",
+    "en": "destroys",
+    "grade": "general",
+    "mn": "дара"
+   },
+   {
+    "key": "blaze",
+    "rank": 64,
+    "score": 0.136511,
+    "count": 1,
+    "bo": "འབར",
+    "term": "blaze",
+    "en": "blazing",
+    "grade": "general",
+    "mn": "бад"
+   },
+   {
+    "key": "trample",
+    "rank": 83,
+    "score": 0.199274,
+    "count": 1,
+    "bo": "མནན",
+    "term": "trampling",
+    "en": "trampling",
+    "grade": "general",
+    "mn": "гишгэ"
+   },
+   {
+    "key": "phaṭ",
+    "rank": 94,
+    "score": 0.207579,
+    "count": 1,
+    "bo": "ཕཊ",
+    "term": "phat",
+    "en": "phat",
+    "grade": "general",
+    "mn": "пад"
+   },
+   {
+    "key": "syllables traṭ",
+    "rank": 103,
+    "score": 0.228631,
+    "count": 1,
+    "bo": "ཏྲད",
+    "term": "trat",
+    "en": "trat",
+    "grade": "general",
+    "mn": "трэд"
+   }
+  ]
+ },
+ "1-8": {
+  "text": "Homage to you, Ture, the Great Terrifying One,\nWho completely destroy the champions of Mara,\nWhose lotus face is set in a wrathful frown,\nAnd who slay all enemies without exception.",
+  "bo_text": "ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ། ། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། ། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། ། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "ture",
+    "rank": 58,
+    "score": 0.124696,
+    "count": 1,
+    "bo": "ཏུ་རེ",
+    "term": "ture",
+    "en": "ture",
+    "grade": "general",
+    "mn": "дүрэ"
+   },
+   {
+    "key": "great",
+    "rank": 69,
+    "score": 0.163859,
+    "count": 1,
+    "bo": "ཆེན་མོ",
+    "term": "great",
+    "en": "great",
+    "grade": "general",
+    "mn": "их"
+   },
+   {
+    "key": "exception",
+    "rank": 78,
+    "score": 0.190049,
+    "count": 1,
+    "bo": "མ་ལུས",
+    "term": "without_exception",
+    "en": "without exception",
+    "grade": "general",
+    "mn": "үлдэлгүй"
+   },
+   {
+    "key": "face",
+    "rank": 80,
+    "score": 0.193164,
+    "count": 1,
+    "bo": "ཞལ",
+    "term": "face",
+    "en": "face",
+    "grade": "general",
+    "mn": "нүүр"
+   },
+   {
+    "key": "lotus",
+    "rank": 82,
+    "score": 0.193713,
+    "count": 1,
+    "bo": "ཆུ་སྐྱེས",
+    "term": "lotus",
+    "en": "lotus",
+    "grade": "general",
+    "mn": "лянхуа"
+   },
+   {
+    "key": "lotus face",
+    "rank": 138,
+    "score": 0.253881,
+    "count": 1,
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "term": "lotus_face",
+    "en": "lotus face",
+    "grade": "general",
+    "mn": "лянхуан нүүр"
+   }
+  ]
+ },
+ "1-9": {
+  "text": "Homage to you, whose fingers, in the mudra symbolizing the Three Jewels,\nBeautifully adorn your heart,\nWhose palm is adorned with the wheel of all directions without exception,\nWho radiate a turbulent mass of your own light.",
+  "bo_text": "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། ། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི། ། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུག་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "འོད",
+    "term": "light",
+    "en": "light",
+    "grade": "general",
+    "mn": "гэр"
+   }
+  ]
+ },
+ "1-10": {
+  "text": "Homage to you, who bring supreme joy, whose majestic\nCrown ornament spreads garlands of light,\nWho, with the great laughter of tuttare,\nBring maras and the world under your power.",
+  "bo_text": "ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི། ། དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ། ། བཞད་པ་རབ་བཞད་ཏུ་ཏྟྭ་ར་ཡིས། ། བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "འོད",
+    "term": "light",
+    "en": "light",
+    "grade": "general",
+    "mn": "гэр"
+   },
+   {
+    "key": "great",
+    "rank": 69,
+    "score": 0.163859,
+    "count": 1,
+    "bo": "རབ",
+    "term": "supreme",
+    "en": "supreme",
+    "grade": "general",
+    "mn": "дээд"
+   },
+   {
+    "key": "power",
+    "rank": 85,
+    "score": 0.202539,
+    "count": 1,
+    "bo": "དབང",
+    "term": "power",
+    "en": "power",
+    "grade": "general",
+    "mn": "эрх"
+   },
+   {
+    "key": "joy",
+    "rank": 90,
+    "score": 0.205606,
+    "count": 1,
+    "bo": "དགའ་བ",
+    "term": "joy",
+    "en": "joy",
+    "grade": "general",
+    "mn": "баяс"
+   },
+   {
+    "key": "tuttāre",
+    "rank": 96,
+    "score": 0.210047,
+    "count": 1,
+    "bo": "ཏུ་ཏྟྭ་ར",
+    "term": "tuttare",
+    "en": "tuttare",
+    "grade": "general",
+    "mn": "дүдарэ"
+   }
+  ]
+ },
+ "1-11": {
+  "text": "Homage to you, who have the ability to summon\nAll the hosts of guardians of the earth,\nWho, with a quivering, wrathful frown and the syllable hum,\nCompletely liberate from all destitution.",
+  "bo_text": "ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས། ། ཐམས་ཅད་འགུགས་པར་ནུས་མ་ཉིད་མ། ། ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུཾ་གིས། ། ཕོངས་པ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "hūṃ",
+    "rank": 28,
+    "score": 0.059021,
+    "count": 1,
+    "bo": "ཧཱུཾ",
+    "term": "hum",
+    "en": "hum",
+    "grade": "general",
+    "mn": "хум"
+   },
+   {
+    "key": "syllable hūṃ",
+    "rank": 31,
+    "score": 0.065022,
+    "count": 1,
+    "bo": "ཡི་གེ་ཧཱུཾ",
+    "term": "syllable_hum",
+    "en": "the syllable hum",
+    "grade": "general",
+    "mn": "хум үсэг"
+   },
+   {
+    "key": "host",
+    "rank": 61,
+    "score": 0.132447,
+    "count": 1,
+    "bo": "ཚོགས",
+    "term": "hosts",
+    "en": "hosts",
+    "grade": "general",
+    "mn": "чуулга"
+   },
+   {
+    "key": "power",
+    "rank": 85,
+    "score": 0.202539,
+    "count": 1,
+    "bo": "ནུས",
+    "term": "ability",
+    "en": "ability",
+    "grade": "general",
+    "mn": "чада"
+   }
+  ]
+ },
+ "1-12": {
+  "text": "Homage to you, whose head is adorned with a crescent moon,\nWhose every ornament blazes intensely,\nFrom whose matted locks Amitabha\nConstantly radiates an intense light.",
+  "bo_text": "ཕྱག་འཚལ་ཟླ་བའི་རྩེ་མོས་དབུ་བརྒྱན། ། བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། ། རལ་པའི་ཁྲོད་ན་འོད་དཔག་མེད་ལས། ། རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "འོད",
+    "term": "light",
+    "en": "light",
+    "grade": "general",
+    "mn": "гэр"
+   },
+   {
+    "key": "moon",
+    "rank": 77,
+    "score": 0.187035,
+    "count": 1,
+    "bo": "ཟླ་བ",
+    "term": "moon",
+    "en": "moon",
+    "grade": "general",
+    "mn": "сар"
+   }
+  ]
+ },
+ "1-13": {
+  "text": "Homage to you, who dwell within a garland of fire\nLike the blaze at the end of an eon;\nWith right leg extended and left drawn in, joyfully encircled,\nYou completely destroy the armies of enemies.",
+  "bo_text": "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར། ། འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། ། གཡས་བརྐྱང་གཡོན་བསྐུམ་ཀུན་ནས་བསྐོར་དགས། ། དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "destroy",
+    "rank": 63,
+    "score": 0.135951,
+    "count": 1,
+    "bo": "འཇོམས",
+    "term": "destroy",
+    "en": "destroys",
+    "grade": "general",
+    "mn": "дара"
+   },
+   {
+    "key": "blaze",
+    "rank": 64,
+    "score": 0.136511,
+    "count": 1,
+    "bo": "འབར",
+    "term": "blaze",
+    "en": "blazing",
+    "grade": "general",
+    "mn": "бад"
+   },
+   {
+    "key": "joy",
+    "rank": 90,
+    "score": 0.205606,
+    "count": 1,
+    "bo": "བསྐོར་དགས",
+    "term": "joy",
+    "en": "joy",
+    "grade": "general",
+    "mn": "баяс"
+   }
+  ]
+ },
+ "1-14": {
+  "text": "Homage to you, who strike the surface of the earth\nWith the palms of your hands and pound it with your feet;\nWith a wrathful frown and the syllable hum,\nYou shatter the seven levels.",
+  "bo_text": "ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། ། མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ། ། ཁྲོ་གཉེར་ཅན་མཛད་ཡི་གེ་ཧཱུྃ་གིས། ། རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "hūṃ",
+    "rank": 28,
+    "score": 0.059021,
+    "count": 1,
+    "bo": "ཧཱུྃ",
+    "term": "hum",
+    "en": "hum",
+    "grade": "general",
+    "mn": "хум"
+   },
+   {
+    "key": "syllable hūṃ",
+    "rank": 31,
+    "score": 0.065022,
+    "count": 1,
+    "bo": "ཡི་གེ་ཧཱུྃ",
+    "term": "syllable_hum",
+    "en": "the syllable hum",
+    "grade": "general",
+    "mn": "хум үсэг"
+   },
+   {
+    "key": "foot",
+    "rank": 86,
+    "score": 0.202926,
+    "count": 1,
+    "bo": "ཞབས",
+    "term": "feet",
+    "en": "feet",
+    "grade": "general",
+    "mn": "өлмий"
+   }
+  ]
+ },
+ "1-15": {
+  "text": "Homage to you, who are blissful, virtuous, and peaceful,\nWhose very domain is the peace of nirvana;\nPerfectly endowed with the syllables om and svaha,\nYou completely destroy great misdeeds.",
+  "bo_text": "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། ། སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས། ། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "destroy",
+    "rank": 63,
+    "score": 0.135951,
+    "count": 1,
+    "bo": "འཇོམས",
+    "term": "destroy",
+    "en": "destroys",
+    "grade": "general",
+    "mn": "дара"
+   },
+   {
+    "key": "perfectly",
+    "rank": 65,
+    "score": 0.144737,
+    "count": 1,
+    "bo": "ཡང་དག",
+    "term": "perfectly",
+    "en": "perfectly",
+    "grade": "general",
+    "mn": "сайтар"
+   },
+   {
+    "key": "great",
+    "rank": 69,
+    "score": 0.163859,
+    "count": 1,
+    "bo": "ཆེན་པོ",
+    "term": "great",
+    "en": "great",
+    "grade": "general",
+    "mn": "их"
+   },
+   {
+    "key": "perfectly endow",
+    "rank": 75,
+    "score": 0.182177,
+    "count": 1,
+    "bo": "ཡང་དག་ལྡན",
+    "term": "perfectly_endowed",
+    "en": "perfectly endowed",
+    "grade": "general",
+    "mn": "сайтар төгс"
+   },
+   {
+    "key": "endow",
+    "rank": 89,
+    "score": 0.20501,
+    "count": 1,
+    "bo": "ལྡན",
+    "term": "endowed",
+    "en": "endowed",
+    "grade": "general",
+    "mn": "төгс"
+   },
+   {
+    "key": "peace",
+    "rank": 92,
+    "score": 0.206866,
+    "count": 2,
+    "bo": "ཞི",
+    "term": "peace",
+    "en": "peace",
+    "grade": "general",
+    "mn": "амар"
+   },
+   {
+    "key": "oṃ",
+    "rank": 999,
+    "score": null,
+    "count": 1,
+    "bo": "ཨོཾ",
+    "term": "om",
+    "en": "Oṃ",
+    "grade": "general",
+    "mn": "Ум",
+    "mn_only": true
+   },
+   {
+    "key": "svāhā",
+    "rank": 999,
+    "score": null,
+    "count": 1,
+    "bo": "སྭཱ་ཧཱ",
+    "term": "svaha",
+    "en": "svāhā",
+    "grade": "general",
+    "mn": "суха",
+    "mn_only": true
+   }
+  ]
+ },
+ "1-16": {
+  "text": "Homage to you, joyfully encircled,\nWho utterly shatter the bodies of enemies,\nIn whom the ten-syllable mantra is set,\nThe lamp arising from the knowledge-mantra hum.",
+  "bo_text": "ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། ། དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། ། ཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི། ། རིག་པ་ཧཱུྃ་ལས་སྒྲོན་མ་ཉིད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "hūṃ",
+    "rank": 28,
+    "score": 0.059021,
+    "count": 1,
+    "bo": "ཧཱུྃ",
+    "term": "hum",
+    "en": "hum",
+    "grade": "general",
+    "mn": "хум"
+   },
+   {
+    "key": "joy",
+    "rank": 90,
+    "score": 0.205606,
+    "count": 1,
+    "bo": "དགའ་བ",
+    "term": "joy",
+    "en": "joy",
+    "grade": "general",
+    "mn": "баяс"
+   },
+   {
+    "key": "mantra",
+    "rank": 93,
+    "score": 0.207449,
+    "count": 1,
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག",
+    "term": "mantra",
+    "en": "mantra",
+    "grade": "general",
+    "mn": "тарни"
+   }
+  ]
+ },
+ "1-17": {
+  "text": "Homage to you, Ture, who stamp your feet,\nWhose essence is the seed-syllable in the form of hum;\nYou cause Mount Meru, Mandara, and Vindhya,\nAnd all the three worlds to tremble.",
+  "bo_text": "ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། ། ཧཱུྃ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། ། རི་རབ་མན་དཱ་ར་དང་འབིགས་བྱེད། ། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "hūṃ",
+    "rank": 28,
+    "score": 0.059021,
+    "count": 1,
+    "bo": "ཧཱུྃ",
+    "term": "hum",
+    "en": "hum",
+    "grade": "general",
+    "mn": "хум"
+   },
+   {
+    "key": "ture",
+    "rank": 58,
+    "score": 0.124696,
+    "count": 1,
+    "bo": "ཏུ་རེ",
+    "term": "ture",
+    "en": "ture",
+    "grade": "general",
+    "mn": "дүрэ"
+   },
+   {
+    "key": "world",
+    "rank": 67,
+    "score": 0.148902,
+    "count": 1,
+    "bo": "འཇིག་རྟེན",
+    "term": "world",
+    "en": "world(s)",
+    "grade": "general",
+    "mn": "ертөнц"
+   },
+   {
+    "key": "foot",
+    "rank": 86,
+    "score": 0.202926,
+    "count": 1,
+    "bo": "ཞབས",
+    "term": "feet",
+    "en": "feet",
+    "grade": "general",
+    "mn": "өлмий"
+   }
+  ]
+ },
+ "1-18": {
+  "text": "Homage to you, who hold in your hand the moon,\nWhich has the form of a celestial lake;\nBy reciting tara twice and the syllable phat,\nYou eliminate every poison without exception.",
+  "bo_text": "ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། ། རི་དགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ། ། ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས། ། དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "moon",
+    "rank": 77,
+    "score": 0.187035,
+    "count": 1,
+    "bo": "རི་དགས་རྟགས་ཅན",
+    "term": "moon",
+    "en": "moon",
+    "grade": "general",
+    "mn": "сар"
+   },
+   {
+    "key": "syllable phaṭ",
+    "rank": 81,
+    "score": 0.193167,
+    "count": 1,
+    "bo": "ཕཊ་ཀྱི་ཡི་གེ",
+    "term": "phat",
+    "en": "phat",
+    "grade": "general",
+    "mn": "пад"
+   },
+   {
+    "key": "phaṭ",
+    "rank": 94,
+    "score": 0.207579,
+    "count": 1,
+    "bo": "ཕཊ",
+    "term": "phat",
+    "en": "phat",
+    "grade": "general",
+    "mn": "пад"
+   },
+   {
+    "key": "tāra",
+    "rank": 999,
+    "score": null,
+    "count": 1,
+    "bo": "ཏཱ་ར",
+    "term": "tara_syllable",
+    "en": "TĀRA",
+    "grade": "general",
+    "mn": "дарэ",
+    "mn_only": true
+   }
+  ]
+ },
+ "1-19": {
+  "text": "Homage to you, served by the kings of the hosts of gods,\nRelied upon by gods and kinnaras;\nWith the majesty of your armor of universal joy,\nYou dispel conflicts and evil dreams.",
+  "bo_text": "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། ། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས། ། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "host",
+    "rank": 61,
+    "score": 0.132447,
+    "count": 1,
+    "bo": "ཚོགས",
+    "term": "hosts",
+    "en": "hosts",
+    "grade": "general",
+    "mn": "чуулга"
+   },
+   {
+    "key": "joy",
+    "rank": 90,
+    "score": 0.205606,
+    "count": 1,
+    "bo": "དགའ་བ",
+    "term": "joy",
+    "en": "joy",
+    "grade": "general",
+    "mn": "баяс"
+   }
+  ]
+ },
+ "1-20": {
+  "text": "Homage to you, whose two eyes are as brilliant\nAs the light of the full sun and moon;\nBy reciting hara twice and tuttare,\nYou dispel the most violent infectious diseases.",
+  "bo_text": "ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི། ། སྤྱན་གཉིས་པོ་ལ་འོད་རབ་གསལ་མ། ། ཧ་ར་གཉིས་བརྗོད་ཏུ་ཏྟྭ་ར་ཡིས། ། ཤིན་ཏུ་དྲག་པོའི་རིམས་ནི་སེལ་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "light",
+    "rank": 51,
+    "score": 0.098265,
+    "count": 1,
+    "bo": "འོད",
+    "term": "light",
+    "en": "light",
+    "grade": "general",
+    "mn": "гэр"
+   },
+   {
+    "key": "moon",
+    "rank": 77,
+    "score": 0.187035,
+    "count": 1,
+    "bo": "ཟླ་བ",
+    "term": "moon",
+    "en": "moon",
+    "grade": "general",
+    "mn": "сар"
+   },
+   {
+    "key": "tuttāre",
+    "rank": 96,
+    "score": 0.210047,
+    "count": 1,
+    "bo": "ཏུ་ཏྟྭ་ར",
+    "term": "tuttare",
+    "en": "tuttare",
+    "grade": "general",
+    "mn": "дүдарэ"
+   },
+   {
+    "key": "hara",
+    "rank": 999,
+    "score": null,
+    "count": 1,
+    "bo": "ཧ་ར",
+    "term": "hara",
+    "en": "HARA",
+    "grade": "general",
+    "mn": "хара",
+    "mn_only": true
+   }
+  ]
+ },
+ "1-21": {
+  "text": "Homage to you, perfectly endowed with the might of peace,\nWith the three suchnesses set upon you;\nYou are the supreme Ture who destroys\nThe hosts of demons, vetālas, and yaksas.",
+  "bo_text": "ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པའི། ། ཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ། ། གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས། ། འཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "ture",
+    "rank": 58,
+    "score": 0.124696,
+    "count": 1,
+    "bo": "ཏུ་རེ",
+    "term": "ture",
+    "en": "ture",
+    "grade": "general",
+    "mn": "дүрэ"
+   },
+   {
+    "key": "host",
+    "rank": 61,
+    "score": 0.132447,
+    "count": 1,
+    "bo": "ཚོགས",
+    "term": "hosts",
+    "en": "hosts",
+    "grade": "general",
+    "mn": "чуулга"
+   },
+   {
+    "key": "destroy",
+    "rank": 63,
+    "score": 0.135951,
+    "count": 1,
+    "bo": "འཇོམས",
+    "term": "destroy",
+    "en": "destroys",
+    "grade": "general",
+    "mn": "дара"
+   },
+   {
+    "key": "perfectly",
+    "rank": 65,
+    "score": 0.144737,
+    "count": 1,
+    "bo": "ཡང་དག",
+    "term": "perfectly",
+    "en": "perfectly",
+    "grade": "general",
+    "mn": "сайтар"
+   },
+   {
+    "key": "perfectly endow",
+    "rank": 75,
+    "score": 0.182177,
+    "count": 1,
+    "bo": "ཡང་དག་ལྡན",
+    "term": "perfectly_endowed",
+    "en": "perfectly endowed",
+    "grade": "general",
+    "mn": "сайтар төгс"
+   },
+   {
+    "key": "power",
+    "rank": 85,
+    "score": 0.202539,
+    "count": 1,
+    "bo": "མཐུ",
+    "term": "might",
+    "en": "might",
+    "grade": "general",
+    "mn": "хүч"
+   },
+   {
+    "key": "spirit",
+    "rank": 87,
+    "score": 0.2033,
+    "count": 1,
+    "bo": "གདོན",
+    "term": "demon",
+    "en": "demons",
+    "grade": "general",
+    "mn": "ад"
+   },
+   {
+    "key": "endow",
+    "rank": 89,
+    "score": 0.20501,
+    "count": 1,
+    "bo": "ལྡན",
+    "term": "endowed",
+    "en": "endowed",
+    "grade": "general",
+    "mn": "төгс"
+   },
+   {
+    "key": "peace",
+    "rank": 92,
+    "score": 0.206866,
+    "count": 1,
+    "bo": "ཞི་བ",
+    "term": "peace",
+    "en": "peace",
+    "grade": "general",
+    "mn": "амар"
+   },
+   {
+    "key": "zombie",
+    "rank": 140,
+    "score": 0.255926,
+    "count": 1,
+    "bo": "རོ་ལངས",
+    "term": "vetala",
+    "en": "vetāla",
+    "grade": "general",
+    "mn": "босоо"
+   },
+   {
+    "key": "yakṣas",
+    "rank": null,
+    "score": null,
+    "count": 1,
+    "bo": "གནོད་སྦྱིན",
+    "term": "yaksha",
+    "en": "yaksas",
+    "grade": "general",
+    "source": "tfidf-added-manually",
+    "mn": "хорлогч"
+   }
+  ]
+ },
+ "1-22": {
+  "text": "With this praise by the root mantra\nAnd these twenty-one homages,",
+  "bo_text": "རྩ་བའི་སྔགས་ཀྱིས་བསྟོད་པ་འདི་དང་། ། ཕྱག་འཚལ་བ་ནི་ཉི་ཤུ་རྩ་གཅིག །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "homage",
+    "rank": 1,
+    "score": 0.00507,
+    "count": 1,
+    "bo": "ཕྱག་འཚལ་བ",
+    "term": "homage",
+    "en": "Homage",
+    "grade": "general",
+    "mn": "мөргө"
+   },
+   {
+    "key": "praise",
+    "rank": 27,
+    "score": 0.058504,
+    "count": 1,
+    "bo": "བསྟོད་པ",
+    "term": "praise",
+    "en": "praise",
+    "grade": "general",
+    "mn": "магт"
+   },
+   {
+    "key": "mantra",
+    "rank": 93,
+    "score": 0.207449,
+    "count": 1,
+    "bo": "སྔགས",
+    "term": "mantra",
+    "en": "mantra",
+    "grade": "general",
+    "mn": "тарни"
+   }
+  ]
+ },
+ "2-0": {
+  "text": "## The Benefits of the Praise",
+  "bo_text": "བསྟོད་པའི་ཕན་ཡོན།",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "praise",
+    "rank": 27,
+    "score": 0.058504,
+    "count": 1,
+    "bo": "བསྟོད་པ",
+    "term": "praise",
+    "en": "praise",
+    "grade": "general",
+    "mn": "магт"
+   },
+   {
+    "key": "benefit",
+    "rank": 95,
+    "score": 0.208799,
+    "count": 1,
+    "bo": "ཕན་ཡོན",
+    "term": "benefits",
+    "en": "benefits",
+    "grade": "general",
+    "mn": "ач тус"
+   }
+  ]
+ },
+ "2-1": {
+  "text": "Any intelligent person endowed with perfect devotion to the goddess,\nWho recites this earnestly,",
+  "bo_text": "ལྷ་མོ་ལ་གུས་ཡང་དག་ལྡན་པའི། ། བློ་ལྡན་གང་གིས་རབ་ཏུ་བརྗོད་པས། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "endow",
+    "rank": 89,
+    "score": 0.20501,
+    "count": 1,
+    "bo": "ལྡན",
+    "term": "endowed",
+    "en": "endowed",
+    "grade": "general",
+    "mn": "төгс"
+   },
+   {
+    "key": "goddess",
+    "rank": 98,
+    "score": 0.221674,
+    "count": 1,
+    "bo": "ལྷ་མོ",
+    "term": "goddess",
+    "en": "goddess",
+    "grade": "general",
+    "mn": "охин тэнгэр"
+   }
+  ]
+ },
+ "2-2": {
+  "text": "Rising at dusk and at dawn,\nWill be granted complete fearlessness through recollection;\nAll misdeeds will be thoroughly pacified,\nAnd all lower realms will be utterly destroyed.",
+  "bo_text": "སྲོད་དང་ཐོ་རངས་ལངས་པར་བྱས་ནས། ། དྲན་པས་མི་འཇིགས་ཐམས་ཅད་རབ་སྟེར། ། སྡིག་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་བ། ། ངན་འགྲོ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ། །",
+  "mn_text": "",
+  "keywords": []
+ },
+ "2-3": {
+  "text": "Seventy million Victors\nWill swiftly confer empowerment,\nAnd one will attain even greater excellence than this,\nProceeding to that ultimate state of Buddhahood.",
+  "bo_text": "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས། ། མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ། ། འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་། ། སངས་རྒྱས་གོ་འཕང་མཐར་ཐུག་དེར་འགྲོ། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "great",
+    "rank": 69,
+    "score": 0.163859,
+    "count": 1,
+    "bo": "ཆེ་བ",
+    "term": "great",
+    "en": "great",
+    "grade": "general",
+    "mn": "их"
+   },
+   {
+    "key": "power",
+    "rank": 85,
+    "score": 0.202539,
+    "count": 1,
+    "bo": "དབང",
+    "term": "empowerment",
+    "en": "empowerment",
+    "grade": "general",
+    "mn": "авшиг"
+   }
+  ]
+ },
+ "2-4": {
+  "text": "For such a person, poisons that are extremely fierce,\nWhether stationary or moving,\nEven those that have been eaten or drunk,\nAre completely eliminated through recollection.",
+  "bo_text": "དེ་ཡི་དུག་ནི་དྲག་པོ་ཆེན་པོ། ། བརྟན་གནས་པའམ་གཞན་ཡང་འགྲོ་བ། ། ཟོས་པ་དང་ནི་འཐུངས་པ་ཉིད་ཀྱང་། ། དྲན་པས་རབ་ཏུ་སེལ་བ་ཉིད་ཐོབ། །",
+  "mn_text": "",
+  "keywords": []
+ },
+ "2-5": {
+  "text": "For those tormented by demons, infectious diseases, and poisons,\nThe masses of suffering are utterly cast off;\nAnd so too for other sentient beings.",
+  "bo_text": "གདོན་དང་རིམས་དང་དུག་གིས་གཟིར་བའི། ། སྡུག་བསྔལ་ཚོགས་ནི་རྣམ་པར་སྤོང་སྟེ། ། སེམས་ཅན་གཞན་པ་རྣམས་ལ་ཡང་ངོ་། །",
+  "mn_text": "",
+  "keywords": [
+   {
+    "key": "spirit",
+    "rank": 87,
+    "score": 0.2033,
+    "count": 1,
+    "bo": "གདོན",
+    "term": "demon",
+    "en": "demons",
+    "grade": "general",
+    "mn": "ад"
+   }
+  ]
+ }
+}

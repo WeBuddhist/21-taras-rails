@@ -817,3 +817,18 @@ each request.
   one error (1-10 joy given to the crown, all four agree — missed by the back-translation) + 14 fixes.
   **Draft 6:** translation-qa 97.4 PASS (15 Minor), all fixed → 100.0. Alignment OK, 136/136 throughout.
 - `standardised-keywords-general.md` now has a Nepali column.
+
+## Mongolian (mn), general — word list and the primed Gemini run set-up (2026-09-25)
+
+**Choices (Tenkal):** Cyrillic (Khalkha); clear modern Mongolian keeping the liturgical words (Дарь эх, мөргөмүй)
+without archaic grammar (лугаа, хийгээд); mantras as chanted in Mongolia (Ум дарэ дүдарэ дүрэ суха); flagged
+picks by Claude; the Nepali plan (a Gemini run with the word list, run by Tenkal on the Mac).
+
+**Word list** (`mn/`): 52 entries (47 + Ум, суха, хара, дарэ, and Тара split off for the Sanskrit title line),
+11 flagged — several spirit-class words (чөтгөр, босоо, хорлогч) and охин тэнгэр (also Palden Lhamo's name) need a
+native reviewer. Stems + hints where Mongolian drops a vowel on inflection (гэр/гэрэл, магт/магтаал, бад/бадрах).
+No reference text (the Mongolian Kanjur version could not be fetched). Validator 0 errors. Zero-shot baseline
+**117/136**.
+
+**Run set up** in `3-TRANSFORMATIONS/Translations/Gemini/mn-general/` (style.md, glossary.tsv = names/mantras +
+the word list, run-mn-general.sh). Dry run checked; the hints (whole words) are what the model sees.
