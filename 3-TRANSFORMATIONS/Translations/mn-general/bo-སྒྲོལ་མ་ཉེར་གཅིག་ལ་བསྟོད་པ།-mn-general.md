@@ -15,25 +15,26 @@ edition_id:
 toc_id:
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
-translator: gemini-3.1-pro-preview (raw draft, primed with the Mongolian word list); termbase-enforced and meaning-checked by Claude per keyword-standardize, graded-translate Phase 2 and a back-translation check
+translator: gemini-3.1-pro-preview (raw draft, primed with the Mongolian word list); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
 source: https://ai.google.dev
 edition_type: critical
 source_language: tibetan
 target_language: mongolian
 generator: graded-translate Phase 2 (Gemini glossary-primed base + 52-term locked mn termbase)
-rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check
+rails_used: keyword-standardize; graded-translate (Phase 2, Phase 3); back-translation meaning check; commentary-fact-check (Phase 1 ×4, Phase 1b, Phase 2)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/mn/en-bo-mn-termbase-general.json
 termbase_decisions: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/mn/mn-decisions-general.json
 grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/mn/bo_mn_keyword_general.json
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-25
 revised: 2026-09-25
-draft: 4
+draft: 5
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/mn/, 2026-09-17)
   - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Mongolian word list (3-TRANSFORMATIONS/Translations/Gemini/mn-general/, 2026-09-25)
   - 3 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file mn_text
-  - 4 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file)
+  - 4 — meaning check by back-translation against the fact-checked English and the commentary consensus
+  - 5 — full commentary fact-check (4 commentaries), consensus fixes applied (this file)
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
@@ -43,8 +44,24 @@ fact_checked: 2026-09-25 (meaning check by back-translation against the English 
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 meaning_check_report: 3-TRANSFORMATIONS/Translations/mn-general/reports/back-translation-check-mn-general.md
 meaning_check_result: 20 match, 5 minor, 7 differ — all fixed
+fact_check_commentaries:
+  - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md
+  - 1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md
+fact_check_full: 2026-09-25
+fact_check_reports:
+  - 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-report-drakpa-gyaltsen-mn-general.md
+  - 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-report-gendun-drub-mn-general.md
+  - 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-report-taranatha-mn-general.md
+  - 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-report-tenga-tulku-mn-general.md
+fact_check_consensus_mn: 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-consensus-mn-general.md
+fact_check_fixes_log: 3-TRANSFORMATIONS/Translations/mn-general/reports/commentary-fact-check-fixes-log-mn-general.md
+fact_check_fixes_applied: 16
+fact_check_open_items: 0
+translator_decisions: "7 English translator decisions followed; Tenkal's decisions followed (1-11 destitution, 1-7 amid fire)"
 native_review: false
-note: "Fourth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 52-term Mongolian word list; (3) locked words enforced and 2 clear errors fixed (2-3 seventy million; 1-22); (4) back-translation meaning check, 12 verses fixed. Not yet checked directly against the commentaries or reviewed by a native Mongolian reader -- treat as draft."
+note: "Fifth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 52-term Mongolian word list; (3) locked words enforced and 2 clear errors fixed (2-3 seventy million; 1-22); (4) back-translation meaning check, 12 verses fixed; (5) full fact-check against four Tibetan commentaries: 3 errors (1-4, 1-16, 2-5) and 13 more consensus fixes. Not yet reviewed by a native Mongolian reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -78,22 +95,22 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 Мөргөмүй, намрын сар бүрнээ
 Дүүрсэн зууг давхарласан мэт нүүрт,
-Мянган оддын чуулган бүгдээр
+Мянга мянган оддын чуулган бүгдээр
 Үнэнхүү дэлгэрсэн гэрэл бадрагч танаа. ^1-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-3]]
 
 Мөргөмүй, алтлаг хөх уснаа ургасан
 Лянхуагаар мутраа сайтар чимсэн,
-Өглөг, хичээнгүй, сахил, амарлингүй,
+Өглөг, хичээнгүй, сахил, амарлингуй,
 Тэвчээр, дияан, билгийн орон болсон танаа. ^1-3
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-4]]
 
-Мөргөмүй, Түүнчлэн ирсний оройн чимэг,
-Хязгааргүй сайтар ялгуусныг үйлдэгч,
-Үлдэлгүй чинад хүрснийг олсон,
-Ялгуусны хөвгүүд машид шүтсэн танаа. ^1-4
+Мөргөмүй, Түүнчлэн ирсэн бүгдийн оройн өргөмжлөл,
+Хязгааргүй бүрэн ялалтаар үйлдэгч,
+Үлдэлгүй чинад хүрснийг олсон
+Ялгуусны хөвгүүдээр машид шүтүүлсэн танаа. ^1-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-5]]
 
@@ -105,14 +122,14 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-6]]
 
 Мөргөмүй, Хурмаст, Гал тэнгэр, Эсрүн,
-Салхин тэнгэр, төрөл бүрийн эрхтэн тахисан,
+Салхин тэнгэр, төрөл бүрийн эрхт тэнгэрс тахисан,
 Чөтгөр, босоолой, үнэр идэгчид болон,
 Хорлогч чуулганаар өмнөөс магтаал өргөгдсөн танаа. ^1-6
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-7]]
 
 Мөргөмүй, трэд хэмээх болон падаар,
-Бусдын хүрдийг сайтар дарагч,
+Бусдын ид шидийн хүрдийг сайтар дарагч,
 Баруун хумьж зүүнээ сунгасан өлмийгөөр гишгэн,
 Оволзсон галын дунд машид бадрагч танаа. ^1-7
 
@@ -133,7 +150,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
 Мөргөмүй, дээд баясгаланг өгөгч, цог төгөлдөр
-Титмийн чимгээс гэрлийн эрхийг дэлгэрүүлэгч,
+Титмийн чимгээс гэрлийн хэлхээг дэлгэрүүлэгч,
 Дүдарэгийн хөхрөн инээдээр,
 Шулам болон ертөнцийг эрхэндээ оруулагч танаа. ^1-10
 
@@ -155,7 +172,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 Мөргөмүй, галавын эцсийн гал мэт
 Бадрах хүрээний дунд оршигч,
-Баруун сунгаж зүүнээ хумиад төгс эргэн баясаж,
+Баруун сунгаж зүүнээ хумиад, баясгалантаар хүрээлүүлсэн,
 Дайсны цэргийг сайтар дарагч танаа. ^1-13
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-14]]
@@ -167,17 +184,17 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-15]]
 
-Мөргөмүй, амгалант, буянт, амарлингүй,
+Мөргөмүй, амгалант, буянт, амарлингуй,
 Гаслангаас нөгчсөн амарлисан орон болсон,
 Суха болон ум-тай сайтар төгссөнөөр,
 Их хилэнцийг дарагч танаа. ^1-15
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-16]]
 
-Мөргөмүй, төгс эргэн дээд баяссан,
+Мөргөмүй, дээд баясгалантаар хүрээлүүлсэн,
 Дайсны биеийг машид бутниргэгч,
 Арван үсэгт тарнийг байрлуулсан,
-Ухааны хум-ээс зул болсон танаа. ^1-16
+Увидас тарнийн хум-ээс зул болсон танаа. ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
 
@@ -191,14 +208,14 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 Мөргөмүй, тэнгэрийн нуурын дүрт
 Гөрөөсний тэмдэгт сарыг мутартаа барьсан,
 Хоёр дарэ-г өгүүлээд пад үсгээр,
-Хор бүгдийг үлдэлгүйгээр арилгaгч танаа. ^1-18
+Хор бүгдийг үлдэлгүйгээр арилгагч танаа. ^1-18
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-19]]
 
-Мөргөмүй, тэнгэрсийн чуулганы хаад,
+Мөргөмүй, тэнгэрсийн чуулганы хаадаар,
 Тэнгэр болон киннара нараар шүтүүлсэн,
 Төгс хуягласан баясгалант сүрээр,
-Тэмцэл болон муу зүүдийг арилгагч танаа. ^1-19
+Маргаан болон муу зүүдийг арилгагч танаа. ^1-19
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-20]]
 
@@ -209,7 +226,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-Мөргөмүй, гурван мөн чанарыг байрлуулснаар,
+Мөргөмүй, гурван мөн чанар байрлуулсан,
 Амарлиулах хүчтэй сайтар төгссөн,
 Ад, босоолой болон хорлогчдын чуулганыг
 Дарагч, дүрэ дээд хутагт танаа. ^1-21
@@ -242,15 +259,15 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-4]]
 
-Түүний хор нь их догшин,
+Тэрхүү хор нь их догшин,
 Бат орших ба эсвэл хөдлөх,
 Идсэн болон уусан байсан ч,
 Дурссанаар сайтар арилгахыг олно. ^2-4
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
-Ад, халдварт өвчин болон хороор шаналсан,
-Зовлонгийн чуулганыг сайтар тэвчих бөгөөд,
+Ад, халдварт өвчин болон хороор шаналагсдын
+Зовлонгийн чуулган сайтар арилах бөгөөд,
 Бусад амьтдад ч бас адил юм. ^2-5
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-6]]
