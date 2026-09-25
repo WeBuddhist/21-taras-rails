@@ -857,3 +857,6 @@ for the word list; Thai has no reference text and no Thai tradition for this pra
 **Word list** (`th/`): 51 entries (47 + โอม, โซฮา, ฮารา, ตาเร), 7 flagged (พระแม่ตารา, อารย, สงบ vs ศานติ, เพ็ด,
 สูงสุด, กอปร, ผีร้าย). The zero-shot showed the one real clash: it wrote หมู่มาร for གདོན, its word for Māra
 (བདུད) — locked ผีร้าย instead. Zero-shot baseline **122/136**. Run set up in `Gemini/th-general/`.
+- **Thai draft 2** (Tenkal ran run-th-general.sh): **132/136** (zero-shot 122) — the biggest gain from priming of
+  any language. **Draft 3:** the 4 misses swapped in (1-8, 1-11, 1-13, 1-19) → 136/136; nothing else changed.
+  Meaning/commentary/QA checks held back at Tenkal's request. Known open item: 1-1 "lotus face".
