@@ -30,7 +30,7 @@ generated: 2026-09-24
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 0
-note: Machine baseline — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks with no termbase, no verse-context rails, and no human review. It is a comparison baseline and a drafting aid only. See `about.md` in this folder.
+note: Machine draft — not a rails-governed translation. Every line below is raw DharmaMitra `cat-translate` output, produced in small batches of adjacent blocks, each given the locked terms of its verses from `0-INBOX/AI_translation/keyword-extraction-dharmamitra/en/glossary-en-general.tsv` as a hint; it has not been checked against them, against verse-context rails, or by a person. It is a drafting aid only; the checked translation lives in its own `<lang>-<grade>/` folder. See `about.md` in this folder.
 status: draft
 ---
 

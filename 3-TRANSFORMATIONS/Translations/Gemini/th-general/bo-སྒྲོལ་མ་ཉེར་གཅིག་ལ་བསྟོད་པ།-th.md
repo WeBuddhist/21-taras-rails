@@ -36,7 +36,7 @@ generated: 2026-09-25
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 4
-note: Machine baseline — not a rails-governed translation. Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema, with no termbase, no verse-context rails, and no human review. It is a first display translation and a drafting aid only. See `about.md` in this folder.
+note: Machine draft — not a rails-governed translation. Every line below is raw Google Gemini output (model in the frontmatter), produced in small batches of adjacent blocks under a JSON line schema. Each batch was given the locked terms of its verses from the track glossary (`3-TRANSFORMATIONS/Translations/Gemini/th-general/glossary.tsv`) as fixed terminology, but the text has not been checked against them, against verse-context rails, or by a person. It is a drafting aid only; the checked translation lives in its own `<lang>-<grade>/` folder. See `about.md` in this folder.
 status: draft
 ---
 
