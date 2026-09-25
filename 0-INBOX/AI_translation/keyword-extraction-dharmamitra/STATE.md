@@ -802,3 +802,18 @@ I-0, because elsewhere it is "hand"), and `run-ne-general.sh`. The Gemini API
 so the run is done by Tenkal on the Mac: the script picks the newest Pro model, uses thinking=high, and asks
 for the key (hidden) — the key is never written to the vault. Dry run checked: the per-verse terminology is in
 each request.
+
+## Nepali — drafts 2–6 (2026-09-25)
+
+- **Draft 2:** Tenkal ran `run-ne-general.sh` on the Mac (the Gemini API is blocked from Claude's shells; the
+  script also fixes the macOS Python certificate error). Model gemini-3.1-pro-preview, thinking high, the
+  verse-scoped Nepali word list in every request. Locked words **128/136** — the zero-shot had 126, so priming
+  gained little, as with DharmaMitra for English and Chinese. It did fix some things (बोधिसत्त्व at 1-4, no
+  quotation marks, तुत्तारे/त्रट्) and broke others: the lock *stems* महा and परम were written as bare words
+  (2-3 "महा नै", 1-15, 1-16), and the 2-6 optative was lost. **Lesson → skill:** decisions may carry a `hint`
+  (a whole word) that the glossary sends instead of a stem; hints added for ne and hi.
+- **Draft 3:** locked words enforced + 5 errors → 136/136. **Draft 4:** back-translation — 18 match, 7 minor,
+  7 differ, all fixed. **Draft 5:** full four-commentary check (DG 18/30, GD 18/29, TN 16/28, TT 20/29 clean);
+  one error (1-10 joy given to the crown, all four agree — missed by the back-translation) + 14 fixes.
+  **Draft 6:** translation-qa 97.4 PASS (15 Minor), all fixed → 100.0. Alignment OK, 136/136 throughout.
+- `standardised-keywords-general.md` now has a Nepali column.
