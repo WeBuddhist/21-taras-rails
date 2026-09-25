@@ -199,12 +199,13 @@
       "note": "as chanted."
     },
     "syllable": {
-      "mn": "үсэг",
+      "mn": "үс",
       "source": [
         "standard",
         "mt"
       ],
-      "note": "the draft's word."
+      "note": "үсэг; locked as the stem үс because the vowel drops when it inflects (үсгээр). Hint үсэг.",
+      "hint": "үсэг"
     },
     "trampling": {
       "mn": "гишгэ",
@@ -311,11 +312,12 @@
       "hint": "баясгалан"
     },
     "syllable_hum": {
-      "mn": "хум үсэг",
+      "mn": "хум үс",
       "source": [
         "mt"
       ],
-      "note": "hum + syllable, as the draft has it."
+      "note": "hum + syllable (хум үсгээр); stem for the same reason.",
+      "hint": "хум үсэг"
     },
     "ability": {
       "mn": "чада",

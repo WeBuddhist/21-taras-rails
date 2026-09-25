@@ -24,6 +24,8 @@ Tibetan words. **Edit `mn-decisions-general.json`, not this file** — this file
 
 **Mongolian-only entries:** om, svaha, hara, tara_syllable, tara_sanskrit.
 
+**Baseline:** the Gemini zero-shot draft (Gemini/mn/, 2026-09-17) already uses 117 of 136 locked words (86%). Misses: нүүр for ཞལ (the draft wrote тэргүүн 'head'), лянхуа (усан төрмөл), дүддара for дүдарэ, the Sanskrit title, 1-18 moon named only by its kenning, the new words for spirits and yakṣas.
+
 ## Flagged picks — please look at these first (11)
 
 Sources disagreed or had nothing. Decided by: Claude pick — user delegated flagged picks ("same as Nepali"), 2026-09-25.
@@ -62,7 +64,7 @@ Sources disagreed or had nothing. Decided by: Claude pick — user delegated fla
 | ཞི / ཞི་བ | peace | **амар** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-3, 1-15, 1-21 | the stem (амарлингуй, амар амгалан); hint амар амгалан. |
 | མ་ལུས | without exception | **үлдэлгүй** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-8, 1-4 | the track glossary's word (үлдэлгүйгээр). |
 | ཧཱུཾ / ཧཱུྃ | hum | **хум** | the syllable as chanted in Mongolia + Gemini mn zero-shot (2026-09-17) | 1-5, 1-17, 1-14, 1-16, 1-11 | as chanted. |
-| ཡི་གེ | syllable | **үсэг** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-5 | the draft's word. |
+| ཡི་གེ | syllable | **үс** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-5 | үсэг; locked as the stem үс because the vowel drops when it inflects (үсгээр). Hint үсэг. |
 | མནན | trampling | **гишгэ** | Gemini mn zero-shot (2026-09-17) | 1-7, 1-5 | the stem (гишгэж, гишгэн). |
 | ཞབས | feet | **өлмий** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-5, 1-17, 1-14 | the honorific word for a deity's feet; consistent in the draft. |
 | ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར | tuttare | **дүдарэ** | the syllable as chanted in Mongolia | 1-5, 1-10, 1-20 | as chanted (Ум дарэ дүдарэ дүрэ суха); the track glossary pins it; the draft wavered (дүддара). |
@@ -74,7 +76,7 @@ Sources disagreed or had nothing. Decided by: Claude pick — user delegated fla
 | ཆེ་བ / ཆེན་པོ / ཆེན་མོ | great | **их** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-15, 1-8, 2-3 | the ordinary word, verse-scoped (1-15, 1-8, 2-3). |
 | དབང | power | **эрх** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-10 | 1-10 эрхэндээ оруулах, 'bring under one's power'. |
 | དགའ / དགའ་བ / བསྐོར་དགས | joy | **баяс** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-10, 1-16, 1-13, 1-19 | the stem (баясгалан, баясах); consistent in the draft. |
-| ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ | the syllable hum | **хум үсэг** | Gemini mn zero-shot (2026-09-17) | 1-14, 1-11 | hum + syllable, as the draft has it. |
+| ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ | the syllable hum | **хум үс** | Gemini mn zero-shot (2026-09-17) | 1-14, 1-11 | hum + syllable (хум үсгээр); stem for the same reason. |
 | ནུས | ability | **чада** | Gemini mn zero-shot (2026-09-17) | 1-11 | the stem (чадагч, чадах). |
 | ཡང་དག་ལྡན | perfectly endowed | **сайтар төгс** | Gemini mn zero-shot (2026-09-17) | 1-21, 1-15 | perfectly + endowed; the draft's сайтар төгссөн. |
 | ལྡན | endowed | **төгс** | the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17) | 1-21, 1-15, 2-1 | the stem of төгссөн / төгөлдөр. |

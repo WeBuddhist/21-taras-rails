@@ -378,15 +378,16 @@
   "syllable": {
     "bo": "ཡི་གེ",
     "en": "syllable",
-    "mn": "үсэг",
+    "mn": "үс",
     "rank": 50,
     "verse_ids": [
       "1-5"
     ],
     "mn_source": "the established Mongolian Buddhist term + Gemini mn zero-shot (2026-09-17)",
-    "mn_note": "the draft's word.",
+    "mn_note": "үсэг; locked as the stem үс because the vowel drops when it inflects (үсгээр). Hint үсэг.",
+    "mn_hint": "үсэг",
     "mn_evidence": {
-      "machine_draft": "0/1 of its verses"
+      "machine_draft": "1/1 of its verses"
     }
   },
   "trampling": {
@@ -599,16 +600,17 @@
   "syllable_hum": {
     "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
     "en": "the syllable hum",
-    "mn": "хум үсэг",
+    "mn": "хум үс",
     "rank": 31,
     "verse_ids": [
       "1-14",
       "1-11"
     ],
     "mn_source": "Gemini mn zero-shot (2026-09-17)",
-    "mn_note": "hum + syllable, as the draft has it.",
+    "mn_note": "hum + syllable (хум үсгээр); stem for the same reason.",
+    "mn_hint": "хум үсэг",
     "mn_evidence": {
-      "machine_draft": "0/2 of its verses"
+      "machine_draft": "1/2 of its verses"
     }
   },
   "ability": {
