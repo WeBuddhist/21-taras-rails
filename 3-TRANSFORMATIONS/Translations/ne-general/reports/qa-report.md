@@ -100,3 +100,28 @@ Style/Register 0 · Audience 0 · Markup/BlockID 0.
 
 Also quick: भयङ्कर (1-20, 2-4); attached postpositions (1-7, 1-15, 1-17); कमल मुखमा (1-8); drop सम्पूर्ण (1-18);
 drop comma (1-21); धन नै (2-6).
+
+## Re-check after fixes (draft 6) — 2026-09-25
+
+**Fixes:** 15 of 15 Minor findings applied (see `ne-general/reports/qa-fixes-log-ne-general.md`). Neutral rows not
+applied. No settled/Tenkal decision, consensus fix or locked word changed.
+
+**Stage 0 (mechanical):** `mqm_mechanical_checks.py <file> --source <root>` (re-run → `$HOME/qa-ne/stage0-ne-d6.json`)
+— 32 distinct verse IDs, 32 transclusions, 0 critical / 0 major / 0 minor. Stage-0 gate PASS-so-far.
+**Alignment:** `check_translation_alignment.py` — OK (32 segments, 5 headings; every block keeps its line count).
+**Terminology (mechanical):** `check_termbase_consistency.py --lang ne` — 136/136 locked words found, 0 loose
+(1-8 कमल मुख now exact), 1 covered by a longer locked phrase (a-1, unchanged), 0 misses.
+1-15 महा is met in महापाप.
+**Lint:** `lint_text_input.py` — OK (WARNs only: alt_titles, translator ids, languages API cache — unchanged from draft 5).
+
+**Re-read:** the 15 draft-5 rows and every changed line. All 15 resolved; no new error found in the changed lines.
+This re-check covers the listed findings and the edits. It is not a fresh full Stage 1 run.
+
+**Word count:** 580 (same method as the draft-5 run, which counted 583).
+**Counts:** 0 critical · 0 major · 0 minor.
+**Score:** 100 − (0 / 580) × 100 = **100.0 / 100**   **Gate:** PASS — may go to native review; stays `draft`.
+
+Still open for the reviewer (neutral, unchanged): the short refrain वन्दना …गर्ने; ग्रह in 1-21/2-5 (might read as
+"planet"); 1-15 सुखी; 1-1 शूरवीर; 1-18 देवतालको; 2-1 भक्ति / जो बुद्धिमान्‌ले; भृकुटी vs भृकुटि.
+
+**This is an LLM self-check.** It is not a sign-off.
