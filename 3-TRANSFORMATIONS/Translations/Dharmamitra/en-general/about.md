@@ -1,5 +1,5 @@
 ---
-title: "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ། — DharmaMitra zero-shot (english)"
+title: "en — Dharmamitra primed with the English word list"
 track_type: machine-baseline
 target_language: english
 lang_tag: en
@@ -8,20 +8,26 @@ generator: dharmamitra cat-translate v1
 endpoint: https://dharmamitra.org/api-search/cat-translate/v1/translate
 rails_used: none
 termbase: none
+glossary: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/en/glossary-en-general.tsv
 status: draft
 seeded: 2026-09-24
 ---
 
-# en-dharmamitra-zeroshot — about this track
+# Dharmamitra/en-general — about this track
 
-A **machine baseline**, not a rails-governed translation track.
+A **machine draft primed with the English word list**, not a rails-governed translation track.
+
+**Primed run.** Unlike a zero-shot baseline, every batch was given the locked English terms of its verses
+(`0-INBOX/AI_translation/keyword-extraction-dharmamitra/en/glossary-en-general.tsv`, built by `keyword-standardize`) as fixed terminology. The output has not been checked
+against them or by a person. It is **draft 1** of the English translation; the checked translation is
+`3-TRANSFORMATIONS/Translations/en-general/`.
 
 Every file here is raw output of DharmaMitra's public `cat-translate` endpoint,
 produced in small batches of adjacent block IDs by
 `4-SYSTEM/Skills/dharmamitra-translate/scripts/dm_translate.py`, then split back
 apart on segment markers so each block keeps its own record. Nothing in it
 passed through `2-RAILS/`: no verse-context package, no consolidated bilingual
-glossary, no per-track `termbase.md`, no human review. It therefore does **not**
+glossary (only the word list above, as hints), no per-track `termbase.md`, no human review. It therefore does **not**
 satisfy the Translation-track contract in
 [`../About Transformations.md`](../About%20Transformations.md) §3, and it is not
 eligible to be marked `status: complete` or to be cited by any other

@@ -784,3 +784,92 @@ vetālas diacritics) — not yet decided.
 1-19 爭執, 2-3 no added recipient). 2-1 天女 left, flagged for the native reviewer (3 commentaries: it is Tārā).
 
 A stray linter output (`draft4-backup.lint.json`) was moved to `4-SYSTEM/scripts/linter-root-text/output/_to_delete/`.
+
+## Nepali (ne), general — word list and the primed Gemini run (2026-09-25)
+
+**Choices (Tenkal):** standard Nepali with Sanskrit Buddhist terms (general grade), Devanagari, mantras in
+Devanagari; flagged picks by Claude; draft 2 = a new Gemini run primed with the word list (best Pro model).
+
+**Word list** (`ne/`): 51 entries (47 + ॐ, स्वाहा, हर, तारे), 7 flagged. Evidence: the Hindi list and Hindi
+draft 5 (`related`), the standard Sanskrit term in Nepali spelling, the Gemini zero-shot. Where Nepali differs
+from Hindi: वन्दना (not नमस्कार, which is the everyday greeting), बिजुली, कुल्च (stem, "trample"), नष्ट, पूर्ण रूपले,
+भट्टारिका आर्या, spellings शान्ति / मन्त्र / आनन्द. Validator 0 errors. Zero-shot baseline **126/136 (93%)**.
+
+**Primed run set up** in `3-TRANSFORMATIONS/Translations/Gemini/ne-general/`: `style.md` (Nepali word-list
+style), `context-header.md`, `glossary.tsv` (pinned names + the verse-scoped word list; bare ཕྱག hinted only in
+I-0, because elsewhere it is "hand"), and `run-ne-general.sh`. The Gemini API
+(generativelanguage.googleapis.com) is blocked by the organisation's egress policy from both Claude shells,
+so the run is done by Tenkal on the Mac: the script picks the newest Pro model, uses thinking=high, and asks
+for the key (hidden) — the key is never written to the vault. Dry run checked: the per-verse terminology is in
+each request.
+
+## Nepali — drafts 2–6 (2026-09-25)
+
+- **Draft 2:** Tenkal ran `run-ne-general.sh` on the Mac (the Gemini API is blocked from Claude's shells; the
+  script also fixes the macOS Python certificate error). Model gemini-3.1-pro-preview, thinking high, the
+  verse-scoped Nepali word list in every request. Locked words **128/136** — the zero-shot had 126, so priming
+  gained little, as with DharmaMitra for English and Chinese. It did fix some things (बोधिसत्त्व at 1-4, no
+  quotation marks, तुत्तारे/त्रट्) and broke others: the lock *stems* महा and परम were written as bare words
+  (2-3 "महा नै", 1-15, 1-16), and the 2-6 optative was lost. **Lesson → skill:** decisions may carry a `hint`
+  (a whole word) that the glossary sends instead of a stem; hints added for ne and hi.
+- **Draft 3:** locked words enforced + 5 errors → 136/136. **Draft 4:** back-translation — 18 match, 7 minor,
+  7 differ, all fixed. **Draft 5:** full four-commentary check (DG 18/30, GD 18/29, TN 16/28, TT 20/29 clean);
+  one error (1-10 joy given to the crown, all four agree — missed by the back-translation) + 14 fixes.
+  **Draft 6:** translation-qa 97.4 PASS (15 Minor), all fixed → 100.0. Alignment OK, 136/136 throughout.
+- `standardised-keywords-general.md` now has a Nepali column.
+
+## Mongolian (mn), general — word list and the primed Gemini run set-up (2026-09-25)
+
+**Choices (Tenkal):** Cyrillic (Khalkha); clear modern Mongolian keeping the liturgical words (Дарь эх, мөргөмүй)
+without archaic grammar (лугаа, хийгээд); mantras as chanted in Mongolia (Ум дарэ дүдарэ дүрэ суха); flagged
+picks by Claude; the Nepali plan (a Gemini run with the word list, run by Tenkal on the Mac).
+
+**Word list** (`mn/`): 52 entries (47 + Ум, суха, хара, дарэ, and Тара split off for the Sanskrit title line),
+11 flagged — several spirit-class words (чөтгөр, босоо, хорлогч) and охин тэнгэр (also Palden Lhamo's name) need a
+native reviewer. Stems + hints where Mongolian drops a vowel on inflection (гэр/гэрэл, магт/магтаал, бад/бадрах).
+No reference text (the Mongolian Kanjur version could not be fetched). Validator 0 errors. Zero-shot baseline
+**117/136**.
+
+**Run set up** in `3-TRANSFORMATIONS/Translations/Gemini/mn-general/` (style.md, glossary.tsv = names/mantras +
+the word list, run-mn-general.sh). Dry run checked; the hints (whole words) are what the model sees.
+
+## Mongolian — drafts 2–6 (2026-09-25)
+
+- **Draft 2:** Tenkal ran `run-mn-general.sh` (gemini-3.1-pro-preview, thinking high, word list per verse):
+  **121/136** (zero-shot 117). The model kept the traditional тэргүүн ('head') for the face and уснаа ургасан
+  for the lotus despite the list, and wrote "seven million" at 2-3.
+- **Draft 3:** locked words + 2 errors (2-3 seventy million; 1-22 noun) → 136/136. Lock stems for vowel-dropping
+  words (үс/үсэг). **Draft 4:** back-translation — 20 match, 5 minor, 7 differ, all fixed.
+- **Draft 5:** four-commentary check (DG 13/30, GD 16/29, TN 15/28, TT 15/29 clean); 3 errors — 2-5 тэвчих
+  ('endure' for 'remove', all four), 1-16 'HŪṂ of the mind' (three), 1-4 'makes the Victor' — and 13 more fixes.
+- **Draft 6:** translation-qa 97.1 PASS (17 Minor, all fixed) → 100.0.
+- `standardised-keywords-general.md` has a Mongolian column. Reviewer: 11 flagged words (spirit classes; охин
+  тэнгэр = also Palden Lhamo; нүүр/лянхуа vs the traditional forms).
+
+## Thai (th), general — zero-shot, word list, primed run set-up (2026-09-25)
+
+**Choices (Tenkal):** Thai script; clear modern Thai with the Pāli-based Buddhist words Thai readers know,
+Sanskrit names for deities and beings; the respectful vocabulary for Tārā's body (พระพักตร์, พระหัตถ์, พระบาท);
+mantras in Thai script as chanted; flagged picks by Claude. No Thai draft existed, so — unlike the other
+languages — a plain Gemini zero-shot was run first (`Gemini/th/`, run-th.sh) as the independent second opinion
+for the word list; Thai has no reference text and no Thai tradition for this praise.
+
+**Word list** (`th/`): 51 entries (47 + โอม, โซฮา, ฮารา, ตาเร), 7 flagged (พระแม่ตารา, อารย, สงบ vs ศานติ, เพ็ด,
+สูงสุด, กอปร, ผีร้าย). The zero-shot showed the one real clash: it wrote หมู่มาร for གདོན, its word for Māra
+(བདུད) — locked ผีร้าย instead. Zero-shot baseline **122/136**. Run set up in `Gemini/th-general/`.
+- **Thai draft 2** (Tenkal ran run-th-general.sh): **132/136** (zero-shot 122) — the biggest gain from priming of
+  any language. **Draft 3:** the 4 misses swapped in (1-8, 1-11, 1-13, 1-19) → 136/136; nothing else changed.
+  Meaning/commentary/QA checks held back at Tenkal's request. Known open item: 1-1 "lotus face".
+- **Draft 4:** four-commentary check on draft 3 (DG 9/30, GD 11/29, TN 8/28, TT 10/29 clean — lower than the
+  other languages because no meaning check came first). Errors: 1-1 lotus face (all four), 1-3 ตบะ for ศีล and
+  ปัญญา missing (all four), 1-4 who attained the perfections, 1-18 and 1-20 simile attached to her, 1-13, 1-17, 1-9;
+  a pattern of "ขอนอบน้อมด้วย X" (homage *by means of* X) in 1-2, 1-5, 1-7, 1-9. 21 blocks fixed, 136/136 kept.
+  Left: 1-3 colours, 1-12, 1-14/1-22 decisions, 1-19, 1-21. Meaning check and QA not yet run.
+- **Draft 5:** back-translation meaning check on draft 4 (run after the commentary check, the reverse of the
+  other languages): 21 match, 9 minor, 2 differ — 1-11 lines 1–2 were not a sentence; 1-16 had her reciting
+  the ten-syllable mantra instead of it being set in her. Also "frowns by means of HŪṂ" (1-11, 1-14), 1-22
+  "This is…" cutting the link to 2-1, 2-2 ไร้ภัย → ความไม่หวาดกลัว. All fixed, 136/136 kept. QA not yet run.
+- **Draft 6:** translation-qa (MQM) on draft 5: **98.7 PASS** (0 critical, 0 major, 13 minor; 973 words by
+  PyThaiNLP) — I-2 'twenty-one kinds', 1-17 'has' the seed, 1-15 added 'all', 1-12 เมาลี → ชฎา, 2-1 ความเคารพ →
+  ศรัทธา, 2-3 opening โดย, and idiom fixes (1-1, 1-3, 1-4, 1-7, 1-21). All 13 fixed → 100.0; 136/136 kept.
+  Next: native Thai review; Thai must be added as a platform language before upload (the linter rejects "th").

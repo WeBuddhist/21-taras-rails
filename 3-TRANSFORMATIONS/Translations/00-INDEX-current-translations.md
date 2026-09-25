@@ -20,6 +20,9 @@ hold raw machine output, which is never the translation to use.
 | Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 5 | locked words 137/137 · back-translation meaning check · **QA 99.9, PASS** (after fixes) · full commentary fact-check (4 commentaries, no errors, 5 fixes) | native Chinese review (word list first) · upload | no |
 | Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 5 | locked words 137/137 · back-translation meaning check · full commentary fact-check (9 fixes, 4 translator decisions) · **QA 99.8, PASS** (after fixes) | native Vietnamese review (word list first) · upload | no |
 | Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 5 | locked words 136/136 · back-translation meaning check · full commentary fact-check (no errors, 13 fixes, 2 translator decisions) · **QA 100.0, PASS** (after fixes) | native Hindi review (word list first) · upload | no (the old Gemini baseline is) |
+| Nepali (general) | [[ne-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (1 error fixed, 15 fixes) · **QA 97.4 → 100.0, PASS** | native Nepali review (word list first) · upload | no (the old Gemini baseline is) |
+| Mongolian (general, Cyrillic) | [[mn-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (3 errors fixed) · **QA 97.1 → 100.0, PASS** | native Mongolian review (11 flagged words first) · upload | no (the old Gemini baseline is) |
+| Thai (general) | [[th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general]] | 6 | locked words 136/136 · full commentary fact-check (21 blocks fixed) · back-translation meaning check (11 verses fixed) · **QA 98.7 → 100.0, PASS** | Thai added as a platform language · native Thai review · upload | no |
 
 ## Reports behind each translation
 
@@ -51,11 +54,29 @@ hold raw machine output, which is never the translation to use.
 - `commentary-fact-check-report-*-hi-general.md`: one full report per commentary
 - `commentary-fact-check-consensus-hi-general.md` and `commentary-fact-check-fixes-log-hi-general.md`: draft 3 → 4
 
+**Nepali** — `ne-general/reports/`
+- `phase2-fixes-log-ne-general.md`: draft 2 (Gemini primed with the word list) → 3 (approved words enforced)
+- `back-translation-check-ne-general.md`: draft 3 → 4
+- `commentary-fact-check-report-*-ne-general.md`, `…-consensus-ne-general.md`, `…-fixes-log-ne-general.md`: draft 4 → 5
+- `qa-report.md`, `qa-fixes-log-ne-general.md`: draft 5 → 6
+
+**Mongolian** — `mn-general/reports/`
+- `phase2-fixes-log-mn-general.md`: draft 2 (Gemini primed with the word list) → 3
+- `back-translation-check-mn-general.md`: draft 3 → 4
+- `commentary-fact-check-report-*-mn-general.md`, `…-consensus-mn-general.md`, `…-fixes-log-mn-general.md`: draft 4 → 5
+- `qa-report.md`, `qa-fixes-log-mn-general.md`: draft 5 → 6
+
+**Thai** — `th-general/reports/` (the commentary check ran before the meaning check)
+- `phase2-fixes-log-th-general.md`: draft 2 (Gemini primed with the word list) → 3
+- `commentary-fact-check-report-*-th-general.md`, `…-consensus-th-general.md`, `…-fixes-log-th-general.md`: draft 3 → 4
+- `back-translation-check-th-general.md`: draft 4 → 5
+- `qa-report.md`, `qa-fixes-log-th-general.md`: draft 5 → 6
+
 **QA** — each language's `reports/qa-report.md` (translation-qa: MQM score, gate, and the re-check after fixes) and `reports/qa-fixes-log-<lang>-general.md` (the fixes applied: en D3→4, zh D3→4, vi D4→5, hi D4→5)
 
 **Word lists** — `0-INBOX/AI_translation/keyword-extraction-dharmamitra/`; its `00-INDEX.md` says what each file
 is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi: `zh/zh-decisions-general.json`,
-`vi/vi-decisions-general.json`, `hi/hi-decisions-general.json` (the files to edit) and `zh/termbase-zh-general.md`,
+`vi/vi-decisions-general.json`, `hi/hi-decisions-general.json`, `ne/ne-decisions-general.json`, `mn/mn-decisions-general.json` (the files to edit) and `zh/termbase-zh-general.md`,
 `vi/termbase-vi-general.md`, `hi/termbase-hi-general.md` (to review). All languages in one table:
 `standardised-keywords-general.md`.
 
@@ -69,7 +90,14 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi:
 | `Dharmamitra/zh-general/` | Chinese | DharmaMitra primed with the Chinese word list (draft 1 of zh-general) | no |
 | `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
 | `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | yes (baseline) |
-| `Gemini/mn/`, `Gemini/ne/` | Mongolian, Nepali | Gemini zero-shot — the starting point for those languages | yes (baselines) |
+| `Gemini/ne/` | Nepali | Gemini zero-shot (draft 1 of ne-general) | yes (baseline) |
+| `Gemini/ne-general/` | Nepali | Gemini primed with the Nepali word list (draft 2 of ne-general); `run-ne-general.sh` re-runs it | no |
+| `Gemini/mn/` | Mongolian | Gemini zero-shot (draft 1 of mn-general) | yes (baseline) |
+| `Gemini/th/` | Thai | Gemini zero-shot (draft 1 of th-general; the second opinion for the word list) | no |
+| `Gemini/th-general/` | Thai | Gemini primed with the Thai word list (draft 2 of th-general); `run-th-general.sh` | no |
+| `Gemini/mn-general/` | Mongolian | Gemini primed with the Mongolian word list (draft 2 of mn-general); `run-mn-general.sh` re-runs it | no |
+| `Dharmamitra/en-commentaries/` | English | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
+| `Dharmamitra/zh-commentaries/` | Chinese (Traditional) | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
 
 These folders stay where they are, because the translation scripts write to these paths. Don't edit the files
 by hand; a new run replaces them.

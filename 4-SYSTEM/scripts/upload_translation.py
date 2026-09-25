@@ -228,7 +228,7 @@ def main(argv=None):
         sys.exit("ABORT: parse failed (see above)")
     payloads = {}
     for kind in ("text", "edition", "toc", "alignment"):
-        p = PARSE_OUT / f"{stem}.{kind}.json"
+        p = PARSE_OUT / stem / f"{stem}.{kind}.json"   # the parser writes output/<stem>/
         if not p.exists():
             sys.exit(f"ABORT: parser did not write {p.name}")
         payloads[kind] = json.loads(p.read_text(encoding="utf-8"))

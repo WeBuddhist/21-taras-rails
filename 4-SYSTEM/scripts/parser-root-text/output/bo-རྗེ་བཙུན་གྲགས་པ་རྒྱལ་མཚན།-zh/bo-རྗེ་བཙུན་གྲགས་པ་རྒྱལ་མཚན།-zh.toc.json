@@ -1,0 +1,89 @@
+{
+  "sections": [
+    {
+      "title": {
+        "zh": "度母二十一禮讚釋義：明亮光芒"
+      },
+      "span": {
+        "start": 0,
+        "end": 4103
+      },
+      "subsections": [
+        {
+          "title": {
+            "zh": "禮讚文"
+          },
+          "span": {
+            "start": 0,
+            "end": 6
+          }
+        },
+        {
+          "title": {
+            "zh": "讚頌科判"
+          },
+          "span": {
+            "start": 6,
+            "end": 410
+          }
+        },
+        {
+          "title": {
+            "zh": "正宗讚頌"
+          },
+          "span": {
+            "start": 410,
+            "end": 3426
+          }
+        },
+        {
+          "title": {
+            "zh": "功德利益"
+          },
+          "span": {
+            "start": 3426,
+            "end": 4007
+          }
+        },
+        {
+          "title": {
+            "zh": "造者題記"
+          },
+          "span": {
+            "start": 4007,
+            "end": 4029
+          }
+        },
+        {
+          "title": {
+            "zh": "結尾題記"
+          },
+          "span": {
+            "start": 4029,
+            "end": 4103
+          },
+          "subsections": [
+            {
+              "title": {
+                "zh": "譯者題記"
+              },
+              "span": {
+                "start": 4029,
+                "end": 4057
+              }
+            },
+            {
+              "title": {
+                "zh": "造者題記"
+              },
+              "span": {
+                "start": 4057,
+                "end": 4103
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

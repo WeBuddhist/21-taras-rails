@@ -189,6 +189,15 @@ SAFETY_OFF = [
               "HARM_CATEGORY_SEXUALLY_EXPLICIT", "HARM_CATEGORY_DANGEROUS_CONTENT")
 ]
 
+PRIMED_NOTE = """
+**Primed run.** Unlike a zero-shot baseline, every batch was given the locked
+terms of its verses from the track glossary (`{glossary}`, built by
+`keyword-standardize`) as fixed terminology. The output has not been checked
+against them or by a person: the checked translation is built from it in its
+own `<lang>-<grade>/` folder.
+"""
+
+
 ABOUT_TEMPLATE = """---
 title: "{tag} — Gemini zero-shot ({lang})"
 track_type: machine-baseline
@@ -625,7 +634,8 @@ def main():
         if not about.exists():
             about.write_text(ABOUT_TEMPLATE.format(
                 tag=args.lang_tag, lang=args.lang, model=args.model, endpoint=endpoint,
-                today=_dt.date.today().isoformat(), track=out_dir), encoding="utf-8")
+                today=_dt.date.today().isoformat(), track=out_dir)
+                + (PRIMED_NOTE.format(glossary=args.glossary) if args.glossary else ""), encoding="utf-8")
             print(f"seeded {about}")
         style_md = out_dir / "style.md"
         if not style_md.exists():
@@ -661,11 +671,16 @@ def main():
                                             if r.get("line_parity") is False and not dm.is_heading_record(r)),
             },
             "warning": (
-                "> [!warning] Machine baseline — not a rails-governed translation.\n"
+                "> [!warning] Machine draft — not a rails-governed translation.\n"
                 "> Every line below is raw Google Gemini output (model in the frontmatter), "
-                "produced in small batches of adjacent blocks under a JSON line schema, with "
-                "no termbase, no verse-context rails, and no human review. It is a first "
-                "display translation and a drafting aid only. See `about.md` in this folder."
+                "produced in small batches of adjacent blocks under a JSON line schema. "
+                + (f"Each batch was given the locked terms of its verses from the track glossary "
+                   f"(`{args.glossary}`) as fixed terminology, but the text has not been checked "
+                   f"against them, against verse-context rails, or by a person. "
+                   if args.glossary else
+                   "No termbase or glossary, no verse-context rails, and no human review. ")
+                + "It is a drafting aid only; the checked translation lives in its own "
+                "`<lang>-<grade>/` folder. See `about.md` in this folder."
             ),
         }
         dm.render(out_md, units, ordered, meta, args, src_rel, prov=prov, extra_fm=extra_fm)

@@ -1,0 +1,89 @@
+{
+  "sections": [
+    {
+      "title": {
+        "en": "Brilliant Rays of Light: An Explanation of the Praise to Tārā in Twenty-One Homages"
+      },
+      "span": {
+        "start": 0,
+        "end": 15638
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "Homage"
+          },
+          "span": {
+            "start": 0,
+            "end": 14
+          }
+        },
+        {
+          "title": {
+            "en": "Outline of the Praise"
+          },
+          "span": {
+            "start": 14,
+            "end": 1821
+          }
+        },
+        {
+          "title": {
+            "en": "The Actual Praise"
+          },
+          "span": {
+            "start": 1821,
+            "end": 13161
+          }
+        },
+        {
+          "title": {
+            "en": "Benefits"
+          },
+          "span": {
+            "start": 13161,
+            "end": 15306
+          }
+        },
+        {
+          "title": {
+            "en": "Author's Colophon"
+          },
+          "span": {
+            "start": 15306,
+            "end": 15410
+          }
+        },
+        {
+          "title": {
+            "en": "Concluding Colophon"
+          },
+          "span": {
+            "start": 15410,
+            "end": 15638
+          },
+          "subsections": [
+            {
+              "title": {
+                "en": "Translator's Colophon"
+              },
+              "span": {
+                "start": 15410,
+                "end": 15491
+              }
+            },
+            {
+              "title": {
+                "en": "Author's Colophon"
+              },
+              "span": {
+                "start": 15491,
+                "end": 15638
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

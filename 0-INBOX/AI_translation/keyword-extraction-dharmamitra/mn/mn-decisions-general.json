@@ -1,0 +1,482 @@
+{
+  "_meta": {
+    "lang": "mn",
+    "grade": "general",
+    "script": "Cyrillic",
+    "lang_tag": "mn",
+    "language_name": "Mongolian",
+    "title": "Mongolian word list — Praise to the Twenty-One Tārās (general grade)",
+    "choices": "Cyrillic (Khalkha) · clear modern Mongolian that keeps the liturgical Buddhist words practitioners know (Дарь эх, мөргөмүй, бурхан), with old grammar forms (лугаа) modernised · mantra syllables as chanted in Mongolia, in Cyrillic (Ум дарэ дүдарэ дүрэ суха) · flagged picks decided by Claude, with the reason written down (Tenkal, 2026-09-25).",
+    "decided_by": "Claude pick — user delegated flagged picks (\"same as Nepali\"), 2026-09-25",
+    "sources_note": "(1) the established Mongolian Buddhist vocabulary, translated from Tibetan since the 17th-century Kanjur (source code `standard`); (2) the recited Mongolian forms of the mantra syllables, as pinned in the track glossary Gemini/mn/glossary.tsv (`recitation`); (3) the Gemini zero-shot mn draft (Gemini/mn/, 2026-09-17), which already writes in this liturgical style (`mt`). No reference text: the Mongolian Kanjur version could not be fetched here. Several spirit-class words are uncertain and flagged for a native reviewer.",
+    "source_labels": {
+      "standard": "the established Mongolian Buddhist term",
+      "mt": "Gemini mn zero-shot (2026-09-17)",
+      "recitation": "the syllable as chanted in Mongolia"
+    },
+    "baseline": "the Gemini zero-shot draft (Gemini/mn/, 2026-09-17) already uses 117 of 136 locked words (86%). Misses: нүүр for ཞལ (the draft wrote тэргүүн 'head'), лянхуа (усан төрмөл), дүддара for дүдарэ, the Sanskrit title, 1-18 moon named only by its kenning, the new words for spirits and yakṣas."
+  },
+  "terms": {
+    "homage": {
+      "mn": "мөргө",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Flagged. The stem, so the refrain мөргөмүй and the noun мөргөл (I-0, 1-22) both match; hint мөргөмүй. The refrain is the liturgical form every Mongolian reciter knows, kept on purpose in the modern register.",
+      "hint": "мөргөмүй",
+      "decision": true
+    },
+    "tara": {
+      "mn": "Дарь эх",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the established Mongolian name (also the track glossary)."
+    },
+    "benefits": {
+      "mn": "ач тус",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard phrase; the draft has it at I-2 and 2-0."
+    },
+    "noble_venerable": {
+      "mn": "богд хутагт",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "རྗེ་བཙུན = богд, འཕགས་མ = хутагт, as the draft has it at I-3."
+    },
+    "sanskrit_title": {
+      "mn": "Намо Тара Экавимшати Стотра Гунахита Сака",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. The Sanskrit title in Cyrillic, as Mongolian texts write Sanskrit titles; the draft broke it into lower-case pieces (нама тара … гуна хита сака).",
+      "decision": true
+    },
+    "praise": {
+      "mn": "магт",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the stem (магтаал, магтсан, магтагдсан — the vowel drops); hint магтаал.",
+      "hint": "магтаал"
+    },
+    "blessed_tara": {
+      "mn": "Төгс нөгчсөн Дарь эх",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. བཅོམ་ལྡན་འདས་མ is Mongolian Ялгуусан төгс нөгчсөн; the core Төгс нөгчсөн is common to every form. The draft's Итгэлт ('protector', མགོན་པོ) is a different word.",
+      "decision": true
+    },
+    "perfectly": {
+      "mn": "сайтар",
+      "source": [
+        "mt",
+        "standard"
+      ],
+      "note": "the draft's word (сайтар төгссөн 1-15, 1-21)."
+    },
+    "perfect_buddha": {
+      "mn": "төгс туулсан",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Samyaksambuddha = Үнэн төгс туулсан бурхан; the core is locked so inflected forms match.",
+      "hint": "Үнэн төгс туулсан бурхан"
+    },
+    "blessed_one": {
+      "mn": "Төгс нөгчсөн",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged, with blessed_tara (the draft had Итгэлт).",
+      "decision": true
+    },
+    "actual_praise": {
+      "mn": "Үндсэн магтаал",
+      "source": [
+        "mt"
+      ],
+      "note": "the draft's 1-0 heading."
+    },
+    "lightning": {
+      "mn": "цахилгаан",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word."
+    },
+    "world": {
+      "mn": "ертөнц",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "consistent in the draft (гурван ертөнц)."
+    },
+    "face": {
+      "mn": "нүүр",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. The draft wrote тэргүүн ('head') at 1-2 and 1-8, which is wrong for ཞལ.",
+      "decision": true
+    },
+    "lotus": {
+      "mn": "лянхуа",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. The ordinary Mongolian word; the draft's усан төрмөл ('water-born') is a calque of ཆུ་སྐྱེས a general reader may not recognise. 1-3 keeps both ideas (усанд төрсөн лянхуа).",
+      "decision": true
+    },
+    "lotus_face": {
+      "mn": "лянхуан нүүр",
+      "source": [
+        "standard"
+      ],
+      "note": "1-8 only, her own lotus face (1-1 is the lotus from the Lord's face)."
+    },
+    "light": {
+      "mn": "гэр",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "гэрэл; locked as the stem гэр because the vowel drops when it inflects (гэрлийн, гэрлийг). Hint гэрэл.",
+      "hint": "гэрэл"
+    },
+    "blaze": {
+      "mn": "бад",
+      "source": [
+        "mt"
+      ],
+      "note": "a short stem, because the verb changes its vowel (бадрах, бадарсан, бадрангуй); hint бадрах.",
+      "hint": "бадрах"
+    },
+    "moon": {
+      "mn": "сар",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the ordinary word. At 1-18 the draft wrote only the kenning гөрөөсний тэмдэгт ('deer-marked one'); the moon must be named."
+    },
+    "peace": {
+      "mn": "амар",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the stem (амарлингуй, амар амгалан); hint амар амгалан.",
+      "hint": "амар амгалан"
+    },
+    "without_exception": {
+      "mn": "үлдэлгүй",
+      "source": [
+        "mt",
+        "standard"
+      ],
+      "note": "the track glossary's word (үлдэлгүйгээр)."
+    },
+    "hum": {
+      "mn": "хум",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "syllable": {
+      "mn": "үс",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "үсэг; locked as the stem үс because the vowel drops when it inflects (үсгээр). Hint үсэг.",
+      "hint": "үсэг"
+    },
+    "trampling": {
+      "mn": "гишгэ",
+      "source": [
+        "mt"
+      ],
+      "note": "the stem (гишгэж, гишгэн).",
+      "hint": "гишгэн"
+    },
+    "feet": {
+      "mn": "өлмий",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the honorific word for a deity's feet; consistent in the draft."
+    },
+    "tuttare": {
+      "mn": "дүдарэ",
+      "source": [
+        "recitation"
+      ],
+      "note": "as chanted (Ум дарэ дүдарэ дүрэ суха); the track glossary pins it; the draft wavered (дүддара)."
+    },
+    "hosts": {
+      "mn": "чуулга",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the stem (чуулган, чуулганаар).",
+      "hint": "чуулган"
+    },
+    "spirit": {
+      "mn": "чөтгөр",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged, uncertain. The draft's Гарва at 1-6 is not a Mongolian word for འབྱུང་པོ. чөтгөр ('spirit, ghost') is the widely known word, kept apart from ад (གདོན). A native reviewer should confirm.",
+      "decision": true
+    },
+    "destroy": {
+      "mn": "дара",
+      "source": [
+        "mt",
+        "standard"
+      ],
+      "note": "the stem (дарагч, даран); consistent in the draft.",
+      "hint": "дарагч"
+    },
+    "phat": {
+      "mn": "пад",
+      "source": [
+        "recitation"
+      ],
+      "note": "as chanted (track glossary)."
+    },
+    "trat": {
+      "mn": "трэд",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "as chanted."
+    },
+    "ture": {
+      "mn": "дүрэ",
+      "source": [
+        "recitation"
+      ],
+      "note": "as chanted (track glossary)."
+    },
+    "great": {
+      "mn": "их",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the ordinary word, verse-scoped (1-15, 1-8, 2-3)."
+    },
+    "supreme": {
+      "mn": "дээд",
+      "source": [
+        "standard"
+      ],
+      "note": "Flagged. 'highest', kept apart from их; the draft had маш ('very') at 1-10.",
+      "decision": true
+    },
+    "power": {
+      "mn": "эрх",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "1-10 эрхэндээ оруулах, 'bring under one's power'."
+    },
+    "joy": {
+      "mn": "баяс",
+      "source": [
+        "mt",
+        "standard"
+      ],
+      "note": "the stem (баясгалан, баясах); consistent in the draft.",
+      "hint": "баясгалан"
+    },
+    "syllable_hum": {
+      "mn": "хум үс",
+      "source": [
+        "mt"
+      ],
+      "note": "hum + syllable (хум үсгээр); stem for the same reason.",
+      "hint": "хум үсэг"
+    },
+    "ability": {
+      "mn": "чада",
+      "source": [
+        "mt"
+      ],
+      "note": "the stem (чадагч, чадах).",
+      "hint": "чадагч"
+    },
+    "perfectly_endowed": {
+      "mn": "сайтар төгс",
+      "source": [
+        "mt"
+      ],
+      "note": "perfectly + endowed; the draft's сайтар төгссөн."
+    },
+    "endowed": {
+      "mn": "төгс",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the stem of төгссөн / төгөлдөр."
+    },
+    "mantra": {
+      "mn": "тарни",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard word."
+    },
+    "goddess": {
+      "mn": "охин тэнгэр",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. The standard word for ལྷ་མོ and the draft's; but Охин тэнгэр is also the name of Palden Lhamo in Mongolia. The commentaries say the goddess is Tārā herself — a native reviewer should decide whether to write Дарь эх here.",
+      "decision": true
+    },
+    "vetala": {
+      "mn": "босоо",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "Flagged. རོ་ལངས 'risen corpse'; the draft had босоолон / босоарь. Locked as the stem; hint босоо үхдэл.",
+      "hint": "босоо үхдэл",
+      "decision": true
+    },
+    "empowerment": {
+      "mn": "авшиг",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard word."
+    },
+    "demon": {
+      "mn": "ад",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the standard word for གདོན; the draft has it."
+    },
+    "yaksha": {
+      "mn": "хорлогч",
+      "source": [
+        "mt",
+        "standard"
+      ],
+      "note": "Flagged. The Mongolian calque of གནོད་སྦྱིན ('harm-doer'), the draft's word at 1-21 (1-6 had хорлолт бирд).",
+      "decision": true
+    },
+    "might": {
+      "mn": "хүч",
+      "source": [
+        "standard",
+        "mt"
+      ],
+      "note": "the draft's word (амарлингуйн хүч); kept apart from эрх."
+    },
+    "om": {
+      "mn": "Ум",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Mongolian-only entry: the syllable as chanted (track glossary).",
+      "new_entry": {
+        "bo": "ཨོཾ",
+        "en": "Oṃ",
+        "verse_ids": [
+          "I-3",
+          "1-15"
+        ]
+      }
+    },
+    "svaha": {
+      "mn": "суха",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Mongolian-only entry: the syllable as chanted (track glossary).",
+      "new_entry": {
+        "bo": "སྭཱ་ཧཱ",
+        "en": "svāhā",
+        "verse_ids": [
+          "1-15"
+        ]
+      }
+    },
+    "hara": {
+      "mn": "хара",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Mongolian-only entry: the syllable as chanted (track glossary).",
+      "new_entry": {
+        "bo": "ཧ་ར",
+        "en": "HARA",
+        "verse_ids": [
+          "1-20"
+        ]
+      }
+    },
+    "tara_syllable": {
+      "mn": "дарэ",
+      "source": [
+        "recitation",
+        "mt"
+      ],
+      "note": "Mongolian-only entry: the syllable as chanted (track glossary).",
+      "new_entry": {
+        "bo": "ཏཱ་ར",
+        "en": "TĀRA",
+        "verse_ids": [
+          "1-18"
+        ]
+      }
+    },
+    "tara_sanskrit": {
+      "mn": "Тара",
+      "source": [
+        "standard"
+      ],
+      "note": "Mongolian-only split: in the Sanskrit title line (I-1) ཏཱ་རཱ stays the Sanskrit Тара; everywhere else she is Дарь эх.",
+      "new_entry": {
+        "bo": "ཏཱ་རཱ",
+        "en": "Tārā (in the Sanskrit title)",
+        "verse_ids": [
+          "I-1"
+        ],
+        "split_from": "tara"
+      }
+    }
+  }
+}
