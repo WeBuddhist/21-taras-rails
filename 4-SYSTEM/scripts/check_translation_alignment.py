@@ -235,7 +235,7 @@ def main():
     P = load_parser()
     root = analyse(P, args.root)
     notes = args.translations or sorted(
-        [g for g in glob.glob(str(VAULT / "3-TRANSFORMATIONS/Translations/**/" / f"{pathlib.Path(args.root).stem}-*.md"), recursive=True) if "/work/" not in g])
+        glob.glob(str(VAULT / "3-TRANSFORMATIONS/Translations/*/*/" / f"{pathlib.Path(args.root).stem}-*.md")))
     if not notes:
         sys.exit("no translation notes found")
 

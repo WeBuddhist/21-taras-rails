@@ -1,6 +1,6 @@
 ---
 title: TF-IDF Vocabulary Analysis — bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en
-source: /sessions/rcw-01hesxe9hczshzdudaktd6ke/mnt/21-taras-rails/3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-en/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md
+source: /sessions/rcw-01hesxe9hczshzdudaktd6ke/mnt/21-taras-rails/3-TRANSFORMATIONS/Translations/Dharmamitra/en/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md
 corpus: Reuters-21578 (10,788 newswire documents) via NLTK · sklearn TfidfVectorizer(smooth_idf=True)
 method: TF × IDF — term frequency in translation vs. inverse document frequency in Reuters corpus
 generated: 2026-09-24

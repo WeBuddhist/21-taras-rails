@@ -1,6 +1,6 @@
 ---
 name: gemini-translate
-description: Produce a zero-shot, block-ID-aligned machine-baseline translation of a Tibetan source text into a display language DharmaMitra does not serve (Hindi, Nepali, Mongolian, Vietnamese, …) by calling Google Gemini on small batches of adjacent blocks under a JSON line schema, enforcing one target line per Tibetan line, translating section headings separately, and writing the result to its own track under 3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-<tag>/ — the same track shape as the DharmaMitra skill, so verification and upload work unchanged.
+description: Produce a zero-shot, block-ID-aligned machine-baseline translation of a Tibetan source text into a display language DharmaMitra does not serve (Hindi, Nepali, Mongolian, Vietnamese, …) by calling Google Gemini on small batches of adjacent blocks under a JSON line schema, enforcing one target line per Tibetan line, translating section headings separately, and writing the result to its own track under 3-TRANSFORMATIONS/Translations/Gemini/<tag>/ — the same track shape as the DharmaMitra skill, so verification and upload work unchanged.
 ---
 
 # gemini-translate
@@ -38,7 +38,7 @@ An existing machine translation may be threaded into the prompt as **reference**
 ## Output
 
 ```
-3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-<tag>/
+3-TRANSFORMATIONS/Translations/Gemini/<tag>/
 ├── about.md                        # what this track is and is not (seeded)
 ├── style.md                        # system prompt, verbatim (seeded, editable)
 ├── context-header.md               # work-neutral preamble (seeded, editable)

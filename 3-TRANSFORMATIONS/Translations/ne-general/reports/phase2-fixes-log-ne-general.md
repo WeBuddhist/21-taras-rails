@@ -1,7 +1,7 @@
 ---
 title: Phase 2 fixes log — Nepali (general), draft 3
 translation: 3-TRANSFORMATIONS/Translations/ne-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne-general.md
-base: 3-TRANSFORMATIONS/Translations/machine-drafts/primed/gemini-ne-general/ (Gemini gemini-3.1-pro-preview, primed with the word list, 2026-09-25)
+base: 3-TRANSFORMATIONS/Translations/Gemini/ne-general/ (Gemini gemini-3.1-pro-preview, primed with the word list, 2026-09-25)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/ne/en-bo-ne-termbase-general.json (51 entries)
 date: 2026-09-25
 result: "locked words: zero-shot 126/136, primed run 128/136 → 136/136"

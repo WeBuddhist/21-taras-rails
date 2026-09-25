@@ -4,8 +4,8 @@ Measured 2026-09-24 across four versions of the English:
 
 | Version | File |
 |---|---|
-| D0 | `3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-en/…-en.md` — DharmaMitra zero-shot |
-| D1 | `3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-en-general/…-en.md` — DharmaMitra with the glossary hint |
+| D0 | `3-TRANSFORMATIONS/Translations/Dharmamitra/en/…-en.md` — DharmaMitra zero-shot |
+| D1 | `3-TRANSFORMATIONS/Translations/Dharmamitra/en-general/…-en.md` — DharmaMitra with the glossary hint |
 | D2 | grade file `en_text` — after the locked-term pass |
 | D3 | `3-TRANSFORMATIONS/Translations/en-general/…-en-general.md` — after the fact-check and your decisions |
 

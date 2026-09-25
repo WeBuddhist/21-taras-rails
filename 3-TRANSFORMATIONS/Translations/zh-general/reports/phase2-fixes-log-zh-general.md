@@ -2,7 +2,7 @@
 title: Phase 2 fixes log — Chinese (general)
 file_type: report
 translation: bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general.md
-base: 3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh.md
+base: 3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh.md
 date: 2026-09-24
 ---
 
