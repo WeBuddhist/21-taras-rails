@@ -36,7 +36,7 @@ note: Machine baseline — not a rails-governed translation. Every line below is
 status: draft
 aligned_to_edition_id: EPWPiXyjSDcgewleXnbIj
 ---
-
+	
 # Notes on Karma Maitri's Praise to Tārā ^0
 
 ## Expression of Homage ^I-0
