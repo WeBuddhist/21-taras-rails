@@ -111,7 +111,7 @@ def latest_records(path):
 
 def recut(tag, dm, dry_run=False, force=False):
     gen, label, text_id, old_edition, site = TRACKS[tag]
-    track = VAULT / "3-TRANSFORMATIONS/Translations" / gen / tag
+    track = VAULT / "3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot" / f"{gen.lower()}-{tag}"
     old_led = track / "work" / IMPORT_DIR / f"{OLD_STEM}-{tag}.jsonl"
     old_md = track / "work" / IMPORT_DIR / f"{OLD_STEM}-{tag}.md"
     if not old_led.exists() or not old_md.exists():

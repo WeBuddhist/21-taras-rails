@@ -26,7 +26,7 @@ decisions; Tenkal's 1-11 दरिद्रता, 1-7 "amid fire", बोधि
 "Left" list are settled and are not counted as errors.
 
 **Requirements basis:** there is no `requirements.md`. The contract is
-`3-TRANSFORMATIONS/Translations/Gemini/ne-general/style.md` (line for line; standard Nepali, not Hindi, in
+`3-TRANSFORMATIONS/Translations/machine-drafts/primed/gemini-ne-general/style.md` (line for line; standard Nepali, not Hindi, in
 Devanagari; Nepali spelling of Sanskrit words such as शान्ति, मन्त्र, आनन्द; clear modern devotional Nepali;
 mantras in Devanagari, no quotation marks; बुद्ध / बोधिसत्त्व; nothing added), read with the Hindi **general** row
 and Liturgy note of `graded-translate/SKILL.md` § Registers. Nepali has no row of its own in § Registers.

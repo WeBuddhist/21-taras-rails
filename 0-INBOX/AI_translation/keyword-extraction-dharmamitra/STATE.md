@@ -1,7 +1,7 @@
 ---
 title: "Keyword extraction — Dharmamitra track (translation pipeline, not article ranking)"
 generated: 2026-09-24
-source: 3-TRANSFORMATIONS/Translations/Dharmamitra/en/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md
+source: 3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-en/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md
 status: draft — awaiting human review before feeding graded-translate Phase 1
 ---
 
@@ -271,7 +271,7 @@ gaps.
    multi-form `bo` entries split into one line per surface form, since
    `dm_translate.py`'s glossary hit-check is a literal substring match).
 2. `dm_translate.py --source ... --lang english --glossary glossary-en-general.tsv
-   --out 3-TRANSFORMATIONS/Translations/Dharmamitra/en-general` — new track,
+   --out 3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-en-general` — new track,
    kept separate from the original zero-shot `Dharmamitra/en/` baseline so
    neither gets overwritten. This raw output stays untouched (machine-baseline
    convention: never hand-edited) — headings weren't run (`--headings` needs
@@ -548,7 +548,7 @@ The online Mahāvyutpatti (Oslo TLB) could not be read with this session's tools
 `termbase_to_glossary.py`.
 
 **Next — Phase 2 (DharmaMitra, run by Tenkal in Terminal):** new track
-`3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/`. `style.md` is written already (Traditional, clear
+`3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-zh-general/`. `style.md` is written already (Traditional, clear
 modern Chinese, Chinese-character mantras). Then enforce the word list verse by verse → zh-general D2 →
 consistency check → meaning check against the English D3 and the consensus → back-translation → native
 reviewer.
@@ -570,7 +570,7 @@ build → validate/baseline/glossary.
 ## Chinese (zh), general — Draft 1 and Draft 2 (2026-09-24)
 
 - **Draft 1** (Tenkal ran it in Terminal): DharmaMitra, primed with `glossary-zh-general.tsv`, style from
-  `Dharmamitra/zh-general/style.md` → `3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/`. 32/32 blocks.
+  `Dharmamitra/zh-general/style.md` → `3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-zh-general/`. 32/32 blocks.
   **122/137 locked words (89%)**, against 63/137 for the zero-shot draft 0. For Chinese, the glossary priming
   worked (for English it barely moved).
 - **Draft 2**: `3-TRANSFORMATIONS/Translations/zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general.md`, with the
@@ -731,7 +731,7 @@ from English. It is built by the new `keyword-standardize/scripts/multilingual_t
 
 A teammate's commit `6a87d12` (ta4tsering, "Vocabulary-standardisation chain, wiki commentary sorting, track
 cleanup", dated 2026-09-23) arrived through the auto-backup's merge of origin/main this evening. It removed
-`Translations/Gemini/` (hi, mn, ne, vi) and `Translations/Dharmamitra/zh/`, as "zero-shot tracks … to be rebuilt
+`Translations/Gemini/` (hi, mn, ne, vi) and `Translations/machine-drafts/zero-shot/dharmamitra-zh/`, as "zero-shot tracks … to be rebuilt
 via graded-translate + commentary-fact-check".
 
 Tenkal asked for Gemini back. Both folders were restored unchanged from `6a87d12^` (63 files). They are the
@@ -795,7 +795,7 @@ draft 5 (`related`), the standard Sanskrit term in Nepali spelling, the Gemini z
 from Hindi: वन्दना (not नमस्कार, which is the everyday greeting), बिजुली, कुल्च (stem, "trample"), नष्ट, पूर्ण रूपले,
 भट्टारिका आर्या, spellings शान्ति / मन्त्र / आनन्द. Validator 0 errors. Zero-shot baseline **126/136 (93%)**.
 
-**Primed run set up** in `3-TRANSFORMATIONS/Translations/Gemini/ne-general/`: `style.md` (Nepali word-list
+**Primed run set up** in `3-TRANSFORMATIONS/Translations/machine-drafts/primed/gemini-ne-general/`: `style.md` (Nepali word-list
 style), `context-header.md`, `glossary.tsv` (pinned names + the verse-scoped word list; bare ཕྱག hinted only in
 I-0, because elsewhere it is "hand"), and `run-ne-general.sh`. The Gemini API
 (generativelanguage.googleapis.com) is blocked by the organisation's egress policy from both Claude shells,

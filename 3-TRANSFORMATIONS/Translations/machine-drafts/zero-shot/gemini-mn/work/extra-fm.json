@@ -1,0 +1,17 @@
+{
+  "title": "Хорин нэгэн Дарь эхийн магтаал",
+  "title_original": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།",
+  "title_attested": "false",
+  "title_source": "",
+  "text_id": "7n1BhMN4FNkyaThaBtn3g",
+  "edition_id": "",
+  "toc_id": "",
+  "previous_edition_id": "utJelSsTLEzpZemZYfJaB (deleted 2026-09-16 with its alignment; re-created by the uploader)",
+  "translation_of_text_id": "HyUbHGlzS9LsSrgiFQNYE",
+  "translation_of_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+  "category_id": "LCorCb2K98p3TICt3UCDm",
+  "license": "public",
+  "source": "https://ai.google.dev",
+  "imported_from": "Liturgy-rails/3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-mn/སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn.md",
+  "import_note": "Imported 2026-09-17 and re-cut line by line from the Liturgy flat ids ^1-^29 onto this vault's rails ids (recut_liturgy_import.py); the original ledger and render are kept under work/imported-from-liturgy-rails/. Reading changes in the Tibetan are recorded per block in the ledger's `recut.changed_lines`."
+}

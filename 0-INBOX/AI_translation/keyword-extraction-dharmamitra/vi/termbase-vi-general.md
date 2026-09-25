@@ -20,7 +20,7 @@ Tibetan words. **Edit `vi-decisions-general.json`, not this file** — this file
 
 **Choices:** Clear modern Vietnamese (general grade) with Sino-Vietnamese Buddhist vocabulary · mantra syllables in Latin letters without diacritics · flagged picks decided by Claude, with the reason written down (Tenkal, 2026-09-24).
 
-**Sources:** No human Vietnamese translation. (1) The finished Chinese word list and translation (zh-general draft 3), read as Sino-Vietnamese (Hán-Việt) — code "related"; (2) the standard Vietnamese Buddhist term; (3) the Gemini zero-shot Vietnamese draft (3-TRANSFORMATIONS/Translations/Gemini/vi/), which suggests but never confirms. No published Vietnamese version was available to check against.
+**Sources:** No human Vietnamese translation. (1) The finished Chinese word list and translation (zh-general draft 3), read as Sino-Vietnamese (Hán-Việt) — code "related"; (2) the standard Vietnamese Buddhist term; (3) the Gemini zero-shot Vietnamese draft (3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-vi/), which suggests but never confirms. No published Vietnamese version was available to check against.
 
 **Vietnamese-only entries:** greater, om, svaha, hara, tara_syllable.
 

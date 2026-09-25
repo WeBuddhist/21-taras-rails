@@ -30,7 +30,7 @@ generated: 2026-09-24
 revised: 2026-09-24
 draft: 5
 draft_history:
-  - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/vi/, 2026-09-17)
+  - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-vi/, 2026-09-17)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file vi_text
   - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
   - 4 — full commentary fact-check (4 commentaries), consensus fixes applied

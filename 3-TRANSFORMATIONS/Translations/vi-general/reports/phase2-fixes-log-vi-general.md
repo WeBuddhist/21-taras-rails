@@ -2,7 +2,7 @@
 title: Phase 2 fixes log — Vietnamese (general)
 file_type: report
 translation: bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general.md
-base: 3-TRANSFORMATIONS/Translations/Gemini/vi/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi.md
+base: 3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-vi/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi.md
 date: 2026-09-24
 ---
 

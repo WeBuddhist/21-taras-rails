@@ -7,8 +7,8 @@ updated: 2026-09-24
 # Current translations — start here
 
 **Rule:** in each language folder, the file at the top (`bo-…-<lang>-general.md`) is the **current
-translation**. Everything in its `reports/` subfolder is the evidence behind it. `Dharmamitra/` and `Gemini/`
-hold raw machine output, which is never the translation to use.
+translation**. Everything in its `reports/` subfolder is the evidence behind it. `machine-drafts/`
+holds raw machine output, which is never the translation to use.
 
 "Current" is not yet "final": no translation here has had its native-speaker or specialist review.
 
@@ -68,19 +68,7 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi:
 
 ## Machine drafts — raw, not for use
 
-| Folder | Language | What it is | On the platform |
-|---|---|---|---|
-| `Dharmamitra/en/` | English | DharmaMitra zero-shot (draft 0) | yes (baseline) |
-| `Dharmamitra/en-general/` | English | DharmaMitra primed with the English word list (draft 1 of en-general) | no |
-| `Dharmamitra/zh/` | Chinese | DharmaMitra zero-shot (draft 0) | yes (baseline) |
-| `Dharmamitra/zh-general/` | Chinese | DharmaMitra primed with the Chinese word list (draft 1 of zh-general) | no |
-| `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
-| `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | yes (baseline) |
-| `Gemini/ne/` | Nepali | Gemini zero-shot (draft 1 of ne-general) | yes (baseline) |
-| `Gemini/ne-general/` | Nepali | Gemini primed with the Nepali word list (draft 2 of ne-general); `run-ne-general.sh` re-runs it | no |
-| `Gemini/mn/` | Mongolian | Gemini zero-shot — the starting point for Mongolian | yes (baseline) |
-| `Dharmamitra/en-commentaries/` | English | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
-| `Dharmamitra/zh-commentaries/` | Chinese (Traditional) | DharmaMitra zero-shot of the eight commentaries (not the root) | yes (2026-09-24) |
-
-These folders stay where they are, because the translation scripts write to these paths. Don't edit the files
-by hand; a new run replaces them.
+All raw DharmaMitra and Gemini output is in **`machine-drafts/`**, sorted into `zero-shot/` (no word list),
+`primed/` (run with the word list) and `commentaries/` (the commentaries, not the root). Its
+[[3-TRANSFORMATIONS/Translations/machine-drafts/00-INDEX|00-INDEX]] says which draft each folder became and
+which are on the platform. Don't edit those files by hand; a new run replaces them.

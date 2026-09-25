@@ -59,7 +59,7 @@ python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/build_termbase.py
   --base-termbase $K/en/en-bo-en-termbase-general.json --base-grade-file $K/en/bo_en_keyword_general.json \
   --meaning-text "3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md" \
   --reference $K/zh/references/zh-classical-T1108B.md \
-  --mt-draft "3-TRANSFORMATIONS/Translations/Dharmamitra/zh/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh.md" \
+  --mt-draft "3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-zh/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh.md" \
   --out-dir $K/zh --force
 ```
 
@@ -72,7 +72,7 @@ python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/build_termbase.py
 | `en-bo-vi-termbase-general.json`, `bo_vi_keyword_general.json`, `glossary-vi-general.tsv`, `vi-worksheet-general.md` | Built, the same as for Chinese | Built |
 
 Rebuild: the same command as for Chinese, with `vi/vi-decisions-general.json`, `--out-dir $K/vi`, and the
-Gemini draft (`3-TRANSFORMATIONS/Translations/Gemini/vi/…-vi.md`) as `--mt-draft`. Use no `--reference`: the
+Gemini draft (`3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-vi/…-vi.md`) as `--mt-draft`. Use no `--reference`: the
 Chinese reference is shown in the worksheet only.
 
 ## `hi/` — Hindi (general)
@@ -84,7 +84,7 @@ Chinese reference is shown in the worksheet only.
 | `en-bo-hi-termbase-general.json`, `bo_hi_keyword_general.json` (`hi_text` = Hindi draft 2), `glossary-hi-general.tsv`, `hi-worksheet-general.md` | Built, the same as for Chinese | Built |
 
 Rebuild: the same command as for Chinese, with `hi/hi-decisions-general.json`, `--out-dir $K/hi`, the Gemini
-draft (`3-TRANSFORMATIONS/Translations/Gemini/hi/…-hi.md`) as `--mt-draft`, and no `--reference` (Hindi uses
+draft (`3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-hi/…-hi.md`) as `--mt-draft`, and no `--reference` (Hindi uses
 the Sanskrit terms directly).
 
 ## `ne/` — Nepali (general)
@@ -95,7 +95,7 @@ the Sanskrit terms directly).
 | `termbase-ne-general.md` | Review table, with the 7 flagged picks first — start here | **Read** |
 | `en-bo-ne-termbase-general.json`, `bo_ne_keyword_general.json` (`ne_text` = Nepali draft 3), `glossary-ne-general.tsv`, `ne-worksheet-general.md` | Built | Built |
 
-Rebuild: as for Hindi, with `ne/…`, `--mt-draft 3-TRANSFORMATIONS/Translations/Gemini/ne/…-ne.md`. The Hindi translation
+Rebuild: as for Hindi, with `ne/…`, `--mt-draft 3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-ne/…-ne.md`. The Hindi translation
 is the reference shown in the worksheet (`--reference … --reference-prefix ""`), not passed to the build.
 
 ## `shared/` — keyword extraction (used by every language)

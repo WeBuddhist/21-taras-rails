@@ -167,7 +167,7 @@ Once assigned, a `registered_id` never changes. New commentaries must be added t
 | Tag | Language | Translation track | Status |
 | --- | -------- | ------------------ | ------ |
 | `bo` | Tibetan | — (source; every `1-SOURCES/` file in this vault) | — |
-| `en` | English | `3-TRANSFORMATIONS/Translations/Dharmamitra/en/` | `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft` |
+| `en` | English | `3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-en/` | `track_type: machine-baseline`, `rails_used: none`, permanently `status: draft` |
 | `en` | English | `3-TRANSFORMATIONS/Translations/Dharmamitra-termlocked/en/` | planned — the vocabulary-standardised track (`dharmamitra-termlocked`); not yet generated as of 2026-09-22 |
 
 **The zero-shot English baseline is not a governed translation track.** It carries no

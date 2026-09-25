@@ -1,7 +1,7 @@
 ---
 title: Phase 2 fixes log — Hindi (general), draft 2
 translation: 3-TRANSFORMATIONS/Translations/hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general.md
-base: 3-TRANSFORMATIONS/Translations/Gemini/hi/ (Gemini zero-shot, 2026-09-17)
+base: 3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-hi/ (Gemini zero-shot, 2026-09-17)
 termbase: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/hi/en-bo-hi-termbase-general.json (51 entries: 47 + 4 Hindi-only)
 date: 2026-09-24
 result: "locked words 123/136 (90%) → 136/136"

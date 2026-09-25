@@ -1,6 +1,6 @@
 ## Praise to the Twenty-One Taras — Draft 1 vs Draft 3 (general grade)
 
-- **Draft 1:** DharmaMitra *cat-translate*, glossary-primed — `3-TRANSFORMATIONS/Translations/Dharmamitra/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md`
+- **Draft 1:** DharmaMitra *cat-translate*, glossary-primed — `3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en.md`
 - **Draft 3:** current — `3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md`
 - Draft 2 (termbase pass) is taken from the grade file's `en_text`.
 

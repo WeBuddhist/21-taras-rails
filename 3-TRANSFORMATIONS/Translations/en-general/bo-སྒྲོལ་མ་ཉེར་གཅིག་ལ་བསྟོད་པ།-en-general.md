@@ -27,7 +27,7 @@ generated: 2026-09-24
 revised: 2026-09-24
 draft: 4
 draft_history:
-  - 1 — DharmaMitra raw output (3-TRANSFORMATIONS/Translations/Dharmamitra/en-general/)
+  - 1 — DharmaMitra raw output (3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-en-general/)
   - 2 — termbase-enforced (graded-translate Phase 2); text kept in grade_file en_text
   - 3 — commentary fact-check fixes applied
   - 4 — translation-qa fixes applied (this file)

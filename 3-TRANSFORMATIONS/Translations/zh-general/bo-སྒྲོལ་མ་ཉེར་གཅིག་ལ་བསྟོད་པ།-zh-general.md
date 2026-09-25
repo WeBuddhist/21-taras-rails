@@ -32,8 +32,8 @@ generated: 2026-09-24
 revised: 2026-09-24
 draft: 5
 draft_history:
-  - 0 — DharmaMitra zero-shot, no word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh/)
-  - 1 — DharmaMitra, glossary-primed with the zh word list (3-TRANSFORMATIONS/Translations/Dharmamitra/zh-general/)
+  - 0 — DharmaMitra zero-shot, no word list (3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/dharmamitra-zh/)
+  - 1 — DharmaMitra, glossary-primed with the zh word list (3-TRANSFORMATIONS/Translations/machine-drafts/primed/dharmamitra-zh-general/)
   - 2 — locked words enforced verse by verse, clear errors fixed; text kept in grade_file zh_text
   - 3 — meaning check by back-translation against the fact-checked English and the commentary consensus
   - 4 — translation-qa fixes applied

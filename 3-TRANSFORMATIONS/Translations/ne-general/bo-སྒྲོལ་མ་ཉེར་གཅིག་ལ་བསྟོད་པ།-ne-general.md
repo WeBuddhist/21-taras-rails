@@ -30,8 +30,8 @@ generated: 2026-09-25
 revised: 2026-09-25
 draft: 6
 draft_history:
-  - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/ne/, 2026-09-17)
-  - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Nepali word list (3-TRANSFORMATIONS/Translations/Gemini/ne-general/, 2026-09-25)
+  - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/machine-drafts/zero-shot/gemini-ne/, 2026-09-17)
+  - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Nepali word list (3-TRANSFORMATIONS/Translations/machine-drafts/primed/gemini-ne-general/, 2026-09-25)
   - 3 — locked words enforced verse by verse, clear errors fixed ; text kept in grade_file ne_text
   - 4 — meaning check by back-translation against the fact-checked English and the commentary consensus
   - 5 — full commentary fact-check (4 commentaries), consensus and grammar fixes applied
