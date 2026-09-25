@@ -22,7 +22,7 @@ hold raw machine output, which is never the translation to use.
 | Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 5 | locked words 136/136 · back-translation meaning check · full commentary fact-check (no errors, 13 fixes, 2 translator decisions) · **QA 100.0, PASS** (after fixes) | native Hindi review (word list first) · upload | no (the old Gemini baseline is) |
 | Nepali (general) | [[ne-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (1 error fixed, 15 fixes) · **QA 97.4 → 100.0, PASS** | native Nepali review (word list first) · upload | no (the old Gemini baseline is) |
 | Mongolian (general, Cyrillic) | [[mn-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (3 errors fixed) · **QA 97.1 → 100.0, PASS** | native Mongolian review (11 flagged words first) · upload | no (the old Gemini baseline is) |
-| Thai (general) | [[th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general]] | 4 | locked words 136/136; four-commentary fact-check (21 blocks fixed) | meaning check · QA · native Thai review · upload | no |
+| Thai (general) | [[th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general]] | 5 | locked words 136/136; four-commentary fact-check (21 blocks fixed); meaning check (11 verses fixed) | QA · native Thai review · upload | no |
 
 ## Reports behind each translation
 

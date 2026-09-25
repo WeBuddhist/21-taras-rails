@@ -865,3 +865,7 @@ for the word list; Thai has no reference text and no Thai tradition for this pra
   ปัญญา missing (all four), 1-4 who attained the perfections, 1-18 and 1-20 simile attached to her, 1-13, 1-17, 1-9;
   a pattern of "ขอนอบน้อมด้วย X" (homage *by means of* X) in 1-2, 1-5, 1-7, 1-9. 21 blocks fixed, 136/136 kept.
   Left: 1-3 colours, 1-12, 1-14/1-22 decisions, 1-19, 1-21. Meaning check and QA not yet run.
+- **Draft 5:** back-translation meaning check on draft 4 (run after the commentary check, the reverse of the
+  other languages): 21 match, 9 minor, 2 differ — 1-11 lines 1–2 were not a sentence; 1-16 had her reciting
+  the ten-syllable mantra instead of it being set in her. Also "frowns by means of HŪṂ" (1-11, 1-14), 1-22
+  "This is…" cutting the link to 2-1, 2-2 ไร้ภัย → ความไม่หวาดกลัว. All fixed, 136/136 kept. QA not yet run.

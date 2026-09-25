@@ -28,18 +28,22 @@ grade_file: 0-INBOX/AI_translation/keyword-extraction-dharmamitra/th/bo_th_keywo
 meaning_reference: 3-TRANSFORMATIONS/Translations/en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general.md
 generated: 2026-09-25
 revised: 2026-09-25
-draft: 4
+draft: 5
 draft_history:
   - 1 — Gemini zero-shot, no word list (3-TRANSFORMATIONS/Translations/Gemini/th/, 2026-09-25)
   - 2 — Gemini gemini-3.1-pro-preview (thinking high), primed verse by verse with the Thai word list (3-TRANSFORMATIONS/Translations/Gemini/th-general/, 2026-09-25)
   - 3 — the 4 missed locked words swapped in, wording otherwise untouched
-  - 4 — full commentary fact-check (4 commentaries), consensus fixes applied (this file); text kept in grade_file th_text
+  - 4 — full commentary fact-check (4 commentaries), consensus fixes applied
+  - 5 — meaning check by back-translation against the fact-checked English and the commentary consensus (this file); text kept in grade_file th_text
 blocks_translated: 32
 blocks_total: 32
 headings_translated: 5
 phase2_fixes_log: 3-TRANSFORMATIONS/Translations/th-general/reports/phase2-fixes-log-th-general.md
 phase2_changes: 4 (locked words only)
-fact_checked: 2026-09-25 (full fact-check against four Tibetan commentaries; no back-translation meaning check yet)
+fact_checked: 2026-09-25 (full fact-check against four Tibetan commentaries, then back-translation meaning check)
+meaning_reference_check: 2026-09-25
+meaning_check_report: 3-TRANSFORMATIONS/Translations/th-general/reports/back-translation-check-th-general.md
+meaning_check_result: 21 match, 9 minor, 2 differ — all fixed
 fact_check_consensus: 3-TRANSFORMATIONS/Translations/en-general/reports/commentary-fact-check-consensus-en-general.md
 fact_check_commentaries:
   - 1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md
@@ -58,7 +62,7 @@ fact_check_fixes_applied: 21 blocks
 fact_check_open_items: 0
 translator_decisions: "English translator decisions followed (1-3 colours, 1-8 and 1-17 Ture as her name, 1-14 seven levels, 1-17 Vindhya, 1-22 and, 2-6 optative); Tenkal's decisions followed (1-11 destitution, 1-7 amid fire)"
 native_review: false
-note: "Fourth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Thai word list (132/136 locked words); (3) the 4 missed locked words swapped in (136/136); (4) full fact-check against four Tibetan commentaries: 21 blocks fixed, including the 1-1 lotus-face error, 1-3 missing wisdom, 1-4 who attained the perfections, and the homage-by-means-of wording in 1-5, 1-7 and 1-9 (136/136 kept). Back-translation meaning check and QA not yet run, and not reviewed by a native Thai reader -- treat as draft."
+note: "Fifth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Thai word list (132/136 locked words); (3) the 4 missed locked words swapped in (136/136); (4) full fact-check against four Tibetan commentaries: 21 blocks fixed, including the 1-1 lotus-face error, 1-3 missing wisdom, 1-4 who attained the perfections, and the homage-by-means-of wording in 1-5, 1-7 and 1-9; (5) back-translation meaning check: 21 match, 9 minor, 2 differ (1-11 broken sentence, 1-16 mantra recited vs set), all fixed (136/136 kept). QA not yet run, and not reviewed by a native Thai reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 ---
@@ -92,8 +96,8 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้มีพระพักตร์ดั่งจันทร์เพ็ญแห่งสารทฤดู
 นับร้อยดวงที่ซ้อนรวมกัน
-ด้วยหมู่ดวงดาวนับพันดวง
-ทรงเปล่งแสงลุกโชนอย่างยิ่ง ^1-2
+ลุกโชนอย่างยิ่งด้วยแสงเจิดจ้า
+แห่งหมู่ดวงดาวนับพันที่ชุมนุมกัน ^1-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-3]]
 
@@ -142,20 +146,20 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ขอนอบน้อมพระผู้ทรงประดับพระหทัยอย่างงดงาม
 ด้วยนิ้วพระหัตถ์ในมุทราอันเป็นสัญลักษณ์แห่งพระรัตนตรัย
 ฝ่าพระหัตถ์ประดับด้วยกงล้อแห่งทิศทั้งปวงโดยไม่เหลือ
-หมู่แสงของพระองค์เปล่งประกายเจิดจ้า ^1-9
+ทรงเปล่งหมู่แสงของพระองค์เองอย่างพลุ่งพล่าน ^1-9
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-10]]
 
-ขอนอบน้อมพระผู้ประทานปีติยินดีสูงสุดอันสง่างาม
-ทรงแผ่ขยายมาลัยแห่งแสงจากพระมงกุฎ
+ขอนอบน้อมพระผู้ประทานปีติยินดีสูงสุด
+เครื่องประดับพระเศียรอันสง่างามแผ่ขยายมาลัยแห่งแสง
 ทรงพระสรวลอย่างยิ่งด้วยพยางค์ ตุตตาเร
 ทรงสยบหมู่มารและโลกให้อยู่ใต้อำนาจ ^1-10
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-11]]
 
-ขอนอบน้อมพระผู้ที่หมู่ผู้คุ้มครองผืนดิน
-พระองค์ทรงสามารถดึงดูดมาได้ทั้งปวง
-ทรงขมวดพระโขนงด้วยพยางค์ ฮูม
+ขอนอบน้อมพระผู้ทรงสามารถ
+ดึงดูดหมู่ผู้คุ้มครองผืนดินมาได้ทั้งปวง
+ด้วยพระโขนงที่ขมวดสั่นไหวอย่างพิโรธและพยางค์ ฮูม
 ทรงปลดปล่อยสรรพสัตว์จากความยากไร้ทั้งปวง ^1-11
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-12]]
@@ -176,7 +180,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้ทรงใช้ฝ่าพระหัตถ์
 ตบลงบนผืนดินและกระทืบด้วยพระบาท
-ทรงขมวดพระโขนงด้วยพยางค์ ฮูม
+ด้วยพระโขนงที่ขมวดอย่างพิโรธและพยางค์ ฮูม
 ผู้ทรงทำลายโลกชั้นทั้งเจ็ดให้แหลกสลาย ^1-14
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-15]]
@@ -190,7 +194,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้แวดล้อมด้วยความปีติยินดีสูงสุด
 ผู้ทรงทำลายร่างกายของศัตรูให้แหลกลาญอย่างสิ้นเชิง
-ทรงร่ายมนตราสิบพยางค์
+มนตราสิบพยางค์ประดิษฐานอยู่ในพระองค์
 พระองค์คือดวงประทีปแห่งวิทยามนตร์จากพยางค์ ฮูม ^1-16
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-17]]
@@ -211,7 +215,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ขอนอบน้อมพระผู้ซึ่งราชาแห่งหมู่เทวะ
 ทวยเทพและกินนรล้วนพึ่งพิง
-ด้วยความสง่างามอันปีติยินดีของเกราะป้องกันโดยรอบ
+ด้วยความสง่างามแห่งเกราะคือความปีติยินดีโดยรอบ
 ทรงขจัดความขัดแย้งและฝันร้าย ^1-19
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-20]]
@@ -223,15 +227,15 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-21]]
 
-ขอนอบน้อมพระผู้ประดิษฐานตถตาทั้งสาม
+ขอนอบน้อมพระผู้มีตถตาทั้งสามประดิษฐานอยู่
 กอปรด้วยพลานุภาพแห่งความสงบอย่างสมบูรณ์
 ผีร้าย เวตาล และหมู่ยักษ์
 ตุเร ผู้ประเสริฐสุดทรงทำลาย ^1-21
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^1-22]]
 
-นี่คือการสรรเสริญด้วยมูลมนตรา
-และการขอนอบน้อมทั้งยี่สิบเอ็ดบท ^1-22
+ด้วยการสรรเสริญโดยมูลมนตรานี้
+และการขอนอบน้อมทั้งยี่สิบเอ็ดบทนี้ ^1-22
 
 ## อานิสงส์แห่งการสรรเสริญ ^2-0
 
@@ -243,9 +247,9 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-2]]
 
 เมื่อตื่นขึ้นในยามค่ำและยามรุ่งสาง
-ด้วยการระลึกถึงพระองค์ ย่อมได้รับความไร้ภัยทั้งปวง
+ด้วยการระลึกถึงพระองค์ ย่อมได้รับความไม่หวาดกลัวทั้งปวง
 บาปทั้งปวงย่อมสงบระงับไปอย่างสิ้นเชิง
-ทำลายอบายภูมิทั้งปวงให้สิ้นไป ^2-2
+อบายภูมิทั้งปวงย่อมถูกทำลายสิ้นไป ^2-2
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-3]]
 
@@ -263,7 +267,7 @@ translation_of: HyUbHGlzS9LsSrgiFQNYE
 
 ![[bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།#^2-5]]
 
-ผู้ที่ถูกรังควานด้วยผีร้าย โรคระบาด และพิษ
+สำหรับผู้ที่ถูกรังควานด้วยผีร้าย โรคระบาด และพิษ
 กองแห่งความทุกข์ย่อมถูกขจัดไปอย่างสิ้นเชิง
 สำหรับสรรพสัตว์อื่นๆ ด้วยเช่นกัน ^2-5
 
