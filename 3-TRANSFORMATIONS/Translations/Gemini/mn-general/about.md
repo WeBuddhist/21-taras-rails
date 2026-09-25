@@ -1,5 +1,5 @@
 ---
-title: "mn — Gemini zero-shot (mongolian)"
+title: "mn — Gemini primed with the Mongolian word list"
 track_type: machine-baseline
 target_language: mongolian
 lang_tag: mn
@@ -8,20 +8,26 @@ generator: gemini-3.1-pro-preview
 endpoint: https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent
 rails_used: none
 termbase: none
+glossary: 3-TRANSFORMATIONS/Translations/Gemini/mn-general/glossary.tsv
 status: draft
 seeded: 2026-09-25
 ---
 
-# Gemini/mn — about this track
+# Gemini/mn-general — about this track
 
-A **machine baseline**, not a rails-governed translation track.
+A **machine draft primed with the Mongolian word list**, not a rails-governed translation track.
+
+**Primed run.** Unlike a zero-shot baseline, every batch was given the locked Mongolian terms of its verses
+(`3-TRANSFORMATIONS/Translations/Gemini/mn-general/glossary.tsv`, built by `keyword-standardize`) as fixed terminology. The output has not been checked
+against them or by a person. It is **draft 2** of the Mongolian translation; the checked translation is
+`3-TRANSFORMATIONS/Translations/mn-general/`.
 
 Every file here is raw output of Google Gemini (model `gemini-3.1-pro-preview`, recorded per
 block in the ledger as `model_version`), produced by
 `4-SYSTEM/Skills/gemini-translate/scripts/gm_translate.py`, which sends a small
 batch of adjacent block IDs per call and asks for a JSON object holding one
 array of lines per block. Nothing in it passed through `2-RAILS/`: no
-verse-context package, no consolidated bilingual glossary, no per-track
+verse-context package, no consolidated bilingual glossary (only the word list above, as hints), no per-track
 `termbase.md`, no human review. It therefore does **not** satisfy the
 Translation-track contract in
 [`../../About Transformations.md`](../../About%20Transformations.md) §3, and it is
