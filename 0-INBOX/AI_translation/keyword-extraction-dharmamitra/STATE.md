@@ -832,3 +832,16 @@ No reference text (the Mongolian Kanjur version could not be fetched). Validator
 
 **Run set up** in `3-TRANSFORMATIONS/Translations/Gemini/mn-general/` (style.md, glossary.tsv = names/mantras +
 the word list, run-mn-general.sh). Dry run checked; the hints (whole words) are what the model sees.
+
+## Mongolian — drafts 2–6 (2026-09-25)
+
+- **Draft 2:** Tenkal ran `run-mn-general.sh` (gemini-3.1-pro-preview, thinking high, word list per verse):
+  **121/136** (zero-shot 117). The model kept the traditional тэргүүн ('head') for the face and уснаа ургасан
+  for the lotus despite the list, and wrote "seven million" at 2-3.
+- **Draft 3:** locked words + 2 errors (2-3 seventy million; 1-22 noun) → 136/136. Lock stems for vowel-dropping
+  words (үс/үсэг). **Draft 4:** back-translation — 20 match, 5 minor, 7 differ, all fixed.
+- **Draft 5:** four-commentary check (DG 13/30, GD 16/29, TN 15/28, TT 15/29 clean); 3 errors — 2-5 тэвчих
+  ('endure' for 'remove', all four), 1-16 'HŪṂ of the mind' (three), 1-4 'makes the Victor' — and 13 more fixes.
+- **Draft 6:** translation-qa 97.1 PASS (17 Minor, all fixed) → 100.0.
+- `standardised-keywords-general.md` has a Mongolian column. Reviewer: 11 flagged words (spirit classes; охин
+  тэнгэр = also Palden Lhamo; нүүр/лянхуа vs the traditional forms).

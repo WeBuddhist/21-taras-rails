@@ -16,7 +16,7 @@ don't edit it by hand, rebuild it.
 ## Start here
 
 **`standardised-keywords-general.md`** has all standardised keywords in one table: the Tibetan term and its
-locked English, Chinese, Vietnamese, Hindi and Nepali renderings, with the verses (52 terms). It is built from the word lists
+locked English, Chinese, Vietnamese, Hindi, Nepali and Mongolian renderings, with the verses (52 terms). It is built from the word lists
 below; to rebuild it after a change:
 
 ```bash
@@ -24,7 +24,7 @@ K=0-INBOX/AI_translation/keyword-extraction-dharmamitra
 python3 ../Webuddhist-Skills/rails/keyword-standardize/scripts/multilingual_table.py \
   --base $K/en/en-bo-en-termbase-general.json \
   --lang zh=$K/zh/en-bo-zh-termbase-general.json --lang vi=$K/vi/en-bo-vi-termbase-general.json \
-  --lang hi=$K/hi/en-bo-hi-termbase-general.json --lang ne=$K/ne/en-bo-ne-termbase-general.json \
+  --lang hi=$K/hi/en-bo-hi-termbase-general.json --lang ne=$K/ne/en-bo-ne-termbase-general.json --lang mn=$K/mn/en-bo-mn-termbase-general.json \
   --title "Praise to the Twenty-One Tārās" -o $K/standardised-keywords-general.md
 ```
 
@@ -98,6 +98,14 @@ the Sanskrit terms directly).
 Rebuild: as for Hindi, with `ne/…`, `--mt-draft 3-TRANSFORMATIONS/Translations/Gemini/ne/…-ne.md`. The Hindi translation
 is the reference shown in the worksheet (`--reference … --reference-prefix ""`), not passed to the build.
 
+## `mn/` — Mongolian (general, Cyrillic)
+
+| File | What | |
+|---|---|---|
+| `mn-decisions-general.json` | **The one file to edit** (with `hint` where the lock is a stem: Mongolian drops a vowel when it inflects) | **Edit** |
+| `termbase-mn-general.md` | Review table, 11 flagged picks first — start here | **Read** |
+| `en-bo-mn-termbase-general.json`, `bo_mn_keyword_general.json` (`mn_text` = draft 3), `glossary-mn-general.tsv`, `mn-worksheet-general.md` | Built | Built |
+
 ## `shared/` — keyword extraction (used by every language)
 
 | File | What |
@@ -108,4 +116,4 @@ is the reference shown in the worksheet (`--reference … --reference-prefix ""`
 ## Top level
 
 - `STATE.md`: running log of every step, in order. The older entries use the file paths from before this reorganisation.
-- A new language gets its own folder beside `en/`, `zh/`, `vi/`, `hi/` and `ne/` (e.g. `mn/`).
+- A new language gets its own folder beside `en/`, `zh/`, `vi/`, `hi/`, `ne/` and `mn/` (e.g. `th/`).
