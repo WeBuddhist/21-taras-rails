@@ -1,0 +1,42 @@
+{
+  "status": "error",
+  "source": "/sessions/rcw-01hesxe9hczshzdudaktd6ke/mnt/21-taras-rails/3-TRANSFORMATIONS/Translations/th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general.md",
+  "validated_at": "2026-09-25T07:08:41.051927+00:00",
+  "error_count": 2,
+  "errors": [
+    "language: \"Thai\" is not a valid language code or name. Valid codes: ['bo', 'en', 'fr', 'hi', 'ja', 'lzh', 'mn', 'mr', 'ne', 'pi', 'ru', 'sa', 'vi', 'zh']. Valid names: ['chinese', 'classical chinese', 'english', 'french', 'hindi', 'japanese', 'marathi', 'mongolian', 'nepali', 'pali', 'russian', 'sanskrit', 'tibetan', 'vietnamese']",
+    "lang_tag: \"th\" is not a known tag. Known: ['bo', 'en', 'fr', 'hi', 'ja', 'lzh', 'mn', 'mr', 'ne', 'pi', 'ru', 'sa', 'vi', 'zh']"
+  ],
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "root_text: '1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://ai.google.dev'",
+    "toc: 5 headers found"
+  ],
+  "warnings": [
+    "alt_titles: missing — ignored for now",
+    "translator 'gemini-3.1-pro-preview (raw draft': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'primed with the Thai word list)': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'termbase-enforced by Claude per keyword-standardize and graded-translate Phase 2': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "resolved": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "th": "บทสรรเสริญพระแม่ตารายี่สิบเอ็ดองค์"
+    },
+    "alt_titles": null,
+    "language": "Thai",
+    "commentary_of": null,
+    "translation_of": "HyUbHGlzS9LsSrgiFQNYE",
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}
