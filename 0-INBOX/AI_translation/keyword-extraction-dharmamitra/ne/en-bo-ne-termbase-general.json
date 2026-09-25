@@ -1,0 +1,812 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "ne": "वन्दना",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Flagged. The Hindi lock is नमस्कार, but in Nepali नमस्कार is the everyday greeting; वन्दना is the devotional word and the zero-shot draft already uses it for every refrain (वन्दना उनलाई). I-2 had प्रणाम in the draft.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "24/25 of its verses"
+    }
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tara",
+    "ne": "तारा",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "the Sanskrit name; also the Hindi lock.",
+    "ne_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "ne": "लाभ",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft has लाभसहित (I-2) and लाभ (2-0).",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "noble_venerable": {
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
+    "ne": "भट्टारिका आर्या",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Flagged. भट्टारिका is the Sanskrit equivalent of རྗེ་བཙུན་མ (the venerable lady), and Nepal's Buddhists know it from the Sanskrit liturgy (आर्यतारा भट्टारिका); the draft chose it on its own. Kept apart from भगवती (བཅོམ་ལྡན་འདས་མ), as in Hindi. The plainer alternative is पूज्य आर्या (the Hindi lock).",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "ne": "नमः तारा एकविंशति स्तोत्र गुणहित साक",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "the Sanskrit title in Devanagari, as in Hindi; the draft matches.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "ne": "स्तुति",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; consistent in the draft.",
+    "ne_evidence": {
+      "machine_draft": "4/5 of its verses"
+    }
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "ne": "भगवती तारा",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "a-1; Bhagavatī is the Sanskrit of བཅོམ་ལྡན་འདས་མ.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "ne": "पूर्ण रूपले",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the natural Nepali adverb (Hindi पूर्णतः); the draft uses it in 1-15 and 1-21.",
+    "ne_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "ne": "सम्यक्सम्बुद्ध",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Samyaksambuddha, written as one word as in the draft (Hindi सम्यक् सम्बुद्ध).",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "ne": "भगवती",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "as Hindi.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "ne": "मूल स्तुति",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft matches.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "ne": "बिजुली",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Flagged. Everyday Nepali for lightning (the draft's word); Hindi locked the Sanskrit विद्युत, which in Nepali reads as technical 'electricity'.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "ne": "लोक",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; consistent in the draft (त्रिलोक, सप्तलोक).",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "ne": "मुख",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; also covers the draft's मुखमण्डल.",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "ne": "कमल",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi. The draft's जलजात ('water-born') at 1-8 is to be replaced by the lock.",
+    "ne_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "ne": "कमल मुख",
+    "rank": 138,
+    "verse_ids": [
+      "1-8"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5",
+    "ne_note": "1-8 only, her own lotus face. In 1-1 the lotus grows from the Lord's face (consensus); the draft's कमल-मुखको there is the same error the other languages had.",
+    "ne_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "ne": "प्रकाश",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; consistent in the draft.",
+    "ne_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "ne": "प्रज्वलित",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft uses it in 1-2, 1-12, 1-13.",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "ne": "चन्द्र",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "the stem, as in Hindi (covers चन्द्रमा, अर्धचन्द्र). At 1-18 the draft wrote मृगाङ्क (चन्द्रमा) — the parenthesis is an addition.",
+    "ne_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "ne": "शान्ति",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Nepali spelling of the Sanskrit (Hindi writes शांति).",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "ne": "अशेष",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft uses it in 1-4 and 1-8.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "hum",
+    "ne": "हूँ",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "the seed syllable as chanted. The draft puts syllables in quotation marks ('हूँ'); the style asks for none.",
+    "ne_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "ne": "अक्षर",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the generic word; the draft's word.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "ne": "कुल्च",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Flagged. The stem of the native Nepali verb 'to trample' (कुल्चेर, कुल्चँदै in the draft); Hindi's आक्रांत is literary in Nepali. Locked as the stem so every verb form matches.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "ne": "चरण",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the respectful word, as Hindi; consistent in the draft.",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
+    "en": "tuttare",
+    "ne": "तुत्तारे",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "as chanted (ॐ तारे तुत्तारे तुरे स्वाहा). The draft wrote 'तुत्तार' — wrong ending.",
+    "ne_evidence": {
+      "machine_draft": "0/3 of its verses"
+    }
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "ne": "समूह",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; consistent in the draft.",
+    "ne_evidence": {
+      "machine_draft": "3/4 of its verses"
+    }
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "ne": "भूत",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "ne": "नष्ट",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the Nepali verb नष्ट गर्नु, consistent in the draft (Hindi विनाश).",
+    "ne_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "phat",
+    "ne": "फट्",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "as chanted.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "trat",
+    "ne": "त्रट्",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "as chanted (traṭ). The draft wrote 'त्रत्'.",
+    "ne_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "ture",
+    "ne": "तुरे",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "Tārā's mantra name, as chanted.",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "great": {
+    "bo": "ཆེ་བ / ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "ne": "महा",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8",
+      "2-3"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5",
+    "ne_note": "the stem, as Hindi (महान्, महाभयङ्करी, महिमा…).",
+    "ne_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "ne": "परम",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "as Hindi, kept apart from 'great'. The draft had अत्यन्त ('very') at 1-10.",
+    "ne_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "ne": "वश",
+    "rank": 85,
+    "verse_ids": [
+      "1-10"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft's वशीभूत contains it.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
+    "en": "joy",
+    "ne": "आनन्द",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term",
+    "ne_note": "Flagged. The noun, in Nepali spelling (Hindi आनंद); आनन्दित/आनन्दमय also match. The draft uses प्रमुदित throughout, so the primed run and enforcement must change 1-10, 1-13, 1-16, 1-19.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "0/4 of its verses"
+    }
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable hum",
+    "ne": "हूँ अक्षर",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "built from the hum + syllable locks, as the English does ('the syllable hum'); the draft's form. (Hindi split अक्षर / हूँ बीजाक्षर; Nepali keeps one word for ཡི་གེ.)",
+    "ne_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "ne": "समर्थ",
+    "rank": 85,
+    "verse_ids": [
+      "1-11"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi; the draft matches.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "ne": "पूर्ण रूपले युक्त",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ],
+    "ne_source": "Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "perfectly + endowed; the draft's form in 1-15 and 1-21.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "ne": "युक्त",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi. At 2-1 the draft paraphrased (भक्तिभाव राख्ने).",
+    "ne_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "ne": "मन्त्र",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "ne_source": "the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Nepali spelling (Hindi मंत्र); the draft matches.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "ne": "देवी",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "vetala": {
+    "bo": "རོ་ལངས",
+    "en": "vetāla",
+    "ne": "वेताल",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the Sanskrit word.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "empowerment": {
+    "bo": "དབང",
+    "en": "empowerment",
+    "ne": "अभिषेक",
+    "rank": 85,
+    "verse_ids": [
+      "2-3"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the Sanskrit term.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "ne": "ग्रह",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Flagged, as in Hindi: ग्रह in the sense of an afflicting spirit (ग्रहदशा, ग्रह लाग्नु are everyday Nepali). The draft chose it too.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "ne": "यक्ष",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + the standard Sanskrit-Nepali Buddhist term + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "the Sanskrit word.",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "ne": "शक्ति",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "ne_source": "Hindi word list and Hindi draft 5 + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "as Hindi.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "om": {
+    "bo": "ཨོཾ",
+    "en": "Oṃ",
+    "ne": "ॐ",
+    "rank": 999,
+    "verse_ids": [
+      "I-3",
+      "1-15"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari) + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Nepali-only entry (as Hindi).",
+    "ne_evidence": {
+      "machine_draft": "2/2 of its verses"
+    },
+    "ne_only": true
+  },
+  "svaha": {
+    "bo": "སྭཱ་ཧཱ",
+    "en": "svāhā",
+    "ne": "स्वाहा",
+    "rank": 999,
+    "verse_ids": [
+      "1-15"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari) + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Nepali-only entry.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "ne_only": true
+  },
+  "hara": {
+    "bo": "ཧ་ར",
+    "en": "HARA",
+    "ne": "हर",
+    "rank": 999,
+    "verse_ids": [
+      "1-20"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari) + Gemini ne zero-shot (2026-09-17)",
+    "ne_note": "Nepali-only entry.",
+    "ne_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "ne_only": true
+  },
+  "tara_syllable": {
+    "bo": "ཏཱ་ར",
+    "en": "TĀRA",
+    "ne": "तारे",
+    "rank": 999,
+    "verse_ids": [
+      "1-18"
+    ],
+    "ne_source": "the mantra syllable as chanted (Devanagari)",
+    "ne_note": "Nepali-only entry. The recitation form, as Hindi/Chinese/Vietnamese; the draft wrote 'तारा', which reads as her name.",
+    "ne_decision": "Claude pick — user delegated flagged picks (\"you do it\"), 2026-09-25",
+    "ne_evidence": {
+      "machine_draft": "0/1 of its verses"
+    },
+    "ne_only": true
+  }
+}

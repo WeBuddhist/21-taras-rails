@@ -784,3 +784,21 @@ vetālas diacritics) — not yet decided.
 1-19 爭執, 2-3 no added recipient). 2-1 天女 left, flagged for the native reviewer (3 commentaries: it is Tārā).
 
 A stray linter output (`draft4-backup.lint.json`) was moved to `4-SYSTEM/scripts/linter-root-text/output/_to_delete/`.
+
+## Nepali (ne), general — word list and the primed Gemini run (2026-09-25)
+
+**Choices (Tenkal):** standard Nepali with Sanskrit Buddhist terms (general grade), Devanagari, mantras in
+Devanagari; flagged picks by Claude; draft 2 = a new Gemini run primed with the word list (best Pro model).
+
+**Word list** (`ne/`): 51 entries (47 + ॐ, स्वाहा, हर, तारे), 7 flagged. Evidence: the Hindi list and Hindi
+draft 5 (`related`), the standard Sanskrit term in Nepali spelling, the Gemini zero-shot. Where Nepali differs
+from Hindi: वन्दना (not नमस्कार, which is the everyday greeting), बिजुली, कुल्च (stem, "trample"), नष्ट, पूर्ण रूपले,
+भट्टारिका आर्या, spellings शान्ति / मन्त्र / आनन्द. Validator 0 errors. Zero-shot baseline **126/136 (93%)**.
+
+**Primed run set up** in `3-TRANSFORMATIONS/Translations/Gemini/ne-general/`: `style.md` (Nepali word-list
+style), `context-header.md`, `glossary.tsv` (pinned names + the verse-scoped word list; bare ཕྱག hinted only in
+I-0, because elsewhere it is "hand"), and `run-ne-general.sh`. The Gemini API
+(generativelanguage.googleapis.com) is blocked by the organisation's egress policy from both Claude shells,
+so the run is done by Tenkal on the Mac: the script picks the newest Pro model, uses thinking=high, and asks
+for the key (hidden) — the key is never written to the vault. Dry run checked: the per-verse terminology is in
+each request.
