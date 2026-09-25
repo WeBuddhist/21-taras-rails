@@ -860,3 +860,8 @@ for the word list; Thai has no reference text and no Thai tradition for this pra
 - **Thai draft 2** (Tenkal ran run-th-general.sh): **132/136** (zero-shot 122) — the biggest gain from priming of
   any language. **Draft 3:** the 4 misses swapped in (1-8, 1-11, 1-13, 1-19) → 136/136; nothing else changed.
   Meaning/commentary/QA checks held back at Tenkal's request. Known open item: 1-1 "lotus face".
+- **Draft 4:** four-commentary check on draft 3 (DG 9/30, GD 11/29, TN 8/28, TT 10/29 clean — lower than the
+  other languages because no meaning check came first). Errors: 1-1 lotus face (all four), 1-3 ตบะ for ศีล and
+  ปัญญา missing (all four), 1-4 who attained the perfections, 1-18 and 1-20 simile attached to her, 1-13, 1-17, 1-9;
+  a pattern of "ขอนอบน้อมด้วย X" (homage *by means of* X) in 1-2, 1-5, 1-7, 1-9. 21 blocks fixed, 136/136 kept.
+  Left: 1-3 colours, 1-12, 1-14/1-22 decisions, 1-19, 1-21. Meaning check and QA not yet run.
