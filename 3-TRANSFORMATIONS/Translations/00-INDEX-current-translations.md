@@ -1,7 +1,7 @@
 ---
 title: Current translations — start here
 file_type: index
-updated: 2026-09-24
+updated: 2026-09-28
 ---
 
 # Current translations — start here
@@ -11,6 +11,8 @@ translation**. Everything in its `reports/` subfolder is the evidence behind it.
 hold raw machine output, which is never the translation to use.
 
 "Current" is not yet "final": no translation here has had its native-speaker or specialist review.
+
+**Adding a language?** Follow [[HANDOFF-translate-into-a-new-language]] (in `3-TRANSFORMATIONS/`).
 
 ## Current translations
 
