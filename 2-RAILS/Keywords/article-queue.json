@@ -1,0 +1,3436 @@
+{
+ "schema": "article-queue/1",
+ "run": "tara21-2026-08",
+ "date": "2026-08-10",
+ "gate": {
+  "spread_min": 8,
+  "claim_min": 20,
+  "commentaries": 16,
+  "rule": "article-viability gate v1"
+ },
+ "queue": [
+  {
+   "rank": 1,
+   "term_id": "t-cdfded3e",
+   "lemma": "སྒྲོལ་མ།",
+   "variants": [
+    "སྒྲོལ་མ།"
+   ],
+   "english_renderings": [
+    "liberates",
+    "tara"
+   ],
+   "claims": 453,
+   "spread": 16,
+   "composite": 0.7717
+  },
+  {
+   "rank": 2,
+   "term_id": "t-e87a84e1",
+   "lemma": "རིམས།",
+   "variants": [
+    "རིམས།"
+   ],
+   "english_renderings": [
+    "disease",
+    "diseases",
+    "infectious",
+    "infectious disease"
+   ],
+   "claims": 57,
+   "spread": 16,
+   "composite": 0.5455
+  },
+  {
+   "rank": 3,
+   "term_id": "t-506737b8",
+   "lemma": "རྨི་ལམ།",
+   "variants": [
+    "རྨི་ལམ།"
+   ],
+   "english_renderings": [
+    "dreams"
+   ],
+   "claims": 38,
+   "spread": 16,
+   "composite": 0.5321
+  },
+  {
+   "rank": 4,
+   "term_id": "t-b898a513",
+   "lemma": "ཞི་བ།",
+   "variants": [
+    "ཞི་བ།"
+   ],
+   "english_renderings": [
+    "pacification",
+    "pacifying"
+   ],
+   "claims": 47,
+   "spread": 15,
+   "composite": 0.5287
+  },
+  {
+   "rank": 5,
+   "term_id": "t-b8c66575",
+   "lemma": "བདུད།",
+   "variants": [
+    "བདུད།"
+   ],
+   "english_renderings": [
+    "maras"
+   ],
+   "claims": 56,
+   "spread": 16,
+   "composite": 0.5247
+  },
+  {
+   "rank": 6,
+   "term_id": "t-8b0bc3e1",
+   "lemma": "གདོན།",
+   "variants": [
+    "གདོན།"
+   ],
+   "english_renderings": [
+    "demon",
+    "demons"
+   ],
+   "claims": 58,
+   "spread": 16,
+   "composite": 0.5222
+  },
+  {
+   "rank": 7,
+   "term_id": "t-bbe8a56e",
+   "lemma": "མྱུར་མ།",
+   "variants": [
+    "མྱུར་མ།"
+   ],
+   "english_renderings": [
+    "swift"
+   ],
+   "claims": 48,
+   "spread": 16,
+   "composite": 0.5071
+  },
+  {
+   "rank": 8,
+   "term_id": "t-b3f3ba48",
+   "lemma": "རྩོད།",
+   "variants": [
+    "རྩོད།"
+   ],
+   "english_renderings": [
+    "conflicts"
+   ],
+   "claims": 32,
+   "spread": 15,
+   "composite": 0.5038
+  },
+  {
+   "rank": 9,
+   "term_id": "t-1e1f8b3f",
+   "lemma": "ཉི་ཤུ་རྩ་གཅིག།",
+   "variants": [
+    "ཉི་ཤུ་རྩ་གཅིག།"
+   ],
+   "english_renderings": [
+    "twenty-one"
+   ],
+   "claims": 77,
+   "spread": 16,
+   "composite": 0.5004
+  },
+  {
+   "rank": 10,
+   "term_id": "t-e6cc63e3",
+   "lemma": "ཞལ།",
+   "variants": [
+    "ཞལ།"
+   ],
+   "english_renderings": [
+    "face"
+   ],
+   "claims": 35,
+   "spread": 14,
+   "composite": 0.4996
+  },
+  {
+   "rank": 11,
+   "term_id": "t-10dd7e02",
+   "lemma": "ཟླ་བ།",
+   "variants": [
+    "ཟླ་བ།"
+   ],
+   "english_renderings": [
+    "moon",
+    "moons"
+   ],
+   "claims": 117,
+   "spread": 15,
+   "composite": 0.4944
+  },
+  {
+   "rank": 12,
+   "term_id": "t-1d137a3b",
+   "lemma": "བསྟོད་པ།",
+   "variants": [
+    "བསྟོད་པ།"
+   ],
+   "english_renderings": [
+    "praise"
+   ],
+   "claims": 47,
+   "spread": 12,
+   "composite": 0.4933
+  },
+  {
+   "rank": 13,
+   "term_id": "t-75703ac7",
+   "lemma": "དབུ་རྒྱན།",
+   "variants": [
+    "དབུ་རྒྱན།"
+   ],
+   "english_renderings": [
+    "crown ornament",
+    "crown-ornament"
+   ],
+   "claims": 50,
+   "spread": 16,
+   "composite": 0.4921
+  },
+  {
+   "rank": 14,
+   "term_id": "t-31678206",
+   "lemma": "གཙུག་ཏོར།",
+   "variants": [
+    "གཙུག་ཏོར།"
+   ],
+   "english_renderings": [
+    "crown",
+    "protrusion"
+   ],
+   "claims": 39,
+   "spread": 16,
+   "composite": 0.4913
+  },
+  {
+   "rank": 15,
+   "term_id": "t-4d176bc5",
+   "lemma": "དུག།",
+   "variants": [
+    "དུག།"
+   ],
+   "english_renderings": [
+    "poison",
+    "poisons",
+    "son"
+   ],
+   "claims": 56,
+   "spread": 14,
+   "composite": 0.4897
+  },
+  {
+   "rank": 16,
+   "term_id": "t-606cf66a",
+   "lemma": "ཏུ་རེ།",
+   "variants": [
+    "ཏུ་རེ།"
+   ],
+   "english_renderings": [
+    "king",
+    "ture"
+   ],
+   "claims": 83,
+   "spread": 16,
+   "composite": 0.4863
+  },
+  {
+   "rank": 17,
+   "term_id": "t-e4f0d90f",
+   "lemma": "ཕྱག་འཚལ།",
+   "variants": [
+    "ཕྱག་འཚལ།"
+   ],
+   "english_renderings": [
+    "homage"
+   ],
+   "claims": 86,
+   "spread": 12,
+   "composite": 0.4843
+  },
+  {
+   "rank": 18,
+   "term_id": "t-0f49ae62",
+   "lemma": "འོད།",
+   "variants": [
+    "འོད།"
+   ],
+   "english_renderings": [
+    "light"
+   ],
+   "claims": 66,
+   "spread": 14,
+   "composite": 0.4803
+  },
+  {
+   "rank": 19,
+   "term_id": "t-921b5be3",
+   "lemma": "དཔའ་མོ།",
+   "variants": [
+    "དཔའ་མོ།"
+   ],
+   "english_renderings": [
+    "heroine",
+    "heroine eye"
+   ],
+   "claims": 35,
+   "spread": 15,
+   "composite": 0.4801
+  },
+  {
+   "rank": 20,
+   "term_id": "t-b86a1243",
+   "lemma": "ཞབས།",
+   "variants": [
+    "ཞབས།"
+   ],
+   "english_renderings": [
+    "feet",
+    "foot"
+   ],
+   "claims": 101,
+   "spread": 16,
+   "composite": 0.4751
+  },
+  {
+   "rank": 21,
+   "term_id": "t-ae512524",
+   "lemma": "སྡིག་པ།",
+   "variants": [
+    "སྡིག་པ།"
+   ],
+   "english_renderings": [
+    "actions",
+    "negative",
+    "negativity"
+   ],
+   "claims": 42,
+   "spread": 16,
+   "composite": 0.4733
+  },
+  {
+   "rank": 22,
+   "term_id": "t-87a9b696",
+   "lemma": "དཀོན་མཆོག་གསུམ།",
+   "variants": [
+    "དཀོན་མཆོག་གསུམ།"
+   ],
+   "english_renderings": [
+    "jewels"
+   ],
+   "claims": 62,
+   "spread": 16,
+   "composite": 0.4693
+  },
+  {
+   "rank": 23,
+   "term_id": "t-372c9ace",
+   "lemma": "ཧཱུྃ།",
+   "variants": [
+    "ཧཱུྃ།",
+    "ཧཱུཾ།"
+   ],
+   "english_renderings": [
+    "hum"
+   ],
+   "claims": 47,
+   "spread": 12,
+   "composite": 0.4691
+  },
+  {
+   "rank": 24,
+   "term_id": "t-8a7c4cfc",
+   "lemma": "འཕགས་མ།",
+   "variants": [
+    "འཕགས་མ།"
+   ],
+   "english_renderings": [
+    "lady",
+    "noble",
+    "noble lady"
+   ],
+   "claims": 132,
+   "spread": 13,
+   "composite": 0.4672
+  },
+  {
+   "rank": 25,
+   "term_id": "t-23fff0bc",
+   "lemma": "ཁྲོ་གཉེར།",
+   "variants": [
+    "ཁྲོ་གཉེར།"
+   ],
+   "english_renderings": [
+    "frown",
+    "frowning",
+    "wrathful",
+    "wrinkles"
+   ],
+   "claims": 57,
+   "spread": 16,
+   "composite": 0.4668
+  },
+  {
+   "rank": 26,
+   "term_id": "t-802d5d41",
+   "lemma": "རོ་ལངས།",
+   "variants": [
+    "རོ་ལངས།"
+   ],
+   "english_renderings": [
+    "vetalas",
+    "zombies"
+   ],
+   "claims": 44,
+   "spread": 14,
+   "composite": 0.4667
+  },
+  {
+   "rank": 27,
+   "term_id": "t-c4729587",
+   "lemma": "སྔགས།",
+   "variants": [
+    "སྔགས།"
+   ],
+   "english_renderings": [
+    "mantra"
+   ],
+   "claims": 63,
+   "spread": 12,
+   "composite": 0.4634
+  },
+  {
+   "rank": 28,
+   "term_id": "t-533f2d5e",
+   "lemma": "ཉི་མ།",
+   "variants": [
+    "ཉི་མ།"
+   ],
+   "english_renderings": [
+    "sun"
+   ],
+   "claims": 48,
+   "spread": 16,
+   "composite": 0.4622
+  },
+  {
+   "rank": 29,
+   "term_id": "t-0aecc375",
+   "lemma": "འཇིགས་པ།",
+   "variants": [
+    "འཇིགས་པ།"
+   ],
+   "english_renderings": [
+    "terrifier"
+   ],
+   "claims": 31,
+   "spread": 13,
+   "composite": 0.4611
+  },
+  {
+   "rank": 30,
+   "term_id": "t-ab209135",
+   "lemma": "འཁོར་ལོ།",
+   "variants": [
+    "འཁོར་ལོ།"
+   ],
+   "english_renderings": [
+    "wheel"
+   ],
+   "claims": 44,
+   "spread": 16,
+   "composite": 0.4598
+  },
+  {
+   "rank": 31,
+   "term_id": "t-53946136",
+   "lemma": "སྔོ།",
+   "variants": [
+    "སྔོ།"
+   ],
+   "english_renderings": [
+    "blue"
+   ],
+   "claims": 24,
+   "spread": 14,
+   "composite": 0.4571
+  },
+  {
+   "rank": 32,
+   "term_id": "t-7a9cbd98",
+   "lemma": "ཞི་མ།",
+   "variants": [
+    "ཞི་མ།"
+   ],
+   "english_renderings": [
+    "peaceful"
+   ],
+   "claims": 41,
+   "spread": 16,
+   "composite": 0.4561
+  },
+  {
+   "rank": 33,
+   "term_id": "t-3633bb3a",
+   "lemma": "བརྒྱ་བྱིན།",
+   "variants": [
+    "བརྒྱ་བྱིན།"
+   ],
+   "english_renderings": [
+    "indra"
+   ],
+   "claims": 45,
+   "spread": 16,
+   "composite": 0.4533
+  },
+  {
+   "rank": 34,
+   "term_id": "t-46ef6056",
+   "lemma": "བདེ་མ།",
+   "variants": [
+    "བདེ་མ།"
+   ],
+   "english_renderings": [
+    "blissful"
+   ],
+   "claims": 32,
+   "spread": 16,
+   "composite": 0.449
+  },
+  {
+   "rank": 35,
+   "term_id": "t-8a970a50",
+   "lemma": "རྒྱལ་བ།",
+   "variants": [
+    "རྒྱལ་བ།"
+   ],
+   "english_renderings": [
+    "conqueror",
+    "conquerors"
+   ],
+   "claims": 23,
+   "spread": 13,
+   "composite": 0.448
+  },
+  {
+   "rank": 36,
+   "term_id": "t-582d9ecd",
+   "lemma": "ཕྱག་འཚལ་བ།",
+   "variants": [
+    "ཕྱག་འཚལ་བ།"
+   ],
+   "english_renderings": [
+    "homage",
+    "homages"
+   ],
+   "claims": 91,
+   "spread": 14,
+   "composite": 0.4437
+  },
+  {
+   "rank": 37,
+   "term_id": "t-1b5c38bc",
+   "lemma": "གསེར།",
+   "variants": [
+    "གསེར།"
+   ],
+   "english_renderings": [
+    "golden"
+   ],
+   "claims": 35,
+   "spread": 14,
+   "composite": 0.4401
+  },
+  {
+   "rank": 38,
+   "term_id": "t-91f569fb",
+   "lemma": "ཐུགས་ཀ།",
+   "variants": [
+    "ཐུགས་ཀ།"
+   ],
+   "english_renderings": [
+    "heart"
+   ],
+   "claims": 50,
+   "spread": 16,
+   "composite": 0.4383
+  },
+  {
+   "rank": 39,
+   "term_id": "t-b2f05091",
+   "lemma": "ཕྱག་རྒྱ།",
+   "variants": [
+    "ཕྱག་རྒྱ།"
+   ],
+   "english_renderings": [
+    "mudra"
+   ],
+   "claims": 58,
+   "spread": 16,
+   "composite": 0.4379
+  },
+  {
+   "rank": 40,
+   "term_id": "t-7b0b1022",
+   "lemma": "སྤྱན།",
+   "variants": [
+    "སྤྱན།"
+   ],
+   "english_renderings": [
+    "eye",
+    "eyes",
+    "heroine eye"
+   ],
+   "claims": 42,
+   "spread": 16,
+   "composite": 0.4355
+  },
+  {
+   "rank": 41,
+   "term_id": "t-1035bc45",
+   "lemma": "པདྨ།",
+   "variants": [
+    "པདྨ།"
+   ],
+   "english_renderings": [
+    "lotus"
+   ],
+   "claims": 113,
+   "spread": 15,
+   "composite": 0.4314
+  },
+  {
+   "rank": 42,
+   "term_id": "t-cdcd37b7",
+   "lemma": "འཇིག་རྟེན་གསུམ།",
+   "variants": [
+    "འཇིག་རྟེན་གསུམ།"
+   ],
+   "english_renderings": [
+    "world arise"
+   ],
+   "claims": 37,
+   "spread": 12,
+   "composite": 0.4311
+  },
+  {
+   "rank": 43,
+   "term_id": "t-a334ab81",
+   "lemma": "ས་གཞི།",
+   "variants": [
+    "ས་གཞི།"
+   ],
+   "english_renderings": [
+    "earth"
+   ],
+   "claims": 35,
+   "spread": 15,
+   "composite": 0.4297
+  },
+  {
+   "rank": 44,
+   "term_id": "t-69c67daa",
+   "lemma": "ཕྱོགས།",
+   "variants": [
+    "ཕྱོགས།"
+   ],
+   "english_renderings": [
+    "direction",
+    "directions"
+   ],
+   "claims": 30,
+   "spread": 13,
+   "composite": 0.4294
+  },
+  {
+   "rank": 45,
+   "term_id": "t-2679f18f",
+   "lemma": "ཚངས་པ།",
+   "variants": [
+    "ཚངས་པ།"
+   ],
+   "english_renderings": [
+    "brahma"
+   ],
+   "claims": 43,
+   "spread": 16,
+   "composite": 0.4262
+  },
+  {
+   "rank": 46,
+   "term_id": "t-54718532",
+   "lemma": "དགེ་མ།",
+   "variants": [
+    "དགེ་མ།"
+   ],
+   "english_renderings": [
+    "virtuous"
+   ],
+   "claims": 34,
+   "spread": 16,
+   "composite": 0.4245
+  },
+  {
+   "rank": 47,
+   "term_id": "t-cfc971f6",
+   "lemma": "གཡོན།",
+   "variants": [
+    "གཡོན།"
+   ],
+   "english_renderings": [
+    "leave",
+    "left"
+   ],
+   "claims": 50,
+   "spread": 11,
+   "composite": 0.4241
+  },
+  {
+   "rank": 48,
+   "term_id": "t-536d54eb",
+   "lemma": "སྡུག་བསྔལ།",
+   "variants": [
+    "སྡུག་བསྔལ།"
+   ],
+   "english_renderings": [
+    "sufferings"
+   ],
+   "claims": 32,
+   "spread": 13,
+   "composite": 0.4238
+  },
+  {
+   "rank": 49,
+   "term_id": "t-25d619bd",
+   "lemma": "གཡས།",
+   "variants": [
+    "གཡས།"
+   ],
+   "english_renderings": [
+    "right"
+   ],
+   "claims": 46,
+   "spread": 11,
+   "composite": 0.4213
+  },
+  {
+   "rank": 50,
+   "term_id": "t-14dfbca4",
+   "lemma": "བསྐལ་པ།",
+   "variants": [
+    "བསྐལ་པ།"
+   ],
+   "english_renderings": [
+    "eon"
+   ],
+   "claims": 24,
+   "spread": 15,
+   "composite": 0.4199
+  },
+  {
+   "rank": 51,
+   "term_id": "t-bf58bec3",
+   "lemma": "མེ་ལྷ།",
+   "variants": [
+    "མེ་ལྷ།"
+   ],
+   "english_renderings": [
+    "agni"
+   ],
+   "claims": 26,
+   "spread": 16,
+   "composite": 0.4188
+  },
+  {
+   "rank": 52,
+   "term_id": "t-4d22adf8",
+   "lemma": "དྲི་ཟ།",
+   "variants": [
+    "དྲི་ཟ།"
+   ],
+   "english_renderings": [
+    "gandharvas"
+   ],
+   "claims": 25,
+   "spread": 16,
+   "composite": 0.4182
+  },
+  {
+   "rank": 53,
+   "term_id": "t-e856d885",
+   "lemma": "རྗེ་བཙུན་མ།",
+   "variants": [
+    "རྗེ་བཙུན་མ།"
+   ],
+   "english_renderings": [
+    "venerable"
+   ],
+   "claims": 49,
+   "spread": 14,
+   "composite": 0.4166
+  },
+  {
+   "rank": 54,
+   "term_id": "t-c5ca219a",
+   "lemma": "དེ་བཞིན་གཤེགས་པ།",
+   "variants": [
+    "དེ་བཞིན་གཤེགས་པ།"
+   ],
+   "english_renderings": [
+    "tathagata"
+   ],
+   "claims": 29,
+   "spread": 16,
+   "composite": 0.4165
+  },
+  {
+   "rank": 55,
+   "term_id": "t-44543b5f",
+   "lemma": "གནོད་སྦྱིན།",
+   "variants": [
+    "གནོད་སྦྱིན།"
+   ],
+   "english_renderings": [
+    "yaksha",
+    "yakshas"
+   ],
+   "claims": 56,
+   "spread": 16,
+   "composite": 0.414
+  },
+  {
+   "rank": 56,
+   "term_id": "t-c774b93d",
+   "lemma": "ཕྱག།",
+   "variants": [
+    "ཕྱག།"
+   ],
+   "english_renderings": [
+    "hand"
+   ],
+   "claims": 25,
+   "spread": 9,
+   "composite": 0.4118
+  },
+  {
+   "rank": 57,
+   "term_id": "t-118b960f",
+   "lemma": "ལྷ།",
+   "variants": [
+    "ལྷ།"
+   ],
+   "english_renderings": [
+    "celestial",
+    "god",
+    "gods"
+   ],
+   "claims": 26,
+   "spread": 10,
+   "composite": 0.4116
+  },
+  {
+   "rank": 58,
+   "term_id": "t-6fcf3133",
+   "lemma": "རི་རབ།",
+   "variants": [
+    "རི་རབ།"
+   ],
+   "english_renderings": [
+    "meru"
+   ],
+   "claims": 43,
+   "spread": 16,
+   "composite": 0.405
+  },
+  {
+   "rank": 59,
+   "term_id": "t-e9ff808b",
+   "lemma": "ཡི་གེ་བཅུ་པའི།",
+   "variants": [
+    "ཡི་གེ་བཅུ་པའི།"
+   ],
+   "english_renderings": [
+    "syllables"
+   ],
+   "claims": 50,
+   "spread": 16,
+   "composite": 0.4044
+  },
+  {
+   "rank": 60,
+   "term_id": "t-05370405",
+   "lemma": "ཕོངས་པ།",
+   "variants": [
+    "ཕོངས་པ།"
+   ],
+   "english_renderings": [
+    "poverty"
+   ],
+   "claims": 30,
+   "spread": 14,
+   "composite": 0.3959
+  },
+  {
+   "rank": 61,
+   "term_id": "t-58b6a836",
+   "lemma": "རླུང་ལྷ།",
+   "variants": [
+    "རླུང་ལྷ།"
+   ],
+   "english_renderings": [
+    "vayu"
+   ],
+   "claims": 28,
+   "spread": 16,
+   "composite": 0.3943
+  },
+  {
+   "rank": 62,
+   "term_id": "t-35ad3611",
+   "lemma": "དགྲ།",
+   "variants": [
+    "དགྲ།"
+   ],
+   "english_renderings": [
+    "enemies",
+    "enemy"
+   ],
+   "claims": 32,
+   "spread": 10,
+   "composite": 0.3933
+  },
+  {
+   "rank": 63,
+   "term_id": "t-13e69273",
+   "lemma": "ཧ་ར།",
+   "variants": [
+    "ཧ་ར།"
+   ],
+   "english_renderings": [
+    "hara"
+   ],
+   "claims": 37,
+   "spread": 16,
+   "composite": 0.3923
+  },
+  {
+   "rank": 64,
+   "term_id": "t-bd0f5cb4",
+   "lemma": "སྐར་མ།",
+   "variants": [
+    "སྐར་མ།"
+   ],
+   "english_renderings": [
+    "stars"
+   ],
+   "claims": 26,
+   "spread": 16,
+   "composite": 0.3882
+  },
+  {
+   "rank": 65,
+   "term_id": "t-74d2b950",
+   "lemma": "ས་བོན།",
+   "variants": [
+    "ས་བོན།"
+   ],
+   "english_renderings": [
+    "seed-syllable"
+   ],
+   "claims": 29,
+   "spread": 16,
+   "composite": 0.386
+  },
+  {
+   "rank": 66,
+   "term_id": "t-b8356842",
+   "lemma": "སྟོན་ཀའི་ཟླ་བ།",
+   "variants": [
+    "སྟོན་ཀའི་ཟླ་བ།"
+   ],
+   "english_renderings": [
+    "autumn moon"
+   ],
+   "claims": 26,
+   "spread": 15,
+   "composite": 0.3858
+  },
+  {
+   "rank": 67,
+   "term_id": "t-885f65a0",
+   "lemma": "མིའམ་ཅི།",
+   "variants": [
+    "མིའམ་ཅི།"
+   ],
+   "english_renderings": [
+    "kinnaras"
+   ],
+   "claims": 29,
+   "spread": 16,
+   "composite": 0.3857
+  },
+  {
+   "rank": 68,
+   "term_id": "t-f50818ae",
+   "lemma": "འོད་དཔག་མེད།",
+   "variants": [
+    "འོད་དཔག་མེད།"
+   ],
+   "english_renderings": [
+    "amitabha"
+   ],
+   "claims": 36,
+   "spread": 16,
+   "composite": 0.3855
+  },
+  {
+   "rank": 69,
+   "term_id": "t-49fa45b5",
+   "lemma": "འཁྲུལ་འཁོར།",
+   "variants": [
+    "འཁྲུལ་འཁོར།"
+   ],
+   "english_renderings": [
+    "wheel-devices"
+   ],
+   "claims": 21,
+   "spread": 15,
+   "composite": 0.3825
+  },
+  {
+   "rank": 70,
+   "term_id": "t-c5e216f6",
+   "lemma": "ཕྲེང་བ།",
+   "variants": [
+    "ཕྲེང་བ།"
+   ],
+   "english_renderings": [
+    "garlands"
+   ],
+   "claims": 26,
+   "spread": 14,
+   "composite": 0.3823
+  },
+  {
+   "rank": 71,
+   "term_id": "t-296fee89",
+   "lemma": "འཇིག་རྟེན།",
+   "variants": [
+    "འཇིག་རྟེན།"
+   ],
+   "english_renderings": [
+    "world",
+    "worlds"
+   ],
+   "claims": 24,
+   "spread": 9,
+   "composite": 0.3797
+  },
+  {
+   "rank": 72,
+   "term_id": "t-521a03be",
+   "lemma": "ཕཊ།",
+   "variants": [
+    "ཕཊ།"
+   ],
+   "english_renderings": [
+    "phat"
+   ],
+   "claims": 34,
+   "spread": 14,
+   "composite": 0.3786
+  },
+  {
+   "rank": 73,
+   "term_id": "t-aac6ef83",
+   "lemma": "སྦྱིན་པ།",
+   "variants": [
+    "སྦྱིན་པ།"
+   ],
+   "english_renderings": [
+    "giving"
+   ],
+   "claims": 29,
+   "spread": 15,
+   "composite": 0.3772
+  },
+  {
+   "rank": 74,
+   "term_id": "t-f70b19b1",
+   "lemma": "བསམ་གཏན།",
+   "variants": [
+    "བསམ་གཏན།"
+   ],
+   "english_renderings": [
+    "concentration",
+    "meditative"
+   ],
+   "claims": 27,
+   "spread": 15,
+   "composite": 0.3755
+  },
+  {
+   "rank": 75,
+   "term_id": "t-5e0fa685",
+   "lemma": "བཟོད་པ།",
+   "variants": [
+    "བཟོད་པ།"
+   ],
+   "english_renderings": [
+    "patience"
+   ],
+   "claims": 27,
+   "spread": 15,
+   "composite": 0.3754
+  },
+  {
+   "rank": 76,
+   "term_id": "t-2c21aa1e",
+   "lemma": "མེ།",
+   "variants": [
+    "མེ།"
+   ],
+   "english_renderings": [
+    "fire"
+   ],
+   "claims": 25,
+   "spread": 9,
+   "composite": 0.375
+  },
+  {
+   "rank": 77,
+   "term_id": "t-e1802375",
+   "lemma": "བརྩོན་འགྲུས།",
+   "variants": [
+    "བརྩོན་འགྲུས།"
+   ],
+   "english_renderings": [
+    "diligence"
+   ],
+   "claims": 28,
+   "spread": 15,
+   "composite": 0.3714
+  },
+  {
+   "rank": 78,
+   "term_id": "t-832c86d8",
+   "lemma": "བཞད་པ།",
+   "variants": [
+    "བཞད་པ།"
+   ],
+   "english_renderings": [
+    "laugh",
+    "laughing"
+   ],
+   "claims": 21,
+   "spread": 14,
+   "composite": 0.369
+  },
+  {
+   "rank": 79,
+   "term_id": "t-9611823b",
+   "lemma": "ཕ་རོལ་ཕྱིན་པ།",
+   "variants": [
+    "ཕ་རོལ་ཕྱིན་པ།"
+   ],
+   "english_renderings": [
+    "perfect",
+    "perfection"
+   ],
+   "claims": 53,
+   "spread": 16,
+   "composite": 0.3684
+  },
+  {
+   "rank": 80,
+   "term_id": "t-be05edd6",
+   "lemma": "ཡི་གེ་ཧཱུཾ།",
+   "variants": [
+    "ཡི་གེ་ཧཱུཾ།",
+    "ཡི་གེ་ཧཱུྃ།"
+   ],
+   "english_renderings": [
+    "letter hum"
+   ],
+   "claims": 39,
+   "spread": 14,
+   "composite": 0.3647
+  },
+  {
+   "rank": 81,
+   "term_id": "t-c17f6a34",
+   "lemma": "རལ་པའི།",
+   "variants": [
+    "རལ་པའི།"
+   ],
+   "english_renderings": [
+    "hair",
+    "matted"
+   ],
+   "claims": 24,
+   "spread": 15,
+   "composite": 0.3635
+  },
+  {
+   "rank": 82,
+   "term_id": "t-6928b765",
+   "lemma": "བགེགས།",
+   "variants": [
+    "བགེགས།"
+   ],
+   "english_renderings": [
+    "obstacle",
+    "obstacles"
+   ],
+   "claims": 21,
+   "spread": 14,
+   "composite": 0.3599
+  },
+  {
+   "rank": 83,
+   "term_id": "t-55515322",
+   "lemma": "གློག།",
+   "variants": [
+    "གློག།"
+   ],
+   "english_renderings": [
+    "flash",
+    "light",
+    "lightning"
+   ],
+   "claims": 25,
+   "spread": 15,
+   "composite": 0.3597
+  },
+  {
+   "rank": 84,
+   "term_id": "t-3f92b0a5",
+   "lemma": "མཐིལ།",
+   "variants": [
+    "མཐིལ།"
+   ],
+   "english_renderings": [
+    "palm"
+   ],
+   "claims": 30,
+   "spread": 14,
+   "composite": 0.3588
+  },
+  {
+   "rank": 85,
+   "term_id": "t-72c6b671",
+   "lemma": "ཏུ་ཏྟྭ་ར།",
+   "variants": [
+    "ཏུ་ཏྟྭ་ར།",
+    "ཏུཏྟྭ་ར།"
+   ],
+   "english_renderings": [
+    "tara",
+    "tuttara"
+   ],
+   "claims": 85,
+   "spread": 16,
+   "composite": 0.3563
+  },
+  {
+   "rank": 86,
+   "term_id": "t-1b50bc5c",
+   "lemma": "སྭཱ་ཧཱ།",
+   "variants": [
+    "སྭཱ་ཧཱ།"
+   ],
+   "english_renderings": [
+    "svaha"
+   ],
+   "claims": 56,
+   "spread": 14,
+   "composite": 0.353
+  },
+  {
+   "rank": 87,
+   "term_id": "t-600d4bf6",
+   "lemma": "འབྱུང་པོ།",
+   "variants": [
+    "འབྱུང་པོ།"
+   ],
+   "english_renderings": [
+    "bhuta",
+    "bhutas"
+   ],
+   "claims": 28,
+   "spread": 14,
+   "composite": 0.3526
+  },
+  {
+   "rank": 88,
+   "term_id": "t-e4989222",
+   "lemma": "གོ་ཆ།",
+   "variants": [
+    "གོ་ཆ།"
+   ],
+   "english_renderings": [
+    "armor"
+   ],
+   "claims": 28,
+   "spread": 14,
+   "composite": 0.3522
+  },
+  {
+   "rank": 89,
+   "term_id": "t-979de625",
+   "lemma": "སྤྱན་གཉིས་པོ།",
+   "variants": [
+    "སྤྱན་གཉིས་པོ།"
+   ],
+   "english_renderings": [
+    "eyes"
+   ],
+   "claims": 20,
+   "spread": 15,
+   "composite": 0.3464
+  },
+  {
+   "rank": 90,
+   "term_id": "t-7b386479",
+   "lemma": "དཀའ་ཐུབ།",
+   "variants": [
+    "དཀའ་ཐུབ།"
+   ],
+   "english_renderings": [
+    "asceticism"
+   ],
+   "claims": 23,
+   "spread": 14,
+   "composite": 0.3442
+  },
+  {
+   "rank": 91,
+   "term_id": "t-88e48ad5",
+   "lemma": "ཕན་ཡོན།",
+   "variants": [
+    "ཕན་ཡོན།"
+   ],
+   "english_renderings": [
+    "benefit",
+    "benefits"
+   ],
+   "claims": 27,
+   "spread": 9,
+   "composite": 0.3422
+  },
+  {
+   "rank": 92,
+   "term_id": "t-cace3614",
+   "lemma": "ལྷ་མོ།",
+   "variants": [
+    "ལྷ་མོ།"
+   ],
+   "english_renderings": [
+    "goddess"
+   ],
+   "claims": 37,
+   "spread": 11,
+   "composite": 0.3373
+  },
+  {
+   "rank": 93,
+   "term_id": "t-82a892cb",
+   "lemma": "དེ་ཉིད་གསུམ།",
+   "variants": [
+    "དེ་ཉིད་གསུམ།"
+   ],
+   "english_renderings": [
+    "realities"
+   ],
+   "claims": 22,
+   "spread": 11,
+   "composite": 0.3341
+  },
+  {
+   "rank": 94,
+   "term_id": "t-8dedebd9",
+   "lemma": "དབང་ཕྱུག།",
+   "variants": [
+    "དབང་ཕྱུག།"
+   ],
+   "english_renderings": [
+    "ishvaras"
+   ],
+   "claims": 22,
+   "spread": 13,
+   "composite": 0.3305
+  },
+  {
+   "rank": 95,
+   "term_id": "t-92babfa7",
+   "lemma": "རྒྱལ་པོ།",
+   "variants": [
+    "རྒྱལ་པོ།"
+   ],
+   "english_renderings": [
+    "king"
+   ],
+   "claims": 21,
+   "spread": 10,
+   "composite": 0.3293
+  },
+  {
+   "rank": 96,
+   "term_id": "t-f45de55d",
+   "lemma": "ཏཱ་ར་གཉིས་བརྗོད།",
+   "variants": [
+    "ཏཱ་ར་གཉིས་བརྗོད།"
+   ],
+   "english_renderings": [
+    "pronounce tara"
+   ],
+   "claims": 20,
+   "spread": 14,
+   "composite": 0.3278
+  },
+  {
+   "rank": 97,
+   "term_id": "t-a594b970",
+   "lemma": "འགུགས་པ།",
+   "variants": [
+    "འགུགས་པ།"
+   ],
+   "english_renderings": [
+    "summon"
+   ],
+   "claims": 25,
+   "spread": 11,
+   "composite": 0.3249
+  },
+  {
+   "rank": 98,
+   "term_id": "t-80072315",
+   "lemma": "སངས་རྒྱས།",
+   "variants": [
+    "སངས་རྒྱས།"
+   ],
+   "english_renderings": [
+    "buddha"
+   ],
+   "claims": 20,
+   "spread": 9,
+   "composite": 0.3155
+  },
+  {
+   "rank": 99,
+   "term_id": "t-8c74ca7b",
+   "lemma": "རི་དགས་རྟགས་ཅན།",
+   "variants": [
+    "རི་དགས་རྟགས་ཅན།"
+   ],
+   "english_renderings": [
+    "deer-marked"
+   ],
+   "claims": 23,
+   "spread": 16,
+   "composite": 0.3152
+  },
+  {
+   "rank": 100,
+   "term_id": "t-766cf4d0",
+   "lemma": "འབིགས་བྱེད།",
+   "variants": [
+    "འབིགས་བྱེད།"
+   ],
+   "english_renderings": [
+    "vindhya"
+   ],
+   "claims": 22,
+   "spread": 13,
+   "composite": 0.3151
+  },
+  {
+   "rank": 101,
+   "term_id": "t-a3c67ee5",
+   "lemma": "དགྲ་བོ།",
+   "variants": [
+    "དགྲ་བོ།"
+   ],
+   "english_renderings": [
+    "enemies",
+    "enemy"
+   ],
+   "claims": 27,
+   "spread": 12,
+   "composite": 0.3099
+  },
+  {
+   "rank": 102,
+   "term_id": "t-114a1d7e",
+   "lemma": "ངན་འགྲོ།",
+   "variants": [
+    "ངན་འགྲོ།"
+   ],
+   "english_renderings": [
+    "lower",
+    "realms"
+   ],
+   "claims": 20,
+   "spread": 13,
+   "composite": 0.3093
+  },
+  {
+   "rank": 103,
+   "term_id": "t-901f3303",
+   "lemma": "སྤྱོད་ཡུལ།",
+   "variants": [
+    "སྤྱོད་ཡུལ།"
+   ],
+   "english_renderings": [
+    "activity",
+    "range",
+    "sphere"
+   ],
+   "claims": 22,
+   "spread": 11,
+   "composite": 0.2969
+  },
+  {
+   "rank": 104,
+   "term_id": "t-8579fa74",
+   "lemma": "མྱ་ངན་འདས།",
+   "variants": [
+    "མྱ་ངན་འདས།"
+   ],
+   "english_renderings": [
+    "beyond"
+   ],
+   "claims": 25,
+   "spread": 13,
+   "composite": 0.2888
+  },
+  {
+   "rank": 105,
+   "term_id": "t-590a7748",
+   "lemma": "ཏཱ་ར།",
+   "variants": [
+    "ཏཱ་ར།"
+   ],
+   "english_renderings": [
+    "tara"
+   ],
+   "claims": 30,
+   "spread": 10,
+   "composite": 0.2868
+  },
+  {
+   "rank": 106,
+   "term_id": "t-adfeaef3",
+   "lemma": "མན་དཱ་ར།",
+   "variants": [
+    "མན་དཱ་ར།"
+   ],
+   "english_renderings": [
+    "mandara"
+   ],
+   "claims": 22,
+   "spread": 14,
+   "composite": 0.2865
+  },
+  {
+   "rank": 107,
+   "term_id": "t-23cd9c8a",
+   "lemma": "ཆུ་སྐྱེས་ཞལ།",
+   "variants": [
+    "ཆུ་སྐྱེས་ཞལ།"
+   ],
+   "english_renderings": [
+    "water bear face"
+   ],
+   "claims": 28,
+   "spread": 13,
+   "composite": 0.2859
+  },
+  {
+   "rank": 108,
+   "term_id": "t-ccf42e74",
+   "lemma": "དགྲ་ཡི།",
+   "variants": [
+    "དགྲ་ཡི།"
+   ],
+   "english_renderings": [
+    "enemies"
+   ],
+   "claims": 20,
+   "spread": 10,
+   "composite": 0.2837
+  },
+  {
+   "rank": 109,
+   "term_id": "t-68b2b5aa",
+   "lemma": "ཟླ་བའི་རྩེ་མོ།",
+   "variants": [
+    "ཟླ་བའི་རྩེ་མོ།"
+   ],
+   "english_renderings": [
+    "crescent"
+   ],
+   "claims": 22,
+   "spread": 13,
+   "composite": 0.2819
+  },
+  {
+   "rank": 110,
+   "term_id": "t-4e1c2ee6",
+   "lemma": "བསྐུམ།",
+   "variants": [
+    "བསྐུམ།"
+   ],
+   "english_renderings": [
+    "bent",
+    "retracted"
+   ],
+   "claims": 20,
+   "spread": 9,
+   "composite": 0.2588
+  },
+  {
+   "rank": 111,
+   "term_id": "t-9a326fa7",
+   "lemma": "བསྟེན་མ།",
+   "variants": [
+    "བསྟེན་མ།"
+   ],
+   "english_renderings": [
+    "attended",
+    "relied"
+   ],
+   "claims": 20,
+   "spread": 11,
+   "composite": 0.2527
+  },
+  {
+   "rank": 112,
+   "term_id": "t-688728c4",
+   "lemma": "གཡས་བརྐྱང་གཡོན་བསྐུམ།",
+   "variants": [
+    "གཡས་བརྐྱང་གཡོན་བསྐུམ།"
+   ],
+   "english_renderings": [
+    "leg"
+   ],
+   "claims": 20,
+   "spread": 11,
+   "composite": 0.2479
+  },
+  {
+   "rank": 113,
+   "term_id": "t-19d1caaf",
+   "lemma": "ཀུན་ནས་བསྐོར།",
+   "variants": [
+    "ཀུན་ནས་བསྐོར།"
+   ],
+   "english_renderings": [
+    "surround",
+    "surrounded"
+   ],
+   "claims": 23,
+   "spread": 8,
+   "composite": 0.2435
+  },
+  {
+   "rank": 114,
+   "term_id": "t-2684025e",
+   "lemma": "ཤིན་ཏུ་འབར་མ།",
+   "variants": [
+    "ཤིན་ཏུ་འབར་མ།"
+   ],
+   "english_renderings": [
+    "blaze intensely",
+    "exceedingly blaze"
+   ],
+   "claims": 20,
+   "spread": 10,
+   "composite": 0.2339
+  }
+ ],
+ "gate_failures": [
+  {
+   "term_id": "t-17c88a6a",
+   "lemma": "སྲས།",
+   "claims": 19,
+   "spread": 12,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-1133a1d3",
+   "lemma": "སྐྱོང་བ།",
+   "claims": 18,
+   "spread": 12,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e19e12a2",
+   "lemma": "མཐུ།",
+   "claims": 18,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-edc9a56f",
+   "lemma": "བུ།",
+   "claims": 14,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-cdfb99bb",
+   "lemma": "དབང་།",
+   "claims": 18,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c7b81fb0",
+   "lemma": "ཞི་བའི།",
+   "claims": 14,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-1870a0cd",
+   "lemma": "གཡོ་བ།",
+   "claims": 12,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-19cc8372",
+   "lemma": "རྒྱལ་བའི།",
+   "claims": 13,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-9322a58b",
+   "lemma": "ངན་པ།",
+   "claims": 11,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7ef34ddd",
+   "lemma": "ཚོགས།",
+   "claims": 18,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ce425232",
+   "lemma": "མཚོ།",
+   "claims": 12,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-cd196b1e",
+   "lemma": "གུས་པ།",
+   "claims": 12,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b62e4ed7",
+   "lemma": "བརྒྱ།",
+   "claims": 9,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d0cf5cd0",
+   "lemma": "བདུན།",
+   "claims": 20,
+   "spread": 6,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-5318fdcb",
+   "lemma": "ཕ་རོལ།",
+   "claims": 11,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-894926e0",
+   "lemma": "རབ་ཏུ་དགའ་བ།",
+   "claims": 19,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-9fdf1262",
+   "lemma": "མི་འཇིགས།",
+   "claims": 19,
+   "spread": 13,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f2f6d64e",
+   "lemma": "དུག་རྣམས།",
+   "claims": 18,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a5a7d1b6",
+   "lemma": "ཞི།",
+   "claims": 6,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f1bb6cce",
+   "lemma": "ནོར།",
+   "claims": 19,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-86b70b9a",
+   "lemma": "ནམ་མཁའ།",
+   "claims": 16,
+   "spread": 12,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7387cdd6",
+   "lemma": "གེ་སར།",
+   "claims": 14,
+   "spread": 12,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-23dc052e",
+   "lemma": "སེམས་ཅན།",
+   "claims": 19,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7efcceab",
+   "lemma": "ཏུ་རེ་རབ་མཆོག།",
+   "claims": 16,
+   "spread": 14,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c39aa080",
+   "lemma": "མཐའ་ཡས།",
+   "claims": 19,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-95c78978",
+   "lemma": "འབར་བའི་ཕྲེང་བ།",
+   "claims": 19,
+   "spread": 13,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7813ac1b",
+   "lemma": "ཡི་གེ།",
+   "claims": 16,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d76a6443",
+   "lemma": "མགོན།",
+   "claims": 16,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-2e3394fe",
+   "lemma": "དཔའ་བོ།",
+   "claims": 16,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-dd957593",
+   "lemma": "སྐད་ཅིག།",
+   "claims": 16,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-cf857f8b",
+   "lemma": "བསྟོད།",
+   "claims": 4,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-479e9ffe",
+   "lemma": "གོ་འཕང།",
+   "claims": 14,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-6a826d26",
+   "lemma": "རྒྱལ་བར།",
+   "claims": 11,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-431b5ec5",
+   "lemma": "གཉིས།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-907694d0",
+   "lemma": "རིམ་པ་བདུན་པོ།",
+   "claims": 17,
+   "spread": 12,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8b5f420d",
+   "lemma": "དྲག་པོའི།",
+   "claims": 9,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-184a0e1b",
+   "lemma": "སྲོད།",
+   "claims": 14,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ead65399",
+   "lemma": "ཐོ་རངས།",
+   "claims": 14,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4aa578df",
+   "lemma": "འཇོམས།",
+   "claims": 12,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b29f6e90",
+   "lemma": "མནན་ཏེ།",
+   "claims": 15,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d426379d",
+   "lemma": "སོར་མོ།",
+   "claims": 15,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a379da2d",
+   "lemma": "ཁྲོ་གཉེར་ཅན།",
+   "claims": 14,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-66d6ec43",
+   "lemma": "འཇོམས་པ།",
+   "claims": 28,
+   "spread": 4,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-97e33070",
+   "lemma": "དབང་དུ་མཛད།",
+   "claims": 15,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-386bade1",
+   "lemma": "ཕཊ་ཀྱི་ཡི་གེ།",
+   "claims": 11,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-733ecc78",
+   "lemma": "དུ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d3f41223",
+   "lemma": "རྩ་བ།",
+   "claims": 13,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ec9b55aa",
+   "lemma": "འཁྲུགས་པ།",
+   "claims": 14,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-301913b8",
+   "lemma": "རྟག་པར།",
+   "claims": 13,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-93982437",
+   "lemma": "ངོས་ལ།",
+   "claims": 9,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ce0df28d",
+   "lemma": "མཐར་ཐུག།",
+   "claims": 8,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8d32110e",
+   "lemma": "དྲན་པ།",
+   "claims": 16,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-3c0c74f5",
+   "lemma": "ས་གཞིའི།",
+   "claims": 10,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-72ca56bd",
+   "lemma": "བརྟན།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-3ca8afda",
+   "lemma": "ལུས།",
+   "claims": 11,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-2033660e",
+   "lemma": "མཆོད་མ།",
+   "claims": 12,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-cbd0ce5d",
+   "lemma": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ།",
+   "claims": 11,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-26231dc1",
+   "lemma": "དྲག་པོ།",
+   "claims": 9,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f513ed76",
+   "lemma": "འཇོམས་མ།",
+   "claims": 9,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f1e7dc12",
+   "lemma": "གཡོ་བའི།",
+   "claims": 6,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-06230446",
+   "lemma": "གང་བ།",
+   "claims": 11,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a0431b2d",
+   "lemma": "དགའ་བ།",
+   "claims": 19,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-edd955b8",
+   "lemma": "ཆེན་མོ།",
+   "claims": 10,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b484e8a1",
+   "lemma": "དཔུང་།",
+   "claims": 11,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b08b99ab",
+   "lemma": "འགུགས་པར།",
+   "claims": 12,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a80ab560",
+   "lemma": "བསྐོར།",
+   "claims": 11,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-46503eb7",
+   "lemma": "བྱེ་བ།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-60bff9a5",
+   "lemma": "ཆེན་པོ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b59e5d68",
+   "lemma": "འབར།",
+   "claims": 12,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b9291dec",
+   "lemma": "འབར་བའི།",
+   "claims": 14,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-25474aa4",
+   "lemma": "གསོད་མ།",
+   "claims": 14,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b88b2d2e",
+   "lemma": "བརྡུང་མ།",
+   "claims": 13,
+   "spread": 11,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d215c137",
+   "lemma": "མཚོན།",
+   "claims": 21,
+   "spread": 4,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-9fb5c977",
+   "lemma": "དཀོན་མཆོག།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ade3576c",
+   "lemma": "བསྣུན།",
+   "claims": 12,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4c1daeeb",
+   "lemma": "ཆུ་སྐྱེས།",
+   "claims": 14,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0e24465b",
+   "lemma": "བརྡབས་པས།",
+   "claims": 9,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b3790024",
+   "lemma": "ཆུ་ནས་སྐྱེས།",
+   "claims": 9,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-297fe760",
+   "lemma": "རབ་ཏུ་ཕྱེ་བའི་འོད།",
+   "claims": 11,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bd5cfff8",
+   "lemma": "ཟླ་བའི།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-3da29e5c",
+   "lemma": "མ་ལུས།",
+   "claims": 22,
+   "spread": 6,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-e53e602b",
+   "lemma": "དབུ།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-12bf053d",
+   "lemma": "བརྐྱང་།",
+   "claims": 12,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-de2ed795",
+   "lemma": "བསྣམས་མ།",
+   "claims": 11,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-80a5aa2b",
+   "lemma": "སེལ་བ།",
+   "claims": 13,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-53378e8a",
+   "lemma": "བརྒྱན་པ།",
+   "claims": 8,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d0116803",
+   "lemma": "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།",
+   "claims": 12,
+   "spread": 10,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-13347294",
+   "lemma": "ཧཱུྃ་གི་རྣམ་པའི།",
+   "claims": 10,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ab332c7d",
+   "lemma": "སེལ་མ།",
+   "claims": 24,
+   "spread": 6,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-1c433989",
+   "lemma": "རབ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-00e0f2ad",
+   "lemma": "ཉིད།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-22c5dbc0",
+   "lemma": "ཏྲད།",
+   "claims": 13,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e333798e",
+   "lemma": "བརྗིད།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0c2976b9",
+   "lemma": "མདུན།",
+   "claims": 8,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-66b42f91",
+   "lemma": "འཇིག་རྟེན་གསུམ་རྣམས།",
+   "claims": 17,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-dca4d4a9",
+   "lemma": "འགེམས་མ།",
+   "claims": 15,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d12dc7e7",
+   "lemma": "རིག་པ་ཧཱུྃ།",
+   "claims": 15,
+   "spread": 9,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-aaa7e87d",
+   "lemma": "བཅོམ་ལྡན་འདས་མ།",
+   "claims": 14,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0ecbd64a",
+   "lemma": "མེ་འབར།",
+   "claims": 12,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-370f31ac",
+   "lemma": "འདོད།",
+   "claims": 11,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e58e189b",
+   "lemma": "མྱ་ངན།",
+   "claims": 6,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f9ec88c6",
+   "lemma": "ཕྱག་ན།",
+   "claims": 7,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e81968d1",
+   "lemma": "མཛད།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e3c85eaf",
+   "lemma": "སྣ་ཚོགས།",
+   "claims": 10,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-485073e6",
+   "lemma": "ཚོགས་རྣམས།",
+   "claims": 9,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-3831e381",
+   "lemma": "གནས་མ།",
+   "claims": 8,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ee843f3f",
+   "lemma": "བྱུང་མ།",
+   "claims": 12,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-cd503b79",
+   "lemma": "སྟོང་ཕྲག།",
+   "claims": 9,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-82b174d6",
+   "lemma": "ཐོབ།",
+   "claims": 7,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-623d6f05",
+   "lemma": "འདོད་པ།",
+   "claims": 8,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-686f341e",
+   "lemma": "ཐོབ་པ།",
+   "claims": 8,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-2b94eed4",
+   "lemma": "མནན།",
+   "claims": 14,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-50131abe",
+   "lemma": "རྣམ་པར་བརྒྱན་མ།",
+   "claims": 10,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e31a452a",
+   "lemma": "མྱུར་དུ།",
+   "claims": 8,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-867b28d4",
+   "lemma": "སྟེར།",
+   "claims": 7,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-6ff9fe4c",
+   "lemma": "རྒྱས་པའི།",
+   "claims": 7,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-acc99aa8",
+   "lemma": "ཀུན་ནས།",
+   "claims": 12,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8d4b6f04",
+   "lemma": "དབུས་ན།",
+   "claims": 9,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-df2a39b1",
+   "lemma": "བརྩེགས་པ།",
+   "claims": 9,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-29db2041",
+   "lemma": "ལྡན་མ།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-624ac044",
+   "lemma": "བརྒྱན།",
+   "claims": 6,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d5aeffa1",
+   "lemma": "རིམ་པ།",
+   "claims": 7,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-92c663f4",
+   "lemma": "སྟོན་ཀ།",
+   "claims": 4,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-34348b72",
+   "lemma": "ཕྱག་འཚལ་ཏུ་རེ།",
+   "claims": 8,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0abaf921",
+   "lemma": "རྣམ་པར།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e6f2179a",
+   "lemma": "ཆུ་ནས་སྐྱེས་ཀྱི་པདྨ།",
+   "claims": 10,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-33969154",
+   "lemma": "སྤེལ་མ།",
+   "claims": 9,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f8d34740",
+   "lemma": "ཏུཏྟྭ་ར་ཧཱུྃ།",
+   "claims": 9,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8dacd191",
+   "lemma": "ཡི་གེ་ཧཱུྃ་གིས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།",
+   "claims": 9,
+   "spread": 8,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bf60c7c2",
+   "lemma": "རབ་ཏུ།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-00a2680c",
+   "lemma": "བརྗོད།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c4b11f40",
+   "lemma": "འབར་མ།",
+   "claims": 7,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4eb3ffbf",
+   "lemma": "བློ་ལྡན།",
+   "claims": 7,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4a82fb2d",
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c4b2e17d",
+   "lemma": "ཚོགས་པ།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-56bb78f7",
+   "lemma": "གསུངས་པ།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ee46e82b",
+   "lemma": "རྒྱལ་བ་བྱེ་བ།",
+   "claims": 6,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5e164803",
+   "lemma": "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།",
+   "claims": 9,
+   "spread": 7,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-946985d2",
+   "lemma": "བརྒྱན་པའི།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d4abd964",
+   "lemma": "འགྲོ་བ།",
+   "claims": 8,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5b84a0c8",
+   "lemma": "ཕྱག་གི།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8adff90f",
+   "lemma": "ན་མཿ།",
+   "claims": 5,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-2bf187d2",
+   "lemma": "ཉིད་མ།",
+   "claims": 7,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-6ae36b37",
+   "lemma": "རབ་ཏུ་འཇོམས་མ།",
+   "claims": 7,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-84da14a6",
+   "lemma": "དགའ་བའི།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0f7e16bb",
+   "lemma": "ཟོས་པ།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-45baeb67",
+   "lemma": "ནུས་མ།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-28be7cd9",
+   "lemma": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-57c77ec3",
+   "lemma": "དཔུང་ནི་རྣམ་པར་འཇོམས་མ།",
+   "claims": 7,
+   "spread": 6,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b457cae0",
+   "lemma": "ལུས་པ་མེད་པར།",
+   "claims": 6,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-40949fb1",
+   "lemma": "བརྗོད་པ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f25138f6",
+   "lemma": "བཀོད་པའི།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5d89e554",
+   "lemma": "བསྐུར་བ།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-56e16446",
+   "lemma": "ཤིན་ཏུ།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e25df4c1",
+   "lemma": "རབ་གསལ་མ།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-206a60b6",
+   "lemma": "འཐུངས་པ།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5c7077c4",
+   "lemma": "མཛད་མ།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d9cfa722",
+   "lemma": "ཏཱ་ར་གཉིས།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d682542b",
+   "lemma": "བོད།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-57ae8d56",
+   "lemma": "ཏཱ་རཱ།",
+   "claims": 24,
+   "spread": 5,
+   "reason": "spread below half the corpus"
+  },
+  {
+   "term_id": "t-c49ca9ac",
+   "lemma": "ཐ་མའི།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-fa099a28",
+   "lemma": "ལྡན།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-075ee13b",
+   "lemma": "གསལ་མ།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-663e537e",
+   "lemma": "འགྲོ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-2a35ee12",
+   "lemma": "རྣམ་པའི།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-281fb015",
+   "lemma": "རབ་ཏུ་ཕྱེ་བ།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-efe134e6",
+   "lemma": "ཤིན་ཏུ་འོད།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5178bebe",
+   "lemma": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f3f9ae8c",
+   "lemma": "བརྒྱན་མ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8ad023d7",
+   "lemma": "མ་ལུས་པར།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-97e5b227",
+   "lemma": "ལྡན་པ།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5ecdf38a",
+   "lemma": "བདུད་...དབང་དུ་མཛད།",
+   "claims": 6,
+   "spread": 5,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-81258f25",
+   "lemma": "ཁྲོ་གཉེར་ཅན་མཛད།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d7b330d6",
+   "lemma": "ཡང་དག།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-1f0139d1",
+   "lemma": "གནས་པ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-60ce88c6",
+   "lemma": "སྐད།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-020d1fab",
+   "lemma": "ངག།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a24715ad",
+   "lemma": "དང་བཅས་པ།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-263e2749",
+   "lemma": "བཅུ་པའི།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bceac303",
+   "lemma": "ཅེས་བྱ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-eba03fe9",
+   "lemma": "སྒྲོན་མ།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a42119c6",
+   "lemma": "ཁྲོད་ན།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7b71deb1",
+   "lemma": "སྒྲོལ་མ་མྱུར་མ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b9930f36",
+   "lemma": "ཧཱུྃ་ཡི་གེ།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8322f27f",
+   "lemma": "སྤྱོད་མ།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-906ea037",
+   "lemma": "རྫོགས་སོ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-96346e63",
+   "lemma": "བསྟོད་མ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-990029b8",
+   "lemma": "འཁྲུག་མ།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-61146daf",
+   "lemma": "རབ་ཏུ་དགའ་བ་བརྗིད་པའི་དབུ་རྒྱན།",
+   "claims": 5,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-0cf5400e",
+   "lemma": "རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "claims": 4,
+   "spread": 4,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e28ed6de",
+   "lemma": "ཕྲེང་བའི།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-54489360",
+   "lemma": "རབ་ཏུ་ཞི་བ།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5d7dff72",
+   "lemma": "ཆེ་བ་ཉིད།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-3b8b32ca",
+   "lemma": "གཟིར་བ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c8b7c189",
+   "lemma": "ཆེ་བ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b9b39384",
+   "lemma": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ།",
+   "claims": 4,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-08ddbabc",
+   "lemma": "ཡང་དག་པ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-429d4523",
+   "lemma": "སོ་སོར།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-737947c0",
+   "lemma": "ཡང་དག་པར།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-27532305",
+   "lemma": "བོད་སྐད།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c4a7f2f8",
+   "lemma": "ཕྱག་འཚལ་ཏུཏྟྭ་ར།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d47c11d5",
+   "lemma": "ཏྲད་ཅེས་བྱ་དང་ཕཊ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-40fc98a7",
+   "lemma": "ཆུ་སྐྱེས་ཞལ་...ལྡན།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-37401249",
+   "lemma": "གཡོ་བའི་ཡི་གེ་ཧཱུཾ།",
+   "claims": 3,
+   "spread": 3,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-79ce9f95",
+   "lemma": "རབ་མཆོག།",
+   "claims": 2,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e3e00367",
+   "lemma": "རྫོགས་པ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ab1344d9",
+   "lemma": "ཏྲད་ཅེས་བྱ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a118127a",
+   "lemma": "ཕྱེ་བ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5892e128",
+   "lemma": "ལངས་པ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8400425a",
+   "lemma": "རྗེ་བཙུན་མ་སྒྲོལ་མ།",
+   "claims": 6,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d63dc7af",
+   "lemma": "རབ་དགའ་བའི།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-706e23b6",
+   "lemma": "རྒྱ་གར།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5358dfae",
+   "lemma": "དབང་དུ་མཛད་མ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-90dbb51b",
+   "lemma": "རྣམ་པར་སྤོང་བ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-92b8c5b2",
+   "lemma": "རྫོགས་པའི་སངས་རྒྱས།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-67e0295a",
+   "lemma": "བརྗིད་པའི།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5c238b95",
+   "lemma": "བརྩེགས་པའི།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b724db2d",
+   "lemma": "དགས།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-e029a937",
+   "lemma": "ཏྲད་...ཕཊ།",
+   "claims": 3,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a9fe4272",
+   "lemma": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c8234426",
+   "lemma": "དབུ་རྒྱན་...སྤེལ་མ།",
+   "claims": 2,
+   "spread": 2,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-89970002",
+   "lemma": "འཐོབ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-6d56b77d",
+   "lemma": "རབ་སྟེར།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d7226833",
+   "lemma": "མངོན་པར།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ddf22b8c",
+   "lemma": "མ་ལུས་པར་ནི་སེལ་མ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-69bf9768",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-5835b823",
+   "lemma": "རྒྱ་གར་སྐད།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7ea9d687",
+   "lemma": "སྟོ་ཏྲ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4fb7a928",
+   "lemma": "གང་མ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-24bda866",
+   "lemma": "ཡང་དག་ལྡན་པས།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-87eb4b06",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a7fa9ce5",
+   "lemma": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ea94a61f",
+   "lemma": "སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7487fbc3",
+   "lemma": "སྤོང་བ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bfc58dfd",
+   "lemma": "ཡང་དག་པར་རྫོགས་པ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-ee90e643",
+   "lemma": "ན་མཿཏཱ་རཱ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7b95d7b6",
+   "lemma": "བརྒྱ་བྱིན་...མཆོད་མ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-614ae033",
+   "lemma": "ཤིན་ཏུ་འོད་ནི་མཛད་མ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-b855fa39",
+   "lemma": "གཡོ་བ་ཉིད་མ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-4a3bbe4d",
+   "lemma": "རྒྱལ་བ...མྱུར་དུ་དབང་།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-53db94a4",
+   "lemma": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ...གསུངས་པ།",
+   "claims": 1,
+   "spread": 1,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-acdd3cb4",
+   "lemma": "ཀུན་དུ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-8cf8d659",
+   "lemma": "ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-fe85de61",
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bdf7fa0c",
+   "lemma": "ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-f731e9f6",
+   "lemma": "འབྱུང་པོ་...ཚོགས།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-bb11fcdf",
+   "lemma": "ཕཊ་...རབ་ཏུ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-d2adc2d8",
+   "lemma": "ཕཊ་...རབ་ཏུ་འཇོམས་མ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-35b66c31",
+   "lemma": "དགའ་བ་...དབུ་རྒྱན།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-a1efa82f",
+   "lemma": "དགའ་བ་...སྤེལ་མ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-7f46dc1e",
+   "lemma": "རྒྱལ་བ...མྱུར་དུ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-c96a3ac5",
+   "lemma": "རྒྱལ་བ་བྱེ་བ...མྱུར་དུ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  },
+  {
+   "term_id": "t-95458c53",
+   "lemma": "སྒྲོལ་མ...གསུངས་པ།",
+   "claims": 0,
+   "spread": 0,
+   "reason": "claim count below floor"
+  }
+ ]
+}

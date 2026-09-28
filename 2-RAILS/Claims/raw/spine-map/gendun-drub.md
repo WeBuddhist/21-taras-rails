@@ -3,7 +3,7 @@ registered_id: gendun-drub
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/gendun-drub.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/gendun-drub.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 136
 mapped_claims: 110
 extra_claims: 0
@@ -36,7 +36,7 @@ pattern-matching. The raw claims file's own in-title "Verse N" labels (e.g. node
 commentary's numbering: the label sequence skips from "Verse 2" straight to "Verse 4" with
 no "Verse 3" ever appearing, so every label from "Verse 4" onward is one higher than the
 actual homage it quotes. Content-based verification (quoting text checked word-for-word
-against `1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-1`–`#^1-21`) confirms the true
+against `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-1`–`#^1-21`) confirms the true
 correspondence used in the table below at both endpoints and at multiple interior points
 (homages 2, 3, 4, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 were each checked
 directly against the root text's own line text).
@@ -90,7 +90,7 @@ directly against the root text's own line text).
 | Node | Title (verbatim) | Claims | Why not a spine slot |
 |---|---|---|---|
 | `0` | (Front matter — no tree node; the extraction's own `## 0. Front matter` bucket) | 6 | The commentary's own title restatement, opening homage to the Three Jewels, tantra-classification note, source-tantra chapter placement, and setting/actual-teaching division announcement. Precedes all spine content; not on any homage or on the benefits. |
-| `1` | དང་པོ་གླེང་གཞི | 3 | The commentary's own frame narrative (the Bhagavān addressing Mañjuśrī Kumārabhūta, then speaking the dhāraṇī-mantra of praise). This narrative setting is not present as a block in this vault's root text (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`), which opens directly at the twenty-one homages. |
+| `1` | དང་པོ་གླེང་གཞི | 3 | The commentary's own frame narrative (the Bhagavān addressing Mañjuśrī Kumārabhūta, then speaking the dhāraṇī-mantra of praise). This narrative setting is not present as a block in this vault's root text (`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`), which opens directly at the twenty-one homages. |
 | `2.2.0` | (Node `2.2`'s own direct claims — synthetic `-0-` sentinel address per this commentary's claim-ID scheme, not itself a node of the TOC tree; see `2-RAILS/Claims/raw/tree-guided/gendun-drub.md`'s note at node `2.2`) | 6 | Announces the two-part division of "praise by root mantra" vs. "the twenty-one homages" (`c-2-2-0-1`), then gives several variant readings of a "root-mantra praise" formula (`namaḥ sarva tathāgatānāṃ...`, Spang Lo Chen po's verse rendering, the gurus' gloss) that is not present as a block anywhere in this vault's root text — a mantra-praise distinct from both the twenty-one homages and the closing benefits. |
 | `2.2.1` | དང་པོ་མདོར་བསྟན་པ | 10 | Word-by-word gloss of the opening invocation line "oṃ, homage to the venerable noble Tārā" (oṃ, rje, btsun, 'phags ma, sgrol ma, ma, phyag, 'tshal) — this line corresponds to the root text's title-block homage phrase at `^I-1`, which the tara21 spine registry does not register as a slot (registered slots begin at `tara-01` = `^1-1`). |
 | `z` | (Back matter — no tree node; the extraction's own `## Z. Back matter` bucket) | 1 | The commentary's own colophon, closing its exposition as spoken by the Buddha Vairocana. This is the commentary's own closing statement about itself, distinct from the root text's own colophon quoted within the `benefits` slot's content (`^a-7`). |

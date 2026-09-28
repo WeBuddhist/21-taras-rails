@@ -17,6 +17,10 @@ description: >
   to decide.
 ---
 
+> **⚠ SUPERSEDED 2026-09-22 — do not run this skill.** Merged into [`commentary-fact-check`](../commentary-fact-check/SKILL.md) as its Phase 2. The check/apply split is preserved there — Phase 1 still never edits the translation, Phase 2 still applies only the mechanical fixes the report supports.
+> This file is kept only so links and old run notes still resolve. Deleting it is a human contributor's call.
+
+
 # commentary-fact-check-apply-fixes
 
 Turns a commentary-fact-check report's ⚠ rows into actual edits in

@@ -44,7 +44,7 @@ status: draft
 > raw claim ID; raw claims cite `1-SOURCES/` segments. This page never cites a commentary
 > file directly, and regenerating it never touches `raw/`.
 
-Root verse (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-1`):
+Root verse (`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-1`):
 
 > ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །
 > སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །
@@ -307,7 +307,7 @@ No two of these three practice instructions overlap in content; they are present
 
 ## Claims reviewed, not separately cited
 
-The following claims were consulted (they fall within tara-01's packet) but are not cited as independent attestations above, because they are purely structural markers, section headings, rhetorical transitions, or verbatim quotations of the root verse/phrase that add no content beyond what `1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-1` itself already carries:
+The following claims were consulted (they fall within tara-01's packet) but are not cited as independent attestations above, because they are purely structural markers, section headings, rhetorical transitions, or verbatim quotations of the root verse/phrase that add no content beyond what `1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-1` itself already carries:
 
 - yama-sonam:c-3-1-1 — section heading ("first homage"), duplicates the node title, no independent content.
 - yama-sonam:c-3-1-2 — structural marker restating "first of the twenty-one homages," no independent content.

@@ -1,0 +1,827 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "th": "นอบน้อม",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's refrain ขอนอบน้อม (and การขอนอบน้อม, 1-22); locked as the core so both match.",
+    "th_hint": "ขอนอบน้อม",
+    "th_evidence": {
+      "machine_draft": "24/25 of its verses"
+    }
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tara",
+    "th": "ตารา",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Flagged. พระแม่ตารา is the name used by Thai Tibetan-Buddhist groups (the draft's at 1-1, a-1); locked as the core ตารา so พระอารยตารา (I-3) and the Sanskrit title also match.",
+    "th_hint": "พระแม่ตารา",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "th": "อานิสงส์",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the standard word; the draft's.",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "noble_venerable": {
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
+    "th": "อารย",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Flagged. འཕགས་མ = อารยา (ārya); རྗེ་བཙུན་མ = ผู้ประเสริฐ (the draft: พระอารยตาราผู้ประเสริฐ). The core อารย is locked.",
+    "th_hint": "พระอารยาผู้ประเสริฐ",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "th": "นะมะห์ ตารา เอกะวิงศะติ สโตตระ คุณะหิตะสากะ",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "the Sanskrit title in Thai script, as the draft has it.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "th": "สรรเสริญ",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word (บทสรรเสริญ); a-1 had บทสดุดี — to be made consistent.",
+    "th_evidence": {
+      "machine_draft": "4/5 of its verses"
+    }
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "th": "ภควตีพระแม่ตารา",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Bhagavatī + Tārā, as the draft's a-1.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "th": "สมบูรณ์",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "'fully, perfectly' (อย่างสมบูรณ์, 1-21).",
+    "th_evidence": {
+      "machine_draft": "1/3 of its verses"
+    }
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "th": "สัมมาสัมพุทธเจ้า",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the standard Pāli-Thai term; the draft's.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "th": "ภควตี",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Bhagavatī, the draft's.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "th": "ตัวบทสรรเสริญ",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's 1-0 heading.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "th": "ฟ้าแลบ",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the everyday word; the draft's.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "th": "โลก",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers ไตรโลก, โลกทั้งเจ็ด.",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "th": "พักตร์",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the respectful word (พระพักตร์).",
+    "th_hint": "พระพักตร์",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "th": "บัว",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "ดอกบัว; covers ดุจดอกบัว.",
+    "th_hint": "ดอกบัว",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "th": "ดุจดอกบัว",
+    "rank": 138,
+    "verse_ids": [
+      "1-8"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "1-8 only, her own face like a lotus. In 1-1 the draft read 'the Lord's lotus face' — the known error; the lotus grows from his face.",
+    "th_hint": "พระพักตร์ดุจดอกบัว",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "th": "แสง",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers แสงสว่าง; 1-12 had รัศมี.",
+    "th_evidence": {
+      "machine_draft": "3/5 of its verses"
+    }
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "th": "ลุก",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "the stem of ลุกโชน / ลุกโชติช่วง; hint ลุกโชน.",
+    "th_hint": "ลุกโชน",
+    "th_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "th": "จันทร์",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers ดวงจันทร์, พระจันทร์.",
+    "th_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "th": "สงบ",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Flagged. The plain word (ความสงบ); the draft also used the more learned ศานติ at 1-15 and 1-21.",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "2/3 of its verses"
+    }
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "th": "เหลือ",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers ไม่เหลือ, ไร้ส่วนเหลือ, ไม่มีเหลือ; hint โดยไม่เหลือ.",
+    "th_hint": "โดยไม่เหลือ",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "hum",
+    "th": "ฮูม",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "as chanted.",
+    "th_evidence": {
+      "machine_draft": "5/5 of its verses"
+    }
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "th": "พยางค์",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "th": "เหยียบ",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers เหยียบย่ำ.",
+    "th_hint": "เหยียบย่ำ",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "th": "บาท",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the respectful word (พระบาท).",
+    "th_hint": "พระบาท",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
+    "en": "tuttare",
+    "th": "ตุตตาเร",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "as chanted.",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "th": "หมู่",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers หมู่ยักษ์, หมู่เทพ.",
+    "th_evidence": {
+      "machine_draft": "3/4 of its verses"
+    }
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "th": "ภูต",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "th": "ทำลาย",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "consistent in the draft.",
+    "th_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "phat",
+    "th": "เพ็ด",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Flagged. As Tibetan-tradition chanters say it (pé); the Sanskrit spelling would be ผัฏ.",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "trat",
+    "th": "ตรัด",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "as chanted.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "ture",
+    "th": "ตุเร",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "as chanted.",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "great": {
+    "bo": "ཆེ་བ / ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "th": "ยิ่ง",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8",
+      "2-3"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers ยิ่งใหญ่ and อย่างยิ่ง; verse-scoped (1-15, 1-8, 2-3).",
+    "th_hint": "ยิ่งใหญ่",
+    "th_evidence": {
+      "machine_draft": "3/3 of its verses"
+    }
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "th": "สูงสุด",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "th_source": "the standard Thai Buddhist term",
+    "th_note": "Flagged. 'highest', kept apart from ยิ่ง; the draft had no word for རབ at 1-10.",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "0/1 of its verses"
+    }
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "th": "อำนาจ",
+    "rank": 85,
+    "verse_ids": [
+      "1-10"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "1-10 ให้อยู่ในอำนาจ.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
+    "en": "joy",
+    "th": "ยินดี",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers ปีติยินดี, ร่าเริงยินดี.",
+    "th_hint": "ปีติยินดี",
+    "th_evidence": {
+      "machine_draft": "4/4 of its verses"
+    }
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable hum",
+    "th": "พยางค์ ฮูม",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ],
+    "th_source": "Gemini th zero-shot (2026-09-25)",
+    "th_note": "syllable + HŪṂ, as the draft.",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "th": "สามารถ",
+    "rank": 85,
+    "verse_ids": [
+      "1-11"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "th": "กอปร",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "'endowed with' (กอปรด้วย, 1-21); the 'perfectly' is its own lock.",
+    "th_hint": "กอปรด้วย",
+    "th_evidence": {
+      "machine_draft": "1/2 of its verses"
+    }
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "th": "กอปร",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Flagged. กอปรด้วย is formal; at 2-1 the draft used เปี่ยมด้วย ('full of'). One word keeps the three verses consistent.",
+    "th_hint": "กอปรด้วย",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "1/3 of its verses"
+    }
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "th": "มนตร์",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers มูลมนตร์.",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "th": "เทวี",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's พระเทวี.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "vetala": {
+    "bo": "རོ་ལངས",
+    "en": "vetāla",
+    "th": "เวตาล",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the Sanskrit word in Thai (Thai readers know it from the Vetāla tales).",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "empowerment": {
+    "bo": "དབང",
+    "en": "empowerment",
+    "th": "อภิเษก",
+    "rank": 85,
+    "verse_ids": [
+      "2-3"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "th": "ผีร้าย",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "th_source": "the standard Thai Buddhist term",
+    "th_note": "Flagged. The draft wrote หมู่มาร (Māras) for གདོན at 1-21 and 2-5 — but มาร is its word for བདུད (Māra, 1-8, 1-10), a different being. ผีร้าย ('evil spirits') keeps them apart.",
+    "th_decision": "Claude pick — user delegated flagged picks, 2026-09-25",
+    "th_evidence": {
+      "machine_draft": "0/2 of its verses"
+    }
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "th": "ยักษ์",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "the draft's word.",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    }
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "th": "นุภาพ",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "th_source": "the standard Thai Buddhist term + Gemini th zero-shot (2026-09-25)",
+    "th_note": "covers พลานุภาพ and อานุภาพ (the อ drops in the compound พล+อานุภาพ); hint พลานุภาพ. Kept apart from อำนาจ.",
+    "th_hint": "พลานุภาพ",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    }
+  },
+  "om": {
+    "bo": "ཨོཾ",
+    "en": "Oṃ",
+    "th": "โอม",
+    "rank": 999,
+    "verse_ids": [
+      "I-3",
+      "1-15"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Thai-only entry: the syllable as chanted.",
+    "th_evidence": {
+      "machine_draft": "2/2 of its verses"
+    },
+    "th_only": true
+  },
+  "svaha": {
+    "bo": "སྭཱ་ཧཱ",
+    "en": "svāhā",
+    "th": "โซฮา",
+    "rank": 999,
+    "verse_ids": [
+      "1-15"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Thai-only entry: the syllable as chanted.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "th_only": true
+  },
+  "hara": {
+    "bo": "ཧ་ར",
+    "en": "HARA",
+    "th": "ฮารา",
+    "rank": 999,
+    "verse_ids": [
+      "1-20"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Thai-only entry: the syllable as chanted.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "th_only": true
+  },
+  "tara_syllable": {
+    "bo": "ཏཱ་ར",
+    "en": "TĀRA",
+    "th": "ตาเร",
+    "rank": 999,
+    "verse_ids": [
+      "1-18"
+    ],
+    "th_source": "the syllable as chanted (Thai script) + Gemini th zero-shot (2026-09-25)",
+    "th_note": "Thai-only entry: the syllable as chanted.",
+    "th_evidence": {
+      "machine_draft": "1/1 of its verses"
+    },
+    "th_only": true
+  }
+}

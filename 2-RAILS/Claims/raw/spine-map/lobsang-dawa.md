@@ -3,7 +3,7 @@ registered_id: lobsang-dawa
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/lobsang-dawa.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/lobsang-dawa.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 87
 mapped_claims: 54
 extra_claims: 24
@@ -35,7 +35,7 @@ maps to `origin` instead. The body-form branch runs peaceful (`1.2.2.1.1.1`–`.
 the same ordinal pattern. The commentary's in-text "Verse N" citations are its own continuous
 count (5 … 47), not the root's `^1-N` numbering, so every node-to-slot correspondence below is
 established by matching the claims' quoted wording against
-`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md`, never by the cited number. The tree contains
+`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md`, never by the cited number. The tree contains
 no exposition of the root's ཕན་ཡོན (benefits) section — the conclusion (`1.3`) only states the
 praise's total stanza-count — so `benefits` is also silent.
 

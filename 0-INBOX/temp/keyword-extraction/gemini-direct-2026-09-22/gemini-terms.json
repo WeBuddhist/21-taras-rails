@@ -1,0 +1,1939 @@
+{
+ "schema": "gemini-block-terms/1",
+ "source": "1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md",
+ "model": "gemini-3.1-pro-preview",
+ "batch": 5,
+ "date": "2026-09-22",
+ "blocks_processed": 32,
+ "term_instances": 287,
+ "distinct_terms": 219,
+ "verification": {
+  "VERBATIM": 282,
+  "NORMALIZED": 5,
+  "ABSENT": 0
+ },
+ "usage": {
+  "prompt": 6034,
+  "output": 9988
+ },
+ "by_block": {
+  "I-1": [
+   {
+    "term": "རྒྱ་གར་",
+    "gloss_en": "India",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྒྱ་གར་སྐད་",
+    "gloss_en": "Sanskrit language",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ",
+    "gloss_en": "Praise to 21 Taras",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "I-2": [
+   {
+    "term": "བོད་སྐད་",
+    "gloss_en": "Tibetan language",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོལ་མ་",
+    "gloss_en": "Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "Homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཉི་ཤུ་རྩ་གཅིག་",
+    "gloss_en": "Twenty-one",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྟོད་པ་",
+    "gloss_en": "Praise",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕན་ཡོན་",
+    "gloss_en": "Benefits",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   }
+  ],
+  "I-3": [
+   {
+    "term": "ཨོཾ",
+    "gloss_en": "Om",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྗེ་བཙུན་མ་",
+    "gloss_en": "Reverend Lady",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཕགས་མ་",
+    "gloss_en": "Noble Lady",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོལ་མ་",
+    "gloss_en": "Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་",
+    "gloss_en": "Noble Reverend Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "Homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-1": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "Homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོལ་མ་",
+    "gloss_en": "Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མྱུར་མ་",
+    "gloss_en": "Swift One",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཔའ་མོ",
+    "gloss_en": "Heroine",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ",
+    "gloss_en": "Swift Heroine Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤྱན་",
+    "gloss_en": "Eyes",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྐད་ཅིག་",
+    "gloss_en": "Instant",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གློག་",
+    "gloss_en": "Lightning",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་",
+    "gloss_en": "World",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་གསུམ་",
+    "gloss_en": "Three Worlds",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མགོན་",
+    "gloss_en": "Protector",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་གསུམ་མགོན་",
+    "gloss_en": "Protector of Three Worlds",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཆུ་སྐྱེས་",
+    "gloss_en": "Lotus",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞལ་",
+    "gloss_en": "Face",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཆུ་སྐྱེས་ཞལ་",
+    "gloss_en": "Lotus face",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གེ་སར་",
+    "gloss_en": "Anther",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-2": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "Homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྟོན་ཀ་",
+    "gloss_en": "Autumn",
+    "kind": "object",
+    "verification": "NORMALIZED"
+   },
+   {
+    "term": "ཟླ་བ་",
+    "gloss_en": "Moon",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྟོན་ཀའི་ཟླ་བ་",
+    "gloss_en": "Autumn moon",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞལ་མ",
+    "gloss_en": "She with a face",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྐར་མ་",
+    "gloss_en": "Star",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྐར་མ་སྟོང་ཕྲག་",
+    "gloss_en": "Thousands of stars",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་",
+    "gloss_en": "Light",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འབར་མ",
+    "gloss_en": "Blazing One",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-3": [
+   {
+    "term": "གསེར་སྔོ་",
+    "gloss_en": "golden blue",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཆུ་ནས་སྐྱེས་",
+    "gloss_en": "water-born",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "པདྨ",
+    "gloss_en": "lotus",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་",
+    "gloss_en": "hand",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྦྱིན་པ་",
+    "gloss_en": "generosity",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བརྩོན་འགྲུས་",
+    "gloss_en": "diligence",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཀའ་ཐུབ་",
+    "gloss_en": "asceticism",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞི་བ་",
+    "gloss_en": "peace",
+    "kind": "doctrinal",
+    "verification": "NORMALIZED"
+   },
+   {
+    "term": "བཟོད་པ་",
+    "gloss_en": "patience",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསམ་གཏན་",
+    "gloss_en": "concentration",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤྱོད་ཡུལ་",
+    "gloss_en": "domain of practice",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-4": [
+   {
+    "term": "དེ་བཞིན་གཤེགས་པ་",
+    "gloss_en": "Tathagata",
+    "kind": "epithet",
+    "verification": "NORMALIZED"
+   },
+   {
+    "term": "གཙུག་ཏོར",
+    "gloss_en": "ushnisha",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཐའ་ཡས་",
+    "gloss_en": "boundless",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྣམ་པར་རྒྱལ་བ",
+    "gloss_en": "complete victory",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕ་རོལ་ཕྱིན་པ་",
+    "gloss_en": "perfection",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྒྱལ་བ",
+    "gloss_en": "conqueror",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྲས་",
+    "gloss_en": "son",
+    "kind": "person",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-5": [
+   {
+    "term": "ཏུཏྟྭ་ར་",
+    "gloss_en": "Tuttara",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧཱུྃ",
+    "gloss_en": "Hum",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ",
+    "gloss_en": "syllable",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འདོད་",
+    "gloss_en": "desire",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱོགས་",
+    "gloss_en": "direction",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ནམ་མཁའ",
+    "gloss_en": "space",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་",
+    "gloss_en": "world",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞབས་",
+    "gloss_en": "feet",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-6": [
+   {
+    "term": "བརྒྱ་བྱིན་",
+    "gloss_en": "Indra",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མེ་ལྷ་",
+    "gloss_en": "Agni",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཚངས་པ",
+    "gloss_en": "Brahma",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རླུང་ལྷ་",
+    "gloss_en": "Vayu",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྣ་ཚོགས་དབང་ཕྱུག་",
+    "gloss_en": "Vishveshvara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འབྱུང་པོ་",
+    "gloss_en": "Bhuta",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རོ་ལངས་",
+    "gloss_en": "Vetala",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དྲི་ཟ་",
+    "gloss_en": "Gandharva",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གནོད་སྦྱིན་",
+    "gloss_en": "Yaksha",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-7": [
+   {
+    "term": "ཏྲད་",
+    "gloss_en": "Trat",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕཊ",
+    "gloss_en": "Phat",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཁྲུལ་འཁོར་",
+    "gloss_en": "magical device",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གཡས་བསྐུམ་",
+    "gloss_en": "right leg drawn",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གཡོན་བརྐྱང་",
+    "gloss_en": "left leg extended",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞབས་",
+    "gloss_en": "feet",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མེ་",
+    "gloss_en": "fire",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-8": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏུ་རེ་",
+    "gloss_en": "Ture",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིགས་པ་ཆེན་མོ",
+    "gloss_en": "great terrifying one",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བདུད་",
+    "gloss_en": "demon / Mara",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཔའ་བོ་",
+    "gloss_en": "hero / warrior",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བདུད་ཀྱི་དཔའ་བོ་",
+    "gloss_en": "Mara's warriors",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཆུ་སྐྱེས་",
+    "gloss_en": "lotus / water-born",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞལ་",
+    "gloss_en": "face",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཆུ་སྐྱེས་ཞལ་",
+    "gloss_en": "lotus face",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཁྲོ་གཉེར་",
+    "gloss_en": "frown",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགྲ་བོ་",
+    "gloss_en": "enemy",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-9": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཀོན་མཆོག་",
+    "gloss_en": "Jewel",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཀོན་མཆོག་གསུམ་",
+    "gloss_en": "Three Jewels",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་རྒྱ",
+    "gloss_en": "mudra",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སོར་མོ",
+    "gloss_en": "finger",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཐུགས་ཀ",
+    "gloss_en": "heart center",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱོགས་",
+    "gloss_en": "direction",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཁོར་ལོ",
+    "gloss_en": "wheel",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་",
+    "gloss_en": "light",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཚོགས་",
+    "gloss_en": "assembly",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་ཀྱི་ཚོགས་",
+    "gloss_en": "mass of light",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-10": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགའ་བ་",
+    "gloss_en": "joy",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བརྗིད་",
+    "gloss_en": "splendor",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དབུ་རྒྱན་",
+    "gloss_en": "crown",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་",
+    "gloss_en": "light",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྲེང་བ་",
+    "gloss_en": "garland",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་ཀྱི་ཕྲེང་བ་",
+    "gloss_en": "garland of light",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བཞད་པ་",
+    "gloss_en": "laughter / laughing",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏུ་ཏྟྭ་ར་",
+    "gloss_en": "Tuttare",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བདུད་",
+    "gloss_en": "demon / Mara",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་",
+    "gloss_en": "world",
+    "kind": "place",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-11": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ས་གཞི་",
+    "gloss_en": "earth / ground",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྐྱོང་བ",
+    "gloss_en": "protector",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ས་གཞི་སྐྱོང་བ",
+    "gloss_en": "earth protectors",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཚོགས་",
+    "gloss_en": "assembly",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཁྲོ་གཉེར་",
+    "gloss_en": "frown",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་",
+    "gloss_en": "syllable / letter",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧཱུཾ་",
+    "gloss_en": "Hum",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕོངས་པ་",
+    "gloss_en": "destitute",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-12": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཟླ་བ",
+    "gloss_en": "moon",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྩེ་མོ",
+    "gloss_en": "tip / point",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དབུ་བརྒྱན",
+    "gloss_en": "crown ornament",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རལ་པ",
+    "gloss_en": "matted hair",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་དཔག་མེད་",
+    "gloss_en": "Amitabha",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་",
+    "gloss_en": "light",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-13": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྐལ་པ་ཐ་མའི་མེ་",
+    "gloss_en": "apocalyptic fire",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྐལ་པ་",
+    "gloss_en": "aeon",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མེ་",
+    "gloss_en": "fire",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དབུས་",
+    "gloss_en": "center",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གཡས་བརྐྱང་",
+    "gloss_en": "right leg extended",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གཡོན་བསྐུམ་",
+    "gloss_en": "left leg bent",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགྲ་ཡི་དཔུང་",
+    "gloss_en": "enemy forces",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགྲ་",
+    "gloss_en": "enemy",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དཔུང་",
+    "gloss_en": "forces",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-14": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ས་གཞིའི་ངོས་",
+    "gloss_en": "surface of the earth",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་",
+    "gloss_en": "hand",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཐིལ་",
+    "gloss_en": "palm",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞབས་",
+    "gloss_en": "foot",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཁྲོ་གཉེར་ཅན་",
+    "gloss_en": "Frowning One",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་ཧཱུྃ་",
+    "gloss_en": "syllable Hung",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་",
+    "gloss_en": "syllable",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧཱུྃ་",
+    "gloss_en": "Hung",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རིམ་པ་བདུན་",
+    "gloss_en": "seven levels",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-15": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བདེ་མ་",
+    "gloss_en": "blissful one",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགེ་མ་",
+    "gloss_en": "virtuous one",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞི་མ་",
+    "gloss_en": "peaceful one",
+    "kind": "epithet",
+    "verification": "NORMALIZED"
+   },
+   {
+    "term": "མྱ་ངན་འདས་",
+    "gloss_en": "Nirvana",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤྱོད་ཡུལ་",
+    "gloss_en": "sphere of experience",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྭཱ་ཧཱ་",
+    "gloss_en": "Svaha",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཨོཾ་",
+    "gloss_en": "Om",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྡིག་པ་ཆེན་པོ་",
+    "gloss_en": "great sin",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྡིག་པ་",
+    "gloss_en": "sin",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-16": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགྲ་ཡི་ལུས་",
+    "gloss_en": "enemy's body",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགྲ་",
+    "gloss_en": "enemy",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ལུས་",
+    "gloss_en": "body",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་བཅུ་པའི་ངག་",
+    "gloss_en": "ten-syllable mantra",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་བཅུ་",
+    "gloss_en": "ten syllables",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ་",
+    "gloss_en": "syllable",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རིག་པ་",
+    "gloss_en": "awareness",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧཱུྃ་",
+    "gloss_en": "Hung",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོན་མ་",
+    "gloss_en": "lamp",
+    "kind": "object",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-17": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏུ་རེ",
+    "gloss_en": "Ture",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞབས་",
+    "gloss_en": "foot",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧཱུྃ་",
+    "gloss_en": "Hung",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ས་བོན་",
+    "gloss_en": "seed",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རི་རབ་",
+    "gloss_en": "Mount Meru",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མན་དཱ་ར་",
+    "gloss_en": "Mandara",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འབིགས་བྱེད",
+    "gloss_en": "Vindhya",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇིག་རྟེན་གསུམ་",
+    "gloss_en": "three worlds",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-18": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ལྷ་ཡི་མཚོ་",
+    "gloss_en": "divine lake",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ལྷ་",
+    "gloss_en": "god / deity",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཚོ་",
+    "gloss_en": "lake",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རི་དགས་རྟགས་ཅན་",
+    "gloss_en": "mark of a deer",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རི་དགས་",
+    "gloss_en": "deer",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་",
+    "gloss_en": "hand",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྣམས་མ",
+    "gloss_en": "she who holds",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏཱ་ར་",
+    "gloss_en": "Tara",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕཊ་",
+    "gloss_en": "Phat",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡི་གེ",
+    "gloss_en": "syllable / letter",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དུག་",
+    "gloss_en": "poison",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སེལ་མ",
+    "gloss_en": "she who dispels",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-19": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ལྷ་ཡི་ཚོགས་",
+    "gloss_en": "assembly of gods",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ལྷ་",
+    "gloss_en": "god / deity",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྒྱལ་པོ",
+    "gloss_en": "king",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མིའམ་ཅི་",
+    "gloss_en": "kinnara",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྟེན་མ",
+    "gloss_en": "she who is served",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གོ་ཆ་",
+    "gloss_en": "armor",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དགའ་བའི་བརྗིད་",
+    "gloss_en": "joyful splendor",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བརྗིད་",
+    "gloss_en": "splendor",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྩོད་",
+    "gloss_en": "dispute",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྨི་ལམ་ངན་པ་",
+    "gloss_en": "bad dream",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྨི་ལམ་",
+    "gloss_en": "dream",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སེལ་མ",
+    "gloss_en": "she who dispels",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-20": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཉི་མ་",
+    "gloss_en": "sun",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཟླ་བ་",
+    "gloss_en": "moon",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤྱན་གཉིས་",
+    "gloss_en": "two eyes",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤྱན་",
+    "gloss_en": "eye",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འོད་",
+    "gloss_en": "light",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གསལ་མ",
+    "gloss_en": "she who shines",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཧ་ར་",
+    "gloss_en": "Hara",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏུ་ཏྟྭ་ར་",
+    "gloss_en": "Tuttara",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དྲག་པོའི་རིམས་",
+    "gloss_en": "fierce plague",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རིམས་",
+    "gloss_en": "plague / fever",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སེལ་མ",
+    "gloss_en": "she who dispels",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-21": [
+   {
+    "term": "ཕྱག་འཚལ་",
+    "gloss_en": "homage",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དེ་ཉིད་གསུམ་",
+    "gloss_en": "three realities",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དེ་ཉིད་",
+    "gloss_en": "reality / suchness",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞི་བའི་མཐུ་",
+    "gloss_en": "power of peace",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཐུ་",
+    "gloss_en": "power",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གདོན་",
+    "gloss_en": "evil spirit",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རོ་ལངས་",
+    "gloss_en": "zombie",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གནོད་སྦྱིན་ཚོགས་",
+    "gloss_en": "host of yakshas",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གནོད་སྦྱིན་",
+    "gloss_en": "yaksha",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇོམས་པ་",
+    "gloss_en": "destroyer",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཏུ་རེ་",
+    "gloss_en": "Ture",
+    "kind": "mantra",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཆོག་",
+    "gloss_en": "supreme",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   }
+  ],
+  "1-22": [
+   {
+    "term": "རྩ་བའི་སྔགས་",
+    "gloss_en": "root mantra",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྔགས་",
+    "gloss_en": "mantra",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྟོད་པ་",
+    "gloss_en": "praise / hymn",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཕྱག་འཚལ་བ་",
+    "gloss_en": "homage / prostration",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཉི་ཤུ་རྩ་གཅིག",
+    "gloss_en": "twenty-one",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   }
+  ],
+  "2-1": [
+   {
+    "term": "ལྷ་མོ་",
+    "gloss_en": "goddess",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གུས་",
+    "gloss_en": "devotion",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བློ་ལྡན་",
+    "gloss_en": "intelligent one",
+    "kind": "person",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བརྗོད་",
+    "gloss_en": "recite",
+    "kind": "action",
+    "verification": "VERBATIM"
+   }
+  ],
+  "2-2": [
+   {
+    "term": "སྲོད་",
+    "gloss_en": "dusk",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཐོ་རངས་",
+    "gloss_en": "dawn",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དྲན་",
+    "gloss_en": "mindfulness",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མི་འཇིགས་",
+    "gloss_en": "fearless",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྡིག་པ་",
+    "gloss_en": "sin",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཞི་བ",
+    "gloss_en": "pacify",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ངན་འགྲོ་",
+    "gloss_en": "bad migrations",
+    "kind": "place",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཇོམས་པ་",
+    "gloss_en": "conquer",
+    "kind": "action",
+    "verification": "VERBATIM"
+   }
+  ],
+  "2-3": [
+   {
+    "term": "རྒྱལ་བ་",
+    "gloss_en": "Victor",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་",
+    "gloss_en": "seven ten-millions of Victors",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དབང་",
+    "gloss_en": "empowerment",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྐུར་",
+    "gloss_en": "bestow",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སངས་རྒྱས་",
+    "gloss_en": "Buddha",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གོ་འཕང་",
+    "gloss_en": "state",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སངས་རྒྱས་གོ་འཕང་",
+    "gloss_en": "state of Buddhahood",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "མཐར་ཐུག་",
+    "gloss_en": "ultimate",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཐོབ་",
+    "gloss_en": "attain",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འགྲོ",
+    "gloss_en": "reach",
+    "kind": "action",
+    "verification": "VERBATIM"
+   }
+  ],
+  "2-4": [
+   {
+    "term": "དུག་",
+    "gloss_en": "poison",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དྲག་པོ་ཆེན་པོ",
+    "gloss_en": "great fierce",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བརྟན་གནས་",
+    "gloss_en": "stationary",
+    "kind": "quality",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འགྲོ་བ",
+    "gloss_en": "moving",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཟོས་པ་",
+    "gloss_en": "eaten",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འཐུངས་པ་",
+    "gloss_en": "drunk",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དྲན་",
+    "gloss_en": "remembering",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སེལ་བ་",
+    "gloss_en": "dispel",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཐོབ་",
+    "gloss_en": "attain",
+    "kind": "action",
+    "verification": "NORMALIZED"
+   }
+  ],
+  "2-5": [
+   {
+    "term": "གདོན་",
+    "gloss_en": "evil spirit",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "རིམས་",
+    "gloss_en": "epidemic",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "དུག་",
+    "gloss_en": "poison",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "གཟིར་བ",
+    "gloss_en": "afflicted",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྡུག་བསྔལ་",
+    "gloss_en": "suffering",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཚོགས་",
+    "gloss_en": "collection",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྡུག་བསྔལ་ཚོགས་",
+    "gloss_en": "mass of suffering",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྤོང་",
+    "gloss_en": "abandon",
+    "kind": "action",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སེམས་ཅན་",
+    "gloss_en": "sentient being",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   }
+  ],
+  "2-6": [
+   {
+    "term": "བུ་",
+    "gloss_en": "son",
+    "kind": "person",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ནོར་",
+    "gloss_en": "wealth",
+    "kind": "object",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འདོད་པ་",
+    "gloss_en": "desire",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "འདོད་པ་ཐམས་ཅད་",
+    "gloss_en": "all desires",
+    "kind": "doctrinal",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བགེགས་",
+    "gloss_en": "hindrance",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བགེགས་རྣམས་",
+    "gloss_en": "hindrances",
+    "kind": "being-class",
+    "verification": "VERBATIM"
+   }
+  ],
+  "a-1": [
+   {
+    "term": "བཅོམ་ལྡན་འདས་མ་",
+    "gloss_en": "Bhagavati",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སྒྲོལ་མ་",
+    "gloss_en": "Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ་",
+    "gloss_en": "Bhagavati Tara",
+    "kind": "deity",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས་",
+    "gloss_en": "Perfect Buddha",
+    "kind": "epithet",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "སངས་རྒྱས་",
+    "gloss_en": "Buddha",
+    "kind": "person",
+    "verification": "VERBATIM"
+   },
+   {
+    "term": "བསྟོད་པ་",
+    "gloss_en": "praise",
+    "kind": "action",
+    "verification": "VERBATIM"
+   }
+  ]
+ },
+ "ledger": [
+  {
+   "batch": 1,
+   "block_ids": [
+    "I-1",
+    "I-2",
+    "I-3",
+    "1-1",
+    "1-2"
+   ],
+   "terms": 40,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 52.23,
+   "prompt_tokens": 787,
+   "output_tokens": 1735,
+   "ts": "2026-09-22T12:48:09"
+  },
+  {
+   "batch": 2,
+   "block_ids": [
+    "1-3",
+    "1-4",
+    "1-5",
+    "1-6",
+    "1-7"
+   ],
+   "terms": 42,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 50.8,
+   "prompt_tokens": 960,
+   "output_tokens": 1765,
+   "ts": "2026-09-22T12:49:02"
+  },
+  {
+   "batch": 3,
+   "block_ids": [
+    "1-8",
+    "1-9",
+    "1-10",
+    "1-11",
+    "1-12"
+   ],
+   "terms": 49,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 69.67,
+   "prompt_tokens": 948,
+   "output_tokens": 2014,
+   "ts": "2026-09-22T12:50:14"
+  },
+  {
+   "batch": 4,
+   "block_ids": [
+    "1-13",
+    "1-14",
+    "1-15",
+    "1-16",
+    "1-17"
+   ],
+   "terms": 49,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 53.68,
+   "prompt_tokens": 959,
+   "output_tokens": 1074,
+   "ts": "2026-09-22T12:51:09"
+  },
+  {
+   "batch": 5,
+   "block_ids": [
+    "1-18",
+    "1-19",
+    "1-20",
+    "1-21",
+    "1-22"
+   ],
+   "terms": 55,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 42.54,
+   "prompt_tokens": 889,
+   "output_tokens": 2267,
+   "ts": "2026-09-22T12:51:54"
+  },
+  {
+   "batch": 6,
+   "block_ids": [
+    "2-1",
+    "2-2",
+    "2-3",
+    "2-4",
+    "2-5"
+   ],
+   "terms": 40,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 60.22,
+   "prompt_tokens": 858,
+   "output_tokens": 837,
+   "ts": "2026-09-22T12:52:56"
+  },
+  {
+   "batch": 7,
+   "block_ids": [
+    "2-6",
+    "a-1"
+   ],
+   "terms": 12,
+   "absent": 0,
+   "blocks_not_returned": [],
+   "unresolved_ids": [],
+   "model_version": "gemini-3.1-pro-preview",
+   "elapsed_s": 23.27,
+   "prompt_tokens": 633,
+   "output_tokens": 296,
+   "ts": "2026-09-22T12:53:21"
+  }
+ ]
+}

@@ -1,0 +1,525 @@
+{
+  "homage": {
+    "bo": "ཕྱག / ཕྱག་འཚལ / ཕྱག་འཚལ་བ",
+    "en": "Homage",
+    "rank": 1,
+    "verse_ids": [
+      "I-0",
+      "I-2",
+      "I-3",
+      "1-2",
+      "1-10",
+      "1-14",
+      "1-21",
+      "1-1",
+      "1-12",
+      "1-15",
+      "1-18",
+      "1-17",
+      "1-20",
+      "1-22",
+      "1-11",
+      "1-8",
+      "1-16",
+      "1-3",
+      "1-6",
+      "1-9",
+      "1-19",
+      "1-5",
+      "1-4",
+      "1-7",
+      "1-13"
+    ],
+    "note": "recurring refrain — opens every one of the 21 stanzas"
+  },
+  "tara": {
+    "bo": "ཏཱ་རཱ / སྒྲོལ་མ",
+    "en": "Tara",
+    "rank": 18,
+    "verse_ids": [
+      "I-1",
+      "I-2",
+      "I-3",
+      "1-1",
+      "a-1"
+    ],
+    "note": "merges Tibetan སྒྲོལ་མ and its Sanskrit form ཏཱ་རཱ",
+    "attested_check": [
+      "'Tārā' -> 'Tara': attested translation (2021, DJKR) uses unmacronned 'Tara' consistently (20+ occurrences) as the goddess's name"
+    ]
+  },
+  "benefits": {
+    "bo": "ཕན་ཡོན",
+    "en": "benefits",
+    "rank": 95,
+    "verse_ids": [
+      "I-2",
+      "2-0"
+    ]
+  },
+  "noble_venerable": {
+    "bo": "རྗེ་བཙུན་མ་འཕགས་མ",
+    "en": "Noble and Venerable",
+    "rank": 137,
+    "verse_ids": [
+      "I-3"
+    ],
+    "note": "FIX 2026-09-24 (validate_grade_file E2): Tibetan was stored in reversed order (འཕགས་མ་རྗེ་བཙུན་མ); the root reads རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ. Rendering changed from 'the Noble and Venerable One' to 'Noble and Venerable' — the epithet pair as it stands in the text before 'Tara' (I-3). Absorbs the archived 'venerable_tara' entry (see en-bo-en-termbase-general.archived-entries.json)."
+  },
+  "sanskrit_title": {
+    "bo": "གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / ཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ན་མཿཏཱ་རཱ / ན་མཿཏཱ་རཱ་ཨེ་ཀ་བིཾ་ཤ་ཏི / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ / སྟོ་ཏྲ་གུ་ཎ་ཧི་ཏ་སཱ་ཀ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ / ཨེ་ཀ་བིཾ་ཤ་ཏི་སྟོ་ཏྲ་གུ་ཎ",
+    "en": "Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka",
+    "rank": 23,
+    "verse_ids": [
+      "I-1"
+    ],
+    "note": "the Sanskrit title line, consolidated from 9 overlapping YAKE n-gram fragments of the same phrase — not 9 separate terms"
+  },
+  "praise": {
+    "bo": "བསྟོད / བསྟོད་པ",
+    "en": "praise",
+    "rank": 27,
+    "verse_ids": [
+      "1-0",
+      "1-22",
+      "1-6",
+      "2-0",
+      "a-1"
+    ]
+  },
+  "blessed_tara": {
+    "bo": "བཅོམ་ལྡན་འདས་མ་སྒྲོལ་མ",
+    "en": "the Blessed Tārā",
+    "rank": 39,
+    "verse_ids": [
+      "a-1"
+    ]
+  },
+  "perfectly": {
+    "bo": "ཡང་དག / ཡང་དག་པར",
+    "en": "perfectly",
+    "rank": 65,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "a-1"
+    ],
+    "note": "merges ཡང་དག and ཡང་དག་པར"
+  },
+  "perfect_buddha": {
+    "bo": "ཡང་དག་པར་རྫོགས་པའི་སངས་རྒྱས",
+    "en": "the Perfectly Complete Buddha",
+    "rank": 88,
+    "verse_ids": [
+      "a-1"
+    ],
+    "note": "merges རྫོགས་པ / ཡང་དག་པར་རྫོགས་པ (modifier) into the full epithet"
+  },
+  "blessed_one": {
+    "bo": "བཅོམ་ལྡན་འདས་མ",
+    "en": "the Blessed One",
+    "rank": 98,
+    "verse_ids": [
+      "a-1"
+    ],
+    "note": "FIX: Dharmamitra draft rendered this 'goddess' — བཅོམ་ལྡན་འདས་མ is the title 'Bhagavatī/Blessed One', not the generic word for goddess (that's ལྷ་མོ, see 'goddess' below). Flag for the second draft."
+  },
+  "actual_praise": {
+    "bo": "བསྟོད་པ་དངོས",
+    "en": "the actual praise",
+    "rank": 68,
+    "verse_ids": [
+      "1-0"
+    ]
+  },
+  "lightning": {
+    "bo": "གློག",
+    "en": "lightning",
+    "rank": 51,
+    "verse_ids": [
+      "1-1"
+    ],
+    "note": "disambiguated from 'light' (འོད) — this keyword (1-1) renders གློག, 'flash of lightning', a different word"
+  },
+  "world": {
+    "bo": "འཇིག་རྟེན",
+    "en": "world(s)",
+    "rank": 67,
+    "verse_ids": [
+      "1-5",
+      "1-1",
+      "1-17"
+    ]
+  },
+  "face": {
+    "bo": "ཞལ",
+    "en": "face",
+    "rank": 80,
+    "verse_ids": [
+      "1-2",
+      "1-1",
+      "1-8"
+    ]
+  },
+  "lotus": {
+    "bo": "ཆུ་སྐྱེས / པདྨ",
+    "en": "lotus",
+    "rank": 82,
+    "verse_ids": [
+      "1-3",
+      "1-1",
+      "1-8"
+    ],
+    "note": "merges ཆུ་སྐྱེས (lit. 'water-born') and པདྨ (the Sanskrit loanword)"
+  },
+  "lotus_face": {
+    "bo": "ཆུ་སྐྱེས་ཞལ",
+    "en": "lotus face",
+    "rank": 138,
+    "verse_ids": [
+      "1-8"
+    ],
+    "note": "Her own face, likened to a lotus (1-8). Removed from 1-1 on 2026-09-24: all four commentaries checked read 1-1's ཆུ་སྐྱེས་ཞལ་གྱི as the lotus that arose from Avalokiteśvara's face/tears, not a 'lotus face'."
+  },
+  "light": {
+    "bo": "འོད",
+    "en": "light",
+    "rank": 51,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-10",
+      "1-20",
+      "1-9"
+    ]
+  },
+  "blaze": {
+    "bo": "འབར",
+    "en": "blazing",
+    "rank": 64,
+    "verse_ids": [
+      "1-7",
+      "1-2",
+      "1-13"
+    ]
+  },
+  "moon": {
+    "bo": "ཟླ་བ / རི་དགས་རྟགས་ཅན",
+    "en": "moon",
+    "rank": 77,
+    "verse_ids": [
+      "1-2",
+      "1-12",
+      "1-20",
+      "1-18"
+    ],
+    "note": "merges the literal ཟླ་བ and the kenning རི་དགས་རྟགས་ཅན ('deer-marked one', a traditional epithet for the moon)"
+  },
+  "peace": {
+    "bo": "ཞི / ཞི་བ",
+    "en": "peace",
+    "rank": 92,
+    "verse_ids": [
+      "1-3",
+      "1-15",
+      "1-21"
+    ],
+    "note": "merges ཞི་བ and ཞི (same root)"
+  },
+  "without_exception": {
+    "bo": "མ་ལུས",
+    "en": "without exception",
+    "rank": 78,
+    "verse_ids": [
+      "1-8",
+      "1-4"
+    ],
+    "note": "merges མ་ལུས and ལུས་པ་མེད་པར (1-5) — near-synonyms, both mean 'without remainder'"
+  },
+  "hum": {
+    "bo": "ཧཱུཾ / ཧཱུྃ",
+    "en": "hum",
+    "rank": 28,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14",
+      "1-16",
+      "1-11"
+    ],
+    "note": "mantra seed-syllable; merges the ཧཱུྃ/ཧཱུཾ spelling variants (attested doublet per vault-annex)",
+    "attested_check": [
+      "'HŪṂ' -> 'hum': attested: lowercase 'hum', no diacritic, at every occurrence (1-5,1-11,1-14,1-16,1-17)"
+    ]
+  },
+  "syllable": {
+    "bo": "ཡི་གེ",
+    "en": "syllable",
+    "rank": 50,
+    "verse_ids": [
+      "1-5"
+    ],
+    "note": "the generic word (1-5 only); named syllables (HŪṂ, PHAṬ, etc.) are locked individually"
+  },
+  "trampling": {
+    "bo": "མནན",
+    "en": "trampling",
+    "rank": 83,
+    "verse_ids": [
+      "1-7",
+      "1-5"
+    ]
+  },
+  "feet": {
+    "bo": "ཞབས",
+    "en": "feet",
+    "rank": 86,
+    "verse_ids": [
+      "1-5",
+      "1-17",
+      "1-14"
+    ]
+  },
+  "tuttare": {
+    "bo": "ཏུ་ཏྟྭ་ར / ཏུཏྟྭ་ར",
+    "en": "tuttare",
+    "rank": 96,
+    "verse_ids": [
+      "1-5",
+      "1-10",
+      "1-20"
+    ],
+    "note": "FIX: Dharmamitra draft spells this TUTTĀRA in 1-5 but TUTTĀRE in 1-10/1-20 — same Tibetan word (ཏུཏྟྭ་ར / ཏུ་ཏྟྭ་ར, tsheg-spacing variant only). Locked to TUTTĀRE, matching the standard mantra (oṃ tāre tuttāre ture svāhā); 1-5 needs correcting in the second draft. | FIX 2026-09-24 (validate_grade_file E2): form ཏུཏྟྭ་ར་ཡི་གེ does not occur in 1-5 (root: ཏུཏྟྭ་ར་ཧཱུྃ་ཡི་གེ — ཧཱུྃ stands between them); form reduced to ཏུཏྟྭ་ར. ཡི་གེ stays its own term (syllable).",
+    "attested_check": [
+      "'TUTTĀRE' -> 'tuttare': attested: lowercase 'tuttare', no diacritic (1-5,1-10,1-20) — also resolves the TUTTĀRA/TUTTĀRE spelling inconsistency in the Dharmamitra draft, since attested is consistent"
+    ]
+  },
+  "hosts": {
+    "bo": "ཚོགས",
+    "en": "hosts",
+    "rank": 61,
+    "verse_ids": [
+      "1-21",
+      "1-6",
+      "1-19",
+      "1-11"
+    ]
+  },
+  "spirit": {
+    "bo": "འབྱུང་པོ",
+    "en": "spirits",
+    "rank": 87,
+    "verse_ids": [
+      "1-6"
+    ],
+    "note": "see note on 'demons' above — disambiguated from གདོན"
+  },
+  "destroy": {
+    "bo": "འཇོམས",
+    "en": "destroys",
+    "rank": 63,
+    "verse_ids": [
+      "1-7",
+      "1-15",
+      "1-21",
+      "1-13"
+    ]
+  },
+  "phat": {
+    "bo": "ཕཊ / ཕཊ་ཀྱི་ཡི་གེ",
+    "en": "phat",
+    "rank": 81,
+    "verse_ids": [
+      "1-7",
+      "1-18"
+    ],
+    "note": "mantra syllable",
+    "attested_check": [
+      "'PHAṬ' -> 'phat': attested: lowercase 'phat' (1-7, 1-18)"
+    ]
+  },
+  "trat": {
+    "bo": "ཏྲད",
+    "en": "trat",
+    "rank": 103,
+    "verse_ids": [
+      "1-7"
+    ],
+    "note": "mantra syllable",
+    "attested_check": [
+      "'TRAṬ' -> 'trat': attested: lowercase 'trat' (1-7)"
+    ]
+  },
+  "ture": {
+    "bo": "ཏུ་རེ",
+    "en": "ture",
+    "rank": 58,
+    "verse_ids": [
+      "1-21",
+      "1-17",
+      "1-8"
+    ],
+    "note": "mantra syllable / name",
+    "attested_check": [
+      "'TURE' -> 'ture': attested: lowercase 'ture' when used descriptively (1-8, 1-17); capitalized 'Ture' only when used as a direct vocative epithet ('Supreme Ture', 1-21) — apply that capitalization contextually in Phase 2, not as a second locked term"
+    ]
+  },
+  "great": {
+    "bo": "ཆེ་བ / ཆེན་པོ / ཆེན་མོ",
+    "en": "great",
+    "rank": 69,
+    "verse_ids": [
+      "1-15",
+      "1-8",
+      "2-3"
+    ],
+    "note": "merges ཆེན་མོ / ཆེན་པོ / ཆེ་བ"
+  },
+  "supreme": {
+    "bo": "རབ",
+    "en": "supreme",
+    "rank": 69,
+    "verse_ids": [
+      "1-10"
+    ],
+    "note": "disambiguated from 'great' — renders རབ, a different word"
+  },
+  "power": {
+    "bo": "དབང",
+    "en": "power",
+    "rank": 85,
+    "verse_ids": [
+      "1-10"
+    ],
+    "note": "the 'control/dominion' sense of དབང (1-10); kept distinct from 'ability' (ནུས) and 'might' (མཐུ) below — three different Tibetan words were all flattened to 'power' in the Dharmamitra draft"
+  },
+  "joy": {
+    "bo": "དགའ / དགའ་བ / བསྐོར་དགས",
+    "en": "joy",
+    "rank": 90,
+    "verse_ids": [
+      "1-10",
+      "1-16",
+      "1-13",
+      "1-19"
+    ],
+    "note": "FIX 2026-09-24 (validate_grade_file E2): 1-13 reads ཀུན་ནས་བསྐོར་དགས (དགས, not དགའ), so form བསྐོར་དགས added for that verse. Bare དགས is NOT listed on purpose: it also occurs in 1-18 inside རི་དགས 'deer', where it must not be primed or checked as 'joy'."
+  },
+  "syllable_hum": {
+    "bo": "ཡི་གེ་ཧཱུཾ / ཡི་གེ་ཧཱུྃ",
+    "en": "the syllable hum",
+    "rank": 31,
+    "verse_ids": [
+      "1-14",
+      "1-11"
+    ],
+    "attested_check": [
+      "'the syllable HŪṂ' -> 'the syllable hum': follows from the hum spelling change"
+    ]
+  },
+  "ability": {
+    "bo": "ནུས",
+    "en": "ability",
+    "rank": 85,
+    "verse_ids": [
+      "1-11"
+    ],
+    "note": "disambiguated from 'power'/'might' — renders ནུས, 'power/ability to'"
+  },
+  "perfectly_endowed": {
+    "bo": "ཡང་དག་ལྡན",
+    "en": "perfectly endowed",
+    "rank": 75,
+    "verse_ids": [
+      "1-21",
+      "1-15"
+    ]
+  },
+  "endowed": {
+    "bo": "ལྡན",
+    "en": "endowed",
+    "rank": 89,
+    "verse_ids": [
+      "1-21",
+      "1-15",
+      "2-1"
+    ]
+  },
+  "mantra": {
+    "bo": "ཡི་གེ་བཅུ་པའི་ངག / སྔགས",
+    "en": "mantra",
+    "rank": 93,
+    "verse_ids": [
+      "1-22",
+      "1-16"
+    ],
+    "note": "standardizes སྔགས (1-22, the literal word) and the 1-16 paraphrase ཡི་གེ་བཅུ་པའི་ངག ('ten-syllable speech') to the same English term, since both denote the mantra | Resolved: keeping 'mantra' (both Dharmamitra and this termbase already used it) over attested's literal 'ten letters' (1-16) — 'mantra' is immediately meaningful to a general reader, 'ten letters' is not self-explanatory out of context. Recommend Phase 2 write the fuller phrase 'the ten-syllable mantra' at 1-16 to keep the numeral detail without losing clarity."
+  },
+  "goddess": {
+    "bo": "ལྷ་མོ",
+    "en": "goddess",
+    "rank": 98,
+    "verse_ids": [
+      "2-1"
+    ],
+    "note": "kept distinct from 'the Blessed One' (བཅོམ་ལྡན་འདས་མ) — see note there | Reviewed: keeping 'goddess' over attested's Sanskrit 'devi' for the general grade, same reasoning as 'demons' above (devi is less familiar than karma/nirvana to a general reader; better suited to an advanced grade)."
+  },
+  "vetala": {
+    "bo": "རོ་ལངས",
+    "en": "vetāla",
+    "rank": 140,
+    "verse_ids": [
+      "1-21",
+      "1-6"
+    ],
+    "note": "Dharmamitra's own choice for རོ་ལངས (vetāla, lit. 'risen corpse'); flag for reviewer — 'vetāla' or 'walking corpse' are alternatives",
+    "attested_check": [
+      "'zombie' -> 'vetāla': attested explicitly uses 'vetālas' (1-21) — Sanskrit technical term, not the English gloss 'zombie'"
+    ]
+  },
+  "empowerment": {
+    "bo": "དབང",
+    "en": "empowerment",
+    "rank": 85,
+    "verse_ids": [
+      "2-3"
+    ],
+    "note": "the tantric-initiation sense (Victors 'confer empowerment') — attested confirms with 'receive abhishekas' (2-3), the Sanskrit technical term for the same rite. Kept as a separate term from 1-10's general 'power' sense.",
+    "attested_check": [
+      "split off from 'power': attested 2-3 'receive abhishekas' confirms this is the technical empowerment/initiation sense, distinct from 1-10's general 'power'"
+    ]
+  },
+  "demon": {
+    "bo": "གདོན",
+    "en": "demons",
+    "rank": 87,
+    "verse_ids": [
+      "1-21",
+      "2-5"
+    ],
+    "note": "possessing/afflicting spirit (distinct from འབྱུང་པོ 'spirit', see that entry). Attested (2021 DJKR translation) uses the Sanskrit 'graha' at 1-21 but plain 'evil' at 2-5 — not fully consistent itself. Decision: keep 'demons' for the GENERAL grade — 'graha' is a real but much less common term than karma/nirvana/bodhichitta (the general register's own examples of unglossed loanwords), so it reads as general-register-appropriate to keep this in plain English. 'graha' would be the right choice if/when an ADVANCED grade is built (that register explicitly wants Sanskrit-rich vocabulary).",
+    "attested_check": [
+      "'demons' -> 'graha': attested explicitly uses 'grahas' (1-21) for གདོན — a Sanskrit technical term for a possessing/seizing spirit, not the English gloss 'demon'. NOTE: attested is not fully consistent either — it renders the same word as plain 'evil' at 2-5. Flagged below as a register trade-off, not force-applied without your sign-off.",
+      "Correction: an earlier pass in this session applied 'graha' and reported it as 'flagged, not applied' to the user — that was inconsistent. Reverted to 'demons' on review, for the reason in the note above."
+    ]
+  },
+  "yaksha": {
+    "bo": "གནོད་སྦྱིན",
+    "en": "yaksas",
+    "rank": 43,
+    "verse_ids": [
+      "1-6",
+      "1-21"
+    ],
+    "note": "Not picked up by keywords.py's YAKE pass — missed entirely from the original termbase. Added from the TF-IDF pass (rank 43, count 2) after you flagged it. Dharmamitra draft spells it 'yakṣas' (with the ṣ diacritic); the attested translation spells it 'yaksas' (no diacritic), matching the same plain-spelling pattern already applied to Tara/hum/tuttare/trat/phat/ture — locked to the attested spelling for the same reason: general register, not a scholarly transliteration register. Note for the record: the ṣ character isn't in the TF-IDF script's token-character allowlist, so it split 'yakṣas' into fragments ('yak' + 'as') rather than counting it as one word — that's a real small bug in generate_en_translation_idf.py's tokenize(), worth fixing upstream if this script gets used on texts with more Sanskrit vocabulary."
+  },
+  "might": {
+    "bo": "མཐུ",
+    "en": "might",
+    "rank": 85,
+    "verse_ids": [
+      "1-21"
+    ],
+    "note": "Added 2026-09-24. The 'power' note already said མཐུ ('might') is kept distinct from དབང ('power'), but 1-21 had been tagged 'power'. Now locked separately."
+  }
+}

@@ -49,6 +49,15 @@ The LLM is the compiler. Human domain specialists are the reviewers. Nothing in 
 │ ├── <registered-id>.md # commentary-claims: fixed A–I categories
 │ ├── toc-scaffolded/<registered-id>.md # toc-scaffolded-claims: re-bucketed under the tree
 │ └── tree-guided/<registered-id>.md # tree-guided-claims: fresh extraction, tree-scaffolded
+├── Keywords/ # the source-term registry — descriptive vocabulary inventory
+│ ├── About Keywords.md # front door: what the layer is, and is not
+│ ├── source-term-registry.json # canonical lemma per concept + variants + renderings
+│ ├── frequency-matrix.json # quote-excluded counts, root + every commentary
+│ ├── article-queue.json # gate-passing terms, ranked, + recorded gate failures
+│ └── article-subjects.json # standalone / section-material / glossary verdicts
+├── termbases/ # the vocabulary-standardisation table
+│ ├── term-localization.md # Bo | Meaning (cited, verbatim) | target-language columns
+│ └── <src>_<tgt>_keyword_<grade>.json # graded-translate's per-grade build cache
 └── Bilingual-Glossaries/ # bilingual glossaries per language pair
  ├── <src>-<tgt>.md # consolidated per-language-pair bilingual glossary
  └── Raw/
@@ -373,6 +382,74 @@ Rules for topic pages:
 - Template: `4-SYSTEM/Templates/consolidated-claims-topic.md`.
 
 All files in both layers keep the citation chain intact. A method's own `SKILL.md` is authoritative for its exact frontmatter and file format; this section only fixes where each one lives. The full methodology — why extraction and consolidation are separate phases, how questions are generated, rejected alternatives — is documented in [`../4-SYSTEM/Guidelines/claims-methodology.md`](../4-SYSTEM/Guidelines/claims-methodology.md).
+
+---
+
+## 6c. Keywords (`Keywords/`)
+
+The corpus's **vocabulary inventory**, written by `keyword-extract` and read by
+`term-definition`, `term-localization`, `graded-translate`, `dharmamitra-termlocked` and
+`article-subject-filter`. It answers one question — *which terms is this corpus about, and
+how much attention does each one get?* — once, so that nothing downstream has to re-derive it.
+
+| File | Holds |
+| --- | --- |
+| `source-term-registry.json` | one canonical source lemma per concept, with its attested variants, synonyms, epithets and target-language renderings, and the root-text blocks it occurs in |
+| `frequency-matrix.json` | quote-excluded counts of every term across the root text and each commentary, plus `spread` (how many commentaries use it at all) |
+| `article-queue.json` | the terms passing the mechanical viability gate, ordered by composite score, **plus every gate failure and its reason** |
+| `article-subjects.json` | the standalone-subject / section-material / glossary-only verdict per queued term, and the merge mapping |
+
+### This layer is descriptive, and it is not a citation-chain rail
+
+Counts, ranks and gate verdicts carry no per-item `1-SOURCES/` citation, so **no
+`3-TRANSFORMATIONS/` output may cite a keyword file as its ground for a claim** — that is
+what `Claims/`, `Verses/` and `Local-Wiki/` are for. What this layer legitimately governs is
+*vocabulary*: which term is which, and which rendering a track has locked for it.
+
+The boundary rule holds in both directions: keywords **select and order publication; they
+never define the consolidation topic space**. A high-ranking term with no claims bucket is a
+finding — either the extraction missed something, or the term is root-text poetic vocabulary
+better served by Local-Wiki than by a claims article.
+
+### `lemma` vs `match_form`
+
+Registry lemmas carry a trailing shad (`སྒྲོལ་མ།`); running Tibetan carries a tsheg
+(`སྒྲོལ་མ་`). Every tool that matches a registry term against text uses **`match_form`**, never
+the bare lemma. On this vault's root text the bare lemma matches 74 of 370 terms and
+`match_form` matches 348 — a tool that gets this wrong looks like it worked and silently
+drops four fifths of the vocabulary.
+
+`id` is `t-<sha1(lemma)[:8]>`, a pure function of the lemma, so it survives every re-run.
+`slug` is a readable gloss-derived label and is advisory.
+
+Full account, including the three known gaps in the promoted 2026-08 run:
+[`Keywords/About Keywords.md`](Keywords/About%20Keywords.md). Method and its rationale:
+[`../4-SYSTEM/Guidelines/keyword-extraction-methodology.md`](../4-SYSTEM/Guidelines/keyword-extraction-methodology.md).
+
+---
+
+## 6d. Termbases (`termbases/`)
+
+`termbases/term-localization.md` is where the descriptive rails become usable as a
+translation contract. One row per key term:
+
+| Column | Filled by | Rule |
+| --- | --- | --- |
+| `Bo` / `Match form` / `Attested En renderings` | `keyword-extract` (seeded from the registry) | descriptive — what the corpus contains |
+| `Meaning` | `term-definition` | **verbatim** commentary definitions, each cited to its block ID. Never a paraphrase, never a summary, never the skill's own prose. A term with no definitional passage is left blank. |
+| target-language columns | `term-localization` | the rendering derived **from the Meaning cell**, not from a dictionary. A row with an empty Meaning cell is skipped, not guessed. Novel renderings are flagged `*`. |
+
+That chain is what makes a locked rendering defensible: it is traceable to a commentary
+passage, not to a model's vocabulary. `graded-translate` Phase 1 exports the filled rows
+into a track's own `termbase.md` under `3-TRANSFORMATIONS/`, which is the prescriptive
+contract — the rails record what the term *means*, the track records what this output will
+*call* it.
+
+**An unfilled row is inert.** Every consumer skips it, so the table being long is not a
+commitment to filling all of it.
+
+`termbases/` also holds `graded-translate`'s per-grade JSON build cache. It is regenerable;
+when it and a track's `termbase.md` disagree, **the markdown wins**.
 
 ---
 

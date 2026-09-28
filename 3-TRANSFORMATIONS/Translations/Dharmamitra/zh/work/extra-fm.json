@@ -1,0 +1,17 @@
+{
+  "title": "二十一度母禮讚文",
+  "title_original": "སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།",
+  "title_attested": "true",
+  "title_source": "https://www.kagyuoffice.org.tw/17th-karmapa/2013-04-22-12-49-55/21-taras-praises",
+  "text_id": "O9TxCvL6lhjufpaaOAxAj",
+  "edition_id": "",
+  "toc_id": "",
+  "previous_edition_id": "1PHcxVLm39uAPyIVNX6mt (deleted 2026-09-16 with its alignment; re-created by the uploader)",
+  "translation_of_text_id": "HyUbHGlzS9LsSrgiFQNYE",
+  "translation_of_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+  "category_id": "LCorCb2K98p3TICt3UCDm",
+  "license": "public",
+  "source": "https://dharmamitra.org",
+  "imported_from": "Liturgy-rails/3-TRANSFORMATIONS/Translations/Dharmamitra/zh/སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh.md",
+  "import_note": "Imported 2026-09-17 and re-cut line by line from the Liturgy flat ids ^1-^29 onto this vault's rails ids (recut_liturgy_import.py); the original ledger and render are kept under work/imported-from-liturgy-rails/. Reading changes in the Tibetan are recorded per block in the ledger's `recut.changed_lines`."
+}

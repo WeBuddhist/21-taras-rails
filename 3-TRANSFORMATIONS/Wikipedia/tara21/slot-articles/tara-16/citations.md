@@ -197,7 +197,7 @@ content, only for the frontmatter-only `author_in_use` check above).
   iconography paragraph), so the correction is no longer load-bearing, but is recorded here for the
   audit trail.
 - **Root-text/commentary spelling divergence (not a drafting choice).** Unchanged from v1: the root
-  verse itself (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-16`) reads "སྒྲོན་མ་ཉིད་མ" where
+  verse itself (`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-16`) reads "སྒྲོན་མ་ཉིད་མ" where
   every commentary quotation in this packet gives "སྒྲོལ་མ་ཉིད་མ". The lead's retained root-verse
   quotation follows the commentary tradition's own wording (`yama-sonam:c-3-16-3`), per Rule 2/3;
   the root-text variant is not itself quoted or asserted anywhere in the article.

@@ -3,7 +3,7 @@ registered_id: pema-namgyal
 spine_scheme: tara21
 source_tree: 2-RAILS/Sections/Raw/toc-tree/pema-namgyal.md
 source_claims: 2-RAILS/Claims/raw/tree-guided/pema-namgyal.md
-root_text: 1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md
+root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 claim_count: 104
 mapped_claims: 0
 extra_claims: 54
@@ -31,7 +31,7 @@ own colophon. `2.4`'s 59 claims run: a general heart-mantra/epithet exposition
 (`c-2-4-1`–`c-2-4-11`, glossing OṂ TĀRE TUTTĀRE TURE SVĀHĀ and the epithets Ārya/Tārā/Heroine
 in the abstract, matching no single verse), then homage-by-homage commentary from
 `c-2-4-12` on, each homage's boundary attested by direct wording matches against
-`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-1`–`#^1-21` (e.g. `c-2-4-12`'s "eyes… like an
+`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-1`–`#^1-21` (e.g. `c-2-4-12`'s "eyes… like an
 instant of lightning" matches `^1-1`'s "སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ"; `c-2-4-16`'s "face like a hundred
 autumn full moons" matches `^1-2`'s "སྟོན་ཀའི་ཟླ་བ་ཀུན་དུ་གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ"), through a closing
 tally (`c-2-4-57`) and two claims that fall outside any single homage (`c-2-4-58` hidden-meaning

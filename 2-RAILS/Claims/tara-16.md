@@ -46,7 +46,7 @@ status: draft
 > cites a raw claim ID; raw claims cite `1-SOURCES/` segments. This page never
 > cites a commentary file directly, and regenerating it never touches `raw/`.
 
-> Note on the root text: the root verse itself (`1-SOURCES/Text/སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པ།.md#^1-16`) reads "རིག་པ་ཧཱུྃ་ལས་སྒྲོན་མ་ཉིད་མ།" (…"is the lamp herself, [arisen] from the vidyā HŪṂ") — སྒྲོན་མ, "lamp." Every commentary quotation in this packet instead gives "སྒྲོལ་མ་ཉིད་མ" (…"is Tārā herself") at that position. This is a root-text/commentary-tradition spelling divergence noted here for transparency; it is not itself a claim in the packet and is not further analysed below.
+> Note on the root text: the root verse itself (`1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^1-16`) reads "རིག་པ་ཧཱུྃ་ལས་སྒྲོན་མ་ཉིད་མ།" (…"is the lamp herself, [arisen] from the vidyā HŪṂ") — སྒྲོན་མ, "lamp." Every commentary quotation in this packet instead gives "སྒྲོལ་མ་ཉིད་མ" (…"is Tārā herself") at that position. This is a root-text/commentary-tradition spelling divergence noted here for transparency; it is not itself a claim in the packet and is not further analysed below.
 
 ## Questions asked
 

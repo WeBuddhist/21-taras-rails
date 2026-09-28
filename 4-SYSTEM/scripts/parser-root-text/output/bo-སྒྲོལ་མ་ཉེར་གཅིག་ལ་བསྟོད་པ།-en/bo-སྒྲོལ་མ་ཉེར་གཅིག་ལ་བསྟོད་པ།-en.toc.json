@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "title": {
+        "en": "Praises to the Twenty-One Tārās"
+      },
+      "span": {
+        "start": 0,
+        "end": 5048
+      },
+      "subsections": [
+        {
+          "title": {
+            "en": "Meaning of the Title and the Translator's Homage"
+          },
+          "span": {
+            "start": 0,
+            "end": 197
+          }
+        },
+        {
+          "title": {
+            "en": "The Actual Praise"
+          },
+          "span": {
+            "start": 197,
+            "end": 4019
+          }
+        },
+        {
+          "title": {
+            "en": "The Benefits of the Praise"
+          },
+          "span": {
+            "start": 4019,
+            "end": 4954
+          }
+        },
+        {
+          "title": {
+            "en": "Colophon"
+          },
+          "span": {
+            "start": 4954,
+            "end": 5048
+          }
+        }
+      ]
+    }
+  ]
+}

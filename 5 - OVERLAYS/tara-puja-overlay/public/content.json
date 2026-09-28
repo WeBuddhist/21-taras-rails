@@ -1,0 +1,1119 @@
+{
+  "_README": "Content for the 21 Praises to Tara puja overlay. TIBETAN IS SOURCE OF TRUTH: structure is homage, root praise, then 21 numbered praises (Tibetan ॥1॥–॥21॥). English meanings are realigned to sit under the correct Tibetan stanza. FIELDS TO FILL: meaning.zh and meaning.hi (empty arrays); section titles zh/hi/bo. 'translit_full' is the 4-line romanized chant; 'uchen' and meaning.bo hold the Tibetan. FOR KHENPO REVIEW: (1) confirm Uchen spelling/stacking; (2) confirm the English realignment by one against the Tibetan; (3) CONFIRM whether the Root Praise repeats each round — for this proof of concept it is inside the repeat loop, but that is a guess pending review.",
+  "languages": [
+    "en",
+    "zh",
+    "hi",
+    "bo"
+  ],
+  "review_flags": [
+    "English realigned to the transliteration by meaning (root = mantra homage; praise-N = English PDF Tara N). Khenpo to confirm.",
+    "Root Praise repeats with the 21 each round (PoC assumption — khenpo to confirm).",
+    "Uchen transcribed from pasted Tibetan text, not verified glyph-by-glyph (khenpo to confirm).",
+    "zh and hi meanings not yet provided (translator to fill).",
+    "Tara images are V.V. Sapar's copyrighted paintings, extracted from the source PDF for this proof of concept. They require licensing/permission before any public broadcast, or replacement with images WeBuddhist has rights to.",
+    "Tibetan Tara names were auto-extracted from each verse's first Uchen line by stripping the leading ཕྱག་འཚལ (homage) — khenpo to confirm each name is cut cleanly and correctly.",
+    "Chinese is the Taishō-canon translation (大正藏 Vol.20 No.1108A) from the Siddhartha's Intent liturgy; Chinese Tara names are the first clause of each verse (敬禮 stripped). Root verse zh left empty (canon text starts at praise 1).",
+    "Chinese phonetic transliteration (translit_zh) of the Tibetan is a MACHINE PLACEHOLDER for Mandarin/Taiwan, following Siddhartha's Intent mantra character conventions where sounds overlap. It is lossy (Tibetan has sounds Mandarin lacks) and MUST be replaced with a human-made version reviewed by the sangha before broadcast."
+  ],
+  "sequence": [
+    {
+      "type": "section",
+      "id": "refuge",
+      "title": {
+        "en": "Refuge",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      }
+    },
+    {
+      "type": "section",
+      "id": "bodhichitta",
+      "title": {
+        "en": "Bodhichitta",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      }
+    },
+    {
+      "type": "verse",
+      "id": "homage",
+      "label": {
+        "en": "Opening Homage",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      },
+      "uchen": "ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །",
+      "translit": "om jetsünma pakma drolma la chaktsal lo",
+      "translit_full": [
+        "om jetsünma pakma drolma la chaktsal lo"
+      ],
+      "names": {
+        "sanskrit": "",
+        "en": "",
+        "bo": "ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ"
+      },
+      "meaning": {
+        "en": [],
+        "zh": [],
+        "hi": [],
+        "bo": [
+          "ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །"
+        ]
+      }
+    },
+    {
+      "type": "loop_start",
+      "id": "taras_loop",
+      "title": {
+        "en": "The 21 Praises (root + 21)",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      }
+    },
+    {
+      "type": "verse",
+      "id": "root",
+      "label": {
+        "en": "Root Praise",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      },
+      "uchen": "ཕྱག་འཚལ་ཏཱ་རེ་མྱུར་མ་དཔའ་མོ། །\nཏུཏྟཱ་ར་ཡིས་འཇིགས་པ་སེལ་མ། །\nཏུ་རེས་དོན་ཀུན་སྦྱིན་པས་སྒྲོལ་མ། །\nསྭཱ་ཧའི་ཡི་གེ་ཁྱོད་ལ་འདུད་དོ། །",
+      "translit": "chaktsal taré nyurma pamo",
+      "translit_full": [
+        "chaktsal taré nyurma pamo",
+        "tuttara yi jikpa selma",
+        "turé dön kün jinpé drolma",
+        "sa hé yigé khyö la dü do"
+      ],
+      "names": {
+        "sanskrit": "",
+        "en": "Root Verse (mantra homage)",
+        "bo": "ཏཱ་རེ་མྱུར་མ་དཔའ་མོ"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tārā, so swift and courageous,",
+          "Mother who banishes fear with tuttāre,",
+          "With ture, you meet all our needs and our wishes,",
+          "With svāhā, great mother, we bow down before you."
+        ],
+        "zh": [],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཏཱ་རེ་མྱུར་མ་དཔའ་མོ། །",
+          "ཏུཏྟཱ་ར་ཡིས་འཇིགས་པ་སེལ་མ། །",
+          "ཏུ་རེས་དོན་ཀུན་སྦྱིན་པས་སྒྲོལ་མ། །",
+          "སྭཱ་ཧའི་ཡི་གེ་ཁྱོད་ལ་འདུད་དོ། །"
+        ]
+      }
+    },
+    {
+      "type": "verse",
+      "id": "praise-1",
+      "number": 1,
+      "uchen": "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །\nསྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །\nའཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། །\nགེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །",
+      "translit": "chaktsal drolma nyurma pamo",
+      "translit_full": [
+        "chaktsal drolma nyurma pamo",
+        "chen ni kechik lok dang dra ma",
+        "jikten sum gön chukyé zhal gyi",
+        "gesar jewa lé ni jung ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-TURE-VIRA-TĀRĀ",
+        "en": "Tārā Swift and Heroic",
+        "bo": "སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ",
+        "zh": "救度速勇母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, so swift and courageous,",
+          "Your eyes flash like lightning, so quick and all-seeing,",
+          "Born from the tears of the Lord of Trailokya",
+          "At the heart of a beautiful lotus in blossom."
+        ],
+        "zh": [
+          "敬禮救度速勇母",
+          "目如剎那電光照",
+          "三世界尊蓮華面",
+          "從妙華中現端嚴"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །",
+          "སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །",
+          "འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། །",
+          "གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །"
+        ]
+      },
+      "image": "images/tara-1.jpg",
+      "translit_zh": [
+        "恰擦 卓瑪 紐瑪 巴摩",
+        "千 尼 給計 洛當 札瑪",
+        "吉滇 孫袞 曲介 夏吉",
+        "給薩 傑瓦 磊尼 炯瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-2",
+      "number": 2,
+      "uchen": "ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། །\nགང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། །\nསྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱི། །\nརབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ། །",
+      "translit": "chaktsal tönké dawa küntu",
+      "translit_full": [
+        "chaktsal tönké dawa küntu",
+        "gangwa gya ni tsekpé zhal ma",
+        "karma tongtrak tsokpa nam kyi",
+        "rabtu chewé ö rab bar ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-SHUKLA-KANTA-TĀRĀ",
+        "en": "Tārā White as Autumn Moon",
+        "bo": "སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ",
+        "zh": "百秋朗月母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose smile is as radiant,",
+          "As one hundred million full autumnal moons;",
+          "Ablaze with the light of the stars in their thousands,",
+          "You shine with a transcendent light of perfection."
+        ],
+        "zh": [
+          "敬禮百秋朗月母",
+          "普遍圓滿無垢面",
+          "如千星宿俱時聚",
+          "殊勝威光超於彼"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། །",
+          "གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། །",
+          "སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱི། །",
+          "རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ། །"
+        ]
+      },
+      "image": "images/tara-2.jpg",
+      "translit_zh": [
+        "恰擦 敦給 達瓦 袞杜",
+        "岡瓦 甲 尼 冊貝 夏瑪",
+        "噶瑪 東札 措巴 南吉",
+        "拉杜 切威 沃 拉巴瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-3",
+      "number": 3,
+      "uchen": "ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །\nཔདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། །\nསྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། །\nབཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ། །",
+      "translit": "chaktsal ser ngo chu né kyé kyi",
+      "translit_full": [
+        "chaktsal ser ngo chu né kyé kyi",
+        "pemé chak ni nampar gyen ma",
+        "jinpa tsöndrü katub zhiwa",
+        "zöpa samten chöyul nyi ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-KANAKA-VARNA-TĀRĀ",
+        "en": "Golden-Colored Tārā",
+        "bo": "སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི",
+        "zh": "紫磨金色母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, our golden-skinned mother;",
+          "Adorning your hand is an azure-blue lotus.",
+          "Kind, open-handed, hard-working and patient,",
+          "And one with the state of samadhi perfected."
+        ],
+        "zh": [
+          "敬禮紫磨金色母",
+          "妙蓮華手勝莊嚴",
+          "施精勤行柔善靜",
+          "忍辱禪定性無境"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །",
+          "པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། །",
+          "སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། །",
+          "བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ། །"
+        ]
+      },
+      "image": "images/tara-3.jpg",
+      "translit_zh": [
+        "恰擦 色 悟 曲內 給吉",
+        "貝美 恰 尼 南巴 建瑪",
+        "錦巴 尊珠 嘎圖 希瓦",
+        "若巴 桑滇 卻宇 尼瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-4",
+      "number": 4,
+      "uchen": "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། །\nམཐའ་ཡས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་མ། །\nམ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། །\nརྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ། །",
+      "translit": "chaktsal dezhin shekpé tsuktor",
+      "translit_full": [
+        "chaktsal dezhin shekpé tsuktor",
+        "tayé nampar gyalwa chö ma",
+        "malü parol chinpa tobpé",
+        "gyalwé sé kyi shintu ten ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-TATHAGATOSHNISHI-TĀRĀ",
+        "en": "Tārā Victorious Ushnisha",
+        "bo": "དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར",
+        "zh": "如來頂髻母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose victories are endless,",
+          "The crown on the heads of the Tathagatas.",
+          "Praised by the masters of all the perfections,",
+          "All bodhisattvas rely on your guidance."
+        ],
+        "zh": [
+          "敬禮如來頂髻母",
+          "最勝能滿無邊行",
+          "得到彼岸盡無餘",
+          "勝勢佛子極所愛"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། །",
+          "མཐའ་ཡས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་མ། །",
+          "མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། །",
+          "རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ། །"
+        ]
+      },
+      "image": "images/tara-4.jpg",
+      "translit_zh": [
+        "恰擦 迭欽 謝貝 促多",
+        "塔耶 南巴 甲瓦 卻瑪",
+        "瑪呂 帕若 欽巴 拓貝",
+        "甲威 色吉 欣度 滇瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-5",
+      "number": 5,
+      "uchen": "ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུྃ་ཡི་གེ། །\nའདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ། །\nའཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། །\nལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ། །",
+      "translit": "chaktsal tuttara hung yigé",
+      "translit_full": [
+        "chaktsal tuttara hung yigé",
+        "dö dang chok dang namkha gang ma",
+        "jikten dünpo zhab kyi nen té",
+        "lüpa mepar gukpar nü ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-HUMKARA-NADINI-TĀRĀ",
+        "en": "Tārā Proclaiming the Sound of Hum",
+        "bo": "ཏུཏྟཱ་ར་ཧཱུྃ་ཡི་གེ",
+        "zh": "都怛囉吽母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, our spellbinding Mother,",
+          "You create all of space with your hūṃ and tuttāre,",
+          "All beings you magnetize, without exception,",
+          "And trample the seven worlds under your feet."
+        ],
+        "zh": [
+          "敬禮都怛囉吽母",
+          "聲愛方所滿虛空",
+          "運足遍履七世界",
+          "悉能鉤召攝無餘"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུྃ་ཡི་གེ། །",
+          "འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ། །",
+          "འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། །",
+          "ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ། །"
+        ]
+      },
+      "image": "images/tara-5.jpg",
+      "translit_zh": [
+        "恰擦 都達拉 吽 宜給",
+        "朵當 卻當 南卡 岡瑪",
+        "吉滇 敦波 夏吉 年迭",
+        "呂巴 美巴 姑巴 女瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-6",
+      "number": 6,
+      "uchen": "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། །\nརླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། །\nའབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །\nགནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །",
+      "translit": "chaktsal gyajin melha tsangpa",
+      "translit_full": [
+        "chaktsal gyajin melha tsangpa",
+        "lunglha natsok wangchuk chö ma",
+        "jungpo rolang driza nam dang",
+        "nöjin tsok kyi dün né tö ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-TRAILOKYA-VIJAYA-TĀRĀ",
+        "en": "Tārā Victorious Over the 3 Worlds",
+        "bo": "བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ",
+        "zh": "釋梵火天母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whom all the gods worship,",
+          "Indra, Marut, Agni, Shiva and Brahma;",
+          "Praised by the demons who harm and assail us,",
+          "Ghosts, spirits, zombies, gandharvas and yakṣas."
+        ],
+        "zh": [
+          "敬禮釋梵火天母",
+          "風神自在眾俱集",
+          "部多起屍尋香等",
+          "諸藥叉眾作稱歎"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། །",
+          "རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། །",
+          "འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། །",
+          "གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །"
+        ]
+      },
+      "image": "images/tara-6.jpg",
+      "translit_zh": [
+        "恰擦 甲金 美拉 倉巴",
+        "隆拉 那措 汪秋 卻瑪",
+        "炯波 若朗 直薩 南當",
+        "女錦 措吉 敦內 對瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-7",
+      "number": 7,
+      "uchen": "ཕྱག་འཚལ་ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། །\nཕ་རོལ་འཕྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། །\nགཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་མནན་ཏེ། །\nམེ་འབར་འཁྲུག་པ་ཤིན་ཏུ་འབར་མ། །",
+      "translit": "chaktsal tré cheja dang pé kyi",
+      "translit_full": [
+        "chaktsal tré cheja dang pé kyi",
+        "parol trulkhor rabtu jom ma",
+        "yé kum yön kyang zhab kyi nen té",
+        "mebar trukpa shintu bar ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-PRAMARDINI-TĀRĀ",
+        "en": "Tārā Crushing Adversaries",
+        "bo": "ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས",
+        "zh": "呼遮作呸母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, who crushes black magic,",
+          "With traṭ and with phaṭ you destroy harmful forces;",
+          "You dance, right knee bent and the left leg extended,",
+          "All magic consumed in a blazing inferno."
+        ],
+        "zh": [
+          "敬禮呼遮作呸母",
+          "於他加行極摧壞",
+          "展左踡右作足踏",
+          "頂髻熾盛極明耀"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། །",
+          "ཕ་རོལ་འཕྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། །",
+          "གཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་མནན་ཏེ། །",
+          "མེ་འབར་འཁྲུག་པ་ཤིན་ཏུ་འབར་མ། །"
+        ]
+      },
+      "image": "images/tara-7.jpg",
+      "translit_zh": [
+        "恰擦 澤 切甲 當 貝吉",
+        "帕若 促科 拉杜 炯瑪",
+        "耶 袞 元強 夏吉 年迭",
+        "美巴 楚巴 欣度 巴瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-8",
+      "number": 8,
+      "uchen": "ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་པོས། །\nབདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། །\nཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། །\nདགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ། །",
+      "translit": "chaktsal turé jikpa chenpö",
+      "translit_full": [
+        "chaktsal turé jikpa chenpö",
+        "dü kyi pawo nampar jom ma",
+        "chukyé zhal ni tronyer den dzé",
+        "drawo tamché malü sö ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-MARA-MARDANESHVARI-TĀRĀ",
+        "en": "Tārā Who Bestows Supreme Powers",
+        "bo": "ཏུ་རེ་འཇིགས་པ་ཆེན་པོས",
+        "zh": "都哩大緊母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose spine-chilling ture",
+          "Vanquishes even the powerful Mara;",
+          "Wrinkling her beautiful brow in fierce anger,",
+          "She crushes all foes and destroys them completely."
+        ],
+        "zh": [
+          "敬禮都哩大緊母",
+          "勇猛能摧怨魔類",
+          "於蓮華面作顰眉",
+          "摧壞一切冤家眾"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་པོས། །",
+          "བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། །",
+          "ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། །",
+          "དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ། །"
+        ]
+      },
+      "image": "images/tara-8.jpg",
+      "translit_zh": [
+        "恰擦 都蕊 吉巴 千波",
+        "杜吉 巴沃 南巴 炯瑪",
+        "曲介 夏 尼 卓涅 滇則",
+        "札沃 談切 瑪呂 索瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-9",
+      "number": 9,
+      "uchen": "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། །\nསོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། །\nམ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི། །\nརང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུག་མ། །",
+      "translit": "chaktsal könchok sum tsön chakgyé",
+      "translit_full": [
+        "chaktsal könchok sum tsön chakgyé",
+        "sormö tukkar nampar gyen ma",
+        "malü chok kyi khorlö gyenpé",
+        "rang gi ö kyi tsok nam truk ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-KHADIRA-VANI-TĀRĀ",
+        "en": "Tārā Granter of Boons",
+        "bo": "དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི",
+        "zh": "三寶嚴印母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, the radiant lady,",
+          "You form at your heart the three Rare and Supreme,",
+          "Mother, whose radiance fills all directions",
+          "With brilliant light that bedazzles all thinking."
+        ],
+        "zh": [
+          "敬禮三寶嚴印母",
+          "手指當心威嚴相",
+          "嚴飾方輪盡無餘",
+          "自身熾盛光聚種"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། །",
+          "སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། །",
+          "མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི། །",
+          "རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུག་མ། །"
+        ]
+      },
+      "image": "images/tara-9.jpg",
+      "translit_zh": [
+        "恰擦 袞秋 孫 尊 恰給",
+        "索摩 圖噶 南巴 建瑪",
+        "瑪呂 卻吉 科洛 建貝",
+        "讓吉 沃吉 措南 楚瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-10",
+      "number": 10,
+      "uchen": "ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི། །\nདབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ། །\nབཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས། །\nབདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ། །",
+      "translit": "chaktsal rabtu gawa jipé",
+      "translit_full": [
+        "chaktsal rabtu gawa jipé",
+        "ugyen ö kyi trengwa pelma",
+        "zhepa rab zhé tuttara yi",
+        "dü dang jikten wang du dzé ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-SHOKA-VINODANI-TĀRĀ",
+        "en": "Tārā Dispeller of Sorrow",
+        "bo": "རབ་ཏུ་དགའ་བ་བརྗིད་པའི",
+        "zh": "威德歡悅母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose sparkling tiara,",
+          "Shines with the light of her limitless joy.",
+          "Your laughter and tuttāre topple all demons,",
+          "Subduing all worlds with exultant delight."
+        ],
+        "zh": [
+          "敬禮威德歡悅母",
+          "寶冠珠鬘眾光飾",
+          "最極喜笑覩怛哩",
+          "鎮世間魔作攝伏"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི། །",
+          "དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ། །",
+          "བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས། །",
+          "བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ། །"
+        ]
+      },
+      "image": "images/tara-10.jpg",
+      "translit_zh": [
+        "恰擦 拉杜 嘎瓦 吉貝",
+        "悟建 沃吉 稱瓦 貝瑪",
+        "協巴 拉協 都達拉 宜",
+        "杜當 吉滇 汪杜 則瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-11",
+      "number": 11,
+      "uchen": "ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས། །\nཐམས་ཅད་འགུགས་པར་ནུས་པ་ཉིད་མ། །\nཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུྃ་གིས། །\nཕོངས་པ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་མ། །",
+      "translit": "chaktsal sa zhi kyongwé tsok nam",
+      "translit_full": [
+        "chaktsal sa zhi kyongwé tsok nam",
+        "tamché gukpar nüpa nyi ma",
+        "tronyer yowé yigé hung gi",
+        "pongpa tamché nampar drolma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-JAGADVASHI-TĀRĀ",
+        "en": "Tārā Summoner of Beings",
+        "bo": "ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས",
+        "zh": "守護眾地母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, the Mother who summons",
+          "All the world's leaders with hūṃ and a frown.",
+          "You free us from hardship, from need and misfortune,",
+          "From homelessness, poverty, hunger and thirst."
+        ],
+        "zh": [
+          "敬禮守護眾地母",
+          "亦能鉤召諸神眾",
+          "搖顰眉面吽聲字",
+          "一切衰敗令度脫"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས། །",
+          "ཐམས་ཅད་འགུགས་པར་ནུས་པ་ཉིད་མ། །",
+          "ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུྃ་གིས། །",
+          "ཕོངས་པ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་མ། །"
+        ]
+      },
+      "image": "images/tara-11.jpg",
+      "translit_zh": [
+        "恰擦 薩 希 炯威 措南",
+        "談切 姑巴 女巴 尼瑪",
+        "卓涅 有威 宜給 吽 吉",
+        "朋巴 談切 南巴 卓瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-12",
+      "number": 12,
+      "uchen": "ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །\nབརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །\nརལ་པའི་ཁྲོད་ན་འོད་དཔག་མེད་ལས། །\nརྟག་པར་ཤིན་ཏུ་འོད་རབ་མཛད་མ། །",
+      "translit": "chaktsal dawé dumbü ugyen",
+      "translit_full": [
+        "chaktsal dawé dumbü ugyen",
+        "gyenpa tamché shintu bar ma",
+        "ralpé trö na öpakmé lé",
+        "takpar shintu ö rab dzé ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-MANGALALOKA-TĀRĀ",
+        "en": "Tārā Auspiciously Shining",
+        "bo": "ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན",
+        "zh": "頂冠月相母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose bright shining tiara,",
+          "Is graced with a brilliant crescent new moon.",
+          "Sitting amidst your thick mane of black tresses,",
+          "Is Lord Amitabha irradiant with light."
+        ],
+        "zh": [
+          "敬禮頂冠月相母",
+          "冠中現勝妙嚴光",
+          "阿彌陀佛髻中現",
+          "常放眾妙寶光明"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུའི་དབུ་རྒྱན། །",
+          "བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། །",
+          "རལ་པའི་ཁྲོད་ན་འོད་དཔག་མེད་ལས། །",
+          "རྟག་པར་ཤིན་ཏུ་འོད་རབ་མཛད་མ། །"
+        ]
+      },
+      "image": "images/tara-12.jpg",
+      "translit_zh": [
+        "恰擦 達威 敦布 悟建",
+        "建巴 談切 欣度 巴瑪",
+        "若貝 卓 那 沃巴美 磊",
+        "塔巴 欣度 沃 拉則瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-13",
+      "number": 13,
+      "uchen": "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར། །\nའབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། །\nགཡས་བརྐྱང་གཡོན་བསྐུམ་ཀུན་ནས་བསྐོར་དགའི། །\nདགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ། །",
+      "translit": "chaktsal kalpa tamé mé tar",
+      "translit_full": [
+        "chaktsal kalpa tamé mé tar",
+        "barwé trengwé ü na né ma",
+        "yé kyang yön kum künné kor gé",
+        "dra yi pung ni nampar jom ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-PARICHAYIKA-TĀRĀ",
+        "en": "Tārā the Ripener",
+        "bo": "བསྐལ་པ་ཐ་མའི་མེ་ལྟར",
+        "zh": "如盡劫火母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, encircled by fire,",
+          "Infernos of flames, like the end of all time.",
+          "Truth's enemies and their great armies you vanquish,",
+          "And spin, right leg stretched with your left leg drawn in."
+        ],
+        "zh": [
+          "敬禮如盡劫火母",
+          "安住熾盛頂髻中",
+          "普遍喜悅半趺坐",
+          "能摧滅壞惡冤輪"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར། །",
+          "འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། །",
+          "གཡས་བརྐྱང་གཡོན་བསྐུམ་ཀུན་ནས་བསྐོར་དགའི། །",
+          "དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ། །"
+        ]
+      },
+      "image": "images/tara-13.jpg",
+      "translit_zh": [
+        "恰擦 嘎巴 塔美 美達",
+        "巴威 稱威 悟 那 內瑪",
+        "耶強 元袞 袞內 果給",
+        "札宜 邦 尼 南巴 炯瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-14",
+      "number": 14,
+      "uchen": "ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། །\nམཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ། །\nཁྲོ་གཉེར་ཅན་མཛད་ཡི་གེ་ཧཱུྃ་གིས། །\nརིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ། །",
+      "translit": "chaktsal sa zhi ngö la chak gi",
+      "translit_full": [
+        "chaktsal sa zhi ngö la chak gi",
+        "til gyi nün ching zhab kyi dung ma",
+        "tronyer chen dzé yigé hung gi",
+        "rimpa dünpo nam ni gem ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-BHRIKUTI-TĀRĀ",
+        "en": "Tārā with a Frown",
+        "bo": "ས་གཞིའི་ངོས་ལ་ཕྱག་གི",
+        "zh": "手按大地母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, who strikes the earth's surface",
+          "You pound with your palms and you stamp with your feet;",
+          "With hūṃ and a glowering scowl, all your anger",
+          "Shatters the underworld's layers, all seven."
+        ],
+        "zh": [
+          "敬禮手按大地母",
+          "以足踐蹋作鎮壓",
+          "現顰眉面作吽聲",
+          "能破七險鎮降伏"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། །",
+          "མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ། །",
+          "ཁྲོ་གཉེར་ཅན་མཛད་ཡི་གེ་ཧཱུྃ་གིས། །",
+          "རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ། །"
+        ]
+      },
+      "image": "images/tara-14.jpg",
+      "translit_zh": [
+        "恰擦 薩 希 悟 拉 恰吉",
+        "提吉 女慶 夏吉 東瑪",
+        "卓涅 千 則 宜給 吽 吉",
+        "仁巴 敦波 南尼 給瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-15",
+      "number": 15,
+      "uchen": "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། །\nམྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། །\nསྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས། །\nསྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ། །",
+      "translit": "chaktsal dé ma gé ma zhi ma",
+      "translit_full": [
+        "chaktsal dé ma gé ma zhi ma",
+        "nya ngen dé zhi chöyul nyi ma",
+        "soha om dang yangdak denpé",
+        "dikpa chenpo jompa nyi ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-MAHASHANTA-TĀRĀ",
+        "en": "Tārā of Great Peace",
+        "bo": "བདེ་མ་དགེ་མ་ཞི་མ",
+        "zh": "安穩柔善母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, the one who is blissful,",
+          "You are liberation, your province is peace,",
+          "With oṃ and with svāhā, so perfectly rendered",
+          "You lay waste to all the worst evils and sufferings."
+        ],
+        "zh": [
+          "敬禮安穩柔善母",
+          "涅槃寂滅最樂境",
+          "莎訶嗡字以相應",
+          "善能消滅大災禍"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། །",
+          "མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། །",
+          "སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས། །",
+          "སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ། །"
+        ]
+      },
+      "image": "images/tara-15.jpg",
+      "translit_zh": [
+        "恰擦 迭瑪 給瑪 希瑪",
+        "娘涅 迭希 卻宇 尼瑪",
+        "梭哈 嗡 當 揚達 滇貝",
+        "迪巴 千波 炯巴 尼瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-16",
+      "number": 16,
+      "uchen": "ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། །\nདགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། །\nཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི། །\nརིག་པ་ཧཱུྃ་ལས་སྒྲོལ་མ་ཉིད་མ། །",
+      "translit": "chaktsal künné kor rabga bé",
+      "translit_full": [
+        "chaktsal künné kor rabga bé",
+        "dra yi lü ni rabtu gem ma",
+        "yigé chupé ngak ni köpé",
+        "rigpa hung lé drölma nyi ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-RAGA-NISHUDANI-TĀRĀ",
+        "en": "Tārā Destroyer of Attachment",
+        "bo": "ཀུན་ནས་བསྐོར་རབ་དགའ་བའི",
+        "zh": "普遍極喜母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, immersed in deep rapture,",
+          "You shatter the bodies of all of your foes;",
+          "Declaiming your ten letters and hūm of wisdom,",
+          "You liberate every suffering being."
+        ],
+        "zh": [
+          "敬禮普遍極喜母",
+          "諸怨支體令脫離",
+          "十字呪句妙嚴布",
+          "明呪吽聲常朗耀"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། །",
+          "དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། །",
+          "ཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི། །",
+          "རིག་པ་ཧཱུྃ་ལས་སྒྲོལ་མ་ཉིད་མ། །"
+        ]
+      },
+      "image": "images/tara-16.jpg",
+      "translit_zh": [
+        "恰擦 袞內 果 拉嘎 貝",
+        "札宜 呂 尼 拉杜 給瑪",
+        "宜給 曲貝 那 尼 果貝",
+        "日巴 吽 磊 卓瑪 尼瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-17",
+      "number": 17,
+      "uchen": "ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། །\nཧཱུྃ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། །\nརི་རབ་མནྡ་ར་དང་འབིགས་བྱེད། །\nའཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། །",
+      "translit": "chaktsal turé zhab ni dabpé",
+      "translit_full": [
+        "chaktsal turé zhab ni dabpé",
+        "hung gi nampé sabön nyi ma",
+        "rirab mendara dang bikjé",
+        "jikten sum nam yowa nyi ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-SUKHA-SADHANI-TĀRĀ",
+        "en": "Tārā Accomplishing Bliss",
+        "bo": "ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས",
+        "zh": "都哩巴帝母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, the bold dancing lady,",
+          "With ture, you stomp and all obstacles perish,",
+          "With hūṃ, Mount Meru, Mandara, and Vindhya,",
+          "And the three worlds of existence all tremble."
+        ],
+        "zh": [
+          "敬禮都哩巴帝母",
+          "足躡相勢吽字種",
+          "須彌曼陀及賓陀",
+          "於此三處能搖動"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། །",
+          "ཧཱུྃ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། །",
+          "རི་རབ་མནྡ་ར་དང་འབིགས་བྱེད། །",
+          "འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། །"
+        ]
+      },
+      "image": "images/tara-17.jpg",
+      "translit_zh": [
+        "恰擦 都蕊 夏 尼 達貝",
+        "吽 吉 南貝 薩本 尼瑪",
+        "日拉 面達拉 當 比介",
+        "吉滇 孫南 有瓦 尼瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-18",
+      "number": 18,
+      "uchen": "ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། །\nརི་དྭགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ། །\nཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས། །\nདུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ། །",
+      "translit": "chaktsal lha yi tso yi nampé",
+      "translit_full": [
+        "chaktsal lha yi tso yi nampé",
+        "ridak takchen chak na nam ma",
+        "tara nyi jö pé kyi yigé",
+        "duk nam malüpar ni selma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-VIJAYA-TĀRĀ",
+        "en": "Victorious Liberating One",
+        "bo": "ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི",
+        "zh": "薩囉天海母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, who holds in her white hand,",
+          "A moon – deer-marked moon – like a heavenly lake;",
+          "Expunging all traces of toxins and venom",
+          "You purge all the poisons with tāra tāra phaṭ."
+        ],
+        "zh": [
+          "敬禮薩囉天海母",
+          "手中執住神獸像",
+          "誦二怛囉作發聲",
+          "能滅諸毒盡無餘"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། །",
+          "རི་དྭགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ། །",
+          "ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས། །",
+          "དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ། །"
+        ]
+      },
+      "image": "images/tara-18.jpg",
+      "translit_zh": [
+        "恰擦 拉宜 措宜 南貝",
+        "日達 達千 恰那 南瑪",
+        "達拉 尼 卓 呸吉 宜給",
+        "杜南 瑪呂巴 尼 些瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-19",
+      "number": 19,
+      "uchen": "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། །\nལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། །\nཀུན་ནས་གོ་ཆ་དགའ་བ་བརྗིད་ཀྱིས། །\nརྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ། །",
+      "translit": "chaktsal lha yi tsok nam gyalpo",
+      "translit_full": [
+        "chaktsal lha yi tsok nam gyalpo",
+        "lha dang mi'amchi yi ten ma",
+        "künné gocha gawa ji kyi",
+        "tsö dang milam ngenpa selma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-DUKHA-DAHANI-TĀRĀ",
+        "en": "Tārā Burner of Suffering",
+        "bo": "ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ",
+        "zh": "諸天集會母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, who all the gods count on,",
+          "Their kings and their gods and kiṃnaras all trust;",
+          "Your armour of joy and contentment is splendid,",
+          "It clears away nightmares and soothes away strife."
+        ],
+        "zh": [
+          "敬禮諸天集會母",
+          "天緊那羅所依愛",
+          "威德歡悅若堅鎧",
+          "滅除鬪諍及惡夢"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། །",
+          "ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ། །",
+          "ཀུན་ནས་གོ་ཆ་དགའ་བ་བརྗིད་ཀྱིས། །",
+          "རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ། །"
+        ]
+      },
+      "image": "images/tara-19.jpg",
+      "translit_zh": [
+        "恰擦 拉宜 措南 甲波",
+        "拉當 米昂吉 宜 滇瑪",
+        "袞內 果恰 嘎瓦 吉吉",
+        "作當 米朗 涅巴 些瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-20",
+      "number": 20,
+      "uchen": "ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི། །\nསྤྱན་གཉིས་པོ་ལ་འོད་རབ་གསལ་མ། །\nཧ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས། །\nཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་སེལ་མ། །",
+      "translit": "chaktsal nyima dawa gyepé",
+      "translit_full": [
+        "chaktsal nyima dawa gyepé",
+        "chen nyipo la ö rabsal ma",
+        "hara nyi jö tuttara yi",
+        "shintu drakpö rimné selma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-SIDDHI-SAMBHAVA-TĀRĀ",
+        "en": "Tārā Source of Siddhis",
+        "bo": "ཉི་མ་ཟླ་བ་རྒྱས་པའི",
+        "zh": "日月廣圓母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, whose lustrous eyes sparkle",
+          "And shine with the light of the sun and full moon,",
+          "Uttering hara hara and tuttāre,",
+          "You pacify all the most vicious pandemics."
+        ],
+        "zh": [
+          "敬禮日月廣圓母",
+          "目覩猶勝普光照",
+          "誦二喝囉咄怛哩",
+          "善除惡毒瘟熱病"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི། །",
+          "སྤྱན་གཉིས་པོ་ལ་འོད་རབ་གསལ་མ། །",
+          "ཧ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས། །",
+          "ཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་སེལ་མ། །"
+        ]
+      },
+      "image": "images/tara-20.jpg",
+      "translit_zh": [
+        "恰擦 尼瑪 達瓦 傑貝",
+        "千 尼波 拉 沃 拉薩瑪",
+        "哈拉 尼 卓 都達拉 宜",
+        "欣度 札貝 仁涅 些瑪"
+      ]
+    },
+    {
+      "type": "verse",
+      "id": "praise-21",
+      "number": 21,
+      "uchen": "ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པས། །\nཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ། །\nགདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས། །\nའཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ། །",
+      "translit": "chaktsal denyi sum nam köpé",
+      "translit_full": [
+        "chaktsal denyi sum nam köpé",
+        "zhiwé tu dang yangdak den ma",
+        "dön dang rolang nöjin tsok nam",
+        "jompa turé rab chok nyi ma"
+      ],
+      "names": {
+        "sanskrit": "ARYA-PARINISHPANNA-TĀRĀ",
+        "en": "Tārā the Perfecter",
+        "bo": "དེ་ཉིད་གསུམ་རྣམས་བཀོད་པས",
+        "zh": "具三真實母"
+      },
+      "meaning": {
+        "en": [
+          "Homage to Tara, who with three tathātās,",
+          "Commands all the power she needs to bring peace.",
+          "Supreme Ture, you are the one who annihilates,",
+          "The hordes of grahas, vetālas, and the yakṣas."
+        ],
+        "zh": [
+          "敬禮具三真實母",
+          "善靜威力皆具足",
+          "藥叉執魅尾怛辣",
+          "都哩最極除災禍"
+        ],
+        "hi": [],
+        "bo": [
+          "ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པས། །",
+          "ཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ། །",
+          "གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས། །",
+          "འཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ། །"
+        ]
+      },
+      "image": "images/tara-21.jpg",
+      "translit_zh": [
+        "恰擦 迭尼 孫南 果貝",
+        "希威 圖當 揚達 滇瑪",
+        "對當 若朗 女錦 措南",
+        "炯巴 都蕊 拉 卻 尼瑪"
+      ]
+    },
+    {
+      "type": "loop_end",
+      "id": "taras_loop_end"
+    },
+    {
+      "type": "section",
+      "id": "dedication",
+      "title": {
+        "en": "Dedication of Merit",
+        "zh": "",
+        "hi": "",
+        "bo": ""
+      }
+    }
+  ]
+}

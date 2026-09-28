@@ -18,7 +18,7 @@ For the category-wide convention (what `requirements.md` and `termbase.md` must 
 
 ## Current tracks
 
-No tracks exist yet — add them as they are commissioned. Each track folder is named `<lang>-<descriptor>/` (e.g. `en-contemporary/`, `bn-scholarly/`). Each track's `requirements.md` is written **in its own target language** — the working language for that track's drafters and reviewers.
+See **[[00-INDEX-current-translations]]** for which file is the current translation in each language, and what checks it has had. Add new tracks as they are commissioned. Each track folder is named `<lang>-<descriptor>/` (e.g. `en-contemporary/`, `bn-scholarly/`). Each track's `requirements.md` is written **in its own target language** — the working language for that track's drafters and reviewers.
 
 ---
 

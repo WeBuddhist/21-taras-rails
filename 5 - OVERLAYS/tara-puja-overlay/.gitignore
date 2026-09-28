@@ -1,0 +1,12 @@
+# Node dependencies — reinstall with `npm install`
+node_modules/
+
+# Logs / local runtime
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+
+# Exported OBS profiles may contain stream keys — never commit real keys.
+# Commit only key-scrubbed scene collections / profiles under obs/.

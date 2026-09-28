@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "source": "/sessions/rcw-01hesxe9hczshzdudaktd6ke/mnt/21-taras-rails/3-TRANSFORMATIONS/Translations/vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general.md",
+  "validated_at": "2026-09-24T14:03:24.332188+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "date: not set (optional)",
+    "commentary_of: not set (optional)",
+    "root_text: '1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://ai.google.dev'",
+    "toc: 5 headers found"
+  ],
+  "warnings": [
+    "alt_titles: missing — ignored for now",
+    "translator 'gemini-3.1-pro-preview (raw zero-shot draft)': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'termbase-enforced': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'meaning-checked and commentary-fact-checked by Claude per keyword-standardize': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'graded-translate Phase 2': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped",
+    "translator 'a back-translation check and commentary-fact-check Phase 1-2': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": null,
+    "title": {
+      "vi": "Tán Thán Hai Mươi Mốt Độ Mẫu"
+    },
+    "alt_titles": null,
+    "language": "vi",
+    "commentary_of": null,
+    "translation_of": "HyUbHGlzS9LsSrgiFQNYE",
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}

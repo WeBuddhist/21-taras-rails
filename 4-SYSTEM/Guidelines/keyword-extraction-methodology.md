@@ -6,7 +6,14 @@ agent, 2026-08-05 onward.
 
 **Companions:** [`claims-methodology.md`](claims-methodology.md) (extraction + question-driven
 consolidation — governs the topic space); the kwiki pipeline's key-term stage
-(`../Pipelines/wikipedia/`) is the intended consumer of the ranked list.
+(`../Pipelines/wikipedia/`) is *one* consumer of the ranked list, and since 2026-09-22 no longer
+the only one — the vocabulary-standardised translation chain (vault annex §4a) is the other.
+
+**Portable form of this document:** `../Skills/keyword-extract/references/keyword-extraction-methodology.md`,
+the de-vaulted version that ships with the `keyword-extract` skill. This file stays the living
+record of the method *as run on this vault*, with the Tārā-21 decisions and changelog. When the
+two disagree about the method itself, they have drifted and should be reconciled; when they
+differ in scope, that is intended.
 
 ---
 
@@ -233,12 +240,83 @@ which is surface-form-independent.
 - Document unit for TF-IDF when English translations of commentaries don't exist (current
   answer: verse-as-document over the root translation only; commentary evidence enters via
   signals A–C, not via English statistics).
-- Where the term registry file lives (`2-RAILS/`? kwiki `corpora/tara21/`?) and its schema.
-- Composite-score weights — tune on the Tārā-21 run, human-reviewed.
+- ~~Where the term registry file lives and its schema.~~ **Resolved 2026-09-22:**
+  `2-RAILS/Keywords/`, schema `source-term-registry/1` (see the changelog entry below). This
+  supersedes the 2026-08-10 resolution, which parked it in `0-INBOX/`.
+- Composite-score weights — tune on the Tārā-21 run, human-reviewed. Still open: the run used
+  A 0.6 / B 0.25 / C 0.15 and no human sanity-check of the resulting ranking has been recorded.
 
 ---
 
 ## Changelog
+
+- **2026-09-22 (second entry)** — **The English detour was measured against a direct read of
+  the Tibetan**, with the new `gemini-keyword-extract` skill (32 blocks, 7 calls,
+  `gemini-3.1-pro-preview`; run in `0-INBOX/temp/keyword-extraction/gemini-direct-2026-09-22/`).
+  This is the first empirical check on §2's core design decision and on §4.3's paraphrase
+  distortion.
+  - **§2's design holds. 46 of the registry's top 50 by composite rank** were independently
+    found by a model reading the Tibetan with no access to the English pivot, the statistics or
+    the claim-density scores. Attention-beats-presence is picking up what a reader of the source
+    picks up.
+  - **§4.3's paraphrase gap is real, and it is multi-word.** Of 54 terms the direct read found
+    that the registry lacks, **43 (80%) are 2+ syllables** — `གནོད་སྦྱིན་ཚོགས་`, `གཡས་བརྐྱང་` /
+    `གཡོན་བསྐུམ་`, `བདུད་ཀྱི་དཔའ་བོ་`, and the doctrinal `དེ་ཉིད་`. §4.3 says string counting
+    "cannot be patched at the string level" and relies on claim-density to cover it; that covers
+    a term the corpus *discusses*, but not one that never entered the registry at all. A phrase
+    English renders idiomatically does not survive as an English keyword, so Step 1 never
+    generates it and Step 3 never maps it. **Open: whether Step 3's registry-build should take a
+    direct-read pass as a second recall source.** Cheap — 7 calls for this text.
+  - **Granularity differs more than coverage.** 66 of the 191 registry-only terms (35%) are a
+    *substring* of a term the direct read returned whole (`གསེར།` + `སྔོ།` vs `གསེར་སྔོ་`). Step 3's
+    per-occurrence mapping inherits the English side's word boundaries, which fragment compounds.
+    For article selection this is harmless; for a translation termbase the whole unit is the
+    useful one.
+  - **`root_text_blocks` is not a reliable occurrence index.** On the 55 terms where the two
+    routes disagreed about provenance, checked against the text: the registry had **150**
+    block-attribution errors, the direct read **57**. The registry commonly has the right *number*
+    of blocks and the wrong ones. Downstream lock-matching is unaffected (it recomputes membership
+    from the text), but nothing should read that field as an occurrence list.
+  - **No hallucination observed**: 0 of 287 returned terms were absent from the block they were
+    attributed to (282 verbatim, 5 normalised). One corpus, one model, one day — the verification
+    tiers stay mandatory.
+
+- **2026-09-22** — **The registry moved into the rails, and gained a second consumer.**
+  Decisions taken in discussion with the human contributor while building the
+  vocabulary-standardised translation chain (vault annex §4a):
+  - **Registry location resolved: `2-RAILS/Keywords/`** (`$KEYWORDS` in
+    `../Skills/_shared/PROFILES.md`), superseding the 2026-08-10 resolution that parked it in
+    `0-INBOX/` pending review. Rationale given by the human contributor: *"just like we did for
+    claims and table of content, we stored those all in the Rails — so these can be also stored
+    in the Rails,"* so that a keyword is looked up rather than re-derived on every run. The
+    2026-08 run was promoted as-is — 367 registry terms, 370 frequency rows × 16 commentaries,
+    114 queued / 253 gate failures, 101 subjects — into the `keyword-extract` schemas. Working
+    intermediates stay in `0-INBOX/`; the promoted files are overwritten by a re-run, never
+    appended to.
+  - **The layer is descriptive, and explicitly not a citation-chain rail.** Counts, ranks and
+    gate verdicts carry no per-item `1-SOURCES/` citation, so no `3-TRANSFORMATIONS/` output may
+    cite one as ground for a claim. Recorded in `2-RAILS/About Rails.md` §6c. The boundary rule
+    (§1) is unchanged.
+  - **`id` is now `t-<sha1(lemma)[:8]>`** — a pure function of the lemma, which is what actually
+    delivers the "slugs are stable across re-runs" guarantee that an English-gloss-derived slug
+    could not. The readable gloss-derived `slug` survives as an advisory field.
+  - **`match_form` added to every registry row, and it is not cosmetic.** Registry lemmas carry a
+    trailing shad (`སྒྲོལ་མ།`); running Tibetan carries a tsheg (`སྒྲོལ་མ་`). Measured on this
+    vault's root text: the bare lemma matches **74 of 370** terms, `match_form` matches **348**.
+    Any consumer that matches the bare lemma silently drops four fifths of the vocabulary and
+    looks like it worked. Step 4's counting and every downstream glossary builder use
+    `match_form`.
+  - **Second consumer registered.** Until now the ranked list fed only article selection. It now
+    also seeds `2-RAILS/termbases/term-localization.md` → `term-definition` → `term-localization`
+    → a track `termbase.md` → term-locked translation. This does **not** change the boundary
+    rule, but it does change what a mis-ranked term costs: previously a missing article, now
+    also a missing vocabulary lock.
+  - **Two gaps in the 2026-08 run recorded rather than backfilled** (both required from the next
+    run on, per `keyword-extract` Phase 3): no `synonyms`/`epithets` (Phase 3c never ran), and no
+    `dropped: true` rows (the particle filter ran before ranking and its audit trail was not
+    kept). A third is now fixable: Step 4's quote exclusion was similarity-based (difflib ≥0.8)
+    because the commentaries had no transclusion anchors — the ten files in
+    `1-SOURCES/Commentaries/New raw data/` now do, so Phase 4 can be re-run tag-exact.
 
 - **2026-08-12** — Post-queue design decided in discussion (not yet implemented): **Step 7**
   (subject filter: three-way verdict standalone/section-material/glossary + subject-normalization

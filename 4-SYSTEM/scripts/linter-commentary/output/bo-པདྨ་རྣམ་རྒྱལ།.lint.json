@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "source": "1-SOURCES/Commentaries/New raw data/bo-པདྨ་རྣམ་རྒྱལ།.md",
+  "validated_at": "2026-09-24T05:35:15.110993+00:00",
+  "notes": [
+    "bdrc_work_id: not set (optional)",
+    "wiki: not set (optional)",
+    "translation_of: not set (optional)",
+    "commentary_of: 'HyUbHGlzS9LsSrgiFQNYE'",
+    "root_text: '1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md'",
+    "tag_ids: not set (optional)",
+    "source: source = 'https://webuddhist.com'",
+    "toc: 17 headers found"
+  ],
+  "warnings": [
+    "author 'Ldombuwa Pema Namgyal': no BDRC or OP id provided (add [bdrc:ID] or [op:ID]) — skipped"
+  ],
+  "text_input": {
+    "bdrc": null,
+    "wiki": null,
+    "date": "unknown",
+    "title": {
+      "bo": "པདྨ་རྣམ་རྒྱལ་གྱི་སྒྲོལ་མའི་བསྟོད་འགྲེལ།"
+    },
+    "alt_titles": [
+      {
+        "bo": "ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།"
+      },
+      {
+        "en": "The Delightful Grove of Nectar: A Commentary on the Praise in Twenty-One Homages"
+      }
+    ],
+    "language": "bo",
+    "commentary_of": "HyUbHGlzS9LsSrgiFQNYE",
+    "translation_of": null,
+    "category_id": "LCorCb2K98p3TICt3UCDm",
+    "license": "public",
+    "contributions": null,
+    "tag_ids": null
+  }
+}
