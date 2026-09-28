@@ -2,7 +2,7 @@
 title: Handoff — translate the Praise to the Twenty-One Tārās into a new language
 file_type: guide
 audience: anyone (with Claude) adding a new language
-maintainer: Tenkal (DevOps lead, WeBuddhist)
+maintainer: Tenkal (software engineer, WeBuddhist)
 updated: 2026-09-28
 ---
 
