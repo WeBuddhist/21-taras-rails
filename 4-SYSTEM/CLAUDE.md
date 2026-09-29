@@ -440,6 +440,7 @@ Skills are reusable, step-by-step procedures stored in `4-SYSTEM/Skills/`. Each 
 | Machine-baseline translation via Gemini (hi, ne, mn, vi, …), line parity enforced | `gemini-translate` |
 | Upload a translation note to the WeBuddhist library (edition + alignment + TOC; dry-run first) | `translation-upload` |
 | Check that every translation mirrors the root (segments, line counts, TOC tree, payloads; report-only) | `translation-alignment-check` |
+| Check that each translated segment is aligned to, and correctly translates, its Tibetan segment (commentary-grounded; report-only) | `translation-segment-check` |
 | Bring a raw OCR/segmentation text into 1-SOURCES with frontmatter | `raw-to-sources` |
 | Draft a Tibetan Wikipedia article from a consolidated claims topic page | `wiki-article-from-claims` |
 | Improve an existing article's Tibetan composition with Gemini (facts frozen) | `gemini-article-polish` |

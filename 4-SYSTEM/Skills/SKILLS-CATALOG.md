@@ -436,6 +436,13 @@ These skills populate `2-RAILS/` with the structured context that translation an
 **Note:** imported from `bodhisattvacharyavatara-rails`; its examples are Hindi but the skill is language-agnostic.
 → [`translation-qa/SKILL.md`](translation-qa/SKILL.md)
 
+### `translation-segment-check` **[exists]**
+**Purpose:** Report-only, segment-by-segment check that every block of a translation is aligned to the right root segment and is a correct line-by-line translation of it, with every interpretive verdict grounded in the verse-aligned commentaries (✅ ok · ◇ free · ⚑ attested reading · ⚠ minor · ✗ major · ⇄ misaligned).
+**Inputs:** One block-ID'd, transcluded translation note; the root text; the verse-aligned commentaries in `1-SOURCES/Commentaries/New raw data/` (derived).
+**Outputs:** `0-INBOX/segment-checks/<stem>-segment-check.md`. Never edits the translation.
+**Why it exists beside `translation-alignment-check`:** that one proves the shape (ids, line counts, transclusions); this one proves the words under each id translate that id. `translation-qa` needs a track termbase and requirements, so it cannot grade a received human translation in `1-SOURCES/`.
+→ [`translation-segment-check/SKILL.md`](translation-segment-check/SKILL.md)
+
 ### `style-consistency-check` **[planned]**
 **Purpose:** Catch style drift over long texts — creeping changes in register, sentence length, verse formatting, list handling, term gloss style.
 **Inputs:** All translated files in `3-TRANSFORMATIONS/Translations/<track-name>/`; `requirements.md`; termbase.

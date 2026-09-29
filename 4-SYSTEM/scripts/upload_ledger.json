@@ -819,5 +819,45 @@
     "root_text_id": "HyUbHGlzS9LsSrgiFQNYE",
     "text_id": "O9TxCvL6lhjufpaaOAxAj",
     "toc_id": "OLPyu5ELI2kykrg21xYR9"
+  },
+  "zh-The Twenty-One Praises to Tara": {
+    "aligned_to_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "edition_id": "ZAvK2pgxzhCt1viVVjkyU",
+    "lang_tag": "zh",
+    "log": [
+      {
+        "step": "text",
+        "text_id": "UxGJexme0fyhYajzDuhoq",
+        "ts": "2026-09-25T01:03:31"
+      },
+      {
+        "error": "HTTP 422 POST https://library.webuddhist.com/v2/texts/UxGJexme0fyhYajzDuhoq/editions\n         {\"detail\":[{\"type\":\"too_short\",\"loc\":[\"body\",\"segmentation\",\"segments\",0,\"lines\"],\"msg\":\"List should have at least 1 item after validation, not 0\",\"input\":[],\"ctx\":{\"field_type\":\"List\",\"min_length\":1,\"actual_length\":0}},{\"type\":\"too_short\",\"loc\":[\"body\",\"segmentation\",\"segments\",1,\"lines\"],\"msg\":\"List sho",
+        "step": "error",
+        "ts": "2026-09-25T01:03:31"
+      },
+      {
+        "chars": 986,
+        "edition_id": "ZAvK2pgxzhCt1viVVjkyU",
+        "segments": 30,
+        "step": "edition",
+        "ts": "2026-09-25T01:06:02"
+      },
+      {
+        "pairs": 30,
+        "root_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+        "step": "alignment",
+        "ts": "2026-09-25T01:06:02"
+      },
+      {
+        "step": "toc",
+        "subsections": 4,
+        "toc_id": "7mkUlUHyUvuhTbvk3Iqzj",
+        "ts": "2026-09-25T01:06:02"
+      }
+    ],
+    "root_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+    "root_text_id": "HyUbHGlzS9LsSrgiFQNYE",
+    "text_id": "UxGJexme0fyhYajzDuhoq",
+    "toc_id": "7mkUlUHyUvuhTbvk3Iqzj"
   }
 }

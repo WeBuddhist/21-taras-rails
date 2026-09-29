@@ -159,6 +159,9 @@ def main(argv=None):
     ap.add_argument("--skip-lint", action="store_true", help="reuse the existing lint output")
     ap.add_argument("--no-live", action="store_true", help="skip the read-only check against the live root")
     ap.add_argument("--verify", action="store_true", help="only GET the live state of this translation and exit")
+    ap.add_argument("--partial", action="store_true",
+                    help="allow a translation that omits some root segments (its ids must still be "
+                         "live root ids, in root order); the omitted root segments stay unaligned")
     args = ap.parse_args(argv)
 
     note = pathlib.Path(args.note)
@@ -266,7 +269,13 @@ def main(argv=None):
     if not args.no_live:
         try:
             live = live_segment_refs(root_edition_id)
-            if live != refs:
+            skipped = [r for r in live if r not in set(refs)]
+            if args.partial and skipped and [r for r in live if r in set(refs)] == refs:
+                # a partial translation: every block renders a live root segment, in root
+                # order; the root segments it has no rendering of simply stay unaligned
+                print(f"  live root {root_edition_id}: {len(live)} segments; this edition covers {len(refs)} "
+                      f"in root order ✓ (--partial, unaligned: {skipped})")
+            elif live != refs:
                 only_live = sorted(set(live) - set(refs))[:6]
                 only_here = sorted(set(refs) - set(live))[:6]
                 problems.append(f"segment refs differ from the LIVE root ({len(live)} live vs {len(refs)} here); "
