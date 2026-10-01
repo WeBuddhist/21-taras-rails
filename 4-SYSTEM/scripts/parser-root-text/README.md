@@ -7,7 +7,7 @@ Run `linter-root-text` first.
 ## What it does
 
 1. **extract_text_input** — takes `text_input` from the lint JSON (or `resolved` from a `.lint.errors.json`), drops empty fields and contributors without an id, writes `text.json`
-2. **build_edition** — builds the edition content and its segments with character spans from the body text (headings left out), writes `edition.json`
+2. **build_edition** — builds the edition content and its segments with character spans from the body text (headings left out), writes `edition.json`, and the yigchung annotations found in `<small>…</small>`, writes `yigchungs.json`
 3. **build_toc** — builds a nested table of contents from the headings (headings are used only here), writes `toc.json`
 4. **build_alignment** — for `file_type` `translation` or `commentary` only, links segments to the root text through transclusions, writes `alignment.json`
 
@@ -18,6 +18,7 @@ output/
   <stem>/                  # one folder per source file, named after it
     <stem>.text.json        # text_input payload
     <stem>.edition.json     # edition metadata, content and segments
+    <stem>.yigchungs.json   # yigchung (small-script) annotation spans
     <stem>.toc.json         # nested TOC with character spans
     <stem>.alignment.json   # translation/commentary → root-text alignments
 ```
@@ -29,7 +30,7 @@ output/
 - Blocks are separated by blank lines. Each content block becomes one segment, with one span per line, and its block ID (without `^`) as `reference`
 - The block ID is removed from the text; lines are joined with no separator
 - Blocks without a block ID are skipped with a warning (headings too); so are content blocks whose ID has more than 3 parts
-- Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not. The source file is never changed.
+- Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not, and each run becomes a yigchung annotation (see below). The source file is never changed.
 - Non-breaking spaces (U+00A0) become ordinary spaces in `content`.
 - Transclusion lines (`![[...#^ref]]`) are left out of the content
 
@@ -52,6 +53,26 @@ The document default is `verse`. It is `paragraph` when the file has `commentary
 An empty line inside a block — including a line holding only an invisible character such as a zero-width space — stops it being verse, and the parser warns about it. Such a block is usually two paragraphs that each need their own block ID, and Obsidian shows no gap there, so the warning is the only sign.
 
 A block of prose that was hard-wrapped onto several lines without a blank line between them reads as verse to this rule. Keep a paragraph on one line.
+
+## Yigchungs
+
+Yigchung (ཡིག་ཆུང་, small-script gloss) is written `<small>…</small>` in the source. `yigchungs.json` holds one item per unbroken run of yigchung text, sorted by `start`. Each item is exactly the body of `POST /v2/editions/{edition_id}/yigchungs`:
+
+```json
+{"yigchungs": [{"span": {"start": 550, "end": 557}}, {"span": {"start": 566, "end": 583}}]}
+```
+
+- Spans are half-open `[start, end)`, **absolute offsets into the edition `content`** (not relative to a segment or line), counted in Unicode code points (Python `len()`), so a Tibetan stack is several units
+- Two runs in one line are two items, never one span covering the plain text between them
+- A run that continues onto the next line of the same block is one item. So is `</small><small>` with nothing between: it is one unbroken stretch
+- Empty runs (`<small></small>`) are left out: the API accepts a zero-length span but never returns it
+- A run never carries past the end of its block
+- `<small>` in a heading: the tags are dropped from the TOC title, and no yigchung is recorded, since headings are not edition content (warning)
+- Stray tags (a `<small>` not closed by the end of its block or heading, a `</small>` with no open run, a `<small>` inside an open run) are caught by the **linter**, which lists each one as an error. The parser keeps a safety stop, since it also accepts a `.lint.errors.json`: on a stray tag it names the first one, writes no `edition.json` or `yigchungs.json`, and exits with status 1. Tags are matched case-insensitively
+- The file is written even when there are no runs (`{"yigchungs": []}`), so a file that loses its markup does not leave a stale payload
+- The API does not check for duplicates: before re-uploading an edition that already has yigchungs, delete or check the existing marks. `PATCH /v2/editions/{id}/content` shifts existing marks itself
+
+Worked example: `སྒྲོལ་མ་<small>ལྗང་མོ་</small>འཁོར་བཅས་<small>ཉི་ཤུ་རྩ་གཅིག་པོ་</small>གཤེགས་སུ་གསོལ། ། ^II-2` gives the line `སྒྲོལ་མ་ལྗང་མོ་འཁོར་བཅས་ཉི་ཤུ་རྩ་གཅིག་པོ་གཤེགས་སུ་གསོལ། །` (57 code points) and two yigchungs at `[8,15)` ལྗང་མོ་ and `[24,41)` ཉི་ཤུ་རྩ་གཅིག་པོ་ relative to that line; the payload holds them plus the line's start in the content.
 
 ## Table of contents
 

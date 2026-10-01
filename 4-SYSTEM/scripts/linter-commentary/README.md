@@ -27,7 +27,7 @@ Same as `linter-root-text` (see its README), with these changes. That includes t
 | `root_text` | Required |
 | `commentary_of` | Warning if it can't be set (the linked text has no `text_id`) |
 
-Edition and TOC rules are the same: `source` or `source_url` (an http/https URL) is required, every block needs a block ID, content IDs have at most 3 parts, IDs are unique, the first heading is `#`, and heading levels don't skip.
+Edition and TOC rules are the same: `source` or `source_url` (an http/https URL) is required, every block needs a block ID, content IDs have at most 3 parts, IDs are unique, `<small>…</small>` (yigchung) tags pair up with no stray `<small>` or `</small>`, the first heading is `#`, and heading levels don't skip.
 
 ## Output
 

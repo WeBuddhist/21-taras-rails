@@ -47,6 +47,7 @@ Pali (`pi`) titles must be in Roman script; see [Titles](#titles).
 - Blocks are separated by blank lines. Every block must end with a block ID (`^ref`), except blocks that contain only transclusions (`![[...#^ref]]`), which are skipped
 - Heading IDs may have any number of parts (`^n-n-n-…`); content IDs may have at most 3 (`^n-n-n`)
 - Block IDs must be unique (headings and content are checked separately)
+- `<small>…</small>` (yigchung) tags must pair up: a `</small>` with no open `<small>`, a `<small>` inside an open run, or a `<small>` not closed by the end of its block (or of its heading line) is an error. A run may continue onto the next line of the same block. The parser turns each run into a yigchung annotation, so a stray tag would put marks on the wrong text
 
 ### Table of contents
 

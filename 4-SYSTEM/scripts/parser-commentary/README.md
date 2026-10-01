@@ -7,7 +7,7 @@ Forked from `parser-root-text`. Content segments default to **`paragraph`**, and
 ## What it does
 
 1. **extract_text_input** — takes `text_input` from the lint JSON (or `resolved` from a `.lint.errors.json`), drops empty fields and contributors without an id, writes `text.json` (includes `commentary_of` when set)
-2. **build_edition** — builds the edition content and its segments with character spans from the body text (headings left out), writes `edition.json`
+2. **build_edition** — builds the edition content and its segments with character spans from the body text (headings left out), writes `edition.json`, and the yigchung annotations found in `<small>…</small>`, writes `yigchungs.json`
 3. **build_toc** — builds a nested table of contents from the headings (headings are used only here), writes `toc.json`
 4. **build_alignment** — links commentary segments to root-text segments through transclusions, writes `alignment.json`
 
@@ -20,6 +20,7 @@ output/
   <stem>/                  # one folder per source file, named after it
     <stem>.text.json        # text_input payload (with commentary_of)
     <stem>.edition.json     # edition metadata, content and segments
+    <stem>.yigchungs.json   # yigchung (small-script) annotation spans
     <stem>.toc.json         # nested TOC with character spans
     <stem>.alignment.json   # commentary → root-text alignments
 ```
@@ -80,7 +81,7 @@ python3 4-SYSTEM\scripts\parser-commentary\parser.py "1-SOURCES\Commentaries\<la
 
 - If the lint JSON has no alt titles or contributors, the parser warns and carries on
 - Blocks without a block ID are skipped with a warning; so are content blocks whose ID has more than 3 parts
-- Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not. The source file is never changed.
+- Inline formatting for interlinear glosses (`<small>…</small>`) is dropped from `content`: the gloss text stays, the tags do not. Each run becomes a yigchung annotation in `yigchungs.json`: one `{"span": {"start", "end"}}` POST body per unbroken run, absolute code-point offsets into the edition `content`, built exactly as in `parser-root-text` (see its README, *Yigchungs*). Stray `<small>` / `</small>` tags are reported by `linter-commentary`; the parser also stops on one (no edition or yigchung payload, exit status 1) as a safety net. The source file is never changed.
 - Non-breaking spaces (U+00A0) become ordinary spaces in `content`.
 - Headings deeper than level 6 (7+ `#`) are often written in bold, since Obsidian renders only six levels. For those, the `**` markers are dropped from the TOC title.
 - Blocks that contain only transclusions are left out of the edition content; they feed alignment only

@@ -137,9 +137,64 @@ INLINE_TAG_RE = re.compile(r"</?small>", re.IGNORECASE)
 
 
 def _strip_inline_tags(text):
-    """Clean a line for the edition content: drop inline gloss tags, and turn
-    non-breaking spaces (U+00A0) into ordinary spaces."""
+    """Clean a heading title: drop inline gloss tags, and turn non-breaking
+    spaces (U+00A0) into ordinary spaces."""
     return INLINE_TAG_RE.sub("", text).replace("\u00a0", " ")
+
+
+# Yigchung (ཡིག་ཆུང་, small-script gloss) is written <small>…</small>. In the
+# edition the tags are dropped and each run of text inside them becomes a
+# yigchung annotation: a half-open [start, end) span of absolute code-point
+# offsets into the edition content.
+SMALL_TAG_RE = re.compile(r"<(/?)small>", re.IGNORECASE)
+
+
+def _tag_context(line, m, width=12):
+    """A short piece of the line around a tag, for error messages."""
+    a, b = max(0, m.start() - width), min(len(line), m.end() + width)
+    return ("…" if a else "") + line[a:b] + ("…" if b < len(line) else "")
+
+
+def _strip_yigchung(line, in_small, error):
+    """Drop <small> tags from one line and find the yigchung runs in it.
+
+    in_small says whether a run is already open when the line starts (it
+    continues from the previous line of the same block). Returns
+    (text, runs, in_small): runs are [start, end) offsets into text, and
+    in_small says whether a run is still open at the end of the line.
+    The text is identical to _strip_inline_tags(line).
+
+    A stray tag — </small> with no open run, or <small> inside an open
+    run — is passed to error(message); the caller stops the build.
+    """
+    out, runs = [], []
+    pos = 0
+    run_start = 0 if in_small else None
+    last = 0
+    for m in SMALL_TAG_RE.finditer(line):
+        piece = line[last:m.start()]
+        out.append(piece)
+        pos += len(piece)
+        last = m.end()
+        closing = bool(m.group(1))
+        if not closing:
+            if run_start is not None:
+                error(f"stray <small> (a <small> run is already open): {_tag_context(line, m)!r}")
+                continue
+            run_start = pos
+        else:
+            if run_start is None:
+                error(f"stray </small> (no <small> is open): {_tag_context(line, m)!r}")
+                continue
+            runs.append([run_start, pos])
+            run_start = None
+    piece = line[last:]
+    out.append(piece)
+    pos += len(piece)
+    if run_start is not None:
+        runs.append([run_start, pos])  # carried to the next line, if any
+    text = "".join(out).replace("\u00a0", " ")
+    return text, runs, run_start is not None
 
 
 def _heading_level(line):
@@ -286,6 +341,8 @@ def _build_content_and_segmentation(blocks, doc_default):
     parts = []
     seg_list = []
     headings = []
+    yigchungs = []
+    tag_errors = []
     pos = 0
 
     for block_num, block in enumerate(blocks, start=1):
@@ -305,6 +362,18 @@ def _build_content_and_segmentation(blocks, doc_default):
         ref_no_caret = ref[1:] if ref.startswith("^") else ref
 
         if is_header:
+            def _head_err(msg, _ref=ref, _n=block_num):
+                tag_errors.append(f"block {_n} ({_ref}), heading: {msg}")
+
+            _, _, head_open = _strip_yigchung(raw_lines[0], False, _head_err)
+            if head_open:
+                _head_err("stray <small> (not closed in the heading)")
+            if SMALL_TAG_RE.search(raw_lines[0]):
+                print(
+                    f"  WARN block {block_num}: <small> in heading {ref!r} — headings "
+                    f"are not edition content, so no yigchung is recorded for it",
+                    file=sys.stderr,
+                )
             text = _strip_inline_tags(raw_lines[0].strip().lstrip('#').strip())
             ref_idx = text.rfind(ref)
             if ref_idx != -1:
@@ -334,8 +403,14 @@ def _build_content_and_segmentation(blocks, doc_default):
                 last_nonempty_idx = i
                 break
         line_spans = []
+        block_yig = []
+        in_small = False
+
         for i, raw_line in enumerate(content_lines):
-            text = _strip_inline_tags(raw_line.rstrip())
+            def _err(msg, _ref=ref, _n=block_num, _line=i + 1):
+                tag_errors.append(f"block {_n} ({_ref}), line {_line}: {msg}")
+
+            text, runs, in_small = _strip_yigchung(raw_line.rstrip(), in_small, _err)
             if i == last_nonempty_idx:
                 ref_idx = text.rfind(ref)
                 if ref_idx != -1:
@@ -346,6 +421,21 @@ def _build_content_and_segmentation(blocks, doc_default):
             parts.append(text)
             pos += len(text)
             line_spans.append({"start": start, "end": start + len(text)})
+            for s, e in runs:
+                s, e = start + min(s, len(text)), start + min(e, len(text))
+                if s >= e:
+                    continue  # empty run: the API would store it but never return it
+                if block_yig and block_yig[-1]["end"] == s:
+                    # One unbroken stretch (a run continuing onto the next
+                    # line, or </small><small>): one mark, not two.
+                    block_yig[-1]["end"] = e
+                else:
+                    block_yig.append({"start": s, "end": e, "reference": ref_no_caret})
+        if in_small:
+            tag_errors.append(
+                f"block {block_num} ({ref}): stray <small> (not closed by the end of the block)"
+            )
+        yigchungs.extend(block_yig)
         if any(_is_blank_line(l) for l in content_lines[1:-1]):
             print(
                 f"  WARN block {block_num}: empty line inside the block — kept as one "
@@ -360,7 +450,16 @@ def _build_content_and_segmentation(blocks, doc_default):
             seg_type = _infer_segment_type(ref_no_caret, doc_default)
         seg_list.append({"lines": line_spans, "type": seg_type, "reference": ref_no_caret})
 
-    return "".join(parts), seg_list, headings
+    if tag_errors:
+        # Safety stop: the linter reports stray tags as errors, but the parser
+        # also accepts a .lint.errors.json. Broken yigchung markup would put
+        # marks on the wrong text, so nothing is written.
+        raise ValueError(
+            f"{len(tag_errors)} stray <small>/</small> tag(s), first at {tag_errors[0]} — "
+            "run the linter for the full list and fix the source; "
+            "no edition or yigchung payload written"
+        )
+    return "".join(parts), seg_list, headings, yigchungs
 
 
 def build_edition(source_path, lint_path):
@@ -383,7 +482,9 @@ def build_edition(source_path, lint_path):
     else:
         doc_default = "paragraph" if fm.get("commentary_of") else "verse"
 
-    content_str, seg_list, headings = _build_content_and_segmentation(blocks, doc_default)
+    content_str, seg_list, headings, yigchungs = _build_content_and_segmentation(
+        blocks, doc_default
+    )
 
     edition_type = fm.get("edition_type", "critical")
     source_url = (
@@ -400,7 +501,32 @@ def build_edition(source_path, lint_path):
     stem = source_path.stem
     out_path = _out_dir(stem) / f"{stem}.edition.json"
     out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    return out_path, out, headings
+    yig_path, _ = write_yigchungs(stem, content_str, yigchungs)
+    return out_path, out, headings, yig_path, yigchungs
+
+
+# ---------------------------------------------------------------------------
+# Function 2b: yigchung annotations
+# ---------------------------------------------------------------------------
+
+def write_yigchungs(stem, content, yigchungs):
+    """Write the yigchung payload: one POST body per unbroken run, sorted by
+    start. Each item is exactly the body of
+    POST /v2/editions/{edition_id}/yigchungs. Written even when empty, so a
+    file that loses its <small> markup does not leave a stale payload.
+    """
+    yigchungs = sorted(yigchungs, key=lambda y: (y["start"], y["end"]))
+    for y in yigchungs:
+        if not (0 <= y["start"] < y["end"] <= len(content)):
+            raise ValueError(f"yigchung span out of range: {y}")
+    out = {
+        "yigchungs": [
+            {"span": {"start": y["start"], "end": y["end"]}} for y in yigchungs
+        ],
+    }
+    out_path = _out_dir(stem) / f"{stem}.yigchungs.json"
+    out_path.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
+    return out_path, out
 
 
 # ---------------------------------------------------------------------------
@@ -563,7 +689,9 @@ def main(argv=None):
 
     edition_result = None
     try:
-        edition_out, edition_result, headings = build_edition(source_path, lint_path)
+        edition_out, edition_result, headings, yig_out, yigchungs = build_edition(
+            source_path, lint_path
+        )
         segs = edition_result["segmentation"]["segments"]
         content_len = len(edition_result["content"])
         by_type = {}
@@ -575,6 +703,8 @@ def main(argv=None):
         print(f"  headings (toc)   : {len(headings)}")
         for t, n in sorted(by_type.items()):
             print(f"    {t}: {n}")
+        print(f"OK    {source_path}  ->  {yig_out}")
+        print(f"  yigchungs        : {len(yigchungs)}")
     except Exception as exc:
         print(f"ERROR edition: {exc}", file=sys.stderr)
         had_error = True

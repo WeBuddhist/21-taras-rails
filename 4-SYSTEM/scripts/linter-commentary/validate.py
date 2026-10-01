@@ -348,6 +348,61 @@ def _validate_segmentation_refs(body, items):
             bucket[ref] = block_num
 
 
+# Yigchung (small-script gloss) markup: <small>…</small>. The parser turns
+# each run into a yigchung annotation span, so a stray tag would put marks on
+# the wrong text. A run may continue onto the next line of the same block,
+# but never past the end of the block (or of a heading line).
+SMALL_TAG_RE = re.compile(r"<(/?)small>", re.IGNORECASE)
+
+
+def _tag_context(line, m, width=12):
+    """A short piece of the line around a tag, for messages."""
+    a, b = max(0, m.start() - width), min(len(line), m.end() + width)
+    return ("…" if a else "") + line[a:b] + ("…" if b < len(line) else "")
+
+
+def _validate_yigchung_tags(body, items):
+    """ERROR for every stray <small> / </small>: a </small> with no open run,
+    a <small> inside an open run, or a run not closed by the end of its block
+    (for a heading, by the end of the heading line)."""
+    blocks = re.split(r'\n[ \t]*\n', body.strip())
+    block_num = 0
+    for raw in blocks:
+        block = raw.strip()
+        if not block:
+            continue
+        block_num += 1
+        lines = [l.rstrip('\r') for l in block.split('\n')]
+        content_lines = [l for l in lines if not TRANSCLUSION_RE.match(l)]
+        if not any(l.strip() for l in content_lines):
+            continue
+        is_header = lines[0].lstrip().startswith('#')
+        kind = "header" if is_header else "segment"
+        ref = _extract_ref(lines)
+        where = f"{kind} {block_num}" + (f" ({ref})" if ref else "")
+        # A heading is one line; content may span several.
+        check_lines = [lines[0]] if is_header else content_lines
+        in_small = False
+        for n, line in enumerate(check_lines, start=1):
+            at = where if is_header else f"{where}, line {n}"
+            for m in SMALL_TAG_RE.finditer(line):
+                if not m.group(1):
+                    if in_small:
+                        items.append(("ERROR",
+                            f"{at}: stray <small> (a <small> run is already open): "
+                            f"{_tag_context(line, m)!r}"))
+                    in_small = True
+                else:
+                    if not in_small:
+                        items.append(("ERROR",
+                            f"{at}: stray </small> (no <small> is open): "
+                            f"{_tag_context(line, m)!r}"))
+                    in_small = False
+        if in_small:
+            end = "the heading line" if is_header else "the block"
+            items.append(("ERROR", f"{where}: stray <small> (not closed by the end of {end})"))
+
+
 def _extract_headers(body):
     headers = []
     for line in body.split('\n'):
@@ -400,6 +455,7 @@ def validate_edition(data, body):
         items.append(("ERROR", "content body is empty"))
     else:
         _validate_segmentation_refs(body, items)
+        _validate_yigchung_tags(body, items)
 
     return items
 
