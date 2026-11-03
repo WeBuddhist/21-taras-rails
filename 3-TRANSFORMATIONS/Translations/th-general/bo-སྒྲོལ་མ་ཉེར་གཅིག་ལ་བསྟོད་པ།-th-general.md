@@ -10,9 +10,9 @@ track_type: graded
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 translation_of_text_id: HyUbHGlzS9LsSrgiFQNYE
 translation_of_edition_id: lEmYv8BrRQkOMPY9ymQpS
-text_id:
-edition_id:
-toc_id:
+text_id: lyMDIHMD8xhEMkJA4xe35
+edition_id: 8niE2nf3tM7VGPmQkhAA0
+toc_id: 4GfBLv4Y85l3uQlnxY3wb
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: gemini-3.1-pro-preview (raw draft, primed with the Thai word list); termbase-enforced by Claude per keyword-standardize and graded-translate Phase 2; commentary fact-check fixes by Claude
@@ -69,6 +69,7 @@ native_review: false
 note: "Sixth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Thai word list (132/136 locked words); (3) the 4 missed locked words swapped in (136/136); (4) full fact-check against four Tibetan commentaries: 21 blocks fixed, including the 1-1 lotus-face error, 1-3 missing wisdom, 1-4 who attained the perfections, and the homage-by-means-of wording in 1-5, 1-7 and 1-9; (5) back-translation meaning check: 21 match, 9 minor, 2 differ (1-11 broken sentence, 1-16 mantra recited vs set), all fixed (136/136 kept). (6) translation-qa (MQM): 0 critical, 0 major, 13 minor, all 13 fixed (score 98.7 to 100). Not yet reviewed by a native Thai reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
+aligned_to_edition_id: lEmYv8BrRQkOMPY9ymQpS
 ---
 
 # บทสรรเสริญพระแม่ตารายี่สิบเอ็ดองค์ ^0

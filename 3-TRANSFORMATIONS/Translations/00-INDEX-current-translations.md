@@ -1,7 +1,7 @@
 ---
 title: Current translations — start here
 file_type: index
-updated: 2026-09-28
+updated: 2026-10-02
 ---
 
 # Current translations — start here
@@ -20,11 +20,11 @@ hold raw machine output, which is never the translation to use.
 |---|---|---|---|---|---|
 | English (general) | [[en-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-en-general]] | 4 | locked words 131/131 · full commentary fact-check (4 commentaries, consensus) · translator decisions · **QA 99.8, PASS** (after fixes) | specialist review · upload | no |
 | Chinese (general, Traditional) | [[zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general]] | 5 | locked words 137/137 · back-translation meaning check · **QA 99.9, PASS** (after fixes) · full commentary fact-check (4 commentaries, no errors, 5 fixes) | native Chinese review (word list first) · upload | no |
-| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 5 | locked words 137/137 · back-translation meaning check · full commentary fact-check (9 fixes, 4 translator decisions) · **QA 99.8, PASS** (after fixes) | native Vietnamese review (word list first) · upload | no |
-| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 5 | locked words 136/136 · back-translation meaning check · full commentary fact-check (no errors, 13 fixes, 2 translator decisions) · **QA 100.0, PASS** (after fixes) | native Hindi review (word list first) · upload | no (the old Gemini baseline is) |
-| Nepali (general) | [[ne-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (1 error fixed, 15 fixes) · **QA 97.4 → 100.0, PASS** | native Nepali review (word list first) · upload | no (the old Gemini baseline is) |
-| Mongolian (general, Cyrillic) | [[mn-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (3 errors fixed) · **QA 97.1 → 100.0, PASS** | native Mongolian review (11 flagged words first) · upload | no (the old Gemini baseline is) |
-| Thai (general) | [[th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general]] | 6 | locked words 136/136 · full commentary fact-check (21 blocks fixed) · back-translation meaning check (11 verses fixed) · **QA 98.7 → 100.0, PASS** | Thai added as a platform language · native Thai review · upload | no |
+| Vietnamese (general) | [[vi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-vi-general]] | 5 | locked words 137/137 · back-translation meaning check · full commentary fact-check (9 fixes, 4 translator decisions) · **QA 99.8, PASS** (after fixes) | native Vietnamese review (word list first) | yes (2026-10-02) |
+| Hindi (general) | [[hi-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-hi-general]] | 5 | locked words 136/136 · back-translation meaning check · full commentary fact-check (no errors, 13 fixes, 2 translator decisions) · **QA 100.0, PASS** (after fixes) | native Hindi review (word list first) | yes (2026-10-02) |
+| Nepali (general) | [[ne-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-ne-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (1 error fixed, 15 fixes) · **QA 97.4 → 100.0, PASS** | native Nepali review (word list first) | yes (2026-10-02) |
+| Mongolian (general, Cyrillic) | [[mn-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-mn-general]] | 6 | locked words 136/136 · back-translation meaning check · full commentary fact-check (3 errors fixed) · **QA 97.1 → 100.0, PASS** | native Mongolian review (11 flagged words first) | yes (2026-10-02) |
+| Thai (general) | [[th-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-th-general]] | 6 | locked words 136/136 · full commentary fact-check (21 blocks fixed) · back-translation meaning check (11 verses fixed) · **QA 98.7 → 100.0, PASS** | native Thai review | yes (2026-10-02) |
 
 ## Reports behind each translation
 
@@ -88,13 +88,13 @@ is. English: `en/en-bo-en-termbase-general.json`. Chinese, Vietnamese and Hindi:
 |---|---|---|---|
 | `Dharmamitra/en/` | English | DharmaMitra zero-shot (draft 0) | yes (baseline) |
 | `Dharmamitra/en-general/` | English | DharmaMitra primed with the English word list (draft 1 of en-general) | no |
-| `Dharmamitra/zh/` | Chinese | DharmaMitra zero-shot (draft 0) | yes (baseline) |
+| `Dharmamitra/zh/` | Chinese | DharmaMitra zero-shot (draft 0) | no (deleted 2026-09-21) |
 | `Dharmamitra/zh-general/` | Chinese | DharmaMitra primed with the Chinese word list (draft 1 of zh-general) | no |
-| `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | yes (baseline) |
-| `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | yes (baseline) |
-| `Gemini/ne/` | Nepali | Gemini zero-shot (draft 1 of ne-general) | yes (baseline) |
+| `Gemini/vi/` | Vietnamese | Gemini zero-shot (draft 1 of vi-general) | no (deleted 2026-09-21) |
+| `Gemini/hi/` | Hindi | Gemini zero-shot (draft 1 of hi-general) | no (deleted 2026-09-21) |
+| `Gemini/ne/` | Nepali | Gemini zero-shot (draft 1 of ne-general) | no (deleted 2026-09-21) |
 | `Gemini/ne-general/` | Nepali | Gemini primed with the Nepali word list (draft 2 of ne-general); `run-ne-general.sh` re-runs it | no |
-| `Gemini/mn/` | Mongolian | Gemini zero-shot (draft 1 of mn-general) | yes (baseline) |
+| `Gemini/mn/` | Mongolian | Gemini zero-shot (draft 1 of mn-general) | no (deleted 2026-09-21) |
 | `Gemini/th/` | Thai | Gemini zero-shot (draft 1 of th-general; the second opinion for the word list) | no |
 | `Gemini/th-general/` | Thai | Gemini primed with the Thai word list (draft 2 of th-general); `run-th-general.sh` | no |
 | `Gemini/mn-general/` | Mongolian | Gemini primed with the Mongolian word list (draft 2 of mn-general); `run-mn-general.sh` re-runs it | no |

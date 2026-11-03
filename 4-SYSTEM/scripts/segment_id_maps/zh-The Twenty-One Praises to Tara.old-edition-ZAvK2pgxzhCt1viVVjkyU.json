@@ -1,0 +1,937 @@
+{
+ "_about": "Snapshot of the zh edition of the Twenty-One Praises taken 2026-10-01 before it was deleted and replaced by a 32-segment edition (I-1, I-2 added). Kept so every old segment id can be mapped to its replacement by reference.",
+ "taken": "2026-10-01T10:01:31",
+ "text_id": "UxGJexme0fyhYajzDuhoq",
+ "edition_id": "ZAvK2pgxzhCt1viVVjkyU",
+ "toc_id": "7mkUlUHyUvuhTbvk3Iqzj",
+ "root_edition_id": "lEmYv8BrRQkOMPY9ymQpS",
+ "segments": [
+  {
+   "reference": "I-3",
+   "id": "ng5gIm91xprenvqWD9vBe",
+   "type": "front_matter",
+   "lines": [
+    {
+     "start": 0,
+     "end": 11
+    }
+   ],
+   "content": "嗡！頂禮尊者聖救度母。"
+  },
+  {
+   "reference": "1-1",
+   "id": "SZ7pP3QzoSDboCcKWnmG5",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 11,
+     "end": 19
+    },
+    {
+     "start": 19,
+     "end": 27
+    },
+    {
+     "start": 27,
+     "end": 35
+    },
+    {
+     "start": 35,
+     "end": 43
+    }
+   ],
+   "content": "敬禮救度速勇母，目如剎那電光照，三世界尊蓮華面，從妙華中現端嚴。"
+  },
+  {
+   "reference": "1-2",
+   "id": "LcGZPICBAcwy3gRwDv22x",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 43,
+     "end": 51
+    },
+    {
+     "start": 51,
+     "end": 59
+    },
+    {
+     "start": 59,
+     "end": 67
+    },
+    {
+     "start": 67,
+     "end": 75
+    }
+   ],
+   "content": "敬禮百秋朗月母，普遍圓滿無垢面，如千星宿俱時聚，殊勝威光超於彼。"
+  },
+  {
+   "reference": "1-3",
+   "id": "n3OZmnMvUbza8Avye9k2r",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 75,
+     "end": 83
+    },
+    {
+     "start": 83,
+     "end": 91
+    },
+    {
+     "start": 91,
+     "end": 99
+    },
+    {
+     "start": 99,
+     "end": 107
+    }
+   ],
+   "content": "敬禮紫磨金色母，妙蓮華手勝莊嚴，施精勤行柔善靜，忍辱禪定為行境。"
+  },
+  {
+   "reference": "1-4",
+   "id": "heUTtxXkhE9Oj7TZ1TP9p",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 107,
+     "end": 115
+    },
+    {
+     "start": 115,
+     "end": 123
+    },
+    {
+     "start": 123,
+     "end": 131
+    },
+    {
+     "start": 131,
+     "end": 139
+    }
+   ],
+   "content": "敬禮如來頂髻母，最勝能滿無邊行，得到彼岸盡無餘，勝勢佛子極所愛。"
+  },
+  {
+   "reference": "1-5",
+   "id": "3txoONRreM6ce86UBXEKy",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 139,
+     "end": 161
+    },
+    {
+     "start": 161,
+     "end": 169
+    },
+    {
+     "start": 169,
+     "end": 177
+    },
+    {
+     "start": 177,
+     "end": 185
+    }
+   ],
+   "content": "敬禮都怛囉吽(TUTTARA HUNG)母，遍滿欲界諸方空，運足遍履七世界，悉能鉤召攝無餘。"
+  },
+  {
+   "reference": "1-6",
+   "id": "qtwVeMoVqoS3OfPzrStJM",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 185,
+     "end": 193
+    },
+    {
+     "start": 193,
+     "end": 201
+    },
+    {
+     "start": 201,
+     "end": 209
+    },
+    {
+     "start": 209,
+     "end": 217
+    }
+   ],
+   "content": "敬禮釋梵火天母，風神自在眾俱集，部多起屍尋香等，諸藥叉眾作稱歎。"
+  },
+  {
+   "reference": "1-7",
+   "id": "cNMflc2YHR5avMxXJaLzd",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 217,
+     "end": 241
+    },
+    {
+     "start": 241,
+     "end": 249
+    },
+    {
+     "start": 249,
+     "end": 257
+    },
+    {
+     "start": 257,
+     "end": 265
+    }
+   ],
+   "content": "敬禮呼「遮」(TRAT)作「呸」(PHAT)母，敵方咒輪悉摧壞，展左踡右作足踏，烈焰騰湧極明耀。"
+  },
+  {
+   "reference": "1-8",
+   "id": "7QPrE96DyYXpgkeKJRcWI",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 265,
+     "end": 279
+    },
+    {
+     "start": 279,
+     "end": 287
+    },
+    {
+     "start": 287,
+     "end": 295
+    },
+    {
+     "start": 295,
+     "end": 303
+    }
+   ],
+   "content": "敬禮都哩(TURE)威怖母，勇猛能摧怨魔類，於蓮華面作顰眉，摧壞一切冤家眾。"
+  },
+  {
+   "reference": "1-9",
+   "id": "dUnVUtK0Tzx1eTObFpUQD",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 303,
+     "end": 311
+    },
+    {
+     "start": 311,
+     "end": 319
+    },
+    {
+     "start": 319,
+     "end": 327
+    },
+    {
+     "start": 327,
+     "end": 335
+    }
+   ],
+   "content": "敬禮三寶嚴印母，手指當心威嚴相，嚴飾方輪盡無餘，自身熾盛光聚種。"
+  },
+  {
+   "reference": "1-10",
+   "id": "RghkKodrSBzleW9xGGMic",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 335,
+     "end": 343
+    },
+    {
+     "start": 343,
+     "end": 351
+    },
+    {
+     "start": 351,
+     "end": 368
+    },
+    {
+     "start": 368,
+     "end": 376
+    }
+   ],
+   "content": "敬禮威德歡悅母，寶冠珠鬘眾光飾，最極喜笑覩怛哩(TUTTARA)，鎮世間魔作攝伏。"
+  },
+  {
+   "reference": "1-11",
+   "id": "74OO03qb46V64Qo15y7FA",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 376,
+     "end": 384
+    },
+    {
+     "start": 384,
+     "end": 392
+    },
+    {
+     "start": 392,
+     "end": 400
+    },
+    {
+     "start": 400,
+     "end": 408
+    }
+   ],
+   "content": "敬禮守護眾地母，亦能鉤召諸神眾，搖顰眉面吽聲字，一切衰敗令度脫。"
+  },
+  {
+   "reference": "1-12",
+   "id": "xM1FGNIptZ7RDFdpRcDcM",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 408,
+     "end": 416
+    },
+    {
+     "start": 416,
+     "end": 424
+    },
+    {
+     "start": 424,
+     "end": 432
+    },
+    {
+     "start": 432,
+     "end": 440
+    }
+   ],
+   "content": "敬禮頂冠月相母，冠中現勝妙嚴光，阿彌陀佛髻中現，常放眾妙寶光明。"
+  },
+  {
+   "reference": "1-13",
+   "id": "hNurTq5hP5eluegRkSZ3c",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 440,
+     "end": 448
+    },
+    {
+     "start": 448,
+     "end": 456
+    },
+    {
+     "start": 456,
+     "end": 464
+    },
+    {
+     "start": 464,
+     "end": 472
+    }
+   ],
+   "content": "敬禮如盡劫火母，安住熾燃火鬘中，右伸左屈遍歡喜，能摧滅壞惡冤輪。"
+  },
+  {
+   "reference": "1-14",
+   "id": "96m8frwy8JLFDN2BR4Ea0",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 472,
+     "end": 480
+    },
+    {
+     "start": 480,
+     "end": 488
+    },
+    {
+     "start": 488,
+     "end": 496
+    },
+    {
+     "start": 496,
+     "end": 504
+    }
+   ],
+   "content": "敬禮手按大地母，以足踐蹋作鎮壓，現顰眉面作吽聲，能破七險鎮降伏。"
+  },
+  {
+   "reference": "1-15",
+   "id": "gLeEPByErxxdHuwBQGi1q",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 504,
+     "end": 512
+    },
+    {
+     "start": 512,
+     "end": 520
+    },
+    {
+     "start": 520,
+     "end": 539
+    },
+    {
+     "start": 539,
+     "end": 547
+    }
+   ],
+   "content": "敬禮安穩柔善母，涅槃寂滅最樂境，莎訶(SVAHA)嗡(OM)字以相應，善能摧滅諸重罪。"
+  },
+  {
+   "reference": "1-16",
+   "id": "2VrEjC3JcK5ynrODlKtvH",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 547,
+     "end": 555
+    },
+    {
+     "start": 555,
+     "end": 563
+    },
+    {
+     "start": 563,
+     "end": 571
+    },
+    {
+     "start": 571,
+     "end": 579
+    }
+   ],
+   "content": "敬禮普遍極喜母，諸怨支體令脫離，十字呪句妙嚴布，明呪吽聲常朗耀。"
+  },
+  {
+   "reference": "1-17",
+   "id": "jHtZ7fzpEvRZFqv0wd7pn",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 579,
+     "end": 593
+    },
+    {
+     "start": 593,
+     "end": 601
+    },
+    {
+     "start": 601,
+     "end": 609
+    },
+    {
+     "start": 609,
+     "end": 617
+    }
+   ],
+   "content": "敬禮都哩(TURE)巴帝母，足躡相勢吽字種，須彌曼陀及賓陀，三世間悉皆震動。"
+  },
+  {
+   "reference": "1-18",
+   "id": "xqu9miKJ6FWNQCKve2nez",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 617,
+     "end": 625
+    },
+    {
+     "start": 625,
+     "end": 633
+    },
+    {
+     "start": 633,
+     "end": 653
+    },
+    {
+     "start": 653,
+     "end": 661
+    }
+   ],
+   "content": "敬禮薩囉天海母，手持鹿紋之月輪，誦二怛囉(TARA)作發(PHAT)聲，能滅諸毒盡無餘。"
+  },
+  {
+   "reference": "1-19",
+   "id": "cGt2UPPU0HkcN11DdKFhg",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 661,
+     "end": 669
+    },
+    {
+     "start": 669,
+     "end": 677
+    },
+    {
+     "start": 677,
+     "end": 685
+    },
+    {
+     "start": 685,
+     "end": 693
+    }
+   ],
+   "content": "敬禮諸天集會母，天緊那羅所依愛，威德歡悅若堅鎧，滅除鬪諍及惡夢。"
+  },
+  {
+   "reference": "1-20",
+   "id": "AvbmEepDiuhRpzayENSDz",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 693,
+     "end": 701
+    },
+    {
+     "start": 701,
+     "end": 709
+    },
+    {
+     "start": 709,
+     "end": 731
+    },
+    {
+     "start": 731,
+     "end": 739
+    }
+   ],
+   "content": "敬禮日月廣圓母，目覩猶勝普光照，誦二喝囉咄怛哩(HARA TUTTARA)，善除惡毒瘟熱病。"
+  },
+  {
+   "reference": "1-21",
+   "id": "w8ACNzZ06xECrM3974fU5",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 739,
+     "end": 747
+    },
+    {
+     "start": 747,
+     "end": 755
+    },
+    {
+     "start": 755,
+     "end": 763
+    },
+    {
+     "start": 763,
+     "end": 777
+    }
+   ],
+   "content": "敬禮具三真實母，善靜威力皆具足，藥叉執魅尾怛辣，都哩(TURE)最極除災禍。"
+  },
+  {
+   "reference": "1-22",
+   "id": "OA9c1fYTa5fCnATDTdJNw",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 777,
+     "end": 785
+    },
+    {
+     "start": 785,
+     "end": 793
+    }
+   ],
+   "content": "此即根本咒讚頌，以及頂禮二十一。"
+  },
+  {
+   "reference": "2-1",
+   "id": "8NCdtSZyH00eawpPj7yzN",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 793,
+     "end": 801
+    },
+    {
+     "start": 801,
+     "end": 809
+    }
+   ],
+   "content": "清淨恭敬天母之，任何智者極虔讃，"
+  },
+  {
+   "reference": "2-2",
+   "id": "0DvzdBVl3Mu093vXeTMeU",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 809,
+     "end": 817
+    },
+    {
+     "start": 817,
+     "end": 825
+    },
+    {
+     "start": 825,
+     "end": 833
+    },
+    {
+     "start": 833,
+     "end": 841
+    }
+   ],
+   "content": "晨昏醒起皆憶持，憶念即離諸怖畏，一切罪業悉滅除，一切惡趣盡摧壞。"
+  },
+  {
+   "reference": "2-3",
+   "id": "GRaSvC7uAZ2mFhqo0ynyh",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 841,
+     "end": 849
+    },
+    {
+     "start": 849,
+     "end": 857
+    },
+    {
+     "start": 857,
+     "end": 865
+    },
+    {
+     "start": 865,
+     "end": 873
+    }
+   ],
+   "content": "並得七千萬勝眾，迅速賜予諸灌頂，獲得從此益增盛，趣入究竟佛果位。"
+  },
+  {
+   "reference": "2-4",
+   "id": "cIblaow0BspDXZ8UH4q4N",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 873,
+     "end": 881
+    },
+    {
+     "start": 881,
+     "end": 889
+    },
+    {
+     "start": 889,
+     "end": 897
+    },
+    {
+     "start": 897,
+     "end": 905
+    }
+   ],
+   "content": "他方之毒極猛烈，頑固不動或竄行，縱使服食或飲用，憶念即得盡消除。"
+  },
+  {
+   "reference": "2-5",
+   "id": "qahxKheieuMLhWy8ufJKY",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 905,
+     "end": 913
+    },
+    {
+     "start": 913,
+     "end": 921
+    },
+    {
+     "start": 921,
+     "end": 929
+    }
+   ],
+   "content": "邪魔瘟疫與毒害，所起諸苦悉斷除，其餘有情亦如是。"
+  },
+  {
+   "reference": "2-6",
+   "id": "B3VMRW5HWs4naK0U8Pnbi",
+   "type": "verse",
+   "lines": [
+    {
+     "start": 929,
+     "end": 937
+    },
+    {
+     "start": 937,
+     "end": 945
+    },
+    {
+     "start": 945,
+     "end": 953
+    },
+    {
+     "start": 953,
+     "end": 961
+    },
+    {
+     "start": 961,
+     "end": 969
+    }
+   ],
+   "content": "若誦此二三七次，欲求子者即得子，欲求財寶即得財，一切所欲皆獲得，魔障盡除一一滅。"
+  },
+  {
+   "reference": "a-1",
+   "id": "37IoHON2Le60iEfImE0IN",
+   "type": "back_matter",
+   "lines": [
+    {
+     "start": 969,
+     "end": 986
+    }
+   ],
+   "content": "正等覺者所宣說之聖救度母讚頌圓滿。"
+  }
+ ],
+ "alignment_root_to_zh": [
+  {
+   "root_ref": "I-3",
+   "root_segment_id": "PYlVdhqCJiwzl6dmR4LQF",
+   "zh_ref": "I-3",
+   "zh_segment_id": "ng5gIm91xprenvqWD9vBe"
+  },
+  {
+   "root_ref": "1-1",
+   "root_segment_id": "esAqU9pzcDnA8zxvg33G5",
+   "zh_ref": "1-1",
+   "zh_segment_id": "SZ7pP3QzoSDboCcKWnmG5"
+  },
+  {
+   "root_ref": "1-2",
+   "root_segment_id": "39zZirIQIMP8OFRMMBKvK",
+   "zh_ref": "1-2",
+   "zh_segment_id": "LcGZPICBAcwy3gRwDv22x"
+  },
+  {
+   "root_ref": "1-3",
+   "root_segment_id": "9zkUSw1dJtzDPW9jFkKDD",
+   "zh_ref": "1-3",
+   "zh_segment_id": "n3OZmnMvUbza8Avye9k2r"
+  },
+  {
+   "root_ref": "1-4",
+   "root_segment_id": "VfcyRvS1IFIcyiHzwUP7a",
+   "zh_ref": "1-4",
+   "zh_segment_id": "heUTtxXkhE9Oj7TZ1TP9p"
+  },
+  {
+   "root_ref": "1-5",
+   "root_segment_id": "AJD5gkZfNAbqrqKfk3YJi",
+   "zh_ref": "1-5",
+   "zh_segment_id": "3txoONRreM6ce86UBXEKy"
+  },
+  {
+   "root_ref": "1-6",
+   "root_segment_id": "zmKQWe1UbV9lWng3GGLnc",
+   "zh_ref": "1-6",
+   "zh_segment_id": "qtwVeMoVqoS3OfPzrStJM"
+  },
+  {
+   "root_ref": "1-7",
+   "root_segment_id": "5PuVS9Nzj6UJAhExDEKxv",
+   "zh_ref": "1-7",
+   "zh_segment_id": "cNMflc2YHR5avMxXJaLzd"
+  },
+  {
+   "root_ref": "1-8",
+   "root_segment_id": "m8RhdoA3ALTX4f4mPymMm",
+   "zh_ref": "1-8",
+   "zh_segment_id": "7QPrE96DyYXpgkeKJRcWI"
+  },
+  {
+   "root_ref": "1-9",
+   "root_segment_id": "p0fjUJLxOqo6gJVNncGfa",
+   "zh_ref": "1-9",
+   "zh_segment_id": "dUnVUtK0Tzx1eTObFpUQD"
+  },
+  {
+   "root_ref": "1-10",
+   "root_segment_id": "VeFzjJ234rZU3SiIrzYYr",
+   "zh_ref": "1-10",
+   "zh_segment_id": "RghkKodrSBzleW9xGGMic"
+  },
+  {
+   "root_ref": "1-11",
+   "root_segment_id": "CkzvDZyK6Ybm4oTxkLMGE",
+   "zh_ref": "1-11",
+   "zh_segment_id": "74OO03qb46V64Qo15y7FA"
+  },
+  {
+   "root_ref": "1-12",
+   "root_segment_id": "HMVQCWdY75v90BbPqJhET",
+   "zh_ref": "1-12",
+   "zh_segment_id": "xM1FGNIptZ7RDFdpRcDcM"
+  },
+  {
+   "root_ref": "1-13",
+   "root_segment_id": "YLwQsOgRNX2xShMVd680U",
+   "zh_ref": "1-13",
+   "zh_segment_id": "hNurTq5hP5eluegRkSZ3c"
+  },
+  {
+   "root_ref": "1-14",
+   "root_segment_id": "P0JJmAnFvykdiuoYO8PNE",
+   "zh_ref": "1-14",
+   "zh_segment_id": "96m8frwy8JLFDN2BR4Ea0"
+  },
+  {
+   "root_ref": "1-15",
+   "root_segment_id": "VU0H1DWJQHavnN3TEDUsU",
+   "zh_ref": "1-15",
+   "zh_segment_id": "gLeEPByErxxdHuwBQGi1q"
+  },
+  {
+   "root_ref": "1-16",
+   "root_segment_id": "UGKBZRZZwMJE4eGHjXXXt",
+   "zh_ref": "1-16",
+   "zh_segment_id": "2VrEjC3JcK5ynrODlKtvH"
+  },
+  {
+   "root_ref": "1-17",
+   "root_segment_id": "J6uXN5VvNlTJ2oZXaB5zr",
+   "zh_ref": "1-17",
+   "zh_segment_id": "jHtZ7fzpEvRZFqv0wd7pn"
+  },
+  {
+   "root_ref": "1-18",
+   "root_segment_id": "HYkeT04j2HH5JXlqJySLt",
+   "zh_ref": "1-18",
+   "zh_segment_id": "xqu9miKJ6FWNQCKve2nez"
+  },
+  {
+   "root_ref": "1-19",
+   "root_segment_id": "vhAoXNEXbOPHpmgPfTz9a",
+   "zh_ref": "1-19",
+   "zh_segment_id": "cGt2UPPU0HkcN11DdKFhg"
+  },
+  {
+   "root_ref": "1-20",
+   "root_segment_id": "e8mpiXUZaEpUvxYA4tguL",
+   "zh_ref": "1-20",
+   "zh_segment_id": "AvbmEepDiuhRpzayENSDz"
+  },
+  {
+   "root_ref": "1-21",
+   "root_segment_id": "C19dQMxIdSu0NLU7giQxG",
+   "zh_ref": "1-21",
+   "zh_segment_id": "w8ACNzZ06xECrM3974fU5"
+  },
+  {
+   "root_ref": "1-22",
+   "root_segment_id": "pbPymJyvPO7Ivf5Sqtl7V",
+   "zh_ref": "1-22",
+   "zh_segment_id": "OA9c1fYTa5fCnATDTdJNw"
+  },
+  {
+   "root_ref": "2-1",
+   "root_segment_id": "nGnMwdcg921PWihUdSfLB",
+   "zh_ref": "2-1",
+   "zh_segment_id": "8NCdtSZyH00eawpPj7yzN"
+  },
+  {
+   "root_ref": "2-2",
+   "root_segment_id": "LiHbCYMqCCMNylqGpJNyU",
+   "zh_ref": "2-2",
+   "zh_segment_id": "0DvzdBVl3Mu093vXeTMeU"
+  },
+  {
+   "root_ref": "2-3",
+   "root_segment_id": "DBgjFulodtBXXCpyYRcM8",
+   "zh_ref": "2-3",
+   "zh_segment_id": "GRaSvC7uAZ2mFhqo0ynyh"
+  },
+  {
+   "root_ref": "2-4",
+   "root_segment_id": "NCMItzWe2pApiDVHcrsye",
+   "zh_ref": "2-4",
+   "zh_segment_id": "cIblaow0BspDXZ8UH4q4N"
+  },
+  {
+   "root_ref": "2-5",
+   "root_segment_id": "klQdPgJnrHlU3eYANUdYv",
+   "zh_ref": "2-5",
+   "zh_segment_id": "qahxKheieuMLhWy8ufJKY"
+  },
+  {
+   "root_ref": "2-6",
+   "root_segment_id": "Jgea2CofjXcMI0N6TyWcI",
+   "zh_ref": "2-6",
+   "zh_segment_id": "B3VMRW5HWs4naK0U8Pnbi"
+  },
+  {
+   "root_ref": "a-1",
+   "root_segment_id": "dvIJU2Ik4PaFhWkGNjOUf",
+   "zh_ref": "a-1",
+   "zh_segment_id": "37IoHON2Le60iEfImE0IN"
+  }
+ ],
+ "toc": [
+  {
+   "id": "7mkUlUHyUvuhTbvk3Iqzj",
+   "edition_id": "ZAvK2pgxzhCt1viVVjkyU",
+   "text_id": "UxGJexme0fyhYajzDuhoq",
+   "sections": [
+    {
+     "id": "LWt7tXZKhbvjllKMaZwRz",
+     "title": {
+      "zh": "二十一度母禮讚文"
+     },
+     "span": {
+      "start": 0,
+      "end": 986
+     },
+     "subsections": [
+      {
+       "id": "SCfcWTJPEjq2Hq9lCMbJr",
+       "title": {
+        "zh": "題名與譯者禮敬"
+       },
+       "span": {
+        "start": 0,
+        "end": 11
+       },
+       "subsections": []
+      },
+      {
+       "id": "Ofo3GCrovk4sz2AqKXOxl",
+       "title": {
+        "zh": "正讚"
+       },
+       "span": {
+        "start": 11,
+        "end": 793
+       },
+       "subsections": []
+      },
+      {
+       "id": "aJXtgtRcQlqVO4MKTpLM4",
+       "title": {
+        "zh": "讚頌功德"
+       },
+       "span": {
+        "start": 793,
+        "end": 969
+       },
+       "subsections": []
+      },
+      {
+       "id": "oYBSEC8WVsSf3woXddGuh",
+       "title": {
+        "zh": "跋"
+       },
+       "span": {
+        "start": 969,
+        "end": 986
+       },
+       "subsections": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -10,9 +10,9 @@ track_type: graded
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 translation_of_text_id: HyUbHGlzS9LsSrgiFQNYE
 translation_of_edition_id: lEmYv8BrRQkOMPY9ymQpS
-text_id:
-edition_id:
-toc_id:
+text_id: W0tszGpKpSEQROGthT2Jj
+edition_id: QO2zyRM89VIf5dyZSF5gI
+toc_id: 9cmIzAp8SoWOwEUqMjBds
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: gemini-3.1-pro-preview (raw draft, primed with the Nepali word list); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
@@ -68,6 +68,7 @@ native_review: false
 note: "Sixth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 51-term Nepali word list; (3) locked words enforced (136/136) and clear errors fixed; (4) back-translation meaning check, 14 verses fixed; (5) full fact-check against four Tibetan commentaries: 1 error (1-10, all four agree) and 14 consensus/grammar fixes; (6) translation-qa (MQM) self-check, 15 Minor findings, all 15 fixes applied. Not yet reviewed by a native Nepali reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
+aligned_to_edition_id: lEmYv8BrRQkOMPY9ymQpS
 ---
 
 # एक्काइस तारा स्तुति ^0

@@ -7,33 +7,48 @@ file_type: translation
 lang_tag: zh
 verse_id_format: chapter-verse
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
-covers_verses: "I-3, 1-1–1-22, 2-1–2-6, a-1"
+covers_verses: "I-1–I-3, 1-1–1-22, 2-1–2-6, a-1"
 make_available: Dzongsar Institute
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 source: https://webuddhist.com
 edition_type: critical
-source_description: "Extracted from the Chinese (Traditional) translation of the Dzongsar Institute Tārā maṇḍala anthology 度母深奧精髓 (Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md; translator not recorded there). I-3 and 1-1–1-22 are verbatim from that file (all 23 blocks match; first imported here 2026-09-24 as Zh-The-Twenty-One-Praises-To-Tara.md without structure). 2-1–2-6 are its blocks ^1-155–^1-160, added 2026-09-25; their Tibetan differs from this vault's root only in particles (རབ་དང/རབ་ཏུ, ཞི་བྱེད/ཞི་བ, ཐོབ/འཐོབ, སྤངས་ཏེ/སྤོང་སྟེ, ལ/ཏེ). a-1 is not from that file — see machine_translated_segments."
+source_description: "Extracted from the Chinese (Traditional) translation of the Dzongsar Institute Tārā maṇḍala anthology 度母深奧精髓 (Dzongsar-dolma-bumtsok-rails/1-SOURCES/Translations/Zh-Tārā’s_Profound_Essence_Translation.md; translator not recorded there). I-3 and 1-1–1-22 are verbatim from that file (all 23 blocks match; first imported here 2026-09-24 as Zh-The-Twenty-One-Praises-To-Tara.md without structure). 2-1–2-6 are its blocks ^1-155–^1-160, added 2026-09-25; their Tibetan differs from this vault's root only in particles (རབ་དང/རབ་ཏུ, ཞི་བྱེད/ཞི་བ, ཐོབ/འཐོབ, སྤངས་ཏེ/སྤོང་སྟེ, ལ/ཏེ). I-1, I-2 and a-1 are not from that file — see machine_translated_segments."
 machine_translated_segments:
+  - id: I-1
+    generator: "3-TRANSFORMATIONS/Translations/zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general.md ^I-1 (draft 5: dharmamitra cat-translate v1 base, termbase-enforced, QA-passed)"
+    date: 2026-10-01
+    note: "Copied verbatim. Sanskrit title kept in IAST."
+  - id: I-2
+    generator: "3-TRANSFORMATIONS/Translations/zh-general/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།-zh-general.md ^I-2 (draft 5: dharmamitra cat-translate v1 base, termbase-enforced, QA-passed)"
+    date: 2026-10-01
+    note: "Copied verbatim."
   - id: a-1
     generator: dharmamitra cat-translate v1
     endpoint: https://dharmamitra.org/api-search/cat-translate/v1/translate
     target_language: traditional chinese
     date: 2026-09-25
     note: "Unreviewed machine output. བཅོམ་ལྡན་འདས་མ (Bhagavatī) is rendered 聖, not 世尊."
-omitted_segments: [I-1, I-2]
-note: "I-1 (Sanskrit title) and I-2 (Tibetan title) are omitted by decision: the anthology translation has no rendering of them, and the library rejects empty segments, so they stay unaligned on the root side (uploaded with --partial). Headings are editorial, rendered from the root's own headings; the H1 is the attested Chinese title used elsewhere in this vault."
+note: "I-1 (Sanskrit title) and I-2 (Tibetan title) have no rendering in the anthology translation. They were first omitted (uploaded 2026-09-25 with --partial), but the WeBuddhist app's parallel reader pairs root and translation segments by position when references are not plain integers, so the omission shifted every Chinese verse two places in the app. Added 2026-10-01 from the zh-general track so the edition covers all 32 root segments. Headings are editorial, rendered from the root's own headings; the H1 is the attested Chinese title used elsewhere in this vault."
 status: ingested
 translation_of: HyUbHGlzS9LsSrgiFQNYE
 text_id: UxGJexme0fyhYajzDuhoq
-edition_id: ZAvK2pgxzhCt1viVVjkyU
+edition_id: 4lsI0uXiv0cgl6eDKGb8O
 aligned_to_edition_id: lEmYv8BrRQkOMPY9ymQpS
-toc_id: 7mkUlUHyUvuhTbvk3Iqzj
+toc_id: ZV0jYaSQxl7yhehAE1Zrh
 ---
 
 # 二十一度母禮讚文 ^0
 
 ## 題名與譯者禮敬 ^I-0
+
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^I-1]]
+
+梵語：Namaḥ Tārā Ekaviṃśati Stotra Guṇahita Sāka。 ^I-1
+
+![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^I-2]]
+
+藏語：以二十一偈敬禮度母的讚頌及其功德。 ^I-2
 
 ![[1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md#^I-3]]
 

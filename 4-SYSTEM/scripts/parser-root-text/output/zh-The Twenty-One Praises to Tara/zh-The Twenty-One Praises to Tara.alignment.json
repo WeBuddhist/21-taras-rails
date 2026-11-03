@@ -1,6 +1,14 @@
 {
   "alignments": [
     {
+      "source_segment_reference": "I-1",
+      "target_segment_reference": "I-1"
+    },
+    {
+      "source_segment_reference": "I-2",
+      "target_segment_reference": "I-2"
+    },
+    {
       "source_segment_reference": "I-3",
       "target_segment_reference": "I-3"
     },

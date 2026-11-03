@@ -10,9 +10,9 @@ track_type: graded
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 translation_of_text_id: HyUbHGlzS9LsSrgiFQNYE
 translation_of_edition_id: lEmYv8BrRQkOMPY9ymQpS
-text_id:
-edition_id:
-toc_id:
+text_id: vSvxhG4bketQ67YwVydym
+edition_id: XDuXXYhUuqI2iW0UJ4JVG
+toc_id: VbFv1VW8Q77WysfBap4bT
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: gemini-3.1-pro-preview (raw draft, primed with the Mongolian word list); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
@@ -68,6 +68,7 @@ native_review: false
 note: "Sixth draft. (1) Gemini zero-shot; (2) Gemini run primed with the 52-term Mongolian word list; (3) locked words enforced and 2 clear errors fixed (2-3 seventy million; 1-22); (4) back-translation meaning check, 12 verses fixed; (5) full fact-check against four Tibetan commentaries: 3 errors (1-4, 1-16, 2-5) and 13 more consensus fixes; (6) translation-qa (MQM): 0 critical, 0 major, 17 minor, all 17 fixed in 14 blocks (score 97.1 to 100). Not yet reviewed by a native Mongolian reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
+aligned_to_edition_id: lEmYv8BrRQkOMPY9ymQpS
 ---
 
 # Хорин нэгэн Дарь эхийн магтаал ^0

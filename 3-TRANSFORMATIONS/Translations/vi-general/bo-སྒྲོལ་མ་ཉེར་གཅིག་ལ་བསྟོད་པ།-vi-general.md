@@ -10,9 +10,9 @@ track_type: graded
 root_text: 1-SOURCES/Text/bo-སྒྲོལ་མ་ཉེར་གཅིག་ལ་བསྟོད་པ།.md
 translation_of_text_id: HyUbHGlzS9LsSrgiFQNYE
 translation_of_edition_id: lEmYv8BrRQkOMPY9ymQpS
-text_id:
-edition_id:
-toc_id:
+text_id: GDIfZpuwXbEK9UXnNIbR2
+edition_id: evbyNyPLNcyzR9m6d77Tb
+toc_id: tBErxI3rjQrIDTlFCOhiq
 category_id: LCorCb2K98p3TICt3UCDm
 license: public
 translator: gemini-3.1-pro-preview (raw zero-shot draft); termbase-enforced, meaning-checked and commentary-fact-checked by Claude per keyword-standardize, graded-translate Phase 2, a back-translation check and commentary-fact-check Phase 1-2
@@ -75,6 +75,7 @@ native_review: false
 note: "Fifth draft. (1) Gemini zero-shot from the Tibetan; (2) locked words enforced (137/137) and clear errors fixed; (3) back-translation meaning check, 10 verses fixed; (4) full fact-check against four Tibetan commentaries (Drakpa Gyaltsen, Gendun Drub, Taranatha, Tenga Tulku): 9 fixes applied where 3–4 agreed or the fix restores the root wording; 4 translator's-choice items decided by Tenkal (1-21 changed to tam chân như; 1-11, 1-14, 1-8 kept); (5) translation-qa (MQM) self-check, 16 of 18 minor fixes applied (accuracy in 1-9, 1-10, 1-12, 1-14, 2-4; the locked tiêu diệt in 2-2, 2-6; wording, register and names), Bồ-tát / Niết-bàn spelling kept. Not yet reviewed by a native Vietnamese reader -- treat as draft."
 status: draft
 translation_of: HyUbHGlzS9LsSrgiFQNYE
+aligned_to_edition_id: lEmYv8BrRQkOMPY9ymQpS
 ---
 
 # Tán Thán Hai Mươi Mốt Độ Mẫu ^0

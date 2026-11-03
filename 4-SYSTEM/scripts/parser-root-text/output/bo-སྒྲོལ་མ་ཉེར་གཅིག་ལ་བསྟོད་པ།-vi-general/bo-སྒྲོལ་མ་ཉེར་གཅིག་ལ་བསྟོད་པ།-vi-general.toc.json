@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "title": {
+        "vi": "Tán Thán Hai Mươi Mốt Độ Mẫu"
+      },
+      "span": {
+        "start": 0,
+        "end": 4317
+      },
+      "subsections": [
+        {
+          "title": {
+            "vi": "Ý nghĩa tựa đề và lời kính lễ của dịch giả"
+          },
+          "span": {
+            "start": 0,
+            "end": 169
+          }
+        },
+        {
+          "title": {
+            "vi": "Chánh văn tán thán"
+          },
+          "span": {
+            "start": 169,
+            "end": 3381
+          }
+        },
+        {
+          "title": {
+            "vi": "Lợi ích của việc tán thán"
+          },
+          "span": {
+            "start": 3381,
+            "end": 4227
+          }
+        },
+        {
+          "title": {
+            "vi": "Lời kết"
+          },
+          "span": {
+            "start": 4227,
+            "end": 4317
+          }
+        }
+      ]
+    }
+  ]
+}
