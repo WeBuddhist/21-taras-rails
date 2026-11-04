@@ -14,6 +14,10 @@ method: tree-guided-extraction
 claim_id_scheme: "c-<decimal-with-dashes>-<n>, e.g. node 1.2.3's third claim is c-1-2-3-3 — never a bare decimal, never collides with a node heading number"
 claim_count: 148
 status: draft
+library_source_file: "1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md"
+library_text_id: 8x7kZUDklxT6ZP6C29KpN
+library_edition_id: b0NiLO9CIGktSFgsbsYR7
+library_remap: "0-INBOX/claims-remap/out/dharmabhadra.json (2026-11-04)"
 ---
 
 # Tree-guided claims — The Bouquet of Blue Lotuses Enchanting the Mind
@@ -99,6 +103,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-1)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^0)
 
 ### c-0-2 Homage to the Guru and Ārya Tārā
 **བོད་ཡིག:** ན་མོ་གུ་རུ་ཨཱརྱ་ཏྭ་རཱ་ཡེ།
@@ -106,6 +111,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** structural
 **Referent:** PER-1 (section-opener), FIG-1 (section-opener — Sanskrit form ཨཱརྱ་ཏྭ་རཱ)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^I-1)
 
 ### c-0-3 Homage to the guru endowed with the three kāyas and five wisdoms
 **བོད་ཡིག:** སྐུ་གསུམ་ཡེ་ཤེས་ལྔ་ལྡན་བླ་མ་དང་། །
@@ -113,6 +119,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** doctrinal
 **Referent:** PER-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^I-2)
 
 ### c-0-4 Homage to Tārā as the inseparable victorious mother
 **བོད་ཡིག:** དབྱེར་མེད་རྒྱལ་ཡུམ་སྒྲོལ་མའི་ཞབས་བཏུད་ནས། །
@@ -120,6 +127,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^I-2)
 
 ### c-0-5 Author's announcement: a concise exposition of the twenty-one-forms hymn
 **བོད་ཡིག:** དེ་ཡི་རྣམ་འགྱུར་གཅིག་ལྷག་བཅུ་ཕྲག་གཉིས། །བསྟོད་པའི་རྒྱུད་དོན་མདོར་བསྡུས་བཤད་པར་བྱ།
@@ -127,6 +135,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** structural
 **Referent:** FIG-1 (section-opener — "her" refers back to Tārā named in the same verse)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^I-2)
 
 ---
 
@@ -149,6 +158,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-1)
 
 ---
 
@@ -160,6 +170,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-2)
 
 #### c-1-1-2 Oṃ resolves into A-U-MA marking body, speech, mind
 **བོད་ཡིག:** ཨོཾ་ནི་མཚམས་སྦྱོར་ཕྲལ་ན་ཡི་གེ་ཨ་ཨུ་མ་གསུམ་དུ་འགྱུར་བས། ཕྱག་ཡུལ་གྱི་སྐུ་གསུང་ཐུགས་གསུམ་མཚོན་ལ།
@@ -167,6 +178,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 #### c-1-1-3 She is the supreme mother of the victors
 **བོད་ཡིག:** རྒྱལ་བའི་ཡུམ་གྱི་མཆོག་ཏུ་གྱུར་ཅིང་།
@@ -174,6 +186,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 #### c-1-1-4 Etymology of "venerable lady" — endowed with the three vows
 **བོད་ཡིག:** སྡོམ་པ་གསུམ་དང་ལྡན་པས་ན་རྗེ་བཙུན་མ།
@@ -181,6 +194,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 #### c-1-1-5 Etymology of "noble one" — not abiding in saṃsāra or nirvāṇa
 **བོད་ཡིག:** འཁོར་འདས་ལ་མི་གནས་པས་ན་འཕགས་མ།
@@ -188,6 +202,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 #### c-1-1-6 Etymology of "Tārā" — protects all beings from suffering
 **བོད་ཡིག:** སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་ལས་སྐྱོབ་པས་ན་སྒྲོལ་མ་སྟེ།
@@ -195,6 +210,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** etymology
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 #### c-1-1-7 Homage at her feet glossed as respectful bowing of the three doors
 **བོད་ཡིག:** དེའི་ཞབས་ལ་ཕྱག་འཚལ་བ་ནི་སྒོ་གསུམ་གུས་པར་འདུད་པའོ།
@@ -202,6 +218,7 @@ homage, and the author's own verse announcing the treatise.>
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^1-3)
 
 ---
 
@@ -220,6 +237,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-1)
 
 ##### c-1-2-1-2 Root verse quoted: homage to Tārā, Swift One, Glorious One
 **བོད་ཡིག:** ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔལ་མོ།། སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ།། འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི།། གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ།
@@ -227,6 +245,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-2)
 
 ##### c-1-2-1-3 "Homage" glossed as respectful bowing
 **བོད་ཡིག:** ཕྱག་འཚལ་བ་སྟེ་གུས་པས་འདུད་དོ།
@@ -234,6 +253,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-4 Etymology of "Tārā" — extracts beings from saṃsāra
 **བོད་ཡིག:** སེམས་ཅན་འཁོར་བ་ལས་འདོན་པས་ན་སྒྲོལ་མ།
@@ -241,6 +261,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** etymology
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-5 Etymology of "Swift One" — her activity outpaces other victors'
 **བོད་ཡིག:** དེ་ལ་རྒྱལ་བ་གཞན་ལས་འཕྲིན་ལས་མྱུར་བས་ན་མྱུར་མ།
@@ -248,6 +269,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-6 Etymology of "Glorious One" — utterly destroys the host of māras
 **བོད་ཡིག:** བདུད་སྡེ་ལྷག་མེད་དུ་འཇོམས་པས་ན་དཔལ་མོ།
@@ -255,6 +277,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** etymology
 **Referent:** FIG-1 (section-opener), FIG-10 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-7 Her wisdom-eyes see all objects instantly, like lightning
 **བོད་ཡིག:** ཡེ་ཤེས་ཀྱི་སྤྱན་ནི་སྐད་ཅིག་གི་གློག་འཁྱུག་པ་དང་འདྲ་བར་ཤེས་བྱ་མཐའ་དག་སྐད་ཅིག་ལ་གཟིགས་མ།
@@ -262,6 +285,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-10)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-8 Avalokiteshvara identified as protector of the three worlds
 **བོད་ཡིག:** ས་འོག་ཀླུའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་བླ་ལྷའི་འཇིག་རྟེན་གསུམ་གྱི་མགོན་སྐྱབས་ནི་འཕགས་པ་སྤྱན་རས་གཟིགས་ཡིན་ལ།
@@ -269,6 +293,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** identification
 **Referent:** FIG-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-9 Tārā's origin: born from a lotus grown from Avalokiteshvara's tear
 **བོད་ཡིག:** དེའི་ཞལ་གྱི་དཀྱིལ་འཁོར་ལ་གནས་པའི་སྤྱན་ཆབ་ལས་སྐྱེས་པའི་མེ་ཏོག་པདྨའི་གེ་སར་ཁ་བྱེ་བ་ལས་བྱུང་བའི་ལོ་རྒྱུས་དང་ལྡན་མ་དེ་ལ་འདུད་པ་སྟེ།
@@ -276,6 +301,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** identification
 **Referent:** FIG-1 (section-opener), FIG-2 (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ##### c-1-2-1-10 Lo chen Nam bzang's variant translation of the third line
 **བོད་ཡིག:** ལོ་ཆེན་ནམ་བཟང་གིས། ཚིག་རྐང་གསུམ་པར། འཇིག་རྟེན་གསུམ་མགོན་ཞལ་གྱི་ཆུ་སྐྱེས་ཞེས་འགྱུར་བཅོས་མཛད་པ་ལྟར་བདེ་བས་དེ་བཞིན་དུ་བཤད་དོ། །
@@ -283,6 +309,7 @@ division it announces is the opening sentence of its first child, 1.2.1.)
 **Type:** attribution
 **Referent:** PER-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-3)
 
 ---
 
@@ -315,6 +342,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node — divides the ancestor node 1.2.2)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-4)
 
 ###### c-1-2-2-1-1-1-2 Twofold division of "praising through the enjoyment-body forms"
 **བོད་ཡིག:** དང་པོ་ལ་གཉིས། ཞི་བའི་རྣམ་པའི་སྒོ་ནས་བསྟོད་པ་དང་། ཁྲོ་མོའི་རྣམ་པ་སྒོ་ནས་བསྟོད་པའོ།
@@ -322,6 +350,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node — divides the ancestor node 1.2.2.1)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-4)
 
 ###### c-1-2-2-1-1-1-3 Sixfold division of "praising through peaceful forms"
 **བོད་ཡིག:** དང་པོ་ལ་དྲུག །ཞལ་མདངས་གསལ་ཞིང་འོད་ཟེར་འཕྲོ་བའི་སྒོ་ནས་བསྟོད་པ། སྐུ་མདོག་དང་ཕྱག་མཚན་དང་རྒྱུའི་སྒོ་ནས་བསྟོད་པ། རྒྱལ་བ་དང་རྒྱལ་སྲས་ཀྱིས་གུས་པར་བསྟན་པའི་སྒོ་ནས་བསྟོད་པ། མི་མཐུན་ཕྱོགས་གནོན་པའི་སྒོ་ནས་བསྟོད་པ། འཇིག་རྟེན་པའི་ལྷ་ཆེན་པོ་རྣམས་ཀྱིས་བཀུར་བའི་སྒོ་ནས་བསྟོད་པ། ཕ་རོལ་འཇོམས་པའི་སྒོ་ནས་བསྟོད་པའོ། དང་པོ་ནི།
@@ -329,6 +358,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node — divides the ancestor node 1.2.2.1.1)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-4)
 
 ###### c-1-2-2-1-1-1-4 Root verse quoted: face like a hundred autumn moons
 **བོད་ཡིག:** ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ།། གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ།། སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས།། རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ།།
@@ -336,6 +366,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-5)
 
 ###### c-1-2-2-1-1-1-5 Iconography: face like a hundred cloud-free autumn moons
 **བོད་ཡིག:** རྡུལ་སྤྲིན་ལུག་རྣ་སོགས་དང་བྲལ་བའི་སྟོན་ཀའི་དུས་ཀྱི་ཟླ་བ་སྐྱེ་འཕྲོ་རྫོགས་ཤིང་འབྲི་བའི་འགོ་མ་ཚུགས་པའི་ཉ་ཀུན་ཏུ་གང་བ་གྲངས་བརྒྱ་ཐམ་པ་ནི། ཕྱོགས་གཅིག་ཏུ་བརྩེགས་པ་སྟེ་སྤུངས་པ་ལྟ་བུར་མཆོག་ཏུ་དཀར་ཞིང་མཛེས་པའི་ཞལ་རས་དང་ལྡན་མ།
@@ -343,6 +374,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-6)
 
 ###### c-1-2-2-1-1-1-6 Iconography: face radiates white light outshining massed stars
 **བོད་ཡིག:** ཞལ་དེ་ལས་སྐར་མ་སྟོང་ཕྲག་དུ་མ་ཕྱོགས་གཅིག་ཏུ་ཚོགས་པ་ལྟ་བུའི་འོད་ཟེར་རྣམས་ཀྱི་རབ་ཏུ་ཕྱེ་ཞིང་གསལ་བར་བྱས་པ་དང་འདྲ་བའི་འོད་ཟེར་དཀར་པོར་རབ་ཏུ་འབར་ཞིང་འཕྲོ་མ་དེ་ལའོ། །
@@ -350,6 +382,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-6)
 
 ---
 
@@ -361,6 +394,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-7)
 
 ###### c-1-2-2-1-1-2-2 Root verse quoted: golden-blue, lotus-adorned hand
 **བོད་ཡིག:** ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི།། པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ།། བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ།།
@@ -368,6 +402,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-18)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-8)
 
 ###### c-1-2-2-1-1-2-3 Iconography: body-colour like Jambu-river gold, slightly blue
 **བོད་ཡིག:** སྐུ་མདོག་འཛམ་བུ་ཆུ་བོའི་གསེར་ལྟར་མཛེས་ཤིང་ཅུང་ཟད་སྔོ་བའི་རྣམ་པ་ཅན།
@@ -375,6 +410,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-9)
 
 ###### c-1-2-2-1-1-2-4 Iconography: left hand holds an utpala, petals opening at ear-level
 **བོད་ཡིག:** ཆུ་ནང་ནས་སྐྱེས་པའི་པདྨ་སྟེ་ཨཏྤལའི་ཡུ་བས་ཕྱག་གཡོན་གྱི་མཐེབ་སྲིན་ནི་རྣམ་པར་བརྒྱན་ཅིང་འདབ་མ་སྙན་ཐད་དུ་ཁ་བྱེ་བས་མཚན་མ།
@@ -382,6 +418,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-9)
 
 ###### c-1-2-2-1-1-2-5 Word-gloss: "austerity" glossed as the moral discipline that is difficult to guard
 **བོད་ཡིག:** རྒྱུ་སྦྱིན་པ་དང་། བརྩོན་འགྲུས་དང་། བསྲུང་དཀའ་བ་ཐུབ་པའི་ཚུལ་ཁྲིམས་དང་།
@@ -389,6 +426,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-9)
 
 ###### c-1-2-2-1-1-2-6 Word-gloss: "peace" glossed as wisdom pacifying delusion's darkness
 **བོད་ཡིག:** རྨོངས་པའི་མུན་པ་ཞི་བའི་ཤེས་རབ་དང་། བཟོད་པ་དང་། བསམ་གཏན་ཏེ་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག
@@ -396,6 +434,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-9)
 
 ###### c-1-2-2-1-1-2-7 Doctrinal: the six perfections are her direct field of practice
 **བོད་ཡིག:** མངོན་སུམ་གྱི་སྤྱོད་ཡུལ་དུ་བྱས་པ་ཉིད་ལས་བྱུང་མ་དེ་ལའོ། །
@@ -403,6 +442,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-9)
 
 ---
 
@@ -414,6 +454,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-10)
 
 ###### c-1-2-2-1-1-3-2 Root verse quoted: atop the Tathāgatas' uṣṇīṣa, relied upon by the victors' sons
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།། མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ།། མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི།། རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ།།
@@ -421,6 +462,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-11)
 
 ###### c-1-2-2-1-1-3-3 Identification: mother of all Tathāgatas, dwelling at the crown of their uṣṇīṣa
 **བོད་ཡིག:** དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དེ་རྣམས་ཀྱི་དབུའི་གཙུག་ཏོར་གྱི་རྩེ་ན།
@@ -428,6 +470,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-12)
 
 ###### c-1-2-2-1-1-3-4 Activity: victorious over limitless discordant factors
 **བོད་ཡིག:** མི་མཐུན་ཕྱོགས་མཐའ་ཡས་པ་ལས་རྣམ་པར་རྒྱལ་བའི་ཚུལ་དུ་སྤྱོད་ཅིང་བཞུགས་མ།
@@ -435,6 +478,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-12)
 
 ###### c-1-2-2-1-1-3-5 Doctrinal: relied upon by bodhisattvas who attained the ten perfections and ten bhūmis
 **བོད་ཡིག:** ས་བཅུ་མ་ལུས་པའི་ངོ་བོ་ཕ་རོལ་དུ་ཕྱིན་པ་བཅུ་ཐོབ་པའི་རྒྱལ་བའི་སྲས་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པའི་གཙུག་གིས་བསྟེན་མ་དེ་ལའོ། །
@@ -442,6 +486,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-12)
 
 ---
 
@@ -453,6 +498,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-13)
 
 ###### c-1-2-2-1-1-4-2 Root verse quoted: TUTTĀRA HŪṂ fills the realms, treads the seven worlds
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས།། འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ།། འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ།། ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ།།
@@ -460,6 +506,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-27)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-14)
 
 ###### c-1-2-2-1-1-4-3 Mantra: light-rays radiate from the "tuttāra" garland (speech aspect)
 **བོད་ཡིག:** གསུང་ཏུཏྟཱ་ར་ཞེས་སོགས་སྔགས་འཕྲེང་ལས་འཕྲོས་པའི་འོད་ཟེར་དང་།
@@ -467,6 +514,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** mantra
 **Referent:** FIG-1 (section-opener), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-4 Mantra: the seed-syllable HAṂ marks emptiness-compassion at the heart (mind aspect)
 **བོད་ཡིག:** ཐུགས་སྟོང་ཉིད་སྙིང་རྗེ་མཚོན་པའི་ཧཾ་གི་ཡི་གེའི་སྒྲ་སྐད་ཀྱིས།
@@ -474,6 +522,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** mantra
 **Referent:** FIG-1 (section-opener), TXT-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-5 Word-gloss: "desire" glossed as the five classes of desire-realm migrators
 **བོད་ཡིག:** དམྱལ་བ། ཡི་དྭགས། དུད་འགྲོ། མི། །ལྷ་སྟེ་འདོད་ཁམས་ཀྱི་འགྲོ་བ་རྒྱུད་ལྔ་དང་།
@@ -481,6 +530,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-6 Word-gloss: "direction" glossed as the form realm
 **བོད་ཡིག:** ཕྱོགས་ཏེ་གཟུགས་ཁམས་དང་།
@@ -488,6 +538,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-7 Word-gloss: "space" glossed as the formless realm, completing the seven
 **བོད་ཡིག:** ནམ་མཁའ་སྟེ་གཟུགས་མེད་ཁམས་པའི་གནས་གཉིས་ཏེ་བདུན་གང་བར་མཛད་མ།
@@ -495,6 +546,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-8 Iconography/activity: the seven realms filled and trampled by her feet
 **བོད་ཡིག:** དེ་ལྟ་བུའི་འཇིག་རྟེན་གྱི་ཁམས་བདུན་པོ་དེ་རྣམས་འོད་དང་སྒྲས་གང་བར་མ་ཟད་སྐུའི་ཞབས་ཀྱིས་ཀྱང་མནན་པ་སྟེ་བཅགས་ཏེ།
@@ -502,6 +554,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ###### c-1-2-2-1-1-4-9 Activity: power to draw all beings under her power without exception
 **བོད་ཡིག:** དེར་གནས་པའི་འགྲོ་བ་གཅིག་ཀྱང་ལུས་པ་མེད་པར་དབང་དུ་འགུགས་པར་ནུས་པའི་མཐུ་དང་ལྡན་མ་དེ་ལའོ། །
@@ -509,6 +562,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-15)
 
 ---
 
@@ -520,6 +574,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-16)
 
 ###### c-1-2-2-1-1-5-2 Root verse quoted: worshipped by Indra, Agni, Brahmā, Vāyu, and hosts of spirits
 **བོད་ཡིག:** ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ།
@@ -527,6 +582,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener), FIG-4 (stated), FIG-5 (stated), FIG-6 (stated), FIG-7 (stated), FIG-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-17)
 
 ###### c-1-2-2-1-1-5-3 Identification: the four directional-guardian deities who worship her
 **བོད་ཡིག:** ཤར་གྱི་ཕྱོགས་སྐྱོང་བརྒྱ་བྱིན་དང་། ཤར་ལྷོའི་མེ་ལྷ་དང་། སྟེང་གི་ཚངས་པ་དང་། ནུབ་བྱུང་གི་རླུང་ལྷ་དང་།
@@ -534,6 +590,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** identification
 **Referent:** FIG-4 (stated), FIG-5 (stated), FIG-6 (stated), FIG-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-18)
 
 ###### c-1-2-2-1-1-5-4 Identification: Yama, nāgas, and various-class lords, exemplified by the above, also worship her
 **བོད་ཡིག:** དེ་དག་གིས་མཚོན་པའི་གཤིན་རྗེ་དང་ཀླུ་སོགས་སྡེ་རིས་སྣ་ཚོགས་ཀྱི་དབང་ཕྱུག་སྟེ་གཙོ་བོ་རྣམས་ཀྱིས་གུས་པས་མཆོད་པའི་གནས་སུ་གྱུར་མ།
@@ -541,6 +598,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** identification
 **Referent:** FIG-9 (stated), [unanchored] (nāgas and unspecified "various classes")
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-18)
 
 ###### c-1-2-2-1-1-5-5 Identification: retinues of bhūtas, vetālas, gandharvas, and yakṣas also bow and praise her
 **བོད་ཡིག:** དབང་ལྡན་གྱི་འཁོར་འབྱུང་པོ་རྣམས་དང་། སྲིན་པོའི་འཁོར་རོ་ལངས་རྣམས་དང་། བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་། ལུས་ངན་གྱི་འཁོར་གནོད་སྦྱིན་སོགས་འཁོར་གྱི་ཚོགས་རྣམས་ཀྱིས་ཀྱང་སྐུ་མདུན་དུ་བཏུད་ནས་གུས་པས་བསྟོད་པའི་ཡུལ་དུ་གྱུར་མ་དེ་ལའོ། །
@@ -548,6 +606,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-18)
 
 ---
 
@@ -559,6 +618,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-19)
 
 ###### c-1-2-2-1-1-6-2 Root verse quoted: TRAṬ and PHAṬ destroy the enemy's device
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏྲཊ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས།། ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ།། གཡས་བསྐུམས་གཡོན་བརྐྱངས་ཞབས་ཀྱིས་མནན་ཏེ།། མེ་འབར་འཁྲུག་པ་ཤིན་ཏུ་འབར་མ །
@@ -566,6 +626,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-35)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-20)
 
 ###### c-1-2-2-1-1-6-3 Word-gloss: "traṭ" glossed as "to rend, i.e. destroy"
 **བོད་ཡིག:** ཞལ་ནས་ཏྲཊ་(འདྲལ་བ་སྟེ་འཇོམས་པའོ)ཅེས་བྱ་བ
@@ -573,6 +634,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** TXT-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ###### c-1-2-2-1-1-6-4 Word-gloss: "phaṭ" glossed as "to burst"
 **བོད་ཡིག:** དང་ཕཊ་(འགས་པ་)ཅེས་བྱ་བའི་རིག་སྔགས་ཀྱི་ང་རོ་
@@ -580,6 +642,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** word-gloss
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ###### c-1-2-2-1-1-6-5 Activity: merely uttering it instantly destroys the enemy's sorcerous device
 **བོད་ཡིག:** བསྒྲགས་པ་ཙམ་གྱིས་ཕ་རོལ་བྱད་མས་བསམ་སྦྱོར་ངན་པས་བྱས་པའི་འཁྲུལ་འཁོར་གྱི་ནུས་པ་ཐམས་ཅད་སྐད་ཅིག་ལ་རབ་ཏུ་འཇོམས་པར་མཛད་མ།
@@ -587,6 +650,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ###### c-1-2-2-1-1-6-6 Iconography: right leg bent, left extended, tramples sorceresses and curse-demons
 **བོད་ཡིག:** གཡས་བསྐུམས་ཤིང་གཡོན་བརྐྱངས་པ་སྟོང་ཉིད་སྙིང་རྗེ་མཚོན་པའི་ཞབས་ཀྱི་འོག་ཏུ་བྱད་མ་དང་རྦད་འདྲེ་ལ་སོགས་པ་མནན་ཏེ།
@@ -594,6 +658,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ###### c-1-2-2-1-1-6-7 Activity: wisdom-fire blazes from her body, burning them without remainder
 **བོད་ཡིག:** སྐུ་ལས་ཡི་ཤེས་ཀྱི་མེ་འབར་ཞིང་འཁྲུག་པ་དང་། ཤིན་ཏུ་འབར་བས་ཐལ་བ་ཙམ་ཡང་མ་ལུས་པར་སྲེག་པར་མཛད་མ་དེ་ལའོ། །
@@ -601,6 +666,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ###### c-1-2-2-1-1-6-8 Doctrinal note: peaceful foot-posture amid blazing fire reads as mildly wrathful
 **བོད་ཡིག:** ཞབས་ཞི་བའི་བཞུགས་ཚུལ་ཡིན་ཀྱང་མེ་འབར་བའི་དབུས་ན་བཞུགས་པ་ཅུང་ཟད་ཁྲོ་ཚུལ་ཙམ་མོ། །
@@ -608,6 +674,7 @@ the opening of its first child's window, 1.2.2.1.1.1 — see c-1-2-2-1-1-1-3 bel
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-21)
 
 ---
 
@@ -626,6 +693,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node — divides the ancestor node 1.2.2.1.2)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-22)
 
 ###### c-1-2-2-1-2-1-2 Root verse quoted: Ture the greatly fearsome one destroys the māra-heroes
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ།། བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ།། ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད།། དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ།།
@@ -633,6 +701,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener), FIG-10 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-23)
 
 ###### c-1-2-2-1-2-1-3 Etymology: "Ture" glossed as "Swift One"
 **བོད་ཡིག:** ཏུ་རེ་(མྱུར་མ་)ཞེས་སོགས་གསུང་གི་ང་རོ་
@@ -640,6 +709,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ###### c-1-2-2-1-2-1-4 Iconography: "greatly fearsome" glossed as an extremely wrathful body-manifestation
 **བོད་ཡིག:** འཇིགས་པ་ཆེན་མོ་སྟེ་ཤིན་ཏུ་དྲག་མོའི་སྐུའི་རྣམ་འགྱུར་གྱི།
@@ -647,6 +717,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ###### c-1-2-2-1-2-1-5 Doctrinal: destroys the four afflictive māras, the hero difficult to tame
 **བོད་ཡིག:** བདུད་ཀྱི་ནང་ནས་གདུལ་དཀའ་བའི་དཔའ་བོ་ནི་ཉོན་མོངས་པའི་བདུད་བཞི་འཇོམས་པར་མཛད་མ།
@@ -654,6 +725,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener), FIG-10 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-41)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ###### c-1-2-2-1-2-1-6 Iconography: wrathful expression on her lotus-like blossoming face
 **བོད་ཡིག:** ཆུ་སྐྱེས་ཏེ་པདྨ་རྒྱས་པ་ལྟར་མཛེས་པའི་ཞལ་རས་ནི་ཁྲོ་གཉེར་དང་ལྡན་པའི་རྣམ་པར་མཛད་པ
@@ -661,6 +733,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ###### c-1-2-2-1-2-1-7 Activity: slays all external enemies without remainder
 **བོད་ཡིག:** དེ་ཡིས། ཕྱི་རོལ་གྱི་དགྲ་བོ་ཐམས་ཅད་ཀྱང་ལྷག་མ་མ་ལུས་པར་གསོད་པར་མཛད་མ་དེ་ལའོ། །
@@ -668,6 +741,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ###### c-1-2-2-1-2-1-8 Doctrinal note: "enemies" as the afflictive and cognitive obscurations
 **བོད་ཡིག:** འདིར་ཐར་པའི་དགྲ་ཉོན་སྒྲིབ་དང་། རྣམ་མཁྱེན་གྱི་དགྲ་ཤེས་སྒྲིབ་ལ་བྱས་ན་བསྡུས་དོན་དང་མཐུན་ནོ། །
@@ -675,6 +749,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-24)
 
 ---
 
@@ -686,6 +761,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-25)
 
 ###### c-1-2-2-1-2-2-2 Root verse quoted: heart adorned by the Three-Jewels mudrā, light agitated
 **བོད་ཡིག:** ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི།། སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ།། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི།། རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུག་མ།།
@@ -693,6 +769,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-26)
 
 ###### c-1-2-2-1-2-2-3 Iconography: the Three-Jewels mudrā formed by the left hand, adorning her heart
 **བོད་ཡིག:** ཕྱག་གཡོན་པའི་མཐེབ་སྲིན་གྱིས་ཨུཏྤ་ལའིཡུ་བ་བཟུངས་ཤིང་། མཛུབ་མོ་གུང་མོ་མཐེའུ་ཆུང་གསུམ་སྒྲེང་བ་དཀོན་མཆོག་གསུམ་འདུས་པའི་བདག་ཉིད་དུ་མཚོན་པའི་ཕྱག་རྒྱའི་སོར་མོ་རྣམས་ཀྱིས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ།
@@ -700,6 +777,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-45)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-27)
 
 ###### c-1-2-2-1-2-2-4 Iconography: light-rays radiate from the wheel on her right palm, outshining all other light
 **བོད་ཡིག:** མ་ལུས་པའི་ཕྱོགས་ཀྱི་ཆ་ཐམས་ཅད་ཕྱག་གཡས་པའི་མཆོག་སྦྱིན་གྱི་མཐིལ་འཁོར་ལོས་བརྒྱན་པ་ལས་འཕྲོས་པའི་རང་གི་འོད་ཟེར་གྱི་ཚོགས་རྣམས་ཕན་ཚུན་འཁྲུག་པས་གང་བར་མཛད་ནས་འོད་གཞན་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་མ་དེ་ལའོ།
@@ -707,6 +785,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-46)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-27)
 
 ###### c-1-2-2-1-2-2-5 Doctrinal note: this division and the next are grouped as "wrathful" despite no wrathful appearance
 **བོད་ཡིག:** འདི་དང་འོག་གི་ས་བཅད་ལྔ་པ་གཉིས་ལ་ཁྲོ་ཉམས་མི་སྣང་ཡང་། དེའི་གྲས་སུ་བྱུང་བ་མི་ལྡོག་པས་བརྟག་གོ །
@@ -714,6 +793,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-46)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-27)
 
 ---
 
@@ -725,6 +805,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-47)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-28)
 
 ###### c-1-2-2-1-2-3-2 Root verse quoted: majestic crown-ornament, laughter of TUTTĀRA subdues māras and world
 **བོད་ཡིག:** ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི།། དབུ་རྒྱན་འོད་ཀྱི་འཕྲེང་བ་སྤེལ་མ།། བཞད་པ་རབ་བཞད་ཏུ་ཏྟཱ་ར་ཡིས།། བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ།།
@@ -732,6 +813,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-48)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-29)
 
 ###### c-1-2-2-1-2-3-3 Iconography: jeweled crown-ornament, majestic and joy-generating, radiates multicolored light
 **བོད་ཡིག:** དད་ལྡན་རྣམས་ཀྱི་རེ་བ་བསྐོང་བས་རབ་ཏུ་དགའ་བ་བསྐྱེད་ཅིང་། མ་དད་པ་རྣམས་ཟིལ་གྱིས་གནོན་པས་བརྗིད་ཆགས་པའི་རིན་པོ་ཆེའི་དབུ་རྒྱན་འོད་ཟེར་འཕྲེང་བ་ཁ་དོག་སྣ་ཚོགས་པ་སྤེལ་ཏེ་འཕྲོ་མ།
@@ -739,6 +821,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-30)
 
 ###### c-1-2-2-1-2-3-4 Activity: mantric laughter "tuttāra" draws Māra Paranirmitavaśavartin and the world under her power
 **བོད་ཡིག:** སྔགས་ཀྱི་བཞད་མོ་རབ་ཏུ་བཞད་པའི་སྒྲ་ཏུཏྟཱ་ར་ཞེས་སོགས་ཀྱིས་འདོད་ཁམས་ཀྱི་བདག་པོ་བདུད་དགའ་རབ་དབང་ཕྱུག་དང་། དེའི་གཞན་དབང་དུ་གྱུར་པའི་འཇིག་རྟེན་མཐའ་དག་དབང་དུ་སྡུད་པར་མཛད་མ་དེ་ལའོ། །
@@ -746,6 +829,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** activity
 **Referent:** FIG-1 (section-opener), FIG-10 (stated), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-50)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-30)
 
 ---
 
@@ -757,6 +841,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-51)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-31)
 
 ###### c-1-2-2-1-2-4-2 Root verse quoted: summons all earth-protectors, liberates the destitute by HAṂ
 **བོད་ཡིག:** ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས།། ཐམས་ཅད་འགུག་པར་ནུས་པ་ཉིད་མ།། ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཾ་གིས།། ཕོངས་པ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་མ།།
@@ -764,6 +849,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-52)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-32)
 
 ###### c-1-2-2-1-2-4-3 Identification: the ten directional guardians summoned as servants of her activity
 **བོད་ཡིག:** ས་གཞི་སྐྱོང་བ་ཕྱོགས་སྐྱོང་བཅུ་དང་། དེ་དག་གི་འཁོར་གྱི་ཚོགས་རྣམས་ཐམས་ཅད་འཕྲིན་ལས་སྒྲུབ་པའི་བྲན་དུ་འགུགས་པར་ནུས་པའི་བདག་ཉིད་མ།
@@ -771,6 +857,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-53)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-33)
 
 ###### c-1-2-2-1-2-4-4 Iconography: wrathful frown, HŪṂ at the heart hooks in everything desired
 **བོད་ཡིག:** ཞལ་ཁྲོ་གཉེར་གཡོ་བའི་རྣམ་པར་བཞུགས་པའི་ཐུགས་ཀའི་ཡི་གེ་ཧཱུཾ་འོད་ཟེར་གྱི་ལྕགས་ཀྱུས་འདོད་རྒུ་ཐམས་ཅད་བཀུག་ནས།
@@ -778,6 +865,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener), TXT-6 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-54)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-33)
 
 ###### c-1-2-2-1-2-4-5 Activity: liberates all beings tormented by poverty and destitution
 **བོད་ཡིག:** སེམས་ཅན་དབུལ་ཞིང་ཕོངས་པའི་སྡུག་བསྔལ་གྱིས་གཟིར་བ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་བར་མཛད་མ་དེ་ལའོ།
@@ -785,6 +873,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-54)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-33)
 
 ---
 
@@ -796,6 +885,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-55)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-34)
 
 ###### c-1-2-2-1-2-5-2 Root verse quoted: crescent-moon crown blazes, Amitābha radiates from her locks
 **བོད་ཡིག:** ཕྱག་འཚལ་ཟླ་བའི་རྩེ་མོས་དབུ་རྒྱན།། བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ།། རལ་པའི་ཁྲོད་ན་འོད་དཔག་མེད་ལས།། རྟག་པར་ཤིན་ཏུ་འོད་རབ་མཛད་མ།།
@@ -803,6 +893,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener), FIG-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-56)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-35)
 
 ###### c-1-2-2-1-2-5-3 Iconography: crown adorned with the crescent moon, radiating suffering-dispelling white light
 **བོད་ཡིག:** ཟླ་བའི་རྩེ་མོ་སྟེ་ཚེས་གཅིག་གི་ཟླ་བས་དབུ་ལ་བརྒྱན་ཅིང་། དེ་ལ་སོགས་པའི་རྒྱན་གྱིས་བརྒྱན་པ་ཐམས་ཅད་ལས་སྡུག་བསྔལ་སེལ་བའི་འོད་ཟེར་དཀར་པོ་རབ་ཏུ་འབར་ཞིང་འཕྲོ་མ།
@@ -810,6 +901,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-36)
 
 ###### c-1-2-2-1-2-5-4 Identification: Amitābha abides as family-lord amid her matted locks
 **བོད་ཡིག:** གནག་ཅིང་སྣུམ་པའི་རལ་པའི་ཁྲོད་ན་སངས་རྒྱས་འོད་དཔག་མེད་རིགས་བདག་ཏུ་བཞུགས་པ་ལས་ཀྱང་དུས་རྟག་པར་སེམས་ཅན་གྱི་དོན་དུ་ཤིན་ཏུ་འོད་ཟེར་གྱི་ཚོགས་ནི་འགྱེད་པར་མཛད་མ་དེ་ལའོ། །
@@ -817,6 +909,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** identification
 **Referent:** FIG-1 (section-opener), FIG-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-58)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-36)
 
 ---
 
@@ -828,6 +921,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-59)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-37)
 
 ###### c-1-2-2-1-2-6-2 Root verse quoted: blazing amid fire like the aeon's end, destroys the enemy army
 **བོད་ཡིག:** ཕྱག་འཚལ་བསྐལ་པ་ཐ་མའི་མེ་ལྟར།། འབར་བའི་འཕྲེང་བའི་དབུས་ན་གནས་མ།། གཡས་བརྐྱངས་གཡོན་བསྐུམས་ཀུན་ནས་བསྐོར་དགའི།། དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ།།
@@ -835,6 +929,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-60)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-38)
 
 ###### c-1-2-2-1-2-6-3 Iconography: abides amid a blazing swirling garland of wisdom-fire, like the aeon-ending fire
 **བོད་ཡིག:** བསྐལ་པ་ཐ་མའི་མེས་འཇིག་གི་དུས་ཀྱི་མེ་ལྟར་ཡེ་ཤེས་ཀྱི་མེ་དཔུང་འབར་བའི་འཕྲེང་བ་འཁྲུག་པའི་དབུས་ན་གནས་མ།
@@ -842,6 +937,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-61)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-39)
 
 ###### c-1-2-2-1-2-6-4 Iconography/activity: stance of right leg extended, left bent; destroys enemy-armies in disciples' minds
 **བོད་ཡིག:** ཞབས་གཡས་བརྐྱངས་ཤིང་གཡོན་བསྐུམས་པའི་སྟབས་ཀྱིས་བཞུགས་ནས། སྒོ་ཀུན་ནས་ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་བ་ལ་དགའ་བའི་གདུལ་བྱའི་རྒྱུད་ཀྱི་ཕྱི་ནང་གི་དགྲ་ཡི་དཔུང་ཚོགས་རྣམ་པར་འཇོམས་པར་མཛད་མ་དེ་ལའོ།
@@ -849,6 +945,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-62)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-39)
 
 ---
 
@@ -860,6 +957,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-63)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-40)
 
 ###### c-1-2-2-1-2-7-2 Root verse quoted: strikes the earth, crushes the seven levels with HAṂ
 **བོད་ཡིག:** ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ།། ཁྲོ་གཉེར་ཅན་མཛད་ཡི་གེ་ཧཾ་གིས།། རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།།
@@ -867,6 +965,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-64)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-41)
 
 ###### c-1-2-2-1-2-7-3 Iconography: strikes the great earth, Meru and its continents, with hand and foot
 **བོད་ཡིག:** རི་རབ་གླིང་དང་བཅས་པའི་ས་གཞི་ཆེན་པོའི་ངོས་ལ། སྡིགས་མཛུབ་དང་བཅས་པའི་ཕྱག་གི་མཐིལ་གྱིས་དྲག་ཏུ་བསྣུན་ཅིང་ཞབས་ཀྱི་མཐིལ་གྱིས་བརྡུང་བར་མཛད་མ།
@@ -874,6 +973,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener), PLC-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-42)
 
 ###### c-1-2-2-1-2-7-4 Iconography: wrathful contracted frown and fierce marks
 **བོད་ཡིག:** ཞལ་ཁྲོ་གཉེར་བསྡུས་པ་སོགས་ཤིན་ཏུ་དྲག་མོའི་རྣམ་པ་ཅན་དུ་མཛད་པའི
@@ -881,6 +981,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-42)
 
 ###### c-1-2-2-1-2-7-5 Mantra: a blue HAṂ at each hand- and foot-sole emits showers of vajra-fire
 **བོད་ཡིག:** ཕྱག་ཞབས་ཀྱི་མཐིལ་དུ་ཡི་གེ་ཧཾ་སྔོན་པོ་རེ་རེ་གནས་པ་ལས་རྡོ་རྗེའི་མེ་ཆར་སྤྲོས་པས།
@@ -888,6 +989,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** mantra
 **Referent:** FIG-1 (section-opener), TXT-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-42)
 
 ###### c-1-2-2-1-2-7-6 Word-gloss: the seven successive underground levels named
 **བོད་ཡིག:** གཞི་དང་། ལྷག་པའི་གཞི་དང་། གཞི་མེད་པ་དང་། གཞི་ཉིད་དང་། བཅུད་ཀྱི་གཞི་དང་། །གཞི་བཟང་པོ་དང་། དག་པའི་གཞི་སྟེ། ས་འོག་རིམ་པ་བདུན་པོ།
@@ -895,6 +997,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-42)
 
 ###### c-1-2-2-1-2-7-7 Activity: crushes the malicious nāgas, asuras, Yama, and others dwelling in those levels
 **བོད་ཡིག:** ན་གནས་པའི་ཀླུ་དང་ལྷ་མིན་དང་གཤིན་རྗེ་སོགས་གདུག་པ་ཅན་རྣམས་ནི་འགེམས་པ་སྟེ་འཇོམས་པར་མཛད་མ་དེ་ལའོ། །
@@ -902,6 +1005,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** activity
 **Referent:** FIG-1 (section-opener), FIG-9 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-42)
 
 ---
 
@@ -913,6 +1017,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-67)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-43)
 
 ##### c-1-2-2-2-2 Root verse quoted: blissful, virtuous, peaceful, destroys great sin by SVĀHĀ and OṂ
 **བོད་ཡིག:** ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ།། མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ།། སྭཱ་ཧྭ་ཨོཾ་དང་ཡང་དག་ལྡན་པས།། སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ།།
@@ -920,6 +1025,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-68)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-44)
 
 ##### c-1-2-2-2-3 Etymology of "blissful" — her effect is free of suffering
 **བོད་ཡིག:** འབྲས་བུ་སྡུག་བསྔལ་མེད་པས་བདེ་མ།
@@ -927,6 +1033,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-4 Etymology of "virtuous" — her cause does not accumulate non-virtue
 **བོད་ཡིག:** རྒྱུ་མི་དགེ་བ་མི་གསོག་པས་དགེ་མ།
@@ -934,6 +1041,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-5 Etymology of "peaceful" — free of afflictions to be abandoned
 **བོད་ཡིག:** སྤང་བྱ་ཉོན་མོངས་མེད་པས་ཞི་མ།
@@ -941,6 +1049,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-6 Doctrinal: her domain is constant equipoise in the supreme peace beyond the two obscurations
 **བོད་ཡིག:** སྒྲིབ་གཉིས་ཀྱི་མྱ་ངན་ལས་འདས་པའི་ཞི་བ་མཆོག་གི་དབྱིངས་ལ་རྟག་ཏུ་མཉམ་པར་འཇོག་པས་དེའི་སྤྱོད་ཡུལ་ཅན་ཉིད་དུ་གྱུར་པ།
@@ -948,6 +1057,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-7 Mantra: the vidyā-mantra taught by that very power — TĀRE TUTTĀRE TURE
 **བོད་ཡིག:** དེའི་མཐུས་ཉིད་ཀྱིས་གསུངས་པའི་རིག་སྔགས། ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ།
@@ -955,6 +1065,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** mantra
 **Referent:** FIG-1 (section-opener), TXT-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-8 Word-gloss: the ten-syllable mantra formed with OṂ at the front and SVĀHĀ at the end
 **བོད་ཡིག:** ཞེས་པ་མཇུག་ཏུ་སྭཱ་ཧཱ་དང་། འགོར་ཨོཾ་དང་ཡང་དག་པར་ལྡན་པར་བྱས་པའི་ཡི་གེ་བཅུ་པ་ཉིད་ཚེས་བཞིན་དུ་བཟླས་པས
@@ -962,6 +1073,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** mantra
 **Referent:** TXT-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ##### c-1-2-2-2-9 Benefit: recitation destroys the reciter's five heinous acts, afflictions, and sufferings without remainder
 **བོད་ཡིག:** ཟློས་པ་པོའི་རྒྱུད་ཀྱི་མཚམས་མེད་ལྔ་དང་ཆོས་སྤོང་སོགས་སྡིག་པ་ཆེན་པོ་རྣམས་དང་། དེའི་རྒྱུ་ཆགས་སྡང་སོགས་ཉོན་མོངས་ཆེན་པོ་རྣམས་དང་། འབྲས་བུ་ཚ་གྲང་སོགས་སྡུག་བསྔལ་ཆེན་པོ་རྣམས་ཀྱང་ལྷག་མེད་དུ་འཇོམས་པར་མཛད་པའི་བདག་ཉིད་མ་དེ་ལའོ། །
@@ -969,6 +1081,7 @@ in the opening of its first child's window, 1.2.2.1.2.1 — see c-1-2-2-1-2-1-1 
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-70)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-45)
 
 ---
 
@@ -987,6 +1100,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-71)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-46)
 
 ##### c-1-2-3-1-2 Root verse quoted: crushes the enemy's body, Tārā herself arisen from HŪṂ
 **བོད་ཡིག:** ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི།། དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ།། ཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི།། རིག་པ་ཧཱུཾ་ལས་སྒྲོལ་མ་ཉིད་མ།།
@@ -994,6 +1108,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (stated), TXT-6 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-72)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-47)
 
 ##### c-1-2-3-1-3 Activity: crushes the outer and inner enemy-body in disciples' mindstreams
 **བོད་ཡིག:** སྒོ་ཀུན་ནས་ཆོས་ཀྱི་འཁོར་ལོ་བསྐོར་བ་ལ་རབ་ཏུ་དགའ་བའི་གདུལ་བྱའི་རྒྱུད་ཀྱི་ཕྱི་ནང་གི་དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་ཤིང་འཇོམས་པར་མཛད་མ།
@@ -1001,6 +1116,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-48)
 
 ##### c-1-2-3-1-4 Mantra: peaceful-form heart mantra — TAṂ arranged into the ten-syllable OṂ TĀRE TUTTĀRE TURE SVĀHĀ
 **བོད་ཡིག:** ཞི་བ་ལ་ཐུགས་ཀར་ཏཾ་ཡིག་གི་མཐར་ཡི་གེ་བཅུ་པའི་ངག་སྟེ་སྔགས་ནི། ཨོཾ་ཏ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ། ཞེས་པ་ཡིན་པས་དེ་བཀོད་པའི་སྒོ་ནས་དང་།
@@ -1008,6 +1124,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** mantra
 **Referent:** TXT-1 (section-opener), TXT-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-74)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-48)
 
 ##### c-1-2-3-1-5 Mantra: wrathful-form vidyā-mantra surrounds a HAṂ at the center, emitting light-rays
 **བོད་ཡིག:** ཁྲོ་མོ་ལ་ཐུགས་ཀར་རིག་པ་སྟེ་རིག་སྔགས། །ཨོཾ་ན་མོ་ཏ་རེ། ན་མོ་ཧ་རེ་ཧཱུཾ་ཧ་རེ་སྭཱ་ཧཱ། ཞེས་པས་བསྐོར་བའི་དབུས་སུ་ཧཾ་ཡིག་བཀོད་པ་ལས་འོད་ཟེར་སོགས་སྤྲོས་ནས
@@ -1015,6 +1132,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** mantra
 **Referent:** TXT-2 (stated), TXT-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-74)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-48)
 
 ##### c-1-2-3-1-6 Activity: destroys enemies and obstacle-makers, she who is Tārā herself
 **བོད་ཡིག:** དགྲ་བགེགས་སོགས་སྒྲོལ་མ་ཉིད་མ་དེ་ལའོ།
@@ -1022,6 +1140,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-74)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-48)
 
 ---
 
@@ -1033,6 +1152,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-75)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-49)
 
 ##### c-1-2-3-2-2 Root verse quoted: Ture's stamping feet, born of HAṂ, shake the three worlds
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པའི།། ཧཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ།། རི་རབ་མནྡྲ་ར་དང་འབིགས་བྱེད།། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ།།
@@ -1040,6 +1160,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-6 (stated), PLC-1 (stated), PLC-2 (stated), PLC-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-76)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-50)
 
 ##### c-1-2-3-2-3 Etymology of "Ture" — the Swift One whose two feet stamp forcefully
 **བོད་ཡིག:** ཏུ་རེ་སྟེ་མྱུར་མའི་ཞབས་གཉིས་ནི་དྲག་ཏུ་བརྡབས་པས་སོ། །
@@ -1047,6 +1168,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** etymology
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-51)
 
 ##### c-1-2-3-2-4 Identification: she is the wrathful one born from the HŪṂ seed-syllable
 **བོད་ཡིག:** ཡི་གེ་ཧཱུཾ་གི་རྣམ་པ་ཅན་གྱི་ས་བོན་ལས་སྐྱེས་པའི་ཁྲོ་མོའི་བདག་ཉིད་མའོ། །
@@ -1054,6 +1176,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** identification
 **Referent:** FIG-1 (section-opener), TXT-6 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-51)
 
 ##### c-1-2-3-2-5 Activity: stamping her feet shakes Meru, Mandara, Vindhya, and the three worlds
 **བོད་ཡིག:** རིའི་རྒྱལ་པོ་རི་རབ་དང་། རི་མནྟཱ་ར་དང་། རི་ནག་པོ་འབིགས་བྱེད་ལ་སོགས་པ་མདོར་ན་ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་བཅུད་ཀྱིས་སེམས་ཅན་དང་བཅས་པ་རྣམས་གཡོ་བར་མཛད་པ་ཡིན་པས།དེ་ལྟ་བུའི་མཐུ་སྟོབས་ཀྱི་བདག་ཉིད་མ་དེ་ལའོ།
@@ -1061,6 +1184,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener), PLC-1 (stated), PLC-2 (section-opener), PLC-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-78)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-51)
 
 ---
 
@@ -1072,6 +1196,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-79)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-52)
 
 ##### c-1-2-3-3-2 Root verse quoted: holds a hare-marked moon, dispels all poisons with TVARA and PHAṬ
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི།། རི་དྭགས་རྟགས་ཅད་ཕྱག་ན་བསྣམས་མ།། ཏྭ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས།། དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ།།
@@ -1079,6 +1204,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-80)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-53)
 
 ##### c-1-2-3-3-3 Iconography: holds a moon-disc marked with the hare-sign, like a divine lake
 **བོད་ཡིག:** ལྷའི་ཡིད་ཀྱི་མཚོ་ལྟར་དཀར་ཞིང་ཟླུམ་པའི་རྣམ་པ་ཅན་གྱི་ཟླ་བའི་དཀྱིལ་འཁོར་དབུས་སུ་རི་དྭགས་རི་བོང་གི་རྟགས་མཚན་ཅན་དེ་ཕྱག་ན་བསྣམས་ནས
@@ -1086,6 +1212,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-54)
 
 ##### c-1-2-3-3-4 Activity: dispels the poisons of the inanimate
 **བོད་ཡིག:** བརྟན་པའི་དུག་སེལ་བར་མཛད་མ།
@@ -1093,6 +1220,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-54)
 
 ##### c-1-2-3-3-5 Mantra: variant formed by replacing SVĀHĀ with PHAṬ in the "tvara"-marked ten-syllable mantra
 **བོད་ཡིག:** ཏྭ་ར་གཉིས་བརྗོད་ཀྱིས་མཚོན་པའིཡི་གེ་བཅུ་པ་ལ་སྭཱཧཱའི་གནས་ཕཊ་ཀྱི་ཡི་གེ་བཏགས་པའི་སྔགས་བརྗོད་པས
@@ -1100,6 +1228,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** mantra
 **Referent:** TXT-1 (section-opener), TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-82)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-54)
 
 ##### c-1-2-3-3-6 Activity: dispels all poisons of the animate without remainder
 **བོད་ཡིག:** གཡོ་བའི་དུག་གི་ཚོགས་རྣམས་ལྷག་མ་མ་ལུས་པར་ནི་སེལ་མ་དེ་ལའོ།
@@ -1107,6 +1236,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-82)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-54)
 
 ---
 
@@ -1118,6 +1248,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-83)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-55)
 
 ##### c-1-2-3-4-2 Root verse quoted: relied on by gods and kinnaras, dispels disputes and bad dreams by joyful armor
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ།། ལྷ་དང་མིའམ་ཅི་ཡིས་བསྟེན་མ།། ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས།། རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ།།
@@ -1125,6 +1256,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-84)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-56)
 
 ##### c-1-2-3-4-3 Identification: relied upon by Indra, Brahmā, ordinary gods, and horse-headed kinnaras
 **བོད་ཡིག:** འདོད་གཟུགས་ཀྱི་ལྷའི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་བརྒྱ་བྱིན་དང་ཚངས་པ་སོགས་དང་། །ལྷ་ཕལ་པ་དང་། མིའམ་ཅི་ལྗོན་པ་རྟ་མགོ་ལ་སོགས་པ་རྣམས་ཀྱི་གཙུག་གིས་གུས་པས་ཞབས་པད་བསྟེན་མ།
@@ -1132,6 +1264,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** identification
 **Referent:** FIG-1 (section-opener), FIG-4 (stated), FIG-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-57)
 
 ##### c-1-2-3-4-4 Benefit: visualization-and-mantra armor dispels all disputes and bad dreams
 **བོད་ཡིག:** སྒོ་ཀུན་ནས་ལྷ་མོའི་སྐུ་བསྒོམ་པ་དང་སྔགས་བཟླ་བའི་གོ་ཆ་བགོས་པ་ལ་ཤིན་ཏུ་དགའ་བའི་གཟི་བརྗིད་ཀྱིས། ཕ་རོལ་གྱི་རྩོད་པ་དང་རྨི་ལམ་ངན་པ་ཐམས་ཅད་སེལ་བར་མཛད་མ་དེ་ལའོ། །
@@ -1139,6 +1272,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-86)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-57)
 
 ---
 
@@ -1150,6 +1284,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-87)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-58)
 
 ##### c-1-2-3-5-2 Root verse quoted: sun-and-moon eyes, dispels virulent epidemic disease with HĀRA and TUTTĀRA
 **བོད་ཡིག:** ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི།། སྤྱན་གཉིས་པོ་ལ་འོད་རབ་གསལ་མ།། ཧཱ་ར་གཉིས་བརྗོད་ཏུཏྟཱ་ར་ཡིས།། ཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་སེལ་མ།།
@@ -1157,6 +1292,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (section-opener), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-88)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-59)
 
 ##### c-1-2-3-5-3 Iconography: wrathful eyes like a full sun, peaceful eyes like a full moon
 **བོད་ཡིག:** ཉི་མ་རྒྱས་པ་ལྟ་བུའི་ཁྲོ་མོའི་སྤྱན་གཡས་གཡོན་གཉིས་དང་། ཟླ་བ་རྒྱས་པ་ལྟ་བུའི་ཞི་བའི་སྤྱན་གཡས་གཡོན་གཉིས་པོ་ལ། ཆེ་བ་དང་བསིལ་བའི་འོད་རབ་ཏུ་གསལ་བ་དང་ལྡན་མ།
@@ -1164,6 +1300,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-89)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-60)
 
 ##### c-1-2-3-5-4 Word-gloss: "hāra" glossed as "seizer"
 **བོད་ཡིག:** ཁྲོ་མོའི་སྔགས་ཧ་ར་(འཕྲོག་པ)གཉིས་བརྗོད
@@ -1171,6 +1308,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-60)
 
 ##### c-1-2-3-5-5 Mantra: the wrathful mantra recited — OṂ NAMAḤ TĀRE NAMO HĀRE HWA HĀRE SVĀHĀ
 **བོད་ཡིག:** ཨོཾ་ན་མཿ ཏཱ་རེ་ན་མོ་ཧ་རེ་ཧྭ་ཧ་རེ་སྭཱཧཱ་ཞེས་པ
@@ -1178,6 +1316,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** mantra
 **Referent:** TXT-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-60)
 
 ##### c-1-2-3-5-6 Mantra: the peaceful mantra recited — OṂ TĀRE TUTTĀRE TURE SVĀHĀ
 **བོད་ཡིག:** ཞི་བའི་སྔགས་ཏུཏྟཱ་ར་ཡིས་མཚོན་པའི། །ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱཧུ། ཞེས་པ
@@ -1185,6 +1324,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** mantra
 **Referent:** TXT-1 (stated), TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-60)
 
 ##### c-1-2-3-5-7 Benefit: dispels the most virulent, difficult-to-cure epidemic disease without exception
 **བོད་ཡིག:** བརྗོད་པས་ཤིན་ཏུ་དྲག་པོ་སྟེ་གསོ་བར་དཀའ་བའི་རིམས་ནད་མ་ལུས་པ་ཡང་སེལ་བར་མཛད་མ་དེ་ལའོ། །
@@ -1192,6 +1332,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-60)
 
 ---
 
@@ -1203,6 +1344,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-91)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-61)
 
 ##### c-1-2-3-6-2 Root verse quoted: the three suchness syllables, Ture destroys spirits, zombies, yakṣas
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པས།། ཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ།། གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས།། འཇོམས་པ་ཏུ་རེ་རབ་མཆོག་ཉིད་མ།།
@@ -1210,6 +1352,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** structural
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-92)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-62)
 
 ##### c-1-2-3-6-3 Practice: the three suchness syllables OṂ/AḤ/HŪṂ visualized at crown/throat/heart pacify all harm
 **བོད་ཡིག:** སྒྲུབ་པ་པོ་ལྷ་མོའི་རྣལ་འབྱོར་ལ་གནས་པའི་སྤྱི་པོར་སྐུའི་དེ་ཉིད་ཨོཾ། མགྲིན་པར་གསུང་གི་དེ་ཉིད་ཨཱཿ སྙིང་གར་ཐུགས་ཀྱི་དེ་ཉིད་ཧཱུཾ་སྟེ་དེ་ཉིད་གསུམ་པོ་དེ་རྣམས་གནས་གསུམ་དུ་བཀོད་ནས་བསྒོམ་པས་སྒོ་གསུམ་གྱི་ཉེར་འཚེ་ཐམས་ཅད་ལྷག་མེད་དུ་ཞི་བའི་མཐུ་ནུས་དང་ཡང་དག་པར་ལྡན་མ།
@@ -1217,6 +1360,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** practice
 **Referent:** FIG-1 (section-opener), TXT-6 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-63)
 
 ##### c-1-2-3-6-4 Activity: swiftly destroys the eighteen kinds of graha-spirits
 **བོད་ཡིག:** ནམ་གྲུའི་གདོན་ལ་སོགས་པ་གདོན་བཅོ་བརྒྱད་
@@ -1224,6 +1368,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener), [unanchored] (the specific spirit-classes)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-94)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-63)
 
 ##### c-1-2-3-6-5 Activity: destroys evil mantras such as the vetāla's curse-sending ritual
 **བོད་ཡིག:** རོ་ལངས་ཀྱི་ལས་རྦོད་གཏོང་ལ་སོགས་པའི་ངན་སྔགས་
@@ -1231,6 +1376,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-94)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-63)
 
 ##### c-1-2-3-6-6 Activity: destroys harm-doers such as light-stealing yakṣas
 **བོད་ཡིག:** མདངས་འཕྲོག་པའི་གནོད་སྦྱིན་ལ་སོགས་པའི་གནོད་པའི་ཚོགས་རྣམས། མྱུར་དུ་འཇོམས་པའི་མཆོག་དང་རབ་ཀྱི་བདག་ཉིད་མ་དེ་ལ་སྟེ།
@@ -1238,6 +1384,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-94)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-63)
 
 ##### c-1-2-3-6-7 Attribution: variant fourth-line rendering attributed to "the venerable protector of beings"
 **བོད་ཡིག:** རྗེ་བརྩུན་འགྲོ་བའི་མགོན་པོས། ཚིག་རྐང་བཞི་པར། མྱུར་དུ་འཇོམས་པའི་མཆོག་རབ་ཉིད་མ།། ཞེས་པ་སྟེ།
@@ -1245,6 +1392,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** attribution
 **Referent:** PER-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-94)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^2-63)
 
 ---
 
@@ -1256,6 +1404,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-95)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^3-9)
 
 #### c-1-3-2 Benefit: temporarily attains a superior abode, body, resources, and retinue
 **བོད་ཡིག:** དེའི་མཐུས་གནས་སྐབས་སུ་ད་ལྟའི་གནས་སྐབས་འདི་ལས་ཆེ་ཞིང་མཆོག་ཏུ་གྱུར་པའི་གནས་ལུས་ལོངས་སྤྱོད་འཁོར་རྣམས་ཕུན་སུམ་ཚོགས་པ་ཉིད་ནི་ཐོབ་ཅིང་།
@@ -1263,6 +1412,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-95)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^3-9)
 
 #### c-1-3-3 Benefit: ultimately swiftly traverses the grounds and paths to buddhahood
 **བོད་ཡིག:** མཐར་ཐུག་གི་འབྲས་བུར་ས་ལམ་མྱུར་དུ་བགྲོད་ནས་སངས་རྒྱས་ཀྱི་གོ་འཕང་དེར་འགྲོ་བར་འགྱུར་རོ།
@@ -1270,6 +1420,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** benefit
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-95)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^3-9)
 
 #### c-1-3-4 Attribution: variant translation of the closing line noted
 **བོད་ཡིག:** ཚིག་རྐང་བཞི་པ་ལ་འགྱུར་ཁ་ཅིག་ཏུ། མཐར་ཐུག་སངས་རྒྱས་གོ་འཕང་དེར་འགྲོ། ། ཞེས་པ་ལྟར་བཤད་དོ།
@@ -1277,6 +1428,7 @@ the opening of its first child's window, 1.2.3.1 — see c-1-2-3-1-1 below.)
 **Type:** attribution
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md#^0-96)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md#^3-9)
 
 ---
 

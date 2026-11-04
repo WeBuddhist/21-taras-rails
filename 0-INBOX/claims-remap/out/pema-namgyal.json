@@ -188,13 +188,12 @@
     "0-7"
    ],
    "new_refs": [
-    "I-2",
     "II-2",
     "II-3"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 0.821,
+   "quote_score": 0.857,
    "cite_map_refs": [
     "II-2",
     "II-3",
@@ -320,12 +319,11 @@
     "0-13"
    ],
    "new_refs": [
-    "II-10",
     "II-11"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.821,
    "cite_map_refs": [
     "II-10",
     "II-11"
@@ -525,13 +523,11 @@
     "0-21"
    ],
    "new_refs": [
-    "II-10",
-    "II-19",
     "II-20"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 0.826,
+   "quote_score": 0.913,
    "cite_map_refs": [
     "II-20",
     "II-21"
@@ -1831,8 +1827,6 @@
     "0-73"
    ],
    "new_refs": [
-    "1-30",
-    "2-1",
     "2-2",
     "2-3"
    ],

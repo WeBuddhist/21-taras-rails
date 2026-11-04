@@ -14,6 +14,10 @@ method: tree-guided-extraction
 claim_id_scheme: "c-<decimal-with-dashes>-<n>, e.g. node 1.2.3's third claim is c-1-2-3-3 — never a bare decimal, never collides with a node heading number"
 claim_count: 157
 status: draft
+library_source_file: "1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md"
+library_text_id: 0Mf7CNevYyHI8TTBh3RHW
+library_edition_id: B8oZ0xtFaCCSswH0MqLNW
+library_remap: "0-INBOX/claims-remap/out/tenga-tulku.json (2026-11-04)"
 ---
 
 # Tree-guided claims — The Clear Mirror of the Benefits of the Twenty-One Homages
@@ -101,6 +105,7 @@ status: draft
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-1)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^0)
 
 ---
 
@@ -112,6 +117,7 @@ status: draft
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-1)
 
 ---
 
@@ -123,6 +129,7 @@ status: draft
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-1)
 
 #### c-1-1-2 Root verse quoted — homage to the Venerable Noble Tārā
 **བོད་ཡིག:** ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ། །
@@ -130,6 +137,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-1 (stated), TXT-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-2)
 
 #### c-1-1-3 Etymology of the syllable Oṃ
 **བོད་ཡིག:** ཨཾ་ནི་སྐུ་ལྔ་ཡེ་ཤེས་ལྔ་ཡི་ངོ་བོ་སེམས་ཅན་ཀྱི་སེམས་ཀྱི་དྲི་མ་སྦྱངས་བར་མཛད་པ། སྐྱབས་སུ་འགྲོ་བར་བྱེད་པ་དང་ཕྱག་འཚལ་བར་བྱེད་པ་ཨོཾ་ཞེས་བརྗོད་དོ། །
@@ -137,6 +145,7 @@ status: draft
 **Type:** etymology
 **Referent:** TXT-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-3)
 
 #### c-1-1-4 Etymology of "Venerable Lady" (rje btsun ma)
 **བོད་ཡིག:** རྗེ་བཙུན་མ་ནི་འཇིག་རྟེན་གསུམ་གྱི་མགོན་སྐྱབས་སུ་གྱུར་པའི་ཕྱིར་དང་སྡོམ་པ་གསུམ་ཡང་དག་པར་ལྡན་པས་ནའོ།།
@@ -144,6 +153,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-3)
 
 #### c-1-1-5 Etymology of "Noble Lady" ('phags ma)
 **བོད་ཡིག:** འཕགས་མ་ནི་སོ་སྐྱེའི་ས་ལས་རིང་དུ་འཕགས་པས་ནའོ། །
@@ -151,6 +161,7 @@ status: draft
 **Type:** etymology
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-3)
 
 #### c-1-1-6 Etymology of "Tārā" (sgrol ma)
 **བོད་ཡིག:** སྒྲོལ་མ་ནི་སེམས་ཅན་ཐམས་ཅད་སངས་རྒྱས་ཀྱི་ས་ལས་སྒྲོལ་བར་མཛད་པས་ནའོ། །
@@ -158,6 +169,7 @@ status: draft
 **Type:** etymology
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^1-3)
 
 ---
 
@@ -175,6 +187,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-1)
 
 ##### c-1-2-1-2 Root verse quoted — "Homage, Tārā, swift heroine"
 **བོད་ཡིག:** ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། ། … སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། ། … འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། ། … གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །
@@ -182,6 +195,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-2, #^2-3)
 
 ##### c-1-2-1-3 Rhetorical framing question
 **བོད་ཡིག:** སྒྲོལ་མ་ནི་དང་པོ་སྐུ་ཅི་ལས་བྱུང་། བར་དུ་སེམས་ཅན་གྱི་དོནཅི་ལྟ་བུ་མཛད་ཅེ་ན།
@@ -189,6 +203,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-3)
 
 ##### c-1-2-1-4 Origin narrative — Tārā born from Avalokiteśvara's tears
 **བོད་ཡིག:** དང་པོ་འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་དབང་ཕྱུག་གིས་གདུལ་བྱ་སེམས་ཅན་ཐམས་ཅད་སངས་རྒྱས་ཀྱི་གོ་འཕང་ལ་བཀོད་པར་མཛད་ན་ཡང་། སེམས་ཅན་གྱི་གནས་སྟོང་དུ་མེད་པ་མ་ཟད་སྡུག་བསྔལ་ཆེན་པོ་ཡོད་པ་ལ་བརྟེན་ནས།སྤྱན་ཆབ་མང་དུ་བསིལ་བས་ཆུ་ཡི་རྒྱུན་དུ་གྱུར། དེ་ལས་མེ་ཏོག་ཨུཏྤལ་ལ་སྐྱེས་ཏེ། དེ་ཡི་གེ་སར་ལས་འཁྲུངས་པས་ན།གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །ཞེས་དང་།
@@ -196,6 +211,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** identification
 **Referent:** FIG-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-3)
 
 ##### c-1-2-1-5 Etymology of "Swift Heroine" (myur ma dpa' mo)
 **བོད་ཡིག:** འཁྲུངས་ནས་གདུལ་བྱའི་དོན་ཅི་ལྟ་བུ་མཛད་སྙམ་ན། ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ་ཞེས་པས་བསྟན་ཏེ། སེམས་ཅན་གྱི་དོན་མྱུར་དུ་མཛད་པས་ན་མྱུར་མ་དང་། སྙིང་སྟོབས་དཔའ་མི་ཞུམ་པས་ན་དཔའ་མོ།
@@ -203,6 +219,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** etymology
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-4)
 
 ##### c-1-2-1-6 Tārā's unceasing compassionate gaze on beings
 **བོད་ཡིག:** དེ་ལྟར་མྱུར་ཞིང་དཔའ་བའི་རྗེ་བཙུན་སྒྲོལ་མ་དེ་ཉིད་ཀྱིས་སེམས་ཅན་གྱི་དོན་དུ་ཉིན་མཚན་དུས་དྲུག་ཏུ་ཡེ་ཤེས་སྤྱན་གྱིས་གཟིགས་པ་མི་གཡེལ་བར། སུ་ནི་རྒུད། སུ་ནི་དར་སོགས་གཟིགས་པ་ལ་སྒྲིབ་པ་མེད་པས་ན།
@@ -210,6 +227,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-4)
 
 ##### c-1-2-1-7 Etymology continued — "eyes like lightning"
 **བོད་ཡིག:** སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། ། ཞེས་པ་སྟེ། དེ་ལྟ་བུའི་ཡོན་ཏན་དང་ལྡན་པའི་རྗེ་བཙུན་མ་ལ་སྒོ་གསུམ་གུས་པས་ཕྱག་འཚལ་ལོ། །
@@ -217,6 +235,7 @@ None — announcement only. The node's own window is its heading line alone; its
 **Type:** etymology
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-4)
 
 ---
 
@@ -248,6 +267,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-5)
 
 ###### c-1-2-2-1-1-1-2 Root verse quoted — "face like a hundred autumn moons"
 **བོད་ཡིག:** ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། ། … གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ། ། … སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས། ། … རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མ། །
@@ -255,6 +275,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-6, #^2-7)
 
 ###### c-1-2-2-1-1-1-3 Simile explained — the autumn moon and Tārā's face
 **བོད་ཡིག:** སྤྱིར་ཟླ་བ་དེ་དངོས་པོ་གཞན་ལས་ཁྱད་པར་དུ་འཕགས་པ་བཀྲག་མདངས་དང་ལྡན་པ་ཞིག་ཡིན་ལ། དབྱར་གྱི་དུས་སུ་སྤྲིན་དང་རླངས་པས་སྒྲིབ་ཅིང་། དགུན་གྱི་དུས་སུ་དུ་བ་དང་ས་རྡུལ་གྱིས་སྒྲིབ་ནས་བཀྲག་མདངས་མི་གསལ་བ་ཡིན་ནའང་། སྟོན་གྱི་དུས་སུ་དེ་གཉིས་ཀ་དང་བྲལ་བས་བཀྲག་མདངས་གསལ་བ་ཡིན་ལ།ཚེས་བཅོ་ལྔའི་ཟླ་བ་ནི་གང་བའི་ཆ་དང་ལྡན་པ་དེ་བཞིན་དུ། རྗེ་བཙུན་གྱི་ཞལ་རས་ཀྱང་ཤིན་ཏུ་གསལ་ཞིང་བཀྲག་མདངས་དང་ལྡན་པ། སྟོན་ཀའི་ཟླ་བ་ཉ་གང་བ་དང་ཆོས་མཚུངས་པར་བསྟན་པ་དང་།
@@ -262,6 +283,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-7)
 
 ###### c-1-2-2-1-1-1-4 Simile explained — a thousand stars and Tārā's radiance
 **བོད་ཡིག:** དེ་ལས་འོད་ཟེར་འཕྲོ་བར་བསྟན་པར་མཛད་པ་ནི།སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས། ། ཞེས་སྐར་མ་སྟོང་ཕྲག་ཙམ་གཅིག་ཏུ་འཚོགས་པ་ན་འོད་ཟེར་ཀྱང་མིག་གི་ལྟ་བས་མི་བཟོད་པར་འཕྲོ་བ་དེ་བཞིན་དུ་རྗེ་བཙུན་མའི་ཞལ་རས་ལས་ཀྱང་འོད་དང་འོད་ཟེར་མིག་གིས་ལྟ་བས་མི་བཟོད་པར་འཕྲོ་བ་སྟེ།ཞལ་རས་མཛེས་པ་དང་། འོད་ཟེར་འཕྲོ་བའི་ཡོན་ཏན་དང་ལྡན་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་དང་།
@@ -269,6 +291,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-7)
 
 ---
 
@@ -280,6 +303,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-8)
 
 ###### c-1-2-2-1-1-2-2 Root verse quoted — "golden-blue, born from water"
 **བོད་ཡིག:** ཕྱག་འཚལ་གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། ། … པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། ། … སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་ཞི་བ། ། … བཟོད་པ་བསམ་གཏན་སྤྱོད་ཡུལ་ཉིད་མ། །
@@ -287,6 +311,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-9, #^2-10)
 
 ###### c-1-2-2-1-1-2-3 Exegesis of body-color and hand-emblem
 **བོད་ཡིག:** སྐུ་མདོག་གི་དབང་དུ་ན། གསེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། ཞེས་མདངས་ཤིན་ཏུགས་ལ་བའི་ཆ་ནས་གསེར་གྱི་མདངས་དང་ཆོས་མཚུངས་ཤིང་། ཁ་དོག་གི་བཀྲག་མདངས་དངོས་སུ་མེད་པར་སྔོན་པོའི་རྣམ་པ་དང་ལྡན་པར་བསྟན་པར་མཛད་པ་དང་། ཕྱག་མཚན་གྱི་དབང་དུ་ན། ཆུ་ནས་སྐྱེས་ཀྱི་སྟེ། 7 པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ། །ཞེས་དེ་ལ་ཆུ་ལས་སྐྱེས་པའི་མེ་ཏོག་ཨུཏྤལ་སྔོན་པོ་འདབ་མ་ཤིན་ཏུ་ཡངས་ཤིང་རྒྱ་ཆེ་བ་ཕྱག་གཡོན་པས་ཐུགས་ཀར་འཛིན་ཅིང་འདབ་མ་སྙན་གྱི་ཐད་ཀར་ཕྱེ་བ་དེ་སྐུའི་ཡོན་ཏན་དང་ལྡན་པ་བསྟན་པར་མཛད་པ་དང་།
@@ -294,6 +319,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-10)
 
 ###### c-1-2-2-1-1-2-4 Body's origin in the six perfections; stainless qualities
 **བོད་ཡིག:** སྐུའི་དབང་དུ་ན། རྗེ་བཙུན་མ་ནི་སྐུ་གང་ལས་བྱུང་སྙམ་ན། རྒྱུ་ཕ་རོལ་ཏུ་ཕྱིན་པ་དྲུག་ལས་བྱུང་བ་ཡིན་ཏེ་དང་པོ་སྦྱིན་པའི་ཕར་ཕྱིན་དང་།དཀའ་ཐུབ་ནི་ཚུལ་ཁྲིམས་ཀྱི་ཕར་ཕྱིན། བཟོད་པའི་ཕར་ཕྱིན། བརྩོན་འགྲུས་ཀྱི་ཕར་ཕྱིན། བསམ་གཏན་གྱི་ཕར་ཕྱིན། བསམ་གཏན་གྱི་སྤྱོད་ཡུལ་ཞེས་པ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་སྟེ། ཕར་ཕྱིན་དྲུག་ལ་བརྟེན་ནས་བསྐྱེད་པ་ཡིན་ཞིང་། རྒྱུ་ཕར་ཕྱིན་དྲུག་གིས་བསྐྱེད་པ་ཙམ་དུ་མ་ཟད། 8 ཞི་བ་ཞེས་པས་དངོས་བསྟན་གྱི་དབང་དུ་བྱས་ན། ཕྱིན་དྲུག་ལ་སྐྱོན་གྱི་རྣམ་པས་མ་གོས་པ་སྟེ། སྦྱིན་པའི་སྐབས་སུ་སེར་སྣའི་སྐྱོན་གྱིས་མ་གོས་པ་དང་། ཚུལ་ཁྲིམས་ལ་ཚུལ་འཆལ་གྱི་སྐྱོན་གྱིས་མ་གོས་པ།བཟོད་པ་ལ་ཁོང་ཁྲོའི་སྐྱོན་གྱིས་མ་གོས་པ། བརྩོན་འགྲུས་ལ་ལེ་ལོའི་སྐྱོན་གྱིས་མ་གོས་པ། བསམ་གཏན་ལ་རྣམ་གཡེང་གི་སྐྱོན་གྱིས་མ་གོས་པ། ཤེས་རབ་ལ་ཤེས་འཆལ་གྱི་སྐྱོན་གྱིས་མ་གོས་པར། ཕར་ཕྱིན་དྲུག་ལ་བརྟེན་ནས་མངོན་པར་རྫོགས་པར་སངས་རྒྱས་ཏེ་གདུལ་བྱ་སེམས་ཅན་གྱི་དོན་མཛད་པ་སྟེ།
@@ -301,6 +327,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-11, #^2-12)
 
 ---
 
@@ -312,6 +339,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-13, #^2-2-1-1-3-0)
 
 ###### c-1-2-2-1-1-3-2 The word "homage" analyzed as three markers
 **བོད་ཡིག:** དེ་ཡང་ཕྱག་འཚལ་ཞེས་པ་ལ། ཐོག་མཐའ་བར་གསུམ་གྱི་གསལ་བྱེད་གསུམ་དུ་ཡོད་པ་ལས། སྐབས་འདིར་ཕྱག་འཚལ་བ་ནི་ཐོག་མའི་གསལ་བྱེད་དུ་བསྟན་པར་མཛད་པ་སྟེ།
@@ -319,6 +347,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-14)
 
 ###### c-1-2-2-1-1-3-3 To whom homage is offered — the Venerable Lady
 **བོད་ཡིག:** གང་ལ་ན་རྗེ་བཙུན་མ་ལའོ།།
@@ -326,6 +355,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-14)
 
 ---
 
@@ -337,6 +367,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-15)
 
 ###### c-1-2-2-1-1-3-1-2 Root verse quoted — "homage to the crown protuberance of the tathāgatas"
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར། །
@@ -344,6 +375,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-35)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-16)
 
 ###### c-1-2-2-1-1-3-1-3 Exegesis — she is the mother Prajñāpāramitā, source of all buddhas
 **བོད་ཡིག:** དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱིས་རྗེ་བཙུན་མ་ལ་ཕྱག་འཚལ་བའི་རྒྱུ་མཚན་ཅི་ལྟ་བུ་ཡིན་ཞེ་ན། རྗེ་བཙུན་མ་ནི་ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་ངོ་བོར་གྱུར་པ་ཡིན་ནོ། །སངས་རྒྱས་ཐམས་ཅད་ནི་ཤེར་ཕྱིན་ལ་བརྟེན་ནས་འཁྲུངས་པ་ཡིན་པའི་ཕྱིར་ནའོ། ། … ཆོས་ཀྱི་དབྱིངས་ཤེར་ཕྱིན་གྱི་དོན་དེ་ཚུལ་བཞིན་རྟོགས་ཅིང་མངོན་དུ་གྱུར་ན་སངས་རྒྱས་ཀྱི་གོ་འཕང་ཐོབ་ལ། དེ་མངོན་དུ་མ་གྱུར་ན་སངས་རྒྱས་མི་འཐོབ་པའི་ཕྱིར་རོ། །དེས་ན་རྗེ་བཙུན་མ་ནི་ཤེར་ཕྱིན་གྱི་རང་གཟུགས་ཡིན་པའི་ཕྱིར་ན།དེ་བཞིན་གཤེགས་པ་རྣམས་ཀྱིས་ཕྱག་འཚལ་བའོ། །
@@ -351,6 +383,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-17, #^2-18)
 
 ###### c-1-2-2-1-1-3-1-4 Root verse quoted — "she who acts in boundless victory"
 **བོད་ཡིག:** མཐའ་ཡས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ། །
@@ -358,6 +391,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-19)
 
 ###### c-1-2-2-1-1-3-1-5 Exegesis — boundless beings purified through realizing the perfection of wisdom
 **བོད་ཡིག:** དེ་ཡང་མཐའ་ཡས་པའི་སེམས་ཅན་ཐམས་ཅད་ཀྱིས་ཤེར་ཕྱིན་ཇི་ལྟ་བ་བཞིན་མི་རྟོགས་པའི་འགལ་རྐྱེན་སྒྲིབ་གཉིས་སྦྱང་། ཤེར་ཕྱིན་ཇི་ལྟ་བར་རྟོགས་པ་ལ་བརྟེན་ནས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མ་ཞེས་བསྟན་པར་མཛད་པ་དང་།
@@ -365,6 +399,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-20)
 
 ---
 
@@ -376,6 +411,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-21)
 
 ###### c-1-2-2-1-1-3-2-2 Root verse quoted — relied upon by the Victor's offspring who have attained the perfections
 **བོད་ཡིག:** མ་ལུས་ཕ་རོལ་ཕྱིན་པ་ཐོབ་པའི། ། … རྒྱལ་བའི་སྲས་ཀྱིས་ཤིན་ཏུ་བསྟེན་མ། །
@@ -383,6 +419,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-22)
 
 ###### c-1-2-2-1-1-3-2-3 Exegesis — bodhisattvas on the ten grounds rely on her with utter clarity
 **བོད་ཡིག:** བྱང་སེམས་ལའང་སོ་སྐྱེ་དང་འཕགས་ས་ལ་བཞུགས་པའི་བྱང་སེམས་གཉིས་ལས། འཕགས་ས་ལ་བཞུགས་པའི་བྱང་སེམས་ནི་དངོས་ཡིན་ལ། དེ་ལ་ཕ་རོལ་ཏུ་ཕྱིན་པ་ས་བཅུའི་ཕ་རོལ་ཏུ་ཕྱིན་པས།ས་བཅུའི་ཡོན་ཏན་ཐོབ་པའི་ས་ལ་བཞུགས་པའི་བྱང་སེམས་རྣམས་དང་རྒྱལ་བ་སྲས་དང་བཅས་པས་ཤིན་ཏུ་དྭངས་བའི་སྒོ་ནས་རྗེ་བཙུན་མ་ལ་ཕྱག་འཚལ་བར་མཛད་པར་བསྟན་པ་དང་།
@@ -390,6 +427,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-23)
 
 ---
 
@@ -401,6 +439,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-24)
 
 ###### c-1-2-2-1-1-4-2 Root verse quoted — "with the syllables TUTTĀRA HŪṂ"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས། ། … འདོད་དང་ཕྱོགས་དང་ནམ་མཁའ་གང་མ། ། … འཇིག་རྟེན་བདུན་པོ་ཞབས་ཀྱིས་མནན་ཏེ། … ལུས་པ་མེད་པར་འགུགས་པར་ནུས་མ། །
@@ -408,6 +447,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-25)
 
 ###### c-1-2-2-1-1-4-3 Exegesis of TUTTĀRA and the three realms filled with light
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟ་ར་ནི་ཐོག་མའི་གསལ་བྱེད་དུ་བསྟན་ཅིང་། འདོད་ཁམས། གཟུགས་ཁམས་གནས་རིས་བཅུ་བདུན། ནམ་མཁའ་ཞེས་པས་གཟུགས་མེད་གྱི་གནས་ཏེ། ཁམས་གསུམ་ལ་རྗེ་བཙུན་མའི་ཐུགས་ཀ་ནས་འོད་ཟེར་འཕྲོས་ཤིང་འོད་ཀྱིས་གནས་ཐམས་ཅད་གང་བ་དང་།
@@ -415,6 +455,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** mantra
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-50)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-26)
 
 ###### c-1-2-2-1-1-4-4 Exegesis — the seven worlds trodden by her two feet
 **བོད་ཡིག:** འཇིག་རྟེན་བདུན་པོ་ནི། འདོད་ཁམས་ལ་ངན་སོང་གསུམ། ལྷ་དང་མི་ཡི་གནས་ཏེ་གནས་རིས་ལྔ་དང་། དེའི་སྟེང་དུ་གཟུགས་ཁམས་དང་གཟུགས་མེད་ཁམས་བཅས་བདུན་པོ་ཞབས་ཀྱིས་མནན་པར་མཛད་པ་སྟེ། སྟོང་པ་གཟིགས་པའི་ཞབས་དང་། སྙིང་རྗེས་གཞན་མི་འདོར་བའི་ཞབས་གཉིས་པོས་མནན་ཏེ། འཁོར་བ་དང་ངན་སོང་གི་སྡུག་བསྔལ་ལས་སྐྱོབ་པར་མཛད་ཅིང།
@@ -422,6 +463,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-51)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-26, #^2-27)
 
 ###### c-1-2-2-1-1-4-5 Exegesis — summoning all beings toward higher rebirth and liberation
 **བོད་ཡིག:** འཁོར་བའི་སེམས་ཅན་ཐམས་ཅད་ངན་སོང་དུ་ལུས་པ་མེད་པར། མཐོ་རིས་དང་ཐར་པའི་ལམ་ལ་འགུགས་པར་ནུས་པའི་ཡོན་ཏན་དང་ལྡན་ཅིང་མི་མཐུན་པའི་ཕྱོགས་ཐམས་ཅད་མནན་པའི་སྒོ་ནས་ཕྱག་འཚལ་བར་བསྟན་པ་དང་།
@@ -429,6 +471,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-51)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-27)
 
 ---
 
@@ -440,6 +483,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-52)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-28)
 
 ###### c-1-2-2-1-1-5-2 Root verse quoted — worshipped by Indra, Agni, Brahmā, Vāyu, Sarveśvara
 **བོད་ཡིག:** ཕྱག་འཚལ་བརྒྱ་བྱིན་མེ་ལྷ་ཚངས་པ། … རླུང་ལྷ་སྣ་ཚོགས་དབང་ཕྱུག་མཆོད་མ། ། … འབྱུང་པོ་རོ་ལངས་དྲི་ཟ་རྣམས་དང་། ། … གནོད་སྦྱིན་ཚོགས་ཀྱིས་མདུན་ནས་བསྟོད་མ། །
@@ -447,6 +491,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** FIG-3 (stated), FIG-4 (stated), FIG-5 (stated), FIG-6 (stated), FIG-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-29)
 
 ###### c-1-2-2-1-1-5-3 Exegesis — deities named by realm/direction
 **བོད་ཡིག:** ལྷ་ཡི་དབང་པོ་བརྒྱ་བྱིན། སྟོང་གསུམ་གྱི་བདག་པོ་ཚངས་པ།ཡང་ན་ཤར་ཕྱོགས་སྐྱོང་བའི་བརྒྱ་བྱིན། ཤར་ལྷོར་མེ་ལྷ། སྟེང་ཕྱོགས་སྐྱོང་བའི་ཚངས་པ། ནུབ་བྱང་རླུང་ལྷ་ལ་སོགས་པ་དང་།ཕྱོགས་སྐྱོང་བ་ཆེན་པོ་རྣམས་དང་། དེ་ལྟར་དུ་མ་ཟད། འཇིག་རྟེན་ན་ལས་ངན་དང་སྨོན་ལམ་ལོག་པས་མཚམས་སྦྱར་ནས་སྐྱེས་ཤིང་།གཞན་ལ་གནོད་སེམས་དང་།
@@ -454,6 +499,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** FIG-3 (stated), FIG-4 (stated), FIG-5 (stated), FIG-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-58)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-30)
 
 ###### c-1-2-2-1-1-5-4 Exegesis — spirit-classes and yakṣa hosts devotedly attend her
 **བོད་ཡིག:** འཇིགས་སྐྲག་སྡུག་བསྔལ་གྱིས་དུས་རྟག་ཏུ་མནར་བའི་མཁའ་ལ་རྒྱུ་བའི་ཡི་དྭགས་ཀྱི་རིགས་སུ་གྱུར་པའི་འབྱུང་པོ་དང་། ནག་ཕྱོགས་ཀྱི་བདུད་ཀྱིས་གསོན་པོར་བརྫུ་བའི་རོ་ལངས་དང་སྲིད་པ་བར་དོར་འཁྱམས་པའི་དྲི་ཟ་རྣམས་དང་།གཞན་ལ་གནོད་པའི་སེམས་རྟག་ཏུ་འཆང་ཞིང་། … རྫུ་འཕྲུལ་དང་རྟོབས་རྩལ་ལྡན་པའི་གནོད་སྦྱིན་ཀྱི་ཚོགས་རྣམས་ཀྱིས་ཀྱང་། རྗེ་བཙུན་མ་ལ་སྐྱབས་སུ་འགྲོ་བའི་བསམ་པས་མདུན་ནས་རྟག་ཏུ་བསྟེན་པར་མཛད་པས་ཕྱག་འཚལ་བའི་ཡུལ་དུ་བསྟན་པ་དང་།
@@ -461,6 +507,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-59)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-31)
 
 ---
 
@@ -472,6 +519,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-60)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-32)
 
 ###### c-1-2-2-1-1-6-2 Root verse quoted — "with TRAD and PHAT"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏྲཌ་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། ། … ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ། ། … གཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་མནན་ཏེ། ། … མེ་འབར་འཁྲུགས་པ་ཤིན་ཏུ་འབར་མ། །
@@ -479,6 +527,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-33)
 
 ###### c-1-2-2-1-1-6-3 Exegesis — invoked against dark magical harm
 **བོད་ཡིག:** ཕ་རོལ་གྱི་ནད་དང་གནོད་པ་སོགས་འཇིགས་པའི་ཕྱོགས་སུ་གྱུར་པའི་ནག་ཕྱོགས་བདུད་ཀྱི་འཁྲུལ་འཁོར་གང་བྱུང་བའི་ཚེ་ན་རྗེ་བཙུན་མ་ལ་གསོལ་བ་བཏབ་པས།
@@ -486,6 +535,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-34)
 
 ###### c-1-2-2-1-1-6-4 Exegesis — wrathful stance and wisdom-fire consuming obstacles
 **བོད་ཡིག:** གཡས་བསྐུམས་གཡོན་བརྐྱངས་བ་ལ་ནག་ཕྱོགས་བདུད་ཀྱི་ཕྱོགས་སུ་གྱུར་པ་ཐམས་ཅད་ཞབས་ཀྱིས་མནན་ཅིང་སྐུའི་རྣམ་འགྱུར་དྲག་པོའི་སྒོ་ནས་ཚར་གཅོད་ཅིང་། དེ་ལྟར་དུ་མ་ཟད།སྐུ་ལས་ཡེ་ཤེས་ཀྱི་མེ་འབར་ཅིང་བདུད་དང་བར་ཆད་ཐམས་ཅད་སྲེག་ཅིང་འཇོམས་པར་མཛད་པའི་སྒོ་ནས་བསྟོད་པར་མཛད་པ་དང་།
@@ -493,6 +543,7 @@ None — announcement only. Same fold as 1.2.2 above.
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-67)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-34)
 
 ---
 
@@ -510,6 +561,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-68)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-35)
 
 ###### c-1-2-2-1-2-1-2 Root verse quoted — "Ture, great terror"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོས། ། … བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ། ། … ཆུ་སྐྱེས་ཞལ་ནི་ཁྲོ་གཉེར་ལྡན་མཛད། ། … དགྲ་བོ་ཐམས་ཅད་མ་ལུས་གསོད་མ། །
@@ -517,6 +569,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-36)
 
 ###### c-1-2-2-1-2-1-3 Etymology — "Ture" names the Venerable Lady
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེ་ཞེས་པ་ནི་རྗེ་བཙུན་གྱི་མཚན་བསྟན་པ་ཡིན་ལ།
@@ -524,6 +577,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** etymology
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-74)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-37)
 
 ###### c-1-2-2-1-2-1-4 Exegesis — the four māras destroyed merely by hearing her name
 **བོད་ཡིག:** མཚན་ཐོས་པ་ཙམ་གྱིས་བདུད་ཀྱི་དཔུང་སྟེ། སྤྱིར་སྐྱེ་འགྲོ་ཡོངས་ལ་འཚེ་བར་བྱེད་པའི་བདུད་བཞི་སྟེ། ལྷའི་བུའི་བདུད། འཆི་བདག་གི་བདུད།ཕུང་པོའི་བདུད། ཉོན་མོངས་པའི་བདུད་ཀྱི་ཚོགས་ཀྱིས་གནས་སྐབས་ཀྱི་དབང་དུ་ན། སྡུག་བསྔལ་དང་འཇིགས་པ་ཐམས་ཅད་བསྐྱེད་པར་བྱེད་ཅིང་། མཐར་ཐུག་གི་དབང་དུ་བྱས་ན། ཐར་པ་དང་ཐམས་ཅད་མཁྱེན་པའི་གོ་འཕང་ཐོབ་པ་ལ་བར་དུ་གཅོད་པའི་བདུད་རྣམས་འཇོམས་མ།
@@ -531,6 +585,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-75)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-37, #^2-38)
 
 ###### c-1-2-2-1-2-1-5 Exegesis — wrathful lotus-face and destruction of enemies
 **བོད་ཡིག:** དེ་ལྟ་བུའི་བདུད་ཀྱི་དཔུང་དེ་དག་འཇོམས་པར་མཛད་མ་ཡང་། རྗེ་བཙུན་མ་ཆུ་སྐྱེས་ཀྱི་ཞལ་དེ་ཉིད་ཁྲོ་གཉེར་ཏེ་དྲག་པོའི་ཚུལ་དང་ལྡན་པར་མཛད་ཅིང་། བདུད་དང་དགྲ་བོ་ཐམས་ཅད་མ་ལུས་པ་འཇོམས་པའམ་གཅོད་པར་མཛད་པས་ན་དྲག་པོའི་ཚུལ་དང་ལྡན་པ་ལ་བསྟོད་པར་མཛད་པ་དང་།
@@ -538,6 +593,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-76)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-38)
 
 ---
 
@@ -549,6 +605,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-39)
 
 ###### c-1-2-2-1-2-2-2 Root verse quoted — "Three Jewels mudrā adorning her heart"
 **བོད་ཡིག:** ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། ། … སོར་མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ། ། … མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི། ། … རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུགས་མ། །
@@ -556,6 +613,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-82)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-40)
 
 ###### c-1-2-2-1-2-2-3 Exegesis — the Three-Jewels mudrā at her heart
 **བོད་ཡིག:** ཕྱག་གཡོན་པ་ཐུགས་ཀར་མཐེབ་སྲིན་སྦྱར་ཅིང་། མཛུབ་མོ་དང་དགུང་མོ། མཐེའུ་ཆུང་གསུམ་སྒྲེང་བ་ནི་དཀོན་མཆོག་གསུམ་མཚོན་གྱི་ཕྱག་རྒྱས་དང་མཐེབ་སྲིན་གྱི་སོར་མོ་ཨུཏྤལའི་ཡུ་བ་ཐུགས་ཀར་རྣམ་པ་ཡིད་འོང་གི་ཚུལ་གྱིས་བརྒྱན་པར་མཛད་མ།
@@ -563,6 +621,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-83)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-41)
 
 ###### c-1-2-2-1-2-2-4 Exegesis — the right-hand boon-granting wheel-gesture radiating light
 **བོད་ཡིག:** ཕྱག་གཡས་པས་མ་ལུས་པའི་སེམས་ཅན་ལ་མཆོག་ཐུན་གྱི་དངོས་གྲུབ་སྟེར་བར་མཚོན་པའི་མཆོག་སྦྱིན་གྱི་ཕྱག་རྒྱ་མཛད་པའི་མཐིལ་དུ་འཁོར་ལོ་རྩིབས་སྟོང་གི་རི་མོས་རབ་ཏུ་མཛེས་པར་བརྒྱན་པའི་འོད་ཟེར་གྱིས་སེམས་ཅན་ཐམས་ཅད་ལ་གནོད་པའི་ཚོགས་ཐམས་ཅད་སེལ་བར་མཛད་ཅིང་ཕན་བདེའི་ཕྱོགས་ཐམས་ཅད་སྦྱིན་པར་མཛད་པའི་ཕྱིར་ན་འཁོར་ལོ་རང་གི་འོད་ཟེར་དཔག་ཏུ་མེད་པར་འཁྲུགས་པར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -570,6 +629,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-84)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-41)
 
 ---
 
@@ -581,6 +641,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-42)
 
 ###### c-1-2-2-1-2-3-2 Root verse quoted — "joyful and majestic, crown-ornament garland of light"
 **བོད་ཡིག:** ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི། ། … དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ། ། … བཞད་པ་རབ་བཞད་ཏུཏྟཱ་ར་ཡིས། ། … བདུད་དང་འཇིག་རྟེན་དབང་དུ་མཛད་མ། །
@@ -588,6 +649,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-43)
 
 ###### c-1-2-2-1-2-3-3 Exegesis — great joy and the crown-ornament's radiating light garland
 **བོད་ཡིག:** རྗེ་བཙུན་མ་དེ་ཉིད་ཀྱིས་སེམས་ཅན་ལ་ཕན་བདེ་མ་ལུས་པ་སྟེར་བར་མཛད་པ་ལ་རབ་ཏུ་དགའ་བ་དང་ལྡན་པ་དང་། དེའི་ལས་ལ་བརྩོན་པར་བགྱིས་པའི་སྙིང་སྟོབས་ཆེན་པོ་དང་ལྡན་ཅིང་།རིགས་ལྔ་མཚོན་པར་བྱེད་པའི་དབུ་རྒྱན་གྱི་རྩེ་ལས་འོད་དང་འོད་ཟེར་གྱི་ཕྲེང་བ་དཔག་ཏུ་མེད་པ་སྤེལ་བའི་སྟོབས་ཀྱིས་སེམས་ཅན་ལ་ཕན་བདེ་མ་ལུས་པ་སྟེར་བར་མཛད་ཅིང་།
@@ -595,6 +657,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-91)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-44)
 
 ###### c-1-2-2-1-2-3-4 Exegesis — laughter subduing māras and the three worlds
 **བོད་ཡིག:** བཞད་པའི་སྒོ་ནས་བསྟོད་པ་ནི།བཞད་པ་དང་རྣམ་པར་བཞད་པ་ལ་སོགས་པའི་སྒོ་ནས། བདུད་དང་དགྲ་བོའི་ཚོགས་ཐམས་ཅད་སྐྲག་པར་མཛད་ཅིང་། འཇིག་རྟེན་གསུམ་པོ་ཐམས་ཅད་ཟིལ་གྱིས་གནོན་པའམ་དབང་དུ་བསྡུ་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -602,6 +665,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-92)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-44)
 
 ---
 
@@ -613,6 +677,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-45)
 
 ###### c-1-2-2-1-2-4-2 Root verse quoted — "able to summon all the hosts of earth-protectors"
 **བོད་ཡིག:** ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས། ། … ཐམས་ཅད་འགུགས་པར་ནུས་པ་ཉིད་མ། ། … ཁྲོ་གཉེར་གཡོ་བའི་ཡི་གེ་ཧཱུཾ་གིས། ། … ཕོངས་པ་ཐམས་ཅད་རྣམ་པར་སྒྲོལ་མ། །
@@ -620,6 +685,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-98)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-46)
 
 ###### c-1-2-2-1-2-4-3 Exegesis — the ten directional guardians summoned to accomplish her commands
 **བོད་ཡིག:** ས་གཞི་སྐྱོང་བ་ནི་ཕྱོགས་སྐྱོང་བཅུ་པོ་སྟེ་སྟེང་དུ་ཚངས་པ། ཤར་དུ་བརྒྱ་བྱིན། ཤར་ལྷོར་མེ་ལྷ། ལྷོར་གཤིན་རྗེ། ལྷོ་ནུབ་ཏུ་སྲིན་པོ།ནུབ་བྱང་དུ་རླུང་ལྷ། བྱང་དུ་གནོད་སྦྱིན། བྱང་ཤར་དུ་དབང་ལྡན།འོག་ཏུ་ས་བདག་བཅས་ཀྱི་ཚོགས་རྣམས་དང་། དེའི་འཁོར་དང་བཅས་པ་ཐམས་ཅད་རྗེ་བཙུན་མའི་ཐུགས་ཀའི་ཏཱཾ་གྱི་འོད་ཟེར་གྱིས་བཀུག་པར་མཛད་ཅིང་། ཅི་བཅོལ་བའི་ལས་ཐམས་ཅད་སྒྲུབ་པ་དང་།
@@ -627,6 +693,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-1 (stated), FIG-3 (stated), FIG-4 (stated), FIG-5 (stated), FIG-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-99)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-47)
 
 ###### c-1-2-2-1-2-4-4 Exegesis — wrathful brow subdues unruly spirits; leads all beings to buddhahood
 **བོད་ཡིག:** དེ་ལྟར་བཀའ་བསྒོས་པའི་དམ་ལ་མི་གནས་པའི་འབྱུང་པོ་སྟོབས་ཆེ་བའི་ཚོགས་ལ།རྗེ་བཙུན་མ་དྲག་ཏུ་ཁྲོས་པའི་བཞིན་གྱི་གཉེར་མ་སྤྲིན་ལྟར་གཡོ་ཞིང་།ཐུགས་ཀའི་ཧཱུྃ་ལས་ཧཱུཾ་དང་ཁྲོ་ཆུང་གི་ཚོགས་དཔག་ཏུ་མེད་པ་སྤྲོས་ཏེ།སྟོང་ཉིད་དང་སྙིང་རྗེས་ཕོངས་པར་གྱུར་པའི་གདུལ་བྱ་ལས་ངན་ཅན་སྡུག་བསྔལ་དང་སྡིག་པ་ལ་སྤྱོད་པར་གྱུར་པ་ཐམས་ཅད་རྣམ་པ་ཐམས་ཅད་མཁྱེན་པ་སངས་རྒྱས་ཀྱི་གོ་འཕང་ལ་བཀོད་པར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -634,6 +701,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-100)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-48)
 
 ---
 
@@ -645,6 +713,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-101)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-49)
 
 ###### c-1-2-2-1-2-5-2 Root verse quoted — "crown adorned with a crescent moon"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཟླ་བའི་དུམ་བུས་དབུ་བརྒྱན། ། … བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ། ། … རལ་པའི་ཁྲོད་ན་འོད་དཔག་མེད་ལས། ། … རྟག་པར་ཤིན་ཏུ་འོད་རབ་མཛད་མ། །
@@ -652,6 +721,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-106)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-50)
 
 ###### c-1-2-2-1-2-5-3 Exegesis — the crescent-moon crown ornament, cooling beings' afflictive heat
 **བོད་ཡིག:** ཟླ་བའི་དུམ་བུ་ནི་ཟླ་བ་ཆུ་ཤེལ་གྱི་གོང་བུའམ་དུམ་བུས་གཙུག་ཏོར་གྱི་རྩེ་ལ་བརྒྱན་ཅིང་། བརྒྱན་པ་དེ་ལས་སེམས་ཅན་ཉོན་མོངས་པའི་ཚ་བས་གདུང་བ་ཅན་ཐམས་ཅད་འོད་དང་འོད་ཟེར་རབ་ཏུ་འབར་བས་ཚ་བའི་གདུང་བ་ལས་སྐྱོབ་ཅིང་བསིལ་བའི་དངོས་པོ་སྦྱིན་པ་དང་།
@@ -659,6 +729,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-107)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-51)
 
 ###### c-1-2-2-1-2-5-4 Exegesis — Amitābha in her locks, pacifying all suffering
 **བོད་ཡིག:** དབུ་སྐྲ་རལ་པའི་ཁྲོད་ན་མགོན་པོ་འོད་དཔག་མེད་ཀྱིས་བརྒྱན་ཅིང་།དེ་ལས་རྟག་པར་འོད་ཟེར་ཤིན་ཏུ་འཕྲོས་པས་སེམས་ཅན་ཐམས་ཅད་ཀྱི་སྡུག་བསྔལ་ཐམས་ཅད་ཞི་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -666,6 +737,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-108)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-51)
 
 ---
 
@@ -677,6 +749,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-109)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-52)
 
 ###### c-1-2-2-1-2-6-2 Root verse quoted — "like the fire at the end of an eon"
 **བོད་ཡིག:** ཕྱག་འཚལ་བསྐལ་པ་མཐའ་མའི་མེ་ལྟར། ། … འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། … གཡས་བརྐྱང་གཡོན་བསྐུམ་ཀུན་ནས་བསྐོར་དགའ། … དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ། །
@@ -684,6 +757,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-114)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-53)
 
 ###### c-1-2-2-1-2-6-3 Exegesis — blazing like the eon-ending fire, its garland pervading all directions
 **བོད་ཡིག:** དེ་ཡང་རྗེ་བཙུན་མ་དེ་ཉིད་བསྐལ་པ་མཐའ་མའི་མེ་དཔུང་རབ་ཏུ་འབར་ཞིང་། མེའི་ཚ་ཚའི་ཕྲེང་བ་ཕྱོགས་ཐམས་ཅད་ལ་ཁྱབ་པའི་དབུས་སུ།
@@ -691,6 +765,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-115)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-54)
 
 ###### c-1-2-2-1-2-6-4 Exegesis — wrathful stance destroying the afflictive enemy for devoted disciples
 **བོད་ཡིག:** ཞབས་གཡས་བརྐྱང་གཡོན་བསྐུམ་གྱིས་བཞུགས་པའི་རྗེ་བཙུན་མ་ལ་དུས་ཀུན་ཏུ་བསྐོར་ཞིང་རབ་ཏུ་དགའ་བའམ་དང་བའི་སེམས་དང་ལྡན་པའི་གདུལ་བྱ་དེ་རྣམས་ཀྱི་ཐར་པའི་ལམ་ལ་བར་དུ་གཅོད་པའི་ཉོན་མོངས་ཀྱི་དགྲ་ཡི་དཔུང་རྣམས་རྣམ་པར་འཇོམས་པར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -698,6 +773,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-116)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-54)
 
 ---
 
@@ -709,6 +785,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-117)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-55)
 
 ###### c-1-2-2-1-2-7-2 Root verse quoted — "striking the earth's surface with her palms"
 **བོད་ཡིག:** ཕྱག་འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི ། … མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ། ། … ཁྲོ་གཉེར་སྤྱན་མཛད་ཡི་གེ་ཧཱུཾ་གིས། ། … རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ། །
@@ -716,6 +793,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-122)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-56)
 
 ###### c-1-2-2-1-2-7-3 Exegesis — striking the great earth with both palms and both feet
 **བོད་ཡིག:** འཇིག་རྟེན་གྱི་ཁམས་ས་ཆེན་པོའི་གཞི་འདི་ཉིད་ཀྱི་ངོས་ལ་ཕྱག་གཉིས་ཀྱི་མཐིལ་གྱིས་མནན་ཅིང་ཞབས་ཀྱི་མཐིལ་གཉིས་ཀྱིས་རབ་ཏུ་བརྡུང་བར་མཛད་ཅིང་།
@@ -723,6 +801,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-123)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-57)
 
 ###### c-1-2-2-1-2-7-4 Exegesis — wrathful eyes and HŪṂ light protect beings across all realms; closes the seven wrathful homages
 **བོད་ཡིག:** ཞལ་དྲག་པོའི་ཁྲོ་གཉེར་དང་ལྡན་ཅིང་།སྤྱན་གཉིས་རབ་ཏུ་འཁྲུགས་པའི་འོད་ཟེར་གྱིས་ཕྱོགས་ཐམས་ཅད་ལ་ཁྱབ་ཅིང་། ཐུགས་ཀའི་ཡི་གེ་ཧཱུྃ་མཐིང་ཀ་ལས་འོད་ཟེར་དཔག་ཏུ་མེད་པ་འཕྲོས་པས། … ངན་སོང་གསུམ་དང་། མཐོ་རིས་གསུམ་དང་།འདོད་གཟུགས་གཅིག་ཏུ་བསྡོམས་པའི་རིམ་པ་བདུན་པོའི་གནས་སུ་འཁོད་པའི་སེམས་ཅན་རྣམས་ཀྱི་གནས་སྐབས་དང་མཐར་ཐུག་གི་སྡུག་བསྔལ་ཐམས་ཅད་ལས་སྐྱོབ་པར་མཛད་པའམ་དགེ་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་བཅས་ཁྲོ་མོའི་ཚུལ་ལ་ཕྱག་འཚལ་བ་བདུན་གྱི་སྒོ་ནས་བསྟོད་ཅིང་།
@@ -730,6 +809,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-124)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-57)
 
 ---
 
@@ -741,6 +821,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-125)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-58)
 
 ###### c-1-2-2-2-2 Root verse quoted — "blissful, virtuous, and peaceful"
 **བོད་ཡིག:** ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། ། … མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ། ། … སྭཱ་ཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས། ། … སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ། །
@@ -748,6 +829,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-130)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-59)
 
 ###### c-1-2-2-2-3 Exegesis — bliss, virtue and peace as qualities of her mind, the dharmakāya
 **བོད་ཡིག:** མཐོང་སྤང་གི་སྤང་བྱ་ཐམས་ཅད་སྤངས་ཟིན་པའི་ཕྱིར་ན་སྡུག་བསྔལ་དང་བྲལ་ནས་བདེ་བ་ཕུན་ཚོགས་དང་ལྡན་པས་ན་བདེ་མ།སྒོམ་སྤང་གི་སྤང་བྱ་ཐམས་ཅད་དྲུངས་ནས་འབྱིན་པར་མཛད་པས་ན།ཡང་དག་པར་དགེ་བའི་ལམ་གྱིས་འབྲས་བུ་མངོན་དུ་གྱུར་པས་ན་དགེ་མ།བག་ཆགས་ཀྱི་དྲི་མ་ཐམས་ཅད་ཡོངས་སུ་ཞི་བར་གྱུར་པས་ན་ཞི་མ་དང་། … སྒྲིབ་པ་གསུམ་གྱི་དྲི་མ་ཐམས་ཅད་དང་བྲལ་བ་ནི་མྱ་ངན་ལས་འདས་པའི་སྤྱོད་པའི་ཡུལ་དང་ལྡན་པ་རྗེ་བཙུན་མ་ཉིད་ལ། མཐོང་ལམ་གྱི་ཡེ་ཤེས།སྒོམ་ལམ་གྱི་ཡེ་ཤེས། མཐར་ཇི་ལྟ་ཇི་སྙེད་ཀྱི་ཡེ་ཤེས་མངོན་དུ་གྱུར་པ་ནི་ཐུགས་ཆོས་སྐུའི་ཡོན་ཏན་དང་།
@@ -755,6 +837,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-131)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-60)
 
 ###### c-1-2-2-2-4 Exegesis — the mantra syllables as qualities of speech/body; confession destroying great sin
 **བོད་ཡིག:** མཇུག་ཏུ་སྭཱ་ཧཱ་དང་ཐོག་མར་ཨོཾ་གྱིས་བརྒྱན་པའི་རྗེ་བཙུན་མའི་རིག་སྔགས་ཀྱི་ཡི་གེ་བཅུ་པོ་དེ་ཉིད་ཀྱིས་གདུལ་བྱ་རྣམས་ལ་གནས་སྐབས་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག མཐར་ཐུག་འཁོར་བ་དང་ངན་སོང་གི་སྡུག་བསྔལ་ཐམས་ཅད་ལས་སྐྱོབ་པར་མཛད་པ་ནི་གསུང་ལོངས་སྐུའི་ཡོན་ཏན་དང་། … དེའི་རྗེས་སུ་བདག་དང་སེམས་ཅན་ཐམས་ཅད་ཀྱི་སྡིག་པ་ཆེན་པོ་མི་དགེ་བ་བཅུ་དང་། མཚམས་མེད་ལྔ་སོགས་གང་བགྱིས་པ་ཐམས་ཅད་རྗེ་བཙུན་མའི་སྐུ་མཚན་དཔེའི་ཕུང་པོ་ཅན་དེའི་མདུན་དུ་ཚུལ་བཞིན་དུ་བཤགས་པ་བྱས་པས། སྡིག་པ་དང་སྒྲིབ་པ་ཐམས་ཅད་རྩད་ནས་འཇོམས་པར་མཛད་པ་ནི་སྐུ་ཡི་ཡོན་ཏན་ཏེ།སྐུ་གསུང་ཐུགས་ཀྱི་ཡོན་ཏན་གྱི་སྒོ་ནས་བསྟོད་པར་མཛད་པ་དང་།
@@ -762,6 +845,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-132)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-61)
 
 ---
 
@@ -779,6 +863,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-133)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-62)
 
 ###### c-1-2-3-1-2 Root verse quoted — "circled joyfully"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། ། … དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། … ཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི། ། … རིག་པ་ཧཱུཾ་ལས་སྒྲོལ་མ་ཉིད་མ། །
@@ -786,6 +871,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-138)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-63)
 
 ###### c-1-2-3-1-3 Exegesis — peaceful and wrathful forms of the mantra
 **བོད་ཡིག:** དེ་ལ་ཞི་དྲག་གཉིས་ལས་ཞི་བའི་སྔགས་ནི་ཡི་གེ་བཅུ་པ་དང་། དྲག་པོའི་ཚུལ་དུ་སྒྲུབ་པའི་སྔགས་ནི། ཨོཾༀ་ཏ་རེ་ཧཱུཾ་ཧ་ར་ཧ་ར་ཧཱུཾ། ཞེས་པ་ཧ་ར་གཉིས་དང་ལྡན་པ་དྲག་པོའི་སྔགས་ཀྱི་ཡི་གེ་སྟེ། དེ་ལྟར་ཞི་བ་དང་ཁྲོ་བོའི་སྔགས་ཀྱི་སྒོ་ནས་རྗེ་བཙུན་མ་ལ་སེམས་དང་བའི་སྒོ་ནས་ཀུན་ནས་བསྐོར་ཞིང་རབ་ཏུ་དགའ་བའི་དབང་གིས། … གང་ཟག་དེ་དག་ལ་གནོད་ཅིང་འཚེ་བར་བྱེད་པའི་དགྲ་ཡི་དཔུང་ཚོགས་རྣམས་ཞི་བ་དང་ཁྲོ་བོའི་སྔགས་ཀྱི་རྣམ་པའི་སྒོ་ནས་ཡང་དག་པར་རབ་ཏུ་འཇོམས་པ་ནི་སྔགས་ཀྱི་ཕན་ཡོན་བསྟན་པའི་སྒོ་ནས་བསྟོད་པར་མཛད་པ་དང་།
@@ -793,6 +879,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-139)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-64)
 
 ---
 
@@ -804,6 +891,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-140)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-65)
 
 ###### c-1-2-3-2-2 Root verse quoted — "by Ture's feet stamping"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། … ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ། ། … རི་རབ་མནྡ་ར་དང་འབིགས་བྱེད། ། … འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བ་ཉིད་མ། །
@@ -811,6 +899,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** PLC-1 (stated), PLC-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-145)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-66)
 
 ###### c-1-2-3-2-3 Exegesis — wrathful stamping emits mantra and vajra-arrow-like light in the ten directions
 **བོད་ཡིག:** དེ་ཡང་རྗེ་བཙུན་མ་དེ་ཉིད་ཤིན་ཏུ་ཁྲོས་པའི་དབང་གིས་ཞབས་ས་ལ་བརྡབས་པ་ལ་བརྟེན་ནས། ཐུགས་ཀའི་ཧཱུཾ་གི་ས་བོན་ལས་སྔགས་དང་འོད་ཟེར་རྡོ་རྗེའི་མདའ་ཡི་ཟེར་ལྟ་བུ་ཕྱོགས་བཅུར་སྤྲོས་ཏེ།
@@ -818,6 +907,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-146)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-67)
 
 ###### c-1-2-3-2-4 Exegesis — Mount Meru and the three worlds shaken
 **བོད་ཡིག:** རི་རབ་མནྡ་ར་ཡང་རབ་ཏུ་གཡོ་ཞིང་འབིགས་པར་བྱེད་པ་དང་། ས་བླ་ལྷའི་འཇིག་རྟེན། ས་སྟེང་མིའི་འཇིག་རྟེན། ས་འོག་ཀླུའི་འཇིག་རྟེན་ཏེ་འཇིག་རྟེན་གསུམ་པོ་ཡང་རབ་ཏུ་འཁྲུག་པའམ། ཤིན་ཏུ་གཡོ་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -825,6 +915,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** PLC-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-147)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-67)
 
 ---
 
@@ -836,6 +927,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-148)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-68)
 
 ###### c-1-2-3-3-2 Root verse quoted — "in the form of the gods' lake"
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། ། … རི་དྭགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ། … ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས། ། … དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མ། །
@@ -843,6 +935,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-153)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-69)
 
 ###### c-1-2-3-3-3 Exegesis — the deer-marked moon held like a nectar lake beloved of gods
 **བོད་ཡིག:** དེ་ལ་ཡང་ཟླ་བའི་དཀྱིལ་འཁོར་ཉ་གང་བ་ནི། ལྷ་རྣམས་ཀྱི་ཡིད་དུ་འོང་བ་བདུད་རྩིའི་མཚོའི་རྣམ་པ་སྟེ། ཕྱག་གཡོན་པའི་མེ་ཏོག་ཨུཏྤལ་ཁ་ཕྱེ་བའི་སྟེང་དུ་རི་དྭགས་རྟགས་ཅན་ནམ་ཟླ་བ་ཉ་གང་བ་དེ་ཉིད་ཕྱག་ན་བསྣམས་ཤིང་།
@@ -850,6 +943,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-154)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-70)
 
 ###### c-1-2-3-3-4 Exegesis — TARA mantra sound and moon-nectar dispel moving and unmoving poisons
 **བོད་ཡིག:** ཞལ་ནས་ཏཱ་ར་གཉིས་སུ་བརྗོད་པའི་སྔགས་ཀྱི་སྒྲ་ལས་འོད་ཟེར་བདུད་རྩིའི་ཟེགས་མ་ལྟ་བུ་དང་། ཟླ་བ་ཉ་གང་བ་ལས་ཀྱང་བདུད་རྩིའི་རྒྱུན་བབ་སྟེ། གཡོ་བའི་དུག་སེམས་ཅན་ཐམས་ཅད་ཀྱི་སེམས་ཀྱི་མ་རིག་པ་དང་ཉོན་མོངས་པའི་ཚོགས་དང་།བརྟན་པའི་སྦྱར་དུག་སོགས་དུག་རིགས་ཀྱི་ཚོགས་ཐམས་ཅད་ལ་བདུད་རྩིའི་རྒྱུན་གྱིས་ཁྱབ་པས། ཉོན་མོངས་པ་དང་དུག་གི་གནོད་པའི་ཚོགས་ཐམས་ཅད་སེལ་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -857,6 +951,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-155)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-70)
 
 ---
 
@@ -868,6 +963,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-156)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-71)
 
 ###### c-1-2-3-4-2 Root verse quoted — "relied upon by the king of the hosts of gods"
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྣམས་རྒྱལ་པོ། ། … ལྷ་དང་མི་འམ་ཅི་ཡིས་བསྟེན་མ། ། … ཀུན་ནས་གོ་ཆ་དགའ་བའི་བརྗིད་ཀྱིས། ། … རྩོད་དང་རྨི་ལམ་ངན་པ་སེལ་མ། །
@@ -875,6 +971,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-161)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-72)
 
 ###### c-1-2-3-4-3 Exegesis — the great world-protectors, kings of the gods, rely on her
 **བོད་ཡིག:** འཇིག་རྟེན་ན་སྟོབས་ཆེ་བའི་ཕྱོགས་སྐྱོང་ཆེན་པོ་རྣམས་ཏེ། ལྷ་ཡི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་དང་། གཞན་ཡང་ལྷ་དང་མིའམ་ཅིས་བསྟེན་པར་མཛད་ན་ཡང་།
@@ -882,6 +979,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-162)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-73)
 
 ###### c-1-2-3-4-4 Exegesis — her joyful armor protects devotees from quarrels and bad omens
 **བོད་ཡིག:** བསྟེན་པ་པོ་དེ་དག་དུས་ཀུན་ཏུ་ལྟས་ངན་པ་ཐམས་ཅད་མི་འབྱུང་བར་སྲུང་བའི་གོ་ཆའམ་སྐྱོབ་པར་མཛད་པས་སེམས་མི་དགའ་བར་འཁྲུག་པ་ལ་སོགས་པའི་རྩོད་པ་དང་། ལྟས་ངན་རྨི་ལམ་ངན་པ་ཐམས་ཅད་སེལ་བར་མཛད་པའི་སྒོ་ནས་བསྟོད་པར་མཛད་པ་དང་།
@@ -889,6 +987,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-163)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-73)
 
 ---
 
@@ -900,6 +999,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-164)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-74)
 
 ###### c-1-2-3-5-2 Root verse quoted — "sun and full moon in her two eyes"
 **བོད་ཡིག:** ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པའི། ། … སྤྱན་གཉིས་པོ་ལ་འོད་རབ་གསལ་མ། ། … ཧ་ར་གཉིས་བརྗོད་ཏུཏྟ་ར་ཡིས། … ཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་སེལ་མ། །
@@ -907,6 +1007,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-169)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-75)
 
 ###### c-1-2-3-5-3 Exegesis — wrathful eyes like sun and moon emitting agitated light
 **བོད་ཡིག:** རྗེ་བཙུན་མ་དེ་ཉིད་ཁྲོས་པའི་རྣམ་པ་དང་ལྡན་པའི་སྤྱན་གཉིས་པོ་ཉི་མ་དང་ཟླ་བ་ལྟ་བུ་ལས་འོད་དང་འོད་ཟེར་རབ་ཏུ་འཁྲུགས་ཤིང་།
@@ -914,6 +1015,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-170)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-76)
 
 ###### c-1-2-3-5-4 Exegesis — the HARA mantra-sound's fiery sparks dispel epidemic disease
 **བོད་ཡིག:** ཧ་ར་གཉིས་སུ་བརྗོད་པ་དྲག་པོའི་སྔགས་སྒྲ་རབ་ཏུ་སྒྲོགས་པ་དེ་ལས་སྔགས་ཀྱི་ཟེར་མེ་ཡི་ཚ་ཚ་ལྟ་བུར་འཕྲོས་ནས། གསོལ་བ་འདེབས་པ་པོའི་གང་ཟག་རྣམས་ཀྱི་ཤིན་ཏུ་བཟོད་མེད་ཀྱི་སྡུག་བསྔལ་དྲག་པོ་སྐྱེད་པར་བྱེད་པའི་རིམས་ནད་ཀྱི་ཚོགས་ཐམས་ཅད་སེལ་བའི་སྒོ་ནས་བསྟོད་པར་མཛད་པ་དང་།
@@ -921,6 +1023,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-171)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-76)
 
 ---
 
@@ -932,6 +1035,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-172)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-77)
 
 ###### c-1-2-3-6-2 Root verse quoted — "having arranged the three suchnesses"
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པས། ། … ཞི་བའི་མཐུ་དང་ཡང་དག་ལྡན་མ། ། … གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས། ། … འཇོམས་པ་ཏུ་རེའི་རབ་མཆོག་ཉིད་མ། །
@@ -939,6 +1043,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-177)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-78)
 
 ###### c-1-2-3-6-3 Exegesis — the three syllables OṂ AḤ HŪṂ at her three places, emanating three lights
 **བོད་ཡིག:** སྐུའི་དེ་ཉིད་ཡི་གེ་ཨོཾ་དཀར་པོ། གསུང་གི་དེ་ཉིད་ཡི་གེ་ཨཱ༔དམར་པོ། ཐུགས་ཀྱི་དེ་ཉིད་ཡི་གེ་ཧཱུཾ་སྔོན་པོ་སྟེ། དེ་ལྟ་བུའི་དེ་ཉིད་གསུམ་པོ་སྐུའི་གནས་གསུམ་དུ་བཀོད་ནས། འཇིགས་པ་དང་སྡུག་བསྔལ་ཐམས་ཅད་ལས་སྐྱོབ་པར་གསོལ་བ་རྩེ་གཅིག་ཏུ་བཏབ་པས། གནས་སྐབས་དང་མཐར་ཐུག་གི་སྡུག་བསྔལ་ཐམས་ཅད་ཞི་བར་འགྱུར་བའི་མཐུ་སྟོབས་ཡང་དག་པ་དང་ལྡན་པའི་རྗེ་བཙུན་མའི་གནས་གསུམ་ནས་འོད་ཟེར་གསུམ་སྤྲོས་ནས།
@@ -946,6 +1051,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** mantra
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-178)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-79)
 
 ###### c-1-2-3-6-4 Exegesis — destroying harm from spirits/zombies/yakṣas, granting supreme wishes
 **བོད་ཡིག:** གདུལ་བྱ་དེ་དག་ལ་གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་གྱི་ཚོགས་རྣམས་ཀྱི་གནོད་པ་ཇི་སྙེད་པ་ཐམས་ཅད་འཇོམས་པར་མཛད་ཅིང་། ཏུ་རེའི་འདོད་དོན་རབ་བམ་མཆོག་ཏུ་གྱུར་པ་རྣམས་སྦྱིན་པར་མཛད་པའི་སྒོ་ནས་བསྟོད་པ་དང་།
@@ -953,6 +1059,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-179)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-79)
 
 ###### c-1-2-3-6-5 Transition — summary of the twenty-one homages announced
 **བོད་ཡིག:** དེ་ལྟར་ཕྱག་འཚལ་ཉེར་གཅིག་གི་སྒོ་ནས་བསྟོད་པར་མཛད་ནས།གོང་དུ་བཤད་པའི་ཕྱག་འཚལ་ཉེར་གཅིག་གི་དོན་བསྡུ་བ་ནི།
@@ -960,6 +1067,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-180)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-80)
 
 ###### c-1-2-3-6-6 Root verse quoted — summary verse naming the root mantra and twenty-one homages
 **བོད་ཡིག:** རྩ་བའི་སྔགས་ཀྱིས་བསྟོད་པ་འདི་དང་། ། … ཕྱག་འཚལ་བ་ནི་ཉི་ཤུ་རྩ་གཅིག །
@@ -967,6 +1075,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-183)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-81)
 
 ###### c-1-2-3-6-7 Exegesis — the twenty-one homages enumerated by category
 **བོད་ཡིག:** རྩ་བའི་སྔགས་ཀྱིས་བསྟོད་པ་ནི། སྤང་བློ་གྲོས་བརྟན་པས་བསྒྱུར་བར་མཛད་པའི་ཡི་གེ་བཅུ་པའི་སྒོ་ནས་བསྟོད་པ་འདི་དང་། … ཕྱག་འཚལ་བ་ཉི་ཤུ་རྩ་གཅིག་ནི། དང་པོ་ལོ་རྒྱུས་ཀྱི་སྒོ་ནས་ཕྱག་འཚལ་བ་གཅིག སྐུའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་ལ་ཞི་བའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་དྲུག་དང་། ཁྲོ་བོའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་བདུན། ཆོས་སྐུའི་རྣམ་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་གཅིག ཕྲིན་ལས་ཀྱི་ཡོན་ཏན་བསྟན་པའི་སྒོ་ནས་ཕྱག་འཚལ་བ་དྲུག་སྟེ། ཕྱག་འཚལ་ཉེར་གཅིག་གི་དོན་ཞུས་ཟིན་ནས།
@@ -974,6 +1083,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** PER-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-184)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^2-82)
 
 ---
 
@@ -985,6 +1095,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-185)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-1)
 
 ---
 
@@ -996,6 +1107,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-186)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-1)
 
 ##### c-1-3-1-2 Root verse quoted — "whoever, endowed with genuine devotion to the goddess"
 **བོད་ཡིག:** ལྷ་མོ་ལ་གུས་ཡང་དག་ལྡན་པའི། ། … བློ་ལྡན་གང་གིས་རབ་ཏུ་བརྗོད་པས། །
@@ -1003,6 +1115,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-188)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-2)
 
 ##### c-1-3-1-3 Exegesis — the devoted, intelligent person reciting the twenty-one homages
 **བོད་ཡིག:** ལྷ་མོ་དེ་ལ་གུས་པ་ཡང་དག་པར་ལྡན་པའི་གང་ཟག་བློ་གྲོས་དང་ལྡན་པ་གང་ཞིག་གིས་ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པ་རབ་ཏུ་བརྗོད་དེ།
@@ -1010,6 +1123,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-189)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-3)
 
 ---
 
@@ -1021,6 +1135,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-190)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-2-0)
 
 ##### c-1-3-2-2 Root verse quoted — "at dusk and having arisen at dawn"
 **བོད་ཡིག:** སྲོད་དང་ཐོ་རངས་ལངས་པར་བྱས་ཏེ། ། … དྲན་པས་མི་འཇིགས་ཐམས་ཅད་རབ་སྟེར། །
@@ -1028,6 +1143,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-193)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-4)
 
 ##### c-1-3-2-3 Exegesis — wrathful form supplicated at dusk, peaceful form at dawn; the eight/sixteen fears
 **བོད་ཡིག:** རྗེ་བཙུན་མ་ཁྲོས་པའི་ཚུལ་དུ་བཞུགས་པ་དེ་ཉིད་ལ་སྲོད་ཀྱི་དུས་སུ་གསོལ་བ་བཏབ་པ་དང་། ཞི་བའི་ཚུལ་དུ་བཞུགས་པ་དེ་ཉིད་ལ་ཐོ་རངས་ཀྱི་དུས་སུ་ལྡང་བའམ་ལངས་པར་བྱས་ནས། ཞེས་དུས་གཉིས་གཙོ་བོར་སྟོན། དུས་ཐམས་ཅད་ལ་ཡོན་ཏན་དྲན་བཞིན་པའི་སྒོ་ནས་གསོལ་བ་བཏབ་ཅིང་དྲན་པ་ཙམ་གྱིས་མི་འཇིགས་པ་ཐམས་ཅད་རབ་ཏུ་སྦྱིན་པའམ་སྟེར་བར་མཛད་ཅིང་། གནས་སྐབས་ཀྱི་དབང་དུ་འཇིགས་པ་བརྒྱད་དང་བཅུ་དྲུག་ལ་མི་འཇིགས་པ་དང་།
@@ -1035,6 +1151,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-194)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-5)
 
 ##### c-1-3-2-4 Transition — ultimate protection from the cause, non-virtuous sin
 **བོད་ཡིག:** མཐར་ཐུག་གི་དབང་དུ་རྒྱུ་སྡིག་པ་མི་དགེ་བ་ལས་སྐྱོབ་པ་ནི།
@@ -1042,6 +1159,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-195)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-6)
 
 ##### c-1-3-2-5 Root verse quoted — "all sin is thoroughly pacified"
 **བོད་ཡིག:** སྡིག་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་བ། །
@@ -1049,6 +1167,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-196)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-7)
 
 ##### c-1-3-2-6 Exegesis — all non-virtue pacified
 **བོད་ཡིག:** ཞེས་སྡིག་པ་མི་དགེ་བ་ཐམས་ཅད་རབ་ཏུ་ཞི་བར་མཛད་པ་དང་།
@@ -1056,6 +1175,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-197)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-7)
 
 ##### c-1-3-2-7 Transition — in terms of the result
 **བོད་ཡིག:** འབྲས་བུའི་དབང་དུ་ན།
@@ -1063,6 +1183,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-198)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-7)
 
 ##### c-1-3-2-8 Root verse quoted — "destroys all lower rebirths"
 **བོད་ཡིག:** ངན་འགྲོ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ།
@@ -1070,6 +1191,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-199)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-7)
 
 ##### c-1-3-2-9 Exegesis — merely supplicating Tārā liberates from lower realms without experiencing the karmic fruit
 **བོད་ཡིག:** ཞེས་འབྲས་བུ་ངན་སོང་གི་སྡུག་བསྔལ་ཐམས་ཅད་རྗེ་བཙུན་མར་གསོལ་བ་བཏབ་པ་ཙམ་གྱིས་འབྲས་བུ་མྱོང་མི་དགོས་པར་ངན་སོང་གི་གནས་རིས་ལས་ཐར་བར་མཛད་པ་དང་།
@@ -1077,6 +1199,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-200)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-7)
 
 ---
 
@@ -1088,6 +1211,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-201)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-8)
 
 ##### c-1-3-3-2 Root verse quoted — "seventy million victors bestow empowerment"
 **བོད་ཡིག:** རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས། … མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ། … འདི་ལས་ཆེ་བ་ཉིད་ནི་འཐོབ་ཅིང་། … སངས་རྒྱས་གོ་འཕང་མཐར་ཐུག་དེར་འགྲོ། །
@@ -1095,6 +1219,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-205)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-9)
 
 ##### c-1-3-3-3 Exegesis — buddhas of the ten directions empower one-pointed supplicants; worldly and ultimate attainments up to the eleventh ground
 **བོད་ཡིག:** ཞེས་པ་སྟེ།ཕྱོགས་བཅུའི་འཇིག་རྟེན་གྱི་ཁམས་ན་རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས། རྗེ་བཙུན་མ་ལ་ཡུམ་ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པར་དབང་བསྐུར་བའི་རྗེ་བཙུན་མ་དེ་ཉིད་ལ་གསོལ་བ་རྩེ་གཅིག་ཏུ་བཏབ་པའི་མཐུ་ལ་བརྟེན་ནས། ཚེ་འདི་ལའང་གནས་སྐབས་མཐོ་རིས་ཀྱི་ཡོན་ཏན་འབྱོར་བར་འགྱུར་བའམ། ཡོན་ཏན་ཆེ་བ་ཉིད་ཐོབ་པའི་དབང་དུ་ན་འཁོར་ལོའི་སྒྱུར་བའི་རྒྱལ་པོ་ལྟ་བུ། བསོད་ནམས་ཀྱི་དབང་དུ་ན་བརྒྱ་བྱིན་དང་ཚངས་པ་ལྟ་བུ། མཐར་ཐུག་གི་དབང་དུ་ན་སངས་རྒྱས་ཀྱི་གོ་འཕང་ཆོས་ཐམས་ཅད་ཀྱི་འབྲས་བུའི་མཐར་ཐུག་པ་བཅུ་གཅིག་ཀུན་ཏུ་འོད་ཀྱི་ས་དེར་འགྲོ་བའམ་ཐོབ་པར་འགྱུར་བ་དང་།
@@ -1102,6 +1227,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated), FIG-3 (stated), FIG-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-206)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-10)
 
 ##### c-1-3-3-4 Root verse quoted — "her poison is exceedingly fierce"
 **བོད་ཡིག:** དེ་ཡི་དུག་ནི་དྲག་པོ་ཆེན་པོ། །
@@ -1109,6 +1235,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-207)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-11)
 
 ##### c-1-3-3-5 Exegesis — "poison" identified as the three obscurations; one-pointed supplication yields vajra-like stable samādhi
 **བོད་ཡིག:** ཞེས་གང་ཟག་གང་ཡིན་པ་དེའི་དུས་ནི། སངས་རྒྱས་ཀྱི་གོ་འཕང་སྒྲུབ་པའི་སྐབས་སུ་བར་དུ་གཅོད་པའི་དུག་གི་སྒྲིབ་པ་སྟེ།སྒྲིབ་པ་གསུམ་གྱིས་ཐར་པའི་གོ་འཕང་གི་བདེ་བ་ཐམས་ཅད་བརླག་པར་བྱེད་པ་དྲག་པོའི་ཆེན་པོ་ཆོས་མཚུངས་པ་རྣམས་རྗེ་བཙུན་མ་ལ་གསོལ་བ་རྩེ་གཅིག་ཏུ་བཏབ་པ་ལ་བརྟེན་ནས་སྒྲིབ་པ་གསུམ་པོ་ཡང་བྲལ་བར་འགྱུར་བ་དང་།བརྟན་ལ་གནས་པའམ།ས་སེམས་ཅན་ཀུན་གྱི་སེམས་ལ་འཁོར་བ་ཐོག་མེད་ནས་བསགས་པའི་སྒྲིབ་པ་ཐམས་ཅད་རྒྱུན་མཐའི་རྡོ་རྗེ་ལྟ་བུའི་ཏིང་ངེ་འཛིན་གྱིས་མ་བཅོམ་གྱི་བར་དུ་བརྟན་དུ་གནས་པར་འགྱུར་བ་དང་།
@@ -1116,6 +1243,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-208)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-12)
 
 ##### c-1-3-3-6 Root verse quoted — "moreover, for migrators"
 **བོད་ཡིག:** གཞན་ཡང་འགྲོ་བ། །
@@ -1123,6 +1251,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-209)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-13)
 
 ##### c-1-3-3-7 Exegesis — she pacifies all classes of poison: mobile, fang, flesh, and hair poisons
 **བོད་ཡིག:** ཞེས་སེམས་ཅན་གཞན་ཡང་འགྲོ་བ་དང་རྒྱུ་བའི་དུག་གི་རིགས་སུ་གྱུར་པ་སྦྲུལ་དང་། གཞན་ཡང་མཆེ་བའི་དུག་དང་། ཤ་ཡི་དུག་དང་།སྤུའི་དུག་སོགས་དུག་གི་རིགས་ཐམས་ཅད་ཞི་བར་མཛད་པ་དང་།
@@ -1130,6 +1259,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-210)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-13)
 
 ##### c-1-3-3-8 Root verse quoted — "even what is eaten and drunk"
 **བོད་ཡིག:** ཟོས་པ་དང་ནི་འཐུངས་པ་ཉིད་ཀྱང་། །
@@ -1137,6 +1267,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-211)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-13)
 
 ##### c-1-3-3-9 Exegesis with embedded verse-close — beings poisoned by food or drink who one-pointedly supplicate obtain complete relief through recollection
 **བོད་ཡིག:** ཞེས་དེ་བཞིན་དུ་ཟོས་པ་དང་འཐུང་བའི་རིགས་སུ་གྱུར་པའི་སེམས་ཅན་ཐམས་ཅད་སྡུག་བསྔལ་བཟོད་དུམེད་པར་མྱོང་བའི་གང་ཟག་རྣམས་རྗེ་བཙུན་མ་ལ་གསོལ་བ་རྩེ་གཅིག་ཏུ་བཏབ་པ་དང་དྲན་པས་རབ་ཏུ་སེལ་བ་ཉིད་འཐོབ། །
@@ -1144,6 +1275,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-212)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-13, #^3-14)
 
 ##### c-1-3-3-10 Exegesis — the Venerable Lady's blessing, merely recollected, grants special bliss and dispels suffering
 **བོད་ཡིག:** ཅེས་རྗེ་བཙུན་མའི་བྱིན་རླབས་དྲན་པ་ཙམ་གྱིས་རབ་ཏུ་བདེ་བ་ཁྱད་པར་ཅན་ཐོབ་སྟེ། སྡུག་བསྔལ་དེ་དག་སེལ་བ་ཉིད་ནི་འཐོབ་པ་དང་།དེར་མ་ཟད།
@@ -1151,6 +1283,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-213)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-14)
 
 ##### c-1-3-3-11 Root verse quoted — "afflicted by spirits, epidemic disease, and poison, the mass of suffering is entirely abandoned"
 **བོད་ཡིག:** གདོན་དང་རིམས་ནད་དུག་གིས་གཟིར་བའི། ། … སྡུག་བསྔལ་ཚོགས་ནི་རྣམ་པར་སྤང་སྟེ། །
@@ -1158,6 +1291,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-215)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-16)
 
 ##### c-1-3-3-12 Exegesis — spirits, elemental epidemics, and poison specified; suffering dispelled the instant one supplicates
 **བོད་ཡིག:** ཞེས་གནོད་པའི་ཚོགས་སུ་གྱུར་པའི་གདོན་དང་། འབྱུང་བ་འཁྲུགས་པའི་རིམས་ནད། དུག་གི་རིགས་སུ་གྱུར་པ་སོགས་ཀྱིས་རྟག་ཏུ་གཟིར་ཞིང་མནར་བའི་སྡུག་བསྔལ་གྱི་ཚོགས་ནི་རྗེ་བཙུན་མ་ལ་གསོལབ་བཏབ་པའི་མོད་ལ་ཡོངས་སུ་རྣམ་པར་སྤང་བར་འགྱུར་ཏེ།
@@ -1165,6 +1299,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-216)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-16)
 
 ##### c-1-3-3-13 Root verse quoted — "also for other beings"
 **བོད་ཡིག:** སེམས་ཅན་གཞན་པ་རྣམས་ལ་ཡང་ངོ་། །
@@ -1172,6 +1307,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-217)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-16)
 
 ##### c-1-3-3-14 Exegesis — reciting the twenty-one homages benefits not only oneself but protects other beings from all suffering
 **བོད་ཡིག:** ཞེས་རང་གིས་ཕྱག་འཚལ་ཉེར་གཅིག་གི་སྒོ་ནས་རྗེ་བཙུན་མ་ལ་གསོལ་བ་བཏབ་པ་ཙམ་གྱིས་རང་དོན་ཙམ་དུ་མ་ཟད་སེམས་ཅན་གཞན་རྣམས་ལ་སྡུག་བསྔལ་ཅི་ཡོད་པ་ཐམས་ཅད་ལས་སྐྱོབ་པར་མཛད་པ་ཡང་ངོ་།
@@ -1179,6 +1315,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-218)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-16)
 
 ---
 
@@ -1190,6 +1327,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-219)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-17)
 
 ##### c-1-3-4-2 Root verse quoted — "recited two, three, or seven times"
 **བོད་ཡིག:** གཉིས་གསུམ་བདུན་དུ་མངོན་པར་བརྗོད་ན། ། … བུ་འདོད་པས་ནི་བུ་འཐོབ་འགྱུར་ཞིང་། ། … ནོར་འདོད་པས་ནི་ནོར་རྣམས་ཉིད་འཐོབ། … འདོད་པ་ཐམས་ཅད་འཐོབ་པར་འགྱུར་ཏེ། ། … བགེགས་རྣམས་མེད་ཅིང་སོ་སོར་འཇོམས་གྱུར། །
@@ -1197,6 +1335,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-224)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-18)
 
 ##### c-1-3-4-3 Exegesis — reciting two, three, or seven times with devotion fulfils worldly wishes and ultimately grants buddhahood; obstacles destroyed by her blessing until attainment
 **བོད་ཡིག:** ཞེས་པ་སྟེ།གྲངས་གཉིས་གསུམ་བདུན་དུ་རྗེ་བཙུན་མ་ལ་མངོན་པར་དད་པའི་སྒོ་ནས་བརྗོད་ན། བརྗོད་པ་པོ་དེ་ཉིད་ལ་གནས་སྐབས་བུ་དང་ནོར་སོགས་གང་འདོད་པ་ཐམས་ཅད་འཐོབ་པར་འགྱུར་ལ། མཐར་ཐུག་གི་འདོད་པ་ནི་གཏན་གྱི་བདེ་བ་སངས་རྒྱས་ཀྱི་གོ་འཕང་འཐོབ་པར་འགྱུར་ ཞིང་། དེ་མ་ཐོབ་ཀྱི་བར་དུ་གེགས་དང་བར་ཆད་ཐམས་ཅད་རྗེ་བཙུན་མའི་བྱིན་རླབས་ལ་བརྟེན་ནས་སོ་སོར་འཇོམས་པར་གྱུར་ཅིག་པའོ།།
@@ -1204,6 +1343,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-225)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^3-19)
 
 ##### c-1-3-4-4 Colophon — authorship attribution
 **བོད་ཡིག:** ཞེས་རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་མིང་པས་སོ།། །།
@@ -1211,6 +1351,7 @@ None — announcement only. Its own window is the heading line alone; content be
 **Type:** attribution
 **Referent:** PER-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-226)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md#^a-1)
 
 ---
 
@@ -1228,6 +1369,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-227)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-2 Entry 1 — Peaceful Tārā (white); general note on the four-activity Tārās' differing hand-emblems
 **བོད་ཡིག:** ༡ ཞི་བའི་སྒྲོལ་མ་དཀར་མོ། ལས་བཞིའི་སྒྲོལ་མ་ཕྱག་མཚན་མི་འདྲ་བས། གཡས་སྐྱབས་སྦྱིན་དང་། གཡོན་ཨུཏྤལ་འཛིན་པ། གཞན་གཡས་ཐམས་ཅད་མཆོག་སྦྱིན།
@@ -1235,6 +1377,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-9 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-228)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-3 Entry 2/1 — protector from earth-fear (dark blue)
 **བོད་ཡིག:** ༢ ༡ ས་ཡི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་མཐིང་ཀ། གཡོན་ཨུཏྤལ་ལར་རྡོ་རྗེའི་མཚན་པ།
@@ -1242,6 +1385,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-10 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-229)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-4 Entry 3/2 — protector from water-fear (red)
 **བོད་ཡིག:** ༣ ༢ ཆུ་ཡི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་དམར་མོ། ནོར་བུ་མེ་ཤེལ་འཛིན་པ།
@@ -1249,6 +1393,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-11 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-230)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-5 Entry [4]/3 — protector from fire-fear (yellow)
 **བོད་ཡིག:** འ ༣ མེའི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་སེར་མོ། ཆུ་ཤེལ་འཛིན་པ།
@@ -1256,6 +1401,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-12 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-231)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-6 Entry 5/4 — protector from wind-fear (white), and the "Expanding" activity Tārā (yellow)
 **བོད་ཡིག:** ༥ ༤ རླུང་གི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་དཀར་མོ། རི་རབ་འཛིན་པ།རྒྱས་པའི་སྒྲོལ་མ་སེར་མོ། གཡས་རིན་པོ་ཆེ་དང་། གཡོན་ལྕགས་ཀྱུ་འཛིན་པ།
@@ -1263,6 +1409,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-13 (stated), FIG-14 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-232)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-7 Entry 7/5 — protector from lightning-fear (green)
 **བོད་ཡིག:** ༧ ༥ ཐོག་གི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་ལྗང་མོ། རྡོ་རྗེ་རྒྱ་གྲམ་འཛིན་པ།
@@ -1270,6 +1417,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-15 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-233)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-8 Entry 8/6 — protector from weapon-fear (blue)
 **བོད་ཡིག:** ༨ ༦ མཚོན་ཆའི་འཇིགས་སྐྱོབ་སྔོན་མོ། རལ་གྲི་འཛིན་པ།
@@ -1277,6 +1425,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-16 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-234)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-9 Entry 9/7 — protector from king-fear (red)
 **བོད་ཡིག:** ༩ ༧ རྒྱལ་པོའི་འཇིགས་སྐྱོབ་དམར་མོ། ལྕགས་ཀྱུ་འཛིན་པ།
@@ -1284,6 +1433,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-17 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-235)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-10 Entry 10/8 — protector from thief-fear (black)
 **བོད་ཡིག:** ༡༠ ༨ ཆོམ་རྐུན་གྱི་འཇིགས་སྐྱོབ་ནག་མོ། དགྲ་སྟ་འཛིན་པ།
@@ -1291,6 +1441,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-18 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-236)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-11 Entry 11 — "Empowering" activity Tārā (red); the back-matter title recurs mid-block
 **བོད་ཡིག:** ༡༡ དབང་གི་སྒྲོལ་མ་དམར་མོ། གཡས་པདྨའི་ལྕགས་ཀྱུ།འཁོར་ཉི་ཤུ་པོའི་མཚན་དང་སྐུ་མདོག་ཕྱག་མཚན་རྣམས་ཀྱི་ངོས་འཛིན། གཡོན་ཞགས་པ་འཛིན་པ།
@@ -1298,6 +1449,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-19 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-237)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-12 Entry 12/9 — protector from flesh-eating-spirit-fear (black)
 **བོད་ཡིག:** ༡༢ ༩ ཤ་ཟའི་འཇིགས་སྐྱོབ་ནག་མོ། གཡོན་ཕུར་པ་འཛིན་པ།
@@ -1305,6 +1457,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-20 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-238)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-13 Entry 13/10 — protector from elephant-fear (smoky-brown)
 **བོད་ཡིག:** ༡༣ ༡༠ གླང་ཆེན་གྱི་འཇིགས་སྐྱོབ་དུད་ཁ། མདུང་ཐུང་འཛིན་པ།
@@ -1312,6 +1465,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-21 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-239)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-14 Entry 14/11 — protector from lion-fear (black)
 **བོད་ཡིག:** ༡༤ ༡༡ སེང་གེའི་འཇིགས་སྐྱོབ་ནག་མོ། མེ་དཔུང་འཛིན་པ།
@@ -1319,6 +1473,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-22 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-240)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-15 Entry 15/12 — protector from snake-fear (white)
 **བོད་ཡིག:** ༡༥ ༡༢ སྦྲུལ་གྱི་འཇིགས་སྐྱོབ་དཀར་མོ། ཆུ་ཤེལ་གྱི་བུམ་པ་བདུད་རྩིས་གང་བ་འཛིན་པ།
@@ -1326,6 +1481,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-23 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-241)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-16 Entry 16 — "Wrathful" activity Tārā (black)
 **བོད་ཡིག:** ༡༦ དྲག་པོའི་སྒྲོལ་མ་ནག་མོ། ཕྱག་གཉིས་ཕུར་པ་བསྒྲིལ་བ།
@@ -1333,6 +1489,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-24 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-242)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-17 Entry 17/13 — protector from disease-fear (greenish-yellow)
 **བོད་ཡིག:** ༡༧ ༡༣ ནད་ཀྱི་འཇིགས་སྐྱོབ་ལྗང་སེར། ཨ་རུ་ར་འཛིན་པ།
@@ -1340,6 +1497,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-25 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-243)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-18 Entry 18/14 — protector from death-fear (white)
 **བོད་ཡིག:** ༡༨ ༡༤ འཆི་བའི་འཇིགས་སྐྱོབ་སྒྲོལ་མ་དཀར་མོ། ཚེ་ཡི་བུམ་པ་འཛིན་པ།
@@ -1347,6 +1505,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-26 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-244)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-19 Entry 19/15 — protector from poverty-fear (yellow)
 **བོད་ཡིག:** ༡༩ ༡༥ ཕོངས་པའི་འཇིགས་སྐྱོབ་སེར་མོ། གཏེར་གྱི་བུམ་པ་འཛིན་པ།
@@ -1354,6 +1513,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-27 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-245)
+**Library:** none — this passage is not in the library edition
 
 ### c-z-20 Entry 20/16 — protector from the fear of ruined purpose (greenish-yellow); closes the twenty-fold retinue; colophon repeated
 **བོད་ཡིག:** ༢༠ ༡༦ དོན་ཉམས་པའི་འཇིགས་པ་ལས་སྐྱོབ་པའི་སྒྲོལ་མ་ལྗང་སེར། དཔལ་བེའུ་འཛིན་པ་བཅས་འཁོར་ཉི་ཤུའོ། །ཞེས་རྡོར་སློབ་བསྟན་དགའ་སྤྲུལ་མིང་པས་སོ།། །།
@@ -1361,6 +1521,7 @@ blocks fall after the tree's last node's own closing line).>
 **Type:** iconography
 **Referent:** FIG-28 (stated), PER-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།། །།.md#^0-246)
+**Library:** none — this passage is not in the library edition
 
 ---
 

@@ -1,6 +1,9 @@
 # Claims → library edition remap
 
-Status: draft, 2026-11-04. Nothing in `1-SOURCES/` or `2-RAILS/` has been changed.
+Status: draft, 2026-11-04. The library addresses are written into the 8 claims files in
+`2-RAILS/Claims/raw/tree-guided/`, as a `**Library:**` line under each claim's `**Cite:**`
+line, and as `library_*` fields in the frontmatter. The old `**Cite:**` lines are not changed,
+and nothing in `1-SOURCES/` is changed.
 
 ## The problem
 
@@ -42,26 +45,31 @@ There are two reasons for `quote-wins`. Both are correct behaviour:
 
 ## Results (8 commentaries that are in the library)
 
-| Commentary | Claims | Syllables aligned | confirmed | confirmed-fuzzy | quote-wins | absent |
-|---|---:|---:|---:|---:|---:|---:|
-| karma-maitri | 163 | 95.3% | 151 | 12 | | |
-| taranatha | 368 | 97.1% | 293 | 55 | 20 | |
-| dharmabhadra | 148 | 98.3% | 140 | 7 | 1 | |
-| pema-namgyal | 104 | 97.1% | 96 | 8 | | |
-| tenga-tulku | 157 | 93.1% | 97 | 15 | 27 | 18 |
-| gendun-drub | 131 | 98.7% | 124 | 7 | | |
-| drakpa-gyaltsen | 142 | 97.0% | 59 | 83 | | |
-| sangye-nyentrul | 125 | 95.7% | 104 | 21 | | |
-| **total** | **1,338** | | **1,064** | **208** | **48** | **18** |
+| Commentary | Claims | Syllables aligned | confirmed | confirmed-fuzzy | quote-wins | cite-only | absent |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| karma-maitri | 163 | 95.3% | 151 | 12 | | | |
+| taranatha | 368 | 97.1% | 293 | 55 | 20 | | |
+| dharmabhadra | 148 | 98.3% | 140 | 8 | | | |
+| pema-namgyal | 104 | 97.1% | 96 | 8 | | | |
+| tenga-tulku | 157 | 93.1% | 100 | 15 | 22 | | 20 |
+| gendun-drub | 136 | 98.7% | 124 | 11 | 1 | | |
+| drakpa-gyaltsen | 142 | 97.0% | 59 | 82 | | 1 | |
+| sangye-nyentrul | 125 | 95.7% | 104 | 21 | | | |
+| **total** | **1,343** | | **1,067** | **212** | **43** | **1** | **20** |
 
-The 18 `absent` claims are Tenga Tulku's back-matter (`c-z-*`, the list of the twenty retinue
-deities). This list is not in the library edition. A person must decide one of these:
+The total includes the 5 tension entries (`⚑ **c-…**`) in gendun-drub. Each fragment of a quote
+that has an ellipsis (`…`) is searched separately. A fuzzy match is tried first in the blocks
+that the old cite maps to, and then in a wider part of the file.
+
+The 20 `absent` claims are all of Tenga Tulku's back-matter (`c-z-1`–`c-z-20`, the list of the
+twenty retinue deities). This list is not in the library edition. A person must decide one of these:
 
 - add the list to the edition, or
 - keep these claims without a library address.
 
-For drakpa-gyaltsen, 83 matches are fuzzy. This agrees with heavy proofreading of that text.
-Do a spot check of a few of them before you trust the fuzzy threshold.
+For drakpa-gyaltsen, 82 matches are fuzzy. A spot check found the cause: the old text had page
+numbers ("15", "20") inside the lines, and the proofreading removed them. The sampled matches
+are the correct homage stanzas.
 
 ## Not covered yet: 8 commentaries, 1,637 claims
 
@@ -115,3 +123,13 @@ python3 0-INBOX/claims-remap/remap_claims.py dharmabhadra
 ```
 
 The script writes `out/<registered_id>.json`, one row per claim, and `out/summary.json`.
+
+To write the results into the claims files (a dry run unless you add `--write`; you can run it
+again safely):
+
+```bash
+python3 0-INBOX/claims-remap/write_library_refs.py --write
+```
+
+Before and after the write, `tree-guided-claims/scripts/verify_claims.py` gives the same exit
+code and the same findings. Only the line numbers change.

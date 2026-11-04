@@ -14,6 +14,10 @@ method: tree-guided-extraction
 claim_id_scheme: "c-<decimal-with-dashes>-<n>, e.g. node 1.1.3's second claim is c-1-1-3-2 — never a bare decimal, never collides with a node heading number"
 claim_count: 163
 status: draft
+library_source_file: "1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md"
+library_text_id: IZpPQackQMjMsG6i9laM3
+library_edition_id: EPWPiXyjSDcgewleXnbIj
+library_remap: "0-INBOX/claims-remap/out/karma-maitri.json (2026-11-04)"
 ---
 
 # Tree-guided claims — Concise Commentary on the Praise in Twenty-One Homages to Tara
@@ -88,6 +92,7 @@ status: draft
 **Type:** structural
 **Referent:** PER-2 (stated), FIG-1 (node — this claim names her ཨཱརྻ་ཏཱ་ར, the Sanskrit form, not སྒྲོལ་མ verbatim)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-1)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^I-1)
 
 ---
 
@@ -105,6 +110,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** FIG-1 (node — this claim names the text's own title ཕྱག་འཚལ་ཉེར་གཅིག, not སྒྲོལ་མ verbatim)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 #### c-1-1-2 The actual praise has twenty-one parts
 **བོད་ཡིག:** དང་པོ་ལ་ཉེར་གཅིག་ཡོད་པ་ལས།
@@ -112,6 +118,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node) — refers back to this section, not repeated verbatim in this claim's own quote
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ---
 
@@ -123,6 +130,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-1-1-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1-0, #^1-1)
 
 ##### c-1-1-1-2 Opening gloss: "the first is homage"
 **བོད་ཡིག:** དང་པོ་ནི། ཕྱག་འཚལ།
@@ -130,6 +138,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-3 Homage directed to Tara
 **བོད་ཡིག:** གང་ལ་ན། སྒྲོལ་མ་ལའོ།
@@ -137,6 +146,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-4 Rhetorical question on her qualities
 **བོད་ཡིག:** དེ་ལ་ཡོན་ཏན་ནམ་ཁྱད་པར་ཅི་ཡོད་ཅེ་ན།
@@ -144,6 +154,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-5 Etymology of "Swift" (myur ma)
 **བོད་ཡིག:** སེམས་ཅན་སྐད་ཅིག་གིས་སྒྲོལ་བས་ན་མྱུར་མ།
@@ -151,6 +162,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-6 Etymology of "Heroine" (dpa' mo)
 **བོད་ཡིག:** ཉོན་མོངས་བདུད་སྡེ་འཇོམས་པས་ན་དཔའ་མོ།
@@ -158,6 +170,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-7 Etymology of "Tara" from eye-light
 **བོད་ཡིག:** སྤྱན་གྱི་འོད་ནི་སྐད་ཅིག་གིས་གློག་འཁྱུག་པ་དང་འདྲ་བས་སྒྲོལ་མ་
@@ -165,6 +178,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** etymology
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-8 Avalokiteshvara as protector of the three worlds
 **བོད་ཡིག:** ས་འོག་ས་སྟེང་ས་བླའི་འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་སྤྱན་རས་གཟིགས་
@@ -172,6 +186,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ##### c-1-1-1-9 Tara's origin from the lotus-mouth pollen of Avalokiteshvara
 **བོད་ཡིག:** ཆུ་སྐྱེས་ལས་སྐྱེས་པའི་ཞལ་གྱི་མེ་ཏོག་པདྨའི་གེ་སར་བྱེ་བ་ལས་ནི་ཉེ་བར་བྱུང་སྒྲོལ་མ་ལའོ།
@@ -179,6 +194,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated), FIG-2 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-1)
 
 ---
 
@@ -190,6 +206,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-2)
 
 ##### c-1-1-2-2 Face like a hundred autumn moons
 **བོད་ཡིག:** སྟོན་ཀའི་ཟླ་བ་ཉ་ཀུན་ཏུ་གང་བ་བརྒྱ་ཐམ་པ་ནི་རྣམས་པ་བརྩེགས་པ་ལྟར་དཀར་ཞིང་མཛེས་པའི་ཞལ་དང་ལྡན་མ།
@@ -197,6 +214,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-2)
 
 ##### c-1-1-2-3 Radiance surpassing thousands of stars
 **བོད་ཡིག:** སྐར་མའི་ཚོགས་སྟོང་ཕྲག་ཚོགས་པ་རྣམས་ཀྱིས་འགྲན་དུ་མེད་ཅིང་རབ་ཏུ་ཕྱེ་བའི་འོད་དཀར་པོ་རབ་ཏུ་འབར་བའི་སྒྲོལ་མ་ལའོ། །
@@ -204,6 +222,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-2)
 
 ##### c-1-1-2-4 Homage addressed to Tārā
 **བོད་ཡིག:** སྒྲོལ་མ་ལའོ
@@ -211,6 +230,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-2)
 
 ---
 
@@ -222,6 +242,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ##### c-1-1-3-2 Golden, slightly-blue complexion
 **བོད་ཡིག:** གསེར་ལྟར་མཛེས་ཤིང་ཅུང་ཟད་སྔོ་བའི་མདོག་ཅན་
@@ -229,6 +250,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ##### c-1-1-3-3 Hands adorned with blossoming lotuses
 **བོད་ཡིག:** ཆུ་ནི་སྐྱེ་ཕྱིར་པདྨ་རབ་ཏུ་བཀྲ་བས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་པའི་སྒྲོལ་མ།
@@ -236,6 +258,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ##### c-1-1-3-4 Generosity and diligence enumerated
 **བོད་ཡིག:** དེ་ཡང་སྦྱིན་པ་དང་། བརྩོན་འགྲུས་དང་།
@@ -243,6 +266,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ##### c-1-1-3-5 Austerity glossed as moral discipline pacifying afflictions
 **བོད་ཡིག:** དཀའ་ཐུབ་སྟེ་ཚུལ་ཁྲིམས་དེས་ཉོན་མོངས་པ་ཞི་བར་བྱེད་པ།
@@ -250,6 +274,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ##### c-1-1-3-6 Patience and concentration enumerated
 **བོད་ཡིག:** བཟོད་པ་དང་། བསམ་གཏན་དང་། །
@@ -257,6 +282,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-3)
 
 ---
 
@@ -268,6 +294,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-10)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ##### c-1-1-4-2 Object of worship like the Tathagatas' ushnisha
 **བོད་ཡིག:** དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར་ལྟར་མཆོད་པའི་གནས་སུ་གྱུར་ཅིང་།
@@ -275,6 +302,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-10)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ##### c-1-1-4-3 Victorious over maras and opponents
 **བོད་ཡིག:** བདུད་སོགས་ཕས་རྒོལ་མཐའ་ཡས་པ་ལས་རྣམ་པར་རྒྱལ་བ་སྤྱོད་པའི་སྒྲོལ་མ།
@@ -282,6 +310,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ##### c-1-1-4-4 Attainment of the ten paramitas and ten bhumis
 **བོད་ཡིག:** ཕར་ཕྱིན་བཅུ་དང་ས་བཅུ་མ་ལུས་པའི་ཕ་རོལ་ཏུ་ཕྱིན་པའི་གོ་འཕང་ཐོབ་པའི་བདག་ཉིད་
@@ -289,6 +318,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ##### c-1-1-4-5 Mother of all great bodhisattva sons of the victors
 **བོད་ཡིག:** རྒྱལ་བའི་སྲས་བྱང་ཆུབ་སེམས་དཔའ་ཆེན་པོ་ཐམས་ཅད་ཀྱི་ཡུམ་དུ་གྱུར་པས
@@ -296,6 +326,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ##### c-1-1-4-6 Relied upon with great devotion, hence Tara
 **བོད་ཡིག:** གུས་པ་ཆེན་པོའི་ཤིན་ཏུ་བརྟེན་པས་སྒྲོལ་མ་ལའོ། །
@@ -303,6 +334,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** practice
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-4)
 
 ---
 
@@ -314,6 +346,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-1-5-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5-0, #^1-5)
 
 ##### c-1-1-5-2 TUTTĀRE HŪṂ fills the three realms
 **བོད་ཡིག:** ཏུཏྟཱ་རེ་ཧཱུཾ་ཞེས་པའི་ཡི་གེས་འདོད་ཁམས་དང་། ཕྱོགས་ཏེ་གཟུགས་ཁམ་དང་། ནམ་མཁའ་སྟེ་གཟུགས་མེད་པའི་ཁམས་གང་བར་མཛད་མ་
@@ -321,6 +354,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** TXT-1 (stated), FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ##### c-1-1-5-3 Gloss: ཕྱོགས་ = form realm
 **བོད་ཡིག:** ཕྱོགས་ཏེ་གཟུགས་ཁམ
@@ -328,6 +362,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ##### c-1-1-5-4 Gloss: ནམ་མཁའ་ = formless realm
 **བོད་ཡིག:** ནམ་མཁའ་སྟེ་གཟུགས་མེད་པའི་ཁམས
@@ -335,6 +370,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ##### c-1-1-5-5 Gloss: seven worlds = five classes of beings + two upper realms
 **བོད་ཡིག:** འགྲོ་བ་རྒྱུད་ལྔ་ཁམས་གོང་མ་གཉིས་ཏེ་འཇིག་རྟེན་བདུན་པོ
@@ -342,6 +378,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ##### c-1-1-5-6 Treading the seven worlds with her feet
 **བོད་ཡིག:** ཞབས་ཀྱིས་མནན་ཏེ།
@@ -349,6 +386,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ##### c-1-1-5-7 Tārā draws all beings under power by mantra strength
 **བོད་ཡིག:** རིག་སྔགས་ཀྱི་མཐུས་ལུས་པ་མེད་པར་དབང་དུ་འགུགས་པར་ནུས་པའམ་མཛད་པའི་སྒྲོལ་མ་ལའོ།
@@ -356,6 +394,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-5)
 
 ---
 
@@ -367,6 +406,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-2 Indra among the worshippers
 **བོད་ཡིག:** བརྒྱ་བྱིན
@@ -374,6 +414,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-3 Fire god among the worshippers
 **བོད་ཡིག:** མེ་ལྷ
@@ -381,6 +422,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-4 Brahmā among the worshippers
 **བོད་ཡིག:** ཚངས་པ
@@ -388,6 +430,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-5 Wind god among the worshippers
 **བོད་ཡིག:** རླུང་ལྷ
@@ -395,6 +438,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-6 The "great lords" among the worshippers
 **བོད་ཡིག:** སྣ་ཚོགས་དབང་ཕྱུག་ཏེ་དབང་ཕྱུག་ཆེན་པོ་དག
@@ -402,6 +446,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-7 The great lords "worship" her
 **བོད་ཡིག:** གིས་མཆོད་མ།
@@ -409,6 +454,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-8 Gaṇapati among the worshippers
 **བོད་ཡིག:** ཚོགས་བདག
@@ -416,6 +462,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-9 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-9 Bhūta spirits among the worshippers
 **བོད་ཡིག:** འབྱུང་པོ
@@ -423,6 +470,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-10 Vetāla dwelling in the charnel ground among the worshippers
 **བོད་ཡིག:** དུར་ཁྲོད་ན་གནས་པའི་རོ་ལངས
@@ -430,6 +478,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-11 Gandharvas including the five-crested ones among the worshippers
 **བོད་ཡིག:** ཟུར་ཕུད་ལྔ་སོགས་དྲི་ཟ་རྣམས
@@ -437,6 +486,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-12 Yakṣa hosts including Smug-'dzin among the worshippers
 **བོད་ཡིག:** སྨུག་འཛིན་སོགས་གནོད་སྦྱིན་གྱི་ཚོགས
@@ -444,6 +494,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-13 She is constantly praised in front by these hosts
 **བོད་ཡིག:** གང་གི་མདུན་ནས་རྟག་པར་བསྟོད་པའི
@@ -451,6 +502,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ##### c-1-1-6-14 The one thus praised is identified as Tārā
 **བོད་ཡིག:** བསྟོད་པའི་སྒྲོལ་མ་ལའོ།
@@ -458,6 +510,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-6)
 
 ---
 
@@ -469,6 +522,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ##### c-1-1-7-2 Wrathful mouth-sounds trad/phat
 **བོད་ཡིག:** གང་ལ་ན། ཞལ་ནས་ཏྲད་ཅེས་བྱ་བ་དང་། ཕཊ་ཅེས་བྱ་བ་ལ་སོགས་པའི་དྲག་པོའི་སྒྲ
@@ -476,6 +530,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-2 (stated), FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ##### c-1-1-7-3 Destroys enemy's harmful device
 **བོད་ཡིག:** དྲག་པོའི་སྒྲ་ཡིས་ཕ་རོལ་པོས་གནོད་པའི་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་པར་མཛད་མ།
@@ -483,6 +538,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ##### c-1-1-7-4 Right leg bent, left leg extended
 **བོད་ཡིག:** གཡས་བསྐུམ་ཞིང་གཡོན་བརྐྱང་བའི་
@@ -490,6 +546,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-18)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ##### c-1-1-7-5 Tramples the seven worlds
 **བོད་ཡིག:** ཞབས་ཀྱིས་འཇིག་རྟེན་བདུན་པོ་མནན་ཏེ།
@@ -497,6 +554,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-18)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ##### c-1-1-7-6 Abides amid blazing fire, identified as Tara
 **བོད་ཡིག:** མེ་དཔུང་འབར་ཞིང་འཁྲུགས་པ་ཤིན་ཏུ་འབར་བའི་དབུས་ན་བཞུགས་པའི་སྒྲོལ་མ་ལའོ།
@@ -504,6 +562,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-18)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-7)
 
 ---
 
@@ -515,6 +574,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-1-8-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8-0, #^1-8)
 
 ##### c-1-1-8-2 Numbering gloss: this is the eighth "homage"
 **བོད་ཡིག:** བརྒྱད་པ་ནི། ཕྱག་འཚལ།
@@ -522,6 +582,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8)
 
 ##### c-1-1-8-3 Ture protects from eight great fears of speech
 **བོད་ཡིག:** ཏུ་རེ་ལ་སོགས་པའི་གསུང་གི་འཇིགས་པ་ཆེན་པོ་བརྒྱད་ལས་སྐྱོབ་ཅིང་།
@@ -529,6 +590,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (node — this claim names her ཏུ་རེ, not སྒྲོལ་མ verbatim)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8)
 
 ##### c-1-1-8-4 She who destroys the four heroes of Māra
 **བོད་ཡིག:** ལྷའི་བུ་སོགས་བདུད་ཀྱི་དཔའ་བོ་བཞི་རྣམ་པར་འཇོམས་མ།
@@ -536,6 +598,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8)
 
 ##### c-1-1-8-5 Wrathful frown on her lotus-born face
 **བོད་ཡིག:** ཆུ་ལས་སྐྱེས་པའི་མེ་ཏོག་མཛེས་པའི་ཞལ་ནས་ཁྲོ་གཉེར་དང་ལྡན་པར་མཛད་ཅིང་།
@@ -543,6 +606,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8)
 
 ##### c-1-1-8-6 Tara kills all enemies such as the kleshas
 **བོད་ཡིག:** ཉོན་མོངས་ལ་སོགས་པའི་དགྲ་བོ་ཐམས་ཅད་གཅིག་ཀྱང་མ་ལུས་པ་གསོད་པར་བྱེད་པའི་སྒྲོལ་མ་ལའོ།
@@ -550,6 +614,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-8)
 
 ---
 
@@ -561,6 +626,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-2 Three left-hand fingers symbolize the Three Jewels
 **བོད་ཡིག:** ཕྱག་གཡོན་མཛུབ་གུང་མཐེའུ་ཆུང་གསུམ་དཀོན་མཆོག་གསུམ་མཚོན་པའི་
@@ -568,6 +634,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-3 The three fingers form the refuge-granting mudra
 **བོད་ཡིག:** སྐྱབས་སྦྱིན་གྱི་ཕྱག་རྒྱའི་སོར་མོ་ཤིན་ཏུ་མཛེས་པའི་
@@ -575,6 +642,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-4 She adorns her heart with the mudra
 **བོད་ཡིག:** ཐུགས་ཀར་རྣམ་པར་བརྒྱན་པར་མཛད་མ།
@@ -582,6 +650,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-5 Right palm bears a wheel within the boon-granting mudra
 **བོད་ཡིག:** ཕྱག་གཡས་མཆོག་སྦྱིན་ཕྱག་རྒྱའི་མཐིལ་དུ་འཁོར་ལོས་བརྒྱན་པའི་
@@ -589,6 +658,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-6 Light rays radiate in all directions from the wheel-mark
 **བོད་ཡིག:** གཅིག་མ་ལུས་པའི་ཕྱོགས་ཀྱི་འོད་ཟེར་ཐམས་ཅད་ཕྱག་གཡས་མཆོག་སྦྱིན་ཕྱག་རྒྱའི་མཐིལ་དུ་འཁོར་ལོས་བརྒྱན་པའི་ཆ་ལས་འཕྲོས་པའི་
@@ -596,6 +666,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ##### c-1-1-9-7 Her agitated light fills space and outshines all other light
 **བོད་ཡིག:** རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་རབ་ཏུ་འཁྲུགས་པས་གང་ཞིང་འོད་གཞན་རྣམས་ཟིལ་གྱིས་གནོན་པར་མཛད་མ་ལའོ།།
@@ -603,6 +674,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-9)
 
 ---
 
@@ -614,6 +686,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ##### c-1-1-10-2 Crown generating joy, fulfilling wishes
 **བོད་ཡིག:** འགྲོ་བ་ཀུན་གྱི་རེ་བ་བསྐང་བའི་རབ་ཏུ་དགའ་བ་འབྱུང་བར་བགྱིད་པའི་རིན་པོ་ཆེའི་དབུ་རྒྱན་དང་།
@@ -621,6 +694,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ##### c-1-1-10-3 Necklace and blazing light-ray ornaments
 **བོད་ཡིག:** ནོར་བུའི་དོ་ཤལ་སོགས་འོད་ཟེར་གྱི་ཕྲེང་བ་འབར་ཞིང་འཁྲུགས་པ་སྤེལ་ལེགས་པའི་བརྒྱན་པའི་སྒྲོལ་མ་
@@ -628,6 +702,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ##### c-1-1-10-4 Laughter and the mantra sound tuttāra
 **བོད་ཡིག:** བཞད་པ་དང་རབ་ཏུ་བཞེད་པའི་སྔགས་ཏུཏྟཱ་ར་ལ་སོགས་པའི་སྒྲ་ཡིས།
@@ -635,6 +710,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ##### c-1-1-10-5 Subdues Māra, lord of Paranirmitavaśavartin
 **བོད་ཡིག:** གཞན་འཕྲུལ་དབང་བྱེད་ཀྱི་བདག་པོ་བདུད་དང་།
@@ -642,6 +718,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-10 (stated), FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ##### c-1-1-10-6 Brings all worlds under her power
 **བོད་ཡིག:** གཞན་ཡང་འཇིག་རྟེན་ཐམས་ཅད་དབང་དུ་བསྡུད་པར་བྱེད་པའི་སྒྲོལ་མ་ལའོ།
@@ -649,6 +726,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-10)
 
 ---
 
@@ -660,6 +738,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-1-11-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-11-0, #^1-11)
 
 ##### c-1-1-11-2 Commentator poses "to whom is homage paid?"
 **བོད་ཡིག:** བཅུ་གཅིག་པ་ནི། ཕྱག་འཚལ། གང་ལ་ན།
@@ -667,6 +746,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-11)
 
 ##### c-1-1-11-3 Tara who commands the guardians as servants
 **བོད་ཡིག:** ཕྱོགས་སྐྱོང་བཅུ་སོགས་ས་གཞི་སྐྱོང་བའི་ཚོགས་རྣམས་མ་ལུས་པ་ཐམས་ཅད་བྲན་དུ་འགུག་པར་ནུས་མ་ཉིད་ཀྱི་སྒྲོལ་མ།
@@ -674,6 +754,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-11)
 
 ##### c-1-1-11-4 Wrathful frowning face with HUM at the heart
 **བོད་ཡིག:** ཞལ་ཁྲོ་གཉེར་གཡོ་བའི་ཐུགས་ཀར་ཡི་གེ་ཧཱུྃ་གིས་མཚན་པའི་འོད་ཀྱིས
@@ -681,6 +762,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** TXT-3 (stated), FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-27)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-11)
 
 ##### c-1-1-11-5 Rescuing frightened, destitute beings and establishing them in bliss
 **བོད་ཡིག:** འཇིགས་ཤིང་ཕོངས་པར་གྱུར་པའི་འགྲོ་བ་ཐམས་ཅད་སྡུག་བསྔལ་ལས་རྣམ་པར་བསྒྲལ་ནས་བདེ་བ་དམ་པ་ལ་འགོད་པར་མཛད་པའི་སྒྲོལ་མ་ལའོ།
@@ -688,6 +770,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-27)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-11)
 
 ---
 
@@ -699,6 +782,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ##### c-1-1-12-2 Adorned with crescent moon on the head
 **བོད་ཡིག:** གང་ལ་ནི། ཟླ་བའི་དུམ་བུ་སྟེ་ཕྱེད་པའི་དབུ་ལ་བརྒྱན་ཅིང་།
@@ -706,6 +790,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ##### c-1-1-12-3 Nature blazes with white light exceeding all ornaments
 **བོད་ཡིག:** བརྒྱན་པ་ཐམས་ཅད་ལས་ཀྱང་འོད་དཀར་པོ་ཤིན་ཏུ་འབར་བའི་བདག་ཉིད་མ།
@@ -713,6 +798,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ##### c-1-1-12-4 Amitābha, family-lord, dwells amid her locks
 **བོད་ཡིག:** རལ་པའི་ཁྲོད་ན་རིགས་བདག་འོད་དཔག་མེད་བཞུགས་པ་ལས།
@@ -720,6 +806,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-3 (stated), FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ##### c-1-1-12-5 Constantly emits dazzling light for sentient beings
 **བོད་ཡིག:** སེམས་ཅན་གྱི་དོན་དུ་རྟག་པར་ཤིན་ཏུ་འཚེར་བའི་འོད་རབ་ཏུ་འགྱེད་པར་མཛད་པའི
@@ -727,6 +814,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ##### c-1-1-12-6 Identified as Tara
 **བོད་ཡིག:** སྒྲོལ་མ་ལའོ།
@@ -734,6 +822,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-12)
 
 ---
 
@@ -745,6 +834,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ##### c-1-1-13-2 Gloss of "final aeon['s fire]"
 **བོད་ཡིག:** བསྐལ་པ་ཐ་མ་སྟེ་འཇིག་པའི་དུས་ཀྱི་མེ
@@ -752,6 +842,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ##### c-1-1-13-3 Dwells amid a blazing garland
 **བོད་ཡིག:** རབ་ཏུ་འབར་བའི་ཕྲེང་བས་བསྐོར་བའི་དབུས་ན་གནས་མ།
@@ -759,6 +850,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ##### c-1-1-13-4 Pratyalidha stance encircled by light garland
 **བོད་ཡིག:** གཡས་བརྐྱང་གཡོན་བསྐུམ་པའི་སྟབས་ཀྱིས་འོད་ཀྱི་ཕྲེང་བས་བསྐོར་བའི
@@ -766,6 +858,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ##### c-1-1-13-5 Creates joy, bestows bliss
 **བོད་ཡིག:** བདེ་བ་སྦྱིན་པའི་དགའ་བར་མཛད་ཅིང་།
@@ -773,6 +866,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ##### c-1-1-13-6 Destroys all enemy armies
 **བོད་ཡིག:** དགྲ་ཡི་དཔུང་ཐམས་ཅད་རྣམ་པར་འཇོམས་པར་མཛད་མ་ལའོ།
@@ -780,6 +874,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-13)
 
 ---
 
@@ -791,6 +886,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-2 Strikes ground with palm and threatening gesture
 **བོད་ཡིག:** ས་གཞི་ངོས་ལ་སྡིགས་མཛུབ་དང་བཅས་པའི་ཕྱག་གི་མཐིལ་གྱིས་བསྣུན་
@@ -798,6 +894,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-3 Pounds ground with feet
 **བོད་ཡིག:** ཞབས་ཀྱིས་བརྡུང་བར་མཛད་མ།
@@ -805,6 +902,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-4 Wrathful frowning expression
 **བོད་ཡིག:** ཁྲོ་གཉེར་ཅན་དུ་མཛད་ཅིང་།
@@ -812,6 +910,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-5 Letter HŪṂ on right palm
 **བོད་ཡིག:** གཡས་ཀྱི་ཕྱག་མཐིལ་ན་ཡི་གེ་ཧཱུྃ་
@@ -819,6 +918,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** TXT-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-6 Light from HŪṂ crumbles seven earth levels
 **བོད་ཡིག:** གི་འོད་འཕྲོ་བས་ས་རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་པར་མཛད་ཅིང་།
@@ -826,6 +926,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ##### c-1-1-14-7 Tara who dispels obstacles of all beings
 **བོད་ཡིག:** སེམས་ཅན་ཀུན་གྱི་བར་གཅོད་སེལ་བའི་སྒྲོལ་མ་ལའོ།
@@ -833,6 +934,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-14)
 
 ---
 
@@ -844,6 +946,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-1-15-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15-0, #^1-15)
 
 ##### c-1-1-15-2 Numbering and "to whom" question posed
 **བོད་ཡིག:** བཅོ་ལྔ་པ་ནི། ཕྱག་འཚལ། གང་ལ་ན།
@@ -851,6 +954,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-3 Nature free of outflows, blissful
 **བོད་ཡིག:** ཟག་མེད་ཀྱི་རང་བཞིན་བདེ་མ།
@@ -858,6 +962,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-4 Virtuous through abandoning afflictions
 **བོད་ཡིག:** ཉོན་མོངས་སྤང་བའི་དགེ་མ།
@@ -865,6 +970,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-5 Peaceful, free from harsh contact
 **བོད་ཡིག:** རྩུབ་རེག་བྲལ་བའི་ཞི་མ།
@@ -872,6 +978,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-6 Field of activity is supreme non-abiding nirvana
 **བོད་ཡིག:** མི་གནས་པའི་མྱ་ངན་ལས་འདས་པ་མཆོག་ཏུ་རབ་ཏུ་ཞི་བའི་སྤྱོད་ཡུལ་ཅན་ཉིད་དུ་འགྱུར་བའི་སྒྲོལ་མ།
@@ -879,6 +986,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-7 Mantra endowed with svāhā and oṃ
 **བོད་ཡིག:** སྭཱ་ཧཱ་དང་ཨོཾ་ཞེས་པ་དང་ཡང་དག་པར་ལྡན་པའི་སྔགས་ཀྱིས་སྡིག་པ་དང་སྒྲིབ་པ་ཆེན་པོ་ཐམས་ཅད་འཇོམས་པར་ནུས་པ་ཉིད་ཀྱི་སྒྲོལ་མ་ལའོ།
@@ -886,6 +994,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-6 (stated), FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-35)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ##### c-1-1-15-8 Mantra destroys all great sins and obscurations
 **བོད་ཡིག:** སྭཱ་ཧཱ་དང་ཨོཾ་ཞེས་པ་དང་ཡང་དག་པར་ལྡན་པའི་སྔགས་ཀྱིས་སྡིག་པ་དང་སྒྲིབ་པ་ཆེན་པོ་ཐམས་ཅད་འཇོམས་པར་ནུས་པ་ཉིད་ཀྱི་སྒྲོལ་མ་ལའོ།
@@ -893,6 +1002,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-35)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-15)
 
 ---
 
@@ -904,6 +1014,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-2 Wheel at the heart with OM and mantra letters
 **བོད་ཡིག:** ཐུགས་ཀར་འཁོར་ལོའི་ལྟེ་བར་ཨོཾ་དང་རྩིབས་རྣམས་ལ་སྔགས་ཀྱི་ཡི་གེས་ཀུན་ནས་བསྐོར་བའི
@@ -911,6 +1022,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-3 "Liberating radiance" brings great joy
 **བོད་ཡིག:** རབ་ཏུ་དགའ་བར་མཛད་པའི་སྒྲོལ་འོད་ཀྱིས།
@@ -918,6 +1030,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (stated — as སྒྲོལ་འོད)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-4 Crushing the bodies of enemies
 **བོད་ཡིག:** དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་པར་མཛད་མ།
@@ -925,6 +1038,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-5 Ten-syllable mantra from the wheel-HUM
 **བོད་ཡིག:** ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧཱ། ཞེས་པའི་ཡི་གེ་བཅུ་པོའི་ངག་ནི་འཁོར་ལོའི་རྣམ་པར་བཀོད་པའི་རིག་པ་ཧཱུཾ་ལས།
@@ -932,6 +1046,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-6 Wrathful-form mantra
 **བོད་ཡིག:** ༀ་ན་མཿ ཏཱ་རེ་ན་མོ་ཧཱ་རེ་ཧཱུྃ་ཧཱ་རེ་སྭཱ་ཧཱ་ཞེས་
@@ -939,6 +1054,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ##### c-1-1-16-7 Wrathful manner destroys host of māras, becomes Tārā
 **བོད་ཡིག:** བདུད་སྡེ་འཇོམས་པའི་ཁྲོ་བོའི་ཚུལ་གྱིས་སྒྲོལ་མ་ཉིད་དུ་མཛད་མ་ལའོ།
@@ -946,6 +1062,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-16)
 
 ---
 
@@ -957,6 +1074,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ##### c-1-1-17-2 Ture glossed as "the swift one"
 **བོད་ཡིག:** ཏུ་རེ་ནི་མྱུར་མ་སྟེ།
@@ -964,6 +1082,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** FIG-1 (stated — as ཏུ་རེ)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ##### c-1-1-17-3 Tārā strikes her foot on the ground
 **བོད་ཡིག:** སྒྲོལ་མའི་ཞབས་ས་ལ་བརྡབ་པས།
@@ -971,6 +1090,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ##### c-1-1-17-4 Possessed of the HŪṂ seed-syllable
 **བོད་ཡིག:** ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་དང་ལྡན་མ།
@@ -978,6 +1098,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** TXT-3 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ##### c-1-1-17-5 Named mountains outside the trichiliocosm shaken
 **བོད་ཡིག:** དེས་སྟོང་གསུམ་གྱི་ཕྱི་རོལ་ན་གནས་རི་རབ་མནྡ་ར་ཞེས་པ་དང་རི་རབ་འབིག་བྱེད་ལ་སོགས་པ་སྟེ།
@@ -985,6 +1106,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** PLC-1 (stated), PLC-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ##### c-1-1-17-6 In short, she causes the three worlds to shake
 **བོད་ཡིག:** མདོར་ན་འཇིག་རྟེན་སྲིད་པ་གསུམ་པོ་རྣམ་པར་གཡོ་བར་མཛད་པའི་བདག་ཉིད་མ་ལའོ། །
@@ -992,6 +1114,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-17)
 
 ---
 
@@ -1003,6 +1126,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ##### c-1-1-18-2 Qualities of the nectar-lake nature
 **བོད་ཡིག:** དྭངས་ཤིང་བསིལ་བ་སོགས་ཡོན་ཏན་ཁྱད་པར་ཅན་དང་ལྡན་པའི་ལྷ་ཡི་བདུད་རྩིའི་མཚོ་ཡི་རྣམ་པའི་བདག་ཉིད་ཅན
@@ -1010,6 +1134,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ##### c-1-1-18-3 Deer-marked epithet for the moon
 **བོད་ཡིག:** རི་དྭགས་རྟགས་ཅན
@@ -1017,6 +1142,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** word-gloss
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ##### c-1-1-18-4 Identification as she who holds the moon in hand
 **བོད་ཡིག:** ཟླ་བ་ཕྱག་ན་བསྣམས་མ
@@ -1024,6 +1150,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ##### c-1-1-18-5 Mantra structure: TARA twice ending in PHAT
 **བོད་ཡིག:** ཏཱ་ར་གཉིས་བརྗོད་པའི་མཐར་ཕཊ་ཀྱི་ཡི་གེ
@@ -1031,6 +1158,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-41)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ##### c-1-1-18-6 Benefit: eliminates poisons for all sentient beings
 **བོད་ཡིག:** སེམས་ཅན་གང་ཞིག་བརྟན་གཡོའི་དུག་རྣམས་མ་ལུས་པ་ནི་སེལ་བའི་སྒྲོལ་མ་ལའོ།
@@ -1038,6 +1166,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-41)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-18)
 
 ---
 
@@ -1049,6 +1178,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-2 She whose feet are relied upon by gods
 **བོད་ཡིག:** གང་ལ་ན། ལྷ་ཡི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་ཚངས་པ་དང་། བརྒྱ་བྱིན་དང་། ལྷ་ཕལ་པ་དང་། མིའམ་ཅི་ཡི་ཚོགས་ཐམས་ཅད་ཀྱིས་ཞབས་ལ་བརྟེན་མ།
@@ -1056,6 +1186,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated), FIG-6 (stated), FIG-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-3 Endowed with a deity's form
 **བོད་ཡིག:** ཀུན་ནས་ལྷ་ཡི་རྣམ་པ་དང་
@@ -1063,6 +1194,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-4 Armor of mantra
 **བོད་ཡིག:** སྔགས་ཀྱི་གོ་ཆ་
@@ -1070,6 +1202,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-5 Joyful demeanor
 **བོད་ཡིག:** དགའ་བའི་སྟེ
@@ -1077,6 +1210,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-6 Dispels disputes and bad dreams
 **བོད་ཡིག:** གཟི་བརྗིད་ཀྱིས་རྩོད་པ་དང་རྨི་ལམ་ངན་པ་ཐམས་ཅད་སེལ་བའི་
@@ -1084,6 +1218,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ##### c-1-1-19-7 Addressed to Tara
 **བོད་ཡིག:** སྒྲོལ་མ་ལའོ།
@@ -1091,6 +1226,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-19)
 
 ---
 
@@ -1102,6 +1238,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-20)
 
 ##### c-1-1-20-2 Eyes blazing like full sun and moon
 **བོད་ཡིག:** ཉི་མ་དང་ཟླ་བ་རབ་ཏུ་རྒྱས་པ་ལྟ་བུས་སྤྱན་གཉིས་པོ་ལས་འོད་རབ་ཏུ་གསལ་ཞིང་འབར་མ་
@@ -1109,6 +1246,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-20)
 
 ##### c-1-1-20-3 Tuttāre with two haras as vidyā-mantra letters
 **བོད་ཡིག:** ཧཱ་ར་གཉིས་བརྗོད་པའི་ཏུཏྟཱ་རེ་སྟེ་རིག་སྔགས་ཀྱི་ཡི་གེ
@@ -1116,6 +1254,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** mantra
 **Referent:** TXT-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-45)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-20)
 
 ##### c-1-1-20-4 Fierce mantra letters dispel all epidemic disease
 **བོད་ཡིག:** ཡི་གེ་ཤིན་ཏུ་དྲག་པོས་རིམས་ནད་ཐམས་ཅད་སེལ་བར་མཛད་པའི་སྒྲོལ་མ་ལའོ།
@@ -1123,6 +1262,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-45)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-20)
 
 ---
 
@@ -1134,6 +1274,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-46)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-21)
 
 ##### c-1-1-21-2 Three syllables in three places, light pacifies afflictions
 **བོད་ཡིག:** གང་ལ་ན། གནས་གསུམ་དེ་ཉིད་གསུམ་སྟེ་འབྲུ་གསུམ་གྱི་ཡི་གེ་རྣམས་བཀོད་པས་དེའི་འོད་ཀྱིས་ཉོན་མོངས་ཞི་བའི་མཐུ་དང་ཡང་དག་པར་ལྡན་མ།
@@ -1141,6 +1282,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-46)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-21)
 
 ##### c-1-1-21-3 Destroys spirits, zombies, yaksha hosts, dangers and harms
 **བོད་ཡིག:** གདོན་དང་རོ་ལངས་དང་གནོད་སྦྱིན་གྱི་ཚོགས་དང་འཇིགས་པ་དང་གནོད་པ་རྣམས་འཇོམས་པ་ལ།
@@ -1148,6 +1290,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-47)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-21)
 
 ##### c-1-1-21-4 Ture rabmchog destroys via ten-syllable mantra, identified as Tara
 **བོད་ཡིག:** ཏུ་རེ་རབ་མཆོག་སྟེ་ཡི་གེ་བཅུ་པའི་སྔགས་ཀྱིས་འཇོམས་པར་མཛད་པ་ཉིད་ཀྱི་སྒྲོལ་མ་ལའོ།
@@ -1155,6 +1298,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated), TXT-4 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-47)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-21)
 
 ##### c-1-1-21-5 Praise adorned with the root mantra taught earlier
 **བོད་ཡིག:** རྩ་བའི་སྔགས་ཏེ་སྔར་བསྟན་པའི་ཞི་ཁྲོའི་སྔགས་ཀྱིས་བརྒྱན་པའི་བསྟོད་པ་འདི་དང་།
@@ -1162,6 +1306,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** TXT-4 (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-48)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-22)
 
 ##### c-1-1-21-6 Homage's object is Tara with twenty-one emanations
 **བོད་ཡིག:** ཕྱག་འཚལ་བ་ནི་གང་ལ་ན་རྣམ་འཕྲུལ་ཉི་ཤུ་རྩ་གཅིག་དང་ལྡན་པའི་སྒྲོལ་མ་ལའོ།
@@ -1169,6 +1314,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-48)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^1-22)
 
 ---
 
@@ -1182,6 +1328,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (node)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^1-2-0)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-0)
 
 ##### c-1-2-2 Section opener restates topic
 **བོད་ཡིག:** གཉིས་པ་ཕན་ཡོན་ནི།
@@ -1189,6 +1336,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** structural
 **Referent:** (section-opener)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-1)
 
 ##### c-1-2-3 Devoted recitation with clear mind
 **བོད་ཡིག:** ལྷ་མོ་སྒྲོལ་མ་ལ་གུས་པ་ཡང་དག་པ་དང་ལྡན་པའི་བློ་དང་ལྡན་པས་གང་ཟག་གིས་བསྟོད་པའི་རྒྱལ་པོ་འདི་སེམས་རབ་ཏུ་དང་བས་བརྗོད་དེ།
@@ -1196,6 +1344,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** practice
 **Referent:** FIG-1 (stated — as ལྷ་མོ་སྒྲོལ་མ)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-1)
 
 ##### c-1-2-4 Fierce recitation at dusk, peaceful at dawn
 **བོད་ཡིག:** སྲོད་ལ་དྲག་པོ་དང་ཐོ་རངས་ཞི་བ་སོགས་སྐུར་མོས་པས་ལངས་པར་བྱས་ནས།
@@ -1203,6 +1352,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** ritual
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-2)
 
 ##### c-1-2-5 Protection from fear
 **བོད་ཡིག:** ཡིད་ལ་དྲན་པས་འཇིགས་པ་ལས་སྐྱོབ་ཅིང་མི་འཇིགས་པ་ཐམས་ཅད་རབ་ཏུ་གཏོར་རོ།
@@ -1210,6 +1360,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-2)
 
 ##### c-1-2-6 Negative karma of lower rebirth pacified
 **བོད་ཡིག:** ངན་འགྲོའི་རྒྱུ་སྡིག་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་
@@ -1217,6 +1368,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-2)
 
 ##### c-1-2-7 Suffering of lower rebirth destroyed
 **བོད་ཡིག:** འབྲས་བུ་ངན་འགྲོའི་སྡུག་བསྔལ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ།
@@ -1224,6 +1376,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-2)
 
 ##### c-1-2-8 Seventy million victors bestow empowerment
 **བོད་ཡིག:** རྒྱལ་བ་བྱེ་བ་ཕྲག་བདུན་རྣམས་ཀྱིས་ཀྱང་མྱུར་དུ་དབང་ནི་བསྐུར་བར་འགྱུར་ལ།
@@ -1231,6 +1384,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-3)
 
 ##### c-1-2-9 Great happiness in this life
 **བོད་ཡིག:** ཚེ་འདི་ཉིད་ལ་བདེ་བ་ཆེ་བ་ཉིད་ནི་ཐོབ་ཅིང་།
@@ -1238,6 +1392,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-3)
 
 ##### c-1-2-10 Ultimate attainment of buddhahood
 **བོད་ཡིག:** མཐར་ཐུག་ཏུ་ཡང་སངས་རྒྱས་ཀྱི་གོ་འཕང་ཡང་མཐར་ཐུག་པ་དེར་འགྲོ་བ་ཉིད་དོ།
@@ -1245,6 +1400,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-3)
 
 ##### c-1-2-11 Fierce poison-obstacles to attainment identified
 **བོད་ཡིག:** དེ་འཐོབ་པ་ལ་བར་དུ་གཅོད་པའི་དུག་ནི་དྲག་པོ་ཆེན་པོ་སྟེ་བདག་ཏུ་ལྟ་བ་དང་། རྐུན་པོ་དང་། ཤ་ཟ་ལ་སོགས་པ་བརྟེན་གནས་པ་སྟེ་རྟག་པར་གནོད་པའམ།
@@ -1252,6 +1408,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-4)
 
 ##### c-1-2-12 Snake poison cleared by recollection
 **བོད་ཡིག:** གཞན་ཡང་འགྲོ་བ་སྦྲུལ་ལ་སོགས་པའི་དུག་ཀྱང་དྲན་པ་ཙམ་གྱིས་རབ་ཏུ་སེལ་བ་ཉིད་ཐོབ་ལ།
@@ -1259,6 +1416,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-4)
 
 ##### c-1-2-13 Suffering from spirits, epidemics, and poison eliminated
 **བོད་ཡིག:** གདོན་དང་རིམས་དང་དུག་གིས་གཟིར་བའི་སྡུག་བསྔལ་ཉེར་འཚེའི་ཚོགས་ནི་རྣམ་པར་སྤང་ཞིང་།
@@ -1266,6 +1424,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-5)
 
 ##### c-1-2-14 Benefits extend to other sentient beings
 **བོད་ཡིག:** སེམས་ཅན་རང་ལས་གཞན་པ་རྣམས་ལ་ཡང་ཕན་ཡོན་འདི་ལྟ་བུ་འབྱུང་ངོ་།
@@ -1273,6 +1432,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-5)
 
 ##### c-1-2-15 Recitation regimen: thrice day/night for seven cycles of seven days
 **བོད་ཡིག:** ཉིན་མཚན་གཉིས་དང་ཉིན་མཚན་ལན་གསུམ་གསུམ་དུ་བསྟོད་པ་འདི་བདུན་བདུན་དུ་མངོན་པར་བརྗོད་ན།
@@ -1280,6 +1440,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** ritual
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-16 Son obtained if desired
 **བོད་ཡིག:** བུ་འདོད་པའི་ནི་བུ་ཐོབ་འགྱུར་ཞིང་།
@@ -1287,6 +1448,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-17 Wealth obtained if desired
 **བོད་ཡིག:** ནོར་འདོད་པའི་ནི་ནོར་རྣམས་ཉིད་ཐོབ་ཅིང་།
@@ -1294,6 +1456,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-18 All mental wishes accomplished
 **བོད་ཡིག:** མདོར་ན་ཡིད་ལ་ཇི་ལྟར་བསམ་པའི་འདོད་པ་ཐམས་ཅད་འགྲུབ་པར་འགྱུར་ཏེ།
@@ -1301,6 +1464,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-19 No obstacles or interruptions arise
 **བོད་ཡིག:** བགེགས་དང་བར་དུ་གཅོད་པ་ཐམས་ཅད་མེད་ཅིང་མི་འབྱུང་ལ།
@@ -1308,6 +1472,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-20 Obstacles destroyed by the Venerable Lady's power
 **བོད་ཡིག:** བྱུང་ཡང་སོ་སོར་རྗེ་བཙུན་མ་ཉིད་ཀྱི་མཐུས་འཇོམས་པར་འགྱུར་རོ།
@@ -1315,6 +1480,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** benefit
 **Referent:** FIG-1 (node — this claim's own quote names her as རྗེ་བཙུན་མ, not སྒྲོལ་མ verbatim)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^2-6)
 
 ##### c-1-2-21 Colophon: compiled from Karma Maitri's oral teaching
 **བོད་ཡིག:** ཞེས་པའང་རང་གི་བརྗེད་ཐོ་ལྟ་བུར། ༧ཀརྨ་མཻ་ཏྲིའི་མིང་གིས་མཁས་གྲུབ་ཀྱིས་གསུངས་པ་དག་ལས་ཟིན་ཐོར་བྲིས་པ་ཤུ་བྷཾ།།
@@ -1322,6 +1488,7 @@ None — announcement only. (The node's own window is the heading line; its cont
 **Type:** attribution
 **Referent:** PER-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md#^a-1)
 
 ---
 

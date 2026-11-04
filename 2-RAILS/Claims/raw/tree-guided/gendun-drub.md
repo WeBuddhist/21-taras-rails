@@ -14,6 +14,10 @@ method: tree-guided-extraction
 claim_id_scheme: "c-<decimal-with-dashes>-<n>, e.g. node 2.2.1's third claim is c-2-2-1-3 — never a bare decimal, never collides with a node heading number"
 claim_count: 131
 status: draft
+library_source_file: "1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md"
+library_text_id: FLkNt28DzdIV3eEgYBdYi
+library_edition_id: iNygWczubSeZPsjP2LEwH
+library_remap: "0-INBOX/claims-remap/out/gendun-drub.json (2026-11-04)"
 ---
 
 # Tree-guided claims — The Precious Garland: A Ṭīkā on the Twenty-One Homages to Tārā
@@ -93,6 +97,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-1)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^0)
 
 ### c-0-2 Opening homage to the Three Jewels
 **བོད་ཡིག:** འཕགས་པ་དཀོན་མཆོག་གསུམ་ལ་ཕྱག་འཚལ་ལོ།
@@ -100,6 +105,7 @@ status: draft
 **Type:** ritual
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^I-1)
 
 ### c-0-3 Homage to Tārā as mother of the Buddhas, activity of the three times
 **བོད་ཡིག:** དུས་གསུམ་སངས་རྒྱས་ཀུན་གྱི་འཕྲིན་ལས་མ། །རྒྱལ་བའི་ཡུམ་གྱུར་བཅོམ་ལྡན་སྒྲོལ་མ་ལ། །ལུས་ངག་ཡིད་གསུམ་གུས་པས་ཕྱག་འཚལ་ལོ།
@@ -107,11 +113,13 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^I-2)
 
 ⚑ **c-0-4 Tantra classification — Kriyātantra vs. Anuttarayogatantra**
 - **Position 1:** རྒྱུད་འདི་སྔོན་གྱི་མཁས་པ་ཕལ་ཆེ་བ་ནི། རྒྱུད་སྡེ་བཞིའི་ནང་ནས་བྱ་རྒྱུད་དུ་གཏོགས་ཞེས་གསུང་ངོ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-3)
 - **Position 2:** འདི་བྱ་རྒྱུད་ཡིན་མིན་བརྟག་སྟེ། ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་མ་འདི། བླ་མེད་རྒྱུད་དུ་བཀྲལ་བའང་འདུག་གསུང་ངོ་། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-3)
 **English:** Whether this tantra belongs to the Kriyātantra class is unsettled within the tradition the commentary reports: most earlier scholars classify it as Kriyātantra (one of the four tantra classes), but it has also been explained as belonging to the Anuttarayogatantra class.
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^II-1)
 
 ### c-0-5 Source tantra named and chapter placement given
 **བོད་ཡིག:** དེ་ཡང་དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་སྒྲོལ་མ་ལ་བསྟོད་པ་ཅེས་བྱ་བའི་རྒྱུད་ལེའུ་སུམ་ཅུ་རྩ་ལྔ་ཡོད་པའི་ལེའུ་གསུམ་པ་ལ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་མ་འདི་གསུངས་སོ།
@@ -119,6 +127,7 @@ status: draft
 **Type:** attribution
 **Referent:** TXT-1 (stated); FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^II-1)
 
 ### c-0-6 Two-part structural announcement: setting and actual teaching
 **བོད་ཡིག:** འདི་ལ་གཉིས། གླེང་གཞི་དང་། དངོས་བཤད་པའོ།
@@ -126,6 +135,7 @@ status: draft
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^1-1)
 
 ---
 
@@ -137,6 +147,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-2 (stated); FIG-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^1-1)
 
 ### c-1-2 Tārā declared mother of all Buddhas of the three times; Mañjuśrī told to bear the praise in mind
 **བོད་ཡིག:** འཇམ་དཔལ་ཡུམ་འདི་ནི་དུས་གསུམ་གྱི་སངས་རྒྱས་ཐམས་ཅད་ཀྱི་ཡུམ་མོ། །འཇམ་དཔལ་དེའི་ཕྱིར། དུས་གསུམ་གྱི་སངས་རྒྱས་ཐམས་ཅད་ཀྱིས་བསྟོད་པ་འདི། འཇམ་དཔལ་ཁྱོད་ཀྱི་ཡིད་ལ་གྱིས་ཤིག
@@ -144,6 +155,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-2 (stated) — refers to Tārā only as ཡུམ་འདི ("this mother"), not by her registered name སྒྲོལ་མ, so FIG-1 is not tagged here
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^1-1)
 
 ### c-1-3 Bhagavān then speaks the dhāraṇī-mantra of praise
 **བོད་ཡིག:** དེ་ནས་བཅོམ་ལྡན་འདས་ཀྱིས་བསྟོད་པའི་གཟུངས་སྔགས་གསུངས་པ་ཅེས་སོ།
@@ -151,6 +163,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-3 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-5)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^1-1)
 
 ---
 
@@ -180,6 +193,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ### c-2-2-0-2 Root mantra, variant reading attributed to unnamed scholars
 **བོད་ཡིག:** རྩ་བའི་སྔགས་ཀྱིས་བསྟོད་པ་ནི། ན་མ་སརྦ་ཏཱ་ཐཱ་ག་ཏཱ་ནཱཾ། ཏདྱ་ཐཱ། ཨོཾ་ན་མོ་སུ་ཀ་ས་ན་མ་ཏཱ་རེ་པཱ་ར་མི་ཏ་ཞེས་པ་འདི་ཡིན་ཞེས་འགའ་ཞིག་གསུང་ལ།
@@ -187,6 +201,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** mantra
 **Referent:** TXT-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ### c-2-2-0-3 Root mantra, Spang Lo Chen po's verse rendering (opening)
 **བོད་ཡིག:** སྤང་ལོ་ཆེན་པོ་ནི། ཨོཾ༑ ཕྱག་འཚལ་སྒྲོལ་མ་ཏཱ་རེ་དཔའ་མོ། །
@@ -194,6 +209,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** mantra
 **Referent:** TXT-3 (stated); PER-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ### c-2-2-0-4 Root mantra, Spang Lo Chen po's verse rendering (continued)
 **བོད་ཡིག:** ཏུཏྟཱ་ར་ཡིས་འཇིགས་པ་ཀུན་སེལ། །ཏུ་རེས་དོན་རྣམས་ཐམས་ཅད་རབ་སྟེར། །སྭཱཧཱ་ཡི་གེར་བཅས་ ལ་རབ་འདུད། །
@@ -201,6 +217,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** mantra
 **Referent:** TXT-3 (section-opener — continues c-2-2-0-3's own quotation of the same verse, split across ^0-6/^0-7)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ### c-2-2-0-5 Spang Lo's rendering attributed to a Sanskrit exemplar
 **བོད་ཡིག:** ཅེས་པ་རྒྱ་དཔེ་ལ་ཡོད་པ་སྤང་ལོས་བསྒྱུར་བ་འདི་ཡིན་གསུང་ཡང་།
@@ -208,6 +225,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** attribution
 **Referent:** PER-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ### c-2-2-0-6 Gurus' gloss: what "root-mantra praise" and "twenty-one homages" each denote
 **བོད་ཡིག:** རྩ་བའི་སྔགས་ཀྱིས་བསྟོད་པ་ནི། འདིར་བསྟན་སྔགས་དང་སྤེལ་བའི་བསྟོད་ཚིག་ཉི་ཤུ་པོ་འདི་ཡིན་ལ། ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་ནི། དེ་སྤེལ་བའི་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་པོ་འདི་ཡིན་ཞེས་བླ་མ་རྣམས་གསུང་ངོ་།
@@ -215,6 +233,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-1)
 
 ---
 
@@ -226,6 +245,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-2 Opening homage line quoted
 **བོད་ཡིག:** དང་པོ་ནི། ཨོཾ་རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ལ་ཕྱག་འཚལ་ལོ།
@@ -233,6 +253,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-3 Gloss of "oṃ": three possible senses
 **བོད་ཡིག:** ཨོཾ་ཞེས་པ་ནི། སྐྱབས་སུ་འགྲོ་བའམ། མཆོད་པ་འབུལ་བའམ། མ་དག་པ་སྦྱོང་བའོ།
@@ -240,6 +261,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-10)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-4 Gloss of "rje" in "rje btsun ma": supreme among the mothers of the Buddhas
 **བོད་ཡིག:** རྗེ་བཙུན་མ་ཞེས་པ་ལ། རྗེ་ནི། དུས་གསུམ་གྱི་སངས་རྒྱས་ཐམས་ཅད་བསྐྱེད་པའི་ཡུམ་གྱི་ནང་ནས་མཆོག་ཏུ་གྱུར་པའོ།
@@ -247,6 +269,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-10)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-5 Gloss of "btsun": vows of the three levels
 **བོད་ཡིག:** བཙུན་ཞེས་པ་ནི། ཕྱི་ལྟར་ན་སོ་ཐར། ནང་ལྟར་ན་བྱང་སེམས། གསང་བ་ལྟར་ན་སྔགས་ཀྱི་སྡོམ་པ་དང་ལྡན་པའོ།
@@ -254,6 +277,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-6 Gloss of "'phags ma": transcendent to saṃsāra and nirvāṇa
 **བོད་ཡིག:** འཕགས་མ་ནི། མཐོང་སྤངས་མི་དགེ་བ་ལས་རིང་དུ་སོང་ཞིང་འཁོར་འདས་ལས་འཕགས་པའོ།
@@ -261,6 +285,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-7 Gloss of "sgrol ma": she who liberates from the ocean of suffering
 **བོད་ཡིག:** སྒྲོལ་མ་ནི། སྡུག་བསྔལ་གྱི་རྒྱ་མཚོ་ལས་སྒྲོལ་བའོ།
@@ -268,6 +293,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-8 Gloss of "ma": impartial benefit for all beings
 **བོད་ཡིག:** མ་ཞེས་པ་ནི། སེམས་ཅན་ཐམས་ཅད་ལ་ཉེ་རིང་མེད་པར་འགྲོ་དོན་མཉམ་དུ་མཛད་པའོ།
@@ -275,6 +301,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-9 Gloss of "phyag": cleansing karmic and afflictive negativity
 **བོད་ཡིག:** ཕྱག་ཅེས་པ་ནི། ལས་ཉོན་གྱི་སྡིག་(སྒྲིབས་,སྒྲིབ་)འཕྱག་པར་བྱེད་པའོ།
@@ -282,6 +309,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ### c-2-2-1-10 Gloss of "'tshal": paying reverence with body, speech, and mind
 **བོད་ཡིག:** འཚལ་ཞེས་པ་ནི། ལུས་ངག་ཡིད་གསུམ་གུས་པར་བགྱིད་ཅེས་པའི་དོན་ཏོ།
@@ -289,6 +317,7 @@ None — announcement only, same fused-heading pattern (heading cascades straigh
 **Type:** word-gloss
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-2)
 
 ---
 
@@ -306,6 +335,7 @@ None — announcement only. Same fused-heading pattern as node 2 (`0-INBOX/toc-t
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-3)
 
 ### c-2-2-2-1-2 Verse 1 quoted: homage to swift, heroic Tārā born from Avalokiteśvara's lotus-face
 **བོད་ཡིག:** ཕྱག་འཚལ་སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ། །སྤྱན་ནི་སྐད་ཅིག་གློག་དང་འདྲ་མ། །འཇིག་རྟེན་གསུམ་མགོན་ཆུ་སྐྱེས་ཞལ་གྱི། །གེ་སར་བྱེ་བ་ལས་ནི་བྱུང་མ། །ཕྱག་འཚལ་ལོ་ཞེས་དྲང་ངོ།
@@ -313,6 +343,7 @@ None — announcement only. Same fused-heading pattern as node 2 (`0-INBOX/toc-t
 **Type:** word-gloss
 **Referent:** FIG-1 (stated); FIG-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-14)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-3)
 
 ### c-2-2-2-1-3 Tārā's origin: born from Avalokiteśvara's tears of compassion
 **བོད་ཡིག:** གང་ལ་ན། སྒྲོལ་མ་ལའོ། །དེ་གང་ལས་བྱུང་ན། སྐད་གཅིག་གིས་འཇིགས་པའི་ཕུང་པོ་ལྔའམ། བཞི་ལ་བརྟེན་པའི་འདོད་པ་དང་། གཟུགས་དང་།གཟུགས་མེད་པའི་ཁམས་གསུམ་གྱི་མགོན་སྐྱབས་འཕགས་པ་འཇིག་རྟེན་དབང་ཕྱུག་གིས་འགྲོ་བ་ཇི་སྙེད་ཅིག་འཁོར་བ་ལས་བཏོན་ཀྱང་། ཉུང་དུ་མ་སོང་བར་གཟིགས་ནས། བཤུམས་པའི་སྤྱན་ཆབ་ཀྱི་ཆུ་ལས་སྐྱེས་པའི་ཨུཏྤ་ལའི་ཞལ་གྱི་གེ་སར་བྱེ་བ་ལས་བྱུང་བའོ།
@@ -320,6 +351,7 @@ None — announcement only. Same fused-heading pattern as node 2 (`0-INBOX/toc-t
 **Type:** identification
 **Referent:** FIG-1 (stated); FIG-4 (section-opener — named as འཇིག་རྟེན་གསུམ་མགོན in c-2-2-2-1-2's own quotation of the same verse; here she is called འཕགས་པ་འཇིག་རྟེན་དབང་ཕྱུག, a different epithet for the same figure)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-3)
 
 ### c-2-2-2-1-4 Tārā's vow of swift service and heroism explains the "lightning eyes" epithet
 **བོད་ཡིག:** དེས་སེམས་ཅན་གྱི་དོན་གྱི་མྱུར་བ་ནི། མྱུར་དུ་དེ་དག་འཁོར་བ་ལས་སྒྲོལ་བའི་ཞབས་ཏོག་བགྱིད་ལགས་ཀྱིས། སྤྱན་ཆབ་མི་གཏོང་བར་ཞུ། ཞུས་ནས་འཁོར་བའི་གཡུལ་ངོ་ཟློག་པ་ལ་དཔའ་མོའོ། །དེ་བས་ན། དེའི་སྤྱན་ཆབ་གཉིས་སྐད་ཅིག་གིས་གསལ་བའི་གློག་དང་འདྲ་བས་འཇིག་རྟེན་གསུམ་ལ་གཟིགས་པའོ།
@@ -327,6 +359,7 @@ None — announcement only. Same fused-heading pattern as node 2 (`0-INBOX/toc-t
 **Type:** doctrinal
 **Referent:** FIG-1 (section-opener)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-3)
 
 ### c-2-2-2-1-5 Epithet from Paṇchen Nyima Bepa: "Tārā, Utterly Heroic"
 **བོད་ཡིག:** འདི་ལ་པཎ་ཆེན་ཉི་མ་སྦས་པས། རབ་ཏུ་དཔའ་བའི་སྒྲོལ་མ་ཞེས་གསུངས་སོ།
@@ -334,6 +367,7 @@ None — announcement only. Same fused-heading pattern as node 2 (`0-INBOX/toc-t
 **Type:** attribution
 **Referent:** FIG-1 (stated); PER-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-3)
 
 ---
 
@@ -363,6 +397,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-18)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-4)
 
 ### c-2-2-2-2-1-1-1-2 Verse 2 quoted: face like a hundred gathered full autumn moons
 **བོད་ཡིག:** ཕྱག་འཚལ་སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ། །གང་བ་བརྒྱ་ནི་བརྩེགས་པའི་ཞལ་མ།
@@ -370,6 +405,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-4)
 
 ### c-2-2-2-2-1-1-1-3 Gloss: the unwaning full autumn moon, radiance surpassing a thousand stars
 **བོད་ཡིག:** སྤྲིན་དང་། (ཁུག་,ཁུ་)རྣ་སོགས་ཀྱི་སྒོ་ནས་རྡུལ་དང་བྲལ་བའི། སྟོན་ཀའི་ཟླ་བ་ཀུན་ཏུ་གང་བ། ཞེས་པ་སྐྱེ་འཕྲོ་རྫོགས་ཤིང་འབྲི་བའི་མགོ་མ་ཚུགས་པའི་ཉ་གང་བའི་ཟླ་བའོ། །དེ་འདྲ་བརྒྱ་ནི་བརྩེགས་པ་བས་ཏེ། བརྒྱ་སྤུངས་པ་ལས་ཀྱང་འོད་ཕྱེ་བའི་ཞལ་དང་ལྡན་མ། ཞལ་དེ་ནས་སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་བས་ཀྱང་རབ་ཏུ་ཕྱེ་བའི་འོད་རབ་འབར་མའོ།
@@ -377,12 +413,14 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-4)
 
 ⚑ **c-2-2-2-2-1-1-1-4 Textual-variant tension: "a hundred stacked" vs. "sixteen teeth, thirty-two marks"**
 - **Position 1:** དེ་འདྲ་བརྒྱ་ནི་བརྩེགས་པ་བས་ཏེ། བརྒྱ་སྤུངས་པ་ལས་ཀྱང་འོད་ཕྱེ་བའི་ཞལ་དང་ལྡན་མ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-20)
 - **Position 2:** ཡང་ན། བརྒྱད་གཉིས་པ་སྒྲིགས་ཞེས་འདོན་པ་ལྟར་ན། ཞལ་གྱི་ནང་ན་ཟླ་བ་ལྟ་བུའི་ཚེམས་བརྒྱད་གཉིས་བཅུ་དྲུག་བསྒྲིགས་པའི་ཞལ་རས་ལ་སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་བས་ཀྱང་ལྷག་པའི་འོད་འཕྲོ་ཞེས་པ་དང་། བརྒྱད་པོ་དེ་གཉིས་བསྒྲིགས་ཞེས་པས། མཚན་བཟང་པོ་སོ་གཉིས་མཚོན་པའོ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-21)
 **English:** Two readings of the verse's textual variant are recorded: on one reading ("a hundred stacked"), the sense is that her face's light outshines a hundred stacked moons; on the other reading ("eight-two arranged"), the sixteen moon-like teeth (eight pairs) arranged in her mouth outshine a thousand gathered stars, and "the two eights arranged" is read as indicating her thirty-two auspicious major marks.
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-20, ^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-4)
 
 ### c-2-2-2-2-1-1-1-5 Epithet: "White Tārā, Radiant"
 **བོད་ཡིག:** འདི་ལ་དཀར་མོ་མདངས་ལྡན་སྒྲོལ་མ་ཞེས་བཤད་དོ།
@@ -390,6 +428,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-4)
 
 ---
 
@@ -401,6 +440,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-23)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-5)
 
 ### c-2-2-2-2-1-1-2-2 Verse 4 quoted: blue-gold, water-born, lotus in hand
 **བོད་ཡིག:** ཕྱག་འཚལ་སེར་སྔོ་ཆུ་ནས་སྐྱེས་ཀྱི། །པདྨས་ཕྱག་ནི་རྣམ་པར་བརྒྱན་མ།
@@ -408,6 +448,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-5)
 
 ### c-2-2-2-2-1-1-2-3 Gloss of "blue and gold": body color and clarity; epithet "Golden-colored Tārā"
 **བོད་ཡིག:** སྔོ་བ་ནི། སྐུ་མདོག །སེར་ནི། ཁ་དོག་དྭངས་པ་མཚོན་པ་སྟེ། གསེར་མདོག་ཅན་གྱི་སྒྲོལ་མ་ཞེས་འབྱུང་བས་སོ།
@@ -415,6 +456,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** word-gloss
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-5)
 
 ### c-2-2-2-2-1-1-2-4 Lotus-mudrā at the heart as the sign of the ten pure perfections
 **བོད་ཡིག:** དེའི་ཕྱག་གཡོན་གྱི་སྲིན་ལག་གིས་ཆུ་ནས་སྐྱེས་པའི་པདྨ་སྟེ་ཨུཏྤ་ལས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་པ་སྟེ། བཟུངས་ནས་སྙན་གྱི་ཐད་ཀར་ཁ་བྱེ་བ་ནི། ཕ་རོལ་ཏུ་ཕྱིན་པ་བཅུ་དག་པའི་རྟགས་སོ། །དེ་བས་ན། སྦྱིན་པ་བརྩོན་འགྲུས་དཀའ་ཐུབ་སྟེ་ཚུལ་ཁྲིམས། བཟོད་པ། བསམ་གཏན་སྤྱོད་ཡུལ་ཏེ། ཤེས་རབ་ཀྱི་ཕ་རོལ་ཏུ་ཕྱིན་པ་རྣམས་སོ།
@@ -422,6 +464,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-5)
 
 ### c-2-2-2-2-1-1-2-5 Gloss of "peaceful": pacifying the six discordant factors is her domain, arising from the perfections
 **བོད་ཡིག:** ཞི་བ་ཞེས་པ། མི་མཐུན་ཕྱོགས་སེར་སྣ། ལེ་ལོ། འཆལ་ཚུལ། ཁོང་ཁྲོ། རྣམ་གཡེང་། ལོག་པའི་ལྟ་བ་སོགས་ཞི་བ་ནི། སྒྲོན་མའི་སྤྱོད་ཡུལ་ཏེ། དེའི་རྒྱུ་ལས་བྱུང་ཞེས་པའོ།
@@ -429,6 +472,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-27)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-5)
 
 ---
 
@@ -440,6 +484,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-6)
 
 ### c-2-2-2-2-1-1-3-2 Verse 5 quoted: homage to her as the Tathāgatas' crown-ornament
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་བཞིན་གཤེགས་པའི་གཙུག་ཏོར།
@@ -447,6 +492,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-6)
 
 ### c-2-2-2-2-1-1-3-3 Gloss: as mother of all Tathāgatas she is borne as their crown-ornament, triumphing over obscurations
 **བོད་ཡིག:** ཅེས་སོགས་ཏེ། དེ་བཞིན་གཤེགས་པ་ཐམས་ཅད་ཀྱི་ཡུམ་ཡིན་པས་དབུའི་གཙུག་ཏོར་ལྟར་འཁུར་ཞིང་། དེ་བས་ན། ཚེ་འདིའི་རྒུད་པ་དང་། ཉོན་མོངས་པའི་སྒྲིབ་པ་དང་། འཁོར་གསུམ་དུ་གཏོགས་པ་སོགས་ཤེས་བྱའི་སྒྲིབ་པ་མཐའ་ཡས་པ་ལས་རྣམ་པར་རྒྱལ་བར་སྤྱོད་མའོ།
@@ -454,6 +500,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-6)
 
 ### c-2-2-2-2-1-1-3-4 Gloss: relied on by bodhisattvas who have attained the ten grounds and ten perfections
 **བོད་ཡིག:** རྒྱལ་སྲས་ཀྱིས་བསྟེན་པ་ནི། ས་བཅུ་མ་ལུས་པའི་ངོ་བོ། ཕ་རོལ་ཏུ་ཕྱིན་པ་བཅུ་ཐོབ་པའི་རྒྱལ་བའི་སྲས་བྱང་ཆུབ་སེམས་དཔའ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པའི་གཙུག་གིས་བསྟེན་པའོ།
@@ -461,6 +508,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-6)
 
 ### c-2-2-2-2-1-1-3-5 Epithet: "Tārā Adorned as the Crown-Ornament"
 **བོད་ཡིག:** འདི་ལ་གཙུག་ཏོར་རྒྱན་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ།
@@ -468,6 +516,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-31)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-6)
 
 ---
 
@@ -479,6 +528,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-7)
 
 ### c-2-2-2-2-1-1-4-2 Verse 6 quoted: homage to her of the syllable tuttāre hūṃ
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུཏྟཱ་ར་ཧཱུཾ་ཡི་གེས།
@@ -486,6 +536,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** mantra
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-7)
 
 ### c-2-2-2-2-1-1-4-3 Gloss: the heart-HŪṂ symbolizes emptiness-compassion, subduing the seven worlds
 **བོད་ཡིག:** ཞེས་སོགས་ཏེ། ཏུཏྟཱ་ར་ཧཱུཾ་ཞེས་པའི་གསུང་དང་། ཐུགས་གའི་ཧཱུཾ་ཡིག་ནི། སྟོང་ཉིད་སྙིང་རྗེ་མཚོན་པས། དེས་མཐུན་ཕྱོགས་འདོད་པ་དང་། ཕྱོགས་གཟུགས་ཁམས་དང་། ནམ་མཁའ་གཟུགས་མེད་ཁམས་ཏེ། འདོད་པ་ ངན་སོང་གསུམ། འདོད་པའི་ལྷ་མི་གཉིས། གཟུགས་དང་གཟུགས་མེད་ཀྱི་འཇིག་རྟེན་བདུན་པོ། སྟོང་ཉིད་སྙིང་རྗེའི་སྙིང་པོ་ཅན་གྱི་ཞབས་ཀྱིས་མནན་ཏེ། ལུས་པ་མེད་པར་དེ་དག་བདེ་བ་ལ་འགུགས་པར་ནུས་མའོ།
@@ -493,6 +544,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** doctrinal
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-7)
 
 ### c-2-2-2-2-1-1-4-4 Epithet: "Tārā Who Proclaims the Sound HŪṂ"
 **བོད་ཡིག:** འདི་ལ་ཧཱུཾ་སྒྲ་སྒྲོགས་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ།
@@ -500,6 +552,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-7)
 
 ---
 
@@ -511,6 +564,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-35)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-8)
 
 ### c-2-2-2-2-1-1-5-2 Verse 7 quoted: worshipped by Indra, Agni, Brahmā, Vāyu, and other lords
 **བོད་ཡིག:** ཕྱག་འཚལ་ལོ། །གང་ལ་ན། ལྷ་དབང་བརྒྱ་སྦྱིན། མེ་ལྷ། ཚངས་པ། རླུང་ལྷ་ལ་སོགས་སྣ་ཚོགས་པའི་དབང་ཕྱུག་སྟེ།གཙོ་བོ་རྣམས་ཀྱིས་མཆོད་པའི་སྒྲོལ་མའོ།
@@ -518,6 +572,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated); FIG-5 (stated); FIG-6 (stated); FIG-7 (stated); FIG-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-8)
 
 ### c-2-2-2-2-1-1-5-3 Also praised by Gaṇapati, Maheśvara, gandharvas, and Vaiśravaṇa's yakṣa retinue
 **བོད་ཡིག:** དེར་མ་ཟད་འབྱུང་པོའི་གཙོ་བོ་ཚོགས་བདག །རོ་ལངས་ཀྱི་གཙོ་བོ་དབང་ཕྱུག་ཆེན་པོ། དྲི་ཟ་ཟུར་ཕུད་ལྔ་པ་ལ་སོགས་པ་རྣམས་དང་། གནོད་སྦྱིན་གྱི་གཙོ་བོ་རྣམ་ཐོས་ཀྱི་སྲས་འཁོར་གྱི་ཚོགས་དུ་མ་དང་བཅས་པ་རྣམས་ཀྱིས་མདུན་ནས་བསྟོད་མའོ།
@@ -525,6 +580,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-9 (stated); FIG-10 (stated); FIG-11 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-8)
 
 ### c-2-2-2-2-1-1-5-4 Epithet: "Tārā, Utterly Victorious"
 **བོད་ཡིག:** འདི་ལ་རྣམ་པར་རྒྱལ་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -532,6 +588,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-8)
 
 ---
 
@@ -543,6 +600,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-9)
 
 ### c-2-2-2-2-1-1-6-2 Verse 8 quoted: by TRAD and PHAT she destroys the adversary's magical devices
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏྲད་ཅེས་བྱ་དང་ཕཊ་ཀྱིས། །ཕ་རོལ་འཁྲུལ་འཁོར་རབ་ཏུ་འཇོམས་མ།
@@ -550,6 +608,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** mantra
 **Referent:** TXT-5 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-40)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-9)
 
 ### c-2-2-2-2-1-1-6-3 Gloss: the wrathful mantra destroys adversarial power and black-magic obstacles; epithet given
 **བོད་ཡིག:** ཞེས་སོགས་ཏེ། དྲག་པོའི་སྔགས་ཀྱིས་ཕ་རོལ་གྱིས་བྱས་པའི་མཐུ་དང་། བྱད་མ་ལ་སོགས་པའི་འཁྲུལ་འཁོར་གྱིས་གནས་སྐབས་དང་། མཐར་ཐུག་གི་བདེ་བ་ལ་བར་དུ་གཅོད་པ་འཇོམས་མ་སྟེ། འདི་ལ་རྒོལ་བ་འཇོམས་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -557,6 +616,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-41)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-9)
 
 ### c-2-2-2-2-1-1-6-4 Peaceful posture explained; transition toward the wrathful appearance
 **བོད་ཡིག:** དེ་ལྟ་བུའི་ཞི་བའི་བཞུགས་ཚུལ་ནི། གཡས་བསྐུམས་པ་ནི། སྟོང་ཉིད་རྟོགས་པ་མཚོན། གཡོན་བརྐྱངས་པ་ནི། སྙིང་རྗེ་མཚོན། དེ་ལྟ་བུའི་སྟོང་ཉིད་སྙིང་རྗེའི་ཞབས་སྲིད་གསུམ་མནན་ཏེ། མེ་འབར་འཁྲུག་པ་ཤིན་ཏུ་འབར་མ། །ཞེས་པ་ནི། ཕྱི་ཁྲོ་མོར་གྱུར་པ། ད་ལྟ་ཡང་ཅུང་ཟད་ཁྲོས་པའི་ཚུལ་གྱིས་མེ་འབར་བའི་དབུས་ན་འགྱིངས་པའོ།
@@ -564,6 +624,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.1.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-9)
 
 ---
 
@@ -581,6 +642,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-10)
 
 ### c-2-2-2-2-1-2-1-2 Verse 9 quoted: homage to Ture who destroys the māras' champions
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེ་འཇིགས་པ་ཆེན་མོ། །བདུད་ཀྱི་དཔའ་བོ་རྣམ་པར་འཇོམས་མ།
@@ -588,6 +650,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-10)
 
 ### c-2-2-2-2-1-2-1-3 Gloss: Ture is Tārā; she destroys the four māras and slays the two obscurations with their imprints
 **བོད་ཡིག:** ཞེས་སོགས་ཏེ། ཏུ་རེ་ནི། སྒྲོལ་མ། འཇིགས་པ་ཆེན་མོའི། ཁྲོ་མོ། བདུད་ཀྱི་དཔའ་བོ་ནི། ཉོན་མོངས་པ་ཡིན་པས། དེ་ལ་སོགས་པ་བདུད་བཞི་རྣམ་པར་འཇོམས་མའོ། །གཞན་ཡང་། དེ་ལྟ་བུའི་ཆུ་སྐྱེས་ཀྱི་ཞལ་ནི། ཁྲོ་གཉེར་ལྡན་མཛད་དེ། ཁྲོ་མོའི་ཆ་ལུགས་མཛད་དེ། ཁྲོ་མོའི་ཆ་ལུགས་མཛད་པས་ཐར་པ་ཐོབ་པ་ལ་བར་དུ་གཅོད་པའི་དགྲ་བོ་ཉོན་མོངས་པའི་སྒྲིབ་པ། ཐམས་ཅད་མཁྱེན་པ་ལ་བར་དུ་གཅོད་པའི་དགྲ་བོ་ཤེས་བྱའི་སྒྲིབ་པ་མ་ལུས་པ་སྟེ། བག་ཆགས་དང་བཅས་པ་གསོད་པར་མཛད་མའོ།
@@ -595,6 +658,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** doctrinal
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-45)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-10)
 
 ### c-2-2-2-2-1-2-1-4 Epithet: "Tārā Who Grants Supreme Empowerment"
 **བོད་ཡིག:** འདི་ལ་དབང་མཆོག་སྟེར་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -602,6 +666,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-46)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-10)
 
 ---
 
@@ -613,6 +678,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-47)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ### c-2-2-2-2-1-2-2-2 Verse 10 quoted: left-hand mudrā symbolizing the Three Jewels
 **བོད་ཡིག:** གཡོན་པའི་ཕྱག་མཚན་ཕྱག་འཚལ་དཀོན་མཆོག་གསུམ་མཚོན་ཕྱག་རྒྱའི། །(སོ་,སོར་)མོས་ཐུགས་ཀར་རྣམ་པར་བརྒྱན་མ།
@@ -620,6 +686,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-48)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ### c-2-2-2-2-1-2-2-3 Gloss: thumb and ring finger hold an utpala, other three fingers extended toward the heart
 **བོད་ཡིག:** ཞེས་པའི་མཐེབ་སྲིན་གཉིས་ཀྱིས་ཨུཏྤ་ལ་བཟུངས་ཤིང་། མཛུབ་མོ་གུང་མོ། མཐེ་ཆུང་གསུམ་གྱི་སོར་མོ་ཐུགས་ཀར་བརྐྱངས་པའི་ཚུལ་གྱིས་རྣམ་པར་བརྒྱན་མའོ།
@@ -627,6 +694,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ### c-2-2-2-2-1-2-2-4 Verse continued: right-hand wheel emblem, its light overwhelming
 **བོད་ཡིག:** གཡས་པའི་ ཕྱག་མཚན། མ་ལུས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བརྒྱན་པའི། །རང་གི་འོད་ཀྱི་ཚོགས་རྣམས་འཁྲུག་མ།
@@ -634,6 +702,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-50)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ### c-2-2-2-2-1-2-2-5 Gloss: the wheel-emblem's light outshines all other masses of light
 **བོད་ཡིག:** ཕྱག་གཡས་ཀྱི་ཕྱོགས་མ་ལུས་པ་མཆོག་སྦྱིན་མཛད་པའི་ཕྱག་གི་མཐིལ་འཁོར་ལོས་བརྒྱན་པའི་རང་གི་ཕྱག་མཚན་གྱི་འཁོར་ལོའི་འོད་ཀྱིས། འོད་ཀྱི་ཚོགས་གཞན་རྣམས་འཁྲུག་པ་སྟེ་ཟིལ་གྱིས་གནོན་མའོ།
@@ -641,6 +710,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-51)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ### c-2-2-2-2-1-2-2-6 Epithet: "Tārā of the Khadira Forest"
 **བོད་ཡིག:** འདི་ལ་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -648,6 +718,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-52)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-11)
 
 ---
 
@@ -659,6 +730,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-53)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-12)
 
 ### c-2-2-2-2-1-2-3-2 Verse 11 quoted: joyous, splendorous, crown-ornament emanating a garland of light
 **བོད་ཡིག:** ཕྱག་འཚལ་རབ་ཏུ་དགའ་བ་བརྗིད་པའི། །དབུ་རྒྱན་འོད་ཀྱི་ཕྲེང་བ་སྤེལ་མ།
@@ -666,6 +738,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-54)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-12)
 
 ### c-2-2-2-2-1-2-3-3 Gloss: her joy fulfills disciples' wishes; her splendor outshines all other light
 **བོད་ཡིག:** ཞེས་འཕགས་མའི་རྒྱན་གྱིས། རབ་ཏུ་དགའ་བ་དད་ཅིང་མོས་པའི་འདུལ་བྱ་རྣམས་ཀྱི་འདོད་པ་བསྐངས་ནས་བརྗིད་པ་ནི། འོད་གཞན་ཟིལ་གྱིས་གནོན་པའི་འོད་ཀྱི་ཕྲེང་བ་ནོར་བུའི་གཙུག་རྒྱན་དང་སྤེལ་མའོ།
@@ -673,6 +746,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-55)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-12)
 
 ### c-2-2-2-2-1-2-3-4 Gloss: the laughing "TĀRA" sound subdues the māras and the eight great worldly gods
 **བོད་ཡིག:** སྔགས་ཀྱི་བཞད་སྒྲ་རབ་ཏུ་བཞད་པ་ཏཱ་ར་ཡིས་བདུད་དང་། འཇིག་རྟེན་གྱི་ལྷ་ཆེན་བརྒྱད་དབང་དུ་མཛད་མའོ།
@@ -680,6 +754,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** mantra
 **Referent:** TXT-6 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-56)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-12)
 
 ### c-2-2-2-2-1-2-3-5 Epithet: "Lamp Who Dispels Sorrow"
 **བོད་ཡིག:** འདི་ལ་མྱ་ངན་སེལ་བའི་སྒྲོན་མ་ཞེས་འབྱུང་ངོ་།
@@ -687,6 +762,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** [unanchored — the claim's own quotation reads "སྒྲོན་མ" (lamp/torch), not "སྒྲོལ་མ" (Tārā); a distinct epithet form, not a verbatim occurrence of her name]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-12)
 
 ---
 
@@ -698,6 +774,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-58)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-13)
 
 ### c-2-2-2-2-1-2-4-2 Verse 12 glossed: the "earth-protectors" are the ten directional guardians, summoned with their retinues
 **བོད་ཡིག:** ཕྱག་འཚལ་ས་གཞི་སྐྱོང་བ་ནི། ཕྱོགས་སྐྱོང་བཅུ་ཡིན་ལ། ཚོགས་རྣམས་ནི། འཁོར་དང་བཅས་པ་ཐམས་ཅད་འགུགས་པར་ནུས་མ་སྟེ། དེ་ཐམས་ཅད་བཀུག་ནས་འཕྲིན་ལས་སྒྲུབ་ཏུ་འཇུག་པའོ།
@@ -705,6 +782,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-59)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-13)
 
 ### c-2-2-2-2-1-2-4-3 Gloss: the furrowed-browed HŪṂ's light-rays liberate all suffering beings
 **བོད་ཡིག:** ཁྲོ་གཉེར་གཡོ་བ་ནི། ཁྲོ་མོར་བཞུགས་པའི་ཐུགས་ཀའི་ཧཱུཾ་ཡིག་གི་འོད་ཟེར་གྱི་བདེ་བས། འཕོངས་ཞིང་སྡུག་བསྔལ་གྱིས་གཟིར་བ་ཐམས་ཅད་སྡུག་བསྔལ་དེ་ལས་རྣམ་པར་སྒྲོལ་བར་མཛད་མའོ།
@@ -712,6 +790,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** doctrinal
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-60)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-13)
 
 ### c-2-2-2-2-1-2-4-4 Epithet: "Tārā Who Summons"
 **བོད་ཡིག:** འདི་ལ་དགུག་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -719,6 +798,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-61)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-13)
 
 ---
 
@@ -730,6 +810,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-62)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ### c-2-2-2-2-1-2-5-2 Verse 13a quoted: crescent-moon head-ornament, all ornaments blazing
 **བོད་ཡིག:** ཕྱག་འཚལ་ཟླ་བའི་རྩེ་མོས་དབུ་བརྒྱན། །བརྒྱན་པ་ཐམས་ཅད་ཤིན་ཏུ་འབར་མ།
@@ -737,6 +818,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-63)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ### c-2-2-2-2-1-2-5-3 Gloss: the crescent-moon crown-ornament radiates suffering-dispelling light
 **བོད་ཡིག:** ཞེས་པ་དབུ་རྒྱན་དངོས་ཏེ། ཟླ་བའི་རྩེ་མོ་སྟེ། ཚེས་གཅིག་གི་ཟླ་བས་དབུ་བརྒྱན་ཅིང་། དབུ་རྒྱན་ཟླ་བ་ཐམས་ཅད་ལས། སྡུག་བསྔལ་སེལ་བའི་འོད་ཟེར་ཤིན་ཏུ་འབར་མའོ།
@@ -744,6 +826,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-64)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ### c-2-2-2-2-1-2-5-4 Verse 13b quoted: Amitābha in her matted locks, ever emanating light
 **བོད་ཡིག:** རལ་པའི་ཁུར་ན་འོད་དཔག་མེད་ལས། །རྟག་པར་ཤིན་ཏུ་འོད་ནི་མཛད་མ།
@@ -751,6 +834,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** FIG-12 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ### c-2-2-2-2-1-2-5-5 Gloss: the second crown-ornament is Amitābha, constantly emitting light for beings' welfare
 **བོད་ཡིག:** ཞེས་པ་ནི། དབུ་རྒྱན་གཉིས་པ་སྟེ། སྤྱི་གཙུག་གི་སྐྲའི་གསེབ་ན་སྣང་བ་མཐའ་ཡས་བཞུགས་པ་ལ། སེམས་ཅན་གྱི་དོན་དུ་དུས་རྟག་པར་ཤིན་ཏུ་སྟེ་མང་པོར་འོད་ནི། འགྱེད་པར་མཛད་མའོ།
@@ -758,6 +842,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** FIG-12 (section-opener — named འོད་དཔག་མེད in c-2-2-2-2-1-2-5-4's own quotation of the same verse; here called by the equivalent Tibetan gloss སྣང་བ་མཐའ་ཡས, not the registered form)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-66)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ### c-2-2-2-2-1-2-5-6 Epithet: "Tārā of Auspicious Appearance"
 **བོད་ཡིག:** འདི་ལ་བཀྲ་ཤིས་སྣང་བའི་སྒྲོལ་(,མ་)ཞེས་འབྱུང་ངོ་།
@@ -765,6 +850,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** [unanchored — the claim's own quotation splits her name with an OCR-variant marker, "སྒྲོལ་(,མ་)", not a clean occurrence of the registered form སྒྲོལ་མ]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-67)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-14)
 
 ---
 
@@ -776,6 +862,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-68)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-15)
 
 ### c-2-2-2-2-1-2-6-2 Verse 14 quoted: amid the blazing garland like the fire at the aeon's end, destroying the enemy army
 **བོད་ཡིག:** ཕྱག་འཚལ་བསྐལ་པ་མཐའ་མའི་མེ་ལྟར། །འབར་བའི་ཕྲེང་བའི་དབུས་ན་གནས་མ། །གཡས་བརྐྱངས་གཡོན་བསྐུམས་ཀུན་ནས་བསྐོར་དགའ། །དགྲ་ཡི་དཔུང་ནི་རྣམ་པར་འཇོམས་མ།
@@ -783,6 +870,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-15)
 
 ### c-2-2-2-2-1-2-6-3 Gloss: the fire of seven suns, her wrathful posture, destroying the afflictions of faithful disciples
 **བོད་ཡིག:** ཞེས་པ་སྟེ། བསྐལ་པ་མཐའ་མའི་མེ་ནི། ཉི་མ་བདུན་ལས་ཚ་བའི་འོད་ཟེར་གྱིས་ས་རྡོ་རྣམས་སྲེག་པ་ལྟར། ཡེ་ཤེས་ཀྱི་མེ་ལྕེ་འབར་བའི་ཕྲེང་བའི་དབུས་ན་ཁྲོ་མོའི་བཞུགས་ལུགས་བསྟན་ནས། ཞབས་གཡས་བརྐྱངས་ཤིང་གཡོན་བསྐུམས་ནས་དད་པས་ཆོས་འཁོར་བསྐོར་བར་དགའ་བའི་གདུལ་བྱ་རྣམས་ཀྱི་དགྲ་ཡི་དཔུང་ཉོན་མོངས་པ་རྣམ་པར་འཇོམས་པའོ།
@@ -790,6 +878,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-70)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-15)
 
 ### c-2-2-2-2-1-2-6-4 Epithet: "Tārā Who Brings to Maturity"
 **བོད་ཡིག:** འདི་ལ་སྨིན་པར་བྱེད་པའི་སྒྲོལ་(,མ་)ཞེས་འབྱུང་ངོ་།
@@ -797,6 +886,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** [unanchored — the claim's own quotation splits her name with an OCR-variant marker, "སྒྲོལ་(,མ་)", not a clean occurrence of the registered form སྒྲོལ་མ]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-71)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-15)
 
 ---
 
@@ -808,6 +898,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-72)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-16)
 
 ### c-2-2-2-2-1-2-7-2 Verse 15 quoted: striking the earth, wrathful-browed, crushing the seven levels with HŪṂ
 **བོད་ཡིག:** ཕྱག་(གི་,)འཚལ་ས་གཞིའི་ངོས་ལ་ཕྱག་གི། །མཐིལ་གྱིས་བསྣུན་ཅིང་ཞབས་ཀྱིས་བརྡུང་མ། །ཁྲོ་གཉེར་ཅན་མཛད་ཡི་གེ་ཧཱུཾ་གིས། །རིམ་པ་བདུན་པོ་རྣམས་ནི་འགེམས་མ།
@@ -815,6 +906,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** mantra
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-16)
 
 ### c-2-2-2-2-1-2-7-3 Gloss: her wrathful stance and heart-HŪṂ dry up the ocean of existence of the seven worlds
 **བོད་ཡིག:** ཞེས་པ་ལ། ཁྲོ་གཉེར་ཅན་མཛད་ཅེས་པ། ཁྲོ་མོའི་ཆ་བྱད་ཀྱི་ཞབས་གཡས་ཀྱི་མཐིལ་གྱིས་ས་ལ་བསྣུན་ཅིང་། སྡིགས་མཛུབ་མཛད་དེ་ཐུགས་ཀའི་ཡི་གེ་ཧཱུཾ་གིས་འཇིག་རྟེན་རིམ་པ་བདུན་པོ་རྣམས་ཀྱི་སྲིད་མཚོ་འགེམས་མ་སྟེ། སྐེམས་མའོ།
@@ -822,6 +914,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** doctrinal
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-74)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-16)
 
 ### c-2-2-2-2-1-2-7-4 Epithet: "Tārā of the Trembling, Furrowed Brow"
 **བོད་ཡིག:** འདི་ལ་ཁྲོ་གཉེར་གཡོ་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -829,6 +922,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-75)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-16)
 
 ---
 
@@ -840,6 +934,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-76)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ### c-2-2-2-2-2-2 Verse 16a quoted: blissful, virtuous, peaceful, whose domain is peaceful nirvāṇa
 **བོད་ཡིག:** ཕྱག་འཚལ་བདེ་མ་དགེ་མ་ཞི་མ། །མྱ་ངན་འདས་ཞི་སྤྱོད་ཡུལ་ཉིད་མ།
@@ -847,12 +942,14 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** word-gloss
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ⚑ **c-2-2-2-2-2-3 Two interpretive traditions for "blissful, virtuous, peaceful, nirvāṇa": simple four-quality gloss vs. four-path mapping**
 - **Position 1:** ཞེས་པ་རྗེ་བཙུན་གྲགས་པས། བདེ་མ་ནི། ཟག་མེད་ཀྱི་བདེ་བ་དང་ལྡན་མ། དགེ་མ་ཡང་སྤང་བྱ་ཉོན་མོངས་པ་དང་བྲལ་བས་དགེ་མ། ཞི་མ་ནི། འབྲས་བུ་སྡུག་བསྔལ་ཞི་མ། རྟོག་པ་ཞི་བའི་མྱ་ངན་ལས་འདས་པ་ལ་སྤྱོད་པ་ཉིད་མ་ཞེས་སོ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-78)
 - **Position 2:** ཡང་མཁས་པ་ཁ་ཅིག་ནི། རང་བཞིན་སྐྱེ་མེད་ལ་ཚོགས་ལམ་དུ་ཐོས་བསམ་གྱིས་སྒྲོ་འདོགས་ཆོད་ནས། མ་བདེ་བ་མེད་པས་བདེ་མ། སྦྱོར་ལམ་དུ་སྒོམ་བྱུང་གིས་ཉམས་སུ་མྱོང་ནས་ཉོན་མོངས་རགས་པའི་རྣམ་རྟོག་གི་མཚན་མ་མེད་པས་དགེ་མ། མཐོང་ལམ་དུ་ས་བོན་དང་བྲལ་ནས། འབྲས་བུ་སྐྱེ་རྒ་ན་འཆི་སོགས་ཀྱི་སྡུག་བསྔལ་ཞི་བས་ཞི་མ། མི་སློབ་ལམ་དུ་བག་ཆགས་དང་བཅས་པ་ཞི་བའི་མྱ་ངན་ལས་འདས་པ་ཆོས་སྐུ་མངོན་དུ་མཛད་མའོ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-79)
 **English:** Two readings of "blissful, virtuous, peaceful, [her domain] nirvāṇa" are recorded: Rje btsun Grags pa reads the four simply as undefiled bliss, freedom from afflictions, pacified suffering, and conceptuality-pacified nirvāṇa; other, unnamed scholars instead map the same four terms onto the four paths — accumulation, preparation, seeing, and no-more-learning — culminating in the actualized dharmakāya.
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-78, ^0-79)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ### c-2-2-2-2-2-4 Verse 16b quoted: endowed with Svāhā and Oṃ, destroyer of great sin
 **བོད་ཡིག:** སྭཱཧཱ་ཨོཾ་དང་ཡང་དག་ལྡན་པས། །སྡིག་པ་ཆེན་པོ་འཇོམས་པ་ཉིད་མ།
@@ -860,6 +957,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** mantra
 **Referent:** [unanchored — describes the mantra's opening/closing syllables without quoting its registered form ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱཧཱ verbatim]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-80)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ### c-2-2-2-2-2-5 Gloss: the ten-syllable mantra destroys the delusion of grasping at true existence
 **བོད་ཡིག:** ཞེས་པ་གསུང་ཡི་གེ་བཅུ་པ། མཇུག་ཏུ་སྭཱཧཱ། དང་པོར་ཨོཾ་དང་། བར་དུ་སྔགས་བརྒྱད་དང་ཡང་དག་པར་ལྡན་པས། སྡིག་པ་ཆེན་པོ་དངོས་འཛིན་གྱི་གཏི་མུག་འཇོམས་པ་ཉིད་མ། ཞེས་པ་ཐུགས་དང།གསུང་ཆོས་སྐུའི་སྒོ་ནས་བསྟོད་པའོ།
@@ -867,6 +965,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** mantra
 **Referent:** [unanchored — describes the mantra's structure (ten syllables, opening/closing) without quoting its registered form ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱཧཱ verbatim]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ### c-2-2-2-2-2-6 Epithet: "Tārā of Virtuous, Peaceful Excellence"
 **བོད་ཡིག:** འདི་ལ་དགེ་ལེགས་ཞི་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -874,6 +973,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.2.1.2.1's
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-82)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-17)
 
 ---
 
@@ -891,6 +991,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-83)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-18)
 
 ### c-2-2-2-3-1-2 Verse 17 quoted: from the vidyā HŪṂ arrayed with the ten-syllable speech, she is Tārā herself
 **བོད་ཡིག:** ཕྱག་འཚལ་ཀུན་ནས་བསྐོར་རབ་དགའ་བའི། །དགྲ་ཡི་ལུས་ནི་རབ་ཏུ་འགེམས་མ། །ཡི་གེ་བཅུ་པའི་ངག་ནི་བཀོད་པའི། །རིག་པ་ཧཱུཾ་ལས་སྒྲོལ་མ་ཉིད་མ།
@@ -898,6 +999,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-84)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-18)
 
 ### c-2-2-2-3-1-3 Gloss: the ten-syllable mantra given verbatim
 **བོད་ཡིག:** ཞེས་པའི་ཡི་གེ་བཅུ་པའི་ངག་གི་བཀོད་པ་ནི། ཨོཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱཧཱ།ཞེས་པ་ཡི་གེའི་སྔགས་སོ།
@@ -905,6 +1007,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** TXT-7 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-18)
 
 ### c-2-2-2-3-1-4 Gloss: the wrathful vidyā-HŪṂ mantra given verbatim
 **བོད་ཡིག:** རིག་པ་ཧཱུཾ་ནི། ཨོཾ་ན་མ་ཏ་རེ་ན་མོ། ཧ་རེ་ཧཱུཾ་ཧ་ར་སྭཱཧཱ། ཞེས་པ་ཁྲོ་མོའི་སྔགས་སོ།
@@ -912,6 +1015,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** TXT-8 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-86)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-18)
 
 ### c-2-2-2-3-1-5 Gloss: by the two mantras she crushes self-grasping and "mine"-grasping; epithet given
 **བོད་ཡིག:** དེ་གཉིས་ཀྱིས་ཀུན་ནས་དད་པས་ཆོས་འཁོར་བསྐོར་བ་ལ་རབ་ཏུ་དགའ་བའི་གདུལ་བྱ་རྣམས་ཀྱི་ཐར་པའི་དགྲ་བོ་ལུས་ནང་ལ་བདག་ཏུ་ཆགས་པ་དང་། ཕྱི་རོལ་ལ་བདག་གིར་ཆགས་པ་རབ་ཏུ་འགེམས་མ་སྟེ། ཆགས་པ་འཇོམས་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -919,6 +1023,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-87)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-18)
 
 ---
 
@@ -930,6 +1035,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-88)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-19)
 
 ### c-2-2-2-3-2-2 Verse 18 quoted: Ture's stamping foot is the HŪṂ-form seed-syllable
 **བོད་ཡིག:** ཕྱག་འཚལ་ཏུ་རེའི་ཞབས་ནི་བརྡབས་པས། །ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ཉིད་མ།
@@ -937,6 +1043,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** TXT-4 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-89)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-19)
 
 ### c-2-2-2-3-2-3 Gloss: her foot-stamp shakes Mount Meru Mandara, Vibhedaka, and the three worlds
 **བོད་ཡིག:** ཞེས་སོགས་ཏེ། ཧཱུཾ་གི་རྣམ་པའི་ས་བོན་ལས་སྐྱེས་པའི་ཏུ་རེའི་ཞབས་བརྡབས་པས་ཕྱི་རོལ་ན། རི་རབ་མནྡྷ་ར་དང་འབིགས་བྱེད་ལ་སོགས་པ། འཇིག་རྟེན་གསུམ་པོ་རྣམས་གཡོ་ནུས་པ་ཉིད་དོ།
@@ -944,6 +1051,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** doctrinal
 **Referent:** PLC-1 (stated); PLC-2 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-90)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-19)
 
 ### c-2-2-2-3-2-4 Epithet: "Tārā Who Accomplishes Bliss"
 **བོད་ཡིག:** འདི་ལ་བདེ་བ་སྒྲུབ་པའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -951,6 +1059,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-91)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-19)
 
 ---
 
@@ -962,6 +1071,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-92)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-20)
 
 ### c-2-2-2-3-3-2 Verse 19 quoted: hand holding the hare-marked moon, like a divine lake
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་མཚོ་ཡི་རྣམ་པའི། །རི་དྭགས་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ།
@@ -969,6 +1079,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-20)
 
 ### c-2-2-2-3-3-3 Gloss: the moon-disc with the hare-sign is the emblem of dispelling the poison of the unmoving
 **བོད་ཡིག:** ཞེས་སོགས་ཏེ། ལྷའི་མཚོ་ལྟ་བུའི་ཟླ་བའི་དཀྱིལ་འཁོར་རི་བོང་གི་རྟགས་ཅན་ཕྱག་ན་བསྣམས་མ་སྟེ། བརྟན་པའི་དུག་ཉོན་མོངས་པའི་གདུང་བ་སེལ་བའི་རྟགས་སོ།
@@ -976,6 +1087,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** iconography
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-94)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-20)
 
 ### c-2-2-2-3-3-4 Gloss: uttering "tāra" twice and PHAT dispels the poison of the moving
 **བོད་ཡིག:** ངག་ཏུ་ཏཱ་ར་གཉིས་བརྗོད་ཕཊ་ཀྱི་ཡི་གེས་གཡོ་བའི་དུག་རྣམས་མ་ལུས་པར་ནི་སེལ་མའོ།
@@ -983,6 +1095,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-95)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-20)
 
 ### c-2-2-2-3-3-5 Epithet: "Tārā, Utterly Victorious" (reused)
 **བོད་ཡིག:** འདི་ལ་རྣམ་པར་རྒྱལ་བའི་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -990,6 +1103,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-96)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-20)
 
 ---
 
@@ -1001,6 +1115,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-97)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-21)
 
 ### c-2-2-2-3-4-2 Verse 20 quoted and glossed: revered by Śakra, great Brahmā, and the great tree-king of the kinnaras
 **བོད་ཡིག:** ཕྱག་འཚལ་ལྷ་ཡི་ཚོགས་རྒྱལ་པོ་དང་ཞེས་པ་འདོད་ལྷ་བརྒྱ་སྦྱིན་དང།གཟུགས་ཀྱི་ཚངས་པ་ཆེན་པོ་སྟེ་ལྷའི་ཚོགས་རྣམས་ཀྱི་རྒྱལ་པོ་དང་། ལྷ་དང་མིའམ་ཅིའི་རྒྱལ་པོ་ལྗོན་པ་ཆེན་པོ་ལ་སོགས་པས་གཙུག་གིས་གུས་པས་བསྟེན་མ་སྒྲོལ་མ་ཉིད་དོ།
@@ -1008,6 +1123,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated); FIG-5 (stated); FIG-7 (stated); FIG-13 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-98)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-21)
 
 ### c-2-2-2-3-4-3 Gloss: reverent recollection of her peaceful/wrathful forms and mantra-armor dispels disputes and bad dreams
 **བོད་ཡིག:** ཀུན་ནས་གུས་པས་སྐུ་ཞི་ཁྲོའི་ཆེ་དང་། ཞི་ཁྲོའི་སྔགས་ཀྱི་གོ་ཆ་དགའ་བའི་ཡིད་རྩེ་གཅིག་པས་ཡིད་ལ་བྱེད་ན། བྱིན་རླབས་ཀྱི་གཟི་བརྗིད་ཀྱིས་ཕ་རོལ་པོའི་རྩོད་པ་དང་། རྨི་ལམ་ངན་པ་ཡང་སེལ་བ་ཉིད་དོ།
@@ -1015,6 +1131,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-99)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-21)
 
 ### c-2-2-2-3-4-4 Epithet: "Tārā Who Burns Away Suffering"
 **བོད་ཡིག:** འདི་ལ་སྡུག་བསྔལ་སྲེག་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -1022,6 +1139,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-100)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-21)
 
 ---
 
@@ -1033,12 +1151,14 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-101)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-22)
 
 ⚑ **c-2-2-2-3-5-2 Textual-variant tension: which eye (right/left) is sun-like/wrathful vs. moon-like/peaceful**
 - **Position 1:** ཕྱག་འཚལ་ཉི་མ་ཟླ་བ་རྒྱས་པ་ལྟ་བུའི་སྤྱན་གཡས་པ། ཟླ་བ་རྒྱས་པ་ལྟ་བུའི་སྤྱན་གཡོན་པ། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-102)
 - **Position 2:** ཉི་མ་རྒྱས་པ་ལྟ་བུའི་ཁྲོ་མོའི་སྤྱན། ཟླ་བ་རྒྱས་པ་ལྟ་བུའི་ཞི་བའི་སྤྱན། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-102)
 **English:** The verse is glossed two ways: on one reading, her right eye is like the full sun and her left eye like the full moon; on the other (introduced with "though it is also said"), it is her wrathful eye that is sun-like and her peaceful eye that is moon-like, without fixing which is right and which is left.
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-102)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-22)
 
 ### c-2-2-2-3-5-3 Gloss: light from her two eyes; wrathful "hara hara" and peaceful "tuttāre" dispel virulent epidemic disease
 **བོད་ཡིག:** འོད་རབ་ཏུ་གསལ་བ་འཕྲོ་བ་དང་། ངག་ཏུ་ཁྲོ་མོའི་སྔགས་ཧ་ར་གཉིས་བརྗོད། ཞི་བའི་སྔགས་ཏུ་ཏྟཱ་ར་ཡི་སྔགས་བརྗོད་པ་ཡིས་ཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་སེལ་མ་ཉིད་དོ།
@@ -1046,6 +1166,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** FIG-1 (section-opener — this node's own opening block, ^0-101, names her)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-102)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-22)
 
 ### c-2-2-2-3-5-4 Epithet: "Tārā, Source of Attainments"
 **བོད་ཡིག:** འདི་ལ་དངོས་གྲུབ་འབྱུང་གནས་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -1053,6 +1174,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-102)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-22)
 
 ---
 
@@ -1064,6 +1186,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-103)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-23)
 
 ### c-2-2-2-3-6-2 Verse 22 quoted and glossed: OṂ-ĀḤ-HŪṂ at crown/throat/heart; destroys the hosts of spirits, zombies, and yakṣas
 **བོད་ཡིག:** ཕྱག་འཚལ་དེ་ཉིད་གསུམ་རྣམས་བཀོད་པའི། ཞེས་པ་སྐུ་གསུང་ཐུགས་ཀྱི་དེ་ཉིད་དེ། སྐུའི་དེ་ཉིད་སྤྱི་བོར་ཨོཾ། གསུང་གི་དེ་ཉིད་མགྲིན་པར་ཨཱཿ ཐུགས་ཀྱི་དེ་ཉིད་ཐུགས་ཀར་ཧཱུཾ་རྣམས་བཀོད་པའི་མཐུ་བརྟན་པའི། དྲུག་ཉོན་མོངས་ཞི་བའི་མཐུ་དང་ཡང་ལྡན་མ། གཡོ་བའི་དུག་གདོན་དང་རོ་ལངས་གནོད་སྦྱིན་ཚོགས་རྣམས་འཇོམས་པ་ལ། རབ་མཆོག་ནི།ཏུ་རེ་སྒྲོལ་མ་ཉིད་ཡིན་ནོ།
@@ -1071,6 +1194,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** mantra
 **Referent:** FIG-1 (stated); TXT-9 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-104)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-23)
 
 ### c-2-2-2-3-6-3 Epithet: "Tārā Who Brings to Full Completion"
 **བོད་ཡིག:** འདི་ལ་ཡོངས་སུ་རྫོགས་བྱེད་སྒྲོལ་མ་ཞེས་འབྱུང་ངོ་།
@@ -1078,6 +1202,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.2.3.1's hea
 **Type:** identification
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-105)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-23)
 
 ---
 
@@ -1095,6 +1220,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-106)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-24)
 
 ### c-2-2-3-1-2 First: the intention is the twenty-one-fold mantra-praise and the reverent three-door homages
 **བོད་ཡིག:** དང་པོ་ནི། ཞི་བ་དང་ཁྲོ་མོའི་རྩ་བའི་སྔགས་ཀྱི་བསྟོད་པ་ཉེར་གཅིག་པོ་འདི་དང་། སྒོ་གསུམ་གུས་སས་ཕྱག་འཚལ་བ་ནི་ཉི་ཤུ་རྩ་གཅིག །
@@ -1102,6 +1228,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-106)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-24)
 
 ---
 
@@ -1113,6 +1240,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** practice
 **Referent:** FIG-1 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-107)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-25)
 
 ### c-2-2-3-2-2 Time practice: rising at dusk and dawn, recollecting her wrathful form at dusk and peaceful form at dawn
 **བོད་ཡིག:** དུས་ནི། སྲོད་དང་ཐོ་རངས་མལ་ནས་ལངས་པར་བྱས་ནས། དྲན་པ་(ཅེས་,ཞེས་)པ། སྤྱིར་སྐུ་དང་། གསུང་སྔགས་དང་། བསྟོད་པ་དང་། ཁྱད་པར་སྲོད་ཀྱི་དུས་སུ་ཁྲོ་མོའི་ངང་། ཐོ་རངས་དུས་སུ་ཞི་བའི་སྐུ་སོགས་དྲན་པ།
@@ -1120,6 +1248,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** practice
 **Referent:** FIG-1 (section-opener — this claim continues c-2-2-3-2-1's own opening sentence, which names her)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-107)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-26)
 
 ### c-2-2-3-2-3 Benefits: protection from illness, spirits, and untimely death; purification of bad-rebirth causes
 **བོད་ཡིག:** ཙམ་གྱིས་ཚེ་འདིའི་ནད་གདོན་དང་། དུས་མིན་འཆི་བ་ལ་སོགས་པ་བར་ཆད་ཀྱི་མི་འཇིགས་པ་ཐམས་ཅད་རབ་ཏུ་སྟེར་བ། ཕྱི་མར་ངན་འགྲོའི་རྒྱུ་སྡིག་པ་ཐམས་ཅད་རབ་ཏུ་ཞི་བས་ན། འབྲས་བུ་ངན་འགྲོ་ཐམས་ཅད་འཇོམས་པ་ཉིད་དོ།
@@ -1127,6 +1256,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-107)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-26)
 
 ---
 
@@ -1138,6 +1268,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-108)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-27)
 
 ### c-2-2-3-3-2 Gloss: the obstructing poison is wrong view
 **བོད་ཡིག:** སངས་རྒྱས་ཀྱི་གོ་འཕང་དེའི་བར་དུ་(བཅོད་,གཅོད་)པའི་དུག་ནི་(དྭག་,དྭགས་)པོ་ཆེན་པོ་ལོག་ལྟ་ཉིད་དོ།
@@ -1145,6 +1276,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-108)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-27)
 
 ### c-2-2-3-3-6 Gloss (continued): delusion and hatred toward the Dharma are destroyed — "dispelling the poison of the unmoving"
 **བོད་ཡིག:** དེ་མཐར་ཕྱིན་པར་བྱེད་ཅིང་གཏན་ནས་གནས་པར་བྱེད་པ་ནི། གཏི་མུག་གི་ཆོས་ཀྱིས་ཆོས་ཀྱི་གནས་ལུགས་ལ་སྐུར་བ་བཏབ་པ་ཙམ། ཞེ་སྡང་དྲག་པོས་ཆོས་དང་ཆོས་སྨྲ་བ་ལ་ཞེ་སྡང་བའི་ལས་རྣམས་འཇོམས་ཞེས་པ་བརྟན་པའི་དུག་རྣམས་སེལ་བའོ།
@@ -1152,6 +1284,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** doctrinal
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-109)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-27)
 
 ### c-2-2-3-3-3 Gloss: the poison of the moving (rabid dogs, snakes, poisoned food) is dispelled by recollecting her form
 **བོད་ཡིག:** གཞན་ཡང་གཡོ་བའི་དུག་འགྲོ་བ་ཁྱི་དྲུག་དང་། སྦྲུལ་དྲུག་གིས་ཟིན་པ་དང་། ཟོས་པ་དང་ནི་འཐུངས་པ་སྟེ། ཟས་(སྒོམ་,སྐོམ་)གྱི་དུག་ཉིད་ཀྱང་། ལྷ་མོའི་སྐུ་སོགས་དྲན་པ་ཙམ་གྱིས་རབ་ཏུ་སེལ་བ་ཉིད་ཐོབ་པ། སྡུག་བསྔལ་གྱི་རྒྱུ་སེལ་བའོ།
@@ -1159,6 +1292,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** benefit
 **Referent:** [unanchored — refers to her only as ལྷ་མོའི་སྐུ (the goddess's form), not by the registered name སྒྲོལ་མ]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-110)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-28)
 
 ### c-2-2-3-3-4 Gloss: dispelling resultant intense suffering — affliction by spirits, epidemics, and poison — is the benefit for oneself
 **བོད་ཡིག:** འབྲས་བུ་སྡུག་བསྔལ་དྲག་པོ་སེལ་བ་ནི། གདོན་དང་རིམས་དང་དུག་གིས་གཟིར་བ་སྟེ་སྐྱེ་བའི་སྡུག་བསྔལ་ཚོགས་ནི་རྣམ་པར་སྤོ་སྟེ། ཞེས་པ་རང་དོན་ཏོ།
@@ -1166,6 +1300,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-111)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-29)
 
 ### c-2-2-3-3-5 Gloss: the same benefits extend to others when the practice is done on their behalf
 **བོད་ཡིག:** གཞན་དོན་ནི། སེམས་ཅན་གཞན་པ་རྣམས་ལ་ཡང་ངོ་། །ཞེས་གཞན་གྱི་དོན་དུ་ཡང་གུས་པ་དང་ལྡན་པས་སྲོད་དང་ཐོ་རངས་ལངས་པར་བྱས་ཏེ། སྐུ་སོགས་ཡིད་ལ་དྲན་བཞིན་དུ་བརྗོད་ན་ཕན་ཡོན་ གོང་བཞིན་དུ་ཐོབ་ཅེས་པའོ།
@@ -1173,6 +1308,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** benefit
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-112)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-29)
 
 ---
 
@@ -1184,6 +1320,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** structural
 **Referent:** [unanchored]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-113)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-30)
 
 ⚑ **c-2-2-3-4-2 Three attributed readings of "recited twice/thrice/seven times" (numbers "two" and "three")**
 - **Position 1:** གཉིས་གསུམ་བདུན་དུ་མངོན་པར་བརྗོད་ན། ཞེས་པ། གྲགས་པའི་མཎྜལ་བཞི་མ་ལྟར་ཏེ། དེའི་དོན་ལ་སྙན་ངག་པ་འགའ་ཞིག ། གཉིས་སུ་བརྗོད་ན་བུ་འདོད་པས་ནི་བུ་ཐོབ་འགྱུར་ཞིང་། གསུམ་དུ་བརྗོད་ན་ནོར་འདོད་པས་ནི་ནོར་རྣམས་ཉིད་ཐོབ། བདུན་དུ་བརྗོད་ན་འདོད་པ་ཐམས་ཅད་ཐོབ་པར་འགྱུར་ཏེ་ཞེས་ཟེར། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-113)
@@ -1191,6 +1328,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 - **Position 3:** རིན་པོ་ཆེ་བུ་སྟོན་གྱིས་ནི། གཉིས་ཞེས་བྱ་བ་ཉིན་མཚན་གྱི་ཆ་གཉིས། གསུམ་ཞེས་པ་དེ་རེ་རེ་ལ་ཐུན་གསུམ་གསུམ་སྟེ། ཉིན་མོ་ལ་སྔ་དྲོ། ཉིན་གུང་རྒོངས་ཐུན་གསུམ། མཚན་མོ་ལ་སྲོད་གུང་ཐུན། ཐོ་རངས་ཏེ་ཐུན་དྲུག་པོ་འདི་ལ། བདུན་བདུན་ཏེ་བཞི་བཅུ་རྩ་གཉིས་ཉིན་མཚན་ཕྲུགས་གཅིག་ལ་བརྗོད་ན། ཕན་ཡོན་དེ་རྣམས་འབྱུང་བ་ཡིན་གསུང་། — (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-116)
 **English:** Three attributed readings of the closing verse's numbers "two, three(, seven)" are recorded. Unnamed poets (Position 1) read them as reciting the whole praise two/three/seven times, likened to the well-known four-maṇḍala offering pattern, to obtain (respectively) a son, wealth, or all desires. Spang Lo (Position 2, PER-1) reads "two" as a distinction of practitioner-type (the sharp-facultied dharma-follower vs. the dull-facultied faith-follower) and "three" as a distinction of time (the dawn-to-dusk session); he continues at ^0-115 (see c-2-2-3-4-3) to explain "seven." Rinpoché Bu ston (Position 3, PER-4) reads "two" as day and night, "three" as three sessions within each (six sessions total), and "seven" as seven recitations per session (forty-two per day-night cycle), which yields the stated benefits.
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-113, ^0-114, ^0-116)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-30, #^2-31, #^2-32)
 
 ### c-2-2-3-4-3 Spang Lo's gloss (continued): "seven" as three-times-seven recitations grants fearlessness and removes obstacles
 **བོད་ཡིག:** བདུན་དུ་མངོན་པར་བརྗོད་ན། ཞེས་པ་གྲངས་ཀྱི་ཁྱད་པར་ཏེ། དུས་གསུམ་པོ་དེ་ལ་བདུན་བདུན་ཏེ། བདུན་གསུམ་ཉི་ཤུ་རྩ་གཅིག་བརྗོད་ན། མི་འཇིགས་པ་ཐམས་ཅད་སྟེར་བ་ལ་སོགས་པ་འདོད་པ་ཐམས་ཅད་ཐོབ་པར་འགྱུར་ཏེ། དེ་ཐོབ་པ་ལ་ཡང་བར་ཆད་བྱེད་པར་མ་ནུས་པས། བགེགས་རྣམས་མེད་ཅིང་དེའི་གཉེན་པོ་རེ་རེས་སྤང་བྱ་རེ་རེ་འཇོམས་པར་འགྱུར་ཅེས་གསུངས་སོ།
@@ -1198,6 +1336,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** doctrinal
 **Referent:** [unanchored — continues Position 2 of c-2-2-3-4-2 (Spang Lo) without repeating his name in this block's own text]
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-115)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^2-31)
 
 ---
 
@@ -1209,6 +1348,7 @@ None — announcement only (fused-heading pattern, cascades into 2.2.3.1's headi
 **Type:** attribution
 **Referent:** FIG-1 (stated); FIG-14 (stated)
 **Cite:** (1-SOURCES/Commentaries/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md#^0-117)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md#^a-1)
 
 ---
 

@@ -3141,12 +3141,11 @@
     "0-46"
    ],
    "new_refs": [
-    "1-25",
-    "1-27"
+    "1-25"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.955,
    "cite_map_refs": [
     "1-25"
    ],

@@ -15,11 +15,10 @@
   "old_aligned_share": 0.931
  },
  "verdicts": {
-  "confirmed": 97,
-  "quote-wins": 25,
+  "confirmed": 100,
+  "quote-wins": 22,
   "confirmed-fuzzy": 15,
-  "quote-wins-fuzzy": 2,
-  "absent-from-edition": 18
+  "absent-from-edition": 20
  },
  "claims": [
   {
@@ -191,9 +190,10 @@
     "0-12"
    ],
    "new_refs": [
-    "2-2"
+    "2-2",
+    "2-3"
    ],
-   "verdict": "quote-wins",
+   "verdict": "confirmed",
    "quote_match": "exact",
    "quote_score": 1.0,
    "cite_map_refs": [
@@ -317,9 +317,10 @@
     "0-21"
    ],
    "new_refs": [
-    "2-6"
+    "2-6",
+    "2-7"
    ],
-   "verdict": "quote-wins",
+   "verdict": "confirmed",
    "quote_match": "exact",
    "quote_score": 1.0,
    "cite_map_refs": [
@@ -389,9 +390,10 @@
     "0-29"
    ],
    "new_refs": [
-    "2-9"
+    "2-9",
+    "2-10"
    ],
-   "verdict": "quote-wins",
+   "verdict": "confirmed",
    "quote_match": "exact",
    "quote_score": 1.0,
    "cite_map_refs": [
@@ -2348,12 +2350,11 @@
     "0-213"
    ],
    "new_refs": [
-    "3-14",
-    "3-16"
+    "3-14"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.909,
    "cite_map_refs": [
     "3-14",
     "3-16"
@@ -2511,12 +2512,10 @@
    "old_cites": [
     "0-227"
    ],
-   "new_refs": [
-    "2-13"
-   ],
-   "verdict": "quote-wins-fuzzy",
+   "new_refs": [],
+   "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.857,
+   "quote_score": 0.286,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2530,7 +2529,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.467,
+   "quote_score": 0.167,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2544,7 +2543,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.412,
+   "quote_score": 0.176,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2558,7 +2557,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.562,
+   "quote_score": 0.188,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2572,7 +2571,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.615,
+   "quote_score": 0.231,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2586,7 +2585,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.5,
+   "quote_score": 0.167,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2600,7 +2599,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.5,
+   "quote_score": 0.188,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2614,7 +2613,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.583,
+   "quote_score": 0.083,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2628,7 +2627,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.667,
+   "quote_score": 0.167,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2642,7 +2641,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.462,
+   "quote_score": 0.154,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2656,7 +2655,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.533,
+   "quote_score": 0.2,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2670,7 +2669,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.308,
+   "quote_score": 0.231,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2684,7 +2683,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.538,
+   "quote_score": 0.154,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2698,7 +2697,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.5,
+   "quote_score": 0.167,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2712,7 +2711,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.579,
+   "quote_score": 0.211,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2726,7 +2725,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.615,
+   "quote_score": 0.231,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2740,7 +2739,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.462,
+   "quote_score": 0.231,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2754,7 +2753,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.625,
+   "quote_score": 0.188,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2768,7 +2767,7 @@
    "new_refs": [],
    "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.643,
+   "quote_score": 0.214,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true
@@ -2779,12 +2778,10 @@
    "old_cites": [
     "0-246"
    ],
-   "new_refs": [
-    "a-1"
-   ],
-   "verdict": "quote-wins-fuzzy",
+   "new_refs": [],
+   "verdict": "absent-from-edition",
    "quote_match": "fuzzy",
-   "quote_score": 0.645,
+   "quote_score": 0.29,
    "cite_map_refs": [],
    "cite_coverage": 0.0,
    "quote_in_cited_old_block": true

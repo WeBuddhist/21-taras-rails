@@ -14,6 +14,10 @@ method: tree-guided-extraction
 claim_id_scheme: "c-<decimal-with-dashes>-<n>, e.g. node 2.1's third claim is c-2-1-3 — never a bare decimal, never collides with a node heading number. For a top-level node N that itself has a child N.1 (true of every node 2–22 in this tree), N's own claims (i.e. claims in N's window before the N.1 child begins) are numbered c-N-0-<n>, not c-N-<n> — c-N-1 would be indistinguishable, once de-prefixed, from node N.1's own decimal, which is exactly the collision guard 1 forbids; the synthetic '0' segment mirrors this vault's own 'N-0 = content directly under a heading before any subheading' convention (CLAUDE.md §5a) and cannot collide with any real node decimal since no node in this tree is numbered N.0. Node 1 and node 23 have no child, so their own claims stay c-1-<n>/c-23-<n> unchanged."
 claim_count: 125
 status: draft
+library_source_file: "1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md"
+library_text_id: exz1MI85hysNKQK45uPzf
+library_edition_id: EwjzyZ1asr7jdvWzXMlJH
+library_remap: "0-INBOX/claims-remap/out/sangye-nyentrul.json (2026-11-04)"
 ---
 
 # Tree-guided claims — རྗེ་བཙུན་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར
@@ -88,6 +92,7 @@ status: draft
 **Type:** structural
 **Referent:** [unanchored] — the title names the work itself, not a Grounding-index referent
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-1)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^0)
 
 ### c-0-2 Opening homage verse: mere recollection of her feet frees from suffering
 **བོད་ཡིག:** ཡེ་ཤེས་ལང་ཚོས་གང་བའི་རྗེ་བཙུན་མ། ། ཁྱེད་ཞབས་དྲན་ཙམ་གྱིས་ཀྱང་དུཿཁའི་འགྲོ། ། སྡུག་བསྔལ་རྒྱུ་བཅས་མིང་གི་ལྷག་མ་རུ། ། བགྱིད་མཛད་གང་ཁྱེད་ཚེ་རབས་གཏན་གྱི་སྐྱབས།
@@ -95,6 +100,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-2)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^I-1)
 
 ---
 
@@ -108,6 +114,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-3)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-1)
 
 ### c-1-2 Etymology: OM marks the three vajras
 **བོད་ཡིག:** ༀ་ནི། འཕགས་མ་སྒྲོལ་མའི་སྐུ་གསུང་ཐུགས་ཀྱི་རྡོ་རྗེ་གསུམ་མཚོན།
@@ -115,6 +122,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (stated — named as འཕགས་མ་སྒྲོལ་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-3)
 
 ### c-1-3 Etymology: "Jetsunma" (Reverend Lady)
 **བོད་ཡིག:** དམིགས་པ་མེད་པའི་ཐུགས་རྗེས་རྟག་ཏུ་སྐྱོང་ཞིང་ཉེས་རྩུབ་ཐམས་ཅད་སྤངས་པས་རྗེ་བཙུན་མ།
@@ -122,6 +130,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-3)
 
 ### c-1-4 Etymology: "Phagma" (Noble Lady)
 **བོད་ཡིག:** སྲིད་དང་ཞི་བའི་མཐའ་ལས་ཤིན་ཏུ་འདས་པས་འཕགས་མ།
@@ -129,6 +138,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (stated — named as འཕགས་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-3)
 
 ### c-1-5 Etymology: "Drolma" (Saviouress) frees beings from great fears
 **བོད་ཡིག:** འགྲོ་རྣམས་འཇིགས་པ་ཆེན་པོ་བརྒྱད་དང་བཅུ་དྲུག་ལས་སྒྲོལ་བས་སྒྲོལ་མ་སྟེ་ཡོན་ཏན་དེ་རྣམས་དང་ལྡན་པས
@@ -136,6 +146,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-3)
 
 ### c-1-6 Closing prostration of the opening line
 **བོད་ཡིག:** འཕགས་མ་ཁྱེད་ལ་རབ་ཏུ་དད་པས་ཕྱག་འཚལ་ལོ།
@@ -143,6 +154,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-1 (stated — named as འཕགས་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-4)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-3)
 
 ---
 
@@ -156,6 +168,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this node's own title names her སྒྲོལ་མ, not repeated verbatim in this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-5)
 
 ### c-2-0-2 Etymology: "Swift" — never idle in benefiting beings
 **བོད་ཡིག:** འགྲོ་ཀུན་ཕན་བདེར་སྦྱོར་བ་ལ་ནམ་དུའང་གཡེལ་བ་མེད་པས་མྱུར་མ།
@@ -163,6 +176,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-5)
 
 ### c-2-0-3 Etymology: "Heroine" — unimpeded power to accomplish
 **བོད་ཡིག:** དེ་དག་ཇི་བཞིན་མཛད་པ་ལ་ནུས་མཐུ་ཐོགས་པ་མེད་པས་དཔའ་མོ།
@@ -170,6 +184,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-6)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-5)
 
 ### c-2-0-4 Iconography/etymology: wisdom-eyes like lightning
 **བོད་ཡིག:** གནས་ལུགས་གཟིགས་པའི་ཡེ་ཤེས་ཀྱི་སྤྱན་ནི། དུས་སྐད་ཅིག་གཅིག་གིས་གློག་དང་འདྲ་བར་ཆགས་ཐོགས་དང་བྲལ་བར་གཟིགས་པས་ཡེ་ཤེས་ཅན་མ།
@@ -177,6 +192,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-7)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-5)
 
 ### c-2-0-5 Identification: Tārā arose from Avalokiteshvara's tears of compassion
 **བོད་ཡིག:** ས་འོག་ས་སྟེང་ས་བླ་སྟེ་འཇིག་རྟེན་གསུམ་གྱི་མགོན་པོ་འཕགས་པ་སྤྱན་རས་གཟིགས་ཀྱི་ཡིད་འོང་མཛེས་པའི་ཆུ་སྐྱེས་མེ་ཏོག་ལྟ་བུའི་ཞལ་གྱི་པདྨའི་སྤྱན་ཟུང་གེ་སར་ཟེའུ་འབྲུ་ལྟར་དུ་བྱེ་བ་ལས་ནི་སྙིང་རྗེ་ཆེན་པོའི་སྤྱན་ཆབ་ལས་བྱུང་བའི་འཕགས་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -184,6 +200,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-2 (stated — named as སྤྱན་རས་གཟིགས within this claim's own quotation), FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-8)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-5)
 
 ---
 
@@ -195,6 +212,7 @@ status: draft
 **Type:** activity
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ་མྱུར་མ་དཔའ་མོ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-6)
 
 #### c-2-1-2 Iconography: red body, wrathful-smiling, mudras with utpala and conch
 **བོད་ཡིག:** སྐུ་མདོག་དམར་མོ་ཁྲོ་འཛུམ་ཆགས་པའི་ཉམས་ཅན། པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན།གཡོན་སྐྱབས་སྦྱིན་མཆོག་གསུམ་གྱི་རྒྱའི་མཐེབ་སྲིན་བར་ན་ཨུཏྤལ་རབ་ཏུ་རྒྱས་པའི་སྟེང་དུ་དུང་གཡས་འཁྱིལ
@@ -202,6 +220,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-6)
 
 #### c-2-1-3 Practice: visualize bodhicitta pervading the whole world
 **བོད་ཡིག:** བྱང་ཆུབ་ཀྱི་སེམས་འཇིག་རྟེན་ཀུན་ན་ཁྱབ་པར་བསྒོམ་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -209,6 +228,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — a generic meditation instruction, no Grounding-index referent named in this claim's own quotation
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-9)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-6)
 
 ---
 
@@ -222,6 +242,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node — this node's title names her via the verse's opening ཕྱག་འཚལ, not repeated verbatim here)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-11)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-8)
 
 ### c-3-0-2 Identification: Tārā Dbyangs-can-ma, blazing with the four correct knowledges
 **བོད་ཡིག:** མཁྱེན་གཉིས་ཀྱི་སྐར་མ་སྟོང་ཕྲག་ཚོགས་པ་ལྟ་བུ་རྣམས་ཀྱིས། རབ་ཏུ་སོ་སོར་ཕྱེ་བའི་སོ་སོ་ཡང་དག་རིག་པ་བཞིའི་བློ་གྲོས་ཀྱི་འོད་ཟེར་རབ་ཏུ་འབར་བའི་འཕགས་མ་སྒྲོལ་མ་དབྱངས་ཅན་མ་ཁྱེད་ལའོ།
@@ -229,6 +250,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་སྒྲོལ་མ་དབྱངས་ཅན་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-12)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-8)
 
 ---
 
@@ -240,6 +262,7 @@ status: draft
 **Type:** activity
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ་བློ་གཏེར་དབྱངས་ཅན, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-9)
 
 #### c-3-1-2 Iconography: white body, utpala with mirror and HRIH seed-syllable
 **བོད་ཡིག:** སྐུ་མདོག་སྟོན་ཟླ་ལྟར་དཀར་བ།པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས།གཡས་མཆོག་སྦྱིན་དང་། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་། མེ་ལོང་ལ་ས་བོན་ཧྲཱིཿ་གྱིས་མཚན་པ
@@ -247,6 +270,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-9)
 
 #### c-3-1-3 Practice: light from the mirror dispels ignorance and opens the treasury of wisdom
 **བོད་ཡིག:** ལས་འོད་འཕྲོས། འགྲོ་བའི་མ་རིག་པ་བསལ།ཇི་བཞིན་རྟོགས་པའི་བློ་གྲོས་ཀྱི་རྩལ་འབར་བའི་ཤེས་རབ་ཀྱི་གཏེར་ཕྱེ་བར་མཛད་པ་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -254,6 +278,7 @@ status: draft
 **Type:** practice
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-13)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-9)
 
 ---
 
@@ -267,6 +292,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-15)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-11)
 
 ### c-4-0-2 Doctrinal: mastery of the ocean of bodhisattva conduct through the six perfections
 **བོད་ཡིག:** ལམ་སྦྱིན་པ། བརྩོན་འགྲུས། དཀའ་ཐུབ་ཚུལ་ཁྲིམས། ཞི་བ་ཤེས་རབ། བཟོད་པ་དང་།དེ་བཞིན་བསམ་གཏན་བཅས་ཕར་ཕྱིན་དྲུག་གི་སྤྱོད་པ་དང་བཅས་ཏེ་ཡུལ་འགྲོ་བ་རྣམས་སྒྲོལ་ཞིང་འཇུག་པའི་བྱང་སེམས་སྤྱོད་པ་རྒྱ་མཚོར་དབང་བསྒྱུར་བར་ཉིད་མ་སྟེ་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -274,6 +300,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-16)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-11)
 
 ---
 
@@ -285,6 +312,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་སེར་མོ་བསོད་ནམས་མཆོག་སྟེར within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-12)
 
 #### c-4-1-2 Iconography: utpala topped with a wish-fulfilling jewel
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་ཡིད་བཞིན་གྱི་ནོར་བུ་དགོས་འདོད་ཀུན་སྩོལ་
@@ -292,6 +320,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-12)
 
 #### c-4-1-3 Practice: light from the jewel pervades space
 **བོད་ཡིག:** ལས་འོད་ཟེར་མཁའ་ཁྱབ་ཏུ་འཕྲོ་བར་བསྒོམ་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -299,6 +328,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-17)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-12)
 
 ---
 
@@ -312,6 +342,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-19)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-14)
 
 ### c-5-0-2 Etymology: "Victorious" over the faults of cyclic existence
 **བོད་ཡིག:** སྲིད་པའི་སྐྱོན་མཐའ་ཡས་པ་ལས་རབ་ཏུ་རྣམ་པར་རྒྱལ་བར་སྤྱོད་པའི་ཕྲིན་ལས་ཅན་མ།
@@ -319,6 +350,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-20)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-14)
 
 ### c-5-0-3 Doctrinal: perfected abandonment and realization, relied upon by buddhas and bodhisattvas
 **བོད་ཡིག:** སྤངས་རྟོགས་མ་ལུས་པ་ཡོངས་སུ་རྫོགས་པས་སྤང་བྱ་སྒྲིབ་པ་བཅུ་སྤངས་ཤིང་།ཡོན་ཏན་ཕ་རོལ་ཕྱིན་པ་བཅུ་ཐོབ་པའི་རྒྱལ་བ་སྲས་དང་བཅས་པ་རྣམས་ཀྱིས་ཤིན་ཏུ་གུས་པས་ཁྱེད་ཉིད་བསྟེན་པའི་འཕགས་མ་ཁྱེད་ལའོ།ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -326,6 +358,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-21)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-14)
 
 ---
 
@@ -337,6 +370,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her གཙུག་ཏོར་རྣམ་པར་རྒྱལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-15)
 
 #### c-5-1-2 Iconography: utpala topped with a vase of deathless life
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་། འཆི་མེད་ཚེའི་བུམ་པ་
@@ -344,6 +378,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-15)
 
 #### c-5-1-3 Practice: nectar from the vase dissolves into self and others, attaining deathless life
 **བོད་ཡིག:** ལས་འོད་ཟེར་འཕྲོས་ཏེ་འཁོར་འདས་ཀྱི་དྭངས་བཅུད་ཐམས་ཅད་བདུད་རྩིས་གང་བ་རང་གཞན་ལ་ཐིམ། འཆི་མེད་ཚེའི་དངོས་གྲུབ་ཐོབ་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -351,6 +386,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-22)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-15)
 
 ---
 
@@ -364,6 +400,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-24)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-17)
 
 ### c-6-0-2 Doctrinal: the seven worlds subjugated, power to summon anything
 **བོད་ཡིག:** འཇིག་རྟེན་བདུན་ཏེ། ཀླུ། ཡི་དྭགས། ལྷ་མ་ཡིན།རིག་འཛིན། མི། མིའམ་ཅི། ལྷ་སྟེ་བདུན་པོ་ཞབས་ཀྱིས་མནན་པ་ལྟར་དབང་དུ་བསྡུས་ཏེ། གཞན་གཅིག་ཀྱང་ལུས་པ༵་མེད་པར་འགུགས་པར་ནུས་པའི་སྟོབས་དང་ལྡན་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -371,6 +408,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-25)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-17)
 
 ---
 
@@ -382,6 +420,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her རིག་བྱེད་ལྷ་མོ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-18)
 
 #### c-6-1-2 Iconography: utpala topped with a drawn bow and arrow
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན་གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་མདའ་གཞུ་བཀང་བ་
@@ -389,6 +428,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-18)
 
 #### c-6-1-3 Practice: light radiates from the bow and arrow
 **བོད་ཡིག:** ལས་འོད་ཟེར་འཕྲོ་པ་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -396,6 +436,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-26)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-18)
 
 ---
 
@@ -409,6 +450,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node), FIG-3 (stated — Indra, named as བརྒྱ་བྱིན), FIG-4 (stated — Agni, named as མེ་ལྷ), FIG-5 (stated — Brahmā, named as ཚངས་པ), FIG-6 (stated — Vāyu, named as རླུང་ལྷ), FIG-7 (stated — Yama, named as གཤིན་རྗེ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-28)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-20)
 
 ### c-7-0-2 Identification: also praised by obstructing spirits, zombies, gandharvas, and Vaishravana's yakshas
 **བོད་ཡིག:** དེ་བཞིན་བྱང་ཤར་གྱི་བགེགས་སོགས་འབྱུང་པོ་དང་། ལྷོ་ནུབ་ཏུ་རོ་ལང༵ས་ཏེ་བདེན་དང་བྲལ་བ་ལེགས་ལྡན། ཤར་ཕྱོགས་སུ་བརྒྱ་བྱིན་གྱི་འཁོར་དྲི་ཟ་རྣམས་དང་། བྱང་ཕྱོགས་སུ་གནོད་སྦྱིན་རྣམ་ཐོས་སྲས་སོགས་ནོར་བདག་ཚོགས་ཀྱིས། སྲིད་འདིར་ཆེ་བར་སྒྲོགས་པ་རྣམས་ཀྱིས་ཀྱང་ཁྱེད་ཀྱི་མདུན་དུ་གུས་པས་འཁོད་ནས་བསྟོད་པའི་ཡུལ་སྒྲོལ་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -416,6 +458,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node), FIG-8 (stated — Vaishravaṇa, named as རྣམ་ཐོས་སྲས)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-29)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-20)
 
 ---
 
@@ -427,6 +470,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ་འཇིགས་བྱེད་ཆེན་མོ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-21)
 
 #### c-7-1-2 Iconography: utpala with a vajra-dagger, fire-lasso, and sparks
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་དབུས། རྡོ་རྗེ་ཕུར་བུ་ཧཱུཾ་གྱི་མེ་ཞགས་དང་ཚྭ་ཚྭ་འཁྲུགས་པས།
@@ -434,6 +478,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-21)
 
 #### c-7-1-3 Practice: destroys spirits causing madness, forgetfulness, and paralysis
 **བོད་ཡིག:** སྨྱོ་བྱེད་དང་། རྗེད་བྱེད། རེངས་བྱེད་སོགས་ཀྱི་གདོན་བགེགས་རྣམས་བཅོམ་ཞིང་སླར་ལྡང་དུ་མེད་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -441,6 +486,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-30)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-21)
 
 ---
 
@@ -454,6 +500,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-32)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-23)
 
 ### c-8-0-2 Iconography/activity: bent-and-extended legs tread down dualistic grasping
 **བོད་ཡིག:** སྟོང་དང་སྙིང་རྗེས་སྲིད་ཞི་ལས་འདས་པའི་བརྡར་གཡས་བསྐུམ་གཡོན་བརྐྱང་ཞབས་ཀྱིས་གཉིས་སུ་འཛིན་པ་ཅན་གྱི་གདུག་ཅན་རྣམས་ནམ་དུའང་ལྡང་དུ་མི་ནུས་པར་མནན་ཏེ། ཡེ་ཤེས་ཀྱི་མེ་རབ་ཏུ་འབར། རྗེས་ཆགས་ཀྱི་བརྩེ་བའི་ཁྲོ་གཉེར་འཁྲུགས་པའི་ཀློང་ནས། གནམ་ལྕགས་དང་ཚྭ་ཚྭའི་ཟེར་ཕྲེང་ཤིན་ཏུ་འབར་བར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -461,6 +508,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-33)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-23)
 
 ---
 
@@ -472,6 +520,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her དམག་དང་ཐོག་སེར་འཇོམ་མ་གཏུམ་མོ་གཞན་གྱིས་མི་ཐུབ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-24)
 
 #### c-8-1-2 Iconography: hair standing on end, utpala with a blazing fire-sword
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས།དབུ་སྐྲ་གྱེན་དུ་བརྫེས་པ། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དུ་རལ་གྲི་མེ་ཕུང་འབར་བས
@@ -479,6 +528,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-24)
 
 #### c-8-1-3 Practice: annihilates all enemy assassins
 **བོད་ཡིག:** ཕ་རོལ་གྱི་དགྲ་བོའི་གཤེད་མ་ཐམས་ཅད་བརླག་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -486,6 +536,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-34)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-24)
 
 ---
 
@@ -499,6 +550,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-36)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-26)
 
 ### c-9-0-2 Doctrinal: destroys the heroes of Māra — the three poisons, the skandhas, and the lord of death
 **བོད་ཡིག:** དུག་གསུམ་གྱི་རྣམ་རྟོག་ཉོན་མོངས་དང་ཕུང་པོ་འཆི་བདག་ལྷ་བུ་བཅས་བདུད་ཀྱི་དཔའ་བོ་ཤིན་ཏུ་གདུལ་དཀའ་བ་རྣམ་པར་འཇོམས་པར་མཛད་མ།
@@ -506,6 +558,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-37)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-26)
 
 ### c-9-0-3 Doctrinal: her wrathful form destroys the two obscurations in the dharmadhātu's equality
 **བོད་ཡིག:** རབ་ཏུ་མཛེས་པའི་ཆུ་སྐྱེས་དང་མཚུངས་པའི་ཞལ་ནི་ཕྱིན་ཅི་ལོག་པའི་མ་རུང་པ་རྣམས་འདུལ་བའི་ཕྱིར་ཁྲོ་གཉེར་དང་ལྡན་པའི་སྐུར་བཞེང་པར་མཛད་ནས། བྱང་ཆུབ་ཀྱི་ལམ་ལ་བར་དུ་གཅོད་པའི་སྒྲིབ་གཉིས་ཀྱི་དགྲ་བོ་ཐམས་ཅད་མ་ལུས་པ་ཆོས་དབྱིངས་མཉམ་པ་ཉིད་ཀྱི་ངང་དུ་གསོད་ཅིང་བཅོམ་པར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -513,6 +566,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-38)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-26)
 
 ---
 
@@ -524,6 +578,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ...དཔའ་མོ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-27)
 
 #### c-9-1-2 Iconography: utpala topped with a blazing vajra and spark-garland
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་རྡོ་རྗེ་མེ་འབར་བ་ཚྭ་ཚྭའི་ཟེར་ཕྲེང་གིས
@@ -531,6 +586,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-27)
 
 #### c-9-1-3 Practice: destroys afflictions, weak points, and curses
 **བོད་ཡིག:** ཉོན་མོངས་དང་གཞན་གྱི་མཚང་འབྲུ། དམོད་པ་སོགས་བཤིག་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -538,6 +594,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-39)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-27)
 
 ---
 
@@ -551,6 +608,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-41)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-29)
 
 ### c-10-0-2 Identification: Tārā of the Khadira Forest, protector against the sixteen fears
 **བོད་ཡིག:** བརྒྱད་དང་བཅུ་དྲུག་ལས་ཕྱོགས་ཀྱི་འཁོར་ལོས་བསྲུང་བའི་རྒྱན་གྱིས་བརྒྱན་པར་བྱེད་པའི་རྗེ་བཙུན་མ། རང་གི་སྐུའི་འོད་ཀྱི་ཚོགས་རྣམས།གང་འདུལ་གྱི་འགྲོ་བ་རྣམས་ལ་འཁྲུགས་པའམ་འཕྲོས་པས་འཇིགས་པ་ཀུན་ལས་སྐྱོབ་པར་མཛད་པའི་སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ༵་ཁྱེད་ལའོ།ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -558,6 +616,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-42)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-29)
 
 ---
 
@@ -569,6 +628,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སེང་ལྡེང་ནགས་ཀྱི་སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-30)
 
 #### c-10-1-2 Iconography: utpala topped with a radiant wheel
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་ན། འཁོར་ལོ་འོད་ཟེར་འབར་བ་སྐུ་དང་འཁོར་ལོ་ལས་འོད་ཟེར་འཕྲོས་པས
@@ -576,6 +636,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-30)
 
 #### c-10-1-3 Practice and special status: protects from the sixteen fears; principal among the twenty-one Tārās
 **བོད་ཡིག:** འཁོར་བའི་འཇིགས་པ་བཅུདྲུག་ལས་སྐྱོབས་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན། འདི་སྒྲོལ་མ་༢༡་ལས་གཙོ་མོ་ཡིན།
@@ -583,6 +644,7 @@ status: draft
 **Type:** practice
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-43)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-30)
 
 #### c-10-1-4 Doctrinal: the sixteen great fears, enumerated 1–9
 **བོད་ཡིག:** འཇིགས་པ་ཆེན་པོ་བཅུ་དྲུག་ནི། ༡ ཚུལ་ཁྲིམས་དང་ལྟ་བ་མཆོག་འཛིན་སེང་གེའི་འཇིགས་པ། ༢ གཏི་མུག་གླང་ཆེན་གྱི་འཇིགས་པ། ༣ ཞེས་སྡང་མེའི་འཇིགས་པ། ༤ ཕྲག་དོག་སྦྲུལ་གྱི་འཇིགས་པ། ༥ ལྟ་ངན་ཆོམ་རྐུན་གྱི་འཇིགས་པ། ༦ འདོད་སྲེད་ལྕགས་སྒྲོག་གི་འཇིགས་པ། ༧ འདོད་ཆགས་རྒྱ་མཚོའི་འཇིགས་པ། ༨ ཐེ་ཚོམ་ཤ་ཟའི་འཇིགས་པ། ༩ ཉེ་ཉོན་རྒྱགས་པ་དང་རྣམ་འཚེ་རྒྱལ་པོའི་ཆད་པའི་འཇིགས་པ།
@@ -590,6 +652,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-44)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-31)
 
 #### c-10-1-5 Doctrinal: the sixteen great fears, enumerated 10–16
 **བོད་ཡིག:** ༡༠ འཆབ་འཚིག་དམུ་རྒོད་དགྲའི་འཇིགས་པ། ༡༡ གཡོ་སྒྱུ་བརྗེད་ངན་གདོན་གྱི་འཇིགས་པ། ༡༢ ངོ་ཚ་ཁྲེལ་མེད་ཤེས་བཞིན་མིན་པ་མཛེའི་འཇིགས་པ། ༡༣མ་དད་པ་བཤེས་བྲལ་གྱི་འཇིགས་པ། ༡༤ སེར་སྣ་དབུལ་འཕོངས་ཀྱི་འཇིགས་པ། ༡༥ ཁྲོ་བ་འཁོན་འཛིན་ཕྲག་དོག་ཐོག་གི་འཇིགས་པ། ༡༦ ལེ་ལོ་བག་མེད་གཡེང་བ་དོན་ཉམས་པའི་འཇིགས་པ་སྟེ་བཅུ་དྲུག་གོ
@@ -597,6 +660,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-45)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-31)
 
 ---
 
@@ -610,6 +674,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-47)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-33)
 
 ### c-11-0-2 Mantra/activity: eightfold laughter and TUTTĀRA subjugate the world
 **བོད་ཡིག:** གསུང་བཞད་པ་བརྒྱད་དང་ལྡན་པའི་རིག་སྔགས། ཧ་ཧཱ།ཧི་ཧི། ཧེ་ཧེ། ཧོ་ཧོའི་སྒྲ་དབྱངས་རབ་ཏུ་བཞད་པའི་སྒྲ་ཏུཏྟཱ་ར་ཡིས་བདུད་དགའ་རབ་དབང་ཕྱག་སྡེ་རིས་བཅས་པ་དང་། རྒྱ་ལ་བློནཁྱིམ་བདག་སོགས་འཇིག་རྟེན་ཐམས་ཅད་དབང་དུ་བསྒྱུར་ནས་ཉིད་ཀྱི་གོ་འཕང་ལ་འགོད་པར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -617,6 +682,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-48)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-33)
 
 ---
 
@@ -628,6 +694,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-34)
 
 #### c-11-1-2 Iconography: utpala topped with a radiant victory banner
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན།གཡོན་ཨུཏྤལ་འཇིན་པའི་སྟེང་། རྒྱལ་མཚན་ལས་འོད་འཕྲོས་པས།
@@ -635,6 +702,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-34)
 
 #### c-11-1-3 Practice: subjugates the desire-gods and the Paranirmitavaśavartin host
 **བོད་ཡིག:** འདོད་ལྷ་དབང་དུ་བསྡུས་པ། བཞད་པ་བརྒྱད་ལྡན་གྱི་སྔགས་སྒྲས་གཞན་འཕྲུལ་དབང་བྱེད་སྡེ་བཅས་དབང་དུ་གྱུར་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -642,6 +710,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-49)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-34)
 
 ---
 
@@ -655,6 +724,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node), FIG-10 (stated — nāga king Nanda, named as ཀླུ་རྒྱལ་དགའ་བོ), FIG-3 (stated — Indra, named as ལྷ་དབང་བརྒྱ་བྱིན)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-51)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-36)
 
 ### c-12-0-2 Benefit: draws in wealth and rains down desired things, freeing beings from poverty
 **བོད་ཡིག:** ཁྲོ་གཉེར་གཡོ་བའི་ཐུགས་ཀའི་ཡི་གེ་ཧཱུཾ་གི་འོད་ཟེར་གྱིས་ལྷ་ཀླུ་མི་སོགས་ཀྱི་དཔལ་འབྱོར་ལོངས་སྤྱོད་མ་ལུས་པ་བཀུག་ནས་འདོད་དགུ་ཆར་དུབབས་པས་འགྲོ་བ་དབུལ་ཞིང་ཕོངས་པ་ཐམས་ཅད་ལས་རྣམ་པར་སྒྲོལ་བར་མཛད་མ༵་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -662,6 +732,7 @@ status: draft
 **Type:** benefit
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-52)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-36)
 
 ---
 
@@ -673,6 +744,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her ནོར་སྟེར་སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-53)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-37)
 
 #### c-12-1-2 Iconography: utpala topped with a treasure vase
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས།གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དུ། གཏེར་གྱི་བུམ་པ་
@@ -680,6 +752,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-53)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-37)
 
 #### c-12-1-3 Practice: wealth of gods and nagas rains down and fills all directions
 **བོད་ཡིག:** ལས་འོད་འཕྲོས་ལྷ་ཀླུའི་ལོངས་སྤྱོད་དཔལ་འབྱོར་ཐམས་ཅད་ཆར་བཞིན་བབས་པས་ཕྱོགས་ཀུན་གང་བར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -687,6 +760,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-53)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-37)
 
 ---
 
@@ -700,6 +774,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-55)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-39)
 
 ### c-13-0-2 Identification: Amitābha dwells in her hair; she radiates immeasurable compassion
 **བོད་ཡིག:** དབུ་སྐྲ་བུང་བ་ལྟར་གནག་པའི་རལ་པའི་ཁྲོད་ན་བདེ་ལྡན་ཞིང་མགོན་འོད་དཔག་ཏུ་མེད་པ་བཞུགས་པ་ལས།དུས་རྟག་པར་མཐའ་ཡས་ཀྱི་འགྲོ་བ་རྣམས་ལ་ཤིན་ཏུ་འཁོར་གསུམ་དམིགས་པ་བྲལ་བའི་ཚད་མེད་པའི་སྙིང་རྗེའི་འོད་ཟེར་འཕྲོ་པས་འདོད་དགུའི་ཆར་ཆུ་བབས་ཅིང་། བརྟན་གཡོའི་ཉེས་པ་ཐམས་ཅད་བསལ་ཏེ།དགེ་ལེགས་བཀྲ་ཤིས་པས་སྣོད་བཅུད་ཕུན་ཚོགས་ཀྱི་དཔལ་ལ་རབ་ཏུ་སྦྱར་བར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -707,6 +782,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node), FIG-9 (stated — Amitābha, named as འོད་དཔག་ཏུ་མེད་པ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-56)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-39)
 
 ---
 
@@ -718,6 +794,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་བཀྲ་ཤིས་དོན་གྲུབ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-40)
 
 #### c-13-1-2 Iconography: utpala topped with a glorious endless-knot
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས།གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དཔལ་བེའུ་འོད་ཟེར་འཕྲོ་བ་ཅན་གྱིས
@@ -725,6 +802,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-40)
 
 #### c-13-1-3 Practice: auspicious rain destroys faults of the animate and inanimate world
 **བོད་ཡིག:** བཀྲ་ཤིས་པའི་རྫ་ས་ཀྱིས་ཆར་བབས། བརྟན་གཡོ་ཉེས་ཚོགས་ཐམས་ཅད་བཅོམ་སྟེ་དགེ་ལེགས་ཀྱི་ཁྱབ་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -732,6 +810,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-57)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-40)
 
 ---
 
@@ -745,6 +824,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-59)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-42)
 
 ### c-14-0-2 Doctrinal/activity: destroys Māra's forces and the confused grasping at self and other
 **བོད་ཡིག:** ཞབས་གཡས་བརྐྱངས་གཡོན་བསྐུམ་པའི་རོལ་སྟབས་ཅིར་ཡང་མ་ངེས་པ་དང་། བདུད་སྡེའི་ཚོགས་བཅོམ་ནས་རྡོ་རྗེའི་རྭ་གུར་གྱིས་ཀུན་ནས་བསྐོར་བར། བདག་གཞན་འགྲོ་བ་རྣམས་མི་འཇིགས་སྐྱབས་ཀྱིས་རྟག་ཏུ་བསྲུང་བས་དགའ་བར་མཛད་པ། བདག་དང་གཞན་དུ་འཛིན་པའི་འཁྲུལ་ཤེས་ཀྱི་རང་གཟུགས་ཕ་རོལ་གཟུགས་ཅན་གཟུགས་མེད་ཀྱི་དགྲ་བོ་ཡི་དཔུང་ཚོགས་རྣམས་ནི་རྣམ་པར་འཇོམས་པར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -752,6 +832,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-60)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-42)
 
 ---
 
@@ -763,6 +844,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-43)
 
 #### c-14-1-2 Iconography: three eyes, peaceful-wrathful expression, utpala with a raised vajra-fence
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ་ཞལ་གཅིག་ཕྱག་གཉིས། སྤྱན་གསུམ། ཞལ་ཞི་མ་ཁྲོ་བོའི་ཉམས་ཅན། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་།རྡོ་རྗེ་རྭ་གདེངས་པ་
@@ -770,6 +852,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-43)
 
 #### c-14-1-3 Practice: vajra sparks destroy the enemy and gather beings into a vajra enclosure
 **བོད་ཡིག:** ལས་འོད་ཟེར་རྡོ་རྗེའི་ཚྭ་ཚྭ་རབ་ཏུ་འབར་ཞིང་འཕྲོ་བས་ཕ་རོལ་དགྲ་བོའི་དཔུང་རྣམས་ལྷག་མེད་དུ་བཅོམ་ནས། འོད་ཟེར་སླར་ཚུར་འདུས་རྡོ་རྗེའི་རྭ་གུར་ནང་བདག་གཞན་སེམས་ཅན་ཐམས་ཅད་ཚུད་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -777,6 +860,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-61)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-43)
 
 ---
 
@@ -790,6 +874,7 @@ status: draft
 **Type:** activity
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-63)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-45)
 
 ### c-15-0-2 Doctrinal: strikes the seven underground levels, crushing malicious dam sri spirits
 **བོད་ཡིག:** ཞལ་ཁྲོ་གཉེར་གྱི་ཉམས་ཅན་དང་ལྡན་པར་མཛད་ནས། ཡི༷་གེ་ཧཱུཾ་གི་སྒྲ་རབ་ཏུ་སྒྲོགས་པས་འོད་ཟེར་རྡོ་རྗེའི་མེ་ཆར་དག་གིས། ས་འོག་རིམ་པ༵་བདུན་པོ་སྟེ། ༡མི་མ་ཡིན་གྱི་གཞི། ༢ ལྷག་པའི་གཞི། ༣ གཞི་མེད་པ། ༤ གཞི་ཉིད།༥ བཅུད་ཀྱི་གཞི། ༦ གཞི་བཟང་པོ། ༧ དག་པའི་གཞི་བཅས་ཡན་གྱི་གདུག་པ་ཅན་དམ་སྲི་རྣམས་ཀྱི་ནི་སྙིང་དང་མགོ་བོ་འགེམ་སྟེ་སྐྱེ་བ་མེད་པ་ཡུམ་ཆེན་མོའི་ངང་དུ་བརྒྱལ་བར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -797,6 +882,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-64)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-45)
 
 ---
 
@@ -808,6 +894,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་ཁྲོ་གཉེར་ཅན within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-46)
 
 #### c-15-1-2 Iconography: utpala topped with a pestle, HŪM raining vajra-fire sparks
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་ན། གཏུན་ཤིང་དང་ཧཱུཾ་གི་སྒྲ་ཡིས་རྡོ་རྗེའི་མེ་ཆར་འབེབས་པ།
@@ -815,6 +902,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-46)
 
 #### c-15-1-3 Practice: destroys malicious dam sri spirits, dissolving them into dharmatā
 **བོད་ཡིག:** ཕྱག་ཞབས་ས་ལ་བསྣུན་པས། གདུག་ཅན་དམ་སྲི་རྣམས་བཅོམ་ནས་ཆོས་ཉིད་ཀྱི་ཀློང་དུ་གྱུར་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -822,6 +910,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-65)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-46)
 
 ---
 
@@ -835,6 +924,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-67)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-48)
 
 ### c-16-0-2 Mantra/benefit: the ten-syllable OM...SVĀHĀ mantra destroys the result of great wrongdoing
 **བོད་ཡིག:** བཟླས་པའི་མཇུག་ཏུ་སྭཱ་ཧྭ་དང་ༀ་གྱིས་འགོ་བརྩམས་པའི་རྩ་བའི་རིག་སྔགས་བཅུ་དང་ཡང་དག་ལྡན་པ་འདི་བསོད་ནམས་མིན་པ་ཐུ་ཆེ་བ་བསགས་པ་ཅན་རྣམས་ཀྱིས།རབ་ཏུ་འགྱོད་པས་ཆོ་ག་བཞིན་བཟླས་པ་དང་ཐུགས་རྗེའི་སྟོབས་ཀྱིས་སྡིག་པ་ཆེན་པོའི་འབྲས་བུ་སྡུག་བསྔལ་ཆེན་པོའང་འཇོམས་པར་མཛད་མ་ཁྱེད་ལའོ། །ཞེས་པ་ནི་ཚིག་འགྲེལ་ཡིན། །
@@ -842,6 +932,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-68)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-48)
 
 ---
 
@@ -853,6 +944,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-49)
 
 #### c-16-1-2 Iconography: utpala topped with a nectar-filled ritual vase
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དུ། རིལ་པ་སྤྱི་བླུགས་བདུད་རྩིས་གང་བ་
@@ -860,6 +952,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-49)
 
 #### c-16-1-3 Practice: ablution from the nectar-vase washes away misdeeds causing lower rebirth
 **བོད་ཡིག:** ལས་ཁྲུས་བྱུང་བས་ངན་སོང་དུ་སྐྱེ་བའི་སྡིག་སྒྲིབ་བཀྲུས་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -867,6 +960,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-69)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-49)
 
 ---
 
@@ -880,6 +974,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-71)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-51)
 
 ### c-17-0-2 Mantra: the ten-syllable OM TĀRE TUTTĀRE TURE SVĀHĀ destroys the enemy's evil mantras
 **བོད་ཡིག:** གཞན་ཡང་ཨཾ་ཏཱ་རེ་ཏུཏྟཱ་རེ་ཏུ་རེ་སྭཱ་ཧྭ་ཞེས་ཡི་གེ་བཅུ་པའི་གསུང་ངག་དེ་ནི། འབྲལ་མེད་བཀོད་པའི་རིག་པ་ཆེན་པོའི་སྔགས་བཟླ་ཞིང་བསྐྱེད་རིམ་གསལ་བའི་སྒོ་ནས་ཐུགས་ཀར་ཧཱུཾ་ལས་བྱུང་བའི་འོད་ཟེར་གྱིས་ཕ་རོལ་པོའི་ངན་སྔགས་བར་ཆད་ཐམས་ཅད་ཀྱི་སྟོབས་གཞོམ་པར་བྱེད་པའི་སྒྲོལ་མ་ཉིད་ཁོ་ན་ཡིན་པས་འཕགས་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -887,6 +982,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (stated — named as སྒྲོལ་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-72)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-52)
 
 ---
 
@@ -898,6 +994,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-53)
 
 #### c-17-1-2 Iconography: utpala topped with a crossed double-vajra
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས་གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་། རྡོ་རྗེ་རྒྱ་གྲམ་
@@ -905,6 +1002,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-53)
 
 #### c-17-1-3 Practice: light from the crossed vajra destroys enemies' and sorcerers' power
 **བོད་ཡིག:** ལས་འོད་ཟེར་འཕྲོས་པས་དགྲ་བོ་བྱད་མའི་མཐུ་སྟོབས་ངག་ནུས་ཐམས་ཅད་བཤིག་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -912,6 +1010,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-73)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-53)
 
 ---
 
@@ -925,6 +1024,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-75)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-55)
 
 ### c-18-0-2 Activity: her power shakes Mount Meru, Mandara, and Vibhedaka, subduing bandits
 **བོད་ཡིག:** རིའི་རྒྱལ་པོ་རི་རབ་དང་མནྡ་ར་དང་།རི་བོ་འབིགས་བྱེད་ཅེས་རི་བོ་གངས་ཅན་དང་། འཇིག་རྟེན་གསུམ་རྣམས་གཡོ་བར་མཛད་པའི་མཐུ་སྟོབས་ཀྱིས་ཕ་རོལ་དགྲ་ཇག་སོགས་མནན་ཏེ་འགྲོ་རྣམས་བདེ་བར་འགོད་པར་མཛད་མ་ཉིད་ནི་འཕགས་མ་ཁྱེད་ལའོ།
@@ -932,6 +1032,7 @@ status: draft
 **Type:** activity
 **Referent:** FIG-1 (stated — named as འཕགས་མ within this claim's own quotation), PLC-1 (stated — Mount Meru, named as རི་རབ), PLC-2 (stated — Mandara, named as མནྡ་ར), PLC-3 (stated — Vibhedaka, named as རི་བོ་འབིགས་བྱེད)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-76)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-55)
 
 ---
 
@@ -943,6 +1044,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-56)
 
 #### c-18-1-2 Iconography: utpala topped with a stupa, innumerable HŪM light-syllables
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དུ། མཆོད་རྟེན་དང་། ཐུགས་ཀའི་ཧཱུཾ་ལས་འོད་ཟེར་ཧཱུཾ་ཡིག་གྲངས་མེད་དང་།
@@ -950,6 +1052,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-56)
 
 #### c-18-1-3 Practice: stamping shakes the three mountains and realms, treading objects underfoot
 **བོད་ཡིག:** ཞབས་མཐིལ་ས་ལ་བརྡབས་པས་རི་རབ་དང་། མནྡཱ་ར། འབིབས་བྱེད། ཁམས་གསུམ་གཡོ་བའི་སྟོབས་ཀྱིས་དམིགས་བྱ་རྣམས་ཞབས་འོག་ཏུ་མནན་པར་བསྒོམས་ནི་དམིགས་རིམ་ཡིན།
@@ -957,6 +1060,7 @@ status: draft
 **Type:** practice
 **Referent:** PLC-1 (stated — named as རི་རབ), PLC-2 (stated — named as མནྡཱ་ར), PLC-3 (node — this claim's own quotation spells the name འབིབས་བྱེད, a variant spelling of the registered Grounding-index name རི་བོ་འབིགས་བྱེད attested at node 18's own opening)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-77)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-56)
 
 ---
 
@@ -970,6 +1074,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-79)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-58)
 
 ### c-19-0-2 Mantra: the ten-syllable mantra with twice-uttered TĀRA and PHAT dispels all moving poisons
 **བོད་ཡིག:** ཏཱ་ར་གཉིས་བརྗོད་པ་ཅན་གྱི་རིག་སྔགས་ཡི་གེ་བཅུ་པ་ལ་ཕཊ་ཀྱིས་བརྒྱན་པའི་ཡི་གེ་ཅན་གྱིས་རིག་སྔགས་བཟླས་པས་གཡོ་བའི་དུག་རྣམས་མ་ལུས་པ་ནི་སེལ་བར་མཛད་མ་རྗེ་བཙུན་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -977,6 +1082,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node — this claim's own quotation names her རྗེ་བཙུན་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-80)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-58)
 
 ---
 
@@ -988,6 +1094,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་རྨ་བྱ་ཆེན་མོ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-59)
 
 #### c-19-1-2 Iconography: utpala topped with a deer-marked full moon
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན།གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་ན། ཟླ་བ་ཉ་གང་བ་རི་དྭགས་རྟགས་ཅན་
@@ -995,6 +1102,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-59)
 
 #### c-19-1-3 Practice: light rays from the moon destroy fixed and moving poisons
 **བོད་ཡིག:** ལས་འོད་ཟེར་ཕྱོགས་ཀུན་ཏུ་འཕྲོ་པས་བརྟན་གཡོའི་དུག་རྣམས་བཅོམ་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -1002,6 +1110,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-81)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-59)
 
 ---
 
@@ -1015,6 +1124,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (node), FIG-5 (stated — named as ཚངས), FIG-3 (stated — named as བརྒྱ་བྱིན)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-83)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-61)
 
 ### c-20-0-2 Identification/benefit: her three doors' splendour dispels disputes and bad dream-signs
 **བོད་ཡིག:** འཕགས་མ་གདུགས་དཀར་མོས་ཀུན་ནས་བྱིན་གྱིས་བརླབས་པའི་སྔགས་དང་ཕྱག་རྒྱའི་གོ་ཆ་དགའ་བས་འཕགས་མ་ཁྱེད་ཉིད་གོ་པོའི་སྒོ་གསུམ་གཟི་བརྗིད་ཀྱིས་ཕ་རོལ་པོའི་རྩོད་པ་དང་། རྨི་ལམ་མཚན་མ་ངན་པ་རྣམས་ཡོངས་སུ་སེལ་བར་མཛད་པའི་འཕགས་མ་ཁྱེད་ལའོ། ཞེས་ཚིག་འགྲེལ་ཡིན།
@@ -1022,6 +1132,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-84)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-61)
 
 ---
 
@@ -1033,6 +1144,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་མི་ཕམ་གདུགས་དཀར་མོ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-62)
 
 #### c-20-1-2 Iconography: utpala topped with a white umbrella radiating vajra-fire sparks
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ།ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་སྟེང་ན་གདུགས་དཀར་པོ་ལས་རྡོ་རྗེའི་མེ་ཡི་ཚྭ་ཚྭ་འཕྲོས་པས
@@ -1040,6 +1152,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-62)
 
 #### c-20-1-3 Practice: dispels opponents' disputes and elementally-disturbed bad dreams
 **བོད་ཡིག:** རྒོལ་ངན་གྱི་རྩོད་པ་དང་། འབྱུང་བ་འཁྲུགས་པའི་རྨི་ལམ་ངན་པ་བསལ་བར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -1047,6 +1160,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-85)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-62)
 
 ---
 
@@ -1060,6 +1174,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-87)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-64)
 
 ### c-21-0-2 Mantra: the ten-syllable mantra with twice HA RA and TUTTĀRA dispels epidemic disease
 **བོད་ཡིག:** རྩ་བའི་རིག་སྔགས་བཅུ་པ་ལ་ཧཱ་ར་གཉིས་ལྡན་གྱི་བརྗོད་པ་ཏུཏྟཱ་ར་ཡིས་ཤིན་ཏུ་དྲག་པོའི་རིམས་ནད་གསོ་དཀའ་བ་རྣམས་ཀྱང་སེལ་བར་མཛད་མ་ཁྱེད་ལའོ། ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -1067,6 +1182,7 @@ status: draft
 **Type:** mantra
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-88)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-64)
 
 ---
 
@@ -1078,6 +1194,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་རི་ཁྲོད་ལོ་གྱོན་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-89)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-65)
 
 #### c-21-1-2 Iconography: utpala topped with a nectar-filled medicine casket
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན། གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་ན།བདུད་རྩིས་གང་བའི་ཟ་མ་ཏོག་
@@ -1085,6 +1202,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-89)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-65)
 
 #### c-21-1-3 Practice: light from the medicine casket burns away and cures disease
 **བོད་ཡིག:** ལས་འོད་ཟེར་འཕྲོས་པས་ནད་བདག་དང་ནད་རིམས་བསྲེག་ཅིང་གསོ་བར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -1092,6 +1210,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-89)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-65)
 
 ---
 
@@ -1105,6 +1224,7 @@ status: draft
 **Type:** practice
 **Referent:** FIG-1 (stated — named as འཕགས་མའི within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-91)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-67)
 
 ### c-22-0-2 Doctrinal: destroys the eighteen classes of spirits, zombies, elementals, and radiance-stealing yakshas
 **བོད་ཡིག:** གདོན་རིགས་བཅོ་བརྒྱད་སོགས་དང་རོ་ལང༵ས་འབྱུང་པོ།མདངས་འཕྲོག་པའི་གནོད་སྦྱིན་སོགས་ཀྱི་ཚོགས་རྣམས་ཀྱི་བསམ་སྦྱོར་ངན་པ་རྣམས་འཇོམས་པར་མཛད་མ།
@@ -1112,6 +1232,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-92)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-67)
 
 ### c-22-0-3 Etymology: "Ture" (Swift One), she of supreme loving-kindness
 **བོད་ཡིག:** ཏཱུ་རེ་སྟེ་མྱུར་མ་ཁྱེད་ཐུགས་རབ་ཏུ་བརྩེ་བའི་མཆོག་གི་བདག་ཉིད་མ་ཁྱེད་ལའོ། །ཞེས་པ་ནི་ཚིག་འགྲེལ་ལོ།
@@ -1119,6 +1240,7 @@ status: draft
 **Type:** etymology
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-92)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-67)
 
 ---
 
@@ -1130,6 +1252,7 @@ status: draft
 **Type:** identification
 **Referent:** FIG-1 (stated — named as འཕགས་མ་ལྷ་མོ་འོད་ཟེར་ཅན་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-68)
 
 #### c-22-1-2 Iconography: utpala topped with a golden fish radiating light
 **བོད་ཡིག:** པད་ཟླའི་སྟེང་དུ་ཞབས་ཕྱེད་སྐྱིལ། ཞལ་གཅིག་ཕྱག་གཉིས། གཡས་མཆོག་སྦྱིན།གཡོན་ཨུཏྤལ་འཛིན་པའི་སྟེང་དུ་གསེར་ཉ་ལས་འོད་ཟེར་འཕྲོས་པས།
@@ -1137,6 +1260,7 @@ status: draft
 **Type:** iconography
 **Referent:** FIG-1 (node)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-68)
 
 #### c-22-1-3 Practice: retrieves the sick person's stolen life-force
 **བོད་ཡིག:** ནད་པའི་བླ་ཚེ་བརྐུས་པ་སླར་བཀུག་ནས་ཐོབ་པར་བསྒོམས་པ་ནི་དམིགས་རིམ་ཡིན།
@@ -1144,6 +1268,7 @@ status: draft
 **Type:** practice
 **Referent:** [unanchored] — generic meditation instruction
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-93)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^1-68)
 
 ---
 
@@ -1157,6 +1282,7 @@ status: draft
 **Type:** doctrinal
 **Referent:** FIG-1 (stated — named as སྒྲོལ་མ, འཕགས་མ within this claim's own quotation)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-96)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^2-3)
 
 ---
 
@@ -1170,6 +1296,7 @@ status: draft
 **Type:** attribution
 **Referent:** PER-1 (stated — Sangye Nyentrul, named as སངས་རྒྱས་མཉན་སྤྲུལ), PER-2 (stated — Tāranātha, named as ཏཱ་ར་ན་ཐ), PER-3 (stated — Jigme Lingpa, named as ཀུན་མཁྱེན་འཇིགས་མེད་གླིང་པ), PER-4 (stated — Tenzin Rabgye, named as རྒྱལ་སྲས་བསྟན་འཛིན་རབ་རྒྱས)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-97)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^a-1)
 
 ### c-24-2 Structural: purpose is to benefit those who diligently practice continual Tārā practice, given that elaborate commentaries are hard to understand
 **བོད་ཡིག:** ཕྱག་འཚལ་ཉེར་གཅིག་གི་རྒྱས་འགྲེལ་ནི་ཀློག་པ་པོ་ཉུང་ཞིང་དོན་རྟོགས་དཀའ་བ་ལ་རྟེན། རྒྱུན་ལྡན་སྒྲོལ་མའི་ཉམས་ལེན་ལ་བརྩོན་པ་རྣམས་ལ་ཕན་དུ་རེ་བས།
@@ -1177,6 +1304,7 @@ status: draft
 **Type:** structural
 **Referent:** FIG-1 (node — this claim's own quotation names her སྒྲོལ་མ, a valid epithet not identical to the registered Grounding-index name འཕགས་མ)
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-97)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^a-1)
 
 ### c-24-3 Dedication: may this become a cause of benefit for all
 **བོད་ཡིག:** ཀུན་ལ་སྨན་པའི་རྒྱུར་གྱུར་ཅིག།
@@ -1184,6 +1312,7 @@ status: draft
 **Type:** benefit
 **Referent:** [unanchored] — a closing dedication verse, no Grounding-index referent named in this claim's own quotation
 **Cite:** (1-SOURCES/Commentaries/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md#^0-97)
+**Library:** (1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md#^a-1)
 
 ---
 

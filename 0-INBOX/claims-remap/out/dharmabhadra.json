@@ -16,8 +16,7 @@
  },
  "verdicts": {
   "confirmed": 140,
-  "confirmed-fuzzy": 7,
-  "quote-wins-fuzzy": 1
+  "confirmed-fuzzy": 8
  },
  "claims": [
   {
@@ -2296,11 +2295,11 @@
     "0-83"
    ],
    "new_refs": [
-    "2-3-4-0"
+    "2-55"
    ],
-   "verdict": "quote-wins-fuzzy",
+   "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.941,
    "cite_map_refs": [
     "2-55"
    ],
@@ -2606,7 +2605,7 @@
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 0.952,
+   "quote_score": 0.905,
    "cite_map_refs": [
     "2-63"
    ],

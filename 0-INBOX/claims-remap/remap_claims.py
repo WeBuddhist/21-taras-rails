@@ -124,11 +124,54 @@ def find_quote(q, new_toks, new_owner, cited, near):
     return min(hits, key=lambda i: abs(i - near)) if near is not None else hits[0]
 
 
-def fuzzy_quote(q, new_toks, lo, hi):
-    sm = SequenceMatcher(None, q, new_toks[lo:hi], autojunk=False)
-    got = [(b + lo, n) for _, b, n in sm.get_matching_blocks() if n]
-    matched = sum(n for _, n in got)
-    return matched / len(q), got
+def fuzzy_quote(q, new_toks, new_owner, lo, hi):
+    """Anchor on the longest exact run inside [lo, hi), then score the quote against a tight
+    region around it, so a short quote's syllables are not collected from all over the file."""
+    window = new_toks[lo:hi]
+    a, b, n = SequenceMatcher(None, q, window, autojunk=False).find_longest_match(0, len(q), 0, len(window))
+    if not n:
+        return 0.0, set()
+    start = max(0, lo + b - a - 5)
+    end = min(len(new_toks), start + len(q) + 15)
+    got = [(j + start, k) for _, j, k in
+           SequenceMatcher(None, q, new_toks[start:end], autojunk=False).get_matching_blocks() if k]
+    matched = sum(k for _, k in got)
+    touched = {}
+    for j, k in got:
+        for i in range(j, j + k):
+            touched[new_owner[i]] = touched.get(new_owner[i], 0) + 1
+    keep = {o for o, k in touched.items() if k >= 0.15 * matched}
+    return matched / len(q), keep
+
+
+def locate(fragments, new_toks, new_owner, cited, near, span):
+    """Each ellipsis-separated fragment is found on its own; refs are their union."""
+    refs, matched, total, exact = set(), 0.0, 0, True
+    for q in fragments:
+        pos = find_quote(q, new_toks, new_owner, cited, near)
+        if pos is not None:
+            refs |= {new_owner[i] for i in range(pos, pos + len(q))}
+            matched += len(q)
+        else:
+            exact = False
+            windows = []
+            if cited:
+                idx = [i for i, o in enumerate(new_owner) if o in cited]
+                windows.append((idx[0], idx[-1] + 1))
+            if near is not None:
+                windows.append((max(0, near - 400), min(len(new_toks), near + 400 + span)))
+            windows.append((0, len(new_toks)))
+            for lo, hi in windows:              # the cited blocks first, then wider
+                score, keep = fuzzy_quote(q, new_toks, new_owner, lo, hi)
+                if score >= 0.6:
+                    break
+            if score >= 0.6:
+                refs |= keep
+            matched += score * len(q)
+        total += len(q)
+    if not total:
+        return [], 0.0, None
+    return sorted(refs), round(matched / total, 3), "exact" if exact else "fuzzy"
 
 
 def parse_claims(path):
@@ -137,11 +180,18 @@ def parse_claims(path):
     claims, cur = [], None
     for line in text.splitlines():
         h = re.match(r"^#+\s+(c-[0-9a-zA-Z-]+)\s*(.*)$", line)
-        if h:
-            cur = {"claim_id": h[1], "label": h[2], "quote": "", "cites": []}
+        t = re.match(r"^⚑\s+\*\*(c-[0-9a-zA-Z-]+)\s*(.*?)\*\*\s*$", line)   # tension entry
+        if h or t:
+            m = h or t
+            cur = {"claim_id": m[1], "label": m[2], "quote": "", "cites": []}
             claims.append(cur)
+        elif line.startswith("#"):
+            cur = None
         elif cur and line.startswith("**བོད་ཡིག:**"):
             cur["quote"] = line.split("**བོད་ཡིག:**", 1)[1].strip()
+        elif cur and re.match(r"^-\s*\*\*Position\s+\d+:\*\*", line):
+            # a tension's positions are verbatim fragments; joined, they act as its quote
+            cur["quote"] += " … " + line.split(":**", 1)[1].strip()
         elif cur and line.startswith("**Cite:**"):
             cur["cites"] = re.findall(r"\^([A-Za-z0-9-]+)", line)
     return fm, claims
@@ -195,26 +245,9 @@ def remap(rid):
         cited = {n for n in cite_new if cite_new[n] >= max(1, 0.1 * max(cite_new.values()))}
         cite_refs = [nref(n) for n in sorted(cited)]
 
-        q = tokens(re.sub(r"…|\.\.\.", " ", c["quote"]))
-        quote_refs, quote_score, how = [], 0.0, None
-        pos = find_quote(q, ntoks, nown, cited, near)
-        if pos is not None:
-            quote_refs = sorted({nown[i] for i in range(pos, pos + len(q))})
-            quote_score, how = 1.0, "exact"
-        elif q:
-            if near is not None:
-                lo, hi = max(0, near - 400), min(len(ntoks), near + 400 + sum(cite_new.values()))
-            else:
-                lo, hi = 0, len(ntoks)
-            quote_score, got = fuzzy_quote(q, ntoks, lo, hi)
-            quote_score = round(quote_score, 3)
-            touched = {}
-            for b, n in got:
-                if n >= (1 if len(q) <= 6 else 3):
-                    for i in range(b, b + n):
-                        touched[nown[i]] = touched.get(nown[i], 0) + 1
-            quote_refs = sorted(touched)
-            how = "fuzzy"
+        fragments = [f for f in (tokens(x) for x in re.split(r"…|\.\.\.", c["quote"])) if f]
+        q = [t for f in fragments for t in f]
+        quote_refs, quote_score, how = locate(fragments, ntoks, nown, cited, near, sum(cite_new.values()))
         quote_refs = [nref(i) for i in quote_refs]
 
         if how == "exact" and (not cite_refs or set(quote_refs) & set(cite_refs)):

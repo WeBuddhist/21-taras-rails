@@ -16,7 +16,8 @@
  },
  "verdicts": {
   "confirmed": 124,
-  "confirmed-fuzzy": 7
+  "quote-wins-fuzzy": 1,
+  "confirmed-fuzzy": 11
  },
  "claims": [
   {
@@ -74,6 +75,20 @@
    ],
    "cite_coverage": 1.0,
    "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-4",
+   "label": "Tantra classification — Kriyātantra vs. Anuttarayogatantra",
+   "old_cites": [],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "quote-wins-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.632,
+   "cite_map_refs": [],
+   "cite_coverage": null,
+   "quote_in_cited_old_block": false
   },
   {
    "claim_id": "c-0-5",
@@ -158,7 +173,7 @@
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.929,
    "cite_map_refs": [
     "1-1"
    ],
@@ -583,8 +598,7 @@
    "claim_id": "c-2-2-2-2-1-1-1-3",
    "label": "Gloss: the unwaning full autumn moon, radiance surpassing a thousand stars",
    "old_cites": [
-    "0-20",
-    "0-21"
+    "0-20"
    ],
    "new_refs": [
     "2-4"
@@ -597,6 +611,25 @@
    ],
    "cite_coverage": 1.0,
    "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-2-2-2-1-1-1-4",
+   "label": "Textual-variant tension: \"a hundred stacked\" vs. \"sixteen teeth, thirty-two marks\"",
+   "old_cites": [
+    "0-20",
+    "0-21"
+   ],
+   "new_refs": [
+    "2-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.75,
+   "cite_map_refs": [
+    "2-4"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": false
   },
   {
    "claim_id": "c-2-2-2-2-1-1-1-5",
@@ -1545,7 +1578,7 @@
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
-   "quote_score": 1.0,
+   "quote_score": 0.929,
    "cite_map_refs": [
     "2-16"
    ],
@@ -1628,8 +1661,7 @@
    "claim_id": "c-2-2-2-2-2-2",
    "label": "Verse 16a quoted: blissful, virtuous, peaceful, whose domain is peaceful nirvāṇa",
    "old_cites": [
-    "0-78",
-    "0-79"
+    "0-77"
    ],
    "new_refs": [
     "2-17"
@@ -1637,6 +1669,25 @@
    "verdict": "confirmed",
    "quote_match": "exact",
    "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-17"
+   ],
+   "cite_coverage": 0.941,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-2-2-2-2-3",
+   "label": "Two interpretive traditions for \"blissful, virtuous, peaceful, nirvāṇa\": simple four-quality gloss vs. four-path mapping",
+   "old_cites": [
+    "0-78",
+    "0-79"
+   ],
+   "new_refs": [
+    "2-17"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.85,
    "cite_map_refs": [
     "2-17"
    ],
@@ -2025,7 +2076,7 @@
    "claim_id": "c-2-2-2-3-5-1",
    "label": "Fifth: Tārā's activity of dispelling epidemic disease",
    "old_cites": [
-    "0-102"
+    "0-101"
    ],
    "new_refs": [
     "2-22"
@@ -2033,6 +2084,24 @@
    "verdict": "confirmed",
    "quote_match": "exact",
    "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-22"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-2-2-3-5-2",
+   "label": "Textual-variant tension: which eye (right/left) is sun-like/wrathful vs. moon-like/peaceful",
+   "old_cites": [
+    "0-102"
+   ],
+   "new_refs": [
+    "2-22"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.629,
    "cite_map_refs": [
     "2-22"
    ],
@@ -2334,24 +2403,43 @@
    "claim_id": "c-2-2-3-4-1",
    "label": "Fourth [division of the benefits-teaching]: the condensed benefits taught by way of numbers",
    "old_cites": [
-    "0-113",
-    "0-114",
-    "0-116"
+    "0-113"
    ],
    "new_refs": [
-    "2-3-4-0",
     "2-30"
    ],
    "verdict": "confirmed-fuzzy",
    "quote_match": "fuzzy",
    "quote_score": 0.909,
    "cite_map_refs": [
+    "2-30"
+   ],
+   "cite_coverage": 0.986,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-2-3-4-2",
+   "label": "Three attributed readings of \"recited twice/thrice/seven times\" (numbers \"two\" and \"three\")",
+   "old_cites": [
+    "0-113",
+    "0-114",
+    "0-116"
+   ],
+   "new_refs": [
+    "2-30",
+    "2-31",
+    "2-32"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.831,
+   "cite_map_refs": [
     "2-30",
     "2-31",
     "2-32"
    ],
    "cite_coverage": 0.991,
-   "quote_in_cited_old_block": true
+   "quote_in_cited_old_block": false
   },
   {
    "claim_id": "c-2-2-3-4-3",
