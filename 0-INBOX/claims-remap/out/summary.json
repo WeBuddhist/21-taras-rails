@@ -1,0 +1,175 @@
+[
+ {
+  "registered_id": "karma-maitri",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/ཕྱག་འཚལ་སྒྲོལ་མ་ཉེར་གཅིག་གི་བསྟོད་པའི་བསྡུས་འགྲེལ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-ཀརྨ་མཻ་ཏྲི།.md",
+  "library": {
+   "text_id": "IZpPQackQMjMsG6i9laM3",
+   "edition_id": "EPWPiXyjSDcgewleXnbIj",
+   "toc_id": "jUgourpgWtZRVAfdftIz0",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 2143,
+   "new": 2108,
+   "aligned": 2042,
+   "old_aligned_share": 0.953
+  },
+  "verdicts": {
+   "confirmed": 151,
+   "confirmed-fuzzy": 12
+  }
+ },
+ {
+  "registered_id": "taranatha",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་པའི་རྣམ་པར་བཤད་པ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-ཏཱ་ར་ན་ཐ།.md",
+  "library": {
+   "text_id": "zbAO8BchLZ09EiGSm9DrR",
+   "edition_id": "rm5AmphMXQyUW3EMmjybA",
+   "toc_id": "a601xYGZ9o0jNmjdarpM8",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 7799,
+   "new": 7706,
+   "aligned": 7573,
+   "old_aligned_share": 0.971
+  },
+  "verdicts": {
+   "confirmed": 293,
+   "quote-wins": 20,
+   "confirmed-fuzzy": 55
+  }
+ },
+ {
+  "registered_id": "dharmabhadra",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/སྒྲོལ་མར་ཕྱག་འཚལ་ཉེར་གཅིག་གིས་བསྟོད་པའི་རྣམ་བཤད་ཡིད་འཕྲོག་ཨུཏྤལའི་ཆུན་པོ་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-དངུལ་ཆུ་དྷརྨ་བྷ་དྲ།.md",
+  "library": {
+   "text_id": "8x7kZUDklxT6ZP6C29KpN",
+   "edition_id": "b0NiLO9CIGktSFgsbsYR7",
+   "toc_id": "adfwe7AputCkis0V0EkR8",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 4305,
+   "new": 5592,
+   "aligned": 4233,
+   "old_aligned_share": 0.983
+  },
+  "verdicts": {
+   "confirmed": 140,
+   "confirmed-fuzzy": 7,
+   "quote-wins-fuzzy": 1
+  }
+ },
+ {
+  "registered_id": "pema-namgyal",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/ཕྱག་འཚལ་ཉེར་གཅིག་གི་བསྟོད་འགྲེལ་བདུད་རྩིའི་དགའ་ཚལ་བཞུགས་སོ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-པདྨ་རྣམ་རྒྱལ།.md",
+  "library": {
+   "text_id": "t2pCadlPdCq0RLMMBTMWK",
+   "edition_id": "rAzfQ2Etm7B299mMEFQUb",
+   "toc_id": "rt7JC3DaDkyJRxPDpGL13",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 4612,
+   "new": 4550,
+   "aligned": 4477,
+   "old_aligned_share": 0.971
+  },
+  "verdicts": {
+   "confirmed": 96,
+   "confirmed-fuzzy": 8
+  }
+ },
+ {
+  "registered_id": "tenga-tulku",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཕན་ཡོན་དང་བཅས་པ་གསལ་བའི་མེ་ལོང་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-བསྟན་དགའ་སྤྲུལ་སྐུ།.md",
+  "library": {
+   "text_id": "0Mf7CNevYyHI8TTBh3RHW",
+   "edition_id": "B8oZ0xtFaCCSswH0MqLNW",
+   "toc_id": "MWl89fxcxJJyrLoEKWSvw",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 6800,
+   "new": 6439,
+   "aligned": 6330,
+   "old_aligned_share": 0.931
+  },
+  "verdicts": {
+   "confirmed": 97,
+   "quote-wins": 25,
+   "confirmed-fuzzy": 15,
+   "quote-wins-fuzzy": 2,
+   "absent-from-edition": 18
+  }
+ },
+ {
+  "registered_id": "gendun-drub",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/སྒྲོལ་མ་ཕྱག་འཚལ་ཉེར་གཅིག་གི་ཊཱིཀྐ་རིན་པོ་ཆེའི་ཕྲེང་བ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-རྒྱལ་བ་དགེ་འདུན་གྲུབ།.md",
+  "library": {
+   "text_id": "FLkNt28DzdIV3eEgYBdYi",
+   "edition_id": "iNygWczubSeZPsjP2LEwH",
+   "toc_id": "FccnNEZparPBV4qizIZLp",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 4614,
+   "new": 4602,
+   "aligned": 4555,
+   "old_aligned_share": 0.987
+  },
+  "verdicts": {
+   "confirmed": 124,
+   "confirmed-fuzzy": 7
+  }
+ },
+ {
+  "registered_id": "drakpa-gyaltsen",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md",
+  "library": {
+   "text_id": "nmGX5G3SzfoiNdvbp6YQq",
+   "edition_id": "n0meYebRr1clD2ysfDjyK",
+   "toc_id": "QTIyaxmOCZ7EMH3UDJDrh",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 3002,
+   "new": 2935,
+   "aligned": 2913,
+   "old_aligned_share": 0.97
+  },
+  "verdicts": {
+   "confirmed": 59,
+   "confirmed-fuzzy": 83
+  }
+ },
+ {
+  "registered_id": "sangye-nyentrul",
+  "old_file": "1-SOURCES/Commentaries/used for wiki/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md",
+  "new_file": "1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md",
+  "library": {
+   "text_id": "exz1MI85hysNKQK45uPzf",
+   "edition_id": "EwjzyZ1asr7jdvWzXMlJH",
+   "toc_id": "6Dl8FTtBtujD5jzG9EAKN",
+   "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+  },
+  "syllables": {
+   "old": 5764,
+   "new": 5647,
+   "aligned": 5515,
+   "old_aligned_share": 0.957
+  },
+  "verdicts": {
+   "confirmed": 104,
+   "confirmed-fuzzy": 21
+  }
+ }
+]

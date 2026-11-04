@@ -1,0 +1,2276 @@
+{
+ "registered_id": "sangye-nyentrul",
+ "old_file": "1-SOURCES/Commentaries/used for wiki/རྗེ་བཙུན་མ་འཕགས་མ་སྒྲོལ་མ་ཉི་ཤུ་རྩ་གཅིག་གི་ཚིག་འགྲེལ་དང་དམིགས་རིམ་ཉུང་ངུར་བཀོད་པ་འཕགས་མའི་བྱིན་རླབས་གྲུ་ཆར་བཞུགས།།.md",
+ "new_file": "1-SOURCES/Commentaries/New raw data/bo-སངས་རྒྱས་མཉན་པ་རིན་པོ་ཆེ།.md",
+ "library": {
+  "text_id": "exz1MI85hysNKQK45uPzf",
+  "edition_id": "EwjzyZ1asr7jdvWzXMlJH",
+  "toc_id": "6Dl8FTtBtujD5jzG9EAKN",
+  "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+ },
+ "syllables": {
+  "old": 5764,
+  "new": 5647,
+  "aligned": 5515,
+  "old_aligned_share": 0.957
+ },
+ "verdicts": {
+  "confirmed": 104,
+  "confirmed-fuzzy": 21
+ },
+ "claims": [
+  {
+   "claim_id": "c-0-1",
+   "label": "Title of the work",
+   "old_cites": [
+    "0-1"
+   ],
+   "new_refs": [
+    "0"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "0"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-2",
+   "label": "Opening homage verse: mere recollection of her feet frees from suffering",
+   "old_cites": [
+    "0-2"
+   ],
+   "new_refs": [
+    "I-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "I-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-1",
+   "label": "Structural framing: a brief commentary suited to this degenerate age",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "1-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-1",
+    "1-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-2",
+   "label": "Etymology: OM marks the three vajras",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-3",
+   "label": "Etymology: \"Jetsunma\" (Reverend Lady)",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-4",
+   "label": "Etymology: \"Phagma\" (Noble Lady)",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-5",
+   "label": "Etymology: \"Drolma\" (Saviouress) frees beings from great fears",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": false
+  },
+  {
+   "claim_id": "c-1-6",
+   "label": "Closing prostration of the opening line",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": false
+  },
+  {
+   "claim_id": "c-2-0-1",
+   "label": "Identification: embodiment of all buddhas' activity, freeing beings from karma via love",
+   "old_cites": [
+    "0-6"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.985,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-0-2",
+   "label": "Etymology: \"Swift\" — never idle in benefiting beings",
+   "old_cites": [
+    "0-6"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.985,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-0-3",
+   "label": "Etymology: \"Heroine\" — unimpeded power to accomplish",
+   "old_cites": [
+    "0-6"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.985,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-0-4",
+   "label": "Iconography/etymology: wisdom-eyes like lightning",
+   "old_cites": [
+    "0-7"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.967,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-0-5",
+   "label": "Identification: Tārā arose from Avalokiteshvara's tears of compassion",
+   "old_cites": [
+    "0-8"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.984,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-1-1",
+   "label": "Function of this form: increases bodhicitta and gathers appearances",
+   "old_cites": [
+    "0-9"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-1-2",
+   "label": "Iconography: red body, wrathful-smiling, mudras with utpala and conch",
+   "old_cites": [
+    "0-9"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-1-3",
+   "label": "Practice: visualize bodhicitta pervading the whole world",
+   "old_cites": [
+    "0-9"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-3-0-1",
+   "label": "Iconography: face like a hundred stacked autumn moons",
+   "old_cites": [
+    "0-11"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.98,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-3-0-2",
+   "label": "Identification: Tārā Dbyangs-can-ma, blazing with the four correct knowledges",
+   "old_cites": [
+    "0-12"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.98,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-3-1-1",
+   "label": "Function of this form: increases the power of insight and intelligence",
+   "old_cites": [
+    "0-13"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-3-1-2",
+   "label": "Iconography: white body, utpala with mirror and HRIH seed-syllable",
+   "old_cites": [
+    "0-13"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-3-1-3",
+   "label": "Practice: light from the mirror dispels ignorance and opens the treasury of wisdom",
+   "old_cites": [
+    "0-13"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-4-0-1",
+   "label": "Iconography: golden body, blue water-born utpala in left hand",
+   "old_cites": [
+    "0-15"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.971,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-4-0-2",
+   "label": "Doctrinal: mastery of the ocean of bodhisattva conduct through the six perfections",
+   "old_cites": [
+    "0-16"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.984,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-4-1-1",
+   "label": "Identification: Yellow Noble Lady, Supreme Bestower of Merit",
+   "old_cites": [
+    "0-17"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-4-1-2",
+   "label": "Iconography: utpala topped with a wish-fulfilling jewel",
+   "old_cites": [
+    "0-17"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-4-1-3",
+   "label": "Practice: light from the jewel pervades space",
+   "old_cites": [
+    "0-17"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-0-1",
+   "label": "Identification: emanation from the Tathāgatas' ushnisha",
+   "old_cites": [
+    "0-19"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.938,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-0-2",
+   "label": "Etymology: \"Victorious\" over the faults of cyclic existence",
+   "old_cites": [
+    "0-20"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.95,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-0-3",
+   "label": "Doctrinal: perfected abandonment and realization, relied upon by buddhas and bodhisattvas",
+   "old_cites": [
+    "0-21"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-1-1",
+   "label": "Identification: Ushnisha Vijaya of deathless-life attainment, golden body",
+   "old_cites": [
+    "0-22"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-1-2",
+   "label": "Iconography: utpala topped with a vase of deathless life",
+   "old_cites": [
+    "0-22"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-5-1-3",
+   "label": "Practice: nectar from the vase dissolves into self and others, attaining deathless life",
+   "old_cites": [
+    "0-22"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-6-0-1",
+   "label": "Mantra/doctrinal: TUTTĀRA blazes light, HŪM fills the three realms",
+   "old_cites": [
+    "0-24"
+   ],
+   "new_refs": [
+    "1-17"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-17"
+   ],
+   "cite_coverage": 0.985,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-6-0-2",
+   "label": "Doctrinal: the seven worlds subjugated, power to summon anything",
+   "old_cites": [
+    "0-25"
+   ],
+   "new_refs": [
+    "1-17"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.98,
+   "cite_map_refs": [
+    "1-17"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-6-1-1",
+   "label": "Identification: red Goddess of Knowledge who subjugates",
+   "old_cites": [
+    "0-26"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-6-1-2",
+   "label": "Iconography: utpala topped with a drawn bow and arrow",
+   "old_cites": [
+    "0-26"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-6-1-3",
+   "label": "Practice: light radiates from the bow and arrow",
+   "old_cites": [
+    "0-26"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-7-0-1",
+   "label": "Identification: worshipped by the eight directional guardians",
+   "old_cites": [
+    "0-28"
+   ],
+   "new_refs": [
+    "1-20"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.987,
+   "cite_map_refs": [
+    "1-20"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-7-0-2",
+   "label": "Identification: also praised by obstructing spirits, zombies, gandharvas, and Vaishravana's yakshas",
+   "old_cites": [
+    "0-29"
+   ],
+   "new_refs": [
+    "1-20"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.987,
+   "cite_map_refs": [
+    "1-20"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-7-1-1",
+   "label": "Identification: Tārā Great Terrifier who gathers hosts of obstructing spirits",
+   "old_cites": [
+    "0-30"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.938,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-7-1-2",
+   "label": "Iconography: utpala with a vajra-dagger, fire-lasso, and sparks",
+   "old_cites": [
+    "0-30"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-7-1-3",
+   "label": "Practice: destroys spirits causing madness, forgetfulness, and paralysis",
+   "old_cites": [
+    "0-30"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.96,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-8-0-1",
+   "label": "Mantra/etymology: TRAD and PHAT destroy black magic and sorcery",
+   "old_cites": [
+    "0-32"
+   ],
+   "new_refs": [
+    "1-23"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.983,
+   "cite_map_refs": [
+    "1-23"
+   ],
+   "cite_coverage": 0.967,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-8-0-2",
+   "label": "Iconography/activity: bent-and-extended legs tread down dualistic grasping",
+   "old_cites": [
+    "0-33"
+   ],
+   "new_refs": [
+    "1-23"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-23"
+   ],
+   "cite_coverage": 0.986,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-8-1-1",
+   "label": "Identification: black-bodied destroyer of armies and thunderbolt-hail",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-24"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.974,
+   "cite_map_refs": [
+    "1-24"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-8-1-2",
+   "label": "Iconography: hair standing on end, utpala with a blazing fire-sword",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-24"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-24"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-8-1-3",
+   "label": "Practice: annihilates all enemy assassins",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-24"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-24"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-0-1",
+   "label": "Etymology: \"Ture,\" swift as lightning, rises in terrifying form to rescue beings",
+   "old_cites": [
+    "0-36"
+   ],
+   "new_refs": [
+    "1-26"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-26"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-0-2",
+   "label": "Doctrinal: destroys the heroes of Māra — the three poisons, the skandhas, and the lord of death",
+   "old_cites": [
+    "0-37"
+   ],
+   "new_refs": [
+    "1-26"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-26"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-0-3",
+   "label": "Doctrinal: her wrathful form destroys the two obscurations in the dharmadhātu's equality",
+   "old_cites": [
+    "0-38"
+   ],
+   "new_refs": [
+    "1-26"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-26"
+   ],
+   "cite_coverage": 0.986,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-1-1",
+   "label": "Identification: dark-red Heroine Unconquerable by Others, destroyer of weak points",
+   "old_cites": [
+    "0-39"
+   ],
+   "new_refs": [
+    "1-27"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-27"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-1-2",
+   "label": "Iconography: utpala topped with a blazing vajra and spark-garland",
+   "old_cites": [
+    "0-39"
+   ],
+   "new_refs": [
+    "1-27"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-27"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-9-1-3",
+   "label": "Practice: destroys afflictions, weak points, and curses",
+   "old_cites": [
+    "0-39"
+   ],
+   "new_refs": [
+    "1-27"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-27"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-0-1",
+   "label": "Iconography/etymology: the mudra symbolizing the Three Jewels",
+   "old_cites": [
+    "0-41"
+   ],
+   "new_refs": [
+    "1-29"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-29"
+   ],
+   "cite_coverage": 0.979,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-0-2",
+   "label": "Identification: Tārā of the Khadira Forest, protector against the sixteen fears",
+   "old_cites": [
+    "0-42"
+   ],
+   "new_refs": [
+    "1-29"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.983,
+   "cite_map_refs": [
+    "1-29"
+   ],
+   "cite_coverage": 0.983,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-1-1",
+   "label": "Identification: green-blue Tārā of the Khadira Forest, principal among the twenty-one",
+   "old_cites": [
+    "0-43"
+   ],
+   "new_refs": [
+    "1-30"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-30"
+   ],
+   "cite_coverage": 0.988,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-1-2",
+   "label": "Iconography: utpala topped with a radiant wheel",
+   "old_cites": [
+    "0-43"
+   ],
+   "new_refs": [
+    "1-30"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-30"
+   ],
+   "cite_coverage": 0.988,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-1-3",
+   "label": "Practice and special status: protects from the sixteen fears; principal among the twenty-one Tārās",
+   "old_cites": [
+    "0-43"
+   ],
+   "new_refs": [
+    "1-30"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.955,
+   "cite_map_refs": [
+    "1-30"
+   ],
+   "cite_coverage": 0.988,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-1-4",
+   "label": "Doctrinal: the sixteen great fears, enumerated 1–9",
+   "old_cites": [
+    "0-44"
+   ],
+   "new_refs": [
+    "1-31"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-31"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-10-1-5",
+   "label": "Doctrinal: the sixteen great fears, enumerated 10–16",
+   "old_cites": [
+    "0-45"
+   ],
+   "new_refs": [
+    "1-31"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-31"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-11-0-1",
+   "label": "Iconography: marks-and-signs body, radiant jewelled crown ornament",
+   "old_cites": [
+    "0-47"
+   ],
+   "new_refs": [
+    "1-33"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-33"
+   ],
+   "cite_coverage": 0.976,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-11-0-2",
+   "label": "Mantra/activity: eightfold laughter and TUTTĀRA subjugate the world",
+   "old_cites": [
+    "0-48"
+   ],
+   "new_refs": [
+    "1-33"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-33"
+   ],
+   "cite_coverage": 0.985,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-11-1-1",
+   "label": "Identification: red Tārā who subjugates the world, victorious over the three worlds",
+   "old_cites": [
+    "0-49"
+   ],
+   "new_refs": [
+    "1-34"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-34"
+   ],
+   "cite_coverage": 0.987,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-11-1-2",
+   "label": "Iconography: utpala topped with a radiant victory banner",
+   "old_cites": [
+    "0-49"
+   ],
+   "new_refs": [
+    "1-30",
+    "1-34"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.96,
+   "cite_map_refs": [
+    "1-34"
+   ],
+   "cite_coverage": 0.987,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-11-1-3",
+   "label": "Practice: subjugates the desire-gods and the Paranirmitavaśavartin host",
+   "old_cites": [
+    "0-49"
+   ],
+   "new_refs": [
+    "1-34"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-34"
+   ],
+   "cite_coverage": 0.987,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-12-0-1",
+   "label": "Identification: summons the earth-goddess, naga king Nanda, and Indra as servants",
+   "old_cites": [
+    "0-51"
+   ],
+   "new_refs": [
+    "1-36"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-36"
+   ],
+   "cite_coverage": 0.983,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-12-0-2",
+   "label": "Benefit: draws in wealth and rains down desired things, freeing beings from poverty",
+   "old_cites": [
+    "0-52"
+   ],
+   "new_refs": [
+    "1-36"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.982,
+   "cite_map_refs": [
+    "1-36"
+   ],
+   "cite_coverage": 0.964,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-12-1-1",
+   "label": "Identification: red-gold Wealth-Bestowing Tārā who dispels poverty",
+   "old_cites": [
+    "0-53"
+   ],
+   "new_refs": [
+    "1-37"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-37"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-12-1-2",
+   "label": "Iconography: utpala topped with a treasure vase",
+   "old_cites": [
+    "0-53"
+   ],
+   "new_refs": [
+    "1-37"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-37"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-12-1-3",
+   "label": "Practice: wealth of gods and nagas rains down and fills all directions",
+   "old_cites": [
+    "0-53"
+   ],
+   "new_refs": [
+    "1-37"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-37"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-13-0-1",
+   "label": "Iconography/activity: crescent-moon crown, white light destroys pride",
+   "old_cites": [
+    "0-55"
+   ],
+   "new_refs": [
+    "1-39"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-39"
+   ],
+   "cite_coverage": 0.987,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-13-0-2",
+   "label": "Identification: Amitābha dwells in her hair; she radiates immeasurable compassion",
+   "old_cites": [
+    "0-56"
+   ],
+   "new_refs": [
+    "1-39"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-39"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-13-1-1",
+   "label": "Identification: yellow Tārā \"Tashi Döndrup,\" who brings virtue to environment and inhabitants",
+   "old_cites": [
+    "0-57"
+   ],
+   "new_refs": [
+    "1-40"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-40"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": false
+  },
+  {
+   "claim_id": "c-13-1-2",
+   "label": "Iconography: utpala topped with a glorious endless-knot",
+   "old_cites": [
+    "0-57"
+   ],
+   "new_refs": [
+    "1-40"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-40"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": false
+  },
+  {
+   "claim_id": "c-13-1-3",
+   "label": "Practice: auspicious rain destroys faults of the animate and inanimate world",
+   "old_cites": [
+    "0-57"
+   ],
+   "new_refs": [
+    "1-40"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.926,
+   "cite_map_refs": [
+    "1-40"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-14-0-1",
+   "label": "Iconography: dwelling amid a blazing garland of fire, like the eon-ending conflagration",
+   "old_cites": [
+    "0-59"
+   ],
+   "new_refs": [
+    "1-42"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.974,
+   "cite_map_refs": [
+    "1-42"
+   ],
+   "cite_coverage": 0.949,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-14-0-2",
+   "label": "Doctrinal/activity: destroys Māra's forces and the confused grasping at self and other",
+   "old_cites": [
+    "0-60"
+   ],
+   "new_refs": [
+    "1-42"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-42"
+   ],
+   "cite_coverage": 0.988,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-14-1-1",
+   "label": "Identification: red Tārā victorious over the battle of form and formless obstacles",
+   "old_cites": [
+    "0-61"
+   ],
+   "new_refs": [
+    "1-43"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-43"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-14-1-2",
+   "label": "Iconography: three eyes, peaceful-wrathful expression, utpala with a raised vajra-fence",
+   "old_cites": [
+    "0-61"
+   ],
+   "new_refs": [
+    "1-43"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-43"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-14-1-3",
+   "label": "Practice: vajra sparks destroy the enemy and gather beings into a vajra enclosure",
+   "old_cites": [
+    "0-61"
+   ],
+   "new_refs": [
+    "1-43"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-43"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-15-0-1",
+   "label": "Activity: strikes the earth with hand and feet, shaking the three worlds",
+   "old_cites": [
+    "0-63"
+   ],
+   "new_refs": [
+    "1-45"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.979,
+   "cite_map_refs": [
+    "1-45"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-15-0-2",
+   "label": "Doctrinal: strikes the seven underground levels, crushing malicious dam sri spirits",
+   "old_cites": [
+    "0-64"
+   ],
+   "new_refs": [
+    "1-45"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.97,
+   "cite_map_refs": [
+    "1-45"
+   ],
+   "cite_coverage": 0.961,
+   "quote_in_cited_old_block": false
+  },
+  {
+   "claim_id": "c-15-1-1",
+   "label": "Identification: black Noble Lady with the wrathful brow",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-46"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-46"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-15-1-2",
+   "label": "Iconography: utpala topped with a pestle, HŪM raining vajra-fire sparks",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-46"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-46"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-15-1-3",
+   "label": "Practice: destroys malicious dam sri spirits, dissolving them into dharmatā",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-46"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-46"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-16-0-1",
+   "label": "Doctrinal/etymology: Peaceful, Virtuous, Pacified — attainment of the dharmakāya",
+   "old_cites": [
+    "0-67"
+   ],
+   "new_refs": [
+    "1-48"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-48"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-16-0-2",
+   "label": "Mantra/benefit: the ten-syllable OM...SVĀHĀ mantra destroys the result of great wrongdoing",
+   "old_cites": [
+    "0-68"
+   ],
+   "new_refs": [
+    "1-48"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-48"
+   ],
+   "cite_coverage": 0.986,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-16-1-1",
+   "label": "Identification: white Tārā who pacifies misdeeds and obscurations",
+   "old_cites": [
+    "0-69"
+   ],
+   "new_refs": [
+    "1-49"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-49"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-16-1-2",
+   "label": "Iconography: utpala topped with a nectar-filled ritual vase",
+   "old_cites": [
+    "0-69"
+   ],
+   "new_refs": [
+    "1-49"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-49"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-16-1-3",
+   "label": "Practice: ablution from the nectar-vase washes away misdeeds causing lower rebirth",
+   "old_cites": [
+    "0-69"
+   ],
+   "new_refs": [
+    "1-49"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-49"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-17-0-1",
+   "label": "Identification: surrounded by joyful sages and bodhisattvas, crushes the enemy with wisdom-light",
+   "old_cites": [
+    "0-71"
+   ],
+   "new_refs": [
+    "1-51"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.984,
+   "cite_map_refs": [
+    "1-51"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-17-0-2",
+   "label": "Mantra: the ten-syllable OM TĀRE TUTTĀRE TURE SVĀHĀ destroys the enemy's evil mantras",
+   "old_cites": [
+    "0-72"
+   ],
+   "new_refs": [
+    "1-52"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.987,
+   "cite_map_refs": [
+    "1-52"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-17-1-1",
+   "label": "Identification: red Tārā who destroys the power of enemies' and sorcerers' mantras",
+   "old_cites": [
+    "0-73"
+   ],
+   "new_refs": [
+    "1-53"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-53"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-17-1-2",
+   "label": "Iconography: utpala topped with a crossed double-vajra",
+   "old_cites": [
+    "0-73"
+   ],
+   "new_refs": [
+    "1-53"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-53"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-17-1-3",
+   "label": "Practice: light from the crossed vajra destroys enemies' and sorcerers' power",
+   "old_cites": [
+    "0-73"
+   ],
+   "new_refs": [
+    "1-53"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-53"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-18-0-1",
+   "label": "Etymology/activity: \"Tyāre\" (Swift One) stamps the earth, radiating HŪM seed-syllables",
+   "old_cites": [
+    "0-75"
+   ],
+   "new_refs": [
+    "1-51",
+    "1-55"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.978,
+   "cite_map_refs": [
+    "1-55"
+   ],
+   "cite_coverage": 0.957,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-18-0-2",
+   "label": "Activity: her power shakes Mount Meru, Mandara, and Vibhedaka, subduing bandits",
+   "old_cites": [
+    "0-76"
+   ],
+   "new_refs": [
+    "1-55"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-55"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-18-1-1",
+   "label": "Identification: red-yellow Tārā who binds bandits and thieves",
+   "old_cites": [
+    "0-77"
+   ],
+   "new_refs": [
+    "1-56"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-56"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-18-1-2",
+   "label": "Iconography: utpala topped with a stupa, innumerable HŪM light-syllables",
+   "old_cites": [
+    "0-77"
+   ],
+   "new_refs": [
+    "1-56"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-56"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-18-1-3",
+   "label": "Practice: stamping shakes the three mountains and realms, treading objects underfoot",
+   "old_cites": [
+    "0-77"
+   ],
+   "new_refs": [
+    "1-56"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.969,
+   "cite_map_refs": [
+    "1-56"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-19-0-1",
+   "label": "Iconography/benefit: white as the nectar-lake, holding the deer-marked moon, dispels fixed poisons",
+   "old_cites": [
+    "0-79"
+   ],
+   "new_refs": [
+    "1-58"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.98,
+   "cite_map_refs": [
+    "1-58"
+   ],
+   "cite_coverage": 0.961,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-19-0-2",
+   "label": "Mantra: the ten-syllable mantra with twice-uttered TĀRA and PHAT dispels all moving poisons",
+   "old_cites": [
+    "0-80"
+   ],
+   "new_refs": [
+    "1-58"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-58"
+   ],
+   "cite_coverage": 0.98,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-19-1-1",
+   "label": "Identification: white Noble Lady Great Peahen who pacifies poisons",
+   "old_cites": [
+    "0-81"
+   ],
+   "new_refs": [
+    "1-59"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-59"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-19-1-2",
+   "label": "Iconography: utpala topped with a deer-marked full moon",
+   "old_cites": [
+    "0-81"
+   ],
+   "new_refs": [
+    "1-59"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-59"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-19-1-3",
+   "label": "Practice: light rays from the moon destroy fixed and moving poisons",
+   "old_cites": [
+    "0-81"
+   ],
+   "new_refs": [
+    "1-59"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-59"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-20-0-1",
+   "label": "Identification: relied upon by Brahmā, Indra, mountain and tree gods, kinnara kings",
+   "old_cites": [
+    "0-83"
+   ],
+   "new_refs": [
+    "1-61"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-61"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-20-0-2",
+   "label": "Identification/benefit: her three doors' splendour dispels disputes and bad dream-signs",
+   "old_cites": [
+    "0-84"
+   ],
+   "new_refs": [
+    "1-61"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-61"
+   ],
+   "cite_coverage": 0.983,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-20-1-1",
+   "label": "Identification: white Noble Invincible White Umbrella who dispels disputes and bad dreams",
+   "old_cites": [
+    "0-85"
+   ],
+   "new_refs": [
+    "1-62"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-62"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-20-1-2",
+   "label": "Iconography: utpala topped with a white umbrella radiating vajra-fire sparks",
+   "old_cites": [
+    "0-85"
+   ],
+   "new_refs": [
+    "1-62"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-62"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-20-1-3",
+   "label": "Practice: dispels opponents' disputes and elementally-disturbed bad dreams",
+   "old_cites": [
+    "0-85"
+   ],
+   "new_refs": [
+    "1-62"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-62"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-21-0-1",
+   "label": "Iconography: eyes like full sun and moon radiate light curing disease",
+   "old_cites": [
+    "0-87"
+   ],
+   "new_refs": [
+    "1-64"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-64"
+   ],
+   "cite_coverage": 0.978,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-21-0-2",
+   "label": "Mantra: the ten-syllable mantra with twice HA RA and TUTTĀRA dispels epidemic disease",
+   "old_cites": [
+    "0-88"
+   ],
+   "new_refs": [
+    "1-64"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-64"
+   ],
+   "cite_coverage": 0.976,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-21-1-1",
+   "label": "Identification: white-yellow Noble Lady Wearer of Mountain-Ascetic Robes who dispels epidemic disease",
+   "old_cites": [
+    "0-89"
+   ],
+   "new_refs": [
+    "1-65"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-65"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-21-1-2",
+   "label": "Iconography: utpala topped with a nectar-filled medicine casket",
+   "old_cites": [
+    "0-89"
+   ],
+   "new_refs": [
+    "1-65"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-65"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-21-1-3",
+   "label": "Practice: light from the medicine casket burns away and cures disease",
+   "old_cites": [
+    "0-89"
+   ],
+   "new_refs": [
+    "1-65"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-65"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-0-1",
+   "label": "Practice: white OM at the crown, red AH at the throat, blue HŪM at the heart pacify all obstacles",
+   "old_cites": [
+    "0-91"
+   ],
+   "new_refs": [
+    "1-67"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-67"
+   ],
+   "cite_coverage": 0.989,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-0-2",
+   "label": "Doctrinal: destroys the eighteen classes of spirits, zombies, elementals, and radiance-stealing yakshas",
+   "old_cites": [
+    "0-92"
+   ],
+   "new_refs": [
+    "1-67"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-67"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-0-3",
+   "label": "Etymology: \"Ture\" (Swift One), she of supreme loving-kindness",
+   "old_cites": [
+    "0-92"
+   ],
+   "new_refs": [
+    "1-67"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-67"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-1-1",
+   "label": "Identification: white Radiant Goddess who redeems the stolen life-force of the sick",
+   "old_cites": [
+    "0-93"
+   ],
+   "new_refs": [
+    "1-68"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-68"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-1-2",
+   "label": "Iconography: utpala topped with a golden fish radiating light",
+   "old_cites": [
+    "0-93"
+   ],
+   "new_refs": [
+    "1-68"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-68"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-22-1-3",
+   "label": "Practice: retrieves the sick person's stolen life-force",
+   "old_cites": [
+    "0-93"
+   ],
+   "new_refs": [
+    "1-68"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-68"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-23-1",
+   "label": "Structural/doctrinal: the root mantra's praise together with the twenty-one homages teaches the complete twenty-one emanations",
+   "old_cites": [
+    "0-96"
+   ],
+   "new_refs": [
+    "2-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-3"
+   ],
+   "cite_coverage": 0.98,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-24-1",
+   "label": "Attribution: composed by Sangye Nyentrul, based on the commentaries of Tāranātha, Jigme Lingpa, and Tenzin Rabgye",
+   "old_cites": [
+    "0-97"
+   ],
+   "new_refs": [
+    "a-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "a-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-24-2",
+   "label": "Structural: purpose is to benefit those who diligently practice continual Tārā practice, given that elaborate commentaries are hard to understand",
+   "old_cites": [
+    "0-97"
+   ],
+   "new_refs": [
+    "a-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "a-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-24-3",
+   "label": "Dedication: may this become a cause of benefit for all",
+   "old_cites": [
+    "0-97"
+   ],
+   "new_refs": [
+    "a-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "a-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  }
+ ]
+}

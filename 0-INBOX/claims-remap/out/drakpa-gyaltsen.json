@@ -1,0 +1,2627 @@
+{
+ "registered_id": "drakpa-gyaltsen",
+ "old_file": "1-SOURCES/Commentaries/used for wiki/སྒྲོལ་མ་ཕྱག་འཚལ་ཉི་ཤུ་རྩ་གཅིག་གི་བསྟོད་པའི་རྣམ་བཤད་གསལ་བའི་འོད་ཟེར་ཞེས་བྱ་བ་བཞུགས་སོ།.md",
+ "new_file": "1-SOURCES/Commentaries/New raw data/bo-རྗེ་བཙུན་གྲགས་པ་རྒྱལ་མཚན།.md",
+ "library": {
+  "text_id": "nmGX5G3SzfoiNdvbp6YQq",
+  "edition_id": "n0meYebRr1clD2ysfDjyK",
+  "toc_id": "QTIyaxmOCZ7EMH3UDJDrh",
+  "commentary_of": "HyUbHGlzS9LsSrgiFQNYE"
+ },
+ "syllables": {
+  "old": 3002,
+  "new": 2935,
+  "aligned": 2913,
+  "old_aligned_share": 0.97
+ },
+ "verdicts": {
+  "confirmed": 59,
+  "confirmed-fuzzy": 83
+ },
+ "claims": [
+  {
+   "claim_id": "c-0-1",
+   "label": "Title of the treatise",
+   "old_cites": [
+    "0-1"
+   ],
+   "new_refs": [
+    "0"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "0"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-2",
+   "label": "Homage to the Buddha",
+   "old_cites": [
+    "0-2"
+   ],
+   "new_refs": [
+    "I-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "I-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-3",
+   "label": "Two-part division of the whole praise",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-4",
+   "label": "Three-fold division of the actual praise",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-5",
+   "label": "Three-fold division of praise via the body's aspect",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-6",
+   "label": "Two-fold division into peaceful and wrathful body",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-7",
+   "label": "Three-fold division of praise via the peaceful body",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-8",
+   "label": "Three-fold division of praise via the wrathful body",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-9",
+   "label": "Two-fold division of activity into common and uncommon",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-10",
+   "label": "Four-fold division of praise via ornaments and attire",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-11",
+   "label": "Two-fold division of the peaceful attire",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-12",
+   "label": "Three-fold division of the latter wrathful section",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-13",
+   "label": "Six-fold division of praise via activity",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-14",
+   "label": "Four-fold division of the benefits section",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-15",
+   "label": "Authorial attribution of the outline",
+   "old_cites": [
+    "0-3"
+   ],
+   "new_refs": [
+    "II-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "II-1",
+    "II-2",
+    "II-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-0-16",
+   "label": "Opening homage to the Venerable Noble Tārā",
+   "old_cites": [
+    "0-4"
+   ],
+   "new_refs": [
+    "1-1"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.917,
+   "cite_map_refs": [
+    "1-1"
+   ],
+   "cite_coverage": 0.917,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-1",
+   "label": "Etymology of \"Tārā\" from liberating from saṃsāra",
+   "old_cites": [
+    "0-5"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.923,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.97,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-2",
+   "label": "Etymology of \"Swift\"",
+   "old_cites": [
+    "0-5"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.97,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-3",
+   "label": "Etymology of \"Heroine\"",
+   "old_cites": [
+    "0-5"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.97,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-4",
+   "label": "Gloss: eyes like instant lightning",
+   "old_cites": [
+    "0-6"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.938,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.938,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-5",
+   "label": "Identification of Avalokiteshvara as protector of the three worlds",
+   "old_cites": [
+    "0-7"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.952,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.952,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-6",
+   "label": "Gloss: \"lotus-face\" as the flower born from his eye-water",
+   "old_cites": [
+    "0-8"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.941,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.941,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-7",
+   "label": "Tārā's origin from the opened lotus's pollen",
+   "old_cites": [
+    "0-9"
+   ],
+   "new_refs": [
+    "1-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.952,
+   "cite_map_refs": [
+    "1-2"
+   ],
+   "cite_coverage": 0.952,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-8",
+   "label": "Simile: white light like the autumn moon",
+   "old_cites": [
+    "0-10"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.938,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.938,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-9",
+   "label": "Gloss: \"full\" as the full moon",
+   "old_cites": [
+    "0-11"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.889,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.889,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-10",
+   "label": "Gloss: \"a hundred\" as a hundred full moons stacked",
+   "old_cites": [
+    "0-12"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.963,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-11",
+   "label": "Simile: blazing light surpassing thousands of stars",
+   "old_cites": [
+    "0-13"
+   ],
+   "new_refs": [
+    "1-3"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.968,
+   "cite_map_refs": [
+    "1-3"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-12",
+   "label": "Gloss: golden-blue complexion clear as refined gold",
+   "old_cites": [
+    "0-14"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.933,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.933,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-13",
+   "label": "Gloss: \"water-born\" as the hand-emblem lotus",
+   "old_cites": [
+    "0-15"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.917,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.917,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-14",
+   "label": "Gloss: hand adorned with the lotus held in the left hand",
+   "old_cites": [
+    "0-16"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.941,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.941,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-15",
+   "label": "Gloss: generosity as the perfection of generosity",
+   "old_cites": [
+    "0-17"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.909,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.909,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-16",
+   "label": "Gloss: diligence as the perfection of diligence",
+   "old_cites": [
+    "0-18"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.917,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.917,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-17",
+   "label": "Gloss: austerity as moral discipline",
+   "old_cites": [
+    "0-19"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.833,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.833,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-18",
+   "label": "Gloss: peace as the pacification of afflictions",
+   "old_cites": [
+    "0-20"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.857,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.857,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-19",
+   "label": "Gloss: patience as the perfection of patience",
+   "old_cites": [
+    "0-21"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.909,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.909,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-20",
+   "label": "Gloss: concentration as the perfection of concentration",
+   "old_cites": [
+    "0-22"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.917,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.917,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-21",
+   "label": "Gloss: \"whose domain [is wisdom]\" as the perfection of wisdom",
+   "old_cites": [
+    "0-23"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.889,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.969,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-22",
+   "label": "Attainment of Tārā's body through the six perfections, symbolized by the utpala",
+   "old_cites": [
+    "0-23"
+   ],
+   "new_refs": [
+    "1-4"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-4"
+   ],
+   "cite_coverage": 0.969,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-23",
+   "label": "Simile: object of homage like the Tathāgatas' uṣṇīṣa",
+   "old_cites": [
+    "0-24"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.958,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-24",
+   "label": "Victorious over Māra and all limitless opponents",
+   "old_cites": [
+    "0-25"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.967,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.967,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-25",
+   "label": "Attainment of the ten pāramitās and ten bhūmis without exception",
+   "old_cites": [
+    "0-26"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.962,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-26",
+   "label": "Gloss: \"sons of the Victors\" as all bodhisattvas",
+   "old_cites": [
+    "0-27"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.957,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.957,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-27",
+   "label": "Gloss: \"greatly relied upon\" as carried foremost",
+   "old_cites": [
+    "0-28"
+   ],
+   "new_refs": [
+    "1-5"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.933,
+   "cite_map_refs": [
+    "1-5"
+   ],
+   "cite_coverage": 0.933,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-28",
+   "label": "Gloss: TUTTĀRA HŪM as mantra syllables",
+   "old_cites": [
+    "0-29"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.941,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.941,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-29",
+   "label": "Gloss: filling by the power and light of the mantra letters",
+   "old_cites": [
+    "0-30"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.944,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.944,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-30",
+   "label": "Gloss: filling the three realms — desire, form, formless",
+   "old_cites": [
+    "0-31"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.958,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-31",
+   "label": "Gloss: the seven worlds trampled — five realms of beings plus form and formless realms",
+   "old_cites": [
+    "0-32"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-32",
+   "label": "Gloss: \"without remainder\" as accomplishing beings' benefit exhaustively",
+   "old_cites": [
+    "0-33"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.962,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-33",
+   "label": "Gloss: \"able to summon\" as drawing kings and others under her power",
+   "old_cites": [
+    "0-33"
+   ],
+   "new_refs": [
+    "1-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-6"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-34",
+   "label": "Indra named among the gods worshipping at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.96,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-35",
+   "label": "Agni named among the gods worshipping at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-36",
+   "label": "Brahmā named among the gods worshipping at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-37",
+   "label": "Vāyu named among the gods worshipping at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-38",
+   "label": "Maheśvara identified as lord of the preceding four gods, worshipping at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-39",
+   "label": "All five gods offer worship at her feet",
+   "old_cites": [
+    "0-34"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-40",
+   "label": "Gloss: bhūta spirits, exemplified by Gaṇapati",
+   "old_cites": [
+    "0-35"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.964,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.982,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-41",
+   "label": "Gloss: vetālas, exemplified by Maheśvara",
+   "old_cites": [
+    "0-35"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.982,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-42",
+   "label": "Gloss: gandharvas, exemplified by the five-crested ones",
+   "old_cites": [
+    "0-35"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.982,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-43",
+   "label": "Gloss: yakṣas, exemplified by Vaiśravaṇa",
+   "old_cites": [
+    "0-35"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.982,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-44",
+   "label": "Gloss: \"the hosts\" as the eight classes of gods and spirits who praise her in front",
+   "old_cites": [
+    "0-36"
+   ],
+   "new_refs": [
+    "1-7"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.944,
+   "cite_map_refs": [
+    "1-7"
+   ],
+   "cite_coverage": 0.944,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-45",
+   "label": "Wrathful sounds TRAD and PHAṬ destroy the enemy's harmful device",
+   "old_cites": [
+    "0-37"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.973,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.973,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-46",
+   "label": "Gloss: posture, right leg bent and left extended",
+   "old_cites": [
+    "0-38"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.909,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.909,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-47",
+   "label": "Cross-reference: \"tramples with feet\" explained above",
+   "old_cites": [
+    "0-39"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.929,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.929,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-48",
+   "label": "Iconography: seated amid blazing fire",
+   "old_cites": [
+    "0-40"
+   ],
+   "new_refs": [
+    "1-8"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.952,
+   "cite_map_refs": [
+    "1-8"
+   ],
+   "cite_coverage": 0.952,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-49",
+   "label": "Etymology of \"Ture, greatly terrifying\" from terrifying Māra",
+   "old_cites": [
+    "0-41"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.968,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-50",
+   "label": "Gloss: \"Māra's heroes\" as the Māra of the afflictions",
+   "old_cites": [
+    "0-42"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.95,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-51",
+   "label": "Defeating one Māra destroys the three incidentally",
+   "old_cites": [
+    "0-42"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-52",
+   "label": "Gloss: \"lotus-face\" as the beautiful glorious lady's face like a blooming lotus",
+   "old_cites": [
+    "0-43"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.947,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-53",
+   "label": "Gloss: \"bears a wrathful frown\" as abiding in wrathful form",
+   "old_cites": [
+    "0-43"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.889,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.947,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-54",
+   "label": "Kills all enemies such as the afflictions without exception",
+   "old_cites": [
+    "0-44"
+   ],
+   "new_refs": [
+    "1-9"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.962,
+   "cite_map_refs": [
+    "1-9"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-55",
+   "label": "Iconography: left thumb and ring finger hold the lotus at her heart",
+   "old_cites": [
+    "0-45"
+   ],
+   "new_refs": [
+    "1-10"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.97,
+   "cite_map_refs": [
+    "1-10"
+   ],
+   "cite_coverage": 0.978,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-56",
+   "label": "Gloss: three extended fingers symbolize the Three Jewels",
+   "old_cites": [
+    "0-45"
+   ],
+   "new_refs": [
+    "1-10"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-10"
+   ],
+   "cite_coverage": 0.978,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-57",
+   "label": "Iconography: right palm's boon-granting mudrā adorned with a wheel",
+   "old_cites": [
+    "0-46"
+   ],
+   "new_refs": [
+    "1-10"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.917,
+   "cite_map_refs": [
+    "1-10"
+   ],
+   "cite_coverage": 0.917,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-58",
+   "label": "Light rays radiate from the wheel, outshining other light",
+   "old_cites": [
+    "0-47"
+   ],
+   "new_refs": [
+    "1-10"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.963,
+   "cite_map_refs": [
+    "1-10"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-59",
+   "label": "Gloss: \"greatly joyful\" as fulfilling the wishes of all joyful beings",
+   "old_cites": [
+    "0-48"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.97,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-60",
+   "label": "Gloss: \"majestic\" as outshining others",
+   "old_cites": [
+    "0-48"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-61",
+   "label": "Iconography: crown-ornament adorned with a garland of many jewels",
+   "old_cites": [
+    "0-48"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-62",
+   "label": "She sounds forth laughter through the TUTTĀRA mantra",
+   "old_cites": [
+    "0-49"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.941,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.941,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-63",
+   "label": "The mantra-laughter brings Māra and the world under her power",
+   "old_cites": [
+    "0-50"
+   ],
+   "new_refs": [
+    "1-11"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.96,
+   "cite_map_refs": [
+    "1-11"
+   ],
+   "cite_coverage": 0.96,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-64",
+   "label": "The ten guardians of the directions identified",
+   "old_cites": [
+    "0-51"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.933,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 0.933,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-65",
+   "label": "The ten guardians act as her messengers",
+   "old_cites": [
+    "0-52"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.955,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 0.955,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-66",
+   "label": "Iconography: heart marked with the letter HŪM in wrathful form",
+   "old_cites": [
+    "0-53"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.96,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 0.96,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-67",
+   "label": "Liberates all destitute beings from suffering into happiness",
+   "old_cites": [
+    "0-54"
+   ],
+   "new_refs": [
+    "1-12"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.974,
+   "cite_map_refs": [
+    "1-12"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-68",
+   "label": "Iconography: crowned with the first-day crescent moon",
+   "old_cites": [
+    "0-55"
+   ],
+   "new_refs": [
+    "1-13"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.947,
+   "cite_map_refs": [
+    "1-13"
+   ],
+   "cite_coverage": 0.947,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-69",
+   "label": "Light rays blaze from the crescent moon",
+   "old_cites": [
+    "0-56"
+   ],
+   "new_refs": [
+    "1-13"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.95,
+   "cite_map_refs": [
+    "1-13"
+   ],
+   "cite_coverage": 0.95,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-70",
+   "label": "Identification: Amitābha crowns her matted locks",
+   "old_cites": [
+    "0-57"
+   ],
+   "new_refs": [
+    "1-13"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.958,
+   "cite_map_refs": [
+    "1-13"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-71",
+   "label": "Amitābha emanates boundless light for the benefit of beings",
+   "old_cites": [
+    "0-58"
+   ],
+   "new_refs": [
+    "1-13"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-13"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-72",
+   "label": "Cosmological simile: abiding amid a blaze like the fire at the eon's end",
+   "old_cites": [
+    "0-59"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.98,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.98,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-73",
+   "label": "Posture reversed: right extended, left bent",
+   "old_cites": [
+    "0-60"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.947,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.947,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-74",
+   "label": "Destroys all discordant factors, the enemy's army",
+   "old_cites": [
+    "0-61"
+   ],
+   "new_refs": [
+    "1-14"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.947,
+   "cite_map_refs": [
+    "1-14"
+   ],
+   "cite_coverage": 0.947,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-75",
+   "label": "Iconography: strikes the ground with her left hand, threatening gesture",
+   "old_cites": [
+    "0-62"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.968,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-76",
+   "label": "By uttering HŪM, light from her vajra fills the seven classes of beings and clears their obstacles",
+   "old_cites": [
+    "0-63"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.979,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 0.979,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-77",
+   "label": "Scatters the nāgas and asuras of the seven underground levels",
+   "old_cites": [
+    "0-64"
+   ],
+   "new_refs": [
+    "1-15"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.969,
+   "cite_map_refs": [
+    "1-15"
+   ],
+   "cite_coverage": 0.969,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-78",
+   "label": "Etymology of \"Blissful\" from uncontaminated bliss",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-16"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.957,
+   "cite_map_refs": [
+    "1-16"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-79",
+   "label": "Etymology of \"Virtuous\" from freedom from afflictions to be abandoned",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-16"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.923,
+   "cite_map_refs": [
+    "1-16"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-80",
+   "label": "Etymology of \"Peaceful\" from acting within the state of pacified suffering",
+   "old_cites": [
+    "0-65"
+   ],
+   "new_refs": [
+    "1-16"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-16"
+   ],
+   "cite_coverage": 0.958,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-81",
+   "label": "Gloss: her domain is peaceful nirvāṇa, through exhausted concepts and pacified suffering",
+   "old_cites": [
+    "0-66"
+   ],
+   "new_refs": [
+    "1-16"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-16"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-82",
+   "label": "By her dharmakāya nature she destroys others' afflictions, endowed with SVĀHĀ and OṂ",
+   "old_cites": [
+    "0-67"
+   ],
+   "new_refs": [
+    "1-16"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.971,
+   "cite_map_refs": [
+    "1-16"
+   ],
+   "cite_coverage": 0.971,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-83",
+   "label": "The ten-syllable peaceful mantra given in full",
+   "old_cites": [
+    "0-68"
+   ],
+   "new_refs": [
+    "1-17"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.958,
+   "cite_map_refs": [
+    "1-17"
+   ],
+   "cite_coverage": 0.975,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-84",
+   "label": "The wrathful mantra given in full",
+   "old_cites": [
+    "0-69"
+   ],
+   "new_refs": [
+    "1-17"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.966,
+   "cite_map_refs": [
+    "1-17"
+   ],
+   "cite_coverage": 0.966,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-85",
+   "label": "This verse generates her wrathful-form aspect",
+   "old_cites": [
+    "0-70"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.962,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 0.962,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-86",
+   "label": "Identification: Mount Meru Mandara and Vibhedaka pierced by HŪM's light",
+   "old_cites": [
+    "0-71"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.974,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 0.974,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-87",
+   "label": "Shakes the desire, form, and formless realms",
+   "old_cites": [
+    "0-72"
+   ],
+   "new_refs": [
+    "1-18"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.957,
+   "cite_map_refs": [
+    "1-18"
+   ],
+   "cite_coverage": 0.957,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-88",
+   "label": "Iconography: holds a moon-disc like a divine lake, sign of dispelling affliction-poison",
+   "old_cites": [
+    "0-73"
+   ],
+   "new_refs": [
+    "1-19"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.978,
+   "cite_map_refs": [
+    "1-19"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-89",
+   "label": "Gloss: \"deer-marked\" as the moon",
+   "old_cites": [
+    "0-73"
+   ],
+   "new_refs": [
+    "1-19"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-19"
+   ],
+   "cite_coverage": 0.981,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-90",
+   "label": "The TĀRA mantra with PHAṬ dispels stationary and mobile poisons",
+   "old_cites": [
+    "0-74"
+   ],
+   "new_refs": [
+    "1-19"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.968,
+   "cite_map_refs": [
+    "1-19"
+   ],
+   "cite_coverage": 0.968,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-91",
+   "label": "The king of the kinnaras relies on and worships at her feet",
+   "old_cites": [
+    "0-75"
+   ],
+   "new_refs": [
+    "1-20"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.977,
+   "cite_map_refs": [
+    "1-20"
+   ],
+   "cite_coverage": 0.977,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-92",
+   "label": "Abides in the armor formed by her divine body and mantra",
+   "old_cites": [
+    "0-76"
+   ],
+   "new_refs": [
+    "1-20"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.957,
+   "cite_map_refs": [
+    "1-20"
+   ],
+   "cite_coverage": 0.957,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-93",
+   "label": "Dispels the disputes of tīrthikas and bad dreams",
+   "old_cites": [
+    "0-77"
+   ],
+   "new_refs": [
+    "1-20"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.957,
+   "cite_map_refs": [
+    "1-20"
+   ],
+   "cite_coverage": 0.957,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-94",
+   "label": "Structural: the verse on her sun-and-moon eyes and the HARA mantra is quoted for glossing",
+   "old_cites": [
+    "0-78"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-95",
+   "label": "Gloss: right eye as moon, left eye as sun, radiating clear light",
+   "old_cites": [
+    "0-79"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 0.972,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-96",
+   "label": "By the mantra-speech of the peaceful and wrathful forms she dispels severe epidemic disease",
+   "old_cites": [
+    "0-80"
+   ],
+   "new_refs": [
+    "1-21"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "1-21"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-97",
+   "label": "The three seed-syllables OṂ ĀḤ HŪM arranged at body, speech, mind",
+   "old_cites": [
+    "0-81"
+   ],
+   "new_refs": [
+    "1-22"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.952,
+   "cite_map_refs": [
+    "1-22"
+   ],
+   "cite_coverage": 0.952,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-98",
+   "label": "Endowed with the power to pacify afflictions",
+   "old_cites": [
+    "0-82"
+   ],
+   "new_refs": [
+    "1-22"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.952,
+   "cite_map_refs": [
+    "1-22"
+   ],
+   "cite_coverage": 0.952,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-99",
+   "label": "Pacifies all hosts of spirits, zombies, and yakṣas, all obstructive forces",
+   "old_cites": [
+    "0-83"
+   ],
+   "new_refs": [
+    "1-22"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.95,
+   "cite_map_refs": [
+    "1-22"
+   ],
+   "cite_coverage": 0.95,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-100",
+   "label": "Ture, supreme destroyer, destroys all discordant factors by the ten-syllable mantra",
+   "old_cites": [
+    "0-84"
+   ],
+   "new_refs": [
+    "1-22"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.963,
+   "cite_map_refs": [
+    "1-22"
+   ],
+   "cite_coverage": 0.963,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-101",
+   "label": "Structural: this praise of the root mantra is the praise of the peaceful and wrathful forms",
+   "old_cites": [
+    "0-85"
+   ],
+   "new_refs": [
+    "1-23"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.95,
+   "cite_map_refs": [
+    "1-23"
+   ],
+   "cite_coverage": 0.95,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-1-102",
+   "label": "Structural: the total count of homages is twenty-one",
+   "old_cites": [
+    "0-86"
+   ],
+   "new_refs": [
+    "1-23"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.933,
+   "cite_map_refs": [
+    "1-23"
+   ],
+   "cite_coverage": 0.933,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-1",
+   "label": "Gloss: devoted to the goddess in body, speech, and mind",
+   "old_cites": [
+    "0-87"
+   ],
+   "new_refs": [
+    "2-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-1"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-2",
+   "label": "Ritual: recollecting her wrathful form at dusk, peaceful form at dawn",
+   "old_cites": [
+    "0-88"
+   ],
+   "new_refs": [
+    "2-1",
+    "2-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-1",
+    "2-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-3",
+   "label": "Benefit: mere recollection of the divine body grants fearlessness",
+   "old_cites": [
+    "0-89"
+   ],
+   "new_refs": [
+    "2-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-4",
+   "label": "Benefit: all sins pacified by mere recollection",
+   "old_cites": [
+    "0-90"
+   ],
+   "new_refs": [
+    "2-2"
+   ],
+   "verdict": "confirmed-fuzzy",
+   "quote_match": "fuzzy",
+   "quote_score": 0.938,
+   "cite_map_refs": [
+    "2-2"
+   ],
+   "cite_coverage": 0.938,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-5",
+   "label": "Benefit: fruit of lower rebirths pacified",
+   "old_cites": [
+    "0-91"
+   ],
+   "new_refs": [
+    "2-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-6",
+   "label": "Seventy million buddhas confer [empowerment] without interruption",
+   "old_cites": [
+    "0-92"
+   ],
+   "new_refs": [
+    "2-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-7",
+   "label": "Benefit: swift empowerment and a greater attainment, in this life and beyond",
+   "old_cites": [
+    "0-93"
+   ],
+   "new_refs": [
+    "2-3"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-3"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-8",
+   "label": "Benefit: ultimate attainment of buddhahood as a general result",
+   "old_cites": [
+    "0-94"
+   ],
+   "new_refs": [
+    "2-3",
+    "2-4"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-3",
+    "2-4"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-9",
+   "label": "Identification: potent poisons of scorpions and snakes, stationary and mobile",
+   "old_cites": [
+    "0-95"
+   ],
+   "new_refs": [
+    "2-4"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-4"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-10",
+   "label": "Poison whether eaten or drunk",
+   "old_cites": [
+    "0-96"
+   ],
+   "new_refs": [
+    "2-4"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-4"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-11",
+   "label": "Benefit: poison cleared by recollecting the praise, deity, and mantra",
+   "old_cites": [
+    "0-97"
+   ],
+   "new_refs": [
+    "2-4"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-4"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-12",
+   "label": "Structural transition: those tormented by spirits, epidemics, and poison, summarized by cause and effect",
+   "old_cites": [
+    "0-98"
+   ],
+   "new_refs": [
+    "2-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-5"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-13",
+   "label": "Benefit: mass of suffering eliminated by the power of Tārā's mantra",
+   "old_cites": [
+    "0-99"
+   ],
+   "new_refs": [
+    "2-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-5"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-14",
+   "label": "Benefit: extends also to other sentient beings",
+   "old_cites": [
+    "0-100"
+   ],
+   "new_refs": [
+    "2-5"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-5"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-15",
+   "label": "Ritual: reciting in sets of two, three, or seven, before the goddess",
+   "old_cites": [
+    "0-101"
+   ],
+   "new_refs": [
+    "2-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-16",
+   "label": "Benefit: son obtained for one who desires a son",
+   "old_cites": [
+    "0-102"
+   ],
+   "new_refs": [
+    "2-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-17",
+   "label": "Benefit: wealth obtained for one who desires wealth",
+   "old_cites": [
+    "0-102"
+   ],
+   "new_refs": [
+    "2-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-18",
+   "label": "Benefit: all desires, supreme and common, accomplished",
+   "old_cites": [
+    "0-102"
+   ],
+   "new_refs": [
+    "2-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-19",
+   "label": "Benefit: obstacles do not arise, since recitation is uninterrupted",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "2-6"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-20",
+   "label": "Colophon: praise originally spoken by the Buddha Vairocana",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "3-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-21",
+   "label": "Colophon: transmitted through Master Ārya Nāgārjuna",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "a-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-22",
+   "label": "Colophon: translated by the translator Nyen",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "a-1"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-23",
+   "label": "Colophon: redacted by the great venerable Drakpa Gyaltsen",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "a-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  },
+  {
+   "claim_id": "c-2-24",
+   "label": "Closing title restatement",
+   "old_cites": [
+    "0-103"
+   ],
+   "new_refs": [
+    "a-2"
+   ],
+   "verdict": "confirmed",
+   "quote_match": "exact",
+   "quote_score": 1.0,
+   "cite_map_refs": [
+    "2-6",
+    "3-1",
+    "a-1",
+    "a-2"
+   ],
+   "cite_coverage": 1.0,
+   "quote_in_cited_old_block": true
+  }
+ ]
+}
